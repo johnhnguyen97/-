@@ -1,0 +1,20 @@
+# COPY AND PASTE THIS TO YOUR ENVIRONMENT VARIABLES
+# (Vercel Dashboard → Settings → Environment Variables)
+
+# === REQUIRED ===
+
+VITE_SUPABASE_URL=https://your-project.supabase.co
+VITE_SUPABASE_ANON_KEY=your_supabase_anon_key_here
+
+SUPABASE_URL=https://your-project.supabase.co
+SUPABASE_SERVICE_ROLE_KEY=your_supabase_service_role_key_here
+
+ENCRYPTION_SECRET=your_32_character_encryption_secret_here
+
+
+# === OPTIONAL ===
+
+GITHUB_TOKEN=your_github_personal_access_token_here
+VERCEL_TOKEN=your_vercel_token_here
+NOTION_API_KEY=your_notion_integration_token_here
+NOTION_DATABASE_ID=your_notion_database_id_here
