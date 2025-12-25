@@ -77,11 +77,6 @@ export default async function handler(req: VercelRequest, res: VercelResponse) {
       return res.status(400).json({ error: 'Sentence is required' });
     }
 
-    // Limit sentence length to avoid JSON parsing issues
-    if (sentence.length > 150) {
-      return res.status(400).json({ error: 'Sentence is too long. Please try a shorter sentence (max ~20 words).' });
-    }
-
     // Get user's encrypted API key
     const { data: keyData, error: keyError } = await supabaseAdmin
       .from('user_api_keys')
@@ -173,37 +168,17 @@ export default async function handler(req: VercelRequest, res: VercelResponse) {
 }
 
 function buildTranslationPrompt(sentence: string, parsedWords: unknown[]): string {
-  return `Translate this English sentence to Japanese with word breakdown.
+  return `Translate to Japanese with word breakdown. Return ONLY valid JSON.
 
-Sentence: "${sentence}"
+"${sentence}"
 
-Return ONLY valid JSON (no markdown, no extra text):
-{
-  "fullTranslation": "complete Japanese sentence",
-  "wordOrderDisplay": "Topic は → Object を → Verb",
-  "words": [
-    {
-      "english": "word meaning",
-      "japanese": "日本語",
-      "reading": "ひらがな",
-      "romaji": "romaji",
-      "partOfSpeech": "noun/verb/particle/adjective/adverb",
-      "role": "subject/verb/object/particle/adjective/adverb/other",
-      "particleMeaning": "particle meaning if applicable"
-    }
-  ],
-  "grammarNotes": [
-    {
-      "title": "Grammar Point",
-      "explanation": "Brief explanation"
-    }
-  ]
-}
+{"fullTranslation":"full sentence","wordOrderDisplay":"A → B → Verb","words":[{"english":"meaning","japanese":"日本語","reading":"ひらがな","romaji":"romaji","partOfSpeech":"noun","role":"subject","particleMeaning":""}],"grammarNotes":[{"title":"Point","explanation":"Brief"}]}
 
 Rules:
-- Use NATURAL Japanese (omit pronouns when obvious from context)
-- Particles (は,が,を,に,で,etc) as separate entries with role="particle"
-- Keep it simple - max 10-12 words
-- Words in Japanese sentence order
-- Valid JSON only, no trailing commas`;
+- NATURAL Japanese (drop obvious pronouns like 私)
+- Particles as separate entries, role="particle"
+- For complex sentences: break into main clauses, keep essential meaning
+- Combine related words if needed to keep words array under 15 items
+- grammarNotes: max 2 notes, keep explanations under 50 words each
+- MUST be valid JSON - no trailing commas, escape quotes properly`;
 }

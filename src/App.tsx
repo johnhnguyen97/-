@@ -9,10 +9,27 @@ import { parseEnglishSentence, describeSentenceStructure } from './services/engl
 import { translateSentence } from './services/japaneseApi';
 import type { WordSlot, SentenceStructure, GrammarNote } from './types';
 
+// Split text into sentences
+function splitIntoSentences(text: string): string[] {
+  // Split on sentence-ending punctuation, keeping the punctuation
+  const sentences = text
+    .split(/(?<=[.!?])\s+/)
+    .map(s => s.trim())
+    .filter(s => s.length > 0);
+
+  return sentences.length > 0 ? sentences : [text];
+}
+
 function AppContent() {
   const { user, session, loading, hasApiKey } = useAuth();
   const [showSettings, setShowSettings] = useState(false);
   const [isLoading, setIsLoading] = useState(false);
+
+  // Multi-sentence support
+  const [allSentences, setAllSentences] = useState<string[]>([]);
+  const [currentSentenceIndex, setCurrentSentenceIndex] = useState(0);
+  const [completedSentences, setCompletedSentences] = useState<Set<number>>(new Set());
+
   const [sentenceStructure, setSentenceStructure] = useState<SentenceStructure | null>(null);
   const [wordSlots, setWordSlots] = useState<WordSlot[]>([]);
   const [selectedSlotId, setSelectedSlotId] = useState<string | null>(null);
@@ -21,15 +38,9 @@ function AppContent() {
   const [grammarNotes, setGrammarNotes] = useState<GrammarNote[]>([]);
   const [error, setError] = useState<string | null>(null);
 
-  const handleSentenceSubmit = useCallback(async (sentence: string) => {
+  const loadSentence = useCallback(async (sentence: string) => {
     if (!session?.access_token) {
       setError('Please sign in to use the translator');
-      return;
-    }
-
-    if (!hasApiKey) {
-      setError('Please add your Anthropic API key in Settings');
-      setShowSettings(true);
       return;
     }
 
@@ -39,17 +50,13 @@ function AppContent() {
     setError(null);
 
     try {
-      // Parse the English sentence first (for basic structure)
       const structure = parseEnglishSentence(sentence);
-
-      // Get AI translation for the full sentence
       const aiTranslation = await translateSentence(
         sentence,
         structure.parsedWords,
         session.access_token
       );
 
-      // Update structure with AI results
       structure.wordOrderDisplay = aiTranslation.wordOrderDisplay;
       structure.fullTranslation = aiTranslation.fullTranslation;
 
@@ -57,7 +64,6 @@ function AppContent() {
       setStructureDescription(describeSentenceStructure(structure));
       setGrammarNotes(aiTranslation.grammarNotes || []);
 
-      // Create word slots from AI translation (already in Japanese order)
       const slots: WordSlot[] = aiTranslation.words.map((word, index) => ({
         id: `slot-${index}`,
         englishWord: {
@@ -77,7 +83,43 @@ function AppContent() {
     } finally {
       setIsLoading(false);
     }
-  }, [session, hasApiKey]);
+  }, [session]);
+
+  const handleTextSubmit = useCallback(async (text: string) => {
+    if (!hasApiKey) {
+      setError('Please add your Anthropic API key in Settings');
+      setShowSettings(true);
+      return;
+    }
+
+    const sentences = splitIntoSentences(text);
+    setAllSentences(sentences);
+    setCurrentSentenceIndex(0);
+    setCompletedSentences(new Set());
+
+    await loadSentence(sentences[0]);
+  }, [hasApiKey, loadSentence]);
+
+  const handleNextSentence = useCallback(async () => {
+    const nextIndex = currentSentenceIndex + 1;
+    if (nextIndex < allSentences.length) {
+      setCurrentSentenceIndex(nextIndex);
+      await loadSentence(allSentences[nextIndex]);
+    }
+  }, [currentSentenceIndex, allSentences, loadSentence]);
+
+  const handlePrevSentence = useCallback(async () => {
+    const prevIndex = currentSentenceIndex - 1;
+    if (prevIndex >= 0) {
+      setCurrentSentenceIndex(prevIndex);
+      await loadSentence(allSentences[prevIndex]);
+    }
+  }, [currentSentenceIndex, allSentences, loadSentence]);
+
+  const handleSelectSentence = useCallback(async (index: number) => {
+    setCurrentSentenceIndex(index);
+    await loadSentence(allSentences[index]);
+  }, [allSentences, loadSentence]);
 
   const handleSlotClick = useCallback((slotId: string) => {
     setSelectedSlotId(prev => prev === slotId ? null : slotId);
@@ -87,21 +129,11 @@ function AppContent() {
     setWordSlots(prevSlots => {
       return prevSlots.map(slot => {
         if (slot.id === targetSlotId) {
-          // If answerSlotId is empty, clear the slot
           if (!answerSlotId) {
-            return {
-              ...slot,
-              userAnswer: null,
-              isFilledCorrectly: null
-            };
+            return { ...slot, userAnswer: null, isFilledCorrectly: null };
           }
-          // Check if correct by comparing slot IDs (each slot has unique correct answer)
           const isCorrect = slot.id === answerSlotId;
-          return {
-            ...slot,
-            userAnswer: answerSlotId,
-            isFilledCorrectly: isCorrect
-          };
+          return { ...slot, userAnswer: answerSlotId, isFilledCorrectly: isCorrect };
         }
         return slot;
       });
@@ -111,11 +143,7 @@ function AppContent() {
 
   const handleReset = useCallback(() => {
     setWordSlots(prevSlots =>
-      prevSlots.map(slot => ({
-        ...slot,
-        userAnswer: null,
-        isFilledCorrectly: null
-      }))
+      prevSlots.map(slot => ({ ...slot, userAnswer: null, isFilledCorrectly: null }))
     );
     setShowAnswers(false);
     setSelectedSlotId(null);
@@ -124,18 +152,20 @@ function AppContent() {
   const handleShowAnswers = useCallback(() => {
     setShowAnswers(true);
     setWordSlots(prevSlots =>
-      prevSlots.map(slot => ({
-        ...slot,
-        userAnswer: slot.id, // Each slot's correct answer is itself
-        isFilledCorrectly: true
-      }))
+      prevSlots.map(slot => ({ ...slot, userAnswer: slot.id, isFilledCorrectly: true }))
     );
   }, []);
 
-  const allCorrect = wordSlots.length > 0 &&
-    wordSlots.every(slot => slot.isFilledCorrectly === true);
+  const allCorrect = wordSlots.length > 0 && wordSlots.every(slot => slot.isFilledCorrectly === true);
 
-  // Show loading state
+  // Mark sentence as completed when all correct
+  const handleMarkComplete = useCallback(() => {
+    setCompletedSentences(prev => new Set([...prev, currentSentenceIndex]));
+    if (currentSentenceIndex < allSentences.length - 1) {
+      handleNextSentence();
+    }
+  }, [currentSentenceIndex, allSentences.length, handleNextSentence]);
+
   if (loading) {
     return (
       <div className="min-h-screen bg-gray-100 flex items-center justify-center">
@@ -144,7 +174,6 @@ function AppContent() {
     );
   }
 
-  // Show login if not authenticated
   if (!user) {
     return <Auth />;
   }
@@ -161,7 +190,6 @@ function AppContent() {
             Learn Japanese word order by rearranging English sentences
           </p>
 
-          {/* Settings Button */}
           <button
             onClick={() => setShowSettings(true)}
             className="absolute right-0 top-0 p-2 text-gray-500 hover:text-gray-700 transition-colors"
@@ -173,13 +201,9 @@ function AppContent() {
             </svg>
           </button>
 
-          {/* API Key Warning */}
           {!hasApiKey && (
             <div className="mt-4 p-3 bg-amber-100 border border-amber-300 rounded-lg text-amber-800 text-sm">
-              <button
-                onClick={() => setShowSettings(true)}
-                className="font-medium underline hover:no-underline"
-              >
+              <button onClick={() => setShowSettings(true)} className="font-medium underline hover:no-underline">
                 Add your Anthropic API key
               </button>
               {' '}to start translating sentences.
@@ -187,7 +211,6 @@ function AppContent() {
           )}
         </header>
 
-        {/* Error Message */}
         {error && (
           <div className="mb-6 p-4 bg-red-100 border border-red-300 rounded-lg text-red-700">
             {error}
@@ -196,8 +219,60 @@ function AppContent() {
 
         {/* Input */}
         <div className="mb-8">
-          <SentenceInput onSubmit={handleSentenceSubmit} isLoading={isLoading} />
+          <SentenceInput onSubmit={handleTextSubmit} isLoading={isLoading} />
         </div>
+
+        {/* Sentence Progress Bar (for multiple sentences) */}
+        {allSentences.length > 1 && (
+          <div className="mb-6 p-4 bg-white rounded-lg border border-gray-200">
+            <div className="flex items-center justify-between mb-2">
+              <span className="text-sm font-medium text-gray-700">
+                Sentence {currentSentenceIndex + 1} of {allSentences.length}
+              </span>
+              <span className="text-sm text-gray-500">
+                {completedSentences.size} completed
+              </span>
+            </div>
+
+            {/* Progress dots */}
+            <div className="flex gap-2 flex-wrap">
+              {allSentences.map((sentence, index) => (
+                <button
+                  key={index}
+                  onClick={() => handleSelectSentence(index)}
+                  className={`w-8 h-8 rounded-full text-xs font-medium transition-all ${
+                    index === currentSentenceIndex
+                      ? 'bg-amber-500 text-white'
+                      : completedSentences.has(index)
+                      ? 'bg-green-500 text-white'
+                      : 'bg-gray-200 text-gray-600 hover:bg-gray-300'
+                  }`}
+                  title={sentence.substring(0, 50) + (sentence.length > 50 ? '...' : '')}
+                >
+                  {index + 1}
+                </button>
+              ))}
+            </div>
+
+            {/* Navigation */}
+            <div className="flex justify-between mt-3">
+              <button
+                onClick={handlePrevSentence}
+                disabled={currentSentenceIndex === 0 || isLoading}
+                className="px-3 py-1 text-sm text-gray-600 bg-gray-100 rounded hover:bg-gray-200 disabled:opacity-50 disabled:cursor-not-allowed"
+              >
+                ← Previous
+              </button>
+              <button
+                onClick={handleNextSentence}
+                disabled={currentSentenceIndex === allSentences.length - 1 || isLoading}
+                className="px-3 py-1 text-sm text-gray-600 bg-gray-100 rounded hover:bg-gray-200 disabled:opacity-50 disabled:cursor-not-allowed"
+              >
+                Next →
+              </button>
+            </div>
+          </div>
+        )}
 
         {/* Sentence Display */}
         {sentenceStructure && (
@@ -235,6 +310,14 @@ function AppContent() {
                 <span className="text-green-800 font-medium text-lg">
                   正解！(Seikai!) - Correct!
                 </span>
+                {allSentences.length > 1 && currentSentenceIndex < allSentences.length - 1 && (
+                  <button
+                    onClick={handleMarkComplete}
+                    className="ml-4 px-4 py-2 bg-green-600 text-white rounded-lg hover:bg-green-700"
+                  >
+                    Next Sentence →
+                  </button>
+                )}
               </div>
             )}
 
@@ -251,16 +334,18 @@ function AppContent() {
         {!sentenceStructure && !isLoading && (
           <div className="text-center p-8 bg-white rounded-lg border-2 border-dashed border-gray-300">
             <p className="text-gray-500 text-lg">
-              Enter an English sentence above to get started!
+              Enter English text above to get started!
             </p>
             <p className="text-gray-400 mt-2">
-              Try: "I eat sushi" or "She reads a book"
+              You can enter a single sentence or a whole paragraph.
+            </p>
+            <p className="text-gray-400 mt-1 text-sm">
+              Try: "I'm hungry. It's tiring to talk to people."
             </p>
           </div>
         )}
       </div>
 
-      {/* Settings Modal */}
       {showSettings && <Settings onClose={() => setShowSettings(false)} />}
     </div>
   );
