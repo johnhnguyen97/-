@@ -83,28 +83,32 @@ function AppContent() {
     setSelectedSlotId(prev => prev === slotId ? null : slotId);
   }, []);
 
-  const handleWordBankClick = useCallback((slotId: string, japanese: string) => {
-    setWordSlots(prevSlots =>
-      prevSlots.map(slot => {
-        if (slot.id === slotId) {
-          // If japanese is empty, clear the slot
-          if (!japanese) {
+  const handleWordBankClick = useCallback((targetSlotId: string, answerSlotId: string) => {
+    setWordSlots(prevSlots => {
+      // Find the word from the answer slot
+      const answerSlot = prevSlots.find(s => s.id === answerSlotId);
+
+      return prevSlots.map(slot => {
+        if (slot.id === targetSlotId) {
+          // If answerSlotId is empty, clear the slot
+          if (!answerSlotId) {
             return {
               ...slot,
               userAnswer: null,
               isFilledCorrectly: null
             };
           }
-          const isCorrect = slot.japaneseWord?.japanese === japanese;
+          // Check if correct by comparing slot IDs (each slot has unique correct answer)
+          const isCorrect = slot.id === answerSlotId;
           return {
             ...slot,
-            userAnswer: japanese,
+            userAnswer: answerSlotId,
             isFilledCorrectly: isCorrect
           };
         }
         return slot;
-      })
-    );
+      });
+    });
     setSelectedSlotId(null);
   }, []);
 
@@ -125,7 +129,7 @@ function AppContent() {
     setWordSlots(prevSlots =>
       prevSlots.map(slot => ({
         ...slot,
-        userAnswer: slot.japaneseWord?.japanese || null,
+        userAnswer: slot.id, // Each slot's correct answer is itself
         isFilledCorrectly: true
       }))
     );

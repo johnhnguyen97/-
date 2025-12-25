@@ -77,6 +77,11 @@ export default async function handler(req: VercelRequest, res: VercelResponse) {
       return res.status(400).json({ error: 'Sentence is required' });
     }
 
+    // Limit sentence length to avoid JSON parsing issues
+    if (sentence.length > 150) {
+      return res.status(400).json({ error: 'Sentence is too long. Please try a shorter sentence (max ~20 words).' });
+    }
+
     // Get user's encrypted API key
     const { data: keyData, error: keyError } = await supabaseAdmin
       .from('user_api_keys')
@@ -150,7 +155,14 @@ export default async function handler(req: VercelRequest, res: VercelResponse) {
       return res.status(500).json({ error: 'Invalid response format from AI' });
     }
 
-    const translationResult = JSON.parse(jsonMatch[0]);
+    let translationResult;
+    try {
+      translationResult = JSON.parse(jsonMatch[0]);
+    } catch (parseError) {
+      console.error('JSON parse error:', parseError, 'Content:', jsonMatch[0].substring(0, 500));
+      return res.status(500).json({ error: 'Failed to parse AI response as JSON' });
+    }
+
     return res.status(200).json(translationResult);
 
   } catch (error) {
@@ -161,53 +173,37 @@ export default async function handler(req: VercelRequest, res: VercelResponse) {
 }
 
 function buildTranslationPrompt(sentence: string, parsedWords: unknown[]): string {
-  return `You are a Japanese language expert. Translate the following English sentence into Japanese, breaking it down into its grammatical components.
+  return `Translate this English sentence to Japanese with word breakdown.
 
-English sentence: "${sentence}"
+Sentence: "${sentence}"
 
-Parsed words from English: ${JSON.stringify(parsedWords)}
-
-IMPORTANT RULES:
-1. Break down the sentence into INDIVIDUAL grammatical units
-2. Include particles as SEPARATE entries (は, が, を, に, で, etc.)
-3. For verbs, split the stem and auxiliary endings (e.g., "eating" → 食べ + て + いる)
-4. Order the words in CORRECT Japanese word order (typically: Subject + Topic-Marker + Object + Object-Marker + Verb)
-5. For each word, specify its grammatical role
-
-Return a JSON object with this EXACT structure:
+Return ONLY valid JSON (no markdown, no extra text):
 {
-  "fullTranslation": "complete Japanese sentence with all particles",
-  "wordOrder": ["subject", "topic-marker", "object", "object-marker", "verb"],
-  "wordOrderDisplay": "Subject は → Object を → Verb",
+  "fullTranslation": "complete Japanese sentence",
+  "wordOrderDisplay": "Topic は → Object を → Verb",
   "words": [
     {
-      "english": "English word/meaning",
+      "english": "word meaning",
       "japanese": "日本語",
-      "reading": "hiragana reading",
+      "reading": "ひらがな",
       "romaji": "romaji",
-      "partOfSpeech": "noun/verb/particle/auxiliary/etc",
-      "role": "subject/verb/verb-stem/auxiliary/object/particle/adjective/adverb/other",
-      "particle": "associated particle if any",
-      "particleMeaning": "what the particle means",
-      "particleExplanation": "detailed explanation of the particle's function"
+      "partOfSpeech": "noun/verb/particle/adjective/adverb",
+      "role": "subject/verb/object/particle/adjective/adverb/other",
+      "particleMeaning": "particle meaning if applicable"
     }
   ],
   "grammarNotes": [
     {
       "title": "Grammar Point",
-      "titleJapanese": "文法ポイント",
-      "explanation": "Explanation of the grammar pattern used",
-      "example": "Example sentence",
-      "exampleTranslation": "Translation of example"
+      "explanation": "Brief explanation"
     }
   ]
 }
 
-CRITICAL:
-- Particles MUST be separate entries with role="particle"
-- Verb conjugation endings MUST be separate entries with role="auxiliary"
-- The "words" array should be in the correct Japanese sentence order
-- Include ALL particles needed for the sentence
-
-Return ONLY the JSON object, no other text.`;
+Rules:
+- Use NATURAL Japanese (omit pronouns when obvious from context)
+- Particles (は,が,を,に,で,etc) as separate entries with role="particle"
+- Keep it simple - max 10-12 words
+- Words in Japanese sentence order
+- Valid JSON only, no trailing commas`;
 }

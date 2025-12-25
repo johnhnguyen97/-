@@ -48,7 +48,7 @@ interface SentenceDisplayProps {
   wordSlots: WordSlot[];
   selectedSlotId: string | null;
   onSlotClick: (slotId: string) => void;
-  onWordBankClick: (slotId: string, japanese: string) => void;
+  onWordBankClick: (slotId: string, answer: string) => void;
   showAnswers: boolean;
   wordOrderDisplay?: string;
   fullTranslation?: string;
@@ -64,48 +64,58 @@ export function SentenceDisplay({
   wordOrderDisplay,
   fullTranslation
 }: SentenceDisplayProps) {
-  // Shuffle Japanese words for the word bank
-  const [shuffledWords, setShuffledWords] = useState<WordSlot[]>([]);
-  const [draggedWord, setDraggedWord] = useState<string | null>(null);
-  const [dragSource, setDragSource] = useState<string | null>(null); // 'bank' or slot id
-  const [hoveredWord, setHoveredWord] = useState<string | null>(null); // For tooltip
+  // Shuffle Japanese words for the word bank - track by slot ID
+  const [shuffledSlots, setShuffledSlots] = useState<WordSlot[]>([]);
+  const [draggedSlotId, setDraggedSlotId] = useState<string | null>(null);
+  const [dragSource, setDragSource] = useState<string | null>(null); // 'bank-{slotId}' or slot id
+  const [hoveredSlotId, setHoveredSlotId] = useState<string | null>(null); // For tooltip
 
   useEffect(() => {
     const shuffled = [...wordSlots].sort(() => Math.random() - 0.5);
-    setShuffledWords(shuffled);
+    setShuffledSlots(shuffled);
   }, [wordSlots]);
 
-  // Handle drag start from word bank
-  const handleDragStart = (japanese: string, source: string) => {
-    setDraggedWord(japanese);
+  // Handle drag start from word bank - track by slot ID
+  const handleDragStart = (slotId: string, source: string) => {
+    setDraggedSlotId(slotId);
     setDragSource(source);
   };
 
   // Handle drop on a slot
   const handleDrop = (targetSlotId: string) => {
-    if (draggedWord) {
-      // If dragging from another slot, clear that slot first
-      if (dragSource && dragSource !== 'bank' && dragSource !== targetSlotId) {
-        onWordBankClick(dragSource, ''); // Clear source slot
+    if (draggedSlotId) {
+      const draggedSlot = wordSlots.find(s => s.id === draggedSlotId);
+      if (draggedSlot?.japaneseWord) {
+        // If dragging from another answer slot, clear that slot first
+        if (dragSource && !dragSource.startsWith('bank-') && dragSource !== targetSlotId) {
+          onWordBankClick(dragSource, ''); // Clear source slot
+        }
+        // Use slot ID as the answer to track uniquely
+        onWordBankClick(targetSlotId, draggedSlotId);
       }
-      onWordBankClick(targetSlotId, draggedWord);
     }
-    setDraggedWord(null);
+    setDraggedSlotId(null);
     setDragSource(null);
   };
 
   // Handle dropping back to word bank (remove from slot)
   const handleDropToBank = () => {
-    if (dragSource && dragSource !== 'bank') {
+    if (dragSource && !dragSource.startsWith('bank-')) {
       onWordBankClick(dragSource, ''); // Clear the slot
     }
-    setDraggedWord(null);
+    setDraggedSlotId(null);
     setDragSource(null);
   };
 
-  // Check if a Japanese word is used in any slot
-  const isWordUsed = (japanese: string) => {
-    return wordSlots.some(s => s.userAnswer === japanese);
+  // Check if a slot's word is used (by slot ID, not Japanese text)
+  const isSlotUsed = (slotId: string) => {
+    return wordSlots.some(s => s.userAnswer === slotId);
+  };
+
+  // Get the Japanese word for a user answer (which is now a slot ID)
+  const getAnswerWord = (userAnswer: string) => {
+    const answerSlot = wordSlots.find(s => s.id === userAnswer);
+    return answerSlot?.japaneseWord;
   };
 
   return (
@@ -126,96 +136,94 @@ export function SentenceDisplay({
         </p>
 
         <div className="flex flex-wrap justify-center gap-4">
-          {wordSlots.map((slot, index) => (
-            <div key={slot.id} className="flex flex-col items-center">
-              {/* Slot number & role */}
-              <div className="flex items-center gap-2 mb-1">
-                <span className="text-xs font-bold text-amber-700 bg-amber-200 rounded-full w-5 h-5 flex items-center justify-center">
-                  {index + 1}
+          {wordSlots.map((slot, index) => {
+            const answerWord = slot.userAnswer ? getAnswerWord(slot.userAnswer) : null;
+
+            return (
+              <div key={slot.id} className="flex flex-col items-center">
+                {/* Slot number & role */}
+                <div className="flex items-center gap-2 mb-1">
+                  <span className="text-xs font-bold text-amber-700 bg-amber-200 rounded-full w-5 h-5 flex items-center justify-center">
+                    {index + 1}
+                  </span>
+                  <span className="text-xs text-amber-600 capitalize">{slot.englishWord.role}</span>
+                </div>
+
+                {/* Drop zone / Slot */}
+                <div
+                  onDragOver={(e) => e.preventDefault()}
+                  onDrop={() => handleDrop(slot.id)}
+                  onClick={() => {
+                    if (slot.userAnswer) {
+                      // Clicking filled slot picks it up
+                      handleDragStart(slot.userAnswer, slot.id);
+                    } else {
+                      // Clicking empty slot selects it
+                      onSlotClick(slot.id);
+                    }
+                  }}
+                  className={`${
+                    slot.englishWord.role === 'particle' ? 'min-w-[60px] min-h-[60px]'
+                    : slot.englishWord.role === 'auxiliary' || slot.englishWord.role === 'verb-stem' ? 'min-w-[80px] min-h-[70px]'
+                    : 'min-w-[120px] min-h-[100px]'
+                  } p-3 border-3 rounded-xl transition-all flex flex-col items-center justify-center cursor-pointer ${
+                    slot.isFilledCorrectly === true
+                      ? 'border-green-500 bg-green-100 border-solid'
+                      : slot.isFilledCorrectly === false
+                      ? 'border-red-500 bg-red-100 border-solid'
+                      : selectedSlotId === slot.id
+                      ? 'border-blue-500 bg-blue-50 border-solid'
+                      : slot.userAnswer
+                      ? slot.englishWord.role === 'particle' ? 'border-purple-400 bg-purple-50 border-solid'
+                        : (slot.englishWord.role === 'auxiliary' || slot.englishWord.role === 'verb-stem') ? 'border-green-400 bg-green-50 border-solid'
+                        : 'border-amber-400 bg-white border-solid'
+                      : slot.englishWord.role === 'particle' ? 'border-purple-300 bg-purple-50 border-dashed hover:border-purple-400'
+                        : (slot.englishWord.role === 'auxiliary' || slot.englishWord.role === 'verb-stem') ? 'border-green-300 bg-green-50 border-dashed hover:border-green-400'
+                        : 'border-amber-300 bg-white border-dashed hover:border-amber-400 hover:bg-amber-50'
+                  }`}
+                >
+                  {answerWord ? (
+                    // Show the placed Japanese word
+                    <div
+                      draggable
+                      onDragStart={() => handleDragStart(slot.userAnswer!, slot.id)}
+                      className="flex flex-col items-center cursor-grab active:cursor-grabbing"
+                    >
+                      <span className="text-2xl font-bold text-gray-800">
+                        {answerWord.japanese}
+                      </span>
+                      <span className="text-sm text-gray-600 mt-1">
+                        {answerWord.reading}
+                      </span>
+                      {answerWord.particle && (
+                        <span className="text-xs text-blue-600 mt-1">
+                          + {answerWord.particle}
+                        </span>
+                      )}
+                    </div>
+                  ) : showAnswers && slot.japaneseWord ? (
+                    // Show answer
+                    <div className="flex flex-col items-center">
+                      <span className="text-2xl font-bold text-green-700">
+                        {slot.japaneseWord.japanese}
+                      </span>
+                      <span className="text-sm text-gray-600 mt-1">
+                        {slot.japaneseWord.reading}
+                      </span>
+                    </div>
+                  ) : (
+                    // Empty slot
+                    <span className="text-3xl text-amber-300">?</span>
+                  )}
+                </div>
+
+                {/* English word hint */}
+                <span className="text-xs text-gray-500 mt-2">
+                  ({slot.englishWord.text})
                 </span>
-                <span className="text-xs text-amber-600 capitalize">{slot.englishWord.role}</span>
               </div>
-
-              {/* Drop zone / Slot - different styling for particles and auxiliaries */}
-              <div
-                onDragOver={(e) => e.preventDefault()}
-                onDrop={() => handleDrop(slot.id)}
-                onClick={() => {
-                  if (slot.userAnswer) {
-                    handleDragStart(slot.userAnswer, slot.id);
-                  } else {
-                    onSlotClick(slot.id);
-                  }
-                }}
-                className={`${
-                  slot.englishWord.role === 'particle' ? 'min-w-[60px] min-h-[60px]'
-                  : slot.englishWord.role === 'auxiliary' || slot.englishWord.role === 'verb-stem' ? 'min-w-[80px] min-h-[70px]'
-                  : 'min-w-[120px] min-h-[100px]'
-                } p-3 border-3 rounded-xl transition-all flex flex-col items-center justify-center cursor-pointer ${
-                  slot.isFilledCorrectly === true
-                    ? 'border-green-500 bg-green-100 border-solid'
-                    : slot.isFilledCorrectly === false
-                    ? 'border-red-500 bg-red-100 border-solid'
-                    : selectedSlotId === slot.id
-                    ? 'border-blue-500 bg-blue-50 border-solid'
-                    : slot.userAnswer
-                    ? slot.englishWord.role === 'particle' ? 'border-purple-400 bg-purple-50 border-solid'
-                      : (slot.englishWord.role === 'auxiliary' || slot.englishWord.role === 'verb-stem') ? 'border-green-400 bg-green-50 border-solid'
-                      : 'border-amber-400 bg-white border-solid'
-                    : slot.englishWord.role === 'particle' ? 'border-purple-300 bg-purple-50 border-dashed hover:border-purple-400'
-                      : (slot.englishWord.role === 'auxiliary' || slot.englishWord.role === 'verb-stem') ? 'border-green-300 bg-green-50 border-dashed hover:border-green-400'
-                      : 'border-amber-300 bg-white border-dashed hover:border-amber-400 hover:bg-amber-50'
-                }`}
-              >
-                {slot.userAnswer ? (
-                  // Show the placed Japanese word
-                  <div
-                    draggable
-                    onDragStart={() => handleDragStart(slot.userAnswer!, slot.id)}
-                    className="flex flex-col items-center cursor-grab active:cursor-grabbing"
-                  >
-                    <span className="text-2xl font-bold text-gray-800">
-                      {slot.userAnswer}
-                    </span>
-                    {/* Find the reading for this word */}
-                    {(() => {
-                      const word = wordSlots.find(s => s.japaneseWord?.japanese === slot.userAnswer);
-                      return word?.japaneseWord ? (
-                        <>
-                          <span className="text-sm text-gray-600 mt-1">
-                            {word.japaneseWord.reading}
-                          </span>
-                          {word.japaneseWord.particle && (
-                            <span className="text-xs text-blue-600 mt-1">
-                              + {word.japaneseWord.particle}
-                            </span>
-                          )}
-                        </>
-                      ) : null;
-                    })()}
-                  </div>
-                ) : showAnswers && slot.japaneseWord ? (
-                  // Show answer
-                  <div className="flex flex-col items-center">
-                    <span className="text-2xl font-bold text-green-700">
-                      {slot.japaneseWord.japanese}
-                    </span>
-                    <span className="text-sm text-gray-600 mt-1">
-                      {slot.japaneseWord.reading}
-                    </span>
-                  </div>
-                ) : (
-                  // Empty slot
-                  <span className="text-3xl text-amber-300">?</span>
-                )}
-              </div>
-
-              {/* English word hint */}
-              <span className="text-xs text-gray-500 mt-2">
-                ({slot.englishWord.text})
-              </span>
-            </div>
-          ))}
+            );
+          })}
         </div>
 
         {/* Full translation shown after answers */}
@@ -233,47 +241,33 @@ export function SentenceDisplay({
         onDrop={handleDropToBank}
       >
         <h3 className="text-sm font-semibold text-blue-800 mb-4 uppercase tracking-wide text-center">
-          Word Bank - Drag or Click (単語バンク)
+          Word Bank (単語バンク) - Click a slot first, then click a word
         </h3>
         <div className="flex flex-wrap gap-4 justify-center min-h-[60px]">
-          {shuffledWords.map((slot) => {
+          {shuffledSlots.map((slot) => {
             if (!slot.japaneseWord) return null;
-            const isUsed = isWordUsed(slot.japaneseWord.japanese);
+            const isUsed = isSlotUsed(slot.id);
             const isParticle = slot.englishWord.role === 'particle';
             const isAuxiliary = slot.englishWord.role === 'auxiliary' || slot.englishWord.role === 'verb-stem';
-            const showTooltip = hoveredWord === slot.japaneseWord.japanese;
+            const showTooltip = hoveredSlotId === slot.id;
 
             return (
               <div
                 key={`bank-${slot.id}`}
                 className="relative"
-                onMouseEnter={() => setHoveredWord(slot.japaneseWord!.japanese)}
-                onMouseLeave={() => setHoveredWord(null)}
+                onMouseEnter={() => setHoveredSlotId(slot.id)}
+                onMouseLeave={() => setHoveredSlotId(null)}
               >
                 {/* Tooltip on hover */}
                 {showTooltip && !isUsed && <Tooltip word={slot.japaneseWord} />}
 
                 <div
                   draggable={!isUsed}
-                  onDragStart={() => handleDragStart(slot.japaneseWord!.japanese, 'bank')}
+                  onDragStart={() => handleDragStart(slot.id, `bank-${slot.id}`)}
                   onClick={() => {
+                    // Only fill if a slot is selected - NO auto-select
                     if (!isUsed && selectedSlotId) {
-                      onWordBankClick(selectedSlotId, slot.japaneseWord!.japanese);
-                    } else if (!isUsed) {
-                      // Select first empty slot (prefer matching type)
-                      const emptySlot = isParticle
-                        ? wordSlots.find(s => !s.userAnswer && s.englishWord.role === 'particle')
-                        : isAuxiliary
-                        ? wordSlots.find(s => !s.userAnswer && (s.englishWord.role === 'auxiliary' || s.englishWord.role === 'verb-stem'))
-                        : wordSlots.find(s => !s.userAnswer && s.englishWord.role !== 'particle' && s.englishWord.role !== 'auxiliary');
-                      if (emptySlot) {
-                        onWordBankClick(emptySlot.id, slot.japaneseWord!.japanese);
-                      } else {
-                        const anyEmpty = wordSlots.find(s => !s.userAnswer);
-                        if (anyEmpty) {
-                          onWordBankClick(anyEmpty.id, slot.japaneseWord!.japanese);
-                        }
-                      }
+                      onWordBankClick(selectedSlotId, slot.id);
                     }
                   }}
                   className={`flex flex-col items-center p-4 border-2 rounded-xl shadow-md transition-all ${
@@ -285,11 +279,17 @@ export function SentenceDisplay({
                   } ${
                     isUsed
                       ? 'opacity-30 cursor-not-allowed border-gray-200 bg-gray-50'
+                      : selectedSlotId
+                      ? isParticle
+                        ? 'border-purple-300 hover:border-purple-500 hover:bg-purple-100 hover:-translate-y-1 hover:shadow-lg cursor-pointer'
+                        : isAuxiliary
+                        ? 'border-green-300 hover:border-green-500 hover:bg-green-100 hover:-translate-y-1 hover:shadow-lg cursor-pointer'
+                        : 'border-blue-300 hover:border-blue-500 hover:bg-blue-50 hover:-translate-y-1 hover:shadow-lg cursor-pointer'
                       : isParticle
-                      ? 'border-purple-300 hover:border-purple-500 hover:bg-purple-100 hover:-translate-y-1 hover:shadow-lg cursor-grab active:cursor-grabbing'
+                      ? 'border-purple-300 cursor-grab active:cursor-grabbing'
                       : isAuxiliary
-                      ? 'border-green-300 hover:border-green-500 hover:bg-green-100 hover:-translate-y-1 hover:shadow-lg cursor-grab active:cursor-grabbing'
-                      : 'border-blue-300 hover:border-blue-500 hover:bg-blue-50 hover:-translate-y-1 hover:shadow-lg cursor-grab active:cursor-grabbing'
+                      ? 'border-green-300 cursor-grab active:cursor-grabbing'
+                      : 'border-blue-300 cursor-grab active:cursor-grabbing'
                   }`}
                 >
                   {/* Japanese word */}
@@ -325,7 +325,10 @@ export function SentenceDisplay({
 
       {/* Instructions */}
       <p className="text-center text-sm text-gray-500 mt-4">
-        Drag Japanese words to the slots above, or click a slot then click a word
+        {selectedSlotId
+          ? '👆 Now click a word from the bank to place it'
+          : 'Click a slot to select it, then click a word to place it (or drag and drop)'
+        }
       </p>
     </div>
   );
