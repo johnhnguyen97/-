@@ -85,9 +85,6 @@ function AppContent() {
 
   const handleWordBankClick = useCallback((targetSlotId: string, answerSlotId: string) => {
     setWordSlots(prevSlots => {
-      // Find the word from the answer slot
-      const answerSlot = prevSlots.find(s => s.id === answerSlotId);
-
       return prevSlots.map(slot => {
         if (slot.id === targetSlotId) {
           // If answerSlotId is empty, clear the slot
