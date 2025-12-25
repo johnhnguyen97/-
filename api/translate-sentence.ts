@@ -180,26 +180,39 @@ Rules:
 - For complex sentences: break into main clauses, keep essential meaning
 - Combine related words if needed to keep words array under 15 items
 - grammarNotes: max 2 notes, keep explanations under 50 words each
-- ATOMIC GRAMMAR BREAKDOWN: Break down EVERY compound pattern, word, and verb into smallest meaningful components
+- ATOMIC GRAMMAR BREAKDOWN: CRITICAL - Create a SEPARATE atomicBreakdown entry for EACH grammar pattern/verb/compound word
 
-  COMPOUND WORDS - Break down completely:
-  - この手のこと → この (this) + 手 (hand/type) + の (possessive) + こと (thing/matter)
-  - 取りすぎた → 取る (toru - to take, dictionary form) + すぎ (sugi - too much) + た (ta - past tense)
-  - 行きたくない → 行く (iku - to go, dictionary form) + たい (tai - want to) + く (ku - adverbial) + ない (nai - negative)
+  DO NOT group things together! Each component must be a SEPARATE array item:
 
-  CONJUGATED VERBS - Show EVERY component:
-  - 持っています → 持つ (motsu - dictionary form, "to hold") + て (te - conjunctive) + い (i - stem) + ます (masu - polite present)
-  - 食べられた → 食べる (taberu - dictionary form) + られ (rare - passive/potential) + た (ta - past tense)
+  WRONG: [{"component":"この手のこと","type":"phrase","meaning":"this kind of thing"}]
+  CORRECT: [
+    {"component":"この","type":"demonstrative","meaning":"this"},
+    {"component":"手","type":"noun","meaning":"hand/type/kind"},
+    {"component":"の","type":"particle","meaning":"possessive particle"},
+    {"component":"こと","type":"noun","meaning":"thing/matter"}
+  ]
 
-  GRAMMAR PATTERNS - Separate each part:
-  - になる → に (ni - particle, direction) + なる (naru - verb, "to become")
-  - ことがある → こと (koto - nominalizer) + が (ga - particle) + ある (aru - verb)
+  WRONG: [{"component":"取りすぎた","type":"verb","meaning":"took too much"}]
+  CORRECT: [
+    {"component":"取る","type":"verb (dictionary form)","meaning":"to take"},
+    {"component":"すぎ","type":"auxiliary verb","meaning":"too much/excessively"},
+    {"component":"た","type":"auxiliary verb (past tense)","meaning":"past tense marker"}
+  ]
 
-  RULES:
-  - Break down EVERY compound word into its components (この手, 取りすぎる, etc.)
-  - Show dictionary form for EVERY verb component
-  - Separate ALL verb suffixes (ます, た, ない, て, すぎる, たい, etc.)
-  - This is for N5 learners - they need to see how EVERYTHING is built piece by piece
+  WRONG: [{"component":"持っています","type":"verb","meaning":"have/am holding"}]
+  CORRECT: [
+    {"component":"持つ","type":"verb (dictionary form)","meaning":"to hold/have"},
+    {"component":"て","type":"conjunctive particle","meaning":"te-form connector"},
+    {"component":"います","type":"auxiliary verb","meaning":"present progressive (polite)"}
+  ]
+
+  MANDATORY RULES - DO NOT SKIP:
+  1. NEVER combine multiple morphemes into one component entry
+  2. ALWAYS show dictionary form first, then each suffix/particle separately
+  3. EVERY particle (に、を、が、の、て、etc.) = separate entry
+  4. EVERY verb suffix (た、ます、ない、たい、すぎる) = separate entry
+  5. Label each component's grammatical type clearly
+  6. This breakdown is the MOST IMPORTANT part for N5 learners
 
 - MUST be valid JSON - no trailing commas, escape quotes properly`;
 }
