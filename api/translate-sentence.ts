@@ -104,6 +104,125 @@ function validateAtomicBreakdown(result: TranslationResult): string[] {
   return errors;
 }
 
+// Force split components that AI didn't break down properly
+function forceAtomicSplit(result: TranslationResult): void {
+  if (!result.grammarNotes) return;
+
+  result.grammarNotes.forEach(note => {
+    if (!note.atomicBreakdown || note.atomicBreakdown.length === 0) return;
+
+    const newBreakdown: GrammarAtom[] = [];
+
+    note.atomicBreakdown.forEach(atom => {
+      const comp = atom.component;
+      let wasSplit = false;
+
+      // Split: には → に + は
+      if (/には|では|とは|へは|から|まで/.test(comp) && comp.length > 1) {
+        const match = comp.match(/(.*?)(には|では|とは|へは|から|まで)/);
+        if (match && match[1]) {
+          newBreakdown.push({ component: match[1], type: 'base', meaning: atom.meaning });
+          newBreakdown.push({ component: match[2], type: 'particle compound', meaning: 'particle combination' });
+          wasSplit = true;
+        }
+      }
+
+      // Split: 年を → 年 + を
+      if (!wasSplit && comp.length > 1 && /[をがにのへとでや]$/.test(comp)) {
+        const particle = comp.slice(-1);
+        const base = comp.slice(0, -1);
+        newBreakdown.push({ component: base, type: 'noun', meaning: atom.meaning });
+        newBreakdown.push({ component: particle, type: 'particle', meaning: getParticleMeaning(particle) });
+        wasSplit = true;
+      }
+
+      // Split: こんなこと → こんな + こと
+      if (!wasSplit && /^(こんな|そんな|あんな|どんな)(.+)/.test(comp)) {
+        const match = comp.match(/^(こんな|そんな|あんな|どんな)(.+)/);
+        if (match) {
+          newBreakdown.push({ component: match[1], type: 'demonstrative adjective', meaning: 'this kind of / such' });
+          newBreakdown.push({ component: match[2], type: 'noun', meaning: atom.meaning || 'thing' });
+          wasSplit = true;
+        }
+      }
+
+      // Split: 取りすぎた → 取る + すぎ + た
+      if (!wasSplit && /すぎた$/.test(comp) && comp !== 'すぎた') {
+        const base = comp.replace(/すぎた$/, '');
+        const dictForm = guessDictionaryForm(base, 'i');
+        newBreakdown.push({ component: dictForm, type: 'verb (dictionary form)', meaning: atom.meaning || 'verb' });
+        newBreakdown.push({ component: 'すぎ', type: 'auxiliary verb', meaning: 'too much / excessively' });
+        newBreakdown.push({ component: 'た', type: 'auxiliary (past tense)', meaning: 'past tense marker' });
+        wasSplit = true;
+      }
+
+      // Split: 取りすぎる → 取る + すぎる
+      if (!wasSplit && /すぎる$/.test(comp) && comp !== 'すぎる') {
+        const base = comp.replace(/すぎる$/, '');
+        const dictForm = guessDictionaryForm(base, 'i');
+        newBreakdown.push({ component: dictForm, type: 'verb (dictionary form)', meaning: atom.meaning || 'verb' });
+        newBreakdown.push({ component: 'すぎる', type: 'auxiliary verb', meaning: 'too much / excessively' });
+        wasSplit = true;
+      }
+
+      // Split: もう → keep as is (already atomic)
+      if (!wasSplit) {
+        newBreakdown.push(atom);
+      }
+    });
+
+    note.atomicBreakdown = newBreakdown;
+  });
+}
+
+function getParticleMeaning(particle: string): string {
+  const meanings: Record<string, string> = {
+    'を': 'direct object marker',
+    'が': 'subject marker',
+    'に': 'direction/location/time',
+    'の': 'possessive/modifier',
+    'へ': 'direction',
+    'と': 'and/with/quote',
+    'で': 'location of action/means',
+    'や': 'and (non-exhaustive)'
+  };
+  return meanings[particle] || 'particle';
+}
+
+function guessDictionaryForm(stem: string, type: string): string {
+  // Try to convert i-stem back to dictionary form
+  // 取り → 取る
+  if (type === 'i' && stem.endsWith('り')) {
+    return stem.slice(0, -1) + 'る';
+  }
+  if (type === 'i' && stem.endsWith('い')) {
+    return stem.slice(0, -1) + 'う';
+  }
+  if (type === 'i' && stem.endsWith('き')) {
+    return stem.slice(0, -1) + 'く';
+  }
+  if (type === 'i' && stem.endsWith('ぎ')) {
+    return stem.slice(0, -1) + 'ぐ';
+  }
+  if (type === 'i' && stem.endsWith('し')) {
+    return stem.slice(0, -1) + 'す';
+  }
+  if (type === 'i' && stem.endsWith('ち')) {
+    return stem.slice(0, -1) + 'つ';
+  }
+  if (type === 'i' && stem.endsWith('に')) {
+    return stem.slice(0, -1) + 'ぬ';
+  }
+  if (type === 'i' && stem.endsWith('び')) {
+    return stem.slice(0, -1) + 'ぶ';
+  }
+  if (type === 'i' && stem.endsWith('み')) {
+    return stem.slice(0, -1) + 'む';
+  }
+  // Default: add る
+  return stem + 'る';
+}
+
 export default async function handler(req: VercelRequest, res: VercelResponse) {
   // Set CORS headers
   res.setHeader('Access-Control-Allow-Origin', '*');
@@ -233,6 +352,9 @@ export default async function handler(req: VercelRequest, res: VercelResponse) {
       console.error('JSON parse error:', parseError, 'Content:', jsonMatch[0].substring(0, 500));
       return res.status(500).json({ error: 'Failed to parse AI response as JSON' });
     }
+
+    // Force split components that AI didn't break down properly
+    forceAtomicSplit(translationResult);
 
     // Validate atomic breakdown structure
     const validationErrors = validateAtomicBreakdown(translationResult);
