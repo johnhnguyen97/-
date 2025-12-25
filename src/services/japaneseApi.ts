@@ -1,7 +1,5 @@
 import type { JapaneseWord, ParsedWord, GrammarNote } from '../types';
 
-const API_BASE = 'http://localhost:3001/api';
-
 export interface SentenceTranslation {
   fullTranslation: string;
   wordOrder: string[];
@@ -12,15 +10,18 @@ export interface SentenceTranslation {
 
 /**
  * Translates an entire sentence using AI for natural Japanese
+ * Requires authentication - pass the session access token
  */
 export async function translateSentence(
   sentence: string,
-  parsedWords: ParsedWord[]
+  parsedWords: ParsedWord[],
+  accessToken: string
 ): Promise<SentenceTranslation> {
-  const response = await fetch(`${API_BASE}/translate-sentence`, {
+  const response = await fetch('/api/translate-sentence', {
     method: 'POST',
     headers: {
       'Content-Type': 'application/json',
+      'Authorization': `Bearer ${accessToken}`,
     },
     body: JSON.stringify({ sentence, parsedWords }),
   });
@@ -30,13 +31,5 @@ export async function translateSentence(
     throw new Error(error.error || 'Translation failed');
   }
 
-  return response.json();
-}
-
-/**
- * Health check for the API
- */
-export async function checkApiHealth(): Promise<{ status: string; hasApiKey: boolean }> {
-  const response = await fetch(`${API_BASE}/health`);
   return response.json();
 }
