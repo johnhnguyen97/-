@@ -148,3 +148,4 @@ Kept:
 - Grammar guide with PDF data
 - Favorites & Kana chart
 - Authentication
+
