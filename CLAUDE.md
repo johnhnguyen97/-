@@ -149,3 +149,4 @@ Kept:
 - Favorites & Kana chart
 - Authentication
 
+# GPG signing enabled
