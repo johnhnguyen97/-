@@ -551,16 +551,19 @@ function PageEditor({ page, onUpdate, onBack }: {
             </button>
 
             {showIconPicker && (
-              <div className={`absolute top-full left-0 mt-2 p-2 bg-white rounded-xl shadow-xl border border-gray-200 z-20 transition-all duration-150 ${
-                iconPickerVisible ? 'opacity-100 scale-100' : 'opacity-0 scale-95'
-              }`}>
+              <div
+                className={`absolute z-[100] mt-2 p-3 bg-white rounded-xl shadow-2xl border border-gray-200 transition-all duration-150 ${
+                  iconPickerVisible ? 'opacity-100 scale-100' : 'opacity-0 scale-95'
+                }`}
+                style={{ top: '100%', left: 0, width: '240px' }}
+              >
+                <p className="text-xs text-gray-500 mb-2 font-medium">Choose an icon</p>
                 <div className="grid grid-cols-6 gap-1">
-                  {PAGE_ICONS.map((icon, i) => (
+                  {PAGE_ICONS.map((icon) => (
                     <button
                       key={icon}
                       onClick={() => selectIcon(icon)}
-                      className="w-9 h-9 flex items-center justify-center hover:bg-indigo-100 rounded-lg text-xl transition-all hover:scale-110"
-                      style={{ animationDelay: `${i * 20}ms` }}
+                      className="w-8 h-8 flex items-center justify-center hover:bg-indigo-100 rounded-lg text-lg transition-colors"
                     >
                       {icon}
                     </button>
