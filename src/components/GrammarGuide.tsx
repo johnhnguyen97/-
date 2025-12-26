@@ -283,7 +283,7 @@ export function GrammarGuide({ onClose, initialPattern }: GrammarGuideProps) {
 
           {/* Topic detail */}
           {selectedTopic && (
-            <div className="flex-1 overflow-y-auto p-4 md:p-6 bg-white">
+            <div className="flex-1 overflow-y-auto p-4 md:p-6 bg-white content-panel" key={selectedTopic.id}>
               {/* Back button on mobile */}
               <button
                 onClick={() => setSelectedTopic(null)}
@@ -434,14 +434,14 @@ export function GrammarGuide({ onClose, initialPattern }: GrammarGuideProps) {
           {/* Empty state when no topic selected (desktop) */}
           {!selectedTopic && filteredTopics.length > 0 && (
             <div className="hidden md:flex flex-1 items-center justify-center bg-gradient-to-br from-gray-50 to-white">
-              <div className="text-center p-8">
-                <div className="w-20 h-20 mx-auto mb-4 bg-gray-100 rounded-2xl flex items-center justify-center">
+              <div className="empty-state">
+                <div className="empty-state-icon">
                   <svg className="w-10 h-10 text-gray-300" fill="none" stroke="currentColor" viewBox="0 0 24 24">
                     <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={1.5} d="M12 6.253v13m0-13C10.832 5.477 9.246 5 7.5 5S4.168 5.477 3 6.253v13C4.168 18.477 5.754 18 7.5 18s3.332.477 4.5 1.253m0-13C13.168 5.477 14.754 5 16.5 5c1.747 0 3.332.477 4.5 1.253v13C19.832 18.477 18.247 18 16.5 18c-1.746 0-3.332.477-4.5 1.253" />
                   </svg>
                 </div>
-                <p className="text-gray-500 font-medium">Select a grammar pattern</p>
-                <p className="text-sm text-gray-400 mt-1">to view detailed explanations</p>
+                <p className="empty-state-title">Select a grammar pattern</p>
+                <p className="empty-state-subtitle">to view detailed explanations</p>
               </div>
             </div>
           )}

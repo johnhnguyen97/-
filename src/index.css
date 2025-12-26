@@ -12,7 +12,62 @@ body {
   min-height: 100vh;
 }
 
-/* Custom animations */
+/* ==========================================
+   Global Modal Styles
+   ========================================== */
+
+/* Modal backdrop */
+.modal-backdrop {
+  @apply fixed inset-0 z-50 flex items-center justify-center p-4;
+  @apply transition-opacity duration-200;
+}
+
+.modal-backdrop.modal-entering {
+  @apply opacity-0;
+}
+
+.modal-backdrop.modal-visible {
+  @apply opacity-100;
+}
+
+/* Backdrop blur overlay */
+.modal-overlay {
+  @apply absolute inset-0 bg-black/30 backdrop-blur-sm;
+}
+
+/* Modal container */
+.modal-container {
+  @apply relative bg-white/95 backdrop-blur-md rounded-2xl shadow-2xl;
+  @apply transform transition-all duration-200;
+  @apply max-h-[90vh] overflow-hidden;
+}
+
+.modal-entering .modal-container {
+  @apply scale-95 translate-y-4 opacity-0;
+}
+
+.modal-visible .modal-container {
+  @apply scale-100 translate-y-0 opacity-100;
+}
+
+/* Modal header with gradient */
+.modal-header {
+  @apply bg-gradient-to-r from-amber-500 to-orange-500 p-4 md:p-6 text-white;
+}
+
+.modal-header-icon {
+  @apply w-10 h-10 md:w-12 md:h-12 bg-white/20 rounded-xl flex items-center justify-center;
+}
+
+.modal-close-btn {
+  @apply w-8 h-8 md:w-10 md:h-10 rounded-full bg-white/20 hover:bg-white/30;
+  @apply flex items-center justify-center transition-all hover:rotate-90 duration-200;
+}
+
+/* ==========================================
+   Custom Animations
+   ========================================== */
+
 @keyframes shake {
   0%, 100% { transform: translateX(0); }
   10%, 30%, 50%, 70%, 90% { transform: translateX(-4px); }
@@ -30,6 +85,17 @@ body {
   }
 }
 
+@keyframes fadeInRight {
+  from {
+    opacity: 0;
+    transform: translateX(20px);
+  }
+  to {
+    opacity: 1;
+    transform: translateX(0);
+  }
+}
+
 @keyframes slideIn {
   from {
     opacity: 0;
@@ -41,6 +107,44 @@ body {
   }
 }
 
+@keyframes scaleIn {
+  from {
+    opacity: 0;
+    transform: scale(0.9);
+  }
+  to {
+    opacity: 1;
+    transform: scale(1);
+  }
+}
+
+@keyframes float {
+  0%, 100% { transform: translateY(0); }
+  50% { transform: translateY(-10px); }
+}
+
+@keyframes pulse-soft {
+  0%, 100% { opacity: 1; }
+  50% { opacity: 0.7; }
+}
+
+@keyframes shimmer {
+  0% { background-position: -200% 0; }
+  100% { background-position: 200% 0; }
+}
+
+/* Staggered children animation */
+@keyframes staggerFadeIn {
+  from {
+    opacity: 0;
+    transform: translateY(8px);
+  }
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+
 .animate-shake {
   animation: shake 0.5s ease-in-out;
 }
@@ -49,11 +153,70 @@ body {
   animation: fadeInUp 0.3s ease-out forwards;
 }
 
+.animate-fadeInRight {
+  animation: fadeInRight 0.4s ease-out forwards;
+}
+
 .animate-slideIn {
   animation: slideIn 0.3s ease-out forwards;
 }
 
-/* Smooth scrollbar */
+.animate-scaleIn {
+  animation: scaleIn 0.2s ease-out forwards;
+}
+
+.animate-float {
+  animation: float 3s ease-in-out infinite;
+}
+
+.animate-pulse-soft {
+  animation: pulse-soft 2s ease-in-out infinite;
+}
+
+.animate-shimmer {
+  background: linear-gradient(90deg, transparent, rgba(255,255,255,0.4), transparent);
+  background-size: 200% 100%;
+  animation: shimmer 1.5s infinite;
+}
+
+/* Staggered animation for lists */
+.stagger-children > * {
+  animation: staggerFadeIn 0.3s ease-out forwards;
+  opacity: 0;
+}
+
+.stagger-children > *:nth-child(1) { animation-delay: 0ms; }
+.stagger-children > *:nth-child(2) { animation-delay: 50ms; }
+.stagger-children > *:nth-child(3) { animation-delay: 100ms; }
+.stagger-children > *:nth-child(4) { animation-delay: 150ms; }
+.stagger-children > *:nth-child(5) { animation-delay: 200ms; }
+.stagger-children > *:nth-child(6) { animation-delay: 250ms; }
+.stagger-children > *:nth-child(7) { animation-delay: 300ms; }
+.stagger-children > *:nth-child(8) { animation-delay: 350ms; }
+.stagger-children > *:nth-child(9) { animation-delay: 400ms; }
+.stagger-children > *:nth-child(10) { animation-delay: 450ms; }
+
+/* Grid stagger for kana charts */
+.grid-stagger > * {
+  animation: scaleIn 0.2s ease-out forwards;
+  opacity: 0;
+}
+
+.grid-stagger > *:nth-child(5n+1) { animation-delay: 0ms; }
+.grid-stagger > *:nth-child(5n+2) { animation-delay: 20ms; }
+.grid-stagger > *:nth-child(5n+3) { animation-delay: 40ms; }
+.grid-stagger > *:nth-child(5n+4) { animation-delay: 60ms; }
+.grid-stagger > *:nth-child(5n+5) { animation-delay: 80ms; }
+
+/* Content panel transition */
+.content-panel {
+  animation: fadeInRight 0.3s ease-out;
+}
+
+/* ==========================================
+   Smooth Scrollbar
+   ========================================== */
+
 ::-webkit-scrollbar {
   width: 8px;
   height: 8px;
@@ -72,9 +235,33 @@ body {
   background: #9ca3af;
 }
 
-/* Mobile-friendly touch targets */
+/* ==========================================
+   Mobile-friendly touch targets
+   ========================================== */
+
 @media (max-width: 768px) {
   button, a, select, input {
     min-height: 44px;
   }
+}
+
+/* ==========================================
+   Empty State Styles
+   ========================================== */
+
+.empty-state {
+  @apply flex flex-col items-center justify-center p-8 text-center;
+}
+
+.empty-state-icon {
+  @apply w-20 h-20 mx-auto mb-4 bg-gray-100 rounded-2xl flex items-center justify-center;
+  animation: float 3s ease-in-out infinite;
+}
+
+.empty-state-title {
+  @apply text-gray-500 font-medium;
+}
+
+.empty-state-subtitle {
+  @apply text-sm text-gray-400 mt-1;
 }

@@ -1,4 +1,4 @@
-import { useState } from 'react';
+import { useState, useEffect } from 'react';
 
 interface KanaChartProps {
   isOpen: boolean;
@@ -7,6 +7,18 @@ interface KanaChartProps {
 
 export function KanaChart({ isOpen, onClose }: KanaChartProps) {
   const [activeTab, setActiveTab] = useState<'hiragana' | 'katakana'>('hiragana');
+  const [isVisible, setIsVisible] = useState(false);
+
+  useEffect(() => {
+    if (isOpen) {
+      requestAnimationFrame(() => setIsVisible(true));
+    }
+  }, [isOpen]);
+
+  const handleClose = () => {
+    setIsVisible(false);
+    setTimeout(onClose, 200);
+  };
 
   if (!isOpen) return null;
 
@@ -41,23 +53,37 @@ export function KanaChart({ isOpen, onClose }: KanaChartProps) {
   const currentChart = activeTab === 'hiragana' ? hiraganaChart : katakanaChart;
 
   return (
-    <>
-      {/* Backdrop */}
-      <div
-        className="fixed inset-0 bg-black bg-opacity-40 z-40"
-        onClick={onClose}
-      />
+    <div
+      className={`fixed inset-0 z-50 flex items-center justify-center p-4 transition-opacity duration-200 ${
+        isVisible ? 'opacity-100' : 'opacity-0'
+      }`}
+      onClick={handleClose}
+    >
+      {/* Backdrop with blur */}
+      <div className="absolute inset-0 bg-black/30 backdrop-blur-sm" />
 
       {/* Modal */}
-      <div className="fixed inset-0 z-50 flex items-center justify-center p-2 sm:p-4">
-        <div className="bg-white rounded-lg shadow-xl max-w-lg w-full max-h-[95vh] overflow-hidden">
-          {/* Header */}
-          <div className="flex items-center justify-between px-3 py-2 sm:px-4 sm:py-3 border-b border-gray-200">
-            <h2 className="text-base sm:text-lg font-semibold text-gray-800">Kana Chart</h2>
+      <div
+        className={`relative bg-white/95 backdrop-blur-md rounded-2xl shadow-2xl max-w-lg w-full max-h-[90vh] overflow-hidden transform transition-all duration-200 ${
+          isVisible ? 'scale-100 translate-y-0' : 'scale-95 translate-y-4'
+        }`}
+        onClick={(e) => e.stopPropagation()}
+      >
+        {/* Header with gradient */}
+        <div className="bg-gradient-to-r from-pink-500 to-rose-500 p-4 text-white">
+          <div className="flex items-center justify-between">
+            <div className="flex items-center gap-3">
+              <div className="w-10 h-10 bg-white/20 rounded-xl flex items-center justify-center text-xl">
+                {activeTab === 'hiragana' ? 'あ' : 'ア'}
+              </div>
+              <div>
+                <h2 className="text-lg font-bold">Kana Chart</h2>
+                <p className="text-white/80 text-xs">Japanese syllabary reference</p>
+              </div>
+            </div>
             <button
-              onClick={onClose}
-              className="p-1.5 text-gray-400 hover:text-gray-600 active:bg-gray-100 rounded-full"
-              aria-label="Close"
+              onClick={handleClose}
+              className="w-8 h-8 rounded-full bg-white/20 hover:bg-white/30 flex items-center justify-center transition-all hover:rotate-90 duration-200"
             >
               <svg className="w-5 h-5" fill="none" stroke="currentColor" viewBox="0 0 24 24">
                 <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M6 18L18 6M6 6l12 12" />
@@ -66,57 +92,72 @@ export function KanaChart({ isOpen, onClose }: KanaChartProps) {
           </div>
 
           {/* Tabs */}
-          <div className="flex border-b border-gray-200">
+          <div className="flex mt-4 bg-white/10 rounded-xl p-1">
             <button
               onClick={() => setActiveTab('hiragana')}
-              className={`flex-1 px-3 py-2 text-xs sm:text-sm font-medium ${
+              className={`flex-1 px-4 py-2 text-sm font-semibold rounded-lg transition-all duration-200 ${
                 activeTab === 'hiragana'
-                  ? 'bg-gray-800 text-white'
-                  : 'bg-white text-gray-600 active:bg-gray-50'
+                  ? 'bg-white text-pink-600 shadow-lg'
+                  : 'text-white/80 hover:text-white hover:bg-white/10'
               }`}
             >
               ひらがな
+              <span className="block text-xs opacity-70 mt-0.5">Hiragana</span>
             </button>
             <button
               onClick={() => setActiveTab('katakana')}
-              className={`flex-1 px-3 py-2 text-xs sm:text-sm font-medium ${
+              className={`flex-1 px-4 py-2 text-sm font-semibold rounded-lg transition-all duration-200 ${
                 activeTab === 'katakana'
-                  ? 'bg-gray-800 text-white'
-                  : 'bg-white text-gray-600 active:bg-gray-50'
+                  ? 'bg-white text-pink-600 shadow-lg'
+                  : 'text-white/80 hover:text-white hover:bg-white/10'
               }`}
             >
               カタカナ
+              <span className="block text-xs opacity-70 mt-0.5">Katakana</span>
             </button>
           </div>
+        </div>
 
-          {/* Chart Content */}
-          <div className="p-3 sm:p-4 overflow-y-auto max-h-[calc(95vh-100px)]">
-            <div className="grid grid-cols-5 gap-1 sm:gap-1.5">
-              {currentChart.map((item, index) => (
-                <div
-                  key={index}
-                  className={`aspect-square flex flex-col items-center justify-center rounded ${
-                    item.kana
-                      ? 'bg-gray-50 border border-gray-200 active:bg-gray-100'
-                      : ''
-                  }`}
-                >
-                  {item.kana && (
-                    <>
-                      <span className="text-xl sm:text-2xl font-semibold text-gray-900">
-                        {item.kana}
-                      </span>
-                      <span className="text-[10px] sm:text-xs text-gray-500 mt-0.5">
-                        {item.romaji}
-                      </span>
-                    </>
-                  )}
-                </div>
-              ))}
+        {/* Chart Content */}
+        <div className="p-4 overflow-y-auto max-h-[calc(90vh-180px)] bg-gradient-to-b from-gray-50 to-white">
+          <div className="grid grid-cols-5 gap-2 grid-stagger" key={activeTab}>
+            {currentChart.map((item, index) => (
+              <div
+                key={`${activeTab}-${index}`}
+                className={`aspect-square flex flex-col items-center justify-center rounded-xl transition-all duration-200 ${
+                  item.kana
+                    ? 'bg-white border-2 border-gray-100 hover:border-pink-300 hover:shadow-lg hover:scale-105 cursor-pointer group'
+                    : ''
+                }`}
+              >
+                {item.kana && (
+                  <>
+                    <span className="text-2xl sm:text-3xl font-bold text-gray-800 group-hover:text-pink-600 transition-colors">
+                      {item.kana}
+                    </span>
+                    <span className="text-xs text-gray-400 mt-1 group-hover:text-pink-400 transition-colors">
+                      {item.romaji}
+                    </span>
+                  </>
+                )}
+              </div>
+            ))}
+          </div>
+
+          {/* Legend */}
+          <div className="mt-4 pt-4 border-t border-gray-100">
+            <div className="flex items-center justify-center gap-6 text-xs text-gray-500">
+              <div className="flex items-center gap-2">
+                <div className="w-3 h-3 rounded bg-pink-100 border border-pink-300"></div>
+                <span>Hover to highlight</span>
+              </div>
+              <div className="flex items-center gap-2">
+                <span className="text-gray-400">46 characters</span>
+              </div>
             </div>
           </div>
         </div>
       </div>
-    </>
+    </div>
   );
 }
