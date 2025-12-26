@@ -88,14 +88,14 @@ export function WordNoteButton({ word, reading, english }: WordNoteButtonProps) 
       <button
         ref={buttonRef}
         onClick={handleClick}
-        className={`w-6 h-6 rounded-full flex items-center justify-center transition-all hover:scale-110 active:scale-90 ${
+        className={`w-5 h-5 rounded-full flex items-center justify-center transition-all active:scale-90 ${
           hasNote
-            ? 'bg-gradient-to-br from-violet-500 to-purple-600 text-white shadow-md'
-            : 'hover:bg-purple-100 text-gray-400 hover:text-purple-500'
+            ? 'bg-gradient-to-br from-violet-500 to-purple-600 text-white shadow-sm'
+            : 'bg-white/90 shadow-sm border border-gray-200 hover:bg-purple-50 hover:border-purple-300 text-gray-400 hover:text-purple-500'
         }`}
         title={hasNote ? 'Edit note' : 'Add note'}
       >
-        <svg className="w-3.5 h-3.5" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+        <svg className="w-2.5 h-2.5" fill="none" stroke="currentColor" viewBox="0 0 24 24">
           <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M11 5H6a2 2 0 00-2 2v11a2 2 0 002 2h11a2 2 0 002-2v-5m-1.414-9.414a2 2 0 112.828 2.828L11.828 15H9v-2.828l8.586-8.586z" />
         </svg>
       </button>

@@ -681,12 +681,21 @@ export function Settings({ onClose }: SettingsProps) {
                     <span className="text-gray-900">{__GIT_DATE__}</span>
                   </div>
                   <div className="flex justify-between p-2">
-                    <span>Made with</span>
-                    <span className="text-gray-900">React + Vite</span>
+                    <span>Made by</span>
+                    <span className="text-gray-900 font-medium">Nguyenetics</span>
                   </div>
-                  <p className="text-xs text-gray-400 pt-2">
-                    語順 (Gojun) - Learn Japanese word order by rearranging sentences.
-                  </p>
+                  <div className="flex justify-between p-2">
+                    <span>Built with</span>
+                    <span className="text-gray-900">React + Vite + Supabase</span>
+                  </div>
+                  <div className="pt-3 mt-2 border-t border-gray-100">
+                    <p className="text-xs text-gray-500">
+                      語順 (Gojun) - Learn Japanese word order by rearranging sentences into proper Japanese grammar structure.
+                    </p>
+                    <p className="text-xs text-gray-400 mt-2">
+                      © {new Date().getFullYear()} Nguyenetics. All rights reserved.
+                    </p>
+                  </div>
                 </div>
               </div>
             </div>

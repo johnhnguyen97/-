@@ -296,7 +296,7 @@ export function SentenceDisplay({
                 >
                   {/* Action Buttons - Top Right */}
                   {!isUsed && (
-                    <div className="absolute -top-2 -right-2 flex gap-1 z-20">
+                    <div className="absolute -top-1 -right-1 flex gap-0.5 z-20">
                       <FavoriteButton
                         word={slot.japaneseWord.japanese}
                         reading={slot.japaneseWord.reading}
