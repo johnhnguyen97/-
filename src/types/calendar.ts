@@ -95,3 +95,52 @@ export interface JishoSearchResult {
   meta: { status: number };
   data: JishoWord[];
 }
+
+// Calendar event types
+export type CalendarEventType = 'custom' | 'study_session' | 'review' | 'word_review' | 'kanji_review';
+export type CalendarSyncStatus = 'local' | 'synced' | 'pending_sync' | 'sync_error';
+export type CalendarView = 'dayGridMonth' | 'timeGridWeek' | 'timeGridDay';
+
+export interface CalendarEvent {
+  id: string;
+  title: string;
+  description?: string;
+  eventType: CalendarEventType;
+  startDate: string;
+  startTime?: string;
+  endDate?: string;
+  endTime?: string;
+  isAllDay: boolean;
+  linkedWord?: string;
+  linkedKanji?: string;
+  googleEventId?: string;
+  syncStatus: CalendarSyncStatus;
+  color?: string;
+  createdAt?: string;
+  updatedAt?: string;
+}
+
+// Calendar task types
+export type CalendarTaskType = 'custom' | 'learn_word' | 'review_word' | 'learn_kanji' | 'grammar_study' | 'srs_review';
+export type TaskPriority = 0 | 1 | 2;
+
+export interface CalendarTask {
+  id: string;
+  title: string;
+  notes?: string;
+  taskType: CalendarTaskType;
+  isCompleted: boolean;
+  completedAt?: string;
+  dueDate?: string;
+  dueTime?: string;
+  reminderMinutes?: number;
+  linkedWord?: string;
+  linkedKanji?: string;
+  linkedJlptLevel?: JLPTLevel;
+  googleTaskId?: string;
+  googleTaskListId?: string;
+  syncStatus: CalendarSyncStatus;
+  priority: TaskPriority;
+  createdAt?: string;
+  updatedAt?: string;
+}

@@ -158,8 +158,12 @@ export default async function handler(req: VercelRequest, res: VercelResponse) {
     switch (action) {
       case 'create-wotd-events':
         return createWordOfTheDayEvents(req, res, accessToken, supabase, user.id);
+      case 'delete-wotd-events':
+        return deleteWordOfTheDayEvents(req, res, accessToken);
       case 'create-task':
         return createTask(req, res, accessToken);
+      case 'list-calendars':
+        return listCalendars(req, res, accessToken);
       case 'list-events':
         return listEvents(req, res, accessToken);
       default:
@@ -171,14 +175,20 @@ export default async function handler(req: VercelRequest, res: VercelResponse) {
   }
 }
 
-// Create Word of the Day events for the next 30 days
+// Create Word of the Day events with flexible date range and reminder time
 // eslint-disable-next-line @typescript-eslint/no-explicit-any
 async function createWordOfTheDayEvents(req: VercelRequest, res: VercelResponse, accessToken: string, supabase: any, userId: string) {
   if (req.method !== 'POST') {
     return res.status(405).json({ error: 'Method not allowed' });
   }
 
-  const { jlptLevel = 'N5', reminderMinutes = 540 } = req.body || {}; // 540 = 9am (9*60)
+  const {
+    jlptLevel = 'N5',
+    reminderTime = '09:00',  // 24-hour format HH:MM
+    startDate,               // Optional: YYYY-MM-DD format
+    endDate,                 // Optional: YYYY-MM-DD format
+    days = 30                // Default 30 days if no dates provided
+  } = req.body || {};
 
   // Get user's calendar settings
   const { data: settings } = await supabase
@@ -188,17 +198,32 @@ async function createWordOfTheDayEvents(req: VercelRequest, res: VercelResponse,
     .single();
 
   const level = settings?.jlpt_level || jlptLevel;
+
+  // Calculate date range
+  let start: Date;
+  let end: Date;
+
+  if (startDate && endDate) {
+    start = new Date(startDate);
+    end = new Date(endDate);
+  } else {
+    start = new Date();
+    end = new Date();
+    end.setDate(end.getDate() + days);
+  }
+
+  // Convert reminder time to minutes from midnight for the reminder
+  const [hours, minutes] = reminderTime.split(':').map(Number);
+  const reminderMinutes = (24 * 60) - (hours * 60 + minutes); // Minutes before midnight
+
   const createdEvents: string[] = [];
-  const today = new Date();
+  const currentDate = new Date(start);
 
-  for (let i = 0; i < 30; i++) {
-    const date = new Date(today);
-    date.setDate(date.getDate() + i);
-    const dateStr = date.toISOString().split('T')[0];
-
+  while (currentDate <= end) {
+    const dateStr = currentDate.toISOString().split('T')[0];
     const word = getWordOfTheDay(dateStr, level);
 
-    // Create all-day event with reminder
+    // Create all-day event with reminder at specified time
     const event = {
       summary: `📚 Word of the Day: ${word.word} (${word.reading})`,
       description: `Japanese: ${word.word}\nReading: ${word.reading}\nMeaning: ${word.meaning}\nJLPT Level: ${level}\n\nPowered by Gojun 語順`,
@@ -210,6 +235,12 @@ async function createWordOfTheDayEvents(req: VercelRequest, res: VercelResponse,
           { method: 'popup', minutes: reminderMinutes },
         ],
       },
+      extendedProperties: {
+        private: {
+          createdBy: 'gojun',
+          type: 'wotd',
+        }
+      }
     };
 
     const response = await fetch('https://www.googleapis.com/calendar/v3/calendars/primary/events', {
@@ -228,12 +259,96 @@ async function createWordOfTheDayEvents(req: VercelRequest, res: VercelResponse,
       const error = await response.json();
       console.error('Failed to create event:', error);
     }
+
+    currentDate.setDate(currentDate.getDate() + 1);
   }
 
   return res.status(200).json({
     success: true,
     eventsCreated: createdEvents.length,
     jlptLevel: level,
+    dateRange: {
+      start: start.toISOString().split('T')[0],
+      end: end.toISOString().split('T')[0],
+    },
+    reminderTime,
+  });
+}
+
+// Delete all Word of the Day events created by Gojun
+async function deleteWordOfTheDayEvents(req: VercelRequest, res: VercelResponse, accessToken: string) {
+  if (req.method !== 'DELETE' && req.method !== 'POST') {
+    return res.status(405).json({ error: 'Method not allowed' });
+  }
+
+  // Find all events with "Word of the Day" in the summary
+  const now = new Date();
+  const maxDate = new Date();
+  maxDate.setFullYear(maxDate.getFullYear() + 1); // Look up to 1 year ahead
+
+  const searchUrl = `https://www.googleapis.com/calendar/v3/calendars/primary/events?timeMin=${now.toISOString()}&timeMax=${maxDate.toISOString()}&q=${encodeURIComponent('Word of the Day')}&maxResults=250`;
+
+  const listResponse = await fetch(searchUrl, {
+    headers: { 'Authorization': `Bearer ${accessToken}` }
+  });
+
+  if (!listResponse.ok) {
+    return res.status(400).json({ error: 'Failed to list events' });
+  }
+
+  const listData = await listResponse.json();
+  const events = listData.items || [];
+
+  // Filter for Gojun events (check summary pattern)
+  const gojunEvents = events.filter((e: { summary?: string }) =>
+    e.summary?.includes('Word of the Day') && e.summary?.includes('📚')
+  );
+
+  let deletedCount = 0;
+  const errors: string[] = [];
+
+  for (const event of gojunEvents) {
+    const deleteResponse = await fetch(
+      `https://www.googleapis.com/calendar/v3/calendars/primary/events/${event.id}`,
+      {
+        method: 'DELETE',
+        headers: { 'Authorization': `Bearer ${accessToken}` }
+      }
+    );
+
+    if (deleteResponse.ok || deleteResponse.status === 204) {
+      deletedCount++;
+    } else {
+      errors.push(`Failed to delete event ${event.id}`);
+    }
+  }
+
+  return res.status(200).json({
+    success: true,
+    eventsDeleted: deletedCount,
+    totalFound: gojunEvents.length,
+    errors: errors.length > 0 ? errors : undefined,
+  });
+}
+
+// List user's Google calendars
+async function listCalendars(_req: VercelRequest, res: VercelResponse, accessToken: string) {
+  const response = await fetch('https://www.googleapis.com/calendar/v3/users/me/calendarList', {
+    headers: { 'Authorization': `Bearer ${accessToken}` }
+  });
+
+  if (!response.ok) {
+    return res.status(400).json({ error: 'Failed to list calendars' });
+  }
+
+  const data = await response.json();
+  return res.status(200).json({
+    calendars: data.items?.map((c: { id: string; summary: string; primary?: boolean; backgroundColor?: string }) => ({
+      id: c.id,
+      name: c.summary,
+      primary: c.primary || false,
+      color: c.backgroundColor,
+    })) || [],
   });
 }
 

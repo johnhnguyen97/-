@@ -145,12 +145,14 @@ export default async function handler(req: VercelRequest, res: VercelResponse) {
     switch (action) {
       case 'daily':
         return handleDaily(req, res, supabase, user.id);
+      case 'range':
+        return handleRange(req, res, supabase, user.id);
       case 'settings':
         return handleSettings(req, res, supabase, user.id);
       case 'learned':
         return handleLearned(req, res, supabase, user.id);
       default:
-        return res.status(400).json({ error: 'Invalid action. Use: daily, settings, learned, or ical' });
+        return res.status(400).json({ error: 'Invalid action. Use: daily, range, settings, learned, or ical' });
     }
   } catch (error) {
     console.error('Calendar API error:', error);
@@ -235,6 +237,141 @@ async function handleDaily(req: VercelRequest, res: VercelResponse, supabase: an
         isNationalHoliday: true
       };
     })
+  });
+}
+
+// Handle date range queries for full calendar view
+// eslint-disable-next-line @typescript-eslint/no-explicit-any
+async function handleRange(req: VercelRequest, res: VercelResponse, supabase: any, userId: string) {
+  if (req.method !== 'GET') return res.status(405).json({ error: 'Method not allowed' });
+
+  const { start, end } = req.query;
+  if (!start || !end || typeof start !== 'string' || typeof end !== 'string') {
+    return res.status(400).json({ error: 'Missing start or end date parameters' });
+  }
+
+  // Validate date format
+  const startDate = new Date(start);
+  const endDate = new Date(end);
+  if (isNaN(startDate.getTime()) || isNaN(endDate.getTime())) {
+    return res.status(400).json({ error: 'Invalid date format' });
+  }
+
+  // Get user settings
+  const { data: settings } = await supabase
+    .from('user_calendar_settings')
+    .select('jlpt_level')
+    .eq('user_id', userId)
+    .single();
+
+  const jlptLevel = settings?.jlpt_level || 'N5';
+  const wordTerms = JLPT_SEARCH_TERMS[jlptLevel] || JLPT_SEARCH_TERMS.N5;
+
+  // Get learned items for this user
+  const { data: learnedItems } = await supabase
+    .from('user_learned_items')
+    .select('item_type, item_key')
+    .eq('user_id', userId);
+
+  const learnedWords = new Set(learnedItems?.filter((i: { item_type: string }) => i.item_type === 'word').map((i: { item_key: string }) => i.item_key) || []);
+  const learnedKanji = new Set(learnedItems?.filter((i: { item_type: string }) => i.item_type === 'kanji').map((i: { item_key: string }) => i.item_key) || []);
+
+  // Generate words and kanji for each day in the range
+  const words: Array<{ date: string; word: unknown }> = [];
+  const kanji: Array<{ date: string; kanji: unknown }> = [];
+
+  const currentDate = new Date(startDate);
+  const endTime = endDate.getTime();
+
+  // Limit to 45 days to prevent too many API calls
+  const maxDays = 45;
+  let dayCount = 0;
+
+  while (currentDate.getTime() <= endTime && dayCount < maxDays) {
+    const dateString = currentDate.toISOString().split('T')[0];
+
+    // Get word for this day using the hash function
+    const wordIndex = hashCode(dateString + jlptLevel + 'word') % wordTerms.length;
+    const kanjiIndex = hashCode(dateString + jlptLevel + 'kanji') % wordTerms.length;
+
+    const searchTerm = wordTerms[wordIndex];
+    const wordData = await fetchWordFromJisho(searchTerm);
+
+    if (wordData) {
+      words.push({
+        date: dateString,
+        word: {
+          word: wordData.word,
+          reading: wordData.reading,
+          meaning: wordData.meaning,
+          partOfSpeech: wordData.partOfSpeech,
+          jlptLevel,
+          isLearned: learnedWords.has(wordData.word)
+        }
+      });
+    }
+
+    // Get kanji for this day
+    const kanjiChar = wordTerms[kanjiIndex].match(/[\u4e00-\u9faf]/)?.[0] || '日';
+    const kanjiData = await fetchKanjiData(kanjiChar);
+
+    kanji.push({
+      date: dateString,
+      kanji: kanjiData ? {
+        kanji: kanjiData.kanji,
+        onyomi: kanjiData.onyomi,
+        kunyomi: kanjiData.kunyomi,
+        meaning: kanjiData.meaning,
+        strokeCount: kanjiData.strokeCount,
+        jlptLevel,
+        isLearned: learnedKanji.has(kanjiData.kanji)
+      } : {
+        kanji: kanjiChar,
+        onyomi: [],
+        kunyomi: [],
+        meaning: 'kanji',
+        jlptLevel,
+        isLearned: learnedKanji.has(kanjiChar)
+      }
+    });
+
+    currentDate.setDate(currentDate.getDate() + 1);
+    dayCount++;
+  }
+
+  // Get holidays for the year(s) in the range
+  const startYear = startDate.getFullYear();
+  const endYear = endDate.getFullYear();
+  let allHolidays: Array<{ date: string; localName: string; name: string }> = [];
+
+  for (let year = startYear; year <= endYear; year++) {
+    const yearHolidays = await fetchHolidays(year);
+    allHolidays = allHolidays.concat(yearHolidays);
+  }
+
+  // Filter holidays to the date range
+  const holidays = allHolidays
+    .filter((h: { date: string }) => {
+      const hDate = h.date;
+      return hDate >= start && hDate <= end;
+    })
+    .map((h: { date: string; localName: string; name: string }) => {
+      const cultural = holidayCulturalInfo[h.name] || {};
+      return {
+        date: h.date,
+        localName: h.localName,
+        nameEnglish: h.name,
+        description: cultural.description,
+        traditions: cultural.traditions,
+        isNationalHoliday: true
+      };
+    });
+
+  return res.status(200).json({
+    jlptLevel,
+    words,
+    kanji,
+    holidays
   });
 }
 

@@ -37,11 +37,30 @@ export async function disconnectGoogle(accessToken: string): Promise<void> {
   }
 }
 
+export interface CreateEventsOptions {
+  jlptLevel?: string;
+  reminderTime?: string;  // 24-hour format "HH:MM"
+  startDate?: string;     // "YYYY-MM-DD"
+  endDate?: string;       // "YYYY-MM-DD"
+  days?: number;          // Default 30
+}
+
+export interface CreateEventsResult {
+  success: boolean;
+  eventsCreated: number;
+  jlptLevel: string;
+  dateRange: {
+    start: string;
+    end: string;
+  };
+  reminderTime: string;
+}
+
 // Create Word of the Day events
 export async function createWordOfTheDayEvents(
   accessToken: string,
-  options: { jlptLevel?: string; reminderMinutes?: number } = {}
-): Promise<{ success: boolean; eventsCreated: number }> {
+  options: CreateEventsOptions = {}
+): Promise<CreateEventsResult> {
   const response = await fetch('/api/google-calendar?action=create-wotd-events', {
     method: 'POST',
     headers: {
@@ -54,6 +73,40 @@ export async function createWordOfTheDayEvents(
   if (!response.ok) {
     const error = await response.json();
     throw new Error(error.error || 'Failed to create events');
+  }
+
+  return response.json();
+}
+
+// Delete all Word of the Day events from Google Calendar
+export async function deleteWordOfTheDayEvents(
+  accessToken: string
+): Promise<{ success: boolean; eventsDeleted: number; totalFound: number }> {
+  const response = await fetch('/api/google-calendar?action=delete-wotd-events', {
+    method: 'POST',
+    headers: {
+      Authorization: `Bearer ${accessToken}`,
+    },
+  });
+
+  if (!response.ok) {
+    const error = await response.json();
+    throw new Error(error.error || 'Failed to delete events');
+  }
+
+  return response.json();
+}
+
+// List user's Google calendars
+export async function listGoogleCalendars(
+  accessToken: string
+): Promise<{ calendars: { id: string; name: string; primary: boolean; color: string }[] }> {
+  const response = await fetch('/api/google-calendar?action=list-calendars', {
+    headers: { Authorization: `Bearer ${accessToken}` },
+  });
+
+  if (!response.ok) {
+    throw new Error('Failed to list calendars');
   }
 
   return response.json();

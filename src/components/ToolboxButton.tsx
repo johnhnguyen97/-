@@ -3,6 +3,7 @@ import { KanaChart } from './KanaChart';
 import { NotesPanel } from './NotesPanel';
 import { GrammarGuide } from './GrammarGuide';
 import { LearningCalendar } from './LearningCalendar/LearningCalendar';
+import { FullCalendarView } from './Calendar';
 
 export function ToolboxButton() {
   const [isMenuOpen, setIsMenuOpen] = useState(false);
@@ -10,6 +11,7 @@ export function ToolboxButton() {
   const [isNotesOpen, setIsNotesOpen] = useState(false);
   const [isGrammarGuideOpen, setIsGrammarGuideOpen] = useState(false);
   const [isCalendarOpen, setIsCalendarOpen] = useState(false);
+  const [isFullCalendarOpen, setIsFullCalendarOpen] = useState(false);
   const [menuVisible, setMenuVisible] = useState(false);
 
   useEffect(() => {
@@ -40,8 +42,14 @@ export function ToolboxButton() {
     setIsMenuOpen(false);
   };
 
+  const handleFullCalendarClick = () => {
+    setIsFullCalendarOpen(true);
+    setIsMenuOpen(false);
+  };
+
   const menuItems = [
-    { icon: '📅', label: 'Calendar', sublabel: 'Word of the Day', onClick: handleCalendarClick, color: 'from-indigo-500 to-purple-500' },
+    { icon: '🗓️', label: 'Full Calendar', sublabel: 'Month/Week/Day view', onClick: handleFullCalendarClick, color: 'from-blue-500 to-indigo-500' },
+    { icon: '📅', label: 'Daily', sublabel: 'Word of the Day', onClick: handleCalendarClick, color: 'from-indigo-500 to-purple-500' },
     { icon: '📖', label: 'Grammar Guide', sublabel: 'Learn patterns', onClick: handleGrammarGuideClick, color: 'from-amber-500 to-orange-500' },
     { icon: 'あ', label: 'Kana Chart', sublabel: 'Hiragana & Katakana', onClick: handleKanaChartClick, color: 'from-pink-500 to-rose-500' },
     { icon: '📝', label: 'Notes', sublabel: 'Favorites & notes', onClick: handleNotesClick, color: 'from-emerald-500 to-teal-500' },
@@ -138,6 +146,11 @@ export function ToolboxButton() {
       {/* Learning Calendar */}
       {isCalendarOpen && (
         <LearningCalendar onClose={() => setIsCalendarOpen(false)} />
+      )}
+
+      {/* Full Calendar View */}
+      {isFullCalendarOpen && (
+        <FullCalendarView onClose={() => setIsFullCalendarOpen(false)} />
       )}
     </>
   );

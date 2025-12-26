@@ -7,7 +7,9 @@ import {
   handleKeepCallback
 } from '../services/keepApi';
 import { getSettings, updateSettings, getIcalUrl } from '../services/calendarApi';
-import { getGoogleStatus, connectGoogle, disconnectGoogle, createWordOfTheDayEvents, type GoogleStatus } from '../services/googleCalendarApi';
+import { getGoogleStatus, connectGoogle, disconnectGoogle, createWordOfTheDayEvents, deleteWordOfTheDayEvents, type GoogleStatus } from '../services/googleCalendarApi';
+import { TimePicker } from './Calendar/TimePicker';
+import { DateRangePicker } from './Calendar/DateRangePicker';
 
 interface SettingsProps {
   onClose: () => void;
@@ -45,6 +47,12 @@ export function Settings({ onClose }: SettingsProps) {
   const [googleStatus, setGoogleStatus] = useState<GoogleStatus | null>(null);
   const [googleLoading, setGoogleLoading] = useState(false);
   const [reminderTime, setReminderTime] = useState('09:00');
+  const [syncStartDate, setSyncStartDate] = useState(() => new Date().toISOString().split('T')[0]);
+  const [syncEndDate, setSyncEndDate] = useState(() => {
+    const end = new Date();
+    end.setDate(end.getDate() + 30);
+    return end.toISOString().split('T')[0];
+  });
 
   // Expanded sections
   const [expandedSection, setExpandedSection] = useState<string | null>('ai');
@@ -240,15 +248,31 @@ export function Settings({ onClose }: SettingsProps) {
 
     setGoogleLoading(true);
     try {
-      // Convert time to minutes from midnight for reminder
-      const [hours, minutes] = reminderTime.split(':').map(Number);
-      const reminderMinutes = hours * 60 + minutes;
-
-      const result = await createWordOfTheDayEvents(session.access_token, { reminderMinutes });
-      setSuccess(`Created ${result.eventsCreated} Word of the Day events with reminders!`);
-      setTimeout(() => setSuccess(''), 3000);
+      const result = await createWordOfTheDayEvents(session.access_token, {
+        reminderTime,
+        startDate: syncStartDate,
+        endDate: syncEndDate,
+      });
+      setSuccess(`Created ${result.eventsCreated} Word of the Day events from ${result.dateRange.start} to ${result.dateRange.end}!`);
+      setTimeout(() => setSuccess(''), 4000);
     } catch (err) {
       setError(err instanceof Error ? err.message : 'Failed to create events');
+    } finally {
+      setGoogleLoading(false);
+    }
+  };
+
+  const handleDeleteCalendarEvents = async () => {
+    if (!session?.access_token) return;
+    if (!confirm('Delete all Word of the Day events from your Google Calendar?')) return;
+
+    setGoogleLoading(true);
+    try {
+      const result = await deleteWordOfTheDayEvents(session.access_token);
+      setSuccess(`Deleted ${result.eventsDeleted} Word of the Day events from Google Calendar`);
+      setTimeout(() => setSuccess(''), 3000);
+    } catch (err) {
+      setError(err instanceof Error ? err.message : 'Failed to delete events');
     } finally {
       setGoogleLoading(false);
     }
@@ -650,35 +674,69 @@ export function Settings({ onClose }: SettingsProps) {
                     </div>
 
                     {googleStatus?.connected ? (
-                      <div className="space-y-3">
+                      <div className="space-y-4">
+                        {/* Date Range */}
+                        <DateRangePicker
+                          startDate={syncStartDate}
+                          endDate={syncEndDate}
+                          onStartChange={setSyncStartDate}
+                          onEndChange={setSyncEndDate}
+                          label="Event Date Range"
+                        />
+
                         {/* Reminder Time */}
-                        <div className="flex items-center gap-3">
-                          <label className="text-sm text-gray-600">Reminder at:</label>
-                          <input
-                            type="time"
-                            value={reminderTime}
-                            onChange={(e) => setReminderTime(e.target.value)}
-                            className="px-2 py-1 border border-gray-200 rounded-lg text-sm"
-                          />
-                        </div>
+                        <TimePicker
+                          value={reminderTime}
+                          onChange={setReminderTime}
+                          label="Daily Reminder Time"
+                        />
 
                         {/* Create Events Button */}
                         <button
                           onClick={handleCreateCalendarEvents}
                           disabled={googleLoading}
-                          className="w-full py-2 bg-blue-500 text-white text-sm font-medium rounded-lg hover:bg-blue-600 disabled:opacity-50 transition-colors"
+                          className="w-full py-2.5 bg-blue-500 text-white text-sm font-medium rounded-lg hover:bg-blue-600 disabled:opacity-50 transition-colors flex items-center justify-center gap-2"
                         >
-                          {googleLoading ? 'Creating...' : 'Create 30 Days of Word of the Day Events'}
+                          {googleLoading ? (
+                            <>
+                              <svg className="animate-spin h-4 w-4" viewBox="0 0 24 24">
+                                <circle className="opacity-25" cx="12" cy="12" r="10" stroke="currentColor" strokeWidth="4" fill="none" />
+                                <path className="opacity-75" fill="currentColor" d="M4 12a8 8 0 018-8V0C5.373 0 0 5.373 0 12h4z" />
+                              </svg>
+                              Creating Events...
+                            </>
+                          ) : (
+                            <>
+                              <svg className="w-4 h-4" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                                <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M12 6v6m0 0v6m0-6h6m-6 0H6" />
+                              </svg>
+                              Create Word of the Day Events
+                            </>
+                          )}
+                        </button>
+
+                        {/* Delete Events Button */}
+                        <button
+                          onClick={handleDeleteCalendarEvents}
+                          disabled={googleLoading}
+                          className="w-full py-2 text-red-600 text-sm hover:bg-red-50 rounded-lg transition-colors flex items-center justify-center gap-2"
+                        >
+                          <svg className="w-4 h-4" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                            <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M19 7l-.867 12.142A2 2 0 0116.138 21H7.862a2 2 0 01-1.995-1.858L5 7m5 4v6m4-6v6m1-10V4a1 1 0 00-1-1h-4a1 1 0 00-1 1v3M4 7h16" />
+                          </svg>
+                          Delete All Word of the Day Events
                         </button>
 
                         {/* Disconnect */}
-                        <button
-                          onClick={handleDisconnectGoogle}
-                          disabled={googleLoading}
-                          className="w-full py-2 text-red-600 text-sm hover:bg-red-50 rounded-lg transition-colors"
-                        >
-                          Disconnect Google Calendar
-                        </button>
+                        <div className="pt-2 border-t border-gray-200">
+                          <button
+                            onClick={handleDisconnectGoogle}
+                            disabled={googleLoading}
+                            className="w-full py-2 text-gray-500 text-sm hover:text-red-600 hover:bg-red-50 rounded-lg transition-colors"
+                          >
+                            Disconnect Google Calendar
+                          </button>
+                        </div>
                       </div>
                     ) : (
                       <button
