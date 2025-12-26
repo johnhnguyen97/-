@@ -511,19 +511,36 @@ export default async function handler(req: VercelRequest, res: VercelResponse) {
       return res.status(500).json({ error: 'No response from AI' });
     }
 
-    // Parse the JSON response from Claude
-    const jsonMatch = content.match(/\{[\s\S]*\}/);
+    // Parse the JSON response from AI
+    let jsonMatch = content.match(/\{[\s\S]*\}/);
     if (!jsonMatch) {
-      console.error('Invalid AI response:', content);
+      console.error('Invalid AI response - no JSON found:', content);
       return res.status(500).json({ error: 'Invalid response format from AI' });
     }
 
     let translationResult;
     try {
+      // Try parsing as-is first
       translationResult = JSON.parse(jsonMatch[0]);
     } catch (parseError) {
-      console.error('JSON parse error:', parseError, 'Content:', jsonMatch[0].substring(0, 500));
-      return res.status(500).json({ error: 'Failed to parse AI response as JSON' });
+      // Try to fix common JSON issues from LLMs
+      let fixedJson = jsonMatch[0];
+
+      // Remove trailing commas before } or ]
+      fixedJson = fixedJson.replace(/,(\s*[}\]])/g, '$1');
+
+      // Fix unescaped newlines in strings
+      fixedJson = fixedJson.replace(/(?<!\\)\\n/g, '\\n');
+
+      // Try again with fixed JSON
+      try {
+        translationResult = JSON.parse(fixedJson);
+      } catch (secondError) {
+        console.error('JSON parse error after fixes:', secondError);
+        console.error('Original content:', jsonMatch[0].substring(0, 1000));
+        console.error('Fixed content:', fixedJson.substring(0, 1000));
+        return res.status(500).json({ error: 'Failed to parse AI response as JSON' });
+      }
     }
 
     // Force split components that AI didn't break down properly

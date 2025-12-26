@@ -6,6 +6,7 @@ import {
   disconnectKeep,
   handleKeepCallback
 } from '../services/keepApi';
+import { getSettings, updateSettings, getIcalUrl } from '../services/calendarApi';
 
 interface SettingsProps {
   onClose: () => void;
@@ -34,6 +35,11 @@ export function Settings({ onClose }: SettingsProps) {
   // Google account linking state
   const [googleLinkLoading, setGoogleLinkLoading] = useState(false);
 
+  // Calendar settings
+  const [icalToken, setIcalToken] = useState<string | null>(null);
+  const [calendarLoading, setCalendarLoading] = useState(false);
+  const [icalCopied, setIcalCopied] = useState(false);
+
   // Expanded sections
   const [expandedSection, setExpandedSection] = useState<string | null>('ai');
 
@@ -53,7 +59,16 @@ export function Settings({ onClose }: SettingsProps) {
     } catch (err) {
       console.error('Keep callback error:', err);
     }
-  }, []);
+
+    // Load calendar settings
+    if (session?.access_token) {
+      getSettings(session.access_token)
+        .then((settings) => {
+          setIcalToken(settings.icalToken || null);
+        })
+        .catch((err) => console.error('Failed to load calendar settings:', err));
+    }
+  }, [session?.access_token]);
 
   const handleClose = () => {
     setIsVisible(false);
@@ -138,6 +153,39 @@ export function Settings({ onClose }: SettingsProps) {
     disconnectKeep();
     setKeepConnected(false);
     setKeepEmail(null);
+  };
+
+  const handleGenerateIcal = async () => {
+    if (!session?.access_token) return;
+    setCalendarLoading(true);
+    try {
+      const updated = await updateSettings(session.access_token, { generateIcalToken: true });
+      setIcalToken(updated.icalToken || null);
+      setSuccess('Calendar subscription URL generated!');
+      setTimeout(() => setSuccess(''), 2000);
+    } catch (err) {
+      setError('Failed to generate calendar URL');
+    } finally {
+      setCalendarLoading(false);
+    }
+  };
+
+  const handleCopyIcalUrl = async () => {
+    if (!icalToken) return;
+    try {
+      await navigator.clipboard.writeText(getIcalUrl(icalToken));
+      setIcalCopied(true);
+      setTimeout(() => setIcalCopied(false), 2000);
+    } catch {
+      const input = document.createElement('input');
+      input.value = getIcalUrl(icalToken);
+      document.body.appendChild(input);
+      input.select();
+      document.execCommand('copy');
+      document.body.removeChild(input);
+      setIcalCopied(true);
+      setTimeout(() => setIcalCopied(false), 2000);
+    }
   };
 
   const handleLinkGoogle = async () => {
@@ -513,9 +561,56 @@ export function Settings({ onClose }: SettingsProps) {
               </button>
 
               <div className={`overflow-hidden transition-all duration-300 ease-out ${
-                expandedSection === 'sync' ? 'max-h-[300px] opacity-100 mt-4' : 'max-h-0 opacity-0'
+                expandedSection === 'sync' ? 'max-h-[500px] opacity-100 mt-4' : 'max-h-0 opacity-0'
               }`}>
                 <div className="space-y-3">
+                  {/* Calendar Subscription */}
+                  <div className="p-3 bg-gray-50 rounded-xl">
+                    <div className="flex items-center gap-3 mb-3">
+                      <div className="w-8 h-8 bg-indigo-500 rounded-lg flex items-center justify-center">
+                        <span className="text-white text-sm">📅</span>
+                      </div>
+                      <div>
+                        <span className="text-sm font-medium text-gray-700">Calendar Subscription</span>
+                        <p className="text-xs text-gray-500">Word of the Day + Japanese holidays</p>
+                      </div>
+                    </div>
+
+                    {icalToken ? (
+                      <div className="space-y-2">
+                        <div className="flex gap-2">
+                          <input
+                            type="text"
+                            readOnly
+                            value={getIcalUrl(icalToken)}
+                            className="flex-1 px-3 py-2 border border-gray-200 rounded-lg text-xs bg-white text-gray-600 font-mono truncate"
+                          />
+                          <button
+                            onClick={handleCopyIcalUrl}
+                            className={`px-3 py-2 rounded-lg text-sm font-medium transition-colors ${
+                              icalCopied
+                                ? 'bg-green-500 text-white'
+                                : 'bg-indigo-500 text-white hover:bg-indigo-600'
+                            }`}
+                          >
+                            {icalCopied ? '✓' : 'Copy'}
+                          </button>
+                        </div>
+                        <p className="text-xs text-gray-500">
+                          Add to Google Calendar: Settings → Add calendar → From URL
+                        </p>
+                      </div>
+                    ) : (
+                      <button
+                        onClick={handleGenerateIcal}
+                        disabled={calendarLoading}
+                        className="w-full py-2 bg-indigo-500 text-white text-sm font-medium rounded-lg hover:bg-indigo-600 disabled:opacity-50 transition-colors"
+                      >
+                        {calendarLoading ? 'Generating...' : 'Generate Subscription URL'}
+                      </button>
+                    )}
+                  </div>
+
                   {/* Google Keep */}
                   <div className="flex items-center justify-between p-3 bg-gray-50 rounded-xl">
                     <div className="flex items-center gap-3">
