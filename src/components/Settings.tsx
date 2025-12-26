@@ -30,14 +30,18 @@ export function Settings({ onClose }: SettingsProps) {
     // Trigger animation on mount
     requestAnimationFrame(() => setIsVisible(true));
 
-    // Check Keep connection status
-    setKeepConnected(isKeepConnected());
-    setKeepEmail(getKeepEmail());
+    // Check Keep connection status (tokens should already be in localStorage)
+    const connected = isKeepConnected();
+    const email = getKeepEmail();
+    console.log('Settings mount - Keep connected:', connected, 'email:', email);
+    setKeepConnected(connected);
+    setKeepEmail(email);
 
-    // Handle OAuth callback if returning from Google
+    // Handle OAuth callback if returning from Google (in case Settings is open during redirect)
     try {
       const tokens = handleKeepCallback();
       if (tokens) {
+        console.log('Settings handleKeepCallback got tokens:', tokens.email);
         setKeepConnected(true);
         setKeepEmail(tokens.email);
       }

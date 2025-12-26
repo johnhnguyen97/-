@@ -60,17 +60,18 @@ export function handleKeepCallback(): KeepTokens | null {
   const error = url.searchParams.get('keep_error');
   if (error) {
     console.error('Keep OAuth error:', error);
-    // Clean up URL
-    url.searchParams.delete('keep_error');
-    window.history.replaceState({}, '', url.pathname + url.search);
+    // Clean up URL completely (including hash)
+    window.history.replaceState({}, '', url.pathname);
     throw new Error(error);
   }
 
   // Check for success
   const connected = url.searchParams.get('keep_connected');
   if (connected === 'true') {
+    console.log('Keep callback detected, parsing tokens...');
     // Parse tokens from hash
     const hash = window.location.hash;
+    console.log('Hash:', hash);
     const tokensMatch = hash.match(/keep_tokens=([^&]+)/);
 
     if (tokensMatch) {
@@ -78,18 +79,24 @@ export function handleKeepCallback(): KeepTokens | null {
         const tokens: KeepTokens = JSON.parse(decodeURIComponent(tokensMatch[1]));
         tokens.stored_at = Date.now();
 
+        console.log('Keep tokens parsed successfully for:', tokens.email);
+
         // Store tokens
         localStorage.setItem(KEEP_TOKENS_KEY, JSON.stringify(tokens));
 
-        // Clean up URL
-        url.searchParams.delete('keep_connected');
-        url.searchParams.delete('keep_email');
-        window.history.replaceState({}, '', url.pathname + url.search.replace(/\?$/, ''));
+        // Clean up URL completely (remove search params AND hash)
+        window.history.replaceState({}, '', url.pathname);
 
         return tokens;
       } catch (e) {
         console.error('Failed to parse Keep tokens:', e);
+        // Clean up URL even on error
+        window.history.replaceState({}, '', url.pathname);
       }
+    } else {
+      console.error('Keep callback: no tokens found in hash');
+      // Clean up URL
+      window.history.replaceState({}, '', url.pathname);
     }
   }
 

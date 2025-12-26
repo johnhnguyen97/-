@@ -8,6 +8,7 @@ import { GrammarSidebar } from './components/GrammarSidebar';
 import { ToolboxButton } from './components/ToolboxButton';
 import { parseEnglishSentence, describeSentenceStructure } from './services/englishParser';
 import { translateSentence } from './services/japaneseApi';
+import { handleKeepCallback } from './services/keepApi';
 import type { WordSlot, SentenceStructure, GrammarNote } from './types';
 
 // Fun Japanese loading phrases
@@ -101,6 +102,22 @@ function AppContent() {
       setLoadingPhrase(LOADING_PHRASES[Math.floor(Math.random() * LOADING_PHRASES.length)]);
     }
   }, [isLoadingAll]);
+
+  // Handle Keep OAuth callback on app load
+  useEffect(() => {
+    console.log('App mount - checking for Keep callback...');
+    console.log('Current URL:', window.location.href);
+    try {
+      const tokens = handleKeepCallback();
+      if (tokens) {
+        console.log('App.tsx: Keep connected successfully:', tokens.email);
+        // Tokens are now stored in localStorage
+        // User can open Settings to see the connected status
+      }
+    } catch (err) {
+      console.error('Keep OAuth error:', err);
+    }
+  }, []);
 
   const loadSentence = useCallback(async (sentence: string, index: number): Promise<Partial<SentenceState>> => {
     if (!session?.access_token) {
