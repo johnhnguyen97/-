@@ -395,7 +395,7 @@ function FavoritesTab({ favorites, loading, error, onDelete }: {
               </div>
               <button
                 onClick={() => onDelete(fav.word)}
-                className="p-2 text-gray-400 hover:text-red-500 hover:bg-red-50 rounded-lg transition-all opacity-0 group-hover:opacity-100"
+                className="p-2 text-gray-400 hover:text-red-500 hover:bg-red-50 rounded-lg transition-all opacity-100 sm:opacity-0 sm:group-hover:opacity-100"
               >
                 <svg className="w-5 h-5" fill="none" stroke="currentColor" viewBox="0 0 24 24">
                   <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M19 7l-.867 12.142A2 2 0 0116.138 21H7.862a2 2 0 01-1.995-1.858L5 7m5 4v6m4-6v6m1-10V4a1 1 0 00-1-1h-4a1 1 0 00-1 1v3M4 7h16" />
@@ -455,7 +455,7 @@ function NotesTab({ pages, selectedPage, selectedPageId, onSelectPage, onCreate,
                   <span className="flex-1 truncate text-sm">{page.title || 'Untitled'}</span>
                   <button
                     onClick={(e) => { e.stopPropagation(); onDelete(page.id); }}
-                    className="p-1 rounded opacity-0 group-hover:opacity-100 hover:bg-red-100 hover:text-red-500 transition-all"
+                    className="p-1 rounded opacity-100 sm:opacity-0 sm:group-hover:opacity-100 hover:bg-red-100 hover:text-red-500 transition-all"
                   >
                     <svg className="w-3.5 h-3.5" fill="none" stroke="currentColor" viewBox="0 0 24 24">
                       <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M6 18L18 6M6 6l12 12" />
@@ -643,7 +643,7 @@ function BlocksEditor({ blocks, onChange }: { blocks: NoteBlock[]; onChange: (bl
       {blocks.map((block) => (
         <div key={block.id} className="group flex items-start gap-2">
           {/* Controls */}
-          <div className="opacity-0 group-hover:opacity-100 transition-opacity flex items-center gap-0.5 pt-1">
+          <div className="opacity-100 sm:opacity-0 sm:group-hover:opacity-100 transition-opacity flex items-center gap-0.5 pt-1">
             <button
               onClick={() => addBlock(block.id)}
               className="p-1 hover:bg-gray-100 rounded text-gray-400 hover:text-gray-600"
@@ -852,7 +852,7 @@ function DictionaryTab({ dictionary, search, onSearchChange, showAddWord, onShow
                     </div>
                     <button
                       onClick={() => onDelete(entry.id)}
-                      className="p-1.5 text-gray-400 hover:text-red-500 hover:bg-red-50 rounded-lg transition-all opacity-0 group-hover:opacity-100"
+                      className="p-1.5 text-gray-400 hover:text-red-500 hover:bg-red-50 rounded-lg transition-all opacity-100 sm:opacity-0 sm:group-hover:opacity-100"
                     >
                       <svg className="w-4 h-4" fill="none" stroke="currentColor" viewBox="0 0 24 24">
                         <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M19 7l-.867 12.142A2 2 0 0116.138 21H7.862a2 2 0 01-1.995-1.858L5 7m5 4v6m4-6v6m1-10V4a1 1 0 00-1-1h-4a1 1 0 00-1 1v3M4 7h16" />

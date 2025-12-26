@@ -256,11 +256,36 @@ git push origin master       # Push to trigger Vercel deploy
 
 ---
 
-## Future Features (Planned in Notion)
+## Future Features (Roadmap)
 
-- [ ] Workspace dashboard with widgets
-- [ ] Flashcard/SRS system (SM-2 algorithm)
-- [ ] Learning calendar
-- [ ] Progress analytics
-- [ ] JLPT practice mode
-- [ ] Audio pronunciation
+### Phase 1: Export & Interoperability
+- [ ] **Export Dictionary**: Export personal dictionary to CSV/JSON
+- [ ] **Export Notes**: Export Notion-style notes to Markdown
+- [ ] **Export Favorites**: Export categorized favorites with readings
+
+### Phase 2: API & Integrations
+- [ ] **REST API for Data**: Expose endpoints for dictionary, notes, favorites
+- [ ] **Anki Integration**:
+  - Option A: Export to Anki-compatible format (.apkg or CSV)
+  - Option B: Direct AnkiConnect integration via API
+- [ ] **Built-in Flashcard System**: If Anki integration is complex, build native SRS with SM-2 algorithm
+
+### Phase 3: Calendar & Scheduling
+- [ ] **Learning Calendar**: Track daily study sessions and streaks
+- [ ] **Google Calendar API Integration**:
+  - Sync study reminders to Google Calendar
+  - Schedule JLPT study sessions
+  - CalDAV support for other calendar apps
+- [ ] **Study Reminders**: Push notifications for review sessions
+
+### Phase 4: Automation & AI
+- [ ] **Claude Agent SDK**: Backend automation for:
+  - Auto-generating flashcards from study notes
+  - Intelligent review scheduling
+  - Grammar pattern recognition and suggestions
+- [ ] **Audio Pronunciation**: TTS or API-based audio for words
+
+### Phase 5: Analytics & Progress
+- [ ] **Progress Dashboard**: Track words learned, accuracy, streaks
+- [ ] **JLPT Practice Mode**: Targeted practice by level (N5-N1)
+- [ ] **Weakness Analysis**: Identify grammar patterns that need more practice
