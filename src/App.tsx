@@ -171,6 +171,7 @@ function AppContent() {
     setGlobalError(null);
     setActiveSentenceIndex(0);
     setGameActive(true);
+    setSidebarOpen(true); // Re-open grammar notes when new sentence is submitted
 
     const initialStates: SentenceState[] = sentenceTexts.map((s) => ({
       original: s,
