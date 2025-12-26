@@ -1,12 +1,12 @@
 import { useState, useEffect } from 'react';
 import { KanaChart } from './KanaChart';
-import { FavoritesViewer } from './FavoritesViewer';
+import { NotesPanel } from './NotesPanel';
 import { GrammarGuide } from './GrammarGuide';
 
 export function ToolboxButton() {
   const [isMenuOpen, setIsMenuOpen] = useState(false);
   const [isKanaChartOpen, setIsKanaChartOpen] = useState(false);
-  const [isFavoritesOpen, setIsFavoritesOpen] = useState(false);
+  const [isNotesOpen, setIsNotesOpen] = useState(false);
   const [isGrammarGuideOpen, setIsGrammarGuideOpen] = useState(false);
   const [menuVisible, setMenuVisible] = useState(false);
 
@@ -23,8 +23,8 @@ export function ToolboxButton() {
     setIsMenuOpen(false);
   };
 
-  const handleFavoritesClick = () => {
-    setIsFavoritesOpen(true);
+  const handleNotesClick = () => {
+    setIsNotesOpen(true);
     setIsMenuOpen(false);
   };
 
@@ -36,7 +36,7 @@ export function ToolboxButton() {
   const menuItems = [
     { icon: '📖', label: 'Grammar Guide', sublabel: 'Learn patterns', onClick: handleGrammarGuideClick, color: 'from-amber-500 to-orange-500' },
     { icon: 'あ', label: 'Kana Chart', sublabel: 'Hiragana & Katakana', onClick: handleKanaChartClick, color: 'from-pink-500 to-rose-500' },
-    { icon: '★', label: 'Favorites', sublabel: 'Saved words', onClick: handleFavoritesClick, color: 'from-yellow-500 to-amber-500' },
+    { icon: '📝', label: 'Notes', sublabel: 'Favorites & notes', onClick: handleNotesClick, color: 'from-indigo-500 to-purple-500' },
   ];
 
   return (
@@ -116,10 +116,10 @@ export function ToolboxButton() {
         onClose={() => setIsKanaChartOpen(false)}
       />
 
-      {/* Favorites Viewer */}
-      <FavoritesViewer
-        isOpen={isFavoritesOpen}
-        onClose={() => setIsFavoritesOpen(false)}
+      {/* Notes Panel */}
+      <NotesPanel
+        isOpen={isNotesOpen}
+        onClose={() => setIsNotesOpen(false)}
       />
 
       {/* Grammar Guide */}
