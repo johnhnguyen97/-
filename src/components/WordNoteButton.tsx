@@ -13,10 +13,7 @@ interface WordNoteButtonProps {
 }
 
 export function WordNoteButton({ word, reading, english }: WordNoteButtonProps) {
-  const [isVisible, setIsVisible] = useState(false);
   const [isOpen, setIsOpen] = useState(false);
-  const [isAnimating, setIsAnimating] = useState(false);
-  const [animationClass, setAnimationClass] = useState('');
   const [note, setNote] = useState('');
   const [hasNote, setHasNote] = useState(false);
   const popupRef = useRef<HTMLDivElement>(null);
@@ -44,7 +41,7 @@ export function WordNoteButton({ word, reading, english }: WordNoteButtonProps) 
         buttonRef.current &&
         !buttonRef.current.contains(e.target as Node)
       ) {
-        handleClose();
+        setIsOpen(false);
       }
     };
     if (isOpen) {
@@ -53,35 +50,9 @@ export function WordNoteButton({ word, reading, english }: WordNoteButtonProps) 
     return () => document.removeEventListener('mousedown', handleClickOutside);
   }, [isOpen]);
 
-  // Portal emerge animation on hover
-  const handleMouseEnter = () => {
-    if (!isVisible && !isAnimating) {
-      setIsAnimating(true);
-      setAnimationClass('portal-emerge');
-      setIsVisible(true);
-      setTimeout(() => setIsAnimating(false), 400);
-    }
-  };
-
-  // Portal collapse animation on leave
-  const handleMouseLeave = () => {
-    if (isVisible && !isOpen && !isAnimating) {
-      setIsAnimating(true);
-      setAnimationClass('portal-collapse');
-      setTimeout(() => {
-        setIsVisible(false);
-        setIsAnimating(false);
-      }, 300);
-    }
-  };
-
   const handleClick = (e: React.MouseEvent) => {
     e.stopPropagation();
     setIsOpen(!isOpen);
-  };
-
-  const handleClose = () => {
-    setIsOpen(false);
   };
 
   const saveNote = () => {
@@ -104,92 +75,79 @@ export function WordNoteButton({ word, reading, english }: WordNoteButtonProps) 
       }
       setHasNote(true);
     } else {
-      // Remove note if empty
       notes = notes.filter(n => n.word !== word);
       setHasNote(false);
     }
 
     localStorage.setItem('gojun-word-notes', JSON.stringify(notes));
-    handleClose();
+    setIsOpen(false);
   };
 
   return (
-    <div
-      className="absolute -top-2 -left-2 z-20"
-      onMouseEnter={handleMouseEnter}
-      onMouseLeave={handleMouseLeave}
-    >
-      {/* Portal ring effect on emerge */}
-      {isAnimating && animationClass === 'portal-emerge' && (
-        <div className="absolute inset-0 flex items-center justify-center pointer-events-none">
-          <div className="w-6 h-6 rounded-full border-2 border-violet-400 portal-ring" />
-        </div>
-      )}
-
-      {/* The button */}
-      {(isVisible || hasNote) && (
-        <button
-          ref={buttonRef}
-          onClick={handleClick}
-          className={`word-note-btn ${animationClass} ${hasNote ? 'has-note portal-glow' : ''}`}
-          style={{ opacity: hasNote && !isVisible ? 0.7 : undefined }}
-        >
-          {hasNote ? '📝' : '✏️'}
-        </button>
-      )}
+    <div className="relative">
+      <button
+        ref={buttonRef}
+        onClick={handleClick}
+        className={`w-6 h-6 rounded-full flex items-center justify-center transition-all hover:scale-110 active:scale-90 ${
+          hasNote
+            ? 'bg-gradient-to-br from-violet-500 to-purple-600 text-white shadow-md'
+            : 'hover:bg-purple-100 text-gray-400 hover:text-purple-500'
+        }`}
+        title={hasNote ? 'Edit note' : 'Add note'}
+      >
+        <svg className="w-3.5 h-3.5" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+          <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M11 5H6a2 2 0 00-2 2v11a2 2 0 002 2h11a2 2 0 002-2v-5m-1.414-9.414a2 2 0 112.828 2.828L11.828 15H9v-2.828l8.586-8.586z" />
+        </svg>
+      </button>
 
       {/* Popup */}
       {isOpen && (
         <div
           ref={popupRef}
-          className="word-note-popup animate-scaleIn"
+          className="absolute z-50 w-56 bg-white rounded-xl shadow-2xl border border-gray-200 overflow-hidden animate-[scaleIn_0.15s_ease-out]"
+          style={{ bottom: 'calc(100% + 8px)', left: '50%', transform: 'translateX(-50%)' }}
           onClick={(e) => e.stopPropagation()}
         >
           {/* Header */}
-          <div className="flex items-center gap-2 mb-2 pb-2 border-b border-gray-100">
-            <div className="flex-1">
-              <div className="font-bold text-gray-900">{word}</div>
-              <div className="text-xs text-gray-500">{reading} • {english}</div>
-            </div>
-            <button
-              onClick={handleClose}
-              className="p-1 hover:bg-gray-100 rounded-full transition-colors"
-            >
-              <svg className="w-4 h-4 text-gray-400" fill="none" stroke="currentColor" viewBox="0 0 24 24">
-                <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M6 18L18 6M6 6l12 12" />
-              </svg>
-            </button>
+          <div className="px-3 py-2 bg-gradient-to-r from-violet-500 to-purple-600 text-white">
+            <div className="font-bold text-sm truncate">{word}</div>
+            <div className="text-xs text-white/70 truncate">{reading} • {english}</div>
           </div>
 
           {/* Note input */}
-          <textarea
-            value={note}
-            onChange={(e) => setNote(e.target.value)}
-            placeholder="Add a note about this word..."
-            className="w-full h-20 p-2 text-sm border border-gray-200 rounded-lg resize-none focus:outline-none focus:border-violet-400 focus:ring-2 focus:ring-violet-100"
-            autoFocus
-          />
+          <div className="p-2">
+            <textarea
+              value={note}
+              onChange={(e) => setNote(e.target.value)}
+              placeholder="Write a quick note..."
+              className="w-full h-16 p-2 text-sm border border-gray-200 rounded-lg resize-none focus:outline-none focus:border-violet-400 focus:ring-1 focus:ring-violet-200"
+              autoFocus
+            />
 
-          {/* Actions */}
-          <div className="flex justify-end gap-2 mt-2">
-            {hasNote && (
+            {/* Actions */}
+            <div className="flex justify-end gap-1 mt-2">
+              {hasNote && (
+                <button
+                  onClick={() => {
+                    setNote('');
+                    saveNote();
+                  }}
+                  className="px-2 py-1 text-xs text-red-500 hover:bg-red-50 rounded transition-colors"
+                >
+                  Delete
+                </button>
+              )}
               <button
-                onClick={() => {
-                  setNote('');
-                  saveNote();
-                }}
-                className="px-3 py-1.5 text-xs text-red-500 hover:bg-red-50 rounded-lg transition-colors"
+                onClick={saveNote}
+                className="px-3 py-1 text-xs bg-gradient-to-r from-violet-500 to-purple-600 text-white rounded font-medium hover:shadow-md transition-all"
               >
-                Delete
+                Save
               </button>
-            )}
-            <button
-              onClick={saveNote}
-              className="px-3 py-1.5 text-xs bg-gradient-to-r from-violet-500 to-purple-600 text-white rounded-lg font-medium hover:shadow-md transition-all"
-            >
-              Save
-            </button>
+            </div>
           </div>
+
+          {/* Arrow */}
+          <div className="absolute top-full left-1/2 -translate-x-1/2 border-8 border-transparent border-t-white" style={{ marginTop: '-1px' }} />
         </div>
       )}
     </div>

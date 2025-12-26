@@ -294,22 +294,22 @@ export function SentenceDisplay({
                       : 'border-blue-300 cursor-grab active:cursor-grabbing'
                   }`}
                 >
-                  {/* Favorite Button */}
+                  {/* Action Buttons - Top Right */}
                   {!isUsed && (
-                    <FavoriteButton
-                      word={slot.japaneseWord.japanese}
-                      reading={slot.japaneseWord.reading}
-                      english={slot.japaneseWord.english}
-                      isFavorited={false}
-                    />
-                  )}
-                  {/* Notes Button with portal animation */}
-                  {!isUsed && (
-                    <WordNoteButton
-                      word={slot.japaneseWord.japanese}
-                      reading={slot.japaneseWord.reading}
-                      english={slot.japaneseWord.english}
-                    />
+                    <div className="absolute -top-2 -right-2 flex gap-1 z-20">
+                      <FavoriteButton
+                        word={slot.japaneseWord.japanese}
+                        reading={slot.japaneseWord.reading}
+                        english={slot.japaneseWord.english}
+                        partOfSpeech={slot.japaneseWord.partOfSpeech}
+                        isFavorited={false}
+                      />
+                      <WordNoteButton
+                        word={slot.japaneseWord.japanese}
+                        reading={slot.japaneseWord.reading}
+                        english={slot.japaneseWord.english}
+                      />
+                    </div>
                   )}
                   {/* Japanese word */}
                   <span className={`font-bold ${
