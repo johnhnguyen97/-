@@ -2,13 +2,7 @@ import { useState, useEffect, useRef } from 'react';
 import { useAuth } from '../contexts/AuthContext';
 import { getFavorites, deleteFavorite, type Favorite } from '../services/favoritesApi';
 import { WORD_CATEGORIES } from './FavoriteButton';
-import {
-  connectKeep,
-  isKeepConnected,
-  getKeepEmail,
-  disconnectKeep,
-  handleKeepCallback
-} from '../services/keepApi';
+import { isKeepConnected } from '../services/keepApi';
 
 interface NotesPanelProps {
   isOpen: boolean;
@@ -74,10 +68,8 @@ export function NotesPanel({ isOpen, onClose }: NotesPanelProps) {
   const [showAddWord, setShowAddWord] = useState(false);
   const [dictSearch, setDictSearch] = useState('');
 
-  // Google Keep state
+  // Google Keep state (read-only, managed in Settings)
   const [keepConnected, setKeepConnected] = useState(false);
-  const [keepEmail, setKeepEmail] = useState<string | null>(null);
-  const [keepLoading, setKeepLoading] = useState(false);
 
   useEffect(() => {
     if (isOpen) {
@@ -93,38 +85,8 @@ export function NotesPanel({ isOpen, onClose }: NotesPanelProps) {
     }
   }, [isOpen, session]);
 
-  // Check for Keep OAuth callback on mount
-  useEffect(() => {
-    try {
-      const tokens = handleKeepCallback();
-      if (tokens) {
-        setKeepConnected(true);
-        setKeepEmail(tokens.email);
-      }
-    } catch (err) {
-      console.error('Keep callback error:', err);
-    }
-  }, []);
-
   const checkKeepConnection = () => {
     setKeepConnected(isKeepConnected());
-    setKeepEmail(getKeepEmail());
-  };
-
-  const handleConnectKeep = async () => {
-    setKeepLoading(true);
-    try {
-      await connectKeep();
-    } catch (err) {
-      console.error('Failed to connect Keep:', err);
-      setKeepLoading(false);
-    }
-  };
-
-  const handleDisconnectKeep = () => {
-    disconnectKeep();
-    setKeepConnected(false);
-    setKeepEmail(null);
   };
 
   const handleClose = () => {
@@ -275,37 +237,12 @@ export function NotesPanel({ isOpen, onClose }: NotesPanelProps) {
               </div>
             </div>
             <div className="flex items-center gap-2">
-              {/* Google Keep Sync Button */}
-              {keepConnected ? (
-                <div className="flex items-center gap-2">
-                  <span className="text-xs text-white/70 hidden sm:inline">{keepEmail}</span>
-                  <button
-                    onClick={handleDisconnectKeep}
-                    className="px-3 py-1.5 text-xs font-medium bg-white/20 hover:bg-white/30 rounded-lg transition-all flex items-center gap-1.5"
-                    title="Disconnect Google Keep"
-                  >
-                    <svg className="w-4 h-4" viewBox="0 0 24 24" fill="currentColor">
-                      <path d="M12 2C6.48 2 2 6.48 2 12s4.48 10 10 10 10-4.48 10-10S17.52 2 12 2zm-2 15l-5-5 1.41-1.41L10 14.17l7.59-7.59L19 8l-9 9z"/>
-                    </svg>
-                    <span className="hidden sm:inline">Keep</span>
-                  </button>
+              {/* Keep connected indicator */}
+              {keepConnected && (
+                <div className="px-2 py-1 text-xs font-medium bg-white/20 rounded-lg flex items-center gap-1.5" title="Google Keep connected">
+                  <span className="w-2 h-2 bg-green-400 rounded-full"></span>
+                  <span className="hidden sm:inline">Keep</span>
                 </div>
-              ) : (
-                <button
-                  onClick={handleConnectKeep}
-                  disabled={keepLoading}
-                  className="px-3 py-1.5 text-xs font-medium bg-white/20 hover:bg-white/30 rounded-lg transition-all flex items-center gap-1.5 disabled:opacity-50"
-                  title="Connect Google Keep"
-                >
-                  {keepLoading ? (
-                    <div className="w-4 h-4 border-2 border-white/30 border-t-white rounded-full animate-spin" />
-                  ) : (
-                    <svg className="w-4 h-4" viewBox="0 0 24 24" fill="currentColor">
-                      <path d="M12 2C6.48 2 2 6.48 2 12s4.48 10 10 10 10-4.48 10-10S17.52 2 12 2zm5 11h-4v4h-2v-4H7v-2h4V7h2v4h4v2z"/>
-                    </svg>
-                  )}
-                  <span className="hidden sm:inline">Google Keep</span>
-                </button>
               )}
               <button
                 onClick={handleClose}
