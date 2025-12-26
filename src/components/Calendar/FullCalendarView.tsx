@@ -1,4 +1,4 @@
-import { useState, useEffect, useCallback } from 'react';
+import { useState, useEffect, useCallback, useRef } from 'react';
 import FullCalendar from '@fullcalendar/react';
 import dayGridPlugin from '@fullcalendar/daygrid';
 import timeGridPlugin from '@fullcalendar/timegrid';
@@ -29,6 +29,7 @@ interface FullCalendarViewProps {
 
 export function FullCalendarView({ onClose }: FullCalendarViewProps) {
   const { session } = useAuth();
+  const calendarRef = useRef<FullCalendar>(null);
   const [loading, setLoading] = useState(true);
   const [error, setError] = useState<string | null>(null);
   const [currentView, setCurrentView] = useState<CalendarViewType>('dayGridMonth');
@@ -150,6 +151,11 @@ export function FullCalendarView({ onClose }: FullCalendarViewProps) {
   // Handle view change
   const handleViewChange = (view: CalendarViewType) => {
     setCurrentView(view);
+    // Use the calendar API to change the view
+    const calendarApi = calendarRef.current?.getApi();
+    if (calendarApi) {
+      calendarApi.changeView(view);
+    }
   };
 
   // Handle date click
@@ -224,6 +230,7 @@ export function FullCalendarView({ onClose }: FullCalendarViewProps) {
 
             <div className={`h-full ${loading ? 'opacity-50' : ''}`}>
               <FullCalendar
+                ref={calendarRef}
                 plugins={[dayGridPlugin, timeGridPlugin, interactionPlugin]}
                 initialView={currentView}
                 headerToolbar={false}

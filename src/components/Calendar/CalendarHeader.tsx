@@ -72,18 +72,24 @@ export function CalendarHeader({
       {/* Right: JLPT Level & Close */}
       <div className="flex items-center gap-2 sm:gap-3">
         {/* JLPT Level Selector */}
-        <select
-          value={jlptLevel}
-          onChange={(e) => onJlptChange(e.target.value as JLPTLevel)}
-          className="bg-white/20 text-white border-0 rounded-lg px-2 sm:px-3 py-1.5 text-sm font-medium focus:ring-2 focus:ring-white/50 cursor-pointer appearance-none"
-          style={{ backgroundImage: 'none' }}
-        >
-          {JLPT_LEVELS.map((level) => (
-            <option key={level} value={level} className="text-gray-900">
-              {level}
-            </option>
-          ))}
-        </select>
+        <div className="relative">
+          <select
+            value={jlptLevel}
+            onChange={(e) => onJlptChange(e.target.value as JLPTLevel)}
+            className="bg-white text-indigo-600 border-0 rounded-lg pl-3 pr-8 py-1.5 text-sm font-bold focus:ring-2 focus:ring-white/50 cursor-pointer appearance-none shadow-sm"
+          >
+            {JLPT_LEVELS.map((level) => (
+              <option key={level} value={level} className="text-gray-900 font-bold">
+                {level}
+              </option>
+            ))}
+          </select>
+          <div className="absolute inset-y-0 right-0 flex items-center pr-2 pointer-events-none">
+            <svg className="w-4 h-4 text-indigo-600" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+              <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M19 9l-7 7-7-7" />
+            </svg>
+          </div>
+        </div>
 
         {/* Legend Button (Desktop) */}
         <div className="hidden lg:flex items-center gap-2 text-xs text-white/80">
