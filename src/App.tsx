@@ -81,7 +81,7 @@ function LoadingScreen({ phrase }: { phrase: typeof LOADING_PHRASES[0] }) {
 }
 
 function AppContent() {
-  const { user, session, loading, hasApiKey } = useAuth();
+  const { user, session, loading } = useAuth();
   const [showSettings, setShowSettings] = useState(false);
   const [globalError, setGlobalError] = useState<string | null>(null);
   const [sidebarOpen, setSidebarOpen] = useState(true);
