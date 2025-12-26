@@ -3,6 +3,7 @@ import FullCalendar from '@fullcalendar/react';
 import dayGridPlugin from '@fullcalendar/daygrid';
 import timeGridPlugin from '@fullcalendar/timegrid';
 import interactionPlugin from '@fullcalendar/interaction';
+import jaLocale from '@fullcalendar/core/locales/ja';
 import type { EventInput, DatesSetArg, EventClickArg } from '@fullcalendar/core';
 import { useAuth } from '../../contexts/AuthContext';
 import { CalendarHeader } from './CalendarHeader';
@@ -44,7 +45,6 @@ export function FullCalendarView({ onClose }: FullCalendarViewProps) {
   const [popoverData, setPopoverData] = useState<{
     type: 'wotd' | 'kotd' | 'holiday';
     data: WordOfTheDay | KanjiOfTheDay | JapaneseHoliday;
-    position: { x: number; y: number };
   } | null>(null);
 
   // Animation on mount
@@ -184,21 +184,13 @@ export function FullCalendarView({ onClose }: FullCalendarViewProps) {
     setSelectedDate(arg.date);
   };
 
-  // Handle event click
+  // Handle event click - open centered modal
   const handleEventClick = (arg: EventClickArg) => {
     const { type, data } = arg.event.extendedProps as { type: string; data: WordOfTheDay | KanjiOfTheDay | JapaneseHoliday };
 
-    // Get click position from the event element
-    const rect = arg.el.getBoundingClientRect();
-    const position = {
-      x: rect.right + 10,
-      y: rect.top
-    };
-
     setPopoverData({
       type: type as 'wotd' | 'kotd' | 'holiday',
-      data,
-      position
+      data
     });
   };
 
@@ -287,13 +279,8 @@ export function FullCalendarView({ onClose }: FullCalendarViewProps) {
                   hour12: false
                 }}
                 firstDay={0}
-                locale="en"
-                buttonText={{
-                  today: 'Today',
-                  month: 'Month',
-                  week: 'Week',
-                  day: 'Day'
-                }}
+                locale={jaLocale}
+                dayHeaderFormat={{ weekday: 'short' }}
               />
             </div>
           </div>
@@ -330,7 +317,6 @@ export function FullCalendarView({ onClose }: FullCalendarViewProps) {
         <CalendarDetailPopover
           type={popoverData.type}
           data={popoverData.data}
-          position={popoverData.position}
           onClose={() => setPopoverData(null)}
         />
       )}

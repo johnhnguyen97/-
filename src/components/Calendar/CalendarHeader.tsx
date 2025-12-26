@@ -10,10 +10,10 @@ interface CalendarHeaderProps {
   onClose: () => void;
 }
 
-const VIEW_OPTIONS: { value: CalendarViewType; label: string; shortLabel: string }[] = [
-  { value: 'dayGridMonth', label: 'Month', shortLabel: 'M' },
-  { value: 'timeGridWeek', label: 'Week', shortLabel: 'W' },
-  { value: 'timeGridDay', label: 'Day', shortLabel: 'D' }
+const VIEW_OPTIONS: { value: CalendarViewType; label: string; labelJp: string; shortLabel: string }[] = [
+  { value: 'dayGridMonth', label: 'Month', labelJp: '月', shortLabel: '月' },
+  { value: 'timeGridWeek', label: 'Week', labelJp: '週', shortLabel: '週' },
+  { value: 'timeGridDay', label: 'Day', labelJp: '日', shortLabel: '日' }
 ];
 
 const JLPT_LEVELS: JLPTLevel[] = ['N5', 'N4', 'N3', 'N2', 'N1'];
@@ -37,7 +37,7 @@ export function CalendarHeader({
 
       {/* Center: View Switcher */}
       <div className="hidden sm:flex items-center bg-white/20 rounded-lg p-1">
-        {VIEW_OPTIONS.map(({ value, label }) => (
+        {VIEW_OPTIONS.map(({ value, label, labelJp }) => (
           <button
             key={value}
             onClick={() => onViewChange(value)}
@@ -47,7 +47,8 @@ export function CalendarHeader({
                 : 'text-white/80 hover:text-white hover:bg-white/10'
             }`}
           >
-            {label}
+            <span className="text-base mr-1">{labelJp}</span>
+            <span className="text-xs opacity-75">{label}</span>
           </button>
         ))}
       </div>
@@ -58,7 +59,7 @@ export function CalendarHeader({
           <button
             key={value}
             onClick={() => onViewChange(value)}
-            className={`px-2 py-1 text-sm font-medium rounded-md transition-all ${
+            className={`px-3 py-1.5 text-base font-medium rounded-md transition-all ${
               currentView === value
                 ? 'bg-white text-indigo-600 shadow-sm'
                 : 'text-white/80 hover:text-white hover:bg-white/10'
