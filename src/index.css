@@ -265,3 +265,112 @@ body {
 .empty-state-subtitle {
   @apply text-sm text-gray-400 mt-1;
 }
+
+/* ==========================================
+   Portal/Blackhole Animation
+   ========================================== */
+
+@keyframes portalEmerge {
+  0% {
+    opacity: 0;
+    transform: scale(0) rotate(-180deg);
+    filter: blur(10px);
+  }
+  50% {
+    opacity: 0.8;
+    transform: scale(1.2) rotate(0deg);
+    filter: blur(2px);
+  }
+  100% {
+    opacity: 1;
+    transform: scale(1) rotate(0deg);
+    filter: blur(0);
+  }
+}
+
+@keyframes portalCollapse {
+  0% {
+    opacity: 1;
+    transform: scale(1) rotate(0deg);
+    filter: blur(0);
+  }
+  50% {
+    opacity: 0.8;
+    transform: scale(1.2) rotate(90deg);
+    filter: blur(2px);
+  }
+  100% {
+    opacity: 0;
+    transform: scale(0) rotate(180deg);
+    filter: blur(10px);
+  }
+}
+
+@keyframes portalGlow {
+  0%, 100% {
+    box-shadow: 0 0 5px rgba(139, 92, 246, 0.5), 0 0 10px rgba(139, 92, 246, 0.3);
+  }
+  50% {
+    box-shadow: 0 0 15px rgba(139, 92, 246, 0.8), 0 0 25px rgba(139, 92, 246, 0.5), 0 0 35px rgba(139, 92, 246, 0.3);
+  }
+}
+
+@keyframes portalRing {
+  0% {
+    transform: scale(0.8);
+    opacity: 1;
+  }
+  100% {
+    transform: scale(2);
+    opacity: 0;
+  }
+}
+
+.portal-emerge {
+  animation: portalEmerge 0.4s cubic-bezier(0.34, 1.56, 0.64, 1) forwards;
+}
+
+.portal-collapse {
+  animation: portalCollapse 0.3s cubic-bezier(0.55, 0.06, 0.68, 0.19) forwards;
+}
+
+.portal-glow {
+  animation: portalGlow 2s ease-in-out infinite;
+}
+
+.portal-ring {
+  animation: portalRing 0.6s ease-out forwards;
+}
+
+/* Notes button on word cards */
+.word-note-btn {
+  @apply absolute -top-1 -left-1 w-6 h-6 rounded-full;
+  @apply bg-gradient-to-br from-violet-500 to-purple-600;
+  @apply flex items-center justify-center;
+  @apply text-white text-xs font-bold;
+  @apply shadow-lg cursor-pointer;
+  @apply transition-transform duration-200;
+  z-index: 10;
+}
+
+.word-note-btn:hover {
+  transform: scale(1.15);
+}
+
+.word-note-btn.has-note {
+  @apply from-amber-500 to-orange-500;
+}
+
+/* Word note popup */
+.word-note-popup {
+  @apply absolute z-50 w-64 p-3 bg-white rounded-xl shadow-2xl border border-gray-200;
+  @apply transform -translate-x-1/2 left-1/2;
+  bottom: calc(100% + 10px);
+}
+
+.word-note-popup::after {
+  content: '';
+  @apply absolute top-full left-1/2 -translate-x-1/2;
+  border: 8px solid transparent;
+  border-top-color: white;
+}

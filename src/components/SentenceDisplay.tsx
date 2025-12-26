@@ -1,6 +1,7 @@
 import { useState, useEffect } from 'react';
 import type { WordSlot, JapaneseWord } from '../types';
 import { FavoriteButton } from './FavoriteButton';
+import { WordNoteButton } from './WordNoteButton';
 
 // Tooltip component for hover info
 function Tooltip({ word }: { word: JapaneseWord }) {
@@ -300,6 +301,14 @@ export function SentenceDisplay({
                       reading={slot.japaneseWord.reading}
                       english={slot.japaneseWord.english}
                       isFavorited={false}
+                    />
+                  )}
+                  {/* Notes Button with portal animation */}
+                  {!isUsed && (
+                    <WordNoteButton
+                      word={slot.japaneseWord.japanese}
+                      reading={slot.japaneseWord.reading}
+                      english={slot.japaneseWord.english}
                     />
                   )}
                   {/* Japanese word */}
