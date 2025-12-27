@@ -108,8 +108,13 @@ export function CalendarDetailPopover({ type, data, onClose }: CalendarDetailPop
   }, [type, data]);
 
   // Two-layer animation: gray background + colored strokes animating via setInterval (like test)
+  // CRITICAL: Do NOT call setIsAnimating(true) before setting up the animation
+  // React re-render from state change will destroy the SVG DOM via dangerouslySetInnerHTML
   const playAnimation = useCallback(() => {
-    if (!svgContainerRef.current || isAnimating) return;
+    if (!svgContainerRef.current) return;
+
+    // Check if already animating using ref (not state!)
+    if (animationRef.current.cancel === false) return;
 
     const svg = svgContainerRef.current.querySelector('svg');
     if (!svg) return;
@@ -121,7 +126,7 @@ export function CalendarDetailPopover({ type, data, onClose }: CalendarDetailPop
 
     if (paths.length === 0) return;
 
-    setIsAnimating(true);
+    // Mark animation as running BEFORE any DOM manipulation
     animationRef.current.cancel = false;
 
     // Store original colors and set paths to gray (background)
@@ -152,6 +157,10 @@ export function CalendarDetailPopover({ type, data, onClose }: CalendarDetailPop
 
       return { element: clone, length };
     });
+
+    // NOW update state - the DOM setup is complete
+    // We've captured all DOM references, so re-render won't affect our animation
+    setIsAnimating(true);
 
     // Animation using setInterval (proven to work in test)
     const frameRate = 30; // ~30fps
@@ -185,10 +194,13 @@ export function CalendarDetailPopover({ type, data, onClose }: CalendarDetailPop
       if (currentStroke >= animData.length) {
         clearInterval(intervalId);
         // Clean up - remove overlay, restore colors
-        animGroup.remove();
+        if (animGroup.parentNode) {
+          animGroup.remove();
+        }
         paths.forEach((path, index) => {
           path.setAttribute('stroke', originalColors[index]);
         });
+        animationRef.current.cancel = true;
         setIsAnimating(false);
         return;
       }
@@ -209,15 +221,17 @@ export function CalendarDetailPopover({ type, data, onClose }: CalendarDetailPop
       }
     }, frameTime);
 
-    // Store cleanup function
+    // Store cleanup function with intervalId captured
     animationRef.current.cleanup = () => {
       clearInterval(intervalId);
-      animGroup.remove();
+      if (animGroup.parentNode) {
+        animGroup.remove();
+      }
       paths.forEach((path, index) => {
         path.setAttribute('stroke', originalColors[index]);
       });
     };
-  }, [isAnimating]);
+  }, []);
 
   // Stop animation and restore state
   const resetAnimation = useCallback(() => {
