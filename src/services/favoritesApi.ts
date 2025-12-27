@@ -5,6 +5,7 @@ export interface Favorite {
   reading: string;
   english: string;
   category: string;
+  note: string | null;
   created_at: string;
   updated_at: string;
 }
@@ -66,4 +67,23 @@ export async function deleteFavorite(word: string, token: string): Promise<void>
     const error = await response.json().catch(() => ({ error: 'Failed to delete favorite' }));
     throw new Error(error.error || 'Failed to delete favorite');
   }
+}
+
+export async function updateFavoriteNote(word: string, note: string | null, token: string): Promise<Favorite> {
+  const response = await fetch(`${API_BASE}/favorites`, {
+    method: 'PATCH',
+    headers: {
+      'Content-Type': 'application/json',
+      'Authorization': `Bearer ${token}`
+    },
+    body: JSON.stringify({ word, note })
+  });
+
+  if (!response.ok) {
+    const error = await response.json().catch(() => ({ error: 'Failed to update note' }));
+    throw new Error(error.error || 'Failed to update note');
+  }
+
+  const data = await response.json();
+  return data.favorite;
 }

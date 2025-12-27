@@ -1,6 +1,6 @@
 import { useState, useEffect, useRef } from 'react';
 import { useAuth } from '../contexts/AuthContext';
-import { getFavorites, deleteFavorite, type Favorite } from '../services/favoritesApi';
+import { getFavorites, deleteFavorite, updateFavoriteNote, type Favorite } from '../services/favoritesApi';
 import { WORD_CATEGORIES } from './FavoriteButton';
 import { isKeepConnected } from '../services/keepApi';
 
@@ -133,6 +133,16 @@ export function NotesPanel({ isOpen, onClose }: NotesPanelProps) {
       await loadFavorites();
     } catch (err) {
       setFavoritesError(err instanceof Error ? err.message : 'Failed to delete');
+    }
+  };
+
+  const handleUpdateFavoriteNote = async (word: string, note: string | null) => {
+    if (!session?.access_token) return;
+    try {
+      await updateFavoriteNote(word, note, session.access_token);
+      await loadFavorites();
+    } catch (err) {
+      setFavoritesError(err instanceof Error ? err.message : 'Failed to update note');
     }
   };
 
@@ -552,6 +562,7 @@ export function NotesPanel({ isOpen, onClose }: NotesPanelProps) {
               loading={favoritesLoading}
               error={favoritesError}
               onDelete={handleDeleteFavorite}
+              onUpdateNote={handleUpdateFavoriteNote}
             />
           )}
 
@@ -595,12 +606,34 @@ export function NotesPanel({ isOpen, onClose }: NotesPanelProps) {
 }
 
 // ============ Favorites Tab ============
-function FavoritesTab({ favorites, loading, error, onDelete }: {
+function FavoritesTab({ favorites, loading, error, onDelete, onUpdateNote }: {
   favorites: Favorite[];
   loading: boolean;
   error: string | null;
   onDelete: (word: string) => void;
+  onUpdateNote: (word: string, note: string | null) => void;
 }) {
+  const [editingWord, setEditingWord] = useState<string | null>(null);
+  const [editText, setEditText] = useState('');
+
+  const startEdit = (fav: Favorite) => {
+    setEditingWord(fav.word);
+    setEditText(fav.note || '');
+  };
+
+  const saveEdit = () => {
+    if (editingWord) {
+      onUpdateNote(editingWord, editText.trim() || null);
+    }
+    setEditingWord(null);
+    setEditText('');
+  };
+
+  const cancelEdit = () => {
+    setEditingWord(null);
+    setEditText('');
+  };
+
   if (loading) {
     return (
       <div className="flex-1 flex items-center justify-center p-8">
@@ -644,29 +677,88 @@ function FavoritesTab({ favorites, loading, error, onDelete }: {
       <div className="space-y-2 stagger-children">
         {favorites.map((fav) => {
           const catStyle = getCategoryStyle(fav.category);
+          const isEditing = editingWord === fav.word;
+
           return (
             <div
               key={fav.id}
-              className="flex items-center gap-3 p-4 bg-white rounded-xl border border-gray-100 hover:shadow-md hover:border-indigo-200 transition-all group"
+              className="p-4 bg-white rounded-xl border border-gray-100 hover:shadow-md hover:border-indigo-200 transition-all group"
             >
-              <div className="flex-1 min-w-0">
-                <div className="flex items-center gap-2 flex-wrap">
-                  <span className="text-xl font-bold text-gray-900">{fav.word}</span>
-                  <span className="text-sm text-gray-500">{fav.reading}</span>
-                  <span className={`px-2 py-0.5 text-xs font-medium rounded-full bg-gradient-to-r ${catStyle.color} text-white`}>
-                    {catStyle.label}
-                  </span>
+              {isEditing ? (
+                // Edit mode
+                <div className="space-y-2">
+                  <div className="flex items-center gap-2 flex-wrap">
+                    <span className="text-xl font-bold text-gray-900">{fav.word}</span>
+                    <span className="text-sm text-gray-500">{fav.reading}</span>
+                    <span className={`px-2 py-0.5 text-xs font-medium rounded-full bg-gradient-to-r ${catStyle.color} text-white`}>
+                      {catStyle.label}
+                    </span>
+                  </div>
+                  <div className="text-sm text-gray-600">{fav.english}</div>
+                  <textarea
+                    value={editText}
+                    onChange={(e) => setEditText(e.target.value)}
+                    placeholder="Add a note..."
+                    className="w-full h-20 p-2 text-sm border border-indigo-200 rounded-lg resize-none focus:outline-none focus:border-indigo-400 focus:ring-1 focus:ring-indigo-200"
+                    autoFocus
+                  />
+                  <div className="flex justify-end gap-2">
+                    <button
+                      onClick={cancelEdit}
+                      className="px-3 py-1 text-xs text-gray-500 hover:bg-gray-100 rounded transition-colors"
+                    >
+                      Cancel
+                    </button>
+                    <button
+                      onClick={saveEdit}
+                      className="px-3 py-1 text-xs bg-gradient-to-r from-indigo-500 to-purple-600 text-white rounded font-medium hover:shadow-md transition-all"
+                    >
+                      Save
+                    </button>
+                  </div>
                 </div>
-                <div className="text-sm text-gray-600 mt-1">{fav.english}</div>
-              </div>
-              <button
-                onClick={() => onDelete(fav.word)}
-                className="p-2 text-gray-400 hover:text-red-500 hover:bg-red-50 rounded-lg transition-all opacity-100 sm:opacity-0 sm:group-hover:opacity-100"
-              >
-                <svg className="w-5 h-5" fill="none" stroke="currentColor" viewBox="0 0 24 24">
-                  <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M19 7l-.867 12.142A2 2 0 0116.138 21H7.862a2 2 0 01-1.995-1.858L5 7m5 4v6m4-6v6m1-10V4a1 1 0 00-1-1h-4a1 1 0 00-1 1v3M4 7h16" />
-                </svg>
-              </button>
+              ) : (
+                // View mode
+                <div className="flex items-start gap-3">
+                  <div className="flex-1 min-w-0">
+                    <div className="flex items-center gap-2 flex-wrap">
+                      <span className="text-xl font-bold text-gray-900">{fav.word}</span>
+                      <span className="text-sm text-gray-500">{fav.reading}</span>
+                      <span className={`px-2 py-0.5 text-xs font-medium rounded-full bg-gradient-to-r ${catStyle.color} text-white`}>
+                        {catStyle.label}
+                      </span>
+                    </div>
+                    <div className="text-sm text-gray-600 mt-1">{fav.english}</div>
+                    {fav.note && (
+                      <div className="mt-2 p-2 bg-amber-50 border border-amber-100 rounded-lg">
+                        <div className="flex items-start gap-1.5">
+                          <span className="text-amber-500 text-xs mt-0.5">📝</span>
+                          <p className="text-xs text-gray-600 whitespace-pre-wrap">{fav.note}</p>
+                        </div>
+                      </div>
+                    )}
+                  </div>
+                  <div className="flex items-center gap-1 opacity-100 sm:opacity-0 sm:group-hover:opacity-100 transition-opacity">
+                    <button
+                      onClick={() => startEdit(fav)}
+                      className="p-2 text-gray-400 hover:text-indigo-500 hover:bg-indigo-50 rounded-lg transition-all"
+                      title={fav.note ? "Edit note" : "Add note"}
+                    >
+                      <svg className="w-4 h-4" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                        <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M11 5H6a2 2 0 00-2 2v11a2 2 0 002 2h11a2 2 0 002-2v-5m-1.414-9.414a2 2 0 112.828 2.828L11.828 15H9v-2.828l8.586-8.586z" />
+                      </svg>
+                    </button>
+                    <button
+                      onClick={() => onDelete(fav.word)}
+                      className="p-2 text-gray-400 hover:text-red-500 hover:bg-red-50 rounded-lg transition-all"
+                    >
+                      <svg className="w-4 h-4" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                        <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M19 7l-.867 12.142A2 2 0 0116.138 21H7.862a2 2 0 01-1.995-1.858L5 7m5 4v6m4-6v6m1-10V4a1 1 0 00-1-1h-4a1 1 0 00-1 1v3M4 7h16" />
+                      </svg>
+                    </button>
+                  </div>
+                </div>
+              )}
             </div>
           );
         })}

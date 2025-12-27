@@ -3,7 +3,7 @@ import { createClient } from '@supabase/supabase-js';
 
 export default async function handler(req: VercelRequest, res: VercelResponse) {
   res.setHeader('Access-Control-Allow-Origin', '*');
-  res.setHeader('Access-Control-Allow-Methods', 'GET, POST, DELETE, OPTIONS');
+  res.setHeader('Access-Control-Allow-Methods', 'GET, POST, PATCH, DELETE, OPTIONS');
   res.setHeader('Access-Control-Allow-Headers', 'Content-Type, Authorization');
 
   if (req.method === 'OPTIONS') {
@@ -39,6 +39,8 @@ export default async function handler(req: VercelRequest, res: VercelResponse) {
         return handleGet(supabaseAdmin, user.id, res);
       case 'POST':
         return handlePost(supabaseAdmin, user.id, req.body, res);
+      case 'PATCH':
+        return handlePatch(supabaseAdmin, user.id, req.body, res);
       case 'DELETE':
         return handleDelete(supabaseAdmin, user.id, req.body, res);
       default:
@@ -108,6 +110,33 @@ async function handlePost(supabase: any, userId: string, body: any, res: VercelR
   if (error) {
     console.error('Database error:', error);
     return res.status(500).json({ error: 'Failed to save favorite' });
+  }
+
+  return res.status(200).json({ success: true, favorite: data });
+}
+
+// eslint-disable-next-line @typescript-eslint/no-explicit-any
+async function handlePatch(supabase: any, userId: string, body: any, res: VercelResponse) {
+  const { word, note } = body || {};
+
+  if (!word) {
+    return res.status(400).json({ error: 'Word is required' });
+  }
+
+  const { data, error } = await supabase
+    .from('user_favorites')
+    .update({
+      note: note || null,
+      updated_at: new Date().toISOString()
+    })
+    .eq('user_id', userId)
+    .eq('word', word)
+    .select()
+    .single();
+
+  if (error) {
+    console.error('Database error:', error);
+    return res.status(500).json({ error: 'Failed to update note' });
   }
 
   return res.status(200).json({ success: true, favorite: data });
