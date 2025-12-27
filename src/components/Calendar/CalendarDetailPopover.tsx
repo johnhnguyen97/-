@@ -109,9 +109,14 @@ export function CalendarDetailPopover({ type, data, onClose }: CalendarDetailPop
 
   // Two-layer animation: gray background + colored strokes animating via requestAnimationFrame
   const playAnimation = useCallback(() => {
-    if (!svgContainerRef.current || isAnimating) return;
+    console.log('playAnimation called', { ref: svgContainerRef.current, isAnimating });
+    if (!svgContainerRef.current || isAnimating) {
+      console.log('Early return', { hasRef: !!svgContainerRef.current, isAnimating });
+      return;
+    }
 
     const svg = svgContainerRef.current.querySelector('svg');
+    console.log('Found SVG:', svg);
     if (!svg) return;
 
     const kgPaths = svg.querySelector('.kgPaths');
