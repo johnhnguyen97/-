@@ -324,7 +324,7 @@ export function FullCalendarView({ onClose }: FullCalendarViewProps) {
         />
       )}
 
-      {/* Custom Calendar Styles */}
+      {/* Custom Calendar Styles - Mobile Optimized */}
       <style>{`
         .fc {
           --fc-border-color: rgba(156, 163, 175, 0.3);
@@ -395,6 +395,144 @@ export function FullCalendarView({ onClose }: FullCalendarViewProps) {
         .holiday-event {
           background: linear-gradient(135deg, #f59e0b, #ef4444) !important;
           border: none !important;
+        }
+
+        /* Mobile-specific styles */
+        @media (max-width: 640px) {
+          .fc {
+            font-size: 0.8rem;
+          }
+
+          .fc .fc-col-header-cell-cushion {
+            padding: 4px 2px;
+            font-size: 0.7rem;
+            font-weight: 600;
+          }
+
+          .fc .fc-daygrid-day-number {
+            padding: 2px 4px;
+            font-size: 0.75rem;
+          }
+
+          .fc .fc-daygrid-day-frame {
+            min-height: 60px;
+          }
+
+          .fc .fc-daygrid-day-events {
+            margin-top: 1px;
+          }
+
+          .fc .fc-event {
+            font-size: 0.6rem;
+            padding: 1px 2px;
+            border-radius: 3px;
+            margin-bottom: 1px;
+          }
+
+          .fc .fc-event-title {
+            white-space: nowrap;
+            overflow: hidden;
+            text-overflow: ellipsis;
+          }
+
+          .fc .fc-daygrid-more-link {
+            font-size: 0.65rem;
+            margin-top: 1px;
+          }
+
+          .fc .fc-daygrid-event-dot {
+            display: none;
+          }
+
+          /* Mobile: show colored dots instead of full event cards on small days */
+          .fc .fc-daygrid-day-top {
+            flex-direction: row;
+            gap: 2px;
+          }
+
+          .fc .fc-daygrid-body-unbalanced .fc-daygrid-day-events {
+            min-height: auto;
+          }
+
+          /* Tighter day cell grid on mobile */
+          .fc .fc-scrollgrid-sync-table {
+            border-collapse: collapse;
+          }
+
+          .fc-theme-standard td, .fc-theme-standard th {
+            border-width: 1px;
+          }
+
+          /* Compact event indicators for mobile */
+          .fc-daygrid-event-harness {
+            margin-bottom: 0;
+          }
+
+          /* Hide event time on mobile for all-day events */
+          .fc .fc-daygrid-event .fc-event-time {
+            display: none;
+          }
+        }
+
+        /* Extra small screens - show dots only */
+        @media (max-width: 380px) {
+          .fc .fc-event {
+            font-size: 0;
+            width: 8px;
+            height: 8px;
+            border-radius: 50%;
+            padding: 0;
+            margin: 1px auto;
+            display: block;
+          }
+
+          .fc .fc-event-title,
+          .fc .fc-event-time {
+            display: none;
+          }
+
+          .fc .fc-daygrid-day-frame {
+            min-height: 50px;
+          }
+
+          .fc .fc-daygrid-day-events {
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: center;
+            gap: 2px;
+            padding: 2px;
+          }
+
+          .fc-daygrid-event-harness {
+            display: contents;
+          }
+        }
+
+        /* Tablet/medium screens */
+        @media (min-width: 641px) and (max-width: 1024px) {
+          .fc .fc-event {
+            font-size: 0.7rem;
+          }
+
+          .fc .fc-daygrid-day-frame {
+            min-height: 80px;
+          }
+        }
+
+        /* Touch-friendly: larger tap targets */
+        @media (pointer: coarse) {
+          .fc .fc-event {
+            min-height: 24px;
+            display: flex;
+            align-items: center;
+          }
+
+          .fc .fc-daygrid-more-link {
+            min-height: 24px;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+          }
         }
       `}</style>
     </>
