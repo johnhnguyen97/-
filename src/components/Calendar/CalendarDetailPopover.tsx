@@ -24,6 +24,38 @@ const STROKE_COLORS = [
   '#7c3aed', // violet
 ];
 
+// Preprocess SVG to add colors directly to paths (wkanki-style)
+function preprocessSvg(svgString: string): string {
+  // Create a temporary DOM element to parse the SVG
+  const parser = new DOMParser();
+  const doc = parser.parseFromString(svgString, 'image/svg+xml');
+  const svg = doc.querySelector('svg');
+  if (!svg) return svgString;
+
+  // Remove stroke numbers group
+  const numbersGroup = svg.querySelector('.kgNumbers');
+  if (numbersGroup) numbersGroup.remove();
+
+  // Remove stroke="currentColor" from kgPaths group
+  const kgPaths = svg.querySelector('.kgPaths');
+  if (kgPaths) {
+    kgPaths.removeAttribute('stroke');
+  }
+
+  // Get all paths and apply colors directly
+  const paths = kgPaths ? kgPaths.querySelectorAll('path') : svg.querySelectorAll('path');
+  paths.forEach((path, index) => {
+    const color = STROKE_COLORS[index % STROKE_COLORS.length];
+    path.setAttribute('stroke', color);
+    path.setAttribute('stroke-width', '3');
+    path.setAttribute('fill', 'none');
+    path.setAttribute('stroke-linecap', 'round');
+    path.setAttribute('stroke-linejoin', 'round');
+  });
+
+  return new XMLSerializer().serializeToString(svg);
+}
+
 export function CalendarDetailPopover({ type, data, onClose }: CalendarDetailPopoverProps) {
   const popoverRef = useRef<HTMLDivElement>(null);
   const svgContainerRef = useRef<HTMLDivElement>(null);
@@ -31,7 +63,7 @@ export function CalendarDetailPopover({ type, data, onClose }: CalendarDetailPop
   const [loadingSvg, setLoadingSvg] = useState(false);
   const [isAnimating, setIsAnimating] = useState(false);
   const [isVisible, setIsVisible] = useState(false);
-  const animationRef = useRef<{ cancel: boolean }>({ cancel: false });
+  const animationRef = useRef<{ cancel: boolean; cleanup?: () => void }>({ cancel: false });
 
   // Animate in on mount
   useEffect(() => {
@@ -47,14 +79,13 @@ export function CalendarDetailPopover({ type, data, onClose }: CalendarDetailPop
     return () => document.removeEventListener('keydown', handleEscape);
   }, []);
 
-  // Fetch KanjiVG SVG for kanji from local files
+  // Fetch KanjiVG SVG for kanji - preprocess with colors
   useEffect(() => {
     if (type === 'kotd') {
       const kanji = (data as KanjiOfTheDay).kanji;
       setLoadingSvg(true);
 
       const kanjiCode = kanji.charCodeAt(0).toString(16).padStart(5, '0');
-      // Use Kan-G CDN - cleaned KanjiVG SVGs hosted on Cloudflare
       const svgUrl = `https://kan-g.vnaka.dev/k/${kanjiCode}.svg`;
 
       fetch(svgUrl)
@@ -63,13 +94,9 @@ export function CalendarDetailPopover({ type, data, onClose }: CalendarDetailPop
           throw new Error('SVG not found');
         })
         .then(svg => {
-          // Remove the kgNumbers group entirely from the SVG
-          // This removes stroke numbers like <g class="kgNumbers">...</g>
-          let cleanedSvg = svg.replace(/<g[^>]*class="kgNumbers"[^>]*>[\s\S]*?<\/g>/gi, '');
-          // Remove stroke="currentColor" entirely so we can set colors on individual paths
-          // This is simpler and more reliable than trying to target just the kgPaths group
-          cleanedSvg = cleanedSvg.replace(/\s*stroke="currentColor"/gi, '');
-          setSvgContent(cleanedSvg);
+          // Preprocess SVG with colors applied directly
+          const processedSvg = preprocessSvg(svg);
+          setSvgContent(processedSvg);
         })
         .catch(() => {
           setSvgContent(null);
@@ -80,42 +107,13 @@ export function CalendarDetailPopover({ type, data, onClose }: CalendarDetailPop
     }
   }, [type, data]);
 
-  // Apply colors to strokes after SVG is loaded
-  useEffect(() => {
-    if (svgContent && svgContainerRef.current) {
-      // Small delay to ensure DOM is ready
-      requestAnimationFrame(() => {
-        if (!svgContainerRef.current) return;
-
-        // Kan-G SVGs have paths inside g.kgPaths
-        const pathGroup = svgContainerRef.current.querySelector('.kgPaths');
-        const allPaths = pathGroup
-          ? pathGroup.querySelectorAll('path')
-          : svgContainerRef.current.querySelectorAll('path');
-
-        // Style stroke paths with colors - use setAttribute for SVG compatibility
-        allPaths.forEach((path, index) => {
-          const color = STROKE_COLORS[index % STROKE_COLORS.length];
-          const svgPath = path as SVGPathElement;
-          svgPath.setAttribute('stroke', color);
-          svgPath.setAttribute('stroke-width', '3');
-          svgPath.setAttribute('fill', 'none');
-          svgPath.setAttribute('stroke-linecap', 'round');
-          svgPath.setAttribute('stroke-linejoin', 'round');
-        });
-      });
-    }
-  }, [svgContent]);
-
-  // Stroke animation inspired by wkanki/recolor.py:
-  // Show gray background strokes, animate colored strokes drawing on top
-  const playAnimation = useCallback(async () => {
+  // wkanki-style animation: gray background + colored animated overlay using native SVG animate
+  const playAnimation = useCallback(() => {
     if (!svgContainerRef.current || isAnimating) return;
 
     const svg = svgContainerRef.current.querySelector('svg');
     if (!svg) return;
 
-    // Get all paths (Kan-G SVGs have paths inside g.kgPaths)
     const pathGroup = svg.querySelector('.kgPaths');
     const paths = Array.from(
       pathGroup ? pathGroup.querySelectorAll('path') : svg.querySelectorAll('path')
@@ -126,127 +124,98 @@ export function CalendarDetailPopover({ type, data, onClose }: CalendarDetailPop
     setIsAnimating(true);
     animationRef.current.cancel = false;
 
-    // First, set all original paths to light gray (background layer showing full kanji)
+    // Store original colors
+    const originalColors = paths.map(p => p.getAttribute('stroke') || '#000');
+
+    // Set all paths to gray (background layer)
     paths.forEach((path) => {
-      path.setAttribute('stroke', '#e0e0e0');
-      path.setAttribute('stroke-width', '3');
-      path.setAttribute('fill', 'none');
-      path.setAttribute('stroke-linecap', 'round');
-      path.setAttribute('stroke-linejoin', 'round');
-      // Clear any dash styles so gray paths are fully visible
+      path.setAttribute('stroke', '#d0d0d0');
       path.style.strokeDasharray = '';
       path.style.strokeDashoffset = '';
     });
 
-    // Create animation layer group for colored strokes on top
+    // Create animation group with cloned paths
     const animGroup = document.createElementNS('http://www.w3.org/2000/svg', 'g');
-    animGroup.setAttribute('class', 'animation-layer');
+    animGroup.setAttribute('class', 'stroke-animation');
 
-    // Clone paths for animation layer - these will draw with color on top of gray
+    // Calculate timing
+    const baseWait = 0.2; // seconds before animation starts
+    const drawTime = 0.3; // base draw time per stroke
+    const lengthFactor = 0.003; // additional time based on path length
+    const pauseBetween = 0.15; // pause between strokes
+
+    let currentTime = baseWait;
     const animPaths: SVGPathElement[] = [];
+
     paths.forEach((path, index) => {
       const clone = path.cloneNode(true) as SVGPathElement;
-      const color = STROKE_COLORS[index % STROKE_COLORS.length];
+      const color = originalColors[index];
       const length = path.getTotalLength();
 
-      clone.setAttribute('stroke', color);
-      clone.setAttribute('stroke-width', '4'); // Slightly thicker to show on top
-      clone.setAttribute('fill', 'none');
-      clone.setAttribute('stroke-linecap', 'round');
-      clone.setAttribute('stroke-linejoin', 'round');
-      clone.style.strokeDasharray = String(length);
-      clone.style.strokeDashoffset = String(length); // Start hidden
+      // Calculate stroke-specific timing
+      const strokeDuration = drawTime + (length * lengthFactor);
 
+      clone.setAttribute('stroke', color);
+      clone.setAttribute('stroke-width', '4');
+      clone.style.strokeDasharray = String(length);
+      clone.style.strokeDashoffset = String(length);
+
+      // Create native SVG animate element for smooth animation
+      const animate = document.createElementNS('http://www.w3.org/2000/svg', 'animate');
+      animate.setAttribute('attributeName', 'stroke-dashoffset');
+      animate.setAttribute('from', String(length));
+      animate.setAttribute('to', '0');
+      animate.setAttribute('begin', `${currentTime}s`);
+      animate.setAttribute('dur', `${strokeDuration}s`);
+      animate.setAttribute('fill', 'freeze');
+
+      clone.appendChild(animate);
       animGroup.appendChild(clone);
       animPaths.push(clone);
+
+      currentTime += strokeDuration + pauseBetween;
     });
 
-    // Add animation layer to SVG
     svg.appendChild(animGroup);
 
-    // Small delay before starting
-    await new Promise(resolve => setTimeout(resolve, 200));
-
-    // Animate each stroke sequentially
-    for (let i = 0; i < animPaths.length; i++) {
-      if (animationRef.current.cancel) break;
-
-      const animPath = animPaths[i];
-      const length = paths[i].getTotalLength();
-
-      // Animation parameters
-      const animationTime = Math.min(Math.max(400, length * 4), 800);
-      const intervalTime = 16; // ~60fps
-      const steps = Math.ceil(animationTime / intervalTime);
-      const decrementPerStep = length / steps;
-
-      // Animate by progressively decreasing strokeDashoffset
-      await new Promise<void>((resolve) => {
-        let currentOffset = length;
-        const interval = setInterval(() => {
-          if (animationRef.current.cancel) {
-            clearInterval(interval);
-            resolve();
-            return;
-          }
-
-          currentOffset -= decrementPerStep;
-          if (currentOffset <= 0) {
-            animPath.style.strokeDashoffset = '0';
-            clearInterval(interval);
-            resolve();
-          } else {
-            animPath.style.strokeDashoffset = String(currentOffset);
-          }
-        }, intervalTime);
-      });
-
-      // Small pause between strokes
-      if (!animationRef.current.cancel && i < animPaths.length - 1) {
-        await new Promise(resolve => setTimeout(resolve, 100));
+    // Set timeout to clean up after animation completes
+    const totalDuration = (currentTime + 0.5) * 1000; // Add buffer
+    const cleanupTimeout = setTimeout(() => {
+      if (!animationRef.current.cancel) {
+        // Remove animation layer and restore colors
+        animGroup.remove();
+        paths.forEach((path, index) => {
+          path.setAttribute('stroke', originalColors[index]);
+        });
+        setIsAnimating(false);
       }
-    }
+    }, totalDuration);
 
-    // After animation, show final state briefly then clean up
-    if (!animationRef.current.cancel) {
-      await new Promise(resolve => setTimeout(resolve, 500));
-    }
-
-    // Remove animation layer and restore colored strokes
-    animGroup.remove();
-    paths.forEach((path, index) => {
-      const color = STROKE_COLORS[index % STROKE_COLORS.length];
-      path.setAttribute('stroke', color);
-      path.setAttribute('stroke-width', '3');
-    });
-
-    setIsAnimating(false);
+    // Store cleanup function
+    animationRef.current.cleanup = () => {
+      clearTimeout(cleanupTimeout);
+      animGroup.remove();
+      paths.forEach((path, index) => {
+        path.setAttribute('stroke', originalColors[index]);
+      });
+    };
   }, [isAnimating]);
 
-  // Reset animation (show all strokes fully drawn)
+  // Stop animation and restore state
   const resetAnimation = useCallback(() => {
     animationRef.current.cancel = true;
-    setIsAnimating(false);
-
-    if (svgContainerRef.current) {
-      const pathGroup = svgContainerRef.current.querySelector('.kgPaths');
-      const paths = (pathGroup ? pathGroup.querySelectorAll('path') : svgContainerRef.current.querySelectorAll('path')) as NodeListOf<SVGPathElement>;
-
-      paths.forEach((path, index) => {
-        const color = STROKE_COLORS[index % STROKE_COLORS.length];
-        path.setAttribute('stroke', color);
-        path.setAttribute('stroke-width', '3');
-        path.setAttribute('fill', 'none');
-        // Clear dash styles to show full stroke
-        path.style.strokeDasharray = 'none';
-        path.style.strokeDashoffset = '0';
-        path.style.transition = 'none';
-      });
+    if (animationRef.current.cleanup) {
+      animationRef.current.cleanup();
+      animationRef.current.cleanup = undefined;
     }
+    setIsAnimating(false);
   }, []);
 
   const handleClose = () => {
     animationRef.current.cancel = true;
+    if (animationRef.current.cleanup) {
+      animationRef.current.cleanup();
+    }
     setIsVisible(false);
     setTimeout(onClose, 200);
   };
@@ -307,9 +276,8 @@ export function CalendarDetailPopover({ type, data, onClose }: CalendarDetailPop
             {svgContent ? (
               <div
                 ref={svgContainerRef}
-                className="w-48 h-48 mx-auto flex items-center justify-center"
+                className="w-48 h-48 mx-auto flex items-center justify-center [&_svg]:w-full [&_svg]:h-full [&_svg]:max-w-[180px] [&_svg]:max-h-[180px]"
                 dangerouslySetInnerHTML={{ __html: svgContent }}
-                style={{ overflow: 'visible' }}
               />
             ) : loadingSvg ? (
               <div className="w-48 h-48 mx-auto flex items-center justify-center">
@@ -491,16 +459,6 @@ export function CalendarDetailPopover({ type, data, onClose }: CalendarDetailPop
           </div>
         </div>
       </div>
-
-      {/* SVG Styles */}
-      <style>{`
-        .kanji-svg-container svg {
-          width: 100%;
-          height: 100%;
-          max-width: 180px;
-          max-height: 180px;
-        }
-      `}</style>
     </>
   );
 
