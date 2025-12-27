@@ -107,14 +107,18 @@ export function CalendarDetailPopover({ type, data, onClose }: CalendarDetailPop
     }
   }, [svgContent]);
 
-  // KanjivgAnimate-style stroke animation using setInterval for smooth drawing
+  // Stroke animation inspired by wkanki/recolor.py:
+  // Show gray background strokes, animate colored strokes drawing on top
   const playAnimation = useCallback(async () => {
     if (!svgContainerRef.current || isAnimating) return;
 
-    // Kan-G SVGs have paths inside g.kgPaths
-    const pathGroup = svgContainerRef.current.querySelector('.kgPaths');
+    const svg = svgContainerRef.current.querySelector('svg');
+    if (!svg) return;
+
+    // Get all paths (Kan-G SVGs have paths inside g.kgPaths)
+    const pathGroup = svg.querySelector('.kgPaths');
     const paths = Array.from(
-      pathGroup ? pathGroup.querySelectorAll('path') : svgContainerRef.current.querySelectorAll('path')
+      pathGroup ? pathGroup.querySelectorAll('path') : svg.querySelectorAll('path')
     ) as SVGPathElement[];
 
     if (paths.length === 0) return;
@@ -122,35 +126,56 @@ export function CalendarDetailPopover({ type, data, onClose }: CalendarDetailPop
     setIsAnimating(true);
     animationRef.current.cancel = false;
 
-    // Hide all paths initially by setting dashoffset = length
-    paths.forEach((path, index) => {
-      const color = STROKE_COLORS[index % STROKE_COLORS.length];
-      const length = path.getTotalLength();
-
-      path.setAttribute('stroke', color);
+    // First, set all original paths to light gray (background layer showing full kanji)
+    paths.forEach((path) => {
+      path.setAttribute('stroke', '#e0e0e0');
       path.setAttribute('stroke-width', '3');
       path.setAttribute('fill', 'none');
       path.setAttribute('stroke-linecap', 'round');
       path.setAttribute('stroke-linejoin', 'round');
-      path.style.strokeDasharray = String(length);
-      path.style.strokeDashoffset = String(length);
+      // Clear any dash styles so gray paths are fully visible
+      path.style.strokeDasharray = '';
+      path.style.strokeDashoffset = '';
     });
 
-    // Small delay before starting
-    await new Promise(resolve => setTimeout(resolve, 100));
+    // Create animation layer group for colored strokes on top
+    const animGroup = document.createElementNS('http://www.w3.org/2000/svg', 'g');
+    animGroup.setAttribute('class', 'animation-layer');
 
-    // Animate each stroke sequentially using interval-based animation (like KanjivgAnimate)
-    for (let i = 0; i < paths.length; i++) {
+    // Clone paths for animation layer - these will draw with color on top of gray
+    const animPaths: SVGPathElement[] = [];
+    paths.forEach((path, index) => {
+      const clone = path.cloneNode(true) as SVGPathElement;
+      const color = STROKE_COLORS[index % STROKE_COLORS.length];
+      const length = path.getTotalLength();
+
+      clone.setAttribute('stroke', color);
+      clone.setAttribute('stroke-width', '4'); // Slightly thicker to show on top
+      clone.setAttribute('fill', 'none');
+      clone.setAttribute('stroke-linecap', 'round');
+      clone.setAttribute('stroke-linejoin', 'round');
+      clone.style.strokeDasharray = String(length);
+      clone.style.strokeDashoffset = String(length); // Start hidden
+
+      animGroup.appendChild(clone);
+      animPaths.push(clone);
+    });
+
+    // Add animation layer to SVG
+    svg.appendChild(animGroup);
+
+    // Small delay before starting
+    await new Promise(resolve => setTimeout(resolve, 200));
+
+    // Animate each stroke sequentially
+    for (let i = 0; i < animPaths.length; i++) {
       if (animationRef.current.cancel) break;
 
-      const path = paths[i];
-      const length = path.getTotalLength();
-      const color = STROKE_COLORS[i % STROKE_COLORS.length];
+      const animPath = animPaths[i];
+      const length = paths[i].getTotalLength();
 
-      path.setAttribute('stroke', color);
-
-      // Animation parameters - similar to KanjivgAnimate approach
-      const animationTime = Math.min(Math.max(300, length * 3), 600); // ms for this stroke
+      // Animation parameters
+      const animationTime = Math.min(Math.max(400, length * 4), 800);
       const intervalTime = 16; // ~60fps
       const steps = Math.ceil(animationTime / intervalTime);
       const decrementPerStep = length / steps;
@@ -167,21 +192,33 @@ export function CalendarDetailPopover({ type, data, onClose }: CalendarDetailPop
 
           currentOffset -= decrementPerStep;
           if (currentOffset <= 0) {
-            currentOffset = 0;
-            path.style.strokeDashoffset = '0';
+            animPath.style.strokeDashoffset = '0';
             clearInterval(interval);
             resolve();
           } else {
-            path.style.strokeDashoffset = String(currentOffset);
+            animPath.style.strokeDashoffset = String(currentOffset);
           }
         }, intervalTime);
       });
 
       // Small pause between strokes
-      if (!animationRef.current.cancel && i < paths.length - 1) {
-        await new Promise(resolve => setTimeout(resolve, 50));
+      if (!animationRef.current.cancel && i < animPaths.length - 1) {
+        await new Promise(resolve => setTimeout(resolve, 100));
       }
     }
+
+    // After animation, show final state briefly then clean up
+    if (!animationRef.current.cancel) {
+      await new Promise(resolve => setTimeout(resolve, 500));
+    }
+
+    // Remove animation layer and restore colored strokes
+    animGroup.remove();
+    paths.forEach((path, index) => {
+      const color = STROKE_COLORS[index % STROKE_COLORS.length];
+      path.setAttribute('stroke', color);
+      path.setAttribute('stroke-width', '3');
+    });
 
     setIsAnimating(false);
   }, [isAnimating]);
