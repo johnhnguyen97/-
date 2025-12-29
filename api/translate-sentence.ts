@@ -38,10 +38,259 @@ interface GrammarNote {
   atomicBreakdown?: GrammarAtom[];
 }
 
+interface WordEntry {
+  english?: string;
+  japanese?: string;
+  reading?: string;
+  romaji?: string;
+  partOfSpeech?: string;
+  role?: string;
+}
+
 interface TranslationResult {
+  fullTranslation?: string;
+  words?: WordEntry[];
   grammarNotes?: GrammarNote[];
   _validationWarnings?: string[];
+  _qualityWarnings?: string[];
 }
+
+// Common Japanese words with correct readings - used to fix Llama's frequent mistakes
+const COMMON_READINGS: Record<string, { reading: string; romaji: string }> = {
+  // Pronouns
+  '私': { reading: 'わたし', romaji: 'watashi' },
+  '僕': { reading: 'ぼく', romaji: 'boku' },
+  '彼': { reading: 'かれ', romaji: 'kare' },
+  '彼女': { reading: 'かのじょ', romaji: 'kanojo' },
+  '私たち': { reading: 'わたしたち', romaji: 'watashitachi' },
+  // Common verbs
+  '食べる': { reading: 'たべる', romaji: 'taberu' },
+  '食べます': { reading: 'たべます', romaji: 'tabemasu' },
+  '飲む': { reading: 'のむ', romaji: 'nomu' },
+  '飲みます': { reading: 'のみます', romaji: 'nomimasu' },
+  '行く': { reading: 'いく', romaji: 'iku' },
+  '行きます': { reading: 'いきます', romaji: 'ikimasu' },
+  '来る': { reading: 'くる', romaji: 'kuru' },
+  '来ます': { reading: 'きます', romaji: 'kimasu' },
+  '見る': { reading: 'みる', romaji: 'miru' },
+  '見ます': { reading: 'みます', romaji: 'mimasu' },
+  '読む': { reading: 'よむ', romaji: 'yomu' },
+  '読みます': { reading: 'よみます', romaji: 'yomimasu' },
+  '書く': { reading: 'かく', romaji: 'kaku' },
+  '書きます': { reading: 'かきます', romaji: 'kakimasu' },
+  '話す': { reading: 'はなす', romaji: 'hanasu' },
+  '話します': { reading: 'はなします', romaji: 'hanashimasu' },
+  '聞く': { reading: 'きく', romaji: 'kiku' },
+  '聞きます': { reading: 'ききます', romaji: 'kikimasu' },
+  '買う': { reading: 'かう', romaji: 'kau' },
+  '買います': { reading: 'かいます', romaji: 'kaimasu' },
+  '作る': { reading: 'つくる', romaji: 'tsukuru' },
+  '作ります': { reading: 'つくります', romaji: 'tsukurimasu' },
+  '使う': { reading: 'つかう', romaji: 'tsukau' },
+  '使います': { reading: 'つかいます', romaji: 'tsukaimasu' },
+  '勉強する': { reading: 'べんきょうする', romaji: 'benkyou suru' },
+  '勉強します': { reading: 'べんきょうします', romaji: 'benkyou shimasu' },
+  // Common nouns
+  '日本': { reading: 'にほん', romaji: 'nihon' },
+  '日本語': { reading: 'にほんご', romaji: 'nihongo' },
+  '英語': { reading: 'えいご', romaji: 'eigo' },
+  '本': { reading: 'ほん', romaji: 'hon' },
+  '人': { reading: 'ひと', romaji: 'hito' },
+  '友達': { reading: 'ともだち', romaji: 'tomodachi' },
+  '先生': { reading: 'せんせい', romaji: 'sensei' },
+  '学生': { reading: 'がくせい', romaji: 'gakusei' },
+  '学校': { reading: 'がっこう', romaji: 'gakkou' },
+  '会社': { reading: 'かいしゃ', romaji: 'kaisha' },
+  '仕事': { reading: 'しごと', romaji: 'shigoto' },
+  '家': { reading: 'いえ', romaji: 'ie' },
+  '部屋': { reading: 'へや', romaji: 'heya' },
+  '電車': { reading: 'でんしゃ', romaji: 'densha' },
+  '駅': { reading: 'えき', romaji: 'eki' },
+  '時間': { reading: 'じかん', romaji: 'jikan' },
+  '今日': { reading: 'きょう', romaji: 'kyou' },
+  '明日': { reading: 'あした', romaji: 'ashita' },
+  '昨日': { reading: 'きのう', romaji: 'kinou' },
+  '毎日': { reading: 'まいにち', romaji: 'mainichi' },
+  '朝': { reading: 'あさ', romaji: 'asa' },
+  '夜': { reading: 'よる', romaji: 'yoru' },
+  '水': { reading: 'みず', romaji: 'mizu' },
+  '食べ物': { reading: 'たべもの', romaji: 'tabemono' },
+  '飲み物': { reading: 'のみもの', romaji: 'nomimono' },
+  '寿司': { reading: 'すし', romaji: 'sushi' },
+  '図書館': { reading: 'としょかん', romaji: 'toshokan' },
+  // Common adjectives
+  '大きい': { reading: 'おおきい', romaji: 'ookii' },
+  '小さい': { reading: 'ちいさい', romaji: 'chiisai' },
+  '新しい': { reading: 'あたらしい', romaji: 'atarashii' },
+  '古い': { reading: 'ふるい', romaji: 'furui' },
+  '高い': { reading: 'たかい', romaji: 'takai' },
+  '安い': { reading: 'やすい', romaji: 'yasui' },
+  '美味しい': { reading: 'おいしい', romaji: 'oishii' },
+  '楽しい': { reading: 'たのしい', romaji: 'tanoshii' },
+  '難しい': { reading: 'むずかしい', romaji: 'muzukashii' },
+  '簡単': { reading: 'かんたん', romaji: 'kantan' },
+  '元気': { reading: 'げんき', romaji: 'genki' },
+  '好き': { reading: 'すき', romaji: 'suki' },
+};
+
+// Validate translation quality - catch common Llama errors
+function validateTranslationQuality(result: TranslationResult): string[] {
+  const warnings: string[] = [];
+
+  // Check fullTranslation exists and contains Japanese
+  if (!result.fullTranslation) {
+    warnings.push('Missing fullTranslation field');
+  } else if (!/[\u3040-\u309F\u30A0-\u30FF\u4E00-\u9FAF]/.test(result.fullTranslation)) {
+    warnings.push('fullTranslation does not contain Japanese characters');
+  }
+
+  // Check words array
+  if (!result.words || !Array.isArray(result.words)) {
+    warnings.push('Missing or invalid words array');
+  } else {
+    let hasVerb = false;
+    result.words.forEach((word, index) => {
+      // Check required fields
+      if (!word.japanese) {
+        warnings.push(`Word ${index}: missing japanese field`);
+      }
+      if (!word.reading) {
+        warnings.push(`Word ${index}: missing reading field`);
+      } else if (/[\u4E00-\u9FAF]/.test(word.reading)) {
+        // Reading contains kanji - should be hiragana only
+        warnings.push(`Word ${index}: reading "${word.reading}" contains kanji (should be hiragana)`);
+      }
+      if (!word.romaji) {
+        warnings.push(`Word ${index}: missing romaji field`);
+      } else if (/[^\x00-\x7F]/.test(word.romaji)) {
+        // Romaji contains non-ASCII - should be ASCII only
+        warnings.push(`Word ${index}: romaji "${word.romaji}" contains non-ASCII characters`);
+      }
+
+      // Check for verb
+      if (word.partOfSpeech?.toLowerCase().includes('verb')) {
+        hasVerb = true;
+      }
+    });
+
+    // Most sentences should have at least one verb
+    if (!hasVerb && result.words.length > 2) {
+      warnings.push('No verb detected in translation (unusual for a complete sentence)');
+    }
+  }
+
+  return warnings;
+}
+
+// Correct common reading errors using COMMON_READINGS dictionary
+function correctReadings(result: TranslationResult): void {
+  if (!result.words || !Array.isArray(result.words)) return;
+
+  result.words.forEach(word => {
+    if (!word.japanese) return;
+
+    // Check if we have a correction for this word
+    const correction = COMMON_READINGS[word.japanese];
+    if (correction) {
+      // Only correct if current reading seems wrong
+      if (word.reading && /[\u4E00-\u9FAF]/.test(word.reading)) {
+        // Reading contains kanji - definitely wrong
+        word.reading = correction.reading;
+        word.romaji = correction.romaji;
+      } else if (!word.reading || word.reading === '') {
+        // Missing reading
+        word.reading = correction.reading;
+        word.romaji = correction.romaji;
+      }
+      // Also ensure romaji is correct
+      if (!word.romaji || /[^\x00-\x7F]/.test(word.romaji)) {
+        word.romaji = correction.romaji;
+      }
+    }
+  });
+}
+
+// Few-shot examples for Llama - complete input/output pairs
+const LLAMA_FEW_SHOT_EXAMPLES = `
+=== EXAMPLE 1: Simple sentence ===
+Input: "I eat sushi"
+Output:
+{
+  "fullTranslation": "寿司を食べます",
+  "wordOrderDisplay": "Object → Verb",
+  "words": [
+    {"english": "sushi", "japanese": "寿司", "reading": "すし", "romaji": "sushi", "partOfSpeech": "noun", "role": "object"},
+    {"english": "(object marker)", "japanese": "を", "reading": "を", "romaji": "o", "partOfSpeech": "particle", "role": "particle", "particleMeaning": "marks direct object"},
+    {"english": "eat", "japanese": "食べます", "reading": "たべます", "romaji": "tabemasu", "partOfSpeech": "verb", "role": "predicate"}
+  ],
+  "grammarNotes": [
+    {
+      "title": "Polite Verb Form",
+      "titleJapanese": "丁寧形",
+      "explanation": "食べます uses the polite ます form. The subject 私 (I) is dropped as it's obvious from context.",
+      "atomicBreakdown": [
+        {"component": "食べ", "type": "verb stem", "meaning": "eat (stem of 食べる)"},
+        {"component": "ます", "type": "polite suffix", "meaning": "polite present/future tense"}
+      ]
+    }
+  ]
+}
+
+=== EXAMPLE 2: Progressive form with location ===
+Input: "She is reading a book at the library"
+Output:
+{
+  "fullTranslation": "彼女は図書館で本を読んでいます",
+  "wordOrderDisplay": "Topic → Location → Object → Verb",
+  "words": [
+    {"english": "she", "japanese": "彼女", "reading": "かのじょ", "romaji": "kanojo", "partOfSpeech": "pronoun", "role": "topic"},
+    {"english": "(topic marker)", "japanese": "は", "reading": "は", "romaji": "wa", "partOfSpeech": "particle", "role": "particle", "particleMeaning": "marks topic"},
+    {"english": "library", "japanese": "図書館", "reading": "としょかん", "romaji": "toshokan", "partOfSpeech": "noun", "role": "location"},
+    {"english": "(location of action)", "japanese": "で", "reading": "で", "romaji": "de", "partOfSpeech": "particle", "role": "particle", "particleMeaning": "marks where action happens"},
+    {"english": "book", "japanese": "本", "reading": "ほん", "romaji": "hon", "partOfSpeech": "noun", "role": "object"},
+    {"english": "(object marker)", "japanese": "を", "reading": "を", "romaji": "o", "partOfSpeech": "particle", "role": "particle", "particleMeaning": "marks direct object"},
+    {"english": "is reading", "japanese": "読んでいます", "reading": "よんでいます", "romaji": "yonde imasu", "partOfSpeech": "verb", "role": "predicate"}
+  ],
+  "grammarNotes": [
+    {
+      "title": "Progressive Form (ている)",
+      "titleJapanese": "進行形",
+      "explanation": "読んでいます shows an ongoing action. Formed with te-form + います.",
+      "atomicBreakdown": [
+        {"component": "読む", "type": "verb (dictionary form)", "meaning": "to read"},
+        {"component": "で", "type": "te-form ending", "meaning": "conjunctive (from 読む→読んで)"},
+        {"component": "い", "type": "auxiliary stem", "meaning": "from いる (to exist)"},
+        {"component": "ます", "type": "polite suffix", "meaning": "polite marker"}
+      ]
+    }
+  ]
+}
+
+=== EXAMPLE 3: Desire form with direction ===
+Input: "I want to go to Japan"
+Output:
+{
+  "fullTranslation": "日本に行きたいです",
+  "wordOrderDisplay": "Destination → Verb (desire)",
+  "words": [
+    {"english": "Japan", "japanese": "日本", "reading": "にほん", "romaji": "nihon", "partOfSpeech": "noun", "role": "destination"},
+    {"english": "(direction)", "japanese": "に", "reading": "に", "romaji": "ni", "partOfSpeech": "particle", "role": "particle", "particleMeaning": "marks destination/direction"},
+    {"english": "want to go", "japanese": "行きたいです", "reading": "いきたいです", "romaji": "ikitai desu", "partOfSpeech": "verb", "role": "predicate"}
+  ],
+  "grammarNotes": [
+    {
+      "title": "Desire Form (たい)",
+      "titleJapanese": "願望形",
+      "explanation": "行きたい expresses 'want to go'. Formed with verb stem + たい. です adds politeness.",
+      "atomicBreakdown": [
+        {"component": "行く", "type": "verb (dictionary form)", "meaning": "to go"},
+        {"component": "たい", "type": "desire suffix", "meaning": "want to (attached to verb stem 行き)"},
+        {"component": "です", "type": "copula (polite)", "meaning": "adds politeness"}
+      ]
+    }
+  ]
+}
+`;
 
 // Known patterns that should ALWAYS be broken down
 const COMPOUND_PATTERNS = [
@@ -367,6 +616,88 @@ function forceAtomicSplit(result: TranslationResult): void {
         wasSplit = true;
       }
 
+      // Split: 食べたい → 食べる + たい (desire form)
+      if (!wasSplit && /たい$/.test(comp) && comp !== 'たい' && comp.length > 2) {
+        const base = comp.replace(/たい$/, '');
+        const dictForm = guessDictionaryForm(base, 'i');
+        newBreakdown.push({ component: dictForm, type: 'verb (dictionary form)', meaning: atom.meaning || 'verb' });
+        newBreakdown.push({ component: 'たい', type: 'desire suffix', meaning: 'want to' });
+        wasSplit = true;
+      }
+
+      // Split: 食べたくない → 食べる + たく + ない (negative desire)
+      if (!wasSplit && /たくない$/.test(comp) && comp !== 'たくない') {
+        const base = comp.replace(/たくない$/, '');
+        const dictForm = guessDictionaryForm(base, 'i');
+        newBreakdown.push({ component: dictForm, type: 'verb (dictionary form)', meaning: atom.meaning || 'verb' });
+        newBreakdown.push({ component: 'たく', type: 'desire suffix (adverbial)', meaning: 'want to (connective form)' });
+        newBreakdown.push({ component: 'ない', type: 'negative', meaning: 'not' });
+        wasSplit = true;
+      }
+
+      // Split: 食べたかった → 食べる + たかった (past desire)
+      if (!wasSplit && /たかった$/.test(comp) && comp !== 'たかった') {
+        const base = comp.replace(/たかった$/, '');
+        const dictForm = guessDictionaryForm(base, 'i');
+        newBreakdown.push({ component: dictForm, type: 'verb (dictionary form)', meaning: atom.meaning || 'verb' });
+        newBreakdown.push({ component: 'たかった', type: 'desire suffix (past)', meaning: 'wanted to' });
+        wasSplit = true;
+      }
+
+      // Split: 食べられる → 食べる + られる (potential/passive for ru-verbs)
+      if (!wasSplit && /られる$/.test(comp) && comp !== 'られる' && comp.length > 3) {
+        const base = comp.replace(/られる$/, '');
+        newBreakdown.push({ component: base + 'る', type: 'verb (dictionary form)', meaning: atom.meaning || 'verb' });
+        newBreakdown.push({ component: 'られる', type: 'potential/passive suffix', meaning: 'can do / is done' });
+        wasSplit = true;
+      }
+
+      // Split: 書ける → 書く + える (potential for u-verbs)
+      if (!wasSplit && /える$/.test(comp) && comp !== 'える' && comp.length > 2) {
+        const base = comp.replace(/える$/, '');
+        // Try to reconstruct dictionary form
+        newBreakdown.push({ component: base + 'く', type: 'verb (dictionary form)', meaning: atom.meaning || 'verb' });
+        newBreakdown.push({ component: 'える', type: 'potential suffix', meaning: 'can do' });
+        wasSplit = true;
+      }
+
+      // Split: 食べさせる → 食べる + させる (causative for ru-verbs)
+      if (!wasSplit && /させる$/.test(comp) && comp !== 'させる' && comp.length > 3) {
+        const base = comp.replace(/させる$/, '');
+        newBreakdown.push({ component: base + 'る', type: 'verb (dictionary form)', meaning: atom.meaning || 'verb' });
+        newBreakdown.push({ component: 'させる', type: 'causative suffix', meaning: 'make/let someone do' });
+        wasSplit = true;
+      }
+
+      // Split: 行かなければならない → 行く + なければ + ならない (must/have to)
+      if (!wasSplit && /なければならない$/.test(comp) && comp !== 'なければならない') {
+        const base = comp.replace(/なければならない$/, '');
+        const dictForm = guessDictionaryForm(base, 'a');
+        newBreakdown.push({ component: dictForm, type: 'verb (dictionary form)', meaning: atom.meaning || 'verb' });
+        newBreakdown.push({ component: 'なければ', type: 'conditional negative', meaning: 'if not' });
+        newBreakdown.push({ component: 'ならない', type: 'auxiliary', meaning: 'must not be (= must do)' });
+        wasSplit = true;
+      }
+
+      // Split: 行かなきゃ → 行く + なきゃ (casual must)
+      if (!wasSplit && /なきゃ$/.test(comp) && comp !== 'なきゃ' && comp.length > 3) {
+        const base = comp.replace(/なきゃ$/, '');
+        const dictForm = guessDictionaryForm(base, 'a');
+        newBreakdown.push({ component: dictForm, type: 'verb (dictionary form)', meaning: atom.meaning || 'verb' });
+        newBreakdown.push({ component: 'なきゃ', type: 'casual obligation', meaning: 'must (casual contraction)' });
+        wasSplit = true;
+      }
+
+      // Split: 食べないで → 食べる + ないで (negative te-form / "without doing")
+      if (!wasSplit && /ないで$/.test(comp) && comp !== 'ないで' && comp.length > 3) {
+        const base = comp.replace(/ないで$/, '');
+        const dictForm = guessDictionaryForm(base, 'a');
+        newBreakdown.push({ component: dictForm, type: 'verb (dictionary form)', meaning: atom.meaning || 'verb' });
+        newBreakdown.push({ component: 'ない', type: 'negative', meaning: 'not' });
+        newBreakdown.push({ component: 'で', type: 'te-form particle', meaning: 'without doing / please don\'t' });
+        wasSplit = true;
+      }
+
       // Keep as is if no split needed
       if (!wasSplit) {
         newBreakdown.push(atom);
@@ -481,9 +812,6 @@ export default async function handler(req: VercelRequest, res: VercelResponse) {
       .eq('user_id', user.id)
       .single();
 
-    // Build the prompt
-    const prompt = buildTranslationPrompt(sentence, parsedWords);
-
     let content: string;
 
     // Use specified provider, or default based on key availability
@@ -491,7 +819,9 @@ export default async function handler(req: VercelRequest, res: VercelResponse) {
 
     // Use Claude if requested AND user has a key
     if (useProvider === 'claude' && keyData?.encrypted_key) {
-      // User has their own Anthropic key - use Claude
+      // User has their own Anthropic key - use Claude with original prompt
+      const prompt = buildTranslationPrompt(sentence, parsedWords);
+
       let apiKey: string;
       try {
         apiKey = decrypt({
@@ -533,7 +863,9 @@ export default async function handler(req: VercelRequest, res: VercelResponse) {
       const data = await anthropicResponse.json();
       content = data.content[0]?.text;
     } else {
-      // No user key - use Groq (free fallback)
+      // No user key - use Groq (free fallback) with optimized Llama prompt
+      const prompt = buildLlamaPrompt(sentence);
+
       const groqKey = process.env.GROQ_API_KEY;
       if (!groqKey) {
         return res.status(400).json({
@@ -600,14 +932,23 @@ export default async function handler(req: VercelRequest, res: VercelResponse) {
       }
     }
 
-    // Force split components that AI didn't break down properly
+    // Step 1: Validate translation quality (catch common Llama errors)
+    const qualityWarnings = validateTranslationQuality(translationResult);
+    if (qualityWarnings.length > 0) {
+      console.warn('Translation quality warnings:', qualityWarnings);
+      translationResult._qualityWarnings = qualityWarnings;
+    }
+
+    // Step 2: Correct common reading errors using dictionary
+    correctReadings(translationResult);
+
+    // Step 3: Force split components that AI didn't break down properly
     forceAtomicSplit(translationResult);
 
-    // Validate atomic breakdown structure
+    // Step 4: Validate atomic breakdown structure
     const validationErrors = validateAtomicBreakdown(translationResult);
     if (validationErrors.length > 0) {
       console.warn('Atomic breakdown validation warnings:', validationErrors);
-      // Add validation warnings to response for debugging
       translationResult._validationWarnings = validationErrors;
     }
 
@@ -738,4 +1079,45 @@ Rules:
   - Missing component/type fields will be rejected
 
 - MUST be valid JSON - no trailing commas, escape quotes properly`;
+}
+
+// Optimized prompt for Llama models - uses few-shot examples and condensed grammar
+function buildLlamaPrompt(sentence: string): string {
+  return `You are an expert Japanese language teacher. Translate English sentences to Japanese and provide detailed word breakdowns for language learners.
+
+=== CONDENSED GRAMMAR REFERENCE ===
+PARTICLES (always separate words):
+  は (wa) = topic marker | が (ga) = subject marker | を (o) = object marker
+  に (ni) = direction/time/target | で (de) = location of action/means
+  の (no) = possessive | へ (e) = direction | と (to) = and/with
+
+VERB FORMS (break into dictionary form + suffix):
+  ます = polite present | ました = polite past | ません = polite negative
+  ている = progressive (-ing) | たい = want to | ない = negative
+
+CRITICAL RULES:
+1. Readings (reading field) must be HIRAGANA ONLY - never include kanji
+2. Romaji must be ASCII only (a-z letters and spaces)
+3. Break down ALL compound verbs into separate components
+4. Particles are ALWAYS separate word entries
+5. Drop obvious pronouns (私 for "I" when context is clear)
+=== END REFERENCE ===
+
+${LLAMA_FEW_SHOT_EXAMPLES}
+
+=== YOUR TASK ===
+Now translate this sentence following the EXACT same format as the examples above:
+
+Input: "${sentence}"
+
+IMPORTANT REMINDERS:
+- Return ONLY valid JSON (no markdown, no explanation outside JSON)
+- "reading" field = HIRAGANA ONLY (e.g., "たべます" not "食べます")
+- "romaji" field = ASCII ONLY (e.g., "tabemasu" not "たべます")
+- Each particle (は、が、を、に、で、の) = separate word entry
+- atomicBreakdown: split compound verbs into dictionary form + each suffix
+- Keep words array under 15 items
+- Maximum 2 grammarNotes, each explanation under 50 words
+
+Output:`;
 }
