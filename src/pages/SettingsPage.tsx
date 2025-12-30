@@ -83,6 +83,12 @@ export function SettingsPage() {
     return end.toISOString().split('T')[0];
   });
 
+  // Timezone settings
+  const [selectedTimezones, setSelectedTimezones] = useState<string[]>(() => {
+    const saved = localStorage.getItem('gojun-timezones');
+    return saved ? JSON.parse(saved) : ['Asia/Tokyo'];
+  });
+
   useEffect(() => {
     requestAnimationFrame(() => setIsVisible(true));
   }, []);
@@ -316,6 +322,21 @@ export function SettingsPage() {
     } finally {
       setGoogleLoading(false);
     }
+  };
+
+  // Timezone management
+  const handleAddTimezone = (timezone: string) => {
+    if (!selectedTimezones.includes(timezone)) {
+      const newTimezones = [...selectedTimezones, timezone];
+      setSelectedTimezones(newTimezones);
+      localStorage.setItem('gojun-timezones', JSON.stringify(newTimezones));
+    }
+  };
+
+  const handleRemoveTimezone = (timezone: string) => {
+    const newTimezones = selectedTimezones.filter(tz => tz !== timezone);
+    setSelectedTimezones(newTimezones);
+    localStorage.setItem('gojun-timezones', JSON.stringify(newTimezones));
   };
 
   const handleLinkGoogle = async () => {
@@ -812,6 +833,67 @@ export function SettingsPage() {
                         {calendarLoading ? 'Generating...' : 'Generate iCal URL'}
                       </button>
                     )}
+                  </div>
+                </div>
+
+                {/* Timezone Settings */}
+                <div className={`backdrop-blur-xl rounded-3xl border overflow-hidden ${theme.card}`}>
+                  <div className={`px-6 py-4 border-b ${isDark ? 'bg-gradient-to-r from-teal-600/20 to-cyan-600/20 border-white/10' : 'bg-gradient-to-r from-teal-100 to-cyan-100 border-teal-200/50'}`}>
+                    <h2 className="font-bold flex items-center gap-2">
+                      <span>🌍</span> Time Zones
+                    </h2>
+                  </div>
+                  <div className="p-6 space-y-4">
+                    <p className={`text-sm ${theme.textMuted}`}>
+                      Select additional time zones to display on your home page.
+                    </p>
+
+                    {/* Common Timezones */}
+                    <div className="space-y-3">
+                      {[
+                        { zone: 'Asia/Tokyo', emoji: '🇯🇵', label: 'Tokyo' },
+                        { zone: 'America/New_York', emoji: '🇺🇸', label: 'New York' },
+                        { zone: 'America/Los_Angeles', emoji: '🇺🇸', label: 'Los Angeles' },
+                        { zone: 'Europe/London', emoji: '🇬🇧', label: 'London' },
+                        { zone: 'Europe/Paris', emoji: '🇫🇷', label: 'Paris' },
+                        { zone: 'Australia/Sydney', emoji: '🇦🇺', label: 'Sydney' },
+                        { zone: 'Asia/Seoul', emoji: '🇰🇷', label: 'Seoul' },
+                        { zone: 'Asia/Shanghai', emoji: '🇨🇳', label: 'Shanghai' },
+                      ].map(({ zone, emoji, label }) => {
+                        const isSelected = selectedTimezones.includes(zone);
+                        return (
+                          <button
+                            key={zone}
+                            onClick={() => isSelected ? handleRemoveTimezone(zone) : handleAddTimezone(zone)}
+                            className={`w-full flex items-center justify-between p-3 rounded-xl transition-all border ${
+                              isSelected
+                                ? isDark
+                                  ? 'bg-teal-500/20 border-teal-500/50'
+                                  : 'bg-teal-50 border-teal-300'
+                                : isDark
+                                  ? 'bg-white/5 border-white/10 hover:bg-white/10'
+                                  : 'bg-white border-slate-200 hover:bg-slate-50'
+                            }`}
+                          >
+                            <div className="flex items-center gap-3">
+                              <span className="text-xl">{emoji}</span>
+                              <span className={`font-medium ${isDark ? 'text-white' : 'text-slate-800'}`}>
+                                {label}
+                              </span>
+                            </div>
+                            {isSelected && (
+                              <span className="text-teal-500">✓</span>
+                            )}
+                          </button>
+                        );
+                      })}
+                    </div>
+
+                    <div className={`px-4 py-3 rounded-xl ${isDark ? 'bg-blue-500/10 border border-blue-500/20' : 'bg-blue-50 border border-blue-200'}`}>
+                      <p className={`text-sm ${isDark ? 'text-blue-300' : 'text-blue-700'}`}>
+                        💡 Selected timezones will appear on your home page for quick reference
+                      </p>
+                    </div>
                   </div>
                 </div>
               </div>

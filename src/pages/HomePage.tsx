@@ -64,6 +64,31 @@ function getTokyoTime(): Date {
   return new Date(new Date().toLocaleString('en-US', { timeZone: 'Asia/Tokyo' }));
 }
 
+// Get time for any timezone
+function getTimeForZone(timeZone: string): string {
+  return new Date().toLocaleTimeString('en-GB', {
+    timeZone,
+    hour: '2-digit',
+    minute: '2-digit',
+    hour12: false
+  });
+}
+
+// Get timezone label
+function getTimezoneLabel(timeZone: string): { emoji: string; label: string } {
+  const labels: Record<string, { emoji: string; label: string }> = {
+    'Asia/Tokyo': { emoji: '🇯🇵', label: 'Tokyo' },
+    'America/New_York': { emoji: '🇺🇸', label: 'New York' },
+    'America/Los_Angeles': { emoji: '🇺🇸', label: 'Los Angeles' },
+    'Europe/London': { emoji: '🇬🇧', label: 'London' },
+    'Europe/Paris': { emoji: '🇫🇷', label: 'Paris' },
+    'Australia/Sydney': { emoji: '🇦🇺', label: 'Sydney' },
+    'Asia/Seoul': { emoji: '🇰🇷', label: 'Seoul' },
+    'Asia/Shanghai': { emoji: '🇨🇳', label: 'Shanghai' },
+  };
+  return labels[timeZone] || { emoji: '🌍', label: timeZone.split('/')[1] || timeZone };
+}
+
 // Get days completed this week (Mon-Sun, days with any learning activity)
 function getDaysCompletedThisWeek(learnedDates: string[]): boolean[] {
   const now = new Date();
@@ -96,6 +121,12 @@ export function HomePage() {
   const [currentTime, setCurrentTime] = useState(new Date());
   const [tokyoTime, setTokyoTime] = useState(getTokyoTime());
   const { speak, speaking } = useSpeechSynthesis();
+
+  // Load timezone preferences
+  const [selectedTimezones, setSelectedTimezones] = useState<string[]>(() => {
+    const saved = localStorage.getItem('gojun-timezones');
+    return saved ? JSON.parse(saved) : ['Asia/Tokyo'];
+  });
 
   // Modal states for Quick Links
   const [showGrammarGuide, setShowGrammarGuide] = useState(false);
@@ -292,13 +323,18 @@ export function HomePage() {
 
           {/* Right side - Time displays, Level */}
           <div className="flex flex-wrap items-center gap-3">
-            {/* Tokyo Time */}
-            <div className={`${theme.card} border rounded-xl px-4 py-2`}>
-              <p className={`text-xs ${theme.textSubtle}`}>Tokyo 🇯🇵</p>
-              <p className="font-mono font-semibold text-lg">{formatTime24(tokyoTime)}</p>
-            </div>
+            {/* Selected Timezones */}
+            {selectedTimezones.map((tz) => {
+              const { emoji, label } = getTimezoneLabel(tz);
+              return (
+                <div key={tz} className={`${theme.card} border rounded-xl px-4 py-2`}>
+                  <p className={`text-xs ${theme.textSubtle}`}>{label} {emoji}</p>
+                  <p className="font-mono font-semibold text-lg">{getTimeForZone(tz)}</p>
+                </div>
+              );
+            })}
 
-            {/* Local Time */}
+            {/* Local Time (always show) */}
             <div className={`${theme.card} border rounded-xl px-4 py-2`}>
               <p className={`text-xs ${theme.textSubtle}`}>Local 📍</p>
               <p className="font-mono font-semibold text-lg">{formatTime24(currentTime)}</p>
