@@ -8,9 +8,16 @@ import { useTheme } from '../contexts/ThemeContext';
 export const Layout: React.FC = () => {
   const location = useLocation();
   const navigate = useNavigate();
-  const { session } = useAuth();
+  const { session, user } = useAuth();
   const { isDark, toggleTheme } = useTheme();
   const [displayName, setDisplayName] = useState<string>('');
+
+  // Redirect to login if not authenticated and not already on login page
+  useEffect(() => {
+    if (!user && location.pathname !== '/login') {
+      navigate('/login');
+    }
+  }, [user, location.pathname, navigate]);
 
   useEffect(() => {
     // Load user's name from localStorage
@@ -41,6 +48,22 @@ export const Layout: React.FC = () => {
     { path: '/settings', label: '⚙️ Settings' },
   ];
 
+  // If not authenticated, show minimal layout
+  if (!user) {
+    return (
+      <div className={`min-h-screen transition-colors duration-300 ${
+        isDark
+          ? 'bg-[#0f0f1a]'
+          : 'bg-gradient-to-br from-slate-50 via-white to-pink-50/30'
+      }`}>
+        <main>
+          <Outlet />
+        </main>
+      </div>
+    );
+  }
+
+  // Full authenticated layout
   return (
     <div className={`min-h-screen transition-colors duration-300 ${
       isDark
