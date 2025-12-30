@@ -1,4 +1,4 @@
-import { useState, useEffect, useRef } from 'react';
+import { useState, useEffect } from 'react';
 import { useTheme } from '../contexts/ThemeContext';
 
 type TimerMode = 'pomodoro' | 'hiit' | 'boxing' | 'cooking' | 'countdown';
@@ -25,7 +25,6 @@ export function TimerWidget() {
   const [isWorkPhase, setIsWorkPhase] = useState(true);
   const [currentRound, setCurrentRound] = useState(1);
   const [customMinutes, setCustomMinutes] = useState(10);
-  const audioRef = useRef<HTMLAudioElement | null>(null);
 
   useEffect(() => {
     // Reset timer when mode changes
@@ -110,13 +109,6 @@ export function TimerWidget() {
     return `${mins.toString().padStart(2, '0')}:${secs.toString().padStart(2, '0')}`;
   };
 
-  const handleStart = () => {
-    if (mode === 'countdown' || mode === 'cooking') {
-      setTimeLeft(customMinutes * 60);
-    }
-    setIsRunning(true);
-  };
-
   const handleReset = () => {
     setIsRunning(false);
     const preset = PRESETS[mode];
@@ -138,14 +130,6 @@ export function TimerWidget() {
     boxing: '🥊',
     cooking: '🍳',
     countdown: '⏰',
-  };
-
-  const modeLabels: Record<TimerMode, string> = {
-    pomodoro: 'Pomodoro',
-    hiit: 'HIIT',
-    boxing: 'Boxing',
-    cooking: 'Cooking',
-    countdown: 'Countdown',
   };
 
   const preset = PRESETS[mode];
@@ -246,7 +230,12 @@ export function TimerWidget() {
       {/* Controls */}
       <div className="flex gap-2">
         <button
-          onClick={() => setIsRunning(!isRunning)}
+          onClick={() => {
+            if (!isRunning && (mode === 'countdown' || mode === 'cooking')) {
+              setTimeLeft(customMinutes * 60);
+            }
+            setIsRunning(!isRunning);
+          }}
           disabled={timeLeft === 0 && !isRunning}
           className={`flex-1 py-2.5 rounded-xl font-bold transition-all ${
             isRunning

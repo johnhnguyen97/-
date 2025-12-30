@@ -61,11 +61,6 @@ function formatTime24(date: Date): string {
   return date.toLocaleTimeString('en-GB', { hour: '2-digit', minute: '2-digit', hour12: false });
 }
 
-// Get Tokyo time
-function getTokyoTime(): Date {
-  return new Date(new Date().toLocaleString('en-US', { timeZone: 'Asia/Tokyo' }));
-}
-
 // Get time for any timezone
 function getTimeForZone(timeZone: string): string {
   return new Date().toLocaleTimeString('en-GB', {
@@ -121,11 +116,10 @@ export function HomePage() {
   const [jlptLevel, setJlptLevel] = useState('N5');
   const [isVisible, setIsVisible] = useState(false);
   const [currentTime, setCurrentTime] = useState(new Date());
-  const [tokyoTime, setTokyoTime] = useState(getTokyoTime());
   const { speak, speaking } = useSpeechSynthesis();
 
   // Load timezone preferences
-  const [selectedTimezones, setSelectedTimezones] = useState<string[]>(() => {
+  const [selectedTimezones] = useState<string[]>(() => {
     const saved = localStorage.getItem('gojun-timezones');
     return saved ? JSON.parse(saved) : ['Asia/Tokyo'];
   });
@@ -254,7 +248,6 @@ export function HomePage() {
     // Update time every second for smooth clock
     const timer = setInterval(() => {
       setCurrentTime(new Date());
-      setTokyoTime(getTokyoTime());
     }, 1000);
     return () => clearInterval(timer);
   }, [loadDynamicData]);
