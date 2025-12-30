@@ -501,11 +501,12 @@ export function HomePage() {
                         <button
                           onClick={() => handleSpeak(wordOfTheDay.japanese)}
                           disabled={speaking}
-                          className={`w-10 h-10 rounded-xl flex items-center justify-center transition-all ${
+                          className={`w-14 h-14 rounded-xl flex items-center justify-center transition-all text-xl ${
                             speaking
                               ? 'bg-pink-500 text-white scale-110'
-                              : isDark ? 'bg-white/10 hover:bg-white/20' : 'bg-slate-100 hover:bg-slate-200'
+                              : isDark ? 'bg-white/10 hover:bg-white/20 hover:scale-105' : 'bg-slate-100 hover:bg-slate-200 hover:scale-105'
                           }`}
+                          title="Play audio"
                         >
                           🔊
                         </button>
@@ -528,9 +529,10 @@ export function HomePage() {
                           <button
                             onClick={() => handleSpeak(wordOfTheDay.example!.japanese)}
                             disabled={speaking}
-                            className={`w-9 h-9 rounded-lg flex items-center justify-center flex-shrink-0 transition-all ${
-                              speaking ? 'bg-pink-500 text-white' : isDark ? 'bg-white/10 hover:bg-white/20' : 'bg-white hover:bg-slate-100'
+                            className={`w-12 h-12 rounded-lg flex items-center justify-center flex-shrink-0 transition-all ${
+                              speaking ? 'bg-pink-500 text-white scale-110' : isDark ? 'bg-white/10 hover:bg-white/20 hover:scale-105' : 'bg-white hover:bg-slate-100 hover:scale-105'
                             }`}
+                            title="Play audio"
                           >
                             🔊
                           </button>

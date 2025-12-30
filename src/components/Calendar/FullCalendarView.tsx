@@ -155,6 +155,10 @@ export function FullCalendarView({ onClose, embedded = false }: FullCalendarView
   const [_rangeData, setRangeData] = useState<CalendarRangeData | null>(null);
   const [isVisible, setIsVisible] = useState(false);
 
+  // Event visibility toggles
+  const [showWOTD, setShowWOTD] = useState(true);
+  const [showKOTD, setShowKOTD] = useState(true);
+
   // Popover state
   const [popoverData, setPopoverData] = useState<{
     type: 'wotd' | 'kotd' | 'holiday';
@@ -207,39 +211,43 @@ export function FullCalendarView({ onClose, embedded = false }: FullCalendarView
       // Convert data to FullCalendar events
       const calendarEvents: EventInput[] = [];
 
-      // Add Word of the Day events
-      data.words.forEach(({ date, word }) => {
-        calendarEvents.push({
-          id: `wotd-${date}`,
-          title: `${word.word} - ${word.meaning}`,
-          start: date,
-          allDay: true,
-          classNames: ['wotd-event'],
-          extendedProps: {
-            type: 'wotd',
-            data: word
-          },
-          backgroundColor: '#6366f1',
-          borderColor: '#4f46e5'
+      // Add Word of the Day events (only if enabled)
+      if (showWOTD) {
+        data.words.forEach(({ date, word }) => {
+          calendarEvents.push({
+            id: `wotd-${date}`,
+            title: `${word.word} - ${word.meaning}`,
+            start: date,
+            allDay: true,
+            classNames: ['wotd-event'],
+            extendedProps: {
+              type: 'wotd',
+              data: word
+            },
+            backgroundColor: '#6366f1',
+            borderColor: '#4f46e5'
+          });
         });
-      });
+      }
 
-      // Add Kanji of the Day events
-      data.kanji.forEach(({ date, kanji }) => {
-        calendarEvents.push({
-          id: `kotd-${date}`,
-          title: `${kanji.kanji} - ${kanji.meaning}`,
-          start: date,
-          allDay: true,
-          classNames: ['kotd-event'],
-          extendedProps: {
-            type: 'kotd',
-            data: kanji
-          },
-          backgroundColor: '#a855f7',
-          borderColor: '#9333ea'
+      // Add Kanji of the Day events (only if enabled)
+      if (showKOTD) {
+        data.kanji.forEach(({ date, kanji }) => {
+          calendarEvents.push({
+            id: `kotd-${date}`,
+            title: `${kanji.kanji} - ${kanji.meaning}`,
+            start: date,
+            allDay: true,
+            classNames: ['kotd-event'],
+            extendedProps: {
+              type: 'kotd',
+              data: kanji
+            },
+            backgroundColor: '#a855f7',
+            borderColor: '#9333ea'
+          });
         });
-      });
+      }
 
       // Add Japanese holidays
       data.holidays.forEach((holiday) => {
@@ -264,7 +272,7 @@ export function FullCalendarView({ onClose, embedded = false }: FullCalendarView
     } finally {
       setLoading(false);
     }
-  }, [session?.access_token]);
+  }, [session?.access_token, jlptLevel, showWOTD, showKOTD]);
 
   // Track current date range for refetching when JLPT changes
   const [currentDateRange, setCurrentDateRange] = useState<{ start: Date; end: Date } | null>(null);
@@ -347,6 +355,10 @@ export function FullCalendarView({ onClose, embedded = false }: FullCalendarView
           onViewChange={handleViewChange}
           onJlptChange={handleJlptChange}
           onClose={onClose}
+          showWOTD={showWOTD}
+          showKOTD={showKOTD}
+          onToggleWOTD={() => setShowWOTD(!showWOTD)}
+          onToggleKOTD={() => setShowKOTD(!showKOTD)}
         />
 
         {/* Calendar Content */}
@@ -443,6 +455,10 @@ export function FullCalendarView({ onClose, embedded = false }: FullCalendarView
             onViewChange={handleViewChange}
             onJlptChange={handleJlptChange}
             onClose={handleClose}
+            showWOTD={showWOTD}
+            showKOTD={showKOTD}
+            onToggleWOTD={() => setShowWOTD(!showWOTD)}
+            onToggleKOTD={() => setShowKOTD(!showKOTD)}
           />
 
           {/* Calendar Content */}

@@ -345,13 +345,25 @@ export function SentenceDisplay({
         </div>
       </div>
 
-      {/* Instructions */}
-      <p className="text-center text-sm text-gray-500 mt-4">
-        {selectedSlotId
-          ? '👆 Now click a word from the bank to place it'
-          : 'Click a slot to select it, then click a word to place it (or drag and drop)'
-        }
-      </p>
+      {/* Instructions - Enhanced Visibility */}
+      <div className="mt-6 p-5 bg-gradient-to-r from-indigo-50 via-purple-50 to-pink-50 border-2 border-indigo-200 rounded-xl shadow-md">
+        <div className="flex items-center justify-center gap-3">
+          <span className="text-3xl animate-bounce">
+            {selectedSlotId ? '👆' : '🎮'}
+          </span>
+          <p className="text-lg font-semibold text-gray-800 text-center">
+            {selectedSlotId
+              ? 'Now click a word from the bank to place it'
+              : 'Click a slot to select it, then click a word to place it'
+            }
+          </p>
+        </div>
+        {!selectedSlotId && (
+          <p className="text-sm text-gray-600 text-center mt-2">
+            💡 Or drag and drop words directly into slots!
+          </p>
+        )}
+      </div>
     </div>
   );
 }
