@@ -315,21 +315,6 @@ function AppContent({ embedded = false, isDark = false }: AppContentProps) {
     isActive: i === activeSentenceIndex
   })).filter(s => s.grammarNotes.length > 0 || s.wordSlots.length > 0);
 
-  if (loading) {
-    return (
-      <div className={`min-h-screen ${theme.bg} flex items-center justify-center`}>
-        <div className="text-center">
-          <div className="inline-block animate-spin rounded-full h-12 w-12 border-4 border-amber-500 border-t-transparent mb-4"></div>
-          <p className={theme.textMuted}>Loading...</p>
-        </div>
-      </div>
-    );
-  }
-
-  if (!user) {
-    return <Auth />;
-  }
-
   const hasSentences = sentences.length > 0 && !isLoadingAll;
 
   return (
@@ -368,14 +353,32 @@ function AppContent({ embedded = false, isDark = false }: AppContentProps) {
 
             </header>
 
-            {globalError && (
-              <div className={`mb-6 p-4 rounded-lg border ${theme.error}`}>
-                {globalError}
+            {/* Loading State */}
+            {loading && (
+              <div className="text-center py-16">
+                <div className="inline-block animate-spin rounded-full h-12 w-12 border-4 border-amber-500 border-t-transparent mb-4"></div>
+                <p className={theme.textMuted}>Loading...</p>
               </div>
             )}
 
-            {/* Input Section - only show when not in game */}
-            {!gameActive && (
+            {/* Auth Section - show when not logged in */}
+            {!loading && !user && (
+              <div className="py-8">
+                <Auth />
+              </div>
+            )}
+
+            {/* Game Content - show when logged in */}
+            {!loading && user && (
+              <>
+                {globalError && (
+                  <div className={`mb-6 p-4 rounded-lg border ${theme.error}`}>
+                    {globalError}
+                  </div>
+                )}
+
+                {/* Input Section - only show when not in game */}
+                {!gameActive && (
               <div className="mb-8">
                 <SentenceInput onSubmit={handleTextSubmit} isLoading={isLoadingAll} />
 
@@ -578,22 +581,24 @@ function AppContent({ embedded = false, isDark = false }: AppContentProps) {
               </div>
             )}
 
-            {/* Mobile grammar notes */}
-            {hasSentences && allGrammarData.length > 0 && (
-              <div className="lg:hidden mt-8">
-                <GrammarSidebar
-                  grammarData={allGrammarData}
-                  activeSentenceIndex={activeSentenceIndex}
-                  onSelectSentence={setActiveSentenceIndex}
-                  isMobile={true}
-                />
-              </div>
+                {/* Mobile grammar notes */}
+                {hasSentences && allGrammarData.length > 0 && (
+                  <div className="lg:hidden mt-8">
+                    <GrammarSidebar
+                      grammarData={allGrammarData}
+                      activeSentenceIndex={activeSentenceIndex}
+                      onSelectSentence={setActiveSentenceIndex}
+                      isMobile={true}
+                    />
+                  </div>
+                )}
+              </>
             )}
           </div>
         </div>
 
-        {/* Desktop sidebar */}
-        {hasSentences && sidebarOpen && allGrammarData.length > 0 && (
+        {/* Desktop sidebar - only show when logged in and has sentences */}
+        {user && hasSentences && sidebarOpen && allGrammarData.length > 0 && (
           <div className={`hidden lg:block fixed right-0 top-0 h-screen w-80 backdrop-blur-md border-l overflow-y-auto shadow-xl z-40 ${
             isDark ? 'bg-gray-900/95 border-gray-700' : 'bg-white/95 border-gray-200'
           }`}>
@@ -607,8 +612,9 @@ function AppContent({ embedded = false, isDark = false }: AppContentProps) {
         )}
       </div>
 
-      <ToolboxButton />
-      {showSettings && <Settings onClose={() => setShowSettings(false)} />}
+      {/* Toolbox and Settings - only show when logged in */}
+      {user && <ToolboxButton />}
+      {user && showSettings && <Settings onClose={() => setShowSettings(false)} />}
     </div>
   );
 }
