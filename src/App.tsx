@@ -317,6 +317,28 @@ function AppContent({ embedded = false, isDark = false }: AppContentProps) {
 
   const hasSentences = sentences.length > 0 && !isLoadingAll;
 
+  // Show loading state
+  if (loading) {
+    return (
+      <div className={`min-h-screen ${theme.bg} flex items-center justify-center`}>
+        <div className="text-center">
+          <div className="inline-block animate-spin rounded-full h-12 w-12 border-4 border-amber-500 border-t-transparent mb-4"></div>
+          <p className={theme.textMuted}>Loading...</p>
+        </div>
+      </div>
+    );
+  }
+
+  // Show login screen when not authenticated
+  if (!user) {
+    return (
+      <div className={`min-h-screen ${theme.bg} flex items-center justify-center py-12 px-4`}>
+        <Auth />
+      </div>
+    );
+  }
+
+  // Show main app when authenticated
   return (
     <div className={`min-h-screen ${theme.bg}`}>
       <div className="flex">
@@ -349,36 +371,17 @@ function AppContent({ embedded = false, isDark = false }: AppContentProps) {
                   </svg>
                 </button>
               )}
-
-
             </header>
 
-            {/* Loading State */}
-            {loading && (
-              <div className="text-center py-16">
-                <div className="inline-block animate-spin rounded-full h-12 w-12 border-4 border-amber-500 border-t-transparent mb-4"></div>
-                <p className={theme.textMuted}>Loading...</p>
+            {/* Game Content */}
+            {globalError && (
+              <div className={`mb-6 p-4 rounded-lg border ${theme.error}`}>
+                {globalError}
               </div>
             )}
 
-            {/* Auth Section - show when not logged in */}
-            {!loading && !user && (
-              <div className="py-8">
-                <Auth />
-              </div>
-            )}
-
-            {/* Game Content - show when logged in */}
-            {!loading && user && (
-              <>
-                {globalError && (
-                  <div className={`mb-6 p-4 rounded-lg border ${theme.error}`}>
-                    {globalError}
-                  </div>
-                )}
-
-                {/* Input Section - only show when not in game */}
-                {!gameActive && (
+            {/* Input Section - only show when not in game */}
+            {!gameActive && (
               <div className="mb-8">
                 <SentenceInput onSubmit={handleTextSubmit} isLoading={isLoadingAll} />
 
@@ -581,24 +584,22 @@ function AppContent({ embedded = false, isDark = false }: AppContentProps) {
               </div>
             )}
 
-                {/* Mobile grammar notes */}
-                {hasSentences && allGrammarData.length > 0 && (
-                  <div className="lg:hidden mt-8">
-                    <GrammarSidebar
-                      grammarData={allGrammarData}
-                      activeSentenceIndex={activeSentenceIndex}
-                      onSelectSentence={setActiveSentenceIndex}
-                      isMobile={true}
-                    />
-                  </div>
-                )}
-              </>
+            {/* Mobile grammar notes */}
+            {hasSentences && allGrammarData.length > 0 && (
+              <div className="lg:hidden mt-8">
+                <GrammarSidebar
+                  grammarData={allGrammarData}
+                  activeSentenceIndex={activeSentenceIndex}
+                  onSelectSentence={setActiveSentenceIndex}
+                  isMobile={true}
+                />
+              </div>
             )}
           </div>
         </div>
 
-        {/* Desktop sidebar - only show when logged in and has sentences */}
-        {user && hasSentences && sidebarOpen && allGrammarData.length > 0 && (
+        {/* Desktop sidebar */}
+        {hasSentences && sidebarOpen && allGrammarData.length > 0 && (
           <div className={`hidden lg:block fixed right-0 top-0 h-screen w-80 backdrop-blur-md border-l overflow-y-auto shadow-xl z-40 ${
             isDark ? 'bg-gray-900/95 border-gray-700' : 'bg-white/95 border-gray-200'
           }`}>
@@ -612,9 +613,9 @@ function AppContent({ embedded = false, isDark = false }: AppContentProps) {
         )}
       </div>
 
-      {/* Toolbox and Settings - only show when logged in */}
-      {user && <ToolboxButton />}
-      {user && showSettings && <Settings onClose={() => setShowSettings(false)} />}
+      {/* Toolbox and Settings */}
+      <ToolboxButton />
+      {showSettings && <Settings onClose={() => setShowSettings(false)} />}
     </div>
   );
 }
