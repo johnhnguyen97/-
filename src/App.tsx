@@ -49,22 +49,26 @@ interface SentenceState {
 }
 
 // Loading Screen Component
-function LoadingScreen({ phrase }: { phrase: typeof LOADING_PHRASES[0] }) {
+function LoadingScreen({ phrase, isDark = false }: { phrase: typeof LOADING_PHRASES[0]; isDark?: boolean }) {
   return (
     <div className="flex flex-col items-center justify-center py-16">
       <div className="relative mb-8">
         {/* Animated rings */}
-        <div className="absolute inset-0 w-24 h-24 rounded-full border-4 border-amber-200 animate-ping opacity-20"></div>
-        <div className="absolute inset-2 w-20 h-20 rounded-full border-4 border-amber-300 animate-ping opacity-30" style={{ animationDelay: '0.2s' }}></div>
+        <div className={`absolute inset-0 w-24 h-24 rounded-full border-4 animate-ping opacity-20 ${
+          isDark ? 'border-amber-400' : 'border-amber-200'
+        }`}></div>
+        <div className={`absolute inset-2 w-20 h-20 rounded-full border-4 animate-ping opacity-30 ${
+          isDark ? 'border-amber-500' : 'border-amber-300'
+        }`} style={{ animationDelay: '0.2s' }}></div>
         <div className="relative w-24 h-24 rounded-full bg-gradient-to-br from-amber-400 to-orange-500 flex items-center justify-center shadow-xl">
           <span className="text-4xl animate-bounce">📝</span>
         </div>
       </div>
 
       <div className="text-center">
-        <p className="text-3xl font-bold text-gray-800 mb-2">{phrase.japanese}</p>
-        <p className="text-sm text-gray-500 italic mb-1">{phrase.romaji}</p>
-        <p className="text-gray-600">{phrase.english}</p>
+        <p className={`text-3xl font-bold mb-2 ${isDark ? 'text-white' : 'text-gray-800'}`}>{phrase.japanese}</p>
+        <p className={`text-sm italic mb-1 ${isDark ? 'text-gray-400' : 'text-gray-500'}`}>{phrase.romaji}</p>
+        <p className={isDark ? 'text-gray-300' : 'text-gray-600'}>{phrase.english}</p>
       </div>
 
       <div className="mt-8 flex gap-1">
@@ -80,11 +84,35 @@ function LoadingScreen({ phrase }: { phrase: typeof LOADING_PHRASES[0] }) {
   );
 }
 
-function AppContent() {
+interface AppContentProps {
+  embedded?: boolean;
+  isDark?: boolean;
+}
+
+function AppContent({ embedded = false, isDark = false }: AppContentProps) {
   const { user, session, loading } = useAuth();
   const [showSettings, setShowSettings] = useState(false);
   const [globalError, setGlobalError] = useState<string | null>(null);
   const [sidebarOpen, setSidebarOpen] = useState(true);
+
+  // Theme classes for embedded mode
+  const theme = {
+    bg: embedded
+      ? 'bg-transparent'
+      : isDark
+        ? 'bg-[#0f0f1a]'
+        : 'bg-gradient-to-br from-amber-50 via-orange-50 to-yellow-50',
+    text: isDark ? 'text-white' : 'text-gray-800',
+    textMuted: isDark ? 'text-gray-400' : 'text-gray-600',
+    textSubtle: isDark ? 'text-gray-500' : 'text-gray-400',
+    card: isDark ? 'bg-gray-800/80' : 'bg-white/80',
+    cardBorder: isDark ? 'border-gray-700' : 'border-amber-200',
+    input: isDark ? 'bg-gray-800 border-gray-600 text-white' : 'bg-white border-gray-300',
+    button: isDark ? 'bg-gray-700 text-gray-200 hover:bg-gray-600' : 'bg-white hover:bg-gray-50',
+    buttonPrimary: 'bg-gradient-to-r from-amber-500 to-orange-500 text-white',
+    success: isDark ? 'bg-green-600' : 'bg-gradient-to-r from-green-400 to-emerald-500',
+    error: isDark ? 'bg-red-900/50 border-red-700 text-red-300' : 'bg-red-100 border-red-300 text-red-700',
+  };
 
   // Multi-sentence state
   const [sentences, setSentences] = useState<SentenceState[]>([]);
@@ -289,10 +317,10 @@ function AppContent() {
 
   if (loading) {
     return (
-      <div className="min-h-screen bg-gradient-to-br from-amber-50 via-orange-50 to-yellow-50 flex items-center justify-center">
+      <div className={`min-h-screen ${theme.bg} flex items-center justify-center`}>
         <div className="text-center">
           <div className="inline-block animate-spin rounded-full h-12 w-12 border-4 border-amber-500 border-t-transparent mb-4"></div>
-          <p className="text-gray-600">Loading...</p>
+          <p className={theme.textMuted}>Loading...</p>
         </div>
       </div>
     );
@@ -305,7 +333,7 @@ function AppContent() {
   const hasSentences = sentences.length > 0 && !isLoadingAll;
 
   return (
-    <div className="min-h-screen bg-gradient-to-br from-amber-50 via-orange-50 to-yellow-50">
+    <div className={`min-h-screen ${theme.bg}`}>
       <div className="flex">
         <div className={`flex-1 py-8 px-4 transition-all duration-300 ${hasSentences && sidebarOpen ? 'lg:mr-80' : ''}`}>
           <div className="max-w-4xl mx-auto">
@@ -313,30 +341,35 @@ function AppContent() {
             <header className={`text-center relative mb-6 ${gameActive ? 'mb-4' : 'mb-8'}`}>
               <div className="flex items-center justify-center gap-3 mb-2">
                 <Logo size={gameActive ? 'sm' : 'md'} />
-                <span className={`text-gray-500 font-medium ${gameActive ? 'text-lg' : 'text-2xl'}`}>(Gojun)</span>
+                <span className={`${theme.textMuted} font-medium ${gameActive ? 'text-lg' : 'text-2xl'}`}>(Gojun)</span>
               </div>
               {!gameActive && (
-                <p className="text-gray-600">
+                <p className={theme.textMuted}>
                   Learn Japanese word order by rearranging English sentences
                 </p>
               )}
 
-              <button
-                onClick={() => setShowSettings(true)}
-                className="absolute right-0 top-0 p-2 text-gray-500 hover:text-gray-700 transition-colors rounded-full hover:bg-white/50"
-                title="Settings"
-              >
-                <svg className="w-6 h-6" fill="none" stroke="currentColor" viewBox="0 0 24 24">
-                  <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M10.325 4.317c.426-1.756 2.924-1.756 3.35 0a1.724 1.724 0 002.573 1.066c1.543-.94 3.31.826 2.37 2.37a1.724 1.724 0 001.065 2.572c1.756.426 1.756 2.924 0 3.35a1.724 1.724 0 00-1.066 2.573c.94 1.543-.826 3.31-2.37 2.37a1.724 1.724 0 00-2.572 1.065c-.426 1.756-2.924 1.756-3.35 0a1.724 1.724 0 00-2.573-1.066c-1.543.94-3.31-.826-2.37-2.37a1.724 1.724 0 00-1.065-2.572c-1.756-.426-1.756-2.924 0-3.35a1.724 1.724 0 001.066-2.573c-.94-1.543.826-3.31 2.37-2.37.996.608 2.296.07 2.572-1.065z" />
-                  <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M15 12a3 3 0 11-6 0 3 3 0 016 0z" />
-                </svg>
-              </button>
+              {/* Only show settings button when not embedded */}
+              {!embedded && (
+                <button
+                  onClick={() => setShowSettings(true)}
+                  className={`absolute right-0 top-0 p-2 transition-colors rounded-full ${
+                    isDark ? 'text-gray-400 hover:text-gray-200 hover:bg-gray-700/50' : 'text-gray-500 hover:text-gray-700 hover:bg-white/50'
+                  }`}
+                  title="Settings"
+                >
+                  <svg className="w-6 h-6" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                    <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M10.325 4.317c.426-1.756 2.924-1.756 3.35 0a1.724 1.724 0 002.573 1.066c1.543-.94 3.31.826 2.37 2.37a1.724 1.724 0 001.065 2.572c1.756.426 1.756 2.924 0 3.35a1.724 1.724 0 00-1.066 2.573c.94 1.543-.826 3.31-2.37 2.37a1.724 1.724 0 00-2.572 1.065c-.426 1.756-2.924 1.756-3.35 0a1.724 1.724 0 00-2.573-1.066c-1.543.94-3.31-.826-2.37-2.37a1.724 1.724 0 00-1.065-2.572c-1.756-.426-1.756-2.924 0-3.35a1.724 1.724 0 001.066-2.573c-.94-1.543.826-3.31 2.37-2.37.996.608 2.296.07 2.572-1.065z" />
+                    <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M15 12a3 3 0 11-6 0 3 3 0 016 0z" />
+                  </svg>
+                </button>
+              )}
 
 
             </header>
 
             {globalError && (
-              <div className="mb-6 p-4 bg-red-100 border border-red-300 rounded-lg text-red-700">
+              <div className={`mb-6 p-4 rounded-lg border ${theme.error}`}>
                 {globalError}
               </div>
             )}
@@ -346,14 +379,16 @@ function AppContent() {
               <div className="mb-8">
                 <SentenceInput onSubmit={handleTextSubmit} isLoading={isLoadingAll} />
 
-                <div className="mt-6 text-center p-8 bg-white/60 backdrop-blur-sm rounded-2xl border-2 border-dashed border-amber-200">
+                <div className={`mt-6 text-center p-8 backdrop-blur-sm rounded-2xl border-2 border-dashed ${
+                  isDark ? 'bg-gray-800/60 border-gray-600' : 'bg-white/60 border-amber-200'
+                }`}>
                   <div className="w-16 h-16 mx-auto mb-4 bg-gradient-to-br from-amber-400 to-orange-500 rounded-2xl flex items-center justify-center text-3xl text-white shadow-lg">
                     📝
                   </div>
-                  <p className="text-gray-600 text-lg font-medium">
+                  <p className={`text-lg font-medium ${theme.textMuted}`}>
                     Enter English text above to get started!
                   </p>
-                  <p className="text-gray-400 mt-2">
+                  <p className={`mt-2 ${theme.textSubtle}`}>
                     You can enter a single sentence or paste a paragraph (up to 6 sentences).
                   </p>
                   <p className="text-amber-600 mt-3 text-sm font-medium">
@@ -365,8 +400,10 @@ function AppContent() {
 
             {/* Loading Screen */}
             {isLoadingAll && (
-              <div className="bg-white/80 backdrop-blur-sm rounded-2xl border border-amber-200 shadow-sm">
-                <LoadingScreen phrase={loadingPhrase} />
+              <div className={`backdrop-blur-sm rounded-2xl border shadow-sm ${
+                isDark ? 'bg-gray-800/80 border-gray-700' : 'bg-white/80 border-amber-200'
+              }`}>
+                <LoadingScreen phrase={loadingPhrase} isDark={isDark} />
               </div>
             )}
 
@@ -375,10 +412,12 @@ function AppContent() {
               <div>
                 {/* Progress bar for multiple sentences */}
                 {sentences.length > 1 && (
-                  <div className="mb-6 p-4 bg-white/80 backdrop-blur-sm rounded-xl border border-amber-200 flex items-center justify-between shadow-sm">
+                  <div className={`mb-6 p-4 backdrop-blur-sm rounded-xl border flex items-center justify-between shadow-sm ${
+                    isDark ? 'bg-gray-800/80 border-gray-700' : 'bg-white/80 border-amber-200'
+                  }`}>
                     <div className="flex items-center gap-4">
-                      <span className="text-lg font-medium text-gray-700">
-                        Progress: <span className="text-amber-600">{completedCount}</span> / {totalCount}
+                      <span className={`text-lg font-medium ${isDark ? 'text-gray-200' : 'text-gray-700'}`}>
+                        Progress: <span className="text-amber-500">{completedCount}</span> / {totalCount}
                       </span>
                       <div className="flex gap-1">
                         {sentences.map((s, i) => (
@@ -396,13 +435,17 @@ function AppContent() {
                     <div className="flex gap-2">
                       <button
                         onClick={handleResetAll}
-                        className="px-3 py-1.5 text-sm text-gray-600 bg-gray-100 rounded-lg hover:bg-gray-200 transition-colors"
+                        className={`px-3 py-1.5 text-sm rounded-lg transition-colors ${
+                          isDark ? 'text-gray-300 bg-gray-700 hover:bg-gray-600' : 'text-gray-600 bg-gray-100 hover:bg-gray-200'
+                        }`}
                       >
                         Reset All
                       </button>
                       <button
                         onClick={() => setSidebarOpen(!sidebarOpen)}
-                        className="px-3 py-1.5 text-sm text-amber-600 bg-amber-50 rounded-lg hover:bg-amber-100 hidden lg:block transition-colors"
+                        className={`px-3 py-1.5 text-sm rounded-lg hidden lg:block transition-colors ${
+                          isDark ? 'text-amber-400 bg-amber-900/30 hover:bg-amber-900/50' : 'text-amber-600 bg-amber-50 hover:bg-amber-100'
+                        }`}
                       >
                         {sidebarOpen ? 'Hide Notes' : 'Show Notes'}
                       </button>
@@ -427,7 +470,9 @@ function AppContent() {
                       )}
 
                       {sentence.error ? (
-                        <div className="p-4 bg-red-50 border border-red-200 rounded-2xl text-red-700">
+                        <div className={`p-4 rounded-2xl border ${
+                          isDark ? 'bg-red-900/30 border-red-800 text-red-300' : 'bg-red-50 border-red-200 text-red-700'
+                        }`}>
                           <p className="font-medium">Error:</p>
                           <p>{sentence.error}</p>
                         </div>
@@ -445,10 +490,14 @@ function AppContent() {
                           />
 
                           {/* Buttons - properly contained */}
-                          <div className="mt-6 p-4 bg-white/60 rounded-xl flex flex-wrap justify-center gap-3">
+                          <div className={`mt-6 p-4 rounded-xl flex flex-wrap justify-center gap-3 ${
+                            isDark ? 'bg-gray-800/60' : 'bg-white/60'
+                          }`}>
                             <button
                               onClick={(e) => { e.stopPropagation(); handleNewSentence(); }}
-                              className="px-5 py-2.5 text-gray-600 bg-white border border-gray-300 rounded-xl hover:bg-gray-50 transition-all hover:shadow-md font-medium flex items-center gap-2"
+                              className={`px-5 py-2.5 border rounded-xl transition-all hover:shadow-md font-medium flex items-center gap-2 ${
+                                isDark ? 'text-gray-300 bg-gray-700 border-gray-600 hover:bg-gray-600' : 'text-gray-600 bg-white border-gray-300 hover:bg-gray-50'
+                              }`}
                             >
                               <svg className="w-4 h-4" fill="none" stroke="currentColor" viewBox="0 0 24 24">
                                 <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M10 19l-7-7m0 0l7-7m-7 7h18" />
@@ -457,7 +506,9 @@ function AppContent() {
                             </button>
                             <button
                               onClick={(e) => { e.stopPropagation(); handleReset(index); }}
-                              className="px-5 py-2.5 text-amber-600 bg-amber-50 border border-amber-200 rounded-xl hover:bg-amber-100 transition-all hover:shadow-md font-medium flex items-center gap-2"
+                              className={`px-5 py-2.5 border rounded-xl transition-all hover:shadow-md font-medium flex items-center gap-2 ${
+                                isDark ? 'text-amber-400 bg-amber-900/30 border-amber-800 hover:bg-amber-900/50' : 'text-amber-600 bg-amber-50 border-amber-200 hover:bg-amber-100'
+                              }`}
                             >
                               <svg className="w-4 h-4" fill="none" stroke="currentColor" viewBox="0 0 24 24">
                                 <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M4 4v5h.582m15.356 2A8.001 8.001 0 004.582 9m0 0H9m11 11v-5h-.581m0 0a8.003 8.003 0 01-15.357-2m15.357 2H15" />
@@ -478,7 +529,9 @@ function AppContent() {
                             {!sidebarOpen && allGrammarData.length > 0 && (
                               <button
                                 onClick={(e) => { e.stopPropagation(); setSidebarOpen(true); }}
-                                className="px-5 py-2.5 text-indigo-600 bg-indigo-50 border border-indigo-200 rounded-xl hover:bg-indigo-100 transition-all hover:shadow-md font-medium flex items-center gap-2"
+                                className={`px-5 py-2.5 border rounded-xl transition-all hover:shadow-md font-medium flex items-center gap-2 ${
+                                  isDark ? 'text-indigo-400 bg-indigo-900/30 border-indigo-800 hover:bg-indigo-900/50' : 'text-indigo-600 bg-indigo-50 border-indigo-200 hover:bg-indigo-100'
+                                }`}
                               >
                                 <svg className="w-4 h-4" fill="none" stroke="currentColor" viewBox="0 0 24 24">
                                   <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M9 12h6m-6 4h6m2 5H7a2 2 0 01-2-2V5a2 2 0 012-2h5.586a1 1 0 01.707.293l5.414 5.414a1 1 0 01.293.707V19a2 2 0 01-2 2z" />
@@ -489,7 +542,9 @@ function AppContent() {
                           </div>
 
                           {sentence.isComplete && !sentence.showAnswers && (
-                            <div className="mt-4 p-4 bg-gradient-to-r from-green-400 to-emerald-500 rounded-xl text-center text-white">
+                            <div className={`mt-4 p-4 rounded-xl text-center text-white ${
+                              isDark ? 'bg-green-600' : 'bg-gradient-to-r from-green-400 to-emerald-500'
+                            }`}>
                               <span className="text-lg font-bold">
                                 🎉 正解！(Seikai!) - Correct!
                               </span>
@@ -503,11 +558,13 @@ function AppContent() {
 
                 {/* All Complete */}
                 {totalCount > 0 && completedCount === totalCount && !sentences.some(s => s.showAnswers) && (
-                  <div className="mt-8 p-6 bg-gradient-to-r from-green-400 to-emerald-500 rounded-2xl text-center text-white shadow-xl">
+                  <div className={`mt-8 p-6 rounded-2xl text-center text-white shadow-xl ${
+                    isDark ? 'bg-green-600' : 'bg-gradient-to-r from-green-400 to-emerald-500'
+                  }`}>
                     <h2 className="text-2xl font-bold mb-2">
                       🎊 全部正解！(Zenbu Seikai!) 🎊
                     </h2>
-                    <p className="text-green-100 mb-4">
+                    <p className={isDark ? 'text-green-200 mb-4' : 'text-green-100 mb-4'}>
                       You completed all {totalCount} sentences!
                     </p>
                     <button
@@ -537,7 +594,9 @@ function AppContent() {
 
         {/* Desktop sidebar */}
         {hasSentences && sidebarOpen && allGrammarData.length > 0 && (
-          <div className="hidden lg:block fixed right-0 top-0 h-screen w-80 bg-white/95 backdrop-blur-md border-l border-gray-200 overflow-y-auto shadow-xl z-40">
+          <div className={`hidden lg:block fixed right-0 top-0 h-screen w-80 backdrop-blur-md border-l overflow-y-auto shadow-xl z-40 ${
+            isDark ? 'bg-gray-900/95 border-gray-700' : 'bg-white/95 border-gray-200'
+          }`}>
             <GrammarSidebar
               grammarData={allGrammarData}
               activeSentenceIndex={activeSentenceIndex}
@@ -554,10 +613,15 @@ function AppContent() {
   );
 }
 
-function App() {
+interface AppProps {
+  embedded?: boolean;
+  isDark?: boolean;
+}
+
+function App({ embedded = false, isDark = false }: AppProps) {
   return (
     <AuthProvider>
-      <AppContent />
+      <AppContent embedded={embedded} isDark={isDark} />
     </AuthProvider>
   );
 }

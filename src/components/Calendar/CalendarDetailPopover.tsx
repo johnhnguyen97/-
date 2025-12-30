@@ -1,6 +1,7 @@
 import { useState, useEffect, useRef, useCallback } from 'react';
 import { createPortal } from 'react-dom';
 import type { WordOfTheDay, KanjiOfTheDay, JapaneseHoliday } from '../../types/calendar';
+import { useSpeechSynthesis } from '../../hooks/useSpeechSynthesis';
 
 interface CalendarDetailPopoverProps {
   type: 'wotd' | 'kotd' | 'holiday';
@@ -64,6 +65,22 @@ export function CalendarDetailPopover({ type, data, onClose }: CalendarDetailPop
   const [isAnimating, setIsAnimating] = useState(false);
   const [isVisible, setIsVisible] = useState(false);
   const animationRef = useRef<{ cancel: boolean; cleanup?: () => void }>({ cancel: true });
+
+  // Audio playback
+  const { speak, speaking } = useSpeechSynthesis();
+  const [speakingText, setSpeakingText] = useState<string | null>(null);
+
+  const handleSpeak = (text: string) => {
+    setSpeakingText(text);
+    speak(text);
+  };
+
+  // Reset speaking text when speech ends
+  useEffect(() => {
+    if (!speaking) {
+      setSpeakingText(null);
+    }
+  }, [speaking]);
 
   // Animate in on mount
   useEffect(() => {
@@ -267,8 +284,21 @@ export function CalendarDetailPopover({ type, data, onClose }: CalendarDetailPop
       <div className="space-y-3 sm:space-y-4">
         {/* Main word display */}
         <div className="text-center py-3 sm:py-4">
-          <div className="text-4xl sm:text-5xl font-bold text-gray-900 dark:text-white mb-2">
-            {word.word}
+          <div className="flex items-center justify-center gap-3 mb-2">
+            <span className="text-4xl sm:text-5xl font-bold text-gray-900 dark:text-white">
+              {word.word}
+            </span>
+            <button
+              onClick={() => handleSpeak(word.word)}
+              disabled={speaking}
+              className={`w-10 h-10 rounded-xl flex items-center justify-center transition-all ${
+                speakingText === word.word
+                  ? 'bg-indigo-500 text-white scale-110 animate-pulse'
+                  : 'bg-gray-100 dark:bg-gray-800 hover:bg-gray-200 dark:hover:bg-gray-700'
+              }`}
+            >
+              🔊
+            </button>
           </div>
           <div className="text-xl sm:text-2xl text-indigo-600 dark:text-indigo-400">
             {word.reading}
@@ -309,6 +339,9 @@ export function CalendarDetailPopover({ type, data, onClose }: CalendarDetailPop
 
   const renderKanjiContent = () => {
     const kanji = data as KanjiOfTheDay;
+    const onyomiText = kanji.onyomi?.length > 0 ? kanji.onyomi.join('、') : null;
+    const kunyomiText = kanji.kunyomi?.length > 0 ? kanji.kunyomi.join('、') : null;
+
     return (
       <div className="space-y-3 sm:space-y-4">
         {/* Main kanji display with stroke animation */}
@@ -328,6 +361,19 @@ export function CalendarDetailPopover({ type, data, onClose }: CalendarDetailPop
                 {kanji.kanji}
               </div>
             )}
+
+            {/* Audio button for kanji */}
+            <button
+              onClick={() => handleSpeak(kanji.kanji)}
+              disabled={speaking}
+              className={`absolute top-2 right-2 w-9 h-9 rounded-lg flex items-center justify-center transition-all ${
+                speakingText === kanji.kanji
+                  ? 'bg-purple-500 text-white scale-110 animate-pulse'
+                  : 'bg-white dark:bg-gray-700 hover:bg-gray-100 dark:hover:bg-gray-600 shadow-sm'
+              }`}
+            >
+              🔊
+            </button>
           </div>
 
           {/* Animation controls */}
@@ -348,22 +394,52 @@ export function CalendarDetailPopover({ type, data, onClose }: CalendarDetailPop
           )}
         </div>
 
-        {/* Readings */}
+        {/* Readings with audio */}
         <div className="grid grid-cols-2 gap-2 sm:gap-3">
           <div className="bg-purple-50 dark:bg-purple-900/20 rounded-lg sm:rounded-xl p-2.5 sm:p-3">
-            <div className="text-[10px] sm:text-xs font-medium text-purple-600 dark:text-purple-400 uppercase tracking-wider mb-1">
-              On'yomi
+            <div className="flex items-center justify-between mb-1">
+              <span className="text-[10px] sm:text-xs font-medium text-purple-600 dark:text-purple-400 uppercase tracking-wider">
+                On'yomi
+              </span>
+              {onyomiText && (
+                <button
+                  onClick={() => handleSpeak(onyomiText)}
+                  disabled={speaking}
+                  className={`w-7 h-7 rounded-md flex items-center justify-center transition-all text-sm ${
+                    speakingText === onyomiText
+                      ? 'bg-purple-500 text-white scale-110 animate-pulse'
+                      : 'bg-purple-100 dark:bg-purple-800/50 hover:bg-purple-200 dark:hover:bg-purple-700/50'
+                  }`}
+                >
+                  🔊
+                </button>
+              )}
             </div>
             <div className="text-purple-700 dark:text-purple-300 font-bold text-base sm:text-lg break-all">
-              {kanji.onyomi?.length > 0 ? kanji.onyomi.join('、') : '—'}
+              {onyomiText || '—'}
             </div>
           </div>
           <div className="bg-indigo-50 dark:bg-indigo-900/20 rounded-lg sm:rounded-xl p-2.5 sm:p-3">
-            <div className="text-[10px] sm:text-xs font-medium text-indigo-600 dark:text-indigo-400 uppercase tracking-wider mb-1">
-              Kun'yomi
+            <div className="flex items-center justify-between mb-1">
+              <span className="text-[10px] sm:text-xs font-medium text-indigo-600 dark:text-indigo-400 uppercase tracking-wider">
+                Kun'yomi
+              </span>
+              {kunyomiText && (
+                <button
+                  onClick={() => handleSpeak(kunyomiText)}
+                  disabled={speaking}
+                  className={`w-7 h-7 rounded-md flex items-center justify-center transition-all text-sm ${
+                    speakingText === kunyomiText
+                      ? 'bg-indigo-500 text-white scale-110 animate-pulse'
+                      : 'bg-indigo-100 dark:bg-indigo-800/50 hover:bg-indigo-200 dark:hover:bg-indigo-700/50'
+                  }`}
+                >
+                  🔊
+                </button>
+              )}
             </div>
             <div className="text-indigo-700 dark:text-indigo-300 font-bold text-base sm:text-lg break-all">
-              {kanji.kunyomi?.length > 0 ? kanji.kunyomi.join('、') : '—'}
+              {kunyomiText || '—'}
             </div>
           </div>
         </div>

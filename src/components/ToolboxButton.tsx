@@ -2,17 +2,14 @@ import { useState, useEffect } from 'react';
 import { KanaChart } from './KanaChart';
 import { NotesPanel } from './NotesPanel';
 import { GrammarGuide } from './GrammarGuide';
-import { LearningCalendar } from './LearningCalendar/LearningCalendar';
-import { FullCalendarView } from './Calendar';
 
 export function ToolboxButton() {
   const [isMenuOpen, setIsMenuOpen] = useState(false);
   const [isKanaChartOpen, setIsKanaChartOpen] = useState(false);
   const [isNotesOpen, setIsNotesOpen] = useState(false);
   const [isGrammarGuideOpen, setIsGrammarGuideOpen] = useState(false);
-  const [isCalendarOpen, setIsCalendarOpen] = useState(false);
-  const [isFullCalendarOpen, setIsFullCalendarOpen] = useState(false);
   const [menuVisible, setMenuVisible] = useState(false);
+  const [fabHovered, setFabHovered] = useState(false);
 
   useEffect(() => {
     if (isMenuOpen) {
@@ -37,81 +34,103 @@ export function ToolboxButton() {
     setIsMenuOpen(false);
   };
 
-  const handleCalendarClick = () => {
-    setIsCalendarOpen(true);
-    setIsMenuOpen(false);
-  };
-
-  const handleFullCalendarClick = () => {
-    setIsFullCalendarOpen(true);
-    setIsMenuOpen(false);
-  };
-
+  // Calendar is now a page - removed from toolbox
   const menuItems = [
-    { icon: '🗓️', label: 'Full Calendar', sublabel: 'Month/Week/Day view', onClick: handleFullCalendarClick, color: 'from-blue-500 to-indigo-500' },
-    { icon: '📅', label: 'Daily', sublabel: 'Word of the Day', onClick: handleCalendarClick, color: 'from-indigo-500 to-purple-500' },
-    { icon: '📖', label: 'Grammar Guide', sublabel: 'Learn patterns', onClick: handleGrammarGuideClick, color: 'from-amber-500 to-orange-500' },
-    { icon: 'あ', label: 'Kana Chart', sublabel: 'Hiragana & Katakana', onClick: handleKanaChartClick, color: 'from-pink-500 to-rose-500' },
-    { icon: '📝', label: 'Notes', sublabel: 'Favorites & notes', onClick: handleNotesClick, color: 'from-emerald-500 to-teal-500' },
+    { icon: '📖', label: 'Grammar Guide', sublabel: '文法', onClick: handleGrammarGuideClick, gradient: 'from-rose-500 to-pink-600', shadow: 'shadow-rose-200' },
+    { icon: 'あ', label: 'Kana Chart', sublabel: '仮名', onClick: handleKanaChartClick, gradient: 'from-violet-500 to-purple-600', shadow: 'shadow-violet-200' },
+    { icon: '📝', label: 'Notes', sublabel: 'ノート', onClick: handleNotesClick, gradient: 'from-emerald-500 to-teal-600', shadow: 'shadow-emerald-200' },
   ];
 
   return (
     <>
       {/* Floating Action Button */}
-      <div className="fixed bottom-4 right-4 sm:bottom-6 sm:right-6 z-30">
+      <div className="fixed bottom-20 md:bottom-6 right-4 sm:right-6 z-30">
         {/* Menu Options */}
         {isMenuOpen && (
           <>
-            {/* Backdrop */}
+            {/* Backdrop with animation */}
             <div
-              className={`fixed inset-0 bg-black/20 backdrop-blur-[2px] transition-opacity duration-200 ${
-                menuVisible ? 'opacity-100' : 'opacity-0'
+              className={`fixed inset-0 transition-all duration-300 ${
+                menuVisible ? 'bg-black/20 backdrop-blur-[2px]' : 'bg-transparent backdrop-blur-0'
               }`}
               onClick={() => setIsMenuOpen(false)}
             />
 
-            {/* Menu */}
-            <div className={`absolute bottom-16 right-0 transition-all duration-200 ${
-              menuVisible ? 'opacity-100 translate-y-0' : 'opacity-0 translate-y-4'
+            {/* Menu Container */}
+            <div className={`absolute bottom-16 right-0 transition-all duration-300 ease-out ${
+              menuVisible ? 'opacity-100 translate-y-0 scale-100' : 'opacity-0 translate-y-6 scale-95'
             }`}>
-              <div className="bg-white/95 backdrop-blur-md rounded-2xl shadow-2xl border border-gray-200/50 overflow-hidden p-2 min-w-[200px]">
+              <div className="bg-white/95 backdrop-blur-xl rounded-2xl shadow-2xl border border-gray-100 overflow-hidden p-2 min-w-[220px]">
+                {/* Decorative header */}
+                <div className="px-3 py-2 mb-1">
+                  <div className="flex items-center gap-2 text-xs text-gray-400">
+                    <span>🧰</span>
+                    <span>Toolbox</span>
+                    <span className="text-gray-300">道具箱</span>
+                  </div>
+                </div>
+
                 {menuItems.map((item, index) => (
                   <button
                     key={item.label}
                     onClick={item.onClick}
                     className="flex items-center gap-3 w-full p-3 rounded-xl hover:bg-gray-50 active:bg-gray-100 transition-all group"
                     style={{
-                      animationDelay: `${index * 50}ms`,
-                      animation: menuVisible ? 'staggerFadeIn 0.3s ease-out forwards' : 'none',
-                      opacity: 0
+                      animation: menuVisible ? `slideInFromRight 0.3s ease-out ${index * 0.05}s forwards` : 'none',
+                      opacity: 0,
+                      transform: 'translateX(20px)',
                     }}
                   >
-                    <div className={`w-10 h-10 rounded-xl bg-gradient-to-br ${item.color} flex items-center justify-center text-white text-lg shadow-lg group-hover:scale-110 transition-transform`}>
+                    <div className={`w-11 h-11 rounded-xl bg-gradient-to-br ${item.gradient} flex items-center justify-center text-white text-lg shadow-lg ${item.shadow} group-hover:scale-110 group-hover:rotate-3 transition-all duration-200`}>
                       {item.icon}
                     </div>
-                    <div className="text-left">
-                      <p className="font-semibold text-gray-800 text-sm">{item.label}</p>
-                      <p className="text-xs text-gray-500">{item.sublabel}</p>
+                    <div className="text-left flex-1">
+                      <p className="font-semibold text-gray-800 text-sm group-hover:text-gray-900">{item.label}</p>
+                      <p className="text-xs text-gray-400">{item.sublabel}</p>
+                    </div>
+                    <div className="w-6 h-6 rounded-lg bg-gray-100 flex items-center justify-center opacity-0 group-hover:opacity-100 transition-all group-hover:translate-x-0.5">
+                      <svg className="w-3 h-3 text-gray-400" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                        <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M9 5l7 7-7 7" />
+                      </svg>
                     </div>
                   </button>
                 ))}
               </div>
+
+              {/* Decorative pointer */}
+              <div className="absolute -bottom-2 right-6 w-4 h-4 bg-white/95 rotate-45 border-r border-b border-gray-100"></div>
             </div>
           </>
         )}
 
-        {/* Main FAB */}
+        {/* Decorative ring when hovered */}
+        <div className={`absolute inset-0 rounded-2xl transition-all duration-500 ${
+          fabHovered && !isMenuOpen ? 'opacity-100 scale-[1.4]' : 'opacity-0 scale-100'
+        }`}>
+          <div className="w-full h-full rounded-2xl border-2 border-amber-300/50 animate-ping"></div>
+        </div>
+
+        {/* Main FAB with enhanced animations */}
         <button
           onClick={() => setIsMenuOpen(!isMenuOpen)}
-          className={`w-14 h-14 rounded-2xl shadow-xl flex items-center justify-center transition-all duration-300 ${
+          onMouseEnter={() => setFabHovered(true)}
+          onMouseLeave={() => setFabHovered(false)}
+          className={`relative w-14 h-14 rounded-2xl shadow-xl flex items-center justify-center transition-all duration-300 ${
             isMenuOpen
-              ? 'bg-gray-800 rotate-45 scale-90'
-              : 'bg-gradient-to-br from-amber-500 to-orange-500 hover:shadow-2xl hover:scale-105 active:scale-95'
+              ? 'bg-gradient-to-br from-gray-700 to-gray-900 rotate-45 scale-95'
+              : 'bg-gradient-to-br from-amber-500 via-orange-500 to-amber-600 hover:shadow-2xl hover:shadow-amber-200/50 hover:scale-110 active:scale-95'
           }`}
           aria-label="Toolbox"
         >
+          {/* Shine effect */}
+          {!isMenuOpen && (
+            <div className="absolute inset-0 rounded-2xl overflow-hidden">
+              <div className="absolute inset-0 bg-gradient-to-tr from-transparent via-white/20 to-transparent -translate-x-full animate-[shimmer_3s_infinite]"></div>
+            </div>
+          )}
+
           <svg
-            className="w-6 h-6 text-white transition-transform duration-300"
+            className={`w-6 h-6 text-white transition-all duration-300 ${isMenuOpen ? 'rotate-0' : ''}`}
             fill="none"
             stroke="currentColor"
             viewBox="0 0 24 24"
@@ -124,6 +143,14 @@ export function ToolboxButton() {
             />
           </svg>
         </button>
+
+        {/* Label tooltip */}
+        {fabHovered && !isMenuOpen && (
+          <div className="absolute -left-20 top-1/2 -translate-y-1/2 bg-gray-800 text-white text-xs px-3 py-1.5 rounded-lg opacity-0 animate-fadeInRight whitespace-nowrap">
+            Toolbox
+            <div className="absolute right-0 top-1/2 -translate-y-1/2 translate-x-1 w-2 h-2 bg-gray-800 rotate-45"></div>
+          </div>
+        )}
       </div>
 
       {/* Kana Chart Modal */}
@@ -141,16 +168,6 @@ export function ToolboxButton() {
       {/* Grammar Guide */}
       {isGrammarGuideOpen && (
         <GrammarGuide onClose={() => setIsGrammarGuideOpen(false)} />
-      )}
-
-      {/* Learning Calendar */}
-      {isCalendarOpen && (
-        <LearningCalendar onClose={() => setIsCalendarOpen(false)} />
-      )}
-
-      {/* Full Calendar View */}
-      {isFullCalendarOpen && (
-        <FullCalendarView onClose={() => setIsFullCalendarOpen(false)} />
       )}
     </>
   );

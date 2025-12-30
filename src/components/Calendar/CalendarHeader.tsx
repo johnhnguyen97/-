@@ -7,7 +7,7 @@ interface CalendarHeaderProps {
   jlptLevel: JLPTLevel;
   onViewChange: (view: CalendarViewType) => void;
   onJlptChange: (level: JLPTLevel) => void;
-  onClose: () => void;
+  onClose?: () => void;
 }
 
 const VIEW_OPTIONS: { value: CalendarViewType; label: string; labelJp: string; shortLabel: string }[] = [
@@ -108,16 +108,18 @@ export function CalendarHeader({
           </span>
         </div>
 
-        {/* Close Button */}
-        <button
-          onClick={onClose}
-          className="p-2 text-white/80 hover:text-white hover:bg-white/10 rounded-lg transition-colors"
-          aria-label="Close calendar"
-        >
-          <svg className="w-5 h-5" fill="none" stroke="currentColor" viewBox="0 0 24 24">
-            <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M6 18L18 6M6 6l12 12" />
-          </svg>
-        </button>
+        {/* Close Button - only show if onClose is provided */}
+        {onClose && (
+          <button
+            onClick={onClose}
+            className="p-2 text-white/80 hover:text-white hover:bg-white/10 rounded-lg transition-colors"
+            aria-label="Close calendar"
+          >
+            <svg className="w-5 h-5" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+              <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M6 18L18 6M6 6l12 12" />
+            </svg>
+          </button>
+        )}
       </div>
     </div>
   );

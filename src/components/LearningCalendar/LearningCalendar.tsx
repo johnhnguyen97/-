@@ -4,10 +4,11 @@ import { getDailyData, getSettings, updateSettings, markAsLearned, removeLearned
 import type { DailyCalendarData, CalendarSettings, JLPTLevel } from '../../types/calendar';
 
 interface LearningCalendarProps {
-  onClose: () => void;
+  onClose?: () => void;
+  embedded?: boolean;
 }
 
-export function LearningCalendar({ onClose }: LearningCalendarProps) {
+export function LearningCalendar({ onClose, embedded = false }: LearningCalendarProps) {
   const { session } = useAuth();
   const [loading, setLoading] = useState(true);
   const [error, setError] = useState<string | null>(null);
@@ -122,13 +123,151 @@ export function LearningCalendar({ onClose }: LearningCalendarProps) {
 
   if (!session) {
     return (
-      <div className="fixed inset-0 bg-black/50 z-50 flex items-center justify-center p-4">
-        <div className="bg-white dark:bg-gray-800 rounded-2xl shadow-xl max-w-md w-full p-6">
+      <div className={embedded ? 'p-6' : 'fixed inset-0 bg-black/50 z-50 flex items-center justify-center p-4'}>
+        <div className={embedded ? '' : 'bg-white dark:bg-gray-800 rounded-2xl shadow-xl max-w-md w-full p-6'}>
           <p className="text-center text-gray-600 dark:text-gray-300">Please sign in to use the Learning Calendar.</p>
-          <button onClick={onClose} className="mt-4 w-full py-2 bg-gray-200 dark:bg-gray-700 rounded-lg hover:bg-gray-300 dark:hover:bg-gray-600">
-            Close
-          </button>
+          {onClose && (
+            <button onClick={onClose} className="mt-4 w-full py-2 bg-gray-200 dark:bg-gray-700 rounded-lg hover:bg-gray-300 dark:hover:bg-gray-600">
+              Close
+            </button>
+          )}
         </div>
+      </div>
+    );
+  }
+
+  // Embedded mode - render inline without modal wrapper
+  if (embedded) {
+    return (
+      <div className="space-y-6">
+        {/* Date Display */}
+        {dailyData && (
+          <>
+            <div className="text-center">
+              <div className="text-2xl font-bold text-gray-800 dark:text-white">
+                {new Date(dailyData.date).toLocaleDateString('en-US', {
+                  weekday: 'long',
+                  year: 'numeric',
+                  month: 'long',
+                  day: 'numeric'
+                })}
+              </div>
+              <div className="text-lg text-indigo-600 dark:text-indigo-400 font-medium">
+                {dailyData.dayOfWeekJapanese}
+              </div>
+            </div>
+
+            {/* Word of the Day */}
+            {dailyData.wordOfTheDay && (
+              <div className="bg-white dark:bg-gray-800 rounded-xl p-5 shadow-md border border-indigo-100 dark:border-indigo-900">
+                <div className="flex items-center justify-between mb-3">
+                  <span className="text-xs font-semibold text-indigo-600 dark:text-indigo-400 uppercase tracking-wider">
+                    Word of the Day
+                  </span>
+                  <span className="text-xs bg-indigo-100 dark:bg-indigo-900 text-indigo-700 dark:text-indigo-300 px-2 py-1 rounded-full">
+                    {dailyData.jlptLevel}
+                  </span>
+                </div>
+                <div className="text-center mb-4">
+                  <div className="text-4xl font-bold text-gray-800 dark:text-white mb-1">
+                    {dailyData.wordOfTheDay.word}
+                  </div>
+                  <div className="text-xl text-gray-500 dark:text-gray-400">
+                    {dailyData.wordOfTheDay.reading}
+                  </div>
+                  <div className="text-sm text-gray-400 dark:text-gray-500 italic">
+                    {dailyData.wordOfTheDay.partOfSpeech}
+                  </div>
+                </div>
+                <div className="text-center text-lg text-gray-700 dark:text-gray-300 mb-4">
+                  "{dailyData.wordOfTheDay.meaning}"
+                </div>
+                <div className="flex justify-center">
+                  <button
+                    onClick={() => handleToggleLearned('word', dailyData.wordOfTheDay!.isLearned)}
+                    className={`px-4 py-2 rounded-lg font-medium transition-colors ${
+                      dailyData.wordOfTheDay.isLearned
+                        ? 'bg-green-100 dark:bg-green-900/30 text-green-700 dark:text-green-300 hover:bg-green-200 dark:hover:bg-green-900/50'
+                        : 'bg-gray-100 dark:bg-gray-700 text-gray-600 dark:text-gray-300 hover:bg-gray-200 dark:hover:bg-gray-600'
+                    }`}
+                  >
+                    {dailyData.wordOfTheDay.isLearned ? '✓ Learned' : 'Mark as Learned'}
+                  </button>
+                </div>
+              </div>
+            )}
+
+            {/* Kanji of the Day */}
+            {dailyData.kanjiOfTheDay && (
+              <div className="bg-white dark:bg-gray-800 rounded-xl p-5 shadow-md border border-purple-100 dark:border-purple-900">
+                <div className="flex items-center justify-between mb-3">
+                  <span className="text-xs font-semibold text-purple-600 dark:text-purple-400 uppercase tracking-wider">
+                    Kanji of the Day
+                  </span>
+                  <span className="text-xs bg-purple-100 dark:bg-purple-900 text-purple-700 dark:text-purple-300 px-2 py-1 rounded-full">
+                    {dailyData.jlptLevel}
+                  </span>
+                </div>
+                <div className="text-center mb-4">
+                  <div className="text-6xl font-bold text-gray-800 dark:text-white mb-2">
+                    {dailyData.kanjiOfTheDay.kanji}
+                  </div>
+                  {dailyData.kanjiOfTheDay.strokeCount && (
+                    <div className="text-xs text-gray-400 dark:text-gray-500 mb-2">
+                      {dailyData.kanjiOfTheDay.strokeCount} strokes
+                    </div>
+                  )}
+                  <div className="space-y-1 mb-3">
+                    {dailyData.kanjiOfTheDay.onyomi && dailyData.kanjiOfTheDay.onyomi.length > 0 && (
+                      <div className="text-sm">
+                        <span className="text-purple-500 dark:text-purple-400 font-medium">音: </span>
+                        <span className="text-gray-600 dark:text-gray-300">
+                          {dailyData.kanjiOfTheDay.onyomi.join('、')}
+                        </span>
+                      </div>
+                    )}
+                    {dailyData.kanjiOfTheDay.kunyomi && dailyData.kanjiOfTheDay.kunyomi.length > 0 && (
+                      <div className="text-sm">
+                        <span className="text-purple-500 dark:text-purple-400 font-medium">訓: </span>
+                        <span className="text-gray-600 dark:text-gray-300">
+                          {dailyData.kanjiOfTheDay.kunyomi.join('、')}
+                        </span>
+                      </div>
+                    )}
+                  </div>
+                </div>
+                <div className="text-center text-lg text-gray-700 dark:text-gray-300 mb-4">
+                  "{dailyData.kanjiOfTheDay.meaning}"
+                </div>
+                <div className="flex justify-center">
+                  <button
+                    onClick={() => handleToggleLearned('kanji', dailyData.kanjiOfTheDay!.isLearned)}
+                    className={`px-4 py-2 rounded-lg font-medium transition-colors ${
+                      dailyData.kanjiOfTheDay.isLearned
+                        ? 'bg-green-100 dark:bg-green-900/30 text-green-700 dark:text-green-300 hover:bg-green-200 dark:hover:bg-green-900/50'
+                        : 'bg-gray-100 dark:bg-gray-700 text-gray-600 dark:text-gray-300 hover:bg-gray-200 dark:hover:bg-gray-600'
+                    }`}
+                  >
+                    {dailyData.kanjiOfTheDay.isLearned ? '✓ Learned' : 'Mark as Learned'}
+                  </button>
+                </div>
+              </div>
+            )}
+          </>
+        )}
+
+        {loading && (
+          <div className="flex items-center justify-center py-12">
+            <div className="animate-spin rounded-full h-10 w-10 border-4 border-indigo-500 border-t-transparent"></div>
+          </div>
+        )}
+
+        {error && (
+          <div className="bg-red-100 dark:bg-red-900/30 text-red-700 dark:text-red-300 p-4 rounded-lg">
+            {error}
+            <button onClick={loadData} className="ml-2 underline">Retry</button>
+          </div>
+        )}
       </div>
     );
   }
@@ -159,14 +298,16 @@ export function LearningCalendar({ onClose }: LearningCalendarProps) {
                 <option value="N2" className="text-gray-800">N2</option>
                 <option value="N1" className="text-gray-800">N1</option>
               </select>
-              <button
-                onClick={onClose}
-                className="text-white/80 hover:text-white p-1 rounded-lg hover:bg-white/10 transition-colors"
-              >
-                <svg className="w-6 h-6" fill="none" stroke="currentColor" viewBox="0 0 24 24">
-                  <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M6 18L18 6M6 6l12 12" />
-                </svg>
-              </button>
+              {onClose && (
+                <button
+                  onClick={onClose}
+                  className="text-white/80 hover:text-white p-1 rounded-lg hover:bg-white/10 transition-colors"
+                >
+                  <svg className="w-6 h-6" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                    <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M6 18L18 6M6 6l12 12" />
+                  </svg>
+                </button>
+              )}
             </div>
           </div>
 

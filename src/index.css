@@ -1,15 +1,274 @@
 @import "tailwindcss";
 
+/* ==========================================
+   Japanese Theme System
+   ==========================================
+   Each page has a unique Japanese aesthetic:
+   - HomePage: Sakura (桜) - Cherry blossoms, warm pinks
+   - Word Game: Sumi-e (墨絵) - Ink wash, elegant grays
+   - Pattern Drill: Koi (鯉) - Koi fish, bold oranges & blues
+   - Calendar: Tsuki (月) - Moon, deep purples & silvers
+   - Settings: Zen (禅) - Minimalist, slate & stone
+   ========================================== */
+
 :root {
-  font-family: system-ui, Avenir, Helvetica, Arial, sans-serif;
+  font-family: system-ui, 'Noto Sans JP', Avenir, Helvetica, Arial, sans-serif;
   line-height: 1.5;
   font-weight: 400;
+
+  /* === Base Japanese Colors === */
+  --sakura-pink: #FFB7C5;
+  --sakura-deep: #C41E3A;
+  --sakura-light: #FFF0F3;
+  --indigo-jp: #4B0082;
+  --gold-accent: #D4AF37;
+  --cream-bg: #FFF8F0;
+  --charcoal: #2D2D2D;
+
+  /* === Page Theme: HomePage (Sakura 桜) === */
+  --home-primary: #FFB7C5;
+  --home-secondary: #C41E3A;
+  --home-accent: #FF6B8A;
+  --home-bg: linear-gradient(135deg, #FFF0F3 0%, #FFE4E8 50%, #FFF8F0 100%);
+  --home-card: rgba(255, 255, 255, 0.85);
+
+  /* === Page Theme: Word Game (Sumi-e 墨絵) === */
+  --game-primary: #374151;
+  --game-secondary: #1F2937;
+  --game-accent: #10B981;
+  --game-bg: linear-gradient(135deg, #F8FAFC 0%, #F1F5F9 50%, #E2E8F0 100%);
+  --game-card: rgba(255, 255, 255, 0.9);
+  --game-ink: #1a1a2e;
+
+  /* === Page Theme: Pattern Drill (Koi 鯉) === */
+  --drill-primary: #F97316;
+  --drill-secondary: #EA580C;
+  --drill-accent: #0EA5E9;
+  --drill-bg: linear-gradient(135deg, #FFF7ED 0%, #FFEDD5 50%, #FEF3C7 100%);
+  --drill-card: rgba(255, 255, 255, 0.88);
+  --drill-water: #0284C7;
+
+  /* === Page Theme: Calendar (Tsuki 月) === */
+  --calendar-primary: #8B5CF6;
+  --calendar-secondary: #6D28D9;
+  --calendar-accent: #C4B5FD;
+  --calendar-bg: linear-gradient(135deg, #FAF5FF 0%, #F3E8FF 50%, #EDE9FE 100%);
+  --calendar-card: rgba(255, 255, 255, 0.85);
+  --calendar-moon: #E9D5FF;
+
+  /* === Page Theme: Settings (Zen 禅) === */
+  --settings-primary: #64748B;
+  --settings-secondary: #475569;
+  --settings-accent: #94A3B8;
+  --settings-bg: linear-gradient(135deg, #F8FAFC 0%, #F1F5F9 50%, #E2E8F0 100%);
+  --settings-card: rgba(255, 255, 255, 0.92);
+  --settings-stone: #334155;
+}
+
+/* === Page-Specific Backgrounds === */
+.page-home {
+  background: var(--home-bg);
+  min-height: 100vh;
+}
+
+.page-game {
+  background: var(--game-bg);
+  min-height: 100vh;
+}
+
+.page-drill {
+  background: var(--drill-bg);
+  min-height: 100vh;
+}
+
+.page-calendar {
+  background: var(--calendar-bg);
+  min-height: 100vh;
+}
+
+.page-settings {
+  background: var(--settings-bg);
+  min-height: 100vh;
+}
+
+/* ==========================================
+   Magic UI Animations
+   ========================================== */
+@keyframes shimmer-slide {
+  to {
+    transform: translate(calc(100cqw - 100%), 0);
+  }
+}
+
+@keyframes spin-around {
+  0% {
+    transform: translateZ(0) rotate(0);
+  }
+  15%, 35% {
+    transform: translateZ(0) rotate(90deg);
+  }
+  65%, 85% {
+    transform: translateZ(0) rotate(270deg);
+  }
+  100% {
+    transform: translateZ(0) rotate(360deg);
+  }
+}
+
+.animate-shimmer-slide {
+  animation: shimmer-slide var(--speed) ease-in-out infinite alternate;
+}
+
+.animate-spin-around {
+  animation: spin-around calc(var(--speed) * 2) infinite linear;
+}
+
+/* Sakura Petal Animation */
+@keyframes sakura-fall {
+  0% {
+    transform: translateY(-10px) rotate(0deg) translateX(0);
+    opacity: 1;
+  }
+  50% {
+    transform: translateY(50vh) rotate(180deg) translateX(20px);
+    opacity: 0.8;
+  }
+  100% {
+    transform: translateY(100vh) rotate(360deg) translateX(-10px);
+    opacity: 0;
+  }
+}
+
+@keyframes sakura-sway {
+  0%, 100% {
+    transform: translateX(0) rotate(0deg);
+  }
+  25% {
+    transform: translateX(15px) rotate(10deg);
+  }
+  75% {
+    transform: translateX(-15px) rotate(-10deg);
+  }
+}
+
+.animate-sakura-fall {
+  animation: sakura-fall 8s ease-in-out infinite;
+}
+
+.animate-sakura-sway {
+  animation: sakura-sway 3s ease-in-out infinite;
 }
 
 body {
   margin: 0;
   min-width: 320px;
   min-height: 100vh;
+}
+
+/* ==========================================
+   Page Transition Animations
+   ========================================== */
+@keyframes pageEnter {
+  from {
+    opacity: 0;
+    transform: translateY(12px);
+  }
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+
+@keyframes pageExit {
+  from {
+    opacity: 1;
+    transform: translateY(0);
+  }
+  to {
+    opacity: 0;
+    transform: translateY(-12px);
+  }
+}
+
+@keyframes slideInFromRight {
+  from {
+    opacity: 0;
+    transform: translateX(30px);
+  }
+  to {
+    opacity: 1;
+    transform: translateX(0);
+  }
+}
+
+@keyframes slideInFromLeft {
+  from {
+    opacity: 0;
+    transform: translateX(-30px);
+  }
+  to {
+    opacity: 1;
+    transform: translateX(0);
+  }
+}
+
+@keyframes fadeScale {
+  from {
+    opacity: 0;
+    transform: scale(0.96);
+  }
+  to {
+    opacity: 1;
+    transform: scale(1);
+  }
+}
+
+.page-enter {
+  animation: pageEnter 0.3s ease-out forwards;
+}
+
+.page-exit {
+  animation: pageExit 0.2s ease-in forwards;
+}
+
+.slide-in-right {
+  animation: slideInFromRight 0.35s ease-out forwards;
+}
+
+.slide-in-left {
+  animation: slideInFromLeft 0.35s ease-out forwards;
+}
+
+.fade-scale {
+  animation: fadeScale 0.25s ease-out forwards;
+}
+
+/* Page-specific decorative elements */
+.page-decor {
+  position: fixed;
+  inset: 0;
+  pointer-events: none;
+  overflow: hidden;
+  z-index: 0;
+}
+
+.page-decor-kanji {
+  position: absolute;
+  font-family: 'Noto Serif JP', serif;
+  opacity: 0.04;
+  user-select: none;
+}
+
+/* Decorative patterns */
+.pattern-dots {
+  background-image: radial-gradient(circle, currentColor 1px, transparent 1px);
+  background-size: 20px 20px;
+  opacity: 0.03;
+}
+
+.pattern-waves {
+  background-image: url("data:image/svg+xml,%3Csvg width='100' height='20' xmlns='http://www.w3.org/2000/svg'%3E%3Cpath d='M0 10 Q25 0 50 10 T100 10' fill='none' stroke='%23000' stroke-width='0.5' opacity='0.05'/%3E%3C/svg%3E");
+  background-repeat: repeat;
 }
 
 /* ==========================================

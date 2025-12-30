@@ -9,6 +9,116 @@ import { useAuth } from '../../contexts/AuthContext';
 
 // Stable reference for locales array to prevent re-renders
 const CALENDAR_LOCALES = [jaLocale];
+
+// Calendar styles extracted for reuse
+const calendarStyles = `
+  .fc {
+    --fc-border-color: rgba(156, 163, 175, 0.3);
+    --fc-today-bg-color: rgba(99, 102, 241, 0.1);
+    --fc-neutral-bg-color: transparent;
+    --fc-page-bg-color: transparent;
+  }
+
+  .dark .fc {
+    --fc-border-color: rgba(75, 85, 99, 0.5);
+    --fc-today-bg-color: rgba(99, 102, 241, 0.2);
+  }
+
+  .fc .fc-daygrid-day-number {
+    padding: 4px 8px;
+    color: inherit;
+  }
+
+  .dark .fc .fc-daygrid-day-number,
+  .dark .fc .fc-col-header-cell-cushion {
+    color: #e5e7eb;
+  }
+
+  .fc .fc-event {
+    border-radius: 4px;
+    font-size: 0.75rem;
+    padding: 2px 4px;
+    cursor: pointer;
+    transition: transform 0.1s, box-shadow 0.1s;
+  }
+
+  .fc .fc-event:hover {
+    transform: translateY(-1px);
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.2);
+  }
+
+  .fc .fc-daygrid-day.fc-day-today {
+    background: var(--fc-today-bg-color);
+  }
+
+  .fc .fc-daygrid-more-link {
+    color: #6366f1;
+    font-weight: 500;
+  }
+
+  .dark .fc .fc-daygrid-more-link {
+    color: #818cf8;
+  }
+
+  .fc .fc-timegrid-slot-label-cushion {
+    font-size: 0.75rem;
+  }
+
+  .dark .fc .fc-timegrid-slot-label-cushion {
+    color: #9ca3af;
+  }
+
+  .wotd-event {
+    background: linear-gradient(135deg, #6366f1, #8b5cf6) !important;
+    border: none !important;
+  }
+
+  .kotd-event {
+    background: linear-gradient(135deg, #a855f7, #ec4899) !important;
+    border: none !important;
+  }
+
+  .holiday-event {
+    background: linear-gradient(135deg, #f59e0b, #ef4444) !important;
+    border: none !important;
+  }
+
+  @media (max-width: 640px) {
+    .fc { font-size: 0.8rem; }
+    .fc .fc-col-header-cell-cushion { padding: 4px 2px; font-size: 0.7rem; font-weight: 600; }
+    .fc .fc-daygrid-day-number { padding: 2px 4px; font-size: 0.75rem; }
+    .fc .fc-daygrid-day-frame { min-height: 60px; }
+    .fc .fc-daygrid-day-events { margin-top: 1px; }
+    .fc .fc-event { font-size: 0.6rem; padding: 1px 2px; border-radius: 3px; margin-bottom: 1px; }
+    .fc .fc-event-title { white-space: nowrap; overflow: hidden; text-overflow: ellipsis; }
+    .fc .fc-daygrid-more-link { font-size: 0.65rem; margin-top: 1px; }
+    .fc .fc-daygrid-event-dot { display: none; }
+    .fc .fc-daygrid-day-top { flex-direction: row; gap: 2px; }
+    .fc .fc-daygrid-body-unbalanced .fc-daygrid-day-events { min-height: auto; }
+    .fc .fc-scrollgrid-sync-table { border-collapse: collapse; }
+    .fc-theme-standard td, .fc-theme-standard th { border-width: 1px; }
+    .fc-daygrid-event-harness { margin-bottom: 0; }
+    .fc .fc-daygrid-event .fc-event-time { display: none; }
+  }
+
+  @media (max-width: 380px) {
+    .fc .fc-event { font-size: 0; width: 8px; height: 8px; border-radius: 50%; padding: 0; margin: 1px auto; display: block; }
+    .fc .fc-event-title, .fc .fc-event-time { display: none; }
+    .fc .fc-daygrid-day-frame { min-height: 50px; }
+    .fc .fc-daygrid-day-events { display: flex; flex-wrap: wrap; justify-content: center; gap: 2px; padding: 2px; }
+    .fc-daygrid-event-harness { display: contents; }
+  }
+
+  @media (min-width: 641px) and (max-width: 1024px) {
+    .fc .fc-event { font-size: 0.7rem; }
+    .fc .fc-daygrid-day-frame { min-height: 80px; }
+  }
+
+  @media (pointer: coarse) {
+    .fc .fc-event { min-height: 24px; display: flex; align-items: center; }
+    .fc .fc-daygrid-more-link { min-height: 24px; display: flex; align-items: center; justify-content: center; }
+  }
+`;
 import { CalendarHeader } from './CalendarHeader';
 import { CalendarDetailPopover } from './CalendarDetailPopover';
 import type { JLPTLevel, JapaneseHoliday, WordOfTheDay, KanjiOfTheDay } from '../../types/calendar';
@@ -29,10 +139,11 @@ interface CalendarRangeData {
 type CalendarViewType = 'dayGridMonth' | 'timeGridWeek' | 'timeGridDay';
 
 interface FullCalendarViewProps {
-  onClose: () => void;
+  onClose?: () => void;
+  embedded?: boolean; // When true, renders without modal backdrop
 }
 
-export function FullCalendarView({ onClose }: FullCalendarViewProps) {
+export function FullCalendarView({ onClose, embedded = false }: FullCalendarViewProps) {
   const { session } = useAuth();
   const calendarRef = useRef<FullCalendar>(null);
   const [loading, setLoading] = useState(true);
@@ -199,28 +310,115 @@ export function FullCalendarView({ onClose }: FullCalendarViewProps) {
 
   // Close with animation
   const handleClose = () => {
-    setIsVisible(false);
-    setTimeout(onClose, 200);
+    if (onClose) {
+      setIsVisible(false);
+      setTimeout(onClose, 200);
+    }
   };
 
   if (!session) {
     return (
-      <div className="fixed inset-0 bg-black/50 z-50 flex items-center justify-center p-4">
-        <div className="bg-white dark:bg-gray-800 rounded-2xl shadow-xl max-w-md w-full p-6">
+      <div className={embedded ? "p-6 text-center" : "fixed inset-0 bg-black/50 z-50 flex items-center justify-center p-4"}>
+        <div className={embedded ? "" : "bg-white dark:bg-gray-800 rounded-2xl shadow-xl max-w-md w-full p-6"}>
           <p className="text-center text-gray-600 dark:text-gray-300">
             Please sign in to use the Calendar.
           </p>
-          <button
-            onClick={onClose}
-            className="mt-4 w-full py-2 bg-gray-200 dark:bg-gray-700 rounded-lg hover:bg-gray-300 dark:hover:bg-gray-600"
-          >
-            Close
-          </button>
+          {onClose && (
+            <button
+              onClick={onClose}
+              className="mt-4 w-full py-2 bg-gray-200 dark:bg-gray-700 rounded-lg hover:bg-gray-300 dark:hover:bg-gray-600"
+            >
+              Close
+            </button>
+          )}
         </div>
       </div>
     );
   }
 
+  // Embedded mode - render without modal wrapper
+  if (embedded) {
+    return (
+      <div className="h-full flex flex-col">
+        {/* Header */}
+        <CalendarHeader
+          currentView={currentView}
+          jlptLevel={jlptLevel}
+          onViewChange={handleViewChange}
+          onJlptChange={handleJlptChange}
+          onClose={onClose}
+        />
+
+        {/* Calendar Content */}
+        <div className="flex-1 overflow-hidden pt-4">
+          {error && (
+            <div className="mb-4 p-3 bg-red-100 dark:bg-red-900/30 text-red-700 dark:text-red-300 rounded-lg text-sm">
+              {error}
+            </div>
+          )}
+
+          <div className={`h-full ${loading ? 'opacity-50' : ''}`}>
+            <FullCalendar
+              ref={calendarRef}
+              plugins={[dayGridPlugin, timeGridPlugin, interactionPlugin]}
+              initialView={currentView}
+              headerToolbar={false}
+              events={events}
+              datesSet={handleDatesSet}
+              dateClick={handleDateClick}
+              eventClick={handleEventClick}
+              height="100%"
+              dayMaxEvents={3}
+              nowIndicator={true}
+              editable={false}
+              selectable={true}
+              eventDisplay="block"
+              eventTimeFormat={{
+                hour: '2-digit',
+                minute: '2-digit',
+                hour12: false
+              }}
+              slotLabelFormat={{
+                hour: '2-digit',
+                minute: '2-digit',
+                hour12: false
+              }}
+              firstDay={0}
+              locales={CALENDAR_LOCALES}
+              locale="ja"
+            />
+          </div>
+
+          {/* Loading overlay */}
+          {loading && (
+            <div className="absolute inset-0 flex items-center justify-center bg-white/50 dark:bg-gray-900/50 pointer-events-none">
+              <div className="flex items-center gap-2 text-indigo-600 dark:text-indigo-400">
+                <svg className="animate-spin h-5 w-5" viewBox="0 0 24 24">
+                  <circle className="opacity-25" cx="12" cy="12" r="10" stroke="currentColor" strokeWidth="4" fill="none" />
+                  <path className="opacity-75" fill="currentColor" d="M4 12a8 8 0 018-8V0C5.373 0 0 5.373 0 12h4zm2 5.291A7.962 7.962 0 014 12H0c0 3.042 1.135 5.824 3 7.938l3-2.647z" />
+                </svg>
+                <span>Loading...</span>
+              </div>
+            </div>
+          )}
+        </div>
+
+        {/* Detail Popover */}
+        {popoverData && (
+          <CalendarDetailPopover
+            type={popoverData.type}
+            data={popoverData.data}
+            onClose={() => setPopoverData(null)}
+          />
+        )}
+
+        {/* Calendar Styles */}
+        <style>{calendarStyles}</style>
+      </div>
+    );
+  }
+
+  // Modal mode - render with backdrop
   return (
     <>
       {/* Backdrop */}
@@ -324,217 +522,8 @@ export function FullCalendarView({ onClose }: FullCalendarViewProps) {
         />
       )}
 
-      {/* Custom Calendar Styles - Mobile Optimized */}
-      <style>{`
-        .fc {
-          --fc-border-color: rgba(156, 163, 175, 0.3);
-          --fc-today-bg-color: rgba(99, 102, 241, 0.1);
-          --fc-neutral-bg-color: transparent;
-          --fc-page-bg-color: transparent;
-        }
-
-        .dark .fc {
-          --fc-border-color: rgba(75, 85, 99, 0.5);
-          --fc-today-bg-color: rgba(99, 102, 241, 0.2);
-        }
-
-        .fc .fc-daygrid-day-number {
-          padding: 4px 8px;
-          color: inherit;
-        }
-
-        .dark .fc .fc-daygrid-day-number,
-        .dark .fc .fc-col-header-cell-cushion {
-          color: #e5e7eb;
-        }
-
-        .fc .fc-event {
-          border-radius: 4px;
-          font-size: 0.75rem;
-          padding: 2px 4px;
-          cursor: pointer;
-          transition: transform 0.1s, box-shadow 0.1s;
-        }
-
-        .fc .fc-event:hover {
-          transform: translateY(-1px);
-          box-shadow: 0 2px 4px rgba(0, 0, 0, 0.2);
-        }
-
-        .fc .fc-daygrid-day.fc-day-today {
-          background: var(--fc-today-bg-color);
-        }
-
-        .fc .fc-daygrid-more-link {
-          color: #6366f1;
-          font-weight: 500;
-        }
-
-        .dark .fc .fc-daygrid-more-link {
-          color: #818cf8;
-        }
-
-        .fc .fc-timegrid-slot-label-cushion {
-          font-size: 0.75rem;
-        }
-
-        .dark .fc .fc-timegrid-slot-label-cushion {
-          color: #9ca3af;
-        }
-
-        .wotd-event {
-          background: linear-gradient(135deg, #6366f1, #8b5cf6) !important;
-          border: none !important;
-        }
-
-        .kotd-event {
-          background: linear-gradient(135deg, #a855f7, #ec4899) !important;
-          border: none !important;
-        }
-
-        .holiday-event {
-          background: linear-gradient(135deg, #f59e0b, #ef4444) !important;
-          border: none !important;
-        }
-
-        /* Mobile-specific styles */
-        @media (max-width: 640px) {
-          .fc {
-            font-size: 0.8rem;
-          }
-
-          .fc .fc-col-header-cell-cushion {
-            padding: 4px 2px;
-            font-size: 0.7rem;
-            font-weight: 600;
-          }
-
-          .fc .fc-daygrid-day-number {
-            padding: 2px 4px;
-            font-size: 0.75rem;
-          }
-
-          .fc .fc-daygrid-day-frame {
-            min-height: 60px;
-          }
-
-          .fc .fc-daygrid-day-events {
-            margin-top: 1px;
-          }
-
-          .fc .fc-event {
-            font-size: 0.6rem;
-            padding: 1px 2px;
-            border-radius: 3px;
-            margin-bottom: 1px;
-          }
-
-          .fc .fc-event-title {
-            white-space: nowrap;
-            overflow: hidden;
-            text-overflow: ellipsis;
-          }
-
-          .fc .fc-daygrid-more-link {
-            font-size: 0.65rem;
-            margin-top: 1px;
-          }
-
-          .fc .fc-daygrid-event-dot {
-            display: none;
-          }
-
-          /* Mobile: show colored dots instead of full event cards on small days */
-          .fc .fc-daygrid-day-top {
-            flex-direction: row;
-            gap: 2px;
-          }
-
-          .fc .fc-daygrid-body-unbalanced .fc-daygrid-day-events {
-            min-height: auto;
-          }
-
-          /* Tighter day cell grid on mobile */
-          .fc .fc-scrollgrid-sync-table {
-            border-collapse: collapse;
-          }
-
-          .fc-theme-standard td, .fc-theme-standard th {
-            border-width: 1px;
-          }
-
-          /* Compact event indicators for mobile */
-          .fc-daygrid-event-harness {
-            margin-bottom: 0;
-          }
-
-          /* Hide event time on mobile for all-day events */
-          .fc .fc-daygrid-event .fc-event-time {
-            display: none;
-          }
-        }
-
-        /* Extra small screens - show dots only */
-        @media (max-width: 380px) {
-          .fc .fc-event {
-            font-size: 0;
-            width: 8px;
-            height: 8px;
-            border-radius: 50%;
-            padding: 0;
-            margin: 1px auto;
-            display: block;
-          }
-
-          .fc .fc-event-title,
-          .fc .fc-event-time {
-            display: none;
-          }
-
-          .fc .fc-daygrid-day-frame {
-            min-height: 50px;
-          }
-
-          .fc .fc-daygrid-day-events {
-            display: flex;
-            flex-wrap: wrap;
-            justify-content: center;
-            gap: 2px;
-            padding: 2px;
-          }
-
-          .fc-daygrid-event-harness {
-            display: contents;
-          }
-        }
-
-        /* Tablet/medium screens */
-        @media (min-width: 641px) and (max-width: 1024px) {
-          .fc .fc-event {
-            font-size: 0.7rem;
-          }
-
-          .fc .fc-daygrid-day-frame {
-            min-height: 80px;
-          }
-        }
-
-        /* Touch-friendly: larger tap targets */
-        @media (pointer: coarse) {
-          .fc .fc-event {
-            min-height: 24px;
-            display: flex;
-            align-items: center;
-          }
-
-          .fc .fc-daygrid-more-link {
-            min-height: 24px;
-            display: flex;
-            align-items: center;
-            justify-content: center;
-          }
-        }
-      `}</style>
+      {/* Calendar Styles */}
+      <style>{calendarStyles}</style>
     </>
   );
 }

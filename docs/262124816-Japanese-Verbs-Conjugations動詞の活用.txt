@@ -1,0 +1,2413 @@
+Japanese Verbs Conjugations　動詞の活用
+GroupⅠ u-verbs
+Polite Forms of Verbs
+Group I
+Godan Dictionary
+Verbs
+
+English
+
+Present
+
+Past
+
+(-)ve Present
+
+'Te'
+
+Potential
+
+Imperative
+
+(stem + masu)
+
+(stem + mashita)
+
+(stem + masen)
+
+see below
+
+(delete 'u' +
+
+(stem + nasai)
+
+eru)
+いく
+
+to go
+
+(iku)
+かえる
+
+to go back
+
+(kaeru)
+あらう
+
+to wash
+
+(arau)
+よむ
+
+to read
+
+(yomu)
+のむ
+
+to drink
+
+(nomu)
+かう
+
+to buy
+
+(kau)
+うたう
+
+to sing
+
+(utau)
+おくる
+
+to send
+
+(okuru)
+まなぶ
+
+to learn
+
+(manabu)
+うる
+
+to sell
+
+(uru)
+つくる
+
+to make
+
+(tsukuru)
+やすむ
+
+to rest
+
+(yasumu)
+omou
+
+to think
+
+(おもう)
+いう
+(iu)
+
+to say
+
+いきます
+
+いきました
+
+いきません
+
+いって
+
+いける
+
+いきなさい
+
+(ikimasu)
+
+(ikimashita)
+
+(ikimasen)
+
+(itte)
+
+(ikeru)
+
+(ikinasai)
+
+かえります
+
+かえりました
+
+かえりません
+
+かえって
+
+かえれる
+
+かえりなさい
+
+(kaerimasu)
+
+(kaerimashita)
+
+(kaerimasen)
+
+(kaette)
+
+(kaereru)
+
+(karerinasai)
+
+あらいます
+
+あらいました
+
+あらいません
+
+あらって
+
+あらえる
+
+あらいなさい
+
+(araimasu)
+
+(araimashita)
+
+(araimasen)
+
+(aratte)
+
+(araeru)
+
+(arainasai)
+
+よみます
+
+よみました
+
+よみません
+
+よんで
+
+よめる
+
+よみなさい
+
+(yomimasu)
+
+(yomimashita)
+
+(yomimasen)
+
+(yonde)
+
+(yomeru)
+
+(yominasai)
+
+のみます
+
+のみました
+
+のみません
+
+のんで
+
+のめる
+
+のみなさい
+
+(nomimasu)
+
+(nomimashita)
+
+(nomimasen)
+
+(nonde)
+
+(nomeru)
+
+(nominasai)
+
+かいます
+
+かいました
+
+かいません
+
+かって
+
+かえる
+
+かいなさい
+
+(kaimasu)
+
+(kaimashita)
+
+(kaimasen)
+
+(katte)
+
+(kaeru)
+
+(kainasai)
+
+うたいます
+
+うたいました
+
+うたいません
+
+うたって
+
+うたえる
+
+うたいなさい
+
+(utaimasu)
+
+(utaimashita)
+
+(utaimasen)
+
+(utatte)
+
+(utaeru)
+
+(utainasai)
+
+おくります
+
+おくりました
+
+おくりません
+
+おくって
+
+おくれる
+
+おくりなさい
+
+(okurimasu)
+
+(okurimashita)
+
+(okurimasen)
+
+(okutte)
+
+(okureru)
+
+(okurinasai)
+
+まなびます
+
+まなびました
+
+まなびません
+
+まなんで
+
+まなべる
+
+まなびなさい
+
+(manabimasu)
+
+(manabimashita)
+
+(manabimasen)
+
+(manande)
+
+(manaberu)
+
+(manabinasai)
+
+うります
+
+うりました
+
+うりません
+
+うって
+
+うれる
+
+うりなさい
+
+(urimasu)
+
+(urimashita)
+
+(urimasen)
+
+(utte)
+
+(ureru)
+
+(urinasai)
+
+つくります
+
+つくりました
+
+つくりません
+
+つくって
+
+つくれる
+
+つくりなさい
+
+(tsukurimasu)
+
+(tsukurimashita)
+
+(tsukurimasen)
+
+(tsukutte)
+
+(tsukureru)
+
+(tsukurinasai)
+
+やすみます
+
+やすみました
+
+やすみません
+
+やすんで
+
+やすめる
+
+やすみなさい
+
+(yasumimasu)
+
+(yasumimashita)
+
+(yasumimasen)
+
+(yasunde)
+
+(yasumeru)
+
+(yasuminasai)
+
+おもいます
+
+おもいました
+
+おもいません
+
+おもって
+
+おもえる
+
+おもいなさい
+
+(omoimasu)
+
+(omoimashita)
+
+(omoimasen)
+
+(omotte)
+
+(omoeru)
+
+(omoinasai)
+
+いいます
+
+いいました
+
+いいません
+
+いって
+
+いえる
+
+いいなさい
+
+(iimasu)
+
+(iimashita)
+
+(iimasen)
+
+(itte)
+
+(ieru)
+
+(iinasai)
+
+かく
+
+to write
+
+(kaku)
+はなす
+
+to talk
+
+(hanasu)
+つかう
+
+to use
+
+(tsukau)
+はたらく
+
+to work
+
+(hataraku)
+きく
+
+to hear
+
+(kiku)
+
+かきます
+
+かきました
+
+かきません
+
+かいて
+
+かける
+
+かきなさい
+
+(kakimasu)
+
+(kakimashita)
+
+(kakimasen)
+
+(kaite)
+
+(kakeru)
+
+(kakinasai)
+
+はなします
+
+はなしました
+
+はなしません
+
+はなして
+
+はなせる
+
+はなしなさい
+
+(hanashimasu)
+
+(hanashimashita)
+
+(hanashimasen)
+
+(hanashite)
+
+(hanaseru)
+
+(hanashinasai)
+
+つかいます
+
+つかいました
+
+つかいません
+
+つかって
+
+つかえる
+
+つかいなさい
+
+(tsukaimasu)
+
+(tsukaimashita)
+
+(tsukaimasen)
+
+(tsukatte)
+
+(tsukaeru)
+
+(tsukainasai)
+
+はたらきます
+
+はたらきました
+
+はたらきません
+
+はたらいて
+
+はたらける
+
+はたらきなさい
+
+(hatarakimasu)
+
+(hatarakimashita)
+
+(hatarakimasen)
+
+(hataraite)
+
+(hatarakeru)
+
+(hatarakinasai)
+
+ききます
+
+ききました
+
+ききません
+
+きいて
+
+きける
+
+ききなさい
+
+(kikimasu)
+
+(kikimashita)
+
+(kikimasen)
+
+(kiite)
+
+(kikeru)
+
+(kikinasai)
+
+Note: 1. The stem form is derived by deleting the last 'u' from the dictionary form and adding a 'i' to it.
+2. The negative past form can be created by adding 'deshita' to the present negative form
+For eg: ikimasen -ikimasendeshita.
+
+'Te' form usage and conjugation rules:
+
+Group I (Yodan) verbs:
+Verbs ending with 'u', like kau (to buy): replace the final 'u' with 'tte' - katte
+Verbs ending with 'ku', like kiku (to listen; to ask): replace the final 'ku' with 'ite' - kiite.
+IMP NOTE: Please note this one important exception:iku. It's important because it's
+used a lot. The Te Form of iku (to go) is itte, not iite.
+Verbs ending with 'gu','mu','bu':like isogu (to hurry):replace the final 'gu' with 'ide' - isoide.
+Verbs ending with 'su' like kasu (to lend): replace the final 'su' with 'shite' - kashite.
+Verbs ending with 'tsu', like matsu (to wait): replace the final 'tsu' with 'tte' - matte.
+Verbs ending with 'nu', shinu (to die): replace the final 'u' with 'de' - shinde.
+Verbs ending with 'bu', like asobu (to play): replace the final 'bu' with 'nde'- asonde.
+Verbs ending with 'mu', like yomu (to read): replace the final 'mu' with 'nde' - yonde.
+Verbs ending with 'ru', like kaeru (to return): replace the final 'ru' with 'tte' - kaette.
+Note: Please remember that while most verbs that end in eru or iru are Group II,
+there are some Group I exceptions like the two used here.
+
+GroupⅡ ru-verbs
+Polite Forms of Verbs
+Group II
+Ichidan Dictionary
+Verbs
+
+みる
+(miru)
+
+English
+
+to see
+
+Present
+
+Past
+
+(-)ve Present
+
+'Te'
+
+Potential
+
+Imperative
+
+(stem + masu)
+
+(stem + mashita)
+
+(stem + masen)
+
+see below
+
+(delete 'u' + eru)
+
+(stem + nasai)
+
+みます
+
+みました
+
+みません
+
+みて
+
+みられる
+
+みなさい
+
+(mimasu)
+
+(mimaseta)
+
+(mimasen)
+
+(mite)
+
+(mirareru)
+
+(minasai)
+
+おきる
+
+to wake up
+
+(okiru)
+たべる
+
+to eat
+
+(taberu)
+ねる
+
+to sleep
+
+(neru)
+しらべる
+
+to search
+
+(shiraberu)
+あける
+
+to open
+
+(akeru)
+しめる
+
+to close
+
+(shimeru)
+わかれる
+
+to seperate
+
+(wakareru)
+
+おきます
+
+おきました
+
+おきません
+
+おきて
+
+おきられる
+
+おきなさい
+
+(okimasu)
+
+(okimashita)
+
+(okimasen)
+
+(okite)
+
+(okirareru)
+
+(okinasai)
+
+たべます
+
+たべました
+
+たべません
+
+たべて
+
+たべられる
+
+たべなさい
+
+(tabemasu)
+
+(tabemashita)
+
+(tabemasen)
+
+(tabete)
+
+(taberareru)
+
+(tabenasai)
+
+ねます
+
+ねました
+
+ねません
+
+ねて
+
+ねられる
+
+ねなさい
+
+(nemasu)
+
+(nemashita)
+
+(nemasen)
+
+(nete)
+
+(nerareru)
+
+(nenasai)
+
+しらべます
+
+しらべました
+
+しらべません
+
+しらべて
+
+しらべられる
+
+しらべなさい
+
+(shirabemasu)
+
+(shirabemashita)
+
+(shirabemasen)
+
+(shirabete)
+
+(shiraberareru)
+
+(shirabenasai)
+
+あけます
+
+あけました
+
+あけません
+
+あけて
+
+あけられる
+
+あけなさい
+
+(akemasu)
+
+(akemashita)
+
+(akemasen)
+
+(akete)
+
+(akerareru)
+
+(akenasai)
+
+しめます
+
+しめました
+
+しめません
+
+しめて
+
+しめられる
+
+しめなさい
+
+(shimemasu)
+
+(shimemashita)
+
+(shimemasen)
+
+(shimete)
+
+(shimerareru)
+
+(shimenasai)
+
+わかれます
+
+わかれました
+
+わかれません
+
+わかれて
+
+わかれられる
+
+わかれなさい
+
+(wakaremasu)
+
+(wakaremashita)
+
+(wakaremasen)
+
+(wakarete)
+
+(wakarerareru)
+
+(wakarenasai)
+
+Note: The stem form is derived by deleting the last 'ru' from the dictionary form.
+2. The negative past form can be created by adding 'deshita' to the present negative.
+3. The potential form in Group II verbs are formed by added 'rareru' to the stem form.
+
+Group II (Ichidan) verbs:
+In Group II verbs the 'te' form is conjugated by adding 'te' to the stem of the verb. For
+instance, 'taberu' will become 'tabete'.
+
+GroupⅢ Irregular verbs
+Polite Forms of Verbs
+Group III
+Irregular
+Verbs
+
+Dictionary
+
+する
+
+English
+
+to do
+
+(suru)
+くる
+
+to come
+
+(kuru)
+
+Present
+
+Past
+
+(-)ve Present 'Te'
+
+Potential
+
+(stem +
+
+(stem +
+
+(stem +
+
+see
+
+(delete 'u' + (stem + nasai)
+
+masu)
+
+mashita)
+
+masen)
+
+below eru)
+
+します
+
+しました
+
+しません
+
+して
+
+できる
+
+しなさい
+
+(shimasu)
+
+(shimashita)
+
+(shimasen)
+
+(shite) (dekiru)
+
+(shinasai)
+
+きます
+
+きました
+
+きません
+
+きて
+
+こられる
+
+きなさい
+
+(kimasu)
+
+(kimashita)
+
+(kimasen)
+
+(kite)
+
+(korareru)
+
+(kinasai)
+
+Note:1. The stem form of 'Suru' is 'shi' and 'Kuru' is 'ki'.
+2. The negative past form can be created by adding 'deshita' to the present negative.
+3. The potential form in Group III are conjugated in a totally different way.
+
+Group III (Ichidan) verbs:
+There are only 2 Group III verbs, the 'te' form of which is 'Suru' - 'Shite' and 'Kuru' - 'Kite'.
+
+Imperative
+
+Particles 助詞
+Introduction
+Particles play very important role in Japanese language and probably it is the most difficult
+and confusing aspect in a Japanese sentence. A particle (助詞/じょし) is a word that shows the
+relationship of a word, a phrase, or a clause to the rest of the sentence. There are also
+particles that have a peculiar usage which is not found in English. Most particles are multifunctional. Below is the explanation of some particles used frequently in Japanese language,
+but please note that these explanations are not all explanations about particles.
+ga(が)
+
+Usage
+
+Means
+
+Indicates direct object
+Bus has come.
+
+バス　が きました。
+Basu ga kimashita.
+
+It stresses the word before が. It is much used in a answer to interrogative.
+今日(きょう) は だれ が きますか？
+Kyou wa dare ga kimasuka?
+井上(いのうえ)さん が きます。
+Inoue san ga kimasu.
+
+Who will come today?
+Mr.Inoue comes.
+
+It makes a sentence a part of bigger sentence.
+この 映画(えいが) は おもしろい です。
+This movie is interesting.
+Kono eiga wa omoshiroi desu.
+この 映画(えいが) が おもしろい こと は 事実(じ It is fact that this movie is interesting.
+じつ) です。
+Kono eiga ga omoshiroi koto wa jijitsu desu.
+
+NOTE: In this function, 'が' indicates a subject and 'は' indicates topic of the sentence. There are many
+sentences in which subject of the sentence matches for topic of the sentence. For example, in upper sentence
+この えいが can be called not only as a topic but also as a subject of the sentence. But in the sentence below
+subject is different from the topic of the sentence.
+の(no)
+
+Usage
+Noun1 の (no) Noun2
+
+Means
+
+私 の 本(ほん)。
+Watashi no hon.
+
+My book.
+
+トム さんの 時計(とけい)。
+Tom san no tokei.
+
+Tom's clock.
+
+wa(は)
+
+Usage
+
+Means
+
+Indicates direct object
+わたし は イギリス人です。
+Watashi wa igirisu jin desu.
+
+I am British.
+
+きょう　は 休(やす)み です。
+Kyou wa yasumi desu.
+
+Today is a holiday.
+
+を(wo)
+
+Usage
+
+Means
+
+Indicates direct object
+私(わたし)は 本(ほん)　を 読(よ)みます。
+Watashi wa hon o yomimasu.
+
+I read a book.
+
+私(わたし)は 本(ほん)　を 読(よ)みます。
+Watashi wa hon o yomimasu.
+
+I read a book.
+
+に(ni）
+
+Usage
+
+Means
+
+time/date に(ni）
+7 時(しちじ) に 起(お)きます。
+Shichiji ni okimasu.
+
+I get up at seven.
+
+会議(かいぎ)は 10 時(じゅうじ) に 始(はじ)まり
+
+Meeting starts at ten.
+
+ます。
+Kaigi wa juuji ni hajimarimasu.
+place に(ni）/ Goal of movement
+学校(がっこう) に 行(い)きます。
+Gakkou ni ikimasu.
+
+I go to school.
+
+秋葉原(あきはばら) に 行(い)きます。
+Akihabara ni ikimasu.
+
+I go to Akihabara.
+
+で(de)
+
+Usage
+
+Means
+
+で(de) Something
+バス で 行(い)きます。
+Basu de ikimasu.
+
+I go by bus.
+
+place に(ni）/ Goal of movement
+ペン で 書(か)きます。
+Pen de kakimasu.
+
+I write with pen.
+
+東京(とうきょう) で 仕事(しごと)をします。
+Tokyo de shigoto o shimasu.
+
+I work in Tokyo.
+
+と(to)
+
+Usage
+
+Means
+
+Noun to (と) Noun
+わたし は スーパー で 肉(にく) と 魚(さかな) を
+
+I will buy meat and fish at the supermarket.
+
+買います。
+Watashi wa suupaa de niku to sakana o kaimasu.
+東京(とうきょう)と ロンドン(ろんどん) の 時差
+(じさ)は何時間ですか？
+Tokyo to London no jisa wa nanjikan desuka?
+
+What's the time difference between Tokyo and London
+
+Something with to (と)
+友(とも)だち と 映画(えいが) を 見(み) に 行(い) I went to see a movie with my friend.
+きました。
+Tomodachi to eiga o mi ni　ikimashita.
+来週(らいしゅう)　母(はは) と旅行(りょこう) に I'm going to travel with my mother.
+行(い)きます。
+Raishuu haha to ryokou ni ikimasu.
+
+Plain Forms of Verb and Their Uses　動詞
+How to conjugate and examples
+The root form of Japanese verbs is usually given in the ‘-u’ ending form. These can be used
+as indefinite form, but in all other tenses, this form changes to ‘-i’ ending form.
+I read book. I eat food. I drink coffee. I go to Yokohama…
+Firstly, we must make stem to conjugate verb.
+
+GroupⅠ u-verbs
+How to make stem in First group verb is changing -u to –i which is in the end of the verb of
+dictionary form.
+Verb Conjugation 「行(い)く」
+
+Dictionary
+form
+行(い)く
+iku
+
+Stem
+行
+(い)
+き
+iki
+
+Positive
+Present
+行(い)き
+ます
+iki masu
+
+Negative
+Present
+行(い)き
+ません
+iki masen
+
+Positive Past
+
+Negative Past
+
+行(い)き ま 行(い)き ません
+した
+iki mashita
+
+Meaning
+to go
+
+でした
+iki masendeshita
+
+わたし は 行(い)きます。
+Watashi wa ikimasu.
+
+I go.
+
+わたしは 学校(がっこう) に 行(い)きます。
+Watashi wa gakkou ni ikimasu.
+
+I go to school.
+
+わたし は 会社(かいしゃ) に行(い)きません。
+Watashi wa kaisha ni ikimasen.
+
+I don't go to company.
+
+Verb Conjugation 「飲(の)む」
+
+Dictionary Stem
+form
+飲(の)む
+nomu
+
+飲
+(の)
+み
+nomi
+
+Positive
+Present
+
+Negative
+Present
+
+Positive Past
+
+Negative Past
+
+Meaning
+
+飲(の)み
+飲(の)み ま 飲(の)み ま 飲(の)み ません to drink
+ます
+せん
+した
+でした
+nomi masu nomi masen nomimashita nomimasendeshita
+
+わたし は 飲(の)みます。
+Watashi wa nomimasu.
+
+I drink.
+
+わたし は お茶(ちゃ) を 飲(の)みます。
+Watashi wa ocha o nomimasu.
+
+I drink tea.
+
+わたし は コーヒー を 飲(の)みません。
+
+I don't drink coffee.
+
+Watashi wa koohii wo nomimasen.
+Verb Conjugation 「書(か)く」
+
+Dictionary Stem
+form
+書(か)く
+kaku
+
+書
+(か)
+き
+kaki
+
+Positive
+Present
+書(か)き
+ます
+kaki masu
+
+Negative
+Present
+
+Positive Past
+
+Negative Past
+
+書(か)き ま 書(か)き ま 書(か)き ません
+せん
+した
+でした
+kaki masen kaki mashita kaki masendeshita
+
+わたし 日本語(にほんご) を 書(か)きます。
+Watashi wa nihongo o kakimasu.
+
+I write Japanese.
+
+あなた は 英語(えいご) を 書(か)きません。
+Anata wa eigo o kakimasen.
+
+You don't write English.
+
+Meaning
+to write
+
+Verb Conjugation 「読(よ)む」
+
+Dictionary Stem
+form
+読(よ)む
+yomu
+
+読
+(よ)
+み
+yomi
+
+Positive
+Present
+
+Negative
+Present
+
+Positive Past
+
+Negative Past
+
+Meaning
+
+読(よ)み
+読(よ)み ま 読(よ)み ま 読(よ)み ません to read
+ます
+せん
+した
+でした
+yomi masu yomi masen yomimashita yomimasendeshita
+
+わたし は 本(ほん) を 読(よ)みます。
+Watashi wa hon o yomimasu.
+
+I read a book.
+
+あなた は 本(ほん) を 読(よ)みません。
+Anata wa hon o yomimasen.
+
+You don't read book.
+
+Verb Conjugation 「買(か)う」
+
+Dictionary
+form
+買(か)う
+kau
+
+Stem
+買
+(か)
+い
+kai
+
+Positive
+Present
+
+Negative
+Present
+
+買(か)い
+ます
+kai masu
+
+買(か)い
+ません
+kai masen
+
+Positive Past
+
+Negative Past
+
+買(か)い ま 買(か)い ません
+した
+kai mashita
+
+Meaning
+to buy
+
+でした
+kai masendeshita
+
+わたし は パソコン を 買(か)います。
+Watashi wa pasokon wo kaimasu.
+
+I buy a personal computer.
+
+あなた は パソコン を 買(か)いません。
+
+You don't buy a personal computer.
+
+Anata wa pasokon wo　kaimasen.
+GroupⅡ ru-verbsv
+How to make stem in Second group verb is removing る from verb.
+Verb Conjugation 「寝(ね)る」
+
+Dictionary
+form
+寝(ね) る
+ne ru
+
+Stem
+寝
+(ね)
+ne
+
+Positive
+Present
+寝(ね) ま
+す
+ne masu
+
+Negative
+Present
+
+Positive
+Past
+
+Negative Past
+
+Meaning
+
+寝(ね) ませ 寝(ね) ま 寝(ね) ませんで to sleep
+ん
+した
+した
+ne masen
+ne mashita ne masendeshita
+
+あなた は 寝(ね)ます。
+Anata wa nemasu.
+
+You sleep.
+
+あなた は 寝(ね)ません。
+Anata wa nemasen.
+
+You don't sleep.
+
+Verb Conjugation 「食(た)べる」
+
+Dictionary
+form
+
+Stem
+
+Positive
+Present
+
+食(た)べ る 食(た) 食(た)べ
+tabe ru
+ます
+べ
+tabe
+tabe masu
+
+Negative
+Present
+
+Positive
+Past
+
+Negative Past
+
+食(た)べ ま 食(た)べ ま 食(た)べ ませ
+せん
+tabe masen
+
+した
+tabe
+mashita
+
+Meaning
+to eat
+
+んでした
+tabe masendeta
+
+わたし は 食(た)べます。
+Wtashi wa tabemasu.
+
+I eat.
+
+わたし は ごはん を 食(た)べます。
+Wtashi wa gohan o tabemasu.
+
+I eat food.
+
+わたし は ごはん を 食(た)べません。
+Wtashi wa gohan o tabemasen.
+
+I don't eat food.
+
+あなた は 食(た)べません。
+Wtashi wa gohan o tabemasen.
+
+I don't eat food.
+
+Verb Conjugation 「開(あ)ける」
+
+Dictionary
+form
+
+Stem
+
+Positive
+Present
+
+開(あ)け る 開(あ) 開(あ)け
+ake ru
+け
+ます
+
+Negative
+Present
+
+Positive
+Past
+
+開(あ)け ま 開(あ)け
+せん
+ました
+
+Negative Past
+
+Meaning
+
+開(あ)け ません
+
+to open
+
+でした
+
+ake
+
+ake masu
+
+ake masen
+
+ake mashita ake masendeshita
+
+わたし は ファイルを 開(あ)けます。
+Watashi wa fairu o akemasu.
+
+I open the file.
+
+あなた は ファイルを 開(あ)けません。
+Anata wa fairu o　akemasen.
+
+You don't open the file.
+
+Verb Conjugation 「見(み)る」
+
+Dictionary
+form
+見(み) る
+mi ru
+
+Stem
+見
+(み)
+mi
+
+Positive
+Present
+見(み) ま
+す
+mi masu
+
+Negative
+Present
+
+Positive
+Past
+
+Negative Past
+
+Meaning
+
+見(み) ませ 見(み) ま 見(み) ませんで to see
+ん
+した
+した
+mi masen
+mi mashita mi masendeshita
+
+わたし は テレビ を 見(み)ます。
+Watashi wa terebi o mimasu.
+
+I watch Television.
+
+あなた は テレビ を 見(み)ません。
+Anata wa terebi o mimasen.
+
+You don't watch Television.
+
+GroupⅢ Irregular verbs
+Verb Conjugation 「する」
+
+Dictionary
+form
+する
+suru
+
+Stem
+
+Positive
+Present
+
+しま します
+shima shi masu
+
+Negative
+Present
+し ません
+shi masen
+
+Positive
+Past
+しま し
+た
+shi
+mashita
+
+Negative Past
+しま せんでし
+た
+shi
+masendeshita
+
+わたし は します。
+Watashi wa shimasu.
+
+I do.
+
+わたし は 仕事(しごと)を します。
+Watashi wa shigoto o shimasu.
+
+I do job.
+
+わたし は 仕事(しごと)を しません。
+Watashi wa shigoto o shimasen.
+
+I don't do job.
+
+Meaning
+to do
+
+Verb Conjugation 「くる」
+
+Dictionary
+form
+くる
+
+Stem
+
+Positive
+Present
+
+きま きます
+
+Negative
+Present
+き ません
+
+Positive
+Past
+きま し
+
+Negative Past
+
+Meaning
+
+きま せんでし to come
+
+kuru
+
+kima ki masu
+
+ki masen
+
+た
+た
+ki mashita ki masendeshita
+
+わたし は きます。
+Watashi wa kimasu.
+
+I come.
+
+わたし は 会社(かいしゃ)に きません。
+Watashi wa kaisha ni kimasen.
+
+I don't come to company.
+
+Japanese Verb Conjugation
+Go Here for the Quick Adjective-how-to...
+The verb generally comes at the end of the sentence in the Japanese language. Because
+Japanese's sentences often omit the subject, the verb is probably the most important
+part in understanding the sentence. Unlike more complex verb conjugation of other
+languages, Japanese verbs do not have a different form to indicate the person (first-,
+second, and third-person), the number (singular and plural), or gender.
+Japanese verbs are roughly divided into three groups according to their dictionary form
+(basic form).
+Group 1: ~ U ending Verbs
+The basic form of Group 1 verbs end with "~ u". This group is also called Consonantstem verbs or Godan-doushi (Godan verbs).
+
+Group 1
+Group 1
+hanasu
+
+to speak
+
+kaku
+
+to write
+
+kiku
+
+to listen
+
+matsu
+
+to wait
+
+nomu
+
+to drink
+
+Group 2
+Group 2: ~ Iru and ~ Eru ending Verbs
+The basic form of Group 2 verbs end with either "~iru" or "~ eru".
+This group is also called Ichidan or Vowel-stem verbs.
+Group 2
+
+~ iru ending
+
+~ eru ending
+
+kiru
+
+to wear
+
+miru
+
+to see
+
+okiru
+
+to get up
+
+oriru
+
+to get off
+
+shinjiru
+
+to believe
+
+akeru
+
+to open
+
+ageru
+
+to give
+
+deru
+
+to go out
+
+neru
+
+to sleep
+
+taberu
+
+to eat
+
+Exceptions
+The following verbs belong to Group 1, even though they end in "~ iru" or "~ eru".
+
+Group 1 Exceptions
+hairu
+
+to enter
+
+hashiru
+
+to run
+
+iru
+
+to need
+
+kaeru
+
+to return
+
+kagiru
+
+to limit
+
+kiru
+
+to cut
+
+shaberu
+
+to chatter
+
+shiru
+
+to know
+
+Group 3 (Irregular)
+Group 3: Irregular Verbs
+There are two irregular verbs, kuru (to come) and suru (to do).
+The verb suru is likely the most often used verb. It is means to do, to make,or to cost. It
+is also combined with many nouns to change them into verbs.
+
+Combination Examples
+
+Noun + Suru
+benkyousuru
+
+to study
+
+ryokousuru
+
+to travel
+
+yushutsusuru
+
+to export
+
+dansusuru
+
+to dance
+
+shanpuusuru
+
+to shampoo
+
+Dictionary Form
+The dictionary form (basic form) of all Japanese verbs end with "u". This is also
+the informal, present affirmative form of the verb. Use this with friends and family in
+informal situations.
+
+Masu Form
+The ~ masu Form (Formal Form)
+Add the suffix "~ masu" to the dictionary form of a verb to make sentence polite. Use
+this form in situations theat require increased levels of politeness or formality, and is
+more appropriate for general use.
+~ masu Form
+Group 1
+
+Remove the final ~u, and add ~ imasu
+(kaku --- kakimasu, nomu --- nomimasu)
+
+Group 2
+
+Remove the final ~ru, and add ~ masu
+(miru --- mimasu, taberu --- tabemasu)
+
+Group 3
+
+kuru --- kimasu, suru --- shimasu
+
+The verb stem can be found by removing the ~ masu from the ~masu form:
+
+~ Masu Form
+
+Verb Stem
+
+kakimasu
+
+kaki
+
+nomimasu
+
+nomi
+
+mimasu
+
+mi
+
+tabemasu
+
+tabe
+
+Present Tense
+Japanese verbs have two main tenses, present and past. The present tense is used for
+future and habitual actions. The informal form of the present tense is the same as the
+dictionary form. Use the ~ masu form in formal situations.
+
+Past Tense
+The past tense is used to express actions completed in the past (I saw, I bought etc.)
+and present perfect tense (I have read, I have done etc.). The conjugation of Group 1
+verbs varies with the consonant of the last syllable on the dictionary form. Group 2 verbs
+all have the same conjugation pattern.
+
+Past Tense
+Group 1
+Formal
+
+Informal
+
+Replace ~ u with ~ imashita
+
+kaku --- kakimashita
+nomu --nomimashita
+
+(1) Verb ending with ~ ku:
+replace ~ ku with ~ ita
+
+kaku --- kaita
+kiku --- kiita
+
+(2) Verb ending with ~ gu:
+replace ~ gu with ~ ida
+
+isogu --- isoida
+oyogu --- oyoida
+
+(3) Verb ending with ~ u,
+~tsu and ~ ru:
+replace them with ~ tta
+
+utau --- utatta
+matsu --- matta
+kaeru --- kaetta
+
+(4) Verb ending with ~ nu, ~bu
+and ~ mu:
+replace them with ~ nda
+
+shinu --- shinda
+asobu --- asonda
+nomu --- nonda
+
+(5) Verb ending with ~ su:
+replace ~ su with ~ shita
+
+hanasu --- hanashita
+dasu --- dashita
+
+Group 2
+
+Formal
+
+Take off ~ru, and add ~ mashita
+
+Informal
+
+Take off ~ru, and add ~ ta
+
+miru --- mimashita
+taberu ---tabemashita
+miru --- mita
+taberu --- tabeta
+
+Group 3
+Formal
+
+kuru --- kimashita, suru --- shimashita
+
+Informal
+
+kuru --- kita, suru ---shita
+
+Present Negative
+To make a negative sentence, change the verb ending into the ~nai, negative form.
+All Verbs (Group 1, 2, 3)
+
+Formal
+
+nomimasu --nomimasen
+tabemasu --Replace ~ masu with ~ masen
+tabemasen
+kimasu --- kimasen
+shimasu --- shimasen
+
+Informal
+
+Group 1
+Replace the final ~
+u with ~anai
+(If verb ending is a vowel + ~
+u,
+replace with ~ wanai)
+
+kiku --- kikanai
+nomu --- nomanai
+au --- awanai
+
+Group 2
+
+Replace ~ ru with ~ nai
+
+miru --- minai
+taberu --- tabenai
+
+Group 3
+kuru --- konai, suru ---shinai
+
+Past Negative
+Group 1, 2, 3
+Formal
+
+nomimasen --- nomimasen deshit
+Add ~ deshita to a
+the formal present tabemasen --- tabemasen deshita
+negative form
+kimasen --- kimasen deshita
+shimasen --- shimasen deshita
+
+Group 1, 2, 3
+Informal
+Replace ~ nai
+with ~ nakatta
+
+nomanai --- nomanakatta
+tabenai --- tabenakatta
+konai --- konakatta
+shinai ---shinakatta
+
+The TE Form
+The ~ te form not indicate tense by itself. It combines with other verb forms to create
+other tenses. To make the ~ te form, replace the final ~ ta of the informal past tense of
+the verb with ~ te, and ~ da with ~ de.
+
+Te Form
+Informal Past
+
+The ~ te form
+
+nonda
+
+nonde
+
+tabeta
+
+tabete
+
+kita
+
+kite
+
+Functions of the ~ te form.
+
+1. Describe a habitual action/ condition
+2. Request (~ te form + kudasai)
+Mite kudasai.
+
+Please look.
+
+Kiite kudasai.
+
+Please listen.
+
+3. Present progressive: ~ te form + iru or imasu (formal)
+Hirugohan o tabete iru.
+
+I am having lunch.
+
+Terebi o mite imasu.
+
+I am watching TV.
+
+4. Listing successive actions
+Use to connect two or more verbs, used after all but the last verb in a
+sequence.
+
+Hachi-ji ni okite gakkou ni itta.
+
+I got up at eight and went to
+school.
+
+Depaato ni itte kutsu o katta.
+
+I went to department store
+and bought shoes.
+
+5. Ask permission: (~ te form + mo ii desu ka)
+Terebi o mite mo ii desu ka.
+
+May I watch TV?
+
+Tabako o sutte mo ii desu ka.
+
+May I smoke?
+
+~TE Examples
+Group 1 Example
+Dictionary
+Form
+(Basic Form)
+
+English
+
+Formal Form
+
+The ~ te
+Form
+
+aruku
+
+to walk
+
+arukimasu
+
+aruite
+
+asobu
+
+to play
+
+asobimasu
+
+asonde
+
+au
+
+to meet
+
+aimasu
+
+atte
+
+hairu
+
+to enter
+
+hairimasu
+
+haitte
+
+hajimaru
+
+to begin
+
+hajimarimasu
+
+hajimatte
+
+iku
+
+to go
+
+ikimasu
+
+itte
+
+kaeru
+
+to return
+
+kaerimasu
+
+kaette
+
+kakaru
+
+to take
+
+kakarimasu
+
+kakatte
+
+kaku
+
+to write
+
+kakimasu
+
+kaite
+
+kau
+
+to buy
+
+kaimasu
+
+katte
+
+kiku
+
+to listen
+
+kikimasu
+
+kiite
+
+matsu
+
+to wait
+
+machimasu
+
+matte
+
+motsu
+
+to have
+
+mochimasu
+
+motte
+
+narau
+
+to learn
+
+naraimasu
+
+naratte
+
+nomu
+
+to drink
+
+nomimasu
+
+nonde
+
+okuru
+
+to send
+
+okurimasu
+
+okutte
+
+omou
+
+to think
+
+omoimasu
+
+omotte
+
+oyogu
+
+to swim
+
+oyogimasu
+
+oyoide
+
+shiru
+
+to know
+
+shirimasu
+
+shitte
+
+suwaru
+
+to sit
+
+suwarimasu
+
+suwatte
+
+tatsu
+
+to stand
+
+tachimasu
+
+tatte
+
+tomaru
+
+to stop
+
+tomarimasu
+
+tomatte
+
+tsuku
+
+to arrive
+
+tsukimasu
+
+tsuite
+
+uru
+
+to sell
+
+urimasu
+
+utte
+
+utau
+
+to sing
+
+utaimasu
+
+utatte
+
+wakaru
+
+to understand
+
+wakarimasu
+
+wakatte
+
+warau
+
+to laugh
+
+waraimasu
+
+waratte
+
+yomu
+
+to read
+
+yomimasu
+
+yonde
+
+Group 2 Example
+
+kangaeru
+
+to think
+
+kangaemasu
+
+kangaete
+
+miru
+
+to see
+
+mimasu
+
+mite
+
+neru
+
+to sleep
+
+nemasu
+
+nete
+
+oshieru
+
+to teach
+
+oshiemasu
+
+oshiete
+
+taberu
+
+to eat
+
+tabemasu
+
+tabete
+
+Group 3 Example
+
+kuru
+
+to come
+
+kimasu
+
+kite
+
+suru
+
+to do
+
+shimasu
+
+shite
+
+The ~te form it does not indicate tense by itself; it can be used to string
+together sequences of verbs. One of the ~te form structure is "~ te kudasai," to
+expresse a request.
+Kaite kudasai
+
+Please write.
+
+Matte kudasai.
+
+Please wait.
+
+Visit our Friends at the Chinese Acupuncture Clinic in Georgetown, Tx.
+also: https://www.facebook.com/cacuclinic
+
+
