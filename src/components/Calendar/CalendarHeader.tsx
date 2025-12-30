@@ -8,6 +8,10 @@ interface CalendarHeaderProps {
   onViewChange: (view: CalendarViewType) => void;
   onJlptChange: (level: JLPTLevel) => void;
   onClose?: () => void;
+  showWOTD?: boolean;
+  showKOTD?: boolean;
+  onToggleWOTD?: () => void;
+  onToggleKOTD?: () => void;
 }
 
 const VIEW_OPTIONS: { value: CalendarViewType; label: string; labelJp: string; shortLabel: string }[] = [
@@ -23,7 +27,11 @@ export function CalendarHeader({
   jlptLevel,
   onViewChange,
   onJlptChange,
-  onClose
+  onClose,
+  showWOTD = true,
+  showKOTD = true,
+  onToggleWOTD,
+  onToggleKOTD
 }: CalendarHeaderProps) {
   return (
     <div className="bg-gradient-to-r from-indigo-600 to-purple-600 px-4 sm:px-6 py-3 sm:py-4 flex items-center justify-between gap-2">
@@ -92,17 +100,37 @@ export function CalendarHeader({
           </div>
         </div>
 
-        {/* Legend Button (Desktop) */}
-        <div className="hidden lg:flex items-center gap-2 text-xs text-white/80">
-          <span className="flex items-center gap-1">
-            <span className="w-3 h-3 rounded bg-gradient-to-r from-indigo-500 to-purple-500"></span>
+        {/* Event Toggles (Desktop) */}
+        <div className="hidden lg:flex items-center gap-2 text-xs">
+          <button
+            onClick={onToggleWOTD}
+            className={`flex items-center gap-1 px-2 py-1 rounded-md transition-all ${
+              showWOTD
+                ? 'bg-white/20 text-white hover:bg-white/30'
+                : 'bg-white/5 text-white/40 hover:bg-white/10'
+            }`}
+            title={showWOTD ? 'Hide Word of the Day' : 'Show Word of the Day'}
+          >
+            <span className={`w-3 h-3 rounded transition-opacity ${
+              showWOTD ? 'bg-gradient-to-r from-indigo-500 to-purple-500' : 'bg-gray-400'
+            }`}></span>
             Word
-          </span>
-          <span className="flex items-center gap-1">
-            <span className="w-3 h-3 rounded bg-gradient-to-r from-purple-500 to-pink-500"></span>
+          </button>
+          <button
+            onClick={onToggleKOTD}
+            className={`flex items-center gap-1 px-2 py-1 rounded-md transition-all ${
+              showKOTD
+                ? 'bg-white/20 text-white hover:bg-white/30'
+                : 'bg-white/5 text-white/40 hover:bg-white/10'
+            }`}
+            title={showKOTD ? 'Hide Kanji of the Day' : 'Show Kanji of the Day'}
+          >
+            <span className={`w-3 h-3 rounded transition-opacity ${
+              showKOTD ? 'bg-gradient-to-r from-purple-500 to-pink-500' : 'bg-gray-400'
+            }`}></span>
             Kanji
-          </span>
-          <span className="flex items-center gap-1">
+          </button>
+          <span className="flex items-center gap-1 text-white/80">
             <span className="w-3 h-3 rounded bg-gradient-to-r from-amber-500 to-orange-500"></span>
             Holiday
           </span>

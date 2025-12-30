@@ -6,6 +6,8 @@ import { useAuth } from '../contexts/AuthContext';
 import { GrammarGuide } from '../components/GrammarGuide';
 import { KanaChart } from '../components/KanaChart';
 import { NotesPanel } from '../components/NotesPanel';
+import { TodoWidget } from '../components/TodoWidget';
+import { TimerWidget } from '../components/TimerWidget';
 import { getDailyData, getLearnedItems } from '../services/calendarApi';
 
 // Fallback Word of the Day (used when API fails or user not logged in)
@@ -59,9 +61,29 @@ function formatTime24(date: Date): string {
   return date.toLocaleTimeString('en-GB', { hour: '2-digit', minute: '2-digit', hour12: false });
 }
 
-// Get Tokyo time
-function getTokyoTime(): Date {
-  return new Date(new Date().toLocaleString('en-US', { timeZone: 'Asia/Tokyo' }));
+// Get time for any timezone
+function getTimeForZone(timeZone: string): string {
+  return new Date().toLocaleTimeString('en-GB', {
+    timeZone,
+    hour: '2-digit',
+    minute: '2-digit',
+    hour12: false
+  });
+}
+
+// Get timezone label
+function getTimezoneLabel(timeZone: string): { emoji: string; label: string } {
+  const labels: Record<string, { emoji: string; label: string }> = {
+    'Asia/Tokyo': { emoji: '🇯🇵', label: 'Tokyo' },
+    'America/New_York': { emoji: '🇺🇸', label: 'New York' },
+    'America/Los_Angeles': { emoji: '🇺🇸', label: 'Los Angeles' },
+    'Europe/London': { emoji: '🇬🇧', label: 'London' },
+    'Europe/Paris': { emoji: '🇫🇷', label: 'Paris' },
+    'Australia/Sydney': { emoji: '🇦🇺', label: 'Sydney' },
+    'Asia/Seoul': { emoji: '🇰🇷', label: 'Seoul' },
+    'Asia/Shanghai': { emoji: '🇨🇳', label: 'Shanghai' },
+  };
+  return labels[timeZone] || { emoji: '🌍', label: timeZone.split('/')[1] || timeZone };
 }
 
 // Get days completed this week (Mon-Sun, days with any learning activity)
@@ -94,8 +116,13 @@ export function HomePage() {
   const [jlptLevel, setJlptLevel] = useState('N5');
   const [isVisible, setIsVisible] = useState(false);
   const [currentTime, setCurrentTime] = useState(new Date());
-  const [tokyoTime, setTokyoTime] = useState(getTokyoTime());
   const { speak, speaking } = useSpeechSynthesis();
+
+  // Load timezone preferences
+  const [selectedTimezones] = useState<string[]>(() => {
+    const saved = localStorage.getItem('gojun-timezones');
+    return saved ? JSON.parse(saved) : ['Asia/Tokyo'];
+  });
 
   // Modal states for Quick Links
   const [showGrammarGuide, setShowGrammarGuide] = useState(false);
@@ -221,7 +248,6 @@ export function HomePage() {
     // Update time every second for smooth clock
     const timer = setInterval(() => {
       setCurrentTime(new Date());
-      setTokyoTime(getTokyoTime());
     }, 1000);
     return () => clearInterval(timer);
   }, [loadDynamicData]);
@@ -292,13 +318,18 @@ export function HomePage() {
 
           {/* Right side - Time displays, Level */}
           <div className="flex flex-wrap items-center gap-3">
-            {/* Tokyo Time */}
-            <div className={`${theme.card} border rounded-xl px-4 py-2`}>
-              <p className={`text-xs ${theme.textSubtle}`}>Tokyo 🇯🇵</p>
-              <p className="font-mono font-semibold text-lg">{formatTime24(tokyoTime)}</p>
-            </div>
+            {/* Selected Timezones */}
+            {selectedTimezones.map((tz) => {
+              const { emoji, label } = getTimezoneLabel(tz);
+              return (
+                <div key={tz} className={`${theme.card} border rounded-xl px-4 py-2`}>
+                  <p className={`text-xs ${theme.textSubtle}`}>{label} {emoji}</p>
+                  <p className="font-mono font-semibold text-lg">{getTimeForZone(tz)}</p>
+                </div>
+              );
+            })}
 
-            {/* Local Time */}
+            {/* Local Time (always show) */}
             <div className={`${theme.card} border rounded-xl px-4 py-2`}>
               <p className={`text-xs ${theme.textSubtle}`}>Local 📍</p>
               <p className="font-mono font-semibold text-lg">{formatTime24(currentTime)}</p>
@@ -501,11 +532,12 @@ export function HomePage() {
                         <button
                           onClick={() => handleSpeak(wordOfTheDay.japanese)}
                           disabled={speaking}
-                          className={`w-10 h-10 rounded-xl flex items-center justify-center transition-all ${
+                          className={`w-14 h-14 rounded-xl flex items-center justify-center transition-all text-xl ${
                             speaking
                               ? 'bg-pink-500 text-white scale-110'
-                              : isDark ? 'bg-white/10 hover:bg-white/20' : 'bg-slate-100 hover:bg-slate-200'
+                              : isDark ? 'bg-white/10 hover:bg-white/20 hover:scale-105' : 'bg-slate-100 hover:bg-slate-200 hover:scale-105'
                           }`}
+                          title="Play audio"
                         >
                           🔊
                         </button>
@@ -528,9 +560,10 @@ export function HomePage() {
                           <button
                             onClick={() => handleSpeak(wordOfTheDay.example!.japanese)}
                             disabled={speaking}
-                            className={`w-9 h-9 rounded-lg flex items-center justify-center flex-shrink-0 transition-all ${
-                              speaking ? 'bg-pink-500 text-white' : isDark ? 'bg-white/10 hover:bg-white/20' : 'bg-white hover:bg-slate-100'
+                            className={`w-12 h-12 rounded-lg flex items-center justify-center flex-shrink-0 transition-all ${
+                              speaking ? 'bg-pink-500 text-white scale-110' : isDark ? 'bg-white/10 hover:bg-white/20 hover:scale-105' : 'bg-white hover:bg-slate-100 hover:scale-105'
                             }`}
+                            title="Play audio"
                           >
                             🔊
                           </button>
@@ -595,6 +628,12 @@ export function HomePage() {
                 ))}
               </div>
             </div>
+
+            {/* Todo Widget */}
+            <TodoWidget />
+
+            {/* Timer Widget */}
+            <TimerWidget />
           </div>
         </div>
       </div>
