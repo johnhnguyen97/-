@@ -157,7 +157,7 @@ export const Layout: React.FC = () => {
           isDark
             ? 'bg-gradient-to-br from-indigo-600 to-purple-600 hover:from-indigo-500 hover:to-purple-500'
             : 'bg-gradient-to-br from-indigo-500 to-purple-500 hover:from-indigo-400 hover:to-purple-400'
-        } text-white rounded-2xl shadow-lg hover:shadow-xl flex items-center justify-center bottom-40 right-4 md:bottom-32 md:right-6 w-14 h-14`}
+        } text-white rounded-2xl shadow-lg hover:shadow-xl flex items-center justify-center bottom-40 right-4 md:bottom-24 md:right-6 w-14 h-14`}
         title="Settings"
       >
         <svg className="w-6 h-6" fill="none" stroke="currentColor" viewBox="0 0 24 24">
