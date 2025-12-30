@@ -2,12 +2,16 @@ import { useState, useEffect } from 'react';
 import { KanaChart } from './KanaChart';
 import { NotesPanel } from './NotesPanel';
 import { GrammarGuide } from './GrammarGuide';
+import { TodoWidget } from './TodoWidget';
+import { TimerWidget } from './TimerWidget';
 
 export function ToolboxButton() {
   const [isMenuOpen, setIsMenuOpen] = useState(false);
   const [isKanaChartOpen, setIsKanaChartOpen] = useState(false);
   const [isNotesOpen, setIsNotesOpen] = useState(false);
   const [isGrammarGuideOpen, setIsGrammarGuideOpen] = useState(false);
+  const [isTodoOpen, setIsTodoOpen] = useState(false);
+  const [isTimerOpen, setIsTimerOpen] = useState(false);
   const [menuVisible, setMenuVisible] = useState(false);
   const [fabHovered, setFabHovered] = useState(false);
 
@@ -34,11 +38,23 @@ export function ToolboxButton() {
     setIsMenuOpen(false);
   };
 
+  const handleTodoClick = () => {
+    setIsTodoOpen(true);
+    setIsMenuOpen(false);
+  };
+
+  const handleTimerClick = () => {
+    setIsTimerOpen(true);
+    setIsMenuOpen(false);
+  };
+
   // Calendar is now a page - removed from toolbox
   const menuItems = [
     { icon: '📖', label: 'Grammar Guide', sublabel: '文法', onClick: handleGrammarGuideClick, gradient: 'from-rose-500 to-pink-600', shadow: 'shadow-rose-200' },
     { icon: 'あ', label: 'Kana Chart', sublabel: '仮名', onClick: handleKanaChartClick, gradient: 'from-violet-500 to-purple-600', shadow: 'shadow-violet-200' },
     { icon: '📝', label: 'Notes', sublabel: 'ノート', onClick: handleNotesClick, gradient: 'from-emerald-500 to-teal-600', shadow: 'shadow-emerald-200' },
+    { icon: '✓', label: 'Todo List', sublabel: 'タスク', onClick: handleTodoClick, gradient: 'from-blue-500 to-cyan-600', shadow: 'shadow-blue-200' },
+    { icon: '⏱️', label: 'Timer', sublabel: 'タイマー', onClick: handleTimerClick, gradient: 'from-amber-500 to-orange-600', shadow: 'shadow-amber-200' },
   ];
 
   return (
@@ -168,6 +184,46 @@ export function ToolboxButton() {
       {/* Grammar Guide */}
       {isGrammarGuideOpen && (
         <GrammarGuide onClose={() => setIsGrammarGuideOpen(false)} />
+      )}
+
+      {/* Todo List Modal */}
+      {isTodoOpen && (
+        <>
+          <div className="fixed inset-0 bg-black/50 z-40" onClick={() => setIsTodoOpen(false)} />
+          <div className="fixed inset-0 z-50 flex items-center justify-center p-4">
+            <div className="w-full max-w-md">
+              <div className="relative">
+                <button
+                  onClick={() => setIsTodoOpen(false)}
+                  className="absolute -top-2 -right-2 w-8 h-8 rounded-full bg-red-500 text-white flex items-center justify-center hover:bg-red-600 transition-colors z-10"
+                >
+                  ✕
+                </button>
+                <TodoWidget />
+              </div>
+            </div>
+          </div>
+        </>
+      )}
+
+      {/* Timer Modal */}
+      {isTimerOpen && (
+        <>
+          <div className="fixed inset-0 bg-black/50 z-40" onClick={() => setIsTimerOpen(false)} />
+          <div className="fixed inset-0 z-50 flex items-center justify-center p-4">
+            <div className="w-full max-w-md">
+              <div className="relative">
+                <button
+                  onClick={() => setIsTimerOpen(false)}
+                  className="absolute -top-2 -right-2 w-8 h-8 rounded-full bg-red-500 text-white flex items-center justify-center hover:bg-red-600 transition-colors z-10"
+                >
+                  ✕
+                </button>
+                <TimerWidget />
+              </div>
+            </div>
+          </div>
+        </>
       )}
     </>
   );

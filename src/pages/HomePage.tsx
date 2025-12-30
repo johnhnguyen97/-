@@ -6,6 +6,8 @@ import { useAuth } from '../contexts/AuthContext';
 import { GrammarGuide } from '../components/GrammarGuide';
 import { KanaChart } from '../components/KanaChart';
 import { NotesPanel } from '../components/NotesPanel';
+import { TodoWidget } from '../components/TodoWidget';
+import { TimerWidget } from '../components/TimerWidget';
 import { getDailyData, getLearnedItems } from '../services/calendarApi';
 
 // Fallback Word of the Day (used when API fails or user not logged in)
@@ -633,6 +635,12 @@ export function HomePage() {
                 ))}
               </div>
             </div>
+
+            {/* Todo Widget */}
+            <TodoWidget />
+
+            {/* Timer Widget */}
+            <TimerWidget />
           </div>
         </div>
       </div>
