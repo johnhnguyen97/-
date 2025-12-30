@@ -48,7 +48,7 @@ export const Layout: React.FC = () => {
     { path: '/settings', label: '⚙️ Settings' },
   ];
 
-  // If not authenticated, show minimal layout
+  // If not authenticated, show minimal layout with centered login
   if (!user) {
     return (
       <div className={`min-h-screen transition-colors duration-300 ${
@@ -56,7 +56,7 @@ export const Layout: React.FC = () => {
           ? 'bg-[#0f0f1a]'
           : 'bg-gradient-to-br from-slate-50 via-white to-pink-50/30'
       }`}>
-        <main>
+        <main className="min-h-screen flex items-center justify-center py-12 px-4">
           <Outlet />
         </main>
       </div>
