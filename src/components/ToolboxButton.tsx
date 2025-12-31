@@ -4,6 +4,7 @@ import { NotesPanel } from './NotesPanel';
 import { GrammarGuide } from './GrammarGuide';
 import { TodoWidget } from './TodoWidget';
 import { TimerWidget } from './TimerWidget';
+import { KanjiDictionary } from './Kanji/KanjiDictionary';
 
 export function ToolboxButton() {
   const [isMenuOpen, setIsMenuOpen] = useState(false);
@@ -12,6 +13,7 @@ export function ToolboxButton() {
   const [isGrammarGuideOpen, setIsGrammarGuideOpen] = useState(false);
   const [isTodoOpen, setIsTodoOpen] = useState(false);
   const [isTimerOpen, setIsTimerOpen] = useState(false);
+  const [isDictionaryOpen, setIsDictionaryOpen] = useState(false);
   const [menuVisible, setMenuVisible] = useState(false);
   const [fabHovered, setFabHovered] = useState(false);
 
@@ -48,8 +50,14 @@ export function ToolboxButton() {
     setIsMenuOpen(false);
   };
 
+  const handleDictionaryClick = () => {
+    setIsDictionaryOpen(true);
+    setIsMenuOpen(false);
+  };
+
   // Calendar is now a page - removed from toolbox
   const menuItems = [
+    { icon: '漢', label: 'Kanji Dictionary', sublabel: '漢字辞典', onClick: handleDictionaryClick, gradient: 'from-amber-500 to-orange-600', shadow: 'shadow-amber-200' },
     { icon: '📖', label: 'Grammar Guide', sublabel: '文法', onClick: handleGrammarGuideClick, gradient: 'from-rose-500 to-pink-600', shadow: 'shadow-rose-200' },
     { icon: 'あ', label: 'Kana Chart', sublabel: '仮名', onClick: handleKanaChartClick, gradient: 'from-violet-500 to-purple-600', shadow: 'shadow-violet-200' },
     { icon: '📝', label: 'Notes', sublabel: 'ノート', onClick: handleNotesClick, gradient: 'from-emerald-500 to-teal-600', shadow: 'shadow-emerald-200' },
@@ -225,6 +233,12 @@ export function ToolboxButton() {
           </div>
         </>
       )}
+
+      {/* Kanji Dictionary */}
+      <KanjiDictionary
+        isOpen={isDictionaryOpen}
+        onClose={() => setIsDictionaryOpen(false)}
+      />
     </>
   );
 }

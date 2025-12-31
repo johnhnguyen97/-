@@ -61,29 +61,46 @@ export async function searchKanji(
     headers['Authorization'] = `Bearer ${token}`;
   }
 
-  const response = await fetch(`${API_BASE}/kanji-alive?search=${encodeURIComponent(query)}`, {
-    method: 'GET',
-    headers,
-  });
+  try {
+    const response = await fetch(`${API_BASE}/kanji-alive?search=${encodeURIComponent(query)}`, {
+      method: 'GET',
+      headers,
+    });
 
-  if (!response.ok) {
-    throw new Error(`Search failed: ${response.statusText}`);
+    if (!response.ok) {
+      const errorData = await response.json().catch(() => ({}));
+      // Check if it's an API key issue
+      if (response.status === 500 && errorData.message?.includes('RAPIDAPI_KEY')) {
+        throw new Error('Kanji API not configured. Please use the Radicals tab to browse radicals.');
+      }
+      throw new Error(errorData.error || `Search failed: ${response.statusText}`);
+    }
+
+    const data = await response.json();
+
+    // Handle empty results
+    if (!data.results || data.results.length === 0) {
+      return { kanji: [], total: 0, hasMore: false };
+    }
+
+    return {
+      kanji: (data.results || []).map((item: KanjiAliveResponse) => ({
+        id: item.kanji?.character || '',
+        character: item.kanji?.character || '',
+        strokeCount: item.kanji?.strokes?.count || 0,
+        meaningEn: item.kanji?.meaning?.english || '',
+        onyomi: item.kanji?.onyomi?.katakana,
+        kunyomi: item.kanji?.kunyomi?.hiragana,
+      })),
+      total: data.total || 0,
+      hasMore: false,
+    };
+  } catch (error) {
+    if (error instanceof Error) {
+      throw error;
+    }
+    throw new Error('Failed to search kanji. Try the Radicals tab instead.');
   }
-
-  const data = await response.json();
-
-  return {
-    kanji: (data.results || []).map((item: KanjiAliveResponse) => ({
-      id: item.kanji?.character || '',
-      character: item.kanji?.character || '',
-      strokeCount: item.kanji?.strokes?.count || 0,
-      meaningEn: item.kanji?.meaning?.english || '',
-      onyomi: item.kanji?.onyomi?.katakana,
-      kunyomi: item.kanji?.kunyomi?.hiragana,
-    })),
-    total: data.total || 0,
-    hasMore: false,
-  };
 }
 
 /**

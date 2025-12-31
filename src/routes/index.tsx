@@ -5,7 +5,7 @@ import { WordGamePage } from '../pages/WordGamePage';
 import { PatternDrillPage } from '../pages/PatternDrillPage';
 import { CalendarPage } from '../pages/CalendarPage';
 import { SettingsPage } from '../pages/SettingsPage';
-import { KanjiPage } from '../pages/KanjiPage';
+import { RadicalPracticePage } from '../pages/RadicalPracticePage';
 import { Auth } from '../components/Auth';
 
 export const router = createBrowserRouter([
@@ -34,8 +34,8 @@ export const router = createBrowserRouter([
         element: <SettingsPage />,
       },
       {
-        path: 'kanji',
-        element: <KanjiPage />,
+        path: 'radical-practice',
+        element: <RadicalPracticePage />,
       },
     ],
   },

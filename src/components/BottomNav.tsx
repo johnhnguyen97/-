@@ -11,9 +11,9 @@ interface NavItem {
 const navItems: NavItem[] = [
   { path: '/', label: 'Home', icon: '🏠', activeIcon: '🏠' },
   { path: '/word-game', label: 'Word', icon: '📝', activeIcon: '📝' },
-  { path: '/pattern-drill', label: 'Drill', icon: '🔄', activeIcon: '🔄' },
-  { path: '/kanji', label: 'Kanji', icon: '漢', activeIcon: '漢' },
-  { path: '/settings', label: 'Settings', icon: '⚙️', activeIcon: '⚙️' },
+  { path: '/pattern-drill', label: 'Pattern', icon: '🔄', activeIcon: '🔄' },
+  { path: '/radical-practice', label: 'Radical', icon: '部', activeIcon: '部' },
+  { path: '/calendar', label: 'Calendar', icon: '📅', activeIcon: '📅' },
 ];
 
 export function BottomNav() {
@@ -38,7 +38,7 @@ export function BottomNav() {
             <NavLink
               key={item.path}
               to={item.path}
-              className={`flex flex-col items-center justify-center min-w-[64px] py-1 px-2 rounded-xl transition-all duration-200 ${
+              className={`flex flex-col items-center justify-center min-w-[56px] py-1 px-1.5 rounded-xl transition-all duration-200 ${
                 isActive
                   ? isDark
                     ? 'text-pink-400'
