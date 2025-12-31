@@ -4,6 +4,7 @@ import { useTheme } from '../contexts/ThemeContext';
 import { KanjiSearch } from '../components/Kanji/KanjiSearch';
 import { KanjiGrid } from '../components/Kanji/KanjiGrid';
 import { KanjiDetailModal } from '../components/Kanji/KanjiDetailModal';
+import { KanjiBrowser } from '../components/Kanji/KanjiBrowser';
 import { RadicalExplorer } from '../components/Kanji/RadicalExplorer';
 import { RadicalDrill } from '../components/Kanji/RadicalGame/RadicalDrill';
 import type { KanjiPageTab, KanjiSummary, KanjiDetail, Radical } from '../types/kanji';
@@ -27,6 +28,9 @@ export function KanjiPage() {
 
   // Radical explorer state
   const [selectedRadical, setSelectedRadical] = useState<Radical | null>(null);
+
+  // Dictionary mode (search vs browse)
+  const [dictMode, setDictMode] = useState<'search' | 'browse'>('search');
 
   // Theme classes
   const theme = {
@@ -89,40 +93,87 @@ export function KanjiPage() {
       case 'dictionary':
         return (
           <div className="space-y-6">
-            <KanjiSearch
-              value={searchQuery}
-              onChange={handleSearch}
-              isLoading={isSearching}
-              isDark={isDark}
-            />
+            {/* Dictionary Mode Toggle */}
+            <div className="flex gap-2">
+              <button
+                onClick={() => setDictMode('search')}
+                className={`flex-1 flex items-center justify-center gap-2 px-4 py-2.5 rounded-lg border text-sm font-medium transition-all ${
+                  dictMode === 'search'
+                    ? isDark
+                      ? 'bg-amber-600/20 text-amber-400 border-amber-500/50'
+                      : 'bg-amber-100 text-amber-700 border-amber-300'
+                    : isDark
+                      ? 'bg-white/5 text-gray-400 border-white/10 hover:bg-white/10'
+                      : 'bg-white text-gray-600 border-gray-200 hover:bg-gray-50'
+                }`}
+              >
+                <span>🔍</span>
+                <span>Search</span>
+              </button>
+              <button
+                onClick={() => setDictMode('browse')}
+                className={`flex-1 flex items-center justify-center gap-2 px-4 py-2.5 rounded-lg border text-sm font-medium transition-all ${
+                  dictMode === 'browse'
+                    ? isDark
+                      ? 'bg-amber-600/20 text-amber-400 border-amber-500/50'
+                      : 'bg-amber-100 text-amber-700 border-amber-300'
+                    : isDark
+                      ? 'bg-white/5 text-gray-400 border-white/10 hover:bg-white/10'
+                      : 'bg-white text-gray-600 border-gray-200 hover:bg-gray-50'
+                }`}
+              >
+                <span>📚</span>
+                <span>Browse by Level</span>
+              </button>
+            </div>
 
-            {searchError && (
-              <div className={`p-4 rounded-xl border ${
-                isDark ? 'bg-red-500/10 border-red-500/20 text-red-400' : 'bg-red-50 border-red-200 text-red-700'
-              }`}>
-                {searchError}
-              </div>
+            {/* Search Mode */}
+            {dictMode === 'search' && (
+              <>
+                <KanjiSearch
+                  value={searchQuery}
+                  onChange={handleSearch}
+                  isLoading={isSearching}
+                  isDark={isDark}
+                />
+
+                {searchError && (
+                  <div className={`p-4 rounded-xl border ${
+                    isDark ? 'bg-red-500/10 border-red-500/20 text-red-400' : 'bg-red-50 border-red-200 text-red-700'
+                  }`}>
+                    {searchError}
+                  </div>
+                )}
+
+                {searchResults.length > 0 ? (
+                  <KanjiGrid
+                    kanji={searchResults}
+                    onKanjiClick={handleKanjiClick}
+                    isDark={isDark}
+                  />
+                ) : searchQuery && !isSearching ? (
+                  <div className={`text-center py-12 ${theme.textMuted}`}>
+                    <div className="text-6xl mb-4">🔍</div>
+                    <p className="text-lg">No kanji found for "{searchQuery}"</p>
+                    <p className="text-sm mt-2">Try searching by character, reading, or meaning</p>
+                  </div>
+                ) : !searchQuery ? (
+                  <div className={`text-center py-12 ${theme.textMuted}`}>
+                    <div className="text-6xl mb-4">漢</div>
+                    <p className="text-lg">Search for kanji</p>
+                    <p className="text-sm mt-2">Enter a kanji character, reading (hiragana/katakana), or English meaning</p>
+                  </div>
+                ) : null}
+              </>
             )}
 
-            {searchResults.length > 0 ? (
-              <KanjiGrid
-                kanji={searchResults}
+            {/* Browse Mode */}
+            {dictMode === 'browse' && (
+              <KanjiBrowser
                 onKanjiClick={handleKanjiClick}
                 isDark={isDark}
               />
-            ) : searchQuery && !isSearching ? (
-              <div className={`text-center py-12 ${theme.textMuted}`}>
-                <div className="text-6xl mb-4">🔍</div>
-                <p className="text-lg">No kanji found for "{searchQuery}"</p>
-                <p className="text-sm mt-2">Try searching by character, reading, or meaning</p>
-              </div>
-            ) : !searchQuery ? (
-              <div className={`text-center py-12 ${theme.textMuted}`}>
-                <div className="text-6xl mb-4">漢</div>
-                <p className="text-lg">Search for kanji</p>
-                <p className="text-sm mt-2">Enter a kanji character, reading (hiragana/katakana), or English meaning</p>
-              </div>
-            ) : null}
+            )}
           </div>
         );
 

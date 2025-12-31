@@ -346,7 +346,24 @@ export async function getKanjiDetail(
       }
     } catch { /* ignore */ }
 
-    return { ...kanji, radicals };
+    // Get vocabulary examples containing this kanji
+    const examples: { word: string; reading: string; meaning: string }[] = [];
+    try {
+      const vData = await loadVocabCommon();
+      const vocabExamples = vData.data
+        .filter(v => v.k?.includes(character) && v.c === 1) // Only common words
+        .slice(0, 10);
+
+      for (const v of vocabExamples) {
+        examples.push({
+          word: v.k || v.r,
+          reading: v.r,
+          meaning: v.m.slice(0, 2).join('; '), // First 2 meanings
+        });
+      }
+    } catch { /* ignore */ }
+
+    return { ...kanji, radicals, examples };
   } catch (error) {
     console.error('Get kanji detail error:', error);
     return null;
