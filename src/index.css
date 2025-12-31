@@ -633,3 +633,223 @@ body {
   border: 8px solid transparent;
   border-top-color: white;
 }
+
+/* ==========================================
+   Page Theme: Kanji (Fude 筆 - Brush)
+   ==========================================
+   Calligraphy-inspired theme with ink tones
+   and warm amber accents
+   ========================================== */
+
+:root {
+  /* Kanji/Fude Theme Colors */
+  --kanji-primary: #1F2937;     /* Deep gray-blue (ink) */
+  --kanji-secondary: #374151;
+  --kanji-accent: #D97706;       /* Gold/amber */
+  --kanji-accent-light: #F59E0B;
+  --kanji-bg: linear-gradient(135deg, #F9FAFB 0%, #F3F4F6 50%, #E5E7EB 100%);
+  --kanji-card: rgba(255, 255, 255, 0.85);
+  --kanji-ink: #111827;
+  --kanji-brush: #78350F;        /* Warm brown brush handle */
+}
+
+.page-kanji {
+  background: var(--kanji-bg);
+  min-height: 100vh;
+}
+
+/* Brush stroke animation for stroke order */
+@keyframes brushStroke {
+  0% {
+    stroke-dashoffset: 100%;
+    opacity: 0;
+  }
+  10% {
+    opacity: 1;
+  }
+  100% {
+    stroke-dashoffset: 0;
+    opacity: 1;
+  }
+}
+
+@keyframes brushFade {
+  0% {
+    opacity: 0;
+    transform: scale(0.95);
+  }
+  100% {
+    opacity: 1;
+    transform: scale(1);
+  }
+}
+
+@keyframes inkDrop {
+  0% {
+    transform: scale(0);
+    opacity: 1;
+  }
+  50% {
+    transform: scale(1.2);
+    opacity: 0.8;
+  }
+  100% {
+    transform: scale(1);
+    opacity: 1;
+  }
+}
+
+@keyframes kanjiReveal {
+  0% {
+    clip-path: inset(100% 0 0 0);
+    opacity: 0;
+  }
+  100% {
+    clip-path: inset(0 0 0 0);
+    opacity: 1;
+  }
+}
+
+@keyframes radicalPulse {
+  0%, 100% {
+    box-shadow: 0 0 0 0 rgba(217, 119, 6, 0);
+  }
+  50% {
+    box-shadow: 0 0 0 8px rgba(217, 119, 6, 0.15);
+  }
+}
+
+.animate-brush-stroke {
+  animation: brushStroke 1.5s ease-out forwards;
+  stroke-dasharray: 100%;
+}
+
+.animate-brush-fade {
+  animation: brushFade 0.4s ease-out forwards;
+}
+
+.animate-ink-drop {
+  animation: inkDrop 0.3s ease-out forwards;
+}
+
+.animate-kanji-reveal {
+  animation: kanjiReveal 0.6s ease-out forwards;
+}
+
+.animate-radical-pulse {
+  animation: radicalPulse 2s ease-in-out infinite;
+}
+
+/* Kanji card hover effect */
+.kanji-card-hover {
+  @apply transition-all duration-200;
+}
+
+.kanji-card-hover:hover {
+  transform: translateY(-2px) scale(1.02);
+  box-shadow: 0 10px 40px -10px rgba(217, 119, 6, 0.2);
+}
+
+/* Radical position indicator styles */
+.radical-position-indicator {
+  @apply inline-flex items-center justify-center w-6 h-6 rounded text-xs font-medium;
+}
+
+.radical-position-hen { @apply bg-blue-100 text-blue-700; }      /* Left */
+.radical-position-tsukuri { @apply bg-green-100 text-green-700; } /* Right */
+.radical-position-kanmuri { @apply bg-purple-100 text-purple-700; } /* Top */
+.radical-position-ashi { @apply bg-orange-100 text-orange-700; }  /* Bottom */
+.radical-position-tare { @apply bg-pink-100 text-pink-700; }     /* Top-left */
+.radical-position-nyou { @apply bg-teal-100 text-teal-700; }     /* Bottom-left */
+.radical-position-kamae { @apply bg-amber-100 text-amber-700; }  /* Enclosure */
+
+/* Stroke count badge */
+.stroke-badge {
+  @apply inline-flex items-center gap-1 px-2 py-0.5 rounded-full text-xs font-medium;
+  @apply bg-gray-100 text-gray-600;
+}
+
+/* JLPT level colors */
+.jlpt-n5 { @apply bg-green-100 text-green-700; }
+.jlpt-n4 { @apply bg-blue-100 text-blue-700; }
+.jlpt-n3 { @apply bg-yellow-100 text-yellow-700; }
+.jlpt-n2 { @apply bg-orange-100 text-orange-700; }
+.jlpt-n1 { @apply bg-red-100 text-red-700; }
+
+/* Kanji detail modal */
+.kanji-detail-section {
+  @apply mb-6 last:mb-0;
+}
+
+.kanji-detail-label {
+  @apply text-xs uppercase tracking-wide text-gray-500 mb-2;
+}
+
+/* Reading styles */
+.reading-onyomi {
+  @apply text-amber-600 font-medium;
+}
+
+.reading-kunyomi {
+  @apply text-emerald-600 font-medium;
+}
+
+/* Stroke animation player controls */
+.stroke-player-btn {
+  @apply p-2 rounded-lg transition-colors;
+  @apply bg-white/80 hover:bg-white;
+  @apply shadow-sm hover:shadow;
+}
+
+/* Drill game styles */
+.drill-option {
+  @apply p-4 rounded-xl border-2 transition-all duration-200;
+  @apply cursor-pointer;
+}
+
+.drill-option:hover:not(:disabled) {
+  @apply scale-[1.02];
+}
+
+.drill-option-default {
+  @apply bg-white border-gray-200 hover:border-amber-300 hover:bg-amber-50/50;
+}
+
+.drill-option-selected {
+  @apply bg-amber-100 border-amber-400 ring-2 ring-amber-200;
+}
+
+.drill-option-correct {
+  @apply bg-emerald-100 border-emerald-400 ring-2 ring-emerald-200;
+}
+
+.drill-option-incorrect {
+  @apply bg-red-100 border-red-400 ring-2 ring-red-200;
+}
+
+/* Dark mode overrides for Kanji page */
+.dark .page-kanji {
+  background: linear-gradient(135deg, #0f0f1a 0%, #1a1a2e 50%, #16213e 100%);
+}
+
+.dark .kanji-card-hover:hover {
+  box-shadow: 0 10px 40px -10px rgba(251, 191, 36, 0.2);
+}
+
+/* Decorative ink splatter effect */
+.ink-splatter {
+  position: absolute;
+  width: 100px;
+  height: 100px;
+  background: radial-gradient(ellipse at center, rgba(31, 41, 55, 0.08) 0%, transparent 70%);
+  border-radius: 50%;
+  pointer-events: none;
+}
+
+/* Calligraphy grid background */
+.calligraphy-grid {
+  background-image:
+    linear-gradient(rgba(0, 0, 0, 0.03) 1px, transparent 1px),
+    linear-gradient(90deg, rgba(0, 0, 0, 0.03) 1px, transparent 1px);
+  background-size: 40px 40px;
+}
