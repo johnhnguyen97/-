@@ -55,9 +55,8 @@ export function ToolboxButton() {
     setIsMenuOpen(false);
   };
 
-  // Calendar is now a page - removed from toolbox
+  // Calendar is now a page, Kanji Dictionary has its own button
   const menuItems = [
-    { icon: '漢', label: 'Kanji Dictionary', sublabel: '漢字辞典', onClick: handleDictionaryClick, gradient: 'from-amber-500 to-orange-600', shadow: 'shadow-amber-200' },
     { icon: '📖', label: 'Grammar Guide', sublabel: '文法', onClick: handleGrammarGuideClick, gradient: 'from-rose-500 to-pink-600', shadow: 'shadow-rose-200' },
     { icon: 'あ', label: 'Kana Chart', sublabel: '仮名', onClick: handleKanaChartClick, gradient: 'from-violet-500 to-purple-600', shadow: 'shadow-violet-200' },
     { icon: '📝', label: 'Notes', sublabel: 'ノート', onClick: handleNotesClick, gradient: 'from-emerald-500 to-teal-600', shadow: 'shadow-emerald-200' },
@@ -67,6 +66,18 @@ export function ToolboxButton() {
 
   return (
     <>
+      {/* Kanji Dictionary Button - Above Toolbox */}
+      <div className="fixed bottom-36 md:bottom-[88px] right-4 sm:right-6 z-30">
+        <button
+          onClick={handleDictionaryClick}
+          className="w-14 h-14 rounded-2xl shadow-xl flex items-center justify-center transition-all duration-300 bg-gradient-to-br from-amber-500 via-orange-500 to-amber-600 hover:shadow-2xl hover:shadow-amber-200/50 hover:scale-110 active:scale-95"
+          aria-label="Kanji Dictionary"
+          title="Kanji Dictionary"
+        >
+          <span className="text-2xl text-white font-bold">漢</span>
+        </button>
+      </div>
+
       {/* Floating Action Button */}
       <div className="fixed bottom-20 md:bottom-6 right-4 sm:right-6 z-30">
         {/* Menu Options */}

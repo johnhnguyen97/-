@@ -12,7 +12,7 @@ const navItems: NavItem[] = [
   { path: '/', label: 'Home', icon: '🏠', activeIcon: '🏠' },
   { path: '/word-game', label: 'Word', icon: '📝', activeIcon: '📝' },
   { path: '/pattern-drill', label: 'Pattern', icon: '🔄', activeIcon: '🔄' },
-  { path: '/radical-practice', label: 'Radical', icon: '部', activeIcon: '部' },
+  { path: '/kanji', label: 'Kanji', icon: '漢', activeIcon: '漢' },
   { path: '/calendar', label: 'Calendar', icon: '📅', activeIcon: '📅' },
 ];
 
