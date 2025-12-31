@@ -28,3 +28,6 @@ supabase.exe
 supabase_windows_amd64.tar.gz
 supabase/.temp/
 .env*.local
+
+# Raw dictionary data (processed files in public/data/)
+data/
