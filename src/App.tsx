@@ -1,4 +1,4 @@
-import { useState, useCallback, useEffect } from 'react';
+import { useState, useCallback, useEffect, useRef } from 'react';
 import { AuthProvider, useAuth } from './contexts/AuthContext';
 import { Auth } from './components/Auth';
 import { Settings } from './components/Settings';
@@ -10,6 +10,7 @@ import { Logo } from './components/Logo';
 import { parseEnglishSentence, describeSentenceStructure } from './services/englishParser';
 import { translateSentence } from './services/japaneseApi';
 import { handleKeepCallback } from './services/keepApi';
+import { recordActivity } from './services/userStatsApi';
 import type { WordSlot, SentenceStructure, GrammarNote } from './types';
 
 // Fun Japanese loading phrases
@@ -305,6 +306,32 @@ function AppContent({ embedded = false, isDark = false }: AppContentProps) {
 
   const completedCount = sentences.filter(s => s.isComplete).length;
   const totalCount = sentences.length;
+
+  // Track if we've already recorded this session completion
+  const hasRecordedCompletion = useRef(false);
+
+  // Record activity when all sentences are completed
+  useEffect(() => {
+    if (
+      totalCount > 0 &&
+      completedCount === totalCount &&
+      !sentences.some(s => s.showAnswers) &&
+      session?.access_token &&
+      !hasRecordedCompletion.current
+    ) {
+      hasRecordedCompletion.current = true;
+      recordActivity(session.access_token, 'word_game').catch(err => {
+        console.error('Failed to record word game activity:', err);
+      });
+    }
+  }, [completedCount, totalCount, sentences, session?.access_token]);
+
+  // Reset the completion tracking when starting a new game
+  useEffect(() => {
+    if (!gameActive) {
+      hasRecordedCompletion.current = false;
+    }
+  }, [gameActive]);
 
   const allGrammarData = sentences.map((s, i) => ({
     sentenceIndex: i,

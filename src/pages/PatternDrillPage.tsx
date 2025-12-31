@@ -2,6 +2,7 @@ import { useState, useEffect, useCallback } from 'react';
 import { useAuth } from '../contexts/AuthContext';
 import { useTheme } from '../contexts/ThemeContext';
 import { getDrillSession, updateUserAccuracy, type DrillQuestion } from '../services/drillApi';
+import { recordDrill } from '../services/userStatsApi';
 import {
   type DrillSettings,
   type DrillSessionStats,
@@ -146,14 +147,22 @@ export function PatternDrillPage() {
     const nextIndex = currentIndex + 1;
 
     if (nextIndex >= questions.length) {
-      // Session complete - save accuracy
+      // Session complete - save accuracy and record drill stats
       setStatus('complete');
 
       if (session?.access_token && sessionResults.length > 0) {
         try {
+          // Calculate correct/incorrect from session results
+          const correct = sessionResults.filter(r => r.correct).length;
+          const incorrect = sessionResults.filter(r => !r.correct).length;
+
+          // Record drill completion for user stats (this updates streak, drills count, accuracy)
+          await recordDrill(session.access_token, correct, incorrect);
+
+          // Also update the detailed accuracy tracking
           await updateUserAccuracy(session.access_token, sessionResults);
         } catch (err) {
-          console.error('Failed to save accuracy:', err);
+          console.error('Failed to save stats:', err);
         }
       }
     } else {

@@ -2,6 +2,8 @@ import { useState, useEffect, useCallback } from 'react';
 import type { Radical, RadicalDrillType, RadicalDrillQuestion, RadicalDrillSettings, MCOption } from '../../../types/kanji';
 import { DEFAULT_RADICAL_DRILL_SETTINGS } from '../../../types/kanji';
 import { getAllRadicals } from '../../../services/radicalsApi';
+import { recordDrill } from '../../../services/userStatsApi';
+import { useAuth } from '../../../contexts/AuthContext';
 import { RadicalQuestion } from './RadicalQuestion';
 import { RadicalSettings } from './RadicalSettings';
 import { RadicalProgress } from './RadicalProgress';
@@ -152,6 +154,7 @@ function generateQuestion(
 }
 
 export function RadicalDrill({ isDark, onQuestionChange }: RadicalDrillProps) {
+  const { session } = useAuth();
   const [radicals, setRadicals] = useState<Radical[]>([]);
   const [isLoading, setIsLoading] = useState(true);
   const [drillState, setDrillState] = useState<DrillState>('settings');
@@ -214,14 +217,25 @@ export function RadicalDrill({ isDark, onQuestionChange }: RadicalDrillProps) {
     setShowFeedback(true);
   };
 
-  const handleNext = () => {
+  const handleNext = useCallback(async () => {
     setShowFeedback(false);
     if (currentIndex < questions.length - 1) {
       setCurrentIndex((prev) => prev + 1);
     } else {
+      // Session complete - record drill stats
       setDrillState('results');
+
+      if (session?.access_token) {
+        try {
+          const correct = Array.from(answers.values()).filter(a => a.isCorrect).length;
+          const incorrect = Array.from(answers.values()).filter(a => !a.isCorrect).length;
+          await recordDrill(session.access_token, correct, incorrect);
+        } catch (err) {
+          console.error('Failed to record drill stats:', err);
+        }
+      }
     }
-  };
+  }, [currentIndex, questions.length, session?.access_token, answers]);
 
   const handleRestart = () => {
     setDrillState('settings');
