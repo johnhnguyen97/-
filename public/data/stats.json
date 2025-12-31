@@ -1,0 +1,27 @@
+{
+  "version": "3.6.1",
+  "generatedAt": "2025-12-31T05:09:37.640Z",
+  "kanji": {
+    "total": 10383,
+    "byJLPT": {
+      "N5": 103,
+      "N4": 284,
+      "N3": 920,
+      "N2": 1946,
+      "N1": 1207
+    },
+    "byGrade": {
+      "elementary": 1026,
+      "secondary": 1110,
+      "other": 8247
+    },
+    "withFrequency": 2501,
+    "avgStrokes": "12.8"
+  },
+  "vocabulary": {
+    "total": 214644,
+    "common": 22572,
+    "withKanji": 174073,
+    "kanaOnly": 40571
+  }
+}
