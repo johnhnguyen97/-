@@ -66,20 +66,8 @@ export function ToolboxButton() {
 
   return (
     <>
-      {/* Kanji Dictionary Button - Above Toolbox */}
-      <div className="fixed bottom-36 md:bottom-[88px] right-4 sm:right-6 z-30">
-        <button
-          onClick={handleDictionaryClick}
-          className="w-14 h-14 rounded-2xl shadow-xl flex items-center justify-center transition-all duration-300 bg-gradient-to-br from-amber-500 via-orange-500 to-amber-600 hover:shadow-2xl hover:shadow-amber-200/50 hover:scale-110 active:scale-95"
-          aria-label="Kanji Dictionary"
-          title="Kanji Dictionary"
-        >
-          <span className="text-2xl text-white font-bold">漢</span>
-        </button>
-      </div>
-
-      {/* Floating Action Button */}
-      <div className="fixed bottom-20 md:bottom-6 right-4 sm:right-6 z-30">
+      {/* Fixed button stack - right side */}
+      <div className="fixed bottom-20 md:bottom-6 right-4 sm:right-6 z-30 flex flex-col-reverse items-center gap-3">
         {/* Menu Options */}
         {isMenuOpen && (
           <>
@@ -186,6 +174,16 @@ export function ToolboxButton() {
             <div className="absolute right-0 top-1/2 -translate-y-1/2 translate-x-1 w-2 h-2 bg-gray-800 rotate-45"></div>
           </div>
         )}
+
+        {/* Kanji Dictionary Button - Above Toolbox */}
+        <button
+          onClick={handleDictionaryClick}
+          className="w-14 h-14 rounded-2xl shadow-xl flex items-center justify-center transition-all duration-300 bg-gradient-to-br from-indigo-500 via-purple-500 to-indigo-600 hover:shadow-2xl hover:shadow-indigo-200/50 hover:scale-110 active:scale-95"
+          aria-label="Kanji Dictionary"
+          title="Kanji Dictionary"
+        >
+          <span className="text-2xl text-white font-bold">漢</span>
+        </button>
       </div>
 
       {/* Kana Chart Modal */}
