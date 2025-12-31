@@ -9,6 +9,7 @@ import { RadicalResults } from './RadicalResults';
 
 interface RadicalDrillProps {
   isDark: boolean;
+  onQuestionChange?: (question: RadicalDrillQuestion | null, isAnswered: boolean) => void;
 }
 
 type DrillState = 'settings' | 'playing' | 'results';
@@ -150,7 +151,7 @@ function generateQuestion(
   }
 }
 
-export function RadicalDrill({ isDark }: RadicalDrillProps) {
+export function RadicalDrill({ isDark, onQuestionChange }: RadicalDrillProps) {
   const [radicals, setRadicals] = useState<Radical[]>([]);
   const [isLoading, setIsLoading] = useState(true);
   const [drillState, setDrillState] = useState<DrillState>('settings');
@@ -176,6 +177,17 @@ export function RadicalDrill({ isDark }: RadicalDrillProps) {
     };
     loadRadicals();
   }, []);
+
+  // Notify parent of question changes
+  useEffect(() => {
+    if (onQuestionChange) {
+      if (drillState === 'playing' && questions[currentIndex]) {
+        onQuestionChange(questions[currentIndex], showFeedback);
+      } else {
+        onQuestionChange(null, false);
+      }
+    }
+  }, [drillState, currentIndex, questions, showFeedback, onQuestionChange]);
 
   const startDrill = useCallback(() => {
     const generatedQuestions = generateQuestions(radicals, settings);
