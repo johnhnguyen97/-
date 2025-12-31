@@ -72,19 +72,92 @@ function getTimeForZone(timeZone: string): string {
   });
 }
 
+// Comprehensive timezone list organized by region
+const ALL_TIMEZONES: Record<string, { emoji: string; label: string; region: string }> = {
+  // Asia
+  'Asia/Tokyo': { emoji: '🇯🇵', label: 'Tokyo', region: 'Asia' },
+  'Asia/Seoul': { emoji: '🇰🇷', label: 'Seoul', region: 'Asia' },
+  'Asia/Shanghai': { emoji: '🇨🇳', label: 'Shanghai', region: 'Asia' },
+  'Asia/Hong_Kong': { emoji: '🇭🇰', label: 'Hong Kong', region: 'Asia' },
+  'Asia/Taipei': { emoji: '🇹🇼', label: 'Taipei', region: 'Asia' },
+  'Asia/Singapore': { emoji: '🇸🇬', label: 'Singapore', region: 'Asia' },
+  'Asia/Manila': { emoji: '🇵🇭', label: 'Manila', region: 'Asia' },
+  'Asia/Bangkok': { emoji: '🇹🇭', label: 'Bangkok', region: 'Asia' },
+  'Asia/Ho_Chi_Minh': { emoji: '🇻🇳', label: 'Ho Chi Minh', region: 'Asia' },
+  'Asia/Jakarta': { emoji: '🇮🇩', label: 'Jakarta', region: 'Asia' },
+  'Asia/Kuala_Lumpur': { emoji: '🇲🇾', label: 'Kuala Lumpur', region: 'Asia' },
+  'Asia/Kolkata': { emoji: '🇮🇳', label: 'India (IST)', region: 'Asia' },
+  'Asia/Dubai': { emoji: '🇦🇪', label: 'Dubai', region: 'Asia' },
+  'Asia/Riyadh': { emoji: '🇸🇦', label: 'Riyadh', region: 'Asia' },
+  'Asia/Jerusalem': { emoji: '🇮🇱', label: 'Jerusalem', region: 'Asia' },
+  'Asia/Karachi': { emoji: '🇵🇰', label: 'Karachi', region: 'Asia' },
+  'Asia/Dhaka': { emoji: '🇧🇩', label: 'Dhaka', region: 'Asia' },
+  'Asia/Kathmandu': { emoji: '🇳🇵', label: 'Kathmandu', region: 'Asia' },
+
+  // Europe
+  'Europe/London': { emoji: '🇬🇧', label: 'London', region: 'Europe' },
+  'Europe/Paris': { emoji: '🇫🇷', label: 'Paris', region: 'Europe' },
+  'Europe/Berlin': { emoji: '🇩🇪', label: 'Berlin', region: 'Europe' },
+  'Europe/Rome': { emoji: '🇮🇹', label: 'Rome', region: 'Europe' },
+  'Europe/Madrid': { emoji: '🇪🇸', label: 'Madrid', region: 'Europe' },
+  'Europe/Amsterdam': { emoji: '🇳🇱', label: 'Amsterdam', region: 'Europe' },
+  'Europe/Brussels': { emoji: '🇧🇪', label: 'Brussels', region: 'Europe' },
+  'Europe/Vienna': { emoji: '🇦🇹', label: 'Vienna', region: 'Europe' },
+  'Europe/Zurich': { emoji: '🇨🇭', label: 'Zurich', region: 'Europe' },
+  'Europe/Stockholm': { emoji: '🇸🇪', label: 'Stockholm', region: 'Europe' },
+  'Europe/Oslo': { emoji: '🇳🇴', label: 'Oslo', region: 'Europe' },
+  'Europe/Copenhagen': { emoji: '🇩🇰', label: 'Copenhagen', region: 'Europe' },
+  'Europe/Helsinki': { emoji: '🇫🇮', label: 'Helsinki', region: 'Europe' },
+  'Europe/Warsaw': { emoji: '🇵🇱', label: 'Warsaw', region: 'Europe' },
+  'Europe/Prague': { emoji: '🇨🇿', label: 'Prague', region: 'Europe' },
+  'Europe/Budapest': { emoji: '🇭🇺', label: 'Budapest', region: 'Europe' },
+  'Europe/Athens': { emoji: '🇬🇷', label: 'Athens', region: 'Europe' },
+  'Europe/Istanbul': { emoji: '🇹🇷', label: 'Istanbul', region: 'Europe' },
+  'Europe/Moscow': { emoji: '🇷🇺', label: 'Moscow', region: 'Europe' },
+  'Europe/Lisbon': { emoji: '🇵🇹', label: 'Lisbon', region: 'Europe' },
+  'Europe/Dublin': { emoji: '🇮🇪', label: 'Dublin', region: 'Europe' },
+
+  // Americas
+  'America/New_York': { emoji: '🇺🇸', label: 'New York (ET)', region: 'Americas' },
+  'America/Chicago': { emoji: '🇺🇸', label: 'Chicago (CT)', region: 'Americas' },
+  'America/Denver': { emoji: '🇺🇸', label: 'Denver (MT)', region: 'Americas' },
+  'America/Los_Angeles': { emoji: '🇺🇸', label: 'Los Angeles (PT)', region: 'Americas' },
+  'America/Anchorage': { emoji: '🇺🇸', label: 'Alaska', region: 'Americas' },
+  'Pacific/Honolulu': { emoji: '🇺🇸', label: 'Hawaii', region: 'Americas' },
+  'America/Toronto': { emoji: '🇨🇦', label: 'Toronto', region: 'Americas' },
+  'America/Vancouver': { emoji: '🇨🇦', label: 'Vancouver', region: 'Americas' },
+  'America/Mexico_City': { emoji: '🇲🇽', label: 'Mexico City', region: 'Americas' },
+  'America/Sao_Paulo': { emoji: '🇧🇷', label: 'São Paulo', region: 'Americas' },
+  'America/Buenos_Aires': { emoji: '🇦🇷', label: 'Buenos Aires', region: 'Americas' },
+  'America/Lima': { emoji: '🇵🇪', label: 'Lima', region: 'Americas' },
+  'America/Bogota': { emoji: '🇨🇴', label: 'Bogotá', region: 'Americas' },
+  'America/Santiago': { emoji: '🇨🇱', label: 'Santiago', region: 'Americas' },
+
+  // Oceania
+  'Australia/Sydney': { emoji: '🇦🇺', label: 'Sydney', region: 'Oceania' },
+  'Australia/Melbourne': { emoji: '🇦🇺', label: 'Melbourne', region: 'Oceania' },
+  'Australia/Brisbane': { emoji: '🇦🇺', label: 'Brisbane', region: 'Oceania' },
+  'Australia/Perth': { emoji: '🇦🇺', label: 'Perth', region: 'Oceania' },
+  'Australia/Adelaide': { emoji: '🇦🇺', label: 'Adelaide', region: 'Oceania' },
+  'Pacific/Auckland': { emoji: '🇳🇿', label: 'Auckland', region: 'Oceania' },
+  'Pacific/Fiji': { emoji: '🇫🇯', label: 'Fiji', region: 'Oceania' },
+
+  // Africa
+  'Africa/Cairo': { emoji: '🇪🇬', label: 'Cairo', region: 'Africa' },
+  'Africa/Johannesburg': { emoji: '🇿🇦', label: 'Johannesburg', region: 'Africa' },
+  'Africa/Lagos': { emoji: '🇳🇬', label: 'Lagos', region: 'Africa' },
+  'Africa/Nairobi': { emoji: '🇰🇪', label: 'Nairobi', region: 'Africa' },
+  'Africa/Casablanca': { emoji: '🇲🇦', label: 'Casablanca', region: 'Africa' },
+
+  // UTC
+  'UTC': { emoji: '🌐', label: 'UTC', region: 'UTC' },
+};
+
 // Get timezone label
 function getTimezoneLabel(timeZone: string): { emoji: string; label: string } {
-  const labels: Record<string, { emoji: string; label: string }> = {
-    'Asia/Tokyo': { emoji: '🇯🇵', label: 'Tokyo' },
-    'America/New_York': { emoji: '🇺🇸', label: 'New York' },
-    'America/Los_Angeles': { emoji: '🇺🇸', label: 'Los Angeles' },
-    'Europe/London': { emoji: '🇬🇧', label: 'London' },
-    'Europe/Paris': { emoji: '🇫🇷', label: 'Paris' },
-    'Australia/Sydney': { emoji: '🇦🇺', label: 'Sydney' },
-    'Asia/Seoul': { emoji: '🇰🇷', label: 'Seoul' },
-    'Asia/Shanghai': { emoji: '🇨🇳', label: 'Shanghai' },
-  };
-  return labels[timeZone] || { emoji: '🌍', label: timeZone.split('/')[1] || timeZone };
+  const tz = ALL_TIMEZONES[timeZone];
+  if (tz) return { emoji: tz.emoji, label: tz.label };
+  return { emoji: '🌍', label: timeZone.split('/')[1]?.replace(/_/g, ' ') || timeZone };
 }
 
 export function HomePage() {
@@ -97,15 +170,24 @@ export function HomePage() {
   const { speak, speaking } = useSpeechSynthesis();
 
   // Load timezone preferences
-  const [selectedTimezones] = useState<string[]>(() => {
+  const [selectedTimezones, setSelectedTimezones] = useState<string[]>(() => {
     const saved = localStorage.getItem('gojun-timezones');
     return saved ? JSON.parse(saved) : ['Asia/Tokyo'];
   });
+
+  // Timezone settings modal
+  const [showTimezoneSettings, setShowTimezoneSettings] = useState(false);
 
   // Modal states for Quick Links
   const [showGrammarGuide, setShowGrammarGuide] = useState(false);
   const [showKanaChart, setShowKanaChart] = useState(false);
   const [showNotes, setShowNotes] = useState(false);
+
+  // Save timezones to localStorage when changed
+  const handleTimezoneChange = useCallback((newTimezones: string[]) => {
+    setSelectedTimezones(newTimezones);
+    localStorage.setItem('gojun-timezones', JSON.stringify(newTimezones));
+  }, []);
 
   // Dynamic Word of the Day from Calendar API
   const [wordOfTheDay, setWordOfTheDay] = useState<{
@@ -331,10 +413,15 @@ export function HomePage() {
             {selectedTimezones.map((tz) => {
               const { emoji, label } = getTimezoneLabel(tz);
               return (
-                <div key={tz} className={`${theme.card} border rounded-xl px-4 py-2`}>
+                <button
+                  key={tz}
+                  onClick={() => setShowTimezoneSettings(true)}
+                  className={`${theme.card} border rounded-xl px-4 py-2 hover:ring-2 hover:ring-pink-300 transition-all cursor-pointer text-left`}
+                  title="Click to change timezone"
+                >
                   <p className={`text-xs ${theme.textSubtle}`}>{label} {emoji}</p>
                   <p className="font-mono font-semibold text-lg">{getTimeForZone(tz)}</p>
-                </div>
+                </button>
               );
             })}
 
@@ -604,6 +691,218 @@ export function HomePage() {
       {showGrammarGuide && <GrammarGuide onClose={() => setShowGrammarGuide(false)} />}
       {showKanaChart && <KanaChart isOpen={showKanaChart} onClose={() => setShowKanaChart(false)} />}
       {showNotes && <NotesPanel isOpen={showNotes} onClose={() => setShowNotes(false)} />}
+
+      {/* Timezone Settings Modal */}
+      {showTimezoneSettings && (
+        <TimezoneSettingsModal
+          isDark={isDark}
+          selectedTimezones={selectedTimezones}
+          onSave={handleTimezoneChange}
+          onClose={() => setShowTimezoneSettings(false)}
+        />
+      )}
+    </div>
+  );
+}
+
+// Timezone Settings Modal Component
+function TimezoneSettingsModal({
+  isDark,
+  selectedTimezones,
+  onSave,
+  onClose,
+}: {
+  isDark: boolean;
+  selectedTimezones: string[];
+  onSave: (timezones: string[]) => void;
+  onClose: () => void;
+}) {
+  const [selected, setSelected] = useState<string[]>(selectedTimezones);
+  const [searchQuery, setSearchQuery] = useState('');
+  const [activeRegion, setActiveRegion] = useState<string>('All');
+
+  const theme = {
+    bg: isDark ? 'bg-gray-900' : 'bg-white',
+    card: isDark ? 'bg-gray-800' : 'bg-gray-50',
+    cardHover: isDark ? 'hover:bg-gray-700' : 'hover:bg-gray-100',
+    text: isDark ? 'text-white' : 'text-gray-900',
+    textMuted: isDark ? 'text-gray-400' : 'text-gray-600',
+    border: isDark ? 'border-gray-700' : 'border-gray-200',
+    input: isDark ? 'bg-gray-800 border-gray-600 text-white' : 'bg-white border-gray-300 text-gray-900',
+  };
+
+  const regions = ['All', 'Asia', 'Europe', 'Americas', 'Oceania', 'Africa', 'UTC'];
+
+  const filteredTimezones = Object.entries(ALL_TIMEZONES).filter(([tz, data]) => {
+    const matchesSearch = searchQuery === '' ||
+      data.label.toLowerCase().includes(searchQuery.toLowerCase()) ||
+      tz.toLowerCase().includes(searchQuery.toLowerCase());
+    const matchesRegion = activeRegion === 'All' || data.region === activeRegion;
+    return matchesSearch && matchesRegion;
+  });
+
+  const toggleTimezone = (tz: string) => {
+    if (selected.includes(tz)) {
+      if (selected.length > 1) {
+        setSelected(selected.filter(t => t !== tz));
+      }
+    } else {
+      if (selected.length < 3) {
+        setSelected([...selected, tz]);
+      }
+    }
+  };
+
+  const handleSave = () => {
+    onSave(selected);
+    onClose();
+  };
+
+  return (
+    <div className="fixed inset-0 z-50 flex items-center justify-center p-4">
+      {/* Backdrop */}
+      <div
+        className="absolute inset-0 bg-black/50 backdrop-blur-sm"
+        onClick={onClose}
+      />
+
+      {/* Modal */}
+      <div className={`relative ${theme.bg} rounded-2xl shadow-2xl w-full max-w-2xl max-h-[85vh] flex flex-col animate-scaleIn`}>
+        {/* Header */}
+        <div className={`flex items-center justify-between p-5 border-b ${theme.border}`}>
+          <div>
+            <h2 className={`text-xl font-bold ${theme.text}`}>Timezone Settings</h2>
+            <p className={`text-sm ${theme.textMuted}`}>Select up to 3 timezones to display</p>
+          </div>
+          <button
+            onClick={onClose}
+            className={`p-2 rounded-lg ${theme.cardHover} transition-colors`}
+          >
+            <svg className="w-5 h-5" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+              <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M6 18L18 6M6 6l12 12" />
+            </svg>
+          </button>
+        </div>
+
+        {/* Selected Timezones */}
+        <div className={`p-4 border-b ${theme.border}`}>
+          <p className={`text-sm font-medium ${theme.textMuted} mb-2`}>Selected ({selected.length}/3):</p>
+          <div className="flex flex-wrap gap-2">
+            {selected.map(tz => {
+              const { emoji, label } = getTimezoneLabel(tz);
+              return (
+                <div
+                  key={tz}
+                  className={`flex items-center gap-2 px-3 py-1.5 rounded-lg ${isDark ? 'bg-pink-500/20 text-pink-300' : 'bg-pink-100 text-pink-700'}`}
+                >
+                  <span>{emoji}</span>
+                  <span className="text-sm font-medium">{label}</span>
+                  <span className={`text-xs ${theme.textMuted}`}>{getTimeForZone(tz)}</span>
+                  {selected.length > 1 && (
+                    <button
+                      onClick={() => toggleTimezone(tz)}
+                      className="ml-1 hover:text-red-500"
+                    >
+                      <svg className="w-4 h-4" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                        <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M6 18L18 6M6 6l12 12" />
+                      </svg>
+                    </button>
+                  )}
+                </div>
+              );
+            })}
+          </div>
+        </div>
+
+        {/* Search & Filter */}
+        <div className={`p-4 border-b ${theme.border} space-y-3`}>
+          <input
+            type="text"
+            placeholder="Search timezones..."
+            value={searchQuery}
+            onChange={(e) => setSearchQuery(e.target.value)}
+            className={`w-full px-4 py-2 rounded-lg border ${theme.input} focus:ring-2 focus:ring-pink-500 focus:border-transparent`}
+          />
+          <div className="flex flex-wrap gap-2">
+            {regions.map(region => (
+              <button
+                key={region}
+                onClick={() => setActiveRegion(region)}
+                className={`px-3 py-1 rounded-full text-sm font-medium transition-colors ${
+                  activeRegion === region
+                    ? 'bg-pink-500 text-white'
+                    : `${theme.card} ${theme.cardHover}`
+                }`}
+              >
+                {region}
+              </button>
+            ))}
+          </div>
+        </div>
+
+        {/* Timezone List */}
+        <div className="flex-1 overflow-y-auto p-4">
+          <div className="grid grid-cols-1 sm:grid-cols-2 gap-2">
+            {filteredTimezones.map(([tz, data]) => {
+              const isSelected = selected.includes(tz);
+              const canSelect = selected.length < 3 || isSelected;
+              return (
+                <button
+                  key={tz}
+                  onClick={() => canSelect && toggleTimezone(tz)}
+                  disabled={!canSelect}
+                  className={`flex items-center justify-between p-3 rounded-xl border transition-all ${
+                    isSelected
+                      ? isDark
+                        ? 'bg-pink-500/20 border-pink-500/50 text-pink-300'
+                        : 'bg-pink-50 border-pink-300 text-pink-700'
+                      : canSelect
+                        ? `${theme.card} ${theme.cardHover} ${theme.border}`
+                        : `${theme.card} opacity-50 cursor-not-allowed ${theme.border}`
+                  }`}
+                >
+                  <div className="flex items-center gap-3">
+                    <span className="text-xl">{data.emoji}</span>
+                    <div className="text-left">
+                      <p className={`font-medium ${isSelected ? '' : theme.text}`}>{data.label}</p>
+                      <p className={`text-xs ${theme.textMuted}`}>{tz}</p>
+                    </div>
+                  </div>
+                  <div className="flex items-center gap-2">
+                    <span className={`font-mono text-sm ${theme.textMuted}`}>{getTimeForZone(tz)}</span>
+                    {isSelected && (
+                      <svg className="w-5 h-5 text-pink-500" fill="currentColor" viewBox="0 0 20 20">
+                        <path fillRule="evenodd" d="M10 18a8 8 0 100-16 8 8 0 000 16zm3.707-9.293a1 1 0 00-1.414-1.414L9 10.586 7.707 9.293a1 1 0 00-1.414 1.414l2 2a1 1 0 001.414 0l4-4z" clipRule="evenodd" />
+                      </svg>
+                    )}
+                  </div>
+                </button>
+              );
+            })}
+          </div>
+          {filteredTimezones.length === 0 && (
+            <div className={`text-center py-8 ${theme.textMuted}`}>
+              No timezones found matching "{searchQuery}"
+            </div>
+          )}
+        </div>
+
+        {/* Footer */}
+        <div className={`flex items-center justify-end gap-3 p-4 border-t ${theme.border}`}>
+          <button
+            onClick={onClose}
+            className={`px-4 py-2 rounded-lg ${theme.card} ${theme.cardHover} ${theme.text} font-medium transition-colors`}
+          >
+            Cancel
+          </button>
+          <button
+            onClick={handleSave}
+            className="px-4 py-2 rounded-lg bg-gradient-to-r from-pink-500 to-rose-500 text-white font-medium hover:shadow-lg transition-all"
+          >
+            Save Changes
+          </button>
+        </div>
+      </div>
     </div>
   );
 }
