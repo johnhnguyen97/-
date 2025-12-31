@@ -1,47 +1,16 @@
 // Kanji API Service
-// Handles kanji lookups, caching, and user kanji management
+// Handles kanji lookups via radicals (JMdict integration coming soon)
 
 import type {
   Kanji,
   KanjiDetail,
-  KanjiSearchParams,
   KanjiSearchResult,
   UserKanjiProgress,
   UserSavedKanji,
-  KanjiAliveResponse,
   RadicalInfo,
 } from '../types/kanji';
 
 const API_BASE = '/api';
-
-// ============================================
-// Transform API response to our types
-// ============================================
-function transformKanjiAliveToKanji(data: KanjiAliveResponse): Kanji {
-  return {
-    id: '', // Will be set from cache or generated
-    character: data.kanji?.character || '',
-    strokeCount: data.kanji?.strokes?.count || 0,
-    jlptLevel: undefined, // Kanji Alive doesn't provide JLPT
-    meaningEn: data.kanji?.meaning?.english || '',
-    onyomi: data.kanji?.onyomi?.katakana,
-    kunyomi: data.kanji?.kunyomi?.hiragana,
-    onyomiRomaji: data.kanji?.onyomi?.romaji,
-    kunyomiRomaji: data.kanji?.kunyomi?.romaji,
-    grade: data.references?.grade,
-    radicalNumber: data.radical?.strokes,
-    radicalMeaning: data.radical?.meaning?.english,
-    videoUrl: data.kanji?.video?.mp4,
-    audioOnyomiUrl: data.kanji?.audio?.mp3,
-    strokeOrderImages: data.kanji?.strokes?.images,
-    examples: data.examples?.map(ex => ({
-      word: ex.japanese,
-      reading: '', // Not provided by API
-      meaning: ex.meaning?.english || '',
-      audioUrl: ex.audio?.mp3,
-    })),
-  };
-}
 
 // ============================================
 // Kanji Search & Lookup
@@ -49,157 +18,109 @@ function transformKanjiAliveToKanji(data: KanjiAliveResponse): Kanji {
 
 /**
  * Search for kanji by query (character, reading, or meaning)
+ * Currently searches through radicals - full JMdict search coming soon
  */
 export async function searchKanji(
   query: string,
-  token?: string
+  _token?: string
 ): Promise<KanjiSearchResult> {
-  const headers: Record<string, string> = {
-    'Content-Type': 'application/json',
-  };
-  if (token) {
-    headers['Authorization'] = `Bearer ${token}`;
-  }
+  // For now, return empty results with a helpful message
+  // JMdict integration will enable full kanji search
 
+  // Try to find if the query matches a radical character
   try {
-    const response = await fetch(`${API_BASE}/kanji-alive?search=${encodeURIComponent(query)}`, {
+    const response = await fetch(`${API_BASE}/kanji`, {
       method: 'GET',
-      headers,
+      headers: { 'Content-Type': 'application/json' },
     });
 
-    if (!response.ok) {
-      const errorData = await response.json().catch(() => ({}));
-      // Check if it's an API key issue
-      if (response.status === 500 && errorData.message?.includes('RAPIDAPI_KEY')) {
-        throw new Error('Kanji API not configured. Please use the Radicals tab to browse radicals.');
+    if (response.ok) {
+      const data = await response.json();
+      const radicals = data.radicals || [];
+
+      // Search radicals by character, name, or meaning
+      const lowerQuery = query.toLowerCase();
+      const matchingRadicals = radicals.filter((r: { character: string; nameEn: string; meaning?: string }) =>
+        r.character === query ||
+        r.nameEn.toLowerCase().includes(lowerQuery) ||
+        r.meaning?.toLowerCase().includes(lowerQuery)
+      );
+
+      if (matchingRadicals.length > 0) {
+        // Convert matching radicals to kanji-like format for display
+        return {
+          kanji: matchingRadicals.map((r: { character: string; nameEn: string; strokeCount: number; meaning?: string }) => ({
+            id: r.character,
+            character: r.character,
+            strokeCount: r.strokeCount,
+            meaningEn: r.meaning || r.nameEn,
+            onyomi: undefined,
+            kunyomi: undefined,
+          })),
+          total: matchingRadicals.length,
+          hasMore: false,
+        };
       }
-      throw new Error(errorData.error || `Search failed: ${response.statusText}`);
     }
-
-    const data = await response.json();
-
-    // Handle empty results
-    if (!data.results || data.results.length === 0) {
-      return { kanji: [], total: 0, hasMore: false };
-    }
-
-    return {
-      kanji: (data.results || []).map((item: KanjiAliveResponse) => ({
-        id: item.kanji?.character || '',
-        character: item.kanji?.character || '',
-        strokeCount: item.kanji?.strokes?.count || 0,
-        meaningEn: item.kanji?.meaning?.english || '',
-        onyomi: item.kanji?.onyomi?.katakana,
-        kunyomi: item.kanji?.kunyomi?.hiragana,
-      })),
-      total: data.total || 0,
-      hasMore: false,
-    };
-  } catch (error) {
-    if (error instanceof Error) {
-      throw error;
-    }
-    throw new Error('Failed to search kanji. Try the Radicals tab instead.');
-  }
-}
-
-/**
- * Advanced search with multiple filters
- */
-export async function advancedSearchKanji(
-  params: KanjiSearchParams,
-  token?: string
-): Promise<KanjiSearchResult> {
-  const headers: Record<string, string> = {
-    'Content-Type': 'application/json',
-  };
-  if (token) {
-    headers['Authorization'] = `Bearer ${token}`;
+  } catch {
+    // Ignore errors, return empty
   }
 
-  const queryParams = new URLSearchParams();
-  if (params.query) queryParams.append('meaning', params.query);
-  if (params.strokeCount) queryParams.append('stroke', params.strokeCount.toString());
-  if (params.radicalNumber) queryParams.append('radical', params.radicalNumber.toString());
-  if (params.grade) queryParams.append('grade', params.grade.toString());
-
-  const response = await fetch(`${API_BASE}/kanji-alive?${queryParams.toString()}`, {
-    method: 'GET',
-    headers,
-  });
-
-  if (!response.ok) {
-    throw new Error(`Advanced search failed: ${response.statusText}`);
-  }
-
-  const data = await response.json();
-
-  return {
-    kanji: (data.results || []).map((item: KanjiAliveResponse) => ({
-      id: item.kanji?.character || '',
-      character: item.kanji?.character || '',
-      strokeCount: item.kanji?.strokes?.count || 0,
-      meaningEn: item.kanji?.meaning?.english || '',
-      onyomi: item.kanji?.onyomi?.katakana,
-      kunyomi: item.kanji?.kunyomi?.hiragana,
-    })),
-    total: data.total || 0,
-    hasMore: false,
-  };
+  return { kanji: [], total: 0, hasMore: false };
 }
 
 /**
  * Get detailed information for a single kanji
+ * Currently returns radical info if character is a radical
  */
 export async function getKanjiDetail(
   character: string,
-  token?: string
+  _token?: string
 ): Promise<KanjiDetail | null> {
-  const headers: Record<string, string> = {
-    'Content-Type': 'application/json',
-  };
-  if (token) {
-    headers['Authorization'] = `Bearer ${token}`;
-  }
-
-  const response = await fetch(`${API_BASE}/kanji-alive?character=${encodeURIComponent(character)}`, {
-    method: 'GET',
-    headers,
-  });
-
-  if (!response.ok) {
-    if (response.status === 404) {
-      return null;
-    }
-    throw new Error(`Failed to get kanji: ${response.statusText}`);
-  }
-
-  const data: KanjiAliveResponse = await response.json();
-  const kanji = transformKanjiAliveToKanji(data);
-
-  // Build radicals array
-  const radicals: RadicalInfo[] = [];
-  if (data.radical) {
-    radicals.push({
-      radical: {
-        id: '',
-        radicalNumber: data.radical.strokes || 0,
-        character: data.radical.character || '',
-        nameEn: data.radical.name?.romaji || '',
-        nameJp: data.radical.name?.hiragana,
-        strokeCount: data.radical.strokes || 0,
-        meaning: data.radical.meaning?.english,
-        position: data.radical.position?.romaji as 'hen' | 'tsukuri' | 'kanmuri' | 'ashi' | 'tare' | 'nyou' | 'kamae' | 'other' | undefined,
-      },
-      isPrimary: true,
-      position: data.radical.position?.romaji,
+  try {
+    // Check if the character is a radical
+    const response = await fetch(`${API_BASE}/kanji`, {
+      method: 'GET',
+      headers: { 'Content-Type': 'application/json' },
     });
+
+    if (response.ok) {
+      const data = await response.json();
+      const radicals = data.radicals || [];
+      const radical = radicals.find((r: { character: string }) => r.character === character);
+
+      if (radical) {
+        const radicalInfo: RadicalInfo = {
+          radical: {
+            id: radical.id,
+            radicalNumber: radical.radicalNumber,
+            character: radical.character,
+            nameEn: radical.nameEn,
+            nameJp: radical.nameJp,
+            strokeCount: radical.strokeCount,
+            meaning: radical.meaning,
+            position: radical.position,
+          },
+          isPrimary: true,
+          position: radical.position,
+        };
+
+        return {
+          id: radical.id,
+          character: radical.character,
+          strokeCount: radical.strokeCount,
+          meaningEn: radical.meaning || radical.nameEn,
+          onyomi: undefined,
+          kunyomi: undefined,
+          radicals: [radicalInfo],
+        };
+      }
+    }
+  } catch {
+    // Ignore errors
   }
 
-  return {
-    ...kanji,
-    radicals,
-  };
+  return null;
 }
 
 // ============================================

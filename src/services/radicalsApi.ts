@@ -29,7 +29,7 @@ export async function getAllRadicals(): Promise<Radical[]> {
     return radicalsCache;
   }
 
-  const response = await fetch(`${API_BASE}/radicals`, {
+  const response = await fetch(`${API_BASE}/kanji`, {
     method: 'GET',
     headers: {
       'Content-Type': 'application/json',
@@ -51,7 +51,7 @@ export async function getAllRadicals(): Promise<Radical[]> {
  * Get radicals filtered by stroke count
  */
 export async function getRadicalsByStroke(strokeCount: number): Promise<Radical[]> {
-  const response = await fetch(`${API_BASE}/radicals?strokeCount=${strokeCount}`, {
+  const response = await fetch(`${API_BASE}/kanji?strokeCount=${strokeCount}`, {
     method: 'GET',
     headers: {
       'Content-Type': 'application/json',
@@ -70,7 +70,7 @@ export async function getRadicalsByStroke(strokeCount: number): Promise<Radical[
  * Get radicals filtered by position
  */
 export async function getRadicalsByPosition(position: RadicalPosition): Promise<Radical[]> {
-  const response = await fetch(`${API_BASE}/radicals?position=${position}`, {
+  const response = await fetch(`${API_BASE}/kanji?position=${position}`, {
     method: 'GET',
     headers: {
       'Content-Type': 'application/json',
@@ -89,7 +89,7 @@ export async function getRadicalsByPosition(position: RadicalPosition): Promise<
  * Get radicals grouped by stroke count
  */
 export async function getRadicalsGrouped(): Promise<Record<number, Radical[]>> {
-  const response = await fetch(`${API_BASE}/radicals?grouped=true`, {
+  const response = await fetch(`${API_BASE}/kanji?grouped=true`, {
     method: 'GET',
     headers: {
       'Content-Type': 'application/json',
@@ -107,7 +107,7 @@ export async function getRadicalsGrouped(): Promise<Record<number, Radical[]>> {
  * Get radicals grouped by position
  */
 export async function getRadicalsByPositionGrouped(): Promise<Record<string, Radical[]>> {
-  const response = await fetch(`${API_BASE}/radicals?byPosition=true`, {
+  const response = await fetch(`${API_BASE}/kanji?byPosition=true`, {
     method: 'GET',
     headers: {
       'Content-Type': 'application/json',
@@ -135,7 +135,7 @@ export async function getRadicalByNumber(radicalNumber: number): Promise<Radical
     if (cached) return cached;
   }
 
-  const response = await fetch(`${API_BASE}/radicals?number=${radicalNumber}`, {
+  const response = await fetch(`${API_BASE}/kanji?number=${radicalNumber}`, {
     method: 'GET',
     headers: {
       'Content-Type': 'application/json',
@@ -156,7 +156,7 @@ export async function getRadicalByNumber(radicalNumber: number): Promise<Radical
  * Get a radical with all kanji that contain it
  */
 export async function getRadicalWithKanji(radicalNumber: number): Promise<RadicalWithKanji | null> {
-  const response = await fetch(`${API_BASE}/radicals?number=${radicalNumber}&kanji=true`, {
+  const response = await fetch(`${API_BASE}/kanji?number=${radicalNumber}&kanji=true`, {
     method: 'GET',
     headers: {
       'Content-Type': 'application/json',
