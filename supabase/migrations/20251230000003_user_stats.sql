@@ -30,17 +30,20 @@ CREATE TABLE IF NOT EXISTS user_stats (
 ALTER TABLE user_stats ENABLE ROW LEVEL SECURITY;
 
 -- Policy: users can only see their own stats
+DROP POLICY IF EXISTS "Users can view own stats" ON user_stats;
 CREATE POLICY "Users can view own stats" ON user_stats
   FOR SELECT USING (auth.uid() = user_id);
 
+DROP POLICY IF EXISTS "Users can insert own stats" ON user_stats;
 CREATE POLICY "Users can insert own stats" ON user_stats
   FOR INSERT WITH CHECK (auth.uid() = user_id);
 
+DROP POLICY IF EXISTS "Users can update own stats" ON user_stats;
 CREATE POLICY "Users can update own stats" ON user_stats
   FOR UPDATE USING (auth.uid() = user_id);
 
 -- Index for faster lookups
-CREATE INDEX idx_user_stats_user_id ON user_stats(user_id);
+CREATE INDEX IF NOT EXISTS idx_user_stats_user_id ON user_stats(user_id);
 
 -- Activity log for tracking daily activity (for weekly progress)
 CREATE TABLE IF NOT EXISTS user_activity_log (
@@ -58,14 +61,17 @@ CREATE TABLE IF NOT EXISTS user_activity_log (
 ALTER TABLE user_activity_log ENABLE ROW LEVEL SECURITY;
 
 -- Policy: users can only see their own activity
+DROP POLICY IF EXISTS "Users can view own activity" ON user_activity_log;
 CREATE POLICY "Users can view own activity" ON user_activity_log
   FOR SELECT USING (auth.uid() = user_id);
 
+DROP POLICY IF EXISTS "Users can insert own activity" ON user_activity_log;
 CREATE POLICY "Users can insert own activity" ON user_activity_log
   FOR INSERT WITH CHECK (auth.uid() = user_id);
 
+DROP POLICY IF EXISTS "Users can update own activity" ON user_activity_log;
 CREATE POLICY "Users can update own activity" ON user_activity_log
   FOR UPDATE USING (auth.uid() = user_id);
 
 -- Index for faster lookups
-CREATE INDEX idx_user_activity_log_user_date ON user_activity_log(user_id, activity_date);
+CREATE INDEX IF NOT EXISTS idx_user_activity_log_user_date ON user_activity_log(user_id, activity_date);

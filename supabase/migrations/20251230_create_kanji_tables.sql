@@ -151,48 +151,59 @@ ALTER TABLE user_saved_kanji ENABLE ROW LEVEL SECURITY;
 ALTER TABLE radical_drill_accuracy ENABLE ROW LEVEL SECURITY;
 
 -- user_kanji_progress policies
+DROP POLICY IF EXISTS "Users can view own kanji progress" ON user_kanji_progress;
 CREATE POLICY "Users can view own kanji progress"
   ON user_kanji_progress FOR SELECT
   USING (auth.uid() = user_id);
 
+DROP POLICY IF EXISTS "Users can insert own kanji progress" ON user_kanji_progress;
 CREATE POLICY "Users can insert own kanji progress"
   ON user_kanji_progress FOR INSERT
   WITH CHECK (auth.uid() = user_id);
 
+DROP POLICY IF EXISTS "Users can update own kanji progress" ON user_kanji_progress;
 CREATE POLICY "Users can update own kanji progress"
   ON user_kanji_progress FOR UPDATE
   USING (auth.uid() = user_id);
 
+DROP POLICY IF EXISTS "Users can delete own kanji progress" ON user_kanji_progress;
 CREATE POLICY "Users can delete own kanji progress"
   ON user_kanji_progress FOR DELETE
   USING (auth.uid() = user_id);
 
 -- user_saved_kanji policies
+DROP POLICY IF EXISTS "Users can view own saved kanji" ON user_saved_kanji;
 CREATE POLICY "Users can view own saved kanji"
   ON user_saved_kanji FOR SELECT
   USING (auth.uid() = user_id);
 
+DROP POLICY IF EXISTS "Users can insert own saved kanji" ON user_saved_kanji;
 CREATE POLICY "Users can insert own saved kanji"
   ON user_saved_kanji FOR INSERT
   WITH CHECK (auth.uid() = user_id);
 
+DROP POLICY IF EXISTS "Users can update own saved kanji" ON user_saved_kanji;
 CREATE POLICY "Users can update own saved kanji"
   ON user_saved_kanji FOR UPDATE
   USING (auth.uid() = user_id);
 
+DROP POLICY IF EXISTS "Users can delete own saved kanji" ON user_saved_kanji;
 CREATE POLICY "Users can delete own saved kanji"
   ON user_saved_kanji FOR DELETE
   USING (auth.uid() = user_id);
 
 -- radical_drill_accuracy policies
+DROP POLICY IF EXISTS "Users can view own drill accuracy" ON radical_drill_accuracy;
 CREATE POLICY "Users can view own drill accuracy"
   ON radical_drill_accuracy FOR SELECT
   USING (auth.uid() = user_id);
 
+DROP POLICY IF EXISTS "Users can insert own drill accuracy" ON radical_drill_accuracy;
 CREATE POLICY "Users can insert own drill accuracy"
   ON radical_drill_accuracy FOR INSERT
   WITH CHECK (auth.uid() = user_id);
 
+DROP POLICY IF EXISTS "Users can update own drill accuracy" ON radical_drill_accuracy;
 CREATE POLICY "Users can update own drill accuracy"
   ON radical_drill_accuracy FOR UPDATE
   USING (auth.uid() = user_id);
@@ -202,35 +213,43 @@ ALTER TABLE radicals ENABLE ROW LEVEL SECURITY;
 ALTER TABLE kanji ENABLE ROW LEVEL SECURITY;
 ALTER TABLE kanji_radicals ENABLE ROW LEVEL SECURITY;
 
+DROP POLICY IF EXISTS "Anyone can read radicals" ON radicals;
 CREATE POLICY "Anyone can read radicals"
   ON radicals FOR SELECT
   USING (true);
 
+DROP POLICY IF EXISTS "Anyone can read kanji" ON kanji;
 CREATE POLICY "Anyone can read kanji"
   ON kanji FOR SELECT
   USING (true);
 
+DROP POLICY IF EXISTS "Anyone can read kanji_radicals" ON kanji_radicals;
 CREATE POLICY "Anyone can read kanji_radicals"
   ON kanji_radicals FOR SELECT
   USING (true);
 
 -- Service role can insert/update reference data
+DROP POLICY IF EXISTS "Service role can insert radicals" ON radicals;
 CREATE POLICY "Service role can insert radicals"
   ON radicals FOR INSERT
   WITH CHECK (auth.role() = 'service_role');
 
+DROP POLICY IF EXISTS "Service role can update radicals" ON radicals;
 CREATE POLICY "Service role can update radicals"
   ON radicals FOR UPDATE
   USING (auth.role() = 'service_role');
 
+DROP POLICY IF EXISTS "Service role can insert kanji" ON kanji;
 CREATE POLICY "Service role can insert kanji"
   ON kanji FOR INSERT
   WITH CHECK (auth.role() = 'service_role');
 
+DROP POLICY IF EXISTS "Service role can update kanji" ON kanji;
 CREATE POLICY "Service role can update kanji"
   ON kanji FOR UPDATE
   USING (auth.role() = 'service_role');
 
+DROP POLICY IF EXISTS "Service role can insert kanji_radicals" ON kanji_radicals;
 CREATE POLICY "Service role can insert kanji_radicals"
   ON kanji_radicals FOR INSERT
   WITH CHECK (auth.role() = 'service_role');
@@ -247,21 +266,25 @@ END;
 $$ LANGUAGE plpgsql;
 
 -- Triggers for updated_at
+DROP TRIGGER IF EXISTS update_kanji_updated_at ON kanji;
 CREATE TRIGGER update_kanji_updated_at
   BEFORE UPDATE ON kanji
   FOR EACH ROW
   EXECUTE FUNCTION update_updated_at_column();
 
+DROP TRIGGER IF EXISTS update_user_kanji_progress_updated_at ON user_kanji_progress;
 CREATE TRIGGER update_user_kanji_progress_updated_at
   BEFORE UPDATE ON user_kanji_progress
   FOR EACH ROW
   EXECUTE FUNCTION update_updated_at_column();
 
+DROP TRIGGER IF EXISTS update_user_saved_kanji_updated_at ON user_saved_kanji;
 CREATE TRIGGER update_user_saved_kanji_updated_at
   BEFORE UPDATE ON user_saved_kanji
   FOR EACH ROW
   EXECUTE FUNCTION update_updated_at_column();
 
+DROP TRIGGER IF EXISTS update_radical_drill_accuracy_updated_at ON radical_drill_accuracy;
 CREATE TRIGGER update_radical_drill_accuracy_updated_at
   BEFORE UPDATE ON radical_drill_accuracy
   FOR EACH ROW
