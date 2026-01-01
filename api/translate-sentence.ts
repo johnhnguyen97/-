@@ -45,6 +45,7 @@ interface WordEntry {
   romaji?: string;
   partOfSpeech?: string;
   role?: string;
+  particleMeaning?: string;
 }
 
 interface TranslationResult {
@@ -180,6 +181,311 @@ function validateTranslationQuality(result: TranslationResult): string[] {
   }
 
   return warnings;
+}
+
+// Particle meanings dictionary - used to fill in missing particleMeaning
+const PARTICLE_MEANINGS: Record<string, { meaning: string; reading: string; romaji: string }> = {
+  // ==================== BASIC PARTICLES ====================
+  'は': { meaning: 'marks topic', reading: 'は', romaji: 'wa' },
+  'が': { meaning: 'marks subject', reading: 'が', romaji: 'ga' },
+  'を': { meaning: 'marks direct object', reading: 'を', romaji: 'o' },
+  'に': { meaning: 'direction/target/time', reading: 'に', romaji: 'ni' },
+  'で': { meaning: 'location of action/means', reading: 'で', romaji: 'de' },
+  'へ': { meaning: 'direction (towards)', reading: 'へ', romaji: 'e' },
+  'の': { meaning: 'possessive/modifier', reading: 'の', romaji: 'no' },
+  'と': { meaning: 'and/with/quotation', reading: 'と', romaji: 'to' },
+  'も': { meaning: 'also/too', reading: 'も', romaji: 'mo' },
+  'や': { meaning: 'and (non-exhaustive list)', reading: 'や', romaji: 'ya' },
+  'か': { meaning: 'question marker/or', reading: 'か', romaji: 'ka' },
+  'から': { meaning: 'from/because', reading: 'から', romaji: 'kara' },
+  'まで': { meaning: 'until/up to', reading: 'まで', romaji: 'made' },
+  'より': { meaning: 'than/from (comparison)', reading: 'より', romaji: 'yori' },
+
+  // ==================== SENTENCE-ENDING PARTICLES ====================
+  'ね': { meaning: 'seeking confirmation (right?)', reading: 'ね', romaji: 'ne' },
+  'よ': { meaning: 'emphasis/assertion', reading: 'よ', romaji: 'yo' },
+  'な': { meaning: 'casual emphasis', reading: 'な', romaji: 'na' },
+  'わ': { meaning: 'soft assertion', reading: 'わ', romaji: 'wa' },
+  'ぞ': { meaning: 'strong emphasis (male)', reading: 'ぞ', romaji: 'zo' },
+  'さ': { meaning: 'casual assertion', reading: 'さ', romaji: 'sa' },
+  'かな': { meaning: 'uncertainty/wondering', reading: 'かな', romaji: 'kana' },
+  'かしら': { meaning: 'wondering (feminine)', reading: 'かしら', romaji: 'kashira' },
+  'っけ': { meaning: 'trying to recall', reading: 'っけ', romaji: 'kke' },
+  'よね': { meaning: 'right?/isn\'t it?', reading: 'よね', romaji: 'yone' },
+  'のね': { meaning: 'explanatory + confirmation', reading: 'のね', romaji: 'none' },
+  'のよ': { meaning: 'explanatory + assertion', reading: 'のよ', romaji: 'noyo' },
+  'んだ': { meaning: 'explanatory (casual)', reading: 'んだ', romaji: 'nda' },
+  'のだ': { meaning: 'explanatory', reading: 'のだ', romaji: 'noda' },
+  'んです': { meaning: 'explanatory (polite)', reading: 'んです', romaji: 'ndesu' },
+  'のです': { meaning: 'explanatory (polite)', reading: 'のです', romaji: 'nodesu' },
+
+  // ==================== COMPOUND PARTICLES ====================
+  'には': { meaning: 'to/for (topic)', reading: 'には', romaji: 'niwa' },
+  'では': { meaning: 'in/at (topic)', reading: 'では', romaji: 'dewa' },
+  'とは': { meaning: 'as for/regarding', reading: 'とは', romaji: 'towa' },
+  'への': { meaning: 'towards (possessive)', reading: 'への', romaji: 'eno' },
+  'からの': { meaning: 'from (possessive)', reading: 'からの', romaji: 'karano' },
+  'までの': { meaning: 'until (possessive)', reading: 'までの', romaji: 'madeno' },
+  'との': { meaning: 'with (possessive)', reading: 'との', romaji: 'tono' },
+  'での': { meaning: 'at/in (possessive)', reading: 'での', romaji: 'deno' },
+  'にも': { meaning: 'also to/even to', reading: 'にも', romaji: 'nimo' },
+  'でも': { meaning: 'even/or something', reading: 'でも', romaji: 'demo' },
+  'とも': { meaning: 'both/even', reading: 'とも', romaji: 'tomo' },
+  'からも': { meaning: 'also from', reading: 'からも', romaji: 'karamo' },
+  'までも': { meaning: 'even until', reading: 'までも', romaji: 'mademo' },
+
+  // ==================== COMPLEX COMPOUND PARTICLES ====================
+  'について': { meaning: 'about/concerning', reading: 'について', romaji: 'ni tsuite' },
+  'にとって': { meaning: 'for/to (perspective)', reading: 'にとって', romaji: 'ni totte' },
+  'として': { meaning: 'as/in the role of', reading: 'として', romaji: 'to shite' },
+  'によって': { meaning: 'by means of/depending on', reading: 'によって', romaji: 'ni yotte' },
+  'に対して': { meaning: 'towards/against/regarding', reading: 'にたいして', romaji: 'ni taishite' },
+  'において': { meaning: 'in/at (formal)', reading: 'において', romaji: 'ni oite' },
+  'に関して': { meaning: 'regarding/concerning', reading: 'にかんして', romaji: 'ni kanshite' },
+  'によると': { meaning: 'according to', reading: 'によると', romaji: 'ni yoru to' },
+  'にかけて': { meaning: 'over (time/space)', reading: 'にかけて', romaji: 'ni kakete' },
+  'にわたって': { meaning: 'throughout/across', reading: 'にわたって', romaji: 'ni watatte' },
+  'をはじめ': { meaning: 'starting with/including', reading: 'をはじめ', romaji: 'o hajime' },
+  'をもって': { meaning: 'with/by means of', reading: 'をもって', romaji: 'o motte' },
+  'をめぐって': { meaning: 'concerning/surrounding', reading: 'をめぐって', romaji: 'o megutte' },
+  'に沿って': { meaning: 'along/in accordance with', reading: 'にそって', romaji: 'ni sotte' },
+  'に基づいて': { meaning: 'based on', reading: 'にもとづいて', romaji: 'ni motozuite' },
+  'に加えて': { meaning: 'in addition to', reading: 'にくわえて', romaji: 'ni kuwaete' },
+  'に比べて': { meaning: 'compared to', reading: 'にくらべて', romaji: 'ni kurabete' },
+  'に応じて': { meaning: 'depending on/according to', reading: 'におうじて', romaji: 'ni oujite' },
+  'に伴って': { meaning: 'along with/accompanying', reading: 'にともなって', romaji: 'ni tomonatte' },
+  'に反して': { meaning: 'contrary to', reading: 'にはんして', romaji: 'ni hanshite' },
+  'にしたがって': { meaning: 'as/in accordance with', reading: 'にしたがって', romaji: 'ni shitagatte' },
+
+  // ==================== CASUAL/COLLOQUIAL ====================
+  'なんか': { meaning: 'something like/kind of (casual)', reading: 'なんか', romaji: 'nanka' },
+  'とか': { meaning: 'things like/or something', reading: 'とか', romaji: 'toka' },
+  'って': { meaning: 'quotation (casual)/topic marker', reading: 'って', romaji: 'tte' },
+  'ってば': { meaning: 'I said!/emphasis', reading: 'ってば', romaji: 'tteba' },
+  'っていう': { meaning: 'called/that says', reading: 'っていう', romaji: 'tte iu' },
+  'っての': { meaning: 'the thing called', reading: 'っての', romaji: 'tteno' },
+  'ってか': { meaning: 'or rather/I mean', reading: 'ってか', romaji: 'tteka' },
+  'なんて': { meaning: 'such as/something like', reading: 'なんて', romaji: 'nante' },
+  'なんていう': { meaning: 'something called', reading: 'なんていう', romaji: 'nante iu' },
+  'じゃん': { meaning: 'isn\'t it? (casual)', reading: 'じゃん', romaji: 'jan' },
+  'じゃない': { meaning: 'isn\'t it?/not (casual)', reading: 'じゃない', romaji: 'janai' },
+  'じゃなくて': { meaning: 'not...but rather', reading: 'じゃなくて', romaji: 'janakute' },
+  'んじゃない': { meaning: 'isn\'t it that...?', reading: 'んじゃない', romaji: 'njanai' },
+  'ちゃう': { meaning: 'end up doing (casual てしまう)', reading: 'ちゃう', romaji: 'chau' },
+  'じゃう': { meaning: 'end up doing (casual でしまう)', reading: 'じゃう', romaji: 'jau' },
+  'とく': { meaning: 'do in advance (casual ておく)', reading: 'とく', romaji: 'toku' },
+  'てる': { meaning: 'is doing (casual ている)', reading: 'てる', romaji: 'teru' },
+  'んだけど': { meaning: 'but (explanatory)', reading: 'んだけど', romaji: 'ndakedo' },
+
+  // ==================== LIMITING/EXTENT PARTICLES ====================
+  'ばかり': { meaning: 'only/just/nothing but', reading: 'ばかり', romaji: 'bakari' },
+  'ばっかり': { meaning: 'only/just (casual)', reading: 'ばっかり', romaji: 'bakkari' },
+  'だけ': { meaning: 'only/just', reading: 'だけ', romaji: 'dake' },
+  'しか': { meaning: 'only (with negative)', reading: 'しか', romaji: 'shika' },
+  'くらい': { meaning: 'about/approximately', reading: 'くらい', romaji: 'kurai' },
+  'ぐらい': { meaning: 'about/approximately', reading: 'ぐらい', romaji: 'gurai' },
+  'ほど': { meaning: 'extent/degree/about', reading: 'ほど', romaji: 'hodo' },
+  'さえ': { meaning: 'even', reading: 'さえ', romaji: 'sae' },
+  'すら': { meaning: 'even (literary)', reading: 'すら', romaji: 'sura' },
+  'こそ': { meaning: 'precisely/emphatic', reading: 'こそ', romaji: 'koso' },
+  'まで': { meaning: 'even/until', reading: 'まで', romaji: 'made' },
+  'など': { meaning: 'such as/and so on', reading: 'など', romaji: 'nado' },
+  'なり': { meaning: 'or/as soon as', reading: 'なり', romaji: 'nari' },
+
+  // ==================== CONJUNCTIVE PARTICLES ====================
+  'けど': { meaning: 'but/although', reading: 'けど', romaji: 'kedo' },
+  'けれど': { meaning: 'but/although', reading: 'けれど', romaji: 'keredo' },
+  'けれども': { meaning: 'but/although (formal)', reading: 'けれども', romaji: 'keredomo' },
+  'のに': { meaning: 'despite/although', reading: 'のに', romaji: 'noni' },
+  'ので': { meaning: 'because/since', reading: 'ので', romaji: 'node' },
+  'し': { meaning: 'and/moreover (listing reasons)', reading: 'し', romaji: 'shi' },
+  'が': { meaning: 'but/however', reading: 'が', romaji: 'ga' },
+  'ながら': { meaning: 'while doing', reading: 'ながら', romaji: 'nagara' },
+  'つつ': { meaning: 'while/although', reading: 'つつ', romaji: 'tsutsu' },
+  'ものの': { meaning: 'although/but', reading: 'ものの', romaji: 'monono' },
+  'ところが': { meaning: 'however/but then', reading: 'ところが', romaji: 'tokoroga' },
+  'ところで': { meaning: 'by the way', reading: 'ところで', romaji: 'tokorode' },
+  'それに': { meaning: 'moreover/besides', reading: 'それに', romaji: 'soreni' },
+  'それで': { meaning: 'so/therefore', reading: 'それで', romaji: 'sorede' },
+  'それでも': { meaning: 'even so/nevertheless', reading: 'それでも', romaji: 'soredemo' },
+  'だから': { meaning: 'so/therefore', reading: 'だから', romaji: 'dakara' },
+  'ですから': { meaning: 'so/therefore (polite)', reading: 'ですから', romaji: 'desukara' },
+  'だって': { meaning: 'but/because/even', reading: 'だって', romaji: 'datte' },
+  'でも': { meaning: 'but/however', reading: 'でも', romaji: 'demo' },
+  'しかし': { meaning: 'however/but', reading: 'しかし', romaji: 'shikashi' },
+
+  // ==================== NOMINALIZERS/FUNCTION WORDS ====================
+  'こと': { meaning: 'nominalizer (thing/fact)', reading: 'こと', romaji: 'koto' },
+  'もの': { meaning: 'thing/nominalizer', reading: 'もの', romaji: 'mono' },
+  'ところ': { meaning: 'place/about to/just did', reading: 'ところ', romaji: 'tokoro' },
+  'わけ': { meaning: 'reason/meaning', reading: 'わけ', romaji: 'wake' },
+  'はず': { meaning: 'should be/supposed to', reading: 'はず', romaji: 'hazu' },
+  'つもり': { meaning: 'intention/plan', reading: 'つもり', romaji: 'tsumori' },
+  'よう': { meaning: 'manner/way/appearance', reading: 'よう', romaji: 'you' },
+  'みたい': { meaning: 'like/similar to', reading: 'みたい', romaji: 'mitai' },
+  'らしい': { meaning: 'seems like/apparently', reading: 'らしい', romaji: 'rashii' },
+  'そう': { meaning: 'looks like/I heard', reading: 'そう', romaji: 'sou' },
+  'ため': { meaning: 'for/because of', reading: 'ため', romaji: 'tame' },
+  'せい': { meaning: 'fault/because of (negative)', reading: 'せい', romaji: 'sei' },
+  'おかげ': { meaning: 'thanks to (positive)', reading: 'おかげ', romaji: 'okage' },
+  'まま': { meaning: 'as is/unchanged', reading: 'まま', romaji: 'mama' },
+  'とおり': { meaning: 'as/in accordance with', reading: 'とおり', romaji: 'toori' },
+  'うち': { meaning: 'while/among', reading: 'うち', romaji: 'uchi' },
+  'あいだ': { meaning: 'while/during', reading: 'あいだ', romaji: 'aida' },
+  '間': { meaning: 'while/during', reading: 'あいだ', romaji: 'aida' },
+
+  // ==================== ADVERBS OFTEN PARSED AS PARTICLES ====================
+  'やっぱり': { meaning: 'as expected/after all', reading: 'やっぱり', romaji: 'yappari' },
+  'やはり': { meaning: 'as expected/after all', reading: 'やはり', romaji: 'yahari' },
+  'やっぱ': { meaning: 'as expected (casual)', reading: 'やっぱ', romaji: 'yappa' },
+  'たぶん': { meaning: 'probably/maybe', reading: 'たぶん', romaji: 'tabun' },
+  'きっと': { meaning: 'surely/certainly', reading: 'きっと', romaji: 'kitto' },
+  'ぜひ': { meaning: 'by all means', reading: 'ぜひ', romaji: 'zehi' },
+  'もう': { meaning: 'already/anymore', reading: 'もう', romaji: 'mou' },
+  'まだ': { meaning: 'still/not yet', reading: 'まだ', romaji: 'mada' },
+  'もっと': { meaning: 'more', reading: 'もっと', romaji: 'motto' },
+  'ずっと': { meaning: 'much more/all along', reading: 'ずっと', romaji: 'zutto' },
+  'ちょっと': { meaning: 'a little/somewhat', reading: 'ちょっと', romaji: 'chotto' },
+  'ちょうど': { meaning: 'exactly/just', reading: 'ちょうど', romaji: 'choudo' },
+  'とても': { meaning: 'very/extremely', reading: 'とても', romaji: 'totemo' },
+  'すごく': { meaning: 'very/extremely', reading: 'すごく', romaji: 'sugoku' },
+  'かなり': { meaning: 'fairly/considerably', reading: 'かなり', romaji: 'kanari' },
+  'なかなか': { meaning: 'quite/considerably', reading: 'なかなか', romaji: 'nakanaka' },
+  'あまり': { meaning: 'not very (with negative)', reading: 'あまり', romaji: 'amari' },
+  'あんまり': { meaning: 'not very (casual)', reading: 'あんまり', romaji: 'anmari' },
+  'ぜんぜん': { meaning: 'not at all (with negative)', reading: 'ぜんぜん', romaji: 'zenzen' },
+  'とにかく': { meaning: 'anyway/in any case', reading: 'とにかく', romaji: 'tonikaku' },
+  'とりあえず': { meaning: 'for now/for the time being', reading: 'とりあえず', romaji: 'toriaezu' },
+  'いちおう': { meaning: 'just in case/tentatively', reading: 'いちおう', romaji: 'ichiou' },
+  'なんとか': { meaning: 'somehow/one way or another', reading: 'なんとか', romaji: 'nantoka' },
+  'どうにか': { meaning: 'somehow/one way or another', reading: 'どうにか', romaji: 'dounika' },
+  'なんとなく': { meaning: 'somehow/vaguely', reading: 'なんとなく', romaji: 'nantonaku' },
+  'さすが': { meaning: 'as expected/indeed', reading: 'さすが', romaji: 'sasuga' },
+  'せっかく': { meaning: 'with effort/specially', reading: 'せっかく', romaji: 'sekkaku' },
+  'わざわざ': { meaning: 'go out of one\'s way', reading: 'わざわざ', romaji: 'wazawaza' },
+  'たまに': { meaning: 'occasionally', reading: 'たまに', romaji: 'tamani' },
+  'めったに': { meaning: 'rarely (with negative)', reading: 'めったに', romaji: 'mettani' },
+
+  // ==================== CONJUNCTIONS ====================
+  'そして': { meaning: 'and/then', reading: 'そして', romaji: 'soshite' },
+  'それから': { meaning: 'and then/after that', reading: 'それから', romaji: 'sorekara' },
+  'また': { meaning: 'also/again', reading: 'また', romaji: 'mata' },
+  'あと': { meaning: 'after/later', reading: 'あと', romaji: 'ato' },
+  'すると': { meaning: 'then/thereupon', reading: 'すると', romaji: 'suruto' },
+  'つまり': { meaning: 'in other words', reading: 'つまり', romaji: 'tsumari' },
+  '要するに': { meaning: 'in short/to sum up', reading: 'ようするに', romaji: 'yousuruni' },
+  'ただし': { meaning: 'however/provided that', reading: 'ただし', romaji: 'tadashi' },
+  'ただ': { meaning: 'just/only/however', reading: 'ただ', romaji: 'tada' },
+  'むしろ': { meaning: 'rather/instead', reading: 'むしろ', romaji: 'mushiro' },
+  'かえって': { meaning: 'on the contrary', reading: 'かえって', romaji: 'kaette' },
+  '一方': { meaning: 'on the other hand', reading: 'いっぽう', romaji: 'ippou' },
+  '逆に': { meaning: 'conversely/on the contrary', reading: 'ぎゃくに', romaji: 'gyakuni' },
+
+  // ==================== DEMONSTRATIVES ====================
+  'この': { meaning: 'this (noun modifier)', reading: 'この', romaji: 'kono' },
+  'その': { meaning: 'that (noun modifier)', reading: 'その', romaji: 'sono' },
+  'あの': { meaning: 'that over there', reading: 'あの', romaji: 'ano' },
+  'どの': { meaning: 'which (noun modifier)', reading: 'どの', romaji: 'dono' },
+  'こんな': { meaning: 'this kind of', reading: 'こんな', romaji: 'konna' },
+  'そんな': { meaning: 'that kind of', reading: 'そんな', romaji: 'sonna' },
+  'あんな': { meaning: 'that kind of (far)', reading: 'あんな', romaji: 'anna' },
+  'どんな': { meaning: 'what kind of', reading: 'どんな', romaji: 'donna' },
+  'これ': { meaning: 'this', reading: 'これ', romaji: 'kore' },
+  'それ': { meaning: 'that', reading: 'それ', romaji: 'sore' },
+  'あれ': { meaning: 'that over there', reading: 'あれ', romaji: 'are' },
+  'どれ': { meaning: 'which one', reading: 'どれ', romaji: 'dore' },
+  'ここ': { meaning: 'here', reading: 'ここ', romaji: 'koko' },
+  'そこ': { meaning: 'there', reading: 'そこ', romaji: 'soko' },
+  'あそこ': { meaning: 'over there', reading: 'あそこ', romaji: 'asoko' },
+  'どこ': { meaning: 'where', reading: 'どこ', romaji: 'doko' },
+
+  // ==================== AUXILIARY VERBS/EXPRESSIONS ====================
+  'です': { meaning: 'is/am/are (polite)', reading: 'です', romaji: 'desu' },
+  'だ': { meaning: 'is/am/are (plain)', reading: 'だ', romaji: 'da' },
+  'である': { meaning: 'is (formal/written)', reading: 'である', romaji: 'de aru' },
+  'ます': { meaning: 'polite verb ending', reading: 'ます', romaji: 'masu' },
+  'ません': { meaning: 'polite negative', reading: 'ません', romaji: 'masen' },
+  'ました': { meaning: 'polite past', reading: 'ました', romaji: 'mashita' },
+  'ませんでした': { meaning: 'polite past negative', reading: 'ませんでした', romaji: 'masen deshita' },
+  'でした': { meaning: 'was (polite)', reading: 'でした', romaji: 'deshita' },
+  'だった': { meaning: 'was (plain)', reading: 'だった', romaji: 'datta' },
+  'でしょう': { meaning: 'probably/right?', reading: 'でしょう', romaji: 'deshou' },
+  'だろう': { meaning: 'probably (plain)', reading: 'だろう', romaji: 'darou' },
+  'かもしれない': { meaning: 'might/maybe', reading: 'かもしれない', romaji: 'kamoshirenai' },
+  'かもしれません': { meaning: 'might (polite)', reading: 'かもしれません', romaji: 'kamoshiremasen' },
+  'ください': { meaning: 'please do', reading: 'ください', romaji: 'kudasai' },
+  'なさい': { meaning: 'do (command)', reading: 'なさい', romaji: 'nasai' },
+  'ましょう': { meaning: 'let\'s (polite)', reading: 'ましょう', romaji: 'mashou' },
+  'ましょうか': { meaning: 'shall we?', reading: 'ましょうか', romaji: 'mashouka' },
+
+  // ==================== SENTENCE PATTERNS ====================
+  'ようにする': { meaning: 'try to/make sure to', reading: 'ようにする', romaji: 'you ni suru' },
+  'ようになる': { meaning: 'come to/become able', reading: 'ようになる', romaji: 'you ni naru' },
+  'ことにする': { meaning: 'decide to', reading: 'ことにする', romaji: 'koto ni suru' },
+  'ことになる': { meaning: 'it is decided that', reading: 'ことになる', romaji: 'koto ni naru' },
+  'ことがある': { meaning: 'there are times when/have experienced', reading: 'ことがある', romaji: 'koto ga aru' },
+  'ことができる': { meaning: 'can/be able to', reading: 'ことができる', romaji: 'koto ga dekiru' },
+  'わけがない': { meaning: 'there\'s no way that', reading: 'わけがない', romaji: 'wake ga nai' },
+  'わけにはいかない': { meaning: 'can\'t afford to', reading: 'わけにはいかない', romaji: 'wake niwa ikanai' },
+  'しかない': { meaning: 'have no choice but', reading: 'しかない', romaji: 'shika nai' },
+  'てしまう': { meaning: 'end up doing/completely', reading: 'てしまう', romaji: 'te shimau' },
+  'ておく': { meaning: 'do in advance', reading: 'ておく', romaji: 'te oku' },
+  'てある': { meaning: 'has been done (state)', reading: 'てある', romaji: 'te aru' },
+  'ている': { meaning: 'is doing/state', reading: 'ている', romaji: 'te iru' },
+  'てくる': { meaning: 'come to/start to', reading: 'てくる', romaji: 'te kuru' },
+  'ていく': { meaning: 'go on/continue', reading: 'ていく', romaji: 'te iku' },
+  'てみる': { meaning: 'try doing', reading: 'てみる', romaji: 'te miru' },
+  'てあげる': { meaning: 'do for someone', reading: 'てあげる', romaji: 'te ageru' },
+  'てもらう': { meaning: 'have someone do', reading: 'てもらう', romaji: 'te morau' },
+  'てくれる': { meaning: 'do for me (receiving)', reading: 'てくれる', romaji: 'te kureru' },
+  'ついていく': { meaning: 'follow/keep up with', reading: 'ついていく', romaji: 'tsuite iku' },
+  '追いつく': { meaning: 'catch up to', reading: 'おいつく', romaji: 'oitsuku' },
+
+  // ==================== CASUAL CONTRACTIONS ====================
+  'ってこと': { meaning: 'that means/the fact that', reading: 'ってこと', romaji: 'tte koto' },
+  'っていうか': { meaning: 'or rather/I mean', reading: 'っていうか', romaji: 'tte iu ka' },
+  'ってわけ': { meaning: 'that\'s why/that means', reading: 'ってわけ', romaji: 'tte wake' },
+  'ないと': { meaning: 'have to (casual)', reading: 'ないと', romaji: 'naito' },
+  'なきゃ': { meaning: 'have to (casual)', reading: 'なきゃ', romaji: 'nakya' },
+  'なくちゃ': { meaning: 'have to (casual)', reading: 'なくちゃ', romaji: 'nakucha' },
+  'ちゃった': { meaning: 'ended up doing (casual past)', reading: 'ちゃった', romaji: 'chatta' },
+  'じゃった': { meaning: 'ended up doing (casual past)', reading: 'じゃった', romaji: 'jatta' },
+};
+
+// Fill in missing particleMeaning for particles and auxiliaries
+function correctParticleMeanings(result: TranslationResult): void {
+  if (!result.words || !Array.isArray(result.words)) return;
+
+  result.words.forEach(word => {
+    if (!word.japanese) return;
+
+    const isParticle = word.partOfSpeech === 'particle' || word.role === 'particle';
+    const isAuxiliary = word.partOfSpeech?.includes('auxiliary') || word.role === 'auxiliary';
+    const isSentenceEnding = word.partOfSpeech?.includes('sentence-ending') || word.partOfSpeech?.includes('sentence ending');
+
+    // Check if we have a meaning for this particle
+    const particleData = PARTICLE_MEANINGS[word.japanese];
+
+    if (particleData) {
+      // Fill in missing particleMeaning
+      if (!word.particleMeaning) {
+        word.particleMeaning = particleData.meaning;
+      }
+      // Set partOfSpeech to particle if it's in our dictionary
+      if (!word.partOfSpeech || word.partOfSpeech === 'unknown') {
+        word.partOfSpeech = 'particle';
+      }
+      // Set role to particle if not set
+      if (!word.role) {
+        word.role = 'particle';
+      }
+    } else if ((isParticle || isAuxiliary || isSentenceEnding) && !word.particleMeaning) {
+      // For particles not in dictionary, try to infer meaning from english field
+      if (word.english) {
+        word.particleMeaning = word.english.replace(/[()]/g, '').trim();
+      }
+    }
+  });
 }
 
 // Correct common reading errors using COMMON_READINGS dictionary
@@ -942,10 +1248,13 @@ export default async function handler(req: VercelRequest, res: VercelResponse) {
     // Step 2: Correct common reading errors using dictionary
     correctReadings(translationResult);
 
-    // Step 3: Force split components that AI didn't break down properly
+    // Step 3: Fill in missing particleMeaning for particles
+    correctParticleMeanings(translationResult);
+
+    // Step 4: Force split components that AI didn't break down properly
     forceAtomicSplit(translationResult);
 
-    // Step 4: Validate atomic breakdown structure
+    // Step 5: Validate atomic breakdown structure
     const validationErrors = validateAtomicBreakdown(translationResult);
     if (validationErrors.length > 0) {
       console.warn('Atomic breakdown validation warnings:', validationErrors);
@@ -1086,10 +1395,12 @@ function buildLlamaPrompt(sentence: string): string {
   return `You are an expert Japanese language teacher. Translate English sentences to Japanese and provide detailed word breakdowns for language learners.
 
 === CONDENSED GRAMMAR REFERENCE ===
-PARTICLES (always separate words):
+PARTICLES (always separate words - ALWAYS include particleMeaning):
   は (wa) = topic marker | が (ga) = subject marker | を (o) = object marker
   に (ni) = direction/time/target | で (de) = location of action/means
   の (no) = possessive | へ (e) = direction | と (to) = and/with
+  も (mo) = also/too | か (ka) = question | ね (ne) = right? | よ (yo) = emphasis
+  から (kara) = from/because | まで (made) = until | より (yori) = than
 
 VERB FORMS (break into dictionary form + suffix):
   ます = polite present | ました = polite past | ません = polite negative
@@ -1114,7 +1425,9 @@ IMPORTANT REMINDERS:
 - Return ONLY valid JSON (no markdown, no explanation outside JSON)
 - "reading" field = HIRAGANA ONLY (e.g., "たべます" not "食べます")
 - "romaji" field = ASCII ONLY (e.g., "tabemasu" not "たべます")
-- Each particle (は、が、を、に、で、の) = separate word entry
+- Each particle (は、が、を、に、で、の) = separate word entry with role="particle"
+- EVERY particle MUST have "particleMeaning" field explaining its function (e.g., "marks topic", "object marker", "direction/target")
+- Sentence-ending particles (かな、ね、よ) MUST have particleMeaning (e.g., "uncertainty/wondering", "seeking confirmation")
 - atomicBreakdown: split compound verbs into dictionary form + each suffix
 - Keep words array under 15 items
 - Maximum 2 grammarNotes, each explanation under 50 words
