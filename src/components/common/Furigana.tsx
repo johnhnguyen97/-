@@ -23,9 +23,10 @@ interface FuriganaProps {
 
 /**
  * Furigana component - displays Japanese text with optional ruby annotations
- * for readings (furigana) above and romaji below.
+ * for readings (furigana) above kanji characters only.
  *
  * Uses HTML <ruby> elements for semantic furigana display.
+ * Smart parsing ensures furigana only appears above kanji, not hiragana/katakana.
  */
 export const Furigana: React.FC<FuriganaProps> = ({
   text,
@@ -46,18 +47,27 @@ export const Furigana: React.FC<FuriganaProps> = ({
     return <span className={`${className} ${textClassName}`}>{text}</span>;
   }
 
+  // Parse text into segments with smart furigana placement
+  const segments = shouldShowFurigana
+    ? parseFuriganaSegments(text, reading || '')
+    : [{ text, reading: '' }];
+
   return (
     <span className={`inline-flex flex-col items-center ${className}`}>
-      {shouldShowFurigana ? (
-        <ruby className="ruby-container">
-          <span className={textClassName}>{text}</span>
-          <rp>(</rp>
-          <rt className={furiganaClassName}>{reading}</rt>
-          <rp>)</rp>
-        </ruby>
-      ) : (
-        <span className={textClassName}>{text}</span>
-      )}
+      <span className={textClassName}>
+        {segments.map((segment, index) => (
+          segment.reading ? (
+            <ruby key={index} className="ruby-container">
+              {segment.text}
+              <rp>(</rp>
+              <rt className={furiganaClassName}>{segment.reading}</rt>
+              <rp>)</rp>
+            </ruby>
+          ) : (
+            <span key={index}>{segment.text}</span>
+          )
+        ))}
+      </span>
       {shouldShowRomaji && (
         <span className={romajiClassName}>{romaji}</span>
       )}
@@ -66,25 +76,112 @@ export const Furigana: React.FC<FuriganaProps> = ({
 };
 
 /**
+ * Check if a character is hiragana
+ */
+export function isHiragana(char: string): boolean {
+  const code = char.charCodeAt(0);
+  return code >= 0x3040 && code <= 0x309F;
+}
+
+/**
+ * Check if a character is katakana
+ */
+export function isKatakana(char: string): boolean {
+  const code = char.charCodeAt(0);
+  return code >= 0x30A0 && code <= 0x30FF;
+}
+
+/**
  * Parse a word and its reading to create furigana segments.
- * This is useful for complex words where only some kanji need readings.
+ * Only kanji characters get furigana - hiragana/katakana are shown as-is.
  *
  * @example
- * // For 食べる (たべる), only 食 needs furigana
  * parseFuriganaSegments('食べる', 'たべる')
  * // Returns: [{ text: '食', reading: 'た' }, { text: 'べる', reading: '' }]
+ *
+ * parseFuriganaSegments('来ます', 'きます')
+ * // Returns: [{ text: '来', reading: 'き' }, { text: 'ます', reading: '' }]
+ *
+ * parseFuriganaSegments('来ませんでした', 'きませんでした')
+ * // Returns: [{ text: '来', reading: 'き' }, { text: 'ませんでした', reading: '' }]
  */
 export function parseFuriganaSegments(
   text: string,
   reading: string
 ): Array<{ text: string; reading: string }> {
-  // Simple implementation - treats entire text as one segment
-  // A more sophisticated version would analyze kanji boundaries
+  // If no reading or text equals reading, no furigana needed
   if (!reading || text === reading) {
     return [{ text, reading: '' }];
   }
 
-  return [{ text, reading }];
+  // If text is all hiragana/katakana, no furigana needed
+  if (!containsKanji(text)) {
+    return [{ text, reading: '' }];
+  }
+
+  const segments: Array<{ text: string; reading: string }> = [];
+
+  // Find trailing kana in text that matches trailing kana in reading
+  let textIndex = text.length - 1;
+  let readingIndex = reading.length - 1;
+  let trailingKana = '';
+
+  // Match trailing hiragana/katakana from end
+  while (textIndex >= 0 && readingIndex >= 0) {
+    const textChar = text[textIndex];
+    const readingChar = reading[readingIndex];
+
+    // If text char is hiragana/katakana and matches reading
+    if ((isHiragana(textChar) || isKatakana(textChar)) && textChar === readingChar) {
+      trailingKana = textChar + trailingKana;
+      textIndex--;
+      readingIndex--;
+    } else {
+      break;
+    }
+  }
+
+  // Find leading kana in text that matches leading kana in reading
+  let leadingKana = '';
+  let leadTextIndex = 0;
+  let leadReadIndex = 0;
+
+  while (leadTextIndex <= textIndex && leadReadIndex <= readingIndex) {
+    const textChar = text[leadTextIndex];
+    const readingChar = reading[leadReadIndex];
+
+    if ((isHiragana(textChar) || isKatakana(textChar)) && textChar === readingChar) {
+      leadingKana += textChar;
+      leadTextIndex++;
+      leadReadIndex++;
+    } else {
+      break;
+    }
+  }
+
+  // Build segments
+  if (leadingKana) {
+    segments.push({ text: leadingKana, reading: '' });
+  }
+
+  // Middle part (kanji with furigana)
+  const kanjiPart = text.substring(leadTextIndex, textIndex + 1);
+  const kanjiReading = reading.substring(leadReadIndex, readingIndex + 1);
+
+  if (kanjiPart) {
+    segments.push({ text: kanjiPart, reading: kanjiReading });
+  }
+
+  if (trailingKana) {
+    segments.push({ text: trailingKana, reading: '' });
+  }
+
+  // If we couldn't parse it properly, fall back to simple mode
+  if (segments.length === 0) {
+    return [{ text, reading }];
+  }
+
+  return segments;
 }
 
 /**
