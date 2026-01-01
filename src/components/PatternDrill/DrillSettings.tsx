@@ -1,6 +1,7 @@
 import React from 'react';
 import { useTheme } from '../../contexts/ThemeContext';
 import { CONJUGATION_PHASES } from '../../types/drill';
+import { Slider } from '../common/Slider';
 import type { DrillSettings as DrillSettingsType, WordType, JLPTLevel } from '../../types/drill';
 
 interface DrillSettingsPanelProps {
@@ -249,28 +250,16 @@ export const DrillSettingsPanel: React.FC<DrillSettingsPanelProps> = ({
       </div>
 
       {/* Questions Slider */}
-      <div>
-        <h3 className={`text-lg font-semibold mb-3 ${theme.text}`}>
-          Questions: <span className="text-purple-500">{settings.questionsPerSession}</span>
-        </h3>
-        <input
-          type="range"
-          min="5"
-          max="30"
-          step="5"
-          value={settings.questionsPerSession}
-          onChange={(e) => onSettingsChange({ ...settings, questionsPerSession: Number(e.target.value) })}
-          className={`w-full h-2 rounded-lg appearance-none cursor-pointer ${isDark ? 'bg-gray-700' : 'bg-gray-200'} ${theme.slider}`}
-        />
-        <div className={`flex justify-between text-xs mt-1 ${theme.textMuted}`}>
-          <span>5</span>
-          <span>10</span>
-          <span>15</span>
-          <span>20</span>
-          <span>25</span>
-          <span>30</span>
-        </div>
-      </div>
+      <Slider
+        label="Questions"
+        value={settings.questionsPerSession}
+        min={5}
+        max={30}
+        step={5}
+        onChange={(val) => onSettingsChange({ ...settings, questionsPerSession: val })}
+        showInput={true}
+        showValue={false}
+      />
 
       {/* Start Button */}
       <button
