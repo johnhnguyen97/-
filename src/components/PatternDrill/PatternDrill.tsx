@@ -23,8 +23,10 @@ const initialStats: DrillSessionStats = {
   totalQuestions: 0,
   correctAnswers: 0,
   incorrectAnswers: 0,
+  skippedAnswers: 0,
   accuracy: 0,
   categoryStats: {},
+  questionResults: [],
 };
 
 interface PatternDrillProps {
@@ -39,6 +41,7 @@ export const PatternDrill: React.FC<PatternDrillProps> = ({ onClose }) => {
     currentIndex: 0,
     userAnswer: '',
     isCorrect: null,
+    isSkipped: false,
     sessionStats: initialStats,
     settings: DEFAULT_DRILL_SETTINGS,
   });

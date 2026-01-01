@@ -42,6 +42,9 @@ interface DrillSentence {
   adjective_type?: string;
   jlpt_level: string;
   conjugations: Record<string, { japanese: string; reading: string; romaji: string }>;
+  dictionary_form?: string;
+  reading?: string;
+  romaji?: string;
 }
 
 interface DrillPrompt {
@@ -73,6 +76,11 @@ interface MCOption {
   english?: string;
 }
 
+interface ValidCombination {
+  sentence: DrillSentence;
+  prompt: DrillPrompt;
+}
+
 function shuffleArray<T>(array: T[]): T[] {
   const shuffled = [...array];
   for (let i = shuffled.length - 1; i > 0; i--) {
@@ -82,15 +90,53 @@ function shuffleArray<T>(array: T[]): T[] {
   return shuffled;
 }
 
+// Expanded form mapping with all conjugation types
 function getConjugationEnglish(toForm: string): string {
   const formMap: Record<string, string> = {
+    // Legacy forms (backward compatibility)
     'present_positive': 'do/does',
     'present_negative': "don't/doesn't",
     'past_positive': 'did',
     'past_negative': "didn't",
-    'te_form': '-ing form',
-    'tai_form': 'want to',
     'potential': 'can do',
+    // Polite forms
+    'masu_positive': 'do/does (polite)',
+    'masu_negative': "don't/doesn't (polite)",
+    'masu_past_positive': 'did (polite)',
+    'masu_past_negative': "didn't (polite)",
+    // Plain forms
+    'plain_positive': 'dictionary form',
+    'plain_negative': "don't/doesn't (plain)",
+    'plain_past_positive': 'did (plain)',
+    'plain_past_negative': "didn't (plain)",
+    // Te-form
+    'te_form': '-te form',
+    'te_iru': 'is doing',
+    // Desire
+    'tai_form': 'want to',
+    'tai_negative': "don't want to",
+    'tai_past': 'wanted to',
+    // Volitional
+    'volitional': "let's / I'll",
+    'volitional_polite': "let's (polite)",
+    // Potential
+    'potential_positive': 'can do',
+    'potential_negative': "can't do",
+    // Conditional
+    'conditional_ba': 'if (general)',
+    'conditional_tara': 'if/when',
+    'conditional_to': 'when/whenever',
+    'conditional_nara': 'if (hypothetical)',
+    // Passive
+    'passive_positive': 'is done (passive)',
+    'passive_negative': "isn't done (passive)",
+    // Causative
+    'causative_positive': 'make/let do',
+    'causative_negative': "don't make/let do",
+    'causative_passive': 'is made to do',
+    // Imperative
+    'imperative': 'do! (command)',
+    'imperative_negative': "don't do!",
   };
   return formMap[toForm] || toForm;
 }
@@ -123,6 +169,81 @@ function generateMCOptions(
   options.push(...shuffledOthers);
 
   return shuffleArray(options);
+}
+
+/**
+ * Generate all valid sentence-prompt combinations upfront.
+ * This fixes the repetition bug by pre-computing combinations instead of
+ * randomly selecting and hoping to avoid duplicates.
+ */
+function buildValidCombinations(
+  sentences: DrillSentence[],
+  prompts: DrillPrompt[]
+): ValidCombination[] {
+  const combinations: ValidCombination[] = [];
+
+  for (const sentence of sentences) {
+    for (const prompt of prompts) {
+      // Check if this prompt is valid for this sentence
+      const isWordTypeMatch = prompt.word_type === 'both' || prompt.word_type === sentence.word_type;
+      const hasConjugation = sentence.conjugations && sentence.conjugations[prompt.to_form];
+
+      if (isWordTypeMatch && hasConjugation) {
+        combinations.push({ sentence, prompt });
+      }
+    }
+  }
+
+  return combinations;
+}
+
+/**
+ * Generate questions from valid combinations.
+ * If there are fewer combinations than requested, cycles through with reshuffling.
+ */
+function generateQuestionsFromCombinations(
+  combinations: ValidCombination[],
+  count: number,
+  practiceMode: string
+): any[] {
+  if (combinations.length === 0) {
+    return [];
+  }
+
+  // Shuffle all combinations
+  let shuffled = shuffleArray(combinations);
+  const questions: any[] = [];
+  let idx = 0;
+
+  while (questions.length < count) {
+    // Reshuffle when we've exhausted all combinations
+    if (idx >= shuffled.length) {
+      shuffled = shuffleArray(combinations);
+      idx = 0;
+
+      // Safety check: if we've already generated all unique combinations once
+      // and still need more, we'll allow repeats but with different ordering
+      if (questions.length >= combinations.length) {
+        // We've used all combinations at least once - continue cycling
+      }
+    }
+
+    const { sentence, prompt } = shuffled[idx];
+    const correctAnswer = sentence.conjugations[prompt.to_form];
+    const mcOptions = generateMCOptions(correctAnswer, sentence.conjugations, prompt.to_form);
+
+    questions.push({
+      sentence,
+      prompt,
+      correctAnswer,
+      mcOptions,
+      practiceMode,
+    });
+
+    idx++;
+  }
+
+  return questions;
 }
 
 export default async function handler(req: VercelRequest, res: VercelResponse) {
@@ -159,7 +280,7 @@ export default async function handler(req: VercelRequest, res: VercelResponse) {
     const questionCount = Math.min(parseInt(count, 10), 30);
 
     // Fetch sentences
-    let sentenceQuery = supabase
+    const sentenceQuery = supabase
       .from('drill_sentences')
       .select('*')
       .eq('jlpt_level', jlptLevel)
@@ -173,7 +294,7 @@ export default async function handler(req: VercelRequest, res: VercelResponse) {
     }
 
     if (!sentences || sentences.length === 0) {
-      return res.status(200).json({ questions: [] });
+      return res.status(200).json({ questions: [], message: 'No sentences found for the selected criteria' });
     }
 
     // Fetch prompts
@@ -189,46 +310,35 @@ export default async function handler(req: VercelRequest, res: VercelResponse) {
     }
 
     if (!prompts || prompts.length === 0) {
-      return res.status(200).json({ questions: [] });
+      return res.status(200).json({ questions: [], message: 'No prompts found for the selected phases' });
     }
 
-    // Generate questions
-    const questions = [];
-    const usedCombos = new Set<string>();
+    // Build all valid combinations upfront (FIX for repetition bug)
+    const validCombinations = buildValidCombinations(
+      sentences as DrillSentence[],
+      prompts as DrillPrompt[]
+    );
 
-    for (let i = 0; i < questionCount && i < 100; i++) {
-      const sentence = sentences[Math.floor(Math.random() * sentences.length)] as DrillSentence;
-      const validPrompts = prompts.filter(
-        (p: DrillPrompt) =>
-          (p.word_type === 'both' || p.word_type === sentence.word_type) &&
-          sentence.conjugations[p.to_form]
-      );
+    if (validCombinations.length === 0) {
+      return res.status(200).json({
+        questions: [],
+        message: 'No valid question combinations found. Try different settings.'
+      });
+    }
 
-      if (validPrompts.length === 0) continue;
+    // Generate questions from combinations
+    const questions = generateQuestionsFromCombinations(
+      validCombinations,
+      questionCount,
+      practiceMode
+    );
 
-      const prompt = validPrompts[Math.floor(Math.random() * validPrompts.length)] as DrillPrompt;
-      const comboKey = `${sentence.id}-${prompt.id}`;
-
-      if (usedCombos.has(comboKey)) {
-        i--;
-        continue;
-      }
-      usedCombos.add(comboKey);
-
-      const correctAnswer = sentence.conjugations[prompt.to_form];
-      const mcOptions = generateMCOptions(correctAnswer, sentence.conjugations, prompt.to_form);
-
-      const question: any = {
-        sentence,
-        prompt,
-        correctAnswer,
-        mcOptions,
-        practiceMode,
-      };
-
-      // Fetch example sentence if in sentence mode
-      if (practiceMode === 'sentence') {
-        const dictionaryForm = MASU_TO_DICTIONARY[sentence.japanese_base] || sentence.japanese_base;
+    // Fetch example sentences if in sentence mode
+    if (practiceMode === 'sentence') {
+      for (const question of questions) {
+        const dictionaryForm = MASU_TO_DICTIONARY[question.sentence.japanese_base] ||
+                              question.sentence.dictionary_form ||
+                              question.sentence.japanese_base;
 
         const { data: exampleSentences } = await supabase
           .from('example_sentences')
@@ -240,11 +350,16 @@ export default async function handler(req: VercelRequest, res: VercelResponse) {
           question.exampleSentence = exampleSentences[Math.floor(Math.random() * exampleSentences.length)];
         }
       }
-
-      questions.push(question);
     }
 
-    return res.status(200).json({ questions });
+    return res.status(200).json({
+      questions,
+      meta: {
+        totalCombinations: validCombinations.length,
+        requestedCount: questionCount,
+        actualCount: questions.length,
+      }
+    });
   } catch (error) {
     console.error('Drill API error:', error);
     return res.status(500).json({ error: 'Internal server error' });

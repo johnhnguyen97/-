@@ -9,6 +9,7 @@ import type {
   UserSavedKanji,
   RadicalInfo,
 } from '../types/kanji';
+import { hiraganaToKatakana, katakanaToHiragana } from '../utils/kanaUtils';
 
 const API_BASE = '/api';
 
@@ -181,29 +182,38 @@ export async function searchKanji(
   query: string,
   _token?: string
 ): Promise<KanjiSearchResult> {
-  const normalizedQuery = query.toLowerCase().trim();
+  const trimmedQuery = query.trim();
+  const normalizedQuery = trimmedQuery.toLowerCase();
 
-  if (!normalizedQuery) {
+  if (!trimmedQuery) {
     return { kanji: [], total: 0, hasMore: false };
   }
+
+  // Generate hiragana and katakana versions for reading searches
+  const hiraganaQuery = katakanaToHiragana(trimmedQuery);
+  const katakanaQuery = hiraganaToKatakana(trimmedQuery);
 
   try {
     const results: Kanji[] = [];
 
     // If query is a single character, check if it's a kanji
-    if (query.length === 1) {
+    if (trimmedQuery.length === 1) {
       const kData = await loadKanji();
-      const exactMatch = kData.data.find(k => k.c === query);
+      const exactMatch = kData.data.find(k => k.c === trimmedQuery);
       if (exactMatch) {
         results.push(kanjiEntryToKanji(exactMatch));
       }
     }
 
-    // Search by reading using index
+    // Search by reading using index (try original, hiragana, and katakana versions)
     if (results.length < 20) {
       try {
         const readingIdx = await loadReadingIndex();
-        const matchedChars = readingIdx.data[query] || readingIdx.data[normalizedQuery] || [];
+        const matchedChars =
+          readingIdx.data[trimmedQuery] ||
+          readingIdx.data[hiraganaQuery] ||
+          readingIdx.data[katakanaQuery] ||
+          [];
 
         if (matchedChars.length > 0) {
           const kData = await loadKanji();
@@ -251,8 +261,11 @@ export async function searchKanji(
       const kData = await loadKanji();
       const kanjiResults = kData.data.filter(entry => {
         if (results.find(r => r.character === entry.c)) return false;
-        if (entry.o?.some(r => r.includes(query))) return true;
-        if (entry.k?.some(r => r.includes(query))) return true;
+        // Check on'yomi (typically katakana) - try both original and katakana version
+        if (entry.o?.some(r => r.includes(trimmedQuery) || r.includes(katakanaQuery))) return true;
+        // Check kun'yomi (typically hiragana) - try both original and hiragana version
+        if (entry.k?.some(r => r.includes(trimmedQuery) || r.includes(hiraganaQuery))) return true;
+        // Check English meanings
         if (entry.m.some(m => m.toLowerCase().includes(normalizedQuery))) return true;
         return false;
       }).slice(0, 30);
@@ -265,8 +278,15 @@ export async function searchKanji(
       try {
         const vData = await loadVocabCommon();
         const vocabResults = vData.data.filter(entry => {
-          if (entry.k === query || entry.r === query) return true;
-          if (entry.k?.includes(query) || entry.r.includes(query)) return true;
+          // Exact matches
+          if (entry.k === trimmedQuery || entry.r === trimmedQuery) return true;
+          if (entry.k === hiraganaQuery || entry.r === hiraganaQuery) return true;
+          if (entry.k === katakanaQuery || entry.r === katakanaQuery) return true;
+          // Partial matches
+          if (entry.k?.includes(trimmedQuery) || entry.r.includes(trimmedQuery)) return true;
+          if (entry.k?.includes(hiraganaQuery) || entry.r.includes(hiraganaQuery)) return true;
+          if (entry.k?.includes(katakanaQuery) || entry.r.includes(katakanaQuery)) return true;
+          // English meaning search
           if (entry.m.some(m => m.toLowerCase().includes(normalizedQuery))) return true;
           return false;
         }).slice(0, 20);

@@ -3,6 +3,7 @@ import { useAuth } from '../contexts/AuthContext';
 import { getFavorites, deleteFavorite, updateFavoriteNote, type Favorite } from '../services/favoritesApi';
 import { WORD_CATEGORIES } from './FavoriteButton';
 import { isKeepConnected } from '../services/keepApi';
+import { hiraganaToKatakana, katakanaToHiragana } from '../utils/kanaUtils';
 
 interface NotesPanelProps {
   isOpen: boolean;
@@ -359,18 +360,43 @@ export function NotesPanel({ isOpen, onClose }: NotesPanelProps) {
 
   const selectedPage = pages.find(p => p.id === selectedPageId);
 
-  const filteredDictionary = dictionary.filter(d =>
-    !dictSearch ||
-    d.word.includes(dictSearch) ||
-    d.reading.includes(dictSearch) ||
-    d.meaning.toLowerCase().includes(dictSearch.toLowerCase())
-  );
+  const filteredDictionary = dictionary.filter(d => {
+    if (!dictSearch) return true;
 
-  const filteredWordNotes = wordNotes.filter(n =>
-    !wordNotesSearch ||
-    n.word.includes(wordNotesSearch) ||
-    n.note.toLowerCase().includes(wordNotesSearch.toLowerCase())
-  );
+    const search = dictSearch.toLowerCase();
+    const hiraganaSearch = katakanaToHiragana(dictSearch);
+    const katakanaSearch = hiraganaToKatakana(dictSearch);
+
+    return (
+      // Search in word field (try all kana variants)
+      d.word.includes(dictSearch) ||
+      d.word.includes(hiraganaSearch) ||
+      d.word.includes(katakanaSearch) ||
+      // Search in reading field (try all kana variants)
+      d.reading.includes(dictSearch) ||
+      d.reading.includes(hiraganaSearch) ||
+      d.reading.includes(katakanaSearch) ||
+      // Search in meaning field (English, case-insensitive)
+      d.meaning.toLowerCase().includes(search)
+    );
+  });
+
+  const filteredWordNotes = wordNotes.filter(n => {
+    if (!wordNotesSearch) return true;
+
+    const search = wordNotesSearch.toLowerCase();
+    const hiraganaSearch = katakanaToHiragana(wordNotesSearch);
+    const katakanaSearch = hiraganaToKatakana(wordNotesSearch);
+
+    return (
+      // Search in word field (try all kana variants)
+      n.word.includes(wordNotesSearch) ||
+      n.word.includes(hiraganaSearch) ||
+      n.word.includes(katakanaSearch) ||
+      // Search in note field (case-insensitive)
+      n.note.toLowerCase().includes(search)
+    );
+  });
 
   if (!isOpen) return null;
 

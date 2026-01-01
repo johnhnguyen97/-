@@ -7,6 +7,7 @@ import {
   type DrillSettings,
   type DrillSessionStats,
   DEFAULT_DRILL_SETTINGS,
+  DRILL_SETTINGS_KEY,
   checkAnswer,
   getDrillCategory,
   calculateAccuracy
@@ -27,20 +28,44 @@ export function PatternDrillPage() {
   const [status, setStatus] = useState<GameStatus>('settings');
   const [error, setError] = useState<string | null>(null);
 
-  // Settings
-  const [settings, setSettings] = useState<DrillSettings>(DEFAULT_DRILL_SETTINGS);
+  // Settings - persist to localStorage
+  const [settings, setSettings] = useState<DrillSettings>(() => {
+    try {
+      const saved = localStorage.getItem(DRILL_SETTINGS_KEY);
+      if (saved) {
+        const parsed = JSON.parse(saved);
+        // Merge with defaults to handle new settings fields
+        return { ...DEFAULT_DRILL_SETTINGS, ...parsed };
+      }
+    } catch (e) {
+      console.error('Failed to load drill settings:', e);
+    }
+    return DEFAULT_DRILL_SETTINGS;
+  });
+
+  // Save settings to localStorage when they change
+  useEffect(() => {
+    try {
+      localStorage.setItem(DRILL_SETTINGS_KEY, JSON.stringify(settings));
+    } catch (e) {
+      console.error('Failed to save drill settings:', e);
+    }
+  }, [settings]);
 
   // Game state
   const [questions, setQuestions] = useState<DrillQuestion[]>([]);
   const [currentIndex, setCurrentIndex] = useState(0);
   const [userAnswer, setUserAnswer] = useState('');
   const [isCorrect, setIsCorrect] = useState<boolean | null>(null);
+  const [isSkipped, setIsSkipped] = useState(false);
   const [sessionStats, setSessionStats] = useState<DrillSessionStats>({
     totalQuestions: 0,
     correctAnswers: 0,
     incorrectAnswers: 0,
+    skippedAnswers: 0,
     accuracy: 0,
-    categoryStats: {}
+    categoryStats: {},
+    questionResults: []
   });
 
   // Results tracking for API update
@@ -72,13 +97,16 @@ export function PatternDrillPage() {
     setCurrentIndex(0);
     setUserAnswer('');
     setIsCorrect(null);
+    setIsSkipped(false);
     setSessionResults([]);
     setSessionStats({
       totalQuestions: 0,
       correctAnswers: 0,
       incorrectAnswers: 0,
+      skippedAnswers: 0,
       accuracy: 0,
-      categoryStats: {}
+      categoryStats: {},
+      questionResults: []
     });
 
     try {
@@ -119,6 +147,7 @@ export function PatternDrillPage() {
 
     setUserAnswer(answer);
     setIsCorrect(correct);
+    setIsSkipped(false);
     setStatus('answered');
 
     // Track result
@@ -137,7 +166,41 @@ export function PatternDrillPage() {
         ...prev,
         correctAnswers: newCorrect,
         incorrectAnswers: newIncorrect,
-        accuracy: calculateAccuracy(newCorrect, total)
+        accuracy: calculateAccuracy(newCorrect, total),
+        questionResults: [...prev.questionResults, { correct, skipped: false }]
+      };
+    });
+  }, [status, questions, currentIndex]);
+
+  // Handle "I don't know" skip
+  const handleSkipQuestion = useCallback(() => {
+    if (status !== 'playing' || !questions[currentIndex]) return;
+
+    const question = questions[currentIndex];
+
+    setUserAnswer('(skipped)');
+    setIsCorrect(false);
+    setIsSkipped(true);
+    setStatus('answered');
+
+    // Track as incorrect
+    const category = getDrillCategory(
+      question.sentence.word_type,
+      question.prompt.from_form,
+      question.prompt.to_form
+    );
+
+    setSessionResults(prev => [...prev, { category, correct: false }]);
+    setSessionStats(prev => {
+      const newIncorrect = prev.incorrectAnswers + 1;
+      const newSkipped = prev.skippedAnswers + 1;
+      const total = prev.correctAnswers + newIncorrect;
+      return {
+        ...prev,
+        incorrectAnswers: newIncorrect,
+        skippedAnswers: newSkipped,
+        accuracy: calculateAccuracy(prev.correctAnswers, total),
+        questionResults: [...prev.questionResults, { correct: false, skipped: true }]
       };
     });
   }, [status, questions, currentIndex]);
@@ -169,6 +232,7 @@ export function PatternDrillPage() {
       setCurrentIndex(nextIndex);
       setUserAnswer('');
       setIsCorrect(null);
+      setIsSkipped(false);
       setStatus('playing');
     }
   }, [currentIndex, questions.length, session, sessionResults]);
@@ -283,6 +347,8 @@ export function PatternDrillPage() {
                     prompt={currentQuestion.prompt}
                     practiceMode={currentQuestion.practiceMode}
                     exampleSentence={currentQuestion.exampleSentence}
+                    showFurigana={settings.showFurigana}
+                    showRomaji={settings.showRomaji}
                   />
 
                   {/* Answer input (only show when playing) */}
@@ -291,7 +357,9 @@ export function PatternDrillPage() {
                       mode={settings.mode}
                       mcOptions={currentQuestion.mcOptions}
                       onSubmit={handleSubmitAnswer}
+                      onSkip={handleSkipQuestion}
                       disabled={false}
+                      showFurigana={settings.showFurigana}
                     />
                   )}
 
@@ -299,6 +367,7 @@ export function PatternDrillPage() {
                   {status === 'answered' && (
                     <DrillFeedback
                       isCorrect={isCorrect!}
+                      isSkipped={isSkipped}
                       userAnswer={userAnswer}
                       correctAnswer={currentQuestion.correctAnswer}
                       explanation={currentQuestion.prompt.explanation}
@@ -314,6 +383,7 @@ export function PatternDrillPage() {
                     prompt={currentQuestion.prompt}
                     sentence={currentQuestion.sentence}
                     isAnswered={status === 'answered'}
+                    showGrammarTips={settings.showGrammarTips}
                   />
                 </div>
               </div>
