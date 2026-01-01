@@ -15,9 +15,11 @@ ADD COLUMN IF NOT EXISTS romaji TEXT;
 -- 2. Update drill_prompts to include new phase values (1-8)
 -- ============================================================================
 
--- First, modify the phase column to accept values up to 8
-ALTER TABLE drill_prompts
-ALTER COLUMN phase TYPE INTEGER USING phase::integer;
+-- First, drop the old constraint that only allowed phases 1-3
+ALTER TABLE drill_prompts DROP CONSTRAINT IF EXISTS drill_prompts_phase_check;
+
+-- Add new constraint allowing phases 1-8
+ALTER TABLE drill_prompts ADD CONSTRAINT drill_prompts_phase_check CHECK (phase >= 1 AND phase <= 8);
 
 -- ============================================================================
 -- 3. Insert new drill prompts for expanded conjugation forms
