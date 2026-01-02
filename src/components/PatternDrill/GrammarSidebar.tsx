@@ -134,7 +134,7 @@ export const GrammarSidebar: React.FC<GrammarSidebarProps> = ({
       </div>
 
       {/* Hint Section - Only show before answering and when enabled */}
-      {showGrammarTips && !isAnswered && conjugationRule && (
+      {showGrammarTips && !isAnswered && conjugationRule && conjugationRule.steps && conjugationRule.steps.length > 0 && (
         <div className="bg-white/80 backdrop-blur-sm rounded-xl shadow-sm overflow-hidden border border-violet-200">
           <button
             onClick={() => setHintExpanded(!hintExpanded)}
@@ -158,42 +158,46 @@ export const GrammarSidebar: React.FC<GrammarSidebarProps> = ({
             <div className="px-4 pb-4 space-y-3 animate-fadeInUp">
               {/* Form name */}
               <div className="text-xs font-medium text-violet-600 uppercase tracking-wide">
-                {conjugationRule.nameJp} - {conjugationRule.name}
+                {conjugationRule.nameJp || 'Form'} - {conjugationRule.name || 'Conjugation'}
               </div>
 
               {/* Steps */}
-              <div className="space-y-2">
-                {conjugationRule.steps.map((step, index) => (
-                  <div key={index} className="flex items-start gap-2">
-                    <span className="flex-shrink-0 w-5 h-5 bg-violet-100 text-violet-600 rounded-full text-xs font-bold flex items-center justify-center mt-0.5">
-                      {index + 1}
-                    </span>
-                    <span className="text-sm text-gray-700">{step}</span>
-                  </div>
-                ))}
-              </div>
+              {conjugationRule.steps && (
+                <div className="space-y-2">
+                  {conjugationRule.steps.map((step, index) => (
+                    <div key={index} className="flex items-start gap-2">
+                      <span className="flex-shrink-0 w-5 h-5 bg-violet-100 text-violet-600 rounded-full text-xs font-bold flex items-center justify-center mt-0.5">
+                        {index + 1}
+                      </span>
+                      <span className="text-sm text-gray-700">{step}</span>
+                    </div>
+                  ))}
+                </div>
+              )}
 
               {/* Example */}
-              <div className="bg-violet-50 rounded-lg p-3 mt-2">
-                <div className="text-xs font-medium text-violet-500 mb-1">Example</div>
-                <div className="flex items-center gap-2 text-sm">
-                  <ruby className="text-gray-700">
-                    {conjugationRule.example.dictionary}
-                    <rp>(</rp>
-                    <rt className="text-xs text-gray-500">{conjugationRule.example.reading}</rt>
-                    <rp>)</rp>
-                  </ruby>
-                  <svg className="w-4 h-4 text-violet-400" fill="none" stroke="currentColor" viewBox="0 0 24 24">
-                    <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M13 7l5 5m0 0l-5 5m5-5H6" />
-                  </svg>
-                  <ruby className="text-violet-700 font-medium">
-                    {conjugationRule.example.result}
-                    <rp>(</rp>
-                    <rt className="text-xs text-violet-500">{conjugationRule.example.resultReading}</rt>
-                    <rp>)</rp>
-                  </ruby>
+              {conjugationRule.example && (
+                <div className="bg-violet-50 rounded-lg p-3 mt-2">
+                  <div className="text-xs font-medium text-violet-500 mb-1">Example</div>
+                  <div className="flex items-center gap-2 text-sm">
+                    <ruby className="text-gray-700">
+                      {conjugationRule.example.dictionary}
+                      <rp>(</rp>
+                      <rt className="text-xs text-gray-500">{conjugationRule.example.reading}</rt>
+                      <rp>)</rp>
+                    </ruby>
+                    <svg className="w-4 h-4 text-violet-400" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                      <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M13 7l5 5m0 0l-5 5m5-5H6" />
+                    </svg>
+                    <ruby className="text-violet-700 font-medium">
+                      {conjugationRule.example.result}
+                      <rp>(</rp>
+                      <rt className="text-xs text-violet-500">{conjugationRule.example.resultReading}</rt>
+                      <rp>)</rp>
+                    </ruby>
+                  </div>
                 </div>
-              </div>
+              )}
 
               {/* Tips */}
               {conjugationRule.tips && conjugationRule.tips.length > 0 && (
@@ -231,7 +235,7 @@ export const GrammarSidebar: React.FC<GrammarSidebarProps> = ({
           </p>
 
           {/* Show full conjugation rule after answering */}
-          {conjugationRule && (
+          {conjugationRule && conjugationRule.steps && conjugationRule.steps.length > 0 && (
             <div className="mt-3 pt-3 border-t border-amber-200 space-y-2">
               <div className="text-xs font-medium text-amber-600">
                 {getVerbGroupDisplayName(verbGroup)} Pattern:
