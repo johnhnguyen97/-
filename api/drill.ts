@@ -113,25 +113,37 @@ function shuffleArray<T>(array: T[]): T[] {
 
 function getConjugationEnglish(toForm: string): string {
   const formMap: Record<string, string> = {
-    'masu': 'do/does (polite)',
-    'masen': "don't/doesn't (polite)",
-    'mashita': 'did (polite)',
-    'masen_deshita': "didn't (polite)",
+    // Polite forms
+    'masu': 'polite present',
+    'masen': 'polite negative',
+    'mashita': 'polite past',
+    'masen_deshita': 'polite past negative',
+    // Plain forms
     'dictionary': 'dictionary form',
-    'negative': "don't/doesn't (plain)",
-    'past': 'did (plain)',
-    'past_negative': "didn't (plain)",
-    'te': '-te form',
-    'tai': 'want to',
-    'volitional': "let's / I'll",
-    'potential': 'can do',
-    'conditional_ba': 'if (general)',
-    'conditional_tara': 'if/when',
-    'passive': 'is done (passive)',
-    'causative': 'make/let do',
-    'imperative': 'do! (command)',
+    'negative': 'plain negative',
+    'past': 'plain past',
+    'past_negative': 'plain past negative',
+    'nai': 'plain negative',
+    // Te-form
+    'te': 'te-form',
+    // Desire
+    'tai': 'want to do',
+    'tai_negative': "don't want to",
+    // Volitional
+    'volitional': 'volitional (let\'s)',
+    // Potential
+    'potential': 'potential (can do)',
+    // Conditional
+    'conditional_ba': 'conditional (if)',
+    'conditional_tara': 'conditional (when/if)',
+    // Passive/Causative
+    'passive': 'passive',
+    'causative': 'causative',
+    'causative_passive': 'causative passive',
+    // Imperative
+    'imperative': 'imperative (command)',
   };
-  return formMap[toForm] || toForm;
+  return formMap[toForm] || toForm.replace(/_/g, ' ');
 }
 
 function generateMCOptions(

@@ -46,6 +46,10 @@ const intentClasses: Record<Intent, { active: string; ring: string }> = {
     active: 'bg-gradient-to-r from-red-500 to-rose-600',
     ring: 'ring-red-200',
   },
+  danger: {
+    active: 'bg-gradient-to-r from-red-500 to-rose-600',
+    ring: 'ring-red-200',
+  },
 };
 
 export const Toggle: React.FC<ToggleProps> = ({

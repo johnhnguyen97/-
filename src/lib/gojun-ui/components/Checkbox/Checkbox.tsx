@@ -47,6 +47,10 @@ const intentClasses: Record<Intent, { checked: string; ring: string }> = {
     checked: 'bg-gradient-to-r from-red-500 to-rose-600',
     ring: 'ring-red-200',
   },
+  danger: {
+    checked: 'bg-gradient-to-r from-red-500 to-rose-600',
+    ring: 'ring-red-200',
+  },
 };
 
 export const Checkbox: React.FC<CheckboxProps> = ({

@@ -62,6 +62,12 @@ const intentClasses: Record<Intent, {
     outlined: 'border-red-300 text-red-700 hover:bg-red-50',
     outlinedSelected: 'border-red-500 bg-red-50 text-red-700',
   },
+  danger: {
+    default: 'bg-red-100 text-red-700 hover:bg-red-200',
+    selected: 'bg-gradient-to-r from-red-500 to-rose-600 text-white shadow-md',
+    outlined: 'border-red-300 text-red-700 hover:bg-red-50',
+    outlinedSelected: 'border-red-500 bg-red-50 text-red-700',
+  },
 };
 
 export const Chip: React.FC<ChipProps> = ({

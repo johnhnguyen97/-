@@ -1,13 +1,23 @@
 import { supabase } from '../lib/supabase';
 
+// Interface matching the actual grammar_topics table schema
 export interface GrammarTopic {
   id: string;
-  pattern: string;
-  name: string;
-  name_japanese: string | null;
+  slug: string;
+  title: string;
+  url: string | null;
   category: string;
-  chapter: string | null;
-  level: string | null;
+  jlpt_level: string | null;
+  sections: GrammarSection[];
+  raw_content: string | null;
+  created_at: string;
+  updated_at: string;
+
+  // Computed/derived fields for UI compatibility
+  pattern: string;      // derived from slug
+  name: string;         // alias for title
+  name_japanese: string | null;
+  level: string | null; // alias for jlpt_level
   description: string | null;
   usage: string | null;
   examples: Array<{
@@ -18,6 +28,16 @@ export interface GrammarTopic {
   conjugation: Record<string, string> | null;
   notes: string | null;
   related_patterns: string[] | null;
+}
+
+export interface GrammarSection {
+  heading?: string;
+  content?: string;
+  examples?: Array<{
+    japanese: string;
+    english: string;
+    reading?: string;
+  }>;
 }
 
 export interface GrammarChunk {
@@ -39,6 +59,92 @@ let topicsCacheTime: number = 0;
 const CACHE_TTL = 5 * 60 * 1000; // 5 minutes
 
 /**
+ * Transform raw database row to GrammarTopic with derived fields
+ */
+function transformTopic(row: Record<string, unknown>): GrammarTopic {
+  const sections = (row.sections as GrammarSection[]) || [];
+
+  // Extract description from first section content
+  const description = sections.length > 0 && sections[0].content
+    ? sections[0].content
+    : null;
+
+  // Extract examples from all sections
+  const examples: Array<{ japanese: string; reading: string; english: string }> = [];
+  for (const section of sections) {
+    if (section.examples) {
+      for (const ex of section.examples) {
+        examples.push({
+          japanese: ex.japanese,
+          english: ex.english,
+          reading: ex.reading || '',
+        });
+      }
+    }
+  }
+
+  // Generate pattern from slug (e.g., "particle-wa" -> "は")
+  const patternMap: Record<string, string> = {
+    'particle-wa': 'は',
+    'particle-ga': 'が',
+    'particle-wo': 'を',
+    'particle-ni': 'に',
+    'particle-de': 'で',
+    'particle-to': 'と',
+    'particle-mo': 'も',
+    'particle-ka': 'か',
+    'particle-ne': 'ね',
+    'particle-yo': 'よ',
+    'particle-no': 'の',
+    'particle-he': 'へ',
+    'particle-kara': 'から',
+    'particle-made': 'まで',
+    'te-form': 'て形',
+    'ta-form': 'た形',
+    'nai-form': 'ない形',
+    'masu-form': 'ます形',
+    'dictionary-form': '辞書形',
+    'potential-form': '可能形',
+    'passive-form': '受身形',
+    'causative-form': '使役形',
+    'conditional-ba': 'ば形',
+    'conditional-tara': 'たら',
+    'volitional-form': '意志形',
+    'imperative-form': '命令形',
+    'i-adjectives': 'い形容詞',
+    'na-adjectives': 'な形容詞',
+  };
+
+  const slug = row.slug as string;
+  const pattern = patternMap[slug] || slug.replace(/-/g, ' ');
+
+  return {
+    id: row.id as string,
+    slug: slug,
+    title: row.title as string,
+    url: row.url as string | null,
+    category: row.category as string,
+    jlpt_level: row.jlpt_level as string | null,
+    sections: sections,
+    raw_content: row.raw_content as string | null,
+    created_at: row.created_at as string,
+    updated_at: row.updated_at as string,
+
+    // Derived fields for UI compatibility
+    pattern: pattern,
+    name: row.title as string,
+    name_japanese: null, // Not in current schema
+    level: row.jlpt_level as string | null,
+    description: description,
+    usage: null, // Could be extracted from sections if needed
+    examples: examples.length > 0 ? examples : null,
+    conjugation: null, // Could be extracted from sections if needed
+    notes: null, // Could be extracted from sections if needed
+    related_patterns: null, // Not in current schema
+  };
+}
+
+/**
  * Get all grammar topics
  */
 export async function getAllTopics(): Promise<GrammarTopic[]> {
@@ -51,14 +157,14 @@ export async function getAllTopics(): Promise<GrammarTopic[]> {
     .from('grammar_topics')
     .select('*')
     .order('category')
-    .order('name');
+    .order('title');
 
   if (error) {
     console.error('Error fetching grammar topics:', error);
     throw error;
   }
 
-  topicsCache = data || [];
+  topicsCache = (data || []).map(transformTopic);
   topicsCacheTime = Date.now();
   return topicsCache;
 }
@@ -71,14 +177,14 @@ export async function getTopicsByCategory(category: string): Promise<GrammarTopi
     .from('grammar_topics')
     .select('*')
     .eq('category', category)
-    .order('name');
+    .order('title');
 
   if (error) {
     console.error('Error fetching topics by category:', error);
     throw error;
   }
 
-  return data || [];
+  return (data || []).map(transformTopic);
 }
 
 /**
@@ -88,16 +194,16 @@ export async function getTopicsByLevel(level: string): Promise<GrammarTopic[]> {
   const { data, error } = await supabase
     .from('grammar_topics')
     .select('*')
-    .eq('level', level)
+    .eq('jlpt_level', level)
     .order('category')
-    .order('name');
+    .order('title');
 
   if (error) {
     console.error('Error fetching topics by level:', error);
     throw error;
   }
 
-  return data || [];
+  return (data || []).map(transformTopic);
 }
 
 /**
@@ -116,7 +222,7 @@ export async function getTopicById(id: string): Promise<GrammarTopic | null> {
     throw error;
   }
 
-  return data;
+  return data ? transformTopic(data) : null;
 }
 
 /**
@@ -153,7 +259,7 @@ export async function findRelevantTopics(japaneseText: string): Promise<GrammarT
     let score = 0;
 
     // Check if pattern appears in text
-    if (japaneseText.includes(topic.pattern)) {
+    if (topic.pattern && japaneseText.includes(topic.pattern)) {
       score += 10;
     }
 
@@ -250,13 +356,17 @@ export async function getCategories(): Promise<string[]> {
  */
 export function getCategoryDisplayName(category: string): string {
   const names: Record<string, string> = {
+    'particle': 'Particles (助詞)',
     'particles': 'Particles (助詞)',
     'verb-forms': 'Verb Forms (動詞活用)',
+    'verb-conjugation': 'Verb Conjugation (動詞活用)',
     'grammar': 'Grammar Patterns (文法)',
+    'adjective': 'Adjectives (形容詞)',
     'adjectives': 'Adjectives (形容詞)',
     'copula': 'Copula (断定)',
+    'general': 'General (一般)',
   };
-  return names[category] || category;
+  return names[category] || category.charAt(0).toUpperCase() + category.slice(1).replace(/-/g, ' ');
 }
 
 /**

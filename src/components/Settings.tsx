@@ -10,6 +10,14 @@ import { getSettings, updateSettings, getIcalUrl } from '../services/calendarApi
 import { getGoogleStatus, connectGoogle, disconnectGoogle, createWordOfTheDayEvents, deleteWordOfTheDayEvents, type GoogleStatus } from '../services/googleCalendarApi';
 import { TimePicker } from './Calendar/TimePicker';
 import { DateRangePicker } from './Calendar/DateRangePicker';
+import {
+  Modal,
+  ModalHeader,
+  ModalTitle,
+  ModalContent,
+  Input,
+  Button,
+} from '../lib/gojun-ui';
 
 interface SettingsProps {
   onClose: () => void;
@@ -312,34 +320,12 @@ export function Settings({ onClose }: SettingsProps) {
   };
 
   return (
-    <div
-      className={`fixed inset-0 z-50 flex items-center justify-center p-4 transition-all duration-200 ${
-        isVisible ? 'opacity-100' : 'opacity-0'
-      }`}
-      onClick={handleClose}
-    >
-      <div className="absolute inset-0 bg-black/40 backdrop-blur-sm" />
+    <Modal isOpen={isVisible} onClose={handleClose} size="lg">
+      <ModalHeader>
+        <ModalTitle>Settings</ModalTitle>
+      </ModalHeader>
 
-      <div
-        className={`relative bg-white rounded-2xl shadow-2xl w-full max-w-lg max-h-[90vh] overflow-hidden transform transition-all duration-200 ${
-          isVisible ? 'scale-100 translate-y-0' : 'scale-95 translate-y-4'
-        }`}
-        onClick={(e) => e.stopPropagation()}
-      >
-        {/* Header */}
-        <div className="sticky top-0 bg-white border-b border-gray-100 px-6 py-4 flex items-center justify-between z-10">
-          <h2 className="text-xl font-semibold text-gray-900">Settings</h2>
-          <button
-            onClick={handleClose}
-            className="w-8 h-8 rounded-full hover:bg-gray-100 flex items-center justify-center transition-colors"
-          >
-            <svg className="w-5 h-5 text-gray-500" fill="none" stroke="currentColor" viewBox="0 0 24 24">
-              <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M6 18L18 6M6 6l12 12" />
-            </svg>
-          </button>
-        </div>
-
-        <div className="overflow-y-auto max-h-[calc(90vh-80px)]">
+      <ModalContent className="p-0">
           {/* Messages */}
           {(error || success) && (
             <div className="px-6 pt-4">
@@ -488,50 +474,53 @@ export function Settings({ onClose }: SettingsProps) {
 
                   {/* API Key Input */}
                   <div className="pt-3 border-t border-gray-100">
-                    <p className="text-sm font-medium text-gray-700 mb-2">Anthropic API Key</p>
                     <form onSubmit={handleSaveApiKey} className="space-y-2">
-                      <div className="relative">
-                        <input
-                          type={showApiKey ? 'text' : 'password'}
-                          value={apiKey}
-                          onChange={(e) => setApiKey(e.target.value)}
-                          placeholder={hasApiKey ? 'Update key...' : 'sk-ant-api03-...'}
-                          className="w-full px-4 py-2.5 pr-10 bg-gray-50 border border-gray-200 rounded-xl text-sm focus:outline-none focus:ring-2 focus:ring-purple-500/20 focus:border-purple-400 font-mono"
-                        />
-                        <button
-                          type="button"
-                          onClick={() => setShowApiKey(!showApiKey)}
-                          className="absolute right-3 top-1/2 -translate-y-1/2 text-gray-400 hover:text-gray-600"
-                        >
-                          {showApiKey ? (
-                            <svg className="w-4 h-4" fill="none" stroke="currentColor" viewBox="0 0 24 24">
-                              <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M13.875 18.825A10.05 10.05 0 0112 19c-4.478 0-8.268-2.943-9.543-7a9.97 9.97 0 011.563-3.029m5.858.908a3 3 0 114.243 4.243M9.878 9.878l4.242 4.242M9.88 9.88l-3.29-3.29m7.532 7.532l3.29 3.29M3 3l3.59 3.59m0 0A9.953 9.953 0 0112 5c4.478 0 8.268 2.943 9.543 7a10.025 10.025 0 01-4.132 5.411m0 0L21 21" />
-                            </svg>
-                          ) : (
-                            <svg className="w-4 h-4" fill="none" stroke="currentColor" viewBox="0 0 24 24">
-                              <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M15 12a3 3 0 11-6 0 3 3 0 016 0z" />
-                              <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M2.458 12C3.732 7.943 7.523 5 12 5c4.478 0 8.268 2.943 9.542 7-1.274 4.057-5.064 7-9.542 7-4.477 0-8.268-2.943-9.542-7z" />
-                            </svg>
-                          )}
-                        </button>
-                      </div>
+                      <Input
+                        type={showApiKey ? 'text' : 'password'}
+                        value={apiKey}
+                        onChange={(e) => setApiKey(e.target.value)}
+                        placeholder={hasApiKey ? 'Update key...' : 'sk-ant-api03-...'}
+                        label="Anthropic API Key"
+                        variant="filled"
+                        className="font-mono"
+                        rightIcon={
+                          <button
+                            type="button"
+                            onClick={() => setShowApiKey(!showApiKey)}
+                            className="text-gray-400 hover:text-gray-600"
+                          >
+                            {showApiKey ? (
+                              <svg className="w-4 h-4" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                                <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M13.875 18.825A10.05 10.05 0 0112 19c-4.478 0-8.268-2.943-9.543-7a9.97 9.97 0 011.563-3.029m5.858.908a3 3 0 114.243 4.243M9.878 9.878l4.242 4.242M9.88 9.88l-3.29-3.29m7.532 7.532l3.29 3.29M3 3l3.59 3.59m0 0A9.953 9.953 0 0112 5c4.478 0 8.268 2.943 9.543 7a10.025 10.025 0 01-4.132 5.411m0 0L21 21" />
+                              </svg>
+                            ) : (
+                              <svg className="w-4 h-4" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                                <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M15 12a3 3 0 11-6 0 3 3 0 016 0z" />
+                                <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M2.458 12C3.732 7.943 7.523 5 12 5c4.478 0 8.268 2.943 9.542 7-1.274 4.057-5.064 7-9.542 7-4.477 0-8.268-2.943-9.542-7z" />
+                              </svg>
+                            )}
+                          </button>
+                        }
+                      />
                       <div className="flex gap-2">
-                        <button
+                        <Button
                           type="submit"
                           disabled={loading || !apiKey}
-                          className="flex-1 py-2 px-4 bg-purple-600 hover:bg-purple-700 text-white text-sm font-medium rounded-xl transition-colors disabled:opacity-50"
+                          intent="secondary"
+                          className="flex-1"
                         >
                           {loading ? 'Saving...' : hasApiKey ? 'Update' : 'Save Key'}
-                        </button>
+                        </Button>
                         {hasApiKey && (
-                          <button
+                          <Button
                             type="button"
                             onClick={handleDeleteApiKey}
                             disabled={loading}
-                            className="py-2 px-4 bg-red-50 hover:bg-red-100 text-red-600 text-sm font-medium rounded-xl transition-colors"
+                            variant="ghost"
+                            intent="danger"
                           >
                             Delete
-                          </button>
+                          </Button>
                         )}
                       </div>
                     </form>
@@ -894,8 +883,7 @@ export function Settings({ onClose }: SettingsProps) {
 
           {/* Bottom padding */}
           <div className="h-4"></div>
-        </div>
-      </div>
-    </div>
+      </ModalContent>
+    </Modal>
   );
 }

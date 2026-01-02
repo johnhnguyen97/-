@@ -34,6 +34,7 @@ const variantClasses: Record<ButtonVariant, Record<Intent, string>> = {
     accent: 'bg-gradient-to-r from-pink-400 to-rose-500 text-white shadow-md hover:from-pink-500 hover:to-rose-600 active:from-pink-600 active:to-rose-700',
     success: 'bg-gradient-to-r from-emerald-500 to-green-600 text-white shadow-md hover:from-emerald-600 hover:to-green-700 active:from-emerald-700 active:to-green-800',
     error: 'bg-gradient-to-r from-red-500 to-rose-600 text-white shadow-md hover:from-red-600 hover:to-rose-700 active:from-red-700 active:to-rose-800',
+    danger: 'bg-gradient-to-r from-red-500 to-rose-600 text-white shadow-md hover:from-red-600 hover:to-rose-700 active:from-red-700 active:to-rose-800',
   },
   outline: {
     primary: 'border-2 border-amber-500 text-amber-600 hover:bg-amber-50 active:bg-amber-100',
@@ -41,6 +42,7 @@ const variantClasses: Record<ButtonVariant, Record<Intent, string>> = {
     accent: 'border-2 border-pink-500 text-pink-600 hover:bg-pink-50 active:bg-pink-100',
     success: 'border-2 border-emerald-500 text-emerald-600 hover:bg-emerald-50 active:bg-emerald-100',
     error: 'border-2 border-red-500 text-red-600 hover:bg-red-50 active:bg-red-100',
+    danger: 'border-2 border-red-500 text-red-600 hover:bg-red-50 active:bg-red-100',
   },
   ghost: {
     primary: 'text-amber-600 hover:bg-amber-50 active:bg-amber-100',
@@ -48,6 +50,7 @@ const variantClasses: Record<ButtonVariant, Record<Intent, string>> = {
     accent: 'text-pink-600 hover:bg-pink-50 active:bg-pink-100',
     success: 'text-emerald-600 hover:bg-emerald-50 active:bg-emerald-100',
     error: 'text-red-600 hover:bg-red-50 active:bg-red-100',
+    danger: 'text-red-600 hover:bg-red-50 active:bg-red-100',
   },
   link: {
     primary: 'text-amber-600 hover:text-amber-700 hover:underline p-0 h-auto',
@@ -55,6 +58,7 @@ const variantClasses: Record<ButtonVariant, Record<Intent, string>> = {
     accent: 'text-pink-600 hover:text-pink-700 hover:underline p-0 h-auto',
     success: 'text-emerald-600 hover:text-emerald-700 hover:underline p-0 h-auto',
     error: 'text-red-600 hover:text-red-700 hover:underline p-0 h-auto',
+    danger: 'text-red-600 hover:text-red-700 hover:underline p-0 h-auto',
   },
 };
 

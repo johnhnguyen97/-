@@ -39,7 +39,6 @@ export const Layout: React.FC = () => {
     { path: '/pattern-drill', label: '🔄 Pattern Drill' },
     { path: '/radical-practice', label: '部 Radical Game' },
     { path: '/calendar', label: '📅 Calendar' },
-    { path: '/settings', label: '⚙️ Settings' },
   ];
 
   return (

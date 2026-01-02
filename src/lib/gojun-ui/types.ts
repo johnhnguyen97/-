@@ -3,7 +3,7 @@
  */
 
 export type Size = 'sm' | 'md' | 'lg';
-export type Intent = 'primary' | 'secondary' | 'accent' | 'success' | 'error';
+export type Intent = 'primary' | 'secondary' | 'accent' | 'success' | 'error' | 'danger';
 
 export interface BaseComponentProps {
   className?: string;

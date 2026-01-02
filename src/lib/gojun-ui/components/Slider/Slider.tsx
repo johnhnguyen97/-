@@ -56,6 +56,11 @@ const intentClasses: Record<Intent, { fill: string; thumb: string; ring: string 
     thumb: 'border-red-500 hover:border-red-600',
     ring: 'focus:ring-red-200',
   },
+  danger: {
+    fill: 'bg-gradient-to-r from-red-500 to-rose-600',
+    thumb: 'border-red-500 hover:border-red-600',
+    ring: 'focus:ring-red-200',
+  },
 };
 
 export const Slider: React.FC<SliderProps> = ({
