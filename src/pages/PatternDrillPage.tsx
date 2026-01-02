@@ -1,14 +1,13 @@
 import { useState, useEffect, useCallback } from 'react';
 import { useAuth } from '../contexts/AuthContext';
 import { useTheme } from '../contexts/ThemeContext';
-import { getDrillSession, updateUserAccuracy, type DrillQuestion } from '../services/drillApi';
+import { getDrillSession, updateUserAccuracy, checkAnswerLocal, type DrillQuestion } from '../services/drillApi';
 import { recordDrill } from '../services/userStatsApi';
 import {
   type DrillSettings,
   type DrillSessionStats,
   DEFAULT_DRILL_SETTINGS,
   DRILL_SETTINGS_KEY,
-  checkAnswer,
   getDrillCategory,
   calculateAccuracy
 } from '../types/drill';
@@ -143,7 +142,7 @@ export function PatternDrillPage() {
     if (status !== 'playing' || !questions[currentIndex]) return;
 
     const question = questions[currentIndex];
-    const correct = checkAnswer(answer, question.correctAnswer);
+    const correct = checkAnswerLocal(answer, question.correctAnswer);
 
     setUserAnswer(answer);
     setIsCorrect(correct);

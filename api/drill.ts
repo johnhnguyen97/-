@@ -4,47 +4,26 @@ import { createClient } from '@supabase/supabase-js';
 const supabaseUrl = process.env.SUPABASE_URL || process.env.VITE_SUPABASE_URL;
 const supabaseServiceKey = process.env.SUPABASE_SERVICE_ROLE_KEY;
 
-// Map from masu-form (drill_sentences) to dictionary form (example_sentences)
-const MASU_TO_DICTIONARY: Record<string, string> = {
-  '食べます': '食べる',
-  '見ます': '見る',
-  '起きます': '起きる',
-  '寝ます': '寝る',
-  '開けます': '開ける',
-  '行きます': '行く',
-  '書きます': '書く',
-  '読みます': '読む',
-  '飲みます': '飲む',
-  '買います': '買う',
-  '話します': '話す',
-  '聞きます': '聞く',
-  '待ちます': '待つ',
-  'します': 'する',
-  '来ます': '来る',
-  '高いです': '高い',
-  '安いです': '安い',
-  'おいしいです': 'おいしい',
-  '大きいです': '大きい',
-  '小さいです': '小さい',
-  '静かです': '静か',
-  '元気です': '元気',
-  '好きです': '好き',
-  'きれいです': 'きれい',
-  '有名です': '有名',
-};
+// ============================================================================
+// TYPES
+// ============================================================================
 
-interface DrillSentence {
+interface Verb {
   id: string;
-  japanese_base: string;
-  english: string;
-  word_type: 'verb' | 'adjective';
-  verb_group?: string;
-  adjective_type?: string;
+  dictionary_form: string;
+  reading: string;
+  romaji: string;
+  meaning: string;
+  verb_group: 'godan' | 'ichidan' | 'irregular-suru' | 'irregular-kuru';
   jlpt_level: string;
-  conjugations: Record<string, { japanese: string; reading: string; romaji: string }>;
-  dictionary_form?: string;
-  reading?: string;
-  romaji?: string;
+  is_transitive: boolean | null;
+  conjugations: Record<string, ConjugationForm>;
+}
+
+interface ConjugationForm {
+  kanji: string;
+  reading: string;
+  romaji: string;
 }
 
 interface DrillPrompt {
@@ -58,16 +37,6 @@ interface DrillPrompt {
   phase: number;
 }
 
-interface ExampleSentence {
-  id: string;
-  japanese: string;
-  english: string;
-  word_key: string;
-  word_reading: string;
-  tatoeba_id: number;
-  jlpt_level: string;
-}
-
 interface MCOption {
   id: string;
   text: string;
@@ -77,9 +46,61 @@ interface MCOption {
 }
 
 interface ValidCombination {
-  sentence: DrillSentence;
+  verb: Verb;
   prompt: DrillPrompt;
 }
+
+// ============================================================================
+// FORM MAPPING - Grammar engine uses different form names
+// ============================================================================
+
+// Map from drill_prompts to_form to grammar engine conjugation keys
+const FORM_TO_GRAMMAR_ENGINE: Record<string, string> = {
+  // Polite forms
+  'masu_positive': 'masu',
+  'masu_negative': 'masen',
+  'masu_past_positive': 'mashita',
+  'masu_past_negative': 'masen_deshita',
+  // Plain forms
+  'plain_positive': 'dictionary',
+  'plain_negative': 'negative',
+  'plain_past_positive': 'past',
+  'plain_past_negative': 'past_negative',
+  // Te-form
+  'te_form': 'te',
+  // Desire
+  'tai_form': 'tai',
+  // Volitional
+  'volitional': 'volitional',
+  // Potential
+  'potential_positive': 'potential',
+  'potential': 'potential',
+  // Conditional
+  'conditional_ba': 'conditional_ba',
+  'conditional_tara': 'conditional_tara',
+  // Passive/Causative
+  'passive_positive': 'passive',
+  'causative_positive': 'causative',
+  // Imperative
+  'imperative': 'imperative',
+  // Legacy mappings
+  'present_positive': 'masu',
+  'present_negative': 'masen',
+  'past_positive': 'mashita',
+  'past_negative': 'masen_deshita',
+};
+
+// Map verb_group from grammar engine to drill system
+const VERB_GROUP_MAP: Record<string, string> = {
+  'godan': 'group1',
+  'ichidan': 'group2',
+  'irregular-suru': 'group3',
+  'irregular-kuru': 'group3',
+};
+
+// ============================================================================
+// UTILITIES
+// ============================================================================
 
 function shuffleArray<T>(array: T[]): T[] {
   const shuffled = [...array];
@@ -90,76 +111,48 @@ function shuffleArray<T>(array: T[]): T[] {
   return shuffled;
 }
 
-// Expanded form mapping with all conjugation types
 function getConjugationEnglish(toForm: string): string {
   const formMap: Record<string, string> = {
-    // Legacy forms (backward compatibility)
-    'present_positive': 'do/does',
-    'present_negative': "don't/doesn't",
-    'past_positive': 'did',
-    'past_negative': "didn't",
-    'potential': 'can do',
-    // Polite forms
-    'masu_positive': 'do/does (polite)',
-    'masu_negative': "don't/doesn't (polite)",
-    'masu_past_positive': 'did (polite)',
-    'masu_past_negative': "didn't (polite)",
-    // Plain forms
-    'plain_positive': 'dictionary form',
-    'plain_negative': "don't/doesn't (plain)",
-    'plain_past_positive': 'did (plain)',
-    'plain_past_negative': "didn't (plain)",
-    // Te-form
-    'te_form': '-te form',
-    'te_iru': 'is doing',
-    // Desire
-    'tai_form': 'want to',
-    'tai_negative': "don't want to",
-    'tai_past': 'wanted to',
-    // Volitional
+    'masu': 'do/does (polite)',
+    'masen': "don't/doesn't (polite)",
+    'mashita': 'did (polite)',
+    'masen_deshita': "didn't (polite)",
+    'dictionary': 'dictionary form',
+    'negative': "don't/doesn't (plain)",
+    'past': 'did (plain)',
+    'past_negative': "didn't (plain)",
+    'te': '-te form',
+    'tai': 'want to',
     'volitional': "let's / I'll",
-    'volitional_polite': "let's (polite)",
-    // Potential
-    'potential_positive': 'can do',
-    'potential_negative': "can't do",
-    // Conditional
+    'potential': 'can do',
     'conditional_ba': 'if (general)',
     'conditional_tara': 'if/when',
-    'conditional_to': 'when/whenever',
-    'conditional_nara': 'if (hypothetical)',
-    // Passive
-    'passive_positive': 'is done (passive)',
-    'passive_negative': "isn't done (passive)",
-    // Causative
-    'causative_positive': 'make/let do',
-    'causative_negative': "don't make/let do",
-    'causative_passive': 'is made to do',
-    // Imperative
+    'passive': 'is done (passive)',
+    'causative': 'make/let do',
     'imperative': 'do! (command)',
-    'imperative_negative': "don't do!",
   };
   return formMap[toForm] || toForm;
 }
 
 function generateMCOptions(
-  correctAnswer: { japanese: string; reading: string; romaji: string },
-  allConjugations: Record<string, { japanese: string; reading: string; romaji: string }>,
-  toForm: string
+  correctAnswer: ConjugationForm,
+  allConjugations: Record<string, ConjugationForm>,
+  toFormKey: string
 ): MCOption[] {
   const options: MCOption[] = [{
     id: 'correct',
-    text: correctAnswer.japanese,
+    text: correctAnswer.kanji,
     reading: correctAnswer.reading,
     isCorrect: true,
-    english: getConjugationEnglish(toForm),
+    english: getConjugationEnglish(toFormKey),
   }];
 
   // Get other forms as distractors
   const otherForms = Object.entries(allConjugations)
-    .filter(([key]) => key !== toForm)
+    .filter(([key]) => key !== toFormKey)
     .map(([key, val]) => ({
       id: key,
-      text: val.japanese,
+      text: val.kanji,
       reading: val.reading,
       isCorrect: false,
       english: getConjugationEnglish(key),
@@ -172,24 +165,22 @@ function generateMCOptions(
 }
 
 /**
- * Generate all valid sentence-prompt combinations upfront.
- * This fixes the repetition bug by pre-computing combinations instead of
- * randomly selecting and hoping to avoid duplicates.
+ * Build all valid verb-prompt combinations
  */
 function buildValidCombinations(
-  sentences: DrillSentence[],
+  verbs: Verb[],
   prompts: DrillPrompt[]
 ): ValidCombination[] {
   const combinations: ValidCombination[] = [];
 
-  for (const sentence of sentences) {
+  for (const verb of verbs) {
     for (const prompt of prompts) {
-      // Check if this prompt is valid for this sentence
-      const isWordTypeMatch = prompt.word_type === 'both' || prompt.word_type === sentence.word_type;
-      const hasConjugation = sentence.conjugations && sentence.conjugations[prompt.to_form];
+      // Map the prompt's to_form to grammar engine's conjugation key
+      const grammarEngineKey = FORM_TO_GRAMMAR_ENGINE[prompt.to_form] || prompt.to_form;
 
-      if (isWordTypeMatch && hasConjugation) {
-        combinations.push({ sentence, prompt });
+      // Check if this conjugation exists for this verb
+      if (verb.conjugations && verb.conjugations[grammarEngineKey]) {
+        combinations.push({ verb, prompt });
       }
     }
   }
@@ -198,8 +189,7 @@ function buildValidCombinations(
 }
 
 /**
- * Generate questions from valid combinations.
- * If there are fewer combinations than requested, cycles through with reshuffling.
+ * Generate questions from valid combinations
  */
 function generateQuestionsFromCombinations(
   combinations: ValidCombination[],
@@ -210,27 +200,48 @@ function generateQuestionsFromCombinations(
     return [];
   }
 
-  // Shuffle all combinations
   let shuffled = shuffleArray(combinations);
   const questions: any[] = [];
   let idx = 0;
 
   while (questions.length < count) {
-    // Reshuffle when we've exhausted all combinations
     if (idx >= shuffled.length) {
       shuffled = shuffleArray(combinations);
       idx = 0;
-
-      // Safety check: if we've already generated all unique combinations once
-      // and still need more, we'll allow repeats but with different ordering
-      if (questions.length >= combinations.length) {
-        // We've used all combinations at least once - continue cycling
-      }
     }
 
-    const { sentence, prompt } = shuffled[idx];
-    const correctAnswer = sentence.conjugations[prompt.to_form];
-    const mcOptions = generateMCOptions(correctAnswer, sentence.conjugations, prompt.to_form);
+    const { verb, prompt } = shuffled[idx];
+    const grammarEngineKey = FORM_TO_GRAMMAR_ENGINE[prompt.to_form] || prompt.to_form;
+    const correctConjugation = verb.conjugations[grammarEngineKey];
+
+    // Convert grammar engine format to drill format
+    const correctAnswer = {
+      japanese: correctConjugation.kanji,
+      reading: correctConjugation.reading,
+      romaji: correctConjugation.romaji,
+    };
+
+    // Build sentence object (compatible with existing frontend)
+    const sentence = {
+      id: verb.id,
+      japanese_base: verb.dictionary_form,
+      english: verb.meaning,
+      word_type: 'verb' as const,
+      verb_group: VERB_GROUP_MAP[verb.verb_group] || 'group1',
+      jlpt_level: verb.jlpt_level,
+      dictionary_form: verb.dictionary_form,
+      reading: verb.reading,
+      romaji: verb.romaji,
+      // Convert conjugations to drill format
+      conjugations: Object.fromEntries(
+        Object.entries(verb.conjugations).map(([key, val]) => [
+          key,
+          { japanese: val.kanji, reading: val.reading, romaji: val.romaji }
+        ])
+      ),
+    };
+
+    const mcOptions = generateMCOptions(correctConjugation, verb.conjugations, grammarEngineKey);
 
     questions.push({
       sentence,
@@ -238,6 +249,14 @@ function generateQuestionsFromCombinations(
       correctAnswer,
       mcOptions,
       practiceMode,
+      // Include verb info for grammar sidebar
+      verbInfo: {
+        dictionary_form: verb.dictionary_form,
+        reading: verb.reading,
+        meaning: verb.meaning,
+        verb_group: verb.verb_group,
+        is_transitive: verb.is_transitive,
+      },
     });
 
     idx++;
@@ -246,8 +265,11 @@ function generateQuestionsFromCombinations(
   return questions;
 }
 
+// ============================================================================
+// MAIN HANDLER
+// ============================================================================
+
 export default async function handler(req: VercelRequest, res: VercelResponse) {
-  // Set CORS headers
   res.setHeader('Access-Control-Allow-Origin', '*');
   res.setHeader('Access-Control-Allow-Methods', 'GET, POST, OPTIONS');
   res.setHeader('Access-Control-Allow-Headers', 'Content-Type, Authorization');
@@ -279,30 +301,38 @@ export default async function handler(req: VercelRequest, res: VercelResponse) {
     const wordTypeList = wordTypes.split(',');
     const questionCount = Math.min(parseInt(count, 10), 30);
 
-    // Fetch sentences
-    const sentenceQuery = supabase
-      .from('drill_sentences')
+    // Only support verbs for now (grammar engine focus)
+    if (!wordTypeList.includes('verb')) {
+      return res.status(200).json({
+        questions: [],
+        message: 'Grammar engine currently only supports verbs'
+      });
+    }
+
+    // Fetch verbs from grammar engine's verbs table
+    const { data: verbs, error: verbError } = await supabase
+      .from('verbs')
       .select('*')
-      .eq('jlpt_level', jlptLevel)
-      .in('word_type', wordTypeList);
+      .eq('jlpt_level', jlptLevel);
 
-    const { data: sentences, error: sentenceError } = await sentenceQuery;
-
-    if (sentenceError) {
-      console.error('Sentence fetch error:', sentenceError);
-      return res.status(500).json({ error: 'Failed to fetch sentences' });
+    if (verbError) {
+      console.error('Verb fetch error:', verbError);
+      return res.status(500).json({ error: 'Failed to fetch verbs from grammar engine' });
     }
 
-    if (!sentences || sentences.length === 0) {
-      return res.status(200).json({ questions: [], message: 'No sentences found for the selected criteria' });
+    if (!verbs || verbs.length === 0) {
+      return res.status(200).json({
+        questions: [],
+        message: `No verbs found for ${jlptLevel}. Grammar engine has 137 verbs across N5-N1.`
+      });
     }
 
-    // Fetch prompts
+    // Fetch prompts for selected phases
     const { data: prompts, error: promptError } = await supabase
       .from('drill_prompts')
       .select('*')
       .in('phase', phaseList)
-      .or(`word_type.eq.both,word_type.in.(${wordTypeList.join(',')})`);
+      .or('word_type.eq.both,word_type.eq.verb');
 
     if (promptError) {
       console.error('Prompt fetch error:', promptError);
@@ -310,54 +340,49 @@ export default async function handler(req: VercelRequest, res: VercelResponse) {
     }
 
     if (!prompts || prompts.length === 0) {
-      return res.status(200).json({ questions: [], message: 'No prompts found for the selected phases' });
+      return res.status(200).json({
+        questions: [],
+        message: 'No prompts found for the selected phases'
+      });
     }
 
-    // Build all valid combinations upfront (FIX for repetition bug)
+    // Build valid combinations using grammar engine data
     const validCombinations = buildValidCombinations(
-      sentences as DrillSentence[],
+      verbs as Verb[],
       prompts as DrillPrompt[]
     );
 
     if (validCombinations.length === 0) {
       return res.status(200).json({
         questions: [],
-        message: 'No valid question combinations found. Try different settings.'
+        message: 'No valid question combinations found. The grammar engine conjugations may not match the selected phases.',
+        debug: {
+          verbCount: verbs.length,
+          promptCount: prompts.length,
+          sampleVerb: verbs[0]?.dictionary_form,
+          sampleConjugations: verbs[0] ? Object.keys(verbs[0].conjugations || {}) : [],
+          samplePromptForms: prompts.slice(0, 3).map(p => p.to_form),
+        }
       });
     }
 
-    // Generate questions from combinations
+    // Generate questions
     const questions = generateQuestionsFromCombinations(
       validCombinations,
       questionCount,
       practiceMode
     );
 
-    // Fetch example sentences if in sentence mode
-    if (practiceMode === 'sentence') {
-      for (const question of questions) {
-        const dictionaryForm = MASU_TO_DICTIONARY[question.sentence.japanese_base] ||
-                              question.sentence.dictionary_form ||
-                              question.sentence.japanese_base;
-
-        const { data: exampleSentences } = await supabase
-          .from('example_sentences')
-          .select('*')
-          .eq('word_key', dictionaryForm)
-          .limit(5);
-
-        if (exampleSentences && exampleSentences.length > 0) {
-          question.exampleSentence = exampleSentences[Math.floor(Math.random() * exampleSentences.length)];
-        }
-      }
-    }
-
     return res.status(200).json({
       questions,
       meta: {
+        source: 'grammar_engine',
+        totalVerbs: verbs.length,
         totalCombinations: validCombinations.length,
         requestedCount: questionCount,
         actualCount: questions.length,
+        jlptLevel,
+        phases: phaseList,
       }
     });
   } catch (error) {
