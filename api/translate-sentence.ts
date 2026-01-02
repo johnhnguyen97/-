@@ -288,7 +288,7 @@ const PARTICLE_MEANINGS: Record<string, { meaning: string; reading: string; roma
   'さえ': { meaning: 'even', reading: 'さえ', romaji: 'sae' },
   'すら': { meaning: 'even (literary)', reading: 'すら', romaji: 'sura' },
   'こそ': { meaning: 'precisely/emphatic', reading: 'こそ', romaji: 'koso' },
-  'まで': { meaning: 'even/until', reading: 'まで', romaji: 'made' },
+  // Note: 'まで' already defined above as 'until/up to'
   'など': { meaning: 'such as/and so on', reading: 'など', romaji: 'nado' },
   'なり': { meaning: 'or/as soon as', reading: 'なり', romaji: 'nari' },
 
@@ -299,7 +299,7 @@ const PARTICLE_MEANINGS: Record<string, { meaning: string; reading: string; roma
   'のに': { meaning: 'despite/although', reading: 'のに', romaji: 'noni' },
   'ので': { meaning: 'because/since', reading: 'ので', romaji: 'node' },
   'し': { meaning: 'and/moreover (listing reasons)', reading: 'し', romaji: 'shi' },
-  'が': { meaning: 'but/however', reading: 'が', romaji: 'ga' },
+  // Note: 'が' already defined above as subject marker (also means 'but' in conjunctive use)
   'ながら': { meaning: 'while doing', reading: 'ながら', romaji: 'nagara' },
   'つつ': { meaning: 'while/although', reading: 'つつ', romaji: 'tsutsu' },
   'ものの': { meaning: 'although/but', reading: 'ものの', romaji: 'monono' },
@@ -311,7 +311,7 @@ const PARTICLE_MEANINGS: Record<string, { meaning: string; reading: string; roma
   'だから': { meaning: 'so/therefore', reading: 'だから', romaji: 'dakara' },
   'ですから': { meaning: 'so/therefore (polite)', reading: 'ですから', romaji: 'desukara' },
   'だって': { meaning: 'but/because/even', reading: 'だって', romaji: 'datte' },
-  'でも': { meaning: 'but/however', reading: 'でも', romaji: 'demo' },
+  // Note: 'でも' already defined above as 'even/or something'
   'しかし': { meaning: 'however/but', reading: 'しかし', romaji: 'shikashi' },
 
   // ==================== NOMINALIZERS/FUNCTION WORDS ====================
