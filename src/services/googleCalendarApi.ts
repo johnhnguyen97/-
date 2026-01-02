@@ -8,7 +8,7 @@ export interface GoogleStatus {
 
 // Get Google connection status
 export async function getGoogleStatus(accessToken: string): Promise<GoogleStatus> {
-  const response = await fetch('/api/google-auth?action=status', {
+  const response = await fetch('/api/google-calendar?action=status', {
     headers: { Authorization: `Bearer ${accessToken}` },
   });
 
@@ -21,13 +21,13 @@ export async function getGoogleStatus(accessToken: string): Promise<GoogleStatus
 
 // Start Google OAuth flow
 export function connectGoogle(supabaseToken: string): void {
-  const url = `/api/google-auth?action=authorize&state=${encodeURIComponent(supabaseToken)}`;
+  const url = `/api/google-calendar?action=authorize&state=${encodeURIComponent(supabaseToken)}`;
   window.location.href = url;
 }
 
 // Disconnect Google account
 export async function disconnectGoogle(accessToken: string): Promise<void> {
-  const response = await fetch('/api/google-auth?action=disconnect', {
+  const response = await fetch('/api/google-calendar?action=disconnect', {
     method: 'POST',
     headers: { Authorization: `Bearer ${accessToken}` },
   });

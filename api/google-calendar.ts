@@ -1,6 +1,21 @@
 import type { VercelRequest, VercelResponse } from '@vercel/node';
 import { createClient } from '@supabase/supabase-js';
 
+// === Google OAuth Constants ===
+const GOOGLE_CLIENT_ID = process.env.GOOGLE_CLIENT_ID;
+const GOOGLE_CLIENT_SECRET = process.env.GOOGLE_CLIENT_SECRET;
+// Hardcoded to match Google Cloud Console - don't use env var to avoid mismatch
+const GOOGLE_REDIRECT_URI = 'https://gojun.vercel.app/api/google-calendar?action=callback';
+
+// Scopes for Calendar and Tasks
+const SCOPES = [
+  'https://www.googleapis.com/auth/calendar.events',
+  'https://www.googleapis.com/auth/tasks',
+  'openid',
+  'email',
+  'profile'
+].join(' ');
+
 // JLPT words for Word of the Day
 const JLPT_WORDS: Record<string, { word: string; reading: string; meaning: string }[]> = {
   N5: [
@@ -100,61 +115,78 @@ export default async function handler(req: VercelRequest, res: VercelResponse) {
     auth: { autoRefreshToken: false, persistSession: false }
   });
 
-  // Auth check
-  const authHeader = req.headers.authorization;
-  if (!authHeader?.startsWith('Bearer ')) {
-    return res.status(401).json({ error: 'Unauthorized' });
-  }
-
-  const token = authHeader.substring(7);
-  const { data: { user }, error: authError } = await supabase.auth.getUser(token);
-  if (authError || !user) {
-    return res.status(401).json({ error: 'Invalid token' });
-  }
-
-  // Get Google tokens
-  const { data: tokenData } = await supabase
-    .from('user_google_tokens')
-    .select('access_token, refresh_token, expires_at')
-    .eq('user_id', user.id)
-    .single();
-
-  if (!tokenData) {
-    return res.status(400).json({ error: 'Google not connected' });
-  }
-
-  // Check if token needs refresh
-  let accessToken = tokenData.access_token;
-  if (new Date(tokenData.expires_at) < new Date()) {
-    // Refresh token
-    const refreshResponse = await fetch('https://oauth2.googleapis.com/token', {
-      method: 'POST',
-      headers: { 'Content-Type': 'application/x-www-form-urlencoded' },
-      body: new URLSearchParams({
-        client_id: process.env.GOOGLE_CLIENT_ID!,
-        client_secret: process.env.GOOGLE_CLIENT_SECRET!,
-        refresh_token: tokenData.refresh_token,
-        grant_type: 'refresh_token',
-      }),
-    });
-
-    if (!refreshResponse.ok) {
-      return res.status(400).json({ error: 'Failed to refresh Google token' });
+  try {
+    // === OAuth Actions (no auth required) ===
+    switch (action) {
+      case 'authorize':
+        return handleAuthorize(req, res);
+      case 'callback':
+        return handleCallback(req, res, supabase);
     }
 
-    const newTokens = await refreshResponse.json();
-    accessToken = newTokens.access_token;
+    // === Auth-required actions ===
+    const authHeader = req.headers.authorization;
+    if (!authHeader?.startsWith('Bearer ')) {
+      return res.status(401).json({ error: 'Unauthorized' });
+    }
 
-    await supabase
+    const token = authHeader.substring(7);
+    const { data: { user }, error: authError } = await supabase.auth.getUser(token);
+    if (authError || !user) {
+      return res.status(401).json({ error: 'Invalid token' });
+    }
+
+    // === Auth status actions (don't need Google tokens) ===
+    switch (action) {
+      case 'status':
+        return handleStatus(res, supabase, user.id);
+      case 'disconnect':
+        return handleDisconnect(req, res, supabase, user.id);
+      case 'refresh':
+        return handleRefresh(res, supabase, user.id);
+    }
+
+    // === Calendar actions (need Google tokens) ===
+    const { data: tokenData } = await supabase
       .from('user_google_tokens')
-      .update({
-        access_token: accessToken,
-        expires_at: new Date(Date.now() + newTokens.expires_in * 1000).toISOString(),
-      })
-      .eq('user_id', user.id);
-  }
+      .select('access_token, refresh_token, expires_at')
+      .eq('user_id', user.id)
+      .single();
 
-  try {
+    if (!tokenData) {
+      return res.status(400).json({ error: 'Google not connected' });
+    }
+
+    // Check if token needs refresh
+    let accessToken = tokenData.access_token;
+    if (new Date(tokenData.expires_at) < new Date()) {
+      const refreshResponse = await fetch('https://oauth2.googleapis.com/token', {
+        method: 'POST',
+        headers: { 'Content-Type': 'application/x-www-form-urlencoded' },
+        body: new URLSearchParams({
+          client_id: GOOGLE_CLIENT_ID!,
+          client_secret: GOOGLE_CLIENT_SECRET!,
+          refresh_token: tokenData.refresh_token,
+          grant_type: 'refresh_token',
+        }),
+      });
+
+      if (!refreshResponse.ok) {
+        return res.status(400).json({ error: 'Failed to refresh Google token' });
+      }
+
+      const newTokens = await refreshResponse.json();
+      accessToken = newTokens.access_token;
+
+      await supabase
+        .from('user_google_tokens')
+        .update({
+          access_token: accessToken,
+          expires_at: new Date(Date.now() + newTokens.expires_in * 1000).toISOString(),
+        })
+        .eq('user_id', user.id);
+    }
+
     switch (action) {
       case 'create-wotd-events':
         return createWordOfTheDayEvents(req, res, accessToken, supabase, user.id);
@@ -163,9 +195,9 @@ export default async function handler(req: VercelRequest, res: VercelResponse) {
       case 'create-task':
         return createTask(req, res, accessToken);
       case 'list-calendars':
-        return listCalendars(req, res, accessToken);
+        return listCalendars(res, accessToken);
       case 'list-events':
-        return listEvents(req, res, accessToken);
+        return listEvents(res, accessToken);
       default:
         return res.status(400).json({ error: 'Invalid action' });
     }
@@ -175,7 +207,183 @@ export default async function handler(req: VercelRequest, res: VercelResponse) {
   }
 }
 
-// Create Word of the Day events with flexible date range and reminder time
+// ========== OAuth Handlers ==========
+
+// Start OAuth flow - redirect to Google
+function handleAuthorize(req: VercelRequest, res: VercelResponse) {
+  const { state } = req.query;
+
+  if (!GOOGLE_CLIENT_ID) {
+    return res.status(500).json({ error: 'Google OAuth not configured' });
+  }
+
+  const authUrl = new URL('https://accounts.google.com/o/oauth2/v2/auth');
+  authUrl.searchParams.set('client_id', GOOGLE_CLIENT_ID);
+  authUrl.searchParams.set('redirect_uri', GOOGLE_REDIRECT_URI);
+  authUrl.searchParams.set('response_type', 'code');
+  authUrl.searchParams.set('scope', SCOPES);
+  authUrl.searchParams.set('access_type', 'offline');
+  authUrl.searchParams.set('prompt', 'consent');
+  if (state) authUrl.searchParams.set('state', state as string);
+
+  return res.redirect(authUrl.toString());
+}
+
+// Handle OAuth callback from Google
+// eslint-disable-next-line @typescript-eslint/no-explicit-any
+async function handleCallback(req: VercelRequest, res: VercelResponse, supabase: any) {
+  const { code, state, error } = req.query;
+
+  if (error) {
+    return res.redirect(`/?google_error=${encodeURIComponent(error as string)}`);
+  }
+
+  if (!code) {
+    return res.redirect('/?google_error=no_code');
+  }
+
+  const tokenResponse = await fetch('https://oauth2.googleapis.com/token', {
+    method: 'POST',
+    headers: { 'Content-Type': 'application/x-www-form-urlencoded' },
+    body: new URLSearchParams({
+      client_id: GOOGLE_CLIENT_ID!,
+      client_secret: GOOGLE_CLIENT_SECRET!,
+      code: code as string,
+      grant_type: 'authorization_code',
+      redirect_uri: GOOGLE_REDIRECT_URI,
+    }),
+  });
+
+  if (!tokenResponse.ok) {
+    const err = await tokenResponse.text();
+    console.error('Token exchange failed:', err);
+    return res.redirect('/?google_error=token_exchange_failed');
+  }
+
+  const tokens = await tokenResponse.json();
+
+  const userInfoResponse = await fetch('https://www.googleapis.com/oauth2/v2/userinfo', {
+    headers: { Authorization: `Bearer ${tokens.access_token}` },
+  });
+
+  const userInfo = await userInfoResponse.json();
+
+  if (!state) {
+    return res.redirect('/?google_error=no_state');
+  }
+
+  const { data: { user }, error: authError } = await supabase.auth.getUser(state as string);
+  if (authError || !user) {
+    return res.redirect('/?google_error=invalid_session');
+  }
+
+  const { error: dbError } = await supabase
+    .from('user_google_tokens')
+    .upsert({
+      user_id: user.id,
+      access_token: tokens.access_token,
+      refresh_token: tokens.refresh_token,
+      expires_at: new Date(Date.now() + tokens.expires_in * 1000).toISOString(),
+      google_email: userInfo.email,
+      updated_at: new Date().toISOString(),
+    }, { onConflict: 'user_id' });
+
+  if (dbError) {
+    console.error('Failed to store tokens:', dbError);
+    return res.redirect('/?google_error=storage_failed');
+  }
+
+  return res.redirect('/?google_connected=true');
+}
+
+// Check if user has Google connected
+// eslint-disable-next-line @typescript-eslint/no-explicit-any
+async function handleStatus(res: VercelResponse, supabase: any, userId: string) {
+  const { data } = await supabase
+    .from('user_google_tokens')
+    .select('google_email, expires_at')
+    .eq('user_id', userId)
+    .single();
+
+  return res.status(200).json({
+    connected: !!data,
+    email: data?.google_email || null,
+    expiresAt: data?.expires_at || null,
+  });
+}
+
+// Disconnect Google account
+// eslint-disable-next-line @typescript-eslint/no-explicit-any
+async function handleDisconnect(req: VercelRequest, res: VercelResponse, supabase: any, userId: string) {
+  if (req.method !== 'POST') {
+    return res.status(405).json({ error: 'Method not allowed' });
+  }
+
+  const { data: tokenData } = await supabase
+    .from('user_google_tokens')
+    .select('access_token')
+    .eq('user_id', userId)
+    .single();
+
+  if (tokenData?.access_token) {
+    await fetch(`https://oauth2.googleapis.com/revoke?token=${tokenData.access_token}`, {
+      method: 'POST',
+    });
+  }
+
+  await supabase
+    .from('user_google_tokens')
+    .delete()
+    .eq('user_id', userId);
+
+  return res.status(200).json({ success: true });
+}
+
+// Refresh access token
+// eslint-disable-next-line @typescript-eslint/no-explicit-any
+async function handleRefresh(res: VercelResponse, supabase: any, userId: string) {
+  const { data: tokenData } = await supabase
+    .from('user_google_tokens')
+    .select('refresh_token')
+    .eq('user_id', userId)
+    .single();
+
+  if (!tokenData?.refresh_token) {
+    return res.status(400).json({ error: 'No refresh token' });
+  }
+
+  const tokenResponse = await fetch('https://oauth2.googleapis.com/token', {
+    method: 'POST',
+    headers: { 'Content-Type': 'application/x-www-form-urlencoded' },
+    body: new URLSearchParams({
+      client_id: GOOGLE_CLIENT_ID!,
+      client_secret: GOOGLE_CLIENT_SECRET!,
+      refresh_token: tokenData.refresh_token,
+      grant_type: 'refresh_token',
+    }),
+  });
+
+  if (!tokenResponse.ok) {
+    return res.status(400).json({ error: 'Failed to refresh token' });
+  }
+
+  const tokens = await tokenResponse.json();
+
+  await supabase
+    .from('user_google_tokens')
+    .update({
+      access_token: tokens.access_token,
+      expires_at: new Date(Date.now() + tokens.expires_in * 1000).toISOString(),
+      updated_at: new Date().toISOString(),
+    })
+    .eq('user_id', userId);
+
+  return res.status(200).json({ success: true });
+}
+
+// ========== Calendar Handlers ==========
+
+// Create Word of the Day events
 // eslint-disable-next-line @typescript-eslint/no-explicit-any
 async function createWordOfTheDayEvents(req: VercelRequest, res: VercelResponse, accessToken: string, supabase: any, userId: string) {
   if (req.method !== 'POST') {
@@ -184,13 +392,12 @@ async function createWordOfTheDayEvents(req: VercelRequest, res: VercelResponse,
 
   const {
     jlptLevel = 'N5',
-    reminderTime = '09:00',  // 24-hour format HH:MM
-    startDate,               // Optional: YYYY-MM-DD format
-    endDate,                 // Optional: YYYY-MM-DD format
-    days = 30                // Default 30 days if no dates provided
+    reminderTime = '09:00',
+    startDate,
+    endDate,
+    days = 30
   } = req.body || {};
 
-  // Get user's calendar settings
   const { data: settings } = await supabase
     .from('user_calendar_settings')
     .select('jlpt_level')
@@ -199,7 +406,6 @@ async function createWordOfTheDayEvents(req: VercelRequest, res: VercelResponse,
 
   const level = settings?.jlpt_level || jlptLevel;
 
-  // Calculate date range
   let start: Date;
   let end: Date;
 
@@ -212,9 +418,8 @@ async function createWordOfTheDayEvents(req: VercelRequest, res: VercelResponse,
     end.setDate(end.getDate() + days);
   }
 
-  // Convert reminder time to minutes from midnight for the reminder
   const [hours, minutes] = reminderTime.split(':').map(Number);
-  const reminderMinutes = (24 * 60) - (hours * 60 + minutes); // Minutes before midnight
+  const reminderMinutes = (24 * 60) - (hours * 60 + minutes);
 
   const createdEvents: string[] = [];
   const currentDate = new Date(start);
@@ -223,7 +428,6 @@ async function createWordOfTheDayEvents(req: VercelRequest, res: VercelResponse,
     const dateStr = currentDate.toISOString().split('T')[0];
     const word = getWordOfTheDay(dateStr, level);
 
-    // Create all-day event with reminder at specified time
     const event = {
       summary: `📚 Word of the Day: ${word.word} (${word.reading})`,
       description: `Japanese: ${word.word}\nReading: ${word.reading}\nMeaning: ${word.meaning}\nJLPT Level: ${level}\n\nPowered by Gojun 語順`,
@@ -231,15 +435,10 @@ async function createWordOfTheDayEvents(req: VercelRequest, res: VercelResponse,
       end: { date: dateStr },
       reminders: {
         useDefault: false,
-        overrides: [
-          { method: 'popup', minutes: reminderMinutes },
-        ],
+        overrides: [{ method: 'popup', minutes: reminderMinutes }],
       },
       extendedProperties: {
-        private: {
-          createdBy: 'gojun',
-          type: 'wotd',
-        }
+        private: { createdBy: 'gojun', type: 'wotd' }
       }
     };
 
@@ -275,16 +474,15 @@ async function createWordOfTheDayEvents(req: VercelRequest, res: VercelResponse,
   });
 }
 
-// Delete all Word of the Day events created by Gojun
+// Delete all Word of the Day events
 async function deleteWordOfTheDayEvents(req: VercelRequest, res: VercelResponse, accessToken: string) {
   if (req.method !== 'DELETE' && req.method !== 'POST') {
     return res.status(405).json({ error: 'Method not allowed' });
   }
 
-  // Find all events with "Word of the Day" in the summary
   const now = new Date();
   const maxDate = new Date();
-  maxDate.setFullYear(maxDate.getFullYear() + 1); // Look up to 1 year ahead
+  maxDate.setFullYear(maxDate.getFullYear() + 1);
 
   const searchUrl = `https://www.googleapis.com/calendar/v3/calendars/primary/events?timeMin=${now.toISOString()}&timeMax=${maxDate.toISOString()}&q=${encodeURIComponent('Word of the Day')}&maxResults=250`;
 
@@ -299,7 +497,6 @@ async function deleteWordOfTheDayEvents(req: VercelRequest, res: VercelResponse,
   const listData = await listResponse.json();
   const events = listData.items || [];
 
-  // Filter for Gojun events (check summary pattern)
   const gojunEvents = events.filter((e: { summary?: string }) =>
     e.summary?.includes('Word of the Day') && e.summary?.includes('📚')
   );
@@ -332,7 +529,7 @@ async function deleteWordOfTheDayEvents(req: VercelRequest, res: VercelResponse,
 }
 
 // List user's Google calendars
-async function listCalendars(_req: VercelRequest, res: VercelResponse, accessToken: string) {
+async function listCalendars(res: VercelResponse, accessToken: string) {
   const response = await fetch('https://www.googleapis.com/calendar/v3/users/me/calendarList', {
     headers: { 'Authorization': `Bearer ${accessToken}` }
   });
@@ -364,7 +561,6 @@ async function createTask(req: VercelRequest, res: VercelResponse, accessToken: 
     return res.status(400).json({ error: 'Word and meaning required' });
   }
 
-  // First, get or create a task list for Gojun
   const listResponse = await fetch('https://tasks.googleapis.com/tasks/v1/users/@me/lists', {
     headers: { 'Authorization': `Bearer ${accessToken}` },
   });
@@ -373,7 +569,6 @@ async function createTask(req: VercelRequest, res: VercelResponse, accessToken: 
   let gojunList = lists.items?.find((l: { title: string }) => l.title === 'Gojun - Japanese Words');
 
   if (!gojunList) {
-    // Create the list
     const createListResponse = await fetch('https://tasks.googleapis.com/tasks/v1/users/@me/lists', {
       method: 'POST',
       headers: {
@@ -385,7 +580,6 @@ async function createTask(req: VercelRequest, res: VercelResponse, accessToken: 
     gojunList = await createListResponse.json();
   }
 
-  // Create the task
   const task = {
     title: `Review: ${word} (${reading})`,
     notes: `Meaning: ${meaning}\n\nReview this word!`,
@@ -410,7 +604,7 @@ async function createTask(req: VercelRequest, res: VercelResponse, accessToken: 
 }
 
 // List upcoming events
-async function listEvents(req: VercelRequest, res: VercelResponse, accessToken: string) {
+async function listEvents(res: VercelResponse, accessToken: string) {
   const now = new Date().toISOString();
   const maxDate = new Date();
   maxDate.setDate(maxDate.getDate() + 30);
