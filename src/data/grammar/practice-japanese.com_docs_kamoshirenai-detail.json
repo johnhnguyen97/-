@@ -1,0 +1,357 @@
+{
+  "config_name": "Language Learning Extractor",
+  "url": "https://practice-japanese.com/docs/kamoshirenai-detail/",
+  "data": {
+    "metadata": {
+      "title": "〜かもしれない (Might) - Detailed"
+    },
+    "examples": [
+      {
+        "sentence": "〜だろう - Probably (higher certainty)"
+      },
+      {
+        "sentence": "〜かも - Might (shortened)"
+      },
+      {
+        "sentence": "〜はずだ - Should be (expected)"
+      },
+      {
+        "sentence": "もしかしたら - Maybe/Perhaps"
+      },
+      {
+        "sentence": "ひょっとしたら - Perhaps/By chance"
+      },
+      {
+        "sentence": "Uncertainty expressions - Expressing doubt"
+      },
+      {
+        "sentence": "About"
+      },
+      {
+        "sentence": "Pricing"
+      },
+      {
+        "sentence": "Blog"
+      },
+      {
+        "sentence": "Contact"
+      },
+      {
+        "sentence": "Privacy Policy"
+      },
+      {
+        "sentence": "Terms of Service"
+      },
+      {
+        "sentence": "Cookie Policy"
+      }
+    ],
+    "sections": [
+      {
+        "level": 2,
+        "heading": "Understanding かもしれない",
+        "content": "〜かもしれない expresses low to moderate possibility (30-50% certainty), softer than だろう and much less certain than はずだ. It shows the speaker is considering a possibility but not confident.\n\n雨が降るかもしれない (40% sure) \"It might rain\" 雨が降るだろう (70% sure) \"It will probably rain\" 雨が降るはずだ (90% sure based on forecast) \"It should rain\""
+      },
+      {
+        "level": 2,
+        "heading": "Certainty Scale",
+        "content": "",
+        "children": [
+          {
+            "level": 3,
+            "heading": "Probability levels",
+            "content": "10-30%: かもしれない (might) 50-70%: だろう (probably) 80-90%: はずだ (should/expected) 95%+: にちがいない (must be) かもしれない = low certainty"
+          }
+        ]
+      },
+      {
+        "level": 2,
+        "heading": "Formation Patterns",
+        "content": "",
+        "children": [
+          {
+            "level": 3,
+            "heading": "All forms use plain + かもしれない",
+            "content": "Present affirmative: 行くかもしれない - might go 高いかもしれない - might be expensive 便利かもしれない - might be convenient 雨かもしれない - might be rain Present negative: 行かないかもしれない - might not go 高くないかもしれない - might not be expensive Past affirmative: 行ったかもしれない - might have gone 高かったかもしれない - might have been expensive Past negative: 行かなかったかもしれない - might not have gone"
+          }
+        ]
+      },
+      {
+        "level": 2,
+        "heading": "Polite Variations",
+        "content": "",
+        "children": [
+          {
+            "level": 3,
+            "heading": "かもしれません (polite)",
+            "content": "雨が降るかもしれません \"It might rain\" Standard polite Business appropriate"
+          },
+          {
+            "level": 3,
+            "heading": "かもしれない (casual)",
+            "content": "雨が降るかもしれない \"It might rain\" Everyday conversation"
+          },
+          {
+            "level": 3,
+            "heading": "かも (very casual)",
+            "content": "雨かも \"Might rain\" Drops しれない Very common in speech"
+          },
+          {
+            "level": 3,
+            "heading": "かもしんない (colloquial)",
+            "content": "雨かもしんない \"Might rain\" Contracted spoken form Casual"
+          }
+        ]
+      },
+      {
+        "level": 2,
+        "heading": "Usage Nuances",
+        "content": "",
+        "children": [
+          {
+            "level": 3,
+            "heading": "Expressing hesitation",
+            "content": "行けるかもしれない \"I might be able to go\" (not sure) できるかもしれません \"I might be able to do it\" (uncertain about ability) Shows lack of confidence"
+          },
+          {
+            "level": 3,
+            "heading": "Softening statements",
+            "content": "Direct: 間違ってる \"You're wrong\" Softer: 間違ってるかもしれない \"You might be wrong\" Less confrontational"
+          },
+          {
+            "level": 3,
+            "heading": "Expressing worry",
+            "content": "失敗するかもしれない \"I might fail\" (worried) 遅れるかもしれません \"I might be late\" (concerned) Negative expectations"
+          }
+        ]
+      },
+      {
+        "level": 2,
+        "heading": "Common Contexts",
+        "content": "",
+        "children": [
+          {
+            "level": 3,
+            "heading": "Weather predictions",
+            "content": "明日雨が降るかもしれない \"It might rain tomorrow\" 雪になるかもしれません \"It might turn to snow\" Used when uncertain about weather"
+          },
+          {
+            "level": 3,
+            "heading": "Plans and schedules",
+            "content": "行けないかもしれない \"I might not be able to go\" 遅れるかもしれません \"I might be late\" キャンセルするかも \"I might cancel\" Uncertain commitments"
+          },
+          {
+            "level": 3,
+            "heading": "Judgments and opinions",
+            "content": "これは間違いかもしれない \"This might be a mistake\" 彼は知らないかもしれません \"He might not know\" Tentative opinions"
+          }
+        ]
+      },
+      {
+        "level": 2,
+        "heading": "With Other Modifiers",
+        "content": "",
+        "children": [
+          {
+            "level": 3,
+            "heading": "たぶん～かもしれない (redundant)",
+            "content": "Redundant: たぶん来るかもしれない Better: たぶん来ると思う Or: 来るかもしれない Avoid double uncertainty markers"
+          },
+          {
+            "level": 3,
+            "heading": "もしかしたら～かもしれない",
+            "content": "Natural: もしかしたら来るかも \"Maybe he'll come\" もしかしたら emphasizes possibility Works with かも"
+          }
+        ]
+      },
+      {
+        "level": 2,
+        "heading": "Negative Possibilities",
+        "content": "",
+        "children": [
+          {
+            "level": 3,
+            "heading": "Double negative nuance",
+            "content": "来ないかもしれない \"Might not come\" できないかもしれません \"Might not be able to\" 忘れないかもしれない \"Might not forget\" (= might remember) Pay attention to meaning"
+          }
+        ]
+      },
+      {
+        "level": 2,
+        "heading": "かも vs かもしれない",
+        "content": "",
+        "children": [
+          {
+            "level": 3,
+            "heading": "かも (super casual)",
+            "content": "雨かも \"Might rain\" Drops しれない completely Very common Casual conversation only"
+          },
+          {
+            "level": 3,
+            "heading": "かもしれない (standard)",
+            "content": "雨かもしれない \"It might rain\" Complete form Can be used anywhere"
+          }
+        ]
+      },
+      {
+        "level": 2,
+        "heading": "Past Possibilities",
+        "content": "",
+        "children": [
+          {
+            "level": 3,
+            "heading": "Might have done",
+            "content": "彼は来たかもしれない \"He might have come\" 見たかもしれません \"I might have seen it\" 間違えたかもしれない \"I might have made a mistake\" Uncertainty about past"
+          }
+        ]
+      },
+      {
+        "level": 2,
+        "heading": "In Questions",
+        "content": "",
+        "children": [
+          {
+            "level": 3,
+            "heading": "Asking about possibilities",
+            "content": "来るかもしれないと思う？ \"Do you think he might come?\" 間違ってるかもしれない？ \"Might it be wrong?\" Adding uncertainty to questions"
+          }
+        ]
+      },
+      {
+        "level": 2,
+        "heading": "かもしれないけど (but might)",
+        "content": "",
+        "children": [
+          {
+            "level": 3,
+            "heading": "Adding contrast",
+            "content": "難しいかもしれないけど、やってみよう \"It might be difficult, but let's try\" 高いかもしれないけど、買いたい \"It might be expensive, but I want to buy it\""
+          }
+        ]
+      },
+      {
+        "level": 2,
+        "heading": "Expressing Concerns",
+        "content": "",
+        "children": [
+          {
+            "level": 3,
+            "heading": "Worrying",
+            "content": "失敗するかもしれない \"I'm worried I might fail\" 間に合わないかもしれません \"I'm concerned I might not make it in time\" 病気かもしれない \"I'm worried I might be sick\""
+          }
+        ]
+      },
+      {
+        "level": 2,
+        "heading": "Softening Requests",
+        "content": "",
+        "children": [
+          {
+            "level": 3,
+            "heading": "Indirect requests",
+            "content": "お願いがあるんですが、 手伝っていただけないかもしれませんが... \"I have a request, you might not be able to help but...\" Very polite, tentative"
+          }
+        ]
+      },
+      {
+        "level": 2,
+        "heading": "Multiple Possibilities",
+        "content": "",
+        "children": [
+          {
+            "level": 3,
+            "heading": "Listing options",
+            "content": "雨かもしれないし、雪かもしれない \"It might rain, or it might snow\" Acknowledging multiple possibilities"
+          }
+        ]
+      },
+      {
+        "level": 2,
+        "heading": "かもしれないし (and might)",
+        "content": "忙しいかもしれないし、疲れてるかもしれない \"He might be busy, and he might be tired\" Listing uncertain reasons"
+      },
+      {
+        "level": 2,
+        "heading": "Formal Writing",
+        "content": "",
+        "children": [
+          {
+            "level": 3,
+            "heading": "In reports",
+            "content": "この結果は誤差を含む可能性がある。 つまり、正確ではないかもしれない。 \"This result may contain errors. In other words, it might not be accurate.\" Acknowledging uncertainty"
+          }
+        ]
+      },
+      {
+        "level": 2,
+        "heading": "Common Collocations",
+        "content": "",
+        "children": [
+          {
+            "level": 3,
+            "heading": "ひょっとしたら～かも",
+            "content": "ひょっとしたら来るかも \"Maybe/Perhaps he'll come\" ひょっとして adds \"by any chance\""
+          },
+          {
+            "level": 3,
+            "heading": "もしかして～かもしれない",
+            "content": "もしかして間違ってるかもしれない \"I might possibly be wrong\" Emphasizes possibility"
+          }
+        ]
+      },
+      {
+        "level": 2,
+        "heading": "Practice Sentences",
+        "content": "",
+        "children": [
+          {
+            "level": 3,
+            "heading": "Basic",
+            "content": "明日雨が降るかもしれない \"It might rain tomorrow\" 彼は来ないかもしれません \"He might not come\" これは間違いかも \"This might be a mistake\""
+          },
+          {
+            "level": 3,
+            "heading": "Intermediate",
+            "content": "試験は難しいかもしれないから、 よく勉強したほうがいい \"The exam might be difficult, so you should study well\" 彼女は今忙しいかもしれないから、 明日連絡してみたら？ \"She might be busy now, so how about trying to contact her tomorrow?\" この方法は効果的じゃないかもしれません。 別の方法を試してみましょう。 \"This method might not be effective. Let's try a different method.\""
+          },
+          {
+            "level": 3,
+            "heading": "Advanced",
+            "content": "現在の状況を考えると、計画の変更が 必要かもしれない。市場の動向が 予想と異なる可能性があるからだ。 慎重に判断すべきだろう。 \"Considering the current situation, a plan change might be necessary. This is because market trends may differ from expectations. We should judge carefully.\" 彼の言うことは正しいかもしれないし、 間違っているかもしれない。確実なことは 誰にも分からない。だから、様々な可能性を 考慮に入れて決断する必要がある。 \"What he says might be right, and it might be wrong. No one knows for certain. Therefore, we need to make decisions taking various possibilities into account.\""
+          }
+        ]
+      },
+      {
+        "level": 2,
+        "heading": "Related Grammar Points",
+        "content": "〜だろう - Probably (higher certainty) 〜かも - Might (shortened) 〜はずだ - Should be (expected) もしかしたら - Maybe/Perhaps ひょっとしたら - Perhaps/By chance Uncertainty expressions - Expressing doubt",
+        "children": [
+          {
+            "level": 3,
+            "heading": "Company",
+            "content": "About Pricing Blog Contact"
+          },
+          {
+            "level": 3,
+            "heading": "Legal",
+            "content": "Privacy Policy Terms of Service Cookie Policy"
+          }
+        ]
+      }
+    ]
+  },
+  "metadata": {
+    "extracted_at": "2026-01-01T22:19:30.521736600Z",
+    "duration_ms": 5,
+    "extractors_matched": [
+      "metadata",
+      "examples",
+      "sections"
+    ],
+    "extractors_failed": [
+      "vocab_tables",
+      "definitions",
+      "content_blocks"
+    ]
+  }
+}

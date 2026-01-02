@@ -1,0 +1,307 @@
+{
+  "config_name": "Language Learning Extractor",
+  "url": "https://practice-japanese.com/docs/soshite/",
+  "data": {
+    "sections": [
+      {
+        "level": 2,
+        "heading": "What is そして?",
+        "content": "そして is a sentence connector meaning \"and then,\" \"and,\" or \"in addition.\" It connects two related sentences, often showing sequence, addition, or natural progression. It's neutral in tone and commonly used in both spoken and written Japanese.\n\n朝ごはんを食べた。そして学校に行った。 \"I ate breakfast. And then I went to school.\" 彼は優しい。そして頭もいい。 \"He's kind. And he's smart too.\""
+      },
+      {
+        "level": 2,
+        "heading": "Basic Usage",
+        "content": "",
+        "children": [
+          {
+            "level": 3,
+            "heading": "Connecting sequential events",
+            "content": "起きた。そして顔を洗った。 \"I woke up. And then I washed my face.\" 勉強した。そして寝た。 \"I studied. And then I slept.\" Natural progression"
+          },
+          {
+            "level": 3,
+            "heading": "Adding information",
+            "content": "彼女は美しい。そして親切だ。 \"She's beautiful. And she's kind.\" この店は安い。そして美味しい。 \"This store is cheap. And delicious.\" Additional qualities"
+          }
+        ]
+      },
+      {
+        "level": 2,
+        "heading": "Position in Sentence",
+        "content": "",
+        "children": [
+          {
+            "level": 3,
+            "heading": "Beginning of second sentence",
+            "content": "雨が降った。そして風も強かった。 \"It rained. And the wind was strong too.\" Starts new sentence After period"
+          }
+        ]
+      },
+      {
+        "level": 2,
+        "heading": "Polite and Casual",
+        "content": "",
+        "children": [
+          {
+            "level": 3,
+            "heading": "Works in both registers",
+            "content": "Casual: 食べた。そして寝た。 \"I ate. And then I slept.\" Polite: 食べました。そして寝ました。 \"I ate. And then I slept.\" Neutral connector"
+          }
+        ]
+      },
+      {
+        "level": 2,
+        "heading": "Common Contexts",
+        "content": "",
+        "children": [
+          {
+            "level": 3,
+            "heading": "Narrating events",
+            "content": "駅に着いた。そして友達に会った。 \"I arrived at the station. And then I met my friend.\" Sequential storytelling"
+          },
+          {
+            "level": 3,
+            "heading": "Listing characteristics",
+            "content": "彼は賢い。そして勤勉だ。 \"He's smart. And he's hardworking.\" Multiple qualities"
+          },
+          {
+            "level": 3,
+            "heading": "Describing processes",
+            "content": "材料を切る。そして炒める。 \"Cut the ingredients. And then stir-fry.\" Step-by-step instructions"
+          }
+        ]
+      },
+      {
+        "level": 2,
+        "heading": "そして vs それから",
+        "content": "",
+        "children": [
+          {
+            "level": 3,
+            "heading": "そして = neutral connection",
+            "content": "勉強した。そして休んだ。 \"I studied. And then I rested.\" Simple connection No strong time emphasis"
+          },
+          {
+            "level": 3,
+            "heading": "それから = emphasizes sequence",
+            "content": "勉強した。それから休んだ。 \"I studied. After that, I rested.\" Clearer time progression More conversational"
+          }
+        ]
+      },
+      {
+        "level": 2,
+        "heading": "そして vs そうして",
+        "content": "",
+        "children": [
+          {
+            "level": 3,
+            "heading": "そして = and/and then",
+            "content": "買い物に行った。そして映画を見た。 \"I went shopping. And then I watched a movie.\" Simple connector"
+          },
+          {
+            "level": 3,
+            "heading": "そうして = and in that way",
+            "content": "彼は毎日練習した。そうして上手になった。 \"He practiced every day. And in that way, he got better.\" Shows method/result Less common"
+          }
+        ]
+      },
+      {
+        "level": 2,
+        "heading": "Formal Writing",
+        "content": "",
+        "children": [
+          {
+            "level": 3,
+            "heading": "Common in narratives",
+            "content": "彼は東京に着いた。そして新しい生活が始まった。 \"He arrived in Tokyo. And a new life began.\" Written style Storytelling"
+          }
+        ]
+      },
+      {
+        "level": 2,
+        "heading": "Multiple そして",
+        "content": "",
+        "children": [
+          {
+            "level": 3,
+            "heading": "Can use repeatedly",
+            "content": "朝起きた。そして朝食を食べた。 そして学校に行った。 \"I woke up in the morning. And then ate breakfast. And then went to school.\" Multiple connections possible Can become repetitive"
+          }
+        ]
+      },
+      {
+        "level": 2,
+        "heading": "Emphasis Patterns",
+        "content": "",
+        "children": [
+          {
+            "level": 3,
+            "heading": "そして最後に (and finally)",
+            "content": "買い物をした。料理を作った。 そして最後に食べた。 \"I went shopping. Made food. And finally ate.\" Concluding action"
+          }
+        ]
+      },
+      {
+        "level": 2,
+        "heading": "Common Mistakes",
+        "content": "",
+        "children": [
+          {
+            "level": 3,
+            "heading": "Using in same sentence",
+            "content": "Wrong: 食べたそして寝た ⚠️ Correct: 食べた。そして寝た。 ✓ \"I ate. And then I slept.\" Need sentence break"
+          },
+          {
+            "level": 3,
+            "heading": "Overusing",
+            "content": "Repetitive: 起きた。そして顔を洗った。 そして歯を磨いた。そして服を着た。 △ Better: 起きて、顔を洗って、歯を磨いて、 服を着た。 ✓ Use て-form for simple lists"
+          }
+        ]
+      },
+      {
+        "level": 2,
+        "heading": "Written vs Spoken",
+        "content": "",
+        "children": [
+          {
+            "level": 3,
+            "heading": "Both registers",
+            "content": "Written: 調査を行った。そして結果を分析した。 \"We conducted research. And then analyzed results.\" Spoken: 映画を見た。そして帰った。 \"I watched a movie. And then went home.\" Versatile connector"
+          }
+        ]
+      },
+      {
+        "level": 2,
+        "heading": "Creating Flow",
+        "content": "",
+        "children": [
+          {
+            "level": 3,
+            "heading": "Natural progression",
+            "content": "春が来た。そして花が咲いた。 \"Spring came. And flowers bloomed.\" Cause and natural result"
+          }
+        ]
+      },
+      {
+        "level": 2,
+        "heading": "Combining with Other Particles",
+        "content": "",
+        "children": [
+          {
+            "level": 3,
+            "heading": "そしてまた (and also)",
+            "content": "彼は歌手だ。そしてまた俳優でもある。 \"He's a singer. And also an actor.\" Additional emphasis"
+          }
+        ]
+      },
+      {
+        "level": 2,
+        "heading": "Time Sequence",
+        "content": "",
+        "children": [
+          {
+            "level": 3,
+            "heading": "Clear sequence",
+            "content": "朝起きた。そして朝ごはんを食べた。 \"I woke up. And then ate breakfast.\" One after another"
+          }
+        ]
+      },
+      {
+        "level": 2,
+        "heading": "Negative Sentences",
+        "content": "",
+        "children": [
+          {
+            "level": 3,
+            "heading": "Works with negatives",
+            "content": "雨は降らなかった。そして風もなかった。 \"It didn't rain. And there was no wind either.\" Negative connections"
+          }
+        ]
+      },
+      {
+        "level": 2,
+        "heading": "Formal Alternatives",
+        "content": "",
+        "children": [
+          {
+            "level": 3,
+            "heading": "加えて (in addition - formal)",
+            "content": "この商品は安い。加えて品質も良い。 \"This product is cheap. In addition, the quality is good.\" More formal than そして"
+          },
+          {
+            "level": 3,
+            "heading": "および (and - very formal)",
+            "content": "東京および大阪 \"Tokyo and Osaka\" Legal/official documents"
+          }
+        ]
+      },
+      {
+        "level": 2,
+        "heading": "Practice Sentences",
+        "content": "",
+        "children": [
+          {
+            "level": 3,
+            "heading": "Basic",
+            "content": "朝ごはんを食べた。そして学校に行った。 \"I ate breakfast. And then went to school.\" 買い物をした。そして帰った。 \"I went shopping. And then went home.\" 彼は優しい。そして頭もいい。 \"He's kind. And he's smart too.\""
+          },
+          {
+            "level": 3,
+            "heading": "Intermediate",
+            "content": "昨日、新しいレストランに行った。そして 美味しい料理を食べた。店の雰囲気も良かった。 \"Yesterday I went to a new restaurant. And then I ate delicious food. The atmosphere was good too.\" 彼女は毎日勉強している。そして少しずつ 日本語が上手になっている。 \"She studies every day. And little by little her Japanese is getting better.\" 朝早く起きた。そして散歩に行った。 空気が新鮮で気持ちよかった。 \"I woke up early. And then went for a walk. The air was fresh and felt good.\""
+          },
+          {
+            "level": 3,
+            "heading": "Company",
+            "content": "About Pricing Blog Contact"
+          },
+          {
+            "level": 3,
+            "heading": "Legal",
+            "content": "Privacy Policy Terms of Service Cookie Policy"
+          }
+        ]
+      }
+    ],
+    "metadata": {
+      "title": "そして (And then)"
+    },
+    "examples": [
+      {
+        "sentence": "About"
+      },
+      {
+        "sentence": "Pricing"
+      },
+      {
+        "sentence": "Blog"
+      },
+      {
+        "sentence": "Contact"
+      },
+      {
+        "sentence": "Privacy Policy"
+      },
+      {
+        "sentence": "Terms of Service"
+      },
+      {
+        "sentence": "Cookie Policy"
+      }
+    ]
+  },
+  "metadata": {
+    "extracted_at": "2026-01-01T22:19:34.749350500Z",
+    "duration_ms": 4,
+    "extractors_matched": [
+      "metadata",
+      "examples",
+      "sections"
+    ],
+    "extractors_failed": [
+      "vocab_tables",
+      "definitions",
+      "content_blocks"
+    ]
+  }
+}

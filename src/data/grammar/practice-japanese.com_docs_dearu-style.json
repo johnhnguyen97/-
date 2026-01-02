@@ -1,0 +1,366 @@
+{
+  "config_name": "Language Learning Extractor",
+  "url": "https://practice-japanese.com/docs/dearu-style/",
+  "data": {
+    "metadata": {
+      "title": "である Style"
+    },
+    "sections": [
+      {
+        "level": 2,
+        "heading": "である Style",
+        "content": "である style (だ・である調) is a formal, assertive writing style used in academic papers, newspapers, essays, and formal documents. It's more objective and authoritative than です・ます style.\n\nCasual: 学生だ Polite: 学生です Formal written: 学生である である = formal, written Assertive tone Objective stance"
+      },
+      {
+        "level": 2,
+        "heading": "Basic Formation",
+        "content": "",
+        "children": [
+          {
+            "level": 3,
+            "heading": "Copula patterns",
+            "content": "Noun/な-adjective + である これは本である \"This is a book\" 彼は学生である \"He is a student\" 重要である \"Is important\" 便利である \"Is convenient\" Declarative Assertive Formal register"
+          }
+        ]
+      },
+      {
+        "level": 2,
+        "heading": "Negative Form",
+        "content": "",
+        "children": [
+          {
+            "level": 3,
+            "heading": "ではない",
+            "content": "これは本ではない \"This is not a book\" 学生ではない \"Is not a student\" 重要ではない \"Is not important\" Formal negative Written style Objective tone"
+          }
+        ]
+      },
+      {
+        "level": 2,
+        "heading": "Past Tense",
+        "content": "",
+        "children": [
+          {
+            "level": 3,
+            "heading": "であった",
+            "content": "彼は学生であった \"He was a student\" 重要であった \"Was important\" 問題であった \"Was a problem\" Past declarative Formal past Historical statements"
+          }
+        ]
+      },
+      {
+        "level": 2,
+        "heading": "With Verbs",
+        "content": "",
+        "children": [
+          {
+            "level": 3,
+            "heading": "Plain form + のである",
+            "content": "彼は来るのである \"He will come\" (emphatic) これが理由なのである \"This is the reason\" (emphatic) そうなのである \"That is so\" (emphatic) Explanatory Emphatic assertion Written emphasis"
+          }
+        ]
+      },
+      {
+        "level": 2,
+        "heading": "である vs です",
+        "content": "",
+        "children": [
+          {
+            "level": 3,
+            "heading": "Key differences",
+            "content": "です: - Polite conversational - Spoken language - Respectful to listener - Business, daily use である: - Formal written - Assertive, objective - Academic, newspapers - No direct addressee Different contexts Different registers"
+          }
+        ]
+      },
+      {
+        "level": 2,
+        "heading": "In Academic Writing",
+        "content": "",
+        "children": [
+          {
+            "level": 3,
+            "heading": "Standard usage",
+            "content": "この研究は重要である \"This research is important\" 結果は明らかである \"The results are clear\" 問題は複雑である \"The problem is complex\" Scholarly tone Objective stance Authoritative voice"
+          }
+        ]
+      },
+      {
+        "level": 2,
+        "heading": "Newspaper Style",
+        "content": "",
+        "children": [
+          {
+            "level": 3,
+            "heading": "Journalistic writing",
+            "content": "政府は発表した。新政策である \"Government announced. It's a new policy\" 事故は深刻である \"The accident is serious\" 原因は不明である \"The cause is unknown\" News reporting Factual tone Objective reporting"
+          }
+        ]
+      },
+      {
+        "level": 2,
+        "heading": "Essay Writing",
+        "content": "",
+        "children": [
+          {
+            "level": 3,
+            "heading": "Opinion pieces",
+            "content": "教育は重要である \"Education is important\" この問題は深刻である \"This problem is serious\" 変化が必要である \"Change is necessary\" Argumentative writing Thesis statements Formal essays"
+          }
+        ]
+      },
+      {
+        "level": 2,
+        "heading": "Mixing Styles (Usually Avoided)",
+        "content": "",
+        "children": [
+          {
+            "level": 3,
+            "heading": "Consistency important",
+            "content": "❌ Inconsistent: これは本である。それは便利です。 ✓ Consistent: これは本である。それは便利である。 OR: これは本です。それは便利です。 Maintain one style Don't mix である and です Professional appearance"
+          }
+        ]
+      },
+      {
+        "level": 2,
+        "heading": "であろう Form",
+        "content": "",
+        "children": [
+          {
+            "level": 3,
+            "heading": "Speculation/probability",
+            "content": "彼は学生であろう \"He is probably a student\" 重要であろう \"It will probably be important\" 問題であろう \"It will probably be a problem\" Formal speculation Written conjecture Scholarly hedging"
+          }
+        ]
+      },
+      {
+        "level": 2,
+        "heading": "である + と思う",
+        "content": "",
+        "children": [
+          {
+            "level": 3,
+            "heading": "Opinion expression",
+            "content": "これは重要であると思う \"I think this is important\" 問題であると考える \"I consider it a problem\" 必要であると言える \"One can say it's necessary\" Formal opinion Academic hedging Objective assertion"
+          }
+        ]
+      },
+      {
+        "level": 2,
+        "heading": "Adverbial である",
+        "content": "",
+        "children": [
+          {
+            "level": 3,
+            "heading": "〜であり",
+            "content": "これは重要であり、必要である \"This is important and necessary\" 彼は学生であり、研究者である \"He is a student and a researcher\" Connecting clauses Listing qualities Formal conjunction"
+          }
+        ]
+      },
+      {
+        "level": 2,
+        "heading": "Conditional である",
+        "content": "",
+        "children": [
+          {
+            "level": 3,
+            "heading": "であれば",
+            "content": "学生であれば割引がある \"If (you're) a student, there's a discount\" 重要であれば対処する \"If important, will address it\" Formal conditional Written hypothesis Academic reasoning"
+          }
+        ]
+      },
+      {
+        "level": 2,
+        "heading": "Causal である",
+        "content": "",
+        "children": [
+          {
+            "level": 3,
+            "heading": "であるから/であるので",
+            "content": "重要であるから注目すべきだ \"Because it's important, should pay attention\" 学生であるので割引を受ける \"Because (I'm) a student, receive discount\" Formal causation Logical reasoning Academic argument"
+          }
+        ]
+      },
+      {
+        "level": 2,
+        "heading": "Classical Influence",
+        "content": "",
+        "children": [
+          {
+            "level": 3,
+            "heading": "Literary heritage",
+            "content": "である comes from: にてある (classical) → である (modern) Classical roots Literary tradition Formal register"
+          }
+        ]
+      },
+      {
+        "level": 2,
+        "heading": "In Questions (Rare)",
+        "content": "",
+        "children": [
+          {
+            "level": 3,
+            "heading": "であるか",
+            "content": "これは問題であるか \"Is this a problem?\" 重要であるか \"Is it important?\" Rhetorical questions Formal inquiry Not common in questions Usually statements"
+          }
+        ]
+      },
+      {
+        "level": 2,
+        "heading": "With Adjectives",
+        "content": "",
+        "children": [
+          {
+            "level": 3,
+            "heading": "である after な-adjectives",
+            "content": "静かである \"is quiet\" 便利である \"is convenient\" 必要である \"is necessary\" 重要である \"is important\" 明らかである \"is clear\" Standard pattern Formal adjective endings Academic vocabulary"
+          }
+        ]
+      },
+      {
+        "level": 2,
+        "heading": "Emphasis Pattern",
+        "content": "",
+        "children": [
+          {
+            "level": 3,
+            "heading": "のである",
+            "content": "これが理由なのである \"This IS the reason\" (emphatic) 重要なのである \"It IS important\" (emphatic) そうなのである \"That IS so\" (emphatic) Strong assertion Emphatic explanation Written emphasis"
+          }
+        ]
+      },
+      {
+        "level": 2,
+        "heading": "Adjectival Clause",
+        "content": "",
+        "children": [
+          {
+            "level": 3,
+            "heading": "である as modifier",
+            "content": "学生である人 \"Person who is a student\" 重要である問題 \"Problem that is important\" 必要である条件 \"Condition that is necessary\" Modifying nouns Formal relative clauses Written style"
+          }
+        ]
+      },
+      {
+        "level": 2,
+        "heading": "Technical Writing",
+        "content": "",
+        "children": [
+          {
+            "level": 3,
+            "heading": "Scientific papers",
+            "content": "実験は成功である \"The experiment is a success\" 結果は有意である \"The result is significant\" 仮説は正しいと思われる \"The hypothesis is thought to be correct\" Scientific tone Objective reporting Technical precision"
+          }
+        ]
+      },
+      {
+        "level": 2,
+        "heading": "Legal Documents",
+        "content": "",
+        "children": [
+          {
+            "level": 3,
+            "heading": "Formal contracts",
+            "content": "契約は有効である \"The contract is valid\" 条件は以下である \"The conditions are as follows\" 義務である \"Is an obligation\" Legal language Binding statements Formal declarations"
+          }
+        ]
+      },
+      {
+        "level": 2,
+        "heading": "Historical Writing",
+        "content": "",
+        "children": [
+          {
+            "level": 3,
+            "heading": "Past events",
+            "content": "徳川家康は将軍であった \"Tokugawa Ieyasu was a shogun\" 江戸時代は平和であった \"The Edo period was peaceful\" Historical facts Formal narration Objective history"
+          }
+        ]
+      },
+      {
+        "level": 2,
+        "heading": "Textbook Style",
+        "content": "",
+        "children": [
+          {
+            "level": 3,
+            "heading": "Educational materials",
+            "content": "これは例である \"This is an example\" 重要なポイントである \"Is an important point\" 基本である \"Is fundamental\" Educational tone Clear assertions Instructional writing"
+          }
+        ]
+      },
+      {
+        "level": 2,
+        "heading": "Common Mistakes",
+        "content": "❌ Using in conversation である sounds stiff in speech ✓ Use です in conversation です for spoken politeness ❌ Mixing with です ✗ これは本である。それは便利です。 ✓ Stay consistent Choose one style throughout ❌ Overusing in casual writing Too formal for blogs, casual texts ✓ Match formality to context である for formal documents only ❌ Using with verbs directly ✗ 行くである ✓ Use の or other nominalizers ✓ 行くのである Understanding context crucial Written vs spoken distinction Formality awareness needed"
+      },
+      {
+        "level": 2,
+        "heading": "Practical Examples",
+        "content": "",
+        "children": [
+          {
+            "level": 3,
+            "heading": "Academic writing",
+            "content": "この理論は重要である \"This theory is important\" 研究の目的は明らかである \"The research objective is clear\" 結果は以下の通りである \"The results are as follows\" 方法は適切であると考えられる \"The method is considered appropriate\" Scholarly tone Objective assertions Formal reasoning"
+          },
+          {
+            "level": 3,
+            "heading": "Newspaper articles",
+            "content": "政府の対応は不十分である \"The government's response is insufficient\" 経済状況は深刻である \"The economic situation is serious\" 原因は調査中である \"The cause is under investigation\" Journalistic style Factual reporting Objective tone"
+          },
+          {
+            "level": 3,
+            "heading": "Essays",
+            "content": "教育制度の改革が必要である \"Educational system reform is necessary\" この問題は複雑であり、簡単な解決策はない \"This problem is complex, and there's no simple solution\" 社会の変化は避けられないものである \"Social change is unavoidable\" Argumentative writing Formal opinion Thesis development Academic discourse Logical presentation"
+          },
+          {
+            "level": 3,
+            "heading": "Company",
+            "content": "About Pricing Blog Contact"
+          },
+          {
+            "level": 3,
+            "heading": "Legal",
+            "content": "Privacy Policy Terms of Service Cookie Policy"
+          }
+        ]
+      }
+    ],
+    "examples": [
+      {
+        "sentence": "About"
+      },
+      {
+        "sentence": "Pricing"
+      },
+      {
+        "sentence": "Blog"
+      },
+      {
+        "sentence": "Contact"
+      },
+      {
+        "sentence": "Privacy Policy"
+      },
+      {
+        "sentence": "Terms of Service"
+      },
+      {
+        "sentence": "Cookie Policy"
+      }
+    ]
+  },
+  "metadata": {
+    "extracted_at": "2026-01-01T22:19:28.732098700Z",
+    "duration_ms": 3,
+    "extractors_matched": [
+      "metadata",
+      "examples",
+      "sections"
+    ],
+    "extractors_failed": [
+      "vocab_tables",
+      "definitions",
+      "content_blocks"
+    ]
+  }
+}

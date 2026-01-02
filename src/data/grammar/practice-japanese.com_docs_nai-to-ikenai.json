@@ -1,0 +1,338 @@
+{
+  "config_name": "Language Learning Extractor",
+  "url": "https://practice-japanese.com/docs/nai-to-ikenai/",
+  "data": {
+    "examples": [
+      {
+        "sentence": "〜なければならない - Must (formal)"
+      },
+      {
+        "sentence": "〜なきゃ - Gotta (casual)"
+      },
+      {
+        "sentence": "〜べき - Should"
+      },
+      {
+        "sentence": "〜ほうがいい - Had better"
+      },
+      {
+        "sentence": "〜なくてもいい - Don't have to"
+      },
+      {
+        "sentence": "〜てはいけない - Must not"
+      },
+      {
+        "sentence": "About"
+      },
+      {
+        "sentence": "Pricing"
+      },
+      {
+        "sentence": "Blog"
+      },
+      {
+        "sentence": "Contact"
+      },
+      {
+        "sentence": "Privacy Policy"
+      },
+      {
+        "sentence": "Terms of Service"
+      },
+      {
+        "sentence": "Cookie Policy"
+      }
+    ],
+    "sections": [
+      {
+        "level": 2,
+        "heading": "What is 〜ないといけない?",
+        "content": "〜ないといけない expresses obligation or necessity , meaning \"have to,\" \"must,\" or \"need to.\" It's similar to なければならない but slightly less formal and more common in conversation.\n\n勉強しないといけない \"I have to study\" 早く起きないといけません \"I have to wake up early\""
+      },
+      {
+        "level": 2,
+        "heading": "Formation",
+        "content": "",
+        "children": [
+          {
+            "level": 3,
+            "heading": "Pattern: Verb negative (ない form) + といけない",
+            "content": "| Verb | Negative | + といけない | | ------ | -------- | ------------------ | | 行く | 行かない | 行かないといけない | | 食べる | 食べない | 食べないといけない | | する | しない | しないといけない | | 来る | 来ない | 来ないといけない |"
+          },
+          {
+            "level": 3,
+            "heading": "Examples",
+            "content": "読む → 読まないといけない (have to read) 書く → 書かないといけない (have to write) 働く → 働かないといけない (have to work)"
+          }
+        ]
+      },
+      {
+        "level": 2,
+        "heading": "Contractions",
+        "content": "",
+        "children": [
+          {
+            "level": 3,
+            "heading": "Casual forms",
+            "content": "Formal: 行かないといけない ↓ Casual: 行かないといけない ↓ More casual: 行かなきゃいけない ↓ Very casual: 行かなきゃ"
+          }
+        ]
+      },
+      {
+        "level": 2,
+        "heading": "Basic Usage",
+        "content": "",
+        "children": [
+          {
+            "level": 3,
+            "heading": "Expressing obligation",
+            "content": "明日早く起きないといけない \"I have to wake up early tomorrow\" 宿題をしないといけません \"I have to do homework\" 薬を飲まないといけない \"I have to take medicine\""
+          }
+        ]
+      },
+      {
+        "level": 2,
+        "heading": "vs なければならない",
+        "content": "Both mean \"must/have to\" but subtle differences:\n\n| Feature | ないといけない | なければならない | | --------- | ------------------ | ---------------- | | Formality | Conversational | More formal | | Common in | Speech | Writing/formal | | Feeling | Personal necessity | Objective rule |\n\n勉強しないといけない \"I have to study\" (personal) 勉強しなければならない \"I must study\" (formal/strong)"
+      },
+      {
+        "level": 2,
+        "heading": "Politeness Levels",
+        "content": "",
+        "children": [
+          {
+            "level": 3,
+            "heading": "Polite",
+            "content": "行かないといけません \"I have to go\" 勉強しないといけません \"I have to study\""
+          },
+          {
+            "level": 3,
+            "heading": "Casual",
+            "content": "行かないといけない \"I have to go\" 勉強しないといけない \"I have to study\""
+          },
+          {
+            "level": 3,
+            "heading": "Very Casual",
+            "content": "行かなきゃいけない \"I have to go\" 勉強しなきゃいけない \"I have to study\""
+          }
+        ]
+      },
+      {
+        "level": 2,
+        "heading": "Common Conversations",
+        "content": "",
+        "children": [
+          {
+            "level": 3,
+            "heading": "Example 1: Making Plans",
+            "content": "A: 今日映画見に行かない？ \"Want to go see a movie today?\" B: ごめん、今日はバイトに行かないといけないんだ \"Sorry, I have to go to my part-time job today\" A: そっか、残念 \"I see, that's too bad\""
+          },
+          {
+            "level": 3,
+            "heading": "Example 2: Deadline",
+            "content": "A: この資料、いつまでですか？ \"When is this document due?\" B: 金曜日までに出さないといけません \"You have to submit it by Friday\" A: 分かりました \"Understood\""
+          },
+          {
+            "level": 3,
+            "heading": "Example 3: Daily Life",
+            "content": "A: もう11時だよ \"It's already 11\" B: やばい！明日朝早いから寝ないといけない \"Oh no! I have an early morning, so I have to sleep\""
+          }
+        ]
+      },
+      {
+        "level": 2,
+        "heading": "Expressing Reasons",
+        "content": "",
+        "children": [
+          {
+            "level": 3,
+            "heading": "〜から、〜ないといけない",
+            "content": "試験があるから、勉強しないといけない \"Because there's an exam, I have to study\" 太ったから、ダイエットしないといけない \"Because I gained weight, I have to diet\" お金がないから、働かないといけない \"Because I have no money, I have to work\""
+          }
+        ]
+      },
+      {
+        "level": 2,
+        "heading": "Past Tense",
+        "content": "",
+        "children": [
+          {
+            "level": 3,
+            "heading": "ないといけなかった",
+            "content": "昨日働かないといけなかった \"I had to work yesterday\" 早く起きないといけませんでした \"I had to wake up early\" もっと勉強しないといけなかった \"I should have studied more\""
+          }
+        ]
+      },
+      {
+        "level": 2,
+        "heading": "Negative: Don't have to",
+        "content": "",
+        "children": [
+          {
+            "level": 3,
+            "heading": "なくてもいい",
+            "content": "行かなくてもいい \"You don't have to go\" 心配しなくてもいいです \"You don't have to worry\""
+          }
+        ]
+      },
+      {
+        "level": 2,
+        "heading": "Common Verbs with といけない",
+        "content": "",
+        "children": [
+          {
+            "level": 3,
+            "heading": "Obligations",
+            "content": "勉強しないといけない - have to study 働かないといけない - have to work 行かないといけない - have to go やらないといけない - have to do"
+          },
+          {
+            "level": 3,
+            "heading": "Responsibilities",
+            "content": "払わないといけない - have to pay 準備しないといけない - have to prepare 決めないといけない - have to decide 終わらせないといけない - have to finish"
+          }
+        ]
+      },
+      {
+        "level": 2,
+        "heading": "Asking About Obligations",
+        "content": "",
+        "children": [
+          {
+            "level": 3,
+            "heading": "〜ないといけませんか？",
+            "content": "今日行かないといけませんか？ \"Do I have to go today?\" 全部読まないといけませんか？ \"Do I have to read everything?\""
+          },
+          {
+            "level": 3,
+            "heading": "Response",
+            "content": "A: これ全部やらないといけませんか？ \"Do I have to do all of this?\" B: いいえ、やらなくてもいいです \"No, you don't have to do it\""
+          }
+        ]
+      },
+      {
+        "level": 2,
+        "heading": "With Time Expressions",
+        "content": "今すぐ行かないといけない \"I have to go right now\" 明日までに終わらせないといけない \"I have to finish by tomorrow\" 毎日練習しないといけません \"I have to practice every day\""
+      },
+      {
+        "level": 2,
+        "heading": "Common Mistakes",
+        "content": "",
+        "children": [
+          {
+            "level": 3,
+            "heading": "Mistake 1: Using positive form",
+            "content": "Wrong: 行くといけない ❌ Right: 行かないといけない ✓ \"Have to go\" Must use negative!"
+          },
+          {
+            "level": 3,
+            "heading": "Mistake 2: Confusing with prohibition",
+            "content": "行かないといけない = must GO (obligation) 行ってはいけない = must NOT go (prohibition) Different meanings!"
+          },
+          {
+            "level": 3,
+            "heading": "Mistake 3: Wrong particles",
+            "content": "Less natural: 勉強をしないといけない ⚠️ Natural: 勉強しないといけない ✓"
+          }
+        ]
+      },
+      {
+        "level": 2,
+        "heading": "Softening with と思う",
+        "content": "",
+        "children": [
+          {
+            "level": 3,
+            "heading": "Adding opinion",
+            "content": "もっと頑張らないといけないと思う \"I think I have to try harder\" 早く決めないといけないと思います \"I think we have to decide soon\""
+          }
+        ]
+      },
+      {
+        "level": 2,
+        "heading": "Casual Variations",
+        "content": "",
+        "children": [
+          {
+            "level": 3,
+            "heading": "なきゃいけない",
+            "content": "行かなきゃいけない \"I gotta go\" / \"I have to go\" 勉強しなきゃいけない \"I gotta study\""
+          },
+          {
+            "level": 3,
+            "heading": "なくちゃいけない",
+            "content": "行かなくちゃいけない \"I have to go\" 準備しなくちゃいけない \"I have to prepare\""
+          }
+        ]
+      },
+      {
+        "level": 2,
+        "heading": "Expressing Reluctance",
+        "content": "",
+        "children": [
+          {
+            "level": 3,
+            "heading": "Adding particles",
+            "content": "行かないといけないんだけど... \"I have to go, but...\" やらないといけないんだよね \"I have to do it, you know\""
+          }
+        ]
+      },
+      {
+        "level": 2,
+        "heading": "Practice Sentences",
+        "content": "",
+        "children": [
+          {
+            "level": 3,
+            "heading": "Basic",
+            "content": "宿題をしないといけない \"I have to do homework\" 薬を飲まないといけません \"I have to take medicine\" 早く寝ないといけない \"I have to sleep early\""
+          },
+          {
+            "level": 3,
+            "heading": "Intermediate",
+            "content": "明日までにレポートを出さないといけません \"I have to submit the report by tomorrow\" もっと健康に気をつけないといけないと思います \"I think I have to pay more attention to my health\" お金を稼がないといけないから、バイトを探しています \"I have to earn money, so I'm looking for a part-time job\""
+          },
+          {
+            "level": 3,
+            "heading": "Advanced",
+            "content": "社会人として責任を持って行動しないといけません \"As a member of society, I have to act responsibly\" 環境問題について真剣に考えないといけない時期に来ている \"The time has come when we have to seriously think about environmental issues\" 失敗から学び、次に生かさないといけないと思います \"I think we have to learn from our failures and apply them next time\""
+          }
+        ]
+      },
+      {
+        "level": 2,
+        "heading": "Related Grammar Points",
+        "content": "〜なければならない - Must (formal) 〜なきゃ - Gotta (casual) 〜べき - Should 〜ほうがいい - Had better 〜なくてもいい - Don't have to 〜てはいけない - Must not",
+        "children": [
+          {
+            "level": 3,
+            "heading": "Company",
+            "content": "About Pricing Blog Contact"
+          },
+          {
+            "level": 3,
+            "heading": "Legal",
+            "content": "Privacy Policy Terms of Service Cookie Policy"
+          }
+        ]
+      }
+    ],
+    "metadata": {
+      "title": "〜ないといけない (Have to)"
+    }
+  },
+  "metadata": {
+    "extracted_at": "2026-01-01T22:19:31.647255300Z",
+    "duration_ms": 4,
+    "extractors_matched": [
+      "metadata",
+      "examples",
+      "sections"
+    ],
+    "extractors_failed": [
+      "vocab_tables",
+      "definitions",
+      "content_blocks"
+    ]
+  }
+}

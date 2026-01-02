@@ -1,0 +1,376 @@
+{
+  "config_name": "Language Learning Extractor",
+  "url": "https://practice-japanese.com/docs/kureru-kudasaru/",
+  "data": {
+    "metadata": {
+      "title": "Favor: くれる/くださる"
+    },
+    "sections": [
+      {
+        "level": 2,
+        "heading": "What Makes くれる Special?",
+        "content": "くれる and くださる mean \"give,\" but specifically when someone gives TO YOU or your in-group. This is different from あげる (give to others) and もらう (receive from others).\n\n| Verb | Level | Meaning | | -------- | --------- | ----------------------- | | くれる | Neutral | Someone gives to me/us | | くださる | Honorific | Superior gives to me/us |\n\n友達がプレゼントをくれた \"My friend gave me a present\" 先生が本をくださいました \"My teacher gave me a book\""
+      },
+      {
+        "level": 2,
+        "heading": "Key Difference: Perspective",
+        "content": "",
+        "children": [
+          {
+            "level": 3,
+            "heading": "あげる vs くれる",
+            "content": "あげる - I give to someone else:\n\n私は友達にプレゼントをあげた \"I gave a present to my friend\" (Focus: My action of giving out)\n\nくれる - Someone gives to me:\n\n友達が私にプレゼントをくれた \"My friend gave me a present\" (Focus: Their action toward me)"
+          }
+        ]
+      },
+      {
+        "level": 2,
+        "heading": "くれる - Neutral \"Give to Me\"",
+        "content": "",
+        "children": [
+          {
+            "level": 3,
+            "heading": "Basic Pattern",
+            "content": "Giver + が + (me/us) + に + Object + を + くれる\n\n友達がプレゼントをくれた \"My friend gave me a present\" 母がお金をくれました \"My mother gave me money\" 彼がチョコレートをくれた \"He gave me chocolate\""
+          },
+          {
+            "level": 3,
+            "heading": "Often Omits \"Me\"",
+            "content": "The \"me\" (私に) is usually omitted since it's obvious:\n\n友達が(私に)プレゼントをくれた \"My friend gave (me) a present\""
+          }
+        ]
+      },
+      {
+        "level": 2,
+        "heading": "くださる - Honorific \"Give to Me\"",
+        "content": "",
+        "children": [
+          {
+            "level": 3,
+            "heading": "When to Use くださる",
+            "content": "1. Superiors give to you\n\n先生が本をくださいました \"My teacher gave me a book\" 社長がアドバイスをくださった \"The president gave me advice\"\n\n2. Customers/clients give to you\n\nお客様がご意見をくださいました \"The customer gave us feedback\"\n\n3. Showing respect\n\nおばあさんがお小遣いをくださった \"My grandmother gave me pocket money\""
+          }
+        ]
+      },
+      {
+        "level": 2,
+        "heading": "In-Group Extension",
+        "content": "くれる can be used when someone gives to your family/in-group:\n\n友達が弟にゲームをくれた \"My friend gave my younger brother a game\" 先生が妹に本をくださいました \"The teacher gave my sister a book\"\n\nThis shows you identify with your family member."
+      },
+      {
+        "level": 2,
+        "heading": "Common Patterns",
+        "content": "",
+        "children": [
+          {
+            "level": 3,
+            "heading": "Past Tense",
+            "content": "くれた - gave (to me) くださった - gave (to me, honorific)"
+          },
+          {
+            "level": 3,
+            "heading": "Negative",
+            "content": "くれない - won't give (to me) くださらない - won't give (to me, honorific)"
+          },
+          {
+            "level": 3,
+            "heading": "Request Form",
+            "content": "くれる？ - Will you give me? くれますか？ - Will you give me? (polite) ください - Please give me くださいますか？ - Could you give me? (very polite)"
+          }
+        ]
+      },
+      {
+        "level": 2,
+        "heading": "Doing Favors (〜てくれる)",
+        "content": "",
+        "children": [
+          {
+            "level": 3,
+            "heading": "Pattern: Verb-て + くれる/くださる",
+            "content": "This means \"someone does something FOR ME\":\n\n友達が手伝ってくれた \"My friend helped me\" 先生が教えてくださいました \"My teacher taught me\" 母が作ってくれた \"My mother made it for me\""
+          },
+          {
+            "level": 3,
+            "heading": "Expressing Gratitude",
+            "content": "〜てくれる often expresses appreciation:\n\nありがとう、助けてくれて \"Thanks for helping me\" 来てくれてありがとう \"Thanks for coming\""
+          }
+        ]
+      },
+      {
+        "level": 2,
+        "heading": "Requesting with くれる",
+        "content": "",
+        "children": [
+          {
+            "level": 3,
+            "heading": "〜てくれる？ (Casual request)",
+            "content": "手伝ってくれる？ \"Will you help me?\" 教えてくれる？ \"Will you teach me?\""
+          },
+          {
+            "level": 3,
+            "heading": "〜てくれますか？ (Polite request)",
+            "content": "手伝ってくれますか？ \"Will you help me?\" 待っててくれますか？ \"Will you wait for me?\""
+          },
+          {
+            "level": 3,
+            "heading": "〜てください (Standard request)",
+            "content": "手伝ってください \"Please help me\" 教えてください \"Please teach me\""
+          },
+          {
+            "level": 3,
+            "heading": "〜てくださいますか？ (Very polite request)",
+            "content": "お名前を教えてくださいますか？ \"Could you tell me your name?\" 説明してくださいますか？ \"Could you explain?\""
+          }
+        ]
+      },
+      {
+        "level": 2,
+        "heading": "Common Conversations",
+        "content": "",
+        "children": [
+          {
+            "level": 3,
+            "heading": "Example 1: Friend's Help",
+            "content": "A: 昨日手伝ってくれてありがとう \"Thanks for helping me yesterday\" B: どういたしまして \"You're welcome\" A: 本当に助かった \"It really helped\""
+          },
+          {
+            "level": 3,
+            "heading": "Example 2: Gift",
+            "content": "A: これ、あなたにあげる \"I'll give this to you\" B: 本当に？ありがとう！ \"Really? Thank you!\" A: 気に入ってくれるといいな \"I hope you like it\""
+          },
+          {
+            "level": 3,
+            "heading": "Example 3: Teacher's Advice",
+            "content": "A: 先生がアドバイスをくださいました \"My teacher gave me advice\" B: よかったですね \"That's good\" A: とても役に立ちました \"It was very helpful\""
+          }
+        ]
+      },
+      {
+        "level": 2,
+        "heading": "Comparing the Three: あげる・もらう・くれる",
+        "content": "",
+        "children": [
+          {
+            "level": 3,
+            "heading": "Same situation, three perspectives:",
+            "content": "あげる (I give):\n\n私は友達にプレゼントをあげた \"I gave a present to my friend\"\n\nもらう (I receive):\n\n私は友達にプレゼントをもらった \"I received a present from my friend\"\n\nくれる (They give to me):\n\n友達が私にプレゼントをくれた \"My friend gave me a present\""
+          }
+        ]
+      },
+      {
+        "level": 2,
+        "heading": "Politeness Levels",
+        "content": "",
+        "children": [
+          {
+            "level": 3,
+            "heading": "Casual",
+            "content": "くれる くれた くれない"
+          },
+          {
+            "level": 3,
+            "heading": "Polite",
+            "content": "くれます くれました くれません"
+          },
+          {
+            "level": 3,
+            "heading": "Honorific",
+            "content": "くださる くださいました くださいません"
+          },
+          {
+            "level": 3,
+            "heading": "Imperative",
+            "content": "くれ (rough, masculine) ください (polite) くださいませ (very polite)"
+          }
+        ]
+      },
+      {
+        "level": 2,
+        "heading": "Common Mistakes",
+        "content": "",
+        "children": [
+          {
+            "level": 3,
+            "heading": "Mistake 1: Using くれる when YOU give",
+            "content": "Wrong: 私が友達にプレゼントをくれた ❌ Right: 私が友達にプレゼントをあげた ✓ \"I gave a present to my friend\" くれる = someone gives TO ME, not from me!"
+          },
+          {
+            "level": 3,
+            "heading": "Mistake 2: Using あげる when receiving",
+            "content": "Wrong: 友達が私にプレゼントをあげた ❌ Right: 友達が私にプレゼントをくれた ✓ \"My friend gave me a present\""
+          },
+          {
+            "level": 3,
+            "heading": "Mistake 3: Wrong politeness level",
+            "content": "Less polite: 先生が本をくれました ⚠️ Better: 先生が本をくださいました ✓ \"My teacher gave me a book\""
+          },
+          {
+            "level": 3,
+            "heading": "Mistake 4: Omitting が particle",
+            "content": "Unclear: 友達プレゼントをくれた ❌ Clear: 友達がプレゼントをくれた ✓ \"My friend gave me a present\""
+          }
+        ]
+      },
+      {
+        "level": 2,
+        "heading": "Special Expressions",
+        "content": "",
+        "children": [
+          {
+            "level": 3,
+            "heading": "ありがとう、〜てくれて",
+            "content": "Common gratitude pattern:\n\n来てくれてありがとう \"Thanks for coming\" 手伝ってくれてありがとう \"Thanks for helping\" 覚えていてくれてありがとう \"Thanks for remembering\""
+          },
+          {
+            "level": 3,
+            "heading": "〜てくれない？ (Won't you...?)",
+            "content": "Soft request:\n\nちょっと待ってくれない？ \"Won't you wait a bit?\" 一緒に来てくれない？ \"Won't you come with me?\""
+          },
+          {
+            "level": 3,
+            "heading": "〜てくれればいいのに",
+            "content": "Wish someone would do something:\n\nもっと早く言ってくれればよかったのに \"I wish you had told me earlier\""
+          }
+        ]
+      },
+      {
+        "level": 2,
+        "heading": "Comparison Chart",
+        "content": "| Situation | Verb | Example | | ---------------------- | ---------- | ---------------- | | I give to friend | あげる | 友達にあげた | | I receive from friend | もらう | 友達にもらった | | Friend gives to me | くれる | 友達がくれた | | I give to teacher | さしあげる | 先生にさしあげた | | I receive from teacher | いただく | 先生にいただいた | | Teacher gives to me | くださる | 先生がくださった |"
+      },
+      {
+        "level": 2,
+        "heading": "Understanding the Direction",
+        "content": "",
+        "children": [
+          {
+            "level": 3,
+            "heading": "Away from me (あげる・さしあげる)",
+            "content": "私 → 友達 I give to friend"
+          },
+          {
+            "level": 3,
+            "heading": "Toward me (くれる・くださる)",
+            "content": "友達 → 私 Friend gives to me"
+          },
+          {
+            "level": 3,
+            "heading": "Neutral receiving (もらう・いただく)",
+            "content": "私 ← 友達 I receive from friend"
+          }
+        ]
+      },
+      {
+        "level": 2,
+        "heading": "When Not to Use くれる",
+        "content": "",
+        "children": [
+          {
+            "level": 3,
+            "heading": "Don't use when you're the giver:",
+            "content": "Wrong: 私がくれた ❌ Right: 私があげた ✓ \"I gave\""
+          },
+          {
+            "level": 3,
+            "heading": "Don't use for unrelated third parties:",
+            "content": "Unnatural: 田中さんが山田さんにくれた ⚠️ Better: 田中さんが山田さんにあげた ✓ \"Tanaka gave to Yamada\" (Unless Yamada is your in-group)"
+          }
+        ]
+      },
+      {
+        "level": 2,
+        "heading": "Practice Sentences",
+        "content": "",
+        "children": [
+          {
+            "level": 3,
+            "heading": "Basic",
+            "content": "友達がプレゼントをくれた \"My friend gave me a present\" 先生が本をくださいました \"My teacher gave me a book\" 母が作ってくれた \"My mother made it for me\""
+          },
+          {
+            "level": 3,
+            "heading": "Intermediate",
+            "content": "手伝ってくれてありがとう \"Thanks for helping me\" 先生が推薦状を書いてくださいました \"My teacher wrote a recommendation letter for me\" 友達が駅まで送ってくれた \"My friend took me to the station\""
+          },
+          {
+            "level": 3,
+            "heading": "Advanced",
+            "content": "みんなが応援してくれたおかげで、合格できました \"Thanks to everyone's support, I was able to pass\" お忙しい中、時間を割いてくださり、ありがとうございます \"Thank you for taking time out of your busy schedule\" 彼女が最後まで信じてくれたことが、一番嬉しかった \"What made me happiest was that she believed in me until the end\""
+          }
+        ]
+      },
+      {
+        "level": 2,
+        "heading": "Related Grammar Points",
+        "content": "Giving: あげる/やる/さしあげる - Giving to others Receiving: もらう/いただく - Receiving from others Direction of Actions - Perspective in giving 〜てくれる/〜てもらう - Doing favors Benefactive expressions - Helping/favoring ください - Polite requests",
+        "children": [
+          {
+            "level": 3,
+            "heading": "Company",
+            "content": "About Pricing Blog Contact"
+          },
+          {
+            "level": 3,
+            "heading": "Legal",
+            "content": "Privacy Policy Terms of Service Cookie Policy"
+          }
+        ]
+      }
+    ],
+    "examples": [
+      {
+        "sentence": "Giving: あげる/やる/さしあげる - Giving to others"
+      },
+      {
+        "sentence": "Receiving: もらう/いただく - Receiving from others"
+      },
+      {
+        "sentence": "Direction of Actions - Perspective in giving"
+      },
+      {
+        "sentence": "〜てくれる/〜てもらう - Doing favors"
+      },
+      {
+        "sentence": "Benefactive expressions - Helping/favoring"
+      },
+      {
+        "sentence": "ください - Polite requests"
+      },
+      {
+        "sentence": "About"
+      },
+      {
+        "sentence": "Pricing"
+      },
+      {
+        "sentence": "Blog"
+      },
+      {
+        "sentence": "Contact"
+      },
+      {
+        "sentence": "Privacy Policy"
+      },
+      {
+        "sentence": "Terms of Service"
+      },
+      {
+        "sentence": "Cookie Policy"
+      }
+    ]
+  },
+  "metadata": {
+    "extracted_at": "2026-01-01T22:19:30.971001100Z",
+    "duration_ms": 3,
+    "extractors_matched": [
+      "metadata",
+      "examples",
+      "sections"
+    ],
+    "extractors_failed": [
+      "vocab_tables",
+      "definitions",
+      "content_blocks"
+    ]
+  }
+}

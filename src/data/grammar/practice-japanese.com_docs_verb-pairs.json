@@ -1,0 +1,240 @@
+{
+  "config_name": "Language Learning Extractor",
+  "url": "https://practice-japanese.com/docs/verb-pairs/",
+  "data": {
+    "examples": [
+      {
+        "sentence": "About"
+      },
+      {
+        "sentence": "Pricing"
+      },
+      {
+        "sentence": "Blog"
+      },
+      {
+        "sentence": "Contact"
+      },
+      {
+        "sentence": "Privacy Policy"
+      },
+      {
+        "sentence": "Terms of Service"
+      },
+      {
+        "sentence": "Cookie Policy"
+      }
+    ],
+    "sections": [
+      {
+        "level": 2,
+        "heading": "Common Verb Pairs",
+        "content": "Japanese has many transitive-intransitive verb pairs that express related actions. Learning these pairs together helps you understand the relationship between causing something to happen and something happening by itself.\n\nPattern: Transitive (他動詞) - someone does it Intransitive (自動詞) - it happens 開ける (tr.) - open something 開く (intr.) - something opens Learn as pairs Understand relationship"
+      },
+      {
+        "level": 2,
+        "heading": "Opening and Closing",
+        "content": "",
+        "children": [
+          {
+            "level": 3,
+            "heading": "開ける ⟷ 開く",
+            "content": "開ける (akeru) - transitive \"open (something)\" ドアを開ける \"open the door\" 窓を開ける \"open the window\" 本を開ける \"open a book\" Someone opens it\n\n開く (aku) - intransitive \"(something) opens\" ドアが開く \"door opens\" 窓が開く \"window opens\" 花が開く \"flower opens\" It opens by itself"
+          },
+          {
+            "level": 3,
+            "heading": "閉める ⟷ 閉まる",
+            "content": "閉める (shimeru) - transitive \"close (something)\" ドアを閉める \"close door\" 窓を閉める \"close window\" 目を閉める \"close eyes\" Someone closes it\n\n閉まる (shimaru) - intransitive \"(something) closes\" ドアが閉まる \"door closes\" 店が閉まる \"store closes\" 目が閉まる \"eyes close\" It closes by itself"
+          }
+        ]
+      },
+      {
+        "level": 2,
+        "heading": "Lights and Power",
+        "content": "",
+        "children": [
+          {
+            "level": 3,
+            "heading": "つける ⟷ つく",
+            "content": "つける (tsukeru) - transitive \"turn on, attach\" 電気をつける \"turn on light\" テレビをつける \"turn on TV\" ボタンをつける \"attach button\" Someone turns it on/attaches\n\nつく (tsuku) - intransitive \"(something) turns on, attaches\" 電気がつく \"light turns on\" 火がつく \"fire catches\" ボタンがつく \"button is attached\" It turns on/attaches"
+          },
+          {
+            "level": 3,
+            "heading": "消す ⟷ 消える",
+            "content": "消す (kesu) - transitive \"turn off, erase\" 電気を消す \"turn off light\" テレビを消す \"turn off TV\" 字を消す \"erase letters\" Someone turns it off/erases\n\n消える (kieru) - intransitive \"(something) goes out, disappears\" 電気が消える \"light goes out\" 火が消える \"fire goes out\" 姿が消える \"figure disappears\" It goes out/disappears"
+          }
+        ]
+      },
+      {
+        "level": 2,
+        "heading": "Starting and Stopping",
+        "content": "",
+        "children": [
+          {
+            "level": 3,
+            "heading": "始める ⟷ 始まる",
+            "content": "始める (hajimeru) - transitive \"start (something)\" 仕事を始める \"start work\" 授業を始める \"start class\" 話を始める \"start talking\" Someone starts it\n\n始まる (hajimaru) - intransitive \"(something) starts\" 仕事が始まる \"work starts\" 授業が始まる \"class starts\" 映画が始まる \"movie starts\" It starts"
+          },
+          {
+            "level": 3,
+            "heading": "終える ⟷ 終わる",
+            "content": "終える (oeru) - transitive \"finish (something)\" 仕事を終える \"finish work\" 話を終える \"finish talking\" Someone finishes it Less common than 終わる\n\n終わる (owaru) - intransitive \"(something) ends\" 仕事が終わる \"work ends\" 授業が終わる \"class ends\" 映画が終わる \"movie ends\" It ends Very common"
+          },
+          {
+            "level": 3,
+            "heading": "止める ⟷ 止まる",
+            "content": "止める (tomeru) - transitive \"stop (something)\" 車を止める \"stop car\" 時計を止める \"stop clock\" 出血を止める \"stop bleeding\" Someone stops it\n\n止まる (tomaru) - intransitive \"(something) stops\" 車が止まる \"car stops\" 時計が止まる \"clock stops\" 雨が止まる \"rain stops\" It stops"
+          }
+        ]
+      },
+      {
+        "level": 2,
+        "heading": "Finding and Losing",
+        "content": "",
+        "children": [
+          {
+            "level": 3,
+            "heading": "見つける ⟷ 見つかる",
+            "content": "見つける (mitsukeru) - transitive \"find (something)\" 鍵を見つける \"find key\" 答えを見つける \"find answer\" 間違いを見つける \"find mistake\" Someone finds it\n\n見つかる (mitsukaru) - intransitive \"(something) is found\" 鍵が見つかる \"key is found\" 答えが見つかる \"answer is found\" 犯人が見つかる \"criminal is found\" It is found"
+          },
+          {
+            "level": 3,
+            "heading": "なくす ⟷ なくなる",
+            "content": "なくす (nakusu) - transitive \"lose (something)\" 財布をなくす \"lose wallet\" 時間をなくす \"lose time\" Someone loses it\n\nなくなる (nakunaru) - intransitive \"(something) disappears, runs out\" お金がなくなる \"money runs out\" 痛みがなくなる \"pain goes away\" 人がなくなる \"person dies\" It disappears/is gone"
+          }
+        ]
+      },
+      {
+        "level": 2,
+        "heading": "Breaking and Fixing",
+        "content": "",
+        "children": [
+          {
+            "level": 3,
+            "heading": "壊す ⟷ 壊れる",
+            "content": "壊す (kowasu) - transitive \"break (something)\" おもちゃを壊す \"break toy\" 機械を壊す \"break machine\" Someone breaks it\n\n壊れる (kowareru) - intransitive \"(something) breaks\" おもちゃが壊れる \"toy breaks\" 機械が壊れる \"machine breaks\" It breaks"
+          },
+          {
+            "level": 3,
+            "heading": "直す ⟷ 直る",
+            "content": "直す (naosu) - transitive \"fix (something)\" 時計を直す \"fix clock\" 間違いを直す \"fix mistake\" Someone fixes it\n\n直る (naoru) - intransitive \"(something) gets fixed\" 時計が直る \"clock gets fixed\" 病気が直る \"illness heals\" It gets fixed"
+          }
+        ]
+      },
+      {
+        "level": 2,
+        "heading": "Movement",
+        "content": "",
+        "children": [
+          {
+            "level": 3,
+            "heading": "出す ⟷ 出る",
+            "content": "出す (dasu) - transitive \"take out, send out\" 手紙を出す \"send letter\" ゴミを出す \"take out trash\" 声を出す \"let out voice\" Someone puts out/sends\n\n出る (deru) - intransitive \"(something) comes out, leaves\" 芽が出る \"sprout comes out\" 血が出る \"blood comes out\" 人が出る \"person leaves\" It comes out/leaves"
+          },
+          {
+            "level": 3,
+            "heading": "入れる ⟷ 入る",
+            "content": "入れる (ireru) - transitive \"put in\" お金を入れる \"put in money\" コーヒーを入れる \"make coffee\" 名前を入れる \"input name\" Someone puts in\n\n入る (hairu) - intransitive \"(something/someone) enters\" 部屋に入る \"enter room\" 大学に入る \"enter university\" 水が入る \"water gets in\" It/someone enters"
+          }
+        ]
+      },
+      {
+        "level": 2,
+        "heading": "Changing States",
+        "content": "",
+        "children": [
+          {
+            "level": 3,
+            "heading": "変える ⟷ 変わる",
+            "content": "変える (kaeru) - transitive \"change (something)\" 予定を変える \"change plans\" 考えを変える \"change opinion\" Someone changes it\n\n変わる (kawaru) - intransitive \"(something) changes\" 天気が変わる \"weather changes\" 気持ちが変わる \"feelings change\" It changes"
+          },
+          {
+            "level": 3,
+            "heading": "増やす ⟷ 増える",
+            "content": "増やす (fuyasu) - transitive \"increase (something)\" 人数を増やす \"increase number of people\" お金を増やす \"increase money\" Someone increases it\n\n増える (fueru) - intransitive \"(something) increases\" 人口が増える \"population increases\" 体重が増える \"weight increases\" It increases"
+          },
+          {
+            "level": 3,
+            "heading": "減らす ⟷ 減る",
+            "content": "減らす (herasu) - transitive \"decrease (something)\" 支出を減らす \"decrease spending\" 体重を減らす \"lose weight\" Someone decreases it\n\n減る (heru) - intransitive \"(something) decreases\" 人口が減る \"population decreases\" お金が減る \"money decreases\" It decreases"
+          }
+        ]
+      },
+      {
+        "level": 2,
+        "heading": "Connecting",
+        "content": "",
+        "children": [
+          {
+            "level": 3,
+            "heading": "つなげる ⟷ つながる",
+            "content": "つなげる (tsunageru) - transitive \"connect (something)\" 線をつなげる \"connect lines\" 手をつなげる \"hold hands\" Someone connects\n\nつながる (tsunagaru) - intransitive \"(something) connects\" 電話がつながる \"call goes through\" インターネットにつながる \"connects to internet\" It connects"
+          }
+        ]
+      },
+      {
+        "level": 2,
+        "heading": "Hanging and Attaching",
+        "content": "",
+        "children": [
+          {
+            "level": 3,
+            "heading": "かける ⟷ かかる",
+            "content": "かける (kakeru) - transitive \"hang, put on\" 絵をかける \"hang picture\" 鍵をかける \"lock\" 電話をかける \"make phone call\" Someone hangs/puts Multiple meanings\n\nかかる (kakaru) - intransitive \"(something) hangs, is on\" 絵がかかる \"picture hangs\" 鍵がかかる \"is locked\" 時間がかかる \"takes time\" It hangs/is on Multiple meanings"
+          }
+        ]
+      },
+      {
+        "level": 2,
+        "heading": "Raising and Rising",
+        "content": "",
+        "children": [
+          {
+            "level": 3,
+            "heading": "上げる ⟷ 上がる",
+            "content": "上げる (ageru) - transitive \"raise (something)\" 手を上げる \"raise hand\" 値段を上げる \"raise price\" Someone raises it\n\n上がる (agaru) - intransitive \"(something) rises\" 温度が上がる \"temperature rises\" 成績が上がる \"grades go up\" It rises"
+          },
+          {
+            "level": 3,
+            "heading": "下げる ⟷ 下がる",
+            "content": "下げる (sageru) - transitive \"lower (something)\" 頭を下げる \"lower head (bow)\" 値段を下げる \"lower price\" Someone lowers it\n\n下がる (sagaru) - intransitive \"(something) lowers\" 温度が下がる \"temperature drops\" 成績が下がる \"grades drop\" It lowers"
+          }
+        ]
+      },
+      {
+        "level": 2,
+        "heading": "Common Mistakes",
+        "content": "❌ Mixing up the pairs ✗ ドアを開く (should be 開ける) ✗ 電気がつける (should be つく) ✓ Learn pairs together Transitive uses を Intransitive uses が ❌ Using wrong particle ✗ ドアが開ける ✓ Match particle to verb type ✓ ドアを開ける ✓ ドアが開く Practice with both Understand the relationship",
+        "children": [
+          {
+            "level": 3,
+            "heading": "Company",
+            "content": "About Pricing Blog Contact"
+          },
+          {
+            "level": 3,
+            "heading": "Legal",
+            "content": "Privacy Policy Terms of Service Cookie Policy"
+          }
+        ]
+      }
+    ],
+    "metadata": {
+      "title": "Common Pairs"
+    }
+  },
+  "metadata": {
+    "extracted_at": "2026-01-01T22:19:37.161610400Z",
+    "duration_ms": 3,
+    "extractors_matched": [
+      "metadata",
+      "examples",
+      "sections"
+    ],
+    "extractors_failed": [
+      "vocab_tables",
+      "definitions",
+      "content_blocks"
+    ]
+  }
+}

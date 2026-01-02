@@ -1,0 +1,320 @@
+{
+  "config_name": "Language Learning Extractor",
+  "url": "https://practice-japanese.com/docs/shi/",
+  "data": {
+    "examples": [
+      {
+        "sentence": "About"
+      },
+      {
+        "sentence": "Pricing"
+      },
+      {
+        "sentence": "Blog"
+      },
+      {
+        "sentence": "Contact"
+      },
+      {
+        "sentence": "Privacy Policy"
+      },
+      {
+        "sentence": "Terms of Service"
+      },
+      {
+        "sentence": "Cookie Policy"
+      }
+    ],
+    "sections": [
+      {
+        "level": 2,
+        "heading": "What is 〜し?",
+        "content": "し is a particle that connects clauses to list multiple reasons, characteristics, or facts. It means \"and,\" \"moreover,\" \"what's more,\" or \"besides.\" It emphasizes that there are several reasons or points, not just one, and often implies more reasons could be added.\n\n美味しいし、安い。 \"It's delicious, and what's more, it's cheap.\" 疲れたし、お腹も空いた。 \"I'm tired, and besides, I'm hungry too.\""
+      },
+      {
+        "level": 2,
+        "heading": "Basic Structure",
+        "content": "",
+        "children": [
+          {
+            "level": 3,
+            "heading": "[Plain form] + し",
+            "content": "高いし、遠い。 \"It's expensive, and it's far.\" Verb/adjective + し"
+          },
+          {
+            "level": 3,
+            "heading": "Multiple し clauses",
+            "content": "美味しいし、安いし、近い。 \"It's delicious, and it's cheap, and it's close.\" Can list many reasons"
+          }
+        ]
+      },
+      {
+        "level": 2,
+        "heading": "Usage and Meaning",
+        "content": "",
+        "children": [
+          {
+            "level": 3,
+            "heading": "Listing reasons",
+            "content": "疲れたし、眠い。 \"I'm tired, and I'm sleepy.\" 忙しいし、お金もない。 \"I'm busy, and I don't have money either.\" Multiple justifications"
+          },
+          {
+            "level": 3,
+            "heading": "Adding characteristics",
+            "content": "彼は優しいし、頭もいい。 \"He's kind, and he's smart too.\" きれいだし、親切だ。 \"She's pretty, and she's kind.\" Multiple positive traits"
+          },
+          {
+            "level": 3,
+            "heading": "Emphasizing multiple factors",
+            "content": "雨だし、寒いし、行きたくない。 \"It's raining, and it's cold, and I don't want to go.\" Piling up reasons"
+          }
+        ]
+      },
+      {
+        "level": 2,
+        "heading": "Position in Sentence",
+        "content": "",
+        "children": [
+          {
+            "level": 3,
+            "heading": "Mid-sentence connector",
+            "content": "高いし、遠い。 \"It's expensive and far.\" Within single sentence"
+          },
+          {
+            "level": 3,
+            "heading": "Can end sentence",
+            "content": "A: なぜ行かないの？ B: 疲れたし... A: \"Why aren't you going?\" B: \"Well, I'm tired and... (other reasons implied)\" Trailing off"
+          }
+        ]
+      },
+      {
+        "level": 2,
+        "heading": "Polite and Casual",
+        "content": "",
+        "children": [
+          {
+            "level": 3,
+            "heading": "Works in both",
+            "content": "Casual: 美味しいし、安い。 \"It's delicious and cheap.\" Polite: 美味しいし、安いです。 \"It's delicious and it's cheap.\" Adjust final ending"
+          }
+        ]
+      },
+      {
+        "level": 2,
+        "heading": "Common Patterns",
+        "content": "",
+        "children": [
+          {
+            "level": 3,
+            "heading": "Verb + し",
+            "content": "雨が降ってるし、寒い。 \"It's raining and it's cold.\" 食べたし、もう満腹だ。 \"I ate and I'm already full.\" Action + result"
+          },
+          {
+            "level": 3,
+            "heading": "い-adjective + し",
+            "content": "高いし、重い。 \"It's expensive and heavy.\" 難しいし、時間がかかる。 \"It's difficult and takes time.\" Direct connection"
+          },
+          {
+            "level": 3,
+            "heading": "な-adjective + だし",
+            "content": "便利だし、安い。 \"It's convenient and cheap.\" きれいだし、優しい。 \"She's pretty and kind.\" だ before し"
+          },
+          {
+            "level": 3,
+            "heading": "Noun + だし",
+            "content": "学生だし、お金がない。 \"I'm a student, so I don't have money.\" 日曜日だし、休もう。 \"It's Sunday, so let's rest.\" Noun as reason"
+          }
+        ]
+      },
+      {
+        "level": 2,
+        "heading": "Listing Multiple Reasons",
+        "content": "",
+        "children": [
+          {
+            "level": 3,
+            "heading": "Two or more",
+            "content": "疲れたし、お腹も空いた。 \"I'm tired, and I'm hungry too.\" Three items: 高いし、遠いし、面倒だ。 \"It's expensive, it's far, and it's troublesome.\" Cumulative effect"
+          }
+        ]
+      },
+      {
+        "level": 2,
+        "heading": "Implied Continuation",
+        "content": "",
+        "children": [
+          {
+            "level": 3,
+            "heading": "More reasons exist",
+            "content": "忙しいし...（まだ他にもある） \"I'm busy and... (there's more)\" Suggests additional reasons Not fully stated"
+          }
+        ]
+      },
+      {
+        "level": 2,
+        "heading": "Combining with も",
+        "content": "",
+        "children": [
+          {
+            "level": 3,
+            "heading": "し...も pattern",
+            "content": "雨だし、風も強い。 \"It's raining, and the wind is strong too.\" も emphasizes addition"
+          }
+        ]
+      },
+      {
+        "level": 2,
+        "heading": "Negative Forms",
+        "content": "",
+        "children": [
+          {
+            "level": 3,
+            "heading": "With ない",
+            "content": "美味しくないし、高い。 \"It's not delicious, and it's expensive.\" 時間もないし、お金もない。 \"I don't have time, and I don't have money either.\" Negative reasons"
+          }
+        ]
+      },
+      {
+        "level": 2,
+        "heading": "Common Contexts",
+        "content": "",
+        "children": [
+          {
+            "level": 3,
+            "heading": "Declining invitations",
+            "content": "A: 映画に行かない？ B: 疲れたし、お金もないし... A: \"Want to go to a movie?\" B: \"I'm tired, and I don't have money either, so...\" Multiple excuses"
+          },
+          {
+            "level": 3,
+            "heading": "Making decisions",
+            "content": "安いし、品質もいいし、これにしよう。 \"It's cheap, and the quality is good too, so let's get this.\" Weighing factors"
+          },
+          {
+            "level": 3,
+            "heading": "Describing people/things",
+            "content": "この店は美味しいし、安いし、おすすめだ。 \"This restaurant is delicious and cheap, so I recommend it.\" Multiple selling points"
+          }
+        ]
+      },
+      {
+        "level": 2,
+        "heading": "し vs と",
+        "content": "",
+        "children": [
+          {
+            "level": 3,
+            "heading": "し = listing reasons",
+            "content": "安いし、近い。 \"It's cheap and it's close.\" (reasons) Explains why"
+          },
+          {
+            "level": 3,
+            "heading": "と = simple \"and\"",
+            "content": "りんごとバナナ \"Apples and bananas\" (list) Simple connection"
+          }
+        ]
+      },
+      {
+        "level": 2,
+        "heading": "し vs て-form",
+        "content": "",
+        "children": [
+          {
+            "level": 3,
+            "heading": "し = separate facts",
+            "content": "美味しいし、安い。 \"It's delicious, and it's cheap.\" Independent qualities"
+          },
+          {
+            "level": 3,
+            "heading": "て-form = connected sequence",
+            "content": "美味しくて、安い。 \"It's delicious and cheap.\" More tightly connected"
+          }
+        ]
+      },
+      {
+        "level": 2,
+        "heading": "Ending with し",
+        "content": "",
+        "children": [
+          {
+            "level": 3,
+            "heading": "Implying more",
+            "content": "疲れたし、眠いし。 \"I'm tired, and sleepy, and...\" (more implied) Incomplete feeling Conversation continues"
+          }
+        ]
+      },
+      {
+        "level": 2,
+        "heading": "Common Mistakes",
+        "content": "",
+        "children": [
+          {
+            "level": 3,
+            "heading": "Forgetting だ with nouns",
+            "content": "Wrong: 学生し、忙しい ⚠️ Correct: 学生だし、忙しい ✓ \"I'm a student, and I'm busy.\" だ required before し"
+          },
+          {
+            "level": 3,
+            "heading": "Overusing し",
+            "content": "Excessive: 高いし、遠いし、面倒だし、 時間かかるし、難しいし... ⚠️ Better: Stop at 2-3 reasons Too many sounds complaints"
+          }
+        ]
+      },
+      {
+        "level": 2,
+        "heading": "Expressing Contrast",
+        "content": "",
+        "children": [
+          {
+            "level": 3,
+            "heading": "Can show opposing factors",
+            "content": "高いし、でも欲しい。 \"It's expensive, but I want it.\" Acknowledging negatives"
+          }
+        ]
+      },
+      {
+        "level": 2,
+        "heading": "Practice Sentences",
+        "content": "",
+        "children": [
+          {
+            "level": 3,
+            "heading": "Basic",
+            "content": "美味しいし、安い。 \"It's delicious and cheap.\" 疲れたし、眠い。 \"I'm tired and sleepy.\" 雨だし、寒い。 \"It's raining and cold.\" 忙しいし、時間がない。 \"I'm busy and don't have time.\" 彼は優しいし、頭もいい。 \"He's kind and smart too.\""
+          },
+          {
+            "level": 3,
+            "heading": "Intermediate",
+            "content": "この店は美味しいし、安いし、雰囲気も いいので、よく来ます。友達にも おすすめしています。 \"This restaurant is delicious, cheap, and has a good atmosphere, so I come often. I also recommend it to friends.\" 今日は疲れたし、天気も悪いし、 家でゆっくり休むことにした。 明日は元気に頑張ろう。 \"Today I'm tired, and the weather is bad too, so I decided to rest at home. Tomorrow I'll work hard with energy.\" 日本語は難しいし、時間もかかる。 でも面白いし、役に立つので、 勉強を続けている。 \"Japanese is difficult and takes time. But it's interesting and useful, so I continue studying.\""
+          },
+          {
+            "level": 3,
+            "heading": "Company",
+            "content": "About Pricing Blog Contact"
+          },
+          {
+            "level": 3,
+            "heading": "Legal",
+            "content": "Privacy Policy Terms of Service Cookie Policy"
+          }
+        ]
+      }
+    ],
+    "metadata": {
+      "title": "〜し (And what's more)"
+    }
+  },
+  "metadata": {
+    "extracted_at": "2026-01-01T22:19:34.520867Z",
+    "duration_ms": 4,
+    "extractors_matched": [
+      "metadata",
+      "examples",
+      "sections"
+    ],
+    "extractors_failed": [
+      "vocab_tables",
+      "definitions",
+      "content_blocks"
+    ]
+  }
+}

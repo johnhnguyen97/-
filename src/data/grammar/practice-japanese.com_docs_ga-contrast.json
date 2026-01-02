@@ -1,0 +1,316 @@
+{
+  "config_name": "Language Learning Extractor",
+  "url": "https://practice-japanese.com/docs/ga-contrast/",
+  "data": {
+    "examples": [
+      {
+        "sentence": "が is the formal/polite way to say \"but\""
+      },
+      {
+        "sentence": "Formation: [Polite form] + が"
+      },
+      {
+        "sentence": "Used in business, formal speech, and polite situations"
+      },
+      {
+        "sentence": "Common with apology phrases and requests"
+      },
+      {
+        "sentence": "More formal than けど"
+      },
+      {
+        "sentence": "Essential for professional and polite communication"
+      },
+      {
+        "sentence": "Typically paired with ます-form verbs and です"
+      },
+      {
+        "sentence": "Can follow plain forms in formal writing"
+      },
+      {
+        "sentence": "About"
+      },
+      {
+        "sentence": "Pricing"
+      },
+      {
+        "sentence": "Blog"
+      },
+      {
+        "sentence": "Contact"
+      },
+      {
+        "sentence": "Privacy Policy"
+      },
+      {
+        "sentence": "Terms of Service"
+      },
+      {
+        "sentence": "Cookie Policy"
+      }
+    ],
+    "metadata": {
+      "title": "〜が (However)"
+    },
+    "sections": [
+      {
+        "level": 2,
+        "heading": "What is 〜が (Contrast)?",
+        "content": "〜が (ga) is a formal conjunction meaning \"but\" or \"however.\" It's more polite than けど and commonly used in formal speech, business, and polite conversations.\n\nEnglish equivalent: \"but,\" \"however,\" \"although\"\n\nStructure: [Polite form] + が\n\n行きます (ikimasu - will go) + が = 行きますが \"I will go, but...\" 高いです (takai desu - is expensive) + が = 高いですが \"it's expensive, but...\" 学生です (gakusei desu - am a student) + が = 学生ですが \"I'm a student, but...\""
+      },
+      {
+        "level": 2,
+        "heading": "Basic Formation",
+        "content": "",
+        "children": [
+          {
+            "level": 3,
+            "heading": "With verbs (polite form)",
+            "content": "[Verb ます-form] + が\n\n行きますが (ikimasu ga) - \"I'll go, but...\" 食べましたが (tabemashita ga) - \"I ate, but...\" 見ますが (mimasu ga) - \"I'll watch, but...\" 勉強していますが (benkyou shite imasu ga) - \"I'm studying, but...\""
+          },
+          {
+            "level": 3,
+            "heading": "With い-adjectives + です",
+            "content": "[い-adjective] + です + が\n\n高いですが (takai desu ga) - \"it's expensive, but...\" 寒いですが (samui desu ga) - \"it's cold, but...\" 美味しいですが (oishii desu ga) - \"it's delicious, but...\""
+          },
+          {
+            "level": 3,
+            "heading": "With な-adjectives + です",
+            "content": "[な-adjective] + です + が\n\n便利ですが (benri desu ga) - \"it's convenient, but...\" 静かですが (shizuka desu ga) - \"it's quiet, but...\" 簡単ですが (kantan desu ga) - \"it's simple, but...\""
+          },
+          {
+            "level": 3,
+            "heading": "With nouns + です",
+            "content": "[Noun] + です + が\n\n学生ですが (gakusei desu ga) - \"I'm a student, but...\" 雨ですが (ame desu ga) - \"it's raining, but...\" 日本人ですが (nihonjin desu ga) - \"I'm Japanese, but...\""
+          }
+        ]
+      },
+      {
+        "level": 2,
+        "heading": "Formal Contrast",
+        "content": "",
+        "children": [
+          {
+            "level": 3,
+            "heading": "Polite opposing ideas",
+            "content": "高いですが、買います。 Takai desu ga, kaimasu. \"It's expensive, but I'll buy it.\" 忙しいですが、手伝います。 Isogashii desu ga, tetsudaimasu. \"I'm busy, but I'll help.\" 難しいですが、頑張ります。 Muzukashii desu ga, ganbarimasu. \"It's difficult, but I'll try hard.\""
+          }
+        ]
+      },
+      {
+        "level": 2,
+        "heading": "Business and Professional Settings",
+        "content": "",
+        "children": [
+          {
+            "level": 3,
+            "heading": "Workplace language",
+            "content": "申し訳ございませんが、できません。 Moushiwake gozaimasen ga, dekimasen. \"I'm very sorry, but I cannot do it.\" 承知いたしましたが、確認させていただきます。 Shouchi itashimashita ga, kakunin sasete itadakimasu. \"I understand, but please let me confirm.\" お待たせして申し訳ございませんが、もう少々お待ちください。 Omatase shite moushiwake gozaimasen ga, mou shoushou omachi kudasai. \"Sorry for the wait, but please wait a little longer.\""
+          }
+        ]
+      },
+      {
+        "level": 2,
+        "heading": "Softening Statements",
+        "content": "",
+        "children": [
+          {
+            "level": 3,
+            "heading": "Polite prefacing",
+            "content": "すみませんが、お名前をお聞きしてもよろしいですか。 Sumimasen ga, onamae wo okiki shite mo yoroshii desu ka. \"Excuse me, but may I ask your name?\" 恐れ入りますが、こちらにご記入ください。 Osore irimasu ga, kochira ni gokinyuu kudasai. \"I'm sorry to trouble you, but please fill this out.\" 失礼ですが、どちら様でしょうか。 Shitsurei desu ga, dochira sama deshou ka. \"Excuse me, but who might you be?\""
+          }
+        ]
+      },
+      {
+        "level": 2,
+        "heading": "Phone and Customer Service",
+        "content": "",
+        "children": [
+          {
+            "level": 3,
+            "heading": "Service language",
+            "content": "お電話ありがとうございます。〇〇ですが... Odenwa arigatou gozaimasu. XX desu ga... \"Thank you for calling. This is XX, but...\" 少々お待ちいただけますでしょうか。 Shoushou omachi itadakemasu deshou ka. \"Could you wait a moment, please?\" 申し訳ございませんが、そちらは取り扱っておりません。 Moushiwake gozaimasen ga, sochira wa toriatsukatteorimasen. \"I'm sorry, but we don't handle that.\""
+          }
+        ]
+      },
+      {
+        "level": 2,
+        "heading": "Making Requests",
+        "content": "",
+        "children": [
+          {
+            "level": 3,
+            "heading": "Polite asking",
+            "content": "お忙しいところ申し訳ございませんが、お願いできますでしょうか。 Oisogashii tokoro moushiwake gozaimasen ga, onegai dekimasu deshou ka. \"I'm sorry to bother you when you're busy, but could I ask you?\" 突然で申し訳ありませんが、お時間よろしいでしょうか。 Totsuzen de moushiwake arimasen ga, ojikan yoroshii deshou ka. \"Sorry for the sudden request, but do you have time?\""
+          }
+        ]
+      },
+      {
+        "level": 2,
+        "heading": "Declining Politely",
+        "content": "",
+        "children": [
+          {
+            "level": 3,
+            "heading": "Saying no formally",
+            "content": "ありがとうございますが、結構です。 Arigatou gozaimasu ga, kekkou desu. \"Thank you, but no thank you.\" 申し訳ございませんが、その日は都合が悪いです。 Moushiwake gozaimasen ga, sono hi wa tsugou ga warui desu. \"I'm sorry, but I'm not available that day.\" お気持ちは嬉しいですが、お断りします。 Okimochi wa ureshii desu ga, okotowari shimasu. \"I appreciate your sentiment, but I must decline.\""
+          }
+        ]
+      },
+      {
+        "level": 2,
+        "heading": "Introducing Topics",
+        "content": "",
+        "children": [
+          {
+            "level": 3,
+            "heading": "Formal openings",
+            "content": "突然ですが、お話があります。 Totsuzen desu ga, ohanashi ga arimasu. \"This is sudden, but I have something to discuss.\" 実はですが、相談がございます。 Jitsu wa desu ga, soudan ga gozaimasu. \"Actually, I have something to consult about.\" 少し話は変わりますが。 Sukoshi hanashi wa kawarimasu ga. \"Changing the subject slightly...\""
+          }
+        ]
+      },
+      {
+        "level": 2,
+        "heading": "With Plain Form (Formal Writing)",
+        "content": "",
+        "children": [
+          {
+            "level": 3,
+            "heading": "Literary/formal writing",
+            "content": "In formal writing, が can follow plain forms:\n\n高いが、品質は良い。 Takai ga, hinshitsu wa yoi. \"It's expensive, but the quality is good.\" (written) 難しいが、可能である。 Muzukashii ga, kanou de aru. \"It's difficult, but possible.\" (formal writing)"
+          }
+        ]
+      },
+      {
+        "level": 2,
+        "heading": "Comparing が and けど",
+        "content": "",
+        "children": [
+          {
+            "level": 3,
+            "heading": "Formal vs casual",
+            "content": "が - Formal/polite:\n\n高いですが、買います。 Takai desu ga, kaimasu. \"It's expensive, but I'll buy it.\" (polite)\n\nけど - Casual:\n\n高いけど、買う。 Takai kedo, kau. \"It's expensive, but I'll buy it.\" (casual)\n\n| Pattern | Formality | Usage | | ------- | --------- | --------------- | | が | Formal | Polite speech | | けど | Casual | Informal speech |\n\nSee: 〜けど (But)"
+          }
+        ]
+      },
+      {
+        "level": 2,
+        "heading": "Common Formal Phrases",
+        "content": "",
+        "children": [
+          {
+            "level": 3,
+            "heading": "Set expressions",
+            "content": "申し訳ございませんが (moushiwake gozaimasen ga) - \"I'm very sorry, but\" 恐れ入りますが (osore irimasu ga) - \"I'm sorry to trouble you, but\" 失礼ですが (shitsurei desu ga) - \"Excuse me, but\" すみませんが (sumimasen ga) - \"Excuse me, but\" ありがとうございますが (arigatou gozaimasu ga) - \"Thank you, but\" よろしいですが (yoroshii desu ga) - \"It's fine, but\""
+          }
+        ]
+      },
+      {
+        "level": 2,
+        "heading": "Email and Written Correspondence",
+        "content": "",
+        "children": [
+          {
+            "level": 3,
+            "heading": "Business writing",
+            "content": "拝復 お世話になっております。 先日はありがとうございました。 早速ですが、ご確認いただきたい件がございます。 Sassoku desu ga, gokakunin itadakitai ken ga gozaimasu. \"Getting straight to the point, there's something I'd like you to confirm.\""
+          }
+        ]
+      },
+      {
+        "level": 2,
+        "heading": "Announcing Bad News",
+        "content": "",
+        "children": [
+          {
+            "level": 3,
+            "heading": "Delivering negatives politely",
+            "content": "残念ですが、今回は見送らせていただきます。 Zannen desu ga, konkai wa miokurasete itadakimasu. \"Unfortunately, we'll have to pass this time.\" 誠に申し訳ございませんが、在庫がございません。 Makoto ni moushiwake gozaimasen ga, zaiko ga gozaimasen. \"We sincerely apologize, but we're out of stock.\""
+          }
+        ]
+      },
+      {
+        "level": 2,
+        "heading": "Presentation and Meetings",
+        "content": "",
+        "children": [
+          {
+            "level": 3,
+            "heading": "Formal speaking",
+            "content": "それでは始めさせていただきますが、よろしいでしょうか。 Sore dewa hajimesasete itadakimasu ga, yoroshii deshou ka. \"Well then, may I begin?\" ご質問があればお伺いしますが。 Goshitsumon ga areba oukagai shimasu ga. \"If you have questions, I'll take them.\""
+          }
+        ]
+      },
+      {
+        "level": 2,
+        "heading": "Position in Sentence",
+        "content": "",
+        "children": [
+          {
+            "level": 3,
+            "heading": "Mid-sentence connector",
+            "content": "この商品は高いですが、品質が良いです。 Kono shouhin wa takai desu ga, hinshitsu ga yoi desu. \"This product is expensive, but the quality is good.\" 時間がかかりますが、必ず完成させます。 Jikan ga kakarimasu ga, kanarazu kansei sasemasu. \"It will take time, but I'll definitely complete it.\""
+          }
+        ]
+      },
+      {
+        "level": 2,
+        "heading": "Common Mistakes",
+        "content": "",
+        "children": [
+          {
+            "level": 3,
+            "heading": "Mistake 1: Using casual form with が",
+            "content": "❌ 高いが買います ✓ 高いですが、買います\n\nUse polite forms before が."
+          },
+          {
+            "level": 3,
+            "heading": "Mistake 2: Using が in casual conversation",
+            "content": "With friends: ❌ 忙しいですが、手伝います (too formal) ✓ 忙しいけど、手伝う"
+          },
+          {
+            "level": 3,
+            "heading": "Mistake 3: Mixing formality levels",
+            "content": "❌ 高いですが、買う (mixed) ✓ 高いですが、買います (consistent) ✓ 高いけど、買う (consistent)"
+          },
+          {
+            "level": 3,
+            "heading": "Mistake 4: Forgetting です with adjectives",
+            "content": "❌ 高いが、買います ✓ 高いですが、買います"
+          }
+        ]
+      },
+      {
+        "level": 2,
+        "heading": "Summary",
+        "content": "Key Points:\n\nが is the formal/polite way to say \"but\" Formation: [Polite form] + が Used in business, formal speech, and polite situations Common with apology phrases and requests More formal than けど Essential for professional and polite communication Typically paired with ます-form verbs and です Can follow plain forms in formal writing",
+        "children": [
+          {
+            "level": 3,
+            "heading": "Company",
+            "content": "About Pricing Blog Contact"
+          },
+          {
+            "level": 3,
+            "heading": "Legal",
+            "content": "Privacy Policy Terms of Service Cookie Policy"
+          }
+        ]
+      }
+    ]
+  },
+  "metadata": {
+    "extracted_at": "2026-01-01T22:19:29.551115Z",
+    "duration_ms": 3,
+    "extractors_matched": [
+      "metadata",
+      "examples",
+      "sections"
+    ],
+    "extractors_failed": [
+      "vocab_tables",
+      "definitions",
+      "content_blocks"
+    ]
+  }
+}

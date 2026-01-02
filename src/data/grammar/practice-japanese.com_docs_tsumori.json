@@ -1,0 +1,405 @@
+{
+  "config_name": "Language Learning Extractor",
+  "url": "https://practice-japanese.com/docs/tsumori/",
+  "data": {
+    "examples": [
+      {
+        "sentence": "\"intend to\""
+      },
+      {
+        "sentence": "\"plan to\""
+      },
+      {
+        "sentence": "\"mean to\""
+      },
+      {
+        "sentence": "\"be going to\""
+      },
+      {
+        "sentence": "つもり = personal decision/intention"
+      },
+      {
+        "sentence": "予定 = scheduled plan/arrangement"
+      },
+      {
+        "sentence": "つもり expresses personal intention or plan"
+      },
+      {
+        "sentence": "Structure: Verb dictionary form + つもり"
+      },
+      {
+        "sentence": "Means \"intend to,\" \"plan to,\" \"mean to\""
+      },
+      {
+        "sentence": "Negative: Verb + つもりはない (no intention) or Verb negative + つもり (intend not to)"
+      },
+      {
+        "sentence": "Past: つもりだった (intended to)"
+      },
+      {
+        "sentence": "Different from 予定 (scheduled plan)"
+      },
+      {
+        "sentence": "Mainly for first person (speaker's intentions)"
+      },
+      {
+        "sentence": "Can express mistaken belief (sarcastic use)"
+      },
+      {
+        "sentence": "Common with: です, だった, はない"
+      },
+      {
+        "sentence": "Essential for expressing personal decisions and resolutions"
+      },
+      {
+        "sentence": "About"
+      },
+      {
+        "sentence": "Pricing"
+      },
+      {
+        "sentence": "Blog"
+      },
+      {
+        "sentence": "Contact"
+      },
+      {
+        "sentence": "Privacy Policy"
+      },
+      {
+        "sentence": "Terms of Service"
+      },
+      {
+        "sentence": "Cookie Policy"
+      }
+    ],
+    "sections": [
+      {
+        "level": 2,
+        "heading": "What is つもり?",
+        "content": "つもり (tsumori) expresses personal intention or plan, meaning \"intend to,\" \"plan to,\" or \"mean to.\" It indicates a decision or resolution the speaker has made.\n\nEnglish equivalents:\n\n\"intend to\" \"plan to\" \"mean to\" \"be going to\"\n\nKey characteristic: Expresses subjective intention, not objective plans or schedules.\n\n明日行くつもりです。 Ashita iku tsumori desu. \"I intend to go tomorrow.\" / \"I plan to go tomorrow.\" 結婚するつもりはない。 Kekkon suru tsumori wa nai. \"I don't intend to get married.\" / \"I have no intention of getting married.\""
+      },
+      {
+        "level": 2,
+        "heading": "Basic Structure",
+        "content": "",
+        "children": [
+          {
+            "level": 3,
+            "heading": "Affirmative",
+            "content": "[Verb dictionary form] + つもりです\n\n行くつもりです。 Iku tsumori desu. \"I intend to go.\" 勉強するつもりです。 Benkyou suru tsumori desu. \"I intend to study.\" 買うつもりです。 Kau tsumori desu. \"I intend to buy (it).\""
+          },
+          {
+            "level": 3,
+            "heading": "Negative Intention",
+            "content": "Two forms:\n\n1. Not intend to do:\n\n[Verb dictionary form] + つもりはない/ありません\n\n行くつもりはない。 Iku tsumori wa nai. \"I don't intend to go.\" 結婚するつもりはありません。 Kekkon suru tsumori wa arimasen. \"I don't intend to get married.\"\n\n2. Intend not to do:\n\n[Verb negative form] + つもりです\n\n行かないつもりです。 Ikanai tsumori desu. \"I intend not to go.\" / \"I plan not to go.\" 食べないつもりです。 Tabenai tsumori desu. \"I intend not to eat.\""
+          }
+        ]
+      },
+      {
+        "level": 2,
+        "heading": "Expressing Personal Plans",
+        "content": "",
+        "children": [
+          {
+            "level": 3,
+            "heading": "Future intentions",
+            "content": "来年日本に行くつもりです。 Rainen Nihon ni iku tsumori desu. \"I intend to go to Japan next year.\" 大学院に進学するつもりです。 Daigakuin ni shingaku suru tsumori desu. \"I intend to go to graduate school.\" 会社を辞めるつもりです。 Kaisha wo yameru tsumori desu. \"I intend to quit my job.\""
+          },
+          {
+            "level": 3,
+            "heading": "Immediate plans",
+            "content": "今日早く帰るつもりです。 Kyou hayaku kaeru tsumori desu. \"I intend to go home early today.\" これから勉強するつもりです。 Kore kara benkyou suru tsumori desu. \"I intend to study from now.\""
+          }
+        ]
+      },
+      {
+        "level": 2,
+        "heading": "Past Intentions",
+        "content": "",
+        "children": [
+          {
+            "level": 3,
+            "heading": "What you intended to do",
+            "content": "[Verb dictionary form] + つもりだった\n\n行くつもりだった。 Iku tsumori datta. \"I intended to go.\" [But didn't] 買うつもりだったけど、高すぎた。 Kau tsumori datta kedo, takasugita. \"I intended to buy it, but it was too expensive.\" 昨日勉強するつもりだったが、疲れて寝た。 Kinou benkyou suru tsumori datta ga, tsukarete neta. \"I intended to study yesterday, but I was tired and went to sleep.\""
+          }
+        ]
+      },
+      {
+        "level": 2,
+        "heading": "Questions About Intentions",
+        "content": "",
+        "children": [
+          {
+            "level": 3,
+            "heading": "Asking someone's plans",
+            "content": "どうするつもりですか。 Dou suru tsumori desu ka. \"What do you intend to do?\" いつ行くつもりですか。 Itsu iku tsumori desu ka. \"When do you intend to go?\" どこに住むつもりですか。 Doko ni sumu tsumori desu ka. \"Where do you intend to live?\" 結婚するつもりですか。 Kekkon suru tsumori desu ka. \"Do you intend to get married?\""
+          }
+        ]
+      },
+      {
+        "level": 2,
+        "heading": "Negative Intentions",
+        "content": "",
+        "children": [
+          {
+            "level": 3,
+            "heading": "No intention of doing",
+            "content": "Structure: [Verb] + つもりはない\n\n諦めるつもりはない。 Akirameru tsumori wa nai. \"I have no intention of giving up.\" 負けるつもりはありません。 Makeru tsumori wa arimasen. \"I don't intend to lose.\" 辞めるつもりはない。 Yameru tsumori wa nai. \"I have no intention of quitting.\""
+          },
+          {
+            "level": 3,
+            "heading": "Intending not to do",
+            "content": "Structure: [Verb negative] + つもり\n\nもう会わないつもりです。 Mou awanai tsumori desu. \"I intend not to meet (them) anymore.\" お酒を飲まないつもりです。 Osake wo nomanai tsumori desu. \"I intend not to drink alcohol.\" 無理をしないつもりです。 Muri wo shinai tsumori desu. \"I intend not to overdo it.\""
+          }
+        ]
+      },
+      {
+        "level": 2,
+        "heading": "つもりで - \"With the intention of\"",
+        "content": "",
+        "children": [
+          {
+            "level": 3,
+            "heading": "Doing something with certain mindset",
+            "content": "本気のつもりで言った。 Honki no tsumori de itta. \"I said it with serious intentions.\" 冗談のつもりで言ったのに。 Joudan no tsumori de itta noni. \"I said it as a joke (with joking intention), but...\" いいつもりでやった。 Ii tsumori de yatta. \"I did it with good intentions.\""
+          }
+        ]
+      },
+      {
+        "level": 2,
+        "heading": "つもりだ as \"Think/Believe\"",
+        "content": "",
+        "children": [
+          {
+            "level": 3,
+            "heading": "Mistaken belief (often sarcastic)",
+            "content": "上手なつもりですか。 Jouzu na tsumori desu ka. \"Do you think you're good?\" [Sarcastic - you're not] 分かっているつもりか。 Wakatte iru tsumori ka. \"Do you think you understand?\" [You don't] できるつもりでいる。 Dekiru tsumori de iru. \"He thinks he can do it.\" [But he can't]"
+          }
+        ]
+      },
+      {
+        "level": 2,
+        "heading": "Comparing つもり and 予定",
+        "content": "",
+        "children": [
+          {
+            "level": 3,
+            "heading": "つもり - Personal intention",
+            "content": "明日行くつもりです。 Ashita iku tsumori desu. \"I intend to go tomorrow.\" [My personal decision]"
+          },
+          {
+            "level": 3,
+            "heading": "予定 - Scheduled plan",
+            "content": "明日行く予定です。 Ashita iku yotei desu. \"I'm scheduled to go tomorrow.\" [Concrete plan/arrangement]\n\nSee: 予定 (Plan to)\n\n| Aspect | つもり | 予定 | | --------- | -------------------- | --------------------- | | Nature | Subjective intention | Objective plan | | Feeling | Personal decision | Scheduled/arranged | | Certainty | May change | More concrete | | Use | Personal will | External arrangements |"
+          }
+        ]
+      },
+      {
+        "level": 2,
+        "heading": "With Different Verbs",
+        "content": "",
+        "children": [
+          {
+            "level": 3,
+            "heading": "Common intentions",
+            "content": "結婚するつもりです。 Kekkon suru tsumori desu. \"I intend to get married.\" 引っ越すつもりです。 Hikkosu tsumori desu. \"I intend to move.\" 転職するつもりです。 Tenshoku suru tsumori desu. \"I intend to change jobs.\" 起業するつもりです。 Kigyou suru tsumori desu. \"I intend to start a business.\" 留学するつもりです。 Ryuugaku suru tsumori desu. \"I intend to study abroad.\""
+          }
+        ]
+      },
+      {
+        "level": 2,
+        "heading": "Expressing Determination",
+        "content": "",
+        "children": [
+          {
+            "level": 3,
+            "heading": "Strong resolve",
+            "content": "絶対に合格するつもりです。 Zettai ni goukaku suru tsumori desu. \"I absolutely intend to pass.\" 必ず成功させるつもりです。 Kanarazu seikou saseru tsumori desu. \"I intend to definitely make it succeed.\" 何があっても諦めないつもりです。 Nani ga atte mo akiramenai tsumori desu. \"No matter what happens, I don't intend to give up.\""
+          }
+        ]
+      },
+      {
+        "level": 2,
+        "heading": "Long-term Intentions",
+        "content": "",
+        "children": [
+          {
+            "level": 3,
+            "heading": "Future goals",
+            "content": "将来医者になるつもりです。 Shourai isha ni naru tsumori desu. \"I intend to become a doctor in the future.\" いつか世界一周するつもりです。 Itsuka sekai isshu suru tsumori desu. \"I intend to travel around the world someday.\" 老後は田舎で暮らすつもりです。 Rougo wa inaka de kurasu tsumori desu. \"I intend to live in the countryside in my old age.\""
+          }
+        ]
+      },
+      {
+        "level": 2,
+        "heading": "Casual Speech",
+        "content": "",
+        "children": [
+          {
+            "level": 3,
+            "heading": "Informal forms",
+            "content": "行くつもり。 Iku tsumori. \"I intend to go.\" 買うつもりだよ。 Kau tsumori da yo. \"I'm planning to buy it.\" やるつもりはない。 Yaru tsumori wa nai. \"I don't intend to do it.\""
+          }
+        ]
+      },
+      {
+        "level": 2,
+        "heading": "In Explanations",
+        "content": "",
+        "children": [
+          {
+            "level": 3,
+            "heading": "Clarifying intentions",
+            "content": "A: なぜ日本に来たんですか。 Naze Nihon ni kitan desu ka. \"Why did you come to Japan?\" B: 日本語を勉強するつもりで来ました。 Nihongo wo benkyou suru tsumori de kimashita. \"I came with the intention of studying Japanese.\""
+          }
+        ]
+      },
+      {
+        "level": 2,
+        "heading": "Conditional Forms",
+        "content": "",
+        "children": [
+          {
+            "level": 3,
+            "heading": "If you intend to...",
+            "content": "行くつもりなら早く準備して。 Iku tsumori nara hayaku junbi shite. \"If you intend to go, get ready quickly.\" 買うつもりなら今がチャンスです。 Kau tsumori nara ima ga chansu desu. \"If you intend to buy it, now is the chance.\""
+          }
+        ]
+      },
+      {
+        "level": 2,
+        "heading": "Negative Past",
+        "content": "",
+        "children": [
+          {
+            "level": 3,
+            "heading": "Didn't intend to",
+            "content": "そんなつもりじゃなかった。 Sonna tsumori ja nakatta. \"That wasn't my intention.\" / \"I didn't mean it that way.\" 傷つけるつもりはなかった。 Kizutsukeru tsumori wa nakatta. \"I didn't intend to hurt (you).\" 怒らせるつもりじゃなかった。 Okoraseru tsumori ja nakatta. \"I didn't mean to make (you) angry.\""
+          }
+        ]
+      },
+      {
+        "level": 2,
+        "heading": "Common Phrases",
+        "content": "",
+        "children": [
+          {
+            "level": 3,
+            "heading": "Set expressions",
+            "content": "どういうつもりですか。 Dou iu tsumori desu ka. \"What do you mean by that?\" [Questioning intention, often accusatory] そのつもりです。 Sono tsumori desu. \"That's my intention.\" / \"That's what I intend.\" ～つもりでいる ~ tsumori de iru \"To be under the impression that...\" 冗談のつもり Joudan no tsumori \"As a joke\" / \"Joking intention\""
+          }
+        ]
+      },
+      {
+        "level": 2,
+        "heading": "With ている",
+        "content": "",
+        "children": [
+          {
+            "level": 3,
+            "heading": "Continuous state of intending",
+            "content": "ずっと行くつもりでいた。 Zutto iku tsumori de ita. \"I had been intending to go all along.\" 前から辞めるつもりでいました。 Mae kara yameru tsumori de imashita. \"I had been intending to quit for a while.\""
+          }
+        ]
+      },
+      {
+        "level": 2,
+        "heading": "Polite Requests",
+        "content": "",
+        "children": [
+          {
+            "level": 3,
+            "heading": "Asking about intentions politely",
+            "content": "どうなさるつもりですか。 Dou nasaru tsumori desu ka. \"What do you intend to do?\" [Polite] いつごろお帰りになるつもりですか。 Itsugoro okaeri ni naru tsumori desu ka. \"Around when do you intend to return?\" [Very polite]"
+          }
+        ]
+      },
+      {
+        "level": 2,
+        "heading": "Changing Intentions",
+        "content": "",
+        "children": [
+          {
+            "level": 3,
+            "heading": "Expressing change of mind",
+            "content": "行くつもりだったが、やめた。 Iku tsumori datta ga, yameta. \"I intended to go, but I stopped (that plan).\" 買うつもりだったけど、考え直した。 Kau tsumori datta kedo, kangaenaoshita. \"I intended to buy it, but I reconsidered.\""
+          }
+        ]
+      },
+      {
+        "level": 2,
+        "heading": "For First Person Only",
+        "content": "",
+        "children": [
+          {
+            "level": 3,
+            "heading": "Mainly used for speaker's intentions",
+            "content": "Natural: 私は行くつもりです。 \"I intend to go.\" Awkward: 彼は行くつもりです。 (Better: 彼は行く予定です or 彼は行くと言っています) \"He intends to go.\" [Better to use 予定 or quote them]\n\nNote: While possible, つもり is primarily for the speaker's own intentions. For others, use 予定 or indirect quotes."
+          }
+        ]
+      },
+      {
+        "level": 2,
+        "heading": "Common Mistakes",
+        "content": "",
+        "children": [
+          {
+            "level": 3,
+            "heading": "Mistake 1: Using for Others' Plans",
+            "content": "❌ 田中さんは行くつもりです (stating someone else's intention) ✓ 田中さんは行く予定です ✓ 田中さんは行くと言っています\n\nUse つもり mainly for your own intentions."
+          },
+          {
+            "level": 3,
+            "heading": "Mistake 2: Wrong Verb Form",
+            "content": "❌ 行ったつもりです (past tense wrong) ✓ 行くつもりです (dictionary form)\n\nUse dictionary form before つもり."
+          },
+          {
+            "level": 3,
+            "heading": "Mistake 3: Confusing with 予定",
+            "content": "Context matters:\n\nつもり = personal decision/intention 予定 = scheduled plan/arrangement"
+          },
+          {
+            "level": 3,
+            "heading": "Mistake 4: Double Negative Confusion",
+            "content": "❌ 行かないつもりはない (double negative - confusing) ✓ 行くつもりです (intend to go) ✓ 行くつもりはない (don't intend to go)\n\nBe clear with negatives."
+          }
+        ]
+      },
+      {
+        "level": 2,
+        "heading": "Summary",
+        "content": "Key Points:\n\nつもり expresses personal intention or plan Structure: Verb dictionary form + つもり Means \"intend to,\" \"plan to,\" \"mean to\" Negative: Verb + つもりはない (no intention) or Verb negative + つもり (intend not to) Past: つもりだった (intended to) Different from 予定 (scheduled plan) Mainly for first person (speaker's intentions) Can express mistaken belief (sarcastic use) Common with: です, だった, はない Essential for expressing personal decisions and resolutions",
+        "children": [
+          {
+            "level": 3,
+            "heading": "Company",
+            "content": "About Pricing Blog Contact"
+          },
+          {
+            "level": 3,
+            "heading": "Legal",
+            "content": "Privacy Policy Terms of Service Cookie Policy"
+          }
+        ]
+      }
+    ],
+    "metadata": {
+      "title": "つもり (Intend to)"
+    }
+  },
+  "metadata": {
+    "extracted_at": "2026-01-01T22:19:36.892936200Z",
+    "duration_ms": 3,
+    "extractors_matched": [
+      "metadata",
+      "examples",
+      "sections"
+    ],
+    "extractors_failed": [
+      "vocab_tables",
+      "definitions",
+      "content_blocks"
+    ]
+  }
+}

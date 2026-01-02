@@ -1,0 +1,312 @@
+{
+  "config_name": "Language Learning Extractor",
+  "url": "https://practice-japanese.com/docs/verb-passive/",
+  "data": {
+    "examples": [
+      {
+        "sentence": "Potential Form"
+      },
+      {
+        "sentence": "Causative-Passive"
+      },
+      {
+        "sentence": "Verb Groups"
+      },
+      {
+        "sentence": "About"
+      },
+      {
+        "sentence": "Pricing"
+      },
+      {
+        "sentence": "Blog"
+      },
+      {
+        "sentence": "Contact"
+      },
+      {
+        "sentence": "Privacy Policy"
+      },
+      {
+        "sentence": "Terms of Service"
+      },
+      {
+        "sentence": "Cookie Policy"
+      }
+    ],
+    "sections": [
+      {
+        "level": 2,
+        "heading": "What is Passive Form?",
+        "content": "Passive form (受身形) expresses actions received by the subject. In Japanese, passive often implies being affected or suffering from an action.\n\n食べられる (taberareru) - be eaten 書かれる (kakareru) - be written される (sareru) - be done"
+      },
+      {
+        "level": 2,
+        "heading": "Two Types of Passive",
+        "content": "",
+        "children": [
+          {
+            "level": 3,
+            "heading": "1. Direct Passive (Like English)",
+            "content": "ドアが開けられた \"The door was opened\" 本が読まれた \"The book was read\""
+          },
+          {
+            "level": 3,
+            "heading": "2. Suffering/Adversative Passive (Unique to Japanese)",
+            "content": "雨に降られた \"I was rained on\" (I suffered from rain) 先生に叱られた \"I was scolded by the teacher\" (I suffered being scolded)"
+          }
+        ]
+      },
+      {
+        "level": 2,
+        "heading": "Conjugation Rules",
+        "content": "",
+        "children": [
+          {
+            "level": 3,
+            "heading": "Ichidan Verbs",
+            "content": "Drop る , add られる :\n\n食べる → 食べられる (be eaten) 見る → 見られる (be seen) 褒める → 褒められる (be praised)\n\nSame as potential form! Context determines meaning."
+          },
+          {
+            "level": 3,
+            "heading": "Godan Verbs",
+            "content": "Change -u to -areru :\n\n書く → 書かれる (kaku → kakareru) kak-u → kak-areru 読む → 読まれる (yomu → yomareru) yom-u → yom-areru 話す → 話される (hanasu → hanasareru) hanas-u → hanas-areru 買う → 買われる (kau → kawareru) ka-u → ka-wareru 待つ → 待たれる (matsu → matareru) mat-u → mat-areru 遊ぶ → 遊ばれる (asobu → asobareru) asob-u → asob-areru 帰る → 帰られる (kaeru → kaerareru) kaer-u → kaer-areru 泳ぐ → 泳がれる (oyogu → oyogareru) oyog-u → oyog-areru"
+          },
+          {
+            "level": 3,
+            "heading": "Irregular Verbs",
+            "content": "する → される (be done) 来る → 来られる (be come / someone comes)"
+          }
+        ]
+      },
+      {
+        "level": 2,
+        "heading": "Complete Conjugation Chart",
+        "content": "| Dictionary | Group | Passive | Meaning | | ---------- | --------- | ---------- | ---------- | | 書く | Godan | 書かれる | be written | | 読む | Godan | 読まれる | be read | | 話す | Godan | 話される | be spoken | | 食べる | Ichidan | 食べられる | be eaten | | 見る | Ichidan | 見られる | be seen | | する | Irregular | される | be done | | 来る | Irregular | 来られる | be come to |"
+      },
+      {
+        "level": 2,
+        "heading": "Particle Changes",
+        "content": "",
+        "children": [
+          {
+            "level": 3,
+            "heading": "Actor Marked by に",
+            "content": "私は先生に叱られた \"I was scolded by the teacher\" 猫に魚を食べられた \"I had my fish eaten by a cat\" (suffered) 雨に降られた \"I was rained on\" (suffered)"
+          },
+          {
+            "level": 3,
+            "heading": "Direct Object Stays を",
+            "content": "この本は多くの人に読まれている \"This book is read by many people\" その建物は去年建てられた \"That building was built last year\""
+          }
+        ]
+      },
+      {
+        "level": 2,
+        "heading": "Direct Passive",
+        "content": "Similar to English passive:\n\nこの小説は夏目漱石に書かれた \"This novel was written by Natsume Soseki\" 新しい法律が作られた \"A new law was created\" 彼は皆に愛されている \"He is loved by everyone\" 日本語は世界中で話されている \"Japanese is spoken around the world\""
+      },
+      {
+        "level": 2,
+        "heading": "Suffering/Adversative Passive",
+        "content": "Unique to Japanese: Expresses being negatively affected:\n\n財布を盗まれた \"I had my wallet stolen\" (suffered theft) 弟に部屋を散らかされた \"I had my room messed up by my little brother\" 雨に降られた \"I got rained on\" 隣の人にタバコを吸われた \"Someone next to me smoked\" (I suffered from it) 犬に吠えられた \"I was barked at by a dog\" 友達に秘密を言われた \"My friend told my secret\" (I suffered)\n\nThis pattern doesn't exist in English!"
+      },
+      {
+        "level": 2,
+        "heading": "When to Use Passive",
+        "content": "",
+        "children": [
+          {
+            "level": 3,
+            "heading": "1. Unknown/Unimportant Actor",
+            "content": "窓が割られた \"The window was broken\" (who did it doesn't matter) 財布が見つかった \"The wallet was found\""
+          },
+          {
+            "level": 3,
+            "heading": "2. Formal/Written Language",
+            "content": "会議が開かれた \"A meeting was held\" 新製品が発表された \"A new product was announced\""
+          },
+          {
+            "level": 3,
+            "heading": "3. Expressing Being Affected",
+            "content": "先生に褒められた \"I was praised by the teacher\" (felt good) 母に叱られた \"I was scolded by my mother\" (felt bad)"
+          },
+          {
+            "level": 3,
+            "heading": "4. Respectful Language",
+            "content": "社長が来られた \"The president came\" (respectful) 先生が言われた \"The teacher said\" (respectful)"
+          }
+        ]
+      },
+      {
+        "level": 2,
+        "heading": "Polite Forms",
+        "content": "Passive conjugates like Ichidan verbs:\n\n書かれる → 書かれます (polite) 食べられる → 食べられます (polite) される → されます (polite)",
+        "children": [
+          {
+            "level": 3,
+            "heading": "Negative",
+            "content": "書かれない (not written) 食べられない (not eaten) されない (not done)"
+          },
+          {
+            "level": 3,
+            "heading": "Past",
+            "content": "書かれた (was written) 食べられた (was eaten) された (was done)"
+          }
+        ]
+      },
+      {
+        "level": 2,
+        "heading": "Common Passive Expressions",
+        "content": "",
+        "children": [
+          {
+            "level": 3,
+            "heading": "Being Praised/Scolded",
+            "content": "先生に褒められた \"I was praised by the teacher\" 親に叱られた \"I was scolded by my parents\" 上司に怒られた \"I was yelled at by my boss\""
+          },
+          {
+            "level": 3,
+            "heading": "Things Stolen/Lost",
+            "content": "自転車を盗まれた \"I had my bicycle stolen\" お金を取られた \"I had my money taken\" 携帯をなくされた \"My phone was lost\""
+          },
+          {
+            "level": 3,
+            "heading": "Weather/Nature",
+            "content": "雨に降られた \"I got rained on\" 蚊に刺された \"I was bitten by a mosquito\" 犬に噛まれた \"I was bitten by a dog\""
+          }
+        ]
+      },
+      {
+        "level": 2,
+        "heading": "Passive vs Potential (Ichidan)",
+        "content": "Same form, different meaning!\n\nContext determines: 食べられる → \"can eat\" (potential) → \"be eaten\" (passive) 見られる → \"can see\" (potential) → \"be seen\" (passive) Example: 寿司が食べられる \"I can eat sushi\" (potential - が particle) 魚が猫に食べられた \"The fish was eaten by the cat\" (passive - に particle)"
+      },
+      {
+        "level": 2,
+        "heading": "Common Mistakes",
+        "content": "",
+        "children": [
+          {
+            "level": 3,
+            "heading": "Mistake 1: Using Passive When Active Is Better",
+            "content": "Awkward: 私は友達に会われた ❌ Natural: 私は友達に会った ✓ \"I met my friend\" Awkward: 私はご飯を食べられた ❌ Natural: 私はご飯を食べた ✓ \"I ate rice\"\n\nUse passive only when being affected!"
+          },
+          {
+            "level": 3,
+            "heading": "Mistake 2: Wrong Particle",
+            "content": "Wrong: 先生を叱られた ❌ Right: 先生に叱られた ✓ \"I was scolded by the teacher\""
+          },
+          {
+            "level": 3,
+            "heading": "Mistake 3: Overusing Passive",
+            "content": "Japanese uses passive less than English in many cases:\n\nEnglish: \"It is said that...\" Awkward: 言われている Natural: と言われている ✓ English: \"It is known that...\" Awkward: 知られている Natural: 知られている ✓ (this one is OK)"
+          },
+          {
+            "level": 3,
+            "heading": "Mistake 4: Confusing with Potential",
+            "content": "この本が読まれる \"This book is read\" (passive) この本が読める \"I can read this book\" (potential)"
+          }
+        ]
+      },
+      {
+        "level": 2,
+        "heading": "Respectful Passive",
+        "content": "Passive can express respect:\n\n先生が来られました \"The teacher came\" (respectful) 社長が言われました \"The president said\" (respectful) お客様が帰られました \"The customer left\" (respectful)\n\nNote: This is different from honorific verbs!"
+      },
+      {
+        "level": 2,
+        "heading": "Passive in News/Formal Writing",
+        "content": "新しい法律が可決された \"A new law was passed\" 容疑者が逮捕された \"The suspect was arrested\" 会議が開催された \"The conference was held\" 商品が販売された \"The product was sold\" 記事が掲載された \"The article was published\""
+      },
+      {
+        "level": 2,
+        "heading": "Intransitive Verbs with Passive",
+        "content": "Even intransitive verbs can be passive (suffering):\n\n雨に降られた \"I was rained on\" 彼に泣かれた \"He cried on me\" (I was troubled by his crying) 隣の人に騒がれた \"The neighbor made noise\" (I suffered from it) 子供に逃げられた \"The child ran away from me\" (I suffered)"
+      },
+      {
+        "level": 2,
+        "heading": "Conversation Examples",
+        "content": "",
+        "children": [
+          {
+            "level": 3,
+            "heading": "Example 1: Bad Day",
+            "content": "A: どうしたの？元気ないね \"What's wrong? You don't look well\" B: 最悪の日だった。財布を盗まれたし、 雨に降られたし、上司に叱られた \"It was the worst day. I had my wallet stolen, got rained on, and was scolded by my boss\" A: 大変だったね \"That's terrible\""
+          },
+          {
+            "level": 3,
+            "heading": "Example 2: Good News",
+            "content": "A: いいことあった？ \"Did something good happen?\" B: うん！先生に褒められた \"Yeah! I was praised by the teacher\" A: すごいじゃん！何で？ \"That's great! For what?\" B: テストで100点取ったから \"Because I got 100 on the test\""
+          }
+        ]
+      },
+      {
+        "level": 2,
+        "heading": "Passive with て-form",
+        "content": "財布を盗まれて困った \"I had my wallet stolen and was troubled\" 雨に降られて風邪をひいた \"I got rained on and caught a cold\" 先生に褒められて嬉しかった \"I was praised by the teacher and was happy\""
+      },
+      {
+        "level": 2,
+        "heading": "Key Differences: Japanese vs English Passive",
+        "content": "| English | Japanese | | ------------------- | -------------------------- | | Emphasizes action | Emphasizes being affected | | Neutral tone | Often implies suffering | | Less emotional | More emotional | | \"The book was read\" | この本が読まれた (neutral) | | No equivalent | 雨に降られた (suffering) |"
+      },
+      {
+        "level": 2,
+        "heading": "Quick Reference",
+        "content": "",
+        "children": [
+          {
+            "level": 3,
+            "heading": "Direct Passive",
+            "content": "本が読まれる - book is read 法律が作られる - law is made"
+          },
+          {
+            "level": 3,
+            "heading": "Suffering Passive",
+            "content": "財布を盗まれる - have wallet stolen 雨に降られる - get rained on"
+          },
+          {
+            "level": 3,
+            "heading": "Respectful Passive",
+            "content": "先生が来られる - teacher comes (respectful) 社長が言われる - president says (respectful)"
+          }
+        ]
+      },
+      {
+        "level": 2,
+        "heading": "Key Takeaways",
+        "content": "✓ Passive = action received by subject ✓ Godan: -u → -areru ✓ Ichidan: -ru → -rareru ✓ Two types: direct and suffering ✓ Suffering passive unique to Japanese ✓ Actor marked by に ✓ Same form as potential (Ichidan) ✓ Use less than English passive ✓ Can express respect\n\nMaster passive form - essential for advanced expression!\n\nNext: Causative Form (Make someone do)\n\nRelated:\n\nPotential Form Causative-Passive Verb Groups",
+        "children": [
+          {
+            "level": 3,
+            "heading": "Company",
+            "content": "About Pricing Blog Contact"
+          },
+          {
+            "level": 3,
+            "heading": "Legal",
+            "content": "Privacy Policy Terms of Service Cookie Policy"
+          }
+        ]
+      }
+    ],
+    "metadata": {
+      "title": "Passive Form"
+    }
+  },
+  "metadata": {
+    "extracted_at": "2026-01-01T22:19:37.419850300Z",
+    "duration_ms": 4,
+    "extractors_matched": [
+      "metadata",
+      "examples",
+      "sections"
+    ],
+    "extractors_failed": [
+      "vocab_tables",
+      "definitions",
+      "content_blocks"
+    ]
+  }
+}

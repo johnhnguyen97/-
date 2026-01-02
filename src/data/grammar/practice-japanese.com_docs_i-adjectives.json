@@ -1,0 +1,327 @@
+{
+  "config_name": "Language Learning Extractor",
+  "url": "https://practice-japanese.com/docs/i-adjectives/",
+  "data": {
+    "metadata": {
+      "title": "I-adjectives (い形容詞)"
+    },
+    "examples": [
+      {
+        "sentence": "あ, い, う, え, or お sound"
+      },
+      {
+        "sentence": "I-adjective Conjugation"
+      },
+      {
+        "sentence": "Adjective Comparison"
+      },
+      {
+        "sentence": "Present Tense"
+      },
+      {
+        "sentence": "About"
+      },
+      {
+        "sentence": "Pricing"
+      },
+      {
+        "sentence": "Blog"
+      },
+      {
+        "sentence": "Contact"
+      },
+      {
+        "sentence": "Privacy Policy"
+      },
+      {
+        "sentence": "Terms of Service"
+      },
+      {
+        "sentence": "Cookie Policy"
+      }
+    ],
+    "sections": [
+      {
+        "level": 2,
+        "heading": "What are I-adjectives?",
+        "content": "I-adjectives (い形容詞) are adjectives that end in い in their dictionary form. They conjugate like verbs and can stand alone as predicates.\n\n高い (takai) - expensive, tall, high 大きい (ookii) - big 美味しい (oishii) - delicious 楽しい (tanoshii) - fun, enjoyable"
+      },
+      {
+        "level": 2,
+        "heading": "Characteristics",
+        "content": "",
+        "children": [
+          {
+            "level": 3,
+            "heading": "1. Always End in い",
+            "content": "高い - expensive 安い - cheap 新しい - new 古い - old"
+          },
+          {
+            "level": 3,
+            "heading": "2. Conjugate Independently",
+            "content": "Unlike na-adjectives, they don't need です:\n\n高い ✓ \"It's expensive\" 高いです ✓ \"It's expensive\" (polite)"
+          },
+          {
+            "level": 3,
+            "heading": "3. Modify Nouns Directly",
+            "content": "高い車 - expensive car 大きい家 - big house 美味しい料理 - delicious food"
+          }
+        ]
+      },
+      {
+        "level": 2,
+        "heading": "Common I-adjectives",
+        "content": "",
+        "children": [
+          {
+            "level": 3,
+            "heading": "Size",
+            "content": "大きい (ookii) - big 小さい (chiisai) - small 長い (nagai) - long 短い (mijikai) - short 広い (hiroi) - wide, spacious 狭い (semai) - narrow, cramped 高い (takai) - tall, high 低い (hikui) - low, short (height)"
+          },
+          {
+            "level": 3,
+            "heading": "Quality",
+            "content": "良い (yoi/ii) - good 悪い (warui) - bad 新しい (atarashii) - new 古い (furui) - old 正しい (tadashii) - correct 間違い (machigai) - wrong (noun, not adjective)"
+          },
+          {
+            "level": 3,
+            "heading": "Price/Value",
+            "content": "高い (takai) - expensive 安い (yasui) - cheap"
+          },
+          {
+            "level": 3,
+            "heading": "Taste",
+            "content": "美味しい (oishii) - delicious 不味い (mazui) - bad-tasting 甘い (amai) - sweet 辛い (karai) - spicy, salty 苦い (nigai) - bitter 酸っぱい (suppai) - sour"
+          },
+          {
+            "level": 3,
+            "heading": "Temperature",
+            "content": "暑い (atsui) - hot (weather) 寒い (samui) - cold (weather) 熱い (atsui) - hot (objects) 冷たい (tsumetai) - cold (objects) 温かい (atatakai) - warm 涼しい (suzushii) - cool"
+          },
+          {
+            "level": 3,
+            "heading": "Feelings",
+            "content": "嬉しい (ureshii) - happy, glad 楽しい (tanoshii) - fun, enjoyable 悲しい (kanashii) - sad 恐ろしい (osoroshii) - frightening 恥ずかしい (hazukashii) - embarrassing"
+          },
+          {
+            "level": 3,
+            "heading": "Difficulty",
+            "content": "難しい (muzukashii) - difficult 易しい (yasashii) - easy 忙しい (isogashii) - busy"
+          },
+          {
+            "level": 3,
+            "heading": "Physical State",
+            "content": "痛い (itai) - painful 眠い (nemui) - sleepy 重い (omoi) - heavy 軽い (karui) - light (weight)"
+          },
+          {
+            "level": 3,
+            "heading": "Colors (Some)",
+            "content": "赤い (akai) - red 青い (aoi) - blue 白い (shiroi) - white 黒い (kuroi) - black 黄色い (kiiroi) - yellow 茶色い (chairoi) - brown"
+          }
+        ]
+      },
+      {
+        "level": 2,
+        "heading": "How to Use I-adjectives",
+        "content": "",
+        "children": [
+          {
+            "level": 3,
+            "heading": "1. Modifying Nouns",
+            "content": "Place before the noun:\n\n高い車 \"expensive car\" 美味しい食べ物 \"delicious food\" 大きい犬 \"big dog\" 新しい本 \"new book\""
+          },
+          {
+            "level": 3,
+            "heading": "2. As Predicate (です Optional)",
+            "content": "この車は高い \"This car is expensive\" この車は高いです \"This car is expensive\" (polite)"
+          },
+          {
+            "level": 3,
+            "heading": "3. Multiple Adjectives",
+            "content": "大きくて白い犬 \"a big, white dog\" 安くて美味しいレストラン \"a cheap and delicious restaurant\""
+          }
+        ]
+      },
+      {
+        "level": 2,
+        "heading": "Special I-adjective: いい/よい",
+        "content": "Good has two forms:\n\nいい (ii) - casual, more common よい (yoi) - formal, traditional\n\nBoth mean \"good\" but conjugate from よい:\n\nPresent: いい / よい Negative: よくない (NOT いくない) Past: よかった"
+      },
+      {
+        "level": 2,
+        "heading": "Identifying I-adjectives",
+        "content": "",
+        "children": [
+          {
+            "level": 3,
+            "heading": "True I-adjectives",
+            "content": "Must end in い preceded by:\n\nあ, い, う, え, or お sound\n\n高い (taka-i) ✓ 大きい (ooki-i) ✓ 美味しい (oishi-i) ✓"
+          },
+          {
+            "level": 3,
+            "heading": "Not I-adjectives",
+            "content": "Some words end in い but aren't adjectives:\n\n嫌い (kirai) - dislike (na-adjective!) きれい (kirei) - pretty (na-adjective!) 有名 (yuumei) - famous (na-adjective!)\n\nRule: If it looks foreign or can't conjugate as い-adjective, it's probably な-adjective!"
+          }
+        ]
+      },
+      {
+        "level": 2,
+        "heading": "Sentence Patterns",
+        "content": "",
+        "children": [
+          {
+            "level": 3,
+            "heading": "Basic Statement",
+            "content": "この本は面白い \"This book is interesting\" 東京は大きい \"Tokyo is big\""
+          },
+          {
+            "level": 3,
+            "heading": "With です (Polite)",
+            "content": "この本は面白いです \"This book is interesting\" 東京は大きいです \"Tokyo is big\""
+          },
+          {
+            "level": 3,
+            "heading": "Question Form",
+            "content": "この本は面白いですか？ \"Is this book interesting?\" 日本語は難しいですか？ \"Is Japanese difficult?\""
+          }
+        ]
+      },
+      {
+        "level": 2,
+        "heading": "Common Mistakes",
+        "content": "",
+        "children": [
+          {
+            "level": 3,
+            "heading": "Mistake 1: Adding な to I-adjectives",
+            "content": "Wrong: 高いな車 ❌ Right: 高い車 ✓ \"expensive car\" い-adjectives modify directly!"
+          },
+          {
+            "level": 3,
+            "heading": "Mistake 2: Thinking All い Words are I-adjectives",
+            "content": "Wrong: きれい is i-adjective ❌ Right: きれい is na-adjective ✓ きれいな花 ✓ \"beautiful flower\""
+          },
+          {
+            "level": 3,
+            "heading": "Mistake 3: Wrong Conjugation of いい",
+            "content": "Wrong: いくない ❌ Right: よくない ✓ \"not good\" Wrong: いかった ❌ Right: よかった ✓ \"was good\""
+          },
+          {
+            "level": 3,
+            "heading": "Mistake 4: Using です Before Noun",
+            "content": "Wrong: 高いです車 ❌ Right: 高い車 ✓ Right: 車は高いです ✓"
+          }
+        ]
+      },
+      {
+        "level": 2,
+        "heading": "I-adjectives vs Na-adjectives",
+        "content": "| I-adjectives | Na-adjectives | | -------------------- | -------------------- | | End in い | Various endings | | 高い車 | 静かな車 | | Conjugate like verbs | Need な/だ | | Native Japanese | Often foreign origin |",
+        "children": [
+          {
+            "level": 3,
+            "heading": "Examples",
+            "content": "I-adjective: 高い車 \"expensive car\" 車は高い \"the car is expensive\" Na-adjective: 静かな車 \"quiet car\" 車は静かだ \"the car is quiet\""
+          }
+        ]
+      },
+      {
+        "level": 2,
+        "heading": "Describing Things",
+        "content": "",
+        "children": [
+          {
+            "level": 3,
+            "heading": "Objects",
+            "content": "大きい箱 \"big box\" 重い荷物 \"heavy luggage\" 新しいパソコン \"new computer\""
+          },
+          {
+            "level": 3,
+            "heading": "Places",
+            "content": "広い部屋 \"spacious room\" 高い山 \"tall mountain\" 古い町 \"old town\""
+          },
+          {
+            "level": 3,
+            "heading": "Food",
+            "content": "美味しい料理 \"delicious dish\" 辛い食べ物 \"spicy food\" 甘いケーキ \"sweet cake\""
+          },
+          {
+            "level": 3,
+            "heading": "People (Appearance/State)",
+            "content": "若い人 \"young person\" 忙しい学生 \"busy student\" 眠い子供 \"sleepy child\""
+          }
+        ]
+      },
+      {
+        "level": 2,
+        "heading": "Conversation Examples",
+        "content": "",
+        "children": [
+          {
+            "level": 3,
+            "heading": "Example 1: Shopping",
+            "content": "A: この服はどうですか？ \"How is this clothing?\" B: 高いですね \"It's expensive\" A: じゃあ、こっちは？ \"Then, how about this one?\" B: 安くていいですね \"It's cheap and good\""
+          },
+          {
+            "level": 3,
+            "heading": "Example 2: Food",
+            "content": "A: このレストランはどう？ \"How's this restaurant?\" B: 美味しいよ \"It's delicious\" A: 高い？ \"Is it expensive?\" B: いいえ、安いよ \"No, it's cheap\""
+          },
+          {
+            "level": 3,
+            "heading": "Example 3: Weather",
+            "content": "A: 今日は暑いね \"It's hot today\" B: 本当に。昨日は涼しかったのに \"Really. Yesterday was cool though\""
+          }
+        ]
+      },
+      {
+        "level": 2,
+        "heading": "Key Patterns",
+        "content": "",
+        "children": [
+          {
+            "level": 3,
+            "heading": "Asking Opinions",
+            "content": "どうですか？ \"How is it?\" 美味しいですか？ \"Is it delicious?\" 難しいですか？ \"Is it difficult?\""
+          },
+          {
+            "level": 3,
+            "heading": "Describing",
+            "content": "とても大きい \"very big\" ちょっと高い \"a little expensive\" あまり面白くない \"not very interesting\""
+          }
+        ]
+      },
+      {
+        "level": 2,
+        "heading": "Key Takeaways",
+        "content": "✓ I-adjectives end in い ✓ Modify nouns directly (no な) ✓ Conjugate independently ✓ Can be predicate without です ✓ いい conjugates from よい ✓ Not all い words are i-adjectives ✓ Native Japanese words ✓ Essential for descriptions\n\nMaster i-adjectives - they're everywhere in Japanese!\n\nNext: Na-adjectives (な形容詞)\n\nRelated:\n\nI-adjective Conjugation Adjective Comparison Present Tense",
+        "children": [
+          {
+            "level": 3,
+            "heading": "Company",
+            "content": "About Pricing Blog Contact"
+          },
+          {
+            "level": 3,
+            "heading": "Legal",
+            "content": "Privacy Policy Terms of Service Cookie Policy"
+          }
+        ]
+      }
+    ]
+  },
+  "metadata": {
+    "extracted_at": "2026-01-01T22:19:30.061500800Z",
+    "duration_ms": 5,
+    "extractors_matched": [
+      "metadata",
+      "examples",
+      "sections"
+    ],
+    "extractors_failed": [
+      "vocab_tables",
+      "definitions",
+      "content_blocks"
+    ]
+  }
+}

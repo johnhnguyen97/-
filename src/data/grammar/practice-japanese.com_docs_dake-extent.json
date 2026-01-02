@@ -1,0 +1,309 @@
+{
+  "config_name": "Language Learning Extractor",
+  "url": "https://practice-japanese.com/docs/dake-extent/",
+  "data": {
+    "metadata": {
+      "title": "〜だけ (As much as)"
+    },
+    "examples": [
+      {
+        "sentence": "だけ expresses \"only,\" \"just,\" or \"as much as\""
+      },
+      {
+        "sentence": "Formation: [Noun/Verb/Quantity] + だけ"
+      },
+      {
+        "sentence": "できるだけ = \"as much as possible\""
+      },
+      {
+        "sentence": "だけで = \"just by/with\""
+      },
+      {
+        "sentence": "Verb + だけ = proportional relationship"
+      },
+      {
+        "sentence": "Neutral nuance (unlike しか)"
+      },
+      {
+        "sentence": "それだけ = \"that's all\""
+      },
+      {
+        "sentence": "Essential for expressing limits and extent"
+      },
+      {
+        "sentence": "About"
+      },
+      {
+        "sentence": "Pricing"
+      },
+      {
+        "sentence": "Blog"
+      },
+      {
+        "sentence": "Contact"
+      },
+      {
+        "sentence": "Privacy Policy"
+      },
+      {
+        "sentence": "Terms of Service"
+      },
+      {
+        "sentence": "Cookie Policy"
+      }
+    ],
+    "sections": [
+      {
+        "level": 2,
+        "heading": "What is 〜だけ?",
+        "content": "〜だけ (dake) expresses limitation or extent, meaning \"only,\" \"just,\" or \"as much as.\" It indicates that something is limited to a specific amount, degree, or scope.\n\nEnglish equivalent: \"only,\" \"just,\" \"as much as,\" \"to the extent that\"\n\nStructure: [Noun/Verb/Adjective] + だけ\n\nこれ (kore - this) + だけ = これだけ \"only this\" / \"just this\" 食べる (taberu - eat) + だけ = 食べるだけ \"only eat\" / \"just eat\" できる (dekiru - can do) + だけ = できるだけ \"as much as possible\""
+      },
+      {
+        "level": 2,
+        "heading": "Basic Formation",
+        "content": "",
+        "children": [
+          {
+            "level": 3,
+            "heading": "With nouns",
+            "content": "[Noun] + だけ\n\nこれだけ (kore dake) - \"only this\" 一人だけ (hitori dake) - \"only one person\" 日本語だけ (nihongo dake) - \"only Japanese\" 今日だけ (kyou dake) - \"only today\""
+          },
+          {
+            "level": 3,
+            "heading": "With verbs (dictionary form)",
+            "content": "[Verb dictionary form] + だけ\n\n見るだけ (miru dake) - \"just look\" 食べるだけ (taberu dake) - \"just eat\" 聞くだけ (kiku dake) - \"just listen\""
+          },
+          {
+            "level": 3,
+            "heading": "With quantities",
+            "content": "[Number/Amount] + だけ\n\n三つだけ (mittsu dake) - \"only three\" 少しだけ (sukoshi dake) - \"just a little\" これだけ (kore dake) - \"only this much\""
+          }
+        ]
+      },
+      {
+        "level": 2,
+        "heading": "Expressing \"Only\"",
+        "content": "",
+        "children": [
+          {
+            "level": 3,
+            "heading": "Limitation",
+            "content": "これだけください。 Kore dake kudasai. \"Just this, please.\" 一人だけ来た。 Hitori dake kita. \"Only one person came.\" 日本語だけ話せます。 Nihongo dake hanasemasu. \"I can speak only Japanese.\" 今日だけ休みます。 Kyou dake yasumimasu. \"I'll rest only today.\""
+          }
+        ]
+      },
+      {
+        "level": 2,
+        "heading": "できるだけ (As much as possible)",
+        "content": "",
+        "children": [
+          {
+            "level": 3,
+            "heading": "Maximum effort",
+            "content": "できるだけ早く来てください。 Dekiru dake hayaku kite kudasai. \"Please come as soon as possible.\" できるだけ頑張ります。 Dekiru dake ganbarimasu. \"I'll try as hard as possible.\" できるだけ安く買いたい。 Dekiru dake yasuku kaitai. \"I want to buy it as cheaply as possible.\""
+          }
+        ]
+      },
+      {
+        "level": 2,
+        "heading": "Verb + だけ (Just doing)",
+        "content": "",
+        "children": [
+          {
+            "level": 3,
+            "heading": "Simple action",
+            "content": "見るだけ。 Miru dake. \"Just looking.\" 聞くだけでいい。 Kiku dake de ii. \"Just listening is fine.\" 食べるだけ食べた。 Taberu dake tabeta. \"I ate as much as I wanted.\" できるだけやってみる。 Dekiru dake yatte miru. \"I'll try as much as I can.\""
+          }
+        ]
+      },
+      {
+        "level": 2,
+        "heading": "Quantity Limits",
+        "content": "",
+        "children": [
+          {
+            "level": 3,
+            "heading": "Specific amounts",
+            "content": "三つだけください。 Mittsu dake kudasai. \"Just three, please.\" 少しだけ待ってください。 Sukoshi dake matte kudasai. \"Please wait just a little.\" もう少しだけ時間がある。 Mou sukoshi dake jikan ga aru. \"There's just a little more time.\""
+          }
+        ]
+      },
+      {
+        "level": 2,
+        "heading": "それだけ (That's all/Just that)",
+        "content": "",
+        "children": [
+          {
+            "level": 3,
+            "heading": "Common expression",
+            "content": "それだけです。 Sore dake desu. \"That's all.\" それだけ？ Sore dake? \"Is that all?\" それだけで十分だ。 Sore dake de juubun da. \"That alone is enough.\" それだけのことだ。 Sore dake no koto da. \"It's just that.\""
+          }
+        ]
+      },
+      {
+        "level": 2,
+        "heading": "だけで (Only with/Just by)",
+        "content": "",
+        "children": [
+          {
+            "level": 3,
+            "heading": "Means or method",
+            "content": "これだけで大丈夫。 Kore dake de daijoubu. \"This alone is okay.\" 見るだけで分かる。 Miru dake de wakaru. \"You can tell just by looking.\" 聞いただけで嬉しい。 Kiita dake de ureshii. \"I'm happy just hearing it.\""
+          }
+        ]
+      },
+      {
+        "level": 2,
+        "heading": "Comparative Extent",
+        "content": "",
+        "children": [
+          {
+            "level": 3,
+            "heading": "Proportional relationships",
+            "content": "勉強しただけ成績が上がる。 Benkyou shita dake seiseki ga agaru. \"Grades improve as much as you study.\" 頑張っただけ結果が出る。 Ganbatta dake kekka ga deru. \"Results come out as much as you try hard.\" 食べただけ太る。 Tabeta dake futoru. \"You gain weight as much as you eat.\""
+          }
+        ]
+      },
+      {
+        "level": 2,
+        "heading": "Negative Context",
+        "content": "",
+        "children": [
+          {
+            "level": 3,
+            "heading": "Nothing but/mere",
+            "content": "見ただけ。 Mita dake. \"I just looked.\" (didn't do anything else) 名前を知っているだけだ。 Namae wo shitte iru dake da. \"I only know the name.\" 話を聞いただけです。 Hanashi wo kiita dake desu. \"I just heard the story.\""
+          }
+        ]
+      },
+      {
+        "level": 2,
+        "heading": "だけど/だけれど",
+        "content": "",
+        "children": [
+          {
+            "level": 3,
+            "heading": "\"But\" after だけ",
+            "content": "好きなだけ食べていいけど、太るよ。 Suki na dake tabete ii kedo, futoru yo. \"You can eat as much as you like, but you'll gain weight.\" 一つだけど、高い。 Hitotsu dake do, takai. \"It's only one, but it's expensive.\"\n\nNote: This is だけ + けど/けれど, not a single grammar pattern."
+          }
+        ]
+      },
+      {
+        "level": 2,
+        "heading": "Polite Forms",
+        "content": "これだけでお願いします。 Kore dake de onegai shimasu. \"Just this, please.\" 少しだけお時間をいただけますか。 Sukoshi dake ojikan wo itadakemasu ka. \"Could I have just a little of your time?\" 今日だけお休みをいただきます。 Kyou dake oyasumi wo itadakimasu. \"I'll take just today off.\""
+      },
+      {
+        "level": 2,
+        "heading": "Common Expressions",
+        "content": "それだけ (sore dake) - \"that's all\" / \"just that\" これだけ (kore dake) - \"only this\" できるだけ (dekiru dake) - \"as much as possible\" 〜だけで (dake de) - \"just by/with\" 少しだけ (sukoshi dake) - \"just a little\" 今日だけ (kyou dake) - \"only today\" 一人だけ (hitori dake) - \"only one person\" 見るだけ (miru dake) - \"just look\""
+      },
+      {
+        "level": 2,
+        "heading": "Comparing だけ and しか",
+        "content": "",
+        "children": [
+          {
+            "level": 3,
+            "heading": "Only (inclusive) vs only (exclusive)",
+            "content": "だけ - Positive nuance:\n\nこれだけ買った。 Kore dake katta. \"I bought only this.\" (neutral/positive)\n\nしか - Negative nuance (requires negative verb):\n\nこれしか買わなかった。 Kore shika kawanakatta. \"I bought only this.\" (emphasizes limitation)\n\n| Pattern | Verb form | Nuance | | ------- | --------- | ---------------- | | だけ | Any | Neutral | | しか | Negative | Emphasizes limit |"
+          }
+        ]
+      },
+      {
+        "level": 2,
+        "heading": "Emphasizing Small Amount",
+        "content": "",
+        "children": [
+          {
+            "level": 3,
+            "heading": "Just a bit",
+            "content": "ちょっとだけ待って。 Chotto dake matte. \"Wait just a moment.\" 少しだけ食べた。 Sukoshi dake tabeta. \"I ate just a little.\" 一口だけ味見した。 Hitokuchi dake ajimi shita. \"I tasted just one bite.\""
+          }
+        ]
+      },
+      {
+        "level": 2,
+        "heading": "Maximum Capacity",
+        "content": "",
+        "children": [
+          {
+            "level": 3,
+            "heading": "To the limit",
+            "content": "飲めるだけ飲んだ。 Nomeru dake nonda. \"I drank as much as I could.\" 持てるだけ持った。 Moteru dake motta. \"I carried as much as I could hold.\" できるだけのことをした。 Dekiru dake no koto wo shita. \"I did everything I could.\""
+          }
+        ]
+      },
+      {
+        "level": 2,
+        "heading": "Time Expressions",
+        "content": "",
+        "children": [
+          {
+            "level": 3,
+            "heading": "Duration limits",
+            "content": "今だけ。 Ima dake. \"Only now.\" 今日だけは許す。 Kyou dake wa yurusu. \"I'll forgive you just for today.\" 一週間だけ待つ。 Isshuukan dake matsu. \"I'll wait only one week.\""
+          }
+        ]
+      },
+      {
+        "level": 2,
+        "heading": "Common Mistakes",
+        "content": "",
+        "children": [
+          {
+            "level": 3,
+            "heading": "Mistake 1: Using だけ with negative when しか is better",
+            "content": "For emphasizing limitation negatively, しか is more natural:\n\n△ 一つだけ持っていない ✓ 一つしか持っていない"
+          },
+          {
+            "level": 3,
+            "heading": "Mistake 2: Wrong particle order",
+            "content": "❌ だけを三つ ✓ 三つだけ(を)\n\nだけ comes after the noun/number."
+          },
+          {
+            "level": 3,
+            "heading": "Mistake 3: Confusing だけど and だけ",
+            "content": "だけ = only だけど = だけ + けど (but) 一つだけ = only one 一つだけど = only one, but..."
+          },
+          {
+            "level": 3,
+            "heading": "Mistake 4: Wrong position",
+            "content": "❌ だけこれ ✓ これだけ\n\nだけ comes after what it modifies."
+          }
+        ]
+      },
+      {
+        "level": 2,
+        "heading": "Summary",
+        "content": "Key Points:\n\nだけ expresses \"only,\" \"just,\" or \"as much as\" Formation: [Noun/Verb/Quantity] + だけ できるだけ = \"as much as possible\" だけで = \"just by/with\" Verb + だけ = proportional relationship Neutral nuance (unlike しか) それだけ = \"that's all\" Essential for expressing limits and extent",
+        "children": [
+          {
+            "level": 3,
+            "heading": "Company",
+            "content": "About Pricing Blog Contact"
+          },
+          {
+            "level": 3,
+            "heading": "Legal",
+            "content": "Privacy Policy Terms of Service Cookie Policy"
+          }
+        ]
+      }
+    ]
+  },
+  "metadata": {
+    "extracted_at": "2026-01-01T22:19:28.820173200Z",
+    "duration_ms": 4,
+    "extractors_matched": [
+      "metadata",
+      "examples",
+      "sections"
+    ],
+    "extractors_failed": [
+      "vocab_tables",
+      "definitions",
+      "content_blocks"
+    ]
+  }
+}

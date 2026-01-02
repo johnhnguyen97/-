@@ -1,0 +1,351 @@
+{
+  "config_name": "Language Learning Extractor",
+  "url": "https://practice-japanese.com/docs/i-adjective-conjugation/",
+  "data": {
+    "metadata": {
+      "title": "I-adjective Conjugation"
+    },
+    "sections": [
+      {
+        "level": 2,
+        "heading": "I-adjective Conjugation Overview",
+        "content": "I-adjectives conjugate by changing the final い. They have four main forms:\n\nPresent affirmative Present negative Past affirmative Past negative\n\n高い (takai) - expensive 高くない - not expensive 高かった - was expensive 高くなかった - wasn't expensive"
+      },
+      {
+        "level": 2,
+        "heading": "Basic Conjugation Pattern",
+        "content": "",
+        "children": [
+          {
+            "level": 3,
+            "heading": "Present Affirmative (Plain)",
+            "content": "Dictionary form = Present affirmative\n\n高い - is expensive 大きい - is big 美味しい - is delicious"
+          },
+          {
+            "level": 3,
+            "heading": "Present Affirmative (Polite)",
+            "content": "Add です\n\n高いです - is expensive (polite) 大きいです - is big (polite) 美味しいです - is delicious (polite)"
+          },
+          {
+            "level": 3,
+            "heading": "Present Negative",
+            "content": "Change い to くない\n\n高い → 高くない - is not expensive 大きい → 大きくない - is not big 美味しい → 美味しくない - is not delicious"
+          },
+          {
+            "level": 3,
+            "heading": "Present Negative (Polite)",
+            "content": "Change い to くないです or くありません\n\n高くないです / 高くありません \"is not expensive\" (polite) 大きくないです / 大きくありません \"is not big\" (polite)"
+          },
+          {
+            "level": 3,
+            "heading": "Past Negative",
+            "content": "昨日は寒くなかった \"Yesterday was not cold\" その本は面白くなかったです \"That book was not interesting\""
+          },
+          {
+            "level": 3,
+            "heading": "Connective (て-form)",
+            "content": "この部屋は広くて明るい \"This room is spacious and bright\" 彼女は優しくてきれいです \"She is kind and beautiful\""
+          }
+        ]
+      },
+      {
+        "level": 2,
+        "heading": "Using Different Forms",
+        "content": "",
+        "children": [
+          {
+            "level": 3,
+            "heading": "Describing Current State",
+            "content": "今日は暑い \"Today is hot\" この問題は難しいです \"This problem is difficult\""
+          },
+          {
+            "level": 3,
+            "heading": "Describing Past State",
+            "content": "昨日は寒かった \"Yesterday was cold\" 先週は忙しかったです \"Last week was busy\""
+          },
+          {
+            "level": 3,
+            "heading": "Negating Current State",
+            "content": "今日は寒くない \"Today is not cold\" この本は高くないです \"This book is not expensive\""
+          },
+          {
+            "level": 3,
+            "heading": "Negating Past State",
+            "content": "昨日は暑くなかった \"Yesterday was not hot\" その映画は面白くなかったです \"That movie was not interesting\""
+          }
+        ]
+      },
+      {
+        "level": 2,
+        "heading": "Conversation Examples",
+        "content": "",
+        "children": [
+          {
+            "level": 3,
+            "heading": "Example 1: Restaurant",
+            "content": "A: このレストランはどうですか？ \"How is this restaurant?\" B: 美味しいですよ \"It's delicious\" A: 高いですか？ \"Is it expensive?\" B: いいえ、高くないです \"No, it's not expensive\""
+          },
+          {
+            "level": 3,
+            "heading": "Example 2: Weather",
+            "content": "A: 今日は暑いね \"It's hot today\" B: うん、昨日も暑かった \"Yeah, yesterday was hot too\" A: 明日はどうかな？ \"How about tomorrow?\" B: 明日は涼しいと思う \"I think tomorrow will be cool\""
+          },
+          {
+            "level": 3,
+            "heading": "Example 3: Past Experience",
+            "content": "A: 日本旅行はどうだった？ \"How was your Japan trip?\" B: とても楽しかった！ \"It was very fun!\" A: 高くなかった？ \"Wasn't it expensive?\" B: そんなに高くなかったよ \"It wasn't that expensive\""
+          }
+        ]
+      },
+      {
+        "level": 2,
+        "heading": "Modifying Nouns",
+        "content": "I-adjectives modify nouns directly in present form:\n\n高い車 - expensive car 大きい家 - big house 美味しい料理 - delicious food\n\nFor past/negative, use relative clause:\n\n高かった車 - car that was expensive 高くない車 - car that is not expensive 高くなかった車 - car that was not expensive"
+      },
+      {
+        "level": 2,
+        "heading": "Degree Modifiers",
+        "content": "とても高い - very expensive すごく大きい - extremely big ちょっと難しい - a little difficult あまり高くない - not very expensive 全然美味しくない - not delicious at all"
+      },
+      {
+        "level": 2,
+        "heading": "Conjugation Practice",
+        "content": "",
+        "children": [
+          {
+            "level": 3,
+            "heading": "新しい (new)",
+            "content": "新しい → 新しくない → 新しかった → 新しくなかった 新しくて → 新しく"
+          },
+          {
+            "level": 3,
+            "heading": "古い (old)",
+            "content": "古い → 古くない → 古かった → 古くなかった 古くて → 古く"
+          },
+          {
+            "level": 3,
+            "heading": "難しい (difficult)",
+            "content": "難しい → 難しくない → 難しかった → 難しくなかった 難しくて → 難しく"
+          },
+          {
+            "level": 3,
+            "heading": "易しい (easy)",
+            "content": "易しい → 易しくない → 易しかった → 易しくなかった 易しくて → 易しく"
+          }
+        ]
+      },
+      {
+        "level": 2,
+        "heading": "Summary Chart",
+        "content": "Base form: 高い く-form (negative/adverb base): 高く → 高くない (negative) → 高くなかった (past negative) → 高く走る (adverb: run expensively/highly) かった (past): 高かった くて (connective): 高くて"
+      },
+      {
+        "level": 2,
+        "heading": "Key Takeaways",
+        "content": "✓ Remove い, add endings ✓ Negative: くない ✓ Past: かった ✓ Past negative: くなかった ✓ Connective: くて ✓ Adverb: く ✓ いい conjugates from よい ✓ Add です for politeness ✓ No double です!\n\nMaster i-adjective conjugation - it's systematic and predictable!\n\nNext: Na-adjective Conjugation\n\nRelated:\n\nI-adjectives Adjective Present Tense Adjective Past Tense Affirmative\n\nChange い to かった\n\n高い → 高かった - was expensive 大きい → 大きかった - was big 美味しい → 美味しかった - was delicious",
+        "children": [
+          {
+            "level": 3,
+            "heading": "Past Affirmative (Polite)",
+            "content": "Add です to かった\n\n高かったです - was expensive (polite) 大きかったです - was big (polite) 美味しかったです - was delicious (polite)"
+          },
+          {
+            "level": 3,
+            "heading": "Past Negative",
+            "content": "Change い to くなかった\n\n高い → 高くなかった - was not expensive 大きい → 大きくなかった - was not big 美味しい → 美味しくなかった - was not delicious"
+          },
+          {
+            "level": 3,
+            "heading": "Past Negative (Polite)",
+            "content": "Add です to くなかった or use くありませんでした\n\n高くなかったです / 高くありませんでした \"was not expensive\" (polite) 大きくなかったです / 大きくありませんでした \"was not big\" (polite)"
+          }
+        ]
+      },
+      {
+        "level": 2,
+        "heading": "Complete Conjugation Chart",
+        "content": "| Form | Pattern | Example (高い) | Meaning | | ---------------------- | -------------- | ---------------- | ----------------- | | Present | い | 高い | is expensive | | Present (polite) | いです | 高いです | is expensive | | Negative | くない | 高くない | is not expensive | | Negative (polite) | くないです | 高くないです | is not expensive | | Past | かった | 高かった | was expensive | | Past (polite) | かったです | 高かったです | was expensive | | Past negative | くなかった | 高くなかった | was not expensive | | Past negative (polite) | くなかったです | 高くなかったです | was not expensive |"
+      },
+      {
+        "level": 2,
+        "heading": "Connective Form (て-form)",
+        "content": "Change い to くて\n\n高い → 高くて - expensive and... 大きい → 大きくて - big and... 美味しい → 美味しくて - delicious and...",
+        "children": [
+          {
+            "level": 3,
+            "heading": "Usage",
+            "content": "この車は高くて速い \"This car is expensive and fast\" この部屋は広くて明るい \"This room is spacious and bright\""
+          }
+        ]
+      },
+      {
+        "level": 2,
+        "heading": "Adverb Form",
+        "content": "Change い to く\n\n高い → 高く - highly, expensively 速い → 速く - quickly, fast 美しい → 美しく - beautifully",
+        "children": [
+          {
+            "level": 3,
+            "heading": "Usage",
+            "content": "速く走る \"run fast\" 美しく咲く \"bloom beautifully\" 高く飛ぶ \"fly high\""
+          }
+        ]
+      },
+      {
+        "level": 2,
+        "heading": "Special Case: いい/よい",
+        "content": "Good conjugates irregularly:\n\nPresent: いい / よい Negative: よくない (NOT いくない!) Past: よかった (NOT いかった!) Past negative: よくなかった Te-form: よくて Adverb: よく",
+        "children": [
+          {
+            "level": 3,
+            "heading": "Examples",
+            "content": "天気がいい → 天気がよくない \"weather is good\" → \"weather is not good\" 映画がよかった \"the movie was good\" よく分かる \"understand well\""
+          }
+        ]
+      },
+      {
+        "level": 2,
+        "heading": "Practical Conjugation Examples",
+        "content": "",
+        "children": [
+          {
+            "level": 3,
+            "heading": "大きい (big)",
+            "content": "大きい - is big 大きいです - is big (polite) 大きくない - is not big 大きくないです - is not big (polite) 大きかった - was big 大きかったです - was big (polite) 大きくなかった - was not big 大きくなかったです - was not big (polite) 大きくて - big and... 大きく - greatly, largely"
+          },
+          {
+            "level": 3,
+            "heading": "美味しい (delicious)",
+            "content": "美味しい - is delicious 美味しいです - is delicious (polite) 美味しくない - is not delicious 美味しくないです - is not delicious (polite) 美味しかった - was delicious 美味しかったです - was delicious (polite) 美味しくなかった - was not delicious 美味しくなかったです - was not delicious (polite) 美味しくて - delicious and... 美味しく - deliciously"
+          },
+          {
+            "level": 3,
+            "heading": "楽しい (fun)",
+            "content": "楽しい - is fun 楽しいです - is fun (polite) 楽しくない - is not fun 楽しくないです - is not fun (polite) 楽しかった - was fun 楽しかったです - was fun (polite) 楽しくなかった - was not fun 楽しくなかったです - was not fun (polite) 楽しくて - fun and... 楽しく - enjoyably"
+          }
+        ]
+      },
+      {
+        "level": 2,
+        "heading": "Common Mistakes",
+        "content": "",
+        "children": [
+          {
+            "level": 3,
+            "heading": "Mistake 1: Wrong Negative Pattern",
+            "content": "Wrong: 高いない ❌ Right: 高くない ✓ Wrong: 大きいない ❌ Right: 大きくない ✓"
+          },
+          {
+            "level": 3,
+            "heading": "Mistake 2: Wrong Past Pattern",
+            "content": "Wrong: 高いた ❌ Right: 高かった ✓ Wrong: 美味しいた ❌ Right: 美味しかった ✓"
+          },
+          {
+            "level": 3,
+            "heading": "Mistake 3: いい Conjugation",
+            "content": "Wrong: いくない ❌ Right: よくない ✓ Wrong: いかった ❌ Right: よかった ✓"
+          },
+          {
+            "level": 3,
+            "heading": "Mistake 4: Double です",
+            "content": "Wrong: 高いですでした ❌ Right: 高かったです ✓ Wrong: 高くないですでした ❌ Right: 高くなかったです ✓"
+          }
+        ]
+      },
+      {
+        "level": 2,
+        "heading": "Sentence Examples",
+        "content": "",
+        "children": [
+          {
+            "level": 3,
+            "heading": "Present",
+            "content": "このラーメンは美味しい \"This ramen is delicious\" 日本語は難しいです \"Japanese is difficult\""
+          },
+          {
+            "level": 3,
+            "heading": "Present Negative",
+            "content": "この服は高くない \"These clothes are not expensive\" 今日は暑くないです \"Today is not hot\""
+          },
+          {
+            "level": 3,
+            "heading": "Past",
+            "content": "昨日は楽しかった \"Yesterday was fun\" その映画は面白かったです \"That movie was interesting\""
+          },
+          {
+            "level": 3,
+            "heading": "Past",
+            "content": ""
+          },
+          {
+            "level": 3,
+            "heading": "Company",
+            "content": "About Pricing Blog Contact"
+          },
+          {
+            "level": 3,
+            "heading": "Legal",
+            "content": "Privacy Policy Terms of Service Cookie Policy"
+          }
+        ]
+      }
+    ],
+    "examples": [
+      {
+        "sentence": "Present affirmative"
+      },
+      {
+        "sentence": "Present negative"
+      },
+      {
+        "sentence": "Past affirmative"
+      },
+      {
+        "sentence": "Past negative"
+      },
+      {
+        "sentence": "I-adjectives"
+      },
+      {
+        "sentence": "Adjective Present Tense"
+      },
+      {
+        "sentence": "Adjective Past Tense Affirmative"
+      },
+      {
+        "sentence": "About"
+      },
+      {
+        "sentence": "Pricing"
+      },
+      {
+        "sentence": "Blog"
+      },
+      {
+        "sentence": "Contact"
+      },
+      {
+        "sentence": "Privacy Policy"
+      },
+      {
+        "sentence": "Terms of Service"
+      },
+      {
+        "sentence": "Cookie Policy"
+      }
+    ]
+  },
+  "metadata": {
+    "extracted_at": "2026-01-01T22:19:30.028104900Z",
+    "duration_ms": 6,
+    "extractors_matched": [
+      "metadata",
+      "examples",
+      "sections"
+    ],
+    "extractors_failed": [
+      "vocab_tables",
+      "definitions",
+      "content_blocks"
+    ]
+  }
+}

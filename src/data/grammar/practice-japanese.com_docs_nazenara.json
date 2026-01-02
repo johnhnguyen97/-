@@ -1,0 +1,109 @@
+{
+  "config_name": "Language Learning Extractor",
+  "url": "https://practice-japanese.com/docs/nazenara/",
+  "data": {
+    "examples": [
+      {
+        "sentence": "About"
+      },
+      {
+        "sentence": "Pricing"
+      },
+      {
+        "sentence": "Blog"
+      },
+      {
+        "sentence": "Contact"
+      },
+      {
+        "sentence": "Privacy Policy"
+      },
+      {
+        "sentence": "Terms of Service"
+      },
+      {
+        "sentence": "Cookie Policy"
+      }
+    ],
+    "metadata": {
+      "title": "なぜなら (nazenara) - That's because"
+    },
+    "sections": [
+      {
+        "level": 2,
+        "heading": "What is なぜなら?",
+        "content": "なぜなら means \"that's because,\" \"the reason is,\" or \"this is because.\" It introduces an explanation for something stated before. It's more formal and structured than だから.\n\n日本語が好きです。なぜなら、美しい言語だからです \"I like Japanese. That's because it's a beautiful language\" 彼は成功した。なぜなら、努力したからだ \"He succeeded. That's because he made an effort\""
+      },
+      {
+        "level": 2,
+        "heading": "Formation",
+        "content": "",
+        "children": [
+          {
+            "level": 3,
+            "heading": "Pattern: [Statement]. なぜなら、[Reason] + からだ/からです",
+            "content": "[Result/Statement]. なぜなら、[Explanation] + からだ Important: Usually ends with からだ/からです"
+          },
+          {
+            "level": 3,
+            "heading": "Basic structure",
+            "content": "Statement → Result なぜなら → \"The reason is...\" Reason + からだ → Because [reason]"
+          }
+        ]
+      },
+      {
+        "level": 2,
+        "heading": "Basic Usage",
+        "content": "",
+        "children": [
+          {
+            "level": 3,
+            "heading": "Explaining reasons formally",
+            "content": "私は毎日運動します。なぜなら、健康が大切だからです \"I exercise every day. That's because health is important\" このプランを選びました。なぜなら、最もコストパフォーマンスが良いからです \"I chose this plan. That's because it has the best cost performance\""
+          },
+          {
+            "level": 3,
+            "heading": "In essays and presentations",
+            "content": "再生可能エネルギーが重要だ。 なぜなら、環境を守る必要があるからだ。 \"Renewable energy is important. That's because we need to protect the environment.\""
+          }
+        ]
+      },
+      {
+        "level": 2,
+        "heading": "Common Mistakes",
+        "content": "",
+        "children": [
+          {
+            "level": 3,
+            "heading": "Mistake 1: Forgetting からだ/からです",
+            "content": "Wrong: 好きです。なぜなら、美しい ❌ Right: 好きです。なぜなら、美しいからです ✓\n\nWrong: 好きです。なぜなら、美しい ❌ Right: 好きです。なぜなら、美しいからです ✓ \"I like it. That's because it's beautiful\"\n\nMust end with からだ/からです!\n\n### Mistake 2: Using in casual conversation\n\nToo formal for friends: なぜなら、忙しいからです ⚠️ Natural: だって忙しいんだもん ✓ \"Because I'm busy\"\n\nなぜなら is too formal for casual speech\n\n### Mistake 3: Wrong sentence order\n\nWrong: なぜなら、忙しいからです。行けません ❌ Right: 行けません。なぜなら、忙しいからです ✓ \"I can't go. That's because I'm busy\"\n\nStatement comes BEFORE なぜなら!\n\n## なぜなら vs だから ### なぜなら - Explains WHY\n\n彼は来なかった。なぜなら、病気だったからだ \"He didn't come. That's because he was sick\"\n\nGives the reason/explanation More formal\n\n### だから - Shows RESULT\n\n彼は病気だった。だから、来なかった \"He was sick. Therefore, he didn't come\"\n\nShows the consequence Less formal\n\n### Opposite flow\n\nなぜなら: Result → Reason だから: Reason → Result\n\nThey connect ideas in opposite directions!\n\n## Politeness Levels ### Formal written: なぜなら〜からである\n\n教育は重要である。なぜなら、未来を創るからである \"Education is important. That's because it creates the future\"\n\nAcademic, formal writing\n\n### Polite: なぜなら〜からです\n\nこの方法を選びました。なぜなら、効果的だからです \"I chose this method. That's because it's effective\"\n\nStandard polite\n\n### Casual (rare): なぜなら〜からだ\n\n好きだ。なぜなら、面白いからだ \"I like it. That's because it's interesting\"\n\nStill formal even in plain form\n\n## In Academic Writing ### Structuring arguments\n\nこの理論は正しい。 なぜなら、実験結果がそれを証明しているからだ。 さらに、多くの専門家が支持している。\n\n\"This theory is correct. That's because experimental results prove it. Furthermore, many experts support it.\"\n\n### Making logical connections\n\n問題: 環境破壊が進んでいる 理由: なぜなら、人間の活動が原因だからだ\n\n\"Problem: Environmental destruction is progressing Reason: That's because human activity is the cause\"\n\n## Common Contexts ### In presentations\n\nこのプロジェクトは成功するでしょう。 なぜなら、優秀なチームがあるからです。\n\n\"This project will succeed. That's because we have an excellent team.\"\n\n### In business proposals\n\nこのシステムを導入すべきです。 なぜなら、効率が 50%向上するからです。\n\n\"We should implement this system. That's because efficiency will improve by 50%.\"\n\n### In essays\n\n読書は大切だ。 なぜなら、知識を広げることができるからだ。\n\n\"Reading is important. That's because it can broaden knowledge.\"\n\n## Alternatives to なぜなら ### というのは (that is because)\n\n好きだ。というのは、面白いからだ \"I like it. That is because it's interesting\"\n\nSimilar but slightly less formal\n\n### その理由は (the reason is)\n\n選んだ。その理由は、品質が良いからだ \"I chose it. The reason is that the quality is good\"\n\nMore explicit about \"reason\"\n\n### だって (casual \"because\")\n\n行きたくない。だって、疲れてるんだもん \"I don't want to go. Because I'm tired\"\n\nVery casual, opposite of なぜなら\n\n## Responding to なぜなら ### Acknowledging explanation\n\nなるほど、そういう理由ですね \"I see, that's the reason\"\n\n理解しました \"I understand\"\n\nそうですか \"I see\"\n\n## In Questions ### なぜなら can answer \"why\"\n\nA: なぜ日本語を勉強しているんですか \"Why are you studying Japanese?\"\n\nB: なぜなら、日本の文化が好きだからです \"That's because I like Japanese culture\"\n\nFormal answer\n\n## Multiple Reasons ### Listing reasons\n\n成功した。 なぜなら、第一に努力したからだ。 第二に、良いチームがあったからだ。\n\n\"He succeeded. That's because, first, he made an effort. Second, he had a good team.\"\n\n## Emphasis Patterns ### なぜならば (more emphatic)\n\n重要だ。なぜならば、命に関わるからだ \"It's important. That's because it involves lives\"\n\nMore formal and emphatic\n\n## Written vs Spoken ### Written (common)\n\nEssays, reports, papers: この結果となった。なぜなら、条件が違ったからである。 \"This result occurred. That's because the conditions were different.\"\n\nNatural in writing\n\n### Spoken (rare)\n\nPresentations only: 成功します。なぜなら、計画が完璧だからです。 \"It will succeed. That's because the plan is perfect.\"\n\nRarely in daily conversation\n\n## Structure in Longer Text ### Building argument\n\n日本語学習は難しい。 なぜなら、漢字が多いからだ。 しかし、諦めるべきではない。 なぜなら、努力すれば必ずできるようになるからだ。\n\n\"Learning Japanese is difficult. That's because there are many kanji. However, one should not give up. That's because if you make an effort, you will definitely be able to do it.\"\n\n## Formal Variations ### である体 (formal written)\n\n重要である。なぜなら、影響が大きいからである \"It's important. That's because the impact is large\"\n\n### です・ます体 (polite)\n\n重要です。なぜなら、影響が大きいからです \"It's important. That's because the impact is large\"\n\n### だ体 (plain but still formal)\n\n重要だ。なぜなら、影響が大きいからだ \"It's important. That's because the impact is large\"\n\n## Common Sentence Patterns ### Pattern 1: Simple explanation\n\n[Statement]. なぜなら、[reason]からだ。\n\n彼は遅れた。なぜなら、電車が遅れたからだ。 \"He was late. That's because the train was delayed.\"\n\n### Pattern 2: Extended explanation\n\n[Statement]. なぜなら、[explanation]. [Further detail]からだ。\n\n成功した。なぜなら、チーム全員が協力した。 そして、計画が良かったからだ。 \"It succeeded. That's because the entire team cooperated. And the plan was good.\"\n\n## Practice Sentences ### Basic\n\n好きです。なぜなら、美味しいからです \"I like it. That's because it's delicious\"\n\n選びました。なぜなら、安いからです \"I chose it. That's because it's cheap\"\n\n重要です。なぜなら、健康に関わるからです \"It's important. That's because it relates to health\"\n\n### Intermediate\n\nこの本をお勧めします。なぜなら、とても分かりやすく 説明されているからです \"I recommend this book. That's because it's explained very clearly\"\n\n環境保護が必要だ。なぜなら、地球温暖化が 深刻な問題となっているからだ \"Environmental protection is necessary. That's because global warming has become a serious problem\"\n\n### Advanced\n\nデジタル化を推進すべきである。なぜなら、 業務効率が大幅に向上し、コスト削減にも つながるからである。さらに、顧客満足度の 向上も期待できる。 \"We should promote digitization. That's because work efficiency will improve significantly and it will also lead to cost reduction. Furthermore, we can also expect improved customer satisfaction.\"\n\n教育改革が急務である。なぜなら、現在の システムでは 21 世紀に必要なスキルを 育成できないからだ。したがって、新しい アプローチが必要なのである。 \"Educational reform is urgent. That's because the current system cannot develop the skills needed in the 21st century. Therefore, a new approach is necessary.\"\n\n## Related Grammar Points - **から** - Because (in one sentence) - **ので** - Because (polite) - **だから** - Therefore - **というのは** - That is because - **その理由は** - The reason is - **Formal Japanese** - Written language patterns"
+          },
+          {
+            "level": 3,
+            "heading": "Company",
+            "content": "About Pricing Blog Contact"
+          },
+          {
+            "level": 3,
+            "heading": "Legal",
+            "content": "Privacy Policy Terms of Service Cookie Policy"
+          }
+        ]
+      }
+    ]
+  },
+  "metadata": {
+    "extracted_at": "2026-01-01T22:19:32.078721500Z",
+    "duration_ms": 4,
+    "extractors_matched": [
+      "metadata",
+      "examples",
+      "sections"
+    ],
+    "extractors_failed": [
+      "vocab_tables",
+      "definitions",
+      "content_blocks"
+    ]
+  }
+}

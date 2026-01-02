@@ -1,0 +1,304 @@
+{
+  "config_name": "Language Learning Extractor",
+  "url": "https://practice-japanese.com/docs/machigaeru/",
+  "data": {
+    "examples": [
+      {
+        "sentence": "About"
+      },
+      {
+        "sentence": "Pricing"
+      },
+      {
+        "sentence": "Blog"
+      },
+      {
+        "sentence": "Contact"
+      },
+      {
+        "sentence": "Privacy Policy"
+      },
+      {
+        "sentence": "Terms of Service"
+      },
+      {
+        "sentence": "Cookie Policy"
+      }
+    ],
+    "sections": [
+      {
+        "level": 2,
+        "heading": "〜間違える (machigaeru) - Do By Mistake",
+        "content": "〜間違える attaches to verb stems to indicate doing an action incorrectly or by mistake . It emphasizes that the action was done wrong or an error occurred in the process.\n\nVerb stem + 間違える 書き間違える - write incorrectly 聞き間違える - mishear 読み間違える - misread Action done wrong Error in execution Mistake made"
+      },
+      {
+        "level": 2,
+        "heading": "Formation",
+        "content": "",
+        "children": [
+          {
+            "level": 3,
+            "heading": "Basic pattern",
+            "content": "る-verbs: 見る → 見間違える \"see wrongly, mistake for\" 覚える → 覚え間違える \"memorize incorrectly\" う-verbs: 書く → 書き間違える \"write incorrectly\" 読む → 読み間違える \"misread\" 聞く → 聞き間違える \"mishear\" 言う → 言い間違える \"misspeak\" 押す → 押し間違える \"press wrong button\" Irregular: する → し間違える \"do incorrectly\""
+          }
+        ]
+      },
+      {
+        "level": 2,
+        "heading": "Core Meaning",
+        "content": "",
+        "children": [
+          {
+            "level": 3,
+            "heading": "Incorrect execution",
+            "content": "名前を書き間違えた \"Wrote the name incorrectly\" Action was done But done wrong Error in the doing 電話番号を聞き間違えた \"Misheard the phone number\" Heard it But heard wrong Mistake in reception"
+          }
+        ]
+      },
+      {
+        "level": 2,
+        "heading": "Common Uses",
+        "content": "",
+        "children": [
+          {
+            "level": 3,
+            "heading": "Communication errors",
+            "content": "聞き間違える \"Mishear\" 言い間違える \"Misspeak, say wrong\" 読み間違える \"Misread\" Perception and speech mistakes Very common Everyday errors"
+          },
+          {
+            "level": 3,
+            "heading": "Visual mistakes",
+            "content": "見間違える \"See incorrectly, mistake for\" 人を見間違えた \"Mistook someone (for someone else)\" 道を見間違えた \"Mistook the road\" Visual confusion Mistaken identity"
+          },
+          {
+            "level": 3,
+            "heading": "Physical actions",
+            "content": "押し間違える \"Press wrong button\" ボタンを押し間違えた \"Pressed the wrong button\" 階を押し間違えた \"Pressed wrong floor (in elevator)\" Wrong action execution Common physical errors"
+          },
+          {
+            "level": 3,
+            "heading": "Writing and input",
+            "content": "書き間違える \"Write incorrectly\" 漢字を書き間違えた \"Wrote kanji incorrectly\" 入力し間違える \"Input incorrectly\" 住所を入力し間違えた \"Input address incorrectly\" Text and data errors"
+          }
+        ]
+      },
+      {
+        "level": 2,
+        "heading": "Nuance: Process Error",
+        "content": "",
+        "children": [
+          {
+            "level": 3,
+            "heading": "Focus on execution",
+            "content": "Unlike simple mistakes: 間違える (standalone) \"Make a mistake, be wrong\" 書き間違える (compound) \"Make a mistake in writing\" Compound specifies where error occurred In the action itself Process-focused"
+          }
+        ]
+      },
+      {
+        "level": 2,
+        "heading": "Mistaken Identity",
+        "content": "",
+        "children": [
+          {
+            "level": 3,
+            "heading": "見間違える special use",
+            "content": "人を見間違える \"Mistake someone for another person\" 花子さんだと思ったら、見間違えた \"Thought it was Hanako, but I was mistaken\" Common with this verb Visual confusion Wrong identification"
+          }
+        ]
+      },
+      {
+        "level": 2,
+        "heading": "With を",
+        "content": "",
+        "children": [
+          {
+            "level": 3,
+            "heading": "Object marking",
+            "content": "名前を書き間違える \"Write name incorrectly\" 番号を押し間違える \"Press number incorrectly\" 言葉を言い間違える \"Say words incorrectly\" を marks what was done wrong Object of the mistake"
+          }
+        ]
+      },
+      {
+        "level": 2,
+        "heading": "Apologizing for Mistakes",
+        "content": "",
+        "children": [
+          {
+            "level": 3,
+            "heading": "Taking responsibility",
+            "content": "すみません、聞き間違えました \"Sorry, I misheard\" ごめん、書き間違えた \"Sorry, I wrote it wrong\" Common apology pattern Acknowledging error Social repair"
+          }
+        ]
+      },
+      {
+        "level": 2,
+        "heading": "Comparison Mistakes",
+        "content": "",
+        "children": [
+          {
+            "level": 3,
+            "heading": "Confusing things",
+            "content": "AをBと見間違える \"Mistake A for B\" 彼を兄だと見間違えた \"Mistook him for his brother\" Pattern for confusion Mistaken identity"
+          }
+        ]
+      },
+      {
+        "level": 2,
+        "heading": "Correction Context",
+        "content": "",
+        "children": [
+          {
+            "level": 3,
+            "heading": "Fixing errors",
+            "content": "書き間違えたので、書き直す \"Wrote incorrectly, so rewriting\" 押し間違えたから、もう一度やる \"Pressed wrong button, so doing again\" Leads to correction Natural sequence Error → fix"
+          }
+        ]
+      },
+      {
+        "level": 2,
+        "heading": "Transitivity",
+        "content": "",
+        "children": [
+          {
+            "level": 3,
+            "heading": "Usually transitive",
+            "content": "Most compounds are transitive: 名前を書き間違える 番号を聞き間違える 人を見間違える Takes direct object What was done wrong"
+          }
+        ]
+      },
+      {
+        "level": 2,
+        "heading": "Conjugation",
+        "content": "",
+        "children": [
+          {
+            "level": 3,
+            "heading": "Regular る-verb",
+            "content": "間違える is a る-verb: Present: 間違える Past: 間違えた Negative: 間違えない Te-form: 間違えて Potential: 間違えられる Causative: 間違えさせる Standard conjugations"
+          }
+        ]
+      },
+      {
+        "level": 2,
+        "heading": "Common Collocations",
+        "content": "聞き間違える - mishear Very common 書き間違える - write incorrectly Common in writing 読み間違える - misread Reading errors 見間違える - see wrongly Visual mistakes 言い間違える - misspeak Speech errors 押し間違える - press wrong button Technology errors Natural combinations Learn as units"
+      },
+      {
+        "level": 2,
+        "heading": "In Negative",
+        "content": "",
+        "children": [
+          {
+            "level": 3,
+            "heading": "Didn't make mistake",
+            "content": "間違えなかった \"Didn't make a mistake\" 書き間違えることなく \"Without writing incorrectly\" Emphasis on correctness No errors made"
+          }
+        ]
+      },
+      {
+        "level": 2,
+        "heading": "Frequency",
+        "content": "",
+        "children": [
+          {
+            "level": 3,
+            "heading": "Less common than simple 間違える",
+            "content": "Simple 間違える more common: 答えを間違えた \"got answer wrong\" Compound used when specifying action: 漢字を書き間違えた \"wrote kanji wrong\" Compound = specific error type Simple = general mistake"
+          }
+        ]
+      },
+      {
+        "level": 2,
+        "heading": "With てしまう",
+        "content": "",
+        "children": [
+          {
+            "level": 3,
+            "heading": "Accidental completion",
+            "content": "聞き間違えてしまった \"Ended up mishearing\" 書き間違えてしまった \"Ended up writing wrong\" Regret implied Unfortunate mistake"
+          }
+        ]
+      },
+      {
+        "level": 2,
+        "heading": "Warning Against Mistakes",
+        "content": "",
+        "children": [
+          {
+            "level": 3,
+            "heading": "Caution",
+            "content": "押し間違えないように \"So you don't press wrong\" 書き間違えないでください \"Please don't write incorrectly\" Careful warnings Preventing errors"
+          }
+        ]
+      },
+      {
+        "level": 2,
+        "heading": "Formality",
+        "content": "",
+        "children": [
+          {
+            "level": 3,
+            "heading": "Neutral usage",
+            "content": "Can use in: - Casual: 間違えた - Polite: 間違えました - Written: 間違えた Adjust with conjugation Not inherently formal/casual"
+          }
+        ]
+      },
+      {
+        "level": 2,
+        "heading": "With や and と",
+        "content": "",
+        "children": [
+          {
+            "level": 3,
+            "heading": "\"Things like\"",
+            "content": "名前や住所を書き間違える \"Make mistakes writing things like name and address\" 番号などを押し間違える \"Mispress things like numbers\" Listing examples Common error types"
+          }
+        ]
+      },
+      {
+        "level": 2,
+        "heading": "Common Mistakes",
+        "content": "❌ Using dictionary form ✗ 書く間違える ✓ Using stem form ✓ 書き間違える ❌ Confusing with 間違う 間違う = be wrong (intransitive) 間違える = make mistake (transitive) ✓ Know the difference Use appropriate verb ❌ Wrong particle usage ✗ を書き間違える (missing object) ✓ Complete structure ✓ 名前を書き間違える"
+      },
+      {
+        "level": 2,
+        "heading": "Practical Examples",
+        "content": "",
+        "children": [
+          {
+            "level": 3,
+            "heading": "Real-life situations",
+            "content": "電車を乗り間違えた \"Got on wrong train\" 階段を降り間違えた \"Went down wrong stairs\" 時間を聞き間違えて、遅刻した \"Misheard the time and was late\" ボタンを押し間違えて、削除してしまった \"Pressed wrong button and deleted (it)\" 彼女を他の人と見間違えた \"Mistook her for someone else\" 住所を書き間違えたので、手紙が届かなかった \"Wrote address wrong, so letter didn't arrive\" すみません、聞き間違えました。もう一度お願いします \"Sorry, I misheard. Once more please\" Everyday errors Communication mistakes Natural contexts Apologizing and correcting"
+          },
+          {
+            "level": 3,
+            "heading": "Company",
+            "content": "About Pricing Blog Contact"
+          },
+          {
+            "level": 3,
+            "heading": "Legal",
+            "content": "Privacy Policy Terms of Service Cookie Policy"
+          }
+        ]
+      }
+    ],
+    "metadata": {
+      "title": "〜間違える (machigaeru) - Do by mistake"
+    }
+  },
+  "metadata": {
+    "extracted_at": "2026-01-01T22:19:31.111239300Z",
+    "duration_ms": 3,
+    "extractors_matched": [
+      "metadata",
+      "examples",
+      "sections"
+    ],
+    "extractors_failed": [
+      "vocab_tables",
+      "definitions",
+      "content_blocks"
+    ]
+  }
+}

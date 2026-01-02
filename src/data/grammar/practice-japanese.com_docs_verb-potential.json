@@ -1,0 +1,272 @@
+{
+  "config_name": "Language Learning Extractor",
+  "url": "https://practice-japanese.com/docs/verb-potential/",
+  "data": {
+    "sections": [
+      {
+        "level": 2,
+        "heading": "What is Potential Form?",
+        "content": "Potential form (可能形) expresses ability or possibility . It means \"can do\" or \"be able to do.\"\n\n食べられる (taberareru) - can eat 書ける (kakeru) - can write できる (dekiru) - can do"
+      },
+      {
+        "level": 2,
+        "heading": "When to Use Potential Form",
+        "content": "",
+        "children": [
+          {
+            "level": 3,
+            "heading": "1. Express Ability",
+            "content": "日本語が話せる \"I can speak Japanese\" 泳げる \"I can swim\" 漢字が読める \"I can read kanji\""
+          },
+          {
+            "level": 3,
+            "heading": "2. Express Possibility",
+            "content": "今日行ける \"I can go today\" 明日会える？ \"Can we meet tomorrow?\""
+          },
+          {
+            "level": 3,
+            "heading": "3. Natural Ability vs Circumstantial",
+            "content": "泳げる - \"I can swim\" (ability) 今日は泳げない - \"I can't swim today\" (circumstance)"
+          }
+        ]
+      },
+      {
+        "level": 2,
+        "heading": "Conjugation Rules",
+        "content": "",
+        "children": [
+          {
+            "level": 3,
+            "heading": "Ichidan Verbs",
+            "content": "Drop る , add られる :\n\n食べる → 食べられる (can eat) 見る → 見られる (can see) 寝る → 寝られる (can sleep) 起きる → 起きられる (can wake up) 教える → 教えられる (can teach) 着る → 着られる (can wear)\n\nNote: Ichidan potential form = same as passive form!"
+          },
+          {
+            "level": 3,
+            "heading": "Godan Verbs",
+            "content": "Change -u to -eru :\n\n書く → 書ける (kaku → kakeru) kak-u → kak-eru 読む → 読める (yomu → yomeru) yom-u → yom-eru 話す → 話せる (hanasu → hanaseru) hanas-u → hanas-eru 飲む → 飲める (nomu → nomeru) nom-u → nom-eru 買う → 買える (kau → kaeru) ka-u → ka-eru 待つ → 待てる (matsu → materu) mat-u → mat-eru 遊ぶ → 遊べる (asobu → asoberu) asob-u → asob-eru 帰る → 帰れる (kaeru → kaereru) kaer-u → kaer-eru 泳ぐ → 泳げる (oyogu → oyogeru) oyog-u → oyog-eru"
+          },
+          {
+            "level": 3,
+            "heading": "Irregular Verbs",
+            "content": "する → できる (can do) 来る → 来られる / 来れる (can come)\n\nNote: できる is completely irregular!"
+          }
+        ]
+      },
+      {
+        "level": 2,
+        "heading": "Complete Conjugation Chart",
+        "content": "| Dictionary | Group | Potential | Meaning | | ---------- | --------- | ---------- | --------- | | 書く | Godan | 書ける | can write | | 読む | Godan | 読める | can read | | 話す | Godan | 話せる | can speak | | 買う | Godan | 買える | can buy | | 食べる | Ichidan | 食べられる | can eat | | 見る | Ichidan | 見られる | can see | | する | Irregular | できる | can do | | 来る | Irregular | 来られる | can come |"
+      },
+      {
+        "level": 2,
+        "heading": "Particle Change: を → が",
+        "content": "Potential verbs typically use が instead of を:\n\n日本語を話す → 日本語が話せる \"speak Japanese\" → \"can speak Japanese\" 本を読む → 本が読める \"read books\" → \"can read books\" 寿司を食べる → 寿司が食べられる \"eat sushi\" → \"can eat sushi\"\n\nWhy が? Potential form behaves like a state verb, not action verb."
+      },
+      {
+        "level": 2,
+        "heading": "Ra-nuki (ら抜き) - Casual Shortening",
+        "content": "Colloquial: Ichidan verbs often drop ら:\n\nStandard: 食べられる Casual: 食べれる ✓ (common in speech) Standard: 見られる Casual: 見れる ✓ (common in speech) Standard: 寝られる Casual: 寝れる ✓ (common in speech)\n\nThis is grammatically incorrect but very common in casual speech!"
+      },
+      {
+        "level": 2,
+        "heading": "Polite Forms",
+        "content": "Potential form conjugates like Ichidan verbs:\n\n書ける → 書けます (polite) 読める → 読めます (polite) できる → できます (polite) 食べられる → 食べられます (polite)",
+        "children": [
+          {
+            "level": 3,
+            "heading": "Negative",
+            "content": "書ける → 書けない (can't write) 読める → 読めない (can't read) できる → できない (can't do) 食べられる → 食べられない (can't eat)"
+          },
+          {
+            "level": 3,
+            "heading": "Past",
+            "content": "書けた (could write) 読めた (could read) できた (could do) 食べられた (could eat)"
+          }
+        ]
+      },
+      {
+        "level": 2,
+        "heading": "Common Expressions",
+        "content": "",
+        "children": [
+          {
+            "level": 3,
+            "heading": "Abilities",
+            "content": "日本語が話せます \"I can speak Japanese\" 泳げます \"I can swim\" 運転できます \"I can drive\" 料理ができます \"I can cook\" ピアノが弾けます \"I can play piano\" 自転車に乗れます \"I can ride a bicycle\""
+          },
+          {
+            "level": 3,
+            "heading": "Asking About Abilities",
+            "content": "日本語が話せますか？ \"Can you speak Japanese?\" 泳げますか？ \"Can you swim?\" 運転できますか？ \"Can you drive?\" 漢字が読めますか？ \"Can you read kanji?\""
+          }
+        ]
+      },
+      {
+        "level": 2,
+        "heading": "できる - Special Irregular",
+        "content": "できる means both \"can do\" and \"is possible\":\n\n日本語ができる \"I can speak Japanese\" 明日できる？ \"Can you do it tomorrow?\" できるだけ早く \"As soon as possible\" できない \"I can't\" / \"It's impossible\"",
+        "children": [
+          {
+            "level": 3,
+            "heading": "できる vs する Potential",
+            "content": "する → できる (can do) 勉強する → 勉強できる 料理する → 料理できる 電話する → 電話できる"
+          }
+        ]
+      },
+      {
+        "level": 2,
+        "heading": "Potential Form in Context",
+        "content": "",
+        "children": [
+          {
+            "level": 3,
+            "heading": "Expressing Skills",
+            "content": "A: 何ができますか？ \"What can you do?\" B: 英語が話せます \"I can speak English\" A: 他には？ \"What else?\" B: ギターが弾けます \"I can play guitar\""
+          },
+          {
+            "level": 3,
+            "heading": "Making Plans",
+            "content": "A: 明日会える？ \"Can you meet tomorrow?\" B: うん、会えるよ \"Yeah, I can meet\" A: 何時がいい？ \"What time is good?\" B: 3時に会える \"I can meet at 3\""
+          },
+          {
+            "level": 3,
+            "heading": "Asking for Help",
+            "content": "A: これ読めますか？ \"Can you read this?\" B: はい、読めます \"Yes, I can read it\" A: 意味が分かりますか？ \"Do you understand the meaning?\" B: はい、分かります \"Yes, I understand\""
+          }
+        ]
+      },
+      {
+        "level": 2,
+        "heading": "Common Mistakes",
+        "content": "",
+        "children": [
+          {
+            "level": 3,
+            "heading": "Mistake 1: Using を Instead of が",
+            "content": "Less natural: 日本語を話せる Natural: 日本語が話せる ✓"
+          },
+          {
+            "level": 3,
+            "heading": "Mistake 2: Wrong Conjugation",
+            "content": "Wrong: 書く → 書くられる ❌ Right: 書く → 書ける ✓ Wrong: 食べる → 食べれる (in formal writing) ❌ Right: 食べる → 食べられる ✓"
+          },
+          {
+            "level": 3,
+            "heading": "Mistake 3: Confusing with ことができる",
+            "content": "Both mean \"can,\" but different usage:\n\n泳げる ✓ (natural) 泳ぐことができる ✓ (more formal) できる (simple \"can\") することができる (wordy, avoid)"
+          }
+        ]
+      },
+      {
+        "level": 2,
+        "heading": "ことができる Pattern",
+        "content": "Alternative way to express ability:\n\n日本語を話すことができる \"Can speak Japanese\" 泳ぐことができる \"Can swim\" 運転することができる \"Can drive\"\n\nPotential form is more natural in most cases!"
+      },
+      {
+        "level": 2,
+        "heading": "Potential Form vs できる",
+        "content": "| Situation | Use | | --------------------- | ------------------------------- | | Specific action verbs | Potential form (話せる, 泳げる) | | Generic \"can do\" | できる | | する verbs | できる (勉強できる) | | Emphasis | ことができる |"
+      },
+      {
+        "level": 2,
+        "heading": "Negative Potential",
+        "content": "食べられない - can't eat 書けない - can't write できない - can't do 来られない - can't come",
+        "children": [
+          {
+            "level": 3,
+            "heading": "Common Expressions",
+            "content": "分からない \"I don't understand / can't understand\" 見えない \"Can't see\" 聞こえない \"Can't hear\" 信じられない \"Can't believe it\" 食べられない \"Can't eat\""
+          }
+        ]
+      },
+      {
+        "level": 2,
+        "heading": "Special Verbs",
+        "content": "",
+        "children": [
+          {
+            "level": 3,
+            "heading": "見える (mieru) - Can see / Be visible",
+            "content": "富士山が見える \"Mt. Fuji is visible / I can see Mt. Fuji\" 何も見えない \"I can't see anything\""
+          },
+          {
+            "level": 3,
+            "heading": "聞こえる (kikoeru) - Can hear / Be audible",
+            "content": "音楽が聞こえる \"I can hear music\" 何も聞こえない \"I can't hear anything\"\n\nThese are natural potential forms, not derived!"
+          }
+        ]
+      },
+      {
+        "level": 2,
+        "heading": "Practice Sentences",
+        "content": "今日は早く帰れる \"I can go home early today\" 明日会える？ \"Can we meet tomorrow?\" 中国語が話せますか？ \"Can you speak Chinese?\" この漢字が読めない \"I can't read this kanji\" 泳げるようになりたい \"I want to become able to swim\" 昨日は来られなかった \"I couldn't come yesterday\" もっと早く起きられない \"I can't wake up earlier\" 日本料理が作れます \"I can make Japanese food\""
+      },
+      {
+        "level": 2,
+        "heading": "Key Takeaways",
+        "content": "✓ Potential form = \"can do\" / ability ✓ Godan: -u → -eru ✓ Ichidan: -ru → -rareru ✓ Irregular: する → できる, 来る → 来られる ✓ Use が instead of を ✓ ら抜き common in casual speech ✓ できる for generic \"can do\" ✓ Conjugates like Ichidan verbs\n\nMaster potential form - essential for expressing abilities!\n\nNext: Passive Form\n\nRelated:\n\nVerb Groups Te-form Conjugation Causative Form",
+        "children": [
+          {
+            "level": 3,
+            "heading": "Company",
+            "content": "About Pricing Blog Contact"
+          },
+          {
+            "level": 3,
+            "heading": "Legal",
+            "content": "Privacy Policy Terms of Service Cookie Policy"
+          }
+        ]
+      }
+    ],
+    "examples": [
+      {
+        "sentence": "Verb Groups"
+      },
+      {
+        "sentence": "Te-form Conjugation"
+      },
+      {
+        "sentence": "Causative Form"
+      },
+      {
+        "sentence": "About"
+      },
+      {
+        "sentence": "Pricing"
+      },
+      {
+        "sentence": "Blog"
+      },
+      {
+        "sentence": "Contact"
+      },
+      {
+        "sentence": "Privacy Policy"
+      },
+      {
+        "sentence": "Terms of Service"
+      },
+      {
+        "sentence": "Cookie Policy"
+      }
+    ],
+    "metadata": {
+      "title": "Potential Form (Can do)"
+    }
+  },
+  "metadata": {
+    "extracted_at": "2026-01-01T22:19:37.428481800Z",
+    "duration_ms": 3,
+    "extractors_matched": [
+      "metadata",
+      "examples",
+      "sections"
+    ],
+    "extractors_failed": [
+      "vocab_tables",
+      "definitions",
+      "content_blocks"
+    ]
+  }
+}

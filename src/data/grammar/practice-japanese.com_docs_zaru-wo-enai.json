@@ -1,0 +1,292 @@
+{
+  "config_name": "Language Learning Extractor",
+  "url": "https://practice-japanese.com/docs/zaru-wo-enai/",
+  "data": {
+    "examples": [
+      {
+        "sentence": "ざるを得ない expresses unavoidable necessity"
+      },
+      {
+        "sentence": "Formation: [Verb ない-stem] + ざるを得ない"
+      },
+      {
+        "sentence": "Implies reluctance or being forced by circumstances"
+      },
+      {
+        "sentence": "Very formal expression"
+      },
+      {
+        "sentence": "する becomes せざるを得ない"
+      },
+      {
+        "sentence": "Different from なければならない (neutral obligation)"
+      },
+      {
+        "sentence": "Common in business and formal writing"
+      },
+      {
+        "sentence": "Essential for expressing unavoidable actions"
+      },
+      {
+        "sentence": "About"
+      },
+      {
+        "sentence": "Pricing"
+      },
+      {
+        "sentence": "Blog"
+      },
+      {
+        "sentence": "Contact"
+      },
+      {
+        "sentence": "Privacy Policy"
+      },
+      {
+        "sentence": "Terms of Service"
+      },
+      {
+        "sentence": "Cookie Policy"
+      }
+    ],
+    "sections": [
+      {
+        "level": 2,
+        "heading": "What is 〜ざるを得ない?",
+        "content": "〜ざるを得ない (zaru wo enai) is a formal expression meaning \"cannot help but\" or \"have no choice but to.\" It indicates that circumstances force one to do something, often reluctantly.\n\nEnglish equivalent: \"cannot help but,\" \"have no choice but to,\" \"be forced to,\" \"must inevitably\"\n\nStructure: [Verb ない-form minus ない] + ざるを得ない\n\n行く (iku - go) → 行かない → 行か + ざるを得ない = 行かざるを得ない \"have no choice but to go\" する (suru - do) → しない → せ + ざるを得ない = せざるを得ない \"have no choice but to do\" 認める (mitomeru - admit) → 認めない → 認め + ざるを得ない = 認めざるを得ない \"have no choice but to admit\""
+      },
+      {
+        "level": 2,
+        "heading": "Basic Formation",
+        "content": "",
+        "children": [
+          {
+            "level": 3,
+            "heading": "With verbs (ない-stem + ざるを得ない)",
+            "content": "[Verb ない-form without ない] + ざるを得ない\n\n行かざるを得ない (ikazaru wo enai) - \"must go\" やらざるを得ない (yarazaru wo enai) - \"must do\" 考えざるを得ない (kangaezaru wo enai) - \"must think\" 認めざるを得ない (mitomezaru wo enai) - \"must admit\""
+          },
+          {
+            "level": 3,
+            "heading": "Special case: する",
+            "content": "する → しない → せざるを得ない (sezaru wo enai) \"have no choice but to do\""
+          }
+        ]
+      },
+      {
+        "level": 2,
+        "heading": "Unavoidable Circumstances",
+        "content": "",
+        "children": [
+          {
+            "level": 3,
+            "heading": "Forced by situation",
+            "content": "事実を認めざるを得ない。 Jijitsu wo mitomezaru wo enai. \"I have no choice but to admit the facts.\" 計画を変更せざるを得ない。 Keikaku wo henkou sezaru wo enai. \"We have no choice but to change the plan.\" 辞めざるを得ない状況だ。 Yamezaru wo enai joukyou da. \"It's a situation where I have no choice but to quit.\""
+          }
+        ]
+      },
+      {
+        "level": 2,
+        "heading": "Reluctant Acceptance",
+        "content": "",
+        "children": [
+          {
+            "level": 3,
+            "heading": "Unwilling but necessary",
+            "content": "高くても買わざるを得ない。 Takakute mo kawazaru wo enai. \"Even though it's expensive, I have no choice but to buy it.\" 嫌だが、やらざるを得ない。 Iya da ga, yarazaru wo enai. \"I don't like it, but I have no choice but to do it.\" 断りたいが、受けざるを得ない。 Kotowaritai ga, ukezaru wo enai. \"I want to refuse, but I have no choice but to accept.\""
+          }
+        ]
+      },
+      {
+        "level": 2,
+        "heading": "Professional Context",
+        "content": "",
+        "children": [
+          {
+            "level": 3,
+            "heading": "Work-related necessity",
+            "content": "人員を削減せざるを得ない。 Jin'in wo sakugen sezaru wo enai. \"We have no choice but to reduce staff.\" 価格を上げざるを得ない。 Kakaku wo agezaru wo enai. \"We have no choice but to raise prices.\" 延期せざるを得ない。 Enki sezaru wo enai. \"We have no choice but to postpone.\""
+          }
+        ]
+      },
+      {
+        "level": 2,
+        "heading": "Acknowledging Reality",
+        "content": "",
+        "children": [
+          {
+            "level": 3,
+            "heading": "Admitting truth",
+            "content": "失敗を認めざるを得ない。 Shippai wo mitomezaru wo enai. \"I have no choice but to admit failure.\" 彼の能力を認めざるを得ない。 Kare no nouryoku wo mitomezaru wo enai. \"I have no choice but to acknowledge his ability.\" その意見に同意せざるを得ない。 Sono iken ni doui sezaru wo enai. \"I have no choice but to agree with that opinion.\""
+          }
+        ]
+      },
+      {
+        "level": 2,
+        "heading": "Financial Necessity",
+        "content": "",
+        "children": [
+          {
+            "level": 3,
+            "heading": "Economic pressure",
+            "content": "節約せざるを得ない。 Setsuyaku sezaru wo enai. \"I have no choice but to economize.\" 借金せざるを得ない。 Shakkin sezaru wo enai. \"I have no choice but to borrow money.\" 安い方を選ばざるを得ない。 Yasui hou wo erabazaru wo enai. \"I have no choice but to choose the cheaper one.\""
+          }
+        ]
+      },
+      {
+        "level": 2,
+        "heading": "Logical Conclusion",
+        "content": "",
+        "children": [
+          {
+            "level": 3,
+            "heading": "Inevitable inference",
+            "content": "そう考えざるを得ない。 Sou kangaezaru wo enai. \"I cannot help but think so.\" 疑わざるを得ない。 Utagawazaru wo enai. \"I cannot help but doubt.\" そう判断せざるを得ない。 Sou handan sezaru wo enai. \"I have no choice but to judge it that way.\""
+          }
+        ]
+      },
+      {
+        "level": 2,
+        "heading": "Polite Forms",
+        "content": "お断りせざるを得ません。 Okotowari sezaru wo emasen. \"I have no choice but to decline.\" 延期せざるを得ない状況でございます。 Enki sezaru wo enai joukyou de gozaimasu. \"It's a situation where we have no choice but to postpone.\" 価格改定をせざるを得ません。 Kakaku kaitei wo sezaru wo emasen. \"We have no choice but to revise prices.\""
+      },
+      {
+        "level": 2,
+        "heading": "Common Expressions",
+        "content": "認めざるを得ない (mitomezaru wo enai) - \"must admit\" やらざるを得ない (yarazaru wo enai) - \"must do\" せざるを得ない (sezaru wo enai) - \"must do\" (する) 考えざるを得ない (kangaezaru wo enai) - \"must think\" 受けざるを得ない (ukezaru wo enai) - \"must accept\" 変更せざるを得ない (henkou sezaru wo enai) - \"must change\" 辞めざるを得ない (yamezaru wo enai) - \"must quit\""
+      },
+      {
+        "level": 2,
+        "heading": "Comparing ざるを得ない and なければならない",
+        "content": "",
+        "children": [
+          {
+            "level": 3,
+            "heading": "Unavoidable vs general obligation",
+            "content": "ざるを得ない - No choice (reluctant):\n\n行かざるを得ない。 Ikazaru wo enai. \"I have no choice but to go.\" (reluctantly, forced by circumstances)\n\nなければならない - Must (general obligation):\n\n行かなければならない。 Ikanakereba naranai. \"I must go.\" (neutral obligation)\n\n| Pattern | Nuance | Example | | ---------------- | --------------------- | -------------------- | | ざるを得ない | Unavoidable/reluctant | 行かざるを得ない | | なければならない | General obligation | 行かなければならない |"
+          }
+        ]
+      },
+      {
+        "level": 2,
+        "heading": "Comparing ざるを得ない and せざるを得ない",
+        "content": "",
+        "children": [
+          {
+            "level": 3,
+            "heading": "Different verbs",
+            "content": "ざるを得ない - Regular verbs:\n\n行かざるを得ない (ikazaru wo enai) - \"must go\" やらざるを得ない (yarazaru wo enai) - \"must do\"\n\nせざるを得ない - する verb:\n\n変更せざるを得ない (henkou sezaru wo enai) - \"must change\" 決定せざるを得ない (kettei sezaru wo enai) - \"must decide\"\n\nせざるを得ない is specifically for する and compound する verbs."
+          }
+        ]
+      },
+      {
+        "level": 2,
+        "heading": "Formal Situations",
+        "content": "",
+        "children": [
+          {
+            "level": 3,
+            "heading": "Official contexts",
+            "content": "この決定を下さざるを得ない。 Kono kettei wo kudasazaru wo enai. \"We have no choice but to make this decision.\" 措置を講じざるを得ない。 Sochi wo kouzuru wo enai. \"We have no choice but to take measures.\" 事実として受け止めざるを得ない。 Jijitsu toshite uketomezaru wo enai. \"I have no choice but to accept it as fact.\""
+          }
+        ]
+      },
+      {
+        "level": 2,
+        "heading": "Expressing Regret",
+        "content": "",
+        "children": [
+          {
+            "level": 3,
+            "heading": "Unfortunate necessity",
+            "content": "残念だが、中止せざるを得ない。 Zannen da ga, chuushi sezaru wo enai. \"It's regrettable, but we have no choice but to cancel.\" 申し訳ないが、お断りせざるを得ない。 Moushiwakenai ga, okotowari sezaru wo enai. \"I'm sorry, but I have no choice but to decline.\""
+          }
+        ]
+      },
+      {
+        "level": 2,
+        "heading": "Negative Form (Rare)",
+        "content": "",
+        "children": [
+          {
+            "level": 3,
+            "heading": "Don't have to",
+            "content": "そうせざるを得ないわけではない。 Sou sezaru wo enai wake dewa nai. \"It's not that I have no choice but to do so.\"\n\nThis is quite formal and rare."
+          }
+        ]
+      },
+      {
+        "level": 2,
+        "heading": "Formation Pattern",
+        "content": "",
+        "children": [
+          {
+            "level": 3,
+            "heading": "Creating the form",
+            "content": "Dictionary form → ない-form → Remove ない → Add ざるを得ない 行く → 行かない → 行か → 行かざるを得ない 食べる → 食べない → 食べ → 食べざるを得ない する → しない → せ → せざるを得ない (irregular)"
+          }
+        ]
+      },
+      {
+        "level": 2,
+        "heading": "Common Mistakes",
+        "content": "",
+        "children": [
+          {
+            "level": 3,
+            "heading": "Mistake 1: Wrong formation with する",
+            "content": "❌ しざるを得ない ✓ せざるを得ない\n\nする is irregular: せざるを得ない"
+          },
+          {
+            "level": 3,
+            "heading": "Mistake 2: Using dictionary form",
+            "content": "❌ 行くざるを得ない ✓ 行かざるを得ない\n\nUse ない-stem, not dictionary form."
+          },
+          {
+            "level": 3,
+            "heading": "Mistake 3: Adding ない twice",
+            "content": "❌ 行かないざるを得ない ✓ 行かざるを得ない\n\nDon't keep ない before ざる."
+          },
+          {
+            "level": 3,
+            "heading": "Mistake 4: Overusing in casual speech",
+            "content": "ざるを得ない is quite formal. In casual conversation, simpler forms work:\n\nFormal: 行かざるを得ない Casual: 行くしかない / 行かなきゃ"
+          }
+        ]
+      },
+      {
+        "level": 2,
+        "heading": "Summary",
+        "content": "Key Points:\n\nざるを得ない expresses unavoidable necessity Formation: [Verb ない-stem] + ざるを得ない Implies reluctance or being forced by circumstances Very formal expression する becomes せざるを得ない Different from なければならない (neutral obligation) Common in business and formal writing Essential for expressing unavoidable actions",
+        "children": [
+          {
+            "level": 3,
+            "heading": "Company",
+            "content": "About Pricing Blog Contact"
+          },
+          {
+            "level": 3,
+            "heading": "Legal",
+            "content": "Privacy Policy Terms of Service Cookie Policy"
+          }
+        ]
+      }
+    ],
+    "metadata": {
+      "title": "〜ざるを得ない (Cannot help but)"
+    }
+  },
+  "metadata": {
+    "extracted_at": "2026-01-01T22:19:38.074810600Z",
+    "duration_ms": 3,
+    "extractors_matched": [
+      "metadata",
+      "examples",
+      "sections"
+    ],
+    "extractors_failed": [
+      "vocab_tables",
+      "definitions",
+      "content_blocks"
+    ]
+  }
+}

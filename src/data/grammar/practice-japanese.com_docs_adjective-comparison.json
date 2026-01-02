@@ -1,0 +1,299 @@
+{
+  "config_name": "Language Learning Extractor",
+  "url": "https://practice-japanese.com/docs/adjective-comparison/",
+  "data": {
+    "metadata": {
+      "title": "Adjective Comparisons (より)"
+    },
+    "sections": [
+      {
+        "level": 2,
+        "heading": "Comparison Overview",
+        "content": "Japanese comparisons use より (yori) meaning \"than.\" Unlike English, adjectives don't change form - you add より to show comparison.\n\nA は B より 高い \"A is more expensive than B\" 東京は大阪より大きい \"Tokyo is bigger than Osaka\""
+      },
+      {
+        "level": 2,
+        "heading": "Basic Comparison Pattern",
+        "content": "",
+        "children": [
+          {
+            "level": 3,
+            "heading": "Structure",
+            "content": "A は B より [adjective]\n\n[Subject] は [Comparison] より [Adjective] A は B より 高い \"A is more expensive than B\""
+          },
+          {
+            "level": 3,
+            "heading": "Word Order",
+            "content": "私は兄より背が高い \"I am taller than my older brother\" この車はあの車より速い \"This car is faster than that car\""
+          }
+        ]
+      },
+      {
+        "level": 2,
+        "heading": "Using より (than)",
+        "content": "",
+        "children": [
+          {
+            "level": 3,
+            "heading": "I-adjectives",
+            "content": "この本はあの本より面白い \"This book is more interesting than that book\" 今日は昨日より暑い \"Today is hotter than yesterday\" 日本語は英語より難しい \"Japanese is more difficult than English\""
+          },
+          {
+            "level": 3,
+            "heading": "Na-adjectives",
+            "content": "東京は京都より便利だ \"Tokyo is more convenient than Kyoto\" この部屋はあの部屋より静かです \"This room is quieter than that room\" 彼は私より上手です \"He is better/more skilled than me\""
+          }
+        ]
+      },
+      {
+        "level": 2,
+        "heading": "Question Form",
+        "content": "",
+        "children": [
+          {
+            "level": 3,
+            "heading": "どちら/どっち (which)",
+            "content": "A と B と、どちらが [adjective] ですか？ \"Between A and B, which is [adjective]?\" コーヒーと紅茶と、どちらが好きですか？ \"Between coffee and tea, which do you like?\" 富士山とエベレストと、どちらが高いですか？ \"Between Mt. Fuji and Everest, which is taller?\""
+          },
+          {
+            "level": 3,
+            "heading": "Answering",
+            "content": "Q: 犬と猫と、どちらが好きですか？ \"Which do you like, dogs or cats?\" A: 犬の方が好きです \"I like dogs better\" A: 猫より犬の方が好きです \"I like dogs better than cats\""
+          }
+        ]
+      },
+      {
+        "level": 2,
+        "heading": "の方が (no hou ga) - \"more\"",
+        "content": "の方が emphasizes \"the one that is more...\"",
+        "children": [
+          {
+            "level": 3,
+            "heading": "Pattern",
+            "content": "A の方が B より [adjective]\n\nこの車の方があの車より速い \"This car is faster than that car\" (emphasis on \"this car\") 東京の方が大阪より大きい \"Tokyo is bigger than Osaka\""
+          },
+          {
+            "level": 3,
+            "heading": "Common Usage",
+            "content": "こっちの方がいい \"This one is better\" あっちの方が安い \"That one is cheaper\" 日本の方が好きです \"I like Japan better\""
+          }
+        ]
+      },
+      {
+        "level": 2,
+        "heading": "Comparing Three or More",
+        "content": "Use 一番 (ichiban) for superlatives:\n\nA と B と C の中で、どれが一番 [adjective] ですか？ \"Among A, B, and C, which is the most [adjective]?\"\n\n(See Superlatives for more)"
+      },
+      {
+        "level": 2,
+        "heading": "Common Comparison Patterns",
+        "content": "",
+        "children": [
+          {
+            "level": 3,
+            "heading": "Places",
+            "content": "東京は大阪より大きい \"Tokyo is bigger than Osaka\" 京都は東京より静かです \"Kyoto is quieter than Tokyo\" 日本はアメリカより小さい \"Japan is smaller than America\""
+          },
+          {
+            "level": 3,
+            "heading": "Time",
+            "content": "今日は昨日より暑い \"Today is hotter than yesterday\" 今年は去年より忙しい \"This year is busier than last year\" 夏は冬より暑いです \"Summer is hotter than winter\""
+          },
+          {
+            "level": 3,
+            "heading": "People",
+            "content": "私は兄より背が高い \"I am taller than my older brother\" 彼は私より日本語が上手です \"He is better at Japanese than me\" 田中さんは鈴木さんより年上だ \"Tanaka is older than Suzuki\""
+          },
+          {
+            "level": 3,
+            "heading": "Things",
+            "content": "この本はあの本より面白い \"This book is more interesting than that book\" 新しい車は古い車より速い \"The new car is faster than the old car\" リンゴはバナナより高いです \"Apples are more expensive than bananas\""
+          }
+        ]
+      },
+      {
+        "level": 2,
+        "heading": "Degree of Difference",
+        "content": "",
+        "children": [
+          {
+            "level": 3,
+            "heading": "もっと (motto) - \"more, even more\"",
+            "content": "もっと大きい \"bigger\" / \"even bigger\" もっと安い \"cheaper\" もっと静かな場所 \"a quieter place\""
+          },
+          {
+            "level": 3,
+            "heading": "ずっと (zutto) - \"much more\"",
+            "content": "これはあれよりずっと高い \"This is much more expensive than that\" 東京は私の町よりずっと大きい \"Tokyo is much bigger than my town\" 彼は私よりずっと上手です \"He is much better than me\""
+          },
+          {
+            "level": 3,
+            "heading": "少し (sukoshi) - \"a little more\"",
+            "content": "これはあれより少し高い \"This is a little more expensive than that\" 今日は昨日より少し暑い \"Today is a little hotter than yesterday\""
+          }
+        ]
+      },
+      {
+        "level": 2,
+        "heading": "Negative Comparisons",
+        "content": "",
+        "children": [
+          {
+            "level": 3,
+            "heading": "ほど～ない (hodo~nai) - \"not as... as\"",
+            "content": "A は B ほど [adjective]-くない / [adjective]じゃない 私は兄ほど背が高くない \"I'm not as tall as my older brother\" この本はあの本ほど面白くない \"This book is not as interesting as that book\" 京都は東京ほど大きくないです \"Kyoto is not as big as Tokyo\""
+          },
+          {
+            "level": 3,
+            "heading": "Examples",
+            "content": "犬は猫ほど小さくない \"Dogs are not as small as cats\" 今日は昨日ほど暑くない \"Today is not as hot as yesterday\" この店はあの店ほど便利じゃない \"This store is not as convenient as that store\""
+          }
+        ]
+      },
+      {
+        "level": 2,
+        "heading": "Conversation Examples",
+        "content": "",
+        "children": [
+          {
+            "level": 3,
+            "heading": "Example 1: Shopping",
+            "content": "A: このシャツとあのシャツと、どちらがいいですか？ \"Which is better, this shirt or that shirt?\" B: こっちの方がいいです \"This one is better\" A: でも、高いですよ \"But it's expensive\" B: あっちより少し高いだけです \"It's only a little more expensive than that one\""
+          },
+          {
+            "level": 3,
+            "heading": "Example 2: Comparing Cities",
+            "content": "A: 東京と大阪と、どちらが好きですか？ \"Which do you like better, Tokyo or Osaka?\" B: 大阪の方が好きです \"I like Osaka better\" A: どうしてですか？ \"Why?\" B: 東京より静かだし、食べ物が美味しいです \"It's quieter than Tokyo, and the food is delicious\""
+          },
+          {
+            "level": 3,
+            "heading": "Example 3: Weather",
+            "content": "A: 今日は暑いね \"It's hot today\" B: うん、昨日より暑い \"Yeah, it's hotter than yesterday\" A: 明日はもっと暑いらしいよ \"I heard tomorrow will be even hotter\" B: 本当？嫌だな \"Really? That's awful\""
+          }
+        ]
+      },
+      {
+        "level": 2,
+        "heading": "Common Mistakes",
+        "content": "",
+        "children": [
+          {
+            "level": 3,
+            "heading": "Mistake 1: Using より After Subject",
+            "content": "Wrong: 私より兄は背が高い ❌ Right: 私は兄より背が高い ✓ Right: 兄は私より背が高い ✓ \"My brother is taller than me\""
+          },
+          {
+            "level": 3,
+            "heading": "Mistake 2: Adding -er to Adjectives",
+            "content": "Wrong: この本はあの本よりもっと面白いer ❌ Right: この本はあの本より面白い ✓ Right: この本はあの本よりもっと面白い ✓ \"This book is more interesting than that book\""
+          },
+          {
+            "level": 3,
+            "heading": "Mistake 3: Wrong Particle",
+            "content": "Wrong: これはあれから高い ❌ Right: これはあれより高い ✓ \"This is more expensive than that\""
+          },
+          {
+            "level": 3,
+            "heading": "Mistake 4: Confusing より and ほど",
+            "content": "より = positive comparison (more than) ほど = negative comparison (not as... as) 私は兄より背が高い ✓ (I'm taller) 私は兄ほど背が高くない ✓ (I'm not as tall)"
+          }
+        ]
+      },
+      {
+        "level": 2,
+        "heading": "Summary Patterns",
+        "content": "",
+        "children": [
+          {
+            "level": 3,
+            "heading": "Basic Comparison",
+            "content": "A は B より [adjective] \"A is more [adjective] than B\""
+          },
+          {
+            "level": 3,
+            "heading": "With Emphasis",
+            "content": "A の方が B より [adjective] \"A is more [adjective] than B\" (emphasis on A)"
+          },
+          {
+            "level": 3,
+            "heading": "Negative Comparison",
+            "content": "A は B ほど [adjective]-くない \"A is not as [adjective] as B\""
+          },
+          {
+            "level": 3,
+            "heading": "Question",
+            "content": "A と B と、どちらが [adjective] ですか？ \"Which is more [adjective], A or B?\""
+          }
+        ]
+      },
+      {
+        "level": 2,
+        "heading": "Practice Sentences",
+        "content": "この車はあの車より速い \"This car is faster than that car\" 日本語は英語より難しいです \"Japanese is more difficult than English\" 今日は昨日より暑い \"Today is hotter than yesterday\" 東京の方が大阪より大きい \"Tokyo is bigger than Osaka\" 私は兄ほど背が高くない \"I'm not as tall as my older brother\" コーヒーと紅茶と、どちらが好きですか？ \"Which do you like better, coffee or tea?\" こっちの方がずっと安い \"This one is much cheaper\" あの店はこの店ほど便利じゃない \"That store is not as convenient as this store\""
+      },
+      {
+        "level": 2,
+        "heading": "Key Takeaways",
+        "content": "✓ Use より for \"than\" ✓ Adjectives don't change form ✓ Pattern: A は B より [adjective] ✓ の方が adds emphasis ✓ ほど～ない for \"not as... as\" ✓ もっと = more, ずっと = much more ✓ どちら for comparing two things ✓ No comparative -er endings!\n\nMaster comparisons - essential for expressing preferences!\n\nNext: Adjective Superlatives (一番)\n\nRelated:\n\nAdjective Superlatives Adjective Equivalence I-adjectives",
+        "children": [
+          {
+            "level": 3,
+            "heading": "Company",
+            "content": "About Pricing Blog Contact"
+          },
+          {
+            "level": 3,
+            "heading": "Legal",
+            "content": "Privacy Policy Terms of Service Cookie Policy"
+          }
+        ]
+      }
+    ],
+    "examples": [
+      {
+        "sentence": "Adjective Superlatives"
+      },
+      {
+        "sentence": "Adjective Equivalence"
+      },
+      {
+        "sentence": "I-adjectives"
+      },
+      {
+        "sentence": "About"
+      },
+      {
+        "sentence": "Pricing"
+      },
+      {
+        "sentence": "Blog"
+      },
+      {
+        "sentence": "Contact"
+      },
+      {
+        "sentence": "Privacy Policy"
+      },
+      {
+        "sentence": "Terms of Service"
+      },
+      {
+        "sentence": "Cookie Policy"
+      }
+    ]
+  },
+  "metadata": {
+    "extracted_at": "2026-01-01T22:19:27.394860900Z",
+    "duration_ms": 3,
+    "extractors_matched": [
+      "metadata",
+      "examples",
+      "sections"
+    ],
+    "extractors_failed": [
+      "vocab_tables",
+      "definitions",
+      "content_blocks"
+    ]
+  }
+}

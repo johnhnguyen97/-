@@ -1,0 +1,459 @@
+{
+  "config_name": "Language Learning Extractor",
+  "url": "https://practice-japanese.com/docs/sura/",
+  "data": {
+    "examples": [
+      {
+        "sentence": "さえ - Casual to neutral \"even\""
+      },
+      {
+        "sentence": "すら - Formal, literary \"even\""
+      },
+      {
+        "sentence": "More direct"
+      },
+      {
+        "sentence": "Can be dramatic but accessible"
+      },
+      {
+        "sentence": "Everyday emphasis"
+      },
+      {
+        "sentence": "More solemn"
+      },
+      {
+        "sentence": "Heightened literary effect"
+      },
+      {
+        "sentence": "Creates distance/formality"
+      },
+      {
+        "sentence": "Tokyo/Standard: Used in formal writing and speeches"
+      },
+      {
+        "sentence": "Kansai: Less common in daily speech, but appears in formal contexts"
+      },
+      {
+        "sentence": "Rural areas: May sound overly literary in local speech"
+      },
+      {
+        "sentence": "Writing formal documents"
+      },
+      {
+        "sentence": "Academic or professional writing"
+      },
+      {
+        "sentence": "News reports and journalism"
+      },
+      {
+        "sentence": "Literary works"
+      },
+      {
+        "sentence": "Formal speeches"
+      },
+      {
+        "sentence": "Want to create solemn/serious tone"
+      },
+      {
+        "sentence": "Discussing grave matters"
+      },
+      {
+        "sentence": "Daily conversation"
+      },
+      {
+        "sentence": "Casual writing (blogs, messages)"
+      },
+      {
+        "sentence": "Modern fiction dialogue"
+      },
+      {
+        "sentence": "Friendly contexts"
+      },
+      {
+        "sentence": "General emphasis"
+      },
+      {
+        "sentence": "Default choice for learners"
+      },
+      {
+        "sentence": "すら is formal/literary equivalent of さえ"
+      },
+      {
+        "sentence": "Means \"even\" with heightened formality"
+      },
+      {
+        "sentence": "Used in: formal writing, literature, news, academic papers"
+      },
+      {
+        "sentence": "Avoid in: casual conversation, daily speech"
+      },
+      {
+        "sentence": "Creates solemn, serious tone"
+      },
+      {
+        "sentence": "Common in classical Japanese"
+      },
+      {
+        "sentence": "Structure same as さえ: [Noun]すら + [Predicate]"
+      },
+      {
+        "sentence": "Choose さえ for everyday use, すら for formal contexts"
+      },
+      {
+        "sentence": "Don't overuse even in formal writing"
+      },
+      {
+        "sentence": "About"
+      },
+      {
+        "sentence": "Pricing"
+      },
+      {
+        "sentence": "Blog"
+      },
+      {
+        "sentence": "Contact"
+      },
+      {
+        "sentence": "Privacy Policy"
+      },
+      {
+        "sentence": "Terms of Service"
+      },
+      {
+        "sentence": "Cookie Policy"
+      }
+    ],
+    "sections": [
+      {
+        "level": 2,
+        "heading": "What is すら?",
+        "content": "すら (sura) is a formal, literary particle meaning \"even\" - essentially a more formal equivalent of さえ (sae). It appears primarily in written language, formal speeches, literature, and news reports.\n\nEnglish equivalent: \"even\" (formal register)\n\nComparison:\n\nさえ - Casual to neutral \"even\" すら - Formal, literary \"even\"\n\nCasual: 彼は自分の名前さえ書けない。 Formal: 彼は自分の名前すら書けない。 Kare wa jibun no namae sura kakenai. \"He cannot even write his own name.\""
+      },
+      {
+        "level": 2,
+        "heading": "Basic Usage",
+        "content": "",
+        "children": [
+          {
+            "level": 3,
+            "heading": "Structure",
+            "content": "[Noun] + すら + [Predicate]\n\nLike さえ, すら emphasizes extreme examples or minimum requirements:\n\n彼女は挨拶すらしなかった。 Kanojo wa aisatsu sura shinakatta. \"She didn't even greet me.\" その事実すら知らなかった。 Sono jijitsu sura shiranakatta. \"I didn't even know that fact.\" 名前すら思い出せない。 Namae sura omoidasenai. \"I can't even recall the name.\""
+          }
+        ]
+      },
+      {
+        "level": 2,
+        "heading": "Common Contexts",
+        "content": "",
+        "children": [
+          {
+            "level": 3,
+            "heading": "In Written Literature",
+            "content": "彼は一言すら発しなかった。 Kare wa hitokoto sura hasshinakatta. \"He didn't even utter a single word.\" 星の光すら見えない暗闇だった。 Hoshi no hikari sura mienai kurayami datta. \"It was darkness where even starlight couldn't be seen.\" 希望すら失われた。 Kibou sura ushinawareta. \"Even hope was lost.\""
+          },
+          {
+            "level": 3,
+            "heading": "In News Reports",
+            "content": "基本的人権すら守られていない。 Kihonteki jinken sura mamorarete inai. \"Even basic human rights are not being protected.\" 専門家すら予測できなかった。 Senmonka sura yosoku dekinakatta. \"Even experts couldn't predict it.\""
+          },
+          {
+            "level": 3,
+            "heading": "In Formal Speeches",
+            "content": "我々は平和すら失いかけている。 Wareware wa heiwa sura ushinikakete iru. \"We are on the verge of losing even peace.\" この問題は政府すら解決できない。 Kono mondai wa seifu sura kaiketsu dekinai. \"Even the government cannot solve this problem.\""
+          }
+        ]
+      },
+      {
+        "level": 2,
+        "heading": "Emphasizing Inability",
+        "content": "",
+        "children": [
+          {
+            "level": 3,
+            "heading": "Expressing Cannot Even...",
+            "content": "動くことすらできない。 Ugoku koto sura dekinai. \"I cannot even move.\" 想像することすら困難だ。 Souzou suru koto sura konnan da. \"It's difficult to even imagine.\" 理解することすら不可能だ。 Rikai suru koto sura fukanou da. \"It's impossible to even understand.\""
+          },
+          {
+            "level": 3,
+            "heading": "Emphasizing Extreme Lack",
+            "content": "食べ物すらない。 Tabemono sura nai. \"There isn't even food.\" 時間すら惜しい。 Jikan sura oshii. \"Even time is precious.\" / \"Can't spare even time.\" 一瞬すら油断できない。 Isshun sura yudan dekinai. \"Can't let guard down even for a moment.\""
+          }
+        ]
+      },
+      {
+        "level": 2,
+        "heading": "Literary Expressions",
+        "content": "",
+        "children": [
+          {
+            "level": 3,
+            "heading": "Poetic Usage",
+            "content": "夢すら見ることができない。 Yume sura miru koto ga dekinai. \"I cannot even dream.\" 月の光すら届かぬ場所。 Tsuki no hikari sura todokanu basho. \"A place where even moonlight doesn't reach.\" 涙すら枯れてしまった。 Namida sura karete shimatta. \"Even tears have dried up.\""
+          },
+          {
+            "level": 3,
+            "heading": "Classical Literature",
+            "content": "すら appears frequently in classical Japanese:\n\n風すら止んだ。 Kaze sura yanda. \"Even the wind ceased.\" 鳥の声すら聞こえない。 Tori no koe sura kikoenai. \"Not even birdsong can be heard.\""
+          }
+        ]
+      },
+      {
+        "level": 2,
+        "heading": "Formal Negative Emphasis",
+        "content": "",
+        "children": [
+          {
+            "level": 3,
+            "heading": "Strong Denial",
+            "content": "そのような考えすら持たない。 Sono you na kangae sura motanai. \"I don't even have such thoughts.\" 疑問すら抱かない。 Gimon sura idakanai. \"I don't even harbor doubts.\" 興味すら示さない。 Kyoumi sura shimesanai. \"He doesn't even show interest.\""
+          },
+          {
+            "level": 3,
+            "heading": "Criticizing Inadequacy",
+            "content": "最低限の義務すら果たしていない。 Saiteigen no gimu sura hatashite inai. \"Not even fulfilling minimum obligations.\" 常識すら持ち合わせていない。 Joushiki sura mochiawasete inai. \"Doesn't even possess common sense.\""
+          }
+        ]
+      },
+      {
+        "level": 2,
+        "heading": "Comparison: すら vs さえ",
+        "content": "",
+        "children": [
+          {
+            "level": 3,
+            "heading": "Formality Level",
+            "content": "さえ - Neutral/Casual:\n\n子供さえ分かる。 Kodomo sae wakaru. \"Even a child understands.\" [Suitable for everyday conversation]\n\nすら - Formal/Literary:\n\n子供すら分かる。 Kodomo sura wakaru. \"Even a child understands.\" [Formal writing, sounds literary]"
+          },
+          {
+            "level": 3,
+            "heading": "Usage Context",
+            "content": "| Context | さえ | すら | | ------------------ | ---- | ---- | | Daily conversation | ✓ | ✗ | | Casual writing | ✓ | △ | | Formal writing | ✓ | ✓ | | Literature | △ | ✓ | | News reports | ✓ | ✓ | | Academic papers | ✓ | ✓ | | Speeches | ✓ | ✓ |"
+          },
+          {
+            "level": 3,
+            "heading": "Emotional Tone",
+            "content": "さえ:\n\nMore direct Can be dramatic but accessible Everyday emphasis\n\nすら:\n\nMore solemn Heightened literary effect Creates distance/formality\n\n彼は挨拶さえしない。 [Direct, conversational complaint] 彼は挨拶すらしない。 [Formal, emphasizes grave impropriety]"
+          }
+        ]
+      },
+      {
+        "level": 2,
+        "heading": "In Different Sentence Types",
+        "content": "",
+        "children": [
+          {
+            "level": 3,
+            "heading": "With Verbs (Formal Statements)",
+            "content": "動詞+ことすら 理解することすら難しい。 Rikai suru koto sura muzukashii. \"Even understanding is difficult.\" 信じることすらできない。 Shinjiru koto sura dekinai. \"I cannot even believe it.\""
+          },
+          {
+            "level": 3,
+            "heading": "With Nouns (Formal Emphasis)",
+            "content": "真実すら明らかにされていない。 Shinjitsu sura akiraka ni sarete inai. \"Even the truth hasn't been revealed.\" 名前すら知られていない。 Namae sura shirarete inai. \"Even the name isn't known.\""
+          },
+          {
+            "level": 3,
+            "heading": "With Adjectives",
+            "content": "簡単なことすらできない。 Kantan na koto sura dekinai. \"Cannot even do simple things.\" 小さな希望すら持てない。 Chiisa na kibou sura motenai. \"Cannot even hold small hope.\""
+          }
+        ]
+      },
+      {
+        "level": 2,
+        "heading": "Historical and Classical Context",
+        "content": "",
+        "children": [
+          {
+            "level": 3,
+            "heading": "In Classical Japanese",
+            "content": "すら has deep roots in classical Japanese (古文 kobun):\n\n花すら散りぬ。 Hana sura chirinu. \"Even the flowers have scattered.\" [Classical] 月すら見えず。 Tsuki sura miezu. \"Even the moon cannot be seen.\" [Classical]"
+          },
+          {
+            "level": 3,
+            "heading": "In Modern Formal Writing",
+            "content": "While retaining classical elegance, すら is still used in modern formal contexts:\n\n彼の功績は歴史に名前すら刻まれていない。 Kare no kouseki wa rekishi ni namae sura kizamarete inai. \"His achievements - even his name isn't etched in history.\""
+          }
+        ]
+      },
+      {
+        "level": 2,
+        "heading": "Particle Combinations",
+        "content": "",
+        "children": [
+          {
+            "level": 3,
+            "heading": "を + すら",
+            "content": "それをすら忘れた。 Sore wo sura wasureta. \"I forgot even that.\" 基本的なルールをすら守らない。 Kihonteki na ru-ru wo sura mamoranai. \"Doesn't follow even basic rules.\""
+          },
+          {
+            "level": 3,
+            "heading": "に + すら",
+            "content": "彼にすら言えない。 Kare ni sura ienai. \"I can't tell even him.\" 専門家にすら分からない。 Senmonka ni sura wakaranai. \"Even experts don't understand.\""
+          },
+          {
+            "level": 3,
+            "heading": "が + すら",
+            "content": "彼がすら知らないなら、誰も知らない。 Kare ga sura shiranakereba, dare mo shiranai. \"If even he doesn't know, nobody knows.\""
+          }
+        ]
+      },
+      {
+        "level": 2,
+        "heading": "When NOT to Use すら",
+        "content": "",
+        "children": [
+          {
+            "level": 3,
+            "heading": "Avoid in Casual Conversation",
+            "content": "❌ In daily chat: 昨日すら忙しかった ✓ Better: 昨日さえ忙しかった\n\nすら sounds overly formal in casual speech."
+          },
+          {
+            "level": 3,
+            "heading": "Avoid with Mundane Topics",
+            "content": "❌ このラーメンすらおいしい (too formal for casual food) ✓ このラーメンさえおいしい\n\nReserve すら for serious or literary contexts."
+          },
+          {
+            "level": 3,
+            "heading": "Avoid in Friendly Messages",
+            "content": "❌ Text to friend: 時間すらないよ ✓ Better: 時間さえないよ\n\nUse さえ for everyday communication."
+          }
+        ]
+      },
+      {
+        "level": 2,
+        "heading": "Formal Patterns with すら",
+        "content": "",
+        "children": [
+          {
+            "level": 3,
+            "heading": "すら〜ない (Formal Negation)",
+            "content": "彼は謝罪すらしなかった。 Kare wa shazai sura shinakatta. \"He didn't even apologize.\" 政府は対策すら発表していない。 Seifu wa taisaku sura happyou shite inai. \"The government hasn't even announced countermeasures.\""
+          },
+          {
+            "level": 3,
+            "heading": "すら〜できない (Cannot Even)",
+            "content": "現状を把握することすらできない。 Genjou wo haaku suru koto sura dekinai. \"Cannot even grasp the current situation.\" 基本的な質問に答えることすらできない。 Kihonteki na shitsumon ni kotaeru koto sura dekinai. \"Cannot even answer basic questions.\""
+          },
+          {
+            "level": 3,
+            "heading": "すら〜ず (Classical/Formal Without Even)",
+            "content": "彼は返事すらせず立ち去った。 Kare wa henji sura sezu tachisatta. \"He left without even replying.\" 挨拶すらせずに帰った。 Aisatsu sura sezu ni kaetta. \"Returned without even greeting.\""
+          }
+        ]
+      },
+      {
+        "level": 2,
+        "heading": "In Academic and Professional Writing",
+        "content": "",
+        "children": [
+          {
+            "level": 3,
+            "heading": "Academic Papers",
+            "content": "この理論は基本的な前提すら証明されていない。 Kono riron wa kihonteki na zentei sura shoumei sarete inai. \"This theory - even its basic premises haven't been proven.\" 先行研究では言及すらされていなかった。 Senkou kenkyuu de wa genkyuu sura sarete inakatta. \"It wasn't even mentioned in previous research.\""
+          },
+          {
+            "level": 3,
+            "heading": "Business Reports",
+            "content": "最低限の基準すら満たしていない。 Saiteigen no kijun sura mitashite inai. \"Not meeting even minimum standards.\" 予算案は議論すらされていない。 Yosan'an wa giron sura sarete inai. \"The budget proposal hasn't even been discussed.\""
+          }
+        ]
+      },
+      {
+        "level": 2,
+        "heading": "Expressing Strong Criticism",
+        "content": "",
+        "children": [
+          {
+            "level": 3,
+            "heading": "Formal Complaints",
+            "content": "約束すら守れない。 Yakusoku sura mamorenai. \"Cannot even keep promises.\" 基本的なマナーすら知らない。 Kihonteki na mana- sura shiranai. \"Doesn't even know basic manners.\" 責任すら取ろうとしない。 Sekinin sura torou to shinai. \"Doesn't even try to take responsibility.\""
+          }
+        ]
+      },
+      {
+        "level": 2,
+        "heading": "Set Expressions with すら",
+        "content": "",
+        "children": [
+          {
+            "level": 3,
+            "heading": "Common Formal Phrases",
+            "content": "想像することすら恐ろしい Souzou suru koto sura osoroshii \"Even imagining it is frightening\" 考えることすら辛い Kangaeru koto sura tsurai \"Even thinking about it is painful\" 名前すら覚えていない Namae sura oboete inai \"Don't even remember the name\""
+          }
+        ]
+      },
+      {
+        "level": 2,
+        "heading": "Regional Considerations",
+        "content": "While すら is formal everywhere, regional usage differs:\n\nTokyo/Standard: Used in formal writing and speeches Kansai: Less common in daily speech, but appears in formal contexts Rural areas: May sound overly literary in local speech\n\nUniversal: In news, literature, and formal documents across all regions"
+      },
+      {
+        "level": 2,
+        "heading": "Common Mistakes",
+        "content": "",
+        "children": [
+          {
+            "level": 3,
+            "heading": "Mistake 1: Using すら in Casual Speech",
+            "content": "❌ To friend: 今日すら忙しいんだ ✓ To friend: 今日さえ忙しいんだ\n\nUse さえ in casual conversation."
+          },
+          {
+            "level": 3,
+            "heading": "Mistake 2: Mixing Formality Levels",
+            "content": "❌ 彼はさ、挨拶すらしないんだよね ✓ 彼は挨拶さえしないんだよね (casual) ✓ 彼は挨拶すらしない (formal, no casual particles)\n\nMatch formality throughout the sentence."
+          },
+          {
+            "level": 3,
+            "heading": "Mistake 3: Overusing in Modern Writing",
+            "content": "❌ Every sentence: 今日すら...昨日すら...明日すら... ✓ Occasional use for emphasis\n\nEven in formal writing, don't overuse."
+          },
+          {
+            "level": 3,
+            "heading": "Mistake 4: Wrong Context",
+            "content": "❌ Comic book dialogue: やるぜ！これすら！ ✓ Comic book: やるぜ！これさえ！\n\nManga/comics typically use さえ, not すら."
+          }
+        ]
+      },
+      {
+        "level": 2,
+        "heading": "When to Choose すら over さえ",
+        "content": "Use すら when:\n\nWriting formal documents Academic or professional writing News reports and journalism Literary works Formal speeches Want to create solemn/serious tone Discussing grave matters\n\nUse さえ when:\n\nDaily conversation Casual writing (blogs, messages) Modern fiction dialogue Friendly contexts General emphasis Default choice for learners"
+      },
+      {
+        "level": 2,
+        "heading": "Summary",
+        "content": "Key Points:\n\nすら is formal/literary equivalent of さえ Means \"even\" with heightened formality Used in: formal writing, literature, news, academic papers Avoid in: casual conversation, daily speech Creates solemn, serious tone Common in classical Japanese Structure same as さえ: [Noun]すら + [Predicate] Choose さえ for everyday use, すら for formal contexts Don't overuse even in formal writing",
+        "children": [
+          {
+            "level": 3,
+            "heading": "Company",
+            "content": "About Pricing Blog Contact"
+          },
+          {
+            "level": 3,
+            "heading": "Legal",
+            "content": "Privacy Policy Terms of Service Cookie Policy"
+          }
+        ]
+      }
+    ],
+    "metadata": {
+      "title": "すら (Even - formal)"
+    }
+  },
+  "metadata": {
+    "extracted_at": "2026-01-01T22:19:34.875235300Z",
+    "duration_ms": 3,
+    "extractors_matched": [
+      "metadata",
+      "examples",
+      "sections"
+    ],
+    "extractors_failed": [
+      "vocab_tables",
+      "definitions",
+      "content_blocks"
+    ]
+  }
+}

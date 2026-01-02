@@ -1,0 +1,335 @@
+{
+  "config_name": "Language Learning Extractor",
+  "url": "https://practice-japanese.com/docs/te-ita/",
+  "data": {
+    "sections": [
+      {
+        "level": 2,
+        "heading": "What is 〜ていた?",
+        "content": "〜ていた (te ita) is the past form of 〜ている, expressing actions that were in progress in the past or states that existed in the past. It means \"was doing\" or \"had been doing.\"\n\nEnglish equivalents:\n\n\"was doing\" \"was -ing\" \"had been doing\" \"used to be\" (for states)\n\n昨日テレビを見ていた。 Kinou terebi wo mite ita. \"I was watching TV yesterday.\" 彼は日本に住んでいた。 Kare wa Nihon ni sunde ita. \"He used to live in Japan.\" / \"He was living in Japan.\""
+      },
+      {
+        "level": 2,
+        "heading": "Basic Structure",
+        "content": "",
+        "children": [
+          {
+            "level": 3,
+            "heading": "Formation",
+            "content": "[Verb て-form] + いた/いました\n\n食べていた (tabete ita) - \"was eating\" 読んでいた (yonde ita) - \"was reading\" 見ていた (mite ita) - \"was watching\" していた (shite ita) - \"was doing\""
+          }
+        ]
+      },
+      {
+        "level": 2,
+        "heading": "Two Main Uses",
+        "content": "",
+        "children": [
+          {
+            "level": 3,
+            "heading": "1. Past Progressive (Was doing)",
+            "content": "Ongoing action in the past:\n\n昨日の3時に勉強していた。 Kinou no sanji ni benkyou shite ita. \"I was studying at 3 o'clock yesterday.\" 電話が鳴った時、寝ていた。 Denwa ga natta toki, nete ita. \"I was sleeping when the phone rang.\" 彼が来た時、私は料理をしていた。 Kare ga kita toki, watashi wa ryouri wo shite ita. \"When he came, I was cooking.\""
+          },
+          {
+            "level": 3,
+            "heading": "2. Past State (Used to be/was)",
+            "content": "State that existed in the past:\n\n昔は東京に住んでいた。 Mukashi wa Toukyou ni sunde ita. \"I used to live in Tokyo.\" / \"I was living in Tokyo before.\" 彼女は学生だった時、アルバイトをしていた。 Kanojo wa gakusei datta toki, arubaito wo shite ita. \"When she was a student, she was working part-time.\" その時は知らなかった。 Sono toki wa shiranakatta. \"I didn't know at that time.\""
+          }
+        ]
+      },
+      {
+        "level": 2,
+        "heading": "Past Continuous Actions",
+        "content": "",
+        "children": [
+          {
+            "level": 3,
+            "heading": "Actions in progress",
+            "content": "朝8時に朝ご飯を食べていた。 Asa hachiji ni asagohan wo tabete ita. \"I was eating breakfast at 8 AM.\" 昨日の夜、映画を見ていた。 Kinou no yoru, eiga wo mite ita. \"I was watching a movie last night.\" その時何をしていましたか。 Sono toki nani wo shite imashita ka. \"What were you doing at that time?\""
+          }
+        ]
+      },
+      {
+        "level": 2,
+        "heading": "Past States and Conditions",
+        "content": "",
+        "children": [
+          {
+            "level": 3,
+            "heading": "Describing past situations",
+            "content": "若い頃は痩せていた。 Wakai koro wa yasete ita. \"I was thin when I was young.\" その時は疲れていた。 Sono toki wa tsukarete ita. \"I was tired at that time.\" 昔はもっと元気だった。 Mukashi wa motto genki datta. \"I used to be more energetic.\""
+          }
+        ]
+      },
+      {
+        "level": 2,
+        "heading": "Verbs of State",
+        "content": "",
+        "children": [
+          {
+            "level": 3,
+            "heading": "With state verbs",
+            "content": "知っていた (shitte ita) - \"knew\" / \"was aware\" 持っていた (motte ita) - \"had\" / \"was holding\" 住んでいた (sunde ita) - \"was living\" / \"lived\" 着ていた (kite ita) - \"was wearing\"\n\n彼の名前を知っていた。 Kare no namae wo shitte ita. \"I knew his name.\" 財布を持っていた。 Saifu wo motte ita. \"I had my wallet.\" / \"I was carrying my wallet.\" 青いシャツを着ていた。 Aoi shatsu wo kite ita. \"I was wearing a blue shirt.\""
+          }
+        ]
+      },
+      {
+        "level": 2,
+        "heading": "Interrupted Actions",
+        "content": "",
+        "children": [
+          {
+            "level": 3,
+            "heading": "When one action interrupts another",
+            "content": "Structure: [Action A ていた] + 時 + [Action B た]\n\n本を読んでいた時、電話が鳴った。 Hon wo yonde ita toki, denwa ga natta. \"When I was reading a book, the phone rang.\" 歩いていた時、友達に会った。 Aruite ita toki, tomodachi ni atta. \"While I was walking, I met a friend.\" 寝ていた時、地震があった。 Nete ita toki, jishin ga atta. \"When I was sleeping, there was an earthquake.\""
+          }
+        ]
+      },
+      {
+        "level": 2,
+        "heading": "Duration in the Past",
+        "content": "",
+        "children": [
+          {
+            "level": 3,
+            "heading": "How long something was happening",
+            "content": "3時間勉強していた。 Sanjikan benkyou shite ita. \"I was studying for 3 hours.\" / \"I had been studying for 3 hours.\" ずっと待っていた。 Zutto matte ita. \"I had been waiting the whole time.\" 長い間日本に住んでいた。 Nagai aida Nihon ni sunde ita. \"I lived in Japan for a long time.\""
+          }
+        ]
+      },
+      {
+        "level": 2,
+        "heading": "Habitual Past Actions",
+        "content": "",
+        "children": [
+          {
+            "level": 3,
+            "heading": "Regular actions in the past",
+            "content": "毎日走っていた。 Mainichi hashitte ita. \"I was running every day.\" / \"I used to run every day.\" よくこの店に来ていた。 Yoku kono mise ni kite ita. \"I used to come to this store often.\" 学生の時、毎日勉強していた。 Gakusei no toki, mainichi benkyou shite ita. \"When I was a student, I studied every day.\""
+          }
+        ]
+      },
+      {
+        "level": 2,
+        "heading": "Negative Form",
+        "content": "",
+        "children": [
+          {
+            "level": 3,
+            "heading": "Wasn't doing",
+            "content": "[Verb て-form] + いなかった/いませんでした\n\n勉強していなかった。 Benkyou shite inakatta. \"I wasn't studying.\" そんなことを考えていなかった。 Sonna koto wo kangaete inakatta. \"I wasn't thinking about such things.\" 知らなかった。 Shiranakatta. \"I didn't know.\""
+          }
+        ]
+      },
+      {
+        "level": 2,
+        "heading": "Questions",
+        "content": "",
+        "children": [
+          {
+            "level": 3,
+            "heading": "Asking about past actions",
+            "content": "何をしていましたか。 Nani wo shite imashita ka. \"What were you doing?\" どこに住んでいましたか。 Doko ni sunde imashita ka. \"Where were you living?\" / \"Where did you use to live?\" その時何を考えていたんですか。 Sono toki nani wo kangaete tan desu ka. \"What were you thinking at that time?\""
+          }
+        ]
+      },
+      {
+        "level": 2,
+        "heading": "Casual Forms",
+        "content": "",
+        "children": [
+          {
+            "level": 3,
+            "heading": "Informal speech",
+            "content": "Formal: 見ていました Casual: 見ていた / 見てた Very casual: 見てた Formal: していませんでした Casual: していなかった / してなかった Very casual: してなかった"
+          }
+        ]
+      },
+      {
+        "level": 2,
+        "heading": "Contracted Forms",
+        "content": "",
+        "children": [
+          {
+            "level": 3,
+            "heading": "Casual contractions",
+            "content": "見ている → 見てる → 見てた している → してる → してた 食べている → 食べてる → 食べてた\n\n昨日何してた？ Kinou nani shiteta? \"What were you doing yesterday?\" テレビ見てた。 Terebi miteta. \"I was watching TV.\""
+          }
+        ]
+      },
+      {
+        "level": 2,
+        "heading": "Describing Past Appearance",
+        "content": "",
+        "children": [
+          {
+            "level": 3,
+            "heading": "How things/people looked",
+            "content": "きれいな服を着ていた。 Kirei na fuku wo kite ita. \"She was wearing beautiful clothes.\" 長い髪をしていた。 Nagai kami wo shite ita. \"She had long hair.\" 眼鏡をかけていた。 Megane wo kakete ita. \"He was wearing glasses.\""
+          }
+        ]
+      },
+      {
+        "level": 2,
+        "heading": "With Time Expressions",
+        "content": "",
+        "children": [
+          {
+            "level": 3,
+            "heading": "Specific times in past",
+            "content": "昨日の夜9時に何をしていましたか。 Kinou no yoru kuji ni nani wo shite imashita ka. \"What were you doing at 9 PM last night?\" その時は会社で働いていた。 Sono toki wa kaisha de hataraite ita. \"At that time, I was working at a company.\" 去年の今頃、日本にいた。 Kyonen no imagoro, Nihon ni ita. \"Around this time last year, I was in Japan.\""
+          }
+        ]
+      },
+      {
+        "level": 2,
+        "heading": "Comparing Similar Patterns",
+        "content": "",
+        "children": [
+          {
+            "level": 3,
+            "heading": "〜ていた vs 〜た",
+            "content": "〜ていた - Was doing (ongoing):\n\n昨日勉強していた。 Kinou benkyou shite ita. \"I was studying yesterday.\" [Ongoing action or state]\n\n〜た - Did (completed):\n\n昨日勉強した。 Kinou benkyou shita. \"I studied yesterday.\" [Completed action]"
+          },
+          {
+            "level": 3,
+            "heading": "〜ていた vs 〜たものだ",
+            "content": "〜ていた - Was doing/Used to be:\n\n毎日走っていた。 Mainichi hashitte ita. \"I was running every day.\" / \"I used to run every day.\"\n\n〜たものだ - Used to (nostalgic):\n\n毎日走ったものだ。 Mainichi hashitta mono da. \"I used to run every day.\" [More nostalgic, reflective]"
+          }
+        ]
+      },
+      {
+        "level": 2,
+        "heading": "Common Mistakes",
+        "content": "",
+        "children": [
+          {
+            "level": 3,
+            "heading": "Mistake 1: Confusing with Simple Past",
+            "content": "Context determines which to use:\n\nOngoing/state: 住んでいた (\"was living\") Completed action: 行った (\"went\")"
+          },
+          {
+            "level": 3,
+            "heading": "Mistake 2: Wrong て-form",
+            "content": "❌ 食べたいた (wrong combination) ✓ 食べていた (correct: tabete + ita)\n\nUse proper て-form before いた."
+          },
+          {
+            "level": 3,
+            "heading": "Mistake 3: Using for Completed Actions",
+            "content": "❌ 映画を見ていた (when you mean you finished watching) ✓ 映画を見た (for completed action) ✓ 映画を見ていた (for \"was watching\" - ongoing)\n\nUse 〜た for completed actions, 〜ていた for ongoing."
+          },
+          {
+            "level": 3,
+            "heading": "Mistake 4: Overusing Contractions in Formal Settings",
+            "content": "❌ Business: 会議に出てた ✓ Business: 会議に出ていました\n\nMatch formality level."
+          }
+        ]
+      },
+      {
+        "level": 2,
+        "heading": "Summary",
+        "content": "Key Points:\n\n〜ていた is past form of 〜ている Two main uses: past progressive and past states Structure: Verb て-form + いた/いました Means \"was doing\" or \"used to be\" Used for: ongoing past actions, past states, habitual past actions Negative: 〜ていなかった Casual: 〜てた (contraction) Different from simple past 〜た Common with: 時 (when), その時 (at that time) Essential for describing past situations and ongoing past actions",
+        "children": [
+          {
+            "level": 3,
+            "heading": "Company",
+            "content": "About Pricing Blog Contact"
+          },
+          {
+            "level": 3,
+            "heading": "Legal",
+            "content": "Privacy Policy Terms of Service Cookie Policy"
+          }
+        ]
+      }
+    ],
+    "metadata": {
+      "title": "〜ていた (Was doing)"
+    },
+    "examples": [
+      {
+        "sentence": "\"was doing\""
+      },
+      {
+        "sentence": "\"was -ing\""
+      },
+      {
+        "sentence": "\"had been doing\""
+      },
+      {
+        "sentence": "\"used to be\" (for states)"
+      },
+      {
+        "sentence": "Ongoing/state: 住んでいた (\"was living\")"
+      },
+      {
+        "sentence": "Completed action: 行った (\"went\")"
+      },
+      {
+        "sentence": "〜ていた is past form of 〜ている"
+      },
+      {
+        "sentence": "Two main uses: past progressive and past states"
+      },
+      {
+        "sentence": "Structure: Verb て-form + いた/いました"
+      },
+      {
+        "sentence": "Means \"was doing\" or \"used to be\""
+      },
+      {
+        "sentence": "Used for: ongoing past actions, past states, habitual past actions"
+      },
+      {
+        "sentence": "Negative: 〜ていなかった"
+      },
+      {
+        "sentence": "Casual: 〜てた (contraction)"
+      },
+      {
+        "sentence": "Different from simple past 〜た"
+      },
+      {
+        "sentence": "Common with: 時 (when), その時 (at that time)"
+      },
+      {
+        "sentence": "Essential for describing past situations and ongoing past actions"
+      },
+      {
+        "sentence": "About"
+      },
+      {
+        "sentence": "Pricing"
+      },
+      {
+        "sentence": "Blog"
+      },
+      {
+        "sentence": "Contact"
+      },
+      {
+        "sentence": "Privacy Policy"
+      },
+      {
+        "sentence": "Terms of Service"
+      },
+      {
+        "sentence": "Cookie Policy"
+      }
+    ]
+  },
+  "metadata": {
+    "extracted_at": "2026-01-01T22:19:35.802653400Z",
+    "duration_ms": 4,
+    "extractors_matched": [
+      "metadata",
+      "examples",
+      "sections"
+    ],
+    "extractors_failed": [
+      "vocab_tables",
+      "definitions",
+      "content_blocks"
+    ]
+  }
+}

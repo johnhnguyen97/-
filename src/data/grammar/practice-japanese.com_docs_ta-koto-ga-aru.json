@@ -1,0 +1,349 @@
+{
+  "config_name": "Language Learning Extractor",
+  "url": "https://practice-japanese.com/docs/ta-koto-ga-aru/",
+  "data": {
+    "examples": [
+      {
+        "sentence": "\"have done\""
+      },
+      {
+        "sentence": "\"have experienced\""
+      },
+      {
+        "sentence": "\"have been to\""
+      },
+      {
+        "sentence": "\"have ever...\""
+      },
+      {
+        "sentence": "〜たことがある expresses past experience"
+      },
+      {
+        "sentence": "Structure: Verb た-form + ことがある"
+      },
+      {
+        "sentence": "Means \"have done,\" \"have experienced\""
+      },
+      {
+        "sentence": "Emphasizes existence of experience, not timing"
+      },
+      {
+        "sentence": "Questions: 〜たことがありますか"
+      },
+      {
+        "sentence": "Negative: 〜たことがない/ありません"
+      },
+      {
+        "sentence": "Can include frequency: 一度, 二回, 何度も"
+      },
+      {
+        "sentence": "Different from simple past (〜た)"
+      },
+      {
+        "sentence": "Essential for talking about life experiences"
+      },
+      {
+        "sentence": "Works with all volitional verbs"
+      },
+      {
+        "sentence": "About"
+      },
+      {
+        "sentence": "Pricing"
+      },
+      {
+        "sentence": "Blog"
+      },
+      {
+        "sentence": "Contact"
+      },
+      {
+        "sentence": "Privacy Policy"
+      },
+      {
+        "sentence": "Terms of Service"
+      },
+      {
+        "sentence": "Cookie Policy"
+      }
+    ],
+    "sections": [
+      {
+        "level": 2,
+        "heading": "What is 〜たことがある?",
+        "content": "〜たことがある (ta koto ga aru) expresses that you have had the experience of doing something at least once in your life. It's equivalent to English \"have done\" or \"have ever done.\"\n\nEnglish equivalents:\n\n\"have done\" \"have experienced\" \"have been to\" \"have ever...\"\n\nKey characteristic: Emphasizes the existence of past experience, not when or how many times.\n\n日本に行ったことがあります。 Nihon ni itta koto ga arimasu. \"I have been to Japan.\" / \"I have gone to Japan (before).\" 寿司を食べたことがある。 Sushi wo tabeta koto ga aru. \"I have eaten sushi (before).\""
+      },
+      {
+        "level": 2,
+        "heading": "Basic Structure",
+        "content": "",
+        "children": [
+          {
+            "level": 3,
+            "heading": "Pattern",
+            "content": "[Verb た-form] + ことがある/あります\n\n食べたことがある (tabeta koto ga aru) - \"have eaten\" 見たことがある (mita koto ga aru) - \"have seen\" 行ったことがある (itta koto ga aru) - \"have been to\" したことがある (shita koto ga aru) - \"have done\""
+          }
+        ]
+      },
+      {
+        "level": 2,
+        "heading": "Common Usage",
+        "content": "",
+        "children": [
+          {
+            "level": 3,
+            "heading": "Life experiences",
+            "content": "富士山に登ったことがあります。 Fujisan ni nobotta koto ga arimasu. \"I have climbed Mt. Fuji.\" 東京に住んだことがある。 Toukyou ni sunda koto ga aru. \"I have lived in Tokyo.\" マラソンを走ったことがあります。 Marason wo hashitta koto ga arimasu. \"I have run a marathon.\" スカイダイビングをしたことがある。 Sukaidaibingu wo shita koto ga aru. \"I have been skydiving.\""
+          },
+          {
+            "level": 3,
+            "heading": "Food and drink",
+            "content": "納豆を食べたことがありますか。 Nattou wo tabeta koto ga arimasu ka. \"Have you ever eaten natto?\" 日本酒を飲んだことがある。 Nihonshu wo nonda koto ga aru. \"I have drunk sake.\" この料理を作ったことがあります。 Kono ryouri wo tsukutta koto ga arimasu. \"I have made this dish.\""
+          },
+          {
+            "level": 3,
+            "heading": "Travel and places",
+            "content": "京都に行ったことがありますか。 Kyouto ni itta koto ga arimasu ka. \"Have you ever been to Kyoto?\" 海外に住んだことがある。 Kaigai ni sunda koto ga aru. \"I have lived abroad.\" この店に来たことがありますか。 Kono mise ni kita koto ga arimasu ka. \"Have you ever been to this shop?\""
+          }
+        ]
+      },
+      {
+        "level": 2,
+        "heading": "Questions About Experience",
+        "content": "",
+        "children": [
+          {
+            "level": 3,
+            "heading": "Asking if someone has done something",
+            "content": "日本に行ったことがありますか。 Nihon ni itta koto ga arimasu ka. \"Have you ever been to Japan?\" この映画を見たことがありますか。 Kono eiga wo mita koto ga arimasu ka. \"Have you ever seen this movie?\" 彼に会ったことがありますか。 Kare ni atta koto ga arimasu ka. \"Have you ever met him?\""
+          },
+          {
+            "level": 3,
+            "heading": "Answering",
+            "content": "Yes:\n\nはい、あります。 Hai, arimasu. \"Yes, I have.\" はい、行ったことがあります。 Hai, itta koto ga arimasu. \"Yes, I have been there.\"\n\nNo:\n\nいいえ、ありません。 Iie, arimasen. \"No, I haven't.\" いいえ、行ったことがありません。 Iie, itta koto ga arimasen. \"No, I have never been there.\"\n\nSee: 〜たことがない (Never done)"
+          }
+        ]
+      },
+      {
+        "level": 2,
+        "heading": "With Frequency",
+        "content": "",
+        "children": [
+          {
+            "level": 3,
+            "heading": "Once, twice, many times",
+            "content": "一度行ったことがあります。 Ichido itta koto ga arimasu. \"I have been there once.\" 二回食べたことがある。 Nikai tabeta koto ga aru. \"I have eaten it twice.\" 何度も見たことがある。 Nando mo mita koto ga aru. \"I have seen it many times.\" 何回か会ったことがあります。 Nankai ka atta koto ga arimasu. \"I have met (him/her) several times.\""
+          }
+        ]
+      },
+      {
+        "level": 2,
+        "heading": "Different Types of Verbs",
+        "content": "",
+        "children": [
+          {
+            "level": 3,
+            "heading": "With する verbs",
+            "content": "スキーをしたことがある。 Suki- wo shita koto ga aru. \"I have been skiing.\" アルバイトをしたことがありますか。 Arubaito wo shita koto ga arimasu ka. \"Have you ever had a part-time job?\" ボランティアをしたことがある。 Borantia wo shita koto ga aru. \"I have done volunteer work.\""
+          },
+          {
+            "level": 3,
+            "heading": "With 見る (miru)",
+            "content": "オーロラを見たことがありますか。 O-rora wo mita koto ga arimasu ka. \"Have you ever seen the aurora?\" この人を見たことがある。 Kono hito wo mita koto ga aru. \"I have seen this person (before).\""
+          },
+          {
+            "level": 3,
+            "heading": "With 聞く (kiku)",
+            "content": "この歌を聞いたことがある。 Kono uta wo kiita koto ga aru. \"I have heard this song.\" その話を聞いたことがありますか。 Sono hanashi wo kiita koto ga arimasu ka. \"Have you ever heard that story?\""
+          }
+        ]
+      },
+      {
+        "level": 2,
+        "heading": "Casual Forms",
+        "content": "",
+        "children": [
+          {
+            "level": 3,
+            "heading": "Dropping です/ます",
+            "content": "Formal: 行ったことがあります Casual: 行ったことがある Formal: 食べたことがありますか Casual: 食べたことある？ Very casual: 食べたことある？\n\nIn very casual speech, が can be dropped:\n\n食べたことある？ Tabeta koto aru? \"Have you eaten it?\""
+          }
+        ]
+      },
+      {
+        "level": 2,
+        "heading": "With Specific Places",
+        "content": "",
+        "children": [
+          {
+            "level": 3,
+            "heading": "Been to locations",
+            "content": "北海道に行ったことがあります。 Hokkaidou ni itta koto ga arimasu. \"I have been to Hokkaido.\" 富士山を見たことがある。 Fujisan wo mita koto ga aru. \"I have seen Mt. Fuji.\" この公園に来たことがありますか。 Kono kouen ni kita koto ga arimasu ka. \"Have you ever been to this park?\""
+          }
+        ]
+      },
+      {
+        "level": 2,
+        "heading": "Unique or Memorable Experiences",
+        "content": "",
+        "children": [
+          {
+            "level": 3,
+            "heading": "Special events",
+            "content": "有名人に会ったことがあります。 Yuumeijin ni atta koto ga arimasu. \"I have met a celebrity.\" UFOを見たことがある。 UFO wo mita koto ga aru. \"I have seen a UFO.\" 宝くじに当たったことがありますか。 Takarakuji ni atatta koto ga arimasu ka. \"Have you ever won the lottery?\""
+          }
+        ]
+      },
+      {
+        "level": 2,
+        "heading": "Cultural Experiences",
+        "content": "",
+        "children": [
+          {
+            "level": 3,
+            "heading": "Japanese culture",
+            "content": "着物を着たことがありますか。 Kimono wo kita koto ga arimasu ka. \"Have you ever worn a kimono?\" 茶道を習ったことがある。 Sadou wo naratta koto ga aru. \"I have learned tea ceremony.\" 相撲を見たことがありますか。 Sumou wo mita koto ga arimasu ka. \"Have you ever seen sumo?\""
+          }
+        ]
+      },
+      {
+        "level": 2,
+        "heading": "Negative Experiences",
+        "content": "",
+        "children": [
+          {
+            "level": 3,
+            "heading": "Things that happened (bad experiences)",
+            "content": "事故に遭ったことがある。 Jiko ni atta koto ga aru. \"I have been in an accident.\" 財布を落としたことがあります。 Saifu wo otoshita koto ga arimasu. \"I have lost my wallet.\" 道に迷ったことがある。 Michi ni mayotta koto ga aru. \"I have gotten lost.\""
+          }
+        ]
+      },
+      {
+        "level": 2,
+        "heading": "Skills and Abilities",
+        "content": "",
+        "children": [
+          {
+            "level": 3,
+            "heading": "Things you've tried",
+            "content": "ピアノを弾いたことがありますか。 Piano wo hiita koto ga arimasu ka. \"Have you ever played the piano?\" 日本語を教えたことがある。 Nihongo wo oshieta koto ga aru. \"I have taught Japanese.\" 小説を書いたことがあります。 Shousetsu wo kaita koto ga arimasu. \"I have written a novel.\""
+          }
+        ]
+      },
+      {
+        "level": 2,
+        "heading": "With Time Expressions",
+        "content": "",
+        "children": [
+          {
+            "level": 3,
+            "heading": "When the experience occurred",
+            "content": "子供の時に行ったことがある。 Kodomo no toki ni itta koto ga aru. \"I went there when I was a child.\" / \"I have been there as a child.\" 昔住んだことがあります。 Mukashi sunda koto ga arimasu. \"I lived there in the past.\" / \"I have lived there before.\" 去年やったことがある。 Kyonen yatta koto ga aru. \"I did it last year.\" / \"I have done it last year.\"\n\nNote: While ことがある emphasizes experience, you can mention when it happened."
+          }
+        ]
+      },
+      {
+        "level": 2,
+        "heading": "Comparing Similar Patterns",
+        "content": "",
+        "children": [
+          {
+            "level": 3,
+            "heading": "〜たことがある vs 〜た",
+            "content": "〜たことがある - Experience (at some point in life):\n\n日本に行ったことがある。 Nihon ni itta koto ga aru. \"I have been to Japan.\" [Emphasis on experience existing]\n\n〜た - Simple past:\n\n日本に行った。 Nihon ni itta. \"I went to Japan.\" [Stating a past action]"
+          },
+          {
+            "level": 3,
+            "heading": "〜たことがある vs 〜ている",
+            "content": "〜たことがある - Past experience:\n\n日本に住んだことがある。 Nihon ni sunda koto ga aru. \"I have lived in Japan.\" [Past experience]\n\n〜ている - Current state:\n\n日本に住んでいる。 Nihon ni sunde iru. \"I live in Japan.\" / \"I am living in Japan.\" [Current]"
+          }
+        ]
+      },
+      {
+        "level": 2,
+        "heading": "In Conversation",
+        "content": "",
+        "children": [
+          {
+            "level": 3,
+            "heading": "Natural dialogues",
+            "content": "A: 日本料理を食べたことがありますか。 Nihon ryouri wo tabeta koto ga arimasu ka. \"Have you ever eaten Japanese food?\" B: はい、あります。寿司が好きです。 Hai, arimasu. Sushi ga suki desu. \"Yes, I have. I like sushi.\" A: どこで食べましたか。 Doko de tabemashita ka. \"Where did you eat it?\" B: 東京で食べました。 Toukyou de tabemashita. \"I ate it in Tokyo.\""
+          }
+        ]
+      },
+      {
+        "level": 2,
+        "heading": "Polite vs Casual",
+        "content": "",
+        "children": [
+          {
+            "level": 3,
+            "heading": "Formality levels",
+            "content": "Very formal: 行ったことがございます Formal: 行ったことがあります Casual: 行ったことがある Very casual: 行ったことある"
+          }
+        ]
+      },
+      {
+        "level": 2,
+        "heading": "Common Mistakes",
+        "content": "",
+        "children": [
+          {
+            "level": 3,
+            "heading": "Mistake 1: Using Present Form",
+            "content": "❌ 食べることがある (wrong tense) ✓ 食べたことがある\n\nMust use た-form, not dictionary form."
+          },
+          {
+            "level": 3,
+            "heading": "Mistake 2: Wrong Particle",
+            "content": "❌ 食べたことをある ✓ 食べたことがある\n\nUse が not を."
+          },
+          {
+            "level": 3,
+            "heading": "Mistake 3: Confusing with Habitual",
+            "content": "❌ 毎日食べたことがある (contradictory - daily habit vs past experience) ✓ 毎日食べる (present habit) ✓ 一度食べたことがある (once in the past)\n\nたことがある is for past experiences, not current habits."
+          },
+          {
+            "level": 3,
+            "heading": "Mistake 4: Using with Non-Volitional Events",
+            "content": "Be careful with involuntary events:\n\nAwkward: 雨に降られたことがある Better: 雨に降られた (simple past) Natural: 台風を経験したことがある (\"I have experienced a typhoon\")"
+          }
+        ]
+      },
+      {
+        "level": 2,
+        "heading": "Summary",
+        "content": "Key Points:\n\n〜たことがある expresses past experience Structure: Verb た-form + ことがある Means \"have done,\" \"have experienced\" Emphasizes existence of experience, not timing Questions: 〜たことがありますか Negative: 〜たことがない/ありません Can include frequency: 一度, 二回, 何度も Different from simple past (〜た) Essential for talking about life experiences Works with all volitional verbs",
+        "children": [
+          {
+            "level": 3,
+            "heading": "Company",
+            "content": "About Pricing Blog Contact"
+          },
+          {
+            "level": 3,
+            "heading": "Legal",
+            "content": "Privacy Policy Terms of Service Cookie Policy"
+          }
+        ]
+      }
+    ],
+    "metadata": {
+      "title": "〜たことがある (Have done)"
+    }
+  },
+  "metadata": {
+    "extracted_at": "2026-01-01T22:19:35.045760400Z",
+    "duration_ms": 3,
+    "extractors_matched": [
+      "metadata",
+      "examples",
+      "sections"
+    ],
+    "extractors_failed": [
+      "vocab_tables",
+      "definitions",
+      "content_blocks"
+    ]
+  }
+}

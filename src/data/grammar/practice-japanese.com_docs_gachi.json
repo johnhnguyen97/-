@@ -1,0 +1,298 @@
+{
+  "config_name": "Language Learning Extractor",
+  "url": "https://practice-japanese.com/docs/gachi/",
+  "data": {
+    "examples": [
+      {
+        "sentence": "がち expresses negative tendencies or habits"
+      },
+      {
+        "sentence": "Formation: [Verb ます-stem / Noun] + がち"
+      },
+      {
+        "sentence": "Usually has negative connotations"
+      },
+      {
+        "sentence": "Common with: 休む, 遅れる, 病気, 忘れる, 留守"
+      },
+      {
+        "sentence": "Functions as な-adjective"
+      },
+      {
+        "sentence": "For health: 病気がち \"sickly\""
+      },
+      {
+        "sentence": "For attendance: 休みがち \"often absent\""
+      },
+      {
+        "sentence": "For weather: 曇りがち \"often cloudy\""
+      },
+      {
+        "sentence": "Different from やすい (neutral tendency)"
+      },
+      {
+        "sentence": "Essential for describing negative patterns"
+      },
+      {
+        "sentence": "About"
+      },
+      {
+        "sentence": "Pricing"
+      },
+      {
+        "sentence": "Blog"
+      },
+      {
+        "sentence": "Contact"
+      },
+      {
+        "sentence": "Privacy Policy"
+      },
+      {
+        "sentence": "Terms of Service"
+      },
+      {
+        "sentence": "Cookie Policy"
+      }
+    ],
+    "metadata": {
+      "title": "〜がち (Tend to)"
+    },
+    "sections": [
+      {
+        "level": 2,
+        "heading": "What is 〜がち?",
+        "content": "〜がち (gachi) expresses a tendency or habit, usually with negative connotations. It indicates that something undesirable happens often or easily.\n\nEnglish equivalent: \"tend to,\" \"be prone to,\" \"often\"\n\nStructure: [Verb ます-stem / Noun] + がち\n\n休む (yasumu - rest/absent) → 休み + がち = 休みがち \"often absent\" 病気 (byouki - illness) + がち = 病気がち \"sickly\" / \"often ill\" 遅れる (okureru - be late) → 遅れ + がち = 遅れがち \"tend to be late\""
+      },
+      {
+        "level": 2,
+        "heading": "Basic Formation",
+        "content": "",
+        "children": [
+          {
+            "level": 3,
+            "heading": "With verb stems",
+            "content": "[Verb ます-stem] + がち\n\n休みがち (yasumigachi) - \"often absent\" 遅れがち (okuregachi) - \"tend to be late\" 忘れがち (wasuregachi) - \"tend to forget\" 閉じこもりがち (tojikomorigachi) - \"tend to shut oneself in\""
+          },
+          {
+            "level": 3,
+            "heading": "With nouns",
+            "content": "[Noun] + がち\n\n病気がち (byoukigachi) - \"sickly\" 留守がち (rusugachi) - \"often away from home\" 曇りがち (kumoригachi) - \"often cloudy\" 雨がち (amegachi) - \"often rainy\""
+          }
+        ]
+      },
+      {
+        "level": 2,
+        "heading": "Negative Tendencies",
+        "content": "",
+        "children": [
+          {
+            "level": 3,
+            "heading": "Undesirable habits",
+            "content": "最近休みがちだ。 Saikin yasumigachi da. \"I've been absent often lately.\" 遅刻しがちな人。 Chikoku shigachi na hito. \"A person who tends to be late.\" 忘れがちになる。 Wasuregachi ni naru. \"Tend to forget more.\" 閉じこもりがちだ。 Tojikomorigachi da. \"Tend to shut myself in.\""
+          }
+        ]
+      },
+      {
+        "level": 2,
+        "heading": "Health and Illness",
+        "content": "",
+        "children": [
+          {
+            "level": 3,
+            "heading": "Physical conditions",
+            "content": "病気がち。 Byoukigachi. \"Sickly\" / \"Often ill.\" 風邪を引きがちだ。 Kaze wo hikigachi da. \"Tend to catch colds.\" 体調を崩しがち。 Taichou wo kuzushigachi. \"Tend to get sick.\" 最近疲れがちです。 Saikin tsukaregachi desu. \"I tend to get tired lately.\""
+          }
+        ]
+      },
+      {
+        "level": 2,
+        "heading": "Weather Patterns",
+        "content": "",
+        "children": [
+          {
+            "level": 3,
+            "heading": "Climate tendencies",
+            "content": "曇りがちの天気。 Kumorigachi no tenki. \"Weather that tends to be cloudy.\" この季節は雨がちだ。 Kono kisetsu wa amegachi da. \"This season tends to be rainy.\" 最近晴れがちだ。 Saikin haregachi da. \"It's been mostly sunny lately.\""
+          }
+        ]
+      },
+      {
+        "level": 2,
+        "heading": "Work and School Absences",
+        "content": "",
+        "children": [
+          {
+            "level": 3,
+            "heading": "Attendance issues",
+            "content": "休みがちな生徒。 Yasumigachi na seito. \"A student who's often absent.\" 学校を休みがちだ。 Gakkou wo yasumigachi da. \"Often absent from school.\" 仕事を休みがちになった。 Shigoto wo yasumigachi ni natta. \"Started being absent from work often.\""
+          }
+        ]
+      },
+      {
+        "level": 2,
+        "heading": "Emotional States",
+        "content": "",
+        "children": [
+          {
+            "level": 3,
+            "heading": "Psychological tendencies",
+            "content": "落ち込みがち。 Ochikomigachi. \"Tend to feel down.\" 不安になりがち。 Fuan ni narigachi. \"Tend to become anxious.\" ネガティブになりがち。 Negatibu ni narigachi. \"Tend to become negative.\" 悩みがちだ。 Nayamigachi da. \"Tend to worry.\""
+          }
+        ]
+      },
+      {
+        "level": 2,
+        "heading": "Being Away",
+        "content": "",
+        "children": [
+          {
+            "level": 3,
+            "heading": "Absence from places",
+            "content": "留守がちの家。 Rusugachi no ie. \"A house where people are often away.\" 最近家を空けがちだ。 Saikin ie wo akegachi da. \"I've been away from home often lately.\" 外出しがちだ。 Gaishutsu shigachi da. \"Tend to go out often.\""
+          }
+        ]
+      },
+      {
+        "level": 2,
+        "heading": "がち as な-adjective",
+        "content": "",
+        "children": [
+          {
+            "level": 3,
+            "heading": "Modifying nouns",
+            "content": "遅刻しがちな人 (chikoku shigachi na hito) - \"a person who tends to be late\" 休みがちな生徒 (yasumigachi na seito) - \"a student who's often absent\" 曇りがちな天気 (kumorigachi na tenki) - \"cloudy weather\" 病気がちな子供。 Byoukigachi na kodomo. \"A sickly child.\" 留守がちな家庭。 Rusugachi na katei. \"A household where people are often away.\""
+          }
+        ]
+      },
+      {
+        "level": 2,
+        "heading": "With になる",
+        "content": "",
+        "children": [
+          {
+            "level": 3,
+            "heading": "Developing a tendency",
+            "content": "最近遅刻しがちになった。 Saikin chikoku shigachi ni natta. \"I've started being late often lately.\" 病気がちになってきた。 Byoukigachi ni natte kita. \"I've become sickly.\" 休みがちになる。 Yasumigachi ni naru. \"Start being absent often.\""
+          }
+        ]
+      },
+      {
+        "level": 2,
+        "heading": "Common Expressions",
+        "content": "休みがち (yasumigachi) - \"often absent\" 遅れがち (okuregachi) - \"tend to be late\" 病気がち (byoukigachi) - \"sickly\" 忘れがち (wasuregachi) - \"tend to forget\" 留守がち (rusugachi) - \"often away\" 閉じこもりがち (tojikomorigachi) - \"tend to shut oneself in\" 曇りがち (kumorigachi) - \"often cloudy\" 落ち込みがち (ochikomigachi) - \"tend to feel down\""
+      },
+      {
+        "level": 2,
+        "heading": "Polite Forms",
+        "content": "Casual: 休みがちだ Polite: 休みがちです Past: 休みがちだった / 休みがちでした 最近休みがちです。 Saikin yasumigachi desu. \"I've been absent often lately.\" 昨日は遅れがちでした。 Kinou wa okuregachi deshita. \"Yesterday I tended to be late.\""
+      },
+      {
+        "level": 2,
+        "heading": "Expressing Concern",
+        "content": "",
+        "children": [
+          {
+            "level": 3,
+            "heading": "Negative implications",
+            "content": "最近休みがちで心配だ。 Saikin yasumigachi de shinpai da. \"I'm worried because I've been absent often lately.\" 病気がちなので気をつけて。 Byoukigachi na node ki wo tsukete. \"Be careful because you're often sick.\" 遅刻しがちだから注意しなさい。 Chikoku shigachi da kara chuui shinasai. \"Be careful because you tend to be late.\""
+          }
+        ]
+      },
+      {
+        "level": 2,
+        "heading": "Comparing がち and やすい",
+        "content": "",
+        "children": [
+          {
+            "level": 3,
+            "heading": "Tendency vs ease",
+            "content": "がち - Negative tendency/habit:\n\n忘れがち (wasuregachi) \"tend to forget\" (negative habit) 休みがち (yasumigachi) \"often absent\" (negative pattern)\n\nやすい - Easy/prone (neutral):\n\n忘れやすい (wasureyasui) \"easy to forget\" (neutral characteristic) 壊れやすい (kowareyasui) \"breaks easily\" (neutral property)\n\n| Pattern | Nuance | Example | | ------- | -------------------- | ---------- | | がち | Negative tendency | 休みがち | | やすい | Easy/prone (neutral) | 忘れやすい |\n\nSee: 〜やすい (Easy to)"
+          }
+        ]
+      },
+      {
+        "level": 2,
+        "heading": "Not for Positive Things",
+        "content": "",
+        "children": [
+          {
+            "level": 3,
+            "heading": "Usually negative",
+            "content": "がち typically describes undesirable tendencies. For positive or neutral habits, use other patterns.\n\n❌ 笑いがち (unnatural for positive) ✓ よく笑う (often laugh) ❌ 勉強しがち (unnatural for positive) ✓ よく勉強する (study often) ✓ 休みがち (negative - often absent) ✓ 病気がち (negative - sickly)"
+          }
+        ]
+      },
+      {
+        "level": 2,
+        "heading": "With の",
+        "content": "",
+        "children": [
+          {
+            "level": 3,
+            "heading": "Explanatory tone",
+            "content": "最近休みがちなんです。 Saikin yasumigachi nan desu. \"The thing is, I've been absent often lately.\" 病気がちなので。 Byoukigachi na node. \"Because I'm often sick.\""
+          }
+        ]
+      },
+      {
+        "level": 2,
+        "heading": "Common Mistakes",
+        "content": "",
+        "children": [
+          {
+            "level": 3,
+            "heading": "Mistake 1: Using wrong verb form",
+            "content": "❌ 休むがち ✓ 休みがち\n\nUse ます-stem, not dictionary form."
+          },
+          {
+            "level": 3,
+            "heading": "Mistake 2: Using for positive tendencies",
+            "content": "❌ 成功しがち (unnatural) ✓ 成功しやすい\n\nがち is for negative tendencies."
+          },
+          {
+            "level": 3,
+            "heading": "Mistake 3: Confusing with 勝ち (victory)",
+            "content": "勝ち (kachi) = \"victory\" 〜がち (gachi) = \"tend to\" (negative) Different meanings!"
+          },
+          {
+            "level": 3,
+            "heading": "Mistake 4: Using with positive nouns",
+            "content": "❌ 元気がち (unnatural) ✓ 元気 (just \"healthy/energetic\")\n\nがち needs negative context."
+          }
+        ]
+      },
+      {
+        "level": 2,
+        "heading": "Summary",
+        "content": "Key Points:\n\nがち expresses negative tendencies or habits Formation: [Verb ます-stem / Noun] + がち Usually has negative connotations Common with: 休む, 遅れる, 病気, 忘れる, 留守 Functions as な-adjective For health: 病気がち \"sickly\" For attendance: 休みがち \"often absent\" For weather: 曇りがち \"often cloudy\" Different from やすい (neutral tendency) Essential for describing negative patterns",
+        "children": [
+          {
+            "level": 3,
+            "heading": "Company",
+            "content": "About Pricing Blog Contact"
+          },
+          {
+            "level": 3,
+            "heading": "Legal",
+            "content": "Privacy Policy Terms of Service Cookie Policy"
+          }
+        ]
+      }
+    ]
+  },
+  "metadata": {
+    "extracted_at": "2026-01-01T22:19:29.368009500Z",
+    "duration_ms": 4,
+    "extractors_matched": [
+      "metadata",
+      "examples",
+      "sections"
+    ],
+    "extractors_failed": [
+      "vocab_tables",
+      "definitions",
+      "content_blocks"
+    ]
+  }
+}

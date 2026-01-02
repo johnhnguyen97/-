@@ -1,0 +1,343 @@
+{
+  "config_name": "Language Learning Extractor",
+  "url": "https://practice-japanese.com/docs/receiving-verbs/",
+  "data": {
+    "metadata": {
+      "title": "Receiving: もらう/いただく"
+    },
+    "examples": [
+      {
+        "sentence": "あげる - Focus on the giver's action"
+      },
+      {
+        "sentence": "もらう - Focus on the receiver's benefit"
+      },
+      {
+        "sentence": "Giving: あげる/やる/さしあげる - Giving to others"
+      },
+      {
+        "sentence": "Favor: くれる/くださる - Others giving to you"
+      },
+      {
+        "sentence": "Direction of Actions - Perspective in giving/receiving"
+      },
+      {
+        "sentence": "〜てもらう - Having someone do something"
+      },
+      {
+        "sentence": "Benefactive expressions - Doing favors"
+      },
+      {
+        "sentence": "Honorific language - Politeness levels"
+      },
+      {
+        "sentence": "About"
+      },
+      {
+        "sentence": "Pricing"
+      },
+      {
+        "sentence": "Blog"
+      },
+      {
+        "sentence": "Contact"
+      },
+      {
+        "sentence": "Privacy Policy"
+      },
+      {
+        "sentence": "Terms of Service"
+      },
+      {
+        "sentence": "Cookie Policy"
+      }
+    ],
+    "sections": [
+      {
+        "level": 2,
+        "heading": "Overview of Receiving Verbs",
+        "content": "Japanese has two main verbs for \"receiving,\" chosen based on the giver's social status:\n\n| Verb | Level | Used When | | -------- | ------- | ----------------------------- | | もらう | Neutral | Receiving from equals/juniors | | いただく | Humble | Receiving from superiors |\n\n友達にプレゼントをもらった \"I received a present from my friend\" 先生に本をいただきました \"I received a book from my teacher\""
+      },
+      {
+        "level": 2,
+        "heading": "もらう - Neutral Receiving",
+        "content": "",
+        "children": [
+          {
+            "level": 3,
+            "heading": "Basic Pattern",
+            "content": "Receiver + は + Giver + に/から + Object + を + もらう\n\n私は友達にプレゼントをもらった \"I received a present from my friend\" 弟は姉にゲームをもらいました \"My younger brother received a game from our older sister\" 彼女から手紙をもらった \"I received a letter from her\""
+          },
+          {
+            "level": 3,
+            "heading": "When to Use もらう",
+            "content": "1. Receiving from friends/equals\n\n友達にCDをもらった \"I received a CD from my friend\"\n\n2. Receiving from juniors/younger people\n\n後輩にお土産をもらった \"I received a souvenir from my junior\"\n\n3. Receiving from family (equals)\n\n兄に時計をもらいました \"I received a watch from my older brother\"\n\n4. Third person receives from another\n\n田中さんは山田さんに本をもらった \"Tanaka received a book from Yamada\""
+          }
+        ]
+      },
+      {
+        "level": 2,
+        "heading": "いただく - Humble Receiving",
+        "content": "",
+        "children": [
+          {
+            "level": 3,
+            "heading": "When to Use いただく",
+            "content": "1. Receiving from superiors\n\n先生にお土産をいただきました \"I received a souvenir from my teacher\" 社長から手紙をいただいた \"I received a letter from the president\"\n\n2. Receiving from customers/clients\n\nお客様からご意見をいただきました \"I received feedback from the customer\"\n\n3. Showing respect to the giver\n\nおばあさんからプレゼントをいただいた \"I received a present from my grandmother\"\n\n4. Business/formal situations\n\n会社から賞をいただきました \"I received an award from the company\""
+          }
+        ]
+      },
+      {
+        "level": 2,
+        "heading": "Particle Usage: に vs から",
+        "content": "",
+        "children": [
+          {
+            "level": 3,
+            "heading": "に - Emphasizes the giver (more common)",
+            "content": "友達に本をもらった \"I received a book from my friend\""
+          },
+          {
+            "level": 3,
+            "heading": "から - Emphasizes source/origin",
+            "content": "友達から手紙をもらった \"I received a letter from my friend\"\n\nBoth are correct! に is slightly more common in speech."
+          }
+        ]
+      },
+      {
+        "level": 2,
+        "heading": "Common Patterns",
+        "content": "",
+        "children": [
+          {
+            "level": 3,
+            "heading": "Past Tense",
+            "content": "もらった - received (neutral) いただいた - received (humble)"
+          },
+          {
+            "level": 3,
+            "heading": "Negative",
+            "content": "もらわない - won't receive いただかない - won't receive"
+          },
+          {
+            "level": 3,
+            "heading": "Request Form",
+            "content": "もらえますか？ \"Can I receive/get (it)?\" いただけますか？ \"May I receive (it)?\" (polite)"
+          }
+        ]
+      },
+      {
+        "level": 2,
+        "heading": "Receiving Actions (〜てもらう)",
+        "content": "",
+        "children": [
+          {
+            "level": 3,
+            "heading": "Pattern: Verb-て + もらう/いただく",
+            "content": "This means \"have someone do something FOR you\":\n\n友達に手伝ってもらった \"I had my friend help me\" 先生に教えていただきました \"I had my teacher teach me\" (humble) 母に作ってもらった \"I had my mother make it for me\""
+          },
+          {
+            "level": 3,
+            "heading": "Requesting Actions",
+            "content": "手伝ってもらえますか？ \"Can you help me?\" (lit: Can I have you help me?) 説明していただけますか？ \"Could you explain?\" (polite)"
+          }
+        ]
+      },
+      {
+        "level": 2,
+        "heading": "Common Conversations",
+        "content": "",
+        "children": [
+          {
+            "level": 3,
+            "heading": "Example 1: Birthday Present",
+            "content": "A: 誕生日に何をもらいましたか？ \"What did you receive for your birthday?\" B: 友達に本をもらいました \"I received a book from my friend\" A: いいですね \"That's nice\""
+          },
+          {
+            "level": 3,
+            "heading": "Example 2: From a Teacher",
+            "content": "A: 先生に何をいただきましたか？ \"What did you receive from your teacher?\" B: アドバイスをいただきました \"I received advice\" A: よかったですね \"That's good\""
+          },
+          {
+            "level": 3,
+            "heading": "Example 3: Asking for Help",
+            "content": "A: ちょっと手伝ってもらえる？ \"Can you help me a bit?\" B: いいよ \"Sure\" A: ありがとう \"Thanks\""
+          }
+        ]
+      },
+      {
+        "level": 2,
+        "heading": "Comparing あげる and もらう",
+        "content": "",
+        "children": [
+          {
+            "level": 3,
+            "heading": "Same situation, different perspective:",
+            "content": "Giving perspective (あげる):\n\n私は友達にプレゼントをあげた \"I gave a present to my friend\"\n\nReceiving perspective (もらう):\n\n友達は私にプレゼントをもらった \"My friend received a present from me\""
+          },
+          {
+            "level": 3,
+            "heading": "Focus changes:",
+            "content": "あげる - Focus on the giver's action もらう - Focus on the receiver's benefit"
+          }
+        ]
+      },
+      {
+        "level": 2,
+        "heading": "Politeness Levels",
+        "content": "",
+        "children": [
+          {
+            "level": 3,
+            "heading": "Casual",
+            "content": "もらう もらった"
+          },
+          {
+            "level": 3,
+            "heading": "Polite",
+            "content": "もらいます もらいました"
+          },
+          {
+            "level": 3,
+            "heading": "Humble",
+            "content": "いただく いただきます いただきました"
+          },
+          {
+            "level": 3,
+            "heading": "Very Polite Request",
+            "content": "いただけますでしょうか \"May I receive...?\" (very polite)"
+          }
+        ]
+      },
+      {
+        "level": 2,
+        "heading": "Common Mistakes",
+        "content": "",
+        "children": [
+          {
+            "level": 3,
+            "heading": "Mistake 1: Using もらう for superiors",
+            "content": "Less polite: 先生に本をもらいました ⚠️ Better: 先生に本をいただきました ✓ \"I received a book from my teacher\""
+          },
+          {
+            "level": 3,
+            "heading": "Mistake 2: Wrong particle",
+            "content": "Wrong: 友達をプレゼントをもらった ❌ Right: 友達にプレゼントをもらった ✓ \"I received a present from my friend\""
+          },
+          {
+            "level": 3,
+            "heading": "Mistake 3: Confusing giver and receiver",
+            "content": "Wrong: 私は友達をプレゼントをもらった ❌ Right: 私は友達にプレゼントをもらった ✓ \"I received a present from my friend\""
+          },
+          {
+            "level": 3,
+            "heading": "Mistake 4: Using いただく casually",
+            "content": "Too formal: 友達に本をいただいた ⚠️ Natural: 友達に本をもらった ✓ \"I received a book from my friend\""
+          }
+        ]
+      },
+      {
+        "level": 2,
+        "heading": "Special Expressions",
+        "content": "",
+        "children": [
+          {
+            "level": 3,
+            "heading": "いただきます - Before eating",
+            "content": "いただきます \"Thank you for the food\" (lit: I humbly receive)\n\nThis comes from いただく!"
+          },
+          {
+            "level": 3,
+            "heading": "〜てもらう vs 〜てもらえる",
+            "content": "〜てもらう - Statement:\n\n手伝ってもらった \"Someone helped me\"\n\n〜てもらえる - Request (potential form):\n\n手伝ってもらえますか？ \"Can you help me?\" 教えてもらえる？ \"Can you teach me?\""
+          }
+        ]
+      },
+      {
+        "level": 2,
+        "heading": "Comparison Chart",
+        "content": "| Giver Status | Verb | Example | | --------------- | -------- | ------------------ | | Equal/Friend | もらう | 友達にもらった | | Junior/Younger | もらう | 後輩にもらった | | Superior | いただく | 先生にいただいた | | Customer/Client | いただく | お客様にいただいた |"
+      },
+      {
+        "level": 2,
+        "heading": "Context Matters",
+        "content": "",
+        "children": [
+          {
+            "level": 3,
+            "heading": "Within Family",
+            "content": "From younger siblings: もらう From older siblings: もらう From parents: もらう or いただく (very polite)"
+          },
+          {
+            "level": 3,
+            "heading": "At Work",
+            "content": "From colleagues (equal): もらう From boss/seniors: いただく From juniors: もらう"
+          },
+          {
+            "level": 3,
+            "heading": "Formal Situations",
+            "content": "Always use いただく when in doubt:\n\nお時間をいただけますか？ \"May I have your time?\" ご意見をいただければ幸いです \"I would be grateful to receive your opinion\""
+          }
+        ]
+      },
+      {
+        "level": 2,
+        "heading": "Passive-like Usage",
+        "content": "もらう can express receiving unintended actions:\n\n雨に降られた (NOT もらう usage) \"I got rained on\" But with positive actions: 褒めてもらった \"I was praised\" (received praise)"
+      },
+      {
+        "level": 2,
+        "heading": "Practice Sentences",
+        "content": "",
+        "children": [
+          {
+            "level": 3,
+            "heading": "Basic",
+            "content": "友達にプレゼントをもらいました \"I received a present from my friend\" 先生にアドバイスをいただいた \"I received advice from my teacher\" 母から手紙をもらった \"I received a letter from my mother\""
+          },
+          {
+            "level": 3,
+            "heading": "Intermediate",
+            "content": "誕生日に両親からネックレスをもらいました \"I received a necklace from my parents for my birthday\" 先生に推薦状を書いていただきました \"I had my teacher write a recommendation letter\" 友達に駅まで送ってもらった \"I had my friend take me to the station\""
+          },
+          {
+            "level": 3,
+            "heading": "Advanced",
+            "content": "会社から昇進の知らせをいただき、とても嬉しいです \"I received news of my promotion from the company and I'm very happy\" お忙しい中、時間を割いていただきありがとうございます \"Thank you for taking time out of your busy schedule\" 彼女から素敵なプレゼントをもらって、感動しました \"I received a wonderful present from her and was moved\""
+          }
+        ]
+      },
+      {
+        "level": 2,
+        "heading": "Related Grammar Points",
+        "content": "Giving: あげる/やる/さしあげる - Giving to others Favor: くれる/くださる - Others giving to you Direction of Actions - Perspective in giving/receiving 〜てもらう - Having someone do something Benefactive expressions - Doing favors Honorific language - Politeness levels",
+        "children": [
+          {
+            "level": 3,
+            "heading": "Company",
+            "content": "About Pricing Blog Contact"
+          },
+          {
+            "level": 3,
+            "heading": "Legal",
+            "content": "Privacy Policy Terms of Service Cookie Policy"
+          }
+        ]
+      }
+    ]
+  },
+  "metadata": {
+    "extracted_at": "2026-01-01T22:19:34.066442500Z",
+    "duration_ms": 4,
+    "extractors_matched": [
+      "metadata",
+      "examples",
+      "sections"
+    ],
+    "extractors_failed": [
+      "vocab_tables",
+      "definitions",
+      "content_blocks"
+    ]
+  }
+}

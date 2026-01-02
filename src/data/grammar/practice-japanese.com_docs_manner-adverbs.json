@@ -1,0 +1,368 @@
+{
+  "config_name": "Language Learning Extractor",
+  "url": "https://practice-japanese.com/docs/manner-adverbs/",
+  "data": {
+    "sections": [
+      {
+        "level": 2,
+        "heading": "Manner Adverbs",
+        "content": "Manner adverbs describe how an action is performed, answering the question \"how?\" or \"in what way?\" They express the method, style, or manner in which something is done, from speed to care to intensity.\n\nゆっくり歩く \"Walk slowly\" 静かに話す \"Speak quietly\" 丁寧に書く \"Write carefully\""
+      },
+      {
+        "level": 2,
+        "heading": "Speed Adverbs",
+        "content": "",
+        "children": [
+          {
+            "level": 3,
+            "heading": "速く/早く (Fast/Quickly)",
+            "content": "速く走る \"Run fast\" 早く来て \"Come quickly\" High speed Urgency"
+          },
+          {
+            "level": 3,
+            "heading": "ゆっくり (Slowly)",
+            "content": "ゆっくり歩く \"Walk slowly\" ゆっくり話して \"Please speak slowly\" ゆっくり休む \"Rest leisurely\" Slow pace Relaxed manner"
+          },
+          {
+            "level": 3,
+            "heading": "すぐに (Immediately/Right away)",
+            "content": "すぐに行く \"Go right away\" すぐに答える \"Answer immediately\" No delay Instant action"
+          },
+          {
+            "level": 3,
+            "heading": "急いで (Hurriedly/In a hurry)",
+            "content": "急いで食べる \"Eat hurriedly\" 急いで行く \"Go in a hurry\" With haste Rushed manner"
+          }
+        ]
+      },
+      {
+        "level": 2,
+        "heading": "Care and Attention",
+        "content": "",
+        "children": [
+          {
+            "level": 3,
+            "heading": "丁寧に (Carefully/Politely)",
+            "content": "丁寧に書く \"Write carefully\" 丁寧に説明する \"Explain carefully\" With care Attention to detail"
+          },
+          {
+            "level": 3,
+            "heading": "注意して (Carefully/With caution)",
+            "content": "注意して運転する \"Drive carefully\" 注意して聞く \"Listen carefully\" Being cautious Paying attention"
+          },
+          {
+            "level": 3,
+            "heading": "慎重に (Cautiously/Carefully)",
+            "content": "慎重に考える \"Think carefully\" 慎重に進める \"Proceed cautiously\" With prudence Deliberate care"
+          }
+        ]
+      },
+      {
+        "level": 2,
+        "heading": "Volume and Intensity",
+        "content": "",
+        "children": [
+          {
+            "level": 3,
+            "heading": "静かに (Quietly)",
+            "content": "静かに話す \"Speak quietly\" 静かに歩く \"Walk quietly\" Low volume Peaceful manner"
+          },
+          {
+            "level": 3,
+            "heading": "大きく (Largely/Widely)",
+            "content": "大きく開ける \"Open wide\" 大きく息を吸う \"Take a deep breath\" With size/scope"
+          },
+          {
+            "level": 3,
+            "heading": "強く (Strongly)",
+            "content": "強く押す \"Push strongly\" 強く握る \"Grip strongly\" With force Intensity"
+          },
+          {
+            "level": 3,
+            "heading": "優しく (Gently/Kindly)",
+            "content": "優しく触る \"Touch gently\" 優しく話す \"Speak kindly\" With gentleness Soft manner"
+          }
+        ]
+      },
+      {
+        "level": 2,
+        "heading": "Quality and Style",
+        "content": "",
+        "children": [
+          {
+            "level": 3,
+            "heading": "きれいに (Neatly/Beautifully)",
+            "content": "きれいに書く \"Write neatly\" きれいに並べる \"Arrange neatly\" With beauty Orderly manner"
+          },
+          {
+            "level": 3,
+            "heading": "上手に (Skillfully/Well)",
+            "content": "上手に描く \"Draw skillfully\" 上手に説明する \"Explain well\" With skill Proficiently"
+          },
+          {
+            "level": 3,
+            "heading": "下手に (Poorly/Unskillfully)",
+            "content": "下手に描く \"Draw poorly\" 下手に言うと誤解される \"If said poorly, it'll be misunderstood\" Lacking skill"
+          },
+          {
+            "level": 3,
+            "heading": "はっきり (Clearly)",
+            "content": "はっきり話す \"Speak clearly\" はっきり見える \"Can see clearly\" With clarity Distinctly"
+          }
+        ]
+      },
+      {
+        "level": 2,
+        "heading": "Completeness",
+        "content": "",
+        "children": [
+          {
+            "level": 3,
+            "heading": "完全に (Completely)",
+            "content": "完全に終わった \"Completely finished\" 完全に理解する \"Understand completely\" Total completion"
+          },
+          {
+            "level": 3,
+            "heading": "ちゃんと (Properly)",
+            "content": "ちゃんと食べる \"Eat properly\" ちゃんと聞いて \"Listen properly\" As expected Correctly"
+          },
+          {
+            "level": 3,
+            "heading": "きちんと (Properly/Neatly)",
+            "content": "きちんと並べる \"Arrange properly\" きちんと説明する \"Explain properly\" In order Appropriately"
+          }
+        ]
+      },
+      {
+        "level": 2,
+        "heading": "Effort and Attitude",
+        "content": "",
+        "children": [
+          {
+            "level": 3,
+            "heading": "一生懸命 (Hard/With all one's might)",
+            "content": "一生懸命勉強する \"Study hard\" 一生懸命働く \"Work hard\" Maximum effort Earnestly"
+          },
+          {
+            "level": 3,
+            "heading": "真面目に (Seriously/Earnestly)",
+            "content": "真面目に考える \"Think seriously\" 真面目に働く \"Work earnestly\" With sincerity Not joking"
+          },
+          {
+            "level": 3,
+            "heading": "頑張って (With effort)",
+            "content": "頑張って勉強する \"Study with effort\" 頑張ってやる \"Do it trying hard\" Doing one's best"
+          }
+        ]
+      },
+      {
+        "level": 2,
+        "heading": "Randomness and Order",
+        "content": "",
+        "children": [
+          {
+            "level": 3,
+            "heading": "適当に (Appropriately/Carelessly)",
+            "content": "適当にやる \"Do it appropriately/carelessly\" 適当に選ぶ \"Choose randomly\" Context-dependent Can be positive or negative"
+          },
+          {
+            "level": 3,
+            "heading": "順番に (In order)",
+            "content": "順番に並ぶ \"Line up in order\" 順番に説明する \"Explain in order\" Sequential manner"
+          },
+          {
+            "level": 3,
+            "heading": "バラバラに (Separately/Scattered)",
+            "content": "バラバラに座る \"Sit separately\" バラバラになる \"Become scattered\" Without order"
+          }
+        ]
+      },
+      {
+        "level": 2,
+        "heading": "Directness",
+        "content": "",
+        "children": [
+          {
+            "level": 3,
+            "heading": "直接 (Directly)",
+            "content": "直接話す \"Speak directly\" 直接行く \"Go directly\" Without intermediary Straight"
+          },
+          {
+            "level": 3,
+            "heading": "わざと (On purpose/Deliberately)",
+            "content": "わざとやった \"Did it on purpose\" わざと遅れる \"Be late deliberately\" Intentionally"
+          },
+          {
+            "level": 3,
+            "heading": "偶然 (By chance/Accidentally)",
+            "content": "偶然会った \"Met by chance\" 偶然見つけた \"Found accidentally\" Unintentionally Coincidentally"
+          }
+        ]
+      },
+      {
+        "level": 2,
+        "heading": "Repetition and Continuation",
+        "content": "",
+        "children": [
+          {
+            "level": 3,
+            "heading": "繰り返し (Repeatedly)",
+            "content": "繰り返し練習する \"Practice repeatedly\" 繰り返し言う \"Say repeatedly\" Multiple times"
+          },
+          {
+            "level": 3,
+            "heading": "続けて (Continuously)",
+            "content": "続けて話す \"Speak continuously\" 続けて勉強する \"Study continuously\" Without break"
+          }
+        ]
+      },
+      {
+        "level": 2,
+        "heading": "Naturalness",
+        "content": "",
+        "children": [
+          {
+            "level": 3,
+            "heading": "自然に (Naturally)",
+            "content": "自然に話す \"Speak naturally\" 自然に笑う \"Laugh naturally\" Without forcing Spontaneously"
+          },
+          {
+            "level": 3,
+            "heading": "普通に (Normally/Usually)",
+            "content": "普通に話す \"Speak normally\" 普通にする \"Act normally\" In the usual way"
+          }
+        ]
+      },
+      {
+        "level": 2,
+        "heading": "State Adverbs",
+        "content": "",
+        "children": [
+          {
+            "level": 3,
+            "heading": "元気に (Energetically)",
+            "content": "元気に遊ぶ \"Play energetically\" 元気に挨拶する \"Greet energetically\" With energy Lively"
+          },
+          {
+            "level": 3,
+            "heading": "楽に (Easily/Comfortably)",
+            "content": "楽に座る \"Sit comfortably\" 楽にできる \"Can do easily\" Without difficulty"
+          }
+        ]
+      },
+      {
+        "level": 2,
+        "heading": "Common Patterns",
+        "content": "",
+        "children": [
+          {
+            "level": 3,
+            "heading": "〜ように (In the way of)",
+            "content": "先生のように話す \"Speak like the teacher\" 子供のように遊ぶ \"Play like a child\" Manner comparison"
+          },
+          {
+            "level": 3,
+            "heading": "〜みたいに (Like)",
+            "content": "彼みたいに走る \"Run like him\" More casual than ように"
+          }
+        ]
+      },
+      {
+        "level": 2,
+        "heading": "Position in Sentence",
+        "content": "",
+        "children": [
+          {
+            "level": 3,
+            "heading": "Before the verb",
+            "content": "静かに話す \"Speak quietly\" ゆっくり歩く \"Walk slowly\" Precedes action"
+          }
+        ]
+      },
+      {
+        "level": 2,
+        "heading": "Common Mistakes",
+        "content": "",
+        "children": [
+          {
+            "level": 3,
+            "heading": "Confusing similar words",
+            "content": "静か (quiet - adjective) 静かに (quietly - adverb) Need に for manner"
+          },
+          {
+            "level": 3,
+            "heading": "Using adjective form with verbs",
+            "content": "Wrong: 静か話す ⚠️ Correct: 静かに話す ✓ \"Speak quietly\" Must use adverb form"
+          }
+        ]
+      },
+      {
+        "level": 2,
+        "heading": "Practice Sentences",
+        "content": "",
+        "children": [
+          {
+            "level": 3,
+            "heading": "Basic",
+            "content": "ゆっくり歩く \"Walk slowly\" 静かに話す \"Speak quietly\" 丁寧に書く \"Write carefully\" 速く走る \"Run fast\" きれいに並べる \"Arrange neatly\" 一生懸命勉強する \"Study hard\""
+          },
+          {
+            "level": 3,
+            "heading": "Intermediate",
+            "content": "試験の時は、注意して問題を 読んでください。急いで答えないで、 ゆっくり考えてから書いて ください。 \"During the exam, please read the questions carefully. Don't answer hurriedly, but think slowly and then write.\" この仕事は丁寧にやらなければ ならない。急いでやると、 ミスをする可能性がある。 時間をかけて、きちんと 進めましょう。 \"This work must be done carefully. If done hurriedly, there's a possibility of making mistakes. Let's take time and proceed properly.\" 彼女は日本語をとても上手に 話す。自然に、そしてはっきりと 発音する。一生懸命勉強した 成果だ。 \"She speaks Japanese very skillfully. She pronounces naturally and clearly. It's the result of studying hard.\""
+          },
+          {
+            "level": 3,
+            "heading": "Company",
+            "content": "About Pricing Blog Contact"
+          },
+          {
+            "level": 3,
+            "heading": "Legal",
+            "content": "Privacy Policy Terms of Service Cookie Policy"
+          }
+        ]
+      }
+    ],
+    "metadata": {
+      "title": "Manner Adverbs"
+    },
+    "examples": [
+      {
+        "sentence": "About"
+      },
+      {
+        "sentence": "Pricing"
+      },
+      {
+        "sentence": "Blog"
+      },
+      {
+        "sentence": "Contact"
+      },
+      {
+        "sentence": "Privacy Policy"
+      },
+      {
+        "sentence": "Terms of Service"
+      },
+      {
+        "sentence": "Cookie Policy"
+      }
+    ]
+  },
+  "metadata": {
+    "extracted_at": "2026-01-01T22:19:31.376918200Z",
+    "duration_ms": 5,
+    "extractors_matched": [
+      "metadata",
+      "examples",
+      "sections"
+    ],
+    "extractors_failed": [
+      "vocab_tables",
+      "definitions",
+      "content_blocks"
+    ]
+  }
+}

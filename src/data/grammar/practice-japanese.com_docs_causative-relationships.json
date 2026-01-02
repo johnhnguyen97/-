@@ -1,0 +1,282 @@
+{
+  "config_name": "Language Learning Extractor",
+  "url": "https://practice-japanese.com/docs/causative-relationships/",
+  "data": {
+    "metadata": {
+      "title": "Causative Relationships"
+    },
+    "sections": [
+      {
+        "level": 2,
+        "heading": "Causative Relationships",
+        "content": "Understanding the relationship between transitive verbs, intransitive verbs, and causative forms helps you express causation correctly in Japanese. Sometimes a transitive verb itself expresses causation, making a causative form unnecessary.\n\nThree ways to express causation: 1. Transitive verb (direct causation) 2. Intransitive + causative (make it happen) 3. Transitive + causative (make someone do) Choose based on meaning needed"
+      },
+      {
+        "level": 2,
+        "heading": "Transitive as Causative",
+        "content": "",
+        "children": [
+          {
+            "level": 3,
+            "heading": "Already expresses causation",
+            "content": "開ける \"open (something)\" Already means \"make it open\" ドアを開ける \"Open the door\" = \"Make door open\" No need for causative Transitive is sufficient Direct causation built in"
+          },
+          {
+            "level": 3,
+            "heading": "Common transitive verbs",
+            "content": "消す \"turn off\" → make go out つける \"turn on\" → make turn on 始める \"start\" → make begin 終える \"finish\" → make end 止める \"stop\" → make stop These already causative in meaning Using causative would be redundant Transitive = direct control"
+          }
+        ]
+      },
+      {
+        "level": 2,
+        "heading": "When to Use Causative",
+        "content": "",
+        "children": [
+          {
+            "level": 3,
+            "heading": "With intransitive verbs",
+            "content": "Intransitive doesn't have agent control: 行く \"go\" (intransitive) 行かせる \"make/let go\" (causative needed) 笑う \"laugh\" (intransitive) 笑わせる \"make laugh\" (causative needed) Can't directly control Need causative form Indirect causation"
+          },
+          {
+            "level": 3,
+            "heading": "Making someone do transitive action",
+            "content": "Transitive verb + causative: Make someone perform action 食べる \"eat\" 食べさせる \"make/let (someone) eat\" 読む \"read\" 読ませる \"make/let (someone) read\" Causative = making agent do it"
+          }
+        ]
+      },
+      {
+        "level": 2,
+        "heading": "Redundancy to Avoid",
+        "content": "",
+        "children": [
+          {
+            "level": 3,
+            "heading": "Don't double up",
+            "content": "❌ Wrong: ドアを開けさせる (When YOU are opening it) ✓ Correct: ドアを開ける \"Open the door\" ❌ Wrong: 電気を消させる ✓ Correct: 電気を消す \"Turn off light\" Transitive already implies causation Causative redundant for direct action"
+          }
+        ]
+      },
+      {
+        "level": 2,
+        "heading": "Three-Level System",
+        "content": "",
+        "children": [
+          {
+            "level": 3,
+            "heading": "Complete relationship",
+            "content": "1. Intransitive (happens): 開く \"opens\" ドアが開く \"door opens\" 2. Transitive (direct cause): 開ける \"open (it)\" ドアを開ける \"(I) open door\" 3. Causative (indirect cause): 開けさせる \"make (someone) open\" 子供にドアを開けさせる \"make child open door\" Each level adds agency layer Different control degrees"
+          }
+        ]
+      },
+      {
+        "level": 2,
+        "heading": "Causative with Intransitive",
+        "content": "",
+        "children": [
+          {
+            "level": 3,
+            "heading": "Expressing indirect causation",
+            "content": "行く → 行かせる \"go\" → \"make go\" 子供を学校に行かせる \"Make child go to school\" 泣く → 泣かせる \"cry\" → \"make cry\" 彼女を泣かせた \"Made her cry\" Intransitive needs causative To express causing action"
+          }
+        ]
+      },
+      {
+        "level": 2,
+        "heading": "Causative with Transitive",
+        "content": "",
+        "children": [
+          {
+            "level": 3,
+            "heading": "Making someone perform action",
+            "content": "食べる → 食べさせる \"eat\" → \"make/let eat\" 子供に野菜を食べさせる \"Make child eat vegetables\" 読む → 読ませる \"read\" → \"make/let read\" 生徒に本を読ませる \"Make students read book\" Focus on making person do action Not on making thing undergo action"
+          }
+        ]
+      },
+      {
+        "level": 2,
+        "heading": "Particle Patterns",
+        "content": "",
+        "children": [
+          {
+            "level": 3,
+            "heading": "を vs に with causatives",
+            "content": "Intransitive verb causative: 子供を行かせる \"make child go\" を marks person caused to act Transitive verb causative: 子供に本を読ませる \"make child read book\" に marks person caused を marks direct object Pattern changes with transitivity Important distinction"
+          }
+        ]
+      },
+      {
+        "level": 2,
+        "heading": "Natural Alternatives",
+        "content": "",
+        "children": [
+          {
+            "level": 3,
+            "heading": "Often simpler options exist",
+            "content": "Instead of causative: 開けさせる → 開けてもらう \"make open\" → \"have (them) open\" 読ませる → 読んでもらう \"make read\" → \"have (them) read\" てもらう more natural Less forceful More polite implication"
+          }
+        ]
+      },
+      {
+        "level": 2,
+        "heading": "Transitive = Direct Control",
+        "content": "",
+        "children": [
+          {
+            "level": 3,
+            "heading": "Physical causation",
+            "content": "When you physically cause: ボタンを押す \"press button\" Makes button go down Direct physical causation スイッチを入れる \"turn on switch\" Makes device activate Direct control Use transitive, not causative Direct action suffices"
+          }
+        ]
+      },
+      {
+        "level": 2,
+        "heading": "Causative = Indirect Control",
+        "content": "",
+        "children": [
+          {
+            "level": 3,
+            "heading": "Through agency of others",
+            "content": "When causing through someone else: 子供にボタンを押させる \"Make child press button\" 生徒に本を読ませる \"Make students read\" Through another person Indirect causation Causative needed"
+          }
+        ]
+      },
+      {
+        "level": 2,
+        "heading": "State Changes",
+        "content": "",
+        "children": [
+          {
+            "level": 3,
+            "heading": "Transitive causes change",
+            "content": "色を変える \"change color\" Direct causation of change 気持ちを変える \"change feelings\" Direct causation of change 温度を上げる \"raise temperature\" Direct causation of change Transitive handles state changes No causative needed Direct control of change"
+          }
+        ]
+      },
+      {
+        "level": 2,
+        "heading": "Permissive Causative",
+        "content": "",
+        "children": [
+          {
+            "level": 3,
+            "heading": "\"Let\" meaning",
+            "content": "行かせる can mean \"let go\" 子供を遊びに行かせる \"Let child go play\" Permission sense Not forceful Context determines Same form, different meaning Causative covers both"
+          }
+        ]
+      },
+      {
+        "level": 2,
+        "heading": "Common Patterns",
+        "content": "",
+        "children": [
+          {
+            "level": 3,
+            "heading": "With intransitive verbs",
+            "content": "Must use causative: 泣く → 泣かせる \"make cry\" 笑う → 笑わせる \"make laugh\" 寝る → 寝させる \"make sleep\" 起きる → 起きさせる \"make wake up\" 帰る → 帰らせる \"make return\" These need causative form Can't use transitive alternative"
+          }
+        ]
+      },
+      {
+        "level": 2,
+        "heading": "Semantic Difference",
+        "content": "",
+        "children": [
+          {
+            "level": 3,
+            "heading": "Focus changes",
+            "content": "ドアを開ける \"Open door\" Focus: door opening 子供にドアを開けさせる \"Make child open door\" Focus: child's action Different emphasis Different sentence structure Different particles"
+          }
+        ]
+      },
+      {
+        "level": 2,
+        "heading": "Making vs Letting",
+        "content": "",
+        "children": [
+          {
+            "level": 3,
+            "heading": "Context clarifies",
+            "content": "行かせる: 子供を学校に行かせる \"make/let child go to school\" 行かせない: 子供を外に行かせない \"don't let child go outside\" Affirmative = often \"make\" Negative = often \"don't let\" Context crucial for interpretation"
+          }
+        ]
+      },
+      {
+        "level": 2,
+        "heading": "Learning Strategy",
+        "content": "",
+        "children": [
+          {
+            "level": 3,
+            "heading": "Decision tree",
+            "content": "Ask yourself: 1. Am I directly doing action to object? → Use transitive verb 2. Am I making someone/something do action? AND is base verb intransitive? → Use intransitive + causative 3. Am I making someone perform transitive action? → Use transitive + causative 4. Can I use てもらう instead? → Consider it for politeness Practice with this logic Builds correct usage"
+          }
+        ]
+      },
+      {
+        "level": 2,
+        "heading": "Common Mistakes",
+        "content": "❌ Unnecessary causative ✗ ドアを開けさせる (when you open it yourself) ✓ Direct transitive ✓ ドアを開ける ❌ Missing causative ✗ 子供を学校に行く ✓ Need causative ✓ 子供を学校に行かせる ❌ Wrong particle ✗ 子供を本を読ませる ✓ Correct particles ✓ 子供に本を読ませる Understanding verb type helps Choose appropriate form Consider agency"
+      },
+      {
+        "level": 2,
+        "heading": "Practical Examples",
+        "content": "",
+        "children": [
+          {
+            "level": 3,
+            "heading": "Natural usage",
+            "content": "Direct causation (transitive): 窓を開けた \"Opened window\" 電気をつけた \"Turned on light\" 授業を始めた \"Started class\" Indirect causation (causative): 子供を寝かせた \"Put child to sleep\" 学生に本を読ませた \"Had students read book\" 彼を笑わせた \"Made him laugh\" Different situations Different forms needed Both common in daily speech Natural Japanese requires distinction"
+          },
+          {
+            "level": 3,
+            "heading": "Company",
+            "content": "About Pricing Blog Contact"
+          },
+          {
+            "level": 3,
+            "heading": "Legal",
+            "content": "Privacy Policy Terms of Service Cookie Policy"
+          }
+        ]
+      }
+    ],
+    "examples": [
+      {
+        "sentence": "About"
+      },
+      {
+        "sentence": "Pricing"
+      },
+      {
+        "sentence": "Blog"
+      },
+      {
+        "sentence": "Contact"
+      },
+      {
+        "sentence": "Privacy Policy"
+      },
+      {
+        "sentence": "Terms of Service"
+      },
+      {
+        "sentence": "Cookie Policy"
+      }
+    ]
+  },
+  "metadata": {
+    "extracted_at": "2026-01-01T22:19:28.074517100Z",
+    "duration_ms": 3,
+    "extractors_matched": [
+      "metadata",
+      "examples",
+      "sections"
+    ],
+    "extractors_failed": [
+      "vocab_tables",
+      "definitions",
+      "content_blocks"
+    ]
+  }
+}

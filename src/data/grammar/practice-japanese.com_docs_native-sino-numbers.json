@@ -1,0 +1,411 @@
+{
+  "config_name": "Language Learning Extractor",
+  "url": "https://practice-japanese.com/docs/native-sino-numbers/",
+  "data": {
+    "sections": [
+      {
+        "level": 2,
+        "heading": "Two Number Systems",
+        "content": "Japanese uses two distinct number systems with different origins and uses:\n\n| System | Origin | Japanese Term | Range | Usage | | ------ | -------- | ------------- | ----------- | -------------------------- | | Native | Japanese | 和語 (わご) | 1-10 | General items, traditional | | Sino | Chinese | 漢語 (かんご) | All numbers | Most counting, modern use |\n\nNative: ひとつ、ふたつ、みっつ Sino: いち、に、さん"
+      },
+      {
+        "level": 2,
+        "heading": "Complete Comparison (1-10)",
+        "content": "| # | Native Reading | Kanji | Sino Reading | Kanji | | --- | -------------------- | ----- | ----------------------- | ----- | | 1 | ひとつ (hitotsu) | 一つ | いち (ichi) | 一 | | 2 | ふたつ (futatsu) | 二つ | に (ni) | 二 | | 3 | みっつ (mittsu) | 三つ | さん (san) | 三 | | 4 | よっつ (yottsu) | 四つ | よん/し (yon/shi) | 四 | | 5 | いつつ (itsutsu) | 五つ | ご (go) | 五 | | 6 | むっつ (muttsu) | 六つ | ろく (roku) | 六 | | 7 | ななつ (nanatsu) | 七つ | なな/しち (nana/shichi) | 七 | | 8 | やっつ (yattsu) | 八つ | はち (hachi) | 八 | | 9 | ここのつ (kokonotsu) | 九つ | きゅう/く (kyuu/ku) | 九 | | 10 | とお (too) | 十 | じゅう (juu) | 十 |",
+        "children": [
+          {
+            "level": 3,
+            "heading": "Key Observations",
+            "content": "Native numbers end in つ (tsu) for 1-9 Native number 10 is とお (too), not とおつ Native numbers are rarely used above 10 Sino numbers continue infinitely"
+          }
+        ]
+      },
+      {
+        "level": 2,
+        "heading": "When to Use Native Numbers",
+        "content": "",
+        "children": [
+          {
+            "level": 3,
+            "heading": "1. With General Counter つ",
+            "content": "When counting general items without specific counters:\n\nりんごを3つ買いました \"I bought 3 apples\" 質問が2つあります \"I have 2 questions\" 問題は4つです \"There are 4 problems\""
+          },
+          {
+            "level": 3,
+            "heading": "2. Young Children's Age",
+            "content": "Informally, for children under 10:\n\nA: いくつ？ \"How old?\" B: 5つ \"Five (years old)\"\n\nMore formally: 5 歳 (ごさい)"
+          },
+          {
+            "level": 3,
+            "heading": "3. Time Expressions",
+            "content": "For counting hours (but NOT telling time):\n\n2時間 = ふたつ分 (informal) But saying the time: 2時 (にじ) - uses Sino"
+          },
+          {
+            "level": 3,
+            "heading": "4. Traditional or Poetic Contexts",
+            "content": "一つ二つと星が見える \"One by one, stars appear\" 七つの海 \"The seven seas\""
+          },
+          {
+            "level": 3,
+            "heading": "5. Set Phrases and Idioms",
+            "content": "一つよろしく \"Please take care of it\" 二つ返事 \"Immediate reply\" 三つ子の魂百まで \"The soul of a three-year-old lasts until 100\" (proverb)"
+          }
+        ]
+      },
+      {
+        "level": 2,
+        "heading": "When to Use Sino Numbers",
+        "content": "",
+        "children": [
+          {
+            "level": 3,
+            "heading": "1. With Specific Counters",
+            "content": "All specific counters use Sino numbers:\n\n3人 (さんにん) - 3 people 2本 (にほん) - 2 long objects 5枚 (ごまい) - 5 flat objects 4匹 (よんひき) - 4 small animals"
+          },
+          {
+            "level": 3,
+            "heading": "2. Money",
+            "content": "100円 (ひゃくえん) - 100 yen 1,000円 (せんえん) - 1,000 yen 50円 (ごじゅうえん) - 50 yen"
+          },
+          {
+            "level": 3,
+            "heading": "3. Time (Clock Time)",
+            "content": "3時 (さんじ) - 3 o'clock 5分 (ごふん) - 5 minutes 2時間 (にじかん) - 2 hours"
+          },
+          {
+            "level": 3,
+            "heading": "4. Dates and Calendar",
+            "content": "1月 (いちがつ) - January 5日 (いつか) - 5th day 2025年 (にせんにじゅうごねん) - 2025\n\nException: Days 1-10 have special readings, but they're still based on Sino system."
+          },
+          {
+            "level": 3,
+            "heading": "5. Mathematical Operations",
+            "content": "1 + 2 = 3 いち たす に は さん 5 - 3 = 2 ご ひく さん は に"
+          },
+          {
+            "level": 3,
+            "heading": "6. Phone Numbers and Addresses",
+            "content": "電話: 090-1234-5678 ゼロきゅうゼロ の いちにさんよん の ごろくななはち 住所: 東京都渋谷区1-2-3 とうきょうと しぶやく いちのにのさん"
+          },
+          {
+            "level": 3,
+            "heading": "7. Age (Formal)",
+            "content": "25歳 (にじゅうごさい) - 25 years old 30歳 (さんじゅっさい) - 30 years old\n\nException: 20 歳 is はたち (special word)"
+          },
+          {
+            "level": 3,
+            "heading": "8. Numbers Above 10",
+            "content": "Always use Sino numbers:\n\n15 = じゅうご (not じゅうごつ) 20 = にじゅう 100 = ひゃく 1,000 = せん"
+          }
+        ]
+      },
+      {
+        "level": 2,
+        "heading": "Common Patterns",
+        "content": "",
+        "children": [
+          {
+            "level": 3,
+            "heading": "Native Numbers Pattern",
+            "content": "Stem + つ for 1-9:\n\nひと + つ = ひとつ (1) ふた + つ = ふたつ (2) み + つ = みっつ (3) よ/よっ + つ = よっつ (4) いつ + つ = いつつ (5) む + つ = むっつ (6) なな + つ = ななつ (7) や + つ = やっつ (8) ここの + つ = ここのつ (9) とお (10) - no つ!"
+          },
+          {
+            "level": 3,
+            "heading": "Sino Numbers with Counters",
+            "content": "Number + Counter:\n\n1 + 人 = ひとり (exception!) 2 + 人 = ふたり (exception!) 3 + 人 = さんにん 4 + 本 = よんほん 5 + 枚 = ごまい"
+          }
+        ]
+      },
+      {
+        "level": 2,
+        "heading": "Historical Context",
+        "content": "",
+        "children": [
+          {
+            "level": 3,
+            "heading": "Origin of Native Numbers",
+            "content": "Ancient Japanese words Existed before Chinese influence Limited to basic counting Still used in daily conversation"
+          },
+          {
+            "level": 3,
+            "heading": "Origin of Sino Numbers",
+            "content": "Imported from China around 5th-6th century Came with Chinese writing system More systematic and expandable Became standard for most counting"
+          }
+        ]
+      },
+      {
+        "level": 2,
+        "heading": "Special Cases and Exceptions",
+        "content": "",
+        "children": [
+          {
+            "level": 3,
+            "heading": "Numbers with Two Systems",
+            "content": "Some numbers can use either system depending on context:\n\nAge (informal): 5つ (いつつ) Age (formal): 5歳 (ごさい) General items: 3つ (みっつ) With counter: 3個 (さんこ)"
+          },
+          {
+            "level": 3,
+            "heading": "20 Years Old: はたち",
+            "content": "A special native word:\n\n20歳 = はたち Not: にじゅっさい ❌ (though sometimes used)"
+          },
+          {
+            "level": 3,
+            "heading": "Days of the Month (1-10)",
+            "content": "Special readings mixing both systems:\n\n1日 = ついたち (native origin) 2日 = ふつか (native) 3日 = みっか (native) 4日 = よっか (native) 5日 = いつか (native) 6日 = むいか (native) 7日 = なのか (native) 8日 = ようか (native) 9日 = ここのか (native) 10日 = とおか (native)\n\nBut 11 日 onwards use Sino: 11 日 (じゅういちにち)"
+          }
+        ]
+      },
+      {
+        "level": 2,
+        "heading": "Mixing Systems (Generally Avoided)",
+        "content": "Don't mix systems in the same phrase:\n\nWrong: ふたつ人 ❌ Right: ふたり or 2人 ✓ \"Two people\" Wrong: さんつ ❌ Right: みっつ or 3つ ✓ \"Three (things)\""
+      },
+      {
+        "level": 2,
+        "heading": "Common Conversations",
+        "content": "",
+        "children": [
+          {
+            "level": 3,
+            "heading": "Example 1: Shopping",
+            "content": "A: りんごをいくつ買いますか？ \"How many apples will you buy?\" B: 3つください \"Three, please\" A: 全部で300円です \"That's 300 yen in total\" (uses Sino for money)"
+          },
+          {
+            "level": 3,
+            "heading": "Example 2: Age",
+            "content": "A: お子さんはいくつですか？ \"How old is your child?\" B: 4つです \"Four (years old)\" (casual) Or: 4歳です \"Four years old\" (more formal)"
+          },
+          {
+            "level": 3,
+            "heading": "Example 3: Counting Objects",
+            "content": "A: ペンは何本ありますか？ \"How many pens are there?\" (uses Sino with counter) B: 5本あります \"There are 5\""
+          }
+        ]
+      },
+      {
+        "level": 2,
+        "heading": "Memory Tips",
+        "content": "",
+        "children": [
+          {
+            "level": 3,
+            "heading": "For Native Numbers",
+            "content": "Think of them as \"traditional Japanese counting\":\n\nUsed for general, everyday items Limited range (1-10) Ends in つ sound (except 10) More casual, conversational feel"
+          },
+          {
+            "level": 3,
+            "heading": "For Sino Numbers",
+            "content": "Think of them as \"formal, systematic counting\":\n\nUsed with specific counters Unlimited range More analytical, precise Standard for modern contexts"
+          }
+        ]
+      },
+      {
+        "level": 2,
+        "heading": "Sound Changes with Counters",
+        "content": "",
+        "children": [
+          {
+            "level": 3,
+            "heading": "Sino Numbers + Counters Often Change",
+            "content": "1 + 人 = ひとり (not いちにん) 3 + 本 = さんぼん (not さんほん) 6 + 匹 = ろっぴき (not ろくひき) 8 + 枚 = はちまい (sound lengthens)"
+          },
+          {
+            "level": 3,
+            "heading": "Native Numbers Don't Use Counters",
+            "content": "Native numbers use つ, which is already a counter:\n\n3つ ✓ (complete) Not: 3つ個 ❌ (redundant)"
+          }
+        ]
+      },
+      {
+        "level": 2,
+        "heading": "Practice Examples",
+        "content": "",
+        "children": [
+          {
+            "level": 3,
+            "heading": "Use Native Numbers",
+            "content": "いくつありますか？ \"How many are there?\" → 5つあります 子供が何人いますか？(age) \"How many children do you have?\" → 3つと5つです (informal age)"
+          },
+          {
+            "level": 3,
+            "heading": "Use Sino Numbers",
+            "content": "何人いますか？(people count) \"How many people are there?\" → 5人います (ごにん) いくらですか？ \"How much is it?\" → 500円です (ごひゃくえん) 何時ですか？ \"What time is it?\" → 3時です (さんじ)"
+          }
+        ]
+      },
+      {
+        "level": 2,
+        "heading": "Summary Table",
+        "content": "| Context | System | Example | | -------------------- | ------ | --------------------- | | General items | Native | 3 つ (mittsu) | | With counters | Sino | 3 人 (san-nin) | | Money | Sino | 300 円 (san-byaku en) | | Time | Sino | 3 時 (san-ji) | | Child's age (casual) | Native | 3 つ (mittsu) | | Age (formal) | Sino | 3 歳 (san-sai) | | Dates | Sino | 3 月 (san-gatsu) | | Phone numbers | Sino | 3 (san) | | Above 10 | Sino | 15 (juu-go) |"
+      },
+      {
+        "level": 2,
+        "heading": "Common Mistakes",
+        "content": "",
+        "children": [
+          {
+            "level": 3,
+            "heading": "Mistake 1: Using native numbers with counters",
+            "content": "Wrong: みっつ人 ❌ Right: 3人 (さんにん) ✓ \"Three people\""
+          },
+          {
+            "level": 3,
+            "heading": "Mistake 2: Using sino numbers without counters for things",
+            "content": "Unnatural: さん ⚠️ (when counting items) Better: 3つ (みっつ) ✓ \"Three (things)\""
+          },
+          {
+            "level": 3,
+            "heading": "Mistake 3: Native numbers above 10",
+            "content": "Wrong: じゅうつ ❌ Right: じゅう or 10個 ✓ \"Ten\""
+          },
+          {
+            "level": 3,
+            "heading": "Mistake 4: Wrong age expression",
+            "content": "Too casual (adult): 25つです ❌ Correct: 25歳です (にじゅうごさい) ✓ \"I'm 25 years old\""
+          }
+        ]
+      },
+      {
+        "level": 2,
+        "heading": "Related Grammar Points",
+        "content": "Number System Overview - Complete number guide Counter System Basics - How counters work General Counter (つ) - Native counting いくつ (ikutsu) - How many/old Specific Counters - 人、本、枚、etc. Age expressions - Talking about age Time expressions - Telling time Date expressions - Calendar dates",
+        "children": [
+          {
+            "level": 3,
+            "heading": "Company",
+            "content": "About Pricing Blog Contact"
+          },
+          {
+            "level": 3,
+            "heading": "Legal",
+            "content": "Privacy Policy Terms of Service Cookie Policy"
+          }
+        ]
+      }
+    ],
+    "examples": [
+      {
+        "sentence": "Native numbers end in つ (tsu) for 1-9"
+      },
+      {
+        "sentence": "Native number 10 is とお (too), not とおつ"
+      },
+      {
+        "sentence": "Native numbers are rarely used above 10"
+      },
+      {
+        "sentence": "Sino numbers continue infinitely"
+      },
+      {
+        "sentence": "Ancient Japanese words"
+      },
+      {
+        "sentence": "Existed before Chinese influence"
+      },
+      {
+        "sentence": "Limited to basic counting"
+      },
+      {
+        "sentence": "Still used in daily conversation"
+      },
+      {
+        "sentence": "Imported from China around 5th-6th century"
+      },
+      {
+        "sentence": "Came with Chinese writing system"
+      },
+      {
+        "sentence": "More systematic and expandable"
+      },
+      {
+        "sentence": "Became standard for most counting"
+      },
+      {
+        "sentence": "Used for general, everyday items"
+      },
+      {
+        "sentence": "Limited range (1-10)"
+      },
+      {
+        "sentence": "Ends in つ sound (except 10)"
+      },
+      {
+        "sentence": "More casual, conversational feel"
+      },
+      {
+        "sentence": "Used with specific counters"
+      },
+      {
+        "sentence": "Unlimited range"
+      },
+      {
+        "sentence": "More analytical, precise"
+      },
+      {
+        "sentence": "Standard for modern contexts"
+      },
+      {
+        "sentence": "Number System Overview - Complete number guide"
+      },
+      {
+        "sentence": "Counter System Basics - How counters work"
+      },
+      {
+        "sentence": "General Counter (つ) - Native counting"
+      },
+      {
+        "sentence": "いくつ (ikutsu) - How many/old"
+      },
+      {
+        "sentence": "Specific Counters - 人、本、枚、etc."
+      },
+      {
+        "sentence": "Age expressions - Talking about age"
+      },
+      {
+        "sentence": "Time expressions - Telling time"
+      },
+      {
+        "sentence": "Date expressions - Calendar dates"
+      },
+      {
+        "sentence": "About"
+      },
+      {
+        "sentence": "Pricing"
+      },
+      {
+        "sentence": "Blog"
+      },
+      {
+        "sentence": "Contact"
+      },
+      {
+        "sentence": "Privacy Policy"
+      },
+      {
+        "sentence": "Terms of Service"
+      },
+      {
+        "sentence": "Cookie Policy"
+      }
+    ],
+    "metadata": {
+      "title": "Native vs Sino Numbers"
+    }
+  },
+  "metadata": {
+    "extracted_at": "2026-01-01T22:19:31.787398200Z",
+    "duration_ms": 6,
+    "extractors_matched": [
+      "metadata",
+      "examples",
+      "sections"
+    ],
+    "extractors_failed": [
+      "vocab_tables",
+      "definitions",
+      "content_blocks"
+    ]
+  }
+}

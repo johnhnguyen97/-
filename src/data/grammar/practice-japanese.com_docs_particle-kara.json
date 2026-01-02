@@ -1,0 +1,135 @@
+{
+  "config_name": "Language Learning Extractor",
+  "url": "https://practice-japanese.com/docs/particle-kara/",
+  "data": {
+    "sections": [
+      {
+        "level": 2,
+        "heading": "Core Functions",
+        "content": "から has 3 main uses:\n\nStarting point (from - place) Time since (from/since - time) Reason (because)"
+      },
+      {
+        "level": 2,
+        "heading": "1. Starting Point (Place)",
+        "content": "Where something starts from:\n\n東京から来ました - \"came from Tokyo\" 家から駅まで - \"from home to station\" ここから - \"from here\""
+      },
+      {
+        "level": 2,
+        "heading": "2. Time Since",
+        "content": "When something starts:\n\n9時から - \"from 9 o'clock\" 今日から - \"from today\" 昨日から - \"since yesterday\"\n\nOften paired with まで (until):\n\n9時から5時まで - \"from 9 to 5\" 月曜から金曜まで - \"from Monday to Friday\""
+      },
+      {
+        "level": 2,
+        "heading": "3. Reason (Because)",
+        "content": "Giving a reason:\n\n雨が降ったから、家にいた \"Because it rained, I stayed home\" 忙しいから、行けません \"Because I'm busy, I can't go\"\n\nPattern: [Reason]から、[Result]"
+      },
+      {
+        "level": 2,
+        "heading": "から vs まで",
+        "content": "から = starting point (from) まで = ending point (to/until) 東京から京都まで \"from Tokyo to Kyoto\""
+      },
+      {
+        "level": 2,
+        "heading": "から vs ので (Reason)",
+        "content": "Both mean \"because\":\n\nから = subjective, personal reason ので = objective, factual reason 忙しいから行けない \"Can't go because I'm busy\" (personal) 雨が降ったので中止 \"Canceled because it rained\" (objective)\n\nSee: から vs ので"
+      },
+      {
+        "level": 2,
+        "heading": "Common Patterns",
+        "content": "",
+        "children": [
+          {
+            "level": 3,
+            "heading": "Place",
+            "content": "[Place]から [Verb] 日本から来ました - \"came from Japan\""
+          },
+          {
+            "level": 3,
+            "heading": "Time",
+            "content": "[Time]から[Time]まで 9時から5時まで - \"9 to 5\""
+          },
+          {
+            "level": 3,
+            "heading": "Reason",
+            "content": "[Reason]から、[Result] 疲れたから休む - \"rest because tired\""
+          }
+        ]
+      },
+      {
+        "level": 2,
+        "heading": "Key Takeaways",
+        "content": "✓ Starting point (place/time) ✓ \"Because\" (reason) ✓ Often with まで (from... to...) ✓ More subjective than ので\n\nRelated:\n\nまで (made) - Until ので (node) - Because から vs ので",
+        "children": [
+          {
+            "level": 3,
+            "heading": "Company",
+            "content": "About Pricing Blog Contact"
+          },
+          {
+            "level": 3,
+            "heading": "Legal",
+            "content": "Privacy Policy Terms of Service Cookie Policy"
+          }
+        ]
+      }
+    ],
+    "metadata": {
+      "title": "から (kara) - From/Since/Because"
+    },
+    "examples": [
+      {
+        "sentence": "Starting point (from - place)"
+      },
+      {
+        "sentence": "Time since (from/since - time)"
+      },
+      {
+        "sentence": "Reason (because)"
+      },
+      {
+        "sentence": "まで (made) - Until"
+      },
+      {
+        "sentence": "ので (node) - Because"
+      },
+      {
+        "sentence": "から vs ので"
+      },
+      {
+        "sentence": "About"
+      },
+      {
+        "sentence": "Pricing"
+      },
+      {
+        "sentence": "Blog"
+      },
+      {
+        "sentence": "Contact"
+      },
+      {
+        "sentence": "Privacy Policy"
+      },
+      {
+        "sentence": "Terms of Service"
+      },
+      {
+        "sentence": "Cookie Policy"
+      }
+    ]
+  },
+  "metadata": {
+    "extracted_at": "2026-01-01T22:19:32.913070500Z",
+    "duration_ms": 3,
+    "extractors_matched": [
+      "metadata",
+      "examples",
+      "sections"
+    ],
+    "extractors_failed": [
+      "vocab_tables",
+      "definitions",
+      "content_blocks"
+    ]
+  }
+}

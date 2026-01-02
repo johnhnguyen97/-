@@ -1,0 +1,339 @@
+{
+  "config_name": "Language Learning Extractor",
+  "url": "https://practice-japanese.com/docs/contractions",
+  "data": {
+    "sections": [
+      {
+        "level": 2,
+        "heading": "What Are Japanese Contractions?",
+        "content": "Contractions (縮約形 shukuyaku-kei) are shortened forms of expressions commonly used in casual speech. Just like English \"don't\" instead of \"do not,\" Japanese speakers naturally contract certain combinations to speak more efficiently and casually.\n\nWhy learn contractions?\n\nSound more natural and fluent Understand native speakers better Essential for watching anime, dramas, movies Used constantly in daily conversation\n\nWhen NOT to use:\n\nFormal writing Business situations With superiors or strangers Official documents"
+      },
+      {
+        "level": 2,
+        "heading": "Core Contractions",
+        "content": "",
+        "children": [
+          {
+            "level": 3,
+            "heading": "ている → てる (Progressive/State)",
+            "content": "The most common contraction. Drop the い from ている.\n\nStandard: 何をしていますか？ Contracted: 何してる？ Nani shiteru? \"What are you doing?\" Standard: 食べている Contracted: 食べてる Tabeteru \"eating\" / \"is eating\" Standard: 知っています Contracted: 知ってる Shitteru \"I know\" Standard: 住んでいます Contracted: 住んでる Sunderu \"living (somewhere)\"\n\nWith question:\n\n見てる？ (miteru?) - \"Are you watching?\" 知ってる？ (shitteru?) - \"Do you know?\" 寝てる？ (neteru?) - \"Are you sleeping?\""
+          },
+          {
+            "level": 3,
+            "heading": "ては → ちゃ / では → じゃ",
+            "content": "Used with negative commands or conditional meanings.\n\nては → ちゃ:\n\nStandard: 食べてはいけない Contracted: 食べちゃいけない Tabecha ikenai \"You can't eat (that)\" Standard: 見てはダメ Contracted: 見ちゃダメ Micha dame \"You can't look\" Standard: 行ってはいけません Contracted: 行っちゃダメ Itcha dame \"You can't go\"\n\nでは → じゃ:\n\nStandard: それではダメだ Contracted: それじゃダメだ Sore ja dame da \"That won't do\" Standard: これでは無理 Contracted: これじゃ無理 Kore ja muri \"This is impossible\""
+          },
+          {
+            "level": 3,
+            "heading": "てしまう → ちゃう (Completion/Regret)",
+            "content": "Express completion or unintended actions.\n\nてしまう → ちゃう:\n\nStandard: 食べてしまった Contracted: 食べちゃった Tabechatta \"I ate it (all up)\" / \"Oops, I ate it\" Standard: 忘れてしまった Contracted: 忘れちゃった Wasurechatta \"I forgot (unfortunately)\" Standard: 壊してしまった Contracted: 壊しちゃった Kowashichatta \"I broke it (regrettably)\"\n\nでしまう → じゃう:\n\nStandard: 死んでしまう Contracted: 死んじゃう Shinjau \"will die\" Standard: 読んでしまった Contracted: 読んじゃった Yonjatta \"I read it (completely)\""
+          },
+          {
+            "level": 3,
+            "heading": "ておく → とく (Preparation)",
+            "content": "Do something in advance or for later.\n\nStandard: 買っておきます Contracted: 買っとく Kattoku \"I'll buy it (in advance)\" Standard: 読んでおいて Contracted: 読んどいて Yondoite \"Read it (beforehand)\" Standard: 準備しておく Contracted: 準備しとく Junbi shitoku \"I'll prepare (in advance)\" Standard: やっておこう Contracted: やっとこう Yattokou \"Let's do it (now for later)\""
+          },
+          {
+            "level": 3,
+            "heading": "ていく → てく (Direction Away)",
+            "content": "Going somewhere or doing something while going.\n\nStandard: 行っていきます Contracted: 行ってく Itteku \"I'm going (and going on)\" Standard: 持っていって Contracted: 持ってって Mottette \"Take it with you\" Standard: 帰っていく Contracted: 帰ってく Kaetteku \"going back home\""
+          },
+          {
+            "level": 3,
+            "heading": "てくる → てくる (Direction Toward/Back)",
+            "content": "Coming or doing something and coming back. Note: This one doesn't always contract, but can become っくる.\n\nStandard: 買ってきます Contracted: 買ってくる / 買ってくる Kattekuru \"I'll go buy (and come back)\" Standard: 持ってきて Contracted: 持ってきて / 持ってって Mottekite / Mottette \"Bring it here\""
+          }
+        ]
+      },
+      {
+        "level": 2,
+        "heading": "Negative Form Contractions",
+        "content": "",
+        "children": [
+          {
+            "level": 3,
+            "heading": "ない → ん (Negative)",
+            "content": "Very casual negative contraction.\n\nStandard: 知らない Contracted: 知らん Shiran \"I don't know\" Standard: 分からない Contracted: 分からん Wakaran \"I don't understand\" Standard: やらない Contracted: やらん Yaran \"I won't do it\"\n\nMore common in Western Japan (Kansai dialect)."
+          },
+          {
+            "level": 3,
+            "heading": "なければ → なきゃ (Conditional Negative)",
+            "content": "\"If not\" or \"must\" constructions.\n\nStandard: 行かなければならない Contracted: 行かなきゃ(いけない) Ikanakya (ikenai) \"I have to go\" Standard: 勉強しなければ Contracted: 勉強しなきゃ Benkyou shinakya \"I have to study\" Standard: 食べなければダメ Contracted: 食べなきゃダメ Tabenakya dame \"You have to eat\""
+          },
+          {
+            "level": 3,
+            "heading": "なくては → なくちゃ (Must/Have to)",
+            "content": "Similar to なきゃ but from なくては.\n\nStandard: 行かなくてはいけない Contracted: 行かなくちゃ Ikanakucha \"I have to go\" Standard: やらなくては Contracted: やらなくちゃ Yaranakucha \"I have to do it\""
+          }
+        ]
+      },
+      {
+        "level": 2,
+        "heading": "のだ/んだ Contractions",
+        "content": "",
+        "children": [
+          {
+            "level": 3,
+            "heading": "のです → んです → んだ/んす",
+            "content": "Explanatory form contractions.\n\nStandard: そうなのです Contracted: そうなんです → そうなんだ Sou na n da \"That's how it is (you see)\" Standard: 忙しいのです Contracted: 忙しいんです → 忙しいんだ Isogashii n da \"I'm busy (that's why)\" Standard: 学生なのです Contracted: 学生なんです → 学生なんだ Gakusei na n da \"I'm a student (explanation)\"\n\nSuper casual: んす\n\nそうなんす (sou nansu) - Very casual \"that's right\""
+          }
+        ]
+      },
+      {
+        "level": 2,
+        "heading": "Conditional Contractions",
+        "content": "",
+        "children": [
+          {
+            "level": 3,
+            "heading": "れば → りゃ / ければ → きゃ",
+            "content": "Conditional form contractions.\n\nStandard: 見れば Contracted: 見りゃ Mirya \"if you look\" Standard: すれば Contracted: すりゃ Surya \"if you do\" Standard: 行けば Contracted: 行きゃ Ikya \"if you go\" Standard: よければ Contracted: よきゃ Yokya \"if it's okay\""
+          },
+          {
+            "level": 3,
+            "heading": "たら → た (Conditional)",
+            "content": "Very casual, especially in regions.\n\nStandard: 行ったら Contracted: 行った Itta \"if/when you go\" (context dependent) Standard: そうだったら Contracted: そうだった Sou datta \"if that's the case\""
+          }
+        ]
+      },
+      {
+        "level": 2,
+        "heading": "Question Word Contractions",
+        "content": "",
+        "children": [
+          {
+            "level": 3,
+            "heading": "なにを → なにを/なんを → なに/なん",
+            "content": "Standard: 何をしているの？ Contracted: 何してるの？ Nani shiteru no? \"What are you doing?\" Standard: 何を食べる？ Contracted: 何食べる？ Nani taberu? \"What are you eating?\""
+          },
+          {
+            "level": 3,
+            "heading": "どうして → どして",
+            "content": "Why/how come.\n\nStandard: どうしてですか？ Contracted: どしてですか？/ どして？ Doshite? \"Why?\" Standard: どうして来ないの？ Contracted: どして来ないの？ Doshite konai no? \"Why aren't you coming?\""
+          }
+        ]
+      },
+      {
+        "level": 2,
+        "heading": "Word-Specific Contractions",
+        "content": "",
+        "children": [
+          {
+            "level": 3,
+            "heading": "これは → こりゃ / それは → そりゃ",
+            "content": "Standard: これはすごい Contracted: こりゃすごい Korya sugoi \"This is amazing!\" Standard: それは無理だ Contracted: そりゃ無理だ Sorya muri da \"That's impossible\" Standard: あれは何？ Contracted: ありゃ何？ Arya nani? \"What's that?\""
+          },
+          {
+            "level": 3,
+            "heading": "という → って / といえば → ってば",
+            "content": "Quotation and emphasis.\n\nStandard: 田中さんという人 Contracted: 田中さんって人 Tanaka-san tte hito \"A person called Tanaka\" Standard: 何と言った？ Contracted: 何て言った？/ なんつった？ Nan te itta? / Nantsutta? \"What did you say?\" Standard: 聞いているの！ Contracted: 聞いてってば！ Kiite tteba! \"I'm telling you, listen!\""
+          }
+        ]
+      },
+      {
+        "level": 2,
+        "heading": "Polite Contractions (Yes, They Exist!)",
+        "content": "Even polite speech has some contractions.",
+        "children": [
+          {
+            "level": 3,
+            "heading": "ございます → ございます",
+            "content": "ありがとうございます → Standard ありがとございます → Sometimes heard but incorrect"
+          },
+          {
+            "level": 3,
+            "heading": "です → っす (Young/Casual-Polite)",
+            "content": "Used by young people to be polite but casual.\n\nそうです → そうっす Sou ssu \"That's right\" 学生です → 学生っす Gakusei ssu \"I'm a student\"\n\nCommon among male university students."
+          }
+        ]
+      },
+      {
+        "level": 2,
+        "heading": "Regional Variations",
+        "content": "",
+        "children": [
+          {
+            "level": 3,
+            "heading": "Kansai Contractions",
+            "content": "している → してる → しとる Shitoru \"doing\" ない → へん Hen \"not\" (Kansai negative) 知らない → 知らん → 知らへん Shirahen \"I don't know\""
+          },
+          {
+            "level": 3,
+            "heading": "Tokyo/Standard",
+            "content": "している → してる Shiteru \"doing\" のだ → んだ N da Explanatory"
+          }
+        ]
+      },
+      {
+        "level": 2,
+        "heading": "Combining Multiple Contractions",
+        "content": "Real speech often stacks contractions:\n\nStandard: 何をしているのですか？ First: 何をしているんですか？ Second: 何してるんですか？ Full casual: 何してんの？ Nani shiten no? \"What are you doing?\" Standard: 行っておかなければならない First: 行っとかなければならない Second: 行っとかなきゃならない Full casual: 行っとかなきゃ Ittokanakya \"I have to go (in advance)\" Standard: 食べてしまいました First: 食べちゃいました Second: 食べちゃった Full casual: 食べちった Tabechitта \"I ate it (all up)\""
+      },
+      {
+        "level": 2,
+        "heading": "Contraction Reference Chart",
+        "content": "| Standard | Contraction | Example | | -------- | ----------- | ----------------------------- | | ている | てる | 食べてる (tabeteru) | | ては | ちゃ | 食べちゃ (tabecha) | | てしまう | ちゃう | 食べちゃう (tabechau) | | ておく | とく | 買っとく (kattoku) | | ていく | てく | 行ってく (itteku) | | なければ | なきゃ | 行かなきゃ (ikanakya) | | なくては | なくちゃ | やらなくちゃ (yaranakucha) | | のだ | んだ | そうなんだ (sou nan da) | | という | って | 田中さんって (Tanaka-san tte) | | これは | こりゃ | こりゃダメだ (korya dame da) |"
+      },
+      {
+        "level": 2,
+        "heading": "Common Mistakes",
+        "content": "",
+        "children": [
+          {
+            "level": 3,
+            "heading": "Mistake 1: Using in Formal Situations",
+            "content": "❌ 会議で：レポート書いときました ✓ 会議で：レポートを書いておきました\n\nNever use contractions in business or formal settings."
+          },
+          {
+            "level": 3,
+            "heading": "Mistake 2: Incorrect Contraction Forms",
+            "content": "❌ 食べている → 食べる (wrong - that's just dictionary form) ✓ 食べている → 食べてる (correct contraction)\n\nDon't confuse contractions with plain forms."
+          },
+          {
+            "level": 3,
+            "heading": "Mistake 3: Over-Contracting",
+            "content": "❌ 行かなきゃならなくちゃいけない (too many contractions stacked) ✓ 行かなきゃいけない or 行かなくちゃ\n\nDon't over-complicate with too many contractions."
+          },
+          {
+            "level": 3,
+            "heading": "Mistake 4: Wrong Context",
+            "content": "❌ Teacher: 先生、これ知ってる？ ✓ Teacher: 先生、これを知っていますか？\n\nMatch formality to the situation and person."
+          }
+        ]
+      },
+      {
+        "level": 2,
+        "heading": "Listening Recognition",
+        "content": "When watching anime or dramas, listen for these contracted forms:\n\nCommon in anime:\n\nやっちゃった！ (Yacchatta!) - \"I did it!\" / \"Oops!\" 知らねー (Shirane-) - \"I don't know\" (masculine, rough) わかんない (Wakannai) - \"I don't understand\" しょうがない → しょーがない (Shou ga nai) - \"Can't be helped\"\n\nCommon in daily conversation:\n\nそうなんだ (Sou nan da) - \"Oh, I see\" やっとく (Yattoku) - \"I'll do it (in advance)\" 行かなきゃ (Ikanakya) - \"I gotta go\""
+      },
+      {
+        "level": 2,
+        "heading": "Speed/Intensity Variations",
+        "content": "Some contractions have multiple levels:\n\nStandard: していない Level 1: してない (shitenai) Level 2: してへん (shitenai/shihen - Kansai) Level 3: してねー (shitene- - masculine/rough) Level 4: せーへん (se-hen - very Kansai)\n\nStandard: 分からない Level 1: 分かんない (wakannai) Level 2: 分からん (wakaran) Level 3: 分かんねー (wakanne- - rough)"
+      },
+      {
+        "level": 2,
+        "heading": "Summary",
+        "content": "Most Important Contractions to Know:\n\nている → てる - Most common, essential ちゃう (てしまう) - Very common, shows completion/regret とく (ておく) - Common for preparation なきゃ/なくちゃ - Essential for \"have to\" んだ (のだ) - Explanatory sentences\n\nKey Points:\n\nContractions are mandatory for natural casual speech Never use in formal situations or with superiors Listen to native content to internalize patterns Start with the most common contractions (てる, ちゃう) Combine with particle dropping for full casual effect\n\nRemember:\n\nContractions don't change meaning, only style They make you sound more natural and fluent Essential for understanding native speakers Practice listening recognition before production\n\nMastering contractions is a major step toward sounding like a native speaker and understanding real Japanese conversations!",
+        "children": [
+          {
+            "level": 3,
+            "heading": "Company",
+            "content": "About Pricing Blog Contact"
+          },
+          {
+            "level": 3,
+            "heading": "Legal",
+            "content": "Privacy Policy Terms of Service Cookie Policy"
+          }
+        ]
+      }
+    ],
+    "examples": [
+      {
+        "sentence": "ている → てる - Most common, essential"
+      },
+      {
+        "sentence": "ちゃう (てしまう) - Very common, shows completion/regret"
+      },
+      {
+        "sentence": "とく (ておく) - Common for preparation"
+      },
+      {
+        "sentence": "なきゃ/なくちゃ - Essential for \"have to\""
+      },
+      {
+        "sentence": "んだ (のだ) - Explanatory sentences"
+      },
+      {
+        "sentence": "Sound more natural and fluent"
+      },
+      {
+        "sentence": "Understand native speakers better"
+      },
+      {
+        "sentence": "Essential for watching anime, dramas, movies"
+      },
+      {
+        "sentence": "Used constantly in daily conversation"
+      },
+      {
+        "sentence": "Formal writing"
+      },
+      {
+        "sentence": "Business situations"
+      },
+      {
+        "sentence": "With superiors or strangers"
+      },
+      {
+        "sentence": "Official documents"
+      },
+      {
+        "sentence": "Contractions are mandatory for natural casual speech"
+      },
+      {
+        "sentence": "Never use in formal situations or with superiors"
+      },
+      {
+        "sentence": "Listen to native content to internalize patterns"
+      },
+      {
+        "sentence": "Start with the most common contractions (てる, ちゃう)"
+      },
+      {
+        "sentence": "Combine with particle dropping for full casual effect"
+      },
+      {
+        "sentence": "Contractions don't change meaning, only style"
+      },
+      {
+        "sentence": "They make you sound more natural and fluent"
+      },
+      {
+        "sentence": "Essential for understanding native speakers"
+      },
+      {
+        "sentence": "Practice listening recognition before production"
+      },
+      {
+        "sentence": "About"
+      },
+      {
+        "sentence": "Pricing"
+      },
+      {
+        "sentence": "Blog"
+      },
+      {
+        "sentence": "Contact"
+      },
+      {
+        "sentence": "Privacy Policy"
+      },
+      {
+        "sentence": "Terms of Service"
+      },
+      {
+        "sentence": "Cookie Policy"
+      }
+    ],
+    "metadata": {
+      "title": "Contractions"
+    }
+  },
+  "metadata": {
+    "extracted_at": "2026-01-01T22:19:28.378640400Z",
+    "duration_ms": 5,
+    "extractors_matched": [
+      "metadata",
+      "examples",
+      "sections"
+    ],
+    "extractors_failed": [
+      "vocab_tables",
+      "definitions",
+      "content_blocks"
+    ]
+  }
+}

@@ -1,0 +1,341 @@
+{
+  "config_name": "Language Learning Extractor",
+  "url": "https://practice-japanese.com/docs/ta-koto-ga-nai/",
+  "data": {
+    "metadata": {
+      "title": "〜たことがない (Never done)"
+    },
+    "examples": [
+      {
+        "sentence": "\"have never done\""
+      },
+      {
+        "sentence": "\"have never experienced\""
+      },
+      {
+        "sentence": "\"have never been to\""
+      },
+      {
+        "sentence": "\"have no experience of\""
+      },
+      {
+        "sentence": "〜たことがない means \"have never done\""
+      },
+      {
+        "sentence": "Structure: Verb た-form + ことがない/ありません"
+      },
+      {
+        "sentence": "Negative of 〜たことがある"
+      },
+      {
+        "sentence": "Emphasizes lack of experience"
+      },
+      {
+        "sentence": "Common with: 一度も (not even once), まだ (yet/still)"
+      },
+      {
+        "sentence": "Can express surprise about missing common experiences"
+      },
+      {
+        "sentence": "Casual form: ことない"
+      },
+      {
+        "sentence": "Different from simple negative (don't do)"
+      },
+      {
+        "sentence": "Essential for talking about inexperience"
+      },
+      {
+        "sentence": "Can be combined with のに (even though) for emphasis"
+      },
+      {
+        "sentence": "About"
+      },
+      {
+        "sentence": "Pricing"
+      },
+      {
+        "sentence": "Blog"
+      },
+      {
+        "sentence": "Contact"
+      },
+      {
+        "sentence": "Privacy Policy"
+      },
+      {
+        "sentence": "Terms of Service"
+      },
+      {
+        "sentence": "Cookie Policy"
+      }
+    ],
+    "sections": [
+      {
+        "level": 2,
+        "heading": "What is 〜たことがない?",
+        "content": "〜たことがない (ta koto ga nai) is the negative form of 〜たことがある, expressing that you have never had the experience of doing something. It means \"have never done\" or \"have no experience of.\"\n\nEnglish equivalents:\n\n\"have never done\" \"have never experienced\" \"have never been to\" \"have no experience of\"\n\n日本に行ったことがない。 Nihon ni itta koto ga nai. \"I have never been to Japan.\" 納豆を食べたことがありません。 Nattou wo tabeta koto ga arimasen. \"I have never eaten natto.\""
+      },
+      {
+        "level": 2,
+        "heading": "Basic Structure",
+        "content": "",
+        "children": [
+          {
+            "level": 3,
+            "heading": "Pattern",
+            "content": "[Verb た-form] + ことがない/ありません\n\n食べたことがない (tabeta koto ga nai) - \"have never eaten\" 見たことがない (mita koto ga nai) - \"have never seen\" 行ったことがない (itta koto ga nai) - \"have never been to\" したことがない (shita koto ga nai) - \"have never done\""
+          }
+        ]
+      },
+      {
+        "level": 2,
+        "heading": "Common Usage",
+        "content": "",
+        "children": [
+          {
+            "level": 3,
+            "heading": "Never done before",
+            "content": "スキーをしたことがない。 Suki- wo shita koto ga nai. \"I have never been skiing.\" 海外に行ったことがありません。 Kaigai ni itta koto ga arimasen. \"I have never been abroad.\" こんな美しい景色を見たことがない。 Konna utsukushii keshiki wo mita koto ga nai. \"I have never seen such beautiful scenery.\" 彼に会ったことがありません。 Kare ni atta koto ga arimasen. \"I have never met him.\""
+          },
+          {
+            "level": 3,
+            "heading": "Food and drink",
+            "content": "生の魚を食べたことがない。 Nama no sakana wo tabeta koto ga nai. \"I have never eaten raw fish.\" 日本酒を飲んだことがありません。 Nihonshu wo nonda koto ga arimasen. \"I have never drunk sake.\" この料理を食べたことがない。 Kono ryouri wo tabeta koto ga nai. \"I have never eaten this dish.\""
+          },
+          {
+            "level": 3,
+            "heading": "Places never visited",
+            "content": "京都に行ったことがない。 Kyouto ni itta koto ga nai. \"I have never been to Kyoto.\" 富士山に登ったことがありません。 Fujisan ni nobotta koto ga arimasen. \"I have never climbed Mt. Fuji.\" この店に来たことがない。 Kono mise ni kita koto ga nai. \"I have never been to this store.\""
+          }
+        ]
+      },
+      {
+        "level": 2,
+        "heading": "In Questions",
+        "content": "",
+        "children": [
+          {
+            "level": 3,
+            "heading": "Asking if someone has never done something",
+            "content": "本当に行ったことがないんですか。 Hontou ni itta koto ga nain desu ka. \"Have you really never been there?\" 一度も見たことがないんですか。 Ichido mo mita koto ga nain desu ka. \"Have you never seen it even once?\" 食べたことがないんですか。 Tabeta koto ga nain desu ka. \"Have you never eaten it?\""
+          }
+        ]
+      },
+      {
+        "level": 2,
+        "heading": "Expressing Surprise",
+        "content": "",
+        "children": [
+          {
+            "level": 3,
+            "heading": "Never experienced something common",
+            "content": "日本人なのに富士山を見たことがない。 Nihonjin na noni Fujisan wo mita koto ga nai. \"Even though I'm Japanese, I've never seen Mt. Fuji.\" 東京に住んでいるのに東京タワーに行ったことがない。 Toukyou ni sunde iru noni Toukyou tawa- ni itta koto ga nai. \"Even though I live in Tokyo, I've never been to Tokyo Tower.\" こんなに美味しいものは食べたことがない。 Konna ni oishii mono wa tabeta koto ga nai. \"I've never eaten anything this delicious.\""
+          }
+        ]
+      },
+      {
+        "level": 2,
+        "heading": "一度も (Not even once)",
+        "content": "",
+        "children": [
+          {
+            "level": 3,
+            "heading": "Emphasizing never",
+            "content": "一度も行ったことがない。 Ichido mo itta koto ga nai. \"I have never been there, not even once.\" 一度も会ったことがありません。 Ichido mo atta koto ga arimasen. \"I have never met (him/her), not even once.\" 一度もやったことがない。 Ichido mo yatta koto ga nai. \"I have never done it, not even once.\" まだ一度も見たことがない。 Mada ichido mo mita koto ga nai. \"I still have never seen it, not even once.\""
+          }
+        ]
+      },
+      {
+        "level": 2,
+        "heading": "まだ (Yet/Still)",
+        "content": "",
+        "children": [
+          {
+            "level": 3,
+            "heading": "Haven't done yet",
+            "content": "まだ行ったことがない。 Mada itta koto ga nai. \"I haven't been there yet.\" / \"I still have never been there.\" まだ食べたことがありません。 Mada tabeta koto ga arimasen. \"I haven't eaten it yet.\" まだ一度も会ったことがない。 Mada ichido mo atta koto ga nai. \"I still have never met (him/her), not even once.\""
+          }
+        ]
+      },
+      {
+        "level": 2,
+        "heading": "Things You Want to Try",
+        "content": "",
+        "children": [
+          {
+            "level": 3,
+            "heading": "Never done but want to",
+            "content": "まだスカイダイビングをしたことがないから、やってみたい。 Mada sukaidaibingu wo shita koto ga nai kara, yatte mitai. \"I've never been skydiving, so I want to try it.\" 納豆を食べたことがないけど、食べてみたい。 Nattou wo tabeta koto ga nai kedo, tabete mitai. \"I've never eaten natto, but I want to try it.\""
+          }
+        ]
+      },
+      {
+        "level": 2,
+        "heading": "Unique Experiences",
+        "content": "",
+        "children": [
+          {
+            "level": 3,
+            "heading": "Extraordinary things never done",
+            "content": "UFOを見たことがない。 UFO wo mita koto ga nai. \"I have never seen a UFO.\" 宝くじに当たったことがありません。 Takarakuji ni atatta koto ga arimasen. \"I have never won the lottery.\" 有名人に会ったことがない。 Yuumeijin ni atta koto ga nai. \"I have never met a celebrity.\""
+          }
+        ]
+      },
+      {
+        "level": 2,
+        "heading": "Skills Never Tried",
+        "content": "",
+        "children": [
+          {
+            "level": 3,
+            "heading": "Abilities and activities",
+            "content": "スノーボードをしたことがない。 Suno-bo-do wo shita koto ga nai. \"I have never been snowboarding.\" ピアノを弾いたことがありません。 Piano wo hiita koto ga arimasen. \"I have never played the piano.\" マラソンを走ったことがない。 Marason wo hashitta koto ga nai. \"I have never run a marathon.\""
+          }
+        ]
+      },
+      {
+        "level": 2,
+        "heading": "Cultural Experiences",
+        "content": "",
+        "children": [
+          {
+            "level": 3,
+            "heading": "Japanese culture",
+            "content": "着物を着たことがない。 Kimono wo kita koto ga nai. \"I have never worn a kimono.\" 温泉に入ったことがありません。 Onsen ni haitta koto ga arimasen. \"I have never been to a hot spring.\" 茶道を習ったことがない。 Sadou wo naratta koto ga nai. \"I have never learned tea ceremony.\""
+          }
+        ]
+      },
+      {
+        "level": 2,
+        "heading": "Negative Experiences",
+        "content": "",
+        "children": [
+          {
+            "level": 3,
+            "heading": "Bad things never experienced",
+            "content": "事故に遭ったことがない。 Jiko ni atta koto ga nai. \"I have never been in an accident.\" 財布を落としたことがありません。 Saifu wo otoshita koto ga arimasen. \"I have never lost my wallet.\" 入院したことがない。 Nyuuin shita koto ga nai. \"I have never been hospitalized.\""
+          }
+        ]
+      },
+      {
+        "level": 2,
+        "heading": "Casual Forms",
+        "content": "",
+        "children": [
+          {
+            "level": 3,
+            "heading": "Informal speech",
+            "content": "Formal: 行ったことがありません Casual: 行ったことがない Very casual: 行ったことない Formal: 食べたことがありませんか Casual: 食べたことない？"
+          }
+        ]
+      },
+      {
+        "level": 2,
+        "heading": "Comparative Statements",
+        "content": "",
+        "children": [
+          {
+            "level": 3,
+            "heading": "Comparing with what you have done",
+            "content": "中国には行ったことがあるけど、韓国には行ったことがない。 Chuugoku ni wa itta koto ga aru kedo, Kankoku ni wa itta koto ga nai. \"I have been to China, but I have never been to Korea.\" 寿司は食べたことがあるが、刺身は食べたことがない。 Sushi wa tabeta koto ga aru ga, sashimi wa tabeta koto ga nai. \"I have eaten sushi, but I have never eaten sashimi.\""
+          }
+        ]
+      },
+      {
+        "level": 2,
+        "heading": "In Polite Conversation",
+        "content": "",
+        "children": [
+          {
+            "level": 3,
+            "heading": "Formal situations",
+            "content": "申し訳ございませんが、そのような経験をしたことがございません。 Moushiwake gozaimasen ga, sono you na keiken wo shita koto ga gozaimasen. \"I'm sorry, but I have never had such an experience.\" [Very polite] まだお会いしたことがないと思います。 Mada oai shita koto ga nai to omoimasu. \"I don't think we've met before.\" [Polite]"
+          }
+        ]
+      },
+      {
+        "level": 2,
+        "heading": "Explaining Why",
+        "content": "",
+        "children": [
+          {
+            "level": 3,
+            "heading": "Giving reasons for lack of experience",
+            "content": "時間がなかったから、行ったことがない。 Jikan ga nakatta kara, itta koto ga nai. \"I've never been there because I didn't have time.\" お金がないので、海外に行ったことがありません。 Okane ga nai node, kaigai ni itta koto ga arimasen. \"I've never been abroad because I don't have money.\" 興味がないから、やったことがない。 Kyoumi ga nai kara, yatta koto ga nai. \"I've never done it because I'm not interested.\""
+          }
+        ]
+      },
+      {
+        "level": 2,
+        "heading": "Double Negatives",
+        "content": "",
+        "children": [
+          {
+            "level": 3,
+            "heading": "こんな...ない (Never... like this)",
+            "content": "こんなに美味しいものは食べたことがない。 Konna ni oishii mono wa tabeta koto ga nai. \"I've never eaten anything this delicious.\" こんなに難しい問題は見たことがない。 Konna ni muzukashii mondai wa mita koto ga nai. \"I've never seen such a difficult problem.\" こんな人は会ったことがありません。 Konna hito wa atta koto ga arimasen. \"I've never met such a person.\""
+          }
+        ]
+      },
+      {
+        "level": 2,
+        "heading": "Common Mistakes",
+        "content": "",
+        "children": [
+          {
+            "level": 3,
+            "heading": "Mistake 1: Using Present Form",
+            "content": "❌ 食べることがない ✓ 食べたことがない\n\nMust use た-form."
+          },
+          {
+            "level": 3,
+            "heading": "Mistake 2: Wrong Particle",
+            "content": "❌ 食べたことをない ✓ 食べたことがない\n\nUse が not を."
+          },
+          {
+            "level": 3,
+            "heading": "Mistake 3: Double Negative Confusion",
+            "content": "❌ 食べないことがない (confusing) ✓ 食べたことがない (\"never eaten\") ✓ 食べないことはない (\"it's not that I don't eat\" - different meaning)\n\nBe careful with negatives."
+          },
+          {
+            "level": 3,
+            "heading": "Mistake 4: Mixing with Present Habits",
+            "content": "❌ 毎日食べたことがない (contradictory) ✓ 食べたことがない (never eaten - past experience) ✓ 毎日は食べない (don't eat every day - present habit)\n\nたことがない is only for past/lifetime experience."
+          }
+        ]
+      },
+      {
+        "level": 2,
+        "heading": "Summary",
+        "content": "Key Points:\n\n〜たことがない means \"have never done\" Structure: Verb た-form + ことがない/ありません Negative of 〜たことがある Emphasizes lack of experience Common with: 一度も (not even once), まだ (yet/still) Can express surprise about missing common experiences Casual form: ことない Different from simple negative (don't do) Essential for talking about inexperience Can be combined with のに (even though) for emphasis",
+        "children": [
+          {
+            "level": 3,
+            "heading": "Company",
+            "content": "About Pricing Blog Contact"
+          },
+          {
+            "level": 3,
+            "heading": "Legal",
+            "content": "Privacy Policy Terms of Service Cookie Policy"
+          }
+        ]
+      }
+    ]
+  },
+  "metadata": {
+    "extracted_at": "2026-01-01T22:19:35.055532200Z",
+    "duration_ms": 3,
+    "extractors_matched": [
+      "metadata",
+      "examples",
+      "sections"
+    ],
+    "extractors_failed": [
+      "vocab_tables",
+      "definitions",
+      "content_blocks"
+    ]
+  }
+}

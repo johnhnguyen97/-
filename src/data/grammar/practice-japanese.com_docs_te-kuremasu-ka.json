@@ -1,0 +1,415 @@
+{
+  "config_name": "Language Learning Extractor",
+  "url": "https://practice-japanese.com/docs/te-kuremasu-ka/",
+  "data": {
+    "examples": [
+      {
+        "sentence": "〜てください - Please do (standard polite)"
+      },
+      {
+        "sentence": "〜てくれる - To do for me (benefit verb)"
+      },
+      {
+        "sentence": "〜てもらえますか - Could you (polite)"
+      },
+      {
+        "sentence": "〜ていただけますか - Could you (formal)"
+      },
+      {
+        "sentence": "あげる・くれる・もらう - Giving and receiving"
+      },
+      {
+        "sentence": "Request politeness - Politeness levels"
+      },
+      {
+        "sentence": "About"
+      },
+      {
+        "sentence": "Pricing"
+      },
+      {
+        "sentence": "Blog"
+      },
+      {
+        "sentence": "Contact"
+      },
+      {
+        "sentence": "Privacy Policy"
+      },
+      {
+        "sentence": "Terms of Service"
+      },
+      {
+        "sentence": "Cookie Policy"
+      }
+    ],
+    "metadata": {
+      "title": "〜てくれますか (Will you)"
+    },
+    "sections": [
+      {
+        "level": 2,
+        "heading": "What is 〜てくれますか?",
+        "content": "〜てくれますか is a casual-polite way to make requests, meaning \"will you\" or \"can you do for me.\" It's warmer and more personal than ください, commonly used with friends, family, and close colleagues.\n\n手伝ってくれますか \"Will you help me?\" 教えてくれますか \"Will you teach me?\" 待ってくれますか \"Will you wait for me?\""
+      },
+      {
+        "level": 2,
+        "heading": "Formation",
+        "content": "",
+        "children": [
+          {
+            "level": 3,
+            "heading": "Pattern: Verb て-form + くれますか",
+            "content": "| Verb | て-form | + くれますか | | ------ | ------- | ---------------- | | 見る | 見て | 見てくれますか | | 食べる | 食べて | 食べてくれますか | | 来る | 来て | 来てくれますか | | する | して | してくれますか | | 書く | 書いて | 書いてくれますか | | 読む | 読んで | 読んでくれますか |"
+          },
+          {
+            "level": 3,
+            "heading": "Examples",
+            "content": "買う → 買ってくれますか (Will you buy for me?) 送る → 送ってくれますか (Will you send for me?) 貸す → 貸してくれますか (Will you lend to me?)"
+          }
+        ]
+      },
+      {
+        "level": 2,
+        "heading": "Basic Usage",
+        "content": "",
+        "children": [
+          {
+            "level": 3,
+            "heading": "Asking friends for favors",
+            "content": "これ持ってくれますか \"Will you hold this for me?\" 駅まで送ってくれますか \"Will you take me to the station?\" 明日来てくれますか \"Will you come tomorrow?\""
+          },
+          {
+            "level": 3,
+            "heading": "At work (casual colleagues)",
+            "content": "この資料コピーしてくれますか \"Will you copy this document for me?\" ちょっと手伝ってくれますか \"Will you help me a bit?\" 確認してくれますか \"Will you check for me?\""
+          }
+        ]
+      },
+      {
+        "level": 2,
+        "heading": "Understanding くれる",
+        "content": "",
+        "children": [
+          {
+            "level": 3,
+            "heading": "くれる = to do for me",
+            "content": "くれる focuses on receiving a favor The action benefits YOU (the speaker) 友達が手伝ってくれた \"My friend helped me\" (I benefited)"
+          },
+          {
+            "level": 3,
+            "heading": "Direction of favor",
+            "content": "[Someone] ↓ (does favor) ↓ [YOU] The favor comes TO you"
+          }
+        ]
+      },
+      {
+        "level": 2,
+        "heading": "Politeness Level",
+        "content": "",
+        "children": [
+          {
+            "level": 3,
+            "heading": "Casual-polite: くれますか",
+            "content": "教えてくれますか \"Will you teach me?\" 手伝ってくれますか \"Will you help me?\""
+          },
+          {
+            "level": 3,
+            "heading": "More casual: くれる？",
+            "content": "手伝ってくれる？ \"Will you help?\" (friends only) 見てくれる？ \"Will you look?\" (friends only)"
+          },
+          {
+            "level": 3,
+            "heading": "Even more casual: くれない？",
+            "content": "ちょっと待ってくれない？ \"Won't you wait a bit?\" (close friends)"
+          },
+          {
+            "level": 3,
+            "heading": "Polite but not too formal",
+            "content": "くれますか is perfect for: ✓ Friends and family ✓ Close colleagues ✓ People your age ✓ Casual workplace Not appropriate for: ✗ Your boss ✗ Customers ✗ Formal situations ✗ People much older"
+          }
+        ]
+      },
+      {
+        "level": 2,
+        "heading": "Common Conversations",
+        "content": "",
+        "children": [
+          {
+            "level": 3,
+            "heading": "Example 1: Among Friends",
+            "content": "A: ねえ、明日の宿題教えてくれる？ \"Hey, will you teach me tomorrow's homework?\" B: いいよ。何時がいい？ \"Sure. What time is good?\" A: ３時ごろ来てくれる？ \"Will you come around 3?\" B: うん、分かった \"Yeah, got it\""
+          },
+          {
+            "level": 3,
+            "heading": "Example 2: At Work (Casual)",
+            "content": "A: すみません、ちょっと手伝ってくれますか \"Excuse me, will you help me a bit?\" B: はい、何ですか \"Yes, what is it?\" A: この箱運ぶの手伝ってくれますか \"Will you help me carry this box?\" B: もちろんです \"Of course\""
+          },
+          {
+            "level": 3,
+            "heading": "Example 3: Family Request",
+            "content": "A: お母さん、明日早く起こしてくれる？ \"Mom, will you wake me up early tomorrow?\" B: 何時に起きるの？ \"What time are you getting up?\" A: ６時にお願い \"6 o'clock please\" B: 分かった \"Got it\""
+          }
+        ]
+      },
+      {
+        "level": 2,
+        "heading": "くれる vs あげる vs もらう",
+        "content": "",
+        "children": [
+          {
+            "level": 3,
+            "heading": "Three perspectives of giving/receiving",
+            "content": "私が友達に本をあげた \"I gave a book to my friend\" (I give) 友達が私に本をくれた \"My friend gave me a book\" (I receive) 私が友達に本をもらった \"I received a book from my friend\" (I receive)"
+          },
+          {
+            "level": 3,
+            "heading": "In requests",
+            "content": "教えてくれる？ \"Will you teach me?\" (focus on me receiving) 教えてあげる \"I'll teach you\" (focus on me giving) 教えてもらえる？ \"Can I receive your teaching?\" (focus on me receiving)"
+          }
+        ]
+      },
+      {
+        "level": 2,
+        "heading": "Adding Emphasis",
+        "content": "",
+        "children": [
+          {
+            "level": 3,
+            "heading": "ちょっと (a bit)",
+            "content": "ちょっと見てくれる？ \"Will you look for a bit?\" ちょっと待ってくれますか \"Will you wait a moment?\""
+          },
+          {
+            "level": 3,
+            "heading": "ちゃんと (properly)",
+            "content": "ちゃんと聞いてくれる？ \"Will you listen properly?\" ちゃんと確認してくれますか \"Will you check properly?\""
+          },
+          {
+            "level": 3,
+            "heading": "すぐに (right away)",
+            "content": "すぐに来てくれる？ \"Will you come right away?\" すぐに返事してくれますか \"Will you reply right away?\""
+          }
+        ]
+      },
+      {
+        "level": 2,
+        "heading": "Common Mistakes",
+        "content": "",
+        "children": [
+          {
+            "level": 3,
+            "heading": "Mistake 1: Using with boss/customers",
+            "content": "Wrong to boss: これコピーしてくれますか ❌ Right: これコピーしていただけますか ✓ \"Could you copy this?\" くれる is too casual for superiors!"
+          },
+          {
+            "level": 3,
+            "heading": "Mistake 2: Confusing くれる and あげる",
+            "content": "Wrong: 私に教えてあげますか ❌ Right: 私に教えてくれますか ✓ \"Will you teach me?\" あげる = I give to you くれる = you give to me"
+          },
+          {
+            "level": 3,
+            "heading": "Mistake 3: Using wrong て-form",
+            "content": "Wrong: 読みてくれますか ❌ Right: 読んでくれますか ✓ \"Will you read for me?\""
+          },
+          {
+            "level": 3,
+            "heading": "Mistake 4: Too casual in wrong situation",
+            "content": "Wrong in interview: 説明してくれる？ ❌ Right: 説明していただけますか ✓ \"Could you explain?\" Know your audience!"
+          }
+        ]
+      },
+      {
+        "level": 2,
+        "heading": "Showing Appreciation",
+        "content": "",
+        "children": [
+          {
+            "level": 3,
+            "heading": "After someone does something",
+            "content": "手伝ってくれてありがとう \"Thanks for helping me\" 来てくれてありがとう \"Thanks for coming\" 教えてくれてありがとうございました \"Thank you for teaching me\""
+          },
+          {
+            "level": 3,
+            "heading": "Past tense",
+            "content": "昨日助けてくれてありがとう \"Thanks for helping me yesterday\" メール送ってくれてありがとう \"Thanks for sending the email\""
+          }
+        ]
+      },
+      {
+        "level": 2,
+        "heading": "Softening Requests",
+        "content": "",
+        "children": [
+          {
+            "level": 3,
+            "heading": "悪いけど (sorry, but)",
+            "content": "悪いけど、手伝ってくれる？ \"Sorry, but will you help me?\""
+          },
+          {
+            "level": 3,
+            "heading": "ごめんね (sorry)",
+            "content": "ごめんね、もう一度言ってくれる？ \"Sorry, will you say it once more?\""
+          },
+          {
+            "level": 3,
+            "heading": "お願い (please)",
+            "content": "お願い、待ってくれる？ \"Please, will you wait?\""
+          },
+          {
+            "level": 3,
+            "heading": "できれば (if possible)",
+            "content": "できれば明日までに返事くれる？ \"If possible, will you reply by tomorrow?\""
+          }
+        ]
+      },
+      {
+        "level": 2,
+        "heading": "Expressing Gratitude",
+        "content": "",
+        "children": [
+          {
+            "level": 3,
+            "heading": "When someone helps you",
+            "content": "本当に助かる。ありがとう \"That really helps. Thanks\" ありがとう！すごく助かるよ \"Thank you! That helps a lot\" 嬉しい！本当にありがとう \"I'm happy! Thank you so much\""
+          }
+        ]
+      },
+      {
+        "level": 2,
+        "heading": "Time-Related Requests",
+        "content": "今すぐ来てくれる？ \"Will you come right now?\" ちょっと待ってくれる？ \"Will you wait a bit?\" 明日までに教えてくれますか \"Will you tell me by tomorrow?\" 急いでくれる？ \"Will you hurry?\""
+      },
+      {
+        "level": 2,
+        "heading": "Favor Requests",
+        "content": "これ持ってくれる？ \"Will you hold this?\" 写真撮ってくれますか \"Will you take a photo?\" 道教えてくれる？ \"Will you show me the way?\" 荷物見ててくれる？ \"Will you watch my luggage?\""
+      },
+      {
+        "level": 2,
+        "heading": "Help Requests",
+        "content": "手伝ってくれる？ \"Will you help me?\" 助けてくれる？ \"Will you save me?\" 力貸してくれる？ \"Will you lend me your strength?\" サポートしてくれますか \"Will you support me?\""
+      },
+      {
+        "level": 2,
+        "heading": "Information Requests",
+        "content": "教えてくれる？ \"Will you tell me?\" 説明してくれますか \"Will you explain to me?\" 詳しく話してくれる？ \"Will you tell me in detail?\" もっと聞かせてくれる？ \"Will you let me hear more?\""
+      },
+      {
+        "level": 2,
+        "heading": "Casual Workplace Usage",
+        "content": "",
+        "children": [
+          {
+            "level": 3,
+            "heading": "With colleagues of similar rank",
+            "content": "この資料見てくれる？ \"Will you look at this material?\" 意見聞かせてくれますか \"Will you let me hear your opinion?\" 確認してくれる？ \"Will you check for me?\""
+          },
+          {
+            "level": 3,
+            "heading": "Not appropriate for",
+            "content": "✗ Annual reports to management ✗ Customer emails ✗ Formal presentations ✗ Speaking to senior staff Use ていただけますか instead!"
+          }
+        ]
+      },
+      {
+        "level": 2,
+        "heading": "Responding to くれますか",
+        "content": "",
+        "children": [
+          {
+            "level": 3,
+            "heading": "Accepting",
+            "content": "うん、いいよ \"Yeah, sure\" (casual) もちろん \"Of course\" 分かった \"Got it\" オッケー \"OK\""
+          },
+          {
+            "level": 3,
+            "heading": "Declining",
+            "content": "ごめん、ちょっと無理 \"Sorry, that's a bit impossible\" 今忙しいんだ \"I'm busy right now\" ごめんね、できない \"Sorry, I can't\" 他の人に頼んでくれる？ \"Will you ask someone else?\""
+          }
+        ]
+      },
+      {
+        "level": 2,
+        "heading": "Comparison Chart",
+        "content": "",
+        "children": [
+          {
+            "level": 3,
+            "heading": "Formality levels",
+            "content": "1. 手伝ってくれない？ (very casual) \"Won't you help?\" 2. 手伝ってくれる？ (casual) \"Will you help?\" 3. 手伝ってくれますか (casual-polite) \"Will you help me?\" 4. 手伝ってもらえますか (polite) \"Could you help me?\" 5. 手伝っていただけますか (formal) \"Could you help me?\" 6. 手伝ってください (standard polite) \"Please help me\""
+          }
+        ]
+      },
+      {
+        "level": 2,
+        "heading": "When Someone Already Did Something",
+        "content": "",
+        "children": [
+          {
+            "level": 3,
+            "heading": "Expressing gratitude",
+            "content": "手伝ってくれてありがとう \"Thanks for helping\" 来てくれて嬉しかった \"I was happy you came\" 教えてくれて助かった \"Your teaching helped me\""
+          },
+          {
+            "level": 3,
+            "heading": "Stating facts",
+            "content": "友達が手伝ってくれた \"My friend helped me\" 先生が教えてくれた \"The teacher taught me\" 母が作ってくれた \"Mom made it for me\""
+          }
+        ]
+      },
+      {
+        "level": 2,
+        "heading": "Practice Sentences",
+        "content": "",
+        "children": [
+          {
+            "level": 3,
+            "heading": "Basic",
+            "content": "ちょっと見てくれる？ \"Will you look for a bit?\" 明日来てくれますか \"Will you come tomorrow?\" これ持ってくれる？ \"Will you hold this?\""
+          },
+          {
+            "level": 3,
+            "heading": "Intermediate",
+            "content": "駅までの道を教えてくれますか \"Will you teach me the way to the station?\" 宿題を手伝ってくれる？ \"Will you help with my homework?\" メールの返事を早くしてくれますか \"Will you reply to the email quickly?\""
+          },
+          {
+            "level": 3,
+            "heading": "Advanced",
+            "content": "悪いけど、明日の会議で僕の代わりに発表してくれる？ \"Sorry, but will you present in my place at tomorrow's meeting?\" できれば今週中にこの書類をチェックしてくれますか \"If possible, will you check this document by the end of this week?\" ごめんね、急なお願いで申し訳ないんだけど、今日残業手伝ってくれない？ \"Sorry, I know it's sudden, but won't you help me with overtime today?\""
+          }
+        ]
+      },
+      {
+        "level": 2,
+        "heading": "Related Grammar Points",
+        "content": "〜てください - Please do (standard polite) 〜てくれる - To do for me (benefit verb) 〜てもらえますか - Could you (polite) 〜ていただけますか - Could you (formal) あげる・くれる・もらう - Giving and receiving Request politeness - Politeness levels",
+        "children": [
+          {
+            "level": 3,
+            "heading": "Company",
+            "content": "About Pricing Blog Contact"
+          },
+          {
+            "level": 3,
+            "heading": "Legal",
+            "content": "Privacy Policy Terms of Service Cookie Policy"
+          }
+        ]
+      }
+    ]
+  },
+  "metadata": {
+    "extracted_at": "2026-01-01T22:19:35.678250Z",
+    "duration_ms": 3,
+    "extractors_matched": [
+      "metadata",
+      "examples",
+      "sections"
+    ],
+    "extractors_failed": [
+      "vocab_tables",
+      "definitions",
+      "content_blocks"
+    ]
+  }
+}

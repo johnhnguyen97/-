@@ -1,0 +1,197 @@
+{
+  "config_name": "Language Learning Extractor",
+  "url": "https://practice-japanese.com/docs/particle-wo/",
+  "data": {
+    "metadata": {
+      "title": "を (wo) - Direct Object Marker"
+    },
+    "sections": [
+      {
+        "level": 2,
+        "heading": "Core Function",
+        "content": "を marks the direct object - what receives the action of the verb.\n\nPronunciation: Written を but pronounced \"o\" (same as お)\n\n本を読む hon wo yomu \"read a book\" (book is the direct object)"
+      },
+      {
+        "level": 2,
+        "heading": "Main Uses",
+        "content": "",
+        "children": [
+          {
+            "level": 3,
+            "heading": "1. Direct Object of Action",
+            "content": "With transitive verbs:\n\n水を飲む - \"drink water\" 寿司を食べる - \"eat sushi\" 映画を見る - \"watch a movie\" 音楽を聞く - \"listen to music\" 手紙を書く - \"write a letter\""
+          },
+          {
+            "level": 3,
+            "heading": "2. Movement Through Space",
+            "content": "Mark the space you move through:\n\n道を歩く - \"walk along the road\" 橋を渡る - \"cross the bridge\" 空を飛ぶ - \"fly through the sky\" 公園を散歩する - \"stroll through the park\""
+          },
+          {
+            "level": 3,
+            "heading": "3. Point of Departure",
+            "content": "With 出る (leave):\n\n家を出る - \"leave the house\" 会社を出る - \"leave the company\""
+          }
+        ]
+      },
+      {
+        "level": 2,
+        "heading": "を vs Other Particles",
+        "content": "",
+        "children": [
+          {
+            "level": 3,
+            "heading": "を vs が",
+            "content": "本を読む - \"read a book\" (action on object) 本がある - \"there is a book\" (existence) 本が好き - \"like books\" (が with 好き)"
+          },
+          {
+            "level": 3,
+            "heading": "を vs に",
+            "content": "学校を出る - \"leave school\" (departure point) 学校に行く - \"go to school\" (destination)"
+          },
+          {
+            "level": 3,
+            "heading": "を vs で",
+            "content": "本を読む - \"read a book\" (object) 図書館で読む - \"read at library\" (location)"
+          }
+        ]
+      },
+      {
+        "level": 2,
+        "heading": "Common Verbs with を",
+        "content": "",
+        "children": [
+          {
+            "level": 3,
+            "heading": "Consumption",
+            "content": "食べる - eat 飲む - drink"
+          },
+          {
+            "level": 3,
+            "heading": "Perception",
+            "content": "見る - see/watch 聞く - hear/listen"
+          },
+          {
+            "level": 3,
+            "heading": "Communication",
+            "content": "読む - read 書く - write 話す - speak 言う - say"
+          },
+          {
+            "level": 3,
+            "heading": "Actions",
+            "content": "買う - buy 売る - sell 作る - make する - do 開ける - open 閉める - close"
+          }
+        ]
+      },
+      {
+        "level": 2,
+        "heading": "Cannot Use を With",
+        "content": "",
+        "children": [
+          {
+            "level": 3,
+            "heading": "Intransitive Verbs",
+            "content": "✗ 家をある (exist) ✓ 家がある ✗ 公園をいる (exist/be) ✓ 公園にいる"
+          },
+          {
+            "level": 3,
+            "heading": "State Verbs",
+            "content": "✗ 寿司を好き ✓ 寿司が好き ✗ 日本語をできる ✓ 日本語ができる"
+          },
+          {
+            "level": 3,
+            "heading": "Destination (use に)",
+            "content": "✗ 学校を行く ✓ 学校に行く"
+          }
+        ]
+      },
+      {
+        "level": 2,
+        "heading": "Omitting を",
+        "content": "In casual speech, を is often dropped:\n\nFormal: 水を飲む Casual: 水飲む \"drink water\" Formal: 本を読んだ Casual: 本読んだ \"read a book\""
+      },
+      {
+        "level": 2,
+        "heading": "Multiple を Objects",
+        "content": "Some compound verbs take multiple を:\n\n手を洗う - \"wash hands\" 席を立つ - \"leave one's seat\" 時間を過ごす - \"spend time\""
+      },
+      {
+        "level": 2,
+        "heading": "を with Movement Verbs",
+        "content": "Special usage with movement through space:\n\n角を曲がる - \"turn the corner\" 階段を上る - \"go up stairs\" 階段を下りる - \"go down stairs\""
+      },
+      {
+        "level": 2,
+        "heading": "Transitive vs Intransitive",
+        "content": "Many verbs come in pairs:\n\n| Transitive (を) | Intransitive (が) | | --------------- | ----------------- | | 開ける (open) | 開く (open) | | 閉める (close) | 閉まる (close) | | 始める (begin) | 始まる (begin) |\n\nドアを開ける - \"open the door\" (action) ドアが開く - \"the door opens\" (state change)"
+      },
+      {
+        "level": 2,
+        "heading": "Common Patterns",
+        "content": "[Object] を [Verb] 本を読みます - \"read a book\" コーヒーを飲みます - \"drink coffee\" 日本語を勉強します - \"study Japanese\"\n\nWith location:\n\n[Place] で [Object] を [Verb] 図書館で本を読みます \"read a book at the library\""
+      },
+      {
+        "level": 2,
+        "heading": "Key Takeaways",
+        "content": "✓ Marks direct object of action ✓ Written を, pronounced \"o\" ✓ With transitive verbs only ✓ Cannot use with 好き/できる/ある ✓ Often dropped in casual speech ✓ Also marks movement through space\n\nRelated:\n\nに (ni) - Location/Direction で (de) - Location/Means Transitive vs Intransitive",
+        "children": [
+          {
+            "level": 3,
+            "heading": "Company",
+            "content": "About Pricing Blog Contact"
+          },
+          {
+            "level": 3,
+            "heading": "Legal",
+            "content": "Privacy Policy Terms of Service Cookie Policy"
+          }
+        ]
+      }
+    ],
+    "examples": [
+      {
+        "sentence": "に (ni) - Location/Direction"
+      },
+      {
+        "sentence": "で (de) - Location/Means"
+      },
+      {
+        "sentence": "Transitive vs Intransitive"
+      },
+      {
+        "sentence": "About"
+      },
+      {
+        "sentence": "Pricing"
+      },
+      {
+        "sentence": "Blog"
+      },
+      {
+        "sentence": "Contact"
+      },
+      {
+        "sentence": "Privacy Policy"
+      },
+      {
+        "sentence": "Terms of Service"
+      },
+      {
+        "sentence": "Cookie Policy"
+      }
+    ]
+  },
+  "metadata": {
+    "extracted_at": "2026-01-01T22:19:33.292255800Z",
+    "duration_ms": 3,
+    "extractors_matched": [
+      "metadata",
+      "examples",
+      "sections"
+    ],
+    "extractors_failed": [
+      "vocab_tables",
+      "definitions",
+      "content_blocks"
+    ]
+  }
+}

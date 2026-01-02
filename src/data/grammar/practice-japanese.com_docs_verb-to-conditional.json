@@ -1,0 +1,354 @@
+{
+  "config_name": "Language Learning Extractor",
+  "url": "https://practice-japanese.com/docs/verb-to-conditional/",
+  "data": {
+    "examples": [
+      {
+        "sentence": "Result is automatic"
+      },
+      {
+        "sentence": "Result is inevitable"
+      },
+      {
+        "sentence": "Habitual/repeated action"
+      },
+      {
+        "sentence": "General truth"
+      },
+      {
+        "sentence": "Scientific fact"
+      },
+      {
+        "sentence": "Fixed sequence"
+      },
+      {
+        "sentence": "Ba-conditional"
+      },
+      {
+        "sentence": "Tara-conditional"
+      },
+      {
+        "sentence": "Dictionary Form"
+      },
+      {
+        "sentence": "About"
+      },
+      {
+        "sentence": "Pricing"
+      },
+      {
+        "sentence": "Blog"
+      },
+      {
+        "sentence": "Contact"
+      },
+      {
+        "sentence": "Privacy Policy"
+      },
+      {
+        "sentence": "Terms of Service"
+      },
+      {
+        "sentence": "Cookie Policy"
+      }
+    ],
+    "metadata": {
+      "title": "To-conditional (Automatic Result)"
+    },
+    "sections": [
+      {
+        "level": 2,
+        "heading": "What is To-conditional?",
+        "content": "と-conditional expresses automatic, inevitable, or habitual results. When A happens, B always/naturally happens.\n\n押すと、開く \"When you push, it opens\" (automatic result) 春になると、桜が咲く \"When spring comes, cherry blossoms bloom\" (natural/habitual)"
+      },
+      {
+        "level": 2,
+        "heading": "How to Form To-conditional",
+        "content": "Simple rule: Dictionary form + と\n\n食べる + と → 食べると (when eat) 行く + と → 行くと (when go) する + と → すると (when do)"
+      },
+      {
+        "level": 2,
+        "heading": "All Verb Groups",
+        "content": "",
+        "children": [
+          {
+            "level": 3,
+            "heading": "Ichidan Verbs",
+            "content": "食べる → 食べると (when eat) 見る → 見ると (when see) 寝る → 寝ると (when sleep) 起きる → 起きると (when wake up)"
+          },
+          {
+            "level": 3,
+            "heading": "Godan Verbs",
+            "content": "書く → 書くと (when write) 読む → 読むと (when read) 話す → 話すと (when speak) 買う → 買うと (when buy) 行く → 行くと (when go)"
+          },
+          {
+            "level": 3,
+            "heading": "Irregular Verbs",
+            "content": "する → すると (when do) 来る → 来ると (くると, kuruto) (when come)"
+          }
+        ]
+      },
+      {
+        "level": 2,
+        "heading": "Negative To-conditional",
+        "content": "Use ないと :\n\n食べる → 食べないと (when don't eat) 行く → 行かないと (when don't go) する → しないと (when don't do)"
+      },
+      {
+        "level": 2,
+        "heading": "Key Characteristics",
+        "content": "",
+        "children": [
+          {
+            "level": 3,
+            "heading": "1. Automatic/Natural Results",
+            "content": "このボタンを押すと、電気がつく \"When you press this button, the light turns on\" (automatic) 水を熱すると、沸騰する \"When you heat water, it boils\" (natural law) 右に曲がると、駅がある \"When you turn right, there's the station\" (fixed location)"
+          },
+          {
+            "level": 3,
+            "heading": "2. Habitual Actions",
+            "content": "朝起きると、コーヒーを飲む \"When I wake up in the morning, I drink coffee\" (habit) 家に帰ると、すぐシャワーを浴びる \"When I get home, I immediately take a shower\" (routine)"
+          },
+          {
+            "level": 3,
+            "heading": "3. General Truths",
+            "content": "冬になると、寒くなる \"When winter comes, it gets cold\" 春になると、花が咲く \"When spring comes, flowers bloom\" 夜になると、暗くなる \"When night comes, it gets dark\""
+          },
+          {
+            "level": 3,
+            "heading": "4. Discovery/Realization",
+            "content": "見ると、友達だった \"When I looked, it was my friend\" 聞くと、彼は日本人だった \"When I asked, he was Japanese\""
+          }
+        ]
+      },
+      {
+        "level": 2,
+        "heading": "When to Use と",
+        "content": "Use と when:\n\nResult is automatic Result is inevitable Habitual/repeated action General truth Scientific fact Fixed sequence"
+      },
+      {
+        "level": 2,
+        "heading": "と vs Other Conditionals",
+        "content": "| Form | Usage | Example | | ---- | ------------------ | --------------------------- | | と | Automatic result | 押すと開く (natural) | | たら | Specific condition | 押したら開いた (discovery) | | ば | General condition | 押せば開く (if push) | | なら | Topic condition | 押すなら (if going to push) |",
+        "children": [
+          {
+            "level": 3,
+            "heading": "Comparison Examples",
+            "content": "と: 春になると、桜が咲く \"When spring comes, cherry blossoms bloom\" (always happens, natural) たら: 春になったら、お花見に行こう \"When spring comes, let's go flower viewing\" (specific plan) ば: 春になれば、暖かくなる \"When spring comes, it gets warm\" (general condition)"
+          }
+        ]
+      },
+      {
+        "level": 2,
+        "heading": "Common Patterns",
+        "content": "",
+        "children": [
+          {
+            "level": 3,
+            "heading": "Directions",
+            "content": "まっすぐ行くと、駅がある \"When you go straight, there's the station\" 右に曲がると、郵便局が見える \"When you turn right, you can see the post office\" この道を行くと、学校に着く \"When you go down this road, you arrive at school\""
+          },
+          {
+            "level": 3,
+            "heading": "Cause and Effect",
+            "content": "たくさん食べると、太る \"When you eat a lot, you gain weight\" 勉強しないと、失敗する \"If you don't study, you'll fail\" 運動すると、健康になる \"When you exercise, you become healthy\""
+          },
+          {
+            "level": 3,
+            "heading": "Instructions/Warnings",
+            "content": "このボタンを押すと、始まる \"When you press this button, it starts\" ここを触ると、危ない \"When you touch here, it's dangerous\" このスイッチを入れると、動く \"When you flip this switch, it moves\""
+          }
+        ]
+      },
+      {
+        "level": 2,
+        "heading": "と with Time Expressions",
+        "content": "3時になると、店が閉まる \"When it becomes 3 o'clock, the store closes\" 夏になると、暑くなる \"When summer comes, it gets hot\" 夜になると、静かになる \"When night comes, it gets quiet\""
+      },
+      {
+        "level": 2,
+        "heading": "Restrictions on と",
+        "content": "",
+        "children": [
+          {
+            "level": 3,
+            "heading": "Cannot Use for:",
+            "content": "",
+            "children": [
+              {
+                "level": 4,
+                "heading": "1. Volitional Actions in Result Clause",
+                "content": "Wrong: 雨が降ると、傘を持って行く ❌ Right: 雨が降ったら、傘を持って行く ✓ \"If it rains, I'll bring an umbrella\" (volitional action = use たら)"
+              },
+              {
+                "level": 4,
+                "heading": "2. Commands/Requests",
+                "content": "Wrong: 家に着くと、電話してください ❌ Right: 家に着いたら、電話してください ✓ \"When you get home, please call\""
+              },
+              {
+                "level": 4,
+                "heading": "3. Past Tense in Result",
+                "content": "Wrong: 開けると、空だった ❌ Right: 開けたら、空だった ✓ \"When I opened it, it was empty\""
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "level": 2,
+        "heading": "と Conditional with Adjectives",
+        "content": "",
+        "children": [
+          {
+            "level": 3,
+            "heading": "い-adjectives",
+            "content": "暑い + と → 暑いと \"when it's hot\" 寒い + と → 寒いと \"when it's cold\" Example: 暑いと、アイスが食べたくなる \"When it's hot, I want to eat ice cream\""
+          },
+          {
+            "level": 3,
+            "heading": "な-adjectives",
+            "content": "静か + だと → 静かだと \"when it's quiet\" 便利 + だと → 便利だと \"when it's convenient\" Example: 静かだと、よく眠れる \"When it's quiet, I can sleep well\""
+          }
+        ]
+      },
+      {
+        "level": 2,
+        "heading": "Common Expressions",
+        "content": "",
+        "children": [
+          {
+            "level": 3,
+            "heading": "Daily Habits",
+            "content": "朝起きると、顔を洗う \"When I wake up, I wash my face\" 家に帰ると、手を洗う \"When I get home, I wash my hands\" 夜になると、眠くなる \"When night comes, I get sleepy\""
+          },
+          {
+            "level": 3,
+            "heading": "Natural Phenomena",
+            "content": "太陽が出ると、明るくなる \"When the sun comes out, it gets bright\" 雨が降ると、道が濡れる \"When it rains, the roads get wet\" 風が吹くと、寒く感じる \"When the wind blows, it feels cold\""
+          },
+          {
+            "level": 3,
+            "heading": "Cause-Effect",
+            "content": "お酒を飲むと、酔う \"When you drink alcohol, you get drunk\" たばこを吸うと、体に悪い \"When you smoke, it's bad for your body\" 野菜を食べると、健康にいい \"When you eat vegetables, it's good for your health\""
+          }
+        ]
+      },
+      {
+        "level": 2,
+        "heading": "Conversation Examples",
+        "content": "",
+        "children": [
+          {
+            "level": 3,
+            "heading": "Example 1: Giving Directions",
+            "content": "A: 駅はどこですか？ \"Where is the station?\" B: この道をまっすぐ行くと、右に見えます \"When you go straight on this road, you'll see it on the right\" A: どのくらいかかりますか？ \"How long does it take?\" B: 歩くと10分くらいです \"When you walk, about 10 minutes\""
+          },
+          {
+            "level": 3,
+            "heading": "Example 2: Explaining How Things Work",
+            "content": "A: これはどう使いますか？ \"How do you use this?\" B: この赤いボタンを押すと、電源が入ります \"When you press this red button, the power turns on\" A: 消すときは？ \"When turning it off?\" B: もう一度押すと、消えます \"When you press it again, it turns off\""
+          },
+          {
+            "level": 3,
+            "heading": "Example 3: Habits",
+            "content": "A: いつも朝何してる？ \"What do you always do in the morning?\" B: 起きると、まずコーヒーを飲む \"When I wake up, I first drink coffee\" A: その後は？ \"After that?\" B: シャワーを浴びると、出かける \"When I take a shower, I go out\""
+          }
+        ]
+      },
+      {
+        "level": 2,
+        "heading": "Common Mistakes",
+        "content": "",
+        "children": [
+          {
+            "level": 3,
+            "heading": "Mistake 1: Using と for Volitional Actions",
+            "content": "Wrong: 時間があると、映画を見に行く ❌ Right: 時間があったら、映画を見に行く ✓ \"If I have time, I'll go watch a movie\""
+          },
+          {
+            "level": 3,
+            "heading": "Mistake 2: Using Past in Result Clause",
+            "content": "Wrong: 家に帰ると、誰もいなかった ❌ Right: 家に帰ったら、誰もいなかった ✓ \"When I got home, no one was there\""
+          },
+          {
+            "level": 3,
+            "heading": "Mistake 3: Using for Commands",
+            "content": "Wrong: 終わると、教えてください ❌ Right: 終わったら、教えてください ✓ \"When you finish, please let me know\""
+          },
+          {
+            "level": 3,
+            "heading": "Mistake 4: Using with Suggestions",
+            "content": "Wrong: 明日雨だと、中止にしよう ❌ Right: 明日雨だったら、中止にしよう ✓ \"If it rains tomorrow, let's cancel\""
+          }
+        ]
+      },
+      {
+        "level": 2,
+        "heading": "When と is Perfect",
+        "content": "",
+        "children": [
+          {
+            "level": 3,
+            "heading": "Scientific Facts",
+            "content": "水を0度以下にすると、凍る \"When you lower water below 0 degrees, it freezes\" 鉄を熱すると、膨張する \"When you heat iron, it expands\""
+          },
+          {
+            "level": 3,
+            "heading": "Machine Instructions",
+            "content": "電源ボタンを押すと、起動する \"When you press the power button, it starts up\" このレバーを引くと、止まる \"When you pull this lever, it stops\""
+          },
+          {
+            "level": 3,
+            "heading": "Habitual Routines",
+            "content": "毎朝公園に行くと、犬の散歩をしている人がいる \"When I go to the park every morning, there are people walking dogs\" この店に来ると、いつも同じ店員がいる \"When I come to this store, the same clerk is always there\""
+          }
+        ]
+      },
+      {
+        "level": 2,
+        "heading": "と for Logical Sequence",
+        "content": "1 + 1をすると、2になる \"When you add 1 + 1, it becomes 2\" AボタンとBボタンを同時に押すと、リセットされる \"When you press A and B buttons simultaneously, it resets\""
+      },
+      {
+        "level": 2,
+        "heading": "Nuance Differences",
+        "content": "雨が降ると、濡れる (natural fact) \"When it rains, you get wet\" 雨が降れば、濡れる (general condition) \"If it rains, you get wet\" 雨が降ったら、濡れる (specific instance) \"If it rains, you'll get wet\"\n\nAll similar, but と emphasizes inevitability!"
+      },
+      {
+        "level": 2,
+        "heading": "Practice Sentences",
+        "content": "このドアを開けると、庭に出る \"When you open this door, you go out to the garden\" 春になると、花粉症になる \"When spring comes, I get hay fever\" 甘いものを食べると、太る \"When I eat sweet things, I gain weight\" この薬を飲むと、眠くなる \"When you take this medicine, you get sleepy\" 運動すると、気分が良くなる \"When I exercise, I feel better\" 右に曲がると、コンビニがある \"When you turn right, there's a convenience store\" 6時になると、帰宅する \"When it becomes 6 o'clock, I go home\" このボタンを押すと、音が鳴る \"When you press this button, a sound plays\""
+      },
+      {
+        "level": 2,
+        "heading": "Key Takeaways",
+        "content": "✓ と = dictionary form + と ✓ Automatic/inevitable results ✓ Natural phenomena and facts ✓ Habitual actions ✓ Cannot use for volitional actions ✓ Cannot use past in result clause ✓ Cannot use for commands ✓ Perfect for directions and instructions ✓ Emphasizes natural consequence\n\nMaster to-conditional - express automatic results!\n\nNext: Nara-conditional\n\nRelated:\n\nBa-conditional Tara-conditional Dictionary Form",
+        "children": [
+          {
+            "level": 3,
+            "heading": "Company",
+            "content": "About Pricing Blog Contact"
+          },
+          {
+            "level": 3,
+            "heading": "Legal",
+            "content": "Privacy Policy Terms of Service Cookie Policy"
+          }
+        ]
+      }
+    ]
+  },
+  "metadata": {
+    "extracted_at": "2026-01-01T22:19:37.522652200Z",
+    "duration_ms": 3,
+    "extractors_matched": [
+      "metadata",
+      "examples",
+      "sections"
+    ],
+    "extractors_failed": [
+      "vocab_tables",
+      "definitions",
+      "content_blocks"
+    ]
+  }
+}

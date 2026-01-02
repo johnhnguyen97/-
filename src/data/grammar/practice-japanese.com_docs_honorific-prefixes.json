@@ -1,0 +1,313 @@
+{
+  "config_name": "Language Learning Extractor",
+  "url": "https://practice-japanese.com/docs/honorific-prefixes/",
+  "data": {
+    "metadata": {
+      "title": "Honorific Prefixes (お/ご)"
+    },
+    "examples": [
+      {
+        "sentence": "About"
+      },
+      {
+        "sentence": "Pricing"
+      },
+      {
+        "sentence": "Blog"
+      },
+      {
+        "sentence": "Contact"
+      },
+      {
+        "sentence": "Privacy Policy"
+      },
+      {
+        "sentence": "Terms of Service"
+      },
+      {
+        "sentence": "Cookie Policy"
+      }
+    ],
+    "sections": [
+      {
+        "level": 2,
+        "heading": "Honorific Prefixes お and ご",
+        "content": "お (o) and ご (go) are honorific prefixes added to nouns, verbs, and adjectives to show respect or politeness. お is used with native Japanese words (wago), while ご is typically used with Chinese-origin words (kango). These prefixes beautify language and show consideration.\n\n名前 → お名前 \"name\" (polite) 住所 → ご住所 \"address\" (polite) 茶 → お茶 \"tea\" (polite)"
+      },
+      {
+        "level": 2,
+        "heading": "Basic Rules",
+        "content": "",
+        "children": [
+          {
+            "level": 3,
+            "heading": "お for native Japanese words",
+            "content": "お金 \"money\" お水 \"water\" お茶 \"tea\" お米 \"rice\" お酒 \"alcohol\" Japanese-origin words kun-reading"
+          },
+          {
+            "level": 3,
+            "heading": "ご for Chinese-origin words",
+            "content": "ご住所 \"address\" ご家族 \"family\" ご意見 \"opinion\" ご質問 \"question\" ご説明 \"explanation\" Chinese-origin words on-reading"
+          }
+        ]
+      },
+      {
+        "level": 2,
+        "heading": "Common お Words",
+        "content": "",
+        "children": [
+          {
+            "level": 3,
+            "heading": "Daily items",
+            "content": "お金 \"money\" お水 \"water\" お茶 \"tea\" お米 \"rice\" お箸 \"chopsticks\" お皿 \"plate\" お椀 \"bowl\" Everyday polite words"
+          },
+          {
+            "level": 3,
+            "heading": "Body and personal",
+            "content": "お名前 \"name\" お体 \"body/health\" お顔 \"face\" お手 \"hand\" お腹 \"stomach\" Personal items"
+          },
+          {
+            "level": 3,
+            "heading": "Time and occasions",
+            "content": "お正月 \"New Year\" お誕生日 \"birthday\" お休み \"holiday/rest\" お昼 \"lunch/noon\" お時間 \"time\" Time-related"
+          }
+        ]
+      },
+      {
+        "level": 2,
+        "heading": "Common ご Words",
+        "content": "",
+        "children": [
+          {
+            "level": 3,
+            "heading": "Information",
+            "content": "ご住所 \"address\" ご連絡 \"contact\" ご意見 \"opinion\" ご質問 \"question\" ご説明 \"explanation\" ご報告 \"report\" Formal information"
+          },
+          {
+            "level": 3,
+            "heading": "Family and people",
+            "content": "ご家族 \"family\" ご両親 \"parents\" ご主人 \"husband\" ご結婚 \"marriage\" Family terms"
+          },
+          {
+            "level": 3,
+            "heading": "Abstract concepts",
+            "content": "ご心配 \"worry\" ご安心 \"relief\" ご了承 \"understanding\" ご協力 \"cooperation\" Abstract nouns"
+          }
+        ]
+      },
+      {
+        "level": 2,
+        "heading": "With Verbs",
+        "content": "",
+        "children": [
+          {
+            "level": 3,
+            "heading": "お + Verb Stem + する (humble)",
+            "content": "お送りする \"send\" お持ちする \"carry\" お待ちする \"wait\" お聞きする \"ask\" Your action for superior Humble form"
+          },
+          {
+            "level": 3,
+            "heading": "お + Verb Stem + になる (respectful)",
+            "content": "お読みになる \"read\" お書きになる \"write\" お帰りになる \"return\" お待ちになる \"wait\" Superior's action Respectful form"
+          },
+          {
+            "level": 3,
+            "heading": "お + Verb Stem + ください",
+            "content": "お待ちください \"please wait\" お座りください \"please sit\" お入りください \"please come in\" お読みください \"please read\" Polite requests"
+          }
+        ]
+      },
+      {
+        "level": 2,
+        "heading": "Beautification お/ご",
+        "content": "",
+        "children": [
+          {
+            "level": 3,
+            "heading": "Not always honorific",
+            "content": "お茶 \"tea\" (standard, not honorific) お米 \"rice\" (standard) お金 \"money\" (standard) お風呂 \"bath\" (standard) Fixed expressions General politeness"
+          },
+          {
+            "level": 3,
+            "heading": "Feminine speech",
+            "content": "Women tend to use more: お野菜 \"vegetables\" お料理 \"cooking\" おトイレ \"toilet\" Softens speech More common for women"
+          }
+        ]
+      },
+      {
+        "level": 2,
+        "heading": "When NOT to Use",
+        "content": "",
+        "children": [
+          {
+            "level": 3,
+            "heading": "Your own possessions",
+            "content": "Unnatural: 私のご家族 ⚠️ Natural: 私の家族 ✓ \"My family\" Don't elevate your own Exception: fixed expressions"
+          },
+          {
+            "level": 3,
+            "heading": "Already polite words",
+            "content": "Don't add: 先生 (already respectful) Wrong: お先生 ⚠️ Inherently respectful words No prefix needed"
+          },
+          {
+            "level": 3,
+            "heading": "Foreign loanwords",
+            "content": "Usually no prefix: コーヒー \"coffee\" (no お) パン \"bread\" (no お) Exception: some fixed words おビール \"beer\" (casual, feminine)"
+          }
+        ]
+      },
+      {
+        "level": 2,
+        "heading": "With Adjectives",
+        "content": "",
+        "children": [
+          {
+            "level": 3,
+            "heading": "お + i-adjective stem",
+            "content": "忙しい → お忙しい \"busy\" 若い → お若い \"young\" 元気 → お元気 \"healthy/energetic\" お忙しいところ... \"When you're busy...\" Respectful description"
+          }
+        ]
+      },
+      {
+        "level": 2,
+        "heading": "Fixed Expressions",
+        "content": "",
+        "children": [
+          {
+            "level": 3,
+            "heading": "Common set phrases",
+            "content": "お疲れ様です \"thank you for your work\" お世話になります \"thank you for your help\" お大事に \"take care\" お待たせしました \"sorry to keep you waiting\" お願いします \"please\" お邪魔します \"excuse me for intruding\" Fixed polite expressions"
+          }
+        ]
+      },
+      {
+        "level": 2,
+        "heading": "Business お/ご",
+        "content": "",
+        "children": [
+          {
+            "level": 3,
+            "heading": "Professional terms",
+            "content": "お名刺 \"business card\" ご確認 \"confirmation\" ご検討 \"consideration\" ご提案 \"proposal\" お見積もり \"estimate\" Business vocabulary"
+          }
+        ]
+      },
+      {
+        "level": 2,
+        "heading": "Exceptions and Irregulars",
+        "content": "",
+        "children": [
+          {
+            "level": 3,
+            "heading": "Words that take お (Chinese origin)",
+            "content": "お電話 \"telephone\" お勉強 \"study\" お料理 \"cooking\" Exceptions to the rule Common usage"
+          },
+          {
+            "level": 3,
+            "heading": "Words that never take prefix",
+            "content": "No prefix: 会社 \"company\" (not お会社) 学校 \"school\" (not お学校) 病院 \"hospital\" (not お病院) Institutional words"
+          }
+        ]
+      },
+      {
+        "level": 2,
+        "heading": "Regional Differences",
+        "content": "",
+        "children": [
+          {
+            "level": 3,
+            "heading": "Kansai dialect",
+            "content": "More お usage: おいしい → おいしい (standard) おもしろい → おもろい (Kansai) Regional variation"
+          }
+        ]
+      },
+      {
+        "level": 2,
+        "heading": "Respectful Possession",
+        "content": "",
+        "children": [
+          {
+            "level": 3,
+            "heading": "Other's possessions",
+            "content": "お名前 \"your name\" ご家族 \"your family\" お車 \"your car\" ご住所 \"your address\" Their belongings Shows respect"
+          }
+        ]
+      },
+      {
+        "level": 2,
+        "heading": "Common Mistakes",
+        "content": "",
+        "children": [
+          {
+            "level": 3,
+            "heading": "Wrong prefix choice",
+            "content": "Wrong: お住所 ⚠️ Correct: ご住所 ✓ \"Address\" Chinese origin = ご"
+          },
+          {
+            "level": 3,
+            "heading": "Over-using prefixes",
+            "content": "Unnatural: お私のお家 ⚠️ Natural: 私の家 ✓ \"My house\" Don't overdo it"
+          },
+          {
+            "level": 3,
+            "heading": "With own things (except fixed)",
+            "content": "Wrong: 私のお名前 ⚠️ Correct: 私の名前 ✓ \"My name\" Your own = no prefix"
+          }
+        ]
+      },
+      {
+        "level": 2,
+        "heading": "Deciding お or ご",
+        "content": "",
+        "children": [
+          {
+            "level": 3,
+            "heading": "Quick test",
+            "content": "Native Japanese reading? → お お茶 (cha - kun-reading) Chinese reading? → ご ご家族 (kazoku - on-reading) Listen to the reading"
+          }
+        ]
+      },
+      {
+        "level": 2,
+        "heading": "Practice Examples",
+        "content": "",
+        "children": [
+          {
+            "level": 3,
+            "heading": "Basic",
+            "content": "お名前をお願いします。 \"Your name, please.\" ご質問がありますか。 \"Do you have questions?\" お茶をどうぞ。 \"Please have tea.\" ご住所をお聞きしてもよろしいですか。 \"May I ask your address?\" お疲れ様です。 \"Thank you for your work.\""
+          },
+          {
+            "level": 3,
+            "heading": "Intermediate",
+            "content": "お忙しいところ申し訳ございませんが、 少々お時間をいただけますでしょうか。 ご相談したいことがございます。 \"I'm sorry to bother you when you're busy, but could I have a moment of your time? There's something I'd like to consult about.\" 本日はご来店いただき、 ありがとうございます。お名前と ご連絡先をお伺いしてもよろしいですか。 \"Thank you for visiting our store today. May I ask your name and contact information?\" ご注文の商品をお届けに 参りました。お時間は 大丈夫でしょうか。 \"I've come to deliver your ordered product. Is the time convenient?\""
+          },
+          {
+            "level": 3,
+            "heading": "Company",
+            "content": "About Pricing Blog Contact"
+          },
+          {
+            "level": 3,
+            "heading": "Legal",
+            "content": "Privacy Policy Terms of Service Cookie Policy"
+          }
+        ]
+      }
+    ]
+  },
+  "metadata": {
+    "extracted_at": "2026-01-01T22:19:29.801978100Z",
+    "duration_ms": 4,
+    "extractors_matched": [
+      "metadata",
+      "examples",
+      "sections"
+    ],
+    "extractors_failed": [
+      "vocab_tables",
+      "definitions",
+      "content_blocks"
+    ]
+  }
+}

@@ -1,0 +1,437 @@
+{
+  "config_name": "Language Learning Extractor",
+  "url": "https://practice-japanese.com/docs/tatte/",
+  "data": {
+    "sections": [
+      {
+        "level": 2,
+        "heading": "What is 〜たって?",
+        "content": "〜たって is the casual equivalent of ても, meaning \"even if\" or \"even though.\" It's used in informal conversation to express concession or contrast.\n\n雨が降ったって、行くよ \"Even if it rains, I'll go\" お金がなくたって、幸せだ \"Even without money, I'm happy\" 誰が何と言ったって、やめない \"No matter what anyone says, I won't stop\""
+      },
+      {
+        "level": 2,
+        "heading": "Formation",
+        "content": "",
+        "children": [
+          {
+            "level": 3,
+            "heading": "Pattern: Plain form + って",
+            "content": "With verbs:\n\nDictionary form: 行く → 行くたって / 行ったって た-form: 行った → 行ったって Negative: 行かない → 行かなくたって\n\nWith い-adjectives:\n\n高い → 高くたって (Even if it's expensive) 良い → 良くたって (Even if it's good) ない → なくたって (Even without)\n\nWith な-adjectives and nouns:\n\n静か → 静かだって (Even if it's quiet) 学生 → 学生だって (Even if (you're) a student)"
+          }
+        ]
+      },
+      {
+        "level": 2,
+        "heading": "Basic Usage",
+        "content": "",
+        "children": [
+          {
+            "level": 3,
+            "heading": "Casual determination",
+            "content": "疲れたって、頑張る \"Even if I'm tired, I'll try hard\" 難しくたって、やる \"Even if it's difficult, I'll do it\" 一人だって、大丈夫 \"Even if I'm alone, I'm okay\""
+          },
+          {
+            "level": 3,
+            "heading": "Showing contrast casually",
+            "content": "高くたって、買うよ \"Even if it's expensive, I'll buy it\" 遠くたって、会いに行く \"Even if it's far, I'll go see you\" 下手だって、楽しい \"Even if I'm bad at it, it's fun\""
+          }
+        ]
+      },
+      {
+        "level": 2,
+        "heading": "たって vs ても",
+        "content": "",
+        "children": [
+          {
+            "level": 3,
+            "heading": "たって - Casual",
+            "content": "雨が降ったって、行くよ \"Even if it rains, I'll go\" Used with friends, family Conversational"
+          },
+          {
+            "level": 3,
+            "heading": "ても - Polite/neutral",
+            "content": "雨が降っても、行きます \"Even if it rains, I'll go\" Standard polite More formal"
+          },
+          {
+            "level": 3,
+            "heading": "Same meaning, different register",
+            "content": "Both express concession Choose based on relationship たって = casual conversation ても = polite/written"
+          }
+        ]
+      },
+      {
+        "level": 2,
+        "heading": "Common Conversations",
+        "content": "",
+        "children": [
+          {
+            "level": 3,
+            "heading": "Example 1: Between Friends",
+            "content": "A: 明日、寒いらしいよ \"I heard it'll be cold tomorrow\" B: 寒くたって、行くよ。楽しみなんだ \"Even if it's cold, I'll go. I'm looking forward to it\" A: じゃあ、一緒に行こう \"Then let's go together\""
+          },
+          {
+            "level": 3,
+            "heading": "Example 2: Showing Determination",
+            "content": "A: そんなの無理だよ \"That's impossible\" B: 無理だって言われたって、やってみる \"Even if people say it's impossible, I'll try\" A: 頑張れ！ \"Do your best!\""
+          },
+          {
+            "level": 3,
+            "heading": "Example 3: Casual Comfort",
+            "content": "A: 失敗しちゃった... \"I failed...\" B: 失敗したって、大丈夫だよ。次頑張ろう \"Even if you failed, it's okay. Let's try hard next time\""
+          }
+        ]
+      },
+      {
+        "level": 2,
+        "heading": "Common Mistakes",
+        "content": "",
+        "children": [
+          {
+            "level": 3,
+            "heading": "Mistake 1: Using in formal situations",
+            "content": "Too casual: 雨が降ったって、行きます ⚠️ Better: 雨が降っても、行きます ✓ \"Even if it rains, I'll go\" たって is too casual for polite contexts!"
+          },
+          {
+            "level": 3,
+            "heading": "Mistake 2: Wrong formation",
+            "content": "Wrong: 行きたって ❌ Right: 行くたって / 行ったって ✓ \"Even if (you) go\" Use plain form + って!"
+          },
+          {
+            "level": 3,
+            "heading": "Mistake 3: Confusing with って (quotation)",
+            "content": "Quote: 彼が「行く」って言った \"He said 'I'll go'\" Concession: 彼が行くたって、私は行かない \"Even if he goes, I won't go\" Different uses of って!"
+          }
+        ]
+      },
+      {
+        "level": 2,
+        "heading": "Expressing \"No Matter\" Casually",
+        "content": "",
+        "children": [
+          {
+            "level": 3,
+            "heading": "どんなに～たって",
+            "content": "どんなに頑張ったって、無理だ \"No matter how hard I try, it's impossible\" どんなに待ったって、来ないよ \"No matter how long I wait, they won't come\""
+          },
+          {
+            "level": 3,
+            "heading": "いくら～たって",
+            "content": "いくらお金があったって、幸せになれない \"No matter how much money you have, you can't be happy\" いくら言ったって、聞かないんだから \"No matter how much I say, they don't listen\""
+          },
+          {
+            "level": 3,
+            "heading": "何度～たって",
+            "content": "何度やったって、できないよ \"No matter how many times I do it, I can't\" 何度見たって、飽きない \"No matter how many times I see it, I don't get tired of it\""
+          }
+        ]
+      },
+      {
+        "level": 2,
+        "heading": "WH-word + だって",
+        "content": "",
+        "children": [
+          {
+            "level": 3,
+            "heading": "誰だって (anyone/everyone)",
+            "content": "誰だって間違える \"Anyone makes mistakes\" 誰だって休みたい時がある \"Everyone has times when they want to rest\" そんなこと、誰だって知ってる \"Everyone knows that\""
+          },
+          {
+            "level": 3,
+            "heading": "何だって (anything/whatever)",
+            "content": "何だって食べるよ \"I'll eat anything\" 何だってできる \"I can do anything\" 何だって言ってね \"Tell me anything\""
+          },
+          {
+            "level": 3,
+            "heading": "どこだって (anywhere/wherever)",
+            "content": "どこだって行くよ \"I'll go anywhere\" どこだって同じだ \"It's the same anywhere\""
+          },
+          {
+            "level": 3,
+            "heading": "いつだって (anytime/always)",
+            "content": "いつだって待ってるよ \"I'm always waiting\" いつだって君の味方だ \"I'm always on your side\""
+          }
+        ]
+      },
+      {
+        "level": 2,
+        "heading": "Negative たって",
+        "content": "",
+        "children": [
+          {
+            "level": 3,
+            "heading": "～なくたって",
+            "content": "お金がなくたって、幸せだよ \"Even without money, I'm happy\" 勉強しなくたって、分かる \"Even without studying, I understand\" 言わなくたって、分かってる \"Even without saying it, I know\""
+          }
+        ]
+      },
+      {
+        "level": 2,
+        "heading": "Showing Strong Feelings",
+        "content": "",
+        "children": [
+          {
+            "level": 3,
+            "heading": "Emphatic expressions",
+            "content": "そんなこと言われたって、知らないよ！ \"Even if you say that, I don't know!\" 嫌だって言ったって、やらなきゃいけない \"Even if you say you don't want to, you have to do it\" どうしたって無理なんだ \"No matter what, it's impossible\""
+          }
+        ]
+      },
+      {
+        "level": 2,
+        "heading": "Casual Complaints",
+        "content": "",
+        "children": [
+          {
+            "level": 3,
+            "heading": "Expressing frustration",
+            "content": "頑張ったって、認めてくれない \"Even though I try hard, they don't recognize it\" 謝ったって、許してくれない \"Even though I apologized, they won't forgive me\" 何度言ったって、分かってくれない \"No matter how many times I say it, they don't understand\""
+          }
+        ]
+      },
+      {
+        "level": 2,
+        "heading": "だって alone (Because/But)",
+        "content": "",
+        "children": [
+          {
+            "level": 3,
+            "heading": "Starting sentences",
+            "content": "だって、忙しいんだもん \"Because I'm busy\" だって、行きたくないんだもん \"But I don't want to go\" Common casual response"
+          },
+          {
+            "level": 3,
+            "heading": "Different from たって",
+            "content": "たって: 忙しくたって、行く \"Even though I'm busy, I'll go\" (concession) だって: だって忙しいんだもん \"Because I'm busy\" (reason) Different meanings!"
+          }
+        ]
+      },
+      {
+        "level": 2,
+        "heading": "たとえ～たって (Even if - emphatic)",
+        "content": "",
+        "children": [
+          {
+            "level": 3,
+            "heading": "Adding emphasis",
+            "content": "たとえ一人だったって、やる \"Even if I'm alone, I'll do it\" たとえ失敗したって、後悔しない \"Even if I fail, I won't regret it\" More emphatic than just たって"
+          }
+        ]
+      },
+      {
+        "level": 2,
+        "heading": "Common Casual Patterns",
+        "content": "",
+        "children": [
+          {
+            "level": 3,
+            "heading": "～たってさ",
+            "content": "雨が降ったってさ、行くでしょ \"Even if it rains, you'll go, right?\" Adding さ for emphasis/casualness"
+          },
+          {
+            "level": 3,
+            "heading": "～たってば",
+            "content": "分かってるたってば！ \"I know even if you say so!\" Showing frustration/emphasis"
+          }
+        ]
+      },
+      {
+        "level": 2,
+        "heading": "Expressing Unchanging Feelings",
+        "content": "",
+        "children": [
+          {
+            "level": 3,
+            "heading": "Despite circumstances",
+            "content": "どんなに時間が経ったって、忘れない \"No matter how much time passes, I won't forget\" 離れていたって、友達だよ \"Even if we're apart, we're friends\" 年を取ったって、夢は持ち続ける \"Even if I get old, I'll keep holding dreams\""
+          }
+        ]
+      },
+      {
+        "level": 2,
+        "heading": "With Emotional Context",
+        "content": "",
+        "children": [
+          {
+            "level": 3,
+            "heading": "Personal statements",
+            "content": "みんなが反対したって、私は行く \"Even if everyone opposes, I'll go\" 誰も信じなくたって、私は信じる \"Even if no one believes, I believe\" 一人ぼっちだって、平気だもん \"Even if I'm all alone, I'm fine\""
+          }
+        ]
+      },
+      {
+        "level": 2,
+        "heading": "Showing Limits",
+        "content": "",
+        "children": [
+          {
+            "level": 3,
+            "heading": "Maximum extent",
+            "content": "多くたって5人 \"At most 5 people\" 高くたって1000円 \"At most 1000 yen\" 遅くたって8時まで \"By 8 o'clock at the latest\""
+          }
+        ]
+      },
+      {
+        "level": 2,
+        "heading": "In Arguments",
+        "content": "",
+        "children": [
+          {
+            "level": 3,
+            "heading": "Defensive responses",
+            "content": "A: ちゃんと勉強した？ \"Did you study properly?\" B: 勉強したって！ \"I did study!\" (defensive) A: 本当に？ \"Really?\""
+          }
+        ]
+      },
+      {
+        "level": 2,
+        "heading": "Comparing Formality",
+        "content": "",
+        "children": [
+          {
+            "level": 3,
+            "heading": "Same sentence, different levels",
+            "content": "Most casual: 雨が降ったって、行くよ (たって) Casual-polite: 雨が降っても、行くよ (ても) Polite: 雨が降っても、行きます (ても + ます) Formal: 雨天であっても、実施いたします"
+          }
+        ]
+      },
+      {
+        "level": 2,
+        "heading": "Usage Context",
+        "content": "",
+        "children": [
+          {
+            "level": 3,
+            "heading": "When to use たって",
+            "content": "✓ Talking to friends ✓ Talking to family ✓ Casual conversation ✓ Expressing personal feelings ✓ Showing emotion ✓ Complaining casually"
+          },
+          {
+            "level": 3,
+            "heading": "When NOT to use たって",
+            "content": "✗ Business emails ✗ Formal presentations ✗ Speaking to superiors ✗ Official documents ✗ First meetings ✗ Customer service"
+          }
+        ]
+      },
+      {
+        "level": 2,
+        "heading": "Emotional Expressions",
+        "content": "",
+        "children": [
+          {
+            "level": 3,
+            "heading": "Strong feelings",
+            "content": "好きだったって、言えなかった \"Even though I liked you, I couldn't say it\" 辛くたって、笑顔でいる \"Even though it's hard, I keep smiling\" 一人だったって、寂しくない！ \"Even if I'm alone, I'm not lonely!\""
+          }
+        ]
+      },
+      {
+        "level": 2,
+        "heading": "Common Phrases",
+        "content": "",
+        "children": [
+          {
+            "level": 3,
+            "heading": "Everyday expressions",
+            "content": "そんなこと言われたって... \"Even if you say that...\" 知らなくたっていいじゃん \"It's okay even if you don't know\" できなくたって、いいよ \"It's okay even if you can't do it\" 誰だって失敗する \"Everyone fails\""
+          }
+        ]
+      },
+      {
+        "level": 2,
+        "heading": "Practice Sentences",
+        "content": "",
+        "children": [
+          {
+            "level": 3,
+            "heading": "Basic",
+            "content": "疲れたって、頑張るよ \"Even if I'm tired, I'll try hard\" 高くたって、買う \"Even if it's expensive, I'll buy it\" 一人だって、平気 \"Even if I'm alone, I'm fine\""
+          },
+          {
+            "level": 3,
+            "heading": "Intermediate",
+            "content": "どんなに忙しくたって、家族との時間は大切にしたい \"No matter how busy I am, I want to cherish time with family\" みんなが反対したって、自分の夢は諦めない \"Even if everyone opposes, I won't give up my dream\" 失敗したって、もう一度挑戦すればいいじゃん \"Even if you fail, you can just challenge again, right?\""
+          },
+          {
+            "level": 3,
+            "heading": "Advanced",
+            "content": "たとえこの世界が終わったって、君のことは 忘れない。どんなに時間が経ったって、 この気持ちは変わらないよ。 \"Even if this world ends, I won't forget you. No matter how much time passes, these feelings won't change.\" 誰が何と言おうが、自分の人生なんだから、 好きに生きたっていいじゃないか。 後悔しないように、今を大切に生きよう。 \"No matter what anyone says, it's your life, so it's okay to live as you like, right? Let's live cherishing the present so we won't regret it.\""
+          }
+        ]
+      },
+      {
+        "level": 2,
+        "heading": "Related Grammar Points",
+        "content": "〜ても - Even if (polite) だって - Because/but (casual) 〜たって〜ても - Comparison Casual Japanese - Informal speech Concession - Expressing contrast って particle - Quotation and other uses",
+        "children": [
+          {
+            "level": 3,
+            "heading": "Company",
+            "content": "About Pricing Blog Contact"
+          },
+          {
+            "level": 3,
+            "heading": "Legal",
+            "content": "Privacy Policy Terms of Service Cookie Policy"
+          }
+        ]
+      }
+    ],
+    "examples": [
+      {
+        "sentence": "〜ても - Even if (polite)"
+      },
+      {
+        "sentence": "だって - Because/but (casual)"
+      },
+      {
+        "sentence": "〜たって〜ても - Comparison"
+      },
+      {
+        "sentence": "Casual Japanese - Informal speech"
+      },
+      {
+        "sentence": "Concession - Expressing contrast"
+      },
+      {
+        "sentence": "って particle - Quotation and other uses"
+      },
+      {
+        "sentence": "About"
+      },
+      {
+        "sentence": "Pricing"
+      },
+      {
+        "sentence": "Blog"
+      },
+      {
+        "sentence": "Contact"
+      },
+      {
+        "sentence": "Privacy Policy"
+      },
+      {
+        "sentence": "Terms of Service"
+      },
+      {
+        "sentence": "Cookie Policy"
+      }
+    ],
+    "metadata": {
+      "title": "〜たって (Even if - casual)"
+    }
+  },
+  "metadata": {
+    "extracted_at": "2026-01-01T22:19:35.317217700Z",
+    "duration_ms": 3,
+    "extractors_matched": [
+      "metadata",
+      "examples",
+      "sections"
+    ],
+    "extractors_failed": [
+      "vocab_tables",
+      "definitions",
+      "content_blocks"
+    ]
+  }
+}

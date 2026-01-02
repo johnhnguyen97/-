@@ -1,0 +1,274 @@
+{
+  "config_name": "Language Learning Extractor",
+  "url": "https://practice-japanese.com/docs/indirect-passive/",
+  "data": {
+    "examples": [
+      {
+        "sentence": "About"
+      },
+      {
+        "sentence": "Pricing"
+      },
+      {
+        "sentence": "Blog"
+      },
+      {
+        "sentence": "Contact"
+      },
+      {
+        "sentence": "Privacy Policy"
+      },
+      {
+        "sentence": "Terms of Service"
+      },
+      {
+        "sentence": "Cookie Policy"
+      }
+    ],
+    "metadata": {
+      "title": "Indirect Passive (Suffering)"
+    },
+    "sections": [
+      {
+        "level": 2,
+        "heading": "Indirect Passive (Suffering)",
+        "content": "Indirect passive (間接受身) or suffering passive (迷惑の受身) expresses being indirectly affected by someone else's action, usually negatively. This is unique to Japanese and has no direct English equivalent.\n\n雨に降られた \"Was rained on\" = \"It rained on me (unfortunate)\" Not literal passive Expresses being affected Usually negative impact Japanese-specific structure"
+      },
+      {
+        "level": 2,
+        "heading": "Key Difference from Direct",
+        "content": "",
+        "children": [
+          {
+            "level": 3,
+            "heading": "Indirect nature",
+            "content": "Direct passive: 財布が盗まれた \"Wallet was stolen\" Wallet is directly stolen Indirect passive: (私が)財布を盗まれた \"I had my wallet stolen\" I am affected by stealing Different focus Different structure Different feeling"
+          }
+        ]
+      },
+      {
+        "level": 2,
+        "heading": "Formation",
+        "content": "",
+        "children": [
+          {
+            "level": 3,
+            "heading": "Same conjugation, different structure",
+            "content": "Same られる/れる forms: 死ぬ → 死なれる 降る → 降られる 来る → 来られる But sentence structure different Subject is affected person Original action remains"
+          }
+        ]
+      },
+      {
+        "level": 2,
+        "heading": "Basic Pattern",
+        "content": "",
+        "children": [
+          {
+            "level": 3,
+            "heading": "Structure",
+            "content": "[Affected person]が [Agent]に [Action]られる 私が弟に泣かれた \"I was cried to by brother\" = \"My brother cried (and it affected me)\" 母が父に死なれた \"Mother had father die on her\" = \"Father died (affecting mother)\" Experiencer is subject Agent marked by に No direct object transformation"
+          }
+        ]
+      },
+      {
+        "level": 2,
+        "heading": "With Intransitive Verbs",
+        "content": "",
+        "children": [
+          {
+            "level": 3,
+            "heading": "Can make \"passive\"",
+            "content": "Unlike direct passive: 来る → 来られる 友達に来られた \"Friend came (at bad time)\" 行く → 行かれる 先に行かれた \"(They) went ahead (leaving me behind)\" 降る → 降られる 雨に降られた \"Was rained on\" Intransitive verbs possible Expressing being affected Unique to indirect passive"
+          }
+        ]
+      },
+      {
+        "level": 2,
+        "heading": "Adversity Implied",
+        "content": "",
+        "children": [
+          {
+            "level": 3,
+            "heading": "Usually negative",
+            "content": "子供に泣かれた \"Child cried (causing me trouble)\" 隣の人にタバコを吸われた \"Neighbor smoked (bothering me)\" 犬に死なれた \"Dog died (on me)\" Inconvenience Trouble caused Negative impact Not always super negative But implies some difficulty"
+          }
+        ]
+      },
+      {
+        "level": 2,
+        "heading": "Possessive Relationship",
+        "content": "",
+        "children": [
+          {
+            "level": 3,
+            "heading": "With ownee",
+            "content": "私は財布を盗まれた \"I had my wallet stolen\" 弟は自転車を壊された \"Little brother had his bike broken\" 妻に逃げられた \"Had wife run away (on me)\" Affected person loses something Possession connection Personal impact"
+          }
+        ]
+      },
+      {
+        "level": 2,
+        "heading": "With Transitive Verbs",
+        "content": "",
+        "children": [
+          {
+            "level": 3,
+            "heading": "Object remains",
+            "content": "Structure: [Affected]が [Agent]に [Object]を [Verb]られる 私が泥棒に財布を盗まれた \"I had my wallet stolen by thief\" 姉がいとこにCDを借りられた \"Sister had her CD borrowed by cousin\" Object kept in sentence を remains Additional layer of passivity"
+          }
+        ]
+      },
+      {
+        "level": 2,
+        "heading": "Weather and Nature",
+        "content": "",
+        "children": [
+          {
+            "level": 3,
+            "heading": "Common pattern",
+            "content": "雨に降られた \"Was rained on\" 雪に降られた \"Was snowed on\" 台風に来られた \"Typhoon came (at bad time)\" Natural phenomena Causing inconvenience Very common usage"
+          }
+        ]
+      },
+      {
+        "level": 2,
+        "heading": "Death and Separation",
+        "content": "",
+        "children": [
+          {
+            "level": 3,
+            "heading": "Losing someone",
+            "content": "父に死なれた \"Had father die\" 妻に逃げられた \"Had wife run away\" 友達に行かれた \"Had friend leave\" Loss and abandonment Emotional impact Left behind feeling"
+          }
+        ]
+      },
+      {
+        "level": 2,
+        "heading": "Timing Issues",
+        "content": "",
+        "children": [
+          {
+            "level": 3,
+            "heading": "Inconvenient actions",
+            "content": "忙しいときに来られた \"(Someone) came when I was busy\" 疲れているときに話しかけられた \"Was talked to when tired\" 勉強しているときに遊ばれた \"Was played around when studying\" Bad timing Inconvenient for speaker Disruptive"
+          }
+        ]
+      },
+      {
+        "level": 2,
+        "heading": "Cannot Be Positive Usually",
+        "content": "",
+        "children": [
+          {
+            "level": 3,
+            "heading": "Negative nuance",
+            "content": "❌ Unnatural: 友達に助けられた (use direct passive or てもらう) ✓ For positive, use: 友達に助けてもらった \"Had friend help me\" Indirect passive = adversity Positive actions use different structures Important limitation"
+          }
+        ]
+      },
+      {
+        "level": 2,
+        "heading": "Emotional Distance",
+        "content": "",
+        "children": [
+          {
+            "level": 3,
+            "heading": "Feeling affected",
+            "content": "Shows speaker's perspective: 泣かれた \"was cried to\" Implies: Annoying, troublesome 笑われた \"was laughed at\" Implies: Embarrassing, uncomfortable Emotional component Speaker's feelings matter Subjective experience"
+          }
+        ]
+      },
+      {
+        "level": 2,
+        "heading": "Regional Variation",
+        "content": "",
+        "children": [
+          {
+            "level": 3,
+            "heading": "More common in some areas",
+            "content": "Standard in written Japanese Common everywhere But frequency varies Some regions use more Others less All understand it Universal structure Varying frequency"
+          }
+        ]
+      },
+      {
+        "level": 2,
+        "heading": "Common Verbs",
+        "content": "",
+        "children": [
+          {
+            "level": 3,
+            "heading": "Frequently used",
+            "content": "死なれる \"have (someone) die\" 泣かれる \"be cried to\" 来られる \"have (someone) come (inconveniently)\" 行かれる \"have (someone) go (leaving me)\" 降られる \"be rained on\" 笑われる \"be laughed at\" 言われる \"be told (something unwanted)\" 見られる \"be seen/watched (uncomfortably)\" Learn these patterns Very common Daily usage"
+          }
+        ]
+      },
+      {
+        "level": 2,
+        "heading": "Contrastive Examples",
+        "content": "",
+        "children": [
+          {
+            "level": 3,
+            "heading": "Direct vs Indirect",
+            "content": "Direct passive: 財布が盗まれた \"Wallet was stolen\" Focus on wallet Indirect passive: 財布を盗まれた \"I had wallet stolen\" Focus on me being affected 私は先生に呼ばれた \"I was called by teacher\" (direct or indirect, context-dependent) 彼に来られた \"He came (inconveniencing me)\" (clearly indirect) Structure and context reveal type"
+          }
+        ]
+      },
+      {
+        "level": 2,
+        "heading": "With Causative-Passive",
+        "content": "",
+        "children": [
+          {
+            "level": 3,
+            "heading": "Complex form",
+            "content": "させられる form (causative-passive): 食べさせられた \"was made to eat\" Different from indirect passive Forced action Different meaning Don't confuse Separate grammar"
+          }
+        ]
+      },
+      {
+        "level": 2,
+        "heading": "Formality",
+        "content": "",
+        "children": [
+          {
+            "level": 3,
+            "heading": "Neutral formality",
+            "content": "Can use in: - Casual speech: 泣かれた - Polite speech: 泣かれました - Written: 泣かれた Not inherently casual/formal Common in conversation Natural expression"
+          }
+        ]
+      },
+      {
+        "level": 2,
+        "heading": "Common Mistakes",
+        "content": "❌ Using for positive events ✗ 友達に助けられた (indirect passive) ✓ Use てもらう for positive ✓ 友達に助けてもらった ❌ Confusing with direct passive Structure matters Particles reveal type ✓ Understand difference Direct = object becomes subject Indirect = affected person is subject ❌ Missing adversity nuance Always implies some difficulty Not neutral description ✓ Recognize feeling Inconvenience implied Negative impact",
+        "children": [
+          {
+            "level": 3,
+            "heading": "Company",
+            "content": "About Pricing Blog Contact"
+          },
+          {
+            "level": 3,
+            "heading": "Legal",
+            "content": "Privacy Policy Terms of Service Cookie Policy"
+          }
+        ]
+      }
+    ]
+  },
+  "metadata": {
+    "extracted_at": "2026-01-01T22:19:30.112310600Z",
+    "duration_ms": 3,
+    "extractors_matched": [
+      "metadata",
+      "examples",
+      "sections"
+    ],
+    "extractors_failed": [
+      "vocab_tables",
+      "definitions",
+      "content_blocks"
+    ]
+  }
+}

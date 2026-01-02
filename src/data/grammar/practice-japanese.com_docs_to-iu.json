@@ -1,0 +1,406 @@
+{
+  "config_name": "Language Learning Extractor",
+  "url": "https://practice-japanese.com/docs/to-iu/",
+  "data": {
+    "examples": [
+      {
+        "sentence": "という - Called/that (contracted)"
+      },
+      {
+        "sentence": "って - Casual quotation"
+      },
+      {
+        "sentence": "と聞く - Hear that"
+      },
+      {
+        "sentence": "と思う - Think that"
+      },
+      {
+        "sentence": "Reported speech - Quoting others"
+      },
+      {
+        "sentence": "Quotation particle と - Quotation uses"
+      },
+      {
+        "sentence": "About"
+      },
+      {
+        "sentence": "Pricing"
+      },
+      {
+        "sentence": "Blog"
+      },
+      {
+        "sentence": "Contact"
+      },
+      {
+        "sentence": "Privacy Policy"
+      },
+      {
+        "sentence": "Terms of Service"
+      },
+      {
+        "sentence": "Cookie Policy"
+      }
+    ],
+    "metadata": {
+      "title": "と言う (Say/Called)"
+    },
+    "sections": [
+      {
+        "level": 2,
+        "heading": "What is と言う?",
+        "content": "と言う has two main uses: quoting what someone says (\"say\") and naming/calling something (\"called\" or \"named\"). It's essential for reported speech and introducing names.\n\nQuoting: 彼は「行く」と言った \"He said 'I'll go'\" Naming: 田中という人 \"A person called Tanaka\" 富士山という山 \"A mountain called Mt. Fuji\""
+      },
+      {
+        "level": 2,
+        "heading": "Formation",
+        "content": "",
+        "children": [
+          {
+            "level": 3,
+            "heading": "Use 1: Quoting Speech",
+            "content": "Pattern: 「Quote」+ と言う\n\n「こんにちは」と言う \"Say 'hello'\" 「ありがとう」と言った \"Said 'thank you'\" 「好きだ」と言いました \"Said 'I like you'\""
+          },
+          {
+            "level": 3,
+            "heading": "Use 2: Naming/Calling",
+            "content": "Pattern: [Name] + という + [Noun]\n\n田中という人 \"A person called Tanaka\" 東京という都市 \"A city called Tokyo\" 寿司という食べ物 \"A food called sushi\""
+          }
+        ]
+      },
+      {
+        "level": 2,
+        "heading": "Basic Usage - Quoting",
+        "content": "",
+        "children": [
+          {
+            "level": 3,
+            "heading": "Direct quotes",
+            "content": "彼は「疲れた」と言った \"He said 'I'm tired'\" 先生は「勉強しなさい」と言いました \"The teacher said 'Study!'\" 母は「気をつけて」と言った \"Mom said 'Be careful'\""
+          },
+          {
+            "level": 3,
+            "heading": "Indirect quotes",
+            "content": "彼は行くと言った \"He said he would go\" 彼女は忙しいと言っています \"She says she's busy\" みんな難しいと言っていた \"Everyone said it was difficult\""
+          }
+        ]
+      },
+      {
+        "level": 2,
+        "heading": "Basic Usage - Naming",
+        "content": "",
+        "children": [
+          {
+            "level": 3,
+            "heading": "Introducing things/people",
+            "content": "鈴木という友達がいる \"I have a friend called Suzuki\" ラーメンという料理 \"A dish called ramen\" 桜という花 \"A flower called cherry blossom\""
+          },
+          {
+            "level": 3,
+            "heading": "With place names",
+            "content": "京都という場所 \"A place called Kyoto\" 富士山という山 \"A mountain called Mt. Fuji\" 隅田川という川 \"A river called Sumida River\""
+          }
+        ]
+      },
+      {
+        "level": 2,
+        "heading": "と言う vs という",
+        "content": "",
+        "children": [
+          {
+            "level": 3,
+            "heading": "と言う - Full verb form",
+            "content": "田中と言う人 \"A person who says/is called Tanaka\" Verb form, can conjugate"
+          },
+          {
+            "level": 3,
+            "heading": "という - Contracted form",
+            "content": "田中という人 \"A person called Tanaka\" More common, smoother Same meaning"
+          }
+        ]
+      },
+      {
+        "level": 2,
+        "heading": "Common Conversations",
+        "content": "",
+        "children": [
+          {
+            "level": 3,
+            "heading": "Example 1: Reporting Speech",
+            "content": "A: 田中さん、何て言ってた？ \"What did Tanaka say?\" B: 来週来ると言っていたよ \"He said he'd come next week\" A: そうなんだ \"I see\""
+          },
+          {
+            "level": 3,
+            "heading": "Example 2: Introducing",
+            "content": "A: 誰と会うの？ \"Who are you meeting?\" B: 佐藤という人。大学の友達なんだ \"Someone called Sato. A friend from university\" A: 楽しんでね \"Have fun\""
+          },
+          {
+            "level": 3,
+            "heading": "Example 3: Asking for Clarification",
+            "content": "A: これ、何て言うの？ \"What do you call this?\" B: 「おにぎり」と言います \"It's called 'onigiri'\""
+          }
+        ]
+      },
+      {
+        "level": 2,
+        "heading": "Common Mistakes",
+        "content": "",
+        "children": [
+          {
+            "level": 3,
+            "heading": "Mistake 1: Forgetting と",
+            "content": "Wrong: 彼は行く言った ❌ Right: 彼は行くと言った ✓ \"He said he would go\" と is necessary!"
+          },
+          {
+            "level": 3,
+            "heading": "Mistake 2: Using で instead of と",
+            "content": "Wrong: 「はい」で言った ❌ Right: 「はい」と言った ✓ \"Said 'yes'\" Use と for quotations!"
+          },
+          {
+            "level": 3,
+            "heading": "Mistake 3: Wrong word order",
+            "content": "Wrong: という田中人 ❌ Right: 田中という人 ✓ \"A person called Tanaka\" Name comes before という"
+          }
+        ]
+      },
+      {
+        "level": 2,
+        "heading": "Quoting Different Forms",
+        "content": "",
+        "children": [
+          {
+            "level": 3,
+            "heading": "Quoting questions",
+            "content": "彼は「行く？」と聞いた \"He asked 'Are you going?'\" 先生は「分かりますか」と言った \"The teacher said 'Do you understand?'\""
+          },
+          {
+            "level": 3,
+            "heading": "Quoting commands",
+            "content": "母は「早く寝なさい」と言った \"Mom said 'Go to sleep early'\" 上司は「頑張れ」と言ってくれた \"My boss said 'Do your best'\""
+          }
+        ]
+      },
+      {
+        "level": 2,
+        "heading": "Indirect Quotation",
+        "content": "",
+        "children": [
+          {
+            "level": 3,
+            "heading": "Converting to indirect",
+            "content": "Direct: 彼は「行く」と言った Indirect: 彼は行くと言った \"He said he would go\" Drop quotation marks Adjust pronouns if needed"
+          }
+        ]
+      },
+      {
+        "level": 2,
+        "heading": "Past Tense",
+        "content": "",
+        "children": [
+          {
+            "level": 3,
+            "heading": "と言った (said)",
+            "content": "彼は来ると言った \"He said he would come\" 「ありがとう」と言った \"Said 'thank you'\" Past speech"
+          },
+          {
+            "level": 3,
+            "heading": "と言っていた (was saying)",
+            "content": "彼は来ると言っていた \"He was saying he would come\" Ongoing past statement"
+          }
+        ]
+      },
+      {
+        "level": 2,
+        "heading": "Negative Forms",
+        "content": "",
+        "children": [
+          {
+            "level": 3,
+            "heading": "～と言わない (doesn't say)",
+            "content": "彼は何も言わない \"He doesn't say anything\" 嘘だとは言わなかった \"Didn't say it was a lie\""
+          }
+        ]
+      },
+      {
+        "level": 2,
+        "heading": "Polite Forms",
+        "content": "",
+        "children": [
+          {
+            "level": 3,
+            "heading": "Casual: と言う",
+            "content": "行くと言った \"Said he'd go\""
+          },
+          {
+            "level": 3,
+            "heading": "Polite: と言います",
+            "content": "行くと言いました \"Said he'd go\""
+          },
+          {
+            "level": 3,
+            "heading": "Humble: と申す",
+            "content": "田中と申します \"My name is Tanaka\" (humble) Very formal self-introduction"
+          }
+        ]
+      },
+      {
+        "level": 2,
+        "heading": "という for Defining",
+        "content": "",
+        "children": [
+          {
+            "level": 3,
+            "heading": "Explaining terms",
+            "content": "「寿司」というのは、日本の料理です \"'Sushi' is Japanese food\" 愛というのは難しい \"Love is difficult\" (the thing called love)"
+          }
+        ]
+      },
+      {
+        "level": 2,
+        "heading": "Common Expressions",
+        "content": "",
+        "children": [
+          {
+            "level": 3,
+            "heading": "何て言う？ (What do you call it?)",
+            "content": "これ、日本語で何て言う？ \"What do you call this in Japanese?\" あの人、何て言う人？ \"What's that person called?\""
+          },
+          {
+            "level": 3,
+            "heading": "～と言っても (Even though I say/Even if)",
+            "content": "簡単と言っても、難しい \"Even though I say it's easy, it's difficult\""
+          },
+          {
+            "level": 3,
+            "heading": "～と言うか (Or rather/Or should I say)",
+            "content": "面白いと言うか、変な映画だった \"It was interesting, or rather, a strange movie\""
+          }
+        ]
+      },
+      {
+        "level": 2,
+        "heading": "Reporting What You Heard",
+        "content": "",
+        "children": [
+          {
+            "level": 3,
+            "heading": "～と言っていた",
+            "content": "彼は忙しいと言っていた \"He said he was busy\" みんな楽しかったと言っていました \"Everyone said it was fun\""
+          }
+        ]
+      },
+      {
+        "level": 2,
+        "heading": "Naming with という",
+        "content": "",
+        "children": [
+          {
+            "level": 3,
+            "heading": "Describing unfamiliar things",
+            "content": "納豆という食べ物 \"A food called natto\" 相撲という スポーツ \"A sport called sumo\" Introducing concepts"
+          },
+          {
+            "level": 3,
+            "heading": "With unknown people",
+            "content": "鈴木さんという方 \"Someone called Mr. Suzuki\" 山田という学生 \"A student named Yamada\""
+          }
+        ]
+      },
+      {
+        "level": 2,
+        "heading": "と言えば (Speaking of)",
+        "content": "",
+        "children": [
+          {
+            "level": 3,
+            "heading": "Topic transition",
+            "content": "日本と言えば、寿司が有名だ \"Speaking of Japan, sushi is famous\" 夏と言えば、海だね \"Speaking of summer, it's the sea\""
+          }
+        ]
+      },
+      {
+        "level": 2,
+        "heading": "Casual Contractions",
+        "content": "",
+        "children": [
+          {
+            "level": 3,
+            "heading": "って (Casual と言う)",
+            "content": "彼って、誰？ \"Who's he?\" (lit: the one called he) 明日行くって \"(He) says he's going tomorrow\" Very casual"
+          }
+        ]
+      },
+      {
+        "level": 2,
+        "heading": "With Verbs of Communication",
+        "content": "",
+        "children": [
+          {
+            "level": 3,
+            "heading": "と聞く (hear that)",
+            "content": "彼は来ると聞いた \"I heard he's coming\" 雨だと聞きました \"I heard it's rain\""
+          },
+          {
+            "level": 3,
+            "heading": "と伝える (convey that)",
+            "content": "よろしくと伝えてください \"Please convey my regards\""
+          }
+        ]
+      },
+      {
+        "level": 2,
+        "heading": "Practice Sentences",
+        "content": "",
+        "children": [
+          {
+            "level": 3,
+            "heading": "Basic",
+            "content": "彼は「はい」と言った \"He said 'yes'\" 田中という人を知っていますか \"Do you know a person called Tanaka?\" これは何と言いますか \"What do you call this?\""
+          },
+          {
+            "level": 3,
+            "heading": "Intermediate",
+            "content": "先生は明日テストがあると言っていました \"The teacher said there would be a test tomorrow\" 「頑張って」と言われて、嬉しかった \"I was happy when they said 'Do your best'\" 京都という古い都市を訪れたい \"I want to visit an old city called Kyoto\""
+          },
+          {
+            "level": 3,
+            "heading": "Advanced",
+            "content": "彼は「もう二度と会わない」と言って、 出て行ってしまった。その言葉が 今でも心に残っている。 \"He said 'I'll never see you again' and left. Those words still remain in my heart.\" 日本には「おもてなし」という文化があります。 これは、お客様を心から歓迎し、 丁寧にもてなすという意味です。 \"In Japan, there's a culture called 'omotenashi.' This means welcoming guests from the heart and treating them politely.\""
+          }
+        ]
+      },
+      {
+        "level": 2,
+        "heading": "Related Grammar Points",
+        "content": "という - Called/that (contracted) って - Casual quotation と聞く - Hear that と思う - Think that Reported speech - Quoting others Quotation particle と - Quotation uses",
+        "children": [
+          {
+            "level": 3,
+            "heading": "Company",
+            "content": "About Pricing Blog Contact"
+          },
+          {
+            "level": 3,
+            "heading": "Legal",
+            "content": "Privacy Policy Terms of Service Cookie Policy"
+          }
+        ]
+      }
+    ]
+  },
+  "metadata": {
+    "extracted_at": "2026-01-01T22:19:36.548434400Z",
+    "duration_ms": 3,
+    "extractors_matched": [
+      "metadata",
+      "examples",
+      "sections"
+    ],
+    "extractors_failed": [
+      "vocab_tables",
+      "definitions",
+      "content_blocks"
+    ]
+  }
+}

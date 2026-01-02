@@ -1,0 +1,359 @@
+{
+  "config_name": "Language Learning Extractor",
+  "url": "https://practice-japanese.com/docs/yasui/",
+  "data": {
+    "metadata": {
+      "title": "〜やすい (Easy to)"
+    },
+    "sections": [
+      {
+        "level": 2,
+        "heading": "What is 〜やすい?",
+        "content": "〜やすい attaches to verb stems to express that something is easy to do or has a tendency to happen.\n\n読みやすい \"easy to read\" 分かりやすい \"easy to understand\" 壊れやすい \"easy to break / fragile\""
+      },
+      {
+        "level": 2,
+        "heading": "Formation",
+        "content": "",
+        "children": [
+          {
+            "level": 3,
+            "heading": "Pattern: Verb stem (ます form minus ます) + やすい",
+            "content": "| Dictionary | ます form | Stem | + やすい | | ------------ | --------- | ---- | ---------- | | 読む (read) | 読みます | 読み | 読みやすい | | 書く (write) | 書きます | 書き | 書きやすい | | 食べる (eat) | 食べます | 食べ | 食べやすい | | する (do) | します | し | しやすい | | 来る (come) | 来ます | 来 | 来やすい |"
+          },
+          {
+            "level": 3,
+            "heading": "Examples",
+            "content": "飲む → 飲みやすい (easy to drink) 使う → 使いやすい (easy to use) 分かる → 分かりやすい (easy to understand) 忘れる → 忘れやすい (easy to forget) 壊れる → 壊れやすい (breaks easily)"
+          }
+        ]
+      },
+      {
+        "level": 2,
+        "heading": "Meaning: Easy to Do",
+        "content": "",
+        "children": [
+          {
+            "level": 3,
+            "heading": "For actions you do:",
+            "content": "この本は読みやすい \"This book is easy to read\" この椅子は座りやすい \"This chair is easy to sit on\" このペンは書きやすい \"This pen is easy to write with\""
+          },
+          {
+            "level": 3,
+            "heading": "For natural occurrences:",
+            "content": "このコップは割れやすい \"This glass breaks easily\" この服は汚れやすい \"These clothes get dirty easily\" 風邪を引きやすい \"I catch colds easily\""
+          }
+        ]
+      },
+      {
+        "level": 2,
+        "heading": "やすい as an い-Adjective",
+        "content": "やすい conjugates like an い-adjective:",
+        "children": [
+          {
+            "level": 3,
+            "heading": "Present/Future",
+            "content": "読みやすい - easy to read 読みやすいです - easy to read (polite)"
+          },
+          {
+            "level": 3,
+            "heading": "Negative",
+            "content": "読みやすくない - not easy to read 読みやすくないです - not easy to read (polite) 読みやすくありません - not easy to read (formal)"
+          },
+          {
+            "level": 3,
+            "heading": "Past",
+            "content": "読みやすかった - was easy to read 読みやすかったです - was easy to read (polite)"
+          },
+          {
+            "level": 3,
+            "heading": "Past Negative",
+            "content": "読みやすくなかった - wasn't easy to read 読みやすくなかったです - wasn't easy to read (polite)"
+          }
+        ]
+      },
+      {
+        "level": 2,
+        "heading": "Common Patterns",
+        "content": "",
+        "children": [
+          {
+            "level": 3,
+            "heading": "Describing objects",
+            "content": "使いやすいペン \"an easy-to-use pen\" 読みやすい本 \"an easy-to-read book\" 分かりやすい説明 \"an easy-to-understand explanation\" 着やすい服 \"easy-to-wear clothes\""
+          },
+          {
+            "level": 3,
+            "heading": "Describing tendency",
+            "content": "彼は怒りやすい \"He gets angry easily\" 私は太りやすい \"I gain weight easily\" この道は滑りやすい \"This road is slippery / gets slippery easily\""
+          }
+        ]
+      },
+      {
+        "level": 2,
+        "heading": "Common Verbs with やすい",
+        "content": "",
+        "children": [
+          {
+            "level": 3,
+            "heading": "Understanding/Learning",
+            "content": "分かりやすい - easy to understand 覚えやすい - easy to remember 学びやすい - easy to learn 理解しやすい - easy to comprehend"
+          },
+          {
+            "level": 3,
+            "heading": "Using/Handling",
+            "content": "使いやすい - easy to use 持ちやすい - easy to hold 操作しやすい - easy to operate"
+          },
+          {
+            "level": 3,
+            "heading": "Reading/Writing",
+            "content": "読みやすい - easy to read 書きやすい - easy to write"
+          },
+          {
+            "level": 3,
+            "heading": "Physical States",
+            "content": "壊れやすい - breaks easily / fragile 割れやすい - breaks/cracks easily 汚れやすい - gets dirty easily 傷つきやすい - gets scratched/hurt easily"
+          },
+          {
+            "level": 3,
+            "heading": "Body/Health",
+            "content": "太りやすい - gains weight easily 痩せやすい - loses weight easily 疲れやすい - gets tired easily 風邪を引きやすい - catches colds easily"
+          }
+        ]
+      },
+      {
+        "level": 2,
+        "heading": "Common Conversations",
+        "content": "",
+        "children": [
+          {
+            "level": 3,
+            "heading": "Example 1: Shopping",
+            "content": "A: このペンは使いやすいですか？ \"Is this pen easy to use?\" B: はい、とても書きやすいです \"Yes, it's very easy to write with\" A: じゃあ、これを買います \"Then I'll buy this\""
+          },
+          {
+            "level": 3,
+            "heading": "Example 2: Book Recommendation",
+            "content": "A: 何かいい本はありますか？ \"Are there any good books?\" B: この本は読みやすいですよ \"This book is easy to read\" A: 初心者にも分かりやすいですか？ \"Is it easy to understand for beginners?\" B: はい、とても分かりやすいです \"Yes, very easy to understand\""
+          },
+          {
+            "level": 3,
+            "heading": "Example 3: Health",
+            "content": "A: 最近疲れやすいんです \"I get tired easily lately\" B: ちゃんと寝ていますか？ \"Are you sleeping properly?\" A: いいえ、あまり... \"No, not really...\""
+          }
+        ]
+      },
+      {
+        "level": 2,
+        "heading": "Expressing Degrees",
+        "content": "",
+        "children": [
+          {
+            "level": 3,
+            "heading": "Very easy",
+            "content": "とても読みやすい \"very easy to read\" すごく使いやすい \"extremely easy to use\" 非常に分かりやすい \"very easy to understand\""
+          },
+          {
+            "level": 3,
+            "heading": "Somewhat easy",
+            "content": "まあまあ読みやすい \"fairly easy to read\" 比較的使いやすい \"relatively easy to use\""
+          },
+          {
+            "level": 3,
+            "heading": "Not very easy",
+            "content": "あまり読みやすくない \"not very easy to read\" それほど使いやすくない \"not that easy to use\""
+          }
+        ]
+      },
+      {
+        "level": 2,
+        "heading": "Comparing Things",
+        "content": "",
+        "children": [
+          {
+            "level": 3,
+            "heading": "より (more)",
+            "content": "Aの方がBより読みやすい \"A is easier to read than B\" この椅子の方が座りやすい \"This chair is easier to sit on\""
+          },
+          {
+            "level": 3,
+            "heading": "一番 (most)",
+            "content": "これが一番使いやすい \"This is the easiest to use\" この説明が一番分かりやすかった \"This explanation was the easiest to understand\""
+          }
+        ]
+      },
+      {
+        "level": 2,
+        "heading": "With Different Particles",
+        "content": "",
+        "children": [
+          {
+            "level": 3,
+            "heading": "が for the thing being described",
+            "content": "この本が読みやすい \"This book is easy to read\" このペンが書きやすい \"This pen is easy to write with\""
+          },
+          {
+            "level": 3,
+            "heading": "は for topic/contrast",
+            "content": "この本は読みやすいです \"As for this book, it's easy to read\" この方法は理解しやすい \"This method is easy to understand\""
+          }
+        ]
+      },
+      {
+        "level": 2,
+        "heading": "Personality and Tendencies",
+        "content": "",
+        "children": [
+          {
+            "level": 3,
+            "heading": "Emotional tendencies",
+            "content": "怒りやすい人 \"A person who gets angry easily\" 泣きやすい \"Cries easily\" 笑いやすい \"Laughs easily\" 緊張しやすい \"Gets nervous easily\""
+          },
+          {
+            "level": 3,
+            "heading": "Physical tendencies",
+            "content": "太りやすい体質 \"A body type that gains weight easily\" 日焼けしやすい肌 \"Skin that tans easily\" 汗をかきやすい \"Sweats easily\""
+          }
+        ]
+      },
+      {
+        "level": 2,
+        "heading": "Common Mistakes",
+        "content": "",
+        "children": [
+          {
+            "level": 3,
+            "heading": "Mistake 1: Using dictionary form",
+            "content": "Wrong: 読むやすい ❌ Right: 読みやすい ✓ \"Easy to read\" Use the stem (ます form minus ます)!"
+          },
+          {
+            "level": 3,
+            "heading": "Mistake 2: Confusing with できる",
+            "content": "読みやすい ≠ 読める \"Easy to read\" ≠ \"Can read\" 読みやすい = Easy to do (quality) 読める = Able to do (ability)"
+          },
+          {
+            "level": 3,
+            "heading": "Mistake 3: Wrong conjugation",
+            "content": "Wrong: 読みやすです ❌ Right: 読みやすいです ✓ \"Is easy to read\" やすい is an い-adjective!"
+          },
+          {
+            "level": 3,
+            "heading": "Mistake 4: Using with non-action verbs",
+            "content": "Unnatural: いるやすい ❌ Not used: あるやすい ❌ やすい works with action verbs!"
+          }
+        ]
+      },
+      {
+        "level": 2,
+        "heading": "Formal Writing",
+        "content": "",
+        "children": [
+          {
+            "level": 3,
+            "heading": "Academic/Business",
+            "content": "この方法は実施しやすい \"This method is easy to implement\" 理解しやすい説明をお願いします \"Please give an easy-to-understand explanation\" アクセスしやすい場所 \"An easily accessible location\""
+          }
+        ]
+      },
+      {
+        "level": 2,
+        "heading": "Negative Nuance",
+        "content": "Sometimes やすい can have negative implications:\n\n騙されやすい \"Easy to deceive / gullible\" 壊れやすい \"Breaks easily / fragile\" (negative quality) 忘れやすい \"Forgetful / easily forgets\""
+      },
+      {
+        "level": 2,
+        "heading": "Practice Sentences",
+        "content": "",
+        "children": [
+          {
+            "level": 3,
+            "heading": "Basic",
+            "content": "この本は読みやすい \"This book is easy to read\" 分かりやすい説明でした \"It was an easy-to-understand explanation\" 使いやすいです \"It's easy to use\""
+          },
+          {
+            "level": 3,
+            "heading": "Intermediate",
+            "content": "この椅子は座りやすくて、とても快適です \"This chair is easy to sit on and very comfortable\" 最近疲れやすくなりました \"I've been getting tired easily lately\" 彼は怒りやすい性格です \"He has a personality that gets angry easily\""
+          },
+          {
+            "level": 3,
+            "heading": "Advanced",
+            "content": "このソフトウェアは初心者にも操作しやすく設計されています \"This software is designed to be easy to operate even for beginners\" ストレスが溜まりやすい環境は避けるべきです \"You should avoid environments where stress accumulates easily\" この素材は汚れやすいので、取り扱いに注意が必要です \"This material gets dirty easily, so care is needed in handling it\""
+          }
+        ]
+      },
+      {
+        "level": 2,
+        "heading": "Related Grammar Points",
+        "content": "〜にくい - Hard to do (opposite) 〜がちだ - Tend to (negative tendency) Potential form - Can do 〜やすくなる - Become easier to い-adjective conjugation - Adjective forms Tendency expressions - Expressing habits",
+        "children": [
+          {
+            "level": 3,
+            "heading": "Company",
+            "content": "About Pricing Blog Contact"
+          },
+          {
+            "level": 3,
+            "heading": "Legal",
+            "content": "Privacy Policy Terms of Service Cookie Policy"
+          }
+        ]
+      }
+    ],
+    "examples": [
+      {
+        "sentence": "〜にくい - Hard to do (opposite)"
+      },
+      {
+        "sentence": "〜がちだ - Tend to (negative tendency)"
+      },
+      {
+        "sentence": "Potential form - Can do"
+      },
+      {
+        "sentence": "〜やすくなる - Become easier to"
+      },
+      {
+        "sentence": "い-adjective conjugation - Adjective forms"
+      },
+      {
+        "sentence": "Tendency expressions - Expressing habits"
+      },
+      {
+        "sentence": "About"
+      },
+      {
+        "sentence": "Pricing"
+      },
+      {
+        "sentence": "Blog"
+      },
+      {
+        "sentence": "Contact"
+      },
+      {
+        "sentence": "Privacy Policy"
+      },
+      {
+        "sentence": "Terms of Service"
+      },
+      {
+        "sentence": "Cookie Policy"
+      }
+    ]
+  },
+  "metadata": {
+    "extracted_at": "2026-01-01T22:19:37.890602500Z",
+    "duration_ms": 3,
+    "extractors_matched": [
+      "metadata",
+      "examples",
+      "sections"
+    ],
+    "extractors_failed": [
+      "vocab_tables",
+      "definitions",
+      "content_blocks"
+    ]
+  }
+}

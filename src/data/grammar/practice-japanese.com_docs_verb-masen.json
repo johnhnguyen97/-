@@ -1,0 +1,300 @@
+{
+  "config_name": "Language Learning Extractor",
+  "url": "https://practice-japanese.com/docs/verb-masen/",
+  "data": {
+    "sections": [
+      {
+        "level": 2,
+        "heading": "What is Masen Form?",
+        "content": "ません (masen) form is the polite negative present/future tense. It means \"don't/won't do something\" politely.\n\n食べません (tabemasen) - don't eat / won't eat 行きません (ikimasen) - don't go / won't go しません (shimasen) - don't do / won't do"
+      },
+      {
+        "level": 2,
+        "heading": "How to Form Masen",
+        "content": "Simple rule: Take the masu form and change ます to ません\n\n食べます → 食べません 行きます → 行きません します → しません"
+      },
+      {
+        "level": 2,
+        "heading": "All Verb Groups",
+        "content": "",
+        "children": [
+          {
+            "level": 3,
+            "heading": "Godan Verbs",
+            "content": "書く → 書きます → 書きません (don't write) 飲む → 飲みます → 飲みません (don't drink) 買う → 買います → 買いません (don't buy) 話す → 話します → 話しません (don't speak) 待つ → 待ちます → 待ちません (don't wait) 遊ぶ → 遊びます → 遊びません (don't play) 読む → 読みます → 読みません (don't read) 帰る → 帰ります → 帰りません (don't return)"
+          },
+          {
+            "level": 3,
+            "heading": "Ichidan Verbs",
+            "content": "食べる → 食べます → 食べません (don't eat) 見る → 見ます → 見ません (don't see) 寝る → 寝ます → 寝ません (don't sleep) 起きる → 起きます → 起きません (don't wake up) 教える → 教えます → 教えません (don't teach)"
+          },
+          {
+            "level": 3,
+            "heading": "Irregular Verbs",
+            "content": "する → します → しません (don't do) 来る → 来ます → 来ません (don't come)"
+          }
+        ]
+      },
+      {
+        "level": 2,
+        "heading": "Conjugation Chart",
+        "content": "| Dictionary | Masu | Masen | Meaning | | ---------- | -------- | ---------- | ----------- | | 食べる | 食べます | 食べません | don't eat | | 行く | 行きます | 行きません | don't go | | 見る | 見ます | 見ません | don't see | | する | します | しません | don't do | | 来る | 来ます | 来ません | don't come | | 飲む | 飲みます | 飲みません | don't drink |"
+      },
+      {
+        "level": 2,
+        "heading": "When to Use Masen",
+        "content": "",
+        "children": [
+          {
+            "level": 3,
+            "heading": "1. Stating You Don't Do Something",
+            "content": "私はお酒を飲みません \"I don't drink alcohol\" 肉を食べません \"I don't eat meat\" タバコを吸いません \"I don't smoke\""
+          },
+          {
+            "level": 3,
+            "heading": "2. Future Negative (Won't Do)",
+            "content": "明日は行きません \"I won't go tomorrow\" 今日は勉強しません \"I won't study today\" 週末は働きません \"I won't work on the weekend\""
+          },
+          {
+            "level": 3,
+            "heading": "3. Polite Refusals",
+            "content": "すみません、分かりません \"Sorry, I don't understand\" 今日は大丈夫じゃありません \"Today is not okay\""
+          },
+          {
+            "level": 3,
+            "heading": "4. Negative Habits",
+            "content": "朝ご飯を食べません \"I don't eat breakfast\" テレビを見ません \"I don't watch TV\" コーヒーを飲みません \"I don't drink coffee\""
+          }
+        ]
+      },
+      {
+        "level": 2,
+        "heading": "Present vs Future Negative",
+        "content": "Context determines meaning:",
+        "children": [
+          {
+            "level": 3,
+            "heading": "Present Habitual",
+            "content": "私は肉を食べません \"I don't eat meat\" (habitual) 毎日運動しません \"I don't exercise every day\""
+          },
+          {
+            "level": 3,
+            "heading": "Future",
+            "content": "明日は行きません \"I won't go tomorrow\" 今晩食べません \"I won't eat tonight\""
+          }
+        ]
+      },
+      {
+        "level": 2,
+        "heading": "Question Form",
+        "content": "Add か at the end:\n\n日本語を話しませんか？ \"Don't you speak Japanese?\" 明日来ませんか？ \"Won't you come tomorrow?\" コーヒーを飲みませんか？ \"Won't you drink coffee?\" (invitation)"
+      },
+      {
+        "level": 2,
+        "heading": "Invitations with Masen ka",
+        "content": "ませんか is commonly used for gentle invitations:\n\n一緒に行きませんか？ \"Won't you go together?\" (= Would you like to go together?) 映画を見ませんか？ \"Won't you watch a movie?\" (= Would you like to watch a movie?) お茶を飲みませんか？ \"Won't you have tea?\" (= Would you like some tea?)\n\nMore polite than ますか!"
+      },
+      {
+        "level": 2,
+        "heading": "Answering Questions",
+        "content": "",
+        "children": [
+          {
+            "level": 3,
+            "heading": "Positive Answers (Yes, I don't)",
+            "content": "Q: お酒を飲みませんか？ \"Don't you drink alcohol?\" A: はい、飲みません \"Right, I don't drink\""
+          },
+          {
+            "level": 3,
+            "heading": "Negative Answers (No, I do)",
+            "content": "Q: 明日行きませんか？ \"Won't you go tomorrow?\" A: いいえ、行きます \"No, I will go\"\n\nNote: Japanese yes/no can be confusing! はい agrees with the negative statement."
+          }
+        ]
+      },
+      {
+        "level": 2,
+        "heading": "Common Patterns",
+        "content": "",
+        "children": [
+          {
+            "level": 3,
+            "heading": "Preferences",
+            "content": "私は朝早く起きません \"I don't wake up early in the morning\" あまり外食しません \"I don't eat out much\" ほとんど運動しません \"I hardly exercise\""
+          },
+          {
+            "level": 3,
+            "heading": "Abilities (Cannot)",
+            "content": "日本語が分かりません \"I don't understand Japanese\" 漢字が読めません \"I can't read kanji\" 料理ができません \"I can't cook\""
+          },
+          {
+            "level": 3,
+            "heading": "Restrictions",
+            "content": "ここで写真を撮りません \"We don't take photos here\" この部屋に入りません \"We don't enter this room\""
+          }
+        ]
+      },
+      {
+        "level": 2,
+        "heading": "Common Mistakes",
+        "content": "",
+        "children": [
+          {
+            "level": 3,
+            "heading": "Mistake 1: Double Negative",
+            "content": "Wrong: 食べませんない ❌ Right: 食べません ✓"
+          },
+          {
+            "level": 3,
+            "heading": "Mistake 2: Using Nai with Masu Stem",
+            "content": "Wrong: 食べまない ❌ Right: 食べません ✓"
+          },
+          {
+            "level": 3,
+            "heading": "Mistake 3: Confusing with Plain Negative",
+            "content": "Formal context: Wrong: 行かない ❌ Right: 行きません ✓"
+          },
+          {
+            "level": 3,
+            "heading": "Mistake 4: Wrong Masu Stem",
+            "content": "Wrong: 帰る → 帰ません ❌ Right: 帰る → 帰りません ✓"
+          }
+        ]
+      },
+      {
+        "level": 2,
+        "heading": "Masen vs Nai",
+        "content": "Two ways to say negative:\n\n| Polite (Masen) | Plain (Nai) | Meaning | | -------------- | ----------- | ---------- | | 食べません | 食べない | don't eat | | 行きません | 行かない | don't go | | しません | しない | don't do | | 来ません | 来ない | don't come |\n\nUse ません in polite situations!"
+      },
+      {
+        "level": 2,
+        "heading": "Dietary Restrictions",
+        "content": "私はベジタリアンです。肉を食べません \"I'm vegetarian. I don't eat meat\" アレルギーがあります。ナッツを食べません \"I have allergies. I don't eat nuts\" お酒が飲めません \"I can't drink alcohol\""
+      },
+      {
+        "level": 2,
+        "heading": "Conversation Examples",
+        "content": "",
+        "children": [
+          {
+            "level": 3,
+            "heading": "Example 1: Invitation",
+            "content": "A: 今晩映画を見ませんか？ \"Would you like to watch a movie tonight?\" B: すみません、今日は忙しいです。行きません \"Sorry, I'm busy today. I won't go\" A: じゃあ、週末はどうですか？ \"Then, how about the weekend?\" B: 週末はいいですよ！ \"The weekend is good!\""
+          },
+          {
+            "level": 3,
+            "heading": "Example 2: Preferences",
+            "content": "A: コーヒーを飲みますか？ \"Do you drink coffee?\" B: いいえ、飲みません。お茶を飲みます \"No, I don't. I drink tea\" A: そうですか。紅茶はどうですか？ \"I see. How about black tea?\" B: はい、紅茶は飲みます \"Yes, I drink black tea\""
+          },
+          {
+            "level": 3,
+            "heading": "Example 3: Daily Habits",
+            "content": "A: 毎日運動しますか？ \"Do you exercise every day?\" B: いいえ、しません。時々運動します \"No, I don't. I exercise sometimes\""
+          }
+        ]
+      },
+      {
+        "level": 2,
+        "heading": "With Frequency Adverbs",
+        "content": "ぜんぜん食べません \"I don't eat at all\" あまり飲みません \"I don't drink much\" ほとんど行きません \"I hardly go\" めったに見ません \"I rarely watch\""
+      },
+      {
+        "level": 2,
+        "heading": "Polite Expressions",
+        "content": "",
+        "children": [
+          {
+            "level": 3,
+            "heading": "I Don't Know",
+            "content": "分かりません \"I don't know / I don't understand\" 知りません \"I don't know (factual information)\""
+          },
+          {
+            "level": 3,
+            "heading": "I Don't Have",
+            "content": "お金がありません \"I don't have money\" 時間がありません \"I don't have time\""
+          },
+          {
+            "level": 3,
+            "heading": "Can't/Unable to",
+            "content": "できません \"I can't do it\" 行けません \"I can't go\""
+          }
+        ]
+      },
+      {
+        "level": 2,
+        "heading": "Reasons for Not Doing",
+        "content": "時間がないので、行きません \"I don't have time, so I won't go\" 疲れたから、今日は遊びません \"I'm tired, so I won't play today\" お金がないので、買いません \"I don't have money, so I won't buy it\""
+      },
+      {
+        "level": 2,
+        "heading": "Past Negative: ませんでした",
+        "content": "食べません → 食べませんでした (didn't eat) 行きません → 行きませんでした (didn't go)\n\nMore details in the past negative lesson."
+      },
+      {
+        "level": 2,
+        "heading": "Key Takeaways",
+        "content": "✓ ません = polite negative present/future ✓ Form: ます → ません ✓ Express habits and refusals politely ✓ ませんか = gentle invitation ✓ Same for all verb groups ✓ More polite than ない form ✓ Essential for polite conversation\n\nMaster ません form - it's crucial for polite negative statements!\n\nNext: Te-form Conjugation\n\nRelated:\n\nMasu Form (Positive) Nai-form (Plain Negative) Nakatta Form (Past Negative)",
+        "children": [
+          {
+            "level": 3,
+            "heading": "Company",
+            "content": "About Pricing Blog Contact"
+          },
+          {
+            "level": 3,
+            "heading": "Legal",
+            "content": "Privacy Policy Terms of Service Cookie Policy"
+          }
+        ]
+      }
+    ],
+    "examples": [
+      {
+        "sentence": "Masu Form (Positive)"
+      },
+      {
+        "sentence": "Nai-form (Plain Negative)"
+      },
+      {
+        "sentence": "Nakatta Form (Past Negative)"
+      },
+      {
+        "sentence": "About"
+      },
+      {
+        "sentence": "Pricing"
+      },
+      {
+        "sentence": "Blog"
+      },
+      {
+        "sentence": "Contact"
+      },
+      {
+        "sentence": "Privacy Policy"
+      },
+      {
+        "sentence": "Terms of Service"
+      },
+      {
+        "sentence": "Cookie Policy"
+      }
+    ],
+    "metadata": {
+      "title": "Masen Form (Polite Negative)"
+    }
+  },
+  "metadata": {
+    "extracted_at": "2026-01-01T22:19:37.345946500Z",
+    "duration_ms": 3,
+    "extractors_matched": [
+      "metadata",
+      "examples",
+      "sections"
+    ],
+    "extractors_failed": [
+      "vocab_tables",
+      "definitions",
+      "content_blocks"
+    ]
+  }
+}

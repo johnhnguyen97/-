@@ -1,0 +1,482 @@
+{
+  "config_name": "Language Learning Extractor",
+  "url": "https://practice-japanese.com/docs/dialects-overview/",
+  "data": {
+    "metadata": {
+      "title": "Regional Dialects Overview"
+    },
+    "examples": [
+      {
+        "sentence": "Learn Standard Japanese first - Most widely understood"
+      },
+      {
+        "sentence": "Choose one dialect to explore - Based on where you live or interest"
+      },
+      {
+        "sentence": "Understand but don't force it - Using dialect incorrectly can sound strange"
+      },
+      {
+        "sentence": "Enjoy the variety - Dialects make Japanese rich and interesting"
+      },
+      {
+        "sentence": "Distinct verb endings and conjugations"
+      },
+      {
+        "sentence": "Unique vocabulary and expressions"
+      },
+      {
+        "sentence": "Different intonation patterns"
+      },
+      {
+        "sentence": "Varied levels of politeness structures"
+      },
+      {
+        "sentence": "Historical preservation of older Japanese forms"
+      },
+      {
+        "sentence": "National media and TV"
+      },
+      {
+        "sentence": "Official documents"
+      },
+      {
+        "sentence": "Education system"
+      },
+      {
+        "sentence": "Business settings"
+      },
+      {
+        "sentence": "Standard pronunciation"
+      },
+      {
+        "sentence": "Moderate speech speed"
+      },
+      {
+        "sentence": "Standard verb conjugations"
+      },
+      {
+        "sentence": "Base for formal Japanese"
+      },
+      {
+        "sentence": "Most neutral and widely understood"
+      },
+      {
+        "sentence": "What foreigners typically learn first"
+      },
+      {
+        "sentence": "Some areas have sub-dialects (Ibaraki, Tochigi)"
+      },
+      {
+        "sentence": "More animated and expressive"
+      },
+      {
+        "sentence": "Famous for comedy and entertainment"
+      },
+      {
+        "sentence": "Faster speech rhythm"
+      },
+      {
+        "sentence": "Strong cultural identity"
+      },
+      {
+        "sentence": "い (i) often becomes え (e)"
+      },
+      {
+        "sentence": "う (u) often becomes お (o)"
+      },
+      {
+        "sentence": "Slower, softer speech"
+      },
+      {
+        "sentence": "Dropped consonants and vowels"
+      },
+      {
+        "sentence": "Strong rural associations"
+      },
+      {
+        "sentence": "Can be nearly unintelligible to outsiders"
+      },
+      {
+        "sentence": "One of the most difficult dialects for other Japanese to understand"
+      },
+      {
+        "sentence": "Heavy use of unique vocabulary"
+      },
+      {
+        "sentence": "Significant pronunciation differences"
+      },
+      {
+        "sentence": "Warm, friendly intonation"
+      },
+      {
+        "sentence": "Significant sub-regional variation"
+      },
+      {
+        "sentence": "Historical Chinese influence in some areas"
+      },
+      {
+        "sentence": "Distinctive intonation"
+      },
+      {
+        "sentence": "Often stereotyped in media"
+      },
+      {
+        "sentence": "Blends features from east and west"
+      },
+      {
+        "sentence": "Rough, masculine image (due to media portrayal)"
+      },
+      {
+        "sentence": "Actually warm and friendly in reality"
+      },
+      {
+        "sentence": "Strong regional pride"
+      },
+      {
+        "sentence": "Technically a separate Ryukyuan language"
+      },
+      {
+        "sentence": "Very different vocabulary and grammar"
+      },
+      {
+        "sentence": "Most Okinawans speak Standard Japanese"
+      },
+      {
+        "sentence": "Traditional dialect mainly used by elderly"
+      },
+      {
+        "sentence": "Unique intonation and rhythm"
+      },
+      {
+        "sentence": "Different historical development"
+      },
+      {
+        "sentence": "Strong cultural identity"
+      },
+      {
+        "sentence": "Increasing efforts to preserve the language"
+      },
+      {
+        "sentence": "Standard: とても (totemo)"
+      },
+      {
+        "sentence": "Kansai: めっちゃ (meccha)"
+      },
+      {
+        "sentence": "Nagoya: でら (dera)"
+      },
+      {
+        "sentence": "Hiroshima: ぶち (buchi)"
+      },
+      {
+        "sentence": "Kyushu: ばり (bari)"
+      },
+      {
+        "sentence": "Standard: 捨てる (suteru)"
+      },
+      {
+        "sentence": "Kansai: ほかす (hokasu)"
+      },
+      {
+        "sentence": "Some regions: なげる (nageru)"
+      },
+      {
+        "sentence": "Standard: 難しい (muzukashii)"
+      },
+      {
+        "sentence": "Kansai: ややこしい (yayakoshii) - complicated"
+      },
+      {
+        "sentence": "Some regions: えらい (erai) - tough"
+      },
+      {
+        "sentence": "Tokyo: Different pitch patterns distinguish them"
+      },
+      {
+        "sentence": "Kyoto: Different pitch patterns (but different from Tokyo)"
+      },
+      {
+        "sentence": "Some regions: No pitch accent distinction"
+      },
+      {
+        "sentence": "Funny, friendly, outgoing"
+      },
+      {
+        "sentence": "Associated with comedy and entertainment"
+      },
+      {
+        "sentence": "Considered warm and down-to-earth"
+      },
+      {
+        "sentence": "Neutral, standard"
+      },
+      {
+        "sentence": "Business-like, formal"
+      },
+      {
+        "sentence": "Sometimes seen as cold"
+      },
+      {
+        "sentence": "Rural, traditional"
+      },
+      {
+        "sentence": "Slow, gentle"
+      },
+      {
+        "sentence": "Associated with older generations"
+      },
+      {
+        "sentence": "Friendly, masculine"
+      },
+      {
+        "sentence": "Traditional values"
+      },
+      {
+        "sentence": "Regional pride"
+      },
+      {
+        "sentence": "Relaxed, tropical"
+      },
+      {
+        "sentence": "Unique cultural identity"
+      },
+      {
+        "sentence": "Associated with tourism and beaches"
+      },
+      {
+        "sentence": "Living in a specific region long-term"
+      },
+      {
+        "sentence": "Close friends use dialect"
+      },
+      {
+        "sentence": "Casual, relaxed settings"
+      },
+      {
+        "sentence": "After achieving fluency in standard Japanese"
+      },
+      {
+        "sentence": "Business settings"
+      },
+      {
+        "sentence": "With strangers"
+      },
+      {
+        "sentence": "Formal situations"
+      },
+      {
+        "sentence": "When your accent might be unclear"
+      },
+      {
+        "sentence": "Japan has rich dialectal diversity"
+      },
+      {
+        "sentence": "Standard Japanese (Tokyo-based) is universally understood"
+      },
+      {
+        "sentence": "Kansai is the second most influential dialect"
+      },
+      {
+        "sentence": "Each region has unique vocabulary, grammar, and pronunciation"
+      },
+      {
+        "sentence": "Dialects carry social and cultural meanings"
+      },
+      {
+        "sentence": "Learn standard Japanese first, then explore dialects"
+      },
+      {
+        "sentence": "About"
+      },
+      {
+        "sentence": "Pricing"
+      },
+      {
+        "sentence": "Blog"
+      },
+      {
+        "sentence": "Contact"
+      },
+      {
+        "sentence": "Privacy Policy"
+      },
+      {
+        "sentence": "Terms of Service"
+      },
+      {
+        "sentence": "Cookie Policy"
+      }
+    ],
+    "sections": [
+      {
+        "level": 2,
+        "heading": "Overview of Japanese Dialects",
+        "content": "Japan has numerous regional dialects (方言 hougen) that can differ significantly in vocabulary, grammar, intonation, and verb conjugations. While Standard Japanese (標準語 hyoujungo) based on Tokyo dialect is used in media and education, regional dialects remain vibrant in daily conversation.\n\nWhat makes Japanese dialects unique:\n\nDistinct verb endings and conjugations Unique vocabulary and expressions Different intonation patterns Varied levels of politeness structures Historical preservation of older Japanese forms\n\nStandard Japanese (標準語): Based on Tokyo/Kanto dialect, used in:\n\nNational media and TV Official documents Education system Business settings"
+      },
+      {
+        "level": 2,
+        "heading": "Major Dialect Regions",
+        "content": "",
+        "children": [
+          {
+            "level": 3,
+            "heading": "1. Kanto Dialect (関東弁)",
+            "content": "Region: Tokyo, Yokohama, surrounding areas Status: Basis for Standard Japanese\n\nCharacteristics:\n\nStandard pronunciation Moderate speech speed Standard verb conjugations Base for formal Japanese\n\nCommon expressions:\n\nじゃん (jan) - \"isn't it?\" / \"right?\" Example: いいじゃん (Ii jan) - \"That's good!\" 〜だよ (da yo) - Emphasis Example: そうだよ (Sou da yo) - \"That's right!\"\n\nNotes:\n\nMost neutral and widely understood What foreigners typically learn first Some areas have sub-dialects (Ibaraki, Tochigi)"
+          },
+          {
+            "level": 3,
+            "heading": "2. Kansai Dialect (関西弁)",
+            "content": "Region: Osaka, Kyoto, Kobe, Nara, surrounding areas Status: Second most influential dialect\n\nMajor features:\n\nNegative endings:\n\nStandard: 知らない (shiranai) - \"don't know\" Kansai: 知らん (shiran) / 知らへん (shirahen) Standard: 行かない (ikanai) - \"don't go\" Kansai: 行かへん (ikahen) / 行けへん (ikehen)\n\nCopula:\n\nStandard: だ (da) - \"is\" Kansai: や (ya) Example: Standard: 学生だ (gakusei da) Kansai: 学生や (gakusei ya)\n\nContinuous form:\n\nStandard: している (shiteiru) - \"doing\" Kansai: してる (shiteru) / しとる (shitoru) / してん (shiten)\n\nCommon expressions:\n\nなんでやねん (nan de ya nen) - \"Why!?\" / \"What the heck!?\" めっちゃ (meccha) - \"very\" / \"really\" ほんま (honma) - \"really\" / \"truly\" あかん (akan) - \"no good\" / \"can't\" おおきに (ookini) - \"thank you\" ええ (ee) - \"good\" / \"yes\" ちゃう (chau) - \"different\" / \"wrong\"\n\nExample conversation:\n\nStandard: 本当に？それはダメだよ。 Kansai: ほんま？それあかんで。 \"Really? That's no good.\"\n\nCharacteristics:\n\nMore animated and expressive Famous for comedy and entertainment Faster speech rhythm Strong cultural identity"
+          },
+          {
+            "level": 3,
+            "heading": "3. Tohoku Dialect (東北弁)",
+            "content": "Region: Northern Honshu (Aomori, Akita, Iwate, Yamagata, Miyagi, Fukushima) Status: Often considered difficult to understand\n\nMajor features:\n\nVowel changes:\n\nい (i) often becomes え (e) う (u) often becomes お (o)\n\nVerb endings:\n\nStandard: 〜ない (nai) - negative Tohoku: 〜ね (ne) / 〜ねぇ (ne-) Example: Standard: 分からない (wakaranai) Tohoku: 分からね (wakarane) / わがんね (waganne)\n\nCommon expressions:\n\nだべ (dabe) - \"right?\" / \"isn't it?\" Example: そうだべ (Sou dabe) - \"That's right\" んだ (n da) / んだず (n da zu) - \"that's right\"\n\nCharacteristics:\n\nSlower, softer speech Dropped consonants and vowels Strong rural associations Can be nearly unintelligible to outsiders"
+          },
+          {
+            "level": 3,
+            "heading": "4. Kyushu Dialect (九州弁)",
+            "content": "Region: Southern Japan (Fukuoka, Nagasaki, Kumamoto, Kagoshima, etc.) Status: Multiple sub-dialects with significant variation\n\nFukuoka (Hakata) Dialect:\n\nばい (bai) - Emphasis Example: おいしかばい (Oishika bai) - \"It was delicious!\" と (to) - Question marker instead of か Example: 行くと？ (Iku to?) - \"Are you going?\" たい (tai) - Want to/emphasis Example: 食べたい (Tabetai) - \"I want to eat\" (but different meaning in Hakata)\n\nKagoshima Dialect:\n\nOne of the most difficult dialects for other Japanese to understand Heavy use of unique vocabulary Significant pronunciation differences\n\nCommon expressions:\n\nよかよ (yoka yo) - \"It's good\" くさ (kusa) - Emphasis particle すいとーよ (suito- yo) - \"I like it\"\n\nCharacteristics:\n\nWarm, friendly intonation Significant sub-regional variation Historical Chinese influence in some areas"
+          },
+          {
+            "level": 3,
+            "heading": "5. Nagoya/Chubu Dialect (名古屋弁)",
+            "content": "Region: Nagoya, Aichi prefecture, surrounding areas Status: Distinct but often misunderstood\n\nMajor features:\n\nみゃー (mya-) - Elongated vowels Example: うみゃー (umya-) - \"delicious\" だがね (da ga ne) - Sentence ending だぎゃー (dagya-) - Emphasis (though stereotyped)\n\nCommon expressions:\n\nでら (dera) - \"very\" / \"super\" Example: でらうまい (Dera umai) - \"Super delicious\" やっとかめ (yattokame) - \"Long time no see\"\n\nCharacteristics:\n\nDistinctive intonation Often stereotyped in media Blends features from east and west"
+          },
+          {
+            "level": 3,
+            "heading": "6. Hiroshima Dialect (広島弁)",
+            "content": "Region: Hiroshima prefecture Status: Famous from yakuza films\n\nMajor features:\n\nじゃ (ja) - Copula (like Kansai や) Example: そうじゃ (Sou ja) - \"That's right\" 〜じゃけぇ (jake-) - \"because\" / \"so\" Example: 忙しいじゃけぇ (Isogashii jake-) - \"Because I'm busy\" ぶち (buchi) - \"very\" / \"really\" Example: ぶち面白い (Buchi omoshiroi) - \"Really interesting\"\n\nCharacteristics:\n\nRough, masculine image (due to media portrayal) Actually warm and friendly in reality Strong regional pride"
+          },
+          {
+            "level": 3,
+            "heading": "7. Okinawa Dialect (沖縄弁 / うちなーぐち)",
+            "content": "Region: Okinawa prefecture Status: Related to but distinct from Japanese\n\nNotes:\n\nTechnically a separate Ryukyuan language Very different vocabulary and grammar Most Okinawans speak Standard Japanese Traditional dialect mainly used by elderly\n\nCommon expressions in Okinawan Japanese:\n\nはいさい (haisai) - \"Hello\" (male) はいたい (haitai) - \"Hello\" (female) めんそーれ (menso-re) - \"Welcome\" にふぇーでーびる (nife-de-biru) - \"Thank you\" ちゅらさん (churasan) - \"Beautiful\"\n\nCharacteristics:\n\nUnique intonation and rhythm Different historical development Strong cultural identity Increasing efforts to preserve the language"
+          }
+        ]
+      },
+      {
+        "level": 2,
+        "heading": "Common Dialectal Features Across Regions",
+        "content": "",
+        "children": [
+          {
+            "level": 3,
+            "heading": "Verb Endings",
+            "content": "| Standard | Kansai | Tohoku | Kyushu | | -------- | ------------- | ----------- | ------------- | | 〜ない | 〜へん/〜ん | 〜ね/〜ねぇ | Various | | だ | や | だ | たい/ばい | | 〜ている | 〜とる/〜てん | Various | 〜とう/〜よる |"
+          },
+          {
+            "level": 3,
+            "heading": "Question Markers",
+            "content": "| Region | Marker | Example | | -------- | ------ | -------- | | Standard | か | 行くか？ | | Kansai | け/ん | 行くん？ | | Kyushu | と | 行くと？ | | Tohoku | が/べ | 行くべ？ |"
+          },
+          {
+            "level": 3,
+            "heading": "Emphasis Particles",
+            "content": "| Region | Particle | Meaning | | --------- | --------- | -------- | | Kansai | で/やん | Emphasis | | Kyushu | ばい/たい | Emphasis | | Tohoku | だべ | Right? | | Hiroshima | じゃけぇ | Because |"
+          }
+        ]
+      },
+      {
+        "level": 2,
+        "heading": "Dialectal Vocabulary Differences",
+        "content": "\"Very\" / \"Really\":\n\nStandard: とても (totemo) Kansai: めっちゃ (meccha) Nagoya: でら (dera) Hiroshima: ぶち (buchi) Kyushu: ばり (bari)\n\n\"Throw away\":\n\nStandard: 捨てる (suteru) Kansai: ほかす (hokasu) Some regions: なげる (nageru)\n\n\"Difficult\":\n\nStandard: 難しい (muzukashii) Kansai: ややこしい (yayakoshii) - complicated Some regions: えらい (erai) - tough"
+      },
+      {
+        "level": 2,
+        "heading": "Pitch Accent Differences",
+        "content": "Japanese dialects have different pitch accent patterns:\n\nExample: 雨 (ame) - rain / 飴 (ame) - candy\n\nTokyo: Different pitch patterns distinguish them Kyoto: Different pitch patterns (but different from Tokyo) Some regions: No pitch accent distinction\n\nThis makes regional speech patterns very distinctive even with the same words."
+      },
+      {
+        "level": 2,
+        "heading": "Social Perceptions of Dialects",
+        "content": "",
+        "children": [
+          {
+            "level": 3,
+            "heading": "Kansai",
+            "content": "Funny, friendly, outgoing Associated with comedy and entertainment Considered warm and down-to-earth"
+          },
+          {
+            "level": 3,
+            "heading": "Tokyo/Kanto",
+            "content": "Neutral, standard Business-like, formal Sometimes seen as cold"
+          },
+          {
+            "level": 3,
+            "heading": "Tohoku",
+            "content": "Rural, traditional Slow, gentle Associated with older generations"
+          },
+          {
+            "level": 3,
+            "heading": "Kyushu",
+            "content": "Friendly, masculine Traditional values Regional pride"
+          },
+          {
+            "level": 3,
+            "heading": "Okinawa",
+            "content": "Relaxed, tropical Unique cultural identity Associated with tourism and beaches"
+          }
+        ]
+      },
+      {
+        "level": 2,
+        "heading": "Using Dialects as a Learner",
+        "content": "Recommendations:\n\nLearn Standard Japanese first - Most widely understood Choose one dialect to explore - Based on where you live or interest Understand but don't force it - Using dialect incorrectly can sound strange Enjoy the variety - Dialects make Japanese rich and interesting\n\nWhen to use dialects:\n\nLiving in a specific region long-term Close friends use dialect Casual, relaxed settings After achieving fluency in standard Japanese\n\nWhen NOT to use:\n\nBusiness settings With strangers Formal situations When your accent might be unclear"
+      },
+      {
+        "level": 2,
+        "heading": "Common Mistakes",
+        "content": "",
+        "children": [
+          {
+            "level": 3,
+            "heading": "Mistake 1: Mixing Dialects",
+            "content": "❌ めっちゃ知らねぇ (Kansai + Tohoku) ✓ めっちゃ知らん (All Kansai) or 全然知らねぇ (All Tohoku)\n\nDon't mix features from different dialects."
+          },
+          {
+            "level": 3,
+            "heading": "Mistake 2: Inappropriate Context",
+            "content": "❌ Job interview: ほんま、仕事できまへんねん ✓ Job interview: 本当に、仕事ができます\n\nUse standard Japanese in formal settings."
+          },
+          {
+            "level": 3,
+            "heading": "Mistake 3: Overdoing Stereotype Dialects",
+            "content": "❌ Overusing だぎゃー in Nagoya (stereotyped) ✓ Natural Nagoya expressions\n\nDon't rely on stereotyped media portrayals."
+          }
+        ]
+      },
+      {
+        "level": 2,
+        "heading": "Summary",
+        "content": "Key Points:\n\nJapan has rich dialectal diversity Standard Japanese (Tokyo-based) is universally understood Kansai is the second most influential dialect Each region has unique vocabulary, grammar, and pronunciation Dialects carry social and cultural meanings Learn standard Japanese first, then explore dialects",
+        "children": [
+          {
+            "level": 3,
+            "heading": "Company",
+            "content": "About Pricing Blog Contact"
+          },
+          {
+            "level": 3,
+            "heading": "Legal",
+            "content": "Privacy Policy Terms of Service Cookie Policy"
+          }
+        ]
+      }
+    ]
+  },
+  "metadata": {
+    "extracted_at": "2026-01-01T22:19:28.968126Z",
+    "duration_ms": 5,
+    "extractors_matched": [
+      "metadata",
+      "examples",
+      "sections"
+    ],
+    "extractors_failed": [
+      "vocab_tables",
+      "definitions",
+      "content_blocks"
+    ]
+  }
+}

@@ -1,0 +1,451 @@
+{
+  "config_name": "Language Learning Extractor",
+  "url": "https://practice-japanese.com/docs/comparative-adjectives/",
+  "data": {
+    "sections": [
+      {
+        "level": 2,
+        "heading": "What are Comparative Adjectives?",
+        "content": "Unlike English where adjectives change form (big → bigger → biggest), Japanese adjectives don't change for comparisons. Instead, Japanese uses particles and adverbs like より (than), のほうが (more than), and 一番 (most) to express comparative and superlative meanings.\n\nEnglish: bigger, biggest Japanese: 大きい (same form always) Use particles to show comparison"
+      },
+      {
+        "level": 2,
+        "heading": "Key Principle",
+        "content": "",
+        "children": [
+          {
+            "level": 3,
+            "heading": "Adjectives stay the same",
+            "content": "大きい → 大きい → 大きい \"Big\" (base/comparative/superlative) Add particles, not suffixes No form changes"
+          }
+        ]
+      },
+      {
+        "level": 2,
+        "heading": "Basic Comparison Structure",
+        "content": "",
+        "children": [
+          {
+            "level": 3,
+            "heading": "A は B より [adjective]",
+            "content": "東京は大阪より大きい \"Tokyo is bigger than Osaka\" 犬は猫より大きい \"Dogs are bigger than cats\" Standard comparative"
+          },
+          {
+            "level": 3,
+            "heading": "A より B のほうが [adjective]",
+            "content": "大阪より東京のほうが大きい \"Tokyo is bigger than Osaka\" Emphasis on preferred item"
+          }
+        ]
+      },
+      {
+        "level": 2,
+        "heading": "い-Adjectives in Comparisons",
+        "content": "",
+        "children": [
+          {
+            "level": 3,
+            "heading": "Present affirmative",
+            "content": "高い → より高い \"Expensive → more expensive\" 難しい → より難しい \"Difficult → more difficult\" Form unchanged"
+          },
+          {
+            "level": 3,
+            "heading": "Negative comparisons",
+            "content": "高くない → より高くない \"Not expensive → less expensive\" 難しくない → より難しくない \"Not difficult → less difficult\" Negative stem + ない"
+          },
+          {
+            "level": 3,
+            "heading": "Past comparisons",
+            "content": "高かった → より高かった \"Was expensive → was more expensive\" Past form + comparison"
+          }
+        ]
+      },
+      {
+        "level": 2,
+        "heading": "な-Adjectives in Comparisons",
+        "content": "",
+        "children": [
+          {
+            "level": 3,
+            "heading": "Present affirmative",
+            "content": "便利 → より便利 \"Convenient → more convenient\" きれい → よりきれい \"Pretty → prettier\" No change to adjective"
+          },
+          {
+            "level": 3,
+            "heading": "With だ/です",
+            "content": "便利だ → より便利だ \"Is convenient → is more convenient\" Copula added as needed"
+          }
+        ]
+      },
+      {
+        "level": 2,
+        "heading": "Superlative with 一番",
+        "content": "",
+        "children": [
+          {
+            "level": 3,
+            "heading": "一番 + adjective",
+            "content": "一番高い \"Most expensive / The most expensive\" 一番難しい \"Most difficult / The most difficult\" 一番 precedes adjective"
+          },
+          {
+            "level": 3,
+            "heading": "[Group] で一番",
+            "content": "クラスで一番背が高い \"The tallest in the class\" 日本で一番大きい \"The biggest in Japan\" Specifies comparison group"
+          }
+        ]
+      },
+      {
+        "level": 2,
+        "heading": "Comparative Patterns Summary",
+        "content": "",
+        "children": [
+          {
+            "level": 3,
+            "heading": "Three main structures",
+            "content": "Comparative (2 items): A は B より 大きい \"A is bigger than B\" Emphatic comparative: B より A のほうが 大きい \"A is bigger than B\" Superlative (3+ items): A は 一番 大きい \"A is the biggest\" Different structures, same adjective"
+          }
+        ]
+      },
+      {
+        "level": 2,
+        "heading": "もっと (Even more)",
+        "content": "",
+        "children": [
+          {
+            "level": 3,
+            "heading": "Adding emphasis",
+            "content": "もっと大きい \"Even bigger / Bigger (than that)\" もっと速く \"Even faster\" Emphasizes comparison"
+          },
+          {
+            "level": 3,
+            "heading": "もっと vs より",
+            "content": "より: marks standard AよりB \"B than A\" もっと: intensifier もっと大きい \"even bigger\" Different functions"
+          }
+        ]
+      },
+      {
+        "level": 2,
+        "heading": "ずっと (Much more)",
+        "content": "",
+        "children": [
+          {
+            "level": 3,
+            "heading": "Significant difference",
+            "content": "ずっと大きい \"Much bigger\" ずっと難しい \"Much more difficult\" Large gap emphasized"
+          },
+          {
+            "level": 3,
+            "heading": "Combining patterns",
+            "content": "AよりBのほうがずっと大きい \"B is much bigger than A\" Multiple markers together"
+          }
+        ]
+      },
+      {
+        "level": 2,
+        "heading": "さらに (Even more/Furthermore)",
+        "content": "",
+        "children": [
+          {
+            "level": 3,
+            "heading": "Formal emphasis",
+            "content": "さらに速い \"Even faster\" さらに高度な \"Even more advanced\" Formal/written style"
+          }
+        ]
+      },
+      {
+        "level": 2,
+        "heading": "Common Comparative Adjectives",
+        "content": "",
+        "children": [
+          {
+            "level": 3,
+            "heading": "Size comparisons",
+            "content": "大きい → より大きい \"Bigger\" 小さい → より小さい \"Smaller\" 長い → より長い \"Longer\" 短い → より短い \"Shorter\""
+          },
+          {
+            "level": 3,
+            "heading": "Quality comparisons",
+            "content": "いい/よい → よりいい \"Better\" 悪い → より悪い \"Worse\" 新しい → より新しい \"Newer\" 古い → より古い \"Older\""
+          },
+          {
+            "level": 3,
+            "heading": "Difficulty comparisons",
+            "content": "難しい → より難しい \"More difficult\" 簡単 → より簡単 \"Easier\" 複雑 → より複雑 \"More complex\""
+          },
+          {
+            "level": 3,
+            "heading": "Speed and intensity",
+            "content": "速い → より速い \"Faster\" 遅い → より遅い \"Slower\" 強い → より強い \"Stronger\" 弱い → より弱い \"Weaker\""
+          }
+        ]
+      },
+      {
+        "level": 2,
+        "heading": "Negative Comparisons",
+        "content": "",
+        "children": [
+          {
+            "level": 3,
+            "heading": "\"Less\" expressions",
+            "content": "高くない → より高くない \"Less expensive\" 難しくない → より難しくない \"Less difficult\" Use negative form"
+          },
+          {
+            "level": 3,
+            "heading": "\"Not as...as\"",
+            "content": "AほどBじゃない \"Not as B as A\" 東京ほど大きくない \"Not as big as Tokyo\" ほど with negative"
+          }
+        ]
+      },
+      {
+        "level": 2,
+        "heading": "Special Cases",
+        "content": "",
+        "children": [
+          {
+            "level": 3,
+            "heading": "いい/よい (good/better)",
+            "content": "Base: いい/よい Comparative: よりいい/よりよい Superlative: 一番いい Same form, add markers"
+          },
+          {
+            "level": 3,
+            "heading": "大きい vs 大きな",
+            "content": "大きい: regular い-adjective より大きい \"bigger\" 大きな: pre-noun only No comparative form Different types"
+          }
+        ]
+      },
+      {
+        "level": 2,
+        "heading": "Multiple Comparisons",
+        "content": "",
+        "children": [
+          {
+            "level": 3,
+            "heading": "Ranking three or more",
+            "content": "A、B、Cの中で、Aが一番大きい \"Among A, B, and C, A is the biggest\" Use 一番 for 3+ items"
+          }
+        ]
+      },
+      {
+        "level": 2,
+        "heading": "Equal Comparisons",
+        "content": "",
+        "children": [
+          {
+            "level": 3,
+            "heading": "同じくらい (about the same)",
+            "content": "AはBと同じくらい大きい \"A is about as big as B\" Equal degree"
+          },
+          {
+            "level": 3,
+            "heading": "A も B も同じ",
+            "content": "どちらも同じくらい高い \"Both are about equally expensive\" No significant difference"
+          }
+        ]
+      },
+      {
+        "level": 2,
+        "heading": "Incremental Comparisons",
+        "content": "",
+        "children": [
+          {
+            "level": 3,
+            "heading": "だんだん/徐々に (gradually)",
+            "content": "だんだん難しくなる \"Gradually becomes more difficult\" 徐々に速くなる \"Gradually becomes faster\" Progressive change"
+          },
+          {
+            "level": 3,
+            "heading": "ますます (more and more)",
+            "content": "ますます難しい \"More and more difficult\" ますます人気 \"More and more popular\" Increasing degree"
+          }
+        ]
+      },
+      {
+        "level": 2,
+        "heading": "Common Mistakes",
+        "content": "",
+        "children": [
+          {
+            "level": 3,
+            "heading": "Adding English-style suffixes",
+            "content": "Wrong: 大きいer ⚠️ Wrong: 大きiest ⚠️ Correct: より大きい ✓ Correct: 一番大きい ✓ Japanese doesn't inflect adjectives"
+          },
+          {
+            "level": 3,
+            "heading": "Wrong particle choice",
+            "content": "Wrong: 東京が大阪より大きい ⚠️ Better: 東京は大阪より大きい ✓ Use は for subject in comparisons"
+          },
+          {
+            "level": 3,
+            "heading": "Forgetting の in のほうが",
+            "content": "Wrong: Aよりほうが ⚠️ Correct: Aよりのほうが ✓ の is required"
+          },
+          {
+            "level": 3,
+            "heading": "Using 一番 for two items",
+            "content": "Unnatural: AとBで一番好き ⚠️ Natural: AよりBのほうが好き ✓ Use comparative for two items"
+          }
+        ]
+      },
+      {
+        "level": 2,
+        "heading": "Polite Forms",
+        "content": "",
+        "children": [
+          {
+            "level": 3,
+            "heading": "です/ます endings",
+            "content": "Casual: より大きい \"Bigger\" Polite: より大きいです \"Is bigger\" Add polite copula"
+          }
+        ]
+      },
+      {
+        "level": 2,
+        "heading": "Formal Comparisons",
+        "content": "",
+        "children": [
+          {
+            "level": 3,
+            "heading": "より for written style",
+            "content": "この方法はより効果的です \"This method is more effective\" Business/academic contexts"
+          },
+          {
+            "level": 3,
+            "heading": "一層/更に (even more - formal)",
+            "content": "一層困難な \"Even more difficult\" 更なる発展 \"Further development\" Formal writing"
+          }
+        ]
+      },
+      {
+        "level": 2,
+        "heading": "Practical Comparison Patterns",
+        "content": "",
+        "children": [
+          {
+            "level": 3,
+            "heading": "Shopping comparisons",
+            "content": "これとそれ、どちらが安いですか \"Which is cheaper, this or that?\" こちらのほうが安いです \"This one is cheaper\" Consumer contexts"
+          },
+          {
+            "level": 3,
+            "heading": "Preference statements",
+            "content": "夏より冬のほうが好き \"I like winter more than summer\" 肉より魚のほうがいい \"Fish is better than meat\" Personal choices"
+          }
+        ]
+      },
+      {
+        "level": 2,
+        "heading": "Temporal Comparisons",
+        "content": "",
+        "children": [
+          {
+            "level": 3,
+            "heading": "前より/昨日より",
+            "content": "前より上手になった \"Became better than before\" 昨日より寒い \"Colder than yesterday\" Time-based standards"
+          }
+        ]
+      },
+      {
+        "level": 2,
+        "heading": "Practice Sentences",
+        "content": "",
+        "children": [
+          {
+            "level": 3,
+            "heading": "Basic",
+            "content": "東京は大阪より大きい \"Tokyo is bigger than Osaka\" これのほうが安い \"This one is cheaper\" 日本で一番高い山 \"The highest mountain in Japan\""
+          },
+          {
+            "level": 3,
+            "heading": "Intermediate",
+            "content": "日本語は英語より文法が複雑だと思います \"I think Japanese grammar is more complex than English\" この問題は思ったより難しくなかった \"This problem wasn't more difficult than I thought\" 世界で一番美しい景色を見た \"I saw the most beautiful scenery in the world\""
+          },
+          {
+            "level": 3,
+            "heading": "Advanced",
+            "content": "技術が進歩すればするほど、私たちの生活は より便利になるが、同時により複雑にもなる。 50年前と比べて、現代の生活は はるかに快適になった。しかし、 一番大切なのは、便利さではなく、 心の豊かさだと思う。昔の人々のほうが、 精神的にはより充実していたかもしれない。 \"The more technology progresses, the more convenient our lives become, but at the same time they also become more complex. Compared to 50 years ago, modern life has become far more comfortable. However, I think what's most important is not convenience, but richness of heart. People of the past may have been more spiritually fulfilled.\" 語学学習において、最初は簡単に感じても、 進めば進むほどより難しくなる。しかし、 諦めずに続けることが一番重要だ。 努力すればするほど、より深く理解できる ようになる。完璧を目指すよりも、 少しずつでも前より上達することを 目標にしたほうがいい。 \"In language learning, even if it feels easy at first, the more you progress, the more difficult it becomes. However, continuing without giving up is most important. The more effort you make, the more deeply you can understand. Rather than aiming for perfection, it's better to aim for improving little by little compared to before.\""
+          }
+        ]
+      },
+      {
+        "level": 2,
+        "heading": "Related Grammar Points",
+        "content": "より - Than (comparison marker) のほうが - More than (emphatic) 一番 - Most (superlative) ほど - As...as (extent) くらい/ぐらい - About (degree) 同じ - Same (equality) もっと - Even more (intensifier) ずっと - Much more (large difference)",
+        "children": [
+          {
+            "level": 3,
+            "heading": "Company",
+            "content": "About Pricing Blog Contact"
+          },
+          {
+            "level": 3,
+            "heading": "Legal",
+            "content": "Privacy Policy Terms of Service Cookie Policy"
+          }
+        ]
+      }
+    ],
+    "metadata": {
+      "title": "Comparative Adjectives"
+    },
+    "examples": [
+      {
+        "sentence": "より - Than (comparison marker)"
+      },
+      {
+        "sentence": "のほうが - More than (emphatic)"
+      },
+      {
+        "sentence": "一番 - Most (superlative)"
+      },
+      {
+        "sentence": "ほど - As...as (extent)"
+      },
+      {
+        "sentence": "くらい/ぐらい - About (degree)"
+      },
+      {
+        "sentence": "同じ - Same (equality)"
+      },
+      {
+        "sentence": "もっと - Even more (intensifier)"
+      },
+      {
+        "sentence": "ずっと - Much more (large difference)"
+      },
+      {
+        "sentence": "About"
+      },
+      {
+        "sentence": "Pricing"
+      },
+      {
+        "sentence": "Blog"
+      },
+      {
+        "sentence": "Contact"
+      },
+      {
+        "sentence": "Privacy Policy"
+      },
+      {
+        "sentence": "Terms of Service"
+      },
+      {
+        "sentence": "Cookie Policy"
+      }
+    ]
+  },
+  "metadata": {
+    "extracted_at": "2026-01-01T22:19:28.087570900Z",
+    "duration_ms": 6,
+    "extractors_matched": [
+      "metadata",
+      "examples",
+      "sections"
+    ],
+    "extractors_failed": [
+      "vocab_tables",
+      "definitions",
+      "content_blocks"
+    ]
+  }
+}

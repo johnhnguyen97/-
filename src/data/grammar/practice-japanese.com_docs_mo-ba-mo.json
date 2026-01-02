@@ -1,0 +1,328 @@
+{
+  "config_name": "Language Learning Extractor",
+  "url": "https://practice-japanese.com/docs/mo-ba-mo/",
+  "data": {
+    "examples": [
+      {
+        "sentence": "\"both... and...\""
+      },
+      {
+        "sentence": "\"not only... but also...\""
+      },
+      {
+        "sentence": "\"as well as\""
+      },
+      {
+        "sentence": "\"whether... or...\""
+      },
+      {
+        "sentence": "も...ば...も emphasizes \"both... and...\""
+      },
+      {
+        "sentence": "Simple form: も...も lists parallel elements"
+      },
+      {
+        "sentence": "With ば: も...ば...も shows parallel conditions/actions"
+      },
+      {
+        "sentence": "Can list 2+ items using multiple も"
+      },
+      {
+        "sentence": "Shows balance: good and bad, pros and cons"
+      },
+      {
+        "sentence": "Formal: も...にも (theoretically, practically, etc.)"
+      },
+      {
+        "sentence": "Essential for expressing inclusive, comprehensive statements"
+      },
+      {
+        "sentence": "Related patterns: ても...ても (even if... even if)"
+      },
+      {
+        "sentence": "Use consistently - all parallel elements need も"
+      },
+      {
+        "sentence": "About"
+      },
+      {
+        "sentence": "Pricing"
+      },
+      {
+        "sentence": "Blog"
+      },
+      {
+        "sentence": "Contact"
+      },
+      {
+        "sentence": "Privacy Policy"
+      },
+      {
+        "sentence": "Terms of Service"
+      },
+      {
+        "sentence": "Cookie Policy"
+      }
+    ],
+    "sections": [
+      {
+        "level": 2,
+        "heading": "What is も...ば...も?",
+        "content": "も...ば...も is a pattern that emphasizes multiple elements are all true or applicable. It means \"both... and...\" or \"not only... but also...\" and creates a parallel structure listing two or more items.\n\nEnglish equivalents:\n\n\"both... and...\" \"not only... but also...\" \"as well as\" \"whether... or...\"\n\nBasic structure:\n\nA + も + B + ば + C + も\n\n雨も降れば風も吹く。 Ame mo fureba kaze mo fuku. \"Not only does it rain, but the wind blows too.\" 彼は頭もいいし、優しくもある。 Kare wa atama mo ii shi, yasashiku mo aru. \"He's both smart and kind.\""
+      },
+      {
+        "level": 2,
+        "heading": "Basic Patterns",
+        "content": "",
+        "children": [
+          {
+            "level": 3,
+            "heading": "も...も (Simple Both...and)",
+            "content": "The simplest form uses も...も without ば:\n\n猫も犬も好きです。 Neko mo inu mo suki desu. \"I like both cats and dogs.\" 日本語も英語も話せます。 Nihongo mo eigo mo hanasemasu. \"I can speak both Japanese and English.\" 母も父も来た。 Haha mo chichi mo kita. \"Both mother and father came.\""
+          },
+          {
+            "level": 3,
+            "heading": "も...ば...も (Conditional/Parallel Actions)",
+            "content": "With ば conditional, emphasizes that both conditions/actions occur:\n\n雨も降れば雪も降る。 Ame mo fureba yuki mo furu. \"Not only does it rain, but it snows too.\" 笑いもすれば泣きもする。 Warai mo sureba naki mo suru. \"I both laugh and cry.\" / \"Sometimes I laugh, sometimes I cry.\" 勉強もすれば遊びもする。 Benkyou mo sureba asobi mo suru. \"I both study and play.\""
+          },
+          {
+            "level": 3,
+            "heading": "も...し...も (With し)",
+            "content": "Using し creates a softer listing:\n\n彼は親切だし、頭もいい。 Kare wa shinsetsu da shi, atama mo ii. \"He's kind, and he's smart too.\" 安いし、おいしくもある。 Yasui shi, oishiku mo aru. \"It's cheap, and it's delicious too.\""
+          }
+        ]
+      },
+      {
+        "level": 2,
+        "heading": "Emphasizing Extremes",
+        "content": "",
+        "children": [
+          {
+            "level": 3,
+            "heading": "Both Good and Bad",
+            "content": "良いことも悪いこともある。 Ii koto mo warui koto mo aru. \"There are both good things and bad things.\" 成功も失敗もある。 Seikou mo shippai mo aru. \"There are both successes and failures.\" 嬉しいことも悲しいこともある。 Ureshii koto mo kanashii koto mo aru. \"There are both happy things and sad things.\""
+          },
+          {
+            "level": 3,
+            "heading": "Multiple Conditions",
+            "content": "晴れの日も雨の日も働く。 Hare no hi mo ame no hi mo hataraku. \"I work both on sunny days and rainy days.\" 若い人も年寄りも来る。 Wakai hito mo toshiyori mo kuru. \"Both young people and elderly come.\" 朝も夜も忙しい。 Asa mo yoru mo isogashii. \"I'm busy both morning and night.\""
+          }
+        ]
+      },
+      {
+        "level": 2,
+        "heading": "With Verbs",
+        "content": "",
+        "children": [
+          {
+            "level": 3,
+            "heading": "Parallel Actions",
+            "content": "食べもすれば飲みもする。 Tabe mo sureba nomi mo suru. \"I both eat and drink.\" 走りもすれば歩きもする。 Hashiri mo sureba aruki mo suru. \"I both run and walk.\" 読みもすれば書きもする。 Yomi mo sureba kaki mo suru. \"I both read and write.\""
+          },
+          {
+            "level": 3,
+            "heading": "With ている Form",
+            "content": "勉強もしているし、働いてもいる。 Benkyou mo shite iru shi, hataraite mo iru. \"I'm both studying and working.\" 泣いてもいれば笑ってもいる。 Naite mo ireba waratte mo iru. \"I'm both crying and laughing.\""
+          }
+        ]
+      },
+      {
+        "level": 2,
+        "heading": "With Adjectives",
+        "content": "",
+        "children": [
+          {
+            "level": 3,
+            "heading": "い-adjectives",
+            "content": "高くもあり安くもある。 Takaku mo ari yasuku mo aru. \"It's both expensive and cheap.\" [Depending on viewpoint] 難しくもあり簡単でもある。 Muzukashiku mo ari kantan de mo aru. \"It's both difficult and easy.\" 大きくもあり小さくもある。 Ookiku mo ari chiisaku mo aru. \"It's both big and small.\""
+          },
+          {
+            "level": 3,
+            "heading": "な-adjectives",
+            "content": "静かでもあり賑やかでもある。 Shizuka de mo ari nigiyaka de mo aru. \"It's both quiet and lively.\" 便利でもあり不便でもある。 Benri de mo ari fuben de mo aru. \"It's both convenient and inconvenient.\" 簡単でもあり複雑でもある。 Kantan de mo ari fukuzatsu de mo aru. \"It's both simple and complex.\""
+          }
+        ]
+      },
+      {
+        "level": 2,
+        "heading": "Expressing \"Whether...or...\"",
+        "content": "",
+        "children": [
+          {
+            "level": 3,
+            "heading": "Regardless of Conditions",
+            "content": "雨が降ろうが雪が降ろうが行く。 Ame ga furou ga yuki ga furou ga iku. \"Whether it rains or snows, I'm going.\" 好きであろうが嫌いであろうが。 Suki de arou ga kirai de arou ga. \"Whether you like it or hate it.\" 誰が来ようが来まいが関係ない。 Dare ga koyou ga komai ga kankei nai. \"Whether anyone comes or not doesn't matter.\""
+          },
+          {
+            "level": 3,
+            "heading": "も...も with Negatives",
+            "content": "行きもしないし来もしない。 Iki mo shinai shi ki mo shinai. \"Neither goes nor comes.\" 食べもしなければ飲みもしない。 Tabe mo shinakereba nomi mo shinai. \"Neither eats nor drinks.\""
+          }
+        ]
+      },
+      {
+        "level": 2,
+        "heading": "Three or More Items",
+        "content": "",
+        "children": [
+          {
+            "level": 3,
+            "heading": "Multiple Elements",
+            "content": "春も夏も秋も冬も好きだ。 Haru mo natsu mo aki mo fuyu mo suki da. \"I like spring, summer, fall, and winter.\" [All of them] 日本語も英語も中国語も話せる。 Nihongo mo eigo mo chuugokugo mo hanaseru. \"I can speak Japanese, English, and Chinese.\" 朝も昼も夜も働く。 Asa mo hiru mo yoru mo hataraku. \"I work morning, noon, and night.\""
+          },
+          {
+            "level": 3,
+            "heading": "Extended Lists",
+            "content": "彼は優しくもあり、頭もよく、面白くもある。 Kare wa yasashiku mo ari, atama mo yoku, omoshiroku mo aru. \"He's kind, smart, and funny.\""
+          }
+        ]
+      },
+      {
+        "level": 2,
+        "heading": "Formal Expressions",
+        "content": "",
+        "children": [
+          {
+            "level": 3,
+            "heading": "In Written Language",
+            "content": "理論的にも実践的にも優れている。 Rironteki ni mo jissenteki ni mo sugurete iru. \"It's excellent both theoretically and practically.\" 歴史的にも文化的にも重要だ。 Rekishiteki ni mo bunkateki ni mo juuyou da. \"It's important both historically and culturally.\" 経済的にも政治的にも影響がある。 Keizaiteki ni mo seijiteki ni mo eikyou ga aru. \"It has both economic and political influence.\""
+          },
+          {
+            "level": 3,
+            "heading": "In Formal Speeches",
+            "content": "国内においても国外においても認められている。 Kokunai ni oite mo kokugai ni oite mo mitomerarete iru. \"It's recognized both domestically and internationally.\" 若者にとっても高齢者にとっても大切だ。 Wakamono ni totte mo koureisha ni totte mo taisetsu da. \"It's important both for young people and for the elderly.\""
+          }
+        ]
+      },
+      {
+        "level": 2,
+        "heading": "Contrast and Comparison",
+        "content": "",
+        "children": [
+          {
+            "level": 3,
+            "heading": "Showing Both Sides",
+            "content": "メリットもあればデメリットもある。 Meritto mo areba demeritto mo aru. \"There are both merits and demerits.\" 長所もあれば短所もある。 Chousho mo areba tansho mo aru. \"There are both strengths and weaknesses.\" 簡単なところもあれば難しいところもある。 Kantan na tokoro mo areba muzukashii tokoro mo aru. \"There are both easy parts and difficult parts.\""
+          },
+          {
+            "level": 3,
+            "heading": "Balanced Perspectives",
+            "content": "賛成する人もいれば反対する人もいる。 Sansei suru hito mo ireba hantai suru hito mo iru. \"There are both people who agree and people who disagree.\" 成功する日もあれば失敗する日もある。 Seikou suru hi mo areba shippai suru hi mo aru. \"There are days of success and days of failure.\""
+          }
+        ]
+      },
+      {
+        "level": 2,
+        "heading": "Common Set Phrases",
+        "content": "",
+        "children": [
+          {
+            "level": 3,
+            "heading": "Idiomatic Expressions",
+            "content": "右も左も分からない Migi mo hidari mo wakaranai \"Don't know right from left\" [Completely lost/clueless] 泣いても笑っても Naite mo waratte mo \"Whether crying or laughing\" [No matter what] 好きでも嫌いでも Suki de mo kirai de mo \"Whether you like it or not\" 雨が降ろうが槍が降ろうが Ame ga furou ga yari ga furou ga \"Whether it rains or spears fall\" [No matter what happens]"
+          }
+        ]
+      },
+      {
+        "level": 2,
+        "heading": "Casual vs Formal",
+        "content": "",
+        "children": [
+          {
+            "level": 3,
+            "heading": "Casual Speech",
+            "content": "猫も好きだし犬も好き。 Neko mo suki da shi inu mo suki. \"I like both cats and dogs.\" 行くし帰るし忙しい。 Iku shi kaeru shi isogashii. \"I go and come back - I'm busy.\""
+          },
+          {
+            "level": 3,
+            "heading": "Formal Speech",
+            "content": "猫も好きですし、犬も好きです。 Neko mo suki desu shi, inu mo suki desu. \"I like both cats and dogs.\" 参加もいたしますし、協力もいたします。 Sanka mo itashimasu shi, kyouryoku mo itashimasu. \"I will both participate and cooperate.\""
+          }
+        ]
+      },
+      {
+        "level": 2,
+        "heading": "Variations and Related Patterns",
+        "content": "",
+        "children": [
+          {
+            "level": 3,
+            "heading": "も...も...も",
+            "content": "Three or more items:\n\n彼も彼女も私も行く。 Kare mo kanojo mo watashi mo iku. \"He, she, and I are all going.\""
+          },
+          {
+            "level": 3,
+            "heading": "も...なら...も",
+            "content": "Alternative conditional form:\n\n晴れならば行くし、雨なら行かない。 Hare naraba iku shi, ame nara ikanai. \"If it's sunny I'll go, if it rains I won't.\""
+          },
+          {
+            "level": 3,
+            "heading": "ても...ても",
+            "content": "\"Even if... even if...\"\n\n雨が降っても雪が降っても行く。 Ame ga futte mo yuki ga futte mo iku. \"Even if it rains, even if it snows, I'm going.\""
+          }
+        ]
+      },
+      {
+        "level": 2,
+        "heading": "Common Mistakes",
+        "content": "",
+        "children": [
+          {
+            "level": 3,
+            "heading": "Mistake 1: Inconsistent Particles",
+            "content": "❌ 猫も好きだし犬が好き ✓ 猫も好きだし犬も好き\n\nUse も consistently for parallel structure."
+          },
+          {
+            "level": 3,
+            "heading": "Mistake 2: Wrong Verb Forms",
+            "content": "❌ 食べますも飲みますも ✓ 食べもするし飲みもする\n\nUse proper verb forms with も."
+          },
+          {
+            "level": 3,
+            "heading": "Mistake 3: Overusing the Pattern",
+            "content": "❌ 猫も犬も魚も鳥も虫も好き (too many) ✓ 猫も犬も好きだし、魚や鳥も好き\n\nDon't overload - group when possible."
+          },
+          {
+            "level": 3,
+            "heading": "Mistake 4: Missing も",
+            "content": "❌ 猫も犬好き ✓ 猫も犬も好き\n\nBoth elements need も for proper emphasis."
+          }
+        ]
+      },
+      {
+        "level": 2,
+        "heading": "Summary",
+        "content": "Key Points:\n\nも...ば...も emphasizes \"both... and...\" Simple form: も...も lists parallel elements With ば: も...ば...も shows parallel conditions/actions Can list 2+ items using multiple も Shows balance: good and bad, pros and cons Formal: も...にも (theoretically, practically, etc.) Essential for expressing inclusive, comprehensive statements Related patterns: ても...ても (even if... even if) Use consistently - all parallel elements need も",
+        "children": [
+          {
+            "level": 3,
+            "heading": "Company",
+            "content": "About Pricing Blog Contact"
+          },
+          {
+            "level": 3,
+            "heading": "Legal",
+            "content": "Privacy Policy Terms of Service Cookie Policy"
+          }
+        ]
+      }
+    ],
+    "metadata": {
+      "title": "も...ば...も (Both... and...)"
+    }
+  },
+  "metadata": {
+    "extracted_at": "2026-01-01T22:19:31.385098200Z",
+    "duration_ms": 3,
+    "extractors_matched": [
+      "metadata",
+      "examples",
+      "sections"
+    ],
+    "extractors_failed": [
+      "vocab_tables",
+      "definitions",
+      "content_blocks"
+    ]
+  }
+}

@@ -1,0 +1,355 @@
+{
+  "config_name": "Language Learning Extractor",
+  "url": "https://practice-japanese.com/docs/prenoun-adjectivals/",
+  "data": {
+    "examples": [
+      {
+        "sentence": "About"
+      },
+      {
+        "sentence": "Pricing"
+      },
+      {
+        "sentence": "Blog"
+      },
+      {
+        "sentence": "Contact"
+      },
+      {
+        "sentence": "Privacy Policy"
+      },
+      {
+        "sentence": "Terms of Service"
+      },
+      {
+        "sentence": "Cookie Policy"
+      }
+    ],
+    "sections": [
+      {
+        "level": 2,
+        "heading": "What are Pre-noun Adjectivals?",
+        "content": "Pre-noun adjectivals (連体詞 rentaishi) are special words that can ONLY modify nouns directly - they cannot be used as predicates or stand alone. Unlike adjectives, they never take です/だ and always come before nouns. Common examples include 大きな, 小さな, この, あの, どの, and いわゆる.\n\n大きな家 \"A big house\" この本 \"This book\" あの人 \"That person\" Cannot say: *家は大きな ⚠️"
+      },
+      {
+        "level": 2,
+        "heading": "Main Characteristics",
+        "content": "",
+        "children": [
+          {
+            "level": 3,
+            "heading": "Only before nouns",
+            "content": "大きな家 ✓ \"A big house\" 家は大きな ⚠️ Wrong - cannot be predicate Must modify noun"
+          },
+          {
+            "level": 3,
+            "heading": "No conjugation",
+            "content": "大きな家 大きな家 大きな家 Never changes form No tense, no negation"
+          }
+        ]
+      },
+      {
+        "level": 2,
+        "heading": "Common Pre-noun Adjectivals",
+        "content": "",
+        "children": [
+          {
+            "level": 3,
+            "heading": "大きな/小さな",
+            "content": "大きな問題 \"A big problem\" 小さな子供 \"A small child\" Similar to 大きい/小さい But only before nouns"
+          },
+          {
+            "level": 3,
+            "heading": "この/その/あの/どの",
+            "content": "この本 \"This book\" その人 \"That person\" あの店 \"That store\" どの車 \"Which car\" Demonstratives"
+          },
+          {
+            "level": 3,
+            "heading": "あらゆる (all kinds of)",
+            "content": "あらゆる方法 \"All kinds of methods\" あらゆる可能性 \"Every possibility\" Comprehensive meaning"
+          },
+          {
+            "level": 3,
+            "heading": "いわゆる (so-called)",
+            "content": "いわゆる専門家 \"So-called experts\" いわゆる常識 \"So-called common sense\" Quotation nuance"
+          },
+          {
+            "level": 3,
+            "heading": "たいした (considerable/great)",
+            "content": "たいした問題 \"A big problem\" たいした人 \"An impressive person\" Often with negative"
+          }
+        ]
+      },
+      {
+        "level": 2,
+        "heading": "大きな vs 大きい",
+        "content": "",
+        "children": [
+          {
+            "level": 3,
+            "heading": "大きな = pre-noun only",
+            "content": "大きな家 ✓ \"A big house\" 家は大きな ⚠️ Cannot be predicate Only modifies nouns"
+          },
+          {
+            "level": 3,
+            "heading": "大きい = full adjective",
+            "content": "大きい家 ✓ \"A big house\" 家は大きい ✓ \"The house is big\" Can be predicate"
+          },
+          {
+            "level": 3,
+            "heading": "Usage difference",
+            "content": "大きな: Often for abstract/emotional 大きな問題 \"a big problem\" 大きな影響 \"a big influence\" 大きい: Often for physical size 大きい箱 \"a big box\" 大きい建物 \"a big building\" Both can be used Slight nuance difference"
+          }
+        ]
+      },
+      {
+        "level": 2,
+        "heading": "小さな vs 小さい",
+        "content": "",
+        "children": [
+          {
+            "level": 3,
+            "heading": "小さな = pre-noun only",
+            "content": "小さな家 ✓ \"A small house\" 家は小さな ⚠️ Cannot be predicate"
+          },
+          {
+            "level": 3,
+            "heading": "小さい = full adjective",
+            "content": "小さい家 ✓ \"A small house\" 家は小さい ✓ \"The house is small\" Can be predicate"
+          }
+        ]
+      },
+      {
+        "level": 2,
+        "heading": "Demonstratives (この/その/あの/どの)",
+        "content": "",
+        "children": [
+          {
+            "level": 3,
+            "heading": "この (this)",
+            "content": "この本 \"This book\" この人 \"This person\" Near speaker"
+          },
+          {
+            "level": 3,
+            "heading": "その (that)",
+            "content": "その本 \"That book\" その人 \"That person\" Near listener"
+          },
+          {
+            "level": 3,
+            "heading": "あの (that over there)",
+            "content": "あの本 \"That book (over there)\" あの人 \"That person (over there)\" Far from both"
+          },
+          {
+            "level": 3,
+            "heading": "どの (which)",
+            "content": "どの本 \"Which book\" どの人 \"Which person\" Question word"
+          }
+        ]
+      },
+      {
+        "level": 2,
+        "heading": "Cannot Stand Alone",
+        "content": "",
+        "children": [
+          {
+            "level": 3,
+            "heading": "Must have noun",
+            "content": "Wrong: これは大きな ⚠️ Correct: これは大きな家 ✓ \"This is a big house\" Or: これは大きい ✓ \"This is big\" (using 大きい) Need noun for pre-noun words"
+          }
+        ]
+      },
+      {
+        "level": 2,
+        "heading": "あらゆる (all/every)",
+        "content": "",
+        "children": [
+          {
+            "level": 3,
+            "heading": "Comprehensive meaning",
+            "content": "あらゆる分野 \"All fields\" あらゆる手段 \"Every means\" All possible types"
+          },
+          {
+            "level": 3,
+            "heading": "Usage",
+            "content": "あらゆる努力をした \"Made every effort\" あらゆる問題 \"All problems\" Emphasizes totality"
+          }
+        ]
+      },
+      {
+        "level": 2,
+        "heading": "いわゆる (so-called)",
+        "content": "",
+        "children": [
+          {
+            "level": 3,
+            "heading": "Introducing common terms",
+            "content": "いわゆる「AI」 \"So-called 'AI'\" いわゆる専門家 \"So-called experts\" Sometimes skeptical tone"
+          },
+          {
+            "level": 3,
+            "heading": "Quotation function",
+            "content": "いわゆる常識 \"What is called common sense\" Referencing known concepts"
+          }
+        ]
+      },
+      {
+        "level": 2,
+        "heading": "たいした (considerable)",
+        "content": "",
+        "children": [
+          {
+            "level": 3,
+            "heading": "Positive meaning",
+            "content": "たいした人 \"An impressive person\" たいした腕前 \"Considerable skill\" Usually impressive"
+          },
+          {
+            "level": 3,
+            "heading": "With negative (not much)",
+            "content": "たいしたことない \"Not a big deal\" たいした問題じゃない \"Not a serious problem\" Common with negatives"
+          }
+        ]
+      },
+      {
+        "level": 2,
+        "heading": "ある/ない as Pre-noun",
+        "content": "",
+        "children": [
+          {
+            "level": 3,
+            "heading": "ある (a certain)",
+            "content": "ある日 \"One day / A certain day\" ある人 \"A certain person\" Indefinite specific"
+          },
+          {
+            "level": 3,
+            "heading": "Cannot be predicate here",
+            "content": "Wrong: 日はある ⚠️ (This means \"there is a day\") Different meaning"
+          }
+        ]
+      },
+      {
+        "level": 2,
+        "heading": "Formal Pre-noun Words",
+        "content": "",
+        "children": [
+          {
+            "level": 3,
+            "heading": "さる (a certain - formal)",
+            "content": "さる筋 \"A certain source\" さる方 \"A certain person\" Very formal"
+          },
+          {
+            "level": 3,
+            "heading": "去る (past/last)",
+            "content": "去る3月 \"Last March\" 去る○○日 \"On the ○○th of last month\" Formal, written"
+          }
+        ]
+      },
+      {
+        "level": 2,
+        "heading": "Multiple Modifiers",
+        "content": "",
+        "children": [
+          {
+            "level": 3,
+            "heading": "Pre-noun + adjective",
+            "content": "この大きい家 \"This big house\" あの美しい花 \"That beautiful flower\" Can combine"
+          },
+          {
+            "level": 3,
+            "heading": "Order matters",
+            "content": "Pre-noun comes first: この新しい本 ✓ \"This new book\" 新しいこの本 ⚠️ Unnatural"
+          }
+        ]
+      },
+      {
+        "level": 2,
+        "heading": "Common Mistakes",
+        "content": "",
+        "children": [
+          {
+            "level": 3,
+            "heading": "Using as predicate",
+            "content": "Wrong: 家は大きな ⚠️ Correct: 家は大きい ✓ \"The house is big\" Use regular adjective"
+          },
+          {
+            "level": 3,
+            "heading": "Conjugating",
+            "content": "Wrong: 大きなかった ⚠️ Wrong: 大きなくない ⚠️ Cannot conjugate No tense or negative forms"
+          },
+          {
+            "level": 3,
+            "heading": "Adding です/だ directly",
+            "content": "Wrong: 問題は大きなだ ⚠️ Correct: 問題は大きい ✓ Or: 大きな問題だ ✓ Need full adjective for predicate"
+          }
+        ]
+      },
+      {
+        "level": 2,
+        "heading": "Special Cases",
+        "content": "",
+        "children": [
+          {
+            "level": 3,
+            "heading": "ない as pre-noun",
+            "content": "Common mistake: 行かない人 ✓ \"A person who doesn't go\" (This is verb negative, not pre-noun) ない本 ⚠️ Wrong - use ない as adjective differently"
+          }
+        ]
+      },
+      {
+        "level": 2,
+        "heading": "この/その/あの Combinations",
+        "content": "",
+        "children": [
+          {
+            "level": 3,
+            "heading": "With の for possession",
+            "content": "この人の本 \"This person's book\" その人の家 \"That person's house\" Combining particles"
+          }
+        ]
+      },
+      {
+        "level": 2,
+        "heading": "Practice Sentences",
+        "content": "",
+        "children": [
+          {
+            "level": 3,
+            "heading": "Basic",
+            "content": "大きな家 \"A big house\" 小さな子供 \"A small child\" この本 \"This book\" あの人 \"That person\" あらゆる可能性 \"Every possibility\" いわゆる専門家 \"So-called experts\""
+          },
+          {
+            "level": 3,
+            "heading": "Intermediate",
+            "content": "これは私が住んでいる大きな家です \"This is the big house where I live\" あの小さな店はとても有名です \"That small store is very famous\" この本は昨日買ったものです \"This book is the one I bought yesterday\" あらゆる方法を試したが、うまくいかなかった \"I tried every method, but it didn't work out\" いわゆる「成功」の定義は人それぞれだ \"The definition of so-called 'success' differs by person\""
+          },
+          {
+            "level": 3,
+            "heading": "Company",
+            "content": "About Pricing Blog Contact"
+          },
+          {
+            "level": 3,
+            "heading": "Legal",
+            "content": "Privacy Policy Terms of Service Cookie Policy"
+          }
+        ]
+      }
+    ],
+    "metadata": {
+      "title": "Pre-noun Adjectivals"
+    }
+  },
+  "metadata": {
+    "extracted_at": "2026-01-01T22:19:34.128770400Z",
+    "duration_ms": 5,
+    "extractors_matched": [
+      "metadata",
+      "examples",
+      "sections"
+    ],
+    "extractors_failed": [
+      "vocab_tables",
+      "definitions",
+      "content_blocks"
+    ]
+  }
+}

@@ -1,0 +1,405 @@
+{
+  "config_name": "Language Learning Extractor",
+  "url": "https://practice-japanese.com/docs/apologies/",
+  "data": {
+    "metadata": {
+      "title": "Apologies"
+    },
+    "examples": [
+      {
+        "sentence": "About"
+      },
+      {
+        "sentence": "Pricing"
+      },
+      {
+        "sentence": "Blog"
+      },
+      {
+        "sentence": "Contact"
+      },
+      {
+        "sentence": "Privacy Policy"
+      },
+      {
+        "sentence": "Terms of Service"
+      },
+      {
+        "sentence": "Cookie Policy"
+      }
+    ],
+    "sections": [
+      {
+        "level": 2,
+        "heading": "Apologies",
+        "content": "Apologies are deeply embedded in Japanese culture and communication. Japanese people apologize more frequently than English speakers, using apologies not just for mistakes but also to show consideration, humility, and social awareness.\n\nEnglish: Apologize for clear wrongs Japanese: Apologize frequently Shows consideration Maintains harmony Cultural importance More than just \"sorry\""
+      },
+      {
+        "level": 2,
+        "heading": "Basic Apology Levels",
+        "content": "",
+        "children": [
+          {
+            "level": 3,
+            "heading": "Casual apologies",
+            "content": "ごめん \"Sorry\" (casual) ごめんね \"Sorry\" (casual, softer) 悪い \"My bad\" (very casual, masculine) わりい \"Sorry\" (very casual, masculine) Friends/family only Informal settings Not for strangers"
+          },
+          {
+            "level": 3,
+            "heading": "Polite apologies",
+            "content": "ごめんなさい \"I'm sorry\" (polite) すみません \"Excuse me / Sorry\" すいません \"Excuse me / Sorry\" (casual pronunciation) Most common Everyday use Safe choice General purpose Widely appropriate"
+          },
+          {
+            "level": 3,
+            "heading": "Formal apologies",
+            "content": "申し訳ございません \"I sincerely apologize\" 申し訳ありません \"I apologize\" 大変申し訳ございません \"I deeply apologize\" Business settings Serious mistakes Formal situations Maximum respect Heavy apology"
+          },
+          {
+            "level": 3,
+            "heading": "Most formal",
+            "content": "誠に申し訳ございません \"I sincerely and deeply apologize\" 謹んでお詫び申し上げます \"I humbly apologize\" 深くお詫び申し上げます \"I deeply apologize\" Public apologies Major errors Official statements Extreme formality Company/public figures Written apologies"
+          }
+        ]
+      },
+      {
+        "level": 2,
+        "heading": "すみません Usage",
+        "content": "",
+        "children": [
+          {
+            "level": 3,
+            "heading": "Multiple meanings",
+            "content": "すみません as apology: \"I'm sorry\" すみません as attention: \"Excuse me\" すみません as thanks: \"Thank you / Sorry for the trouble\" Most versatile phrase Context determines meaning Learn all uses"
+          },
+          {
+            "level": 3,
+            "heading": "Getting attention",
+            "content": "すみません、ちょっといいですか \"Excuse me, do you have a moment?\" すみません、これください \"Excuse me, I'll take this\" 店員さん、すみません \"Waiter, excuse me\" No apology intended Just getting attention Common usage"
+          },
+          {
+            "level": 3,
+            "heading": "Expressing gratitude",
+            "content": "すみません、ありがとうございます \"Sorry (for the trouble), thank you\" わざわざすみません \"Sorry for going out of your way\" Japanese: Feel indebted Apologize for burden Even when helped Cultural difference Shows consideration"
+          }
+        ]
+      },
+      {
+        "level": 2,
+        "heading": "Degrees of Sorry",
+        "content": "",
+        "children": [
+          {
+            "level": 3,
+            "heading": "Light apologies",
+            "content": "ごめん \"Oops / Sorry\" Use: Small mistakes Minor bumps Casual settings Light tone Quick apology Between friends"
+          },
+          {
+            "level": 3,
+            "heading": "Medium apologies",
+            "content": "ごめんなさい \"I'm sorry\" すみません \"I'm sorry / Excuse me\" Use: Standard mistakes Everyday errors General situations Most common level Appropriate broadly Go-to apology"
+          },
+          {
+            "level": 3,
+            "heading": "Heavy apologies",
+            "content": "本当にごめんなさい \"I'm really sorry\" 本当に申し訳ございません \"I'm truly sorry\" Use: Serious mistakes Hurt feelings Major errors Shows sincerity Deep regret Genuine remorse"
+          }
+        ]
+      },
+      {
+        "level": 2,
+        "heading": "Specific Situations",
+        "content": "",
+        "children": [
+          {
+            "level": 3,
+            "heading": "Being late",
+            "content": "遅れてごめん \"Sorry I'm late\" (casual) 遅れてすみません \"Sorry I'm late\" (polite) 遅刻して申し訳ございません \"I apologize for being late\" (formal) Common scenario Acknowledge lateness Show respect for time"
+          },
+          {
+            "level": 3,
+            "heading": "Causing trouble",
+            "content": "ご迷惑をおかけしました \"I caused you trouble / inconvenience\" お手数をおかけしました \"I caused you trouble / effort\" ご心配をおかけしました \"I made you worry\" Acknowledging impact Taking responsibility Formal phrasing"
+          },
+          {
+            "level": 3,
+            "heading": "Mistakes at work",
+            "content": "申し訳ございません \"I sincerely apologize\" 不注意でした \"It was my carelessness\" 以後気をつけます \"I'll be careful from now on\" Professional setting Take responsibility Show improvement intent"
+          },
+          {
+            "level": 3,
+            "heading": "Bumping into someone",
+            "content": "すみません \"Sorry / Excuse me\" ごめんなさい \"I'm sorry\" 失礼しました \"Excuse me / I was rude\" Physical contact Public spaces Quick apology Immediate response Keep moving Brief acknowledgment"
+          }
+        ]
+      },
+      {
+        "level": 2,
+        "heading": "Adding Emphasis",
+        "content": "",
+        "children": [
+          {
+            "level": 3,
+            "heading": "Making it stronger",
+            "content": "本当に + apology \"Really/truly sorry\" 大変 + apology \"Very/extremely sorry\" 心から + apology \"From my heart sorry\" 誠に + apology \"Sincerely sorry\" Intensifiers Shows depth Genuine emotion"
+          },
+          {
+            "level": 3,
+            "heading": "Examples with emphasis",
+            "content": "本当にごめんなさい \"I'm really sorry\" 大変申し訳ございません \"I'm extremely sorry\" 心からお詫びします \"I apologize from my heart\" Deeper remorse Serious situations Heartfelt apology"
+          }
+        ]
+      },
+      {
+        "level": 2,
+        "heading": "Explaining the Apology",
+        "content": "",
+        "children": [
+          {
+            "level": 3,
+            "heading": "Giving reasons",
+            "content": "すみません、[reason]で \"Sorry, because of [reason]\" 申し訳ございません。[explanation] \"I apologize. [explanation]\" Example: すみません、寝坊してしまいました \"Sorry, I overslept\" Context provided Taking responsibility Honest explanation"
+          },
+          {
+            "level": 3,
+            "heading": "Without excuse",
+            "content": "言い訳はありません \"I have no excuse\" 弁解の余地もありません \"There's no room for excuses\" 完全に私のミスです \"It's completely my mistake\" No deflection Full responsibility Humble acceptance"
+          }
+        ]
+      },
+      {
+        "level": 2,
+        "heading": "Apologizing for Others",
+        "content": "",
+        "children": [
+          {
+            "level": 3,
+            "heading": "On behalf of someone",
+            "content": "彼の代わりに謝ります \"I apologize on his behalf\" 申し訳ございません（代表して） \"I apologize (representing them)\" Use: Boss for employee Use: Parent for child Taking responsibility Group responsibility Hierarchical duty"
+          }
+        ]
+      },
+      {
+        "level": 2,
+        "heading": "Refusing Apology",
+        "content": "",
+        "children": [
+          {
+            "level": 3,
+            "heading": "Accepting apology",
+            "content": "いいよ \"It's okay\" (casual) 大丈夫です \"It's alright\" 気にしないで \"Don't worry about it\" 謝らなくてもいいよ \"You don't need to apologize\" Gracious acceptance Dismissing need Moving forward"
+          },
+          {
+            "level": 3,
+            "heading": "When no apology needed",
+            "content": "謝る必要ないよ \"You don't need to apologize\" 全然問題ないです \"It's not a problem at all\" そんなことで謝らないで \"Don't apologize for that\" Reassuring speaker No harm done Being gracious"
+          }
+        ]
+      },
+      {
+        "level": 2,
+        "heading": "Customer Service Apologies",
+        "content": "",
+        "children": [
+          {
+            "level": 3,
+            "heading": "Store/restaurant staff",
+            "content": "申し訳ございません \"I sincerely apologize\" 大変お待たせいたしました \"Thank you for waiting\" (apologetic tone) ご不便をおかけして申し訳ございません \"I apologize for the inconvenience\" Professional standard Maximum politeness Service industry"
+          },
+          {
+            "level": 3,
+            "heading": "Company apologies",
+            "content": "この度は誠に申し訳ございませんでした \"We sincerely apologize for this matter\" 深くお詫び申し上げます \"We deeply apologize\" Official statements Public apologies Corporate responsibility Formal written Press releases Major issues"
+          }
+        ]
+      },
+      {
+        "level": 2,
+        "heading": "Cultural Nuances",
+        "content": "",
+        "children": [
+          {
+            "level": 3,
+            "heading": "Preventive apologies",
+            "content": "すみません、質問があるんですが \"Sorry, I have a question\" 申し訳ないんですけど \"I'm sorry but...\" Japanese: Apologize before asking English: Just ask Cultural difference Showing consideration Not wanting to burden Politeness strategy"
+          },
+          {
+            "level": 3,
+            "heading": "Apologizing for existing",
+            "content": "すみません (when being helped) \"Sorry (for the trouble)\" 恐れ入ります \"I'm grateful / Sorry to trouble you\" Japanese mindset: Being burden to others Should apologize Even when helped Cultural perspective Group harmony"
+          }
+        ]
+      },
+      {
+        "level": 2,
+        "heading": "Apology Body Language",
+        "content": "",
+        "children": [
+          {
+            "level": 3,
+            "heading": "Physical expression",
+            "content": "Bowing deeply Looking down Humble posture Serious expression Physical apology Shows sincerity Cultural expectation Depth of bow = seriousness Multiple bows = deep remorse"
+          }
+        ]
+      },
+      {
+        "level": 2,
+        "heading": "Repeated Apologies",
+        "content": "",
+        "children": [
+          {
+            "level": 3,
+            "heading": "Multiple sorry",
+            "content": "すみません、すみません \"Sorry, sorry\" 本当にごめんなさい、ごめんなさい \"I'm really sorry, sorry\" Japanese: Often repeat Shows sincerity Emphasizes remorse Not annoying Culturally normal Expected behavior"
+          }
+        ]
+      },
+      {
+        "level": 2,
+        "heading": "Email Apologies",
+        "content": "",
+        "children": [
+          {
+            "level": 3,
+            "heading": "Written apologies",
+            "content": "大変申し訳ございません \"I sincerely apologize\" 深くお詫び申し上げます \"I deeply apologize\" ご迷惑をおかけして申し訳ございません \"I apologize for any inconvenience\" Formal writing Business emails Professional tone More formal in writing Complete sentences Respectful language"
+          }
+        ]
+      },
+      {
+        "level": 2,
+        "heading": "Apology and Responsibility",
+        "content": "",
+        "children": [
+          {
+            "level": 3,
+            "heading": "Taking blame",
+            "content": "私の責任です \"It's my responsibility\" 私のせいです \"It's my fault\" 私が悪かったです \"I was wrong\" Clear ownership No deflection Accepting fault Honest admission Shows maturity Earns respect"
+          },
+          {
+            "level": 3,
+            "heading": "Promising improvement",
+            "content": "二度とこのようなことがないよう気をつけます \"I'll be careful so this never happens again\" 今後気をつけます \"I'll be careful from now on\" 反省しています \"I'm reflecting on this\" Future action Showing growth Commitment to change"
+          }
+        ]
+      },
+      {
+        "level": 2,
+        "heading": "Regional Variations",
+        "content": "",
+        "children": [
+          {
+            "level": 3,
+            "heading": "Kansai dialect",
+            "content": "すんません \"Sorry\" (Kansai pronunciation) わるいな \"My bad\" ごめんやで \"Sorry\" (with Kansai ending) Regional flavor Dialect differences Local speech patterns"
+          }
+        ]
+      },
+      {
+        "level": 2,
+        "heading": "When NOT to Apologize",
+        "content": "",
+        "children": [
+          {
+            "level": 3,
+            "heading": "Unnecessary apologies",
+            "content": "Don't apologize for: - Other's mistakes (unless responsible) - Things beyond your control - Being right Balance needed Not everything requires sorry Overdoing it weakens Choose appropriately"
+          }
+        ]
+      },
+      {
+        "level": 2,
+        "heading": "Apology Combinations",
+        "content": "",
+        "children": [
+          {
+            "level": 3,
+            "heading": "Complex apologies",
+            "content": "本当に申し訳ございません。私の不注意でした。 \"I'm truly sorry. It was my carelessness.\" 遅れてすみません。言い訳になりますが、電車が遅れまして。 \"Sorry I'm late. This is an excuse, but the train was delayed.\" 申し訳ございません。すぐに対応いたします。 \"I apologize. I'll handle it immediately.\" Full structure Explanation + action Professional apology"
+          }
+        ]
+      },
+      {
+        "level": 2,
+        "heading": "Apologizing to Specific People",
+        "content": "",
+        "children": [
+          {
+            "level": 3,
+            "heading": "To superiors",
+            "content": "申し訳ございません \"I sincerely apologize\" 大変失礼いたしました \"I was very rude\" Maximum politeness Respectful language Humble stance"
+          },
+          {
+            "level": 3,
+            "heading": "To customers",
+            "content": "大変申し訳ございませんでした \"We sincerely apologize\" ご迷惑をおかけしました \"We caused you inconvenience\" Business relationship Professional standard Customer service"
+          },
+          {
+            "level": 3,
+            "heading": "To friends",
+            "content": "ごめん \"Sorry\" 悪かった \"My bad\" Casual and brief No formality needed Direct and honest"
+          }
+        ]
+      },
+      {
+        "level": 2,
+        "heading": "Accepting vs Giving Apology",
+        "content": "",
+        "children": [
+          {
+            "level": 3,
+            "heading": "When someone apologizes to you",
+            "content": "いいよ \"It's okay\" 気にしないで \"Don't worry\" 大丈夫 \"It's alright\" 全然 \"Not at all\" Gracious response Dismissing issue Restoring harmony Cultural expectation Minimize conflict"
+          }
+        ]
+      },
+      {
+        "level": 2,
+        "heading": "Serious Apologies",
+        "content": "",
+        "children": [
+          {
+            "level": 3,
+            "heading": "Major mistakes",
+            "content": "深くお詫び申し上げます \"I deeply apologize\" 取り返しのつかないことをしてしまいました \"I've done something irreparable\" どうか許してください \"Please forgive me\" Grave errors Deep regret Seeking forgiveness Heavy emotional weight Serious consequences"
+          }
+        ]
+      },
+      {
+        "level": 2,
+        "heading": "Common Mistakes",
+        "content": "",
+        "children": [
+          {
+            "level": 3,
+            "heading": "Errors to avoid",
+            "content": "❌ Using ごめん to strangers ✓ すみません or ごめんなさい ❌ Not apologizing when late ✓ Always apologize for lateness ❌ Using すみません only as sorry ✓ Remember multiple meanings ❌ Not bowing when serious ✓ Physical apology needed Learn cultural context Match formality level"
+          },
+          {
+            "level": 3,
+            "heading": "Company",
+            "content": "About Pricing Blog Contact"
+          },
+          {
+            "level": 3,
+            "heading": "Legal",
+            "content": "Privacy Policy Terms of Service Cookie Policy"
+          }
+        ]
+      }
+    ]
+  },
+  "metadata": {
+    "extracted_at": "2026-01-01T22:19:27.435416500Z",
+    "duration_ms": 4,
+    "extractors_matched": [
+      "metadata",
+      "examples",
+      "sections"
+    ],
+    "extractors_failed": [
+      "vocab_tables",
+      "definitions",
+      "content_blocks"
+    ]
+  }
+}

@@ -1,0 +1,58 @@
+{
+  "config_name": "Language Learning Extractor",
+  "url": "https://practice-japanese.com/docs/hou-ga-ii/",
+  "data": {
+    "metadata": {
+      "title": "〜ほうがいい (Had better)"
+    },
+    "sections": [
+      {
+        "level": 3,
+        "heading": "Company",
+        "content": "About Pricing Blog Contact"
+      },
+      {
+        "level": 3,
+        "heading": "Legal",
+        "content": "Privacy Policy Terms of Service Cookie Policy"
+      }
+    ],
+    "examples": [
+      {
+        "sentence": "About"
+      },
+      {
+        "sentence": "Pricing"
+      },
+      {
+        "sentence": "Blog"
+      },
+      {
+        "sentence": "Contact"
+      },
+      {
+        "sentence": "Privacy Policy"
+      },
+      {
+        "sentence": "Terms of Service"
+      },
+      {
+        "sentence": "Cookie Policy"
+      }
+    ]
+  },
+  "metadata": {
+    "extracted_at": "2026-01-01T22:19:29.965079Z",
+    "duration_ms": 3,
+    "extractors_matched": [
+      "metadata",
+      "examples",
+      "sections"
+    ],
+    "extractors_failed": [
+      "vocab_tables",
+      "definitions",
+      "content_blocks"
+    ]
+  }
+}

@@ -1,0 +1,215 @@
+{
+  "config_name": "Language Learning Extractor",
+  "url": "https://practice-japanese.com/docs/gatai/",
+  "data": {
+    "metadata": {
+      "title": "〜がたい (Hard to - formal)"
+    },
+    "examples": [
+      {
+        "sentence": "About"
+      },
+      {
+        "sentence": "Pricing"
+      },
+      {
+        "sentence": "Blog"
+      },
+      {
+        "sentence": "Contact"
+      },
+      {
+        "sentence": "Privacy Policy"
+      },
+      {
+        "sentence": "Terms of Service"
+      },
+      {
+        "sentence": "Cookie Policy"
+      }
+    ],
+    "sections": [
+      {
+        "level": 2,
+        "heading": "What is 〜がたい?",
+        "content": "〜がたい (gatai) is a formal way to express that something is difficult or hard to do, often with emotional or psychological difficulty. It's more literary and formal than にくい.\n\nEnglish equivalent: \"hard to [verb],\" \"difficult to,\" \"cannot bring oneself to\"\n\nStructure: [Verb ます-stem] + がたい\n\n信じる (shinjiru - believe) → 信じ + がたい = 信じがたい \"hard to believe\" 許す (yurusu - forgive) → 許し + がたい = 許しがたい \"hard to forgive\" / \"unforgivable\" 忘れる (wasureru - forget) → 忘れ + がたい = 忘れがたい \"hard to forget\" / \"unforgettable\""
+      },
+      {
+        "level": 2,
+        "heading": "Basic Formation",
+        "content": "",
+        "children": [
+          {
+            "level": 3,
+            "heading": "With verb stems",
+            "content": "[Verb ます-stem] + がたい\n\n信じがたい (shinjgatai) - \"hard to believe\" 許しがたい (yurushigatai) - \"unforgivable\" 忘れがたい (wasuregatai) - \"unforgettable\" 理解しがたい (rikai shigatai) - \"hard to understand\""
+          }
+        ]
+      },
+      {
+        "level": 2,
+        "heading": "Emotional Difficulty",
+        "content": "",
+        "children": [
+          {
+            "level": 3,
+            "heading": "Psychological barriers",
+            "content": "信じがたい話。 Shinjigatai hanashi. \"A hard-to-believe story.\" 許しがたい行為。 Yurushigatai koui. \"An unforgivable act.\" 忘れがたい思い出。 Wasuregatai omoide. \"An unforgettable memory.\" 耐えがたい苦痛。 Taegatai kutsuu. \"Unbearable pain.\""
+          }
+        ]
+      },
+      {
+        "level": 2,
+        "heading": "Formal Writing",
+        "content": "",
+        "children": [
+          {
+            "level": 3,
+            "heading": "Literary usage",
+            "content": "理解しがたい現象。 Rikai shigatai genshou. \"A phenomenon hard to understand.\" 受け入れがたい事実。 Ukeigatai jijitsu. \"A fact hard to accept.\" 想像しがたい状況。 Souzou shigatai joukyou. \"A situation hard to imagine.\""
+          }
+        ]
+      },
+      {
+        "level": 2,
+        "heading": "Common Expressions",
+        "content": "",
+        "children": [
+          {
+            "level": 3,
+            "heading": "Set phrases",
+            "content": "信じがたい (shinjigatai) - \"hard to believe\" / \"unbelievable\" 許しがたい (yurushigatai) - \"unforgivable\" 忘れがたい (wasuregatai) - \"unforgettable\" 耐えがたい (taegatai) - \"unbearable\" 理解しがたい (rikai shigatai) - \"hard to understand\" 受け入れがたい (ukeigatai) - \"hard to accept\" 想像しがたい (souzou shigatai) - \"hard to imagine\" 予測しがたい (yosoku shigatai) - \"hard to predict\""
+          }
+        ]
+      },
+      {
+        "level": 2,
+        "heading": "Expressing Severity",
+        "content": "",
+        "children": [
+          {
+            "level": 3,
+            "heading": "Strong emotions",
+            "content": "許しがたい犯罪。 Yurushigatai hanzai. \"An unforgivable crime.\" 耐えがたい侮辱。 Taegatai bujoku. \"An unbearable insult.\" 信じがたいほど美しい。 Shinjigatai hodo utsukushii. \"Unbelievably beautiful.\""
+          }
+        ]
+      },
+      {
+        "level": 2,
+        "heading": "がたい as い-adjective",
+        "content": "",
+        "children": [
+          {
+            "level": 3,
+            "heading": "Functions like an adjective",
+            "content": "信じがたい事実 (shinjigatai jijitsu) - \"a hard-to-believe fact\" 忘れがたい経験 (wasuregatai keiken) - \"an unforgettable experience\" 信じがたいです。 Shinjigatai desu. \"It's hard to believe.\" (polite) 忘れがたい一日でした。 Wasuregatai ichinichi deshita. \"It was an unforgettable day.\""
+          }
+        ]
+      },
+      {
+        "level": 2,
+        "heading": "Negative and Past Forms",
+        "content": "Negative:\n\n信じがたくない (shinjgataku nai) - \"not hard to believe\" 信じがたくないことだ。 Shinjigataku nai koto da. \"It's not hard to believe.\"\n\nPast:\n\n信じがたかった (shinjigatakatta) - \"was hard to believe\" あの時は信じがたかった。 Ano toki wa shinjigatakatta. \"At that time it was hard to believe.\""
+      },
+      {
+        "level": 2,
+        "heading": "Polite Forms",
+        "content": "Casual: 信じがたい Polite: 信じがたいです Past: 信じがたかった / 信じがたかったです 信じがたい出来事です。 Shinjigatai dekigoto desu. \"It's a hard-to-believe event.\" 許しがたい行為でした。 Yurushigatai koui deshita. \"It was an unforgivable act.\""
+      },
+      {
+        "level": 2,
+        "heading": "Comparing がたい and にくい",
+        "content": "",
+        "children": [
+          {
+            "level": 3,
+            "heading": "Formal vs casual difficulty",
+            "content": "がたい - Formal, emotional, severe:\n\n許しがたい (yurushigatai) \"unforgivable\" (formal, strong) 信じがたい (shinjigatai) \"hard to believe\" (formal)\n\nにくい - General difficulty:\n\n許しにくい (yurushinikui) \"hard to forgive\" (neutral) 信じにくい (shinjinikui) \"hard to believe\" (neutral)\n\n| Pattern | Tone | Example | | ------- | ---------------- | ---------- | | がたい | Formal/emotional | 許しがたい | | にくい | Neutral/general | 許しにくい |\n\nSee: 〜にくい (Hard to)"
+          }
+        ]
+      },
+      {
+        "level": 2,
+        "heading": "With Abstract Verbs",
+        "content": "",
+        "children": [
+          {
+            "level": 3,
+            "heading": "Intellectual or emotional actions",
+            "content": "理解しがたい (rikai shigatai) - \"hard to understand\" 想像しがたい (souzou shigatai) - \"hard to imagine\" 予測しがたい (yosoku shigatai) - \"hard to predict\" 説明しがたい (setsumei shigatai) - \"hard to explain\" 理解しがたい決定。 Rikai shigatai kettei. \"A hard-to-understand decision.\" 説明しがたい感覚。 Setsumei shigatai kankaku. \"A hard-to-explain feeling.\""
+          }
+        ]
+      },
+      {
+        "level": 2,
+        "heading": "Expressing Impossibility",
+        "content": "",
+        "children": [
+          {
+            "level": 3,
+            "heading": "Nearly impossible",
+            "content": "耐えがたい暑さ。 Taegatai atsusa. \"Unbearable heat.\" 受け入れがたい現実。 Ukeigatai genjitsu. \"An unacceptable reality.\" 信じがたいほど速い。 Shinjigatai hodo hayai. \"Unbelievably fast.\""
+          }
+        ]
+      },
+      {
+        "level": 2,
+        "heading": "In News and Formal Writing",
+        "content": "",
+        "children": [
+          {
+            "level": 3,
+            "heading": "Journalistic usage",
+            "content": "容認しがたい暴力。 Younin shigatai bouryoku. \"Unacceptable violence.\" 看過しがたい問題。 Kanka shigatai mondai. \"A problem that cannot be overlooked.\""
+          }
+        ]
+      },
+      {
+        "level": 2,
+        "heading": "Common Mistakes",
+        "content": "",
+        "children": [
+          {
+            "level": 3,
+            "heading": "Mistake 1: Using in casual conversation",
+            "content": "がたい is quite formal. にくい or 〜づらい are better for casual speech.\n\n❌ 今日は起きがたい (too formal for daily life) ✓ 今日は起きにくい ✓ 今日は起きづらい"
+          },
+          {
+            "level": 3,
+            "heading": "Mistake 2: Wrong verb form",
+            "content": "❌ 信じるがたい ✓ 信じがたい\n\nUse ます-stem, not dictionary form."
+          },
+          {
+            "level": 3,
+            "heading": "Mistake 3: Using with physical actions",
+            "content": "がたい is better with abstract/emotional verbs, not physical ones.\n\n❌ 走りがたい (unnatural) ✓ 走りにくい Better with abstract/emotional verbs than physical ones. ### Mistake 4: Using with する verbs incorrectly ❌ 勉強がたい ✓ 理解しがたい Use the full verb stem: 理解する → 理解し + がたい ## Summary **Key Points:** - がたい expresses formal, emotional difficulty - Formation: [Verb ます-stem] + がたい - More formal and literary than にくい - Often implies psychological or emotional barriers - Common with: 信じる, 許す, 忘れる, 耐える, 理解する - Functions as an い-adjective - Used in formal writing, news, literature - For casual speech, use にくい or づらい instead - Essential for formal and emotional expressions"
+          },
+          {
+            "level": 3,
+            "heading": "Company",
+            "content": "About Pricing Blog Contact"
+          },
+          {
+            "level": 3,
+            "heading": "Legal",
+            "content": "Privacy Policy Terms of Service Cookie Policy"
+          }
+        ]
+      }
+    ]
+  },
+  "metadata": {
+    "extracted_at": "2026-01-01T22:19:30.122475Z",
+    "duration_ms": 4,
+    "extractors_matched": [
+      "metadata",
+      "examples",
+      "sections"
+    ],
+    "extractors_failed": [
+      "vocab_tables",
+      "definitions",
+      "content_blocks"
+    ]
+  }
+}

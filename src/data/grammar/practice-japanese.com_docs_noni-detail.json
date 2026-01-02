@@ -1,0 +1,297 @@
+{
+  "config_name": "Language Learning Extractor",
+  "url": "https://practice-japanese.com/docs/noni-detail/",
+  "data": {
+    "examples": [
+      {
+        "sentence": "のに expresses contrast with disappointment/surprise"
+      },
+      {
+        "sentence": "Formation: [Plain form / な-adj+な / Noun+な] + のに"
+      },
+      {
+        "sentence": "Implies unexpected or undesirable result"
+      },
+      {
+        "sentence": "Often shows complaint or frustration"
+      },
+      {
+        "sentence": "Can end sentences for emphasis (trailing のに)"
+      },
+      {
+        "sentence": "Different from けど (neutral) and ても (hypothetical)"
+      },
+      {
+        "sentence": "Common with せっかく for wasted effort"
+      },
+      {
+        "sentence": "Essential for expressing disappointment"
+      },
+      {
+        "sentence": "About"
+      },
+      {
+        "sentence": "Pricing"
+      },
+      {
+        "sentence": "Blog"
+      },
+      {
+        "sentence": "Contact"
+      },
+      {
+        "sentence": "Privacy Policy"
+      },
+      {
+        "sentence": "Terms of Service"
+      },
+      {
+        "sentence": "Cookie Policy"
+      }
+    ],
+    "metadata": {
+      "title": "〜のに (Even though)"
+    },
+    "sections": [
+      {
+        "level": 2,
+        "heading": "What is 〜のに?",
+        "content": "〜のに (noni) expresses contrast with a nuance of disappointment, surprise, or complaint. It means \"even though\" or \"despite\" and often implies the result is unexpected or undesirable.\n\nEnglish equivalent: \"even though,\" \"despite,\" \"although\" (with disappointment)\n\nStructure: [Verb/い-adj plain form / な-adj + な / Noun + な] + のに\n\n頑張った (ganbatta - tried hard) + のに = 頑張ったのに \"even though I tried hard\" 暑い (atsui - hot) + のに = 暑いのに \"even though it's hot\" 静かな (shizuka na - quiet) + のに = 静かなのに \"even though it's quiet\""
+      },
+      {
+        "level": 2,
+        "heading": "Basic Formation",
+        "content": "",
+        "children": [
+          {
+            "level": 3,
+            "heading": "With verbs (plain form)",
+            "content": "[Verb plain form] + のに\n\n行ったのに (itta noni) - \"even though I went\" 勉強したのに (benkyou shita noni) - \"even though I studied\" 待ったのに (matta noni) - \"even though I waited\" 言ったのに (itta noni) - \"even though I said\""
+          },
+          {
+            "level": 3,
+            "heading": "With い-adjectives",
+            "content": "[い-adjective] + のに\n\n高いのに (takai noni) - \"even though it's expensive\" 寒いのに (samui noni) - \"even though it's cold\" 難しいのに (muzukashii noni) - \"even though it's difficult\""
+          },
+          {
+            "level": 3,
+            "heading": "With な-adjectives",
+            "content": "[な-adjective] + な + のに\n\n便利なのに (benri na noni) - \"even though it's convenient\" 簡単なのに (kantan na noni) - \"even though it's simple\" 静かなのに (shizuka na noni) - \"even though it's quiet\""
+          },
+          {
+            "level": 3,
+            "heading": "With nouns",
+            "content": "[Noun] + な + のに\n\n学生なのに (gakusei na noni) - \"even though [he's] a student\" 休みなのに (yasumi na noni) - \"even though it's a holiday\" 先生なのに (sensei na noni) - \"even though [he's] a teacher\""
+          }
+        ]
+      },
+      {
+        "level": 2,
+        "heading": "Expressing Disappointment",
+        "content": "",
+        "children": [
+          {
+            "level": 3,
+            "heading": "Unexpected negative results",
+            "content": "頑張ったのに失敗した。 Ganbatta noni shippai shita. \"Even though I tried hard, I failed.\" 待ったのに来なかった。 Matta noni konakatta. \"Even though I waited, he didn't come.\" たくさん勉強したのに合格できなかった。 Takusan benkyou shita noni goukaku dekinakatta. \"Even though I studied a lot, I couldn't pass.\""
+          }
+        ]
+      },
+      {
+        "level": 2,
+        "heading": "Showing Surprise",
+        "content": "",
+        "children": [
+          {
+            "level": 3,
+            "heading": "Unexpected situations",
+            "content": "雨なのに出かけた。 Ame na noni dekaketa. \"Even though it's raining, he went out.\" 寒いのに薄着だ。 Samui noni usugi da. \"Even though it's cold, he's lightly dressed.\" 高いのに買った。 Takai noni katta. \"Even though it's expensive, I bought it.\""
+          }
+        ]
+      },
+      {
+        "level": 2,
+        "heading": "Complaints and Criticism",
+        "content": "",
+        "children": [
+          {
+            "level": 3,
+            "heading": "Expressing dissatisfaction",
+            "content": "約束したのに守らなかった。 Yakusoku shita noni mamoranakatta. \"Even though he promised, he didn't keep it.\" 言ったのに聞いてくれない。 Itta noni kiite kurenai. \"Even though I told him, he won't listen.\" 簡単なのにできない。 Kantan na noni dekinai. \"Even though it's simple, he can't do it.\""
+          }
+        ]
+      },
+      {
+        "level": 2,
+        "heading": "Ending Sentences with のに",
+        "content": "",
+        "children": [
+          {
+            "level": 3,
+            "heading": "Incomplete complaint",
+            "content": "せっかく作ったのに... Sekkaku tsukutta noni... \"Even though I went to the trouble of making it...\" 頑張ったのに... Ganbatta noni... \"Even though I tried so hard...\" 楽しみにしていたのに... Tanoshimi ni shite ita noni... \"Even though I was looking forward to it...\"\n\nThis trailing のに emphasizes disappointment."
+          }
+        ]
+      },
+      {
+        "level": 2,
+        "heading": "Contrasting Expectations",
+        "content": "",
+        "children": [
+          {
+            "level": 3,
+            "heading": "Reality vs expectation",
+            "content": "医者なのに病気だ。 Isha na noni byouki da. \"Even though he's a doctor, he's sick.\" 日本人なのに日本語が下手だ。 Nihonjin na noni nihongo ga heta da. \"Even though he's Japanese, his Japanese is poor.\" 休みなのに仕事をしている。 Yasumi na noni shigoto wo shite iru. \"Even though it's a holiday, I'm working.\""
+          }
+        ]
+      },
+      {
+        "level": 2,
+        "heading": "With Negative Forms",
+        "content": "",
+        "children": [
+          {
+            "level": 3,
+            "heading": "Negative preceding clause",
+            "content": "勉強しなかったのに合格した。 Benkyou shinakatta noni goukaku shita. \"Even though I didn't study, I passed.\" 高くないのに誰も買わない。 Takaku nai noni dare mo kawanai. \"Even though it's not expensive, nobody buys it.\" 簡単じゃないのに挑戦した。 Kantan ja nai noni chousen shita. \"Even though it's not simple, he challenged it.\""
+          }
+        ]
+      },
+      {
+        "level": 2,
+        "heading": "Polite Forms",
+        "content": "",
+        "children": [
+          {
+            "level": 3,
+            "heading": "Formal contexts",
+            "content": "お願いしたのに断られました。 Onegai shita noni kotowareemashita. \"Even though I asked, I was refused.\" 説明したのに理解してもらえませんでした。 Setsumei shita noni rikai shite moraemasen deshita. \"Even though I explained, they didn't understand.\""
+          }
+        ]
+      },
+      {
+        "level": 2,
+        "heading": "Common Expressions",
+        "content": "頑張ったのに (ganbatta noni) - \"even though I tried hard\" 言ったのに (itta noni) - \"even though I said\" 待ったのに (matta noni) - \"even though I waited\" 高いのに (takai noni) - \"even though it's expensive\" 簡単なのに (kantan na noni) - \"even though it's simple\" 雨なのに (ame na noni) - \"even though it's raining\" 約束したのに (yakusoku shita noni) - \"even though promised\""
+      },
+      {
+        "level": 2,
+        "heading": "Comparing のに and けど",
+        "content": "",
+        "children": [
+          {
+            "level": 3,
+            "heading": "Disappointment vs neutral contrast",
+            "content": "のに - With disappointment/surprise:\n\n頑張ったのに失敗した。 Ganbatta noni shippai shita. \"Even though I tried hard, I failed.\" (disappointed)\n\nけど - Neutral contrast:\n\n頑張ったけど失敗した。 Ganbatta kedo shippai shita. \"I tried hard, but I failed.\" (neutral statement)\n\n| Pattern | Nuance | Example | | ------- | ---------------- | ------------ | | のに | Disappointment | 頑張ったのに | | けど | Neutral contrast | 頑張ったけど |\n\nSee: 〜けど (But)"
+          }
+        ]
+      },
+      {
+        "level": 2,
+        "heading": "Comparing のに and ても",
+        "content": "",
+        "children": [
+          {
+            "level": 3,
+            "heading": "Despite vs even if",
+            "content": "のに - Actual fact (despite):\n\n雨が降ったのに行った。 Ame ga futta noni itta. \"Even though it rained, I went.\" (it actually rained)\n\nても - Hypothetical (even if):\n\n雨が降っても行く。 Ame ga futte mo iku. \"Even if it rains, I'll go.\" (might rain or not)\n\n| Pattern | Meaning | Example | | ------- | ---------------- | -------------- | | のに | Actual (despite) | 雨が降ったのに | | ても | Hypothetical | 雨が降っても |\n\nSee: 〜ても (Even if)"
+          }
+        ]
+      },
+      {
+        "level": 2,
+        "heading": "せっかく〜のに",
+        "content": "",
+        "children": [
+          {
+            "level": 3,
+            "heading": "Special wasted effort",
+            "content": "せっかく + [verb た-form] + のに = \"even though [someone] went to the trouble of...\"\n\nせっかく来たのに会えなかった。 Sekkaku kita noni aenakatta. \"Even though I came all this way, I couldn't meet them.\" せっかく作ったのに食べてくれない。 Sekkaku tsukutta noni tabete kurenai. \"Even though I went to the trouble of making it, he won't eat it.\" せっかく買ったのに使わない。 Sekkaku katta noni tsukawanai. \"Even though I specially bought it, I don't use it.\""
+          }
+        ]
+      },
+      {
+        "level": 2,
+        "heading": "Emotional Impact",
+        "content": "",
+        "children": [
+          {
+            "level": 3,
+            "heading": "Strong feelings",
+            "content": "のに carries emotional weight - frustration, regret, or surprise.\n\nこんなに頑張ったのに... Konna ni ganbatta noni... \"Even though I tried this hard...\" (very disappointed) あんなに練習したのに負けた。 Anna ni renshuu shita noni maketa. \"Even though I practiced that much, I lost.\""
+          }
+        ]
+      },
+      {
+        "level": 2,
+        "heading": "With Question Words",
+        "content": "",
+        "children": [
+          {
+            "level": 3,
+            "heading": "Rhetorical questions",
+            "content": "どうして来たのに帰るの？ Doushite kita noni kaeru no? \"Why are you leaving even though you just came?\" なぜ知っているのに言わないの？ Naze shitte iru noni iwanai no? \"Why don't you say it even though you know?\""
+          }
+        ]
+      },
+      {
+        "level": 2,
+        "heading": "Common Mistakes",
+        "content": "",
+        "children": [
+          {
+            "level": 3,
+            "heading": "Mistake 1: Using だ with な-adjectives",
+            "content": "❌ 便利だのに ✓ 便利なのに\n\nUse な, not だ, before のに."
+          },
+          {
+            "level": 3,
+            "heading": "Mistake 2: Using だ with nouns",
+            "content": "❌ 学生だのに ✓ 学生なのに\n\nUse な, not だ, before のに."
+          },
+          {
+            "level": 3,
+            "heading": "Mistake 3: Confusing with ために (purpose)",
+            "content": "のに = despite/even though (contrast) ために = in order to (purpose) 勉強したのに = even though I studied 勉強したために = because I studied"
+          },
+          {
+            "level": 3,
+            "heading": "Mistake 4: Using for neutral contrast",
+            "content": "のに implies emotion. For neutral contrast, use が or けど.\n\nWith emotion: 頑張ったのに失敗した Neutral: 頑張ったけど失敗した"
+          }
+        ]
+      },
+      {
+        "level": 2,
+        "heading": "Summary",
+        "content": "Key Points:\n\nのに expresses contrast with disappointment/surprise Formation: [Plain form / な-adj+な / Noun+な] + のに Implies unexpected or undesirable result Often shows complaint or frustration Can end sentences for emphasis (trailing のに) Different from けど (neutral) and ても (hypothetical) Common with せっかく for wasted effort Essential for expressing disappointment",
+        "children": [
+          {
+            "level": 3,
+            "heading": "Company",
+            "content": "About Pricing Blog Contact"
+          },
+          {
+            "level": 3,
+            "heading": "Legal",
+            "content": "Privacy Policy Terms of Service Cookie Policy"
+          }
+        ]
+      }
+    ]
+  },
+  "metadata": {
+    "extracted_at": "2026-01-01T22:19:32.577672400Z",
+    "duration_ms": 3,
+    "extractors_matched": [
+      "metadata",
+      "examples",
+      "sections"
+    ],
+    "extractors_failed": [
+      "vocab_tables",
+      "definitions",
+      "content_blocks"
+    ]
+  }
+}

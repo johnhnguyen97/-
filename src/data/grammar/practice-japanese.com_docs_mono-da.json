@@ -1,0 +1,312 @@
+{
+  "config_name": "Language Learning Extractor",
+  "url": "https://practice-japanese.com/docs/mono-da/",
+  "data": {
+    "examples": [
+      {
+        "sentence": "食べたものだ = \"used to eat\" (past habit)"
+      },
+      {
+        "sentence": "食べるものだ = \"should eat\" (advice) or \"naturally eats\" (general truth)"
+      },
+      {
+        "sentence": "ものだ has multiple meanings depending on context"
+      },
+      {
+        "sentence": "Past habits: [た-form] + ものだ (\"used to\")"
+      },
+      {
+        "sentence": "General truths: [dictionary form] + ものだ (\"it's natural that\")"
+      },
+      {
+        "sentence": "Advice: [dictionary form] + ものだ (\"one should\")"
+      },
+      {
+        "sentence": "Often nostalgic or reflective"
+      },
+      {
+        "sentence": "Common with: よく, 昔, 子供の頃"
+      },
+      {
+        "sentence": "Casual: もんだ, もの"
+      },
+      {
+        "sentence": "Negative: ものではない (\"shouldn't\")"
+      },
+      {
+        "sentence": "Different from べきだ (stronger obligation)"
+      },
+      {
+        "sentence": "Essential for expressing past habits and life wisdom--- title: \"〜ものだ (Used to)\" description: \"Master 〜ものだ in Japanese for expressing past habits and general truths. Learn multiple uses of ものだ including 'used to,' nostalgia, and common sense statements.\" category: \"Experience & Habits\" order: 3 keywords: [ \"ものだ japanese\", \"mono da grammar\", \"used to japanese\", \"past habits japanese\", \"ものだ meaning\", \"general truth japanese\", ] lastUpdated: \"2025-01-15\""
+      },
+      {
+        "sentence": "\"used to (do)\" - past habits"
+      },
+      {
+        "sentence": "\"it's natural that...\" - general truths"
+      },
+      {
+        "sentence": "\"one should...\" - advice"
+      },
+      {
+        "sentence": "Nostalgic reminiscence"
+      },
+      {
+        "sentence": "About"
+      },
+      {
+        "sentence": "Pricing"
+      },
+      {
+        "sentence": "Blog"
+      },
+      {
+        "sentence": "Contact"
+      },
+      {
+        "sentence": "Privacy Policy"
+      },
+      {
+        "sentence": "Terms of Service"
+      },
+      {
+        "sentence": "Cookie Policy"
+      }
+    ],
+    "sections": [
+      {
+        "level": 2,
+        "heading": "Use 1: Past Habits (\"Used to\")",
+        "content": "",
+        "children": [
+          {
+            "level": 3,
+            "heading": "Structure for past habits",
+            "content": "[Verb た-form] + ものだ/ものです\n\nKey: Often with よく (often) or 昔 (in the past) to emphasize habitual past actions.\n\n昔はよくここで遊んだものだ。 Mukashi wa yoku koko de asonda mono da. \"I used to play here often in the past.\" 子供の頃、毎日ここに来たものです。 Kodomo no koro, mainichi koko ni kita mono desu. \"When I was a child, I used to come here every day.\" 若い頃はよく徹夜したものだ。 Wakai koro wa yoku tetsuya shita mono da. \"When I was young, I used to pull all-nighters often.\""
+          },
+          {
+            "level": 3,
+            "heading": "Nostalgic reminiscence",
+            "content": "あの頃はよく一緒に遊んだものだ。 Ano koro wa yoku issho ni asonda mono da. \"We used to play together a lot back then.\" 祖母はよくこの歌を歌ったものだ。 Sobo wa yoku kono uta wo utatta mono da. \"My grandmother used to sing this song often.\" 学生時代はよく夜遅くまで話したものだ。 Gakusei jidai wa yoku yoru osoku made hanashita mono da. \"During my student days, we used to talk late into the night often.\""
+          }
+        ]
+      },
+      {
+        "level": 2,
+        "heading": "Use 2: General Truths/Common Sense",
+        "content": "",
+        "children": [
+          {
+            "level": 3,
+            "heading": "Structure for general statements",
+            "content": "[Verb dictionary form/い-adjective] + ものだ [な-adjective/Noun] + なものだ\n\nExpresses: Natural facts, common sense, or how things generally are.\n\n人間は間違えるものだ。 Ningen wa machigaeru mono da. \"Humans make mistakes.\" / \"It's natural for humans to err.\" 時間が経つのは早いものだ。 Jikan ga tatsu no wa hayai mono da. \"Time passes quickly.\" / \"Time flies.\" 親というものはそういうものだ。 Oya to iu mono wa sou iu mono da. \"That's what parents are like.\" / \"That's the nature of parents.\" 人生は厳しいものだ。 Jinsei wa kibishii mono da. \"Life is harsh.\""
+          },
+          {
+            "level": 3,
+            "heading": "Universal truths",
+            "content": "努力すれば報われるものだ。 Doryoku sureba mukuwareru mono da. \"If you try hard, you'll be rewarded.\" / \"Hard work pays off.\" 健康が一番大切なものだ。 Kenkou ga ichiban taisetsu na mono da. \"Health is the most important thing.\" 春になれば桜が咲くものだ。 Haru ni nareba sakura ga saku mono da. \"When spring comes, cherry blossoms bloom.\" / \"That's what happens in spring.\""
+          }
+        ]
+      },
+      {
+        "level": 2,
+        "heading": "Use 3: Advice/Admonishment (\"Should\")",
+        "content": "",
+        "children": [
+          {
+            "level": 3,
+            "heading": "Structure for advice",
+            "content": "[Verb dictionary form] + ものだ [Verb negative form] + ものだ\n\nExpresses: Strong advice, what one should/shouldn't do.\n\n年上の人には敬語を使うものだ。 Toshiue no hito ni wa keigo wo tsukau mono da. \"One should use polite language with older people.\" 約束は守るものだ。 Yakusoku wa mamoru mono da. \"Promises should be kept.\" / \"One should keep promises.\" 嘘をついてはいけないものだ。 Uso wo tsuite wa ikenai mono da. \"One shouldn't lie.\" 人に親切にするものだ。 Hito ni shinsetsu ni suru mono da. \"One should be kind to people.\""
+          },
+          {
+            "level": 3,
+            "heading": "Strong recommendations",
+            "content": "もっと勉強するものだ。 Motto benkyou suru mono da. \"You should study more.\" 早く寝るものだ。 Hayaku neru mono da. \"You should go to bed early.\" 感謝の気持ちを忘れないものだ。 Kansha no kimochi wo wasurenai mono da. \"One shouldn't forget gratitude.\""
+          }
+        ]
+      },
+      {
+        "level": 2,
+        "heading": "Use 4: Exclamation/Surprise",
+        "content": "",
+        "children": [
+          {
+            "level": 3,
+            "heading": "Expressing strong emotion",
+            "content": "よく頑張ったものだ。 Yoku ganbatta mono da. \"You really did well!\" / \"What effort you put in!\" よくそんなことができるものだ。 Yoku sonna koto ga dekiru mono da. \"How can you do such a thing!\" [Admiration or criticism] まあ、きれいなものだ。 Maa, kirei na mono da. \"My, how beautiful!\" / \"What beauty!\""
+          }
+        ]
+      },
+      {
+        "level": 2,
+        "heading": "ものだった - Past General Truth",
+        "content": "",
+        "children": [
+          {
+            "level": 3,
+            "heading": "Used to be true (but not anymore)",
+            "content": "昔は静かなものだった。 Mukashi wa shizuka na mono datta. \"It used to be quiet.\" / \"It was a quiet place.\" 彼は優しい人間だったものだ。 Kare wa yasashii ningen datta mono da. \"He was a kind person (back then).\" この辺りは田舎だったものだ。 Kono atari wa inaka datta mono da. \"This area used to be countryside.\""
+          }
+        ]
+      },
+      {
+        "level": 2,
+        "heading": "ものではない - Negative Form",
+        "content": "",
+        "children": [
+          {
+            "level": 3,
+            "heading": "Shouldn't/It's not right to",
+            "content": "人の悪口を言うものではない。 Hito no waruguchi wo iu mono de wa nai. \"One shouldn't speak ill of others.\" 諦めるものではない。 Akirameru mono de wa nai. \"One shouldn't give up.\" そんなに心配するものではない。 Sonna ni shinpai suru mono de wa nai. \"You shouldn't worry so much.\" 簡単に信じるものではない。 Kantan ni shinjiru mono de wa nai. \"One shouldn't believe things easily.\""
+          }
+        ]
+      },
+      {
+        "level": 2,
+        "heading": "ものだから - Because (causal)",
+        "content": "",
+        "children": [
+          {
+            "level": 3,
+            "heading": "Explaining reason (casual)",
+            "content": "急いでいたものだから、忘れてしまった。 Isoide ita mono da kara, wasurete shimatta. \"Because I was in a hurry, I forgot.\" 子供だったものだから、分からなかった。 Kodomo datta mono da kara, wakaranakatta. \"Because I was a child, I didn't understand.\"\n\nNote: This is a different pattern but related to ものだ."
+          }
+        ]
+      },
+      {
+        "level": 2,
+        "heading": "Casual Forms",
+        "content": "",
+        "children": [
+          {
+            "level": 3,
+            "heading": "Dropping だ",
+            "content": "In casual speech:\n\nFormal: 遊んだものです Casual: 遊んだもんだ / 遊んだもの Very casual: 遊んだもん Formal: するものです Casual: するもんだ / するもの"
+          }
+        ]
+      },
+      {
+        "level": 2,
+        "heading": "Comparing Similar Patterns",
+        "content": "",
+        "children": [
+          {
+            "level": 3,
+            "heading": "ものだ vs たものだ",
+            "content": "〜たものだ - Past habits:\n\nよく遊んだものだ。 \"I used to play often.\"\n\nものだ - General truths:\n\n子供はよく遊ぶものだ。 \"Children play a lot.\" [General statement]"
+          },
+          {
+            "level": 3,
+            "heading": "ものだ vs べきだ",
+            "content": "ものだ - General principle (softer):\n\n約束は守るものだ。 \"Promises should be kept.\" [General wisdom]\n\nべきだ - Strong obligation:\n\n約束は守るべきだ。 \"Promises must be kept.\" [Strong obligation]"
+          }
+        ]
+      },
+      {
+        "level": 2,
+        "heading": "In Different Contexts",
+        "content": "",
+        "children": [
+          {
+            "level": 3,
+            "heading": "Nostalgic reflection",
+            "content": "若い頃は何も怖くなかったものだ。 Wakai koro wa nani mo kowakunakatta mono da. \"When I was young, I wasn't afraid of anything.\" あの頃は楽しかったものだ。 Ano koro wa tanoshikatta mono da. \"Those were fun times.\""
+          },
+          {
+            "level": 3,
+            "heading": "Life lessons",
+            "content": "失敗から学ぶものだ。 Shippai kara manabu mono da. \"One learns from failures.\" 人生とはそういうものだ。 Jinsei to wa sou iu mono da. \"That's what life is.\" 時間はお金よりも大切なものだ。 Jikan wa okane yori mo taisetsu na mono da. \"Time is more precious than money.\""
+          }
+        ]
+      },
+      {
+        "level": 2,
+        "heading": "Common Set Phrases",
+        "content": "",
+        "children": [
+          {
+            "level": 3,
+            "heading": "Fixed expressions",
+            "content": "世の中とはそういうものだ Yo no naka to wa sou iu mono da \"That's how the world is\" 人間とはそういうものだ Ningen to wa sou iu mono da \"That's what humans are like\" 若いうちが花というものだ Wakai uchi ga hana to iu mono da \"Youth is the prime of life\""
+          }
+        ]
+      },
+      {
+        "level": 2,
+        "heading": "Common Mistakes",
+        "content": "",
+        "children": [
+          {
+            "level": 3,
+            "heading": "Mistake 1: Using with Present Habits",
+            "content": "❌ 毎日走るものだ (for current habit) ✓ 毎日走る (simple present for current habit) ✓ 昔は毎日走ったものだ (past habit)\n\nUse ものだ for past habits or general truths, not current personal habits."
+          },
+          {
+            "level": 3,
+            "heading": "Mistake 2: Wrong Tense for Past Habits",
+            "content": "❌ よく遊ぶものだった (wrong combination) ✓ よく遊んだものだ (correct for \"used to play\")\n\nUse た-form + ものだ for past habits."
+          },
+          {
+            "level": 3,
+            "heading": "Mistake 3: Confusing Meanings",
+            "content": "Context is key:\n\n食べたものだ = \"used to eat\" (past habit) 食べるものだ = \"should eat\" (advice) or \"naturally eats\" (general truth)"
+          },
+          {
+            "level": 3,
+            "heading": "Mistake 4: Using for Specific Past Events",
+            "content": "❌ 昨日映画を見たものだ (specific past event) ✓ 昨日映画を見た (simple past) ✓ よく映画を見たものだ (\"used to watch movies often\")\n\nものだ is for repeated past actions, not one-time events."
+          }
+        ]
+      },
+      {
+        "level": 2,
+        "heading": "Summary",
+        "content": "Key Points:\n\nものだ has multiple meanings depending on context Past habits: [た-form] + ものだ (\"used to\") General truths: [dictionary form] + ものだ (\"it's natural that\") Advice: [dictionary form] + ものだ (\"one should\") Often nostalgic or reflective Common with: よく, 昔, 子供の頃 Casual: もんだ, もの Negative: ものではない (\"shouldn't\") Different from べきだ (stronger obligation) Essential for expressing past habits and life wisdom--- title: \"〜ものだ (Used to)\" description: \"Master 〜ものだ in Japanese for expressing past habits and general truths. Learn multiple uses of ものだ including 'used to,' nostalgia, and common sense statements.\" category: \"Experience & Habits\" order: 3 keywords: [ \"ものだ japanese\", \"mono da grammar\", \"used to japanese\", \"past habits japanese\", \"ものだ meaning\", \"general truth japanese\", ] lastUpdated: \"2025-01-15\""
+      },
+      {
+        "level": 2,
+        "heading": "What is 〜ものだ?",
+        "content": "〜ものだ (mono da) is a versatile pattern with several meanings depending on context. The main uses are: (1) expressing past habits (\"used to\"), (2) general truths or common sense, (3) nostalgia, and (4) advice or admonishment.\n\nMain meanings:\n\n\"used to (do)\" - past habits \"it's natural that...\" - general truths \"one should...\" - advice Nostalgic reminiscence\n\n子供の頃、よく川で遊んだものだ。 Kodomo no koro, yoku kawa de asonda mono da. \"When I was a child, I used to play in the river often.\" 人生とはそういうものだ。 Jinsei to wa sou iu mono da. \"That's how life is.\" / \"Life is like that.\""
+      },
+      {
+        "level": 2,
+        "heading": "Use 1: Past Habits (\"Used to\")",
+        "content": "",
+        "children": [
+          {
+            "level": 3,
+            "heading": "Structure for past habits",
+            "content": "[Verb た-form] + ものだ/もの"
+          },
+          {
+            "level": 3,
+            "heading": "Company",
+            "content": "About Pricing Blog Contact"
+          },
+          {
+            "level": 3,
+            "heading": "Legal",
+            "content": "Privacy Policy Terms of Service Cookie Policy"
+          }
+        ]
+      }
+    ],
+    "metadata": {
+      "title": "mono-da"
+    }
+  },
+  "metadata": {
+    "extracted_at": "2026-01-01T22:19:31.390973100Z",
+    "duration_ms": 3,
+    "extractors_matched": [
+      "metadata",
+      "examples",
+      "sections"
+    ],
+    "extractors_failed": [
+      "vocab_tables",
+      "definitions",
+      "content_blocks"
+    ]
+  }
+}

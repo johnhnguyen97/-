@@ -1,0 +1,405 @@
+{
+  "config_name": "Language Learning Extractor",
+  "url": "https://practice-japanese.com/docs/no-vs-koto/",
+  "data": {
+    "examples": [
+      {
+        "sentence": "About"
+      },
+      {
+        "sentence": "Pricing"
+      },
+      {
+        "sentence": "Blog"
+      },
+      {
+        "sentence": "Contact"
+      },
+      {
+        "sentence": "Privacy Policy"
+      },
+      {
+        "sentence": "Terms of Service"
+      },
+      {
+        "sentence": "Cookie Policy"
+      }
+    ],
+    "sections": [
+      {
+        "level": 2,
+        "heading": "What is の vs こと?",
+        "content": "Both の and こと turn verbs and clauses into noun phrases, but they have different nuances and usage contexts. の is more casual, conversational, and concrete, while こと is more formal, written, and abstract. Some patterns require one or the other specifically.\n\nの style: 泳ぐのが好き \"I like swimming\" (casual) こと style: 泳ぐことが好き \"I like swimming\" (formal) Similar but different feel"
+      },
+      {
+        "level": 2,
+        "heading": "Basic Difference",
+        "content": "",
+        "children": [
+          {
+            "level": 3,
+            "heading": "の = conversational/concrete",
+            "content": "見るのが好き \"I like watching\" Casual speech Direct perception"
+          },
+          {
+            "level": 3,
+            "heading": "こと = formal/abstract",
+            "content": "見ることが好き \"I like watching\" Written style General concept"
+          }
+        ]
+      },
+      {
+        "level": 2,
+        "heading": "Register and Formality",
+        "content": "",
+        "children": [
+          {
+            "level": 3,
+            "heading": "の more casual",
+            "content": "料理するのは楽しい \"Cooking is fun\" Everyday conversation Natural speech"
+          },
+          {
+            "level": 3,
+            "heading": "こと more formal",
+            "content": "料理することは楽しい \"Cooking is fun\" Written language Formal contexts"
+          }
+        ]
+      },
+      {
+        "level": 2,
+        "heading": "When They're Interchangeable",
+        "content": "",
+        "children": [
+          {
+            "level": 3,
+            "heading": "Simple statements",
+            "content": "読むのが好き = 読むことが好き \"I like reading\" Both acceptable Choice of style"
+          },
+          {
+            "level": 3,
+            "heading": "Importance statements",
+            "content": "大切なのは努力だ 大切なことは努力だ \"What's important is effort\" Both work の slightly more casual"
+          }
+        ]
+      },
+      {
+        "level": 2,
+        "heading": "When You MUST Use こと",
+        "content": "",
+        "children": [
+          {
+            "level": 3,
+            "heading": "ことができる (can/able to)",
+            "content": "Correct: 泳ぐことができる ✓ Wrong: 泳ぐのができる ⚠️ \"Can swim\" Fixed pattern Only こと works"
+          },
+          {
+            "level": 3,
+            "heading": "ことがある (experience)",
+            "content": "Correct: 行ったことがある ✓ Wrong: 行ったのがある ⚠️ \"Have been there\" Must use こと"
+          },
+          {
+            "level": 3,
+            "heading": "ことにする (decide to)",
+            "content": "Correct: 行くことにした ✓ Wrong: 行くのにした ⚠️ \"Decided to go\" Only こと"
+          },
+          {
+            "level": 3,
+            "heading": "ことになる (it's decided)",
+            "content": "Correct: 転勤することになった ✓ Wrong: 転勤するのになった ⚠️ \"It was decided I'll transfer\" Fixed expression"
+          }
+        ]
+      },
+      {
+        "level": 2,
+        "heading": "When You SHOULD Use の",
+        "content": "",
+        "children": [
+          {
+            "level": 3,
+            "heading": "Perception verbs (see/hear)",
+            "content": "Better: 彼が走るのを見た ✓ Less natural: 彼が走ることを見た △ \"I saw him running\" の more natural Direct perception"
+          },
+          {
+            "level": 3,
+            "heading": "With をやめる (stop doing)",
+            "content": "Better: 吸うのをやめた ✓ Awkward: 吸うことをやめた △ \"Stopped smoking\" の preferred"
+          },
+          {
+            "level": 3,
+            "heading": "Casual conversation",
+            "content": "Natural: 寝るのを忘れた ✓ Stiff: 寝ることを忘れた △ \"Forgot to sleep\" の sounds natural"
+          }
+        ]
+      },
+      {
+        "level": 2,
+        "heading": "Concrete vs Abstract",
+        "content": "",
+        "children": [
+          {
+            "level": 3,
+            "heading": "の for concrete actions",
+            "content": "ここで食べるのはだめ \"Eating here is not allowed\" Specific situation Immediate context"
+          },
+          {
+            "level": 3,
+            "heading": "こと for abstract concepts",
+            "content": "健康を守ることは大切だ \"Protecting health is important\" General principle Abstract idea"
+          }
+        ]
+      },
+      {
+        "level": 2,
+        "heading": "Written vs Spoken",
+        "content": "",
+        "children": [
+          {
+            "level": 3,
+            "heading": "Spoken preference: の",
+            "content": "走るのが好き \"I like running\" Natural speech Conversational"
+          },
+          {
+            "level": 3,
+            "heading": "Written preference: こと",
+            "content": "運動することは健康に良い \"Exercising is good for health\" Essays, reports Formal writing"
+          }
+        ]
+      },
+      {
+        "level": 2,
+        "heading": "With Different Verbs",
+        "content": "",
+        "children": [
+          {
+            "level": 3,
+            "heading": "好き/嫌い (like/dislike)",
+            "content": "Both OK: 泳ぐのが好き 泳ぐことが好き の more casual こと more formal"
+          },
+          {
+            "level": 3,
+            "heading": "忘れる (forget)",
+            "content": "Better: 言うのを忘れた OK: 言うことを忘れた の more natural"
+          },
+          {
+            "level": 3,
+            "heading": "知っている (know)",
+            "content": "Better: 彼が来たことを知っている OK: 彼が来たのを知っている こと for facts の also acceptable"
+          }
+        ]
+      },
+      {
+        "level": 2,
+        "heading": "Multiple Patterns",
+        "content": "",
+        "children": [
+          {
+            "level": 3,
+            "heading": "Fixed patterns only use こと",
+            "content": "ことができる - can ことがある - have experience ことにする - decide to ことになる - it's decided ことがない - never (experience) Cannot use の"
+          }
+        ]
+      },
+      {
+        "level": 2,
+        "heading": "Emphasis Patterns",
+        "content": "",
+        "children": [
+          {
+            "level": 3,
+            "heading": "のだ/んだ (explanatory)",
+            "content": "雨が降っているのだ \"It's raining (you see)\" 知らなかったんだ \"I didn't know (explanatory)\" Only の, not こと Different function"
+          }
+        ]
+      },
+      {
+        "level": 2,
+        "heading": "Replacing Nouns",
+        "content": "",
+        "children": [
+          {
+            "level": 3,
+            "heading": "の as \"one\"",
+            "content": "赤いの \"The red one\" 大きいの \"The big one\" Replaces noun Only の works"
+          },
+          {
+            "level": 3,
+            "heading": "こと cannot replace nouns",
+            "content": "Wrong: 赤いこと ⚠️ Correct: 赤いの ✓ こと is abstract only"
+          }
+        ]
+      },
+      {
+        "level": 2,
+        "heading": "Commands and Rules",
+        "content": "",
+        "children": [
+          {
+            "level": 3,
+            "heading": "こと for written rules",
+            "content": "静かにすること \"Be quiet\" (written rule) 走らないこと \"Don't run\" (sign) Formal instructions Only こと"
+          }
+        ]
+      },
+      {
+        "level": 2,
+        "heading": "Common Patterns Comparison",
+        "content": "",
+        "children": [
+          {
+            "level": 3,
+            "heading": "が好き (like)",
+            "content": "Casual: 読むのが好き Formal: 読むことが好き Both acceptable Register difference"
+          },
+          {
+            "level": 3,
+            "heading": "は大切だ (important)",
+            "content": "Casual: 休むのは大切だ Formal: 休むことは大切だ Both work Style choice"
+          },
+          {
+            "level": 3,
+            "heading": "ができる (can)",
+            "content": "Only こと: 泳ぐことができる Wrong: 泳ぐのができる ⚠️ Must use こと Fixed pattern"
+          }
+        ]
+      },
+      {
+        "level": 2,
+        "heading": "Frequency Patterns",
+        "content": "",
+        "children": [
+          {
+            "level": 3,
+            "heading": "が時々ある (sometimes)",
+            "content": "行くことがある \"Sometimes go\" Must use こと Frequency expression"
+          }
+        ]
+      },
+      {
+        "level": 2,
+        "heading": "Decision Patterns",
+        "content": "",
+        "children": [
+          {
+            "level": 3,
+            "heading": "Choosing words",
+            "content": "In speech → prefer の In writing → prefer こと With できる → must use こと With perception verbs → prefer の Context determines choice"
+          }
+        ]
+      },
+      {
+        "level": 2,
+        "heading": "Common Mistakes",
+        "content": "",
+        "children": [
+          {
+            "level": 3,
+            "heading": "Using の with ができる",
+            "content": "Wrong: 泳ぐのができる ⚠️ Correct: 泳ぐことができる ✓ \"Can swim\" Must use こと"
+          },
+          {
+            "level": 3,
+            "heading": "Using こと too much in speech",
+            "content": "Unnatural: 見ることを見た ⚠️ Natural: 見るのを見た ✓ \"Saw (someone) watching\" の sounds better"
+          },
+          {
+            "level": 3,
+            "heading": "Mixing up replacement function",
+            "content": "Wrong: 赤いこと ⚠️ Correct: 赤いの ✓ \"The red one\" Only の replaces nouns"
+          }
+        ]
+      },
+      {
+        "level": 2,
+        "heading": "Nuance Differences",
+        "content": "",
+        "children": [
+          {
+            "level": 3,
+            "heading": "Emotional vs factual",
+            "content": "の: More personal/emotional 泣くのを見た \"Saw (someone) crying\" (personal observation) こと: More objective/factual 泣くことは悪くない \"Crying is not bad\" (general statement) Subtle difference"
+          }
+        ]
+      },
+      {
+        "level": 2,
+        "heading": "Summary Table",
+        "content": "",
+        "children": [
+          {
+            "level": 3,
+            "heading": "Quick reference",
+            "content": "Casual speech → の Formal writing → こと Perception verbs → の ができる pattern → こと がある (experience) → こと にする/になる → こと Replacing nouns → の Explanatory のだ → の Context guides choice"
+          }
+        ]
+      },
+      {
+        "level": 2,
+        "heading": "When Both Work",
+        "content": "",
+        "children": [
+          {
+            "level": 3,
+            "heading": "General preferences",
+            "content": "Both OK: 勉強するのが好き 勉強することが好き \"I like studying\" の = casual こと = formal Choose by context"
+          }
+        ]
+      },
+      {
+        "level": 2,
+        "heading": "Regional Variations",
+        "content": "",
+        "children": [
+          {
+            "level": 3,
+            "heading": "Standard usage",
+            "content": "の and こと Universal patterns Same throughout Japan"
+          }
+        ]
+      },
+      {
+        "level": 2,
+        "heading": "Practice Sentences",
+        "content": "",
+        "children": [
+          {
+            "level": 3,
+            "heading": "Basic",
+            "content": "の examples: 泳ぐのが好き (casual) \"I like swimming\" 見るのを忘れた \"I forgot to watch\" 赤いのがいい \"I want the red one\" こと examples: 泳ぐことができる (must use こと) \"Can swim\" 日本に行ったことがある (must use こと) \"I have been to Japan\" 行くことにした (must use こと) \"I decided to go\""
+          },
+          {
+            "level": 3,
+            "heading": "Intermediate",
+            "content": "Interchangeable: 日本語を勉強するのは難しい (casual) 日本語を勉強することは難しい (formal) \"Studying Japanese is difficult\" Must use の: 彼が歌うのを聞いた \"I heard him singing\" Must use こと: 毎日運動することができます \"I can exercise every day\" 富士山に登ったことがありますか \"Have you ever climbed Mt. Fuji?\" 東京に住むことになりました \"It was decided I'll live in Tokyo\""
+          },
+          {
+            "level": 3,
+            "heading": "Company",
+            "content": "About Pricing Blog Contact"
+          },
+          {
+            "level": 3,
+            "heading": "Legal",
+            "content": "Privacy Policy Terms of Service Cookie Policy"
+          }
+        ]
+      }
+    ],
+    "metadata": {
+      "title": "の vs こと"
+    }
+  },
+  "metadata": {
+    "extracted_at": "2026-01-01T22:19:32.509305800Z",
+    "duration_ms": 4,
+    "extractors_matched": [
+      "metadata",
+      "examples",
+      "sections"
+    ],
+    "extractors_failed": [
+      "vocab_tables",
+      "definitions",
+      "content_blocks"
+    ]
+  }
+}

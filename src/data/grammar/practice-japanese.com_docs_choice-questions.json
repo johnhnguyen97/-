@@ -1,0 +1,356 @@
+{
+  "config_name": "Language Learning Extractor",
+  "url": "https://practice-japanese.com/docs/choice-questions/",
+  "data": {
+    "metadata": {
+      "title": "Choice Questions (A or B)"
+    },
+    "examples": [
+      {
+        "sentence": "Yes/No Questions - Basic question formation"
+      },
+      {
+        "sentence": "どちら (dochira) - Which (of two)"
+      },
+      {
+        "sentence": "か (ka) Question Usage - Question particle"
+      },
+      {
+        "sentence": "Question Words (5W1H) - Information questions"
+      },
+      {
+        "sentence": "Comparison expressions - Making comparisons"
+      },
+      {
+        "sentence": "Preference expressions - Expressing preferences"
+      },
+      {
+        "sentence": "About"
+      },
+      {
+        "sentence": "Pricing"
+      },
+      {
+        "sentence": "Blog"
+      },
+      {
+        "sentence": "Contact"
+      },
+      {
+        "sentence": "Privacy Policy"
+      },
+      {
+        "sentence": "Terms of Service"
+      },
+      {
+        "sentence": "Cookie Policy"
+      }
+    ],
+    "sections": [
+      {
+        "level": 2,
+        "heading": "What are Choice Questions?",
+        "content": "Choice questions offer two or more alternatives and ask the listener to choose between them. In Japanese, the main patterns use それとも (soretomo) or か (ka) to connect choices.\n\nコーヒーですか、それとも紅茶ですか？ \"Coffee or tea?\" 行きますか、行きませんか？ \"Will you go or not?\""
+      },
+      {
+        "level": 2,
+        "heading": "Basic Patterns",
+        "content": "",
+        "children": [
+          {
+            "level": 3,
+            "heading": "それとも (soretomo) - \"Or\"",
+            "content": "Most common and clear for choice questions:\n\nA ですか、それとも B ですか？ \"Is it A or B?\" コーヒーですか、それとも紅茶ですか？ \"Coffee or tea?\" 電車ですか、それとも車ですか？ \"Train or car?\" 今日ですか、それとも明日ですか？ \"Today or tomorrow?\""
+          },
+          {
+            "level": 3,
+            "heading": "か (ka) between options",
+            "content": "More concise pattern:\n\nA か B ですか？ \"A or B?\" コーヒーか紅茶ですか？ \"Coffee or tea?\" 行くか行かないか？ \"Going or not going?\" 好きか嫌いか？ \"Like it or hate it?\""
+          }
+        ]
+      },
+      {
+        "level": 2,
+        "heading": "Formal vs Casual",
+        "content": "",
+        "children": [
+          {
+            "level": 3,
+            "heading": "Formal (それとも)",
+            "content": "これですか、それともあれですか？ \"This one or that one?\" 明日ですか、それとも明後日ですか？ \"Tomorrow or the day after?\" 日本語ですか、それとも英語ですか？ \"Japanese or English?\""
+          },
+          {
+            "level": 3,
+            "heading": "Casual",
+            "content": "",
+            "children": [
+              {
+                "level": 4,
+                "heading": "Dropping particles:",
+                "content": "コーヒー、それとも紅茶？ \"Coffee or tea?\" 今日、それとも明日？ \"Today or tomorrow?\""
+              },
+              {
+                "level": 4,
+                "heading": "Using just か:",
+                "content": "コーヒーか紅茶？ \"Coffee or tea?\" 行くか行かない？ \"Going or not?\""
+              },
+              {
+                "level": 4,
+                "heading": "Using それとも alone:",
+                "content": "A: コーヒーにしますか？ \"Will you have coffee?\" B: それとも紅茶がありますか？ \"Or do you have tea?\""
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "level": 2,
+        "heading": "Multiple Choices",
+        "content": "",
+        "children": [
+          {
+            "level": 3,
+            "heading": "Three or More Options",
+            "content": "コーヒーですか、紅茶ですか、それとも水ですか？ \"Coffee, tea, or water?\" 赤ですか、青ですか、それとも緑ですか？ \"Red, blue, or green?\" 月曜日ですか、火曜日ですか、それとも水曜日ですか？ \"Monday, Tuesday, or Wednesday?\""
+          },
+          {
+            "level": 3,
+            "heading": "Using か between all options",
+            "content": "コーヒーか紅茶か水ですか？ \"Coffee, tea, or water?\" 月曜か火曜か水曜ですか？ \"Monday, Tuesday, or Wednesday?\""
+          }
+        ]
+      },
+      {
+        "level": 2,
+        "heading": "Common Question Types",
+        "content": "",
+        "children": [
+          {
+            "level": 3,
+            "heading": "Food and Drink",
+            "content": "お茶ですか、それともコーヒーですか？ \"Tea or coffee?\" 和食ですか、それとも洋食ですか？ \"Japanese food or Western food?\" ここで食べますか、それとも持ち帰りますか？ \"Eat here or take out?\" ご飯ですか、それともパンですか？ \"Rice or bread?\""
+          },
+          {
+            "level": 3,
+            "heading": "Time and Schedule",
+            "content": "午前ですか、それとも午後ですか？ \"Morning or afternoon?\" 今週ですか、それとも来週ですか？ \"This week or next week?\" 平日ですか、それとも週末ですか？ \"Weekday or weekend?\" 今ですか、それとも後ですか？ \"Now or later?\""
+          },
+          {
+            "level": 3,
+            "heading": "Transportation",
+            "content": "電車ですか、それともバスですか？ \"Train or bus?\" 歩きますか、それともタクシーで行きますか？ \"Walk or take a taxi?\" 飛行機ですか、それとも新幹線ですか？ \"Airplane or shinkansen?\""
+          },
+          {
+            "level": 3,
+            "heading": "Yes/No Alternatives",
+            "content": "行きますか、それとも行きませんか？ \"Will you go or not?\" 好きですか、それとも嫌いですか？ \"Do you like it or hate it?\" できますか、それともできませんか？ \"Can you do it or not?\""
+          }
+        ]
+      },
+      {
+        "level": 2,
+        "heading": "Answering Choice Questions",
+        "content": "",
+        "children": [
+          {
+            "level": 3,
+            "heading": "Simple Answer",
+            "content": "Just state your choice:\n\nQ: コーヒーですか、それとも紅茶ですか？ \"Coffee or tea?\" A: コーヒーです \"Coffee\" A: 紅茶をお願いします \"Tea, please\""
+          },
+          {
+            "level": 3,
+            "heading": "With Explanation",
+            "content": "Q: 電車ですか、それとも車ですか？ \"Train or car?\" A: 電車です。安いですから \"Train. Because it's cheap\" A: 車で行きます。荷物が多いので \"I'll go by car. Because I have a lot of luggage\""
+          },
+          {
+            "level": 3,
+            "heading": "Neither Option",
+            "content": "どちらでもいいです \"Either is fine\" どちらでもありません \"Neither\" 他のものがいいです \"I'd prefer something else\" 両方欲しいです \"I want both\""
+          }
+        ]
+      },
+      {
+        "level": 2,
+        "heading": "Common Conversations",
+        "content": "",
+        "children": [
+          {
+            "level": 3,
+            "heading": "Example 1: Restaurant",
+            "content": "A: お飲み物は何にしますか？ \"What would you like to drink?\" B: お茶かコーヒーがありますか？ \"Do you have tea or coffee?\" A: はい、両方あります \"Yes, we have both\" B: じゃあ、コーヒーをお願いします \"Then, coffee please\""
+          },
+          {
+            "level": 3,
+            "heading": "Example 2: Making Plans",
+            "content": "A: 映画を見ますか、それとも買い物に行きますか？ \"Shall we watch a movie or go shopping?\" B: 映画がいいです \"A movie is good\" A: いつがいいですか？今日ですか、それとも明日ですか？ \"When is good? Today or tomorrow?\" B: 今日の午後はどうですか？ \"How about this afternoon?\""
+          },
+          {
+            "level": 3,
+            "heading": "Example 3: Shopping",
+            "content": "A: どちらにしますか？赤ですか、それとも青ですか？ \"Which will you choose? Red or blue?\" B: うーん、青がいいです \"Hmm, blue is good\" A: サイズはMですか、それともLですか？ \"Size M or L?\" B: Mでお願いします \"M, please\""
+          }
+        ]
+      },
+      {
+        "level": 2,
+        "heading": "Special Patterns",
+        "content": "",
+        "children": [
+          {
+            "level": 3,
+            "heading": "どちら (dochira) - \"Which\"",
+            "content": "Often used with choice questions:\n\nどちらがいいですか？ \"Which is better?\" どちらが好きですか？AですかBですか？ \"Which do you like? A or B?\" どちらでもいいですか？ \"Is either fine?\""
+          },
+          {
+            "level": 3,
+            "heading": "それとも vs あるいは",
+            "content": "それとも - Used in questions:\n\nコーヒーですか、それとも紅茶ですか？ \"Coffee or tea?\" (question)\n\nあるいは - Used in statements:\n\nコーヒーあるいは紅茶を飲みます \"I'll drink coffee or tea\" (statement)"
+          },
+          {
+            "level": 3,
+            "heading": "Negative Alternatives",
+            "content": "飲みますか、それとも飲みませんか？ \"Will you drink or not?\" 行きますか、行きませんか？ \"Will you go or not?\" 好きですか、嫌いですか？ \"Do you like it or hate it?\""
+          }
+        ]
+      },
+      {
+        "level": 2,
+        "heading": "Polite Expressions",
+        "content": "",
+        "children": [
+          {
+            "level": 3,
+            "heading": "Very Polite Choices",
+            "content": "コーヒーになさいますか、それとも紅茶になさいますか？ \"Will you have coffee or tea?\" (honorific) こちらですか、それともあちらですか？ \"This one or that one?\" (polite) いかがいたしましょうか？ \"How shall I proceed?\" (very polite)"
+          },
+          {
+            "level": 3,
+            "heading": "Business/Formal Settings",
+            "content": "会議は月曜日でしょうか、それとも火曜日でしょうか？ \"Will the meeting be Monday or Tuesday?\" メールでよろしいですか、それともお電話の方がよろしいですか？ \"Is email okay, or would you prefer a phone call?\""
+          }
+        ]
+      },
+      {
+        "level": 2,
+        "heading": "Common Mistakes",
+        "content": "",
+        "children": [
+          {
+            "level": 3,
+            "heading": "Mistake 1: Using また instead of それとも",
+            "content": "Wrong: コーヒーですか、またお茶ですか？ ❌ Right: コーヒーですか、それとも紅茶ですか？ ✓ \"Coffee or tea?\" また means \"again\" or \"also\", not \"or\" in questions!"
+          },
+          {
+            "level": 3,
+            "heading": "Mistake 2: Misplacing か",
+            "content": "Wrong: コーヒーですかそれとも紅茶ですか？ ❌ Right: コーヒーですか、それとも紅茶ですか？ ✓ Need comma before それとも"
+          },
+          {
+            "level": 3,
+            "heading": "Mistake 3: Using や for choices in questions",
+            "content": "Wrong: コーヒーや紅茶ですか？ ❌ Right: コーヒーか紅茶ですか？ ✓ や is for listing examples, not asking for choice"
+          }
+        ]
+      },
+      {
+        "level": 2,
+        "heading": "Expressing Preference",
+        "content": "",
+        "children": [
+          {
+            "level": 3,
+            "heading": "When Answering",
+            "content": "A: どちらがいいですか？ \"Which is better?\" B: Aの方がいいです \"A is better\" B: Aがいいです \"A is good\" B: どちらでもいいです \"Either is fine\" B: Bの方が好きです \"I prefer B\""
+          }
+        ]
+      },
+      {
+        "level": 2,
+        "heading": "Advanced Patterns",
+        "content": "",
+        "children": [
+          {
+            "level": 3,
+            "heading": "Embedded Choice Questions",
+            "content": "コーヒーがいいか、それとも紅茶がいいか教えてください \"Please tell me if you'd prefer coffee or tea\" 行くか行かないか決めてください \"Please decide whether to go or not\" どちらがいいか選んでください \"Please choose which is better\""
+          },
+          {
+            "level": 3,
+            "heading": "Hypothetical Choices",
+            "content": "もし選べるなら、どちらですか？ \"If you could choose, which one?\" Aの方がいいですか、それともBの方がいいですか？ \"Is A better or is B better?\""
+          }
+        ]
+      },
+      {
+        "level": 2,
+        "heading": "Shortened Casual Forms",
+        "content": "",
+        "children": [
+          {
+            "level": 3,
+            "heading": "Super Casual",
+            "content": "コーヒー？それとも紅茶？ \"Coffee? Or tea?\" 行く？それとも行かない？ \"Going? Or not?\" これ？それともあれ？ \"This? Or that?\""
+          },
+          {
+            "level": 3,
+            "heading": "Among Close Friends",
+            "content": "どっち？ \"Which?\" Aとどっち？ \"Which, A or...?\""
+          }
+        ]
+      },
+      {
+        "level": 2,
+        "heading": "Practice Sentences",
+        "content": "",
+        "children": [
+          {
+            "level": 3,
+            "heading": "Basic",
+            "content": "今日ですか、それとも明日ですか？ \"Today or tomorrow?\" ここですか、それともあそこですか？ \"Here or there?\" 大きいですか、それとも小さいですか？ \"Big or small?\""
+          },
+          {
+            "level": 3,
+            "heading": "Intermediate",
+            "content": "和食がいいですか、それとも洋食がいいですか？ \"Would you prefer Japanese or Western food?\" 電車で行きますか、それとも車で行きますか？ \"Will you go by train or by car?\" 赤いのがいいですか、それとも青いのがいいですか？ \"Do you want the red one or the blue one?\""
+          },
+          {
+            "level": 3,
+            "heading": "Advanced",
+            "content": "このプランにしますか、それとも別のプランを検討しますか？ \"Will you go with this plan or consider another one?\" 今決めますか、それとももう少し考えますか？ \"Will you decide now or think about it a bit more?\" 直接会いますか、それともオンラインで話しますか？ \"Shall we meet in person or talk online?\""
+          }
+        ]
+      },
+      {
+        "level": 2,
+        "heading": "Related Grammar Points",
+        "content": "Yes/No Questions - Basic question formation どちら (dochira) - Which (of two) か (ka) Question Usage - Question particle Question Words (5W1H) - Information questions Comparison expressions - Making comparisons Preference expressions - Expressing preferences",
+        "children": [
+          {
+            "level": 3,
+            "heading": "Company",
+            "content": "About Pricing Blog Contact"
+          },
+          {
+            "level": 3,
+            "heading": "Legal",
+            "content": "Privacy Policy Terms of Service Cookie Policy"
+          }
+        ]
+      }
+    ]
+  },
+  "metadata": {
+    "extracted_at": "2026-01-01T22:19:28.078959600Z",
+    "duration_ms": 3,
+    "extractors_matched": [
+      "metadata",
+      "examples",
+      "sections"
+    ],
+    "extractors_failed": [
+      "vocab_tables",
+      "definitions",
+      "content_blocks"
+    ]
+  }
+}

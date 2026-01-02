@@ -1,0 +1,313 @@
+{
+  "config_name": "Language Learning Extractor",
+  "url": "https://practice-japanese.com/docs/negation-overview/",
+  "data": {
+    "examples": [
+      {
+        "sentence": "About"
+      },
+      {
+        "sentence": "Pricing"
+      },
+      {
+        "sentence": "Blog"
+      },
+      {
+        "sentence": "Contact"
+      },
+      {
+        "sentence": "Privacy Policy"
+      },
+      {
+        "sentence": "Terms of Service"
+      },
+      {
+        "sentence": "Cookie Policy"
+      }
+    ],
+    "metadata": {
+      "title": "Negative Forms Overview"
+    },
+    "sections": [
+      {
+        "level": 2,
+        "heading": "Negative Forms Overview",
+        "content": "Negation in Japanese involves different patterns depending on what you're negating - verbs, adjectives, or nouns - and the level of formality. Understanding these patterns is essential for expressing what is not or what doesn't happen.\n\nBasic negation patterns: Verbs: 〜ない / 〜ません い-adjectives: 〜くない な-adjectives: 〜じゃない / 〜ではない Nouns: 〜じゃない / 〜ではない Form varies by type Formality affects choice"
+      },
+      {
+        "level": 2,
+        "heading": "Verb Negation",
+        "content": "",
+        "children": [
+          {
+            "level": 3,
+            "heading": "Two main forms",
+            "content": "Casual negative: 食べない \"don't eat\" 行かない \"don't go\" Polite negative: 食べません \"don't eat\" 行きません \"don't go\" ない = casual/plain ません = polite Same meaning, different register"
+          }
+        ]
+      },
+      {
+        "level": 2,
+        "heading": "Adjective Negation",
+        "content": "",
+        "children": [
+          {
+            "level": 3,
+            "heading": "い-adjectives",
+            "content": "高い → 高くない \"expensive\" → \"not expensive\" 面白い → 面白くない \"interesting\" → \"not interesting\" Change い to くない Regular pattern Simple negation"
+          },
+          {
+            "level": 3,
+            "heading": "な-adjectives",
+            "content": "静か → 静かじゃない / 静かではない \"quiet\" → \"not quiet\" 便利 → 便利じゃない / 便利ではない \"convenient\" → \"not convenient\" じゃない = casual ではない = formal Both common"
+          }
+        ]
+      },
+      {
+        "level": 2,
+        "heading": "Noun Negation",
+        "content": "",
+        "children": [
+          {
+            "level": 3,
+            "heading": "Using copula",
+            "content": "学生じゃない / 学生ではない \"not a student\" 日本人じゃない / 日本人ではない \"not Japanese (person)\" Same as な-adjectives じゃない vs ではない Formality difference"
+          }
+        ]
+      },
+      {
+        "level": 2,
+        "heading": "Formality Levels",
+        "content": "",
+        "children": [
+          {
+            "level": 3,
+            "heading": "Casual to formal",
+            "content": "Most casual: 食べない、高くない、学生じゃない Standard polite: 食べません、高くないです、学生じゃないです More formal: 食べません、高くありません、学生ではありません Adjust to situation Match register Context determines"
+          }
+        ]
+      },
+      {
+        "level": 2,
+        "heading": "Past Negative",
+        "content": "",
+        "children": [
+          {
+            "level": 3,
+            "heading": "Was not / didn't",
+            "content": "Verbs: 食べなかった \"didn't eat\" 食べませんでした \"didn't eat (polite)\" い-adjectives: 高くなかった \"wasn't expensive\" 高くありませんでした \"wasn't expensive (polite)\" な-adjectives/Nouns: 静かじゃなかった \"wasn't quiet\" 学生じゃなかった \"wasn't a student\" Past tense added to negative なかった / ませんでした"
+          }
+        ]
+      },
+      {
+        "level": 2,
+        "heading": "Special Verb ある",
+        "content": "",
+        "children": [
+          {
+            "level": 3,
+            "heading": "Existence negation",
+            "content": "ある → ない \"exists\" → \"doesn't exist\" お金がない \"have no money\" 時間がない \"have no time\" Not あらない Irregular negative Common usage"
+          }
+        ]
+      },
+      {
+        "level": 2,
+        "heading": "ない as Adjective",
+        "content": "",
+        "children": [
+          {
+            "level": 3,
+            "heading": "Functions like い-adjective",
+            "content": "ない conjugates like い-adjective: Present: ない Past: なかった Te-form: なくて Conditional: なければ Adjectival conjugation Not verb conjugation Important distinction"
+          }
+        ]
+      },
+      {
+        "level": 2,
+        "heading": "Double Negatives",
+        "content": "",
+        "children": [
+          {
+            "level": 3,
+            "heading": "Not uncommon pattern",
+            "content": "行かないわけではない \"It's not that (I) won't go\" 悪くないことはない \"It's not that it's not bad\" Double negative = weak positive Softening statements Indirect expression"
+          }
+        ]
+      },
+      {
+        "level": 2,
+        "heading": "Particle Interactions",
+        "content": "",
+        "children": [
+          {
+            "level": 3,
+            "heading": "を vs が with negatives",
+            "content": "を often becomes が: 本を読む → 本を読まない (can use を) 本が読めない \"can't read book\" (が common) Context determines Both grammatically possible Nuance differs"
+          }
+        ]
+      },
+      {
+        "level": 2,
+        "heading": "ないで vs なくて",
+        "content": "",
+        "children": [
+          {
+            "level": 3,
+            "heading": "Different functions",
+            "content": "ないで: 食べないで \"without eating\" Instruction: \"don't eat\" なくて: 高くなくて便利 \"not expensive and convenient\" Reason: \"because it's not...\" Different uses Don't confuse Context shows meaning"
+          }
+        ]
+      },
+      {
+        "level": 2,
+        "heading": "Polite Negative Questions",
+        "content": "",
+        "children": [
+          {
+            "level": 3,
+            "heading": "Asking negatively",
+            "content": "食べませんか \"Won't you eat?\" / \"Would you like to eat?\" 行きませんか \"Won't you go?\" / \"Would you like to go?\" Polite invitation Softer than positive Common pattern"
+          }
+        ]
+      },
+      {
+        "level": 2,
+        "heading": "Common Negation Words",
+        "content": "",
+        "children": [
+          {
+            "level": 3,
+            "heading": "Negative adverbs",
+            "content": "何も〜ない \"nothing\" 何も食べない \"eat nothing\" 誰も〜ない \"nobody\" 誰も来ない \"nobody comes\" 全然〜ない \"not at all\" 全然分からない \"don't understand at all\" Must use with negative Complete the pattern"
+          }
+        ]
+      },
+      {
+        "level": 2,
+        "heading": "Classical Negative ぬ",
+        "content": "",
+        "children": [
+          {
+            "level": 3,
+            "heading": "Literary form",
+            "content": "Modern: 食べない Classical: 食べぬ 知らない → 知らぬ 行かない → 行かぬ Literary/formal Set phrases Not daily speech"
+          }
+        ]
+      },
+      {
+        "level": 2,
+        "heading": "Negative Potential",
+        "content": "",
+        "children": [
+          {
+            "level": 3,
+            "heading": "Cannot",
+            "content": "食べられない \"cannot eat\" 行けない \"cannot go\" できない \"cannot do\" Negative of potential Very common Expressing inability"
+          }
+        ]
+      },
+      {
+        "level": 2,
+        "heading": "Emphasis Patterns",
+        "content": "",
+        "children": [
+          {
+            "level": 3,
+            "heading": "Strong negation",
+            "content": "全く〜ない \"not at all\" 全然〜ない \"not at all\" 決して〜ない \"never\" 絶対に〜ない \"absolutely not\" Emphatic negation Strengthening denial Common intensifiers"
+          }
+        ]
+      },
+      {
+        "level": 2,
+        "heading": "Negative Commands",
+        "content": "",
+        "children": [
+          {
+            "level": 3,
+            "heading": "Don't do",
+            "content": "食べるな \"Don't eat!\" 行くな \"Don't go!\" Casual prohibition Strong/rough Use carefully Or: 食べないで \"Don't eat\" (softer)"
+          }
+        ]
+      },
+      {
+        "level": 2,
+        "heading": "ません vs ないです",
+        "content": "",
+        "children": [
+          {
+            "level": 3,
+            "heading": "Polite negatives",
+            "content": "Both polite: 食べません (more formal) 食べないです (casual polite) ません = standard polite ないです = conversational polite Both acceptable Slightly different feel"
+          }
+        ]
+      },
+      {
+        "level": 2,
+        "heading": "Negative Requests",
+        "content": "",
+        "children": [
+          {
+            "level": 3,
+            "heading": "Please don't",
+            "content": "食べないでください \"Please don't eat\" 行かないでください \"Please don't go\" Polite prohibition Respectful request Common pattern"
+          }
+        ]
+      },
+      {
+        "level": 2,
+        "heading": "Question Tags",
+        "content": "",
+        "children": [
+          {
+            "level": 3,
+            "heading": "Isn't it?",
+            "content": "美味しくない？ \"Isn't it delicious?\" 行かない？ \"Won't you go?\" Seeking confirmation Casual questions Expecting agreement"
+          }
+        ]
+      },
+      {
+        "level": 2,
+        "heading": "Common Mistakes",
+        "content": "❌ Wrong negative form ✗ 食べるない (wrong formation) ✓ Correct formation ✓ 食べない ❌ Mixing formality ✗ 食べないません ✓ Choose one level ✓ 食べない OR 食べません ❌ Forgetting ある exception ✗ あらない ✓ Irregular form ✓ ない ❌ Wrong particle after negative Context determines Both を and が possible Learn patterns Practice formation Understand context"
+      },
+      {
+        "level": 2,
+        "heading": "Practical Examples",
+        "content": "",
+        "children": [
+          {
+            "level": 3,
+            "heading": "Real-life negation",
+            "content": "今日は忙しくない \"Not busy today\" 彼は学生じゃない \"He's not a student\" テレビを見ません \"Don't watch TV\" 分からない \"Don't know / Don't understand\" お金がない \"Have no money\" 全然面白くなかった \"Wasn't interesting at all\" 行きたくない \"Don't want to go\" できない \"Can't do it\" 日本語が上手じゃない \"Not good at Japanese\" 時間がありません \"Don't have time\" Various negations Daily usage Natural contexts Common patterns Essential expressions"
+          },
+          {
+            "level": 3,
+            "heading": "Company",
+            "content": "About Pricing Blog Contact"
+          },
+          {
+            "level": 3,
+            "heading": "Legal",
+            "content": "Privacy Policy Terms of Service Cookie Policy"
+          }
+        ]
+      }
+    ]
+  },
+  "metadata": {
+    "extracted_at": "2026-01-01T22:19:31.964170100Z",
+    "duration_ms": 4,
+    "extractors_matched": [
+      "metadata",
+      "examples",
+      "sections"
+    ],
+    "extractors_failed": [
+      "vocab_tables",
+      "definitions",
+      "content_blocks"
+    ]
+  }
+}

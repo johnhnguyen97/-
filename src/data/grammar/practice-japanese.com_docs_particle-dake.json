@@ -1,0 +1,113 @@
+{
+  "config_name": "Language Learning Extractor",
+  "url": "https://practice-japanese.com/docs/particle-dake/",
+  "data": {
+    "metadata": {
+      "title": "だけ (dake) - Only"
+    },
+    "examples": [
+      {
+        "sentence": "ばかり (bakari)"
+      },
+      {
+        "sentence": "しか (shika)"
+      },
+      {
+        "sentence": "About"
+      },
+      {
+        "sentence": "Pricing"
+      },
+      {
+        "sentence": "Blog"
+      },
+      {
+        "sentence": "Contact"
+      },
+      {
+        "sentence": "Privacy Policy"
+      },
+      {
+        "sentence": "Terms of Service"
+      },
+      {
+        "sentence": "Cookie Policy"
+      }
+    ],
+    "sections": [
+      {
+        "level": 2,
+        "heading": "Core Function",
+        "content": "だけ expresses neutral limitation - \"only\" or \"just\" without negative nuance."
+      },
+      {
+        "level": 2,
+        "heading": "Main Use",
+        "content": "Only/just (neutral choice):\n\nこれだけ - \"only this\" 一つだけ - \"just one\" 水だけ - \"only water\" 三つだけください - \"just three, please\"\n\nNo negative implication - simply stating a limit."
+      },
+      {
+        "level": 2,
+        "heading": "Replaces Particles",
+        "content": "私だけ - \"only me\" (が→だけ) 本だけ - \"only books\" (を→だけ)"
+      },
+      {
+        "level": 2,
+        "heading": "Common Patterns",
+        "content": "",
+        "children": [
+          {
+            "level": 3,
+            "heading": "Quantity",
+            "content": "[Number]だけ 一つだけ - \"just one\" 少しだけ - \"just a little\""
+          },
+          {
+            "level": 3,
+            "heading": "Limitation",
+            "content": "[Noun]だけ これだけ - \"only this\" 日本語だけ - \"only Japanese\""
+          },
+          {
+            "level": 3,
+            "heading": "Verb + だけ",
+            "content": "見るだけ - \"just look\" 聞くだけ - \"just listen\""
+          }
+        ]
+      },
+      {
+        "level": 2,
+        "heading": "だけ vs ばかり vs しか",
+        "content": "| Particle | Nuance | Example | | -------- | ------------ | -------------- | | だけ | Neutral | 水だけ飲む | | ばかり | Excessive | 水ばかり飲む | | しか | Insufficient | 水しか飲まない |"
+      },
+      {
+        "level": 2,
+        "heading": "Key Takeaways",
+        "content": "✓ Neutral \"only\" ✓ No negative nuance ✓ Most common for \"just\" ✓ Replaces を/が\n\nRelated:\n\nばかり (bakari) しか (shika)",
+        "children": [
+          {
+            "level": 3,
+            "heading": "Company",
+            "content": "About Pricing Blog Contact"
+          },
+          {
+            "level": 3,
+            "heading": "Legal",
+            "content": "Privacy Policy Terms of Service Cookie Policy"
+          }
+        ]
+      }
+    ]
+  },
+  "metadata": {
+    "extracted_at": "2026-01-01T22:19:32.736275900Z",
+    "duration_ms": 2,
+    "extractors_matched": [
+      "metadata",
+      "examples",
+      "sections"
+    ],
+    "extractors_failed": [
+      "vocab_tables",
+      "definitions",
+      "content_blocks"
+    ]
+  }
+}

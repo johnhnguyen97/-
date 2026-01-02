@@ -1,0 +1,389 @@
+{
+  "config_name": "Language Learning Extractor",
+  "url": "https://practice-japanese.com/docs/tabun/",
+  "data": {
+    "sections": [
+      {
+        "level": 2,
+        "heading": "What is たぶん?",
+        "content": "たぶん is an adverb expressing moderate probability or uncertainty, meaning \"probably,\" \"maybe,\" \"perhaps,\" or \"likely.\" It shows the speaker thinks something is likely but isn't certain.\n\nたぶん雨が降る \"It'll probably rain\" たぶん来ると思う \"I think he'll probably come\" たぶん大丈夫 \"It's probably okay\""
+      },
+      {
+        "level": 2,
+        "heading": "Usage and Meaning",
+        "content": "",
+        "children": [
+          {
+            "level": 3,
+            "heading": "Expressing moderate certainty",
+            "content": "たぶん行く \"I'll probably go\" たぶん晴れる \"It'll probably be sunny\" Shows 50-70% confidence Not completely sure"
+          },
+          {
+            "level": 3,
+            "heading": "Making tentative predictions",
+            "content": "たぶん彼は知らない \"He probably doesn't know\" たぶん間違っている \"It's probably wrong\" Uncertain estimation"
+          },
+          {
+            "level": 3,
+            "heading": "Softening statements",
+            "content": "Direct: 来る \"He'll come\" Softer: たぶん来る \"He'll probably come\" Less assertive"
+          }
+        ]
+      },
+      {
+        "level": 2,
+        "heading": "Certainty Level",
+        "content": "",
+        "children": [
+          {
+            "level": 3,
+            "heading": "Where たぶん fits",
+            "content": "20-40%: もしかしたら (maybe/possibly) 30-50%: かもしれない (might) 50-70%: たぶん (probably) 70-90%: きっと (surely) 90%+: 絶対に (absolutely) たぶん = moderate probability"
+          }
+        ]
+      },
+      {
+        "level": 2,
+        "heading": "Combining with Other Patterns",
+        "content": "",
+        "children": [
+          {
+            "level": 3,
+            "heading": "たぶん + だろう",
+            "content": "たぶん来るだろう \"He'll probably come\" Double probability marker Common combination"
+          },
+          {
+            "level": 3,
+            "heading": "たぶん + と思う",
+            "content": "たぶん行くと思う \"I think I'll probably go\" Layered uncertainty Very tentative"
+          },
+          {
+            "level": 3,
+            "heading": "たぶん + かもしれない (redundant)",
+            "content": "Redundant: たぶん来るかもしれない ⚠️ Better: たぶん来ると思う ✓ Or: 来るかもしれない ✓ Avoid double uncertainty"
+          }
+        ]
+      },
+      {
+        "level": 2,
+        "heading": "Position in Sentence",
+        "content": "",
+        "children": [
+          {
+            "level": 3,
+            "heading": "Beginning of sentence",
+            "content": "たぶん、明日は晴れる \"Probably, it'll be sunny tomorrow\" Emphasis on uncertainty"
+          },
+          {
+            "level": 3,
+            "heading": "Before verb/adjective",
+            "content": "彼はたぶん来る \"He'll probably come\" たぶん正しい \"It's probably correct\" Most common position"
+          }
+        ]
+      },
+      {
+        "level": 2,
+        "heading": "Polite and Casual",
+        "content": "",
+        "children": [
+          {
+            "level": 3,
+            "heading": "Works in both",
+            "content": "Casual: たぶん大丈夫だと思う \"I think it's probably okay\" Polite: たぶん大丈夫だと思います \"I think it's probably okay\" Adjust verb ending"
+          }
+        ]
+      },
+      {
+        "level": 2,
+        "heading": "Common Contexts",
+        "content": "",
+        "children": [
+          {
+            "level": 3,
+            "heading": "Making plans",
+            "content": "たぶん行けると思う \"I think I can probably go\" たぶん無理かな \"It's probably impossible\" Uncertain commitments"
+          },
+          {
+            "level": 3,
+            "heading": "Giving opinions",
+            "content": "たぶんそうだと思う \"I think that's probably so\" たぶん彼が正しい \"He's probably right\" Tentative opinions"
+          },
+          {
+            "level": 3,
+            "heading": "Predictions",
+            "content": "たぶん雨が降る \"It'll probably rain\" たぶん遅れる \"I'll probably be late\" Uncertain forecasts"
+          }
+        ]
+      },
+      {
+        "level": 2,
+        "heading": "たぶん vs きっと",
+        "content": "",
+        "children": [
+          {
+            "level": 3,
+            "heading": "たぶん - Moderate (50-70%)",
+            "content": "たぶん成功する \"It'll probably succeed\" Less confident Neutral/cautious Can be positive or negative"
+          },
+          {
+            "level": 3,
+            "heading": "きっと - Strong (75-90%)",
+            "content": "きっと成功する \"It'll surely succeed\" More confident Optimistic Mainly for positive outcomes"
+          },
+          {
+            "level": 3,
+            "heading": "Example comparison",
+            "content": "たぶん: たぶん雨が降る \"It'll probably rain\" きっと: きっと晴れる \"It'll surely be sunny\" Different confidence levels"
+          }
+        ]
+      },
+      {
+        "level": 2,
+        "heading": "たぶん vs おそらく",
+        "content": "",
+        "children": [
+          {
+            "level": 3,
+            "heading": "たぶん - Casual/neutral",
+            "content": "たぶん来る \"He'll probably come\" Everyday conversation Neutral tone"
+          },
+          {
+            "level": 3,
+            "heading": "おそらく - Formal/written",
+            "content": "おそらく来るでしょう \"He'll probably come\" More formal Written language Professional contexts"
+          }
+        ]
+      },
+      {
+        "level": 2,
+        "heading": "With Positive and Negative",
+        "content": "",
+        "children": [
+          {
+            "level": 3,
+            "heading": "Works with both",
+            "content": "Positive: たぶん成功する \"Probably will succeed\" Negative: たぶん失敗する \"Probably will fail\" Neutral, works both ways"
+          }
+        ]
+      },
+      {
+        "level": 2,
+        "heading": "Common Patterns",
+        "content": "",
+        "children": [
+          {
+            "level": 3,
+            "heading": "たぶん～と思う",
+            "content": "たぶんそうだと思う \"I think that's probably so\" たぶん間違ってると思う \"I think it's probably wrong\" Common, natural combination"
+          },
+          {
+            "level": 3,
+            "heading": "たぶん～だろう",
+            "content": "たぶん来るだろう \"He'll probably come\" たぶん大丈夫だろう \"It'll probably be okay\" Layered probability"
+          },
+          {
+            "level": 3,
+            "heading": "たぶん～ね/よ",
+            "content": "たぶん大丈夫だよ \"It's probably okay\" たぶん来るよね \"He'll probably come, right?\" Casual, conversational"
+          }
+        ]
+      },
+      {
+        "level": 2,
+        "heading": "Expressing Uncertainty",
+        "content": "",
+        "children": [
+          {
+            "level": 3,
+            "heading": "Shows lack of confidence",
+            "content": "A: 彼、来る？ \"Is he coming?\" B: たぶんね \"Probably\" Not sure, but likely"
+          }
+        ]
+      },
+      {
+        "level": 2,
+        "heading": "In Questions",
+        "content": "",
+        "children": [
+          {
+            "level": 3,
+            "heading": "Seeking opinions",
+            "content": "たぶん正しいと思う？ \"Do you think it's probably correct?\" たぶん間違ってるよね？ \"It's probably wrong, right?\" Checking uncertain assumptions"
+          }
+        ]
+      },
+      {
+        "level": 2,
+        "heading": "たぶん alone (Short response)",
+        "content": "",
+        "children": [
+          {
+            "level": 3,
+            "heading": "As a standalone answer",
+            "content": "A: 明日晴れる？ \"Will it be sunny tomorrow?\" B: たぶん \"Probably\" Common short response"
+          }
+        ]
+      },
+      {
+        "level": 2,
+        "heading": "Regional Variations",
+        "content": "",
+        "children": [
+          {
+            "level": 3,
+            "heading": "Standard たぶん",
+            "content": "たぶん行く \"I'll probably go\" Standard Japanese"
+          },
+          {
+            "level": 3,
+            "heading": "Some dialects use 多分 (same)",
+            "content": "Same meaning Same usage Written with kanji: 多分"
+          }
+        ]
+      },
+      {
+        "level": 2,
+        "heading": "Formal Alternatives",
+        "content": "",
+        "children": [
+          {
+            "level": 3,
+            "heading": "おそらく (formal)",
+            "content": "おそらく成功するでしょう \"It will probably succeed\" More formal than たぶん"
+          },
+          {
+            "level": 3,
+            "heading": "恐らく (written form)",
+            "content": "恐らく正しいと思われる \"It's probably thought to be correct\" Formal written style"
+          }
+        ]
+      },
+      {
+        "level": 2,
+        "heading": "Common Mistakes",
+        "content": "",
+        "children": [
+          {
+            "level": 3,
+            "heading": "Overusing uncertainty markers",
+            "content": "Redundant: たぶん来るかもしれないと思う ⚠️ Better: たぶん来ると思う ✓ Or: 来るかもしれない ✓ Don't stack too many"
+          },
+          {
+            "level": 3,
+            "heading": "Using in very certain situations",
+            "content": "Odd: たぶん太陽は東から昇る ⚠️ Natural: 太陽は東から昇る ✓ Don't use for facts"
+          }
+        ]
+      },
+      {
+        "level": 2,
+        "heading": "Showing Hesitation",
+        "content": "",
+        "children": [
+          {
+            "level": 3,
+            "heading": "Uncertain responses",
+            "content": "A: 参加する？ \"Will you participate?\" B: うーん、たぶん... \"Hmm, probably...\" Shows reluctance/uncertainty"
+          }
+        ]
+      },
+      {
+        "level": 2,
+        "heading": "Practice Sentences",
+        "content": "",
+        "children": [
+          {
+            "level": 3,
+            "heading": "Basic",
+            "content": "たぶん雨が降る \"It'll probably rain\" たぶん来ないと思う \"I think he probably won't come\" たぶん大丈夫 \"It's probably okay\""
+          },
+          {
+            "level": 3,
+            "heading": "Intermediate",
+            "content": "天気予報によると、明日はたぶん晴れる \"According to the forecast, it'll probably be sunny tomorrow\" 時間があれば、たぶん行けると思います \"If I have time, I think I can probably go\" 彼の話はたぶん本当だと思うけど、 確認したほうがいい \"I think his story is probably true, but it's better to confirm\""
+          },
+          {
+            "level": 3,
+            "heading": "Advanced",
+            "content": "この方法でたぶんうまくいくと思うが、 100%の保証はできない。他の選択肢も 考えておいたほうがいいだろう。 状況によっては、別のアプローチが 必要になるかもしれない。 \"I think this method will probably work, but I can't give a 100% guarantee. It would be better to consider other options too. Depending on the situation, a different approach might be necessary.\" 経済状況を見ると、来年の成長率は たぶん今年より低くなるだろう。 専門家の多くもそう予測している。 ただし、予想外の出来事が起これば、 結果は変わる可能性がある。 \"Looking at the economic situation, next year's growth rate will probably be lower than this year. Many experts also predict so. However, if unexpected events occur, the results might change.\""
+          }
+        ]
+      },
+      {
+        "level": 2,
+        "heading": "Related Grammar Points",
+        "content": "きっと - Surely (higher certainty) おそらく - Probably (formal) かもしれない - Might (lower certainty) だろう - Probably (conjecture) もしかしたら - Maybe/Perhaps Probability adverbs - Expressing likelihood",
+        "children": [
+          {
+            "level": 3,
+            "heading": "Company",
+            "content": "About Pricing Blog Contact"
+          },
+          {
+            "level": 3,
+            "heading": "Legal",
+            "content": "Privacy Policy Terms of Service Cookie Policy"
+          }
+        ]
+      }
+    ],
+    "examples": [
+      {
+        "sentence": "きっと - Surely (higher certainty)"
+      },
+      {
+        "sentence": "おそらく - Probably (formal)"
+      },
+      {
+        "sentence": "かもしれない - Might (lower certainty)"
+      },
+      {
+        "sentence": "だろう - Probably (conjecture)"
+      },
+      {
+        "sentence": "もしかしたら - Maybe/Perhaps"
+      },
+      {
+        "sentence": "Probability adverbs - Expressing likelihood"
+      },
+      {
+        "sentence": "About"
+      },
+      {
+        "sentence": "Pricing"
+      },
+      {
+        "sentence": "Blog"
+      },
+      {
+        "sentence": "Contact"
+      },
+      {
+        "sentence": "Privacy Policy"
+      },
+      {
+        "sentence": "Terms of Service"
+      },
+      {
+        "sentence": "Cookie Policy"
+      }
+    ],
+    "metadata": {
+      "title": "たぶん (Probably)"
+    }
+  },
+  "metadata": {
+    "extracted_at": "2026-01-01T22:19:35.673405800Z",
+    "duration_ms": 4,
+    "extractors_matched": [
+      "metadata",
+      "examples",
+      "sections"
+    ],
+    "extractors_failed": [
+      "vocab_tables",
+      "definitions",
+      "content_blocks"
+    ]
+  }
+}

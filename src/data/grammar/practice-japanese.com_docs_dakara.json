@@ -1,0 +1,358 @@
+{
+  "config_name": "Language Learning Extractor",
+  "url": "https://practice-japanese.com/docs/dakara/",
+  "data": {
+    "sections": [
+      {
+        "level": 2,
+        "heading": "What is だから?",
+        "content": "だから means \"therefore,\" \"that's why,\" or \"so.\" It connects two sentences, with the second being a logical conclusion or result of the first.\n\n雨が降っている。だから、家にいる \"It's raining. Therefore, I'm staying home\" 疲れた。だから、休む \"I'm tired. So, I'll rest\" 好きだ。だから、買った \"I like it. That's why I bought it\""
+      },
+      {
+        "level": 2,
+        "heading": "Formation",
+        "content": "",
+        "children": [
+          {
+            "level": 3,
+            "heading": "Pattern: [Sentence 1]. だから、[Sentence 2]",
+            "content": "忙しい。だから、行けない \"I'm busy. Therefore, I can't go\" 高かった。だから、買わなかった \"It was expensive. That's why I didn't buy it\" Connects two complete sentences"
+          }
+        ]
+      },
+      {
+        "level": 2,
+        "heading": "Basic Usage",
+        "content": "",
+        "children": [
+          {
+            "level": 3,
+            "heading": "Expressing logical conclusions",
+            "content": "明日テストがある。だから、今日は勉強する \"I have a test tomorrow. So, I'll study today\" お金がない。だから、買えない \"I don't have money. Therefore, I can't buy it\" 彼は親切だ。だから、みんなに好かれている \"He's kind. That's why everyone likes him\""
+          },
+          {
+            "level": 3,
+            "heading": "Explaining decisions",
+            "content": "このレストランは美味しい。だから、よく来る \"This restaurant is delicious. That's why I come often\" 危険だ。だから、行かない \"It's dangerous. So, I won't go\""
+          }
+        ]
+      },
+      {
+        "level": 2,
+        "heading": "だから vs から",
+        "content": "",
+        "children": [
+          {
+            "level": 3,
+            "heading": "だから - Connects sentences",
+            "content": "疲れた。だから、休む \"I'm tired. So, I'll rest\" Two separate sentences Stronger separation"
+          },
+          {
+            "level": 3,
+            "heading": "から - Within one sentence",
+            "content": "疲れたから、休む \"Because I'm tired, I'll rest\" One sentence Closer connection"
+          },
+          {
+            "level": 3,
+            "heading": "Both express similar meaning",
+            "content": "雨だ。だから、行かない (two sentences) 雨だから、行かない (one sentence) \"It's raining, so I won't go\" Choose based on emphasis and style"
+          }
+        ]
+      },
+      {
+        "level": 2,
+        "heading": "Politeness Levels",
+        "content": "",
+        "children": [
+          {
+            "level": 3,
+            "heading": "Casual: だから",
+            "content": "疲れた。だから、帰る \"I'm tired. So, I'm going home\" With friends and family"
+          },
+          {
+            "level": 3,
+            "heading": "Polite: ですから",
+            "content": "疲れました。ですから、失礼します \"I'm tired. Therefore, I'll excuse myself\" More formal"
+          },
+          {
+            "level": 3,
+            "heading": "Very polite: そのため / したがって",
+            "content": "雨天です。そのため、中止です \"It's rainy weather. Therefore, it's cancelled\" Formal writing/announcements"
+          }
+        ]
+      },
+      {
+        "level": 2,
+        "heading": "Common Conversations",
+        "content": "",
+        "children": [
+          {
+            "level": 3,
+            "heading": "Example 1: Making Decisions",
+            "content": "A: 明日、何する？ \"What are you doing tomorrow?\" B: 雨の予報だよね。だから、家で映画でも見ようかな \"It's forecast to rain, right? So, maybe I'll watch a movie at home\" A: いいね \"Sounds good\""
+          },
+          {
+            "level": 3,
+            "heading": "Example 2: Explaining",
+            "content": "A: どうして日本語を勉強してるの？ \"Why are you studying Japanese?\" B: 日本が好きだから。だから、将来日本に住みたい \"Because I like Japan. That's why I want to live in Japan in the future\""
+          },
+          {
+            "level": 3,
+            "heading": "Example 3: Argument",
+            "content": "A: もう遅いよ \"It's already late\" B: だから、急ごうって言ってるでしょ！ \"That's why I'm saying let's hurry!\" A: 分かったよ \"Okay, okay\""
+          }
+        ]
+      },
+      {
+        "level": 2,
+        "heading": "Common Mistakes",
+        "content": "",
+        "children": [
+          {
+            "level": 3,
+            "heading": "Mistake 1: Using in one continuous sentence",
+            "content": "Unnatural: 疲れただから、休む ❌ Right: 疲れた。だから、休む ✓ Or: 疲れたから、休む ✓ だから connects separate sentences!"
+          },
+          {
+            "level": 3,
+            "heading": "Mistake 2: Starting conversation with だから",
+            "content": "Unnatural start: だから、行かないんだ ⚠️ Better: そういうわけで、行かないんだ ✓ \"That's why I'm not going\" Need context first for だから"
+          },
+          {
+            "level": 3,
+            "heading": "Mistake 3: Too casual in formal writing",
+            "content": "Too casual: 予算がない。だから、中止 ⚠️ Better: 予算がないため、中止 ✓ \"No budget. Therefore, cancelled\" Use そのため/したがって in formal texts"
+          }
+        ]
+      },
+      {
+        "level": 2,
+        "heading": "Emphatic Usage",
+        "content": "",
+        "children": [
+          {
+            "level": 3,
+            "heading": "Emphatic \"that's why!\"",
+            "content": "だから言ったでしょ！ \"That's why I told you!\" / \"I told you so!\" だからダメなんだよ \"That's why it's no good!\" Strong emphasis"
+          },
+          {
+            "level": 3,
+            "heading": "Frustrated tone",
+            "content": "A: どうして？ \"Why?\" B: だから！忙しいって言ってるでしょ！ \"I said! I'm telling you I'm busy!\" Shows frustration/annoyance"
+          }
+        ]
+      },
+      {
+        "level": 2,
+        "heading": "だからこそ (Precisely because)",
+        "content": "",
+        "children": [
+          {
+            "level": 3,
+            "heading": "Emphasizing the reason",
+            "content": "難しい。だからこそ、やりがいがある \"It's difficult. Precisely because of that, it's rewarding\" 好きだ。だからこそ、応援したい \"I like (them). That's exactly why I want to support (them)\" Stronger emphasis than だから"
+          }
+        ]
+      },
+      {
+        "level": 2,
+        "heading": "Common Expressions",
+        "content": "",
+        "children": [
+          {
+            "level": 3,
+            "heading": "だから何？ (So what?)",
+            "content": "A: 彼、東大出身なんだって \"They say he's from Tokyo University\" B: だから何？ \"So what?\" Dismissive, challenging"
+          },
+          {
+            "level": 3,
+            "heading": "だからといって (Even so/Just because)",
+            "content": "お金持ちだ。だからといって、幸せとは限らない \"He's rich. Even so, that doesn't mean he's happy\" Countering a conclusion"
+          }
+        ]
+      },
+      {
+        "level": 2,
+        "heading": "In Explanations",
+        "content": "",
+        "children": [
+          {
+            "level": 3,
+            "heading": "Building logical flow",
+            "content": "このレストランは安い。 だから、学生に人気がある。 だから、いつも混んでいる。 \"This restaurant is cheap. That's why it's popular with students. That's why it's always crowded.\" Connecting multiple conclusions"
+          }
+        ]
+      },
+      {
+        "level": 2,
+        "heading": "Formal Alternatives",
+        "content": "",
+        "children": [
+          {
+            "level": 3,
+            "heading": "そのため (Therefore - formal)",
+            "content": "雨天です。そのため、中止です \"It's rainy. Therefore, it's cancelled\" More formal than だから"
+          },
+          {
+            "level": 3,
+            "heading": "したがって (Consequently - formal)",
+            "content": "売り上げが減少した。したがって、人員削減が必要だ \"Sales decreased. Consequently, personnel reduction is necessary\" Formal, written"
+          },
+          {
+            "level": 3,
+            "heading": "それゆえ (Hence - literary)",
+            "content": "彼は天才だった。それゆえ、孤独だった \"He was a genius. Hence, he was lonely\" Literary, formal"
+          }
+        ]
+      },
+      {
+        "level": 2,
+        "heading": "Responding to だから",
+        "content": "",
+        "children": [
+          {
+            "level": 3,
+            "heading": "Acknowledging",
+            "content": "そうなんだ \"I see\" なるほどね \"I understand\" だよね \"Right\""
+          },
+          {
+            "level": 3,
+            "heading": "Disagreeing",
+            "content": "でも、それは違うと思う \"But I think that's different\" だからって、それはないでしょ \"Even so, that's not right\""
+          }
+        ]
+      },
+      {
+        "level": 2,
+        "heading": "Casual Conversation Patterns",
+        "content": "",
+        "children": [
+          {
+            "level": 3,
+            "heading": "Short exchanges",
+            "content": "A: 疲れた \"I'm tired\" B: だから休めって言ったでしょ \"That's why I told you to rest\""
+          },
+          {
+            "level": 3,
+            "heading": "Explaining behavior",
+            "content": "A: なんで怒ってるの？ \"Why are you angry?\" B: 約束破ったでしょ。だから怒ってるの \"You broke your promise, right? That's why I'm angry\""
+          }
+        ]
+      },
+      {
+        "level": 2,
+        "heading": "Written Usage",
+        "content": "",
+        "children": [
+          {
+            "level": 3,
+            "heading": "In essays (casual)",
+            "content": "私は音楽が好きだ。だから、毎日ギターを練習している。 \"I like music. Therefore, I practice guitar every day.\" Okay in informal essays"
+          },
+          {
+            "level": 3,
+            "heading": "In formal writing",
+            "content": "Less formal: 売上が減少した。だから、対策が必要だ。 More formal: 売上が減少した。そのため、対策が必要である。 \"Sales decreased. Therefore, measures are necessary.\""
+          }
+        ]
+      },
+      {
+        "level": 2,
+        "heading": "Practice Sentences",
+        "content": "",
+        "children": [
+          {
+            "level": 3,
+            "heading": "Basic",
+            "content": "忙しい。だから、行けない \"I'm busy. So, I can't go\" 高い。だから、買わない \"It's expensive. Therefore, I won't buy it\" 好きだ。だから、毎日見る \"I like it. That's why I watch it every day\""
+          },
+          {
+            "level": 3,
+            "heading": "Intermediate",
+            "content": "昨日遅くまで起きていた。だから、今日は眠い \"I stayed up late yesterday. That's why I'm sleepy today\" このアプリは便利だ。だから、多くの人が使っている \"This app is convenient. That's why many people use it\" 彼女は努力家だ。だから、必ず成功すると思う \"She's hardworking. That's why I think she'll definitely succeed\""
+          },
+          {
+            "level": 3,
+            "heading": "Advanced",
+            "content": "環境問題は深刻だ。だから、一人一人が意識を 変える必要がある。だからこそ、教育が重要なのだ。 \"Environmental problems are serious. Therefore, each person needs to change their awareness. That's precisely why education is important.\" 彼は誰よりも練習した。だから、優勝できた。 しかし、だからといって油断してはいけない。 \"He practiced more than anyone. That's why he could win. However, even so, he mustn't let his guard down.\""
+          }
+        ]
+      },
+      {
+        "level": 2,
+        "heading": "Related Grammar Points",
+        "content": "から - Because (in one sentence) ので - Because (polite) そのため - Therefore (formal) したがって - Consequently だからこそ - Precisely because Conjunctions - Connecting sentences",
+        "children": [
+          {
+            "level": 3,
+            "heading": "Company",
+            "content": "About Pricing Blog Contact"
+          },
+          {
+            "level": 3,
+            "heading": "Legal",
+            "content": "Privacy Policy Terms of Service Cookie Policy"
+          }
+        ]
+      }
+    ],
+    "metadata": {
+      "title": "だから (dakara) - Therefore"
+    },
+    "examples": [
+      {
+        "sentence": "から - Because (in one sentence)"
+      },
+      {
+        "sentence": "ので - Because (polite)"
+      },
+      {
+        "sentence": "そのため - Therefore (formal)"
+      },
+      {
+        "sentence": "したがって - Consequently"
+      },
+      {
+        "sentence": "だからこそ - Precisely because"
+      },
+      {
+        "sentence": "Conjunctions - Connecting sentences"
+      },
+      {
+        "sentence": "About"
+      },
+      {
+        "sentence": "Pricing"
+      },
+      {
+        "sentence": "Blog"
+      },
+      {
+        "sentence": "Contact"
+      },
+      {
+        "sentence": "Privacy Policy"
+      },
+      {
+        "sentence": "Terms of Service"
+      },
+      {
+        "sentence": "Cookie Policy"
+      }
+    ]
+  },
+  "metadata": {
+    "extracted_at": "2026-01-01T22:19:28.651046200Z",
+    "duration_ms": 6,
+    "extractors_matched": [
+      "metadata",
+      "examples",
+      "sections"
+    ],
+    "extractors_failed": [
+      "vocab_tables",
+      "definitions",
+      "content_blocks"
+    ]
+  }
+}

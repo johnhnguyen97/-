@@ -1,0 +1,328 @@
+{
+  "config_name": "Language Learning Extractor",
+  "url": "https://practice-japanese.com/docs/omitting-pronouns/",
+  "data": {
+    "sections": [
+      {
+        "level": 2,
+        "heading": "Omitting Pronouns",
+        "content": "Omitting pronouns is fundamental to natural Japanese. Unlike English where \"I,\" \"you,\" \"he,\" \"she\" are almost always stated, Japanese frequently drops pronouns when the subject or object is clear from context. This makes speech more natural and avoids unnecessary repetition.\n\nEnglish: I went to the store. I bought bread. Japanese (unnatural): 私は店に行った。私はパンを買った。 Japanese (natural): 店に行った。パンを買った。 \"(I) went to the store. (I) bought bread.\" Omission is preferred"
+      },
+      {
+        "level": 2,
+        "heading": "Why Japanese Omits Pronouns",
+        "content": "",
+        "children": [
+          {
+            "level": 3,
+            "heading": "Cultural and linguistic reasons",
+            "content": "Context is key Avoiding redundancy Smooth flow Less direct Group-oriented culture Topic-prominent language Omission = natural Stating = often unnatural"
+          }
+        ]
+      },
+      {
+        "level": 2,
+        "heading": "When to Omit",
+        "content": "",
+        "children": [
+          {
+            "level": 3,
+            "heading": "Subject is obvious",
+            "content": "（私は）学生です \"(I) am a student\" In conversation, \"I\" understood No need to state"
+          },
+          {
+            "level": 3,
+            "heading": "Topic already established",
+            "content": "田中さんは医者です。忙しいです。 \"Tanaka is a doctor. (He) is busy.\" Topic set by first sentence Continues without pronoun"
+          },
+          {
+            "level": 3,
+            "heading": "In questions",
+            "content": "（あなたは）学生ですか \"Are (you) a student?\" \"You\" implied in question Usually omitted"
+          },
+          {
+            "level": 3,
+            "heading": "Continuous actions by same person",
+            "content": "朝起きた。顔を洗った。朝ごはんを食べた。 \"(I) woke up. (I) washed my face. (I) ate breakfast.\" Same subject throughout No repetition needed"
+          }
+        ]
+      },
+      {
+        "level": 2,
+        "heading": "First Person Omission",
+        "content": "",
+        "children": [
+          {
+            "level": 3,
+            "heading": "\"I/We\" often dropped",
+            "content": "Unnatural: 私は疲れた。私は寝る。 Natural: 疲れた。寝る。 \"(I)'m tired. (I)'ll sleep.\" Own actions/feelings obvious No need for 私"
+          },
+          {
+            "level": 3,
+            "heading": "When speaking about yourself",
+            "content": "学生です \"(I) am a student\" 行きます \"(I)'ll go\" 日本が好きです \"(I) like Japan\" Self-reference implied"
+          }
+        ]
+      },
+      {
+        "level": 2,
+        "heading": "Second Person Omission",
+        "content": "",
+        "children": [
+          {
+            "level": 3,
+            "heading": "\"You\" rarely stated",
+            "content": "Avoid: あなたは学生ですか Better: 学生ですか \"Are (you) a student?\" Omit \"you\" when possible Use name if needed"
+          },
+          {
+            "level": 3,
+            "heading": "Better alternatives to \"you\"",
+            "content": "Instead of pronoun: 田中さんは... \"Tanaka, are you...\" お名前は... \"Your name is...\" どちらに... \"Where do (you)...\" Name or omission Not pronouns"
+          }
+        ]
+      },
+      {
+        "level": 2,
+        "heading": "Third Person Omission",
+        "content": "",
+        "children": [
+          {
+            "level": 3,
+            "heading": "\"He/She/They\" often omitted",
+            "content": "田中さんは医者です。とても忙しいです。 \"Tanaka is a doctor. (He) is very busy.\" Name establishes topic No pronoun needed after"
+          },
+          {
+            "level": 3,
+            "heading": "Continuing reference",
+            "content": "昨日友達に会った。元気だった。 \"(I) met a friend yesterday. (He/She) was fine.\" Context makes subject clear No need to repeat"
+          }
+        ]
+      },
+      {
+        "level": 2,
+        "heading": "Topic Marker は",
+        "content": "",
+        "children": [
+          {
+            "level": 3,
+            "heading": "Sets context for omission",
+            "content": "私は学生です Topic established with は Then omit: 毎日勉強しています \"(I) study every day\" 今日は忙しいです \"(I) am busy today\" は sets lasting topic"
+          }
+        ]
+      },
+      {
+        "level": 2,
+        "heading": "When NOT to Omit",
+        "content": "",
+        "children": [
+          {
+            "level": 3,
+            "heading": "Emphasis",
+            "content": "私が行く（他の人じゃなくて） \"I will go (not someone else)\" Emphasizing who Contrast intended"
+          },
+          {
+            "level": 3,
+            "heading": "Changing subjects",
+            "content": "私は学生です。彼は先生です。 \"I am a student. He is a teacher.\" Different subjects Need to distinguish"
+          },
+          {
+            "level": 3,
+            "heading": "Avoiding ambiguity",
+            "content": "田中さんと山田さんがいます。 山田さんは医者です。 \"Tanaka and Yamada are here. Yamada is a doctor.\" Multiple people Clarification needed"
+          },
+          {
+            "level": 3,
+            "heading": "Formal situations",
+            "content": "私は田中と申します \"I am called Tanaka\" Self-introductions Business cards Official contexts More formal = more pronouns"
+          }
+        ]
+      },
+      {
+        "level": 2,
+        "heading": "Natural Conversation Flow",
+        "content": "",
+        "children": [
+          {
+            "level": 3,
+            "heading": "Example dialogue",
+            "content": "A: 昨日何した？ B: 映画見た。 A: \"What did (you) do yesterday?\" B: \"(I) saw a movie.\" Both understood No pronouns needed"
+          },
+          {
+            "level": 3,
+            "heading": "Telling a story",
+            "content": "朝起きた。シャワーを浴びた。 朝ごはんを食べた。会社に行った。 \"(I) woke up. (I) took a shower. (I) ate breakfast. (I) went to work.\" Same subject throughout Smooth narration"
+          }
+        ]
+      },
+      {
+        "level": 2,
+        "heading": "Context Clues",
+        "content": "",
+        "children": [
+          {
+            "level": 3,
+            "heading": "Verb endings",
+            "content": "行きます (polite) 行く (casual) 行った (past) Endings give information Subject often clear"
+          },
+          {
+            "level": 3,
+            "heading": "Previous statements",
+            "content": "田中さんの話: \"Tanaka's story:\" Then continue without name Topic established"
+          },
+          {
+            "level": 3,
+            "heading": "Situational context",
+            "content": "At restaurant: 何にしますか \"What will (you) have?\" Context makes \"you\" obvious"
+          }
+        ]
+      },
+      {
+        "level": 2,
+        "heading": "Particles and Omission",
+        "content": "",
+        "children": [
+          {
+            "level": 3,
+            "heading": "を can hint at object",
+            "content": "本を読む \"(Someone) reads a book\" パンを食べた \"(Someone) ate bread\" を suggests object Subject from context"
+          }
+        ]
+      },
+      {
+        "level": 2,
+        "heading": "Zero Pronoun",
+        "content": "",
+        "children": [
+          {
+            "level": 3,
+            "heading": "Linguistic term",
+            "content": "Zero pronoun / Zero anaphora Subject exists grammatically But not stated Understood from context Common in Japanese Normal structure"
+          }
+        ]
+      },
+      {
+        "level": 2,
+        "heading": "Writing vs Speaking",
+        "content": "",
+        "children": [
+          {
+            "level": 3,
+            "heading": "Spoken Japanese",
+            "content": "More omission Very casual can omit almost everything Rely heavily on context 疲れた \"(I'm) tired\" 行く？ \"(Will you) go?\" Maximum omission"
+          },
+          {
+            "level": 3,
+            "heading": "Written Japanese",
+            "content": "Slightly more explicit Still omit when clear Formal writing may include more 私は学生です。毎日勉強しています。 \"I am a student. (I) study every day.\" More structure Still natural omission"
+          }
+        ]
+      },
+      {
+        "level": 2,
+        "heading": "Common Mistakes",
+        "content": "",
+        "children": [
+          {
+            "level": 3,
+            "heading": "Overusing pronouns (sounds foreign)",
+            "content": "Unnatural: 私は朝起きた。私は顔を洗った。 私は朝ごはんを食べた。⚠️ Natural: 朝起きた。顔を洗った。 朝ごはんを食べた。✓ Omit when obvious Sounds more native"
+          },
+          {
+            "level": 3,
+            "heading": "Stating \"you\" too much",
+            "content": "Unnatural: あなたは何が好き？ あなたはどこに住んでる？⚠️ Natural: 何が好き？どこに住んでる？✓ Omit \"you\" in questions More natural"
+          },
+          {
+            "level": 3,
+            "heading": "Adding pronouns for \"clarity\"",
+            "content": "Often unnecessary: 彼は... when context is clear ⚠️ Just continue without pronoun ✓ Trust context Less is more"
+          }
+        ]
+      },
+      {
+        "level": 2,
+        "heading": "Learning Strategy",
+        "content": "",
+        "children": [
+          {
+            "level": 3,
+            "heading": "Building intuition",
+            "content": "1. Read Japanese texts 2. Notice omission patterns 3. Practice in conversation 4. Get comfortable with ambiguity 5. Trust context Experience builds skill"
+          }
+        ]
+      },
+      {
+        "level": 2,
+        "heading": "Practice Examples",
+        "content": "",
+        "children": [
+          {
+            "level": 3,
+            "heading": "Basic",
+            "content": "Breakfast routine: 朝起きた。シャワーを浴びた。 朝ごはんを食べた。学校に行った。 \"(I) woke up. (I) showered. (I) ate breakfast. (I) went to school.\" All subjects omitted"
+          },
+          {
+            "level": 3,
+            "heading": "Intermediate",
+            "content": "Weekend story: 週末、友達と会った。映画を見た。 とても面白かった。そのあと、 レストランで食事をした。 楽しい一日だった。 \"(I) met friends on the weekend. (We) saw a movie. (It) was very interesting. After that, (we) had a meal at a restaurant. (It) was a fun day.\" Multiple subjects omitted Clear from context"
+          },
+          {
+            "level": 3,
+            "heading": "Conversation",
+            "content": "A: 昨日何した？ B: 買い物に行った。 A: 何買った？ B: 服を買った。 A: \"What did (you) do yesterday?\" B: \"(I) went shopping.\" A: \"What did (you) buy?\" B: \"(I) bought clothes.\" Natural dialogue No pronouns needed"
+          },
+          {
+            "level": 3,
+            "heading": "Company",
+            "content": "About Pricing Blog Contact"
+          },
+          {
+            "level": 3,
+            "heading": "Legal",
+            "content": "Privacy Policy Terms of Service Cookie Policy"
+          }
+        ]
+      }
+    ],
+    "metadata": {
+      "title": "Omitting Pronouns"
+    },
+    "examples": [
+      {
+        "sentence": "About"
+      },
+      {
+        "sentence": "Pricing"
+      },
+      {
+        "sentence": "Blog"
+      },
+      {
+        "sentence": "Contact"
+      },
+      {
+        "sentence": "Privacy Policy"
+      },
+      {
+        "sentence": "Terms of Service"
+      },
+      {
+        "sentence": "Cookie Policy"
+      }
+    ]
+  },
+  "metadata": {
+    "extracted_at": "2026-01-01T22:19:32.709553900Z",
+    "duration_ms": 3,
+    "extractors_matched": [
+      "metadata",
+      "examples",
+      "sections"
+    ],
+    "extractors_failed": [
+      "vocab_tables",
+      "definitions",
+      "content_blocks"
+    ]
+  }
+}

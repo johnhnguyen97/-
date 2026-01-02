@@ -1,0 +1,344 @@
+{
+  "config_name": "Language Learning Extractor",
+  "url": "https://practice-japanese.com/docs/verb-negation/",
+  "data": {
+    "examples": [
+      {
+        "sentence": "About"
+      },
+      {
+        "sentence": "Pricing"
+      },
+      {
+        "sentence": "Blog"
+      },
+      {
+        "sentence": "Contact"
+      },
+      {
+        "sentence": "Privacy Policy"
+      },
+      {
+        "sentence": "Terms of Service"
+      },
+      {
+        "sentence": "Cookie Policy"
+      }
+    ],
+    "sections": [
+      {
+        "level": 2,
+        "heading": "Verb Negation",
+        "content": "Verb negation in Japanese uses two main forms: the casual ない form and the polite ません form . Formation depends on verb type (る-verbs, う-verbs, or irregular).\n\nCasual: 〜ない Polite: 〜ません 食べない / 食べません \"don't eat\" 行かない / 行きません \"don't go\" Different formality Same meaning"
+      },
+      {
+        "level": 2,
+        "heading": "る-Verbs (Group 2)",
+        "content": "",
+        "children": [
+          {
+            "level": 3,
+            "heading": "Drop る, add ない/ません",
+            "content": "Casual negative: 食べる → 食べない \"don't eat\" 見る → 見ない \"don't see\" 寝る → 寝ない \"don't sleep\" 起きる → 起きない \"don't wake up\" Polite negative: 食べる → 食べません 見る → 見ません 寝る → 寝ません Simple pattern Drop る Add negative ending"
+          }
+        ]
+      },
+      {
+        "level": 2,
+        "heading": "う-Verbs (Group 1)",
+        "content": "",
+        "children": [
+          {
+            "level": 3,
+            "heading": "Change to あ-form, add ない/ません",
+            "content": "Casual negative: 書く → 書かない (kaku → kakanai) 読む → 読まない (yomu → yomanai) 話す → 話さない (hanasu → hanasanai) 待つ → 待たない (matsu → matanai) 死ぬ → 死なない (shinu → shinanai) 遊ぶ → 遊ばない (asobu → asobanai) 飲む → 飲まない (nomu → nomanai) 帰る → 帰らない (kaeru → kaeranai) 泳ぐ → 泳がない (oyogu → oyoganai) 買う → 買わない (kau → kawanai) Polite negative: 書く → 書きません 読む → 読みません 話す → 話しません Change to あ-row Add ない/ません"
+          }
+        ]
+      },
+      {
+        "level": 2,
+        "heading": "Irregular Verbs",
+        "content": "",
+        "children": [
+          {
+            "level": 3,
+            "heading": "Special forms",
+            "content": "する → しない / しません \"do\" → \"don't do\" 来る (くる) → 来ない (こない) / 来ません (きません) \"come\" → \"don't come\" Only two irregular Memorize these"
+          }
+        ]
+      },
+      {
+        "level": 2,
+        "heading": "Special Case: ある",
+        "content": "",
+        "children": [
+          {
+            "level": 3,
+            "heading": "Existence verb",
+            "content": "ある → ない \"exist/have\" → \"don't exist/don't have\" NOT あらない Unique irregular Very common お金がない \"have no money\" 時間がない \"have no time\""
+          }
+        ]
+      },
+      {
+        "level": 2,
+        "heading": "Past Negative",
+        "content": "",
+        "children": [
+          {
+            "level": 3,
+            "heading": "Didn't do",
+            "content": "Casual past: 食べなかった \"didn't eat\" 行かなかった \"didn't go\" しなかった \"didn't do\" Polite past: 食べませんでした \"didn't eat\" 行きませんでした \"didn't go\" しませんでした \"didn't do\" なかった = casual past ませんでした = polite past"
+          }
+        ]
+      },
+      {
+        "level": 2,
+        "heading": "ない Conjugation",
+        "content": "",
+        "children": [
+          {
+            "level": 3,
+            "heading": "Functions as い-adjective",
+            "content": "ない conjugates like い-adjective: Present: 行かない Past: 行かなかった Te-form: 行かなくて Conditional: 行かなければ Adverb: 行かなく Not a verb conjugation Adjectival pattern Important for further conjugation"
+          }
+        ]
+      },
+      {
+        "level": 2,
+        "heading": "Negative Te-Form",
+        "content": "",
+        "children": [
+          {
+            "level": 3,
+            "heading": "Don't do (and...)",
+            "content": "ないで form: 食べないで \"without eating / don't eat\" 行かないで \"without going / don't go\" なくて form: 高くなくて \"not expensive and...\" 面白くなくて \"not interesting, so...\" Different functions ないで = without/prohibition なくて = connector/reason"
+          }
+        ]
+      },
+      {
+        "level": 2,
+        "heading": "Negative Requests",
+        "content": "",
+        "children": [
+          {
+            "level": 3,
+            "heading": "Please don't",
+            "content": "食べないでください \"Please don't eat\" 行かないでください \"Please don't go\" 触らないでください \"Please don't touch\" Polite prohibition Common pattern Respectful request"
+          }
+        ]
+      },
+      {
+        "level": 2,
+        "heading": "Negative Potential",
+        "content": "",
+        "children": [
+          {
+            "level": 3,
+            "heading": "Cannot",
+            "content": "食べられない \"cannot eat\" 行けない \"cannot go\" 見られない \"cannot see\" できない \"cannot do\" Negative of potential form Expressing inability Very common"
+          }
+        ]
+      },
+      {
+        "level": 2,
+        "heading": "Negative Volitional",
+        "content": "",
+        "children": [
+          {
+            "level": 3,
+            "heading": "Won't / don't intend to",
+            "content": "Less common pattern: 行くまい \"won't go\" するまい \"won't do\" Literary/formal Not everyday speech Classical flavor"
+          }
+        ]
+      },
+      {
+        "level": 2,
+        "heading": "Casual Negative Questions",
+        "content": "",
+        "children": [
+          {
+            "level": 3,
+            "heading": "Won't you?",
+            "content": "行かない？ \"Won't you go?\" / \"Aren't you going?\" 食べない？ \"Won't you eat?\" / \"Aren't you eating?\" Casual invitation Checking plans Common in conversation"
+          }
+        ]
+      },
+      {
+        "level": 2,
+        "heading": "Polite Negative Questions",
+        "content": "",
+        "children": [
+          {
+            "level": 3,
+            "heading": "Invitation form",
+            "content": "行きませんか \"Won't you go?\" / \"Would you like to go?\" 一緒に食べませんか \"Won't you eat together?\" / \"Would you like to eat together?\" Polite invitation Softer than positive Standard courtesy"
+          }
+        ]
+      },
+      {
+        "level": 2,
+        "heading": "Negative Commands",
+        "content": "",
+        "children": [
+          {
+            "level": 3,
+            "heading": "Don't! (rough)",
+            "content": "食べるな \"Don't eat!\" 行くな \"Don't go!\" するな \"Don't do!\" Very casual/rough Masculine Use with care Softer: 食べないで \"Don't eat\""
+          }
+        ]
+      },
+      {
+        "level": 2,
+        "heading": "With Desire 〜たい",
+        "content": "",
+        "children": [
+          {
+            "level": 3,
+            "heading": "Don't want to",
+            "content": "食べたくない \"don't want to eat\" 行きたくない \"don't want to go\" 見たくない \"don't want to see\" Negative of desire Common expression Personal wishes"
+          }
+        ]
+      },
+      {
+        "level": 2,
+        "heading": "Emphatic Negation",
+        "content": "",
+        "children": [
+          {
+            "level": 3,
+            "heading": "Absolutely not",
+            "content": "全然食べない \"don't eat at all\" 全く分からない \"don't understand at all\" 決して行かない \"never go\" 絶対にしない \"absolutely won't do\" Strong denial Emphasis added Common intensifiers"
+          }
+        ]
+      },
+      {
+        "level": 2,
+        "heading": "Negative Adverbs",
+        "content": "",
+        "children": [
+          {
+            "level": 3,
+            "heading": "Nothing, nobody",
+            "content": "何も食べない \"eat nothing\" 誰も来ない \"nobody comes\" どこにも行かない \"go nowhere\" Negative adverbs require ない Must pair together Complete expression"
+          }
+        ]
+      },
+      {
+        "level": 2,
+        "heading": "Negating Compounds",
+        "content": "",
+        "children": [
+          {
+            "level": 3,
+            "heading": "Compound verbs",
+            "content": "食べ始める → 食べ始めない \"begin eating\" → \"don't begin eating\" 読み終わる → 読み終わらない \"finish reading\" → \"don't finish reading\" Negate the second verb Regular pattern"
+          }
+        ]
+      },
+      {
+        "level": 2,
+        "heading": "Double Negative",
+        "content": "",
+        "children": [
+          {
+            "level": 3,
+            "heading": "Not... not",
+            "content": "行かないわけではない \"It's not that (I) won't go\" 食べないことはない \"It's not that (I) don't eat\" Softening Indirect expression Weak affirmative"
+          }
+        ]
+      },
+      {
+        "level": 2,
+        "heading": "Negative Conditional",
+        "content": "",
+        "children": [
+          {
+            "level": 3,
+            "heading": "If not",
+            "content": "行かなければ \"if don't go\" しなければ \"if don't do\" 食べなければ \"if don't eat\" Negative condition \"Must\" when combined なければならない = must"
+          }
+        ]
+      },
+      {
+        "level": 2,
+        "heading": "Formality Mixing",
+        "content": "",
+        "children": [
+          {
+            "level": 3,
+            "heading": "Casual conversation in polite",
+            "content": "Can mix in conversation: 基本的には食べないんですが... \"Basically don't eat, but...\" んです adds explanation Casual negative + polite copula Natural speech"
+          }
+        ]
+      },
+      {
+        "level": 2,
+        "heading": "Regional Variations",
+        "content": "",
+        "children": [
+          {
+            "level": 3,
+            "heading": "Dialect differences",
+            "content": "Standard: 食べない Kansai: 食べへん Western: 食べん Different regions Different negative forms Standard most widely understood"
+          }
+        ]
+      },
+      {
+        "level": 2,
+        "heading": "Written vs Spoken",
+        "content": "",
+        "children": [
+          {
+            "level": 3,
+            "heading": "Style differences",
+            "content": "Written often uses: 食べない (plain form) 食べません (polite) Spoken may use: 食べないよ (with particle) 食べませんね (with tag) Context particles common Natural conversation"
+          }
+        ]
+      },
+      {
+        "level": 2,
+        "heading": "Common Mistakes",
+        "content": "❌ Wrong stem ✗ 食べるない ✓ Correct stem ✓ 食べない ❌ Using あらない ✗ あらない ✓ Irregular form ✓ ない ❌ Confusing ないで and なくて Different uses ✓ Learn distinctions ないで = without/don't なくて = not...and/because ❌ Wrong past form ✗ 食べないでした ✓ Correct past ✓ 食べなかった / 食べませんでした Master formation Know verb types Practice conjugation"
+      },
+      {
+        "level": 2,
+        "heading": "Practical Examples",
+        "content": "",
+        "children": [
+          {
+            "level": 3,
+            "heading": "Daily negation",
+            "content": "今日は働かない \"Don't work today\" 朝ごはんを食べませんでした \"Didn't eat breakfast\" テレビを見ない \"Don't watch TV\" 日本語が分からない \"Don't understand Japanese\" お酒を飲まない \"Don't drink alcohol\" まだ決めていない \"Haven't decided yet\" 彼は来なかった \"He didn't come\" 宿題をしなかった \"Didn't do homework\" そんなこと言わないで \"Don't say such things\" 全然眠くない \"Not sleepy at all\" Common expressions Everyday usage Natural contexts Essential patterns Real conversation"
+          },
+          {
+            "level": 3,
+            "heading": "Company",
+            "content": "About Pricing Blog Contact"
+          },
+          {
+            "level": 3,
+            "heading": "Legal",
+            "content": "Privacy Policy Terms of Service Cookie Policy"
+          }
+        ]
+      }
+    ],
+    "metadata": {
+      "title": "Verb Negation"
+    }
+  },
+  "metadata": {
+    "extracted_at": "2026-01-01T22:19:37.322509900Z",
+    "duration_ms": 4,
+    "extractors_matched": [
+      "metadata",
+      "examples",
+      "sections"
+    ],
+    "extractors_failed": [
+      "vocab_tables",
+      "definitions",
+      "content_blocks"
+    ]
+  }
+}

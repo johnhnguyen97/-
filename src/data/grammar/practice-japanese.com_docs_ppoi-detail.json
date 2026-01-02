@@ -1,0 +1,316 @@
+{
+  "config_name": "Language Learning Extractor",
+  "url": "https://practice-japanese.com/docs/ppoi-detail/",
+  "data": {
+    "sections": [
+      {
+        "level": 2,
+        "heading": "What is 〜っぽい?",
+        "content": "〜っぽい (ppoi) expresses that something has characteristics of, seems like, or tends toward something. It can describe appearance, behavior, or tendency.\n\nEnglish equivalent: \"seems like,\" \"looks like,\" \"-ish,\" \"tends to\"\n\nStructure: [Noun / Verb ます-stem] + っぽい\n\n子供 (kodomo - child) + っぽい = 子供っぽい \"childish\" 青 (ao - blue) + っぽい = 青っぽい \"bluish\" 怒る (okoru - get angry) → 怒り + っぽい = 怒りっぽい \"quick to anger\""
+      },
+      {
+        "level": 2,
+        "heading": "Basic Formation",
+        "content": "",
+        "children": [
+          {
+            "level": 3,
+            "heading": "With nouns",
+            "content": "[Noun] + っぽい\n\n子供っぽい (kodomoppoi) - \"childish\" 大人っぽい (otonappoi) - \"mature\" / \"adult-like\" 男っぽい (otokoppoi) - \"manly\" 女っぽい (onnappoi) - \"feminine\""
+          },
+          {
+            "level": 3,
+            "heading": "With verb stems",
+            "content": "[Verb ます-stem] + っぽい\n\n怒りっぽい (okorippoi) - \"quick to anger\" 忘れっぽい (wasureppoi) - \"forgetful\" 飽きっぽい (akippoi) - \"get bored easily\" 疲れっぽい (tsukareppoi) - \"tire easily\""
+          }
+        ]
+      },
+      {
+        "level": 2,
+        "heading": "Describing Appearance",
+        "content": "",
+        "children": [
+          {
+            "level": 3,
+            "heading": "Looks like",
+            "content": "青っぽい色。 Aoppoi iro. \"A bluish color.\" 緑っぽい服。 Midorippoi fuku. \"Greenish clothes.\" 茶色っぽい髪。 Chairooppoi kami. \"Brownish hair.\" 白っぽい壁。 Shiroppoi kabe. \"Whitish walls.\""
+          }
+        ]
+      },
+      {
+        "level": 2,
+        "heading": "Personality Traits",
+        "content": "",
+        "children": [
+          {
+            "level": 3,
+            "heading": "Behavioral characteristics",
+            "content": "子供っぽい人。 Kodomoppoi hito. \"A childish person.\" 大人っぽい態度。 Otonappoi taido. \"A mature attitude.\" 男っぽい性格。 Otokoppoi seikaku. \"A manly personality.\" 女っぽい仕草。 Onnappoi shigusa. \"Feminine gestures.\""
+          }
+        ]
+      },
+      {
+        "level": 2,
+        "heading": "Quick to Do Something",
+        "content": "",
+        "children": [
+          {
+            "level": 3,
+            "heading": "Emotional tendencies",
+            "content": "怒りっぽい。 Okorippoi. \"Quick to anger.\" 泣きっぽい。 Nakippoi. \"Cry easily.\" 飽きっぽい性格。 Akippoi seikaku. \"A personality that gets bored easily.\" 忘れっぽくなった。 Wasureppoku natta. \"I've become forgetful.\""
+          }
+        ]
+      },
+      {
+        "level": 2,
+        "heading": "Color Shades",
+        "content": "",
+        "children": [
+          {
+            "level": 3,
+            "heading": "Approximate colors",
+            "content": "赤っぽい (akappoi) - \"reddish\" 青っぽい (aoppoi) - \"bluish\" 黄色っぽい (kiiroppoi) - \"yellowish\" 黒っぽい (kuroppoi) - \"blackish\" 白っぽい (shiroppoi) - \"whitish\" 茶色っぽい (chairooppoi) - \"brownish\" 灰色っぽい (haiirooppoi) - \"grayish\" 赤っぽいオレンジ。 Akappoi orenji. \"A reddish orange.\" 黒っぽい服を着ている。 Kuroppoi fuku wo kite iru. \"Wearing blackish clothes.\""
+          }
+        ]
+      },
+      {
+        "level": 2,
+        "heading": "Style and Fashion",
+        "content": "",
+        "children": [
+          {
+            "level": 3,
+            "heading": "Appearance and vibe",
+            "content": "カジュアルっぽい服。 Kajuaruoppoi fuku. \"Casual-looking clothes.\" フォーマルっぽい雰囲気。 Foomaruoppoi fun'iki. \"A formal-ish atmosphere.\" スポーティーっぽいデザイン。 Supootii ppoi dezain. \"A sporty-ish design.\""
+          }
+        ]
+      },
+      {
+        "level": 2,
+        "heading": "Material and Texture",
+        "content": "",
+        "children": [
+          {
+            "level": 3,
+            "heading": "Physical properties",
+            "content": "プラスチックっぽい。 Purasuchikkuppoi. \"Plastic-like.\" 革っぽい素材。 Kawappoi sozai. \"Leather-like material.\" 金属っぽい音。 Kinzokuoppoi oto. \"A metallic sound.\" 紙っぽい質感。 Kamippoi shitsukan. \"A paper-like texture.\""
+          }
+        ]
+      },
+      {
+        "level": 2,
+        "heading": "Maturity Levels",
+        "content": "",
+        "children": [
+          {
+            "level": 3,
+            "heading": "Age-related characteristics",
+            "content": "子供っぽい (kodomoppoi) - \"childish\" 大人っぽい (otonappoi) - \"mature\" / \"grown-up\" 彼女は大人っぽい。 Kanojo wa otonappoi. \"She's mature for her age.\" 子供っぽい考え方。 Kodomoppoi kangaekata. \"A childish way of thinking.\" 大人っぽい服装。 Otonappoi fukusou. \"Mature-looking clothing.\""
+          }
+        ]
+      },
+      {
+        "level": 2,
+        "heading": "Gender Expression",
+        "content": "",
+        "children": [
+          {
+            "level": 3,
+            "heading": "Masculine and feminine",
+            "content": "男っぽい (otokoppoi) - \"manly\" / \"masculine\" 女っぽい (onnappoi) - \"feminine\" / \"womanly\" 男っぽい話し方。 Otokoppoi hanashikata. \"A manly way of speaking.\" 女っぽい仕草。 Onnappoi shigusa. \"Feminine gestures.\""
+          }
+        ]
+      },
+      {
+        "level": 2,
+        "heading": "っぽい as い-adjective",
+        "content": "",
+        "children": [
+          {
+            "level": 3,
+            "heading": "Functions like an adjective",
+            "content": "忘れっぽい人 (wasureppoi hito) - \"a forgetful person\" 子供っぽい行動 (kodomoppoi koudou) - \"childish behavior\" 彼は怒りっぽいです。 Kare wa okorippoi desu. \"He's quick to anger.\" (polite) 青っぽい色でした。 Aoppoi iro deshita. \"It was a bluish color.\""
+          }
+        ]
+      },
+      {
+        "level": 2,
+        "heading": "Modifying っぽい",
+        "content": "",
+        "children": [
+          {
+            "level": 3,
+            "heading": "Negative and past forms",
+            "content": "Negative:\n\n子供っぽくない (kodomoppoku nai) - \"not childish\" 全然子供っぽくない。 Zenzen kodomoppoku nai. \"Not childish at all.\"\n\nPast:\n\n子供っぽかった (kodomoppokatta) - \"was childish\" 昔は子供っぽかった。 Mukashi wa kodomoppokatta. \"I was childish in the past.\""
+          }
+        ]
+      },
+      {
+        "level": 2,
+        "heading": "Common Expressions",
+        "content": "",
+        "children": [
+          {
+            "level": 3,
+            "heading": "With verbs",
+            "content": "忘れっぽい (wasureppoi) - \"forgetful\" 怒りっぽい (okorippoi) - \"quick to anger\" 飽きっぽい (akippoi) - \"get bored easily\" 泣きっぽい (nakippoi) - \"cry easily\" 疲れっぽい (tsukareppoi) - \"tire easily\" 照れっぽい (tereppoi) - \"easily embarrassed\""
+          },
+          {
+            "level": 3,
+            "heading": "With nouns",
+            "content": "子供っぽい (kodomoppoi) - \"childish\" 大人っぽい (otonappoi) - \"mature\" 男っぽい (otokoppoi) - \"manly\" 女っぽい (onnappoi) - \"feminine\" 春っぽい (haruoppoi) - \"spring-like\" 秋っぽい (akippoi) - \"autumn-like\""
+          }
+        ]
+      },
+      {
+        "level": 2,
+        "heading": "Seasons and Weather",
+        "content": "",
+        "children": [
+          {
+            "level": 3,
+            "heading": "Seasonal feel",
+            "content": "春っぽい天気。 Haruoppoi tenki. \"Spring-like weather.\" 夏っぽい服。 Natsuoppoi fuku. \"Summer-ish clothes.\" 秋っぽい色。 Akippoi iro. \"Autumn-like colors.\" 冬っぽい寒さ。 Fuyuoppoi samusa. \"Winter-like cold.\""
+          }
+        ]
+      },
+      {
+        "level": 2,
+        "heading": "Polite Forms",
+        "content": "Casual: 子供っぽい Polite: 子供っぽいです Negative: 子供っぽくない / 子供っぽくないです Past: 子供っぽかった / 子供っぽかったです 彼女は大人っぽいです。 Kanojo wa otonappoi desu. \"She's mature.\" 赤っぽい色でした。 Akappoi iro deshita. \"It was a reddish color.\""
+      },
+      {
+        "level": 2,
+        "heading": "Comparing っぽい Patterns",
+        "content": "",
+        "children": [
+          {
+            "level": 3,
+            "heading": "Similar expressions",
+            "content": "っぽい - Seems like/tends to:\n\n子供っぽい (kodomoppoi) \"childish\" 青っぽい (aoppoi) \"bluish\"\n\nらしい - Typical of:\n\n子供らしい (kodomoらしい) \"child-like\" (appropriate for a child)\n\nみたい - Looks like:\n\n子供みたい (kodomo mitai) \"like a child\"\n\n| Pattern | Nuance | Example | | ------- | --------------------- | ---------- | | っぽい | Has tendency/似ている | 子供っぽい | | らしい | Typical/appropriate | 子供らしい | | みたい | Looks like/seems | 子供みたい |"
+          }
+        ]
+      },
+      {
+        "level": 2,
+        "heading": "Casual Speech",
+        "content": "",
+        "children": [
+          {
+            "level": 3,
+            "heading": "Informal usage",
+            "content": "っぽい is quite casual and common in everyday conversation.\n\nそれ、ちょっと子供っぽいよ。 Sore, chotto kodomoppoi yo. \"That's a bit childish.\" 青っぽい色がいい。 Aoppoi iro ga ii. \"I like bluish colors.\" 最近忘れっぽくなった。 Saikin wasureppoku natta. \"I've become forgetful lately.\""
+          }
+        ]
+      },
+      {
+        "level": 2,
+        "heading": "Common Mistakes",
+        "content": "",
+        "children": [
+          {
+            "level": 3,
+            "heading": "Mistake 1: Using wrong form",
+            "content": "❌ 子供いっぽい ✓ 子供っぽい\n\nUse っぽい, not いっぽい."
+          },
+          {
+            "level": 3,
+            "heading": "Mistake 2: Confusing with らしい",
+            "content": "子供っぽい = childish (often negative) 子供らしい = child-like (positive, appropriate)"
+          },
+          {
+            "level": 3,
+            "heading": "Mistake 3: Wrong verb form",
+            "content": "❌ 怒るっぽい ✓ 怒りっぽい\n\nUse ます-stem with verbs."
+          },
+          {
+            "level": 3,
+            "heading": "Mistake 4: Using with adjectives directly",
+            "content": "❌ 高いっぽい (unnatural) ✓ 高そう (seems expensive)\n\nっぽい doesn't attach directly to い-adjectives."
+          }
+        ]
+      },
+      {
+        "level": 2,
+        "heading": "Summary",
+        "content": "Key Points:\n\nっぽい expresses similarity, tendency, or characteristic Formation: [Noun / Verb ます-stem] + っぽい Means \"seems like,\" \"-ish,\" or \"tends to\" Functions as い-adjective Common with: colors (青っぽい), age (子供っぽい), emotions (怒りっぽい) Quite casual in tone Different from らしい (typical) and みたい (looks like) Essential for describing characteristics and tendencies",
+        "children": [
+          {
+            "level": 3,
+            "heading": "Company",
+            "content": "About Pricing Blog Contact"
+          },
+          {
+            "level": 3,
+            "heading": "Legal",
+            "content": "Privacy Policy Terms of Service Cookie Policy"
+          }
+        ]
+      }
+    ],
+    "examples": [
+      {
+        "sentence": "っぽい expresses similarity, tendency, or characteristic"
+      },
+      {
+        "sentence": "Formation: [Noun / Verb ます-stem] + っぽい"
+      },
+      {
+        "sentence": "Means \"seems like,\" \"-ish,\" or \"tends to\""
+      },
+      {
+        "sentence": "Functions as い-adjective"
+      },
+      {
+        "sentence": "Common with: colors (青っぽい), age (子供っぽい), emotions (怒りっぽい)"
+      },
+      {
+        "sentence": "Quite casual in tone"
+      },
+      {
+        "sentence": "Different from らしい (typical) and みたい (looks like)"
+      },
+      {
+        "sentence": "Essential for describing characteristics and tendencies"
+      },
+      {
+        "sentence": "About"
+      },
+      {
+        "sentence": "Pricing"
+      },
+      {
+        "sentence": "Blog"
+      },
+      {
+        "sentence": "Contact"
+      },
+      {
+        "sentence": "Privacy Policy"
+      },
+      {
+        "sentence": "Terms of Service"
+      },
+      {
+        "sentence": "Cookie Policy"
+      }
+    ],
+    "metadata": {
+      "title": "〜っぽい (Tend to be)"
+    }
+  },
+  "metadata": {
+    "extracted_at": "2026-01-01T22:19:34.192963500Z",
+    "duration_ms": 3,
+    "extractors_matched": [
+      "metadata",
+      "examples",
+      "sections"
+    ],
+    "extractors_failed": [
+      "vocab_tables",
+      "definitions",
+      "content_blocks"
+    ]
+  }
+}

@@ -1,0 +1,454 @@
+{
+  "config_name": "Language Learning Extractor",
+  "url": "https://practice-japanese.com/docs/toka/",
+  "data": {
+    "examples": [
+      {
+        "sentence": "\"things like\""
+      },
+      {
+        "sentence": "\"such as\""
+      },
+      {
+        "sentence": "\"or something\""
+      },
+      {
+        "sentence": "\"and stuff\""
+      },
+      {
+        "sentence": "\"like... and...\""
+      },
+      {
+        "sentence": "Very casual/conversational"
+      },
+      {
+        "sentence": "Implies non-exhaustive list"
+      },
+      {
+        "sentence": "Often repeated: とか...とか..."
+      },
+      {
+        "sentence": "Never used in formal writing"
+      },
+      {
+        "sentence": "とか is casual particle for giving examples"
+      },
+      {
+        "sentence": "Means \"things like,\" \"or something,\" \"and stuff\""
+      },
+      {
+        "sentence": "Usually repeated: とか...とか..."
+      },
+      {
+        "sentence": "Very casual - never use in formal contexts"
+      },
+      {
+        "sentence": "Softens statements and makes them vague"
+      },
+      {
+        "sentence": "Common in everyday conversation"
+      },
+      {
+        "sentence": "Can also quote speech casually (from という)"
+      },
+      {
+        "sentence": "More casual than や, much more than と"
+      },
+      {
+        "sentence": "Essential for natural casual Japanese"
+      },
+      {
+        "sentence": "Never appropriate in business or formal writing"
+      },
+      {
+        "sentence": "About"
+      },
+      {
+        "sentence": "Pricing"
+      },
+      {
+        "sentence": "Blog"
+      },
+      {
+        "sentence": "Contact"
+      },
+      {
+        "sentence": "Privacy Policy"
+      },
+      {
+        "sentence": "Terms of Service"
+      },
+      {
+        "sentence": "Cookie Policy"
+      }
+    ],
+    "sections": [
+      {
+        "level": 2,
+        "heading": "What is とか?",
+        "content": "とか (toka) is a casual particle used for giving examples or listing items informally. It's similar to や but more casual and conversational, often translated as \"things like,\" \"such as,\" or \"and stuff.\"\n\nEnglish equivalents:\n\n\"things like\" \"such as\" \"or something\" \"and stuff\" \"like... and...\"\n\nKey characteristics:\n\nVery casual/conversational Implies non-exhaustive list Often repeated: とか...とか... Never used in formal writing\n\n猫とか犬とか飼ってる。 Neko toka inu toka katteru. \"I have things like cats and dogs.\" / \"I have cats, dogs, and stuff.\" 映画とか見に行かない？ Eiga toka mi ni ikanai? \"Wanna go see a movie or something?\""
+      },
+      {
+        "level": 2,
+        "heading": "Basic Structure",
+        "content": "",
+        "children": [
+          {
+            "level": 3,
+            "heading": "Pattern",
+            "content": "[Noun] + とか + [Noun] + とか\n\nとか is typically repeated:\n\nりんごとかみかんとか Ringo toka mikan toka \"Things like apples and oranges\" 本とか雑誌とか Hon toka zasshi toka \"Books, magazines, and such\""
+          }
+        ]
+      },
+      {
+        "level": 2,
+        "heading": "Casual Examples",
+        "content": "",
+        "children": [
+          {
+            "level": 3,
+            "heading": "Giving casual suggestions",
+            "content": "コーヒーとか紅茶とかどう？ Ko-hi- toka koucha toka dou? \"How about coffee, tea, or something?\" 映画とか見に行く？ Eiga toka mi ni iku? \"Wanna go see a movie or something?\" カフェとか行かない？ Kafe toka ikanai? \"Shall we go to a cafe or something?\""
+          }
+        ]
+      },
+      {
+        "level": 2,
+        "heading": "Repeated とか...とか Pattern",
+        "content": "",
+        "children": [
+          {
+            "level": 3,
+            "heading": "Most common usage",
+            "content": "りんごとかみかんとか買った。 Ringo toka mikan toka katta. \"I bought things like apples and oranges.\" 猫とか犬とか好き。 Neko toka inu toka suki. \"I like cats, dogs, and such.\" 音楽とか映画とか趣味だ。 Ongaku toka eiga toka shumi da. \"Music, movies, and such are my hobbies.\" 本とか雑誌とか読んでる。 Hon toka zasshi toka yonderu. \"I'm reading books, magazines, and stuff.\""
+          }
+        ]
+      },
+      {
+        "level": 2,
+        "heading": "Single とか",
+        "content": "",
+        "children": [
+          {
+            "level": 3,
+            "heading": "Used once for vagueness",
+            "content": "映画とか見たい。 Eiga toka mitai. \"I want to see a movie or something.\" お茶とか飲まない？ Ocha toka nomanai? \"Want to drink tea or something?\" 明日とか暇？ Ashita toka hima? \"Are you free tomorrow or something?\" [Vague about exact day]"
+          }
+        ]
+      },
+      {
+        "level": 2,
+        "heading": "With Verbs (Casual Quotation)",
+        "content": "",
+        "children": [
+          {
+            "level": 3,
+            "heading": "とか saying/thinking",
+            "content": "とか can also quote thoughts or speech casually (from という → とか):\n\n「行きたくない」とか言ってた。 \"Ikitakunai\" toka itteta. \"He was saying things like 'I don't want to go.'\" 「難しい」とか思った。 \"Muzukashii\" toka omotta. \"I thought things like 'It's difficult.'\"\n\nSee: って (Casual quotation) for related patterns"
+          }
+        ]
+      },
+      {
+        "level": 2,
+        "heading": "Listing People",
+        "content": "",
+        "children": [
+          {
+            "level": 3,
+            "heading": "Casual people references",
+            "content": "田中さんとか佐藤さんとか来るよ。 Tanaka-san toka Satou-san toka kuru yo. \"People like Tanaka and Sato are coming.\" 友達とか家族とか。 Tomodachi toka kazoku toka. \"Friends, family, and such people.\""
+          }
+        ]
+      },
+      {
+        "level": 2,
+        "heading": "Listing Places",
+        "content": "",
+        "children": [
+          {
+            "level": 3,
+            "heading": "Multiple locations casually",
+            "content": "カフェとか公園とか行った。 Kafe toka kouen toka itta. \"I went to places like cafes and parks.\" 東京とか大阪とか行きたい。 Toukyou toka Oosaka toka ikitai. \"I want to go to Tokyo, Osaka, and such places.\" スーパーとかコンビニとかで買える。 Supa- toka konbini toka de kaeru. \"You can buy it at supermarkets, convenience stores, and such.\""
+          }
+        ]
+      },
+      {
+        "level": 2,
+        "heading": "Vague Suggestions",
+        "content": "",
+        "children": [
+          {
+            "level": 3,
+            "heading": "Being non-specific",
+            "content": "週末とかどう？ Shuumatsu toka dou? \"How about the weekend or something?\" [Not committing to exact day] 明日とか明後日とか。 Ashita toka asatte toka. \"Tomorrow, the day after, or something like that.\" 10時とか11時とかに会える？ Juuji toka juuichiji toka ni aeru? \"Can we meet around 10 or 11 or something?\""
+          }
+        ]
+      },
+      {
+        "level": 2,
+        "heading": "Softening Statements",
+        "content": "",
+        "children": [
+          {
+            "level": 3,
+            "heading": "Making things less direct",
+            "content": "ちょっと難しいとか。 Chotto muzukashii toka. \"It's kind of difficult or something.\" [Softening criticism] 忙しいとか言ってた。 Isogashii toka itteta. \"They were saying they're busy or something.\" [Indirect] 高いとか思わない？ Takai toka omowanai? \"Don't you think it's expensive or something?\""
+          }
+        ]
+      },
+      {
+        "level": 2,
+        "heading": "Casual Conversations",
+        "content": "",
+        "children": [
+          {
+            "level": 3,
+            "heading": "Natural dialogue",
+            "content": "A: 今日何する？ Kyou nani suru? \"What are you doing today?\" B: 映画とか見ようかな。 Eiga toka miyou ka na. \"Maybe I'll watch a movie or something.\" A: どこでご飯食べる？ Doko de gohan taberu? \"Where shall we eat?\" B: イタリアンとか中華とかどう？ Italian toka chuuka toka dou? \"How about Italian, Chinese, or something?\""
+          }
+        ]
+      },
+      {
+        "level": 2,
+        "heading": "Comparing Listing Particles",
+        "content": "",
+        "children": [
+          {
+            "level": 3,
+            "heading": "と vs や vs とか",
+            "content": "と - Complete, formal list:\n\n猫と犬を飼っている。 Neko to inu wo katte iru. \"I have a cat and a dog.\" [Complete list, formal]\n\nや - Partial list, examples:\n\n猫や犬を飼っている。 Neko ya inu wo katte iru. \"I have cats, dogs, and such.\" [Examples, neutral]\n\nとか - Casual examples:\n\n猫とか犬とか飼ってる。 Neko toka inu toka katteru. \"I have things like cats and dogs.\" [Very casual]\n\n| Particle | Formality | Usage | Feeling | | -------- | -------------- | --------------- | ---------- | | と | Formal/neutral | Complete list | Definite | | や | Neutral | Examples | Neutral | | とか | Casual only | Casual examples | Vague/soft |"
+          }
+        ]
+      },
+      {
+        "level": 2,
+        "heading": "With Quantities",
+        "content": "",
+        "children": [
+          {
+            "level": 3,
+            "heading": "Approximate numbers",
+            "content": "3つとか4つとか買った。 Mittsu toka yottsu toka katta. \"I bought like 3 or 4.\" 10人とか20人とか来るかも。 Juunin toka nijuunin toka kuru kamo. \"Maybe like 10 or 20 people will come.\" 100円とか200円とかかかる。 Hyaku-en toka nihyaku-en toka kakaru. \"It costs like 100 or 200 yen.\""
+          }
+        ]
+      },
+      {
+        "level": 2,
+        "heading": "Expressing Uncertainty",
+        "content": "",
+        "children": [
+          {
+            "level": 3,
+            "heading": "Not being specific",
+            "content": "明日とか行けたら行く。 Ashita toka iketara iku. \"If I can go tomorrow or something, I'll go.\" 時間があるときとか。 Jikan ga aru toki toka. \"When I have time or something.\" 暇なときとか連絡して。 Hima na toki toka renraku shite. \"Contact me when you're free or something.\""
+          }
+        ]
+      },
+      {
+        "level": 2,
+        "heading": "Casual Negative",
+        "content": "",
+        "children": [
+          {
+            "level": 3,
+            "heading": "With ない",
+            "content": "別にとか思わない。 Betsu ni toka omowanai. \"I don't particularly think so or anything.\" そんなこととか言ってない。 Sonna koto toka ittenai. \"I didn't say things like that.\""
+          }
+        ]
+      },
+      {
+        "level": 2,
+        "heading": "Multiple Items",
+        "content": "",
+        "children": [
+          {
+            "level": 3,
+            "heading": "Three or more",
+            "content": "りんごとかみかんとかバナナとか買った。 Ringo toka mikan toka banana toka katta. \"I bought apples, oranges, bananas, and stuff.\" 東京とか大阪とか京都とか行きたい。 Toukyou toka Oosaka toka Kyouto toka ikitai. \"I want to go to Tokyo, Osaka, Kyoto, and such places.\""
+          }
+        ]
+      },
+      {
+        "level": 2,
+        "heading": "In Questions",
+        "content": "",
+        "children": [
+          {
+            "level": 3,
+            "heading": "Casual questioning",
+            "content": "何食べたいとか？ Nani tabetai toka? \"What do you want to eat or something?\" どこ行きたいとかある？ Doko ikitai toka aru? \"Is there somewhere you want to go or anything?\" 誰か来るとか？ Dareka kuru toka? \"Is someone coming or something?\""
+          }
+        ]
+      },
+      {
+        "level": 2,
+        "heading": "Downplaying",
+        "content": "",
+        "children": [
+          {
+            "level": 3,
+            "heading": "Making something sound less important",
+            "content": "ちょっと疲れたとか。 Chotto tsukareta toka. \"I'm a bit tired or something.\" [Downplaying tiredness] そんなに高くないとか。 Sonna ni takakunai toka. \"It's not that expensive or anything.\" [Downplaying price]"
+          }
+        ]
+      },
+      {
+        "level": 2,
+        "heading": "As Casual Quotation",
+        "content": "",
+        "children": [
+          {
+            "level": 3,
+            "heading": "Reporting speech",
+            "content": "「無理」とか言われた。 \"Muri\" toka iwareta. \"I was told things like 'impossible.'\" 「やめて」とか言ってた。 \"Yamete\" toka itteta. \"They were saying things like 'stop it.'\" 「分からない」とか思った。 \"Wakaranai\" toka omotta. \"I thought things like 'I don't understand.'\""
+          }
+        ]
+      },
+      {
+        "level": 2,
+        "heading": "Time Expressions",
+        "content": "",
+        "children": [
+          {
+            "level": 3,
+            "heading": "Vague timing",
+            "content": "朝とか起きれない。 Asa toka okirenai. \"I can't wake up in the morning or anything.\" 夜とか暇？ Yoru toka hima? \"Are you free in the evening or something?\" 週末とか会える？ Shuumatsu toka aeru? \"Can we meet on the weekend or something?\""
+          }
+        ]
+      },
+      {
+        "level": 2,
+        "heading": "Casual Invitations",
+        "content": "",
+        "children": [
+          {
+            "level": 3,
+            "heading": "Suggesting activities",
+            "content": "カラオケとか行かない？ Karaoke toka ikanai? \"Wanna go to karaoke or something?\" 飲みとか行く？ Nomi toka iku? \"Want to go drinking or something?\" ゲームとかしない？ Ge-mu toka shinai? \"Want to play games or something?\""
+          }
+        ]
+      },
+      {
+        "level": 2,
+        "heading": "Regional Variations",
+        "content": "",
+        "children": [
+          {
+            "level": 3,
+            "heading": "Broadly used",
+            "content": "とか is standard casual Japanese across regions, though frequency may vary:\n\nTokyo: とか used frequently Kansai: とか also common, sometimes やら Other regions: Generally understood and used"
+          }
+        ]
+      },
+      {
+        "level": 2,
+        "heading": "When NOT to Use とか",
+        "content": "",
+        "children": [
+          {
+            "level": 3,
+            "heading": "Avoid in formal contexts",
+            "content": "❌ Business email: 会議とか参加します ✓ Business email: 会議に参加します\n\n❌ Academic paper: データとか分析した ✓ Academic paper: データを分析した\n\n❌ Formal speech: 問題とか解決します ✓ Formal speech: 問題を解決します"
+          }
+        ]
+      },
+      {
+        "level": 2,
+        "heading": "Stacking とか",
+        "content": "",
+        "children": [
+          {
+            "level": 3,
+            "heading": "Multiple とか in conversation",
+            "content": "映画とか見て、カフェとか行って、買い物とかした。 Eiga toka mite, kafe toka itte, kaimono toka shita. \"I watched a movie or something, went to a cafe or whatever, did shopping and stuff.\"\n\nNote: Natural in very casual speech but can sound repetitive."
+          }
+        ]
+      },
+      {
+        "level": 2,
+        "heading": "Common Mistakes",
+        "content": "",
+        "children": [
+          {
+            "level": 3,
+            "heading": "Mistake 1: Using in Formal Writing",
+            "content": "❌ Formal report: データとか分析しました ✓ Formal report: データを分析しました\n\nとか is never appropriate in formal writing."
+          },
+          {
+            "level": 3,
+            "heading": "Mistake 2: Using with Formal Verbs",
+            "content": "❌ 映画とか見ますか (mixing casual/formal) ✓ 映画とか見る？ (casual) ✓ 映画を見ますか？ (formal)\n\nMatch formality level throughout."
+          },
+          {
+            "level": 3,
+            "heading": "Mistake 3: Overusing",
+            "content": "❌ りんごとかとかみかんとかとか ✓ りんごとかみかんとか\n\nDon't double とか unnecessarily."
+          },
+          {
+            "level": 3,
+            "heading": "Mistake 4: With Wrong Audience",
+            "content": "❌ To teacher: 宿題とかやりました ✓ To teacher: 宿題をやりました ✓ To friend: 宿題とかやった\n\nUse with friends, not with superiors."
+          }
+        ]
+      },
+      {
+        "level": 2,
+        "heading": "Comparing Similar Expressions",
+        "content": "",
+        "children": [
+          {
+            "level": 3,
+            "heading": "とか vs なんか",
+            "content": "Both casual, but slightly different:\n\nとか - Listing examples:\n\n猫とか犬とか Neko toka inu toka \"Things like cats and dogs\"\n\nなんか - More dismissive/casual:\n\n猫なんか好き Neko nanka suki \"I like cats and such\" [Slightly dismissive tone]\n\nSee: など/なんか (Etc.)"
+          }
+        ]
+      },
+      {
+        "level": 2,
+        "heading": "Natural Conversation Flow",
+        "content": "",
+        "children": [
+          {
+            "level": 3,
+            "heading": "Making speech sound casual",
+            "content": "Stiff: 映画を見ました。本を読みました。 Stiff: \"I watched a movie. I read a book.\" Natural: 映画とか見て、本とか読んだ。 Natural: \"I watched movies and stuff, read books and things.\""
+          }
+        ]
+      },
+      {
+        "level": 2,
+        "heading": "Summary",
+        "content": "Key Points:\n\nとか is casual particle for giving examples Means \"things like,\" \"or something,\" \"and stuff\" Usually repeated: とか...とか... Very casual - never use in formal contexts Softens statements and makes them vague Common in everyday conversation Can also quote speech casually (from という) More casual than や, much more than と Essential for natural casual Japanese Never appropriate in business or formal writing",
+        "children": [
+          {
+            "level": 3,
+            "heading": "Company",
+            "content": "About Pricing Blog Contact"
+          },
+          {
+            "level": 3,
+            "heading": "Legal",
+            "content": "Privacy Policy Terms of Service Cookie Policy"
+          }
+        ]
+      }
+    ],
+    "metadata": {
+      "title": "とか (Casual listing)"
+    }
+  },
+  "metadata": {
+    "extracted_at": "2026-01-01T22:19:36.584638400Z",
+    "duration_ms": 3,
+    "extractors_matched": [
+      "metadata",
+      "examples",
+      "sections"
+    ],
+    "extractors_failed": [
+      "vocab_tables",
+      "definitions",
+      "content_blocks"
+    ]
+  }
+}

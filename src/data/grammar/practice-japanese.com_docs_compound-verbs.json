@@ -1,0 +1,246 @@
+{
+  "config_name": "Language Learning Extractor",
+  "url": "https://practice-japanese.com/docs/compound-verbs/",
+  "data": {
+    "metadata": {
+      "title": "Compound Verb Formation"
+    },
+    "examples": [
+      {
+        "sentence": "About"
+      },
+      {
+        "sentence": "Pricing"
+      },
+      {
+        "sentence": "Blog"
+      },
+      {
+        "sentence": "Contact"
+      },
+      {
+        "sentence": "Privacy Policy"
+      },
+      {
+        "sentence": "Terms of Service"
+      },
+      {
+        "sentence": "Cookie Policy"
+      }
+    ],
+    "sections": [
+      {
+        "level": 2,
+        "heading": "Compound Verb Formation",
+        "content": "Compound verbs (複合動詞 - fukugou doushi) are created by combining two verbs to express a single, more specific action. The first verb (in stem form) provides the main action, while the second verb adds nuance about manner, direction, or aspect.\n\nStructure: Verb 1 (stem) + Verb 2 (conjugated) Example: 飲み (drink stem) + 始める (begin) = 飲み始める \"begin drinking\" First verb = main action Second verb = adds meaning"
+      },
+      {
+        "level": 2,
+        "heading": "Basic Formation",
+        "content": "",
+        "children": [
+          {
+            "level": 3,
+            "heading": "Using verb stems",
+            "content": "Step 1: Get the stem of first verb 食べる → 食べ (tabe) 読む → 読み (yomi) 書く → 書き (kaki) Step 2: Add second verb 食べ + 始める = 食べ始める \"start eating\" 読み + 終わる = 読み終わる \"finish reading\" 書き + 続ける = 書き続ける \"continue writing\" Stem formation: る-verbs: Drop る う-verbs: Change to い-form"
+          }
+        ]
+      },
+      {
+        "level": 2,
+        "heading": "How They Work",
+        "content": "",
+        "children": [
+          {
+            "level": 3,
+            "heading": "Combined meaning",
+            "content": "The compound creates a single concept: 飲み始める Not: \"drink\" and \"begin\" separately But: \"begin drinking\" as one action 書き終わる Not: \"write\" and \"finish\" But: \"finish writing\" as complete idea Treated as one verb Conjugates as the second verb"
+          }
+        ]
+      },
+      {
+        "level": 2,
+        "heading": "Common Second Verbs",
+        "content": "",
+        "children": [
+          {
+            "level": 3,
+            "heading": "Aspectual verbs",
+            "content": "These add information about how/when action occurs: 始める - begin 終わる - finish 続ける - continue 出す - start suddenly 直す - redo かける - be in the middle of"
+          },
+          {
+            "level": 3,
+            "heading": "Directional verbs",
+            "content": "These show direction of action: 上がる - go up 下がる - go down 入る - enter 出る - exit"
+          },
+          {
+            "level": 3,
+            "heading": "Result verbs",
+            "content": "These show completion or result: 切る - completely 抜く - thoroughly 込む - into something"
+          }
+        ]
+      },
+      {
+        "level": 2,
+        "heading": "Stem Form Review",
+        "content": "",
+        "children": [
+          {
+            "level": 3,
+            "heading": "る-verbs",
+            "content": "食べる → 食べ 見る → 見 寝る → 寝 起きる → 起き Simply drop る Easy pattern"
+          },
+          {
+            "level": 3,
+            "heading": "う-verbs",
+            "content": "飲む → 飲み (nomu → nomi) 読む → 読み (yomu → yomi) 書く → 書き (kaku → kaki) 話す → 話し (hanasu → hanashi) 待つ → 待ち (matsu → machi) Change to い-form Same as ます form without ます"
+          },
+          {
+            "level": 3,
+            "heading": "Irregular",
+            "content": "する → し 来る (くる) → 来 (き) 勉強する → 勉強し 勉強し始める \"start studying\""
+          }
+        ]
+      },
+      {
+        "level": 2,
+        "heading": "Conjugation",
+        "content": "",
+        "children": [
+          {
+            "level": 3,
+            "heading": "The compound conjugates as the second verb",
+            "content": "飲み始める (ru-verb): Present: 飲み始める Past: 飲み始めた Negative: 飲み始めない Te-form: 飲み始めて 書き続ける (ru-verb): Present: 書き続ける Past: 書き続けた Negative: 書き続けない Te-form: 書き続けて Only second verb changes First verb stays in stem"
+          }
+        ]
+      },
+      {
+        "level": 2,
+        "heading": "Transitivity",
+        "content": "",
+        "children": [
+          {
+            "level": 3,
+            "heading": "Follows second verb",
+            "content": "If second verb is transitive, compound is transitive: 読み始める (始める is transitive) 本を読み始める \"start reading a book\" If second verb is intransitive, compound is intransitive: 降り出す (出す here becomes intransitive) 雨が降り出した \"rain started falling\" Second verb determines grammar"
+          }
+        ]
+      },
+      {
+        "level": 2,
+        "heading": "Multiple Compounds",
+        "content": "",
+        "children": [
+          {
+            "level": 3,
+            "heading": "Can stack sometimes",
+            "content": "Less common but possible: 読み始めている \"be in the state of having started reading\" 書き続けていた \"was continuing to write\" Adding ている to compounds Shows ongoing state"
+          }
+        ]
+      },
+      {
+        "level": 2,
+        "heading": "Not All Combinations Work",
+        "content": "",
+        "children": [
+          {
+            "level": 3,
+            "heading": "Natural vs unnatural",
+            "content": "Natural: 食べ始める ✓ 飲み続ける ✓ 書き終わる ✓ Unnatural: 食べ上がる ✗ (doesn't make semantic sense) 飲み入る ✗ (illogical combination) Must make logical sense Some combinations established Others don't exist"
+          }
+        ]
+      },
+      {
+        "level": 2,
+        "heading": "Semantic Relationship",
+        "content": "",
+        "children": [
+          {
+            "level": 3,
+            "heading": "First verb must be compatible",
+            "content": "The action of verb 1 must be something that can: - Begin (始める) - Continue (続ける) - Finish (終わる) - Be done excessively (すぎる) etc. 走り始める ✓ \"start running\" - running can begin 走り忘れる ✗ \"forget to run\" - use 走るのを忘れる instead"
+          }
+        ]
+      },
+      {
+        "level": 2,
+        "heading": "Writing",
+        "content": "",
+        "children": [
+          {
+            "level": 3,
+            "heading": "Usually written together",
+            "content": "一緒に書く: 飲み始める (not 飲み 始める) 食べ続ける (not 食べ 続ける) Written as one unit No space between Single compound verb"
+          }
+        ]
+      },
+      {
+        "level": 2,
+        "heading": "Formal vs Casual",
+        "content": "",
+        "children": [
+          {
+            "level": 3,
+            "heading": "Same in both registers",
+            "content": "Compound verbs used equally in: - Casual speech - Formal speech - Writing The formality comes from: - Conjugation (です/ます vs plain) - Context - Other grammar Not inherently formal or casual"
+          }
+        ]
+      },
+      {
+        "level": 2,
+        "heading": "Learning Strategy",
+        "content": "",
+        "children": [
+          {
+            "level": 3,
+            "heading": "Start with common patterns",
+            "content": "Most useful second verbs: 始める, 終わる, 続ける, 出す, 直す, すぎる Learn these combinations first Understand the pattern Gradually expand Focus on natural, common compounds Don't try to force unnatural ones"
+          }
+        ]
+      },
+      {
+        "level": 2,
+        "heading": "Difference from Verb + の + Verb",
+        "content": "",
+        "children": [
+          {
+            "level": 3,
+            "heading": "Compare structures",
+            "content": "Compound: 食べ始める \"begin eating\" - single unified action Separate: 食べるのを始める \"begin the eating\" - more explicit Compound = more natural, concise Separate = more formal, explicit Both grammatically correct"
+          }
+        ]
+      },
+      {
+        "level": 2,
+        "heading": "Common Mistakes",
+        "content": "❌ Using dictionary form of first verb ✗ 食べる始める ✓ Using stem form ✓ 食べ始める ❌ Wrong stem form ✗ 飲む始める (should be 飲み) ✓ Correct stem ✓ 飲み始める ❌ Conjugating first verb ✗ 食べた続ける ✓ First verb stays in stem ✓ 食べ続けた Stem form is key Only second verb conjugates",
+        "children": [
+          {
+            "level": 3,
+            "heading": "Company",
+            "content": "About Pricing Blog Contact"
+          },
+          {
+            "level": 3,
+            "heading": "Legal",
+            "content": "Privacy Policy Terms of Service Cookie Policy"
+          }
+        ]
+      }
+    ]
+  },
+  "metadata": {
+    "extracted_at": "2026-01-01T22:19:28.284385100Z",
+    "duration_ms": 5,
+    "extractors_matched": [
+      "metadata",
+      "examples",
+      "sections"
+    ],
+    "extractors_failed": [
+      "vocab_tables",
+      "definitions",
+      "content_blocks"
+    ]
+  }
+}

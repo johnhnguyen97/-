@@ -1,0 +1,222 @@
+{
+  "config_name": "Language Learning Extractor",
+  "url": "https://practice-japanese.com/docs/writing-systems/",
+  "data": {
+    "metadata": {
+      "title": "Japanese Writing Systems"
+    },
+    "examples": [
+      {
+        "sentence": "Curved, flowing style"
+      },
+      {
+        "sentence": "Native Japanese words"
+      },
+      {
+        "sentence": "Grammar particles"
+      },
+      {
+        "sentence": "Verb/adjective endings"
+      },
+      {
+        "sentence": "Angular, sharp style"
+      },
+      {
+        "sentence": "Foreign loanwords"
+      },
+      {
+        "sentence": "Emphasis (like italics)"
+      },
+      {
+        "sentence": "Onomatopoeia"
+      },
+      {
+        "sentence": "Chinese-origin characters"
+      },
+      {
+        "sentence": "Represent meaning + sound"
+      },
+      {
+        "sentence": "Words, names, concepts"
+      },
+      {
+        "sentence": "Multiple readings"
+      },
+      {
+        "sentence": "コーヒー = foreign word (katakana → coffee)"
+      },
+      {
+        "sentence": "を = grammar particle (hiragana)"
+      },
+      {
+        "sentence": "飲 = main meaning \"drink\" (kanji)"
+      },
+      {
+        "sentence": "みました = grammar ending (hiragana)"
+      },
+      {
+        "sentence": "Hiragana Table - Complete reference"
+      },
+      {
+        "sentence": "Learn Hiragana - Interactive learning"
+      },
+      {
+        "sentence": "Hiragana Reading Practice - Real sentences"
+      },
+      {
+        "sentence": "Katakana Table - Complete reference"
+      },
+      {
+        "sentence": "Learn Katakana - Interactive learning"
+      },
+      {
+        "sentence": "Katakana Reading Practice - Real sentences"
+      },
+      {
+        "sentence": "About"
+      },
+      {
+        "sentence": "Pricing"
+      },
+      {
+        "sentence": "Blog"
+      },
+      {
+        "sentence": "Contact"
+      },
+      {
+        "sentence": "Privacy Policy"
+      },
+      {
+        "sentence": "Terms of Service"
+      },
+      {
+        "sentence": "Cookie Policy"
+      }
+    ],
+    "sections": [
+      {
+        "level": 2,
+        "heading": "The Three Systems Overview",
+        "content": "",
+        "children": [
+          {
+            "level": 3,
+            "heading": "Hiragana (ひらがな)",
+            "content": "46 basic characters\n\nCurved, flowing style Native Japanese words Grammar particles Verb/adjective endings"
+          },
+          {
+            "level": 3,
+            "heading": "Katakana (カタカナ)",
+            "content": "46 basic characters\n\nAngular, sharp style Foreign loanwords Emphasis (like italics) Onomatopoeia"
+          },
+          {
+            "level": 3,
+            "heading": "Kanji (漢字)",
+            "content": "2,136 official characters\n\nChinese-origin characters Represent meaning + sound Words, names, concepts Multiple readings"
+          }
+        ]
+      },
+      {
+        "level": 2,
+        "heading": "Why Three Systems?",
+        "content": "Historical: Kanji came from China (5th century), hiragana evolved from simplified kanji, katakana developed for annotations.\n\nFunctional: Each system signals different information:\n\nコーヒーを飲みました。 ko-hi- wo nomimashita. coffee (katakana) + particle (hiragana) + drink-past (kanji+hiragana) \"I drank coffee.\"\n\nLooking at this sentence, you immediately know:\n\nコーヒー = foreign word (katakana → coffee) を = grammar particle (hiragana) 飲 = main meaning \"drink\" (kanji) みました = grammar ending (hiragana)"
+      },
+      {
+        "level": 2,
+        "heading": "Hiragana (ひらがな) in Detail",
+        "content": "",
+        "children": [
+          {
+            "level": 3,
+            "heading": "What Hiragana Looks Like",
+            "content": "あ い う え お a i u e o か き く け こ ka ki ku ke ko さ し す せ そ sa shi su se so\n\nHiragana characters are smooth and rounded."
+          },
+          {
+            "level": 3,
+            "heading": "When to Use Hiragana",
+            "content": "1. Native Japanese Words\n\nたべる (taberu) - to eat かわいい (kawaii) - cute さくら (sakura) - cherry blossom\n\n2. Particles (Most Important!)\n\n私は学生です。 watashi wa gakusei desu. \"I am a student.\"\n\nは (wa), です (desu), を (wo), に (ni), で (de) - all hiragana.\n\n3. Verb/Adjective Endings\n\n食べます (tabemasu) - eat (polite) 大きい (ookii) - big\n\nThe okurigana (送り仮名) in hiragana shows conjugation.\n\n4. When Kanji is Too Difficult\n\n薔薇 → ばら (bara) - rose 憂鬱 → ゆううつ (yuuutsu) - depression\n\nComplex kanji often written in hiragana.\n\n5. Children's Books Before learning kanji, everything is hiragana:\n\nわたしはがくせいです。"
+          },
+          {
+            "level": 3,
+            "heading": "Hiragana Practice",
+            "content": "Learn with our tools:\n\nHiragana Table - Complete reference Learn Hiragana - Interactive learning Hiragana Reading Practice - Real sentences"
+          }
+        ]
+      },
+      {
+        "level": 2,
+        "heading": "Katakana (カタカナ) in Detail",
+        "content": "",
+        "children": [
+          {
+            "level": 3,
+            "heading": "What Katakana Looks Like",
+            "content": "ア イ ウ エ オ a i u e o カ キ ク ケ コ ka ki ku ke ko サ シ ス セ ソ sa shi su se so\n\nKatakana characters are angular and sharp."
+          },
+          {
+            "level": 3,
+            "heading": "When to Use Katakana",
+            "content": "1. Foreign Loanwords (Most Common)\n\nコーヒー (ko-hi-) - coffee レストラン (resutoran) - restaurant コンピューター (konpyu-ta-) - computer テレビ (terebi) - TV インターネット (inta-netto) - internet\n\n2. Foreign Names\n\nアメリカ (amerika) - America ロンドン (rondon) - London ジョン (jon) - John\n\n3. Onomatopoeia (Sound Effects)\n\nワンワン (wanwan) - dog barking キラキラ (kirakira) - sparkling ドキドキ (dokidoki) - heart pounding\n\n4. Emphasis (Like Italics)\n\nカワイイ！ (kawaii!) - CUTE! (normally かわいい)\n\n5. Scientific/Technical Terms\n\nエネルギー (enerugi-) - energy ウイルス (uirusu) - virus"
+          },
+          {
+            "level": 3,
+            "heading": "Special Katakana Features",
+            "content": "Long vowels marked with ー:\n\nコーヒー (ko-hi-) = long 'o' + 'hi' + long sound\n\nSmall ッ for double consonants:\n\nベッド (beddo) - bed サッカー (sakka-) - soccer"
+          },
+          {
+            "level": 3,
+            "heading": "Katakana Practice",
+            "content": "Katakana Table - Complete reference Learn Katakana - Interactive learning Katakana Reading Practice - Real sentences"
+          }
+        ]
+      },
+      {
+        "level": 2,
+        "heading": "Kanji (漢字) in Detail",
+        "content": "",
+        "children": [
+          {
+            "level": 3,
+            "heading": "What Makes Kanji Special",
+            "content": "Each kanji represents meaning and pronunciation :\n\n食 = \"eat\" / \"food\" Readings: た(べる) taberu, しょく shoku\n\nOne kanji, multiple readings:\n\n生 - なま (nama) = raw - い(きる) (ikiru) = to live - う(まれる) (umareru) = to be born - せい (sei) = life, birth"
+          },
+          {
+            "level": 3,
+            "heading": "Kanji Components",
+            "content": "Radicals (部首) - Building blocks showing meaning:\n\n木 (ki) = tree 林 (hayashi) = woods (two trees) 森 (mori) = forest (three trees)\n\n氵(water radical) 海 (umi) = ocean [water + every] 池 (ike) = pond [water + snake]"
+          },
+          {
+            "level": 3,
+            "heading": "When to Use Kanji",
+            "content": "**"
+          },
+          {
+            "level": 3,
+            "heading": "Company",
+            "content": "About Pricing Blog Contact"
+          },
+          {
+            "level": 3,
+            "heading": "Legal",
+            "content": "Privacy Policy Terms of Service Cookie Policy"
+          }
+        ]
+      }
+    ]
+  },
+  "metadata": {
+    "extracted_at": "2026-01-01T22:19:37.854564100Z",
+    "duration_ms": 3,
+    "extractors_matched": [
+      "metadata",
+      "examples",
+      "sections"
+    ],
+    "extractors_failed": [
+      "vocab_tables",
+      "definitions",
+      "content_blocks"
+    ]
+  }
+}

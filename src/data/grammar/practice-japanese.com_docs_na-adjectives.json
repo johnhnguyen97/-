@@ -1,0 +1,354 @@
+{
+  "config_name": "Language Learning Extractor",
+  "url": "https://practice-japanese.com/docs/na-adjectives/",
+  "data": {
+    "metadata": {
+      "title": "Na-adjectives (な形容詞)"
+    },
+    "examples": [
+      {
+        "sentence": "Doesn't end in い 静か、便利、有名"
+      },
+      {
+        "sentence": "Ends in い but can't conjugate きれい、嫌い、有名 (These don't become きれくない, きらくない)"
+      },
+      {
+        "sentence": "Foreign origin ハンサム (handsome) ロマンチック (romantic)"
+      },
+      {
+        "sentence": "Two-kanji compound 便利、有名、安全、親切"
+      },
+      {
+        "sentence": "I-adj: 高い → 高くない ✓"
+      },
+      {
+        "sentence": "Na-adj: きれい → きれくない ❌ (doesn't work!)"
+      },
+      {
+        "sentence": "I-adjectives"
+      },
+      {
+        "sentence": "Na-adjective Conjugation"
+      },
+      {
+        "sentence": "Adjective Comparison"
+      },
+      {
+        "sentence": "About"
+      },
+      {
+        "sentence": "Pricing"
+      },
+      {
+        "sentence": "Blog"
+      },
+      {
+        "sentence": "Contact"
+      },
+      {
+        "sentence": "Privacy Policy"
+      },
+      {
+        "sentence": "Terms of Service"
+      },
+      {
+        "sentence": "Cookie Policy"
+      }
+    ],
+    "sections": [
+      {
+        "level": 2,
+        "heading": "What are Na-adjectives?",
+        "content": "Na-adjectives (な形容詞) are adjectives that need な when modifying nouns. They're also called \"adjectival nouns\" or \"nominal adjectives.\"\n\n静か (shizuka) - quiet きれい (kirei) - beautiful, clean 便利 (benri) - convenient 元気 (genki) - energetic, healthy"
+      },
+      {
+        "level": 2,
+        "heading": "Characteristics",
+        "content": "",
+        "children": [
+          {
+            "level": 3,
+            "heading": "1. Need な to Modify Nouns",
+            "content": "静かな部屋 - quiet room きれいな花 - beautiful flower 便利な店 - convenient store"
+          },
+          {
+            "level": 3,
+            "heading": "2. Use だ/です as Copula",
+            "content": "部屋は静かだ - The room is quiet 部屋は静かです - The room is quiet (polite)"
+          },
+          {
+            "level": 3,
+            "heading": "3. Often Foreign Origin or Abstract",
+            "content": "Many come from Chinese or describe states/qualities:\n\n便利 (benri) - convenient 有名 (yuumei) - famous 簡単 (kantan) - simple"
+          }
+        ]
+      },
+      {
+        "level": 2,
+        "heading": "Common Na-adjectives",
+        "content": "",
+        "children": [
+          {
+            "level": 3,
+            "heading": "State/Condition",
+            "content": "元気 (genki) - healthy, energetic 病気 (byouki) - sick 暇 (hima) - free (time) 大変 (taihen) - difficult, serious 安全 (anzen) - safe 危険 (kiken) - dangerous 丈夫 (joubu) - sturdy, durable"
+          },
+          {
+            "level": 3,
+            "heading": "Quality/Characteristic",
+            "content": "静か (shizuka) - quiet にぎやか (nigiyaka) - lively, bustling きれい (kirei) - beautiful, clean, pretty 汚い... wait! (kitanai) - dirty (i-adjective!) 派手 (hade) - showy, flashy 地味 (jimi) - plain, subdued"
+          },
+          {
+            "level": 3,
+            "heading": "Ease/Difficulty",
+            "content": "簡単 (kantan) - simple, easy 複雑 (fukuzatsu) - complex 便利 (benri) - convenient 不便 (fuben) - inconvenient"
+          },
+          {
+            "level": 3,
+            "heading": "Feelings/Preferences",
+            "content": "好き (suki) - like 嫌い (kirai) - dislike 大好き (daisuki) - love, really like 大嫌い (daikirai) - hate, really dislike"
+          },
+          {
+            "level": 3,
+            "heading": "Fame/Reputation",
+            "content": "有名 (yuumei) - famous 無名 (mumei) - unknown 人気 (ninki) - popular"
+          },
+          {
+            "level": 3,
+            "heading": "Capability",
+            "content": "上手 (jouzu) - skilled, good at 下手 (heta) - unskilled, bad at 得意 (tokui) - strong point, good at 苦手 (nigate) - weak point, bad at"
+          },
+          {
+            "level": 3,
+            "heading": "Size/Scale (Abstract)",
+            "content": "重要 (juuyou) - important 大切 (taisetsu) - important, precious 必要 (hitsuyou) - necessary 特別 (tokubetsu) - special 普通 (futsuu) - normal, ordinary"
+          },
+          {
+            "level": 3,
+            "heading": "Personality/Character",
+            "content": "親切 (shinsetsu) - kind 真面目 (majime) - serious, earnest 素直 (sunao) - obedient, honest わがまま (wagamama) - selfish"
+          },
+          {
+            "level": 3,
+            "heading": "Appearance",
+            "content": "ハンサム (hansamu) - handsome きれい (kirei) - pretty, beautiful 素敵 (suteki) - lovely, nice"
+          }
+        ]
+      },
+      {
+        "level": 2,
+        "heading": "How to Use Na-adjectives",
+        "content": "",
+        "children": [
+          {
+            "level": 3,
+            "heading": "1. Modifying Nouns (+ な)",
+            "content": "静かな部屋 \"quiet room\" きれいな花 \"beautiful flower\" 便利な場所 \"convenient place\" 有名な人 \"famous person\""
+          },
+          {
+            "level": 3,
+            "heading": "2. As Predicate (+ だ/です)",
+            "content": "Plain: この部屋は静かだ \"This room is quiet\" Polite: この部屋は静かです \"This room is quiet\""
+          },
+          {
+            "level": 3,
+            "heading": "3. Connecting with で",
+            "content": "この部屋は静かで広い \"This room is quiet and spacious\" 彼女はきれいで親切だ \"She's beautiful and kind\""
+          }
+        ]
+      },
+      {
+        "level": 2,
+        "heading": "Identifying Na-adjectives",
+        "content": "",
+        "children": [
+          {
+            "level": 3,
+            "heading": "Clues it's a Na-adjective:",
+            "content": "Doesn't end in い 静か、便利、有名 Ends in い but can't conjugate きれい、嫌い、有名 (These don't become きれくない, きらくない) Foreign origin ハンサム (handsome) ロマンチック (romantic) Two-kanji compound 便利、有名、安全、親切"
+          },
+          {
+            "level": 3,
+            "heading": "Words That Trick You",
+            "content": "End in い but are NA-adjectives:\n\nきれい (kirei) - beautiful → きれいな花 嫌い (kirai) - dislike → 嫌いな食べ物 有名 (yuumei) - famous → 有名な人\n\nHow to tell: Try conjugating to negative\n\nI-adj: 高い → 高くない ✓ Na-adj: きれい → きれくない ❌ (doesn't work!)"
+          }
+        ]
+      },
+      {
+        "level": 2,
+        "heading": "Sentence Patterns",
+        "content": "",
+        "children": [
+          {
+            "level": 3,
+            "heading": "Basic Statement",
+            "content": "この町は静かだ \"This town is quiet\" 日本語は便利です \"Japanese is convenient\""
+          },
+          {
+            "level": 3,
+            "heading": "Modifying Nouns",
+            "content": "静かな町 \"quiet town\" 便利な言語 \"convenient language\""
+          },
+          {
+            "level": 3,
+            "heading": "Question Form",
+            "content": "この町は静かですか？ \"Is this town quiet?\" 日本は安全ですか？ \"Is Japan safe?\""
+          }
+        ]
+      },
+      {
+        "level": 2,
+        "heading": "Common Mistakes",
+        "content": "",
+        "children": [
+          {
+            "level": 3,
+            "heading": "Mistake 1: Forgetting な",
+            "content": "Wrong: 静か部屋 ❌ Right: 静かな部屋 ✓ \"quiet room\" Wrong: きれい花 ❌ Right: きれいな花 ✓ \"beautiful flower\""
+          },
+          {
+            "level": 3,
+            "heading": "Mistake 2: Using い-adjective Rules",
+            "content": "Wrong: 静かい ❌ Right: 静かだ ✓ Wrong: 便利い ❌ Right: 便利だ ✓"
+          },
+          {
+            "level": 3,
+            "heading": "Mistake 3: Adding な to Predicates",
+            "content": "Wrong: 部屋は静かなです ❌ Right: 部屋は静かです ✓ \"The room is quiet\""
+          },
+          {
+            "level": 3,
+            "heading": "Mistake 4: Treating きれい as I-adjective",
+            "content": "Wrong: きれくない ❌ Right: きれいじゃない ✓ \"not beautiful\" Wrong: きれかった ❌ Right: きれいだった ✓ \"was beautiful\""
+          }
+        ]
+      },
+      {
+        "level": 2,
+        "heading": "Na-adjectives vs I-adjectives",
+        "content": "| Na-adjectives | I-adjectives | | -------------- | --------------- | | Need な | Modify directly | | 静かな部屋 | 高い部屋 | | Use だ/です | Use い/いです | | Often abstract | Often concrete | | 静かだ | 高い |",
+        "children": [
+          {
+            "level": 3,
+            "heading": "Side by Side",
+            "content": "Na-adjective: 静かな図書館 \"quiet library\" 図書館は静かだ \"the library is quiet\" I-adjective: 大きい図書館 \"big library\" 図書館は大きい \"the library is big\""
+          }
+        ]
+      },
+      {
+        "level": 2,
+        "heading": "Special Na-adjectives",
+        "content": "",
+        "children": [
+          {
+            "level": 3,
+            "heading": "好き/嫌い (Like/Dislike)",
+            "content": "These work differently - object uses が:\n\n私は寿司が好きです \"I like sushi\" 彼は野菜が嫌いです \"He dislikes vegetables\""
+          },
+          {
+            "level": 3,
+            "heading": "上手/下手 (Good at/Bad at)",
+            "content": "彼は日本語が上手です \"He's good at Japanese\" 私は料理が下手です \"I'm bad at cooking\""
+          }
+        ]
+      },
+      {
+        "level": 2,
+        "heading": "Describing Things",
+        "content": "",
+        "children": [
+          {
+            "level": 3,
+            "heading": "Places",
+            "content": "静かな場所 \"quiet place\" にぎやかな街 \"lively city\" 便利な駅 \"convenient station\" 有名な観光地 \"famous tourist spot\""
+          },
+          {
+            "level": 3,
+            "heading": "People",
+            "content": "親切な人 \"kind person\" 真面目な学生 \"serious student\" 元気な子供 \"energetic child\" ハンサムな男性 \"handsome man\""
+          },
+          {
+            "level": 3,
+            "heading": "Things",
+            "content": "便利な道具 \"convenient tool\" 丈夫な機械 \"sturdy machine\" 簡単な問題 \"simple problem\" 大切な物 \"important thing\""
+          }
+        ]
+      },
+      {
+        "level": 2,
+        "heading": "Conversation Examples",
+        "content": "",
+        "children": [
+          {
+            "level": 3,
+            "heading": "Example 1: Describing Places",
+            "content": "A: この町はどうですか？ \"How is this town?\" B: とても静かで便利です \"It's very quiet and convenient\" A: 駅は近いですか？ \"Is the station close?\" B: はい、とても便利な場所にあります \"Yes, it's in a very convenient location\""
+          },
+          {
+            "level": 3,
+            "heading": "Example 2: Preferences",
+            "content": "A: 日本料理は好きですか？ \"Do you like Japanese food?\" B: はい、大好きです \"Yes, I love it\" A: 何が一番好きですか？ \"What do you like most?\" B: 寿司が大好きです \"I love sushi\""
+          },
+          {
+            "level": 3,
+            "heading": "Example 3: Describing People",
+            "content": "A: 田中さんはどんな人ですか？ \"What kind of person is Tanaka?\" B: とても親切な人です \"He's a very kind person\" A: 日本語は上手ですか？ \"Is he good at Japanese?\" B: はい、とても上手です \"Yes, he's very good\""
+          }
+        ]
+      },
+      {
+        "level": 2,
+        "heading": "Multiple Na-adjectives",
+        "content": "",
+        "children": [
+          {
+            "level": 3,
+            "heading": "With で",
+            "content": "この部屋は静かで広いです \"This room is quiet and spacious\" 彼女はきれいで親切です \"She's beautiful and kind\""
+          },
+          {
+            "level": 3,
+            "heading": "Modifying Same Noun",
+            "content": "静かできれいな部屋 \"a quiet and beautiful room\" 便利で安全な場所 \"a convenient and safe place\""
+          }
+        ]
+      },
+      {
+        "level": 2,
+        "heading": "Adverb Form",
+        "content": "Add に to make adverb:\n\n静か → 静かに (quietly) きれい → きれいに (beautifully, cleanly) 便利 → 便利に (conveniently) 静かに話す \"speak quietly\" きれいに書く \"write neatly\""
+      },
+      {
+        "level": 2,
+        "heading": "Key Takeaways",
+        "content": "✓ Na-adjectives need な before nouns ✓ Use だ/です as copula ✓ Often abstract or foreign origin ✓ Some end in い (きれい, 嫌い) ✓ Can't conjugate like i-adjectives ✓ Connect with で ✓ Make adverbs with に ✓ 好き/嫌い use が for object\n\nMaster na-adjectives - essential for descriptions!\n\nNext: I-adjective Conjugation\n\nRelated:\n\nI-adjectives Na-adjective Conjugation Adjective Comparison",
+        "children": [
+          {
+            "level": 3,
+            "heading": "Company",
+            "content": "About Pricing Blog Contact"
+          },
+          {
+            "level": 3,
+            "heading": "Legal",
+            "content": "Privacy Policy Terms of Service Cookie Policy"
+          }
+        ]
+      }
+    ]
+  },
+  "metadata": {
+    "extracted_at": "2026-01-01T22:19:31.443722500Z",
+    "duration_ms": 4,
+    "extractors_matched": [
+      "metadata",
+      "examples",
+      "sections"
+    ],
+    "extractors_failed": [
+      "vocab_tables",
+      "definitions",
+      "content_blocks"
+    ]
+  }
+}

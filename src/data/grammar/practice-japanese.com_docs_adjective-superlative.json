@@ -1,0 +1,295 @@
+{
+  "config_name": "Language Learning Extractor",
+  "url": "https://practice-japanese.com/docs/adjective-superlative/",
+  "data": {
+    "sections": [
+      {
+        "level": 2,
+        "heading": "Superlative Overview",
+        "content": "Japanese superlatives use 一番 (ichiban) meaning \"number one\" or \"the most.\" Unlike English, adjectives don't change - just add 一番.\n\n一番 + [adjective] \"the most [adjective]\" 一番高い - the most expensive / the highest 一番大きい - the biggest 一番好き - like the most / favorite"
+      },
+      {
+        "level": 2,
+        "heading": "Basic Superlative Pattern",
+        "content": "",
+        "children": [
+          {
+            "level": 3,
+            "heading": "Structure",
+            "content": "[Group] の中で A が一番 [adjective]\n\n[Group] の中で [Subject] が 一番 [Adjective] \"Among [group], [subject] is the most [adjective]\" クラスの中で田中さんが一番背が高い \"Among the class, Tanaka is the tallest\""
+          }
+        ]
+      },
+      {
+        "level": 2,
+        "heading": "Using 一番 (ichiban)",
+        "content": "",
+        "children": [
+          {
+            "level": 3,
+            "heading": "I-adjectives",
+            "content": "一番高い \"the most expensive / the highest\" 一番大きい \"the biggest\" 一番美味しい \"the most delicious\" 一番難しい \"the most difficult\" 一番楽しい \"the most fun\""
+          },
+          {
+            "level": 3,
+            "heading": "Na-adjectives",
+            "content": "一番便利だ / 一番便利です \"the most convenient\" 一番静かだ / 一番静かです \"the quietest\" 一番きれいだ / 一番きれいです \"the most beautiful / the prettiest\" 一番有名だ / 一番有名です \"the most famous\""
+          }
+        ]
+      },
+      {
+        "level": 2,
+        "heading": "Question Forms",
+        "content": "",
+        "children": [
+          {
+            "level": 3,
+            "heading": "何が一番 (what is the most)",
+            "content": "何が一番好きですか？ \"What do you like the most?\" 何が一番美味しいですか？ \"What is the most delicious?\" 何が一番難しいですか？ \"What is the most difficult?\""
+          },
+          {
+            "level": 3,
+            "heading": "どれが一番 (which is the most)",
+            "content": "A と B と C の中で、どれが一番好きですか？ \"Among A, B, and C, which do you like the most?\" この中で、どれが一番高いですか？ \"Among these, which is the most expensive?\""
+          },
+          {
+            "level": 3,
+            "heading": "誰が一番 (who is the most)",
+            "content": "クラスで誰が一番背が高いですか？ \"Who is the tallest in the class?\" 誰が一番日本語が上手ですか？ \"Who is the best at Japanese?\""
+          },
+          {
+            "level": 3,
+            "heading": "どこが一番 (where is the most)",
+            "content": "日本でどこが一番好きですか？ \"Where in Japan do you like the most?\" どこが一番きれいですか？ \"Where is the most beautiful?\""
+          }
+        ]
+      },
+      {
+        "level": 2,
+        "heading": "Common Patterns",
+        "content": "",
+        "children": [
+          {
+            "level": 3,
+            "heading": "の中で (among, within)",
+            "content": "クラスの中で一番 \"the most in the class\" 家族の中で一番 \"the most in the family\" 日本の中で一番 \"the most in Japan\" 世界の中で一番 \"the most in the world\" この中で一番 \"the most among these\""
+          },
+          {
+            "level": 3,
+            "heading": "で (place/scope marker)",
+            "content": "クラスで一番 \"the most in the class\" 日本で一番 \"the most in Japan\" 世界で一番 \"the most in the world\""
+          }
+        ]
+      },
+      {
+        "level": 2,
+        "heading": "Common Superlatives",
+        "content": "",
+        "children": [
+          {
+            "level": 3,
+            "heading": "Favorites",
+            "content": "一番好き \"like the most / favorite\" 一番嫌い \"dislike the most / least favorite\" 一番好きな食べ物 \"favorite food\" 一番好きな映画 \"favorite movie\""
+          },
+          {
+            "level": 3,
+            "heading": "Size",
+            "content": "一番大きい \"the biggest\" 一番小さい \"the smallest\" 一番高い (tall) \"the tallest\" 一番低い \"the lowest / shortest\""
+          },
+          {
+            "level": 3,
+            "heading": "Quality",
+            "content": "一番良い / 一番いい \"the best\" 一番悪い \"the worst\" 一番美味しい \"the most delicious\" 一番面白い \"the most interesting\""
+          },
+          {
+            "level": 3,
+            "heading": "Difficulty",
+            "content": "一番難しい \"the most difficult\" 一番易しい / 一番簡単 \"the easiest\" 一番複雑 \"the most complex\""
+          }
+        ]
+      },
+      {
+        "level": 2,
+        "heading": "Answering Superlative Questions",
+        "content": "Q: 何が一番好きですか？ \"What do you like the most?\" A: 寿司が一番好きです \"I like sushi the most\" Q: どの季節が一番好きですか？ \"Which season do you like the most?\" A: 春が一番好きです \"I like spring the most\" Q: 誰が一番速いですか？ \"Who is the fastest?\" A: 田中さんが一番速いです \"Tanaka is the fastest\""
+      },
+      {
+        "level": 2,
+        "heading": "Conversation Examples",
+        "content": "",
+        "children": [
+          {
+            "level": 3,
+            "heading": "Example 1: Favorites",
+            "content": "A: 何の食べ物が一番好きですか？ \"What food do you like the most?\" B: ラーメンが一番好きです \"I like ramen the most\" A: どこのラーメンが一番美味しいですか？ \"Where has the most delicious ramen?\" B: 博多のラーメンが一番美味しいと思います \"I think Hakata ramen is the most delicious\""
+          },
+          {
+            "level": 3,
+            "heading": "Example 2: Comparisons",
+            "content": "A: この3つの中で、どれが一番安いですか？ \"Among these three, which is the cheapest?\" B: これが一番安いです \"This one is the cheapest\" A: 一番高いのは？ \"Which is the most expensive?\" B: あれが一番高いです \"That one is the most expensive\""
+          },
+          {
+            "level": 3,
+            "heading": "Example 3: Personal Questions",
+            "content": "A: 日本で一番好きな場所はどこですか？ \"What's your favorite place in Japan?\" B: 京都が一番好きです \"I like Kyoto the most\" A: どうしてですか？ \"Why?\" B: 一番きれいだし、一番静かだから \"Because it's the most beautiful and the most quiet\""
+          }
+        ]
+      },
+      {
+        "level": 2,
+        "heading": "Common Mistake Patterns",
+        "content": "",
+        "children": [
+          {
+            "level": 3,
+            "heading": "Mistake 1: Forgetting が Particle",
+            "content": "Wrong: 寿司一番好きです ❌ Right: 寿司が一番好きです ✓ \"I like sushi the most\""
+          },
+          {
+            "level": 3,
+            "heading": "Mistake 2: Using より with 一番",
+            "content": "Wrong: 一番より高い ❌ Right: 一番高い ✓ \"the most expensive\""
+          },
+          {
+            "level": 3,
+            "heading": "Mistake 3: Adding -est to Adjectives",
+            "content": "Wrong: 一番高いest ❌ Right: 一番高い ✓ \"the highest\""
+          },
+          {
+            "level": 3,
+            "heading": "Mistake 4: Wrong Word Order",
+            "content": "Wrong: 高い一番 ❌ Right: 一番高い ✓ \"the most expensive\""
+          }
+        ]
+      },
+      {
+        "level": 2,
+        "heading": "Special Expressions",
+        "content": "",
+        "children": [
+          {
+            "level": 3,
+            "heading": "一番上 (ichiban ue) - the top",
+            "content": "一番上の本 \"the top book\" クラスで一番上 \"the top of the class\""
+          },
+          {
+            "level": 3,
+            "heading": "一番下 (ichiban shita) - the bottom",
+            "content": "一番下の引き出し \"the bottom drawer\""
+          },
+          {
+            "level": 3,
+            "heading": "一番前 (ichiban mae) - the very front",
+            "content": "一番前の席 \"the front-most seat\""
+          },
+          {
+            "level": 3,
+            "heading": "一番後ろ (ichiban ushiro) - the very back",
+            "content": "一番後ろの列 \"the back-most row\""
+          }
+        ]
+      },
+      {
+        "level": 2,
+        "heading": "With Time Expressions",
+        "content": "一年で一番暑い月 \"the hottest month of the year\" 今まで一番楽しかった \"the most fun I've ever had\" 人生で一番大切なもの \"the most important thing in life\" 今まで一番美味しい料理 \"the most delicious food I've ever had\""
+      },
+      {
+        "level": 2,
+        "heading": "Multiple Superlatives",
+        "content": "一番大きくて一番高い \"the biggest and the most expensive\" 一番きれいで一番親切 \"the most beautiful and the kindest\" 世界で一番高くて一番有名な山 \"the world's tallest and most famous mountain\""
+      },
+      {
+        "level": 2,
+        "heading": "Regional Superlatives",
+        "content": "",
+        "children": [
+          {
+            "level": 3,
+            "heading": "Countries/Cities",
+            "content": "日本で一番大きい都市 \"the biggest city in Japan\" 世界で一番高い山 \"the world's highest mountain\" アジアで一番人口が多い国 \"the most populated country in Asia\""
+          },
+          {
+            "level": 3,
+            "heading": "Examples",
+            "content": "東京は日本で一番大きい都市です \"Tokyo is the biggest city in Japan\" 富士山は日本で一番高い山です \"Mt. Fuji is the highest mountain in Japan\" この店はこの町で一番有名です \"This store is the most famous in this town\""
+          }
+        ]
+      },
+      {
+        "level": 2,
+        "heading": "Negative Superlatives",
+        "content": "",
+        "children": [
+          {
+            "level": 3,
+            "heading": "一番～ない (least)",
+            "content": "一番好きじゃない \"like the least\" 一番高くない \"the least expensive\" 一番面白くない \"the least interesting\""
+          },
+          {
+            "level": 3,
+            "heading": "Examples",
+            "content": "これが一番好きじゃない \"I like this the least\" 冬が一番好きじゃないです \"I like winter the least\""
+          }
+        ]
+      },
+      {
+        "level": 2,
+        "heading": "Practice Sentences",
+        "content": "何が一番好きですか？ \"What do you like the most?\" 日本語で一番難しいのは何ですか？ \"What is the most difficult thing about Japanese?\" 世界で一番高い山はエベレストです \"The world's highest mountain is Everest\" クラスで田中さんが一番背が高いです \"Tanaka is the tallest in the class\" 今まで一番楽しかった旅行 \"The most fun trip I've ever had\" これが一番美味しいです \"This is the most del",
+        "children": [
+          {
+            "level": 3,
+            "heading": "Company",
+            "content": "About Pricing Blog Contact"
+          },
+          {
+            "level": 3,
+            "heading": "Legal",
+            "content": "Privacy Policy Terms of Service Cookie Policy"
+          }
+        ]
+      }
+    ],
+    "metadata": {
+      "title": "Adjective Superlatives (一番)"
+    },
+    "examples": [
+      {
+        "sentence": "About"
+      },
+      {
+        "sentence": "Pricing"
+      },
+      {
+        "sentence": "Blog"
+      },
+      {
+        "sentence": "Contact"
+      },
+      {
+        "sentence": "Privacy Policy"
+      },
+      {
+        "sentence": "Terms of Service"
+      },
+      {
+        "sentence": "Cookie Policy"
+      }
+    ]
+  },
+  "metadata": {
+    "extracted_at": "2026-01-01T22:19:27.982383100Z",
+    "duration_ms": 3,
+    "extractors_matched": [
+      "metadata",
+      "examples",
+      "sections"
+    ],
+    "extractors_failed": [
+      "vocab_tables",
+      "definitions",
+      "content_blocks"
+    ]
+  }
+}

@@ -1,0 +1,330 @@
+{
+  "config_name": "Language Learning Extractor",
+  "url": "https://practice-japanese.com/docs/counter-kai-times/",
+  "data": {
+    "sections": [
+      {
+        "level": 2,
+        "heading": "What is 回 (かい)?",
+        "content": "回 (kai) is the counter for times, occurrences, or frequency of actions. It answers \"how many times?\"\n\n日本に3回行きました \"I went to Japan 3 times\" 1日に何回食べますか？ \"How many times a day do you eat?\""
+      },
+      {
+        "level": 2,
+        "heading": "Complete 回 Counter Chart",
+        "content": "| Number | Reading | Romaji | | ------ | ----------------- | --------- | | 1 回 | いっかい | ikkai | | 2 回 | にかい | ni-kai | | 3 回 | さんかい | san-kai | | 4 回 | よんかい | yon-kai | | 5 回 | ごかい | go-kai | | 6 回 | ろっかい | rokkai | | 7 回 | ななかい | nana-kai | | 8 回 | はちかい/はっかい | hachi-kai | | 9 回 | きゅうかい | kyuu-kai | | 10 回 | じゅっかい | jukkai |",
+        "children": [
+          {
+            "level": 3,
+            "heading": "Larger Numbers",
+            "content": "11回 = じゅういっかい 20回 = にじゅっかい 50回 = ごじゅっかい 100回 = ひゃっかい 1,000回 = せんかい"
+          }
+        ]
+      },
+      {
+        "level": 2,
+        "heading": "Sound Changes",
+        "content": "Minimal sound changes:\n\n1 回 = いっかい (っ inserted) 6 回 = ろっかい (っ inserted) 8 回 = はちかい or はっかい 10 回 = じゅっかい\n\nMuch simpler than 本, 匹, or 杯!"
+      },
+      {
+        "level": 2,
+        "heading": "What to Count with 回",
+        "content": "",
+        "children": [
+          {
+            "level": 3,
+            "heading": "Actions/Activities",
+            "content": "行く - going 来る - coming 見る - watching/seeing 食べる - eating 飲む - drinking 会う - meeting 読む - reading 言う - saying\n\n映画を3回見ました \"I watched the movie 3 times\" 日本に5回行きました \"I've been to Japan 5 times\" もう一回言ってください \"Please say it one more time\""
+          },
+          {
+            "level": 3,
+            "heading": "Events/Occurrences",
+            "content": "試験 (しけん) - exams 会議 (かいぎ) - meetings 練習 (れんしゅう) - practice 授業 (じゅぎょう) - classes イベント - events\n\n会議が1日に3回あります \"There are 3 meetings a day\" 試験に2回失敗しました \"I failed the exam 2 times\""
+          },
+          {
+            "level": 3,
+            "heading": "Frequency Patterns",
+            "content": "1日に〜回 - times per day 1週間に〜回 - times per week 1ヶ月に〜回 - times per month 1年に〜回 - times per year\n\n1日に3回食べます \"I eat 3 times a day\" 週に2回ジムに行きます \"I go to the gym twice a week\" 月に1回映画を見ます \"I watch a movie once a month\" 年に4回旅行します \"I travel 4 times a year\""
+          }
+        ]
+      },
+      {
+        "level": 2,
+        "heading": "Asking \"How Many Times?\"",
+        "content": "",
+        "children": [
+          {
+            "level": 3,
+            "heading": "何回 (なんかい)",
+            "content": "何回行きましたか？ \"How many times did you go?\" 何回見ましたか？ \"How many times did you watch it?\" 1日に何回食べますか？ \"How many times a day do you eat?\" 何回練習しましたか？ \"How many times did you practice?\""
+          }
+        ]
+      },
+      {
+        "level": 2,
+        "heading": "Common Patterns",
+        "content": "",
+        "children": [
+          {
+            "level": 3,
+            "heading": "Action + 回 + Verb",
+            "content": "3回行きました \"I went 3 times\" 5回見ました \"I watched it 5 times\" 2回読みました \"I read it 2 times\""
+          },
+          {
+            "level": 3,
+            "heading": "Time Period + に + 回",
+            "content": "1日に3回 \"3 times a day\" 週に2回 \"Twice a week\" 月に1回 \"Once a month\" 年に何回も \"Many times a year\""
+          },
+          {
+            "level": 3,
+            "heading": "回 + の + Noun",
+            "content": "3回の練習 \"3 practice sessions\" 2回の試験 \"2 exams\" 5回の会議 \"5 meetings\""
+          }
+        ]
+      },
+      {
+        "level": 2,
+        "heading": "Common Conversations",
+        "content": "",
+        "children": [
+          {
+            "level": 3,
+            "heading": "Example 1: Travel",
+            "content": "A: 日本に何回行ったことがありますか？ \"How many times have you been to Japan?\" B: 3回行ったことがあります \"I've been 3 times\" A: いいですね！ \"That's great!\""
+          },
+          {
+            "level": 3,
+            "heading": "Example 2: Movies",
+            "content": "A: この映画、何回見ましたか？ \"How many times have you watched this movie?\" B: もう5回も見ました \"I've already watched it 5 times\" A: そんなに面白いんですか？ \"Is it that interesting?\" B: はい、とても面白いです \"Yes, it's very interesting\""
+          },
+          {
+            "level": 3,
+            "heading": "Example 3: Exercise",
+            "content": "A: 週に何回運動しますか？ \"How many times a week do you exercise?\" B: 週に3回ぐらいです \"About 3 times a week\" A: すごいですね \"That's impressive\""
+          },
+          {
+            "level": 3,
+            "heading": "Example 4: Studying",
+            "content": "A: この単語、何回練習しましたか？ \"How many times did you practice this word?\" B: 10回練習しました \"I practiced it 10 times\" A: それでも覚えられませんか？ \"Still can't remember it?\" B: はい、難しいです \"Yes, it's difficult\""
+          }
+        ]
+      },
+      {
+        "level": 2,
+        "heading": "Special Expressions",
+        "content": "",
+        "children": [
+          {
+            "level": 3,
+            "heading": "もう一回 (one more time)",
+            "content": "Very common expression:\n\nもう一回言ってください \"Please say it one more time\" もう一回見たい \"I want to see it one more time\" もう一回やってみます \"I'll try one more time\""
+          },
+          {
+            "level": 3,
+            "heading": "〜回目 (ordinal)",
+            "content": "1回目 (いっかいめ) - the first time 2回目 (にかいめ) - the second time 3回目 (さんかいめ) - the third time これは2回目です \"This is the second time\" 3回目で成功しました \"I succeeded on the third try\""
+          },
+          {
+            "level": 3,
+            "heading": "何回も (many times)",
+            "content": "何回も言いました \"I said it many times\" 何回も行ったことがあります \"I've been many times\" 何回も失敗しました \"I failed many times\""
+          },
+          {
+            "level": 3,
+            "heading": "〜回ずつ (each time)",
+            "content": "一回ずつやってください \"Please do it one time each\" 10回ずつ練習します \"Practice 10 times each\""
+          },
+          {
+            "level": 3,
+            "heading": "〜回しか (only)",
+            "content": "1回しか行ったことがない \"I've only been once\" 2回しか見ていません \"I've only seen it twice\""
+          },
+          {
+            "level": 3,
+            "heading": "〜回も (as many as)",
+            "content": "10回も見た \"I watched it as many as 10 times\" 5回も失敗した \"I failed as many as 5 times\""
+          }
+        ]
+      },
+      {
+        "level": 2,
+        "heading": "回 vs 度 (ど)",
+        "content": "Both mean \"times\" but have different uses:",
+        "children": [
+          {
+            "level": 3,
+            "heading": "回 (かい) - Counting occurrences",
+            "content": "1回、2回、3回... (いっかい、にかい、さんかい) Used for: counting specific instances 日本に3回行きました \"I went to Japan 3 times\""
+          },
+          {
+            "level": 3,
+            "heading": "度 (ど) - Also times, but different nuance",
+            "content": "一度 (いちど) - once 二度 (にど) - twice 三度 (さんど) - three times More literary, often in set phrases: 一度も〜ない - never (not even once) 何度も - many times もう一度 - one more time"
+          },
+          {
+            "level": 3,
+            "heading": "Usage Comparison",
+            "content": "Both OK: もう一回 = もう一度 (one more time) 何回も = 何度も (many times) 回 preferred: 1日に3回 ✓ 1日に3度 ⚠️ (less common) 度 preferred: 一度も行ったことがない ✓ \"I've never been\" (not even once)"
+          }
+        ]
+      },
+      {
+        "level": 2,
+        "heading": "Common Mistakes",
+        "content": "",
+        "children": [
+          {
+            "level": 3,
+            "heading": "Mistake 1: Confusing 回 with 階 (floors)",
+            "content": "Both read かい but different meanings:\n\n3回 = さんかい (3 times) ✓ 3階 = さんがい (3rd floor) ✓ Context makes it clear!"
+          },
+          {
+            "level": 3,
+            "heading": "Mistake 2: Using wrong particle",
+            "content": "Wrong: 週で2回 ❌ Right: 週に2回 ✓ \"Twice a week\""
+          },
+          {
+            "level": 3,
+            "heading": "Mistake 3: Forgetting the counter",
+            "content": "Wrong: 3行きました ❌ Right: 3回行きました ✓ \"I went 3 times\""
+          },
+          {
+            "level": 3,
+            "heading": "Mistake 4: Using 回 for duration",
+            "content": "Wrong: 2回時間がかかる ❌ Right: 2時間かかる ✓ \"It takes 2 hours\" 回 = times/occurrences 時間 = hours/time duration"
+          }
+        ]
+      },
+      {
+        "level": 2,
+        "heading": "Formal vs Casual",
+        "content": "",
+        "children": [
+          {
+            "level": 3,
+            "heading": "Casual",
+            "content": "何回行った？ \"How many times did you go?\" 3回見た \"I watched it 3 times\" もう一回！ \"One more time!\""
+          },
+          {
+            "level": 3,
+            "heading": "Polite",
+            "content": "何回行きましたか？ \"How many times did you go?\" 3回見ました \"I watched it 3 times\" もう一回お願いします \"One more time, please\""
+          },
+          {
+            "level": 3,
+            "heading": "Formal",
+            "content": "何回お越しになりましたか？ \"How many times have you come?\" (honorific) 会議は月に2回ございます \"There are 2 meetings per month\""
+          }
+        ]
+      },
+      {
+        "level": 2,
+        "heading": "Practice Sentences",
+        "content": "",
+        "children": [
+          {
+            "level": 3,
+            "heading": "Basic",
+            "content": "映画を2回見ました \"I watched the movie twice\" 日本に3回行きました \"I went to Japan 3 times\" もう一回言ってください \"Please say it one more time\""
+          },
+          {
+            "level": 3,
+            "heading": "Intermediate",
+            "content": "1日に何回歯を磨きますか？ \"How many times a day do you brush your teeth?\" 週に3回ジムに行きます \"I go to the gym 3 times a week\" この本を5回も読みました \"I've read this book as many as 5 times\""
+          },
+          {
+            "level": 3,
+            "heading": "Advanced",
+            "content": "彼女に何回も電話したが、出なかった \"I called her many times, but she didn't answer\" 一度も日本に行ったことがありません \"I've never been to Japan (not even once)\" 3回目の挑戦でやっと成功しました \"I finally succeeded on my third attempt\""
+          }
+        ]
+      },
+      {
+        "level": 2,
+        "heading": "Related Grammar Points",
+        "content": "Counter System Basics - How counters work Frequency expressions - How often Time expressions - When and how long 度 (do) - Alternative times counter 〜ことがある - Experience expression Time particles - に、で usage",
+        "children": [
+          {
+            "level": 3,
+            "heading": "Company",
+            "content": "About Pricing Blog Contact"
+          },
+          {
+            "level": 3,
+            "heading": "Legal",
+            "content": "Privacy Policy Terms of Service Cookie Policy"
+          }
+        ]
+      }
+    ],
+    "examples": [
+      {
+        "sentence": "1 回 = いっかい (っ inserted)"
+      },
+      {
+        "sentence": "6 回 = ろっかい (っ inserted)"
+      },
+      {
+        "sentence": "8 回 = はちかい or はっかい"
+      },
+      {
+        "sentence": "10 回 = じゅっかい"
+      },
+      {
+        "sentence": "Counter System Basics - How counters work"
+      },
+      {
+        "sentence": "Frequency expressions - How often"
+      },
+      {
+        "sentence": "Time expressions - When and how long"
+      },
+      {
+        "sentence": "度 (do) - Alternative times counter"
+      },
+      {
+        "sentence": "〜ことがある - Experience expression"
+      },
+      {
+        "sentence": "Time particles - に、で usage"
+      },
+      {
+        "sentence": "About"
+      },
+      {
+        "sentence": "Pricing"
+      },
+      {
+        "sentence": "Blog"
+      },
+      {
+        "sentence": "Contact"
+      },
+      {
+        "sentence": "Privacy Policy"
+      },
+      {
+        "sentence": "Terms of Service"
+      },
+      {
+        "sentence": "Cookie Policy"
+      }
+    ],
+    "metadata": {
+      "title": "Times (回)"
+    }
+  },
+  "metadata": {
+    "extracted_at": "2026-01-01T22:19:28.415247500Z",
+    "duration_ms": 3,
+    "extractors_matched": [
+      "metadata",
+      "examples",
+      "sections"
+    ],
+    "extractors_failed": [
+      "vocab_tables",
+      "definitions",
+      "content_blocks"
+    ]
+  }
+}

@@ -1,0 +1,365 @@
+{
+  "config_name": "Language Learning Extractor",
+  "url": "https://practice-japanese.com/docs/word-order/",
+  "data": {
+    "metadata": {
+      "title": "Japanese Word Order Rules"
+    },
+    "sections": [
+      {
+        "level": 2,
+        "heading": "The Golden Rule",
+        "content": "The verb must be last. Everything else is surprisingly flexible.\n\n私は昨日図書館で本を読んだ ✓ 昨日私は図書館で本を読んだ ✓ 図書館で私は昨日本を読んだ ✓\n\nAll three are grammatically correct. The verb 読んだ (read) stays at the end."
+      },
+      {
+        "level": 2,
+        "heading": "Standard Word Order",
+        "content": "While flexible, Japanese has a default order that sounds most natural:\n\n[Time] [Topic/Subject] [Indirect Object] [Location] [Direct Object] [Verb]",
+        "children": [
+          {
+            "level": 3,
+            "heading": "Example Breakdown",
+            "content": "昨日 私は 友達に 図書館で 本を 貸した Time Topic Recipient Location Object Verb \"Yesterday I lent a book to my friend at the library\""
+          }
+        ]
+      },
+      {
+        "level": 2,
+        "heading": "Time Expressions First",
+        "content": "Time words typically come at the start:\n\n✓ 今日私は学校に行く Today I go to school ✗ 私は今日学校に行く (less natural)\n\nCommon time words:\n\n今日 (kyou) - today 昨日 (kinou) - yesterday 明日 (ashita) - tomorrow 今 (ima) - now さっき (sakki) - just now"
+      },
+      {
+        "level": 2,
+        "heading": "Topic/Subject Early",
+        "content": "The topic (は) or subject (が) comes early, usually right after time:\n\n今日田中さんは来ません \"Today, Tanaka won't come\" 雨が降っている \"Rain is falling\""
+      },
+      {
+        "level": 2,
+        "heading": "Particles Define Roles, Not Position",
+        "content": "This is why word order can be flexible:\n\n私は彼に本をあげた 私は本を彼にあげた 本を私は彼にあげた\n\nAll mean \"I gave him a book\" because:\n\n私は = topic marker (I) 彼に = indirect object (to him) 本を = direct object (book) Particles clarify roles regardless of position"
+      },
+      {
+        "level": 2,
+        "heading": "Emphasis Through Position",
+        "content": "Put what you want to emphasize earlier in the sentence:",
+        "children": [
+          {
+            "level": 3,
+            "heading": "Normal (neutral)",
+            "content": "私は昨日寿司を食べた \"I ate sushi yesterday\""
+          },
+          {
+            "level": 3,
+            "heading": "Emphasize WHEN",
+            "content": "昨日、私は寿司を食べた \"YESTERDAY, I ate sushi\""
+          },
+          {
+            "level": 3,
+            "heading": "Emphasize WHAT",
+            "content": "寿司を、昨日食べた \"SUSHI is what I ate yesterday\""
+          }
+        ]
+      },
+      {
+        "level": 2,
+        "heading": "Modifiers Before Modified",
+        "content": "This rule is strict: Modifiers always come before what they modify",
+        "children": [
+          {
+            "level": 3,
+            "heading": "Adjectives Before Nouns",
+            "content": "✓ 大きい犬 big dog ✗ 犬大きい"
+          },
+          {
+            "level": 3,
+            "heading": "Relative Clauses Before Nouns",
+            "content": "✓ 昨日買った本 the book (I) bought yesterday ✗ 本昨日買った"
+          },
+          {
+            "level": 3,
+            "heading": "の Phrases",
+            "content": "✓ 私の本 my book ✗ 本の私"
+          }
+        ]
+      },
+      {
+        "level": 2,
+        "heading": "Numbers and Counters",
+        "content": "Numbers + counters come before the noun or after the object marker:\n\n✓ 三冊の本を読んだ ✓ 本を三冊読んだ \"I read three books\" ✗ 読んだ三冊の本"
+      },
+      {
+        "level": 2,
+        "heading": "Question Words",
+        "content": "Question words typically go where the answer would be:\n\n誰が来ますか？ \"Who is coming?\" (Someone is coming → Who is coming?) どこに行きますか？ \"Where are you going?\" (Going to somewhere → Going to where?) 何を食べますか？ \"What will you eat?\" (Eat something → Eat what?)"
+      },
+      {
+        "level": 2,
+        "heading": "Adverbs Position",
+        "content": "Adverbs are flexible but typically come before the verb:\n\n✓ 私はよく寿司を食べる \"I often eat sushi\" ✓ よく私は寿司を食べる \"Often, I eat sushi\" (emphasis)\n\nCommon adverbs:\n\nよく (yoku) - often ときどき (tokidoki) - sometimes 全然 (zenzen) - not at all (with negative) とても (totemo) - very"
+      },
+      {
+        "level": 2,
+        "heading": "Multiple Clauses",
+        "content": "In complex sentences, each clause maintains its own word order:\n\n私は朝ごはんを食べて、学校に行った \"I ate breakfast and went to school\" Clause 1: 朝ごはんを食べて (ate breakfast) Clause 2: 学校に行った (went to school)\n\nConjunctions come between clauses, but verbs stay at the end of each."
+      },
+      {
+        "level": 2,
+        "heading": "Common Patterns",
+        "content": "",
+        "children": [
+          {
+            "level": 3,
+            "heading": "Pattern 1: Simple Statement",
+            "content": "[Topic] は [Complement] です 私は学生です \"I am a student\""
+          },
+          {
+            "level": 3,
+            "heading": "Pattern 2: Existence",
+            "content": "[Location] に [Thing] が ある/いる 部屋に猫がいる \"There's a cat in the room\""
+          },
+          {
+            "level": 3,
+            "heading": "Pattern 3: Action",
+            "content": "[Topic] は [Object] を [Verb] 私は水を飲む \"I drink water\""
+          },
+          {
+            "level": 3,
+            "heading": "Pattern 4: Movement",
+            "content": "[Topic] は [Destination] に/へ [Verb] 東京に行く \"Go to Tokyo\""
+          }
+        ]
+      },
+      {
+        "level": 2,
+        "heading": "What You CANNOT Change",
+        "content": "",
+        "children": [
+          {
+            "level": 3,
+            "heading": "1. Verb Must Be Last",
+            "content": "✓ 私は本を読む ✗ 私は読む本を ✗ 読む私は本を"
+          },
+          {
+            "level": 3,
+            "heading": "2. Modifier Before Modified",
+            "content": "✓ 赤い車 ✗ 車赤い ✓ 私が買った本 ✗ 本私が買った"
+          },
+          {
+            "level": 3,
+            "heading": "3. Particles Stay With Their Word",
+            "content": "✓ 私は本を読む ✗ 私本はを読む (particles misplaced)"
+          }
+        ]
+      },
+      {
+        "level": 2,
+        "heading": "Contractions and Casual Speech",
+        "content": "In casual conversation, particles and words can be dropped, but the core order remains:\n\nFormal: 私は今日学校に行きました Casual: 今日学校行った (私は and に dropped, but order same)"
+      },
+      {
+        "level": 2,
+        "heading": "Comparison: Flexible vs Fixed",
+        "content": "",
+        "children": [
+          {
+            "level": 3,
+            "heading": "Japanese (Flexible)",
+            "content": "私は 昨日 寿司を 食べた ✓ 昨日 私は 寿司を 食べた ✓ 寿司を 昨日 食べた ✓ (私は understood)"
+          },
+          {
+            "level": 3,
+            "heading": "English (Fixed)",
+            "content": "I ate sushi yesterday ✓ Yesterday I ate sushi ✓ Sushi yesterday ate I ✗"
+          }
+        ]
+      },
+      {
+        "level": 2,
+        "heading": "Priority Order (Most Natural)",
+        "content": "When in doubt, use this order:\n\nTime - 今日、昨日 Topic - 私は、田中さんは Indirect Object - 友達に、先生に Location - 図書館で、家で Direct Object - 本を、寿司を Manner/Degree - ゆっくり、たくさん Verb - 食べる、行く",
+        "children": [
+          {
+            "level": 3,
+            "heading": "Example Using All Elements",
+            "content": "昨日 私は 友達に 図書館で 本を ゆっくり 読んだ Time Topic Recipient Location Object Manner Verb \"Yesterday I slowly read a book to my friend at the library\""
+          }
+        ]
+      },
+      {
+        "level": 2,
+        "heading": "Common Mistakes",
+        "content": "",
+        "children": [
+          {
+            "level": 3,
+            "heading": "Mistake 1: Verb Not Last",
+            "content": "Wrong: 私は食べる寿司を ❌ Right: 私は寿司を食べる ✓"
+          },
+          {
+            "level": 3,
+            "heading": "Mistake 2: Modifier After Noun",
+            "content": "Wrong: 本新しい ❌ Right: 新しい本 ✓"
+          },
+          {
+            "level": 3,
+            "heading": "Mistake 3: Particle in Wrong Place",
+            "content": "Wrong: を私本は読む ❌ Right: 私は本を読む ✓"
+          },
+          {
+            "level": 3,
+            "heading": "Mistake 4: Copying English Order Exactly",
+            "content": "Wrong: 私は好き寿司を ❌ (Direct translation of \"I like sushi\") Right: 私は寿司が好き ✓"
+          }
+        ]
+      },
+      {
+        "level": 2,
+        "heading": "Tips for Natural Order",
+        "content": "Start with time if relevant Establish topic/subject early Build up details (location, manner) Object comes just before verb Verb always last"
+      },
+      {
+        "level": 2,
+        "heading": "Practice Framework",
+        "content": "Build sentences step by step:\n\nStep 1: 読む (read) - choose verb Step 2: 本を読む (read a book) - add object Step 3: 図書館で本を読む (read at library) - add location Step 4: 私は図書館で本を読む (I read at library) - add topic Step 5: 昨日私は図書館で本を読んだ (Yesterday I read at library) - add time"
+      },
+      {
+        "level": 2,
+        "heading": "Key Takeaways",
+        "content": "✓ Verb must be last (only strict rule) ✓ Particles enable word order flexibility ✓ Modifiers before modified (strict) ✓ Time typically comes first ✓ Emphasis through position ✓ Standard order sounds most natural\n\nUnderstanding these rules lets you construct clear sentences and recognize emphasis in native speech.\n\nNext: Topic vs Subject\n\nRelated:\n\nSentence Structure (SOV) Particles Overview は (wa) vs が (ga)",
+        "children": [
+          {
+            "level": 3,
+            "heading": "Company",
+            "content": "About Pricing Blog Contact"
+          },
+          {
+            "level": 3,
+            "heading": "Legal",
+            "content": "Privacy Policy Terms of Service Cookie Policy"
+          }
+        ]
+      }
+    ],
+    "examples": [
+      {
+        "sentence": "Time - 今日、昨日"
+      },
+      {
+        "sentence": "Topic - 私は、田中さんは"
+      },
+      {
+        "sentence": "Indirect Object - 友達に、先生に"
+      },
+      {
+        "sentence": "Location - 図書館で、家で"
+      },
+      {
+        "sentence": "Direct Object - 本を、寿司を"
+      },
+      {
+        "sentence": "Manner/Degree - ゆっくり、たくさん"
+      },
+      {
+        "sentence": "Verb - 食べる、行く"
+      },
+      {
+        "sentence": "Start with time if relevant"
+      },
+      {
+        "sentence": "Establish topic/subject early"
+      },
+      {
+        "sentence": "Build up details (location, manner)"
+      },
+      {
+        "sentence": "Object comes just before verb"
+      },
+      {
+        "sentence": "Verb always last"
+      },
+      {
+        "sentence": "今日 (kyou) - today"
+      },
+      {
+        "sentence": "昨日 (kinou) - yesterday"
+      },
+      {
+        "sentence": "明日 (ashita) - tomorrow"
+      },
+      {
+        "sentence": "今 (ima) - now"
+      },
+      {
+        "sentence": "さっき (sakki) - just now"
+      },
+      {
+        "sentence": "私は = topic marker (I)"
+      },
+      {
+        "sentence": "彼に = indirect object (to him)"
+      },
+      {
+        "sentence": "本を = direct object (book)"
+      },
+      {
+        "sentence": "Particles clarify roles regardless of position"
+      },
+      {
+        "sentence": "よく (yoku) - often"
+      },
+      {
+        "sentence": "ときどき (tokidoki) - sometimes"
+      },
+      {
+        "sentence": "全然 (zenzen) - not at all (with negative)"
+      },
+      {
+        "sentence": "とても (totemo) - very"
+      },
+      {
+        "sentence": "Sentence Structure (SOV)"
+      },
+      {
+        "sentence": "Particles Overview"
+      },
+      {
+        "sentence": "は (wa) vs が (ga)"
+      },
+      {
+        "sentence": "About"
+      },
+      {
+        "sentence": "Pricing"
+      },
+      {
+        "sentence": "Blog"
+      },
+      {
+        "sentence": "Contact"
+      },
+      {
+        "sentence": "Privacy Policy"
+      },
+      {
+        "sentence": "Terms of Service"
+      },
+      {
+        "sentence": "Cookie Policy"
+      }
+    ]
+  },
+  "metadata": {
+    "extracted_at": "2026-01-01T22:19:37.795485900Z",
+    "duration_ms": 4,
+    "extractors_matched": [
+      "metadata",
+      "examples",
+      "sections"
+    ],
+    "extractors_failed": [
+      "vocab_tables",
+      "definitions",
+      "content_blocks"
+    ]
+  }
+}

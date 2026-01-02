@@ -1,0 +1,131 @@
+{
+  "config_name": "Language Learning Extractor",
+  "url": "https://practice-japanese.com/docs/particle-ya/",
+  "data": {
+    "metadata": {
+      "title": "や (ya) - And (Partial List)"
+    },
+    "examples": [
+      {
+        "sentence": "と (to) - And/With"
+      },
+      {
+        "sentence": "など (nado) - And so on"
+      },
+      {
+        "sentence": "か (ka) - Or"
+      },
+      {
+        "sentence": "About"
+      },
+      {
+        "sentence": "Pricing"
+      },
+      {
+        "sentence": "Blog"
+      },
+      {
+        "sentence": "Contact"
+      },
+      {
+        "sentence": "Privacy Policy"
+      },
+      {
+        "sentence": "Terms of Service"
+      },
+      {
+        "sentence": "Cookie Policy"
+      }
+    ],
+    "sections": [
+      {
+        "level": 2,
+        "heading": "Core Function",
+        "content": "や lists examples from a larger group - \"and\" for incomplete lists ."
+      },
+      {
+        "level": 2,
+        "heading": "Main Use: Partial Listing",
+        "content": "りんごやバナナ \"apples, bananas, (and other things)\" 犬や猫 \"dogs, cats, (etc.)\"\n\nKey: Implies there are other items not mentioned."
+      },
+      {
+        "level": 2,
+        "heading": "や vs と",
+        "content": "Critical difference:\n\nと = complete list (all items) りんごとバナナ - \"apples and bananas\" (only these two) や = partial list (examples) りんごやバナナ - \"apples, bananas, etc.\" (and other fruits)"
+      },
+      {
+        "level": 2,
+        "heading": "Common Pattern: A や B など",
+        "content": "Often combined with など (etc.):\n\n犬や猫など \"dogs, cats, and so on\" 本やペンなど \"books, pens, etc.\""
+      },
+      {
+        "level": 2,
+        "heading": "Multiple Items",
+        "content": "Can list multiple examples:\n\nりんごやバナナやオレンジ \"apples, bananas, oranges, etc.\""
+      },
+      {
+        "level": 2,
+        "heading": "Cannot Use や For",
+        "content": "",
+        "children": [
+          {
+            "level": 3,
+            "heading": "Two people doing together (use と)",
+            "content": "✗ 友達や遊ぶ ✓ 友達と遊ぶ \"play with friends\""
+          },
+          {
+            "level": 3,
+            "heading": "Quotations (use と)",
+            "content": "✗ 「はい」や言った ✓ 「はい」と言った \"said 'yes'\""
+          },
+          {
+            "level": 3,
+            "heading": "Natural consequences (use と)",
+            "content": "✗ 春になるや暖かくなる ✓ 春になると暖かくなる \"when spring comes, it gets warm\""
+          }
+        ]
+      },
+      {
+        "level": 2,
+        "heading": "Comparison Chart",
+        "content": "| Particle | Type | Example | Meaning | | -------- | -------- | ------- | ---------------------- | | と | Complete | 犬と猫 | \"dogs and cats\" (only) | | や | Partial | 犬や猫 | \"dogs, cats, etc.\" | | か | Choice | 犬か猫 | \"dogs or cats\" |"
+      },
+      {
+        "level": 2,
+        "heading": "Usage Examples",
+        "content": "店で果物や野菜を買った \"bought fruits, vegetables, etc. at the store\" 英語や日本語やスペイン語を勉強する \"study English, Japanese, Spanish, etc.\" 本や雑誌やノート \"books, magazines, notebooks, etc.\""
+      },
+      {
+        "level": 2,
+        "heading": "Key Takeaways",
+        "content": "✓ Partial/incomplete list ✓ Implies other items exist ✓ Often with など ✓ Different from と (complete list) ✓ Cannot use for accompaniment/quotation\n\nRelated:\n\nと (to) - And/With など (nado) - And so on か (ka) - Or",
+        "children": [
+          {
+            "level": 3,
+            "heading": "Company",
+            "content": "About Pricing Blog Contact"
+          },
+          {
+            "level": 3,
+            "heading": "Legal",
+            "content": "Privacy Policy Terms of Service Cookie Policy"
+          }
+        ]
+      }
+    ]
+  },
+  "metadata": {
+    "extracted_at": "2026-01-01T22:19:33.336378Z",
+    "duration_ms": 5,
+    "extractors_matched": [
+      "metadata",
+      "examples",
+      "sections"
+    ],
+    "extractors_failed": [
+      "vocab_tables",
+      "definitions",
+      "content_blocks"
+    ]
+  }
+}

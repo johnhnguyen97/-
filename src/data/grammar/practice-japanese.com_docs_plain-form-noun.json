@@ -1,0 +1,352 @@
+{
+  "config_name": "Language Learning Extractor",
+  "url": "https://practice-japanese.com/docs/plain-form-noun/",
+  "data": {
+    "metadata": {
+      "title": "Plain Form + Noun"
+    },
+    "examples": [
+      {
+        "sentence": "About"
+      },
+      {
+        "sentence": "Pricing"
+      },
+      {
+        "sentence": "Blog"
+      },
+      {
+        "sentence": "Contact"
+      },
+      {
+        "sentence": "Privacy Policy"
+      },
+      {
+        "sentence": "Terms of Service"
+      },
+      {
+        "sentence": "Cookie Policy"
+      }
+    ],
+    "sections": [
+      {
+        "level": 2,
+        "heading": "What is Plain Form + Noun?",
+        "content": "Plain form + noun is the basic pattern for modifying nouns in Japanese. Verbs and adjectives must be in their plain (dictionary) form when directly modifying a noun - never the polite ます/です forms. This is the foundation of noun modification in Japanese.\n\n食べる人 \"A person who eats\" 赤い車 \"A red car\" 昨日買った本 \"The book (I) bought yesterday\""
+      },
+      {
+        "level": 2,
+        "heading": "Basic Structure",
+        "content": "",
+        "children": [
+          {
+            "level": 3,
+            "heading": "[Plain form] + Noun",
+            "content": "読む + 本 → 読む本 \"A book to read\" 高い + 車 → 高い車 \"An expensive car\" Direct modification No particles between"
+          }
+        ]
+      },
+      {
+        "level": 2,
+        "heading": "Verb Forms",
+        "content": "",
+        "children": [
+          {
+            "level": 3,
+            "heading": "Dictionary form (present/future)",
+            "content": "食べる人 \"A person who eats / will eat\" 行く場所 \"A place to go\" Present or future action"
+          },
+          {
+            "level": 3,
+            "heading": "た-form (past)",
+            "content": "食べた人 \"A person who ate\" 行った場所 \"A place (I) went\" Past action"
+          },
+          {
+            "level": 3,
+            "heading": "ない-form (negative)",
+            "content": "食べない人 \"A person who doesn't eat\" 行かない場所 \"A place (I) don't go\" Negative action"
+          },
+          {
+            "level": 3,
+            "heading": "ている-form (continuous/state)",
+            "content": "走っている人 \"A person who is running\" 開いている店 \"A store that is open\" Ongoing state or action"
+          }
+        ]
+      },
+      {
+        "level": 2,
+        "heading": "Adjective Forms",
+        "content": "",
+        "children": [
+          {
+            "level": 3,
+            "heading": "い-adjectives (plain form)",
+            "content": "高い山 \"A tall mountain\" 新しい本 \"A new book\" 白い犬 \"A white dog\" Direct modification"
+          },
+          {
+            "level": 3,
+            "heading": "な-adjectives (with な)",
+            "content": "静かな場所 \"A quiet place\" 便利な道具 \"A convenient tool\" きれいな花 \"A pretty flower\" な connects to noun"
+          }
+        ]
+      },
+      {
+        "level": 2,
+        "heading": "Position",
+        "content": "",
+        "children": [
+          {
+            "level": 3,
+            "heading": "Modifier before noun",
+            "content": "[私が読んだ] 本 \"[The book I read]\" [昨日買った] 服 \"[The clothes (I) bought yesterday]\" Clause comes first Noun comes last"
+          }
+        ]
+      },
+      {
+        "level": 2,
+        "heading": "Polite vs Plain",
+        "content": "",
+        "children": [
+          {
+            "level": 3,
+            "heading": "ALWAYS use plain in modification",
+            "content": "Wrong: 読みます本 ⚠️ Correct: 読む本 ✓ \"A book to read\" Never use polite form Even in polite sentences"
+          },
+          {
+            "level": 3,
+            "heading": "Main sentence can be polite",
+            "content": "これは私が読んだ本です \"This is the book I read\" (polite) Modifier: plain (読んだ) Final verb: polite (です)"
+          }
+        ]
+      },
+      {
+        "level": 2,
+        "heading": "Particle Usage in Clauses",
+        "content": "",
+        "children": [
+          {
+            "level": 3,
+            "heading": "Particles stay in modifier",
+            "content": "私が読んだ本 \"The book that I read\" が marks subject"
+          },
+          {
+            "level": 3,
+            "heading": "を for objects",
+            "content": "私が買った物 \"The thing I bought\" を can be omitted"
+          },
+          {
+            "level": 3,
+            "heading": "で/に for location",
+            "content": "東京にある店 \"A store in Tokyo\" 私が住んでいる家 \"The house where I live\" Location marked"
+          }
+        ]
+      },
+      {
+        "level": 2,
+        "heading": "Tense in Modification",
+        "content": "",
+        "children": [
+          {
+            "level": 3,
+            "heading": "Present tense modifier",
+            "content": "食べる人 \"A person who eats\" Habitual or future"
+          },
+          {
+            "level": 3,
+            "heading": "Past tense modifier",
+            "content": "食べた人 \"A person who ate\" Completed action"
+          }
+        ]
+      },
+      {
+        "level": 2,
+        "heading": "Multiple Modifiers",
+        "content": "",
+        "children": [
+          {
+            "level": 3,
+            "heading": "Stacking modifiers",
+            "content": "昨日私が買った新しい本 \"The new book I bought yesterday\" Multiple clauses possible All in plain form"
+          },
+          {
+            "level": 3,
+            "heading": "Order of modifiers",
+            "content": "[Relative clause] + [Adjective] + Noun 彼が作った美味しい料理 \"The delicious food he made\" Clauses before simple adjectives"
+          }
+        ]
+      },
+      {
+        "level": 2,
+        "heading": "Common Patterns",
+        "content": "",
+        "children": [
+          {
+            "level": 3,
+            "heading": "Person descriptions",
+            "content": "日本語を話す人 \"A person who speaks Japanese\" メガネをかけている人 \"A person wearing glasses\" Identifying people"
+          },
+          {
+            "level": 3,
+            "heading": "Place descriptions",
+            "content": "静かな場所 \"A quiet place\" 人が多い店 \"A store with many people\" Location qualities"
+          },
+          {
+            "level": 3,
+            "heading": "Object descriptions",
+            "content": "私が好きな音楽 \"Music that I like\" 高くて美味しい料理 \"Food that's expensive and delicious\" Thing characteristics"
+          }
+        ]
+      },
+      {
+        "level": 2,
+        "heading": "Time Expressions",
+        "content": "",
+        "children": [
+          {
+            "level": 3,
+            "heading": "Time-related nouns",
+            "content": "彼が来た時 \"The time when he came\" 雨が降る日 \"A day when it rains\" Temporal modification"
+          }
+        ]
+      },
+      {
+        "level": 2,
+        "heading": "Subject Markers",
+        "content": "",
+        "children": [
+          {
+            "level": 3,
+            "heading": "が in relative clauses",
+            "content": "彼が書いた本 \"The book that he wrote\" 私が住んでいる町 \"The town where I live\" が preferred over は"
+          }
+        ]
+      },
+      {
+        "level": 2,
+        "heading": "Omitting Information",
+        "content": "",
+        "children": [
+          {
+            "level": 3,
+            "heading": "Context-based omission",
+            "content": "Full: 私が食べたりんご \"The apple I ate\" Short: 食べたりんご \"The eaten apple\" Subject often dropped"
+          }
+        ]
+      },
+      {
+        "level": 2,
+        "heading": "Common Contexts",
+        "content": "",
+        "children": [
+          {
+            "level": 3,
+            "heading": "Shopping and choosing",
+            "content": "これは昨日買った服です \"These are the clothes I bought yesterday\" 欲しい物がある \"There's something I want\" Describing items"
+          },
+          {
+            "level": 3,
+            "heading": "Introducing people",
+            "content": "これは私が作った料理です \"This is food I made\" あの走っている人は友達です \"That person running is my friend\" Identification"
+          },
+          {
+            "level": 3,
+            "heading": "Making recommendations",
+            "content": "私がよく行くレストラン \"A restaurant I often go to\" 友達が教えてくれた場所 \"A place my friend told me about\" Suggestions"
+          }
+        ]
+      },
+      {
+        "level": 2,
+        "heading": "Common Mistakes",
+        "content": "",
+        "children": [
+          {
+            "level": 3,
+            "heading": "Using polite forms",
+            "content": "Wrong: 読みました本 ⚠️ Wrong: 高いです車 ⚠️ Correct: 読んだ本 ✓ Correct: 高い車 ✓ Must use plain"
+          },
+          {
+            "level": 3,
+            "heading": "Forgetting な with な-adjectives",
+            "content": "Wrong: 静か場所 ⚠️ Correct: 静かな場所 ✓ \"A quiet place\" な required"
+          },
+          {
+            "level": 3,
+            "heading": "Using は in relative clauses",
+            "content": "Wrong: 私は読んだ本 ⚠️ Correct: 私が読んだ本 ✓ \"The book I read\" Use が, not は"
+          },
+          {
+            "level": 3,
+            "heading": "Adding の unnecessarily",
+            "content": "Wrong: 赤いの車 ⚠️ Correct: 赤い車 ✓ \"A red car\" Direct modification No の needed"
+          }
+        ]
+      },
+      {
+        "level": 2,
+        "heading": "Negative Modifiers",
+        "content": "",
+        "children": [
+          {
+            "level": 3,
+            "heading": "ない-form before nouns",
+            "content": "食べない人 \"A person who doesn't eat\" 好きじゃない食べ物 \"Food I don't like\" Negative descriptions"
+          }
+        ]
+      },
+      {
+        "level": 2,
+        "heading": "Complex Modifications",
+        "content": "",
+        "children": [
+          {
+            "level": 3,
+            "heading": "Long modifier clauses",
+            "content": "私が昨日図書館で借りた本 \"The book I borrowed at the library yesterday\" Full clauses possible All plain form"
+          }
+        ]
+      },
+      {
+        "level": 2,
+        "heading": "Practice Sentences",
+        "content": "",
+        "children": [
+          {
+            "level": 3,
+            "heading": "Basic",
+            "content": "読む本 \"A book to read\" 高い車 \"An expensive car\" 静かな場所 \"A quiet place\" 食べた人 \"A person who ate\" 走っている人 \"A person who is running\""
+          },
+          {
+            "level": 3,
+            "heading": "Intermediate",
+            "content": "私が昨日買った新しい服はとても高かった \"The new clothes I bought yesterday were very expensive\" 彼が住んでいるアパートは駅から遠い \"The apartment where he lives is far from the station\" 母が作ってくれた料理を食べた \"I ate the food my mother made for me\" 日本語を勉強している友達がたくさんいます \"I have many friends who are studying Japanese\" 東京にある大きい店で買い物をした \"I shopped at a big store in Tokyo\""
+          },
+          {
+            "level": 3,
+            "heading": "Company",
+            "content": "About Pricing Blog Contact"
+          },
+          {
+            "level": 3,
+            "heading": "Legal",
+            "content": "Privacy Policy Terms of Service Cookie Policy"
+          }
+        ]
+      }
+    ]
+  },
+  "metadata": {
+    "extracted_at": "2026-01-01T22:19:33.770268800Z",
+    "duration_ms": 3,
+    "extractors_matched": [
+      "metadata",
+      "examples",
+      "sections"
+    ],
+    "extractors_failed": [
+      "vocab_tables",
+      "definitions",
+      "content_blocks"
+    ]
+  }
+}

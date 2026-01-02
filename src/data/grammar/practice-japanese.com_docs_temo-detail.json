@@ -1,0 +1,290 @@
+{
+  "config_name": "Language Learning Extractor",
+  "url": "https://practice-japanese.com/docs/temo-detail/",
+  "data": {
+    "metadata": {
+      "title": "〜ても (Even if)"
+    },
+    "examples": [
+      {
+        "sentence": "ても expresses \"even if\" or concession"
+      },
+      {
+        "sentence": "Formation: [て-form / くて / でも] + も"
+      },
+      {
+        "sentence": "Hypothetical or actual concession"
+      },
+      {
+        "sentence": "てもいい = permission \"may/can\""
+      },
+      {
+        "sentence": "Question words + ても = \"no matter\""
+      },
+      {
+        "sentence": "Different from のに (actual fact with disappointment)"
+      },
+      {
+        "sentence": "Common with どんなに, いくら, たとえ"
+      },
+      {
+        "sentence": "Essential for expressing regardless/concession"
+      },
+      {
+        "sentence": "About"
+      },
+      {
+        "sentence": "Pricing"
+      },
+      {
+        "sentence": "Blog"
+      },
+      {
+        "sentence": "Contact"
+      },
+      {
+        "sentence": "Privacy Policy"
+      },
+      {
+        "sentence": "Terms of Service"
+      },
+      {
+        "sentence": "Cookie Policy"
+      }
+    ],
+    "sections": [
+      {
+        "level": 2,
+        "heading": "What is 〜ても?",
+        "content": "〜ても (temo) expresses \"even if\" or \"even though,\" indicating that the result remains the same regardless of the condition. It shows hypothetical or actual concession.\n\nEnglish equivalent: \"even if,\" \"even though,\" \"no matter\"\n\nStructure: [Verb て-form / い-adj くて / な-adj でも / Noun でも] + も\n\n行く (iku - go) → 行って + も = 行っても \"even if I go\" 高い (takai - expensive) → 高くて + も = 高くても \"even if it's expensive\" 便利 (benri - convenient) → 便利で + も = 便利でも \"even if it's convenient\""
+      },
+      {
+        "level": 2,
+        "heading": "Basic Formation",
+        "content": "",
+        "children": [
+          {
+            "level": 3,
+            "heading": "With verbs (て-form + も)",
+            "content": "[Verb て-form] + も\n\n行っても (itte mo) - \"even if I go\" 食べても (tabete mo) - \"even if I eat\" 勉強しても (benkyou shite mo) - \"even if I study\" 見ても (mite mo) - \"even if I see\""
+          },
+          {
+            "level": 3,
+            "heading": "With い-adjectives (くても)",
+            "content": "[い-adjective stem] + くても\n\n高くても (takakute mo) - \"even if it's expensive\" 寒くても (samukute mo) - \"even if it's cold\" 難しくても (muzukashikute mo) - \"even if it's difficult\" 遠くても (tookute mo) - \"even if it's far\""
+          },
+          {
+            "level": 3,
+            "heading": "With な-adjectives (でも)",
+            "content": "[な-adjective] + でも\n\n便利でも (benri demo) - \"even if it's convenient\" 簡単でも (kantan demo) - \"even if it's simple\" 静かでも (shizuka demo) - \"even if it's quiet\" 有名でも (yuumei demo) - \"even if it's famous\""
+          },
+          {
+            "level": 3,
+            "heading": "With nouns (でも)",
+            "content": "[Noun] + でも\n\n雨でも (ame demo) - \"even if it rains\" 学生でも (gakusei demo) - \"even if [you're] a student\" 明日でも (ashita demo) - \"even if it's tomorrow\""
+          }
+        ]
+      },
+      {
+        "level": 2,
+        "heading": "Hypothetical Conditions",
+        "content": "",
+        "children": [
+          {
+            "level": 3,
+            "heading": "Even if something happens",
+            "content": "雨が降っても行く。 Ame ga futte mo iku. \"Even if it rains, I'll go.\" 高くても買う。 Takakute mo kau. \"Even if it's expensive, I'll buy it.\" 難しくても頑張る。 Muzukashikute mo ganbaru. \"Even if it's difficult, I'll try hard.\" 忙しくても手伝う。 Isogashikute mo tetsudau. \"Even if I'm busy, I'll help.\""
+          }
+        ]
+      },
+      {
+        "level": 2,
+        "heading": "Regardless of Outcome",
+        "content": "",
+        "children": [
+          {
+            "level": 3,
+            "heading": "Result doesn't change",
+            "content": "何回聞いても分からない。 Nankai kiite mo wakaranai. \"No matter how many times I listen, I don't understand.\" どんなに頑張っても無理だ。 Donna ni ganbatte mo muri da. \"No matter how hard I try, it's impossible.\" いくら勉強しても覚えられない。 Ikura benkyou shite mo oboerarenai. \"No matter how much I study, I can't memorize it.\""
+          }
+        ]
+      },
+      {
+        "level": 2,
+        "heading": "Permission with てもいい",
+        "content": "",
+        "children": [
+          {
+            "level": 3,
+            "heading": "Giving permission",
+            "content": "[Verb て-form] + もいい = \"may,\" \"it's okay to\"\n\n食べてもいい。 Tabete mo ii. \"You may eat.\" ここに座ってもいいですか。 Koko ni suwatte mo ii desu ka. \"May I sit here?\" 使ってもいいよ。 Tsukatte mo ii yo. \"You can use it.\" 写真を撮ってもいいですか。 Shashin wo totte mo ii desu ka. \"May I take a photo?\""
+          }
+        ]
+      },
+      {
+        "level": 2,
+        "heading": "Actual Concession",
+        "content": "",
+        "children": [
+          {
+            "level": 3,
+            "heading": "Despite actual fact",
+            "content": "たくさん食べても太らない。 Takusan tabete mo futoranai. \"Even though I eat a lot, I don't gain weight.\" 勉強しても成績が上がらない。 Benkyou shite mo seiseki ga agaranai. \"Even though I study, my grades don't improve.\" 何度言っても聞かない。 Nando itte mo kikanai. \"No matter how many times I say it, he won't listen.\""
+          }
+        ]
+      },
+      {
+        "level": 2,
+        "heading": "Question Words + ても",
+        "content": "",
+        "children": [
+          {
+            "level": 3,
+            "heading": "No matter who/what/when/where",
+            "content": "誰でも (dare demo) - \"anyone\" / \"no matter who\" 何でも (nan demo) - \"anything\" / \"no matter what\" いつでも (itsu demo) - \"anytime\" / \"no matter when\" どこでも (doko demo) - \"anywhere\" / \"no matter where\" どんなに〜ても (donna ni ~ temo) - \"no matter how\" 誰が来ても構わない。 Dare ga kite mo kamawanai. \"It doesn't matter who comes.\" 何を食べても美味しい。 Nani wo tabete mo oishii. \"Whatever I eat is delicious.\" いつ行っても混んでいる。 Itsu itte mo konde iru. \"No matter when I go, it's crowded.\" どこに行っても同じだ。 Doko ni itte mo onaji da. \"It's the same no matter where I go.\""
+          }
+        ]
+      },
+      {
+        "level": 2,
+        "heading": "With Negative Forms",
+        "content": "",
+        "children": [
+          {
+            "level": 3,
+            "heading": "Even if not",
+            "content": "高くなくても買わない。 Takaku nakute mo kawanai. \"Even if it's not expensive, I won't buy it.\" 雨が降らなくても行かない。 Ame ga furanakute mo ikanai. \"Even if it doesn't rain, I won't go.\" 簡単じゃなくてもやる。 Kantan ja nakute mo yaru. \"Even if it's not simple, I'll do it.\""
+          }
+        ]
+      },
+      {
+        "level": 2,
+        "heading": "Polite Forms",
+        "content": "雨が降っても行きます。 Ame ga futte mo ikimasu. \"Even if it rains, I'll go.\" 高くても買ってもいいですか。 Takakute mo katte mo ii desu ka. \"May I buy it even if it's expensive?\" 難しくても頑張ります。 Muzukashikute mo ganbarimasu. \"Even if it's difficult, I'll try hard.\""
+      },
+      {
+        "level": 2,
+        "heading": "Common Expressions",
+        "content": "雨が降っても (ame ga futte mo) - \"even if it rains\" 高くても (takakute mo) - \"even if it's expensive\" 難しくても (muzukashikute mo) - \"even if it's difficult\" 〜てもいい (~te mo ii) - \"may/can\" 誰でも (dare demo) - \"anyone\" 何でも (nan demo) - \"anything\" いつでも (itsu demo) - \"anytime\" どこでも (doko demo) - \"anywhere\" いくら〜ても (ikura ~ temo) - \"no matter how much\""
+      },
+      {
+        "level": 2,
+        "heading": "Comparing ても and のに",
+        "content": "",
+        "children": [
+          {
+            "level": 3,
+            "heading": "Hypothetical vs actual disappointment",
+            "content": "ても - Hypothetical (even if):\n\n雨が降っても行く。 Ame ga futte mo iku. \"Even if it rains, I'll go.\" (might not rain)\n\nのに - Actual fact with disappointment:\n\n雨が降ったのに行った。 Ame ga futta noni itta. \"Even though it rained, I went.\" (it actually rained, unexpected)\n\n| Pattern | Meaning | Emotion | | ------- | ------------ | -------------- | | ても | Hypothetical | Neutral | | のに | Actual fact | Disappointment |\n\nSee: 〜のに (Even though)"
+          }
+        ]
+      },
+      {
+        "level": 2,
+        "heading": "どんなに〜ても",
+        "content": "",
+        "children": [
+          {
+            "level": 3,
+            "heading": "No matter how",
+            "content": "どんなに + [adjective/verb] + ても = \"no matter how ~\"\n\nどんなに高くても買う。 Donna ni takakute mo kau. \"No matter how expensive, I'll buy it.\" どんなに頑張っても無理だ。 Donna ni ganbatte mo muri da. \"No matter how hard I try, it's impossible.\" どんなに遠くても行く。 Donna ni tookute mo iku. \"No matter how far, I'll go.\""
+          }
+        ]
+      },
+      {
+        "level": 2,
+        "heading": "いくら〜ても",
+        "content": "",
+        "children": [
+          {
+            "level": 3,
+            "heading": "No matter how much",
+            "content": "いくら + [verb/adjective] + ても = \"no matter how much ~\"\n\nいくら食べても太らない。 Ikura tabete mo futoranai. \"No matter how much I eat, I don't gain weight.\" いくら勉強しても分からない。 Ikura benkyou shite mo wakaranai. \"No matter how much I study, I don't understand.\" いくら安くても買わない。 Ikura yasukute mo kawanai. \"No matter how cheap, I won't buy it.\""
+          }
+        ]
+      },
+      {
+        "level": 2,
+        "heading": "たとえ〜ても",
+        "content": "",
+        "children": [
+          {
+            "level": 3,
+            "heading": "Even if (emphasis)",
+            "content": "たとえ + [condition] + ても = \"even if\" (emphatic)\n\nたとえ雨が降っても行く。 Tatoe ame ga futte mo iku. \"Even if it rains, I'll go.\" たとえ失敗しても諦めない。 Tatoe shippai shite mo akiramenai. \"Even if I fail, I won't give up.\" たとえお金があっても買わない。 Tatoe okane ga atte mo kawanai. \"Even if I had money, I wouldn't buy it.\""
+          }
+        ]
+      },
+      {
+        "level": 2,
+        "heading": "Contrast with けど",
+        "content": "",
+        "children": [
+          {
+            "level": 3,
+            "heading": "Concession vs simple contrast",
+            "content": "ても - Strong concession:\n\n高くても買う。 Takakute mo kau. \"Even if it's expensive, I'll buy it.\" (strong determination)\n\nけど - Simple contrast:\n\n高いけど買う。 Takai kedo kau. \"It's expensive, but I'll buy it.\" (neutral statement)"
+          }
+        ]
+      },
+      {
+        "level": 2,
+        "heading": "Common Mistakes",
+        "content": "",
+        "children": [
+          {
+            "level": 3,
+            "heading": "Mistake 1: Wrong て-form",
+            "content": "❌ 行きても ✓ 行っても\n\nUse correct て-form: 行く → 行って → 行っても"
+          },
+          {
+            "level": 3,
+            "heading": "Mistake 2: Using だ with な-adjectives",
+            "content": "❌ 便利だても ✓ 便利でも\n\nUse でも, not だても."
+          },
+          {
+            "level": 3,
+            "heading": "Mistake 3: Confusing with のに",
+            "content": "ても = hypothetical \"even if\" のに = actual \"even though\" (with disappointment) 雨が降っても行く = I'll go even if it rains (might not rain) 雨が降ったのに行った = I went even though it rained (it did rain, disappointed)"
+          },
+          {
+            "level": 3,
+            "heading": "Mistake 4: Wrong particle with てもいい",
+            "content": "❌ 食べるもいい ✓ 食べてもいい\n\nUse て-form + もいい, not dictionary form."
+          }
+        ]
+      },
+      {
+        "level": 2,
+        "heading": "Summary",
+        "content": "Key Points:\n\nても expresses \"even if\" or concession Formation: [て-form / くて / でも] + も Hypothetical or actual concession てもいい = permission \"may/can\" Question words + ても = \"no matter\" Different from のに (actual fact with disappointment) Common with どんなに, いくら, たとえ Essential for expressing regardless/concession",
+        "children": [
+          {
+            "level": 3,
+            "heading": "Company",
+            "content": "About Pricing Blog Contact"
+          },
+          {
+            "level": 3,
+            "heading": "Legal",
+            "content": "Privacy Policy Terms of Service Cookie Policy"
+          }
+        ]
+      }
+    ]
+  },
+  "metadata": {
+    "extracted_at": "2026-01-01T22:19:36.296527100Z",
+    "duration_ms": 3,
+    "extractors_matched": [
+      "metadata",
+      "examples",
+      "sections"
+    ],
+    "extractors_failed": [
+      "vocab_tables",
+      "definitions",
+      "content_blocks"
+    ]
+  }
+}

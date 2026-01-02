@@ -1,0 +1,346 @@
+{
+  "config_name": "Language Learning Extractor",
+  "url": "https://practice-japanese.com/docs/te-kara/",
+  "data": {
+    "sections": [
+      {
+        "level": 2,
+        "heading": "What is 〜てから (te-kara)?",
+        "content": "〜てから means \"after doing (something).\" It connects two actions in sequence, showing that the first action is completed before the second one begins.\n\n[Verb te-form] + から 食べてから \"after eating\" 見てから \"after seeing/watching\""
+      },
+      {
+        "level": 2,
+        "heading": "Formation",
+        "content": "",
+        "children": [
+          {
+            "level": 3,
+            "heading": "Basic Pattern",
+            "content": "Verb (te-form) + から 勉強してから \"after studying\" 帰ってから \"after returning/going home\" 読んでから \"after reading\""
+          }
+        ]
+      },
+      {
+        "level": 2,
+        "heading": "Core Meaning",
+        "content": "",
+        "children": [
+          {
+            "level": 3,
+            "heading": "Sequential Actions",
+            "content": "Shows clear sequence: Action 1 → Completion → Action 2\n\n宿題をしてから、遊びます \"After doing homework, I'll play\" ご飯を食べてから、出かけます \"After eating, I'll go out\" シャワーを浴びてから、寝ます \"After taking a shower, I'll sleep\""
+          }
+        ]
+      },
+      {
+        "level": 2,
+        "heading": "Basic Usage",
+        "content": "",
+        "children": [
+          {
+            "level": 3,
+            "heading": "Daily Routines",
+            "content": "朝ごはんを食べてから、学校に行く \"After eating breakfast, I go to school\" 歯を磨いてから、寝る \"After brushing teeth, I sleep\" 手を洗ってから、食べます \"After washing hands, I eat\""
+          },
+          {
+            "level": 3,
+            "heading": "Past Actions",
+            "content": "映画を見てから、レストランに行った \"After watching a movie, we went to a restaurant\" 日本に来てから、3年になる \"It's been 3 years since I came to Japan\" 卒業してから、働いている \"I've been working since graduating\""
+          }
+        ]
+      },
+      {
+        "level": 2,
+        "heading": "Time Expressions with てから",
+        "content": "",
+        "children": [
+          {
+            "level": 3,
+            "heading": "Specific Time Period",
+            "content": "日本に来てから、2年になる \"It's been 2 years since I came to Japan\" 結婚してから、5年経った \"5 years have passed since getting married\" 始めてから、3ヶ月です \"It's been 3 months since starting\""
+          },
+          {
+            "level": 3,
+            "heading": "まだ〜ない (haven't yet)",
+            "content": "朝ごはんを食べてから、まだ何も食べていない \"Haven't eaten anything since breakfast\" 会ってから、まだ連絡していない \"Haven't contacted (them) since we met\""
+          }
+        ]
+      },
+      {
+        "level": 2,
+        "heading": "Common Patterns",
+        "content": "",
+        "children": [
+          {
+            "level": 3,
+            "heading": "〜てからでないと (if not after doing)",
+            "content": "Must do first action before second.\n\n勉強してからでないと、遊べない \"Can't play if not after studying / Must study before playing\" 許可をもらってからでないと、できません \"Can't do it without getting permission first\""
+          },
+          {
+            "level": 3,
+            "heading": "〜てからにする (do after)",
+            "content": "Postpone second action until after first.\n\n昼ごはんを食べてからにしましょう \"Let's do it after eating lunch\" 考えてからにします \"I'll do it after thinking about it\""
+          },
+          {
+            "level": 3,
+            "heading": "〜てからずっと (ever since)",
+            "content": "Continuous state since first action.\n\n日本に来てからずっと忙しい \"I've been busy ever since coming to Japan\" 会ってからずっと友達だ \"We've been friends ever since we met\""
+          }
+        ]
+      },
+      {
+        "level": 2,
+        "heading": "Comparison with Similar Patterns",
+        "content": "",
+        "children": [
+          {
+            "level": 3,
+            "heading": "〜てから vs 〜た後で",
+            "content": "Both mean \"after,\" but slightly different usage:\n\nてから: More conversational, emphasizes sequence 食べてから行く \"go after eating\" た後で: More formal, broader usage 食べた後で行く \"go after eating\""
+          },
+          {
+            "level": 3,
+            "heading": "〜てから vs 〜て",
+            "content": "てから: After completing first action 食べてから寝る \"sleep after eating\" (finished eating) て: Sequential but can overlap 食べて寝る \"eat and sleep\" (simple sequence)"
+          }
+        ]
+      },
+      {
+        "level": 2,
+        "heading": "Common Verbs with てから",
+        "content": "",
+        "children": [
+          {
+            "level": 3,
+            "heading": "Daily Actions",
+            "content": "食べてから - after eating 飲んでから - after drinking 見てから - after seeing/watching 読んでから - after reading 書いてから - after writing"
+          },
+          {
+            "level": 3,
+            "heading": "Transitional Actions",
+            "content": "帰ってから - after returning/going home 来てから - since coming 着いてから - after arriving 出てから - after leaving 卒業してから - since graduating"
+          },
+          {
+            "level": 3,
+            "heading": "Preparation Actions",
+            "content": "準備してから - after preparing 確認してから - after checking 考えてから - after thinking 相談してから - after consulting"
+          }
+        ]
+      },
+      {
+        "level": 2,
+        "heading": "Common Conversations",
+        "content": "",
+        "children": [
+          {
+            "level": 3,
+            "heading": "Example 1: Making Plans",
+            "content": "A: いつ出発する？ \"When shall we leave?\" B: 昼ごはんを食べてから出発しよう \"Let's leave after eating lunch\" A: いいね。何食べる？ \"Good idea. What shall we eat?\""
+          },
+          {
+            "level": 3,
+            "heading": "Example 2: Daily Routine",
+            "content": "A: 毎日何時に寝る？ \"What time do you sleep every day?\" B: シャワーを浴びてから、11時頃寝ます \"After taking a shower, I sleep around 11\" A: 早いね \"That's early\""
+          },
+          {
+            "level": 3,
+            "heading": "Example 3: Past Experience",
+            "content": "A: 日本に来てから、どのくらい？ \"How long since you came to Japan?\" B: 2年になります \"It's been 2 years\" A: 日本語上手になったね \"Your Japanese has improved\""
+          }
+        ]
+      },
+      {
+        "level": 2,
+        "heading": "Common Mistakes",
+        "content": "",
+        "children": [
+          {
+            "level": 3,
+            "heading": "Mistake 1: Using with non-actions",
+            "content": "Wrong: きれいてから ❌ Right: きれいになってから ✓ \"after becoming beautiful\""
+          },
+          {
+            "level": 3,
+            "heading": "Mistake 2: Confusing with から (because)",
+            "content": "から alone: because 忙しいから行けない \"Can't go because I'm busy\" てから: after 仕事をしてから行く \"Go after working\""
+          },
+          {
+            "level": 3,
+            "heading": "Mistake 3: Wrong tense in first clause",
+            "content": "Less natural: 食べたてから ❌ Natural: 食べてから ✓ \"after eating\""
+          }
+        ]
+      },
+      {
+        "level": 2,
+        "heading": "Special Expressions",
+        "content": "",
+        "children": [
+          {
+            "level": 3,
+            "heading": "それから (and then / after that)",
+            "content": "Not the same as てから, but related concept.\n\nてから: after (completing action) 食べてから寝た \"slept after eating\" それから: and then (next in sequence) 食べた。それから寝た。 \"I ate. And then I slept.\""
+          },
+          {
+            "level": 3,
+            "heading": "〜てからというもの (ever since)",
+            "content": "Emphasizes continuous state.\n\n日本に来てからというもの、忙しい \"Ever since coming to Japan, I've been busy\" 会ってからというもの、毎日考えている \"Ever since meeting, I think about (them) every day\""
+          }
+        ]
+      },
+      {
+        "level": 2,
+        "heading": "Negative Forms",
+        "content": "",
+        "children": [
+          {
+            "level": 3,
+            "heading": "〜ないでから is incorrect",
+            "content": "Use 〜ないで or 〜ずに instead.\n\nWrong: 食べないでから寝た ❌ Right: 食べないで寝た ✓ Or: 食べずに寝た ✓ \"slept without eating\""
+          }
+        ]
+      },
+      {
+        "level": 2,
+        "heading": "Time Duration Since",
+        "content": "",
+        "children": [
+          {
+            "level": 3,
+            "heading": "〜てから + time + になる/経つ",
+            "content": "始めてから3年になる \"It's been 3 years since starting\" 会ってから1ヶ月経った \"1 month has passed since we met\" 日本に来てから半年です \"It's been half a year since I came to Japan\""
+          }
+        ]
+      },
+      {
+        "level": 2,
+        "heading": "Politeness Levels",
+        "content": "",
+        "children": [
+          {
+            "level": 3,
+            "heading": "Casual",
+            "content": "食べてから行く \"I'll go after eating\" 見てから決める \"I'll decide after seeing\""
+          },
+          {
+            "level": 3,
+            "heading": "Polite",
+            "content": "食べてから行きます \"I'll go after eating\" 見てから決めます \"I'll decide after seeing\""
+          }
+        ]
+      },
+      {
+        "level": 2,
+        "heading": "Practice Sentences",
+        "content": "",
+        "children": [
+          {
+            "level": 3,
+            "heading": "Basic Sequence",
+            "content": "宿題をしてから、遊びます \"I'll play after doing homework\" 手を洗ってから、食べてください \"Please eat after washing your hands\" よく考えてから、答えます \"I'll answer after thinking carefully\" 映画を見てから、帰ります \"I'll go home after watching the movie\""
+          },
+          {
+            "level": 3,
+            "heading": "Time Duration",
+            "content": "日本に来てから、2年になります \"It's been 2 years since I came to Japan\" 結婚してから、5年経った \"5 years have passed since getting married\" 会ってから、3ヶ月です \"It's been 3 months since we met\""
+          },
+          {
+            "level": 3,
+            "heading": "Daily Routines",
+            "content": "朝ごはんを食べてから、学校に行く \"I go to school after eating breakfast\" シャワーを浴びてから、寝る \"I sleep after taking a shower\" 歯を磨いてから、寝ます \"I sleep after brushing my teeth\""
+          },
+          {
+            "level": 3,
+            "heading": "Past Actions",
+            "content": "映画を見てから、レストランに行った \"After watching a movie, we went to a restaurant\" 日本語を勉強してから、日本に来た \"I came to Japan after studying Japanese\" 相談してから、決めました \"I decided after consulting\""
+          },
+          {
+            "level": 3,
+            "heading": "Postponement Expressions",
+            "content": "明日にしてからにしましょう \"Let's do it after tomorrow / Let's wait until tomorrow\" 考えてからにします \"I'll do it after thinking\" 確認してからにしてください \"Please do it after checking\""
+          },
+          {
+            "level": 3,
+            "heading": "Continuous State Since",
+            "content": "日本に来てからずっと忙しい \"I've been busy ever since coming to Japan\" 会ってからずっと友達です \"We've been friends ever since we met\" 始めてからずっと楽しい \"It's been fun ever since starting\""
+          }
+        ]
+      },
+      {
+        "level": 2,
+        "heading": "Related Grammar Points",
+        "content": "Te-form Conjugation - Basic te-form 〜た後で (ato de) - After doing (formal) 〜前に (mae ni) - Before doing Before/After (前、後) - Time expressions Sequential Actions - Ordering events Time & Tense - Time expressions",
+        "children": [
+          {
+            "level": 3,
+            "heading": "Company",
+            "content": "About Pricing Blog Contact"
+          },
+          {
+            "level": 3,
+            "heading": "Legal",
+            "content": "Privacy Policy Terms of Service Cookie Policy"
+          }
+        ]
+      }
+    ],
+    "metadata": {
+      "title": "〜てから (After Doing)"
+    },
+    "examples": [
+      {
+        "sentence": "Te-form Conjugation - Basic te-form"
+      },
+      {
+        "sentence": "〜た後で (ato de) - After doing (formal)"
+      },
+      {
+        "sentence": "〜前に (mae ni) - Before doing"
+      },
+      {
+        "sentence": "Before/After (前、後) - Time expressions"
+      },
+      {
+        "sentence": "Sequential Actions - Ordering events"
+      },
+      {
+        "sentence": "Time & Tense - Time expressions"
+      },
+      {
+        "sentence": "About"
+      },
+      {
+        "sentence": "Pricing"
+      },
+      {
+        "sentence": "Blog"
+      },
+      {
+        "sentence": "Contact"
+      },
+      {
+        "sentence": "Privacy Policy"
+      },
+      {
+        "sentence": "Terms of Service"
+      },
+      {
+        "sentence": "Cookie Policy"
+      }
+    ]
+  },
+  "metadata": {
+    "extracted_at": "2026-01-01T22:19:35.694027300Z",
+    "duration_ms": 3,
+    "extractors_matched": [
+      "metadata",
+      "examples",
+      "sections"
+    ],
+    "extractors_failed": [
+      "vocab_tables",
+      "definitions",
+      "content_blocks"
+    ]
+  }
+}

@@ -1,0 +1,329 @@
+{
+  "config_name": "Language Learning Extractor",
+  "url": "https://practice-japanese.com/docs/yes-no-questions/",
+  "data": {
+    "metadata": {
+      "title": "Yes/No Questions"
+    },
+    "examples": [
+      {
+        "sentence": "か (ka) Question Usage - Detailed particle usage"
+      },
+      {
+        "sentence": "の (no) Questions - Casual question ending"
+      },
+      {
+        "sentence": "Question Words (5W1H) - Information questions"
+      },
+      {
+        "sentence": "ませんか - Negative question invitations"
+      },
+      {
+        "sentence": "ね particle - Seeking agreement"
+      },
+      {
+        "sentence": "よね ending - Confirmation questions"
+      },
+      {
+        "sentence": "About"
+      },
+      {
+        "sentence": "Pricing"
+      },
+      {
+        "sentence": "Blog"
+      },
+      {
+        "sentence": "Contact"
+      },
+      {
+        "sentence": "Privacy Policy"
+      },
+      {
+        "sentence": "Terms of Service"
+      },
+      {
+        "sentence": "Cookie Policy"
+      }
+    ],
+    "sections": [
+      {
+        "level": 2,
+        "heading": "What are Yes/No Questions?",
+        "content": "Yes/No questions in Japanese are questions that can be answered with \"yes\" or \"no\". They're formed by adding か (ka) to statements or using rising intonation in casual speech.\n\nこれは本です \"This is a book\" (statement) これは本ですか？ \"Is this a book?\" (question)"
+      },
+      {
+        "level": 2,
+        "heading": "Basic Formation",
+        "content": "",
+        "children": [
+          {
+            "level": 3,
+            "heading": "Formal Questions (です/ます)",
+            "content": "Add か to the end of a statement:\n\n日本人ですか？ \"Are you Japanese?\" わかりますか？ \"Do you understand?\" 好きですか？ \"Do you like it?\" 行きますか？ \"Will you go?\""
+          },
+          {
+            "level": 3,
+            "heading": "Casual Questions",
+            "content": "In casual speech, omit か and use rising intonation:\n\n日本人？ \"Are you Japanese?\" わかる？ \"Do you understand?\" 好き？ \"Do you like it?\" 行く？ \"Will you go?\""
+          }
+        ]
+      },
+      {
+        "level": 2,
+        "heading": "Answering Yes/No Questions",
+        "content": "",
+        "children": [
+          {
+            "level": 3,
+            "heading": "Positive Answers",
+            "content": "はい、そうです \"Yes, that's right\" はい、わかります \"Yes, I understand\" はい、好きです \"Yes, I like it\" はい、行きます \"Yes, I'll go\" ええ (casual \"yes\") うん (very casual \"yes\")"
+          },
+          {
+            "level": 3,
+            "heading": "Negative Answers",
+            "content": "いいえ、違います \"No, that's not right\" いいえ、わかりません \"No, I don't understand\" いいえ、好きじゃないです \"No, I don't like it\" いいえ、行きません \"No, I won't go\" ううん (casual \"no\")"
+          }
+        ]
+      },
+      {
+        "level": 2,
+        "heading": "Common Question Patterns",
+        "content": "",
+        "children": [
+          {
+            "level": 3,
+            "heading": "State of Being (です)",
+            "content": "学生ですか？ \"Are you a student?\" → はい、学生です / いいえ、学生じゃないです 日本人ですか？ \"Are you Japanese?\" → はい、日本人です / いいえ、日本人じゃないです これですか？ \"Is it this?\" → はい、それです / いいえ、違います"
+          },
+          {
+            "level": 3,
+            "heading": "Verbs (ます form)",
+            "content": "食べますか？ \"Will you eat?\" → はい、食べます / いいえ、食べません 行きますか？ \"Will you go?\" → はい、行きます / いいえ、行きません 知っていますか？ \"Do you know?\" → はい、知っています / いいえ、知りません"
+          },
+          {
+            "level": 3,
+            "heading": "Adjectives",
+            "content": "い-adjectives:\n\n美味しいですか？ \"Is it delicious?\" → はい、美味しいです / いいえ、美味しくないです 高いですか？ \"Is it expensive?\" → はい、高いです / いいえ、高くないです\n\nな-adjectives:\n\n便利ですか？ \"Is it convenient?\" → はい、便利です / いいえ、便利じゃないです 好きですか？ \"Do you like it?\" → はい、好きです / いいえ、好きじゃないです"
+          }
+        ]
+      },
+      {
+        "level": 2,
+        "heading": "Politeness Levels",
+        "content": "",
+        "children": [
+          {
+            "level": 3,
+            "heading": "Very Formal",
+            "content": "こちらでよろしいですか？ \"Is this alright?\" お名前をお伺いしてもよろしいですか？ \"May I ask your name?\" ご都合はいかがですか？ \"How is it convenient for you?\""
+          },
+          {
+            "level": 3,
+            "heading": "Standard Polite",
+            "content": "日本語がわかりますか？ \"Do you understand Japanese?\" これが好きですか？ \"Do you like this?\" 明日来ますか？ \"Will you come tomorrow?\""
+          },
+          {
+            "level": 3,
+            "heading": "Casual",
+            "content": "日本語わかる？ \"Understand Japanese?\" これ好き？ \"Like this?\" 明日来る？ \"Coming tomorrow?\""
+          }
+        ]
+      },
+      {
+        "level": 2,
+        "heading": "Special Response Patterns",
+        "content": "",
+        "children": [
+          {
+            "level": 3,
+            "heading": "Partial Agreement",
+            "content": "まあ、そうですね \"Well, yes/I suppose so\" そうかもしれません \"That might be so\" ある意味では、はい \"In a sense, yes\""
+          },
+          {
+            "level": 3,
+            "heading": "Soft Negatives",
+            "content": "ちょっと... \"Well...\" (soft no) うーん、どうかな \"Hmm, I wonder\" (uncertain/soft no) あまり... \"Not really...\""
+          },
+          {
+            "level": 3,
+            "heading": "Expressing Uncertainty",
+            "content": "わかりません \"I don't know\" どうかな \"I wonder\" たぶん \"Maybe/probably\" かもしれません \"It might be\""
+          }
+        ]
+      },
+      {
+        "level": 2,
+        "heading": "Common Conversations",
+        "content": "",
+        "children": [
+          {
+            "level": 3,
+            "heading": "Example 1: Basic Questions",
+            "content": "A: 日本人ですか？ \"Are you Japanese?\" B: いいえ、アメリカ人です \"No, I'm American\" A: 日本語が話せますか？ \"Can you speak Japanese?\" B: はい、少し話せます \"Yes, I can speak a little\""
+          },
+          {
+            "level": 3,
+            "heading": "Example 2: Shopping",
+            "content": "A: これが欲しいですか？ \"Do you want this?\" B: はい、欲しいです \"Yes, I want it\" A: 高くないですか？ \"Isn't it expensive?\" B: いいえ、大丈夫です \"No, it's fine\""
+          },
+          {
+            "level": 3,
+            "heading": "Example 3: Making Plans",
+            "content": "A: 明日暇ですか？ \"Are you free tomorrow?\" B: はい、暇です \"Yes, I'm free\" A: 一緒に映画を見ませんか？ \"Shall we watch a movie together?\" B: はい、いいですね \"Yes, that sounds good\""
+          }
+        ]
+      },
+      {
+        "level": 2,
+        "heading": "Negative Questions",
+        "content": "",
+        "children": [
+          {
+            "level": 3,
+            "heading": "Formation",
+            "content": "行かないですか？ \"Won't you go?\" 食べませんか？ \"Won't you eat?\" 好きじゃないですか？ \"Don't you like it?\""
+          },
+          {
+            "level": 3,
+            "heading": "Answering Negative Questions",
+            "content": "In Japanese, answer based on the fact, not the question form:\n\nQ: 行かないですか？ \"Won't you go?\" A: はい、行きません \"That's right, I won't go\" A: いいえ、行きます \"No (that's wrong), I will go\"\n\nThis is opposite to English! Be careful."
+          }
+        ]
+      },
+      {
+        "level": 2,
+        "heading": "Question Tags",
+        "content": "",
+        "children": [
+          {
+            "level": 3,
+            "heading": "ね (ne) - Seeking Agreement",
+            "content": "美味しいですね？ \"It's delicious, isn't it?\" 行きますね？ \"You're going, right?\" わかりますね？ \"You understand, right?\""
+          },
+          {
+            "level": 3,
+            "heading": "よね (yo ne) - Confirming Shared Knowledge",
+            "content": "明日ですよね？ \"It's tomorrow, right?\" 知っていますよね？ \"You know, right?\" 高いですよね？ \"It's expensive, isn't it?\""
+          }
+        ]
+      },
+      {
+        "level": 2,
+        "heading": "でしょう (deshou) Questions",
+        "content": "",
+        "children": [
+          {
+            "level": 3,
+            "heading": "Expressing Probability",
+            "content": "明日は雨でしょうか？ \"Will it rain tomorrow?\" (I wonder) これは正しいでしょうか？ \"Is this correct?\" (seeking confirmation) 大丈夫でしょうか？ \"Will it be alright?\" (expressing concern)"
+          },
+          {
+            "level": 3,
+            "heading": "Casual Version: だろう (darou)",
+            "content": "本当だろう？ \"It's true, isn't it?\" 行くだろう？ \"You'll go, won't you?\""
+          }
+        ]
+      },
+      {
+        "level": 2,
+        "heading": "Common Mistakes",
+        "content": "",
+        "children": [
+          {
+            "level": 3,
+            "heading": "Mistake 1: Using か in casual conversation inappropriately",
+            "content": "Too formal (to friends): 行きますか？ Better (casual): 行く？ \"Will you go?\""
+          },
+          {
+            "level": 3,
+            "heading": "Mistake 2: Wrong answer to negative questions",
+            "content": "Q: 食べませんか？ \"Won't you eat?\" Wrong: いいえ、食べます ❌ Right: はい、食べます ✓ (if you will eat) \"Yes (you're wrong), I will eat\""
+          },
+          {
+            "level": 3,
+            "heading": "Mistake 3: Forgetting rising intonation in casual questions",
+            "content": "Without か, you need rising intonation: 行く↗️ \"Will you go?\" Not: 行く→ (sounds like a statement)"
+          }
+        ]
+      },
+      {
+        "level": 2,
+        "heading": "Invitation Questions",
+        "content": "",
+        "children": [
+          {
+            "level": 3,
+            "heading": "ませんか (masen ka) - \"Won't you...?\"",
+            "content": "一緒に行きませんか？ \"Won't you go together?\" コーヒーを飲みませんか？ \"Won't you have some coffee?\" 食べませんか？ \"Won't you eat?\"\n\nThis is a polite way to make invitations."
+          }
+        ]
+      },
+      {
+        "level": 2,
+        "heading": "Confirmation Questions",
+        "content": "",
+        "children": [
+          {
+            "level": 3,
+            "heading": "Adding よね or ですよね",
+            "content": "これでいいですよね？ \"This is okay, right?\" 明日ですよね？ \"It's tomorrow, right?\" わかりますよね？ \"You understand, right?\""
+          }
+        ]
+      },
+      {
+        "level": 2,
+        "heading": "Practice Questions",
+        "content": "",
+        "children": [
+          {
+            "level": 3,
+            "heading": "Basic",
+            "content": "学生ですか？ \"Are you a student?\" 日本語がわかりますか？ \"Do you understand Japanese?\" これは何ですか？ \"What is this?\""
+          },
+          {
+            "level": 3,
+            "heading": "Intermediate",
+            "content": "日本に行ったことがありますか？ \"Have you been to Japan?\" 日本食が好きですか？ \"Do you like Japanese food?\" 漢字が読めますか？ \"Can you read kanji?\""
+          },
+          {
+            "level": 3,
+            "heading": "Advanced",
+            "content": "日本の文化に興味がありますか？ \"Are you interested in Japanese culture?\" 将来日本に住みたいですか？ \"Do you want to live in Japan in the future?\" 日本語の勉強は難しいですか？ \"Is studying Japanese difficult?\""
+          }
+        ]
+      },
+      {
+        "level": 2,
+        "heading": "Related Grammar Points",
+        "content": "か (ka) Question Usage - Detailed particle usage の (no) Questions - Casual question ending Question Words (5W1H) - Information questions ませんか - Negative question invitations ね particle - Seeking agreement よね ending - Confirmation questions",
+        "children": [
+          {
+            "level": 3,
+            "heading": "Company",
+            "content": "About Pricing Blog Contact"
+          },
+          {
+            "level": 3,
+            "heading": "Legal",
+            "content": "Privacy Policy Terms of Service Cookie Policy"
+          }
+        ]
+      }
+    ]
+  },
+  "metadata": {
+    "extracted_at": "2026-01-01T22:19:38.041536800Z",
+    "duration_ms": 3,
+    "extractors_matched": [
+      "metadata",
+      "examples",
+      "sections"
+    ],
+    "extractors_failed": [
+      "vocab_tables",
+      "definitions",
+      "content_blocks"
+    ]
+  }
+}

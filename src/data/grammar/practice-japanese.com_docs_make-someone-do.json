@@ -1,0 +1,308 @@
+{
+  "config_name": "Language Learning Extractor",
+  "url": "https://practice-japanese.com/docs/make-someone-do/",
+  "data": {
+    "examples": [
+      {
+        "sentence": "About"
+      },
+      {
+        "sentence": "Pricing"
+      },
+      {
+        "sentence": "Blog"
+      },
+      {
+        "sentence": "Contact"
+      },
+      {
+        "sentence": "Privacy Policy"
+      },
+      {
+        "sentence": "Terms of Service"
+      },
+      {
+        "sentence": "Cookie Policy"
+      }
+    ],
+    "metadata": {
+      "title": "Make Someone Do"
+    },
+    "sections": [
+      {
+        "level": 2,
+        "heading": "Make Someone Do",
+        "content": "The causative form expressing \"make someone do\" indicates forcing or strongly compelling someone to perform an action. This usage emphasizes authority, control, or obligation.\n\nBasic pattern: [Person A]が [Person B]を/に [Verb-causative] 親が子供に宿題をさせる \"Parent makes child do homework\" Authority figure forces action Obligation imposed"
+      },
+      {
+        "level": 2,
+        "heading": "Particle Choice",
+        "content": "",
+        "children": [
+          {
+            "level": 3,
+            "heading": "を vs に",
+            "content": "With intransitive verbs (を): 親が子供を行かせる \"Parent makes child go\" With transitive verbs (に): 親が子供に本を読ませる \"Parent makes child read book\" Intransitive: を marks person Transitive: に marks person, を marks object Important distinction"
+          }
+        ]
+      },
+      {
+        "level": 2,
+        "heading": "Authority Relationships",
+        "content": "",
+        "children": [
+          {
+            "level": 3,
+            "heading": "Who can make whom",
+            "content": "Common authority patterns: 親が子供を... \"Parent makes child...\" 先生が生徒を... \"Teacher makes student...\" 上司が部下を... \"Boss makes subordinate...\" 法律が国民を... \"Law makes citizens...\" Hierarchical relationships Power dynamics Social structure"
+          }
+        ]
+      },
+      {
+        "level": 2,
+        "heading": "Force and Compulsion",
+        "content": "",
+        "children": [
+          {
+            "level": 3,
+            "heading": "Strong causation",
+            "content": "母が子供に野菜を食べさせた \"Mother made child eat vegetables\" Implies: Against child's will Force applied Strong insistence 会社が社員を残業させる \"Company makes employees work overtime\" Obligation No choice Must comply"
+          }
+        ]
+      },
+      {
+        "level": 2,
+        "heading": "Negative Nuance",
+        "content": "",
+        "children": [
+          {
+            "level": 3,
+            "heading": "Often unwilling",
+            "content": "Causative \"make\" implies: - Reluctance on part of person made to act - Force or pressure applied - Against natural desire - Obligation, not choice したくないけど、させられる \"Don't want to, but made to do it\" Negative feeling common"
+          }
+        ]
+      },
+      {
+        "level": 2,
+        "heading": "With Work and Duty",
+        "content": "",
+        "children": [
+          {
+            "level": 3,
+            "heading": "Professional contexts",
+            "content": "上司が部下に報告書を書かせる \"Boss makes subordinate write report\" 先生が生徒に掃除をさせる \"Teacher makes students clean\" 会社が新人を研修に行かせる \"Company makes new employees attend training\" Work obligations Duty assignment Professional hierarchy"
+          }
+        ]
+      },
+      {
+        "level": 2,
+        "heading": "Physical Actions",
+        "content": "",
+        "children": [
+          {
+            "level": 3,
+            "heading": "Making someone move",
+            "content": "医者が患者を歩かせる \"Doctor makes patient walk\" コーチが選手を走らせる \"Coach makes athletes run\" 親が子供を早く寝させる \"Parent makes child sleep early\" Physical compliance Training contexts Health reasons"
+          }
+        ]
+      },
+      {
+        "level": 2,
+        "heading": "Educational Settings",
+        "content": "",
+        "children": [
+          {
+            "level": 3,
+            "heading": "School examples",
+            "content": "先生が生徒に宿題をさせる \"Teacher makes students do homework\" 親が子供を塾に行かせる \"Parent makes child go to cram school\" 教授が学生にレポートを書かせる \"Professor makes students write report\" Educational authority Learning obligations Study requirements"
+          }
+        ]
+      },
+      {
+        "level": 2,
+        "heading": "Reluctant Compliance",
+        "content": "",
+        "children": [
+          {
+            "level": 3,
+            "heading": "Unwilling actions",
+            "content": "嫌がる子供を歯医者に行かせた \"Made reluctant child go to dentist\" 泣いている子供を学校に行かせる \"Make crying child go to school\" Explicit unwillingness Forced compliance Parental authority"
+          }
+        ]
+      },
+      {
+        "level": 2,
+        "heading": "Punishment Context",
+        "content": "",
+        "children": [
+          {
+            "level": 3,
+            "heading": "Disciplinary actions",
+            "content": "先生が生徒を廊下に立たせた \"Teacher made student stand in hallway\" 親が子供を部屋に戻らせた \"Parent made child go back to room\" Punishment Discipline Consequence"
+          }
+        ]
+      },
+      {
+        "level": 2,
+        "heading": "Legal and Societal",
+        "content": "",
+        "children": [
+          {
+            "level": 3,
+            "heading": "Laws and rules",
+            "content": "法律が国民に税金を払わせる \"Law makes citizens pay taxes\" 会社が社員にルールを守らせる \"Company makes employees follow rules\" Societal obligation Legal requirement Mandatory compliance"
+          }
+        ]
+      },
+      {
+        "level": 2,
+        "heading": "Contrast with Permission",
+        "content": "",
+        "children": [
+          {
+            "level": 3,
+            "heading": "\"Make\" vs \"let\"",
+            "content": "\"Make\" (force): 親が子供を勉強させる \"Parent makes child study\" Against will, forced \"Let\" (permission): 親が子供を遊ばせる \"Parent lets child play\" Allowed, permitted Same form, different interpretation Context crucial"
+          }
+        ]
+      },
+      {
+        "level": 2,
+        "heading": "Expressing Unwillingness",
+        "content": "",
+        "children": [
+          {
+            "level": 3,
+            "heading": "Speaker's feelings",
+            "content": "嫌だけど、親に勉強させられた \"Didn't want to, but was made to study by parents\" 行きたくなかったのに、行かされた \"Didn't want to go, but was made to\" Passive causative shows victimhood Reluctance emphasized Against speaker's will"
+          }
+        ]
+      },
+      {
+        "level": 2,
+        "heading": "Responsibility Placement",
+        "content": "",
+        "children": [
+          {
+            "level": 3,
+            "heading": "Who's responsible",
+            "content": "親の責任で子供を学校に行かせる \"Parent's responsibility to make child go to school\" 上司の指示で部下を働かせる \"Boss's order to make subordinate work\" Authority bears responsibility Control implies accountability"
+          }
+        ]
+      },
+      {
+        "level": 2,
+        "heading": "Negative Consequences",
+        "content": "",
+        "children": [
+          {
+            "level": 3,
+            "heading": "Making someone suffer",
+            "content": "長時間働かせすぎた \"Made (someone) work too long\" 無理やり食べさせた \"Forcibly made (someone) eat\" 過度な運動をさせた \"Made (someone) exercise excessively\" Excessive force Potential harm Ethical concerns"
+          }
+        ]
+      },
+      {
+        "level": 2,
+        "heading": "With してもらう Alternative",
+        "content": "",
+        "children": [
+          {
+            "level": 3,
+            "heading": "More polite option",
+            "content": "Instead of forceful causative: させる \"make do\" → してもらう \"have someone do\" 子供に掃除をさせる (forceful) 子供に掃除をしてもらう (requesting) してもらう softer More cooperative Less forceful"
+          }
+        ]
+      },
+      {
+        "level": 2,
+        "heading": "In Passive Form",
+        "content": "",
+        "children": [
+          {
+            "level": 3,
+            "heading": "Being made to do",
+            "content": "Active causative: 親が子供を勉強させる \"Parent makes child study\" Passive causative: 子供が親に勉強させられる \"Child is made to study by parent\" Victim perspective Emphasis on being forced Common complaint form"
+          }
+        ]
+      },
+      {
+        "level": 2,
+        "heading": "Time Duration",
+        "content": "",
+        "children": [
+          {
+            "level": 3,
+            "heading": "How long made to do",
+            "content": "3時間も待たせた \"Made (someone) wait for 3 whole hours\" 一晩中勉強させられた \"Was made to study all night\" Duration emphasized Extent of obligation"
+          }
+        ]
+      },
+      {
+        "level": 2,
+        "heading": "Formal Situations",
+        "content": "",
+        "children": [
+          {
+            "level": 3,
+            "heading": "Professional language",
+            "content": "会社は社員に規則を守らせます \"Company makes employees follow regulations\" 政府は国民に法律を守らせる \"Government makes citizens obey laws\" Formal contexts Official statements Institutional authority"
+          }
+        ]
+      },
+      {
+        "level": 2,
+        "heading": "Common Verbs Used",
+        "content": "",
+        "children": [
+          {
+            "level": 3,
+            "heading": "Frequent causatives",
+            "content": "働かせる \"make work\" 勉強させる \"make study\" 待たせる \"make wait\" 行かせる \"make go\" やめさせる \"make quit\" 帰らせる \"make return\" 従わせる \"make obey\" 謝らせる \"make apologize\" Common in daily life Authority contexts Learn these patterns"
+          }
+        ]
+      },
+      {
+        "level": 2,
+        "heading": "Common Mistakes",
+        "content": "❌ Wrong particle ✗ 子供を本を読ませる ✓ Correct particles ✓ 子供に本を読ませる ❌ Confusing make/let Context matters for interpretation ✓ Understand nuance \"Make\" implies force ❌ Using for polite requests Causative too forceful ✓ Use てもらえますか for requests More appropriate politeness Understanding authority Choosing right structure Cultural awareness"
+      },
+      {
+        "level": 2,
+        "heading": "Practical Examples",
+        "content": "",
+        "children": [
+          {
+            "level": 3,
+            "heading": "Real-life making",
+            "content": "母は毎日子供に野菜を食べさせる \"Mother makes child eat vegetables every day\" 先生は生徒を静かにさせた \"Teacher made students be quiet\" 会社は新入社員に研修を受けさせる \"Company makes new employees take training\" 親は子供を早く寝かせる \"Parents make children sleep early\" コーチは選手に100回練習させた \"Coach made athletes practice 100 times\" 上司は部下に残業させた \"Boss made subordinate work overtime\" 医者は患者に薬を飲ませる \"Doctor makes patient take medicine\" Daily authority Common situations Natural usage Hierarchical relationships Obligation contexts"
+          },
+          {
+            "level": 3,
+            "heading": "Company",
+            "content": "About Pricing Blog Contact"
+          },
+          {
+            "level": 3,
+            "heading": "Legal",
+            "content": "Privacy Policy Terms of Service Cookie Policy"
+          }
+        ]
+      }
+    ]
+  },
+  "metadata": {
+    "extracted_at": "2026-01-01T22:19:31.338738300Z",
+    "duration_ms": 4,
+    "extractors_matched": [
+      "metadata",
+      "examples",
+      "sections"
+    ],
+    "extractors_failed": [
+      "vocab_tables",
+      "definitions",
+      "content_blocks"
+    ]
+  }
+}

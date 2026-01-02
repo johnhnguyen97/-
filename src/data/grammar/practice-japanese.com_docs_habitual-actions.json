@@ -1,0 +1,429 @@
+{
+  "config_name": "Language Learning Extractor",
+  "url": "https://practice-japanese.com/docs/habitual-actions/",
+  "data": {
+    "examples": [
+      {
+        "sentence": "Simple present form (most common)"
+      },
+      {
+        "sentence": "〜ている (current state/habit)"
+      },
+      {
+        "sentence": "〜たものだ (past habits - nostalgic)"
+      },
+      {
+        "sentence": "〜ていた (past habits/states)"
+      },
+      {
+        "sentence": "よく/いつも + verb (with frequency words)"
+      },
+      {
+        "sentence": "〜たものだ: nostalgic, reflective"
+      },
+      {
+        "sentence": "〜ていた: neutral past habit"
+      },
+      {
+        "sentence": "Choose based on nuance desired."
+      },
+      {
+        "sentence": "Simple present form most common for current habits"
+      },
+      {
+        "sentence": "〜ている for ongoing states and some habits"
+      },
+      {
+        "sentence": "〜たものだ for nostalgic past habits"
+      },
+      {
+        "sentence": "〜ていた for neutral past habits"
+      },
+      {
+        "sentence": "Frequency words: いつも, 毎日, よく, 時々, たまに, あまり〜ない, 全然〜ない"
+      },
+      {
+        "sentence": "Time expressions: 毎朝, 毎週, 毎月, 毎年"
+      },
+      {
+        "sentence": "Negative habits: あまり〜ない, ほとんど〜ない, 全然〜ない"
+      },
+      {
+        "sentence": "Essential for describing routines and regular activities"
+      },
+      {
+        "sentence": "Context determines which pattern to use"
+      },
+      {
+        "sentence": "About"
+      },
+      {
+        "sentence": "Pricing"
+      },
+      {
+        "sentence": "Blog"
+      },
+      {
+        "sentence": "Contact"
+      },
+      {
+        "sentence": "Privacy Policy"
+      },
+      {
+        "sentence": "Terms of Service"
+      },
+      {
+        "sentence": "Cookie Policy"
+      }
+    ],
+    "metadata": {
+      "title": "Habitual Actions"
+    },
+    "sections": [
+      {
+        "level": 2,
+        "heading": "Expressing Habitual Actions",
+        "content": "Japanese has several ways to express habitual actions, routines, and regular activities. The patterns vary depending on whether you're talking about present habits, past habits, or general truths.\n\nMain patterns for habits:\n\nSimple present form (most common) 〜ている (current state/habit) 〜たものだ (past habits - nostalgic) 〜ていた (past habits/states) よく/いつも + verb (with frequency words)"
+      },
+      {
+        "level": 2,
+        "heading": "Present Habits - Simple Form",
+        "content": "",
+        "children": [
+          {
+            "level": 3,
+            "heading": "Most common pattern",
+            "content": "[Verb dictionary/present form]\n\n毎日走る。 Mainichi hashiru. \"I run every day.\" 朝ご飯を食べる。 Asagohan wo taberu. \"I eat breakfast.\" 6時に起きます。 Rokuji ni okimasu. \"I wake up at 6 o'clock.\" 毎週日曜日に買い物に行く。 Maishuu nichiyoubi ni kaimono ni iku. \"I go shopping every Sunday.\""
+          }
+        ]
+      },
+      {
+        "level": 2,
+        "heading": "Present Habits - 〜ている",
+        "content": "",
+        "children": [
+          {
+            "level": 3,
+            "heading": "Ongoing states and habits",
+            "content": "Some verbs use 〜ている for habitual states:\n\n日本に住んでいる。 Nihon ni sunde iru. \"I live in Japan.\" [Ongoing state] 会社で働いている。 Kaisha de hataraite iru. \"I work at a company.\" [Ongoing state] 毎日走っている。 Mainichi hashitte iru. \"I run every day.\" [Regular habit] 英語を教えている。 Eigo wo oshiete iru. \"I teach English.\" [Ongoing occupation]"
+          }
+        ]
+      },
+      {
+        "level": 2,
+        "heading": "Frequency Words",
+        "content": "",
+        "children": [
+          {
+            "level": 3,
+            "heading": "Common frequency expressions",
+            "content": "いつも (itsumo) - always 毎日 (mainichi) - every day 毎週 (maishuu) - every week 毎月 (maigetsu/maitsuki) - every month 毎年 (maitoshi/mainen) - every year 毎朝 (maiasa) - every morning 毎晩 (maiban) - every evening/night よく (yoku) - often 時々 (tokidoki) - sometimes たまに (tama ni) - occasionally あまり〜ない (amari~nai) - not often 全然〜ない (zenzen~nai) - never"
+          },
+          {
+            "level": 3,
+            "heading": "With frequency words",
+            "content": "いつもコーヒーを飲む。 Itsumo ko-hi- wo nomu. \"I always drink coffee.\" 毎朝ジョギングする。 Maiasa jogingu suru. \"I jog every morning.\" よく映画を見る。 Yoku eiga wo miru. \"I often watch movies.\" 時々図書館に行く。 Tokidoki toshokan ni iku. \"I sometimes go to the library.\" たまに料理を作る。 Tama ni ryouri wo tsukuru. \"I occasionally cook.\" あまり運動しない。 Amari undou shinai. \"I don't exercise much.\" 全然テレビを見ない。 Zenzen terebi wo minai. \"I never watch TV.\""
+          }
+        ]
+      },
+      {
+        "level": 2,
+        "heading": "Past Habits - 〜たものだ",
+        "content": "",
+        "children": [
+          {
+            "level": 3,
+            "heading": "Nostalgic past habits",
+            "content": "[Verb た-form] + ものだ\n\n子供の頃、よくここで遊んだものだ。 Kodomo no koro, yoku koko de asonda mono da. \"When I was a child, I used to play here often.\" 学生時代はよく徹夜したものだ。 Gakusei jidai wa yoku tetsuya shita mono da. \"During my student days, I used to pull all-nighters often.\" 昔はよく一緒に映画を見たものだ。 Mukashi wa yoku issho ni eiga wo mita mono da. \"We used to watch movies together often in the past.\"\n\nSee: 〜ものだ (Used to)"
+          }
+        ]
+      },
+      {
+        "level": 2,
+        "heading": "Past Habits - 〜ていた",
+        "content": "",
+        "children": [
+          {
+            "level": 3,
+            "heading": "Was doing regularly",
+            "content": "[Verb て-form] + いた\n\n毎日走っていた。 Mainichi hashitte ita. \"I was running every day.\" / \"I used to run every day.\" 大学生の時、アルバイトをしていた。 Daigakusei no toki, arubaito wo shite ita. \"When I was a university student, I was working part-time.\" 昔はよくこの店に来ていた。 Mukashi wa yoku kono mise ni kite ita. \"I used to come to this store often.\"\n\nSee: 〜ていた (Was doing)"
+          }
+        ]
+      },
+      {
+        "level": 2,
+        "heading": "Daily Routines",
+        "content": "",
+        "children": [
+          {
+            "level": 3,
+            "heading": "Describing your daily schedule",
+            "content": "朝6時に起きます。 Asa rokuji ni okimasu. \"I wake up at 6 AM.\" 朝ご飯を食べてから、会社に行きます。 Asagohan wo tabete kara, kaisha ni ikimasu. \"After eating breakfast, I go to work.\" 夜10時頃寝ます。 Yoru juuji goro nemasu. \"I go to bed around 10 PM.\" 週末は友達と遊びます。 Shuumatsu wa tomodachi to asobimasu. \"On weekends, I hang out with friends.\""
+          }
+        ]
+      },
+      {
+        "level": 2,
+        "heading": "Weekly/Monthly Routines",
+        "content": "",
+        "children": [
+          {
+            "level": 3,
+            "heading": "Regular schedules",
+            "content": "月曜日から金曜日まで働く。 Getsuyoubi kara kin'youbi made hataraku. \"I work from Monday to Friday.\" 週に3回ジムに行く。 Shuu ni sankai jimu ni iku. \"I go to the gym three times a week.\" 月に一度実家に帰る。 Tsuki ni ichido jikka ni kaeru. \"I return to my family home once a month.\" 年に2回旅行する。 Nen ni nikai ryokou suru. \"I travel twice a year.\""
+          }
+        ]
+      },
+      {
+        "level": 2,
+        "heading": "Expressing \"Always\" and \"Never\"",
+        "content": "",
+        "children": [
+          {
+            "level": 3,
+            "heading": "Absolute frequency",
+            "content": "いつも同じ時間に起きる。 Itsumo onaji jikan ni okiru. \"I always wake up at the same time.\" 必ず歯を磨く。 Kanarazu ha wo migaku. \"I always brush my teeth.\" / \"I definitely brush my teeth.\" 決して嘘をつかない。 Kesshite uso wo tsukanai. \"I never lie.\" 一度も遅刻したことがない。 Ichido mo chikoku shita koto ga nai. \"I have never been late, not even once.\""
+          }
+        ]
+      },
+      {
+        "level": 2,
+        "heading": "Negative Habits",
+        "content": "",
+        "children": [
+          {
+            "level": 3,
+            "heading": "Things you don't do regularly",
+            "content": "あまり外食しない。 Amari gaishoku shinai. \"I don't eat out much.\" ほとんど運動しない。 Hotondo undou shinai. \"I hardly exercise.\" 滅多に遅刻しない。 Metta ni chikoku shinai. \"I rarely am late.\" 全然お酒を飲まない。 Zenzen osake wo nomanai. \"I don't drink alcohol at all.\""
+          }
+        ]
+      },
+      {
+        "level": 2,
+        "heading": "Changing Habits",
+        "content": "",
+        "children": [
+          {
+            "level": 3,
+            "heading": "Started/stopped doing something",
+            "content": "最近よく走るようになった。 Saikin yoku hashiru you ni natta. \"Recently, I've started running often.\" タバコをやめた。 Tabako wo yameta. \"I quit smoking.\" 昔はよく飲んだが、今は飲まない。 Mukashi wa yoku nonda ga, ima wa nomanai. \"I used to drink often, but now I don't.\""
+          }
+        ]
+      },
+      {
+        "level": 2,
+        "heading": "Conditional Habits",
+        "content": "",
+        "children": [
+          {
+            "level": 3,
+            "heading": "When/If routines",
+            "content": "雨が降ったら、家にいる。 Ame ga futtara, ie ni iru. \"When it rains, I stay home.\" 時間があれば、本を読む。 Jikan ga areba, hon wo yomu. \"When I have time, I read books.\" 暇な時は散歩する。 Hima na toki wa sanpo suru. \"When I'm free, I take walks.\""
+          }
+        ]
+      },
+      {
+        "level": 2,
+        "heading": "Describing Someone Else's Habits",
+        "content": "",
+        "children": [
+          {
+            "level": 3,
+            "heading": "Third person habits",
+            "content": "彼は毎日ジョギングする。 Kare wa mainichi jogingu suru. \"He jogs every day.\" 母はよく料理を作る。 Haha wa yoku ryouri wo tsukuru. \"My mother often cooks.\" 田中さんはいつも遅刻する。 Tanaka-san wa itsumo chikoku suru. \"Tanaka is always late.\""
+          }
+        ]
+      },
+      {
+        "level": 2,
+        "heading": "Bad Habits",
+        "content": "",
+        "children": [
+          {
+            "level": 3,
+            "heading": "Undesirable behaviors",
+            "content": "つい食べ過ぎてしまう。 Tsui tabesugite shimau. \"I end up overeating.\" / \"I tend to overeat.\" よく忘れ物をする。 Yoku wasuremono wo suru. \"I often forget things.\" 夜更かしする癖がある。 Yofukashi suru kuse ga aru. \"I have a habit of staying up late.\" すぐ諦めてしまう。 Sugu akiramete shimau. \"I give up easily.\""
+          }
+        ]
+      },
+      {
+        "level": 2,
+        "heading": "Good Habits",
+        "content": "",
+        "children": [
+          {
+            "level": 3,
+            "heading": "Positive routines",
+            "content": "毎日早く起きる。 Mainichi hayaku okiru. \"I wake up early every day.\" 健康的な食事を心がけている。 Kenkouteki na shokuji wo kokorogakete iru. \"I try to eat healthy.\" 規則正しい生活をしている。 Kisoku tadashii seikatsu wo shite iru. \"I live a regular lifestyle.\" 毎日感謝の気持ちを持つ。 Mainichi kansha no kimochi wo motsu. \"I have gratitude every day.\""
+          }
+        ]
+      },
+      {
+        "level": 2,
+        "heading": "Comparing Past and Present Habits",
+        "content": "",
+        "children": [
+          {
+            "level": 3,
+            "heading": "Then vs now",
+            "content": "昔はよくタバコを吸ったが、今は吸わない。 Mukashi wa yoku tabako wo sutta ga, ima wa suwanai. \"I used to smoke often, but now I don't.\" 学生の時は毎日勉強していたが、今はしない。 Gakusei no toki wa mainichi benkyou shite ita ga, ima wa shinai. \"When I was a student, I studied every day, but now I don't.\" 前は肉を食べていたが、今はベジタリアンだ。 Mae wa niku wo tabete ita ga, ima wa bejitarian da. \"I used to eat meat, but now I'm vegetarian.\""
+          }
+        ]
+      },
+      {
+        "level": 2,
+        "heading": "Seasonal Habits",
+        "content": "",
+        "children": [
+          {
+            "level": 3,
+            "heading": "Activities by season",
+            "content": "夏はよく海に行く。 Natsu wa yoku umi ni iku. \"In summer, I often go to the beach.\" 冬になると、スキーをする。 Fuyu ni naru to, suki- wo suru. \"When winter comes, I ski.\" 春には花見に行く。 Haru ni wa hanami ni iku. \"In spring, I go cherry blossom viewing.\""
+          }
+        ]
+      },
+      {
+        "level": 2,
+        "heading": "Work Habits",
+        "content": "",
+        "children": [
+          {
+            "level": 3,
+            "heading": "Professional routines",
+            "content": "平日は会社で働く。 Heijitsu wa kaisha de hataraku. \"On weekdays, I work at the company.\" 毎朝8時に出勤する。 Maiasa hachiji ni shukkin suru. \"I go to work at 8 AM every morning.\" 昼休みは外で食べる。 Hiruyasumi wa soto de taberu. \"I eat out during lunch break.\" 残業することが多い。 Zangyou suru koto ga ooi. \"I often work overtime.\""
+          }
+        ]
+      },
+      {
+        "level": 2,
+        "heading": "Study Habits",
+        "content": "",
+        "children": [
+          {
+            "level": 3,
+            "heading": "Learning routines",
+            "content": "毎日1時間日本語を勉強する。 Mainichi ichijikan nihongo wo benkyou suru. \"I study Japanese for one hour every day.\" 週末は図書館で勉強する。 Shuumatsu wa toshokan de benkyou suru. \"On weekends, I study at the library.\" 寝る前に本を読む。 Neru mae ni hon wo yomu. \"I read books before sleeping.\""
+          }
+        ]
+      },
+      {
+        "level": 2,
+        "heading": "Exercise Habits",
+        "content": "",
+        "children": [
+          {
+            "level": 3,
+            "heading": "Fitness routines",
+            "content": "毎朝走る。 Maiasa hashiru. \"I run every morning.\" 週に3回ジムに行く。 Shuu ni sankai jimu ni iku. \"I go to the gym three times a week.\" ヨガを続けている。 Yoga wo tsudzukete iru. \"I continue doing yoga.\""
+          }
+        ]
+      },
+      {
+        "level": 2,
+        "heading": "Eating Habits",
+        "content": "",
+        "children": [
+          {
+            "level": 3,
+            "heading": "Dietary routines",
+            "content": "朝ご飯は必ず食べる。 Asagohan wa kanarazu taberu. \"I always eat breakfast.\" 野菜をたくさん食べる。 Yasai wo takusan taberu. \"I eat lots of vegetables.\" 夜遅く食べない。 Yoru osoku tabenai. \"I don't eat late at night.\" 間食はしない。 Kanshoku wa shinai. \"I don't snack.\""
+          }
+        ]
+      },
+      {
+        "level": 2,
+        "heading": "Formal Descriptions",
+        "content": "",
+        "children": [
+          {
+            "level": 3,
+            "heading": "Professional/formal contexts",
+            "content": "毎日定時に出社いたします。 Mainichi teiji ni shussha itashimasu. \"I come to the office on time every day.\" [Humble] 週に一度会議を開催しております。 Shuu ni ichido kaigi wo kaisai shite orimasu. \"We hold meetings once a week.\" [Humble/formal] 定期的にご報告させていただきます。 Teikiteki ni gohoukoku sasete itadakimasu. \"I will report regularly.\" [Very polite]"
+          }
+        ]
+      },
+      {
+        "level": 2,
+        "heading": "Asking About Habits",
+        "content": "",
+        "children": [
+          {
+            "level": 3,
+            "heading": "Questions about routines",
+            "content": "いつも何時に起きますか。 Itsumo nanji ni okimasu ka. \"What time do you usually wake up?\" 週末は何をしますか。 Shuumatsu wa nani wo shimasu ka. \"What do you do on weekends?\" どのくらい運動しますか。 Dono kurai undou shimasu ka. \"How often do you exercise?\" 毎日お酒を飲みますか。 Mainichi osake wo nomimasu ka. \"Do you drink alcohol every day?\""
+          }
+        ]
+      },
+      {
+        "level": 2,
+        "heading": "Natural Conversation",
+        "content": "",
+        "children": [
+          {
+            "level": 3,
+            "heading": "Discussing routines",
+            "content": "A: 毎日何時に起きますか。 Mainichi nanji ni okimasu ka. \"What time do you wake up every day?\" B: だいたい7時に起きます。 Daitai shichiji ni okimasu. \"I usually wake up at 7 o'clock.\" A: 朝ご飯は食べますか。 Asagohan wa tabemasu ka. \"Do you eat breakfast?\" B: はい、必ず食べます。 Hai, kanarazu tabemasu. \"Yes, I always eat it.\""
+          }
+        ]
+      },
+      {
+        "level": 2,
+        "heading": "Common Mistakes",
+        "content": "",
+        "children": [
+          {
+            "level": 3,
+            "heading": "Mistake 1: Using 〜ている for All Habits",
+            "content": "❌ 毎日走っている (overuse) ✓ 毎日走る (simple present for habits) ✓ 走っている (when emphasizing ongoing state)\n\nSimple present is often more natural for habits."
+          },
+          {
+            "level": 3,
+            "heading": "Mistake 2: Wrong Frequency Words",
+            "content": "❌ いつも全然行かない (contradictory) ✓ 全然行かない (\"never go\") ✓ いつも行く (\"always go\")\n\nMatch frequency word with positive/negative."
+          },
+          {
+            "level": 3,
+            "heading": "Mistake 3: Confusing Past Habit Patterns",
+            "content": "〜たものだ: nostalgic, reflective 〜ていた: neutral past habit Choose based on nuance desired."
+          },
+          {
+            "level": 3,
+            "heading": "Mistake 4: Using Progressive for Simple Habits",
+            "content": "❌ 私は食べています (for \"I eat\" as a habit) ✓ 私は食べる (simple present) ✓ 今食べている (\"I'm eating now\")\n\nUse simple form for general habits."
+          }
+        ]
+      },
+      {
+        "level": 2,
+        "heading": "Summary",
+        "content": "Key Points:\n\nSimple present form most common for current habits 〜ている for ongoing states and some habits 〜たものだ for nostalgic past habits 〜ていた for neutral past habits Frequency words: いつも, 毎日, よく, 時々, たまに, あまり〜ない, 全然〜ない Time expressions: 毎朝, 毎週, 毎月, 毎年 Negative habits: あまり〜ない, ほとんど〜ない, 全然〜ない Essential for describing routines and regular activities Context determines which pattern to use",
+        "children": [
+          {
+            "level": 3,
+            "heading": "Company",
+            "content": "About Pricing Blog Contact"
+          },
+          {
+            "level": 3,
+            "heading": "Legal",
+            "content": "Privacy Policy Terms of Service Cookie Policy"
+          }
+        ]
+      }
+    ]
+  },
+  "metadata": {
+    "extracted_at": "2026-01-01T22:19:29.809210Z",
+    "duration_ms": 5,
+    "extractors_matched": [
+      "metadata",
+      "examples",
+      "sections"
+    ],
+    "extractors_failed": [
+      "vocab_tables",
+      "definitions",
+      "content_blocks"
+    ]
+  }
+}

@@ -1,0 +1,304 @@
+{
+  "config_name": "Language Learning Extractor",
+  "url": "https://practice-japanese.com/docs/honorific-verbs/",
+  "data": {
+    "examples": [
+      {
+        "sentence": "About"
+      },
+      {
+        "sentence": "Pricing"
+      },
+      {
+        "sentence": "Blog"
+      },
+      {
+        "sentence": "Contact"
+      },
+      {
+        "sentence": "Privacy Policy"
+      },
+      {
+        "sentence": "Terms of Service"
+      },
+      {
+        "sentence": "Cookie Policy"
+      }
+    ],
+    "metadata": {
+      "title": "Common Honorific Verbs"
+    },
+    "sections": [
+      {
+        "level": 2,
+        "heading": "Common Honorific Verbs",
+        "content": "Honorific verbs are special respectful forms used to elevate others' actions. These are sonkeigo (尊敬語) forms used when talking about what superiors, customers, or elders do. Learning these common verbs is essential for proper keigo usage.\n\nRegular → Honorific 来る → いらっしゃる \"come\" 言う → おっしゃる \"say\" 食べる → 召し上がる \"eat\""
+      },
+      {
+        "level": 2,
+        "heading": "Essential Honorific Verbs",
+        "content": "",
+        "children": [
+          {
+            "level": 3,
+            "heading": "いらっしゃる (be/come/go)",
+            "content": "いる → いらっしゃる \"be/exist\" 行く → いらっしゃる \"go\" 来る → いらっしゃる \"come\" Most versatile honorific Three meanings Context determines which 先生はいらっしゃいますか。 \"Is the teacher here?\" (be) 明日いらっしゃいますか。 \"Will you come tomorrow?\" (come) どちらへいらっしゃいますか。 \"Where are you going?\" (go)"
+          },
+          {
+            "level": 3,
+            "heading": "おっしゃる (say)",
+            "content": "言う → おっしゃる \"say\" 何とおっしゃいましたか。 \"What did you say?\" 先生がそうおっしゃっていました。 \"The teacher was saying so.\" Common in conversation Reporting speech"
+          },
+          {
+            "level": 3,
+            "heading": "召し上がる (eat/drink)",
+            "content": "食べる → 召し上がる \"eat\" 飲む → 召し上がる \"drink\" コーヒーを召し上がりますか。 \"Will you have coffee?\" もう召し上がりましたか。 \"Have you eaten already?\" Both food and beverages"
+          },
+          {
+            "level": 3,
+            "heading": "なさる (do)",
+            "content": "する → なさる \"do\" お仕事をなさっていますか。 \"Are you working?\" 何をなさいますか。 \"What will you do?\" General \"do\""
+          },
+          {
+            "level": 3,
+            "heading": "ご覧になる (see/look)",
+            "content": "見る → ご覧になる \"see/look\" 資料をご覧になりましたか。 \"Did you see the documents?\" こちらをご覧ください。 \"Please look at this.\" Polite viewing"
+          },
+          {
+            "level": 3,
+            "heading": "くださる (give to me)",
+            "content": "くれる → くださる \"give\" 教えてくださる \"Give teaching / Teach (me)\" 手伝ってくださる \"Give help / Help (me)\" Superior gives to you"
+          }
+        ]
+      },
+      {
+        "level": 2,
+        "heading": "Movement Verbs",
+        "content": "",
+        "children": [
+          {
+            "level": 3,
+            "heading": "お見えになる (come/arrive)",
+            "content": "来る → お見えになる \"come/arrive\" お客様がお見えになりました。 \"The customer has arrived.\" Formal arrival Often for guests"
+          },
+          {
+            "level": 3,
+            "heading": "お帰りになる (return/go home)",
+            "content": "帰る → お帰りになる \"return\" 何時にお帰りになりますか。 \"What time will you return?\" いつお帰りになりましたか。 \"When did you return?\" Going/coming back"
+          }
+        ]
+      },
+      {
+        "level": 2,
+        "heading": "Knowing and Thinking",
+        "content": "",
+        "children": [
+          {
+            "level": 3,
+            "heading": "ご存じ (know)",
+            "content": "知る → ご存じ \"know\" ご存じですか。 \"Do you know?\" もうご存じでしたか。 \"Did you already know?\" State of knowing Usually with です"
+          },
+          {
+            "level": 3,
+            "heading": "お思いになる (think)",
+            "content": "思う → お思いになる \"think\" どうお思いになりますか。 \"What do you think?\" Less common than 思う"
+          }
+        ]
+      },
+      {
+        "level": 2,
+        "heading": "Sleeping and Resting",
+        "content": "",
+        "children": [
+          {
+            "level": 3,
+            "heading": "お休みになる (sleep/rest)",
+            "content": "寝る → お休みになる \"sleep\" 休む → お休みになる \"rest\" もうお休みになりましたか。 \"Have you gone to bed already?\" ゆっくりお休みください。 \"Please rest well.\" Sleep or rest"
+          }
+        ]
+      },
+      {
+        "level": 2,
+        "heading": "Wearing",
+        "content": "",
+        "children": [
+          {
+            "level": 3,
+            "heading": "お召しになる (wear)",
+            "content": "着る → お召しになる \"wear\" 何をお召しになりますか。 \"What will you wear?\" Very formal Clothing"
+          }
+        ]
+      },
+      {
+        "level": 2,
+        "heading": "Asking and Listening",
+        "content": "",
+        "children": [
+          {
+            "level": 3,
+            "heading": "お聞きになる (hear/listen/ask)",
+            "content": "聞く → お聞きになる \"hear/listen\" もうお聞きになりましたか。 \"Have you heard already?\" Pattern: お + stem + になる"
+          }
+        ]
+      },
+      {
+        "level": 2,
+        "heading": "Reading and Writing",
+        "content": "",
+        "children": [
+          {
+            "level": 3,
+            "heading": "お読みになる (read)",
+            "content": "読む → お読みになる \"read\" この本をお読みになりましたか。 \"Did you read this book?\" お + stem + になる pattern"
+          },
+          {
+            "level": 3,
+            "heading": "お書きになる (write)",
+            "content": "書く → お書きになる \"write\" お名前をお書きください。 \"Please write your name.\" Pattern form"
+          }
+        ]
+      },
+      {
+        "level": 2,
+        "heading": "Waiting",
+        "content": "",
+        "children": [
+          {
+            "level": 3,
+            "heading": "お待ちになる (wait)",
+            "content": "待つ → お待ちになる \"wait\" お待ちになっていますか。 \"Are you waiting?\" 少々お待ちください。 \"Please wait a moment.\" Common in service"
+          }
+        ]
+      },
+      {
+        "level": 2,
+        "heading": "Buying and Deciding",
+        "content": "",
+        "children": [
+          {
+            "level": 3,
+            "heading": "お買いになる (buy)",
+            "content": "買う → お買いになる \"buy\" 何をお買いになりましたか。 \"What did you buy?\" Shopping context"
+          },
+          {
+            "level": 3,
+            "heading": "お決めになる (decide)",
+            "content": "決める → お決めになる \"decide\" もうお決めになりましたか。 \"Have you decided already?\" Making choices"
+          }
+        ]
+      },
+      {
+        "level": 2,
+        "heading": "Using and Choosing",
+        "content": "",
+        "children": [
+          {
+            "level": 3,
+            "heading": "お使いになる (use)",
+            "content": "使う → お使いになる \"use\" これをお使いください。 \"Please use this.\" Common offering"
+          },
+          {
+            "level": 3,
+            "heading": "お選びになる (choose)",
+            "content": "選ぶ → お選びになる \"choose\" どちらをお選びになりますか。 \"Which will you choose?\" Presenting options"
+          }
+        ]
+      },
+      {
+        "level": 2,
+        "heading": "Conjugation Patterns",
+        "content": "",
+        "children": [
+          {
+            "level": 3,
+            "heading": "Present polite",
+            "content": "いらっしゃいます \"is/comes/goes\" おっしゃいます \"says\" 召し上がります \"eats/drinks\" なさいます \"does\" Add ます"
+          },
+          {
+            "level": 3,
+            "heading": "Past polite",
+            "content": "いらっしゃいました \"was/came/went\" おっしゃいました \"said\" 召し上がりました \"ate/drank\" Add ました"
+          },
+          {
+            "level": 3,
+            "heading": "Negative",
+            "content": "いらっしゃいません \"isn't/doesn't come\" おっしゃいません \"doesn't say\" 召し上がりません \"doesn't eat\" Add ません"
+          },
+          {
+            "level": 3,
+            "heading": "Te-form",
+            "content": "いらっしゃって \"being/coming/going\" おっしゃって \"saying\" 召し上がって \"eating/drinking\" Regular て conjugation"
+          }
+        ]
+      },
+      {
+        "level": 2,
+        "heading": "Common Mistakes",
+        "content": "",
+        "children": [
+          {
+            "level": 3,
+            "heading": "Using for yourself",
+            "content": "Wrong: 私がいらっしゃる ⚠️ Correct: 私が行く/参る ✓ Don't elevate yourself"
+          },
+          {
+            "level": 3,
+            "heading": "Using for peers",
+            "content": "Unnatural: 友達がいらっしゃる ⚠️ Natural: 友達が来る ✓ Match relationship level"
+          },
+          {
+            "level": 3,
+            "heading": "Mixing regular and honorific",
+            "content": "Inconsistent: 先生が来ておっしゃった ⚠️ Consistent: 先生がいらっしゃっておっしゃった ✓ Be consistent"
+          }
+        ]
+      },
+      {
+        "level": 2,
+        "heading": "Quick Reference Chart",
+        "content": "Regular → Honorific いる → いらっしゃる (be) 行く → いらっしゃる (go) 来る → いらっしゃる/お見えになる (come) 言う → おっしゃる (say) する → なさる (do) 食べる → 召し上がる (eat) 飲む → 召し上がる (drink) 見る → ご覧になる (see) 知る → ご存じ (know) くれる → くださる (give) 寝る → お休みになる (sleep) 聞く → お聞きになる (hear) 読む → お読みになる (read)"
+      },
+      {
+        "level": 2,
+        "heading": "Practice Sentences",
+        "content": "",
+        "children": [
+          {
+            "level": 3,
+            "heading": "Basic",
+            "content": "先生がいらっしゃいます。 \"The teacher is here/comes.\" 何とおっしゃいましたか。 \"What did you say?\" お茶を召し上がりますか。 \"Will you have tea?\" 資料をご覧ください。 \"Please look at the documents.\" ご存じですか。 \"Do you know?\""
+          },
+          {
+            "level": 3,
+            "heading": "Intermediate",
+            "content": "部長はもうお帰りになりましたか。 いいえ、まだ会議室に いらっしゃいます。 \"Has the director returned already? No, he/she is still in the meeting room.\" お客様、こちらの商品を ご覧になりますか。新商品で とても人気がございます。 \"Customer, will you look at this product? It's a new product and is very popular.\" 先生がおっしゃっていたことを よく覚えています。とても 大切なお話でした。 \"I remember well what the teacher was saying. It was a very important talk.\""
+          },
+          {
+            "level": 3,
+            "heading": "Company",
+            "content": "About Pricing Blog Contact"
+          },
+          {
+            "level": 3,
+            "heading": "Legal",
+            "content": "Privacy Policy Terms of Service Cookie Policy"
+          }
+        ]
+      }
+    ]
+  },
+  "metadata": {
+    "extracted_at": "2026-01-01T22:19:29.850783200Z",
+    "duration_ms": 3,
+    "extractors_matched": [
+      "metadata",
+      "examples",
+      "sections"
+    ],
+    "extractors_failed": [
+      "vocab_tables",
+      "definitions",
+      "content_blocks"
+    ]
+  }
+}

@@ -1,0 +1,386 @@
+{
+  "config_name": "Language Learning Extractor",
+  "url": "https://practice-japanese.com/docs/time-words/",
+  "data": {
+    "metadata": {
+      "title": "Time Words (今、昨日、明日)"
+    },
+    "examples": [
+      {
+        "sentence": "Present Tense Usage - Using time words with present"
+      },
+      {
+        "sentence": "Past Tense Usage - Past time expressions"
+      },
+      {
+        "sentence": "Future Expressions - Future time words"
+      },
+      {
+        "sentence": "Frequency - How often"
+      },
+      {
+        "sentence": "Duration - How long"
+      },
+      {
+        "sentence": "Before/After - Temporal relationships"
+      },
+      {
+        "sentence": "About"
+      },
+      {
+        "sentence": "Pricing"
+      },
+      {
+        "sentence": "Blog"
+      },
+      {
+        "sentence": "Contact"
+      },
+      {
+        "sentence": "Privacy Policy"
+      },
+      {
+        "sentence": "Terms of Service"
+      },
+      {
+        "sentence": "Cookie Policy"
+      }
+    ],
+    "sections": [
+      {
+        "level": 2,
+        "heading": "Essential Time Words",
+        "content": "Japanese has specific words for different time references. These words help clarify when actions occur.\n\n今 - now 昨日 - yesterday 明日 - tomorrow"
+      },
+      {
+        "level": 2,
+        "heading": "Present Time (Now)",
+        "content": "",
+        "children": [
+          {
+            "level": 3,
+            "heading": "今 (ima) - Now",
+            "content": "今、勉強している \"I'm studying now\" 今は忙しい \"I'm busy now\" 今すぐ行く \"I'll go right now\""
+          },
+          {
+            "level": 3,
+            "heading": "現在 (genzai) - Present/Currently",
+            "content": "More formal:\n\n現在、東京に住んでいます \"I currently live in Tokyo\" 現在の状況 \"the current situation\""
+          },
+          {
+            "level": 3,
+            "heading": "今日 (kyou) - Today",
+            "content": "今日は暑い \"It's hot today\" 今日何をしますか？ \"What will you do today?\" 今日は月曜日です \"Today is Monday\""
+          }
+        ]
+      },
+      {
+        "level": 2,
+        "heading": "Past Time",
+        "content": "",
+        "children": [
+          {
+            "level": 3,
+            "heading": "昨日 (kinou) - Yesterday",
+            "content": "昨日映画を見た \"I watched a movie yesterday\" 昨日は雨だった \"It was rainy yesterday\" 昨日の夜 \"last night\""
+          },
+          {
+            "level": 3,
+            "heading": "一昨日 (ototoi) - Day before yesterday",
+            "content": "一昨日友達に会った \"I met a friend the day before yesterday\" 一昨日は寒かった \"It was cold the day before yesterday\""
+          },
+          {
+            "level": 3,
+            "heading": "さっき (sakki) - Just now/A moment ago",
+            "content": "さっき食べた \"I ate just now\" さっき彼が来た \"He came a moment ago\""
+          },
+          {
+            "level": 3,
+            "heading": "先ほど (sakihodo) - A while ago (polite)",
+            "content": "先ほどお電話しました \"I called a while ago\" 先ほどはありがとうございました \"Thank you for earlier\""
+          }
+        ]
+      },
+      {
+        "level": 2,
+        "heading": "Future Time",
+        "content": "",
+        "children": [
+          {
+            "level": 3,
+            "heading": "明日 (ashita/asu) - Tomorrow",
+            "content": "明日東京に行く \"I'll go to Tokyo tomorrow\" 明日は休みです \"Tomorrow is a day off\" 明日の朝 \"tomorrow morning\""
+          },
+          {
+            "level": 3,
+            "heading": "明後日 (asatte) - Day after tomorrow",
+            "content": "明後日テストがある \"There's a test the day after tomorrow\" 明後日会いましょう \"Let's meet the day after tomorrow\""
+          },
+          {
+            "level": 3,
+            "heading": "後で (atode) - Later",
+            "content": "後で電話します \"I'll call later\" 後でやる \"I'll do it later\""
+          },
+          {
+            "level": 3,
+            "heading": "すぐ (sugu) - Soon/Right away",
+            "content": "すぐ行きます \"I'll go right away\" すぐ始まる \"It will start soon\""
+          },
+          {
+            "level": 3,
+            "heading": "もうすぐ (mousugu) - Soon/Before long",
+            "content": "もうすぐ着く \"I'll arrive soon\" もうすぐ春だ \"It will be spring soon\""
+          }
+        ]
+      },
+      {
+        "level": 2,
+        "heading": "This/Last/Next",
+        "content": "",
+        "children": [
+          {
+            "level": 3,
+            "heading": "This Week/Month/Year",
+            "content": "今週 (konshuu) - this week 今月 (kongetsu) - this month 今年 (kotoshi) - this year 今週は忙しい \"I'm busy this week\" 今月の予定 \"this month's schedule\""
+          },
+          {
+            "level": 3,
+            "heading": "Last Week/Month/Year",
+            "content": "先週 (senshuu) - last week 先月 (sengetsu) - last month 去年 (kyonen) - last year 先週映画を見た \"I watched a movie last week\" 去年日本に行った \"I went to Japan last year\""
+          },
+          {
+            "level": 3,
+            "heading": "Next Week/Month/Year",
+            "content": "来週 (raishuu) - next week 来月 (raigetsu) - next month 来年 (rainen) - next year 来週テストがある \"There's a test next week\" 来年結婚します \"I'll get married next year\""
+          },
+          {
+            "level": 3,
+            "heading": "Week/Month/Year After Next",
+            "content": "再来週 (saraishuu) - week after next 再来月 (saraigetsu) - month after next 再来年 (sarainen) - year after next 再来週会いましょう \"Let's meet the week after next\""
+          }
+        ]
+      },
+      {
+        "level": 2,
+        "heading": "Morning/Afternoon/Evening/Night",
+        "content": "",
+        "children": [
+          {
+            "level": 3,
+            "heading": "朝 (asa) - Morning",
+            "content": "今朝 (kesa) - this morning 明日の朝 (ashita no asa) - tomorrow morning 毎朝 (maiasa) - every morning 今朝パンを食べた \"I ate bread this morning\""
+          },
+          {
+            "level": 3,
+            "heading": "昼 (hiru) - Daytime/Noon",
+            "content": "お昼 (ohiru) - lunch time 昼ごはん (hirugohan) - lunch 毎日昼に (mainichi hiru ni) - every day at noon"
+          },
+          {
+            "level": 3,
+            "heading": "夕方 (yuugata) - Evening",
+            "content": "夕方会いましょう \"Let's meet in the evening\" 夕方は涼しい \"It's cool in the evening\""
+          },
+          {
+            "level": 3,
+            "heading": "晩/夜 (ban/yoru) - Night",
+            "content": "今晩 (konban) - tonight 昨晩 (sakuban) - last night 毎晩 (maiban) - every night 今晩映画を見る \"I'll watch a movie tonight\" 昨晩遅く寝た \"I went to bed late last night\""
+          }
+        ]
+      },
+      {
+        "level": 2,
+        "heading": "Ago (〜前)",
+        "content": "",
+        "children": [
+          {
+            "level": 3,
+            "heading": "Time + 前 (mae)",
+            "content": "3日前 - 3 days ago 1週間前 - 1 week ago 2年前 - 2 years ago 5分前 - 5 minutes ago 3日前に会った \"I met (them) 3 days ago\" 2年前に日本に来た \"I came to Japan 2 years ago\""
+          }
+        ]
+      },
+      {
+        "level": 2,
+        "heading": "Since/From (〜から)",
+        "content": "昨日から - since yesterday 先週から - since last week 今朝から - since this morning 昨日から雨が降っている \"It's been raining since yesterday\" 先週から忙しい \"I've been busy since last week\""
+      },
+      {
+        "level": 2,
+        "heading": "Always/Usually/Sometimes",
+        "content": "",
+        "children": [
+          {
+            "level": 3,
+            "heading": "いつも (itsumo) - Always",
+            "content": "いつも早く起きる \"I always wake up early\" いつもここで勉強します \"I always study here\""
+          },
+          {
+            "level": 3,
+            "heading": "普段 (fudan) - Usually/Normally",
+            "content": "普段は7時に起きる \"I usually wake up at 7 o'clock\" 普段何を食べますか？ \"What do you usually eat?\""
+          },
+          {
+            "level": 3,
+            "heading": "時々 (tokidoki) - Sometimes",
+            "content": "時々映画を見る \"I sometimes watch movies\" 時々ここに来ます \"I sometimes come here\""
+          }
+        ]
+      },
+      {
+        "level": 2,
+        "heading": "Time of Day",
+        "content": "",
+        "children": [
+          {
+            "level": 3,
+            "heading": "Specific Times",
+            "content": "朝早く (asa hayaku) - early morning 昼間 (hiruma) - daytime 夜遅く (yoru osoku) - late at night 真夜中 (mayonaka) - midnight 朝早く起きた \"I woke up early in the morning\" 真夜中に帰った \"I went home at midnight\""
+          }
+        ]
+      },
+      {
+        "level": 2,
+        "heading": "Seasons",
+        "content": "",
+        "children": [
+          {
+            "level": 3,
+            "heading": "Four Seasons",
+            "content": "春 (haru) - spring 夏 (natsu) - summer 秋 (aki) - autumn/fall 冬 (fuyu) - winter 今年の春 - this spring 去年の夏 - last summer 来年の秋 - next autumn"
+          }
+        ]
+      },
+      {
+        "level": 2,
+        "heading": "Days of the Week",
+        "content": "",
+        "children": [
+          {
+            "level": 3,
+            "heading": "Basic Days",
+            "content": "月曜日 (getsuyoubi) - Monday 火曜日 (kayoubi) - Tuesday 水曜日 (suiyoubi) - Wednesday 木曜日 (mokuyoubi) - Thursday 金曜日 (kinyoubi) - Friday 土曜日 (doyoubi) - Saturday 日曜日 (nichiyoubi) - Sunday 今日は月曜日です \"Today is Monday\" 月曜日に会いましょう \"Let's meet on Monday\""
+          }
+        ]
+      },
+      {
+        "level": 2,
+        "heading": "Common Time Patterns",
+        "content": "",
+        "children": [
+          {
+            "level": 3,
+            "heading": "Every (毎〜)",
+            "content": "毎日 (mainichi) - every day 毎週 (maishuu) - every week 毎月 (maitsuki) - every month 毎年 (maitoshi) - every year 毎朝 (maiasa) - every morning 毎晩 (maiban) - every night 毎日運動する \"I exercise every day\" 毎週映画を見ます \"I watch movies every week\""
+          },
+          {
+            "level": 3,
+            "heading": "All Day/Night",
+            "content": "一日中 (ichinichijuu) - all day 一晩中 (hitoban juu) - all night 朝から晩まで (asa kara ban made) - from morning till night 一日中勉強した \"I studied all day\""
+          }
+        ]
+      },
+      {
+        "level": 2,
+        "heading": "Common Conversations",
+        "content": "",
+        "children": [
+          {
+            "level": 3,
+            "heading": "Example 1: Making Plans",
+            "content": "A: いつ会いますか？ \"When shall we meet?\" B: 明日はどうですか？ \"How about tomorrow?\" A: いいですね。何時がいいですか？ \"That's good. What time is good?\" B: 午後3時はどうですか？ \"How about 3 PM?\""
+          },
+          {
+            "level": 3,
+            "heading": "Example 2: Talking About Past",
+            "content": "A: 昨日何をしましたか？ \"What did you do yesterday?\" B: 映画を見ました \"I watched a movie\" A: 面白かったですか？ \"Was it interesting?\" B: はい、とても面白かったです \"Yes, it was very interesting\""
+          },
+          {
+            "level": 3,
+            "heading": "Example 3: Current Activity",
+            "content": "A: 今何をしていますか？ \"What are you doing now?\" B: 宿題をしています \"I'm doing homework\" A: 後で遊びませんか？ \"Won't you play later?\" B: いいですよ \"Sure\""
+          }
+        ]
+      },
+      {
+        "level": 2,
+        "heading": "Common Mistakes",
+        "content": "",
+        "children": [
+          {
+            "level": 3,
+            "heading": "Mistake 1: Wrong pronunciation",
+            "content": "明日: ashita (common) or asu (also correct) Not: myounichi ❌"
+          },
+          {
+            "level": 3,
+            "heading": "Mistake 2: Confusing similar words",
+            "content": "今日 (kyou) - today 昨日 (kinou) - yesterday 明日 (ashita) - tomorrow Don't confuse these!"
+          },
+          {
+            "level": 3,
+            "heading": "Mistake 3: Using wrong particles",
+            "content": "Wrong: 昨日で行った ❌ Right: 昨日行った ✓ \"I went yesterday\" Note: Time words don't usually need に"
+          }
+        ]
+      },
+      {
+        "level": 2,
+        "heading": "Practice Sentences",
+        "content": "",
+        "children": [
+          {
+            "level": 3,
+            "heading": "Present",
+            "content": "今勉強している \"I'm studying now\" 今日は暑いです \"It's hot today\" 今週は忙しい \"I'm busy this week\""
+          },
+          {
+            "level": 3,
+            "heading": "Past",
+            "content": "昨日映画を見た \"I watched a movie yesterday\" 先週東京に行きました \"I went to Tokyo last week\" 3日前に会った \"I met (them) 3 days ago\""
+          },
+          {
+            "level": 3,
+            "heading": "Future",
+            "content": "明日学校に行く \"I'll go to school tomorrow\" 来週テストがあります \"There will be a test next week\" 後で電話します \"I'll call later\""
+          },
+          {
+            "level": 3,
+            "heading": "Habitual",
+            "content": "毎日運動する \"I exercise every day\" いつも早く起きます \"I always wake up early\" 時々ここに来る \"I sometimes come here\""
+          }
+        ]
+      },
+      {
+        "level": 2,
+        "heading": "Related Grammar Points",
+        "content": "Present Tense Usage - Using time words with present Past Tense Usage - Past time expressions Future Expressions - Future time words Frequency - How often Duration - How long Before/After - Temporal relationships",
+        "children": [
+          {
+            "level": 3,
+            "heading": "Company",
+            "content": "About Pricing Blog Contact"
+          },
+          {
+            "level": 3,
+            "heading": "Legal",
+            "content": "Privacy Policy Terms of Service Cookie Policy"
+          }
+        ]
+      }
+    ]
+  },
+  "metadata": {
+    "extracted_at": "2026-01-01T22:19:36.492214700Z",
+    "duration_ms": 4,
+    "extractors_matched": [
+      "metadata",
+      "examples",
+      "sections"
+    ],
+    "extractors_failed": [
+      "vocab_tables",
+      "definitions",
+      "content_blocks"
+    ]
+  }
+}

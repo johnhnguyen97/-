@@ -1,0 +1,108 @@
+{
+  "config_name": "Language Learning Extractor",
+  "url": "https://practice-japanese.com/docs/particle-kurai/",
+  "data": {
+    "examples": [
+      {
+        "sentence": "ほど (hodo)"
+      },
+      {
+        "sentence": "だけ (dake)"
+      },
+      {
+        "sentence": "About"
+      },
+      {
+        "sentence": "Pricing"
+      },
+      {
+        "sentence": "Blog"
+      },
+      {
+        "sentence": "Contact"
+      },
+      {
+        "sentence": "Privacy Policy"
+      },
+      {
+        "sentence": "Terms of Service"
+      },
+      {
+        "sentence": "Cookie Policy"
+      }
+    ],
+    "sections": [
+      {
+        "level": 2,
+        "heading": "Core Function",
+        "content": "くらい/ぐらい expresses approximation or extent - \"about\" or \"approximately\"."
+      },
+      {
+        "level": 2,
+        "heading": "Main Uses",
+        "content": "",
+        "children": [
+          {
+            "level": 3,
+            "heading": "1. Approximate Quantity",
+            "content": "10個くらい - \"about 10\" 1時間くらい - \"about 1 hour\" 100円くらい - \"about 100 yen\" 三日くらい - \"about 3 days\""
+          },
+          {
+            "level": 3,
+            "heading": "2. Extent/Degree",
+            "content": "死ぬくらい疲れた \"tired to death\" (exaggeration) 泣きたいくらい嬉しい \"so happy I could cry\""
+          },
+          {
+            "level": 3,
+            "heading": "3. Minimum Expectation \"At Least\"",
+            "content": "これくらいできる \"can at least do this much\" 挨拶くらいしなさい \"at least say hello\""
+          }
+        ]
+      },
+      {
+        "level": 2,
+        "heading": "くらい vs ぐらい",
+        "content": "Same meaning, ぐらい slightly more casual:\n\n10個くらい ✓ 10個ぐらい ✓ Both mean \"about 10\"\n\nUse either - personal preference."
+      },
+      {
+        "level": 2,
+        "heading": "Common Patterns",
+        "content": "[Number]くらい 10個くらい - \"about 10\" [Extent]くらい これくらい - \"this much\" [Verb potential]くらい できるくらい - \"to the extent can do\""
+      },
+      {
+        "level": 2,
+        "heading": "Key Takeaways",
+        "content": "✓ Approximation \"about\" ✓ Extent/degree ✓ Minimum expectation ✓ くらい = ぐらい (same meaning)\n\nRelated:\n\nほど (hodo) だけ (dake)",
+        "children": [
+          {
+            "level": 3,
+            "heading": "Company",
+            "content": "About Pricing Blog Contact"
+          },
+          {
+            "level": 3,
+            "heading": "Legal",
+            "content": "Privacy Policy Terms of Service Cookie Policy"
+          }
+        ]
+      }
+    ],
+    "metadata": {
+      "title": "くらい/ぐらい (kurai/gurai) - About/Approximately"
+    }
+  },
+  "metadata": {
+    "extracted_at": "2026-01-01T22:19:32.854852500Z",
+    "duration_ms": 3,
+    "extractors_matched": [
+      "metadata",
+      "examples",
+      "sections"
+    ],
+    "extractors_failed": [
+      "vocab_tables",
+      "definitions",
+      "content_blocks"
+    ]
+  }
+}

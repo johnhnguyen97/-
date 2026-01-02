@@ -1,0 +1,165 @@
+{
+  "config_name": "Language Learning Extractor",
+  "url": "https://practice-japanese.com/docs/particle-wa/",
+  "data": {
+    "sections": [
+      {
+        "level": 2,
+        "heading": "Core Function",
+        "content": "は marks the topic of a sentence - what you're talking about.\n\nPronunciation: Written は but pronounced \"wa\"\n\n私は学生です watashi wa gakusei desu \"As for me, (I'm) a student\""
+      },
+      {
+        "level": 2,
+        "heading": "Main Uses",
+        "content": "",
+        "children": [
+          {
+            "level": 3,
+            "heading": "1. Introducing Topics",
+            "content": "Set the context for your statement:\n\nこれは本です - \"This is a book\" 東京は大きいです - \"Tokyo is big\" 猫は好きです - \"I like cats\" (general statement)"
+          },
+          {
+            "level": 3,
+            "heading": "2. Contrasting",
+            "content": "Implies \"but not others\":\n\n寿司は好きですが、刺身は嫌いです \"I like sushi, but I dislike sashimi\" ビールは飲みますが、ワインは飲みません \"I drink beer, but I don't drink wine\"\n\nEven without explicit contrast:\n\nビールは飲みます \"I drink beer (but maybe not other things)\""
+          },
+          {
+            "level": 3,
+            "heading": "3. General Statements",
+            "content": "Known or general information:\n\n犬は動物です - \"Dogs are animals\" 水は大切です - \"Water is important\""
+          },
+          {
+            "level": 3,
+            "heading": "4. Existing Topics",
+            "content": "When the topic is already established:\n\nA: 田中さんはどこですか？ \"Where is Tanaka?\" B: 田中さんは図書館です \"Tanaka is at the library\""
+          }
+        ]
+      },
+      {
+        "level": 2,
+        "heading": "は vs が",
+        "content": "Key differences:\n\n| は (wa) | が (ga) | | ------------------ | ------------------ | | Sets topic/context | Identifies subject | | Known information | New information | | General statements | Specific emphasis | | Can show contrast | No contrast |\n\n私は学生です \"I am a student\" (general statement) 私が学生です \"I am the student\" (emphasis: me specifically)\n\nSee: は vs が Explained"
+      },
+      {
+        "level": 2,
+        "heading": "Position",
+        "content": "Usually comes after the first or second word:\n\n私は毎日勉強します \"I study every day\" 今日は雨です \"Today it's raining\""
+      },
+      {
+        "level": 2,
+        "heading": "With Other Particles",
+        "content": "は can replace が, を, but not に, で, へ:",
+        "children": [
+          {
+            "level": 3,
+            "heading": "Replaces が",
+            "content": "雨が降る → 雨は降る \"Rain falls\" → \"As for rain, it falls\""
+          },
+          {
+            "level": 3,
+            "heading": "Replaces を",
+            "content": "寿司を食べる → 寿司は食べる \"Eat sushi\" → \"Sushi, I eat (but not other things)\""
+          },
+          {
+            "level": 3,
+            "heading": "Combines with に/で/へ",
+            "content": "東京には行きます (に + は = には) \"To Tokyo, I'll go\" 図書館では勉強しません (で + は = では) \"At the library, I don't study\""
+          }
+        ]
+      },
+      {
+        "level": 2,
+        "heading": "Common Patterns",
+        "content": "",
+        "children": [
+          {
+            "level": 3,
+            "heading": "Topic + Description",
+            "content": "象は鼻が長い \"Elephants have long trunks\" (As for elephants, noses are long)"
+          },
+          {
+            "level": 3,
+            "heading": "Question-Answer",
+            "content": "Q: 何を飲みますか？ \"What will you drink?\" A: 水を飲みます \"I'll drink water\" (answering what, not topic) But if asked about topic: Q: あなたは何を飲みますか？ A: 私は水を飲みます"
+          }
+        ]
+      },
+      {
+        "level": 2,
+        "heading": "Double は",
+        "content": "Can have two は for double contrast:\n\n私は魚は好きですが、肉は嫌いです \"As for me, fish I like, but meat I dislike\""
+      },
+      {
+        "level": 2,
+        "heading": "Omitting は",
+        "content": "In casual speech, は often dropped when obvious:\n\nFormal: 私は学生です Casual: 学生です \"(I'm) a student\""
+      },
+      {
+        "level": 2,
+        "heading": "Key Takeaways",
+        "content": "✓ Marks the topic/context ✓ Written は, pronounced \"wa\" ✓ Creates contrast (implicit or explicit) ✓ Use for general statements ✓ Different from が (subject marker)\n\nRelated:\n\nが (ga) - Subject Marker は vs が Explained Topic vs Subject",
+        "children": [
+          {
+            "level": 3,
+            "heading": "Company",
+            "content": "About Pricing Blog Contact"
+          },
+          {
+            "level": 3,
+            "heading": "Legal",
+            "content": "Privacy Policy Terms of Service Cookie Policy"
+          }
+        ]
+      }
+    ],
+    "examples": [
+      {
+        "sentence": "が (ga) - Subject Marker"
+      },
+      {
+        "sentence": "は vs が Explained"
+      },
+      {
+        "sentence": "Topic vs Subject"
+      },
+      {
+        "sentence": "About"
+      },
+      {
+        "sentence": "Pricing"
+      },
+      {
+        "sentence": "Blog"
+      },
+      {
+        "sentence": "Contact"
+      },
+      {
+        "sentence": "Privacy Policy"
+      },
+      {
+        "sentence": "Terms of Service"
+      },
+      {
+        "sentence": "Cookie Policy"
+      }
+    ],
+    "metadata": {
+      "title": "は (wa) - Topic Marker"
+    }
+  },
+  "metadata": {
+    "extracted_at": "2026-01-01T22:19:33.263115Z",
+    "duration_ms": 3,
+    "extractors_matched": [
+      "metadata",
+      "examples",
+      "sections"
+    ],
+    "extractors_failed": [
+      "vocab_tables",
+      "definitions",
+      "content_blocks"
+    ]
+  }
+}

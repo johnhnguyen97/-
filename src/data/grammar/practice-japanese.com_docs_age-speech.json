@@ -1,0 +1,320 @@
+{
+  "config_name": "Language Learning Extractor",
+  "url": "https://practice-japanese.com/docs/age-speech/",
+  "data": {
+    "examples": [
+      {
+        "sentence": "Different historical language education"
+      },
+      {
+        "sentence": "Generational slang and trends"
+      },
+      {
+        "sentence": "Changing social norms and formality"
+      },
+      {
+        "sentence": "Technological and cultural influences"
+      },
+      {
+        "sentence": "Shifting attitudes toward hierarchy"
+      },
+      {
+        "sentence": "Japanese speech varies significantly across age groups"
+      },
+      {
+        "sentence": "Hierarchy and respect are age-based"
+      },
+      {
+        "sentence": "Slang and casual language are youth-dominated"
+      },
+      {
+        "sentence": "Formality increases with age"
+      },
+      {
+        "sentence": "Technology creates generational language divides"
+      },
+      {
+        "sentence": "Always err on the side of respect"
+      },
+      {
+        "sentence": "About"
+      },
+      {
+        "sentence": "Pricing"
+      },
+      {
+        "sentence": "Blog"
+      },
+      {
+        "sentence": "Contact"
+      },
+      {
+        "sentence": "Privacy Policy"
+      },
+      {
+        "sentence": "Terms of Service"
+      },
+      {
+        "sentence": "Cookie Policy"
+      }
+    ],
+    "sections": [
+      {
+        "level": 2,
+        "heading": "Understanding Age-Related Speech",
+        "content": "Japanese speech patterns vary significantly across age groups, reflecting generational differences in education, social values, and cultural exposure. Understanding these differences helps you speak age-appropriately and communicate effectively across generations.\n\nWhy age affects speech:\n\nDifferent historical language education Generational slang and trends Changing social norms and formality Technological and cultural influences Shifting attitudes toward hierarchy\n\nKey principle: Adjust your speech level based on the age and status of the person you're speaking with, not just your own age."
+      },
+      {
+        "level": 2,
+        "heading": "Children's Speech (0-12 years)",
+        "content": "",
+        "children": [
+          {
+            "level": 3,
+            "heading": "Characteristics",
+            "content": "Simple vocabulary:\n\nおなか (onaka) instead of 腹 (hara) - \"stomach\" ごはん (gohan) instead of 食事 (shokuji) - \"meal\" おうち (ouchi) instead of 家 (ie/uchi) - \"home\"\n\nCute/childish expressions:\n\nばいばい (baibai) - \"Bye bye\" わんわん (wanwan) - \"doggy\" ぶーぶー (bu-bu-) - \"car\" (from vroom vroom) ねんね (nenne) - \"sleep/bedtime\" まんま (manma) - \"food\" (baby talk)\n\nIncomplete sentences:\n\nおなかすいた！ (Onaka suita!) - \"I'm hungry!\" [Instead of: 私はお腹がすきました] これほしい！ (Kore hoshii!) - \"I want this!\" [Instead of: 私はこれが欲しいです]\n\nParent-child language:\n\nParents to children: 〜なさい (nasai) - Command form Example: 食べなさい (Tabenasai) - \"Eat!\" ダメ (dame) - \"No!\" / \"Don't!\" いい子 (ii ko) - \"Good child\""
+          },
+          {
+            "level": 3,
+            "heading": "Common expressions",
+            "content": "やった！ (Yatta!) - \"Yay!\" / \"I did it!\" えーん (e-n) - Crying sound ママ (mama) / パパ (papa) - \"Mommy/Daddy\" 先生 (sensei) - \"Teacher\" (used as address)"
+          }
+        ]
+      },
+      {
+        "level": 2,
+        "heading": "Teenagers/High School Students (13-18 years)",
+        "content": "",
+        "children": [
+          {
+            "level": 3,
+            "heading": "Characteristics",
+            "content": "Heavy slang usage:\n\nやばい (yabai) - \"Amazing/terrible\" マジ (maji) - \"Seriously\" ウケる (ukeru) - \"That's funny\" キモい (kimoi) - \"Gross\" ダサい (dasai) - \"Lame\"\n\nShortened words:\n\nスタバ (sutaba) - Starbucks マック (makku) - McDonald's テスト (tesuto) - Test ディズニー → ディズニ (dizuni)\n\nSocial media influence:\n\nバズる (bazuru) - \"Go viral\" 映える (baeru) - \"Instagram-worthy\" リア充 (riajuu) - \"Fulfilled in real life\" 陰キャ (in-kya) - \"Introvert/quiet person\" 陽キャ (you-kya) - \"Extrovert/popular person\"\n\nCasual, informal speech:\n\n〜じゃん (jan) - \"Isn't it?\" Example: いいじゃん (Ii jan) - \"That's good!\" 超 (chou) - \"Super\" Example: 超かわいい (Chou kawaii) - \"Super cute!\"\n\nFriend group language:\n\nおまえ (omae) / あんた (anta) - \"You\" (casual) あいつ (aitsu) - \"That person\" 〜くん (kun) / 〜ちゃん (chan) - Name suffixes"
+          },
+          {
+            "level": 3,
+            "heading": "Common expressions",
+            "content": "うざい (uzai) - \"Annoying\" ムカつく (mukatsuku) - \"Irritating\" ガチ (gachi) - \"Serious/for real\" エモい (emoi) - \"Emotional/nostalgic\" ぴえん (pien) - \"Sad\" (from crying emoji)"
+          }
+        ]
+      },
+      {
+        "level": 2,
+        "heading": "University Students/Young Adults (19-25 years)",
+        "content": "",
+        "children": [
+          {
+            "level": 3,
+            "heading": "Characteristics",
+            "content": "More polished casual speech:\n\nMaintains slang but more controlled: - やばい (yabai) - Still frequent - マジ (maji) - Common - ウケる (ukeru) - Used but less frequent\n\nWorkplace preparation:\n\nLearning keigo (polite language): - です/ます forms consistently - お〜になる (o ~ ni naru) - Honorific forms - Basic business expressions\n\nUniversity culture language:\n\nゼミ (zemi) - \"Seminar\" サークル (sa-kuru) - \"Club/circle\" バイト (baito) - \"Part-time job\" 就活 (shuukatsu) - \"Job hunting\" 単位 (tan'i) - \"Credits\"\n\nSocial drinking culture:\n\n飲み会 (nomikai) - \"Drinking party\" 先輩 (senpai) - \"Senior\" 後輩 (kouhai) - \"Junior\""
+          },
+          {
+            "level": 3,
+            "heading": "Common expressions",
+            "content": "お疲れ様です (Otsukaresama desu) - \"Good work\" (entering workplace) すみません (Sumimasen) - More frequent than すいません よろしくお願いします (Yoroshiku onegaishimasu) - Proper use"
+          }
+        ]
+      },
+      {
+        "level": 2,
+        "heading": "Working Adults (26-50 years)",
+        "content": "",
+        "children": [
+          {
+            "level": 3,
+            "heading": "Characteristics",
+            "content": "Balanced formality:\n\nWorkplace: Formal keigo Friends: Casual but mature Family: Relaxed but proper\n\nProfessional vocabulary:\n\nお世話になっております (Osewa ni natte orimasu) - \"Thank you for your continued support\" 承知しました (Shouchi shimashita) - \"Understood\" (formal) 恐れ入ります (Osore irimasu) - \"I'm sorry to trouble you\"\n\nLess trendy slang:\n\nAware of youth slang but don't overuse: - Understand やばい but use less - May say すごい (sugoi) instead - Moderate language overall\n\nRespectful speech:\n\nProper use of: - さん (san) suffix consistently - です/ます forms in semi-formal situations - Appropriate humility expressions"
+          },
+          {
+            "level": 3,
+            "heading": "Common expressions",
+            "content": "お疲れ様です (Otsukaresama desu) - \"Good work\" (daily) 申し訳ございません (Moushiwake gozaimasen) - \"I deeply apologize\" いかがでしょうか (Ikaga deshou ka) - \"How about...?\" / \"Would you...?\" よろしいでしょうか (Yoroshii deshou ka) - \"Would that be alright?\""
+          }
+        ]
+      },
+      {
+        "level": 2,
+        "heading": "Middle-Aged Adults (51-65 years)",
+        "content": "",
+        "children": [
+          {
+            "level": 3,
+            "heading": "Characteristics",
+            "content": "More formal baseline:\n\nEven casual speech more formal than youth: - Less particle dropping - More complete sentences - Traditional expressions\n\nTraditional values reflected:\n\nStronger hierarchy awareness: - Careful with honorifics - Age-based respect - Traditional gender roles (may vary)\n\nGeneration-specific references:\n\nShowa era (1926-1989) cultural references Different idioms and expressions Less English loanword usage\n\nTechnology gap language:\n\nMay use older terms: - 携帯 (keitai) instead of スマホ (sumaho) - \"Mobile phone\" - メール (me-ru) for email (vs younger LINE, etc.)"
+          },
+          {
+            "level": 3,
+            "heading": "Common expressions",
+            "content": "どうも (doumo) - Multi-purpose greeting/thanks いやいや (iyaiya) - \"No, no\" (humble) そうですか (Sou desu ka) - \"Is that so?\" (polite)"
+          }
+        ]
+      },
+      {
+        "level": 2,
+        "heading": "Elderly (65+ years)",
+        "content": "",
+        "children": [
+          {
+            "level": 3,
+            "heading": "Characteristics",
+            "content": "Formal and traditional:\n\nConsistently formal speech: - Full です/ます usage - Complete sentences - Traditional vocabulary\n\nRegional dialect stronger:\n\nMore likely to use: - Local dialect at home - Traditional expressions - Regional vocabulary\n\nPre-war education influence:\n\nDifferent kanji preferences Classical expressions More formal writing style\n\nGenerational vocabulary:\n\nWords that younger generations don't use: - お前さん (omae-san) - \"You\" (old-fashioned) - あなた様 (anata-sama) - Very polite \"you\" - Traditional counters and expressions"
+          },
+          {
+            "level": 3,
+            "heading": "Common expressions",
+            "content": "おはようございます (Ohayou gozaimasu) - Always full form ありがとうございます (Arigatou gozaimasu) - Never shortened いただきます (Itadakimasu) - Consistently used before meals ごちそうさまでした (Gochisousama deshita) - Full form after meals\n\nTraditional wisdom expressions:\n\nもったいない (mottainai) - \"What a waste!\" お陰様で (okage-sama de) - \"Thanks to you/fortune\" ご無沙汰しております (Gobusata shite orimasu) - \"It's been a long time\""
+          }
+        ]
+      },
+      {
+        "level": 2,
+        "heading": "Age-Based Hierarchical Language",
+        "content": "",
+        "children": [
+          {
+            "level": 3,
+            "heading": "Speaking to Older People (敬語 keigo)",
+            "content": "Humble forms (謙譲語):\n\n行く (iku) → 参る (mairu) - \"go\" (humble) 言う (iu) → 申す (mousu) - \"say\" (humble) いる (iru) → おる (oru) - \"be\" (humble)\n\nHonorific forms (尊敬語):\n\n行く (iku) → いらっしゃる (irassharu) - \"go\" (respectful) 言う (iu) → おっしゃる (ossharu) - \"say\" (respectful) いる (iru) → いらっしゃる (irassharu) - \"be\" (respectful)\n\nPolite prefixes:\n\nお待ちください (Omachi kudasai) - \"Please wait\" ご覧ください (Goran kudasai) - \"Please look\""
+          },
+          {
+            "level": 3,
+            "heading": "Speaking to Younger People",
+            "content": "Less formal but respectful:\n\nFriends' children: 〜くん/〜ちゃん suffixes Own children: Plain forms, commands Students (as teacher): 〜さん or 〜くん"
+          },
+          {
+            "level": 3,
+            "heading": "Peer Communication",
+            "content": "Same age, same status:\n\nUse casual forms: - Mutual plain speech - Shared slang and expressions - Relaxed formality\n\nSame age, different status:\n\nStill requires some formality: - Colleague but different rank - Acquaintance vs close friend - Professional context"
+          }
+        ]
+      },
+      {
+        "level": 2,
+        "heading": "Generational Slang Timeline",
+        "content": "",
+        "children": [
+          {
+            "level": 3,
+            "heading": "Showa Era (1926-1989)",
+            "content": "Older generations remember:\n\nナウい (naui) - \"Cool/trendy\" (from English \"now\") チョベリバ (choberiba) - \"Super bad\" (1990s high school girls) アベック (abekku) - \"Couple\" (from French \"avec\")"
+          },
+          {
+            "level": 3,
+            "heading": "Heisei Era (1989-2019)",
+            "content": "Middle-aged adults used:\n\nキモい (kimoi) - \"Gross\" (still used) ウザい (uzai) - \"Annoying\" (still used) ダサい (dasai) - \"Lame\" (still used) ムカつく (mukatsuku) - \"Irritating\" (still used)"
+          },
+          {
+            "level": 3,
+            "heading": "Reiwa Era (2019-present)",
+            "content": "Current youth language:\n\nぴえん (pien) - \"Sad\" エモい (emoi) - \"Emotional\" ガチ (gachi) - \"Serious\" バズる (bazuru) - \"Go viral\" 推し (oshi) - \"Favorite\" (idol/character)"
+          }
+        ]
+      },
+      {
+        "level": 2,
+        "heading": "Technology and Age",
+        "content": "",
+        "children": [
+          {
+            "level": 3,
+            "heading": "Digital Native (Gen Z, younger millennials)",
+            "content": "Comfortable with:\n\nSNS用語 (SNS yougo) - Social media terms ネット用語 (netto yougo) - Internet slang 絵文字 (emoji) / スタンプ (sutanpu) - Heavy use\n\nAbbreviations:\n\nりょ (ryo) - \"OK\" (from 了解) おk (ok) - \"OK\" www - \"lol\" 草 (kusa) - \"lol\" (grass, looks like www)"
+          },
+          {
+            "level": 3,
+            "heading": "Digital Immigrants (Older millennials, Gen X)",
+            "content": "Mixed comfort:\n\nUses technology but more formal: - Proper sentences in messages - Less emoji usage - Standard abbreviations"
+          },
+          {
+            "level": 3,
+            "heading": "Limited Digital (Older generations)",
+            "content": "Traditional communication:\n\nPrefer phone calls to messages Formal email language Limited social media"
+          }
+        ]
+      },
+      {
+        "level": 2,
+        "heading": "Common Mistakes by Age Group",
+        "content": "",
+        "children": [
+          {
+            "level": 3,
+            "heading": "Young Learners",
+            "content": "❌ Using overly casual speech with elders: おばあちゃん、これやばくない？\n\n✓ おばあさん、これすごいですね。"
+          },
+          {
+            "level": 3,
+            "heading": "Adult Learners",
+            "content": "❌ Trying to use teen slang: 50-year-old: マジやばくね？\n\n✓ 50-year-old: 本当にすごいですね。"
+          },
+          {
+            "level": 3,
+            "heading": "All Learners",
+            "content": "❌ Ignoring age hierarchy: Using plain forms with obviously older person\n\n✓ Using です/ます and respectful language with elders"
+          }
+        ]
+      },
+      {
+        "level": 2,
+        "heading": "Speaking Appropriately Across Ages",
+        "content": "",
+        "children": [
+          {
+            "level": 3,
+            "heading": "To Children (as adult)",
+            "content": "Simple vocabulary 〜なさい commands Encouraging words: - いい子だね (Ii ko da ne) - \"Good child\" - すごいね (Sugoi ne) - \"Amazing!\" - がんばって (Ganbatte) - \"Do your best!\""
+          },
+          {
+            "level": 3,
+            "heading": "To Teenagers (as adult)",
+            "content": "Respectful but not condescending Avoid trying to use their slang Clear です/ます forms Listen more than lecture"
+          },
+          {
+            "level": 3,
+            "heading": "To Peers",
+            "content": "Match their formality level Share generational references Casual but respectful Build on common ground"
+          },
+          {
+            "level": 3,
+            "heading": "To Elders",
+            "content": "Always use respectful language Full honorifics and humble forms Listen attentively Traditional expressions welcome"
+          }
+        ]
+      },
+      {
+        "level": 2,
+        "heading": "Summary",
+        "content": "Key Points:\n\nJapanese speech varies significantly across age groups Hierarchy and respect are age-based Slang and casual language are youth-dominated Formality increases with age Technology creates generational language divides Always err on the side of respect",
+        "children": [
+          {
+            "level": 3,
+            "heading": "Company",
+            "content": "About Pricing Blog Contact"
+          },
+          {
+            "level": 3,
+            "heading": "Legal",
+            "content": "Privacy Policy Terms of Service Cookie Policy"
+          }
+        ]
+      }
+    ],
+    "metadata": {
+      "title": "Age-related Speech"
+    }
+  },
+  "metadata": {
+    "extracted_at": "2026-01-01T22:19:27.478515900Z",
+    "duration_ms": 4,
+    "extractors_matched": [
+      "metadata",
+      "examples",
+      "sections"
+    ],
+    "extractors_failed": [
+      "vocab_tables",
+      "definitions",
+      "content_blocks"
+    ]
+  }
+}

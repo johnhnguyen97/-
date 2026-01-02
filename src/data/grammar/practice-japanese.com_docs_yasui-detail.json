@@ -1,0 +1,287 @@
+{
+  "config_name": "Language Learning Extractor",
+  "url": "https://practice-japanese.com/docs/yasui-detail/",
+  "data": {
+    "metadata": {
+      "title": "〜やすい (Easy to)"
+    },
+    "examples": [
+      {
+        "sentence": "やすい expresses ease or proneness"
+      },
+      {
+        "sentence": "Formation: [Verb ます-stem] + やすい"
+      },
+      {
+        "sentence": "Functions as an い-adjective"
+      },
+      {
+        "sentence": "Two meanings: \"easy to do\" and \"prone to happen\""
+      },
+      {
+        "sentence": "Common with: 読む, 使う, 分かる, 壊れる, 忘れる"
+      },
+      {
+        "sentence": "Conjugates like い-adjectives (やすい → やすくない → やすかった)"
+      },
+      {
+        "sentence": "Opposite: にくい (difficult to)"
+      },
+      {
+        "sentence": "Essential for describing ease and tendencies"
+      },
+      {
+        "sentence": "About"
+      },
+      {
+        "sentence": "Pricing"
+      },
+      {
+        "sentence": "Blog"
+      },
+      {
+        "sentence": "Contact"
+      },
+      {
+        "sentence": "Privacy Policy"
+      },
+      {
+        "sentence": "Terms of Service"
+      },
+      {
+        "sentence": "Cookie Policy"
+      }
+    ],
+    "sections": [
+      {
+        "level": 2,
+        "heading": "What is 〜やすい?",
+        "content": "〜やすい (yasui) attaches to verbs to express that something is easy to do or prone to happen. It indicates both ease of action and likelihood of occurrence.\n\nEnglish equivalent: \"easy to [verb],\" \"prone to,\" \"likely to\"\n\nStructure: [Verb ます-stem] + やすい\n\n読む (yomu - read) → 読み + やすい = 読みやすい \"easy to read\" 壊れる (kowareru - break) → 壊れ + やすい = 壊れやすい \"easy to break\" / \"fragile\" 分かる (wakaru - understand) → 分かり + やすい = 分かりやすい \"easy to understand\""
+      },
+      {
+        "level": 2,
+        "heading": "Basic Formation",
+        "content": "",
+        "children": [
+          {
+            "level": 3,
+            "heading": "With verb stems",
+            "content": "[Verb ます-stem] + やすい\n\n読みやすい (yomiyasui) - \"easy to read\" 書きやすい (kakiyasui) - \"easy to write\" 使いやすい (tsukaiyasui) - \"easy to use\" 分かりやすい (wakariyasui) - \"easy to understand\""
+          }
+        ]
+      },
+      {
+        "level": 2,
+        "heading": "Easy to Do",
+        "content": "",
+        "children": [
+          {
+            "level": 3,
+            "heading": "Actions that are simple",
+            "content": "この本は読みやすい。 Kono hon wa yomiyasui. \"This book is easy to read.\" このペンは書きやすい。 Kono pen wa kakiyasui. \"This pen is easy to write with.\" 分かりやすい説明。 Wakariyasui setsumei. \"An easy-to-understand explanation.\" 食べやすい大きさ。 Tabeyasui ookisa. \"An easy-to-eat size.\""
+          }
+        ]
+      },
+      {
+        "level": 2,
+        "heading": "Prone to Happen",
+        "content": "",
+        "children": [
+          {
+            "level": 3,
+            "heading": "Likelihood of occurrence",
+            "content": "壊れやすい。 Kowareyasui. \"Fragile\" / \"Breaks easily.\" 忘れやすい。 Wasureyasui. \"Easy to forget\" / \"Forgetful.\" 風邪を引きやすい。 Kaze wo hikiyasui. \"Prone to catching colds.\" 太りやすい体質。 Futoriyasui taishitsu. \"A body type that gains weight easily.\""
+          }
+        ]
+      },
+      {
+        "level": 2,
+        "heading": "Physical Properties",
+        "content": "",
+        "children": [
+          {
+            "level": 3,
+            "heading": "Object characteristics",
+            "content": "滑りやすい (suberiyasui) - \"slippery\" 壊れやすい (kowareyasui) - \"fragile\" 曲がりやすい (magariyasui) - \"bends easily\" 汚れやすい (yogoreyasui) - \"gets dirty easily\" 錆びやすい (sabiyasui) - \"rusts easily\" この床は滑りやすい。 Kono yuka wa suberiyasui. \"This floor is slippery.\" 白い服は汚れやすい。 Shiroi fuku wa yogoreyasui. \"White clothes get dirty easily.\""
+          }
+        ]
+      },
+      {
+        "level": 2,
+        "heading": "User-Friendliness",
+        "content": "",
+        "children": [
+          {
+            "level": 3,
+            "heading": "Design and usability",
+            "content": "使いやすい (tsukaiyasui) - \"easy to use\" / \"user-friendly\" 見やすい (miyasui) - \"easy to see\" / \"readable\" 持ちやすい (mochiyasui) - \"easy to hold\" 覚えやすい (oboeyasui) - \"easy to remember\" 使いやすいアプリ。 Tsukaiyasui apuri. \"A user-friendly app.\" 見やすいデザイン。 Miyasui dezain. \"An easy-to-see design.\""
+          }
+        ]
+      },
+      {
+        "level": 2,
+        "heading": "Personal Tendencies",
+        "content": "",
+        "children": [
+          {
+            "level": 3,
+            "heading": "Individual characteristics",
+            "content": "疲れやすい (tsukareyasui) - \"get tired easily\" 泣きやすい (nakiyasui) - \"cry easily\" 怒りやすい (okoriyasui) - \"get angry easily\" 緊張しやすい (kinchou shiyasui) - \"get nervous easily\" 最近疲れやすくなった。 Saikin tsukareyasuku natta. \"I've been getting tired easily lately.\" 彼女は泣きやすい。 Kanojo wa nakiyasui. \"She cries easily.\""
+          }
+        ]
+      },
+      {
+        "level": 2,
+        "heading": "Weather and Conditions",
+        "content": "",
+        "children": [
+          {
+            "level": 3,
+            "heading": "Environmental tendencies",
+            "content": "雨が降りやすい。 Ame ga furiyasui. \"It rains easily\" / \"Prone to rain.\" 曇りやすい天気。 Kumoriyasui tenki. \"Weather that clouds over easily.\" この地域は雪が積もりやすい。 Kono chiiki wa yuki ga tsumoriyasui. \"This area accumulates snow easily.\""
+          }
+        ]
+      },
+      {
+        "level": 2,
+        "heading": "Modifying やすい",
+        "content": "",
+        "children": [
+          {
+            "level": 3,
+            "heading": "Making it negative or past",
+            "content": "Negative:\n\n読みやすくない (yomiyasuku nai) - \"not easy to read\" 分かりやすくない (wakariyasuku nai) - \"not easy to understand\" この文章は読みやすくない。 Kono bunshou wa yomiyasuku nai. \"This text is not easy to read.\"\n\nPast:\n\n読みやすかった (yomiyasukatta) - \"was easy to read\" 使いやすかった (tsukaiyasukatta) - \"was easy to use\" あの説明は分かりやすかった。 Ano setsumei wa wakariyasukatta. \"That explanation was easy to understand.\""
+          }
+        ]
+      },
+      {
+        "level": 2,
+        "heading": "Comparing Items",
+        "content": "",
+        "children": [
+          {
+            "level": 3,
+            "heading": "Easier/more prone",
+            "content": "AよりBの方が読みやすい。 A yori B no hou ga yomiyasui. \"B is easier to read than A.\" このペンの方が書きやすい。 Kono pen no hou ga kakiyasui. \"This pen is easier to write with.\" 前より使いやすくなった。 Mae yori tsukaiyasuku natta. \"It became easier to use than before.\""
+          }
+        ]
+      },
+      {
+        "level": 2,
+        "heading": "Common Expressions",
+        "content": "分かりやすい (wakariyasui) - \"easy to understand\" 読みやすい (yomiyasui) - \"easy to read\" 使いやすい (tsukaiyasui) - \"easy to use\" 食べやすい (tabeyasui) - \"easy to eat\" 壊れやすい (kowareyasui) - \"fragile\" 忘れやすい (wasureyasui) - \"easy to forget\" 疲れやすい (tsukareyasui) - \"tire easily\" 太りやすい (futoriyasui) - \"gain weight easily\" 風邪を引きやすい (kaze wo hikiyasui) - \"catch colds easily\""
+      },
+      {
+        "level": 2,
+        "heading": "やすい as い-adjective",
+        "content": "",
+        "children": [
+          {
+            "level": 3,
+            "heading": "Functions like an adjective",
+            "content": "読みやすい本 (yomiyasui hon) - \"an easy-to-read book\" 使いやすい道具 (tsukaiyasui dougu) - \"easy-to-use tools\" 読みやすいです。 Yomiyasui desu. \"It's easy to read.\" (polite) とても分かりやすかった。 Totemo wakariyasukatta. \"It was very easy to understand.\""
+          }
+        ]
+      },
+      {
+        "level": 2,
+        "heading": "Making Things Easier",
+        "content": "",
+        "children": [
+          {
+            "level": 3,
+            "heading": "With する/なる",
+            "content": "分かりやすくする (wakariyasuku suru) - \"make easier to understand\" 読みやすくなる (yomiyasuku naru) - \"become easier to read\" 説明を分かりやすくした。 Setsumei wo wakariyasuku shita. \"I made the explanation easier to understand.\" 最近使いやすくなった。 Saikin tsukaiyasuku natta. \"It's become easier to use recently.\""
+          }
+        ]
+      },
+      {
+        "level": 2,
+        "heading": "Polite Forms",
+        "content": "Casual: 読みやすい Polite: 読みやすいです Negative: 読みやすくない / 読みやすくないです Past: 読みやすかった / 読みやすかったです この本は読みやすいです。 Kono hon wa yomiyasui desu. \"This book is easy to read.\" とても分かりやすかったです。 Totemo wakariyasukatta desu. \"It was very easy to understand.\""
+      },
+      {
+        "level": 2,
+        "heading": "Comparing やすい and にくい",
+        "content": "",
+        "children": [
+          {
+            "level": 3,
+            "heading": "Easy vs difficult",
+            "content": "やすい - Easy/prone to:\n\n読みやすい (yomiyasui) \"easy to read\" 壊れやすい (kowareyasui) \"breaks easily\"\n\nにくい - Difficult/not prone to:\n\n読みにくい (yominikui) \"hard to read\" 壊れにくい (korenikui) \"hard to break\"\n\n| Pattern | Meaning | Example | | ------- | ------------------- | ---------- | | やすい | Easy/prone | 読みやすい | | にくい | Difficult/resistant | 読みにくい |\n\nSee: 〜にくい (Hard to)"
+          }
+        ]
+      },
+      {
+        "level": 2,
+        "heading": "With Potential Form",
+        "content": "",
+        "children": [
+          {
+            "level": 3,
+            "heading": "Possible to easily",
+            "content": "この漢字は覚えやすいと思います。 Kono kanji wa oboeyasui to omoimasu. \"I think this kanji is easy to remember.\" 誰でも分かりやすく説明できる。 Dare demo wakariyasuku setsumei dekiru. \"Anyone can explain it in an easy-to-understand way.\""
+          }
+        ]
+      },
+      {
+        "level": 2,
+        "heading": "Common Mistakes",
+        "content": "",
+        "children": [
+          {
+            "level": 3,
+            "heading": "Mistake 1: Using wrong verb form",
+            "content": "❌ 読むやすい ✓ 読みやすい\n\nUse ます-stem, not dictionary form."
+          },
+          {
+            "level": 3,
+            "heading": "Mistake 2: Confusing with やさしい",
+            "content": "やすい = easy to do (action) やさしい = easy (general) / kind やすい focuses on ease of performing an action."
+          },
+          {
+            "level": 3,
+            "heading": "Mistake 3: Wrong formation with する verbs",
+            "content": "❌ 勉強やすい ✓ 勉強しやすい\n\n勉強する → 勉強し + やすい"
+          },
+          {
+            "level": 3,
+            "heading": "Mistake 4: Using を instead of が",
+            "content": "When describing what is easy:\n\n❌ この本を読みやすい ✓ この本は読みやすい ✓ この本が読みやすい"
+          }
+        ]
+      },
+      {
+        "level": 2,
+        "heading": "Summary",
+        "content": "Key Points:\n\nやすい expresses ease or proneness Formation: [Verb ます-stem] + やすい Functions as an い-adjective Two meanings: \"easy to do\" and \"prone to happen\" Common with: 読む, 使う, 分かる, 壊れる, 忘れる Conjugates like い-adjectives (やすい → やすくない → やすかった) Opposite: にくい (difficult to) Essential for describing ease and tendencies",
+        "children": [
+          {
+            "level": 3,
+            "heading": "Company",
+            "content": "About Pricing Blog Contact"
+          },
+          {
+            "level": 3,
+            "heading": "Legal",
+            "content": "Privacy Policy Terms of Service Cookie Policy"
+          }
+        ]
+      }
+    ]
+  },
+  "metadata": {
+    "extracted_at": "2026-01-01T22:19:37.903720400Z",
+    "duration_ms": 3,
+    "extractors_matched": [
+      "metadata",
+      "examples",
+      "sections"
+    ],
+    "extractors_failed": [
+      "vocab_tables",
+      "definitions",
+      "content_blocks"
+    ]
+  }
+}

@@ -1,0 +1,273 @@
+{
+  "config_name": "Language Learning Extractor",
+  "url": "https://practice-japanese.com/docs/hajimeru/",
+  "data": {
+    "sections": [
+      {
+        "level": 2,
+        "heading": "〜始める (hajimeru) - Begin",
+        "content": "〜始める attaches to verb stems to indicate beginning an action . This is the most neutral and common way to express starting something, without implying suddenness or any special nuance.\n\nVerb stem + 始める 食べ始める - begin eating 読み始める - begin reading 勉強し始める - begin studying Neutral beginning Most common pattern No special emphasis"
+      },
+      {
+        "level": 2,
+        "heading": "Formation",
+        "content": "",
+        "children": [
+          {
+            "level": 3,
+            "heading": "Basic pattern",
+            "content": "る-verbs: 食べる → 食べ始める \"begin eating\" 見る → 見始める \"begin watching\" 寝る → 寝始める \"begin sleeping\" う-verbs: 読む → 読み始める \"begin reading\" 書く → 書き始める \"begin writing\" 話す → 話し始める \"begin talking\" Irregular: する → し始める \"begin doing\" 来る → 来始める \"begin coming\""
+          }
+        ]
+      },
+      {
+        "level": 2,
+        "heading": "Core Meaning",
+        "content": "",
+        "children": [
+          {
+            "level": 3,
+            "heading": "Simple beginning",
+            "content": "本を読み始めた \"(I) began reading a book\" Neutral statement No special implication Just the fact of starting 仕事を始めた \"(I) started work\" Simple, straightforward Most versatile beginning expression"
+          }
+        ]
+      },
+      {
+        "level": 2,
+        "heading": "When to Use",
+        "content": "",
+        "children": [
+          {
+            "level": 3,
+            "heading": "Planned or intentional actions",
+            "content": "明日から運動を始める \"I'll begin exercising from tomorrow\" Planned start Intentional beginning 日本語を勉強し始めた \"I started studying Japanese\" Deliberate decision Conscious start"
+          },
+          {
+            "level": 3,
+            "heading": "Gradual beginnings",
+            "content": "桜が咲き始めた \"The cherry blossoms started blooming\" Gradual process Not sudden 雨が降り始めた \"It started raining\" Can be gradual (Compare: 降り出す = sudden)"
+          }
+        ]
+      },
+      {
+        "level": 2,
+        "heading": "Versatility",
+        "content": "",
+        "children": [
+          {
+            "level": 3,
+            "heading": "Works with almost any verb",
+            "content": "Unlike 出す which implies suddenness: 読み始める ✓ \"begin reading\" 食べ始める ✓ \"begin eating\" 考え始める ✓ \"begin thinking\" 作り始める ✓ \"begin making\" Very productive Combines naturally Default choice for \"begin\""
+          }
+        ]
+      },
+      {
+        "level": 2,
+        "heading": "Transitivity",
+        "content": "",
+        "children": [
+          {
+            "level": 3,
+            "heading": "Maintains verb transitivity",
+            "content": "Transitive verbs stay transitive: 本を読み始める \"begin reading a book\" ケーキを作り始める \"begin making a cake\" Intransitive verbs stay intransitive: 雨が降り始める \"rain begins falling\" 花が咲き始める \"flowers begin blooming\" Object/subject patterns preserved"
+          }
+        ]
+      },
+      {
+        "level": 2,
+        "heading": "Time Expressions",
+        "content": "",
+        "children": [
+          {
+            "level": 3,
+            "heading": "With time markers",
+            "content": "3時に始める \"Begin at 3 o'clock\" 来週から始める \"Begin from next week\" 昨日始めた \"Began yesterday\" Works naturally with time expressions Emphasizes when action started"
+          }
+        ]
+      },
+      {
+        "level": 2,
+        "heading": "Aspect Combinations",
+        "content": "",
+        "children": [
+          {
+            "level": 3,
+            "heading": "With ている",
+            "content": "読み始めている \"Have begun reading / be reading\" Shows current state Already started, continuing もう食べ始めている \"Have already started eating\" Completed start + ongoing state"
+          },
+          {
+            "level": 3,
+            "heading": "With てから",
+            "content": "食べ始めてから \"After beginning to eat\" 本を読み始めてから、時間が経った \"Time passed after I began reading the book\" Sequential actions After the start point"
+          }
+        ]
+      },
+      {
+        "level": 2,
+        "heading": "Contrast with Similar Verbs",
+        "content": "",
+        "children": [
+          {
+            "level": 3,
+            "heading": "始める vs 出す",
+            "content": "話し始める \"Begin talking\" Neutral, planned 話し出す \"Start talking (suddenly)\" Abrupt, spontaneous Use 始める when: - Neutral beginning - Planned action - No emphasis on suddenness"
+          },
+          {
+            "level": 3,
+            "heading": "始める vs スタートする",
+            "content": "勉強を始める \"Begin studying\" Native Japanese, natural 勉強をスタートする \"Start studying\" Borrowed word, modern feel 始める is more natural スタート more casual/sporty"
+          }
+        ]
+      },
+      {
+        "level": 2,
+        "heading": "Common Contexts",
+        "content": "",
+        "children": [
+          {
+            "level": 3,
+            "heading": "Daily activities",
+            "content": "朝ごはんを食べ始めた \"Started eating breakfast\" 宿題をし始める \"Begin doing homework\" テレビを見始めた \"Started watching TV\" Everyday actions Regular activities"
+          },
+          {
+            "level": 3,
+            "heading": "Long-term activities",
+            "content": "ピアノを習い始めた \"Started learning piano\" 新しい仕事を始めた \"Started a new job\" ジムに通い始めた \"Started going to the gym\" New habits Lifestyle changes Projects"
+          },
+          {
+            "level": 3,
+            "heading": "Processes",
+            "content": "機械が動き始めた \"The machine started operating\" プロジェクトが進み始めた \"The project started progressing\" 状況が変わり始めた \"The situation started changing\" Ongoing processes Gradual changes"
+          }
+        ]
+      },
+      {
+        "level": 2,
+        "heading": "Formality",
+        "content": "",
+        "children": [
+          {
+            "level": 3,
+            "heading": "Neutral across registers",
+            "content": "Can be used in: - Casual speech: 食べ始めた - Polite speech: 食べ始めました - Formal writing: 食べ始めた Not inherently formal or casual Adjust with conjugation Universal usage"
+          }
+        ]
+      },
+      {
+        "level": 2,
+        "heading": "Conjugation",
+        "content": "",
+        "children": [
+          {
+            "level": 3,
+            "heading": "Standard る-verb",
+            "content": "始める is a る-verb: Present: 始める Past: 始めた Negative: 始めない Te-form: 始めて Potential: 始められる Passive: 始められる Causative: 始めさせる All regular conjugations"
+          }
+        ]
+      },
+      {
+        "level": 2,
+        "heading": "In Complex Sentences",
+        "content": "",
+        "children": [
+          {
+            "level": 3,
+            "heading": "Multiple clauses",
+            "content": "本を読み始めたが、難しかった \"I began reading the book, but it was difficult\" 勉強し始めると、面白くなった \"When I began studying, it became interesting\" 食べ始める前に、手を洗う \"Before beginning to eat, wash hands\" Works in complex grammar Flexible usage"
+          }
+        ]
+      },
+      {
+        "level": 2,
+        "heading": "Emphasis Patterns",
+        "content": "",
+        "children": [
+          {
+            "level": 3,
+            "heading": "With adverbs",
+            "content": "ゆっくり始める \"Begin slowly\" 急いで始める \"Begin hurriedly\" 真剣に始める \"Begin seriously\" やっと始める \"Finally begin\" Manner and emphasis Natural combinations"
+          }
+        ]
+      },
+      {
+        "level": 2,
+        "heading": "Common Mistakes",
+        "content": "❌ Using dictionary form of first verb ✗ 食べる始める ✓ Using stem form ✓ 食べ始める ❌ Confusing with 出す Don't use 始める for sudden actions when 出す is more appropriate ✓ Choose based on context Neutral → 始める Sudden → 出す ❌ Wrong conjugation ✗ 始めった (past) ✓ Correct conjugation ✓ 始めた"
+      },
+      {
+        "level": 2,
+        "heading": "With Negative",
+        "content": "",
+        "children": [
+          {
+            "level": 3,
+            "heading": "\"Haven't started yet\"",
+            "content": "まだ始めていない \"Haven't started yet\" まだ食べ始めていない \"Haven't begun eating yet\" Negative state Action not initiated"
+          }
+        ]
+      },
+      {
+        "level": 2,
+        "heading": "Standalone vs Compound",
+        "content": "",
+        "children": [
+          {
+            "level": 3,
+            "heading": "始める as main verb",
+            "content": "Standalone: 仕事を始める \"begin work\" 会議を始める \"begin meeting\" Compound: 働き始める \"begin working\" 話し始める \"begin talking\" Both valid Different structures Compound more about action itself"
+          },
+          {
+            "level": 3,
+            "heading": "Company",
+            "content": "About Pricing Blog Contact"
+          },
+          {
+            "level": 3,
+            "heading": "Legal",
+            "content": "Privacy Policy Terms of Service Cookie Policy"
+          }
+        ]
+      }
+    ],
+    "metadata": {
+      "title": "〜始める (hajimeru) - Begin"
+    },
+    "examples": [
+      {
+        "sentence": "About"
+      },
+      {
+        "sentence": "Pricing"
+      },
+      {
+        "sentence": "Blog"
+      },
+      {
+        "sentence": "Contact"
+      },
+      {
+        "sentence": "Privacy Policy"
+      },
+      {
+        "sentence": "Terms of Service"
+      },
+      {
+        "sentence": "Cookie Policy"
+      }
+    ]
+  },
+  "metadata": {
+    "extracted_at": "2026-01-01T22:19:29.696873800Z",
+    "duration_ms": 4,
+    "extractors_matched": [
+      "metadata",
+      "examples",
+      "sections"
+    ],
+    "extractors_failed": [
+      "vocab_tables",
+      "definitions",
+      "content_blocks"
+    ]
+  }
+}

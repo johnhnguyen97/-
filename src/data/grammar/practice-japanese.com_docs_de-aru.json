@@ -1,0 +1,448 @@
+{
+  "config_name": "Language Learning Extractor",
+  "url": "https://practice-japanese.com/docs/de-aru/",
+  "data": {
+    "examples": [
+      {
+        "sentence": "で (de) - te-form of だ"
+      },
+      {
+        "sentence": "ある (aru) - to exist/be"
+      },
+      {
+        "sentence": "Casual conversation"
+      },
+      {
+        "sentence": "Personal emails"
+      },
+      {
+        "sentence": "Text messages"
+      },
+      {
+        "sentence": "Social media posts"
+      },
+      {
+        "sentence": "Daily communication"
+      },
+      {
+        "sentence": "Academic papers"
+      },
+      {
+        "sentence": "News articles"
+      },
+      {
+        "sentence": "Official reports"
+      },
+      {
+        "sentence": "Business documents"
+      },
+      {
+        "sentence": "Formal presentations"
+      },
+      {
+        "sentence": "Legal documents"
+      },
+      {
+        "sentence": "だ (da) - Plain copula"
+      },
+      {
+        "sentence": "です (desu) - Polite copula"
+      },
+      {
+        "sentence": "でございます - Very polite copula"
+      },
+      {
+        "sentence": "じゃない (janai) - Negative forms"
+      },
+      {
+        "sentence": "Formal & Written Style - である style writing"
+      },
+      {
+        "sentence": "Newspaper Japanese - Common である usage"
+      },
+      {
+        "sentence": "Academic Writing - Scholarly contexts"
+      },
+      {
+        "sentence": "About"
+      },
+      {
+        "sentence": "Pricing"
+      },
+      {
+        "sentence": "Blog"
+      },
+      {
+        "sentence": "Contact"
+      },
+      {
+        "sentence": "Privacy Policy"
+      },
+      {
+        "sentence": "Terms of Service"
+      },
+      {
+        "sentence": "Cookie Policy"
+      }
+    ],
+    "sections": [
+      {
+        "level": 2,
+        "heading": "What is である (de aru)?",
+        "content": "である (de aru) is a formal copula used primarily in written Japanese. It's more formal than だ and commonly found in newspapers, academic papers, official documents, and formal speeches.\n\nA は B である \"A is B\" これは重要な問題である \"This is an important problem\""
+      },
+      {
+        "level": 2,
+        "heading": "Formation",
+        "content": "である comes from the combination of:\n\nで (de) - te-form of だ ある (aru) - to exist/be"
+      },
+      {
+        "level": 2,
+        "heading": "Basic Usage",
+        "content": "",
+        "children": [
+          {
+            "level": 3,
+            "heading": "With Nouns",
+            "content": "彼は学生である \"He is a student\" これは事実である \"This is a fact\" 富士山は日本の象徴である \"Mt. Fuji is a symbol of Japan\" 問題の原因は不明である \"The cause of the problem is unknown\""
+          },
+          {
+            "level": 3,
+            "heading": "With Na-adjectives",
+            "content": "この方法は有効である \"This method is effective\" その結果は明らかである \"The result is clear\" この問題は重要である \"This problem is important\" 彼の態度は不適切である \"His attitude is inappropriate\""
+          }
+        ]
+      },
+      {
+        "level": 2,
+        "heading": "When to Use である",
+        "content": "",
+        "children": [
+          {
+            "level": 3,
+            "heading": "Written Documents",
+            "content": "Primary use is in formal written contexts.\n\n報告書: この計画は実現可能である \"Report: This plan is feasible\" 論文: これは重要な発見である \"Paper: This is an important discovery\" 契約書: 以下の条件が適用である \"Contract: The following conditions apply\""
+          },
+          {
+            "level": 3,
+            "heading": "Newspapers",
+            "content": "Very common in newspaper articles.\n\n今日は晴天である \"Today is clear weather\" 事故の原因は調査中である \"The cause of the accident is under investigation\" この政策は効果的である \"This policy is effective\""
+          },
+          {
+            "level": 3,
+            "heading": "Academic Writing",
+            "content": "Standard in academic and scholarly texts.\n\nこの理論は正しい \"This theory is correct\" 結論は明白である \"The conclusion is obvious\" この仮説は証明可能である \"This hypothesis is provable\""
+          },
+          {
+            "level": 3,
+            "heading": "Formal Speeches",
+            "content": "Used in formal public speaking.\n\n我が国は平和国家である \"Our country is a peaceful nation\" これは重大な決定である \"This is a significant decision\""
+          }
+        ]
+      },
+      {
+        "level": 2,
+        "heading": "Tense Forms",
+        "content": "",
+        "children": [
+          {
+            "level": 3,
+            "heading": "Present/Non-past",
+            "content": "これは事実である \"This is a fact\" 彼は医者である \"He is a doctor\""
+          },
+          {
+            "level": 3,
+            "heading": "Past: であった",
+            "content": "これは事実であった \"This was a fact\" 彼は学生であった \"He was a student\" その結果は予想外であった \"The result was unexpected\""
+          },
+          {
+            "level": 3,
+            "heading": "Negative: ではない",
+            "content": "これは事実ではない \"This is not a fact\" 簡単ではない \"It is not simple\" 彼は学生ではない \"He is not a student\""
+          },
+          {
+            "level": 3,
+            "heading": "Past Negative: ではなかった",
+            "content": "これは事実ではなかった \"This was not a fact\" 彼は学生ではなかった \"He was not a student\""
+          }
+        ]
+      },
+      {
+        "level": 2,
+        "heading": "Compared to Other Copulas",
+        "content": "",
+        "children": [
+          {
+            "level": 3,
+            "heading": "である vs だ vs です",
+            "content": "Plain (だ): 彼は学生だ Formal Written (である): 彼は学生である Polite Spoken (です): 彼は学生です All mean: \"He is a student\""
+          },
+          {
+            "level": 3,
+            "heading": "Formality Scale",
+            "content": "From casual to most formal:\n\n1. だ - Casual 2. です - Polite 3. である - Formal written 4. でございます - Extremely polite 学生だ → 学生です → 学生である → 学生でございます"
+          }
+        ]
+      },
+      {
+        "level": 2,
+        "heading": "Common Patterns",
+        "content": "",
+        "children": [
+          {
+            "level": 3,
+            "heading": "～であるが (however)",
+            "content": "これは事実であるが、証明は難しい \"This is a fact, however, proving it is difficult\" 便利であるが、高価である \"It's convenient, but expensive\""
+          },
+          {
+            "level": 3,
+            "heading": "～であるから (because)",
+            "content": "彼は専門家であるから、信頼できる \"Because he is an expert, he can be trusted\" 重要であるから、慎重に扱うべきだ \"Because it's important, it should be handled carefully\""
+          },
+          {
+            "level": 3,
+            "heading": "～であると思う/考える",
+            "content": "これは正しいであると思う \"I think this is correct\" 彼は有能であると考える \"I believe he is competent\""
+          },
+          {
+            "level": 3,
+            "heading": "～である必要がある (need to be)",
+            "content": "この問題は解決される必要がある \"This problem needs to be solved\" より効率的である必要がある \"It needs to be more efficient\""
+          }
+        ]
+      },
+      {
+        "level": 2,
+        "heading": "Variations and Related Forms",
+        "content": "",
+        "children": [
+          {
+            "level": 3,
+            "heading": "であろう (probably)",
+            "content": "Presumptive form - formal version of だろう.\n\nこれは事実であろう \"This is probably a fact\" 彼は学生であろう \"He is probably a student\" 有効であろう \"It will probably be effective\""
+          },
+          {
+            "level": 3,
+            "heading": "であれば (if it is)",
+            "content": "Conditional form.\n\n学生であれば、割引が適用される \"If you are a student, a discount applies\" 可能であれば、参加したい \"If possible, I'd like to participate\""
+          },
+          {
+            "level": 3,
+            "heading": "であって (being and)",
+            "content": "Te-form for connecting clauses.\n\nこれは事実であって、否定できない \"This is a fact and cannot be denied\" 重要であって、緊急である \"It's important and urgent\""
+          },
+          {
+            "level": 3,
+            "heading": "であり (being and)",
+            "content": "Another connective form.\n\n彼は教師であり、研究者である \"He is a teacher and a researcher\" これは問題であり、課題である \"This is a problem and a challenge\""
+          }
+        ]
+      },
+      {
+        "level": 2,
+        "heading": "In Different Contexts",
+        "content": "",
+        "children": [
+          {
+            "level": 3,
+            "heading": "Newspaper Headlines",
+            "content": "経済成長率は３％である \"Economic growth rate is 3%\" 気温は過去最高である \"Temperature is the highest on record\" 原因は不明である \"The cause is unknown\""
+          },
+          {
+            "level": 3,
+            "heading": "Academic Papers",
+            "content": "この方法は効果的である \"This method is effective\" 結果は以下の通りである \"The results are as follows\" この理論は実証可能である \"This theory is verifiable\""
+          },
+          {
+            "level": 3,
+            "heading": "Official Announcements",
+            "content": "新しい規則は明日から有効である \"The new rules are effective from tomorrow\" この決定は最終的である \"This decision is final\" 参加は任意である \"Participation is voluntary\""
+          },
+          {
+            "level": 3,
+            "heading": "Legal Documents",
+            "content": "本契約は有効である \"This contract is valid\" 以下の条項が適用である \"The following terms apply\" 違反者は処罰の対象である \"Violators are subject to punishment\""
+          }
+        ]
+      },
+      {
+        "level": 2,
+        "heading": "Common Expressions",
+        "content": "",
+        "children": [
+          {
+            "level": 3,
+            "heading": "～とは何であるか (What is~?)",
+            "content": "愛とは何であるか \"What is love?\" 正義とは何であるか \"What is justice?\""
+          },
+          {
+            "level": 3,
+            "heading": "～であるべき (should be)",
+            "content": "リーダーであるべき資質 \"Qualities one should have as a leader\" 守るべき規則である \"It is a rule that should be followed\""
+          },
+          {
+            "level": 3,
+            "heading": "～であるがゆえに (precisely because)",
+            "content": "専門家であるがゆえに理解できる \"Can understand precisely because being an expert\" 複雑であるがゆえに興味深い \"Interesting precisely because it's complex\""
+          }
+        ]
+      },
+      {
+        "level": 2,
+        "heading": "Common Mistakes",
+        "content": "",
+        "children": [
+          {
+            "level": 3,
+            "heading": "Mistake 1: Using である in casual conversation",
+            "content": "Wrong (casual context): 今日は月曜日である ❌ Right: 今日は月曜日だ ✓ \"Today is Monday\""
+          },
+          {
+            "level": 3,
+            "heading": "Mistake 2: Using である in polite speech",
+            "content": "Wrong (to superiors): 学生である ❌ Right: 学生です ✓ \"I am a student\""
+          },
+          {
+            "level": 3,
+            "heading": "Mistake 3: Using である with i-adjectives",
+            "content": "Wrong: 大きいである ❌ Right: 大きい ✓ \"It is big\" Note: I-adjectives don't use copulas"
+          },
+          {
+            "level": 3,
+            "heading": "Mistake 4: Overusing in informal writing",
+            "content": "Too formal: 昨日は楽しかったである Natural: 昨日は楽しかった \"Yesterday was fun\""
+          }
+        ]
+      },
+      {
+        "level": 2,
+        "heading": "Conversion Examples",
+        "content": "",
+        "children": [
+          {
+            "level": 3,
+            "heading": "Casual → Formal Written",
+            "content": "Casual: これは本だ Formal: これは本である \"This is a book\" Casual: 彼は学生だった Formal: 彼は学生であった \"He was a student\" Casual: 簡単じゃない Formal: 簡単ではない \"It's not simple\""
+          },
+          {
+            "level": 3,
+            "heading": "Polite Spoken → Formal Written",
+            "content": "Spoken: これは重要です Written: これは重要である \"This is important\" Spoken: 結果は明らかです Written: 結果は明らかである \"The result is clear\""
+          }
+        ]
+      },
+      {
+        "level": 2,
+        "heading": "Practice Sentences",
+        "content": "",
+        "children": [
+          {
+            "level": 3,
+            "heading": "Basic Statements",
+            "content": "これは事実である \"This is a fact\" 彼は専門家である \"He is an expert\" 日本は島国である \"Japan is an island nation\" この方法は有効である \"This method is effective\""
+          },
+          {
+            "level": 3,
+            "heading": "Past Tense",
+            "content": "それは誤りであった \"That was an error\" 彼は学生であった \"He was a student\" 結果は予想外であった \"The result was unexpected\""
+          },
+          {
+            "level": 3,
+            "heading": "Negative Forms",
+            "content": "これは真実ではない \"This is not the truth\" 簡単ではない \"It is not simple\" 彼の意見は正しくはない \"His opinion is not correct\""
+          },
+          {
+            "level": 3,
+            "heading": "Complex Sentences",
+            "content": "日本は技術大国であり、経済大国である \"Japan is a technological powerhouse and an economic power\" この問題は複雑であるが、解決可能である \"This problem is complex, but solvable\" 教育は重要であり、必要不可欠である \"Education is important and indispensable\" 彼は優秀な学生であって、将来有望である \"He is an excellent student and has a promising future\""
+          }
+        ]
+      },
+      {
+        "level": 2,
+        "heading": "With Nominalizers",
+        "content": "",
+        "children": [
+          {
+            "level": 3,
+            "heading": "こと + である",
+            "content": "重要なことである \"It is an important matter\" 知っておくべきことである \"It is something one should know\" 忘れてはならないことである \"It is something that must not be forgotten\""
+          },
+          {
+            "level": 3,
+            "heading": "もの + である",
+            "content": "これは私のものである \"This is mine\" 誰のものであるか \"Whose it is\""
+          }
+        ]
+      },
+      {
+        "level": 2,
+        "heading": "Stylistic Notes",
+        "content": "",
+        "children": [
+          {
+            "level": 3,
+            "heading": "Register Differences",
+            "content": "である is rarely used in:\n\nCasual conversation Personal emails Text messages Social media posts Daily communication\n\nである is appropriate for:\n\nAcademic papers News articles Official reports Business documents Formal presentations Legal documents"
+          },
+          {
+            "level": 3,
+            "heading": "Modern Usage Trends",
+            "content": "In contemporary Japanese, である is being used less frequently even in written contexts, with です becoming more common in some formal writing.\n\nTraditional formal: これは重要である Modern formal: これは重要です \"This is important\""
+          }
+        ]
+      },
+      {
+        "level": 2,
+        "heading": "Transitioning Between Styles",
+        "content": "",
+        "children": [
+          {
+            "level": 3,
+            "heading": "Newspaper Style Mixing",
+            "content": "Newspapers often mix である with other forms within the same article:\n\n事故が発生した。原因は不明である。警察は調査している。 \"An accident occurred. The cause is unknown. Police are investigating.\""
+          },
+          {
+            "level": 3,
+            "heading": "Academic Writing",
+            "content": "Academic papers maintain consistent である usage:\n\nこの研究は重要である。方法は以下の通りである。結果は明白である。 \"This research is important. The method is as follows. The results are clear.\""
+          }
+        ]
+      },
+      {
+        "level": 2,
+        "heading": "Related Grammar Points",
+        "content": "だ (da) - Plain copula です (desu) - Polite copula でございます - Very polite copula じゃない (janai) - Negative forms Formal & Written Style - である style writing Newspaper Japanese - Common である usage Academic Writing - Scholarly contexts",
+        "children": [
+          {
+            "level": 3,
+            "heading": "Company",
+            "content": "About Pricing Blog Contact"
+          },
+          {
+            "level": 3,
+            "heading": "Legal",
+            "content": "Privacy Policy Terms of Service Cookie Policy"
+          }
+        ]
+      }
+    ],
+    "metadata": {
+      "title": "である (de aru) - Formal Copula"
+    }
+  },
+  "metadata": {
+    "extracted_at": "2026-01-01T22:19:28.738997100Z",
+    "duration_ms": 3,
+    "extractors_matched": [
+      "metadata",
+      "examples",
+      "sections"
+    ],
+    "extractors_failed": [
+      "vocab_tables",
+      "definitions",
+      "content_blocks"
+    ]
+  }
+}

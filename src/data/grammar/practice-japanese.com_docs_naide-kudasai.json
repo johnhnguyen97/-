@@ -1,0 +1,423 @@
+{
+  "config_name": "Language Learning Extractor",
+  "url": "https://practice-japanese.com/docs/naide-kudasai/",
+  "data": {
+    "examples": [
+      {
+        "sentence": "〜てください - Please do (positive request)"
+      },
+      {
+        "sentence": "〜ないで - Without doing / Don't do"
+      },
+      {
+        "sentence": "〜てはいけない - Must not do (prohibition)"
+      },
+      {
+        "sentence": "〜ないでいただけますか - Could you not (humble)"
+      },
+      {
+        "sentence": "〜ないでくれますか - Won't you not (casual)"
+      },
+      {
+        "sentence": "Request politeness - Politeness levels"
+      },
+      {
+        "sentence": "About"
+      },
+      {
+        "sentence": "Pricing"
+      },
+      {
+        "sentence": "Blog"
+      },
+      {
+        "sentence": "Contact"
+      },
+      {
+        "sentence": "Privacy Policy"
+      },
+      {
+        "sentence": "Terms of Service"
+      },
+      {
+        "sentence": "Cookie Policy"
+      }
+    ],
+    "metadata": {
+      "title": "〜ないでください (Please don't)"
+    },
+    "sections": [
+      {
+        "level": 2,
+        "heading": "What is 〜ないでください?",
+        "content": "〜ないでください is the polite way to make negative requests, meaning \"please don't\" or \"please don't do.\" It's the negative counterpart of てください.\n\n心配しないでください \"Please don't worry\" 触らないでください \"Please don't touch\" 忘れないでください \"Please don't forget\""
+      },
+      {
+        "level": 2,
+        "heading": "Formation",
+        "content": "",
+        "children": [
+          {
+            "level": 3,
+            "heading": "Pattern: Verb ない-form + でください",
+            "content": "| Verb | ない-form | + でください | | ------ | --------- | ------------------ | | 見る | 見ない | 見ないでください | | 食べる | 食べない | 食べないでください | | 来る | 来ない | 来ないでください | | する | しない | しないでください | | 書く | 書かない | 書かないでください | | 読む | 読まない | 読まないでください |"
+          },
+          {
+            "level": 3,
+            "heading": "Examples",
+            "content": "行く → 行かないでください (Please don't go) 使う → 使わないでください (Please don't use) 開ける → 開けないでください (Please don't open)"
+          }
+        ]
+      },
+      {
+        "level": 2,
+        "heading": "Basic Usage",
+        "content": "",
+        "children": [
+          {
+            "level": 3,
+            "heading": "Making prohibitions",
+            "content": "ここに入らないでください \"Please don't enter here\" 写真を撮らないでください \"Please don't take photos\" 大きな声を出さないでください \"Please don't speak loudly\""
+          },
+          {
+            "level": 3,
+            "heading": "Giving warnings",
+            "content": "触らないでください \"Please don't touch\" 動かないでください \"Please don't move\" 開けないでください \"Please don't open\""
+          },
+          {
+            "level": 3,
+            "heading": "Expressing concern",
+            "content": "心配しないでください \"Please don't worry\" 無理しないでください \"Please don't overdo it\" 気にしないでください \"Please don't mind it\""
+          }
+        ]
+      },
+      {
+        "level": 2,
+        "heading": "Common ないでください Phrases",
+        "content": "",
+        "children": [
+          {
+            "level": 3,
+            "heading": "Safety warnings",
+            "content": "触らないでください - Please don't touch 入らないでください - Please don't enter 近づかないでください - Please don't approach 押さないでください - Please don't push"
+          },
+          {
+            "level": 3,
+            "heading": "Social requests",
+            "content": "心配しないでください - Please don't worry 気にしないでください - Please don't mind 無理しないでください - Please don't overdo it 忘れないでください - Please don't forget"
+          },
+          {
+            "level": 3,
+            "heading": "Instructions",
+            "content": "動かないでください - Please don't move 話さないでください - Please don't talk 見ないでください - Please don't look 聞かないでください - Please don't ask"
+          }
+        ]
+      },
+      {
+        "level": 2,
+        "heading": "Politeness Levels",
+        "content": "",
+        "children": [
+          {
+            "level": 3,
+            "heading": "Standard polite: ないでください",
+            "content": "来ないでください \"Please don't come\" 食べないでください \"Please don't eat\""
+          },
+          {
+            "level": 3,
+            "heading": "More polite: ないでくださいませ",
+            "content": "お忘れにならないでくださいませ \"Please don't forget\" (very polite) ご心配なさらないでくださいませ \"Please don't worry\" (very polite)"
+          },
+          {
+            "level": 3,
+            "heading": "Softer: ないでくださいね",
+            "content": "忘れないでくださいね \"Please don't forget, okay?\" 無理しないでくださいね \"Please don't overdo it, okay?\""
+          },
+          {
+            "level": 3,
+            "heading": "Even softer: ないでいただけますか",
+            "content": "触らないでいただけますか \"Could you please not touch?\" 入らないでいただけますでしょうか \"Could you please not enter?\""
+          }
+        ]
+      },
+      {
+        "level": 2,
+        "heading": "Common Conversations",
+        "content": "",
+        "children": [
+          {
+            "level": 3,
+            "heading": "Example 1: At a Museum",
+            "content": "A: すみません、ここで写真を撮ってもいいですか \"Excuse me, may I take photos here?\" B: 申し訳ございませんが、館内では撮らないでください \"I'm sorry, but please don't take photos inside\" A: 分かりました \"Understood\""
+          },
+          {
+            "level": 3,
+            "heading": "Example 2: Showing Concern",
+            "content": "A: 明日も残業しないと... \"I have to work overtime tomorrow too...\" B: 無理しないでくださいね。体が大事ですよ \"Please don't overdo it. Your health is important\" A: ありがとうございます \"Thank you\""
+          },
+          {
+            "level": 3,
+            "heading": "Example 3: At Work",
+            "content": "A: この件、部長には言わないでください \"Please don't tell the director about this matter\" B: 分かりました。誰にも言いません \"Understood. I won't tell anyone\" A: お願いします \"Please\""
+          }
+        ]
+      },
+      {
+        "level": 2,
+        "heading": "Signs and Warnings",
+        "content": "",
+        "children": [
+          {
+            "level": 3,
+            "heading": "Common public signs",
+            "content": "入らないでください \"Please don't enter\" 触らないでください \"Please don't touch\" 駐車しないでください \"Please don't park\" 禁煙 - タバコを吸わないでください \"No smoking - Please don't smoke\" 立ち入り禁止 - 入らないでください \"No entry - Please don't enter\""
+          },
+          {
+            "level": 3,
+            "heading": "Safety warnings",
+            "content": "危険！近づかないでください \"Danger! Please don't approach\" 工事中 - 通らないでください \"Under construction - Please don't pass\" 高温注意 - 触らないでください \"Caution: Hot - Please don't touch\""
+          }
+        ]
+      },
+      {
+        "level": 2,
+        "heading": "Common Mistakes",
+        "content": "",
+        "children": [
+          {
+            "level": 3,
+            "heading": "Mistake 1: Using wrong negative form",
+            "content": "Wrong: 食べるないでください ❌ Right: 食べないでください ✓ \"Please don't eat\" Must use ない-form, not dictionary form + ない!"
+          },
+          {
+            "level": 3,
+            "heading": "Mistake 2: Double negative confusion",
+            "content": "Wrong: 食べなくないでください ❌ Right: 食べないでください ✓ \"Please don't eat\" Don't make it double negative!"
+          },
+          {
+            "level": 3,
+            "heading": "Mistake 3: Using with potential form",
+            "content": "Wrong: 食べられないでください ❌ Right: 食べないでください ✓ \"Please don't eat\" Use plain negative, not potential!"
+          },
+          {
+            "level": 3,
+            "heading": "Mistake 4: Forgetting で",
+            "content": "Wrong: 来ないください ❌ Right: 来ないでください ✓ \"Please don't come\" Need で to connect!"
+          }
+        ]
+      },
+      {
+        "level": 2,
+        "heading": "Softening Negative Requests",
+        "content": "",
+        "children": [
+          {
+            "level": 3,
+            "heading": "すみませんが (excuse me, but)",
+            "content": "すみませんが、ここに座らないでください \"Excuse me, but please don't sit here\""
+          },
+          {
+            "level": 3,
+            "heading": "申し訳ありませんが (I'm sorry, but)",
+            "content": "申し訳ありませんが、撮影はご遠慮ください \"I'm sorry, but please refrain from filming\""
+          },
+          {
+            "level": 3,
+            "heading": "できれば (if possible)",
+            "content": "できれば大きな音を立てないでください \"If possible, please don't make loud noises\""
+          },
+          {
+            "level": 3,
+            "heading": "よろしければ (if you don't mind)",
+            "content": "よろしければ、タバコは外で吸わないでください \"If you don't mind, please don't smoke inside\""
+          }
+        ]
+      },
+      {
+        "level": 2,
+        "heading": "Expressing Concern",
+        "content": "",
+        "children": [
+          {
+            "level": 3,
+            "heading": "Health concerns",
+            "content": "無理しないでください \"Please don't overdo it\" 頑張りすぎないでください \"Please don't try too hard\" 夜更かししないでください \"Please don't stay up late\" 風邪を引かないでください \"Please don't catch a cold\""
+          },
+          {
+            "level": 3,
+            "heading": "Emotional support",
+            "content": "心配しないでください \"Please don't worry\" 気にしないでください \"Please don't mind it\" 落ち込まないでください \"Please don't get depressed\" 一人で抱え込まないでください \"Please don't keep it to yourself\""
+          }
+        ]
+      },
+      {
+        "level": 2,
+        "heading": "Secrets and Confidentiality",
+        "content": "誰にも言わないでください \"Please don't tell anyone\" 秘密にしないでください \"Please don't keep it a secret\" (asking for openness) 秘密を話さないでください \"Please don't tell the secret\" 他の人に教えないでください \"Please don't tell other people\""
+      },
+      {
+        "level": 2,
+        "heading": "Time-Related Requests",
+        "content": "遅れないでください \"Please don't be late\" 早く帰らないでください \"Please don't go home early\" 忘れないでください \"Please don't forget\" 急がないでください \"Please don't rush\""
+      },
+      {
+        "level": 2,
+        "heading": "Behavior Requests",
+        "content": "騒がないでください \"Please don't make noise\" 走らないでください \"Please don't run\" 押さないでください \"Please don't push\" 割り込まないでください \"Please don't cut in line\""
+      },
+      {
+        "level": 2,
+        "heading": "Social Etiquette",
+        "content": "気を使わないでください \"Please don't worry about me\" 遠慮しないでください \"Please don't hesitate\" 謝らないでください \"Please don't apologize\" 笑わないでください \"Please don't laugh\""
+      },
+      {
+        "level": 2,
+        "heading": "Communication Requests",
+        "content": "誤解しないでください \"Please don't misunderstand\" 怒らないでください \"Please don't get angry\" 聞かないでください \"Please don't ask\" 見ないでください \"Please don't look\""
+      },
+      {
+        "level": 2,
+        "heading": "Work-Related Requests",
+        "content": "勝手に触らないでください \"Please don't touch without permission\" 変更しないでください \"Please don't change it\" 削除しないでください \"Please don't delete it\" この書類を捨てないでください \"Please don't throw away this document\""
+      },
+      {
+        "level": 2,
+        "heading": "Adding Emphasis",
+        "content": "",
+        "children": [
+          {
+            "level": 3,
+            "heading": "絶対に (absolutely)",
+            "content": "絶対に忘れないでください \"Please absolutely don't forget\" 絶対に誰にも言わないでください \"Please absolutely don't tell anyone\""
+          },
+          {
+            "level": 3,
+            "heading": "決して (never)",
+            "content": "決して諦めないでください \"Please never give up\" 決して一人で行かないでください \"Please never go alone\""
+          },
+          {
+            "level": 3,
+            "heading": "どうか (please, I beg)",
+            "content": "どうか心配しないでください \"Please, don't worry\" どうか無理しないでください \"Please, don't overdo it\""
+          }
+        ]
+      },
+      {
+        "level": 2,
+        "heading": "Polite Alternatives",
+        "content": "",
+        "children": [
+          {
+            "level": 3,
+            "heading": "Using ご遠慮ください (please refrain)",
+            "content": "喫煙はご遠慮ください \"Please refrain from smoking\" 撮影はご遠慮ください \"Please refrain from photography\" お控えください \"Please refrain\" (even more polite)"
+          },
+          {
+            "level": 3,
+            "heading": "Using おやめください (please stop)",
+            "content": "危険ですからおやめください \"Please stop, it's dangerous\""
+          }
+        ]
+      },
+      {
+        "level": 2,
+        "heading": "Responding to ないでください",
+        "content": "",
+        "children": [
+          {
+            "level": 3,
+            "heading": "Accepting",
+            "content": "はい、分かりました \"Yes, understood\" すみません、気をつけます \"Sorry, I'll be careful\" 失礼しました \"My apologies\" 承知しました \"Understood\" (formal)"
+          },
+          {
+            "level": 3,
+            "heading": "Apologizing",
+            "content": "申し訳ございません \"I'm very sorry\" すみませんでした \"I'm sorry\" 気をつけます \"I'll be careful\""
+          }
+        ]
+      },
+      {
+        "level": 2,
+        "heading": "Negative Request Hierarchy",
+        "content": "",
+        "children": [
+          {
+            "level": 3,
+            "heading": "From casual to formal",
+            "content": "1. 食べないで (very casual) \"Don't eat\" 2. 食べないでね (casual friendly) \"Don't eat, okay?\" 3. 食べないでください (polite) \"Please don't eat\" 4. 食べないでくださいね (polite friendly) \"Please don't eat, okay?\" 5. 食べないでくださいませ (very polite) \"Please don't eat\" 6. 食べないでいただけますか (humble request) \"Could you not eat?\" 7. お食べにならないでください (honorific) \"Please don't eat\" (to superior)"
+          }
+        ]
+      },
+      {
+        "level": 2,
+        "heading": "Combination Patterns",
+        "content": "",
+        "children": [
+          {
+            "level": 3,
+            "heading": "With reason clauses",
+            "content": "危ないから、触らないでください \"Don't touch it because it's dangerous\" 遅くなるから、待たないでください \"Don't wait because it will be late\""
+          },
+          {
+            "level": 3,
+            "heading": "With conditions",
+            "content": "もし分からなくても、一人で悩まないでください \"Even if you don't understand, please don't worry alone\" 疲れたら、無理しないでください \"If you're tired, please don't overdo it\""
+          }
+        ]
+      },
+      {
+        "level": 2,
+        "heading": "Practice Sentences",
+        "content": "",
+        "children": [
+          {
+            "level": 3,
+            "heading": "Basic",
+            "content": "ここに入らないでください \"Please don't enter here\" 心配しないでください \"Please don't worry\" 忘れないでください \"Please don't forget\""
+          },
+          {
+            "level": 3,
+            "heading": "Intermediate",
+            "content": "写真を撮らないでいただけますか \"Could you please not take photos?\" 他の人に話さないでください \"Please don't tell other people\" 無理しないでくださいね \"Please don't overdo it, okay?\""
+          },
+          {
+            "level": 3,
+            "heading": "Advanced",
+            "content": "申し訳ございませんが、この場所での喫煙はご遠慮いただけますでしょうか \"I'm very sorry, but could you please refrain from smoking in this area?\" お体を大切にして、無理なさらないでくださいませ \"Please take care of yourself and don't overdo it\" この情報は社外秘ですので、決して他言しないでいただけますようお願いいたします \"This information is confidential, so I humbly request that you never speak of it to others\""
+          }
+        ]
+      },
+      {
+        "level": 2,
+        "heading": "Related Grammar Points",
+        "content": "〜てください - Please do (positive request) 〜ないで - Without doing / Don't do 〜てはいけない - Must not do (prohibition) 〜ないでいただけますか - Could you not (humble) 〜ないでくれますか - Won't you not (casual) Request politeness - Politeness levels",
+        "children": [
+          {
+            "level": 3,
+            "heading": "Company",
+            "content": "About Pricing Blog Contact"
+          },
+          {
+            "level": 3,
+            "heading": "Legal",
+            "content": "Privacy Policy Terms of Service Cookie Policy"
+          }
+        ]
+      }
+    ]
+  },
+  "metadata": {
+    "extracted_at": "2026-01-01T22:19:31.831518300Z",
+    "duration_ms": 4,
+    "extractors_matched": [
+      "metadata",
+      "examples",
+      "sections"
+    ],
+    "extractors_failed": [
+      "vocab_tables",
+      "definitions",
+      "content_blocks"
+    ]
+  }
+}

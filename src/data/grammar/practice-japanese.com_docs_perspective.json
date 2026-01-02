@@ -1,0 +1,446 @@
+{
+  "config_name": "Language Learning Extractor",
+  "url": "https://practice-japanese.com/docs/perspective/",
+  "data": {
+    "metadata": {
+      "title": "Perspective in Japanese"
+    },
+    "sections": [
+      {
+        "level": 2,
+        "heading": "What is Perspective in Japanese?",
+        "content": "Japanese grammar requires you to choose your viewpoint - are you looking from inside or outside? This affects which giving/receiving verbs you use and how you express actions.\n\nKey Concept: Japanese distinguishes between:\n\n内 (うち) \"Inside\" - Your in-group (you, family, close friends) 外 (そと) \"Outside\" - Out-group (others, strangers, distant people)\n\n友達が私にくれた (in-group receives) \"My friend gave (to) me\" 田中さんは山田さんにあげた (out-group to out-group) \"Tanaka gave to Yamada\""
+      },
+      {
+        "level": 2,
+        "heading": "In-Group (内) vs Out-Group (外)",
+        "content": "",
+        "children": [
+          {
+            "level": 3,
+            "heading": "Your In-Group Includes:",
+            "content": "Always:\n\nYourself (私) Your immediate family (when talking to outsiders) Your company (when talking to outsiders)\n\nContext-dependent:\n\nClose friends (in casual contexts) Your team/department (in work contexts) Your classmates (in school contexts)"
+          },
+          {
+            "level": 3,
+            "heading": "Out-Group Includes:",
+            "content": "Always:\n\nStrangers Other people's families Other companies/organizations\n\nContext-dependent:\n\nYour family (when talking within family) Your company (when talking to your boss)"
+          }
+        ]
+      },
+      {
+        "level": 2,
+        "heading": "Perspective with Giving Verbs",
+        "content": "",
+        "children": [
+          {
+            "level": 3,
+            "heading": "From In-Group → Out-Group: あげる",
+            "content": "私は田中さんにプレゼントをあげた \"I gave a present to Tanaka\" 兄が友達にゲームをあげた \"My brother gave a game to his friend\" (兄 is my in-group)"
+          },
+          {
+            "level": 3,
+            "heading": "From Out-Group → In-Group: くれる",
+            "content": "田中さんが私にプレゼントをくれた \"Tanaka gave me a present\" 友達が弟にゲームをくれた \"A friend gave my younger brother a game\" (弟 is my in-group)"
+          },
+          {
+            "level": 3,
+            "heading": "Between Out-Group Members: あげる",
+            "content": "田中さんは山田さんにプレゼントをあげた \"Tanaka gave Yamada a present\" (Neither is my in-group)"
+          }
+        ]
+      },
+      {
+        "level": 2,
+        "heading": "The \"Me-Centric\" View",
+        "content": "Japanese grammar is egocentric - it revolves around your perspective:",
+        "children": [
+          {
+            "level": 3,
+            "heading": "You are the center:",
+            "content": "Out-group ↓ [くれる (receive)] ↓ ★ YOU (In-group) ★ ↓ [あげる (give)] ↓ Out-group"
+          },
+          {
+            "level": 3,
+            "heading": "Verbs change based on direction:",
+            "content": "Toward you/in-group:\n\nくれる (they give to me) もらう (I receive from them)\n\nAway from you/in-group:\n\nあげる (I give to them) やる (I give to juniors)"
+          }
+        ]
+      },
+      {
+        "level": 2,
+        "heading": "Family Perspective Shifts",
+        "content": "",
+        "children": [
+          {
+            "level": 3,
+            "heading": "Talking to Outsiders",
+            "content": "Your family = In-group:\n\n母が先生に本をさしあげました \"My mother gave a book to the teacher\" (母 = in-group, giving up to superior) 先生が弟に本をくださいました \"The teacher gave a book to my brother\" (弟 = in-group, receiving from superior)"
+          },
+          {
+            "level": 3,
+            "heading": "Talking Within Family",
+            "content": "The speaker's position matters:\n\nOlder to younger:\n\nお母さんが私にくれた \"Mom gave (it) to me\" (Mom gives down to me)\n\nYounger to older:\n\nお母さんにあげた \"I gave (it) to mom\" (I give up to mom)"
+          }
+        ]
+      },
+      {
+        "level": 2,
+        "heading": "Company/Organization Perspective",
+        "content": "",
+        "children": [
+          {
+            "level": 3,
+            "heading": "Talking to Outsiders",
+            "content": "Your company = In-group:\n\n弊社からカタログをお送りします \"Our company will send you a catalog\" (We give to outsiders) お客様からご意見をいただきました \"We received feedback from the customer\" (We receive from outsiders - humble)"
+          },
+          {
+            "level": 3,
+            "heading": "Talking to Your Boss",
+            "content": "Your boss = Out-group (higher status):\n\n部長に報告書をさしあげました \"I gave the report to the department head\" (I give up to superior) 部長が資料をくださいました \"The department head gave me materials\" (Superior gives down to me)"
+          }
+        ]
+      },
+      {
+        "level": 2,
+        "heading": "Choosing Perspective: Rules",
+        "content": "",
+        "children": [
+          {
+            "level": 3,
+            "heading": "Rule 1: Identify the In-Group",
+            "content": "Ask yourself: \"Who am I aligned with?\"\n\n私の友達が田中さんにあげた \"My friend gave to Tanaka\" (My friend = in-group, uses あげる) 田中さんが私の友達にくれた \"Tanaka gave to my friend\" (My friend = in-group, uses くれる)"
+          },
+          {
+            "level": 3,
+            "heading": "Rule 2: Check the Direction",
+            "content": "Toward in-group: くれる Away from in-group: あげる Between out-groups: あげる"
+          },
+          {
+            "level": 3,
+            "heading": "Rule 3: Consider Social Hierarchy",
+            "content": "Even within direction, hierarchy matters:\n\n先生がくださった (honorific くれる) \"The teacher gave (to me)\" 友達がくれた (neutral くれる) \"My friend gave (to me)\""
+          }
+        ]
+      },
+      {
+        "level": 2,
+        "heading": "Common Perspective Mistakes",
+        "content": "",
+        "children": [
+          {
+            "level": 3,
+            "heading": "Mistake 1: Wrong verb for direction",
+            "content": "Wrong: 友達が私にあげた ❌ Right: 友達が私にくれた ✓ \"My friend gave to me\" Direction is TOWARD me, must use くれる!"
+          },
+          {
+            "level": 3,
+            "heading": "Mistake 2: Ignoring in-group",
+            "content": "Unnatural: 田中さんが私の弟にあげた ⚠️ Natural: 田中さんが私の弟にくれた ✓ \"Tanaka gave to my younger brother\" Your brother is in-group!"
+          },
+          {
+            "level": 3,
+            "heading": "Mistake 3: Wrong perspective in requests",
+            "content": "Less natural: 田中さんに手伝ってあげてください ⚠️ Natural: 田中さんを手伝ってあげてください ✓ \"Please help Tanaka\" Or better: 田中さんを手伝ってください ✓"
+          }
+        ]
+      },
+      {
+        "level": 2,
+        "heading": "Empathy and Perspective",
+        "content": "Japanese perspective shows who you empathize with :",
+        "children": [
+          {
+            "level": 3,
+            "heading": "Empathizing with your family:",
+            "content": "母が先生に叱られた \"My mother was scolded by the teacher\" (You feel bad for your mother)"
+          },
+          {
+            "level": 3,
+            "heading": "Neutral observation:",
+            "content": "先生が母を叱った \"The teacher scolded my mother\" (Neutral statement, no strong empathy)"
+          }
+        ]
+      },
+      {
+        "level": 2,
+        "heading": "Third-Party Giving",
+        "content": "",
+        "children": [
+          {
+            "level": 3,
+            "heading": "Between two outsiders:",
+            "content": "田中さんは山田さんに本をあげた \"Tanaka gave Yamada a book\""
+          },
+          {
+            "level": 3,
+            "heading": "One is in-group:",
+            "content": "田中さんは私の弟に本をくれた \"Tanaka gave my brother a book\" (Empathy with brother = in-group)"
+          }
+        ]
+      },
+      {
+        "level": 2,
+        "heading": "Perspective with てあげる/てくれる/てもらう",
+        "content": "",
+        "children": [
+          {
+            "level": 3,
+            "heading": "〜てあげる - I do for out-group",
+            "content": "友達を手伝ってあげた \"I helped my friend\" (I → friend)"
+          },
+          {
+            "level": 3,
+            "heading": "〜てくれる - Out-group does for me",
+            "content": "友達が手伝ってくれた \"My friend helped me\" (Friend → me)"
+          },
+          {
+            "level": 3,
+            "heading": "〜てもらう - I receive action from out-group",
+            "content": "友達に手伝ってもらった \"I had my friend help me\" (Friend → me, my benefit)"
+          }
+        ]
+      },
+      {
+        "level": 2,
+        "heading": "Cultural Context",
+        "content": "",
+        "children": [
+          {
+            "level": 3,
+            "heading": "Why perspective matters:",
+            "content": "Japanese culture emphasizes:\n\nAwareness of relationships - Who is inside/outside your circle Social hierarchy - Adjusting language to status Group identity - Aligning with your in-group\n\nUsing the wrong verb shows:\n\nLack of awareness of relationships Unclear group loyalty Improper social positioning"
+          }
+        ]
+      },
+      {
+        "level": 2,
+        "heading": "Visual Summary",
+        "content": "",
+        "children": [
+          {
+            "level": 3,
+            "heading": "Direction Flow Chart",
+            "content": "Out-group Person ↓ くれる/くださる (they give TO me) ★ ME ★ ↓ あげる/さしあげる (I give TO them) Out-group Person Out-group ←あげる→ Out-group (neither involves me)"
+          }
+        ]
+      },
+      {
+        "level": 2,
+        "heading": "Practical Tips",
+        "content": "",
+        "children": [
+          {
+            "level": 3,
+            "heading": "Tip 1: Start with yourself",
+            "content": "Ask: \"Am I giving or receiving?\"\n\nGiving out → あげる/さしあげる Receiving in → くれる/もらう/いただく"
+          },
+          {
+            "level": 3,
+            "heading": "Tip 2: Check the recipient",
+            "content": "Ask: \"Is the recipient me or my in-group?\"\n\nYes → くれる/くださる No → あげる/さしあげる"
+          },
+          {
+            "level": 3,
+            "heading": "Tip 3: When confused, simplify",
+            "content": "If you're unsure:\n\nAvoid using these verbs Use plain verb forms Add context to clarify\n\nInstead of: 友達が本をくれた Simple: 友達から本をもらった \"I received a book from my friend\""
+          }
+        ]
+      },
+      {
+        "level": 2,
+        "heading": "Practice Scenarios",
+        "content": "",
+        "children": [
+          {
+            "level": 3,
+            "heading": "Scenario 1: Gift Exchange",
+            "content": "Your friend gives you a gift: 友達がプレゼントをくれた ✓ \"My friend gave me a present\" You give your friend a gift: 友達にプレゼントをあげた ✓ \"I gave my friend a present\""
+          },
+          {
+            "level": 3,
+            "heading": "Scenario 2: Family Help",
+            "content": "Your mom helps your sister (talking to outsider): 母が妹を手伝ってあげた ✓ \"My mother helped my sister\" (Both in-group, giving outward perspective) Friend helps your sister: 友達が妹を手伝ってくれた ✓ \"My friend helped my sister\" (Friend → in-group sister)"
+          },
+          {
+            "level": 3,
+            "heading": "Scenario 3: Work Situation",
+            "content": "You give report to boss: 部長にレポートをさしあげた ✓ \"I gave the report to my boss\" Boss gives you advice: 部長がアドバイスをくださった ✓ \"My boss gave me advice\" Colleague gives another colleague something: 田中さんは山田さんに資料をあげた ✓ \"Tanaka gave materials to Yamada\""
+          }
+        ]
+      },
+      {
+        "level": 2,
+        "heading": "Advanced: Multiple Perspectives",
+        "content": "Sometimes you can choose perspective:\n\nNeutral (outsider view): 母は先生に本をさしあげた \"My mother gave a book to the teacher\" Empathetic (mother's view): 母は先生に本をさしあげた Same sentence, different mental stance\n\nThe grammar is the same, but your mental alignment differs!"
+      },
+      {
+        "level": 2,
+        "heading": "Summary Table",
+        "content": "| Giver | Receiver | Verb | | --------- | ------------------- | ---------- | | Me | Out-group | あげる | | Me | Superior | さしあげる | | Out-group | Me | くれる | | Superior | Me | くださる | | Me | Out-group (receive) | もらう | | Me | Superior (receive) | いただく | | In-group | Out-group | あげる | | Out-group | In-group | くれる | | Out-group | Out-group | あげる |"
+      },
+      {
+        "level": 2,
+        "heading": "Related Grammar Points",
+        "content": "Giving: あげる/やる/さしあげる - Giving verbs Receiving: もらう/いただく - Receiving verbs Favor: くれる/くださる - Someone gives to me Direction of Actions - てあげる/てくれる/てもらう Honorific language - Politeness levels Passive voice - Related perspective shifts",
+        "children": [
+          {
+            "level": 3,
+            "heading": "Company",
+            "content": "About Pricing Blog Contact"
+          },
+          {
+            "level": 3,
+            "heading": "Legal",
+            "content": "Privacy Policy Terms of Service Cookie Policy"
+          }
+        ]
+      }
+    ],
+    "examples": [
+      {
+        "sentence": "内 (うち) \"Inside\" - Your in-group (you, family, close friends)"
+      },
+      {
+        "sentence": "外 (そと) \"Outside\" - Out-group (others, strangers, distant people)"
+      },
+      {
+        "sentence": "Yourself (私)"
+      },
+      {
+        "sentence": "Your immediate family (when talking to outsiders)"
+      },
+      {
+        "sentence": "Your company (when talking to outsiders)"
+      },
+      {
+        "sentence": "Close friends (in casual contexts)"
+      },
+      {
+        "sentence": "Your team/department (in work contexts)"
+      },
+      {
+        "sentence": "Your classmates (in school contexts)"
+      },
+      {
+        "sentence": "Strangers"
+      },
+      {
+        "sentence": "Other people's families"
+      },
+      {
+        "sentence": "Other companies/organizations"
+      },
+      {
+        "sentence": "Your family (when talking within family)"
+      },
+      {
+        "sentence": "Your company (when talking to your boss)"
+      },
+      {
+        "sentence": "くれる (they give to me)"
+      },
+      {
+        "sentence": "もらう (I receive from them)"
+      },
+      {
+        "sentence": "あげる (I give to them)"
+      },
+      {
+        "sentence": "やる (I give to juniors)"
+      },
+      {
+        "sentence": "Awareness of relationships - Who is inside/outside your circle"
+      },
+      {
+        "sentence": "Social hierarchy - Adjusting language to status"
+      },
+      {
+        "sentence": "Group identity - Aligning with your in-group"
+      },
+      {
+        "sentence": "Lack of awareness of relationships"
+      },
+      {
+        "sentence": "Unclear group loyalty"
+      },
+      {
+        "sentence": "Improper social positioning"
+      },
+      {
+        "sentence": "Giving out → あげる/さしあげる"
+      },
+      {
+        "sentence": "Receiving in → くれる/もらう/いただく"
+      },
+      {
+        "sentence": "Yes → くれる/くださる"
+      },
+      {
+        "sentence": "No → あげる/さしあげる"
+      },
+      {
+        "sentence": "Avoid using these verbs"
+      },
+      {
+        "sentence": "Use plain verb forms"
+      },
+      {
+        "sentence": "Add context to clarify"
+      },
+      {
+        "sentence": "Giving: あげる/やる/さしあげる - Giving verbs"
+      },
+      {
+        "sentence": "Receiving: もらう/いただく - Receiving verbs"
+      },
+      {
+        "sentence": "Favor: くれる/くださる - Someone gives to me"
+      },
+      {
+        "sentence": "Direction of Actions - てあげる/てくれる/てもらう"
+      },
+      {
+        "sentence": "Honorific language - Politeness levels"
+      },
+      {
+        "sentence": "Passive voice - Related perspective shifts"
+      },
+      {
+        "sentence": "About"
+      },
+      {
+        "sentence": "Pricing"
+      },
+      {
+        "sentence": "Blog"
+      },
+      {
+        "sentence": "Contact"
+      },
+      {
+        "sentence": "Privacy Policy"
+      },
+      {
+        "sentence": "Terms of Service"
+      },
+      {
+        "sentence": "Cookie Policy"
+      }
+    ]
+  },
+  "metadata": {
+    "extracted_at": "2026-01-01T22:19:33.744675200Z",
+    "duration_ms": 3,
+    "extractors_matched": [
+      "metadata",
+      "examples",
+      "sections"
+    ],
+    "extractors_failed": [
+      "vocab_tables",
+      "definitions",
+      "content_blocks"
+    ]
+  }
+}

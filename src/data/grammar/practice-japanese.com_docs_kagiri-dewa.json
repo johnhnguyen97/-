@@ -1,0 +1,292 @@
+{
+  "config_name": "Language Learning Extractor",
+  "url": "https://practice-japanese.com/docs/kagiri-dewa/",
+  "data": {
+    "metadata": {
+      "title": "〜かぎりでは (As far as I know)"
+    },
+    "examples": [
+      {
+        "sentence": "限りでは expresses \"as far as\" with explicit scope"
+      },
+      {
+        "sentence": "Formation: [Verb/Noun の] + 限りでは"
+      },
+      {
+        "sentence": "Emphasizes limitation of knowledge/observation"
+      },
+      {
+        "sentence": "Common with: 知る, 見る, 聞く, 調べる, 記憶, 経験"
+      },
+      {
+        "sentence": "More explicit than 限り alone"
+      },
+      {
+        "sentence": "Different from によると (external sources)"
+      },
+      {
+        "sentence": "Used in both casual and formal contexts"
+      },
+      {
+        "sentence": "Essential for hedging and expressing uncertainty"
+      },
+      {
+        "sentence": "About"
+      },
+      {
+        "sentence": "Pricing"
+      },
+      {
+        "sentence": "Blog"
+      },
+      {
+        "sentence": "Contact"
+      },
+      {
+        "sentence": "Privacy Policy"
+      },
+      {
+        "sentence": "Terms of Service"
+      },
+      {
+        "sentence": "Cookie Policy"
+      }
+    ],
+    "sections": [
+      {
+        "level": 2,
+        "heading": "What is 〜かぎりでは?",
+        "content": "〜かぎりでは (kagiri dewa) explicitly expresses \"as far as\" or \"within the scope of,\" emphasizing the limitation of one's knowledge, observation, or experience. It's more specific than 限り alone.\n\nEnglish equivalent: \"as far as,\" \"within,\" \"to the best of my knowledge\"\n\nStructure: [Verb/Noun] + 限りでは\n\n知る (shiru - know) → 知る限りでは = 知る限りでは \"as far as I know\" 見る (miru - see) → 見た限りでは = 見た限りでは \"as far as I saw\" 経験 (keiken - experience) → 私の経験の限りでは = 私の経験の限りでは \"in my experience\" / \"as far as my experience goes\""
+      },
+      {
+        "level": 2,
+        "heading": "Basic Formation",
+        "content": "",
+        "children": [
+          {
+            "level": 3,
+            "heading": "With verbs",
+            "content": "[Verb dictionary/た-form] + 限りでは\n\n知る限りでは (shiru kagiri dewa) - \"as far as I know\" 見た限りでは (mita kagiri dewa) - \"as far as I saw\" 聞いた限りでは (kiita kagiri dewa) - \"as far as I heard\" 調べた限りでは (shirabeta kagiri dewa) - \"as far as I investigated\""
+          },
+          {
+            "level": 3,
+            "heading": "With nouns + の",
+            "content": "[Noun] + の限りでは\n\n私の知識の限りでは (watashi no chishiki no kagiri dewa) - \"within my knowledge\" 私の経験の限りでは (watashi no keiken no kagiri dewa) - \"in my experience\" 記憶の限りでは (kioku no kagiri dewa) - \"as far as I remember\""
+          }
+        ]
+      },
+      {
+        "level": 2,
+        "heading": "Expressing Limited Knowledge",
+        "content": "",
+        "children": [
+          {
+            "level": 3,
+            "heading": "Scope of what you know",
+            "content": "私の知る限りでは、それは正しい。 Watashi no shiru kagiri dewa, sore wa tadashii. \"As far as I know, that's correct.\" 知る限りでは、彼は来ない。 Shiru kagiri dewa, kare wa konai. \"As far as I know, he's not coming.\" 今のところ知る限りでは、問題ない。 Ima no tokoro shiru kagiri dewa, mondai nai. \"As far as I know right now, there's no problem.\""
+          }
+        ]
+      },
+      {
+        "level": 2,
+        "heading": "Based on Observation",
+        "content": "",
+        "children": [
+          {
+            "level": 3,
+            "heading": "What you've seen",
+            "content": "見た限りでは、大丈夫そうだ。 Mita kagiri dewa, daijoubu sou da. \"As far as I saw, it seems okay.\" 私が見た限りでは、誰もいなかった。 Watashi ga mita kagiri dewa, dare mo inakatta. \"As far as I saw, no one was there.\" 観察した限りでは、異常はない。 Kansatsu shita kagiri dewa, ijou wa nai. \"As far as I observed, there are no abnormalities.\""
+          }
+        ]
+      },
+      {
+        "level": 2,
+        "heading": "Based on Hearing",
+        "content": "",
+        "children": [
+          {
+            "level": 3,
+            "heading": "What you've heard",
+            "content": "聞いた限りでは、成功したらしい。 Kiita kagiri dewa, seikou shita rashii. \"As far as I heard, it seems to have succeeded.\" 話を聞いた限りでは、問題があるようだ。 Hanashi wo kiita kagiri dewa, mondai ga aru you da. \"As far as I heard the story, there seems to be a problem.\" 噂で聞いた限りでは、彼は辞めるそうだ。 Uwasa de kiita kagiri dewa, kare wa yameru sou da. \"As far as I heard through rumors, he's apparently quitting.\""
+          }
+        ]
+      },
+      {
+        "level": 2,
+        "heading": "Based on Investigation",
+        "content": "",
+        "children": [
+          {
+            "level": 3,
+            "heading": "Research scope",
+            "content": "調べた限りでは、前例がない。 Shirabeta kagiri dewa, zenrei ga nai. \"As far as I investigated, there's no precedent.\" 調査した限りでは、原因は不明だ。 Chousa shita kagiri dewa, gen'in wa fumei da. \"As far as we investigated, the cause is unknown.\" 確認した限りでは、間違いない。 Kakunin shita kagiri dewa, machigai nai. \"As far as I confirmed, there's no mistake.\""
+          }
+        ]
+      },
+      {
+        "level": 2,
+        "heading": "Based on Experience",
+        "content": "",
+        "children": [
+          {
+            "level": 3,
+            "heading": "Personal experience scope",
+            "content": "私の経験の限りでは、これが最善だ。 Watashi no keiken no kagiri dewa, kore ga saizen da. \"In my experience, this is the best.\" 経験した限りでは、効果がある。 Keiken shita kagiri dewa, kouka ga aru. \"As far as I've experienced, it's effective.\" 今までの経験の限りでは、初めてだ。 Ima made no keiken no kagiri dewa, hajimete da. \"In my experience so far, this is the first time.\""
+          }
+        ]
+      },
+      {
+        "level": 2,
+        "heading": "Based on Memory",
+        "content": "",
+        "children": [
+          {
+            "level": 3,
+            "heading": "As far as one remembers",
+            "content": "記憶の限りでは、そんなことは言っていない。 Kioku no kagiri dewa, sonna koto wa itte inai. \"As far as I remember, I didn't say such a thing.\" 覚えている限りでは、彼は来なかった。 Oboete iru kagiri dewa, kare wa konakatta. \"As far as I remember, he didn't come.\" 私の記憶の限りでは、初めてだ。 Watashi no kioku no kagiri dewa, hajimete da. \"To the best of my recollection, this is the first time.\""
+          }
+        ]
+      },
+      {
+        "level": 2,
+        "heading": "Polite Forms",
+        "content": "私の知る限りでは、問題ございません。 Watashi no shiru kagiri dewa, mondai gozaimasen. \"As far as I know, there are no problems.\" 調べました限りでは、間違いはないかと思います。 Shirabemashita kagiri dewa, machigai wa nai ka to omoimasu. \"As far as I investigated, I believe there are no mistakes.\""
+      },
+      {
+        "level": 2,
+        "heading": "With Qualifiers",
+        "content": "",
+        "children": [
+          {
+            "level": 3,
+            "heading": "Adding specificity",
+            "content": "現時点で知る限りでは (genjiten de shiru kagiri dewa) - \"as far as I know at this point\" 今のところ知る限りでは (ima no tokoro shiru kagiri dewa) - \"as far as I know for now\" 私が知る限りでは (watashi ga shiru kagiri dewa) - \"as far as I personally know\" 現時点で知る限りでは、変更はない。 Genjiten de shiru kagiri dewa, henkou wa nai. \"As far as I know at this point, there are no changes.\""
+          }
+        ]
+      },
+      {
+        "level": 2,
+        "heading": "Common Expressions",
+        "content": "知る限りでは (shiru kagiri dewa) - \"as far as I know\" 見た限りでは (mita kagiri dewa) - \"as far as I saw\" 聞いた限りでは (kiita kagiri dewa) - \"as far as I heard\" 調べた限りでは (shirabeta kagiri dewa) - \"as far as I investigated\" 記憶の限りでは (kioku no kagiri dewa) - \"as far as I remember\" 経験の限りでは (keiken no kagiri dewa) - \"in my experience\" 私の知識の限りでは (watashi no chishiki no kagiri dewa) - \"within my knowledge\""
+      },
+      {
+        "level": 2,
+        "heading": "Comparing 〜限りでは and 〜によると",
+        "content": "",
+        "children": [
+          {
+            "level": 3,
+            "heading": "Personal knowledge vs citation",
+            "content": "限りでは - Personal scope:\n\n知る限りでは、正しい。 Shiru kagiri dewa, tadashii. \"As far as I know, it's correct.\" (my personal knowledge)\n\nによると - According to source:\n\nニュースによると、正しい。 Nyuusu ni yoru to, tadashii. \"According to the news, it's correct.\" (citing source)\n\n| Pattern | Source | Example | | -------- | ------------------ | ---------------- | | 限りでは | Personal knowledge | 知る限りでは | | によると | External source | ニュースによると |\n\nSee: 〜によると (According to)"
+          }
+        ]
+      },
+      {
+        "level": 2,
+        "heading": "Comparing 限りでは and 限り",
+        "content": "",
+        "children": [
+          {
+            "level": 3,
+            "heading": "Explicit vs implicit scope",
+            "content": "限りでは - Explicit scope marker:\n\n知る限りでは、問題ない。 Shiru kagiri dewa, mondai nai. \"As far as I know (within that scope), there's no problem.\"\n\n限り - Can be simpler:\n\n知る限り、問題ない。 Shiru kagiri, mondai nai. \"As far as I know, there's no problem.\"\n\n限りでは adds では to emphasize the scope limitation more explicitly.\n\nSee: 〜限り (As far as)"
+          }
+        ]
+      },
+      {
+        "level": 2,
+        "heading": "In Academic/Professional Contexts",
+        "content": "",
+        "children": [
+          {
+            "level": 3,
+            "heading": "Research and reports",
+            "content": "この研究で調べた限りでは、効果が認められる。 Kono kenkyuu de shirabeta kagiri dewa, kouka ga mitomerareru. \"As far as we investigated in this research, effects are recognized.\" データを分析した限りでは、傾向が見られる。 Deeta wo bunseki shita kagiri dewa, keikou ga mirareru. \"As far as we analyzed the data, a trend can be observed.\" 文献を調査した限りでは、前例がない。 Bunken wo chousa shita kagiri dewa, zenrei ga nai. \"As far as we surveyed the literature, there's no precedent.\""
+          }
+        ]
+      },
+      {
+        "level": 2,
+        "heading": "Expressing Uncertainty",
+        "content": "",
+        "children": [
+          {
+            "level": 3,
+            "heading": "Acknowledging limits",
+            "content": "私が知る限りでは、ですが、確実ではありません。 Watashi ga shiru kagiri dewa, desu ga, kakujitsu dewa arimasen. \"As far as I know, but I'm not certain.\" 見た限りでは問題ないが、詳しくは分からない。 Mita kagiri dewa mondai nai ga, kuwashiku wa wakaranai. \"As far as I saw there's no problem, but I don't know the details.\""
+          }
+        ]
+      },
+      {
+        "level": 2,
+        "heading": "Casual vs Formal",
+        "content": "",
+        "children": [
+          {
+            "level": 3,
+            "heading": "Usage levels",
+            "content": "Casual: 知る限りでは、大丈夫だよ。 Shiru kagiri dewa, daijoubu da yo. \"As far as I know, it's okay.\" Formal: 私の知る限りでは、問題はございません。 Watashi no shiru kagiri dewa, mondai wa gozaimasen. \"As far as I know, there are no problems.\""
+          }
+        ]
+      },
+      {
+        "level": 2,
+        "heading": "Common Mistakes",
+        "content": "",
+        "children": [
+          {
+            "level": 3,
+            "heading": "Mistake 1: Using た-form unnecessarily",
+            "content": "△ 知った限りでは (less common) ✓ 知る限りでは (more common) But た-form is correct for specific past observations: ✓ 昨日見た限りでは (as far as I saw yesterday)"
+          },
+          {
+            "level": 3,
+            "heading": "Mistake 2: Forgetting の with nouns",
+            "content": "❌ 私経験限りでは ✓ 私の経験の限りでは\n\nUse の between nouns and 限りでは."
+          },
+          {
+            "level": 3,
+            "heading": "Mistake 3: Confusing with によると",
+            "content": "限りでは = my personal knowledge/observation によると = according to external source 知る限りでは = as far as I know (personal) ニュースによると = according to news (external)"
+          },
+          {
+            "level": 3,
+            "heading": "Mistake 4: Overusing in casual conversation",
+            "content": "限りでは can sound formal. In casual speech, simpler forms work:\n\nCasual: 知ってる範囲では、大丈夫 Formal: 知る限りでは、問題ありません"
+          }
+        ]
+      },
+      {
+        "level": 2,
+        "heading": "Summary",
+        "content": "Key Points:\n\n限りでは expresses \"as far as\" with explicit scope Formation: [Verb/Noun の] + 限りでは Emphasizes limitation of knowledge/observation Common with: 知る, 見る, 聞く, 調べる, 記憶, 経験 More explicit than 限り alone Different from によると (external sources) Used in both casual and formal contexts Essential for hedging and expressing uncertainty",
+        "children": [
+          {
+            "level": 3,
+            "heading": "Company",
+            "content": "About Pricing Blog Contact"
+          },
+          {
+            "level": 3,
+            "heading": "Legal",
+            "content": "Privacy Policy Terms of Service Cookie Policy"
+          }
+        ]
+      }
+    ]
+  },
+  "metadata": {
+    "extracted_at": "2026-01-01T22:19:30.418901400Z",
+    "duration_ms": 4,
+    "extractors_matched": [
+      "metadata",
+      "examples",
+      "sections"
+    ],
+    "extractors_failed": [
+      "vocab_tables",
+      "definitions",
+      "content_blocks"
+    ]
+  }
+}

@@ -1,0 +1,306 @@
+{
+  "config_name": "Language Learning Extractor",
+  "url": "https://practice-japanese.com/docs/te-oku-detail/",
+  "data": {
+    "examples": [
+      {
+        "sentence": "ておく = action of preparing"
+      },
+      {
+        "sentence": "てある = state of being prepared"
+      },
+      {
+        "sentence": "ておく expresses preparation or maintaining state"
+      },
+      {
+        "sentence": "Formation: [Verb て-form] + おく"
+      },
+      {
+        "sentence": "Means \"do in advance\" or \"leave as is\""
+      },
+      {
+        "sentence": "Implies action for future benefit"
+      },
+      {
+        "sentence": "Casual form: とく (very common)"
+      },
+      {
+        "sentence": "Common verbs: 買う, 読む, 調べる, 予約する, 準備する"
+      },
+      {
+        "sentence": "For requests: ておいて(ください)"
+      },
+      {
+        "sentence": "For past: ておいた"
+      },
+      {
+        "sentence": "Different from てある (result state)"
+      },
+      {
+        "sentence": "Essential for expressing preparation and planning"
+      },
+      {
+        "sentence": "About"
+      },
+      {
+        "sentence": "Pricing"
+      },
+      {
+        "sentence": "Blog"
+      },
+      {
+        "sentence": "Contact"
+      },
+      {
+        "sentence": "Privacy Policy"
+      },
+      {
+        "sentence": "Terms of Service"
+      },
+      {
+        "sentence": "Cookie Policy"
+      }
+    ],
+    "metadata": {
+      "title": "〜ておく (Have done in advance)"
+    },
+    "sections": [
+      {
+        "level": 2,
+        "heading": "What is 〜ておく?",
+        "content": "〜ておく (te oku) expresses doing something in advance as preparation for the future, or maintaining a state. It implies the action is taken for later benefit or convenience.\n\nEnglish equivalent: \"do in advance,\" \"do beforehand,\" \"leave as is\"\n\nStructure: [Verb て-form] + おく\n\n読む (yomu - read) → 読んで + おく = 読んでおく \"read in advance\" 予約する (yoyaku suru - reserve) → 予約して + おく = 予約しておく \"reserve in advance\" 開ける (akeru - open) → 開けて + おく = 開けておく \"leave open\""
+      },
+      {
+        "level": 2,
+        "heading": "Basic Formation",
+        "content": "",
+        "children": [
+          {
+            "level": 3,
+            "heading": "With verbs",
+            "content": "[Verb て-form] + おく\n\n読んでおく (yonde oku) - \"read in advance\" 調べておく (shirabete oku) - \"check in advance\" 買っておく (katte oku) - \"buy in advance\" 準備しておく (junbi shite oku) - \"prepare in advance\""
+          }
+        ]
+      },
+      {
+        "level": 2,
+        "heading": "Doing in Advance",
+        "content": "",
+        "children": [
+          {
+            "level": 3,
+            "heading": "Preparation for future",
+            "content": "明日のために買っておく。 Ashita no tame ni katte oku. \"I'll buy it for tomorrow.\" (in advance) 会議の前に資料を読んでおいて。 Kaigi no mae ni shiryou wo yonde oite. \"Please read the materials before the meeting.\" 予約しておきます。 Yoyaku shite okimasu. \"I'll make a reservation.\" (in advance) 調べておいた方がいい。 Shirabete oita hou ga ii. \"You should check in advance.\""
+          }
+        ]
+      },
+      {
+        "level": 2,
+        "heading": "Maintaining a State",
+        "content": "",
+        "children": [
+          {
+            "level": 3,
+            "heading": "Leaving something as is",
+            "content": "窓を開けておく。 Mado wo akete oku. \"Leave the window open.\" 電気をつけておいて。 Denki wo tsukete oite. \"Leave the light on.\" ドアを閉めておく。 Doa wo shimete oku. \"Leave the door closed.\" このままにしておく。 Kono mama ni shite oku. \"Leave it as it is.\""
+          }
+        ]
+      },
+      {
+        "level": 2,
+        "heading": "Common Preparatory Actions",
+        "content": "",
+        "children": [
+          {
+            "level": 3,
+            "heading": "Typical uses",
+            "content": "買っておく (katte oku) - \"buy in advance\" 作っておく (tsukutte oku) - \"make in advance\" 用意しておく (youi shite oku) - \"prepare in advance\" 確認しておく (kakunin shite oku) - \"confirm in advance\" 覚えておく (oboete oku) - \"remember\" / \"memorize\" 考えておく (kangaete oku) - \"think about in advance\" 食べ物を買っておいた。 Tabemono wo katte oita. \"I bought food in advance.\" 名前を覚えておいてください。 Namae wo oboete oite kudasai. \"Please remember the name.\""
+          }
+        ]
+      },
+      {
+        "level": 2,
+        "heading": "Casual Contraction: 〜とく",
+        "content": "",
+        "children": [
+          {
+            "level": 3,
+            "heading": "Shortened form",
+            "content": "ておく → とく (very common in speech)\n\n買っておく → 買っとく (kattoku) 読んでおく → 読んどく (yondoku) 調べておく → 調べとく (shirabetoku) 言っておく → 言っとく (ittoku) 後で読んどく。 Ato de yondoku. \"I'll read it later.\" (casual) 予約しとくね。 Yoyaku shitoku ne. \"I'll make a reservation, okay?\" (casual)"
+          }
+        ]
+      },
+      {
+        "level": 2,
+        "heading": "Requests with ておいて",
+        "content": "",
+        "children": [
+          {
+            "level": 3,
+            "heading": "Asking someone to do",
+            "content": "ドアを開けておいて。 Doa wo akete oite. \"Leave the door open.\" これ見ておいてください。 Kore mite oite kudasai. \"Please look at this (beforehand).\" メールを送っておいてくれる？ Meeru wo okutte oite kureru? \"Can you send the email (in advance)?\" 準備しておいてね。 Junbi shite oite ne. \"Make sure to prepare, okay?\""
+          }
+        ]
+      },
+      {
+        "level": 2,
+        "heading": "Past Tense",
+        "content": "",
+        "children": [
+          {
+            "level": 3,
+            "heading": "Already done in advance",
+            "content": "もう買っておいた。 Mou katte oita. \"I already bought it (in advance).\" 昨日予約しておきました。 Kinou yoyaku shite okimashita. \"I made a reservation yesterday.\" 資料を読んでおいた。 Shiryou wo yonde oita. \"I read the materials (in advance).\""
+          }
+        ]
+      },
+      {
+        "level": 2,
+        "heading": "Suggestions and Advice",
+        "content": "",
+        "children": [
+          {
+            "level": 3,
+            "heading": "Should do beforehand",
+            "content": "調べておいた方がいい。 Shirabete oita hou ga ii. \"You should check in advance.\" 早めに予約しておいてください。 Hayame ni yoyaku shite oite kudasai. \"Please make a reservation early.\" 一度考えておいて。 Ichido kangaete oite. \"Think about it once (beforehand).\""
+          }
+        ]
+      },
+      {
+        "level": 2,
+        "heading": "With Negative",
+        "content": "",
+        "children": [
+          {
+            "level": 3,
+            "heading": "Not doing in advance",
+            "content": "まだ買っておかない。 Mada katte okanai. \"I won't buy it yet.\" (not in advance) 準備しておかなくていい。 Junbi shite okanakute ii. \"You don't need to prepare in advance.\" 何もしておかなかった。 Nani mo shite okanakatta. \"I didn't do anything in advance.\""
+          }
+        ]
+      },
+      {
+        "level": 2,
+        "heading": "Informing About Past Actions",
+        "content": "",
+        "children": [
+          {
+            "level": 3,
+            "heading": "Letting someone know",
+            "content": "言っておくけど、難しいよ。 Itte oku kedo, muzukashii yo. \"I'm telling you (in advance), it's difficult.\" 伝えておきます。 Tsutaete okimasu. \"I'll let them know.\" (inform in advance) 教えておいた。 Oshiete oita. \"I told them (beforehand).\" 念のため言っておく。 Nen no tame itte oku. \"I'll tell you just in case.\""
+          }
+        ]
+      },
+      {
+        "level": 2,
+        "heading": "Common Expressions",
+        "content": "",
+        "children": [
+          {
+            "level": 3,
+            "heading": "Set phrases",
+            "content": "覚えておく (oboete oku) - \"remember\" / \"keep in mind\" 知っておく (shitte oku) - \"know (for future reference)\" 言っておく (itte oku) - \"tell (in advance)\" 確認しておく (kakunin shite oku) - \"confirm in advance\" これは知っておいた方がいい。 Kore wa shitte oita hou ga ii. \"You should know this.\" 確認しておきましょう。 Kakunin shite okimashou. \"Let's confirm in advance.\""
+          }
+        ]
+      },
+      {
+        "level": 2,
+        "heading": "Polite Forms",
+        "content": "Casual: 買っておく Polite: 買っておきます Request: 買っておいてください Past: 買っておいた / 買っておきました 明日までに準備しておきます。 Ashita made ni junbi shite okimasu. \"I'll prepare by tomorrow.\" 資料をコピーしておいてください。 Shiryou wo kopii shite oite kudasai. \"Please copy the materials (in advance).\""
+      },
+      {
+        "level": 2,
+        "heading": "Comparing ておく and てある",
+        "content": "",
+        "children": [
+          {
+            "level": 3,
+            "heading": "Action vs state",
+            "content": "ておく - Doing the action (focus on preparation):\n\n予約しておく。 Yoyaku shite oku. \"I'll make a reservation (in advance).\" 窓を開けておく。 Mado wo akete oku. \"I'll leave the window open.\"\n\nてある - Result state (focus on result):\n\n予約してある。 Yoyaku shite aru. \"A reservation has been made.\" 窓が開けてある。 Mado ga akete aru. \"The window is open (someone opened it).\"\n\n| Pattern | Focus | Example | | ------- | ------------------ | ------------ | | ておく | Action/preparation | 予約しておく | | てある | Result state | 予約してある |\n\nSee: 〜てある (Is done)"
+          }
+        ]
+      },
+      {
+        "level": 2,
+        "heading": "With Time Expressions",
+        "content": "",
+        "children": [
+          {
+            "level": 3,
+            "heading": "When to prepare",
+            "content": "前もって (maemotte) - \"in advance\" あらかじめ (arakajime) - \"beforehand\" 早めに (hayame ni) - \"early\" 前もって連絡しておいてください。 Maemotte renraku shite oite kudasai. \"Please contact us in advance.\" 早めに予約しておこう。 Hayame ni yoyaku shite okou. \"Let's make a reservation early.\""
+          }
+        ]
+      },
+      {
+        "level": 2,
+        "heading": "Expressing Convenience",
+        "content": "",
+        "children": [
+          {
+            "level": 3,
+            "heading": "For later ease",
+            "content": "ここに置いておく。 Koko ni oite oku. \"I'll leave it here.\" (for convenience) メモしておきます。 Memo shite okimasu. \"I'll make a note.\" (for later) 保存しておいて。 Hozon shite oite. \"Save it.\" (for future use)"
+          }
+        ]
+      },
+      {
+        "level": 2,
+        "heading": "Common Mistakes",
+        "content": "",
+        "children": [
+          {
+            "level": 3,
+            "heading": "Mistake 1: Confusing with てある",
+            "content": "ておく = action of preparing てある = state of being prepared\n\n✓ 予約しておく (I'll reserve) ✓ 予約してある (it's reserved)"
+          },
+          {
+            "level": 3,
+            "heading": "Mistake 2: Forgetting future purpose",
+            "content": "ておく implies preparation for later, not just random action.\n\n❌ 食べておく (when just eating normally) ✓ 後で食べる ✓ 食べておく (eating now for later benefit, like before exercise)"
+          },
+          {
+            "level": 3,
+            "heading": "Mistake 3: Wrong て-form",
+            "content": "❌ 読みておく ✓ 読んでおく\n\nUse correct て-form: 読む → 読んで"
+          },
+          {
+            "level": 3,
+            "heading": "Mistake 4: Not recognizing とく contraction",
+            "content": "言っとく = 言っておく 買っとく = 買っておく\n\nとく is just casual speech."
+          }
+        ]
+      },
+      {
+        "level": 2,
+        "heading": "Summary",
+        "content": "Key Points:\n\nておく expresses preparation or maintaining state Formation: [Verb て-form] + おく Means \"do in advance\" or \"leave as is\" Implies action for future benefit Casual form: とく (very common) Common verbs: 買う, 読む, 調べる, 予約する, 準備する For requests: ておいて(ください) For past: ておいた Different from てある (result state) Essential for expressing preparation and planning",
+        "children": [
+          {
+            "level": 3,
+            "heading": "Company",
+            "content": "About Pricing Blog Contact"
+          },
+          {
+            "level": 3,
+            "heading": "Legal",
+            "content": "Privacy Policy Terms of Service Cookie Policy"
+          }
+        ]
+      }
+    ]
+  },
+  "metadata": {
+    "extracted_at": "2026-01-01T22:19:36.102558100Z",
+    "duration_ms": 3,
+    "extractors_matched": [
+      "metadata",
+      "examples",
+      "sections"
+    ],
+    "extractors_failed": [
+      "vocab_tables",
+      "definitions",
+      "content_blocks"
+    ]
+  }
+}

@@ -1,0 +1,298 @@
+{
+  "config_name": "Language Learning Extractor",
+  "url": "https://practice-japanese.com/docs/adversity-passive/",
+  "data": {
+    "examples": [
+      {
+        "sentence": "About"
+      },
+      {
+        "sentence": "Pricing"
+      },
+      {
+        "sentence": "Blog"
+      },
+      {
+        "sentence": "Contact"
+      },
+      {
+        "sentence": "Privacy Policy"
+      },
+      {
+        "sentence": "Terms of Service"
+      },
+      {
+        "sentence": "Cookie Policy"
+      }
+    ],
+    "sections": [
+      {
+        "level": 2,
+        "heading": "Adversity Passive",
+        "content": "Adversity passive (迷惑の受身) emphasizes the negative or unfortunate nature of passive constructions. While indirect passive inherently carries adversity, even direct passive can express misfortune. This highlights how passive voice in Japanese often conveys victim perspective.\n\nJapanese passive often implies: - Negative impact - Speaker affected negatively - Unfortunate situation - Victim's viewpoint Cultural and linguistic feature Important nuance"
+      },
+      {
+        "level": 2,
+        "heading": "Adversity in Direct Passive",
+        "content": "",
+        "children": [
+          {
+            "level": 3,
+            "heading": "Negative situations",
+            "content": "財布を盗まれた \"Had wallet stolen\" 試験に落とされた \"Was failed on exam\" 会社をクビにされた \"Was fired from company\" Direct passive But clearly unfortunate Victim perspective Negative events"
+          }
+        ]
+      },
+      {
+        "level": 2,
+        "heading": "Adversity in Indirect Passive",
+        "content": "",
+        "children": [
+          {
+            "level": 3,
+            "heading": "Inherently negative",
+            "content": "雨に降られた \"Was rained on\" 子供に泣かれた \"Child cried (on me)\" 犬に死なれた \"Dog died (on me)\" Indirect passive Always adversity Built-in negative nuance Inconvenience expressed"
+          }
+        ]
+      },
+      {
+        "level": 2,
+        "heading": "Neutral Events Made Negative",
+        "content": "",
+        "children": [
+          {
+            "level": 3,
+            "heading": "Perspective shift",
+            "content": "見られた can mean: \"Was seen\" (neutral) OR \"Was watched/seen\" (uncomfortable, privacy invaded) 聞かれた can mean: \"Was asked\" (neutral) OR \"Was asked\" (bothersome, intrusive) Context reveals Often negative interpretation Passive adds victim feeling"
+          }
+        ]
+      },
+      {
+        "level": 2,
+        "heading": "Personal Loss",
+        "content": "",
+        "children": [
+          {
+            "level": 3,
+            "heading": "Possessions and relationships",
+            "content": "車を壊された \"Had car broken\" 自転車を盗まれた \"Had bike stolen\" 恋人に振られた \"Was dumped by lover\" Personal loss Negative impact Victim perspective Unfortunate events"
+          }
+        ]
+      },
+      {
+        "level": 2,
+        "heading": "Unwanted Actions",
+        "content": "",
+        "children": [
+          {
+            "level": 3,
+            "heading": "Things done to you",
+            "content": "無視された \"Was ignored\" 笑われた \"Was laughed at\" 批判された \"Was criticized\" 馬鹿にされた \"Was made fun of\" Unwanted treatment Negative social actions Hurt feelings"
+          }
+        ]
+      },
+      {
+        "level": 2,
+        "heading": "Betrayal and Disappointment",
+        "content": "",
+        "children": [
+          {
+            "level": 3,
+            "heading": "Relationship problems",
+            "content": "騙された \"Was deceived\" 裏切られた \"Was betrayed\" 嘘をつかれた \"Was lied to\" 約束を破られた \"Had promise broken\" Trust violated Disappointment Emotional harm"
+          }
+        ]
+      },
+      {
+        "level": 2,
+        "heading": "Physical Harm",
+        "content": "",
+        "children": [
+          {
+            "level": 3,
+            "heading": "Being hurt",
+            "content": "殴られた \"Was hit\" 蹴られた \"Was kicked\" 噛まれた \"Was bitten\" 刺された \"Was stabbed\" Physical violence Clear adversity Victim of action"
+          }
+        ]
+      },
+      {
+        "level": 2,
+        "heading": "Inconvenience",
+        "content": "",
+        "children": [
+          {
+            "level": 3,
+            "heading": "Troublesome situations",
+            "content": "待たされた \"Was made to wait\" 急かされた \"Was rushed\" 起こされた \"Was woken up\" 邪魔された \"Was disturbed/interrupted\" Inconvenient actions Disruption Bothered by others"
+          }
+        ]
+      },
+      {
+        "level": 2,
+        "heading": "Privacy Invasion",
+        "content": "",
+        "children": [
+          {
+            "level": 3,
+            "heading": "Unwanted attention",
+            "content": "写真を撮られた \"Had photo taken (without permission)\" 見られた \"Was seen/watched (uncomfortably)\" 覗かれた \"Was peeped at\" Privacy concerns Uncomfortable situations Unwanted observation"
+          }
+        ]
+      },
+      {
+        "level": 2,
+        "heading": "When Adversity NOT Present",
+        "content": "",
+        "children": [
+          {
+            "level": 3,
+            "heading": "Neutral or positive passives",
+            "content": "褒められた \"Was praised\" (Can be neutral or positive) 招待された \"Was invited\" (Usually positive) 選ばれた \"Was chosen\" (Usually positive) Some passives not adversative Context matters But less common pattern"
+          }
+        ]
+      },
+      {
+        "level": 2,
+        "heading": "Cultural Aspect",
+        "content": "",
+        "children": [
+          {
+            "level": 3,
+            "heading": "Japanese perspective",
+            "content": "Japanese passive emphasizes: - Receiving end experience - Impact on self - Often negative - Victim's viewpoint Different from English English passive more neutral Japanese adds emotional layer Cultural difference"
+          }
+        ]
+      },
+      {
+        "level": 2,
+        "heading": "Emotional Expression",
+        "content": "",
+        "children": [
+          {
+            "level": 3,
+            "heading": "Showing feelings",
+            "content": "困った \"troubled\" 嫌だった \"unpleasant\" 悲しかった \"sad\" 腹が立った \"angry\" Often accompany adversity passive Express emotional impact Natural combination 雨に降られて困った \"Was rained on and troubled\""
+          }
+        ]
+      },
+      {
+        "level": 2,
+        "heading": "Complaint Function",
+        "content": "",
+        "children": [
+          {
+            "level": 3,
+            "heading": "Expressing grievances",
+            "content": "Adversity passive common in: - Complaints - Venting frustrations - Sharing troubles - Describing misfortune Natural vehicle for complaints Socially acceptable expression Indirect criticism"
+          }
+        ]
+      },
+      {
+        "level": 2,
+        "heading": "With てしまう",
+        "content": "",
+        "children": [
+          {
+            "level": 3,
+            "heading": "Emphasizing regret",
+            "content": "財布を盗まれてしまった \"Ended up having wallet stolen\" 騙されてしまった \"Ended up being deceived\" Double adversity feeling Regret added Unfortunate completion"
+          }
+        ]
+      },
+      {
+        "level": 2,
+        "heading": "Responsibility Shift",
+        "content": "",
+        "children": [
+          {
+            "level": 3,
+            "heading": "Not my fault",
+            "content": "Using passive can imply: \"It happened to me\" \"I'm not responsible\" \"I'm the victim\" Removes agency Emphasizes receiving Absolves self Victim status"
+          }
+        ]
+      },
+      {
+        "level": 2,
+        "heading": "In Storytelling",
+        "content": "",
+        "children": [
+          {
+            "level": 3,
+            "heading": "Describing hardships",
+            "content": "色々な困難に遭われた \"Encountered various difficulties\" 多くの人に批判された \"Was criticized by many\" Narrative device Showing struggle Building sympathy Dramatic effect"
+          }
+        ]
+      },
+      {
+        "level": 2,
+        "heading": "Comparison to Active",
+        "content": "",
+        "children": [
+          {
+            "level": 3,
+            "heading": "Feeling difference",
+            "content": "Active: 犬が死んだ \"Dog died\" Neutral statement Passive: 犬に死なれた \"Dog died on me\" Emotional impact Personal loss expressed Active = factual Passive = emotional Different perspectives"
+          }
+        ]
+      },
+      {
+        "level": 2,
+        "heading": "Verb Choice Matters",
+        "content": "",
+        "children": [
+          {
+            "level": 3,
+            "heading": "Some verbs inherently negative",
+            "content": "盗まれる \"be stolen\" - always bad 殺される \"be killed\" - always bad 騙される \"be deceived\" - always bad Others depend on context: 見られる - can be neutral or negative 呼ばれる - usually neutral 使われる - can be neutral Lexical meaning plus passive Combined effect"
+          }
+        ]
+      },
+      {
+        "level": 2,
+        "heading": "Learning to Recognize",
+        "content": "",
+        "children": [
+          {
+            "level": 3,
+            "heading": "Adversity signals",
+            "content": "Look for: - Negative verbs (steal, break, etc.) - Personal loss (wallet, bike, etc.) - Emotional context - Complaint situations - Indirect passive structure Context clues Pattern recognition Understanding speaker's perspective"
+          }
+        ]
+      },
+      {
+        "level": 2,
+        "heading": "Common Mistakes",
+        "content": "❌ Using passive for positive self-actions ✗ 褒められました (when bragging) ✓ Better to be modest ✓ Or use different structure ❌ Missing negative nuance Passive isn't neutral in Japanese ✓ Recognize feeling Usually implies difficulty ❌ Overusing in neutral contexts Not every passive needs adversity ✓ Choose appropriately Context determines Some passives neutral Understanding nuance crucial Cultural awareness needed",
+        "children": [
+          {
+            "level": 3,
+            "heading": "Company",
+            "content": "About Pricing Blog Contact"
+          },
+          {
+            "level": 3,
+            "heading": "Legal",
+            "content": "Privacy Policy Terms of Service Cookie Policy"
+          }
+        ]
+      }
+    ],
+    "metadata": {
+      "title": "Adversity Passive"
+    }
+  },
+  "metadata": {
+    "extracted_at": "2026-01-01T22:19:27.442424700Z",
+    "duration_ms": 5,
+    "extractors_matched": [
+      "metadata",
+      "examples",
+      "sections"
+    ],
+    "extractors_failed": [
+      "vocab_tables",
+      "definitions",
+      "content_blocks"
+    ]
+  }
+}

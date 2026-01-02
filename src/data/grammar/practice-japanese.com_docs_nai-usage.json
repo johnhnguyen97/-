@@ -1,0 +1,368 @@
+{
+  "config_name": "Language Learning Extractor",
+  "url": "https://practice-japanese.com/docs/nai-usage/",
+  "data": {
+    "metadata": {
+      "title": "〜ない (nai) Usage"
+    },
+    "examples": [
+      {
+        "sentence": "About"
+      },
+      {
+        "sentence": "Pricing"
+      },
+      {
+        "sentence": "Blog"
+      },
+      {
+        "sentence": "Contact"
+      },
+      {
+        "sentence": "Privacy Policy"
+      },
+      {
+        "sentence": "Terms of Service"
+      },
+      {
+        "sentence": "Cookie Policy"
+      }
+    ],
+    "sections": [
+      {
+        "level": 2,
+        "heading": "〜ない (nai) Usage",
+        "content": "ない is one of the most versatile and important forms in Japanese, serving as the casual negative ending for verbs while also functioning as an い-adjective. Understanding its various uses is crucial for natural Japanese.\n\nMultiple functions: 1. Verb negation: 食べない 2. い-adjective: くない 3. Independent adjective: ない 4. Compound expressions Highly versatile Essential form"
+      },
+      {
+        "level": 2,
+        "heading": "As Verb Negative",
+        "content": "",
+        "children": [
+          {
+            "level": 3,
+            "heading": "Basic negation",
+            "content": "食べない \"don't eat\" 行かない \"don't go\" する → しない \"don't do\" 来る → 来ない (こない) \"don't come\" Most common usage Casual negative Daily speech"
+          }
+        ]
+      },
+      {
+        "level": 2,
+        "heading": "As い-Adjective",
+        "content": "",
+        "children": [
+          {
+            "level": 3,
+            "heading": "Conjugates like adjectives",
+            "content": "ない conjugates as い-adjective: Present: ない Past: なかった Te-form: なくて Conditional: なければ Adverbial: なく Not verb conjugation Adjectival pattern Important distinction"
+          }
+        ]
+      },
+      {
+        "level": 2,
+        "heading": "Independent ない",
+        "content": "",
+        "children": [
+          {
+            "level": 3,
+            "heading": "\"Not exist / don't have\"",
+            "content": "お金がない \"Have no money\" 時間がない \"Have no time\" 問題はない \"There's no problem\" From verb ある Irregular negative Very common"
+          }
+        ]
+      },
+      {
+        "level": 2,
+        "heading": "With Particles",
+        "content": "",
+        "children": [
+          {
+            "level": 3,
+            "heading": "Following ない",
+            "content": "食べないよ \"don't eat (emphasis)\" 行かないね \"don't go, right?\" しないで \"without doing / don't do\" 来ないから \"because won't come\" Particles attach naturally Modify meaning Add nuance"
+          }
+        ]
+      },
+      {
+        "level": 2,
+        "heading": "ないで Forms",
+        "content": "",
+        "children": [
+          {
+            "level": 3,
+            "heading": "Two main uses",
+            "content": "1. Without doing: 食べないで寝た \"Slept without eating\" 2. Don't do (request): 食べないで \"Don't eat\" Same form Context shows meaning Common pattern"
+          }
+        ]
+      },
+      {
+        "level": 2,
+        "heading": "なくて Form",
+        "content": "",
+        "children": [
+          {
+            "level": 3,
+            "heading": "Te-form usage",
+            "content": "Connecting reason: 高くなくて便利 \"Not expensive and convenient\" Because: 面白くなくて退屈した \"Because it wasn't interesting, got bored\" Conjunction Reason giving Natural connector"
+          }
+        ]
+      },
+      {
+        "level": 2,
+        "heading": "なければ Conditional",
+        "content": "",
+        "children": [
+          {
+            "level": 3,
+            "heading": "If not",
+            "content": "行かなければならない \"Must go\" (if don't go, won't do) 食べなければ \"If don't eat\" 見なければ分からない \"Won't know unless see\" Conditional form Obligation expression Common pattern"
+          }
+        ]
+      },
+      {
+        "level": 2,
+        "heading": "ないといけない",
+        "content": "",
+        "children": [
+          {
+            "level": 3,
+            "heading": "Must do",
+            "content": "勉強しないといけない \"Must study\" 行かないといけない \"Must go\" やらないといけない \"Must do\" Obligation Necessity Casual \"must\""
+          }
+        ]
+      },
+      {
+        "level": 2,
+        "heading": "なくてはならない",
+        "content": "",
+        "children": [
+          {
+            "level": 3,
+            "heading": "Must do (formal)",
+            "content": "勉強しなくてはならない \"Must study\" 行かなくてはならない \"Must go\" More formal than ないといけない Written language Official contexts"
+          }
+        ]
+      },
+      {
+        "level": 2,
+        "heading": "なくてはいけない",
+        "content": "",
+        "children": [
+          {
+            "level": 3,
+            "heading": "Must do (variation)",
+            "content": "宿題をしなくてはいけない \"Must do homework\" 起きなくてはいけない \"Must wake up\" Similar to ならない Slightly less formal Common variation"
+          }
+        ]
+      },
+      {
+        "level": 2,
+        "heading": "ないわけではない",
+        "content": "",
+        "children": [
+          {
+            "level": 3,
+            "heading": "Double negative",
+            "content": "行かないわけではない \"It's not that I won't go\" 嫌いなわけではない \"It's not that I dislike it\" Softening Indirect expression Weak affirmative"
+          }
+        ]
+      },
+      {
+        "level": 2,
+        "heading": "なくても Pattern",
+        "content": "",
+        "children": [
+          {
+            "level": 3,
+            "heading": "Even if not",
+            "content": "雨が降らなくても \"Even if it doesn't rain\" 分からなくても \"Even if don't understand\" Concessive \"Even if not\" meaning Common conditional"
+          }
+        ]
+      },
+      {
+        "level": 2,
+        "heading": "ないうちに",
+        "content": "",
+        "children": [
+          {
+            "level": 3,
+            "heading": "Before / while not",
+            "content": "忘れないうちに \"Before forgetting / while still remember\" 終わらないうちに \"Before finishing\" Timing expression Preventive action"
+          }
+        ]
+      },
+      {
+        "level": 2,
+        "heading": "なければいけない Short Forms",
+        "content": "",
+        "children": [
+          {
+            "level": 3,
+            "heading": "Casual contractions",
+            "content": "Formal: なければいけない Casual: なきゃいけない Very casual: なきゃ 行かなければ → 行かなきゃ 食べなければ → 食べなきゃ Contracted forms Spoken Japanese Natural speech"
+          }
+        ]
+      },
+      {
+        "level": 2,
+        "heading": "ないか Questioning",
+        "content": "",
+        "children": [
+          {
+            "level": 3,
+            "heading": "Won't you? / Isn't it?",
+            "content": "行かないか \"Won't you go?\" 面白くないか \"Isn't it interesting?\" Casual question Seeking confirmation Invitation form"
+          }
+        ]
+      },
+      {
+        "level": 2,
+        "heading": "ないかもしれない",
+        "content": "",
+        "children": [
+          {
+            "level": 3,
+            "heading": "Might not",
+            "content": "行かないかもしれない \"Might not go\" できないかもしれない \"Might not be able to\" Uncertainty Possibility of not Hedging"
+          }
+        ]
+      },
+      {
+        "level": 2,
+        "heading": "ないだろう",
+        "content": "",
+        "children": [
+          {
+            "level": 3,
+            "heading": "Probably won't",
+            "content": "来ないだろう \"Probably won't come\" 雨は降らないだろう \"Probably won't rain\" Prediction Negative expectation Speculation"
+          }
+        ]
+      },
+      {
+        "level": 2,
+        "heading": "ないようだ",
+        "content": "",
+        "children": [
+          {
+            "level": 3,
+            "heading": "Seems not to",
+            "content": "分からないようだ \"Seems not to understand\" 来ないようだ \"Seems won't come\" Appearance Observation Inference"
+          }
+        ]
+      },
+      {
+        "level": 2,
+        "heading": "なさそう Pattern",
+        "content": "",
+        "children": [
+          {
+            "level": 3,
+            "heading": "Doesn't look like",
+            "content": "雨が降らなさそう \"Doesn't look like it will rain\" 来なさそう \"Doesn't look like (they'll) come\" Appearance-based Expectation Visual assessment"
+          }
+        ]
+      },
+      {
+        "level": 2,
+        "heading": "With Desire たい",
+        "content": "",
+        "children": [
+          {
+            "level": 3,
+            "heading": "Don't want to",
+            "content": "食べたくない \"Don't want to eat\" 行きたくない \"Don't want to go\" 見たくない \"Don't want to see\" Negative desire Personal preference Common expression"
+          }
+        ]
+      },
+      {
+        "level": 2,
+        "heading": "ないほうがいい",
+        "content": "",
+        "children": [
+          {
+            "level": 3,
+            "heading": "Better not to",
+            "content": "食べないほうがいい \"Better not to eat\" 行かないほうがいい \"Better not to go\" Advice Recommendation Suggesting restraint"
+          }
+        ]
+      },
+      {
+        "level": 2,
+        "heading": "Regional Variations",
+        "content": "",
+        "children": [
+          {
+            "level": 3,
+            "heading": "Dialect forms",
+            "content": "Standard: 食べない Kansai: 食べへん Hiroshima: 食べん Tohoku: 食べね Regional differences All mean \"don't eat\" Standard most universal"
+          }
+        ]
+      },
+      {
+        "level": 2,
+        "heading": "Written vs Spoken",
+        "content": "",
+        "children": [
+          {
+            "level": 3,
+            "heading": "Style differences",
+            "content": "Written: 食べない (standard) Spoken with particles: 食べないよ (emphasis) 食べないね (confirmation) 食べないか (question) Particles add natural flow Spoken language features"
+          }
+        ]
+      },
+      {
+        "level": 2,
+        "heading": "Emphasis Patterns",
+        "content": "",
+        "children": [
+          {
+            "level": 3,
+            "heading": "Strengthening negation",
+            "content": "全然食べない \"don't eat at all\" 全く分からない \"don't understand at all\" 絶対に行かない \"absolutely won't go\" 決して忘れない \"never forget\" Emphatic adverbs Strengthening denial Common intensifiers"
+          }
+        ]
+      },
+      {
+        "level": 2,
+        "heading": "Common Mistakes",
+        "content": "❌ Using as verb conjugation ない functions as い-adjective ✓ Use adjectival patterns なかった, なくて, なければ ❌ Confusing ないで and なくて Different functions ✓ Learn distinctions ないで = without/don't なくて = connector/because ❌ Wrong conditional form ✗ ないたら ✓ Correct form ✓ なければ ❌ Forgetting contractions in speech Sounds unnatural ✓ Use natural forms なきゃ、なくちゃ in casual speech Master versatility Understand all uses Practice in context"
+      },
+      {
+        "level": 2,
+        "heading": "Practical Examples",
+        "content": "",
+        "children": [
+          {
+            "level": 3,
+            "heading": "Real-life usage",
+            "content": "お金がない \"Have no money\" まだ分からない \"Don't understand yet\" 行かなくてはならない \"Must go\" 食べないで \"Don't eat / Without eating\" 雨が降らないといいね \"Hope it doesn't rain\" 忘れないうちにメモする \"Take notes before forgetting\" そんなに難しくない \"Not that difficult\" 行かなきゃ \"Gotta go\" 全然問題ない \"No problem at all\" できないわけではない \"It's not that I can't do it\" Various contexts Multiple functions Daily expressions Natural usage Essential patterns Common speech Versatile form"
+          },
+          {
+            "level": 3,
+            "heading": "Company",
+            "content": "About Pricing Blog Contact"
+          },
+          {
+            "level": 3,
+            "heading": "Legal",
+            "content": "Privacy Policy Terms of Service Cookie Policy"
+          }
+        ]
+      }
+    ]
+  },
+  "metadata": {
+    "extracted_at": "2026-01-01T22:19:31.661388500Z",
+    "duration_ms": 5,
+    "extractors_matched": [
+      "metadata",
+      "examples",
+      "sections"
+    ],
+    "extractors_failed": [
+      "vocab_tables",
+      "definitions",
+      "content_blocks"
+    ]
+  }
+}

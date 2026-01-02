@@ -1,0 +1,489 @@
+{
+  "config_name": "Language Learning Extractor",
+  "url": "https://practice-japanese.com/docs/ni-iku-kuru/",
+  "data": {
+    "examples": [
+      {
+        "sentence": "\"go to (do)\""
+      },
+      {
+        "sentence": "\"come to (do)\""
+      },
+      {
+        "sentence": "\"go for the purpose of (doing)\""
+      },
+      {
+        "sentence": "る-verbs: Drop る 食べる (taberu) → 食べ (tabe) 見る (miru) → 見 (mi)"
+      },
+      {
+        "sentence": "食べる (taberu) → 食べ (tabe)"
+      },
+      {
+        "sentence": "見る (miru) → 見 (mi)"
+      },
+      {
+        "sentence": "う-verbs: Change う-ending to い 買う (kau) → 買い (kai) 読む (yomu) → 読み (yomi) 話す (hanasu) → 話し (hanashi)"
+      },
+      {
+        "sentence": "買う (kau) → 買い (kai)"
+      },
+      {
+        "sentence": "読む (yomu) → 読み (yomi)"
+      },
+      {
+        "sentence": "話す (hanasu) → 話し (hanashi)"
+      },
+      {
+        "sentence": "Irregular: する (suru) → し (shi) 来る (kuru) → 来 (ki)"
+      },
+      {
+        "sentence": "する (suru) → し (shi)"
+      },
+      {
+        "sentence": "来る (kuru) → 来 (ki)"
+      },
+      {
+        "sentence": "食べる (taberu) → 食べ (tabe)"
+      },
+      {
+        "sentence": "見る (miru) → 見 (mi)"
+      },
+      {
+        "sentence": "買う (kau) → 買い (kai)"
+      },
+      {
+        "sentence": "読む (yomu) → 読み (yomi)"
+      },
+      {
+        "sentence": "話す (hanasu) → 話し (hanashi)"
+      },
+      {
+        "sentence": "する (suru) → し (shi)"
+      },
+      {
+        "sentence": "来る (kuru) → 来 (ki)"
+      },
+      {
+        "sentence": "〜に行く/来る expresses purpose of movement"
+      },
+      {
+        "sentence": "Structure: Verb stem + に + 行く/来る"
+      },
+      {
+        "sentence": "Means \"go/come to do (something)\""
+      },
+      {
+        "sentence": "Verb stem: る-verbs drop る, う-verbs change ending to い"
+      },
+      {
+        "sentence": "More casual than ために行く/来る"
+      },
+      {
+        "sentence": "Common in daily conversation"
+      },
+      {
+        "sentence": "Used for invitations: 〜に行かない？"
+      },
+      {
+        "sentence": "Essential pattern for expressing purpose of going/coming"
+      },
+      {
+        "sentence": "Works with any action verb"
+      },
+      {
+        "sentence": "Very natural and commonly used"
+      },
+      {
+        "sentence": "About"
+      },
+      {
+        "sentence": "Pricing"
+      },
+      {
+        "sentence": "Blog"
+      },
+      {
+        "sentence": "Contact"
+      },
+      {
+        "sentence": "Privacy Policy"
+      },
+      {
+        "sentence": "Terms of Service"
+      },
+      {
+        "sentence": "Cookie Policy"
+      }
+    ],
+    "metadata": {
+      "title": "〜に行く/来る (Go/Come to)"
+    },
+    "sections": [
+      {
+        "level": 2,
+        "heading": "What is 〜に行く/来る?",
+        "content": "〜に行く (ni iku) and 〜に来る (ni kuru) express the purpose of going or coming somewhere. The particle に attaches to a verb stem to indicate \"go to do\" or \"come to do\" something.\n\nEnglish equivalents:\n\n\"go to (do)\" \"come to (do)\" \"go for the purpose of (doing)\"\n\nStructure:\n\n[Verb stem] + に + 行く/来る\n\n映画を見に行く。 Eiga wo mi ni iku. \"I go to watch a movie.\" / \"I go to see a movie.\" 友達が遊びに来る。 Tomodachi ga asobi ni kuru. \"My friend comes to hang out.\""
+      },
+      {
+        "level": 2,
+        "heading": "Basic Formation",
+        "content": "",
+        "children": [
+          {
+            "level": 3,
+            "heading": "Verb Stem",
+            "content": "How to get verb stem:\n\nる-verbs: Drop る 食べる (taberu) → 食べ (tabe) 見る (miru) → 見 (mi) う-verbs: Change う-ending to い 買う (kau) → 買い (kai) 読む (yomu) → 読み (yomi) 話す (hanasu) → 話し (hanashi) Irregular: する (suru) → し (shi) 来る (kuru) → 来 (ki)\n\n食べに行く (tabe ni iku) - \"go to eat\" 見に行く (mi ni iku) - \"go to see/watch\" 買いに行く (kai ni iku) - \"go to buy\" 勉強しに行く (benkyou shi ni iku) - \"go to study\""
+          }
+        ]
+      },
+      {
+        "level": 2,
+        "heading": "With 行く (iku) - Go to do",
+        "content": "",
+        "children": [
+          {
+            "level": 3,
+            "heading": "Common activities",
+            "content": "映画を見に行く。 Eiga wo mi ni iku. \"I go to watch a movie.\" 買い物に行く。 Kaimono ni iku. \"I go shopping.\" / \"I go to shop.\" 食べに行く。 Tabe ni iku. \"I go to eat.\" 本を読みに図書館に行く。 Hon wo yomi ni toshokan ni iku. \"I go to the library to read books.\" 友達に会いに行く。 Tomodachi ni ai ni iku. \"I go to meet my friend.\""
+          },
+          {
+            "level": 3,
+            "heading": "With する verbs",
+            "content": "勉強しに行く。 Benkyou shi ni iku. \"I go to study.\" サッカーをしに行く。 Sakka- wo shi ni iku. \"I go to play soccer.\" 買い物しに行く。 Kaimono shi ni iku. \"I go shopping.\""
+          }
+        ]
+      },
+      {
+        "level": 2,
+        "heading": "With 来る (kuru) - Come to do",
+        "content": "",
+        "children": [
+          {
+            "level": 3,
+            "heading": "Someone coming for purpose",
+            "content": "友達が遊びに来る。 Tomodachi ga asobi ni kuru. \"My friend comes to hang out.\" 母が料理を作りに来る。 Haha ga ryouri wo tsukuri ni kuru. \"My mother comes to cook.\" 先生が教えに来る。 Sensei ga oshie ni kuru. \"The teacher comes to teach.\" 彼は日本語を勉強しに日本に来た。 Kare wa nihongo wo benkyou shi ni Nihon ni kita. \"He came to Japan to study Japanese.\""
+          }
+        ]
+      },
+      {
+        "level": 2,
+        "heading": "Adding Locations",
+        "content": "",
+        "children": [
+          {
+            "level": 3,
+            "heading": "Place + に + Verb stem + に + 行く/来る",
+            "content": "図書館に勉強しに行く。 Toshokan ni benkyou shi ni iku. \"I go to the library to study.\" カフェにコーヒーを飲みに行く。 Kafe ni ko-hi- wo nomi ni iku. \"I go to the cafe to drink coffee.\" 日本に桜を見に行く。 Nihon ni sakura wo mi ni iku. \"I go to Japan to see cherry blossoms.\" 公園に走りに行く。 Kouen ni hashiri ni iku. \"I go to the park to run.\""
+          }
+        ]
+      },
+      {
+        "level": 2,
+        "heading": "Different Tenses",
+        "content": "",
+        "children": [
+          {
+            "level": 3,
+            "heading": "Present/Future",
+            "content": "明日買いに行く。 Ashita kai ni iku. \"I'll go to buy (it) tomorrow.\" 週末遊びに来る？ Shuumatsu asobi ni kuru? \"Are you coming to hang out this weekend?\""
+          },
+          {
+            "level": 3,
+            "heading": "Past",
+            "content": "昨日映画を見に行った。 Kinou eiga wo mi ni itta. \"I went to watch a movie yesterday.\" 友達が遊びに来た。 Tomodachi ga asobi ni kita. \"My friend came to hang out.\""
+          },
+          {
+            "level": 3,
+            "heading": "Invitations (ない form)",
+            "content": "映画を見に行かない？ Eiga wo mi ni ikanai? \"Want to go watch a movie?\" 明日遊びに来ない？ Ashita asobi ni konai? \"Want to come hang out tomorrow?\""
+          }
+        ]
+      },
+      {
+        "level": 2,
+        "heading": "Common Verb Combinations",
+        "content": "",
+        "children": [
+          {
+            "level": 3,
+            "heading": "With 見る (miru) - See/Watch",
+            "content": "映画を見に行く。 Eiga wo mi ni iku. \"Go to watch a movie.\" 桜を見に行く。 Sakura wo mi ni iku. \"Go to see cherry blossoms.\" コンサートを見に行く。 Konsa-to wo mi ni iku. \"Go to see a concert.\""
+          },
+          {
+            "level": 3,
+            "heading": "With 食べる (taberu) - Eat",
+            "content": "ランチを食べに行く。 Ranchi wo tabe ni iku. \"Go to eat lunch.\" 寿司を食べに行く。 Sushi wo tabe ni iku. \"Go to eat sushi.\""
+          },
+          {
+            "level": 3,
+            "heading": "With 買う (kau) - Buy",
+            "content": "服を買いに行く。 Fuku wo kai ni iku. \"Go to buy clothes.\" プレゼントを買いに行く。 Purezento wo kai ni iku. \"Go to buy a present.\""
+          },
+          {
+            "level": 3,
+            "heading": "With 会う (au) - Meet",
+            "content": "友達に会いに行く。 Tomodachi ni ai ni iku. \"Go to meet a friend.\" 彼女に会いに行く。 Kanojo ni ai ni iku. \"Go to meet my girlfriend.\""
+          },
+          {
+            "level": 3,
+            "heading": "With 遊ぶ (asobu) - Play/Hang out",
+            "content": "遊びに行く。 Asobi ni iku. \"Go to hang out / go to play.\" 遊びに来てね。 Asobi ni kite ne. \"Come hang out, okay?\""
+          }
+        ]
+      },
+      {
+        "level": 2,
+        "heading": "Casual Invitations",
+        "content": "",
+        "children": [
+          {
+            "level": 3,
+            "heading": "Suggesting activities",
+            "content": "飲みに行かない？ Nomi ni ikanai? \"Want to go drinking?\" カラオケに行かない？ Karaoke ni ikanai? \"Want to go to karaoke?\" ご飯食べに行こう。 Gohan tabe ni ikou. \"Let's go eat.\" 映画見に行こうよ。 Eiga mi ni ikou yo. \"Let's go watch a movie.\""
+          }
+        ]
+      },
+      {
+        "level": 2,
+        "heading": "Comparing に行く and ために行く",
+        "content": "",
+        "children": [
+          {
+            "level": 3,
+            "heading": "に行く - Simple purpose (casual)",
+            "content": "映画を見に行く。 Eiga wo mi ni iku. \"I go to watch a movie.\""
+          },
+          {
+            "level": 3,
+            "heading": "ために行く - Emphasized purpose (formal)",
+            "content": "映画を見るために行く。 Eiga wo miru tame ni iku. \"I go for the purpose of watching a movie.\"\n\n| Pattern | Formality | Usage | | ------------ | -------------- | ------------------------- | | 〜に行く | Casual/neutral | Daily conversation | | 〜ために行く | Formal | Emphasis, formal contexts |\n\nに行く is more natural for everyday speech.\n\nSee: ために (In order to)"
+          }
+        ]
+      },
+      {
+        "level": 2,
+        "heading": "With Different Activities",
+        "content": "",
+        "children": [
+          {
+            "level": 3,
+            "heading": "Shopping",
+            "content": "買い物に行く。 Kaimono ni iku. \"Go shopping.\" スーパーに買い物に行く。 Supa- ni kaimono ni iku. \"Go shopping at the supermarket.\""
+          },
+          {
+            "level": 3,
+            "heading": "Sports and Exercise",
+            "content": "泳ぎに行く。 Oyogi ni iku. \"Go swimming.\" 走りに行く。 Hashiri ni iku. \"Go running.\" ジムに運動しに行く。 Jimu ni undou shi ni iku. \"Go to the gym to exercise.\""
+          },
+          {
+            "level": 3,
+            "heading": "Cultural Activities",
+            "content": "お花見に行く。 Ohanami ni iku. \"Go cherry blossom viewing.\" 祭りを見に行く。 Matsuri wo mi ni iku. \"Go to see a festival.\" 美術館に絵を見に行く。 Bijutsukan ni e wo mi ni iku. \"Go to the art museum to see paintings.\""
+          }
+        ]
+      },
+      {
+        "level": 2,
+        "heading": "Specific Destinations",
+        "content": "",
+        "children": [
+          {
+            "level": 3,
+            "heading": "Named places",
+            "content": "東京に行く。 Toukyou ni iku. \"Go to Tokyo.\" 東京に買い物に行く。 Toukyou ni kaimono ni iku. \"Go to Tokyo to shop.\" 日本に旅行に行く。 Nihon ni ryokou ni iku. \"Go to Japan to travel.\" アメリカに留学に行く。 Amerika ni ryuugaku ni iku. \"Go to America to study abroad.\""
+          }
+        ]
+      },
+      {
+        "level": 2,
+        "heading": "Time Expressions",
+        "content": "",
+        "children": [
+          {
+            "level": 3,
+            "heading": "When going/coming",
+            "content": "明日遊びに来る？ Ashita asobi ni kuru? \"Are you coming to hang out tomorrow?\" 今週末映画を見に行く。 Konshuu-matsu eiga wo mi ni iku. \"I'm going to watch a movie this weekend.\" 毎週プールに泳ぎに行く。 Maishuu pu-ru ni oyogi ni iku. \"I go swimming at the pool every week.\""
+          }
+        ]
+      },
+      {
+        "level": 2,
+        "heading": "With People",
+        "content": "",
+        "children": [
+          {
+            "level": 3,
+            "heading": "Going with someone",
+            "content": "友達と映画を見に行く。 Tomodachi to eiga wo mi ni iku. \"I go to watch a movie with a friend.\" 一緒に食べに行こう。 Issho ni tabe ni ikou. \"Let's go eat together.\" 彼女と買い物に行く。 Kanojo to kaimono ni iku. \"I go shopping with my girlfriend.\""
+          }
+        ]
+      },
+      {
+        "level": 2,
+        "heading": "Polite Forms",
+        "content": "",
+        "children": [
+          {
+            "level": 3,
+            "heading": "Formal situations",
+            "content": "明日会社に資料を取りに行きます。 Ashita kaisha ni shiryou wo tori ni ikimasu. \"I will go to the office tomorrow to get documents.\" お客様がいらっしゃいます。 Okyakusama ga irasshaimasu. \"A customer is coming.\" [Very polite] どちらへお出かけになりますか。 Dochira e odekake ni narimasu ka. \"Where are you going?\" [Very polite]"
+          }
+        ]
+      },
+      {
+        "level": 2,
+        "heading": "With Particles",
+        "content": "",
+        "children": [
+          {
+            "level": 3,
+            "heading": "を for object",
+            "content": "本を読みに図書館に行く。 Hon wo yomi ni toshokan ni iku. \"I go to the library to read books.\" [Object]を + [Verb stem]に + [Place]に + 行く\n\nCan be dropped in casual speech:\n\n本読みに図書館行く。 Hon yomi ni toshokan iku. [Same meaning, more casual]"
+          }
+        ]
+      },
+      {
+        "level": 2,
+        "heading": "Negative Forms",
+        "content": "",
+        "children": [
+          {
+            "level": 3,
+            "heading": "Not going/coming to do",
+            "content": "今日は遊びに行かない。 Kyou wa asobi ni ikanai. \"I won't go hang out today.\" 明日は来ないつもりです。 Ashita wa konai tsumori desu. \"I don't intend to come tomorrow.\""
+          }
+        ]
+      },
+      {
+        "level": 2,
+        "heading": "Questions",
+        "content": "",
+        "children": [
+          {
+            "level": 3,
+            "heading": "Asking about purpose",
+            "content": "何をしに行くの？ Nani wo shi ni iku no? \"What are you going to do?\" [Purpose of going] どこに買いに行く？ Doko ni kai ni iku? \"Where are you going to buy it?\" 誰に会いに行くの？ Dare ni ai ni iku no? \"Who are you going to meet?\""
+          }
+        ]
+      },
+      {
+        "level": 2,
+        "heading": "Common Set Phrases",
+        "content": "",
+        "children": [
+          {
+            "level": 3,
+            "heading": "Fixed expressions",
+            "content": "遊びに来てね。 Asobi ni kite ne. \"Come visit / Come hang out, okay?\" また来てね。 Mata kite ne. \"Come again!\" 飲みに行こう。 Nomi ni ikou. \"Let's go drinking.\" ご飯食べに行こう。 Gohan tabe ni ikou. \"Let's go eat.\""
+          }
+        ]
+      },
+      {
+        "level": 2,
+        "heading": "With へ Instead of に",
+        "content": "",
+        "children": [
+          {
+            "level": 3,
+            "heading": "Direction particle へ",
+            "content": "Can use へ for destination (less common):\n\n映画を見に行く = 映画を見へ行く (less common) 東京に行く = 東京へ行く (both common for destination)\n\nNote: For \"verb + に + motion verb,\" に is standard."
+          }
+        ]
+      },
+      {
+        "level": 2,
+        "heading": "Travel Context",
+        "content": "",
+        "children": [
+          {
+            "level": 3,
+            "heading": "Long-distance purposes",
+            "content": "日本に日本語を勉強しに来た。 Nihon ni nihongo wo benkyou shi ni kita. \"I came to Japan to study Japanese.\" 京都に寺を見に行った。 Kyouto ni tera wo mi ni itta. \"I went to Kyoto to see temples.\" アメリカに仕事に行く。 Amerika ni shigoto ni iku. \"I'm going to America for work.\""
+          }
+        ]
+      },
+      {
+        "level": 2,
+        "heading": "Casual Shortcuts",
+        "content": "",
+        "children": [
+          {
+            "level": 3,
+            "heading": "Very casual speech",
+            "content": "映画見に行く？ Eiga mi ni iku? \"Going to see a movie?\" ちょっと買いに行ってくる。 Chotto kai ni itte kuru. \"I'm going to go buy something real quick.\" 遊びに来てよ。 Asobi ni kite yo. \"Come hang out!\""
+          }
+        ]
+      },
+      {
+        "level": 2,
+        "heading": "Regional Notes",
+        "content": "",
+        "children": [
+          {
+            "level": 3,
+            "heading": "Generally standard across Japan",
+            "content": "This pattern is standard across all regions with minimal variation."
+          }
+        ]
+      },
+      {
+        "level": 2,
+        "heading": "Common Mistakes",
+        "content": "",
+        "children": [
+          {
+            "level": 3,
+            "heading": "Mistake 1: Using Dictionary Form",
+            "content": "❌ 食べるに行く ✓ 食べに行く\n\nUse verb stem, not dictionary form."
+          },
+          {
+            "level": 3,
+            "heading": "Mistake 2: Wrong Stem Formation",
+            "content": "❌ 買うに行く (should be 買い) ✓ 買いに行く\n\nForm the stem correctly for う-verbs."
+          },
+          {
+            "level": 3,
+            "heading": "Mistake 3: Confusing Particles",
+            "content": "❌ 映画を見で行く ✓ 映画を見に行く\n\nUse に not で for purpose with motion verbs."
+          },
+          {
+            "level": 3,
+            "heading": "Mistake 4: Using を Before に",
+            "content": "❌ 勉強をしに行く (grammatically wrong) ✓ 勉強しに行く (correct - no を with する)\n\nDon't use を with する before に."
+          }
+        ]
+      },
+      {
+        "level": 2,
+        "heading": "Summary",
+        "content": "Key Points:\n\n〜に行く/来る expresses purpose of movement Structure: Verb stem + に + 行く/来る Means \"go/come to do (something)\" Verb stem: る-verbs drop る, う-verbs change ending to い More casual than ために行く/来る Common in daily conversation Used for invitations: 〜に行かない？ Essential pattern for expressing purpose of going/coming Works with any action verb Very natural and commonly used",
+        "children": [
+          {
+            "level": 3,
+            "heading": "Company",
+            "content": "About Pricing Blog Contact"
+          },
+          {
+            "level": 3,
+            "heading": "Legal",
+            "content": "Privacy Policy Terms of Service Cookie Policy"
+          }
+        ]
+      }
+    ]
+  },
+  "metadata": {
+    "extracted_at": "2026-01-01T22:19:32.063849300Z",
+    "duration_ms": 5,
+    "extractors_matched": [
+      "metadata",
+      "examples",
+      "sections"
+    ],
+    "extractors_failed": [
+      "vocab_tables",
+      "definitions",
+      "content_blocks"
+    ]
+  }
+}

@@ -1,0 +1,320 @@
+{
+  "config_name": "Language Learning Extractor",
+  "url": "https://practice-japanese.com/docs/let-someone-do/",
+  "data": {
+    "examples": [
+      {
+        "sentence": "About"
+      },
+      {
+        "sentence": "Pricing"
+      },
+      {
+        "sentence": "Blog"
+      },
+      {
+        "sentence": "Contact"
+      },
+      {
+        "sentence": "Privacy Policy"
+      },
+      {
+        "sentence": "Terms of Service"
+      },
+      {
+        "sentence": "Cookie Policy"
+      }
+    ],
+    "sections": [
+      {
+        "level": 2,
+        "heading": "Let Someone Do",
+        "content": "The causative form can also express permission - letting or allowing someone to do something. This usage emphasizes granting freedom or giving consent rather than forcing.\n\nBasic pattern (same form, different meaning): [Person A]が [Person B]を/に [Verb-causative] 親が子供を遊ばせる \"Parent lets child play\" Permission granted Freedom given"
+      },
+      {
+        "level": 2,
+        "heading": "Same Form, Different Meaning",
+        "content": "",
+        "children": [
+          {
+            "level": 3,
+            "heading": "Context determines \"make\" vs \"let\"",
+            "content": "\"Make\" (force): 親が子供を勉強させる Context: Child doesn't want to \"Parent makes child study\" \"Let\" (permission): 親が子供を遊ばせる Context: Child wants to \"Parent lets child play\" Same grammatical structure Context reveals meaning Natural interpretation"
+          }
+        ]
+      },
+      {
+        "level": 2,
+        "heading": "Permission Contexts",
+        "content": "",
+        "children": [
+          {
+            "level": 3,
+            "heading": "When someone wants to do something",
+            "content": "子供を外で遊ばせる \"Let child play outside\" Implies: Child wants to play Parent grants permission Freedom to act 学生を早く帰らせる \"Let students go home early\" Desired action Permission granted"
+          }
+        ]
+      },
+      {
+        "level": 2,
+        "heading": "Positive Activities",
+        "content": "",
+        "children": [
+          {
+            "level": 3,
+            "heading": "Usually pleasant actions",
+            "content": "子供を友達と遊ばせる \"Let child play with friends\" 犬を庭で走らせる \"Let dog run in yard\" 社員を休ませる \"Let employees rest\" Enjoyable activities Wanted actions Granting freedom"
+          }
+        ]
+      },
+      {
+        "level": 2,
+        "heading": "Requesting Permission",
+        "content": "",
+        "children": [
+          {
+            "level": 3,
+            "heading": "Asking to be allowed",
+            "content": "私も参加させてください \"Please let me participate too\" 一緒に行かせてください \"Please let me go with you\" やらせてください \"Please let me do it\" Asking for permission Seeking consent Requesting opportunity"
+          }
+        ]
+      },
+      {
+        "level": 2,
+        "heading": "Negative Permission",
+        "content": "",
+        "children": [
+          {
+            "level": 3,
+            "heading": "Not letting someone do",
+            "content": "子供を一人で行かせない \"Don't let child go alone\" 危ないから遊ばせない \"Don't let (them) play because it's dangerous\" Denying permission Prohibition For safety/protection"
+          }
+        ]
+      },
+      {
+        "level": 2,
+        "heading": "Respectful Permission",
+        "content": "",
+        "children": [
+          {
+            "level": 3,
+            "heading": "させていただく pattern",
+            "content": "私が説明させていただきます \"Please allow me to explain\" 参加させていただきます \"I humbly participate / Let me participate\" Very polite Humble request Business contexts"
+          }
+        ]
+      },
+      {
+        "level": 2,
+        "heading": "Parental Contexts",
+        "content": "",
+        "children": [
+          {
+            "level": 3,
+            "heading": "Common with children",
+            "content": "子供を自由にさせる \"Let child be free / do as they want\" 好きなようにさせる \"Let (them) do as they like\" 一人でやらせてみる \"Let (them) try doing it alone\" Parenting style Giving freedom Encouraging independence"
+          }
+        ]
+      },
+      {
+        "level": 2,
+        "heading": "Workplace Permission",
+        "content": "",
+        "children": [
+          {
+            "level": 3,
+            "heading": "Professional settings",
+            "content": "部下に好きなようにやらせる \"Let subordinate do it their way\" 新人に挑戦させる \"Let new employee try/challenge\" 社員を早退させる \"Let employee leave early\" Work flexibility Opportunity giving Professional trust"
+          }
+        ]
+      },
+      {
+        "level": 2,
+        "heading": "Educational Freedom",
+        "content": "",
+        "children": [
+          {
+            "level": 3,
+            "heading": "Learning contexts",
+            "content": "学生に自分で考えさせる \"Let students think for themselves\" 生徒に質問させる \"Let students ask questions\" 子供に失敗させる \"Let child fail / make mistakes\" Educational philosophy Learning through experience Encouraging autonomy"
+          }
+        ]
+      },
+      {
+        "level": 2,
+        "heading": "Trying Something",
+        "content": "",
+        "children": [
+          {
+            "level": 3,
+            "heading": "させてみる pattern",
+            "content": "子供に料理をさせてみる \"Let child try cooking\" 新しい方法をやらせてみる \"Let (them) try new method\" 一度やらせてみよう \"Let's let (them) try once\" Experimental permission Trial opportunity See what happens"
+          }
+        ]
+      },
+      {
+        "level": 2,
+        "heading": "Animal Contexts",
+        "content": "",
+        "children": [
+          {
+            "level": 3,
+            "heading": "With pets",
+            "content": "犬を外で遊ばせる \"Let dog play outside\" 猫を自由に歩かせる \"Let cat walk freely\" 鳥を飛ばせる \"Let bird fly\" Pet freedom Animal care Natural behavior"
+          }
+        ]
+      },
+      {
+        "level": 2,
+        "heading": "Temporary Freedom",
+        "content": "",
+        "children": [
+          {
+            "level": 3,
+            "heading": "Limited permission",
+            "content": "今日だけ遊ばせる \"Let (them) play just for today\" 1時間だけテレビを見させる \"Let (them) watch TV for just 1 hour\" Time-limited Conditional permission Special occasion"
+          }
+        ]
+      },
+      {
+        "level": 2,
+        "heading": "Trust and Independence",
+        "content": "",
+        "children": [
+          {
+            "level": 3,
+            "heading": "Showing confidence",
+            "content": "息子を一人で旅行させる \"Let son travel alone\" 娘に一人暮らしをさせる \"Let daughter live alone\" Showing trust Granting independence Believing in ability"
+          }
+        ]
+      },
+      {
+        "level": 2,
+        "heading": "Contrast with Prohibition",
+        "content": "",
+        "children": [
+          {
+            "level": 3,
+            "heading": "Allowing vs forbidding",
+            "content": "Permission: 子供をゲームで遊ばせる \"Let child play games\" Prohibition: 子供をゲームで遊ばせない \"Don't let child play games\" Opposite approaches Permissive vs restrictive"
+          }
+        ]
+      },
+      {
+        "level": 2,
+        "heading": "Natural Consequences",
+        "content": "",
+        "children": [
+          {
+            "level": 3,
+            "heading": "Let things happen",
+            "content": "失敗させて学ばせる \"Let (them) fail and learn\" 自分で経験させる \"Let (them) experience for themselves\" Learning through doing Natural consequences Growth opportunity"
+          }
+        ]
+      },
+      {
+        "level": 2,
+        "heading": "Giving Opportunity",
+        "content": "",
+        "children": [
+          {
+            "level": 3,
+            "heading": "Chance to act",
+            "content": "若い人にチャンスを与えて、やらせる \"Give young people a chance, let them do it\" 新人に発表させる \"Let new person present\" Opportunity providing Empowerment Development"
+          }
+        ]
+      },
+      {
+        "level": 2,
+        "heading": "Patience and Waiting",
+        "content": "",
+        "children": [
+          {
+            "level": 3,
+            "heading": "Letting take time",
+            "content": "ゆっくり考えさせる \"Let (them) think slowly\" 時間をかけてやらせる \"Let (them) take time doing it\" No rushing Patient approach Their pace"
+          }
+        ]
+      },
+      {
+        "level": 2,
+        "heading": "Being Lenient",
+        "content": "",
+        "children": [
+          {
+            "level": 3,
+            "heading": "Not strict",
+            "content": "今日は好きにさせる \"Let (them) do what they want today\" 甘やかして何でもさせる \"Spoil and let (them) do anything\" Lenient parenting Permissive approach Sometimes criticized"
+          }
+        ]
+      },
+      {
+        "level": 2,
+        "heading": "Formal Requests",
+        "content": "",
+        "children": [
+          {
+            "level": 3,
+            "heading": "Polite permission seeking",
+            "content": "質問させていただいてもよろしいでしょうか \"May I be allowed to ask a question?\" 参加させていただけますか \"Could you let me participate?\" Very formal Business situations Maximum politeness"
+          }
+        ]
+      },
+      {
+        "level": 2,
+        "heading": "Common Verbs",
+        "content": "",
+        "children": [
+          {
+            "level": 3,
+            "heading": "Frequently used",
+            "content": "遊ばせる \"let play\" 休ませる \"let rest\" 帰らせる \"let go home\" やらせる \"let do\" 考えさせる \"let think\" 選ばせる \"let choose\" 決めさせる \"let decide\" 試させる \"let try\" Permission contexts Common patterns Daily usage"
+          }
+        ]
+      },
+      {
+        "level": 2,
+        "heading": "Common Mistakes",
+        "content": "❌ Confusing with forcing Context determines meaning ✓ Understand context \"Let\" implies desire to do ❌ Wrong particle ✗ 子供を遊ぶをさせる ✓ Correct structure ✓ 子供を遊ばせる ❌ Overusing in casual contexts させる can sound formal ✓ Sometimes simple forms better \"遊んでいいよ\" = \"You can play\" (simpler) Context awareness Natural choices"
+      },
+      {
+        "level": 2,
+        "heading": "Practical Examples",
+        "content": "",
+        "children": [
+          {
+            "level": 3,
+            "heading": "Real-life permission",
+            "content": "今日は子供を遅くまで遊ばせる \"Today I'll let child play until late\" 彼女を一人で決めさせよう \"Let's let her decide alone\" 新入社員に重要な仕事をさせてみる \"Let's try letting new employee do important work\" 犬を自由に走らせる \"Let dog run freely\" 娘を友達の家に泊まらせる \"Let daughter stay at friend's house\" 部下に自分のやり方でやらせる \"Let subordinate do it their own way\" 子供に好きな服を選ばせる \"Let child choose their own clothes\" 学生に質問させる時間を作る \"Make time to let students ask questions\" Permission granting Allowing freedom Trust showing Opportunity giving Natural contexts Parenting and management Educational settings Daily decisions"
+          },
+          {
+            "level": 3,
+            "heading": "Company",
+            "content": "About Pricing Blog Contact"
+          },
+          {
+            "level": 3,
+            "heading": "Legal",
+            "content": "Privacy Policy Terms of Service Cookie Policy"
+          }
+        ]
+      }
+    ],
+    "metadata": {
+      "title": "Let Someone Do"
+    }
+  },
+  "metadata": {
+    "extracted_at": "2026-01-01T22:19:31.131575900Z",
+    "duration_ms": 5,
+    "extractors_matched": [
+      "metadata",
+      "examples",
+      "sections"
+    ],
+    "extractors_failed": [
+      "vocab_tables",
+      "definitions",
+      "content_blocks"
+    ]
+  }
+}

@@ -1,0 +1,323 @@
+{
+  "config_name": "Language Learning Extractor",
+  "url": "https://practice-japanese.com/docs/verb-imperative/",
+  "data": {
+    "sections": [
+      {
+        "level": 2,
+        "heading": "What is Imperative Form?",
+        "content": "Imperative form (命令形) is the direct command form. It's very strong and blunt, rarely used in polite conversation.\n\n食べろ！(tabero!) - Eat! 行け！(ike!) - Go! しろ！(shiro!) - Do it!\n\nWarning: Very rough! Use carefully!"
+      },
+      {
+        "level": 2,
+        "heading": "When is Imperative Used?",
+        "content": "",
+        "children": [
+          {
+            "level": 3,
+            "heading": "1. Emergency Situations",
+            "content": "逃げろ！ \"Run!\" / \"Escape!\" 止まれ！ \"Stop!\" 助けを呼べ！ \"Call for help!\""
+          },
+          {
+            "level": 3,
+            "heading": "2. Military/Sports Commands",
+            "content": "走れ！ \"Run!\" 頑張れ！ \"Do your best!\" / \"Go for it!\" 行け！ \"Go!\""
+          },
+          {
+            "level": 3,
+            "heading": "3. Very Casual (Male Speech)",
+            "content": "早く来い！ \"Come quickly!\" ちょっと待て \"Wait a sec\""
+          },
+          {
+            "level": 3,
+            "heading": "4. Written Commands (Signs)",
+            "content": "止まれ (road sign) \"Stop\" 押せ (on doors/buttons) \"Push\" 引け (on doors) \"Pull\""
+          }
+        ]
+      },
+      {
+        "level": 2,
+        "heading": "Conjugation Rules",
+        "content": "",
+        "children": [
+          {
+            "level": 3,
+            "heading": "Ichidan Verbs",
+            "content": "Drop る , add ろ or よ :\n\n食べる → 食べろ (tabero) - Eat! 見る → 見ろ (miro) - Look! 寝る → 寝ろ (nero) - Sleep! 起きる → 起きろ (okiro) - Wake up!\n\nAlternative: Add よ instead (more forceful)\n\n食べる → 食べよ 見る → 見よ"
+          },
+          {
+            "level": 3,
+            "heading": "Godan Verbs",
+            "content": "Change -u to -e :\n\n書く → 書け (kaku → kake) - Write! kak-u → kak-e 読む → 読め (yomu → yome) - Read! yom-u → yom-e 話す → 話せ (hanasu → hanase) - Speak! hanas-u → hanas-e 買う → 買え (kau → kae) - Buy! ka-u → ka-e 待つ → 待て (matsu → mate) - Wait! mat-u → mat-e 遊ぶ → 遊べ (asobu → asobe) - Play! asob-u → asob-e 帰る → 帰れ (kaeru → kaere) - Go home! kaer-u → kaer-e 泳ぐ → 泳げ (oyogu → oyoge) - Swim! oyog-u → oyog-e 行く → 行け (iku → ike) - Go! ik-u → ik-e"
+          },
+          {
+            "level": 3,
+            "heading": "Irregular Verbs",
+            "content": "する → しろ (shiro) - Do it! 来る → 来い (こい, koi) - Come!"
+          }
+        ]
+      },
+      {
+        "level": 2,
+        "heading": "Complete Conjugation Chart",
+        "content": "| Dictionary | E-row | Imperative | Meaning | | ---------- | ------- | ---------- | ------- | | 書く | kak-e | 書け | Write! | | 読む | yom-e | 読め | Read! | | 話す | hanas-e | 話せ | Speak! | | 買う | ka-e | 買え | Buy! | | 食べる | tabe | 食べろ | Eat! | | 見る | mi | 見ろ | Look! | | する | - | しろ | Do it! | | 来る | - | 来い | Come! |"
+      },
+      {
+        "level": 2,
+        "heading": "Polite Alternatives",
+        "content": "DON'T use imperative in polite situations!\n\nUse these instead:",
+        "children": [
+          {
+            "level": 3,
+            "heading": "～てください (Please do)",
+            "content": "食べてください \"Please eat\" (polite) 座ってください \"Please sit\" (polite)"
+          },
+          {
+            "level": 3,
+            "heading": "～なさい (Softer command)",
+            "content": "食べなさい \"Eat\" (parental, teacher → student) 勉強しなさい \"Study\" (less harsh than imperative)"
+          },
+          {
+            "level": 3,
+            "heading": "～て (Casual request)",
+            "content": "ちょっと待って \"Wait a sec\" (casual but not rude) 見て見て！ \"Look, look!\" (friendly)"
+          }
+        ]
+      },
+      {
+        "level": 2,
+        "heading": "Common Imperative Expressions",
+        "content": "",
+        "children": [
+          {
+            "level": 3,
+            "heading": "Emergency",
+            "content": "危ない！逃げろ！ \"Dangerous! Run!\" 止まれ！ \"Stop!\" 助けて！ \"Help!\" (te-form, not imperative)"
+          },
+          {
+            "level": 3,
+            "heading": "Sports/Encouragement",
+            "content": "頑張れ！ \"Do your best!\" / \"Go for it!\" 行け！ \"Go!\" / \"You can do it!\" 走れ！ \"Run!\" 負けるな！ \"Don't lose!\""
+          },
+          {
+            "level": 3,
+            "heading": "Casual Commands (Male)",
+            "content": "早く来い \"Come quickly\" 黙れ \"Shut up\" (very rude!) やれ \"Do it\" 待て \"Wait\""
+          }
+        ]
+      },
+      {
+        "level": 2,
+        "heading": "Signs and Written Commands",
+        "content": "押せ \"Push\" (on doors/buttons) 引け \"Pull\" (on doors) 止まれ \"Stop\" (traffic sign) 入るな \"Do not enter\""
+      },
+      {
+        "level": 2,
+        "heading": "Common Mistakes",
+        "content": "",
+        "children": [
+          {
+            "level": 3,
+            "heading": "Mistake 1: Using in Polite Conversation",
+            "content": "Wrong: 食べろ (to stranger/superior) ❌ Right: 食べてください ✓ \"Please eat\" Imperative is TOO STRONG for normal use!"
+          },
+          {
+            "level": 3,
+            "heading": "Mistake 2: Wrong E-row Conjugation",
+            "content": "Wrong: 書く → 書くろ ❌ Right: 書く → 書け ✓ Wrong: 読む → 読むろ ❌ Right: 読む → 読め ✓"
+          },
+          {
+            "level": 3,
+            "heading": "Mistake 3: Using with Superiors",
+            "content": "Wrong: 先生、見ろ！ ❌ Right: 先生、見てください ✓ \"Teacher, please look\" NEVER use imperative with superiors!"
+          }
+        ]
+      },
+      {
+        "level": 2,
+        "heading": "Imperative vs Other Command Forms",
+        "content": "| Form | Strength | Usage | | ------------------ | ----------- | ---------------- | | 食べろ | Very strong | Emergency/rough | | 食べなさい | Medium | Parents/teachers | | 食べて | Casual | Friends | | 食べてください | Polite | Normal requests | | 食べてくださいませ | Very polite | Customer service |"
+      },
+      {
+        "level": 2,
+        "heading": "Gender Differences",
+        "content": "",
+        "children": [
+          {
+            "level": 3,
+            "heading": "Male Speech",
+            "content": "More likely to use imperative:\n\n来い！ \"Come!\" やれ！ \"Do it!\""
+          },
+          {
+            "level": 3,
+            "heading": "Female Speech",
+            "content": "Rarely uses imperative, prefers:\n\n来て！ \"Come!\" (te-form) やってよ！ \"Do it!\" (te-form + yo)"
+          }
+        ]
+      },
+      {
+        "level": 2,
+        "heading": "Softening Imperative",
+        "content": "Add particles to soften:\n\n食べろよ \"Eat\" (casual encouragement) 行けよ \"Go\" (less harsh) 待てって！ \"Wait, I said!\" (emphatic but less rude)"
+      },
+      {
+        "level": 2,
+        "heading": "Conversation Examples",
+        "content": "",
+        "children": [
+          {
+            "level": 3,
+            "heading": "Example 1: Emergency",
+            "content": "A: 火事だ！ \"Fire!\" B: 早く逃げろ！ \"Run quickly!\" A: 消防署を呼べ！ \"Call the fire department!\""
+          },
+          {
+            "level": 3,
+            "heading": "Example 2: Sports",
+            "content": "Coach: 走れ！頑張れ！ \"Run! Do your best!\" Player: はい！ \"Yes!\" Coach: 諦めるな！最後まで行け！ \"Don't give up! Go until the end!\""
+          },
+          {
+            "level": 3,
+            "heading": "Example 3: Casual Friends (Male)",
+            "content": "A: おい、ちょっと待て \"Hey, wait a sec\" B: 何？ \"What?\" A: これ見ろよ \"Look at this\""
+          }
+        ]
+      },
+      {
+        "level": 2,
+        "heading": "When NOT to Use Imperative",
+        "content": "Avoid in:\n\nNormal conversation With strangers With superiors Formal situations Service situations First meetings Professional settings\n\nUse instead:\n\n～てください (polite) ～てくれる？ (casual request) ～なさい (softer command) ～て (casual between friends)"
+      },
+      {
+        "level": 2,
+        "heading": "Special Expressions",
+        "content": "",
+        "children": [
+          {
+            "level": 3,
+            "heading": "頑張れ！",
+            "content": "頑張れ！ \"Do your best!\" / \"Go for it!\" / \"You can do it!\" (Most common imperative in daily life - encouraging)"
+          },
+          {
+            "level": 3,
+            "heading": "止まれ (Traffic sign)",
+            "content": "止まれ \"Stop\" (Standard on stop signs)"
+          }
+        ]
+      },
+      {
+        "level": 2,
+        "heading": "Imperative in Anime/Manga",
+        "content": "Very common in fiction:\n\nやめろ！ \"Stop it!\" 黙れ！ \"Shut up!\" 行け！ \"Go!\" 来い！ \"Come here!\"\n\nNote: This is dramatic language, not everyday speech!"
+      },
+      {
+        "level": 2,
+        "heading": "Combining with Particles",
+        "content": "行けよ \"Go!\" (encouraging) 食えって！ \"Eat, I said!\" 見ろよこれ \"Look at this\" 待てって \"Wait!\""
+      },
+      {
+        "level": 2,
+        "heading": "Practice Recognition",
+        "content": "Can you identify these?\n\n食べろ - Imperative \"Eat!\" 食べて - Te-form \"Eat\" (casual request) 食べなさい - Softer command \"Eat\" 食べてください - Polite \"Please eat\""
+      },
+      {
+        "level": 2,
+        "heading": "Key Takeaways",
+        "content": "✓ Imperative = direct command (very strong) ✓ Godan: -u → -e ✓ Ichidan: -ru → -ro ✓ Very rough, rarely used politely ✓ Common in emergencies and sports ✓ Use ～てください instead normally ✓ More common in male speech ✓ OK for signs and written commands ✓ Never use with superiors\n\nLearn imperative - but use it carefully!\n\nNext: Negative Imperative\n\nRelated:\n\nTe-form + ください Negative Imperative Verb Groups",
+        "children": [
+          {
+            "level": 3,
+            "heading": "Company",
+            "content": "About Pricing Blog Contact"
+          },
+          {
+            "level": 3,
+            "heading": "Legal",
+            "content": "Privacy Policy Terms of Service Cookie Policy"
+          }
+        ]
+      }
+    ],
+    "metadata": {
+      "title": "Imperative Form (Command)"
+    },
+    "examples": [
+      {
+        "sentence": "Normal conversation"
+      },
+      {
+        "sentence": "With strangers"
+      },
+      {
+        "sentence": "With superiors"
+      },
+      {
+        "sentence": "Formal situations"
+      },
+      {
+        "sentence": "Service situations"
+      },
+      {
+        "sentence": "First meetings"
+      },
+      {
+        "sentence": "Professional settings"
+      },
+      {
+        "sentence": "～てください (polite)"
+      },
+      {
+        "sentence": "～てくれる？ (casual request)"
+      },
+      {
+        "sentence": "～なさい (softer command)"
+      },
+      {
+        "sentence": "～て (casual between friends)"
+      },
+      {
+        "sentence": "Te-form + ください"
+      },
+      {
+        "sentence": "Negative Imperative"
+      },
+      {
+        "sentence": "Verb Groups"
+      },
+      {
+        "sentence": "About"
+      },
+      {
+        "sentence": "Pricing"
+      },
+      {
+        "sentence": "Blog"
+      },
+      {
+        "sentence": "Contact"
+      },
+      {
+        "sentence": "Privacy Policy"
+      },
+      {
+        "sentence": "Terms of Service"
+      },
+      {
+        "sentence": "Cookie Policy"
+      }
+    ]
+  },
+  "metadata": {
+    "extracted_at": "2026-01-01T22:19:37.408322400Z",
+    "duration_ms": 3,
+    "extractors_matched": [
+      "metadata",
+      "examples",
+      "sections"
+    ],
+    "extractors_failed": [
+      "vocab_tables",
+      "definitions",
+      "content_blocks"
+    ]
+  }
+}

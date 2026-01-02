@@ -1,0 +1,280 @@
+{
+  "config_name": "Language Learning Extractor",
+  "url": "https://practice-japanese.com/docs/te-iru-transitive/",
+  "data": {
+    "sections": [
+      {
+        "level": 2,
+        "heading": "Using 〜ている with Both",
+        "content": "The 〜ている form behaves differently with transitive and intransitive verbs. With intransitive verbs, it often expresses a resultant state (the result of a change), while with transitive verbs it can mean either ongoing action or resulting state depending on context.\n\nIntransitive + ている: Usually = resultant state Transitive + ている: Can = ongoing action OR state Context determines meaning Critical distinction"
+      },
+      {
+        "level": 2,
+        "heading": "Intransitive + ている",
+        "content": "",
+        "children": [
+          {
+            "level": 3,
+            "heading": "Resultant state focus",
+            "content": "ドアが開いている \"Door is open\" Not: \"Door is opening\" State resulting from opening Already open now Current condition 窓が閉まっている \"Window is closed\" State resulting from closing Currently closed"
+          },
+          {
+            "level": 3,
+            "heading": "Change completed, state remains",
+            "content": "電気が消えている \"Light is off\" Changed state: now off Not the process of going out 花が咲いている \"Flowers are blooming/in bloom\" Result of blooming process Currently bloomed"
+          },
+          {
+            "level": 3,
+            "heading": "Common examples",
+            "content": "座っている \"is sitting\" (sat down → now sitting) 立っている \"is standing\" (stood up → now standing) 住んでいる \"is living\" (moved → now living) 知っている \"knows\" (learned → now knows) 持っている \"has/is holding\" (took → now has) 着ている \"is wearing\" (put on → now wearing) All describe current states Result of prior actions Not the actions themselves"
+          }
+        ]
+      },
+      {
+        "level": 2,
+        "heading": "Transitive + ている",
+        "content": "",
+        "children": [
+          {
+            "level": 3,
+            "heading": "Two possible meanings",
+            "content": "窓を開けている can mean: 1. \"Is opening window\" (action in progress) Context: 今、窓を開けている \"(Someone) is opening window now\" 2. \"Has window open\" (resultant state) Context: 窓を開けている \"Keeps/has window open\" Ambiguous without context Usually action meaning"
+          },
+          {
+            "level": 3,
+            "heading": "Action in progress",
+            "content": "本を読んでいる \"Is reading a book\" Ongoing action Currently doing it Progressive meaning 手紙を書いている \"Is writing a letter\" In the process Not yet finished"
+          },
+          {
+            "level": 3,
+            "heading": "Resultant state",
+            "content": "帽子をかぶっている \"Is wearing a hat\" Put it on → now wearing Current state Not the action of putting on メガネをかけている \"Is wearing glasses\" Result of putting on Current state"
+          }
+        ]
+      },
+      {
+        "level": 2,
+        "heading": "Distinguishing Context",
+        "content": "",
+        "children": [
+          {
+            "level": 3,
+            "heading": "Time expressions help",
+            "content": "今、本を読んでいる \"Is reading book now\" Action meaning clear いつも帽子をかぶっている \"Always wears hat\" State/habit meaning Temporal context Clarifies interpretation"
+          }
+        ]
+      },
+      {
+        "level": 2,
+        "heading": "State Verbs",
+        "content": "",
+        "children": [
+          {
+            "level": 3,
+            "heading": "Always state with ている",
+            "content": "知っている \"knows\" 分かっている \"understands\" できている \"can do/is done\" 要る \"needs\" (いる in this meaning) These verbs describe states Not actions ている is standard form"
+          }
+        ]
+      },
+      {
+        "level": 2,
+        "heading": "Motion Verbs",
+        "content": "",
+        "children": [
+          {
+            "level": 3,
+            "heading": "Often indicate current location",
+            "content": "行っている \"Has gone (and is there)\" 来ている \"Has come (and is here)\" 帰っている \"Has returned (and is there)\" Movement completed Current location/state Not the journey itself"
+          }
+        ]
+      },
+      {
+        "level": 2,
+        "heading": "Clothing and Accessories",
+        "content": "",
+        "children": [
+          {
+            "level": 3,
+            "heading": "Wearing = state",
+            "content": "Transitive verbs but state meaning: 着ている \"is wearing (clothes)\" 履いている \"is wearing (shoes/pants)\" かぶっている \"is wearing (hat)\" かけている \"is wearing (glasses)\" している \"is wearing (accessories)\" Putting on completed Now in worn state"
+          }
+        ]
+      },
+      {
+        "level": 2,
+        "heading": "Contrast Examples",
+        "content": "",
+        "children": [
+          {
+            "level": 3,
+            "heading": "Side by side",
+            "content": "Intransitive (always state): ドアが開いている \"door is open\" 電気が消えている \"light is off\" 店が閉まっている \"store is closed\" Transitive (context-dependent): ドアを開けている \"opening door\" OR \"has door open\" 電気を消している \"turning off light\" OR \"has light off\" 店を閉めている \"closing store\" OR \"keeps store closed\" Intransitive = unambiguous Transitive = needs context"
+          }
+        ]
+      },
+      {
+        "level": 2,
+        "heading": "Habitual States",
+        "content": "",
+        "children": [
+          {
+            "level": 3,
+            "heading": "Regular conditions",
+            "content": "毎日運動している \"Exercises every day\" Habitual action Ongoing practice Not single instance いつも笑顔でいる \"Always smiling\" Characteristic state Regular condition"
+          }
+        ]
+      },
+      {
+        "level": 2,
+        "heading": "Occupation and Role",
+        "content": "",
+        "children": [
+          {
+            "level": 3,
+            "heading": "Identity statements",
+            "content": "医者をしている \"Is a doctor / works as doctor\" 先生をしている \"Is a teacher / works as teacher\" State of being/working Current occupation Not temporary action"
+          }
+        ]
+      },
+      {
+        "level": 2,
+        "heading": "Possession",
+        "content": "",
+        "children": [
+          {
+            "level": 3,
+            "heading": "持っている special case",
+            "content": "持っている \"Has, possesses\" Not \"is holding\" (action) But \"possesses\" (state) お金を持っている \"has money\" 車を持っている \"has a car\" Possession state Not carrying action"
+          }
+        ]
+      },
+      {
+        "level": 2,
+        "heading": "Living and Residing",
+        "content": "",
+        "children": [
+          {
+            "level": 3,
+            "heading": "住んでいる",
+            "content": "東京に住んでいる \"Lives in Tokyo\" State of residence Not the act of moving Current living situation Result of moving there Now residing"
+          }
+        ]
+      },
+      {
+        "level": 2,
+        "heading": "With Verbs of Emotion",
+        "content": "",
+        "children": [
+          {
+            "level": 3,
+            "heading": "Emotional states",
+            "content": "愛している \"loves\" 信じている \"believes\" 思っている \"thinks\" Continuous states Not momentary actions Ongoing feelings"
+          }
+        ]
+      },
+      {
+        "level": 2,
+        "heading": "Negative ている",
+        "content": "",
+        "children": [
+          {
+            "level": 3,
+            "heading": "State negation",
+            "content": "開いていない \"is not open\" 知らない \"doesn't know\" (not 知っていない usually) 着ていない \"is not wearing\" Negative of state Current lack"
+          }
+        ]
+      },
+      {
+        "level": 2,
+        "heading": "Duration Markers",
+        "content": "",
+        "children": [
+          {
+            "level": 3,
+            "heading": "Time expressions",
+            "content": "3時間読んでいる \"Has been reading for 3 hours\" Action ongoing Duration specified Progressive clear Helps clarify action vs state Context provider"
+          }
+        ]
+      },
+      {
+        "level": 2,
+        "heading": "Common Mistakes",
+        "content": "❌ Translating ている as always \"-ing\" ✗ ドアが開いている = \"door is opening\" ✓ Check if intransitive ✓ \"Door is open\" (state) ❌ Missing state meaning ✗ 知っている = \"is knowing\" ✓ Understand state verbs ✓ \"Knows\" (state) ❌ Wrong negative forms ✗ 知っていない ✓ Use correct negative ✓ 知らない Context is crucial Verb type matters Learn common patterns"
+      },
+      {
+        "level": 2,
+        "heading": "Practice Recognition",
+        "content": "",
+        "children": [
+          {
+            "level": 3,
+            "heading": "Ask yourself",
+            "content": "1. Is verb intransitive? → Probably state meaning 2. Is verb about wearing/holding? → Probably state meaning 3. Is there \"now\" or time duration? → Probably action meaning 4. Is it describing characteristic? → Probably state meaning Decision framework Helps interpretation"
+          }
+        ]
+      },
+      {
+        "level": 2,
+        "heading": "Examples in Context",
+        "content": "",
+        "children": [
+          {
+            "level": 3,
+            "heading": "Clear meanings",
+            "content": "今、雨が降っている \"It's raining now\" Action/ongoing (intransitive but processual) 窓が開いている \"Window is open\" State (intransitive, change completed) 彼女は本を読んでいる \"She is reading a book\" Action (transitive, progressive) 彼はメガネをかけている \"He wears glasses\" State (transitive, but standard state meaning) Japanese understanding requires: - Verb type awareness - Context consideration - Common usage patterns"
+          },
+          {
+            "level": 3,
+            "heading": "Company",
+            "content": "About Pricing Blog Contact"
+          },
+          {
+            "level": 3,
+            "heading": "Legal",
+            "content": "Privacy Policy Terms of Service Cookie Policy"
+          }
+        ]
+      }
+    ],
+    "metadata": {
+      "title": "Using 〜ている with Both"
+    },
+    "examples": [
+      {
+        "sentence": "About"
+      },
+      {
+        "sentence": "Pricing"
+      },
+      {
+        "sentence": "Blog"
+      },
+      {
+        "sentence": "Contact"
+      },
+      {
+        "sentence": "Privacy Policy"
+      },
+      {
+        "sentence": "Terms of Service"
+      },
+      {
+        "sentence": "Cookie Policy"
+      }
+    ]
+  },
+  "metadata": {
+    "extracted_at": "2026-01-01T22:19:36.228863800Z",
+    "duration_ms": 3,
+    "extractors_matched": [
+      "metadata",
+      "examples",
+      "sections"
+    ],
+    "extractors_failed": [
+      "vocab_tables",
+      "definitions",
+      "content_blocks"
+    ]
+  }
+}

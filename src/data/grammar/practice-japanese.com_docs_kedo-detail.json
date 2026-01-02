@@ -1,0 +1,341 @@
+{
+  "config_name": "Language Learning Extractor",
+  "url": "https://practice-japanese.com/docs/kedo-detail/",
+  "data": {
+    "metadata": {
+      "title": "〜けど (But)"
+    },
+    "sections": [
+      {
+        "level": 2,
+        "heading": "What is 〜けど?",
+        "content": "〜けど (kedo) is a casual conjunction meaning \"but\" or \"however.\" It connects contrasting statements or softens requests. It's one of the most common ways to show contrast in Japanese.\n\nEnglish equivalent: \"but,\" \"however,\" \"though,\" \"although\"\n\nStructure: [Clause] + けど + [Contrasting clause]\n\n高い (takai - expensive) + けど = 高いけど \"it's expensive, but...\" 行った (itta - went) + けど = 行ったけど \"I went, but...\" 学生 (gakusei - student) + だけど = 学生だけど \"I'm a student, but...\""
+      },
+      {
+        "level": 2,
+        "heading": "Basic Formation",
+        "content": "",
+        "children": [
+          {
+            "level": 3,
+            "heading": "With verbs (plain form)",
+            "content": "[Verb plain form] + けど\n\n行くけど (iku kedo) - \"I'll go, but...\" 食べたけど (tabeta kedo) - \"I ate, but...\" 見るけど (miru kedo) - \"I'll watch, but...\" 勉強しているけど (benkyou shite iru kedo) - \"I'm studying, but...\""
+          },
+          {
+            "level": 3,
+            "heading": "With い-adjectives",
+            "content": "[い-adjective] + けど\n\n高いけど (takai kedo) - \"it's expensive, but...\" 寒いけど (samui kedo) - \"it's cold, but...\" 美味しいけど (oishii kedo) - \"it's delicious, but...\""
+          },
+          {
+            "level": 3,
+            "heading": "With な-adjectives",
+            "content": "[な-adjective] + だけど\n\n便利だけど (benri da kedo) - \"it's convenient, but...\" 静かだけど (shizuka da kedo) - \"it's quiet, but...\" 簡単だけど (kantan da kedo) - \"it's simple, but...\""
+          },
+          {
+            "level": 3,
+            "heading": "With nouns",
+            "content": "[Noun] + だけど\n\n学生だけど (gakusei da kedo) - \"I'm a student, but...\" 雨だけど (ame da kedo) - \"it's raining, but...\" 日本人だけど (nihonjin da kedo) - \"I'm Japanese, but...\""
+          }
+        ]
+      },
+      {
+        "level": 2,
+        "heading": "Simple Contrast",
+        "content": "",
+        "children": [
+          {
+            "level": 3,
+            "heading": "Connecting opposite ideas",
+            "content": "高いけど買う。 Takai kedo kau. \"It's expensive, but I'll buy it.\" 忙しいけど手伝う。 Isogashii kedo tetsudau. \"I'm busy, but I'll help.\" 難しいけど面白い。 Muzukashii kedo omoshiroi. \"It's difficult, but interesting.\" 疲れたけど楽しかった。 Tsukareta kedo tanoshikatta. \"I'm tired, but it was fun.\""
+          }
+        ]
+      },
+      {
+        "level": 2,
+        "heading": "Softening Statements",
+        "content": "",
+        "children": [
+          {
+            "level": 3,
+            "heading": "Polite prefacing",
+            "content": "けど can soften statements or requests:\n\nちょっと聞きたいんだけど... Chotto kikitai n da kedo... \"I'd like to ask something, but...\" (softer than direct question) すみませんけど、ちょっといいですか。 Sumimasen kedo, chotto ii desu ka. \"Excuse me, but do you have a moment?\" 悪いけど、できない。 Warui kedo, dekinai. \"Sorry, but I can't.\""
+          }
+        ]
+      },
+      {
+        "level": 2,
+        "heading": "Trailing けど",
+        "content": "",
+        "children": [
+          {
+            "level": 3,
+            "heading": "Leaving sentence incomplete",
+            "content": "けど can end a sentence, implying continuation:\n\n明日は忙しいんだけど... Ashita wa isogashii n da kedo... \"Tomorrow I'm busy, but...\" (implying: so I can't help/come) ちょっと高いんだけど... Chotto takai n da kedo... \"It's a bit expensive, but...\" (implying hesitation) 行きたいんだけど... Ikitai n da kedo... \"I want to go, but...\" (implying: I can't)"
+          }
+        ]
+      },
+      {
+        "level": 2,
+        "heading": "Variations of けど",
+        "content": "",
+        "children": [
+          {
+            "level": 3,
+            "heading": "Different levels of formality",
+            "content": "けど (kedo) - Most casual けれど (keredo) - Slightly formal けども (kedomo) - More formal けれども (keredomo) - Most formal 高いけど買う。(casual) 高いけれど買います。(polite) 高いけれども買います。(formal)"
+          }
+        ]
+      },
+      {
+        "level": 2,
+        "heading": "With んだ/のだ",
+        "content": "",
+        "children": [
+          {
+            "level": 3,
+            "heading": "Explanatory tone",
+            "content": "[Statement] + んだけど / のだけど = explanatory \"but\"\n\n行きたいんだけど、時間がない。 Ikitai n da kedo, jikan ga nai. \"I want to go, but I don't have time.\" 忙しいんだけど、手伝える。 Isogashii n da kedo, tetsudaeru. \"I'm busy, but I can help.\" 日本人なんだけど、漢字が苦手。 Nihonjin nan da kedo, kanji ga nigate. \"I'm Japanese, but I'm bad at kanji.\""
+          }
+        ]
+      },
+      {
+        "level": 2,
+        "heading": "Multiple Contrasts",
+        "content": "",
+        "children": [
+          {
+            "level": 3,
+            "heading": "Listing several けど",
+            "content": "安いけど、品質がいいけど、デザインがちょっと... Yasui kedo, hinshitsu ga ii kedo, dezain ga chotto... \"It's cheap, and the quality is good, but the design is a bit...\" 頑張ったけど、時間がなかったけど、なんとか終わった。 Ganbatta kedo, jikan ga nakatta kedo, nantoka owatta. \"I tried hard, and didn't have time, but somehow finished.\""
+          }
+        ]
+      },
+      {
+        "level": 2,
+        "heading": "Polite Forms",
+        "content": "行きますけど (ikimasu kedo) - \"I'll go, but...\" 高いですけど (takai desu kedo) - \"It's expensive, but...\" すみませんけど、もう一度お願いします。 Sumimasen kedo, mou ichido onegai shimasu. \"Excuse me, but could you please do it again?\" 申し訳ないんですけど、キャンセルしたいです。 Moushiwakenai n desu kedo, kyanseru shitai desu. \"I'm sorry, but I'd like to cancel.\""
+      },
+      {
+        "level": 2,
+        "heading": "Common Expressions",
+        "content": "〜けど、いい？ (~kedo, ii?) - \"~but is that okay?\" 〜んだけど (~n da kedo) - explanatory but すみませんけど (sumimasen kedo) - \"excuse me, but\" 悪いけど (warui kedo) - \"sorry, but\" ちょっといいけど (chotto ii kedo) - \"is it okay but\" 聞きたいんだけど (kikitai n da kedo) - \"I want to ask, but\""
+      },
+      {
+        "level": 2,
+        "heading": "Introducing Topics",
+        "content": "",
+        "children": [
+          {
+            "level": 3,
+            "heading": "Starting conversations",
+            "content": "あのう、聞きたいことがあるんだけど。 Anou, kikitai koto ga aru n da kedo. \"Um, there's something I want to ask.\" ちょっといいけど、手伝ってくれる？ Chotto ii kedo, tetsudatte kureru? \"Do you have a moment? Could you help me?\" 実は相談があるんだけど。 Jitsu wa soudan ga aru n da kedo. \"Actually, I have something to consult about.\""
+          }
+        ]
+      },
+      {
+        "level": 2,
+        "heading": "Comparing けど and が",
+        "content": "",
+        "children": [
+          {
+            "level": 3,
+            "heading": "Casual vs formal contrast",
+            "content": "けど - Casual:\n\n高いけど買う。 Takai kedo kau. \"It's expensive, but I'll buy it.\" (casual)\n\nが - Formal:\n\n高いですが、買います。 Takai desu ga, kaimasu. \"It's expensive, but I'll buy it.\" (formal)\n\n| Pattern | Formality | Context | | ------- | --------- | -------------------- | | けど | Casual | Daily conversation | | が | Formal | Polite/formal speech |\n\nSee: 〜が (However)"
+          }
+        ]
+      },
+      {
+        "level": 2,
+        "heading": "Weak Contrast",
+        "content": "",
+        "children": [
+          {
+            "level": 3,
+            "heading": "Not strongly opposing",
+            "content": "けど can also connect weakly related ideas:\n\n今日は暑いけど、明日はどうかな。 Kyou wa atsui kedo, ashita wa dou ka na. \"It's hot today, but I wonder about tomorrow.\" 映画を見たけど、ご飯食べに行く？ Eiga wo mita kedo, gohan tabe ni iku? \"I watched a movie, and shall we go eat?\""
+          }
+        ]
+      },
+      {
+        "level": 2,
+        "heading": "Hesitation and Politeness",
+        "content": "",
+        "children": [
+          {
+            "level": 3,
+            "heading": "Indirect requests",
+            "content": "お願いがあるんだけど。 Onegai ga aru n da kedo. \"I have a favor to ask.\" (softer than direct request) ちょっと質問があるんだけど、いい？ Chotto shitsumon ga aru n da kedo, ii? \"I have a question, is that okay?\" 今忙しい？ちょっと手伝ってほしいんだけど。 Ima isogashii? Chotto tetsudatte hoshii n da kedo. \"Are you busy? I'd like some help.\""
+          }
+        ]
+      },
+      {
+        "level": 2,
+        "heading": "Expressing Uncertainty",
+        "content": "",
+        "children": [
+          {
+            "level": 3,
+            "heading": "Tentative statements",
+            "content": "たぶん行けると思うけど... Tabun ikeru to omou kedo... \"I think I can probably go, but...\" よく分からないけど、たぶんそうだと思う。 Yoku wakaranai kedo, tabun sou da to omou. \"I'm not sure, but I think it's probably that.\""
+          }
+        ]
+      },
+      {
+        "level": 2,
+        "heading": "Background Information",
+        "content": "",
+        "children": [
+          {
+            "level": 3,
+            "heading": "Providing context",
+            "content": "昨日映画を見たんだけど、すごく面白かった。 Kinou eiga wo mita n da kedo, sugoku omoshirokatta. \"I watched a movie yesterday, and it was really interesting.\" 友達が来るんだけど、一緒に来る？ Tomodachi ga kuru n da kedo, issho ni kuru? \"My friend is coming - do you want to come too?\""
+          }
+        ]
+      },
+      {
+        "level": 2,
+        "heading": "Comparing けど and のに",
+        "content": "",
+        "children": [
+          {
+            "level": 3,
+            "heading": "Neutral vs disappointed",
+            "content": "けど - Neutral contrast:\n\n頑張ったけど失敗した。 Ganbatta kedo shippai shita. \"I tried hard, but I failed.\" (neutral statement)\n\nのに - With disappointment:\n\n頑張ったのに失敗した。 Ganbatta noni shippai shita. \"Even though I tried hard, I failed.\" (disappointed)\n\n| Pattern | Nuance | Example | | ------- | -------------- | ------------ | | けど | Neutral | 頑張ったけど | | のに | Disappointment | 頑張ったのに |\n\nSee: 〜のに (Even though)"
+          }
+        ]
+      },
+      {
+        "level": 2,
+        "heading": "With Questions",
+        "content": "",
+        "children": [
+          {
+            "level": 3,
+            "heading": "Softening inquiries",
+            "content": "これ、何だけど？ Kore, nan da kedo? \"What's this?\" (casual, curious) どこ行くんだけど？ Doko iku n da kedo? \"Where are you going?\" (casual) 今何時だけど？ Ima nanji da kedo? \"What time is it?\" (casual)"
+          }
+        ]
+      },
+      {
+        "level": 2,
+        "heading": "Regional Variations",
+        "content": "",
+        "children": [
+          {
+            "level": 3,
+            "heading": "Different dialects",
+            "content": "Standard: けど Kansai: けど / けんど Some regions: ばってん, ばって The basic meaning remains the same."
+          }
+        ]
+      },
+      {
+        "level": 2,
+        "heading": "Common Mistakes",
+        "content": "",
+        "children": [
+          {
+            "level": 3,
+            "heading": "Mistake 1: Using です before けど inappropriately",
+            "content": "In casual speech: ❌ 高いですけど (mixing formality) ✓ 高いけど (keep casual)\n\nIn polite speech: ✓ 高いですけど (consistent politeness)"
+          },
+          {
+            "level": 3,
+            "heading": "Mistake 2: Forgetting だ with nouns/な-adjectives",
+            "content": "❌ 学生けど ✓ 学生だけど\n\n❌ 便利けど ✓ 便利だけど"
+          },
+          {
+            "level": 3,
+            "heading": "Mistake 3: Overusing trailing けど",
+            "content": "Don't end every sentence with けど. Use it for softening, not habitually."
+          },
+          {
+            "level": 3,
+            "heading": "Mistake 4: Wrong formality level",
+            "content": "Formal meeting: ❌ 高いけど買います ✓ 高いですが、購入いたします Friends: ✓ 高いけど買う ❌ 高いですが、買います (too formal)"
+          }
+        ]
+      },
+      {
+        "level": 2,
+        "heading": "Summary",
+        "content": "Key Points:\n\nけど is the casual way to say \"but\" Formation: [Plain form / だ] + けど Used for contrast, softening, and introducing topics Can end sentences (trailing けど) for implied meaning Variations: けど < けれど < けども < けれども Works with んだ/のだ for explanatory tone More casual than が (formal \"but\") Different from のに (disappointment) Essential for natural casual conversation",
+        "children": [
+          {
+            "level": 3,
+            "heading": "Company",
+            "content": "About Pricing Blog Contact"
+          },
+          {
+            "level": 3,
+            "heading": "Legal",
+            "content": "Privacy Policy Terms of Service Cookie Policy"
+          }
+        ]
+      }
+    ],
+    "examples": [
+      {
+        "sentence": "けど is the casual way to say \"but\""
+      },
+      {
+        "sentence": "Formation: [Plain form / だ] + けど"
+      },
+      {
+        "sentence": "Used for contrast, softening, and introducing topics"
+      },
+      {
+        "sentence": "Can end sentences (trailing けど) for implied meaning"
+      },
+      {
+        "sentence": "Variations: けど < けれど < けども < けれども"
+      },
+      {
+        "sentence": "Works with んだ/のだ for explanatory tone"
+      },
+      {
+        "sentence": "More casual than が (formal \"but\")"
+      },
+      {
+        "sentence": "Different from のに (disappointment)"
+      },
+      {
+        "sentence": "Essential for natural casual conversation"
+      },
+      {
+        "sentence": "About"
+      },
+      {
+        "sentence": "Pricing"
+      },
+      {
+        "sentence": "Blog"
+      },
+      {
+        "sentence": "Contact"
+      },
+      {
+        "sentence": "Privacy Policy"
+      },
+      {
+        "sentence": "Terms of Service"
+      },
+      {
+        "sentence": "Cookie Policy"
+      }
+    ]
+  },
+  "metadata": {
+    "extracted_at": "2026-01-01T22:19:30.842759600Z",
+    "duration_ms": 3,
+    "extractors_matched": [
+      "metadata",
+      "examples",
+      "sections"
+    ],
+    "extractors_failed": [
+      "vocab_tables",
+      "definitions",
+      "content_blocks"
+    ]
+  }
+}

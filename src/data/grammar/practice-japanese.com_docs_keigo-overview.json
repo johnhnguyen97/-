@@ -1,0 +1,264 @@
+{
+  "config_name": "Language Learning Extractor",
+  "url": "https://practice-japanese.com/docs/keigo-overview/",
+  "data": {
+    "sections": [
+      {
+        "level": 2,
+        "heading": "What is Keigo?",
+        "content": "Keigo (敬語) is the Japanese honorific language system used to show respect, humility, and politeness. It's essential for proper social communication in Japan, reflecting the hierarchical nature of Japanese society. Keigo adjusts language based on the relationship between speaker, listener, and the person being discussed.\n\nRegular: 食べる \"eat\" Respectful: 召し上がる \"eat\" (respectful) Humble: いただく \"eat\" (humble) Polite: 食べます \"eat\" (polite)"
+      },
+      {
+        "level": 2,
+        "heading": "Three Types of Keigo",
+        "content": "",
+        "children": [
+          {
+            "level": 3,
+            "heading": "尊敬語 (Sonkeigo) - Respectful Language",
+            "content": "Purpose: Elevate others' actions Used for: Superiors, customers, elders 先生が来る → 先生がいらっしゃる \"The teacher comes\" → \"The teacher comes\" (respectful) Raises status of subject"
+          },
+          {
+            "level": 3,
+            "heading": "謙譲語 (Kenjougo) - Humble Language",
+            "content": "Purpose: Lower your own actions Used when: You do something for/to superior 私が行く → 私が参る \"I go\" → \"I go\" (humble) Lowers speaker's status"
+          },
+          {
+            "level": 3,
+            "heading": "丁寧語 (Teineigo) - Polite Language",
+            "content": "Purpose: Show general politeness Used for: Polite conversation 食べる → 食べます \"eat\" → \"eat\" (polite) です/ます form Basic politeness"
+          }
+        ]
+      },
+      {
+        "level": 2,
+        "heading": "How Keigo Works",
+        "content": "",
+        "children": [
+          {
+            "level": 3,
+            "heading": "Social hierarchy",
+            "content": "Higher status: - Bosses, teachers, customers - Elders, guests → Use Sonkeigo for their actions Lower status (self): - Employee, student, service staff - Younger person → Use Kenjougo for your actions Basic politeness: - Teineigo for general polite speech"
+          }
+        ]
+      },
+      {
+        "level": 2,
+        "heading": "Basic Examples",
+        "content": "",
+        "children": [
+          {
+            "level": 3,
+            "heading": "Regular vs Keigo",
+            "content": "Regular: 言う \"say\" Respectful: おっしゃる \"say\" (for superior) Humble: 申す/申し上げる \"say\" (for self to superior) Polite: 言います \"say\" (general polite)"
+          },
+          {
+            "level": 3,
+            "heading": "In context",
+            "content": "Casual: 先生、何か言った？ \"Teacher, did you say something?\" Keigo: 先生、何かおっしゃいましたか。 \"Teacher, did you say something?\" (respectful)"
+          }
+        ]
+      },
+      {
+        "level": 2,
+        "heading": "When to Use Each Type",
+        "content": "",
+        "children": [
+          {
+            "level": 3,
+            "heading": "Sonkeigo (Respectful)",
+            "content": "Boss does action: 部長が読む → 部長がお読みになる \"The director reads\" (respectful) Customer does action: お客様が来る → お客様がいらっしゃる \"The customer comes\" (respectful)"
+          },
+          {
+            "level": 3,
+            "heading": "Kenjougo (Humble)",
+            "content": "I do action for boss: 私が持つ → 私がお持ちします \"I carry\" → \"I'll carry (for you)\" (humble) I give to superior: あげる → 差し上げる \"give\" → \"give (to superior)\" (humble)"
+          },
+          {
+            "level": 3,
+            "heading": "Teineigo (Polite)",
+            "content": "General polite speech: 行く → 行きます \"go\" → \"go\" (polite) 食べる → 食べます \"eat\" → \"eat\" (polite) Basic politeness layer"
+          }
+        ]
+      },
+      {
+        "level": 2,
+        "heading": "Combining Types",
+        "content": "",
+        "children": [
+          {
+            "level": 3,
+            "heading": "Can layer keigo",
+            "content": "Respectful + Polite: 先生がいらっしゃいました \"The teacher came\" (respectful + polite) Humble + Polite: 私が参ります \"I will go\" (humble + polite) Multiple layers common"
+          }
+        ]
+      },
+      {
+        "level": 2,
+        "heading": "Common Scenarios",
+        "content": "",
+        "children": [
+          {
+            "level": 3,
+            "heading": "At work",
+            "content": "Boss's action: Sonkeigo 部長がおっしゃいました \"The director said\" (respectful) Your action to boss: Kenjougo 私が申し上げました \"I said (to superior)\" (humble) General statement: Teineigo 会議は3時です \"The meeting is at 3\" (polite)"
+          },
+          {
+            "level": 3,
+            "heading": "Customer service",
+            "content": "Customer's action: Sonkeigo お客様がお選びになりました \"The customer chose\" (respectful) Staff's action: Kenjougo 私がご案内いたします \"I will guide (you)\" (humble)"
+          }
+        ]
+      },
+      {
+        "level": 2,
+        "heading": "Key Principles",
+        "content": "",
+        "children": [
+          {
+            "level": 3,
+            "heading": "Direction of respect",
+            "content": "↑ Sonkeigo: Elevate others Subject receives respect Their actions are elevated ↓ Kenjougo: Lower yourself Speaker lowers own actions Shows humility to superior → Teineigo: General politeness Neutral polite form"
+          }
+        ]
+      },
+      {
+        "level": 2,
+        "heading": "In-group vs Out-group",
+        "content": "",
+        "children": [
+          {
+            "level": 3,
+            "heading": "Uchi (in-group) vs Soto (out-group)",
+            "content": "Talking to outsider about your boss: 部長が言いました (not おっしゃいました) \"My director said\" (lower your side) Your company is \"uchi\" Lower your own group to outsiders"
+          }
+        ]
+      },
+      {
+        "level": 2,
+        "heading": "Common Mistakes",
+        "content": "",
+        "children": [
+          {
+            "level": 3,
+            "heading": "Using wrong type",
+            "content": "Wrong: 私がいらっしゃる ⚠️ (Respectful for self) Correct: 私が参る ✓ \"I go\" (humble) Match keigo type to person"
+          },
+          {
+            "level": 3,
+            "heading": "Over-keigo to peers",
+            "content": "Unnatural: 友達がいらっしゃる ⚠️ Natural: 友達が来る ✓ \"Friend comes\" Don't over-keigo with friends"
+          }
+        ]
+      },
+      {
+        "level": 2,
+        "heading": "Learning Strategy",
+        "content": "",
+        "children": [
+          {
+            "level": 3,
+            "heading": "Start with basics",
+            "content": "1. Learn Teineigo first (です/ます) 2. Learn common Sonkeigo verbs 3. Learn common Kenjougo verbs 4. Practice in context Gradual progression"
+          }
+        ]
+      },
+      {
+        "level": 2,
+        "heading": "Why Keigo Matters",
+        "content": "",
+        "children": [
+          {
+            "level": 3,
+            "heading": "Social importance",
+            "content": "Shows respect Maintains harmony Professional necessity Cultural understanding Essential for: - Business - Customer service - Formal situations - Daily politeness"
+          }
+        ]
+      },
+      {
+        "level": 2,
+        "heading": "Basic Keigo Verbs",
+        "content": "",
+        "children": [
+          {
+            "level": 3,
+            "heading": "Essential respectful",
+            "content": "いる → いらっしゃる \"be/exist\" 来る → いらっしゃる/お見えになる \"come\" 行く → いらっしゃる \"go\" 言う → おっしゃる \"say\" する → なさる \"do\" 見る → ご覧になる \"see/look\""
+          },
+          {
+            "level": 3,
+            "heading": "Essential humble",
+            "content": "いる → おる \"be/exist\" 行く → 参る \"go\" 来る → 参る \"come\" 言う → 申す/申し上げる \"say\" する → いたす \"do\" 見る → 拝見する \"see/look\""
+          }
+        ]
+      },
+      {
+        "level": 2,
+        "heading": "Practice Sentences",
+        "content": "",
+        "children": [
+          {
+            "level": 3,
+            "heading": "Basic",
+            "content": "Regular: 先生が来る Keigo: 先生がいらっしゃる \"The teacher comes\" Regular: 私が読む Keigo: 私が読みます (polite) 私が拝読します (humble) \"I read\" Regular: 社長が言った Keigo: 社長がおっしゃいました \"The president said\""
+          },
+          {
+            "level": 3,
+            "heading": "Intermediate",
+            "content": "先生がこの本をお読みになりました。 とても面白いとおっしゃっていました。 \"The teacher read this book (respectful). He/She was saying it was very interesting (respectful).\" 明日、私が部長のところへ参ります。 資料をお持ちいたします。 \"Tomorrow, I will go to the director (humble). I will bring the documents (humble).\" お客様がいらっしゃいました。 ご案内いたしますので、少々 お待ちください。 \"The customer has arrived (respectful). I will guide you (humble), so please wait a moment (polite).\""
+          },
+          {
+            "level": 3,
+            "heading": "Company",
+            "content": "About Pricing Blog Contact"
+          },
+          {
+            "level": 3,
+            "heading": "Legal",
+            "content": "Privacy Policy Terms of Service Cookie Policy"
+          }
+        ]
+      }
+    ],
+    "metadata": {
+      "title": "Keigo System Overview"
+    },
+    "examples": [
+      {
+        "sentence": "About"
+      },
+      {
+        "sentence": "Pricing"
+      },
+      {
+        "sentence": "Blog"
+      },
+      {
+        "sentence": "Contact"
+      },
+      {
+        "sentence": "Privacy Policy"
+      },
+      {
+        "sentence": "Terms of Service"
+      },
+      {
+        "sentence": "Cookie Policy"
+      }
+    ]
+  },
+  "metadata": {
+    "extracted_at": "2026-01-01T22:19:30.754481100Z",
+    "duration_ms": 5,
+    "extractors_matched": [
+      "metadata",
+      "examples",
+      "sections"
+    ],
+    "extractors_failed": [
+      "vocab_tables",
+      "definitions",
+      "content_blocks"
+    ]
+  }
+}

@@ -1,0 +1,448 @@
+{
+  "config_name": "Language Learning Extractor",
+  "url": "https://practice-japanese.com/docs/no-questions/",
+  "data": {
+    "metadata": {
+      "title": "の (no) Questions (casual)"
+    },
+    "sections": [
+      {
+        "level": 2,
+        "heading": "What is の (no) in Questions?",
+        "content": "の (no) at the end of a sentence turns it into a casual question. It's softer and more conversational than using か, and is extremely common in everyday Japanese.\n\nWithout の: 行く？ (simple question) With の: 行くの？ (softer, more curious) \"Are you going?\""
+      },
+      {
+        "level": 2,
+        "heading": "Basic Usage",
+        "content": "",
+        "children": [
+          {
+            "level": 3,
+            "heading": "With Verb Plain Form + の",
+            "content": "食べるの？ \"Are you eating?\" 行くの？ \"Are you going?\" 見るの？ \"Are you watching?\" するの？ \"Are you doing it?\""
+          },
+          {
+            "level": 3,
+            "heading": "With い-adjectives + の",
+            "content": "美味しいの？ \"Is it delicious?\" 高いの？ \"Is it expensive?\" 難しいの？ \"Is it difficult?\" 忙しいの？ \"Are you busy?\""
+          },
+          {
+            "level": 3,
+            "heading": "With な-adjectives + なの",
+            "content": "元気なの？ \"Are you well?\" 好きなの？ \"Do you like it?\" 便利なの？ \"Is it convenient?\" 大丈夫なの？ \"Are you okay?\""
+          },
+          {
+            "level": 3,
+            "heading": "With Nouns + なの",
+            "content": "学生なの？ \"Are you a student?\" 日本人なの？ \"Are you Japanese?\" 本当なの？ \"Is it true?\" 嘘なの？ \"Is it a lie?\""
+          }
+        ]
+      },
+      {
+        "level": 2,
+        "heading": "の vs か Comparison",
+        "content": "",
+        "children": [
+          {
+            "level": 3,
+            "heading": "の - Casual, Conversational",
+            "content": "何してるの？ \"What are you doing?\" (casual, friendly) どこ行くの？ \"Where are you going?\" (casual) 誰なの？ \"Who is it?\" (curious tone)"
+          },
+          {
+            "level": 3,
+            "heading": "か - Neutral or Formal",
+            "content": "何していますか？ \"What are you doing?\" (polite) どこに行きますか？ \"Where are you going?\" (polite) 誰ですか？ \"Who is it?\" (polite)"
+          }
+        ]
+      },
+      {
+        "level": 2,
+        "heading": "Tone and Nuance",
+        "content": "",
+        "children": [
+          {
+            "level": 3,
+            "heading": "Curiosity and Interest",
+            "content": "の adds a sense of genuine interest:\n\n本当に行くの？ \"Are you really going?\" (curious) それ食べるの？ \"Are you going to eat that?\" (interested) 今日来るの？ \"Are you coming today?\" (wanting to know)"
+          },
+          {
+            "level": 3,
+            "heading": "Seeking Explanation",
+            "content": "の can imply \"why\" or request clarification:\n\nA: 学校休む \"I'm skipping school\" B: え、休むの？ \"Huh? You're skipping?\" (why?) A: もう帰る \"I'm leaving already\" B: もう帰るの？ \"Already leaving?\" (so soon?)"
+          },
+          {
+            "level": 3,
+            "heading": "Softer than Direct Questions",
+            "content": "More direct: 行く？ Softer: 行くの？ \"Going?\" More direct: 何？ Softer: 何なの？ \"What is it?\""
+          }
+        ]
+      },
+      {
+        "level": 2,
+        "heading": "Gender Neutrality",
+        "content": "",
+        "children": [
+          {
+            "level": 3,
+            "heading": "Modern Usage",
+            "content": "の is now considered gender-neutral and used by everyone:\n\n行くの？ - Used by anyone \"Going?\" 本当なの？ - Used by anyone \"Is it true?\""
+          },
+          {
+            "level": 3,
+            "heading": "Historical Note",
+            "content": "Older generations might consider の slightly more feminine, but this distinction is largely obsolete in modern Japanese."
+          }
+        ]
+      },
+      {
+        "level": 2,
+        "heading": "Polite Version: んですか / のですか",
+        "content": "",
+        "children": [
+          {
+            "level": 3,
+            "heading": "んですか (more common)",
+            "content": "何をしているんですか？ \"What are you doing?\" どこに行くんですか？ \"Where are you going?\" 本当なんですか？ \"Is it true?\" 大丈夫なんですか？ \"Are you okay?\""
+          },
+          {
+            "level": 3,
+            "heading": "のですか (more formal/written)",
+            "content": "何をしているのですか？ \"What are you doing?\" そうなのですか？ \"Is that so?\""
+          }
+        ]
+      },
+      {
+        "level": 2,
+        "heading": "Common Question Patterns",
+        "content": "",
+        "children": [
+          {
+            "level": 3,
+            "heading": "With Question Words",
+            "content": "何してるの？ \"What are you doing?\" 誰なの？ \"Who is it?\" どこ行くの？ \"Where are you going?\" いつ来るの？ \"When are you coming?\" なんでなの？ \"Why?\" どうしたの？ \"What happened?\""
+          },
+          {
+            "level": 3,
+            "heading": "Yes/No Questions",
+            "content": "本当なの？ \"Is it true?\" 大丈夫なの？ \"Are you okay?\" 好きなの？ \"Do you like it?\" わかるの？ \"Do you understand?\""
+          },
+          {
+            "level": 3,
+            "heading": "Confirmation Questions",
+            "content": "そうなの？ \"Is that so?\" 違うの？ \"Is it different?\" これなの？ \"Is it this?\""
+          }
+        ]
+      },
+      {
+        "level": 2,
+        "heading": "Tense with の",
+        "content": "",
+        "children": [
+          {
+            "level": 3,
+            "heading": "Present/Future",
+            "content": "行くの？ \"Are you going?\" / \"Will you go?\" 食べるの？ \"Are you eating?\" / \"Will you eat?\""
+          },
+          {
+            "level": 3,
+            "heading": "Past",
+            "content": "行ったの？ \"Did you go?\" 食べたの？ \"Did you eat?\" 見たの？ \"Did you see it?\" したの？ \"Did you do it?\""
+          },
+          {
+            "level": 3,
+            "heading": "Negative",
+            "content": "行かないの？ \"Aren't you going?\" 食べないの？ \"Aren't you eating?\" 知らないの？ \"Don't you know?\""
+          }
+        ]
+      },
+      {
+        "level": 2,
+        "heading": "Common Conversations",
+        "content": "",
+        "children": [
+          {
+            "level": 3,
+            "heading": "Example 1: Between Friends",
+            "content": "A: 明日パーティー行くの？ \"Are you going to the party tomorrow?\" B: うん、行くよ \"Yeah, I'm going\" A: 何時に集まるの？ \"What time are we meeting?\" B: 7時だよ \"7 o'clock\""
+          },
+          {
+            "level": 3,
+            "heading": "Example 2: Expressing Concern",
+            "content": "A: 顔色悪いね \"You look pale\" B: そう？ \"Really?\" A: 大丈夫なの？ \"Are you okay?\" B: ちょっと疲れてるだけ \"I'm just a bit tired\""
+          },
+          {
+            "level": 3,
+            "heading": "Example 3: Shopping Together",
+            "content": "A: これ買うの？ \"Are you buying this?\" B: うん、可愛いでしょ？ \"Yeah, it's cute, right?\" A: いくらなの？ \"How much is it?\" B: 3000円 \"3000 yen\""
+          }
+        ]
+      },
+      {
+        "level": 2,
+        "heading": "Special Patterns",
+        "content": "",
+        "children": [
+          {
+            "level": 3,
+            "heading": "〜の？〜の？ (Multiple Questions)",
+            "content": "Shows excitement or curiosity:\n\n本当なの？本当なの？ \"Is it true? Really true?\" 誰が来るの？何人来るの？ \"Who's coming? How many people?\""
+          },
+          {
+            "level": 3,
+            "heading": "なんで〜の？ (Why)",
+            "content": "なんで行かないの？ \"Why aren't you going?\" なんで泣いてるの？ \"Why are you crying?\" なんで知ってるの？ \"How do you know?\""
+          },
+          {
+            "level": 3,
+            "heading": "どうして〜の？ (Why - slightly softer)",
+            "content": "どうして来なかったの？ \"Why didn't you come?\" どうして怒ってるの？ \"Why are you angry?\""
+          }
+        ]
+      },
+      {
+        "level": 2,
+        "heading": "Contraction: ん",
+        "content": "In rapid speech, の contracts to ん:\n\nFull: 何してるの？ Contracted: 何してるん？ \"What are you doing?\" Full: 行くの？ Contracted: 行くん？ \"Going?\" Full: 本当なの？ Contracted: 本当なん？ \"Is it true?\"\n\nNote: This is very casual!"
+      },
+      {
+        "level": 2,
+        "heading": "With Different Sentence Endings",
+        "content": "",
+        "children": [
+          {
+            "level": 3,
+            "heading": "〜のかな (wondering)",
+            "content": "行くのかな？ \"I wonder if they're going?\" 本当なのかな？ \"I wonder if it's true?\" できるのかな？ \"I wonder if I can do it?\""
+          },
+          {
+            "level": 3,
+            "heading": "〜のかしら (feminine, old-fashioned)",
+            "content": "来るのかしら？ \"I wonder if they'll come?\" 大丈夫なのかしら？ \"I wonder if it's okay?\""
+          },
+          {
+            "level": 3,
+            "heading": "〜のよ (feminine, explaining)",
+            "content": "A: どうして？ \"Why?\" B: 忙しいのよ \"I'm busy!\" (feminine)"
+          }
+        ]
+      },
+      {
+        "level": 2,
+        "heading": "Common Mistakes",
+        "content": "",
+        "children": [
+          {
+            "level": 3,
+            "heading": "Mistake 1: Using の after です/ます",
+            "content": "Wrong: 行きますの？ ❌ Right: 行くの？ ✓ (casual) Right: 行きますか？ ✓ (polite) Right: 行くんですか？ ✓ (polite with explanatory tone)"
+          },
+          {
+            "level": 3,
+            "heading": "Mistake 2: Forgetting な with nouns/な-adjectives",
+            "content": "Wrong: 学生の？ ❌ Right: 学生なの？ ✓ \"Are you a student?\" Wrong: 好きの？ ❌ Right: 好きなの？ ✓ \"Do you like it?\""
+          },
+          {
+            "level": 3,
+            "heading": "Mistake 3: Using in formal situations",
+            "content": "Inappropriate: 社長、行くの？ ❌ Better: 社長、行かれますか？ ✓ \"President, are you going?\""
+          },
+          {
+            "level": 3,
+            "heading": "Mistake 4: Overusing in polite conversation",
+            "content": "Too casual: 先生、これ何なの？ ⚠️ Better: 先生、これは何ですか？ ✓ \"Teacher, what is this?\""
+          }
+        ]
+      },
+      {
+        "level": 2,
+        "heading": "When to Use の Questions",
+        "content": "",
+        "children": [
+          {
+            "level": 3,
+            "heading": "✓ Good Situations",
+            "content": "Talking with friends Family conversations Close colleagues Casual settings Showing genuine interest"
+          },
+          {
+            "level": 3,
+            "heading": "✗ Avoid",
+            "content": "Formal business situations Talking to superiors First meetings Very polite contexts Official settings"
+          }
+        ]
+      },
+      {
+        "level": 2,
+        "heading": "Expressing Emotions",
+        "content": "",
+        "children": [
+          {
+            "level": 3,
+            "heading": "Surprise",
+            "content": "え、本当なの？！ \"What, really?!\" 知らなかったの？ \"You didn't know?!\" そうだったの？ \"It was like that?!\""
+          },
+          {
+            "level": 3,
+            "heading": "Concern",
+            "content": "大丈夫なの？ \"Are you okay?\" 痛いの？ \"Does it hurt?\" 辛いの？ \"Is it tough?\""
+          },
+          {
+            "level": 3,
+            "heading": "Curiosity",
+            "content": "それ何なの？ \"What's that?\" 誰が言ったの？ \"Who said that?\" どうやったの？ \"How did you do it?\""
+          }
+        ]
+      },
+      {
+        "level": 2,
+        "heading": "Combination with Other Particles",
+        "content": "",
+        "children": [
+          {
+            "level": 3,
+            "heading": "〜のよ (feminine, emphatic)",
+            "content": "知ってるのよ \"I know!\" (feminine) 違うのよ \"It's different!\" (feminine)"
+          },
+          {
+            "level": 3,
+            "heading": "〜のね (seeking agreement)",
+            "content": "美味しいのね \"It's delicious, isn't it?\" そうなのね \"So that's how it is\""
+          },
+          {
+            "level": 3,
+            "heading": "〜の？ね？ (double checking)",
+            "content": "行くの？ね？ \"You're going, right?\" 本当なの？ね？ \"It's true, right?\""
+          }
+        ]
+      },
+      {
+        "level": 2,
+        "heading": "Practice Sentences",
+        "content": "",
+        "children": [
+          {
+            "level": 3,
+            "heading": "Basic Questions",
+            "content": "何してるの？ \"What are you doing?\" どこ行くの？ \"Where are you going?\" 誰と会うの？ \"Who are you meeting?\" いつ来るの？ \"When are you coming?\""
+          },
+          {
+            "level": 3,
+            "heading": "With Adjectives",
+            "content": "美味しいの？ \"Is it delicious?\" 楽しいの？ \"Is it fun?\" 大変なの？ \"Is it tough?\" 好きなの？ \"Do you like it?\""
+          },
+          {
+            "level": 3,
+            "heading": "With Nouns",
+            "content": "学生なの？ \"Are you a student?\" 本当なの？ \"Is it true?\" 嘘なの？ \"Is it a lie?\" これなの？ \"Is it this?\""
+          },
+          {
+            "level": 3,
+            "heading": "Past Tense",
+            "content": "行ったの？ \"Did you go?\" 食べたの？ \"Did you eat?\" 見たの？ \"Did you see it?\" 楽しかったの？ \"Was it fun?\""
+          }
+        ]
+      },
+      {
+        "level": 2,
+        "heading": "Related Grammar Points",
+        "content": "Yes/No Questions - Basic question formation か (ka) Question Usage - Formal question particle んです explanatory tone - Seeking/giving explanation Question Words (5W1H) - Information questions Casual Japanese - Informal speech patterns Sentence-ending particles - ね、よ、よね",
+        "children": [
+          {
+            "level": 3,
+            "heading": "Company",
+            "content": "About Pricing Blog Contact"
+          },
+          {
+            "level": 3,
+            "heading": "Legal",
+            "content": "Privacy Policy Terms of Service Cookie Policy"
+          }
+        ]
+      }
+    ],
+    "examples": [
+      {
+        "sentence": "Talking with friends"
+      },
+      {
+        "sentence": "Family conversations"
+      },
+      {
+        "sentence": "Close colleagues"
+      },
+      {
+        "sentence": "Casual settings"
+      },
+      {
+        "sentence": "Showing genuine interest"
+      },
+      {
+        "sentence": "Formal business situations"
+      },
+      {
+        "sentence": "Talking to superiors"
+      },
+      {
+        "sentence": "First meetings"
+      },
+      {
+        "sentence": "Very polite contexts"
+      },
+      {
+        "sentence": "Official settings"
+      },
+      {
+        "sentence": "Yes/No Questions - Basic question formation"
+      },
+      {
+        "sentence": "か (ka) Question Usage - Formal question particle"
+      },
+      {
+        "sentence": "んです explanatory tone - Seeking/giving explanation"
+      },
+      {
+        "sentence": "Question Words (5W1H) - Information questions"
+      },
+      {
+        "sentence": "Casual Japanese - Informal speech patterns"
+      },
+      {
+        "sentence": "Sentence-ending particles - ね、よ、よね"
+      },
+      {
+        "sentence": "About"
+      },
+      {
+        "sentence": "Pricing"
+      },
+      {
+        "sentence": "Blog"
+      },
+      {
+        "sentence": "Contact"
+      },
+      {
+        "sentence": "Privacy Policy"
+      },
+      {
+        "sentence": "Terms of Service"
+      },
+      {
+        "sentence": "Cookie Policy"
+      }
+    ]
+  },
+  "metadata": {
+    "extracted_at": "2026-01-01T22:19:32.481281Z",
+    "duration_ms": 4,
+    "extractors_matched": [
+      "metadata",
+      "examples",
+      "sections"
+    ],
+    "extractors_failed": [
+      "vocab_tables",
+      "definitions",
+      "content_blocks"
+    ]
+  }
+}

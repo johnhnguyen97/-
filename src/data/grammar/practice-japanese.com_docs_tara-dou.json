@@ -1,0 +1,361 @@
+{
+  "config_name": "Language Learning Extractor",
+  "url": "https://practice-japanese.com/docs/tara-dou/",
+  "data": {
+    "sections": [
+      {
+        "level": 2,
+        "heading": "What is 〜たらどう?",
+        "content": "〜たらどう (or more politely 〜たらどうですか ) is used to make suggestions, meaning \"how about\" or \"why don't you.\" It's a casual way to give advice or propose ideas.\n\n休んだらどう？ \"How about resting?\" 医者に行ったらどうですか \"How about going to the doctor?\" もっと勉強したらどう？ \"How about studying more?\""
+      },
+      {
+        "level": 2,
+        "heading": "Formation",
+        "content": "",
+        "children": [
+          {
+            "level": 3,
+            "heading": "Pattern: Verb た-form + らどう(ですか)",
+            "content": "| Verb | た-form | + らどう | | ------ | ------- | ------------ | | 見る | 見た | 見たらどう | | 食べる | 食べた | 食べたらどう | | 来る | 来た | 来たらどう | | する | した | したらどう | | 書く | 書いた | 書いたらどう | | 読む | 読んだ | 読んだらどう |"
+          },
+          {
+            "level": 3,
+            "heading": "Examples",
+            "content": "行く → 行ったらどう (How about going?) 話す → 話したらどう (How about talking?) 休む → 休んだらどう (How about resting?)"
+          }
+        ]
+      },
+      {
+        "level": 2,
+        "heading": "Politeness Levels",
+        "content": "",
+        "children": [
+          {
+            "level": 3,
+            "heading": "Very casual: たらどう",
+            "content": "休んだらどう \"How about resting?\" やめたらどう \"How about quitting?\" Use with close friends only!"
+          },
+          {
+            "level": 3,
+            "heading": "Casual-polite: たらどうですか",
+            "content": "休んだらどうですか \"How about resting?\" 相談したらどうですか \"How about consulting?\" Most common everyday form"
+          },
+          {
+            "level": 3,
+            "heading": "More polite: たらいかがですか",
+            "content": "お休みになったらいかがですか \"How about resting?\" (very polite) ご相談されたらいかがですか \"How about consulting?\" (very polite) Use in formal situations"
+          }
+        ]
+      },
+      {
+        "level": 2,
+        "heading": "Basic Usage",
+        "content": "",
+        "children": [
+          {
+            "level": 3,
+            "heading": "Making suggestions",
+            "content": "映画を見に行ったらどう？ \"How about going to see a movie?\" 早く寝たらどうですか \"How about sleeping early?\" 新しい仕事を探したらどう？ \"How about looking for a new job?\""
+          },
+          {
+            "level": 3,
+            "heading": "Giving advice",
+            "content": "もっと運動したらどうですか \"How about exercising more?\" 医者に相談したらどう？ \"How about consulting a doctor?\" 謝ったらどうですか \"How about apologizing?\""
+          }
+        ]
+      },
+      {
+        "level": 2,
+        "heading": "Common Conversations",
+        "content": "",
+        "children": [
+          {
+            "level": 3,
+            "heading": "Example 1: Health Advice",
+            "content": "A: 最近、すごく疲れてるんだ \"I've been really tired lately\" B: 少し休んだらどう？ \"How about resting a bit?\" A: そうだね。週末ゆっくりするよ \"You're right. I'll relax this weekend\""
+          },
+          {
+            "level": 3,
+            "heading": "Example 2: Problem Solving",
+            "content": "A: 彼氏と喧嘩しちゃった \"I had a fight with my boyfriend\" B: ちゃんと話し合ったらどうですか \"How about talking it through properly?\" A: そうですね。明日話してみます \"You're right. I'll try talking tomorrow\""
+          },
+          {
+            "level": 3,
+            "heading": "Example 3: Study Advice",
+            "content": "A: 試験が心配です \"I'm worried about the exam\" B: もっと勉強したらどうですか \"How about studying more?\" A: はい、頑張ります \"Yes, I'll do my best\""
+          }
+        ]
+      },
+      {
+        "level": 2,
+        "heading": "Common Mistakes",
+        "content": "",
+        "children": [
+          {
+            "level": 3,
+            "heading": "Mistake 1: Using dictionary form",
+            "content": "Wrong: 行くたらどう ❌ Right: 行ったらどう ✓ \"How about going?\" Must use た-form!"
+          },
+          {
+            "level": 3,
+            "heading": "Mistake 2: Too casual with superiors",
+            "content": "Wrong to boss: もっと考えたらどう ❌ Right: もう少しご検討されたらいかがですか ✓ \"How about considering it more?\" Know your audience!"
+          },
+          {
+            "level": 3,
+            "heading": "Mistake 3: Being too pushy",
+            "content": "Can sound pushy: やめたらどう ⚠️ Softer: やめたらどうですか ⚠️ Even softer: やめることも考えてみたらどうですか ✓ \"How about considering quitting?\" Add softeners for sensitive topics!"
+          }
+        ]
+      },
+      {
+        "level": 2,
+        "heading": "When to Use たらどう",
+        "content": "",
+        "children": [
+          {
+            "level": 3,
+            "heading": "Appropriate situations",
+            "content": "✓ Giving friendly advice ✓ Making casual suggestions ✓ Problem-solving discussions ✓ Health and lifestyle tips ✓ Among friends and family"
+          },
+          {
+            "level": 3,
+            "heading": "Be careful with",
+            "content": "⚠️ Sensitive personal matters ⚠️ Major life decisions ⚠️ With people you don't know well ⚠️ When advice wasn't asked for ⚠️ Superior-subordinate relationships"
+          }
+        ]
+      },
+      {
+        "level": 2,
+        "heading": "Adding Softeners",
+        "content": "",
+        "children": [
+          {
+            "level": 3,
+            "heading": "もう少し (a bit more)",
+            "content": "もう少し考えたらどうですか \"How about thinking about it a bit more?\""
+          },
+          {
+            "level": 3,
+            "heading": "ちょっと (a little)",
+            "content": "ちょっと休んだらどう？ \"How about resting a little?\""
+          },
+          {
+            "level": 3,
+            "heading": "一度 (once)",
+            "content": "一度医者に見てもらったらどうですか \"How about seeing a doctor once?\""
+          },
+          {
+            "level": 3,
+            "heading": "試しに (as a trial)",
+            "content": "試しにやってみたらどう？ \"How about trying it as a trial?\""
+          }
+        ]
+      },
+      {
+        "level": 2,
+        "heading": "Responding to たらどう",
+        "content": "",
+        "children": [
+          {
+            "level": 3,
+            "heading": "Agreeing",
+            "content": "そうだね \"You're right\" いい考えだね \"That's a good idea\" そうしてみるよ \"I'll try that\" そうします \"I'll do that\""
+          },
+          {
+            "level": 3,
+            "heading": "Declining",
+            "content": "うーん、どうかな \"Hmm, I don't know\" それはちょっと... \"That's a bit...\" 今は無理かな \"It's impossible right now\" 考えてみます \"I'll think about it\""
+          }
+        ]
+      },
+      {
+        "level": 2,
+        "heading": "Common Advice Patterns",
+        "content": "",
+        "children": [
+          {
+            "level": 3,
+            "heading": "Health suggestions",
+            "content": "もっと寝たらどうですか \"How about sleeping more?\" 運動したらどう？ \"How about exercising?\" 野菜を食べたらどうですか \"How about eating vegetables?\" 病院に行ったらどう？ \"How about going to the hospital?\""
+          },
+          {
+            "level": 3,
+            "heading": "Work/study suggestions",
+            "content": "もっと勉強したらどう？ \"How about studying more?\" 先生に聞いたらどうですか \"How about asking the teacher?\" 転職を考えたらどう？ \"How about considering a job change?\" 休暇を取ったらどうですか \"How about taking a vacation?\""
+          },
+          {
+            "level": 3,
+            "heading": "Relationship suggestions",
+            "content": "謝ったらどう？ \"How about apologizing?\" 正直に話したらどうですか \"How about talking honestly?\" もう一度考えたらどう？ \"How about reconsidering?\" 別れたらどうですか \"How about breaking up?\" (very direct!)"
+          }
+        ]
+      },
+      {
+        "level": 2,
+        "heading": "Combining with Reasons",
+        "content": "",
+        "children": [
+          {
+            "level": 3,
+            "heading": "Adding だって/から",
+            "content": "疲れてるんだから、休んだらどう？ \"You're tired, so how about resting?\" 時間がないんだから、タクシーで行ったらどうですか \"You don't have time, so how about going by taxi?\""
+          }
+        ]
+      },
+      {
+        "level": 2,
+        "heading": "たらどう vs Other Suggestions",
+        "content": "",
+        "children": [
+          {
+            "level": 3,
+            "heading": "たらどう (casual suggestion)",
+            "content": "映画を見たらどう？ \"How about watching a movie?\" Casual, friendly advice"
+          },
+          {
+            "level": 3,
+            "heading": "ませんか (invitation)",
+            "content": "映画を見ませんか \"Won't you watch a movie?\" Inviting them to join you"
+          },
+          {
+            "level": 3,
+            "heading": "ほうがいい (stronger advice)",
+            "content": "映画を見たほうがいい \"You should watch the movie\" Stronger recommendation"
+          },
+          {
+            "level": 3,
+            "heading": "といい (hope/wish)",
+            "content": "映画を見るといい \"It would be good if you watched the movie\" Gentler wish"
+          }
+        ]
+      },
+      {
+        "level": 2,
+        "heading": "Negative Suggestions",
+        "content": "",
+        "children": [
+          {
+            "level": 3,
+            "heading": "Using ない form",
+            "content": "やめたらどう？ \"How about quitting?\" 行かないほうがいいよ \"You shouldn't go\" (stronger) 無理しないほうがいいんじゃない？ \"Isn't it better not to overdo it?\""
+          }
+        ]
+      },
+      {
+        "level": 2,
+        "heading": "Casual Alternatives",
+        "content": "",
+        "children": [
+          {
+            "level": 3,
+            "heading": "じゃない？",
+            "content": "休んだほうがいいんじゃない？ \"Wouldn't it be better to rest?\" More tentative than たらどう"
+          },
+          {
+            "level": 3,
+            "heading": "してみたら？",
+            "content": "やってみたら？ \"Why don't you try it?\" Emphasizes trying"
+          }
+        ]
+      },
+      {
+        "level": 2,
+        "heading": "Practice Sentences",
+        "content": "",
+        "children": [
+          {
+            "level": 3,
+            "heading": "Basic",
+            "content": "休んだらどう？ \"How about resting?\" 医者に行ったらどうですか \"How about going to the doctor?\" 相談したらどう？ \"How about consulting?\""
+          },
+          {
+            "level": 3,
+            "heading": "Intermediate",
+            "content": "疲れてるみたいだから、今日は早く帰ったらどうですか \"You look tired, so how about going home early today?\" その仕事が嫌なら、転職を考えたらどう？ \"If you don't like that job, how about considering a job change?\" 試験が心配なら、もっと勉強したらどうですか \"If you're worried about the exam, how about studying more?\""
+          },
+          {
+            "level": 3,
+            "heading": "Advanced",
+            "content": "ずっと一人で悩んでないで、誰かに相談したらどうですか \"Instead of worrying alone all the time, how about consulting someone?\" そんなに忙しいなら、一度ゆっくり休暇を取ったらいかがですか \"If you're that busy, how about taking a nice vacation once?\" お互いのために、もう一度よく話し合ってみたらどうでしょうか \"For both your sakes, how about trying to talk it through carefully once more?\""
+          }
+        ]
+      },
+      {
+        "level": 2,
+        "heading": "Related Grammar Points",
+        "content": "〜たほうがいい - Should/had better 〜といい - It would be good if 〜たらいい - Would be good if 〜ませんか - Won't you (invitation) Conditional たら - If/when Giving advice - Advice patterns",
+        "children": [
+          {
+            "level": 3,
+            "heading": "Company",
+            "content": "About Pricing Blog Contact"
+          },
+          {
+            "level": 3,
+            "heading": "Legal",
+            "content": "Privacy Policy Terms of Service Cookie Policy"
+          }
+        ]
+      }
+    ],
+    "metadata": {
+      "title": "〜たらどう (How about)"
+    },
+    "examples": [
+      {
+        "sentence": "〜たほうがいい - Should/had better"
+      },
+      {
+        "sentence": "〜といい - It would be good if"
+      },
+      {
+        "sentence": "〜たらいい - Would be good if"
+      },
+      {
+        "sentence": "〜ませんか - Won't you (invitation)"
+      },
+      {
+        "sentence": "Conditional たら - If/when"
+      },
+      {
+        "sentence": "Giving advice - Advice patterns"
+      },
+      {
+        "sentence": "About"
+      },
+      {
+        "sentence": "Pricing"
+      },
+      {
+        "sentence": "Blog"
+      },
+      {
+        "sentence": "Contact"
+      },
+      {
+        "sentence": "Privacy Policy"
+      },
+      {
+        "sentence": "Terms of Service"
+      },
+      {
+        "sentence": "Cookie Policy"
+      }
+    ]
+  },
+  "metadata": {
+    "extracted_at": "2026-01-01T22:19:35.403498100Z",
+    "duration_ms": 3,
+    "extractors_matched": [
+      "metadata",
+      "examples",
+      "sections"
+    ],
+    "extractors_failed": [
+      "vocab_tables",
+      "definitions",
+      "content_blocks"
+    ]
+  }
+}

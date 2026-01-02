@@ -1,0 +1,357 @@
+{
+  "config_name": "Language Learning Extractor",
+  "url": "https://practice-japanese.com/docs/wake-dewa-nai/",
+  "data": {
+    "metadata": {
+      "title": "〜わけではない (Not necessarily)"
+    },
+    "examples": [
+      {
+        "sentence": "〜わけだ - That's why/No wonder"
+      },
+      {
+        "sentence": "〜わけがない - There's no way"
+      },
+      {
+        "sentence": "〜というわけではない - Doesn't mean that"
+      },
+      {
+        "sentence": "〜ないわけではない - Not that I don't (double negative)"
+      },
+      {
+        "sentence": "Partial negation - Softening statements"
+      },
+      {
+        "sentence": "Nuance expressions - Adding complexity"
+      },
+      {
+        "sentence": "About"
+      },
+      {
+        "sentence": "Pricing"
+      },
+      {
+        "sentence": "Blog"
+      },
+      {
+        "sentence": "Contact"
+      },
+      {
+        "sentence": "Privacy Policy"
+      },
+      {
+        "sentence": "Terms of Service"
+      },
+      {
+        "sentence": "Cookie Policy"
+      }
+    ],
+    "sections": [
+      {
+        "level": 2,
+        "heading": "What is 〜わけではない?",
+        "content": "〜わけではない (or 〜わけじゃない ) expresses partial negation or clarification, meaning \"it doesn't mean,\" \"not necessarily,\" \"not always,\" or \"it's not that.\" It softens or qualifies a statement.\n\n嫌いなわけではない \"It's not that I dislike it\" / \"I don't necessarily dislike it\" できないわけではない \"It's not that I can't do it\" / \"I can do it (but...)\" 全部が悪いわけではない \"Not everything is bad\" / \"It's not all bad\""
+      },
+      {
+        "level": 2,
+        "heading": "Formation",
+        "content": "",
+        "children": [
+          {
+            "level": 3,
+            "heading": "Pattern: Plain form + わけではない",
+            "content": "With verbs:\n\n行く → 行くわけではない (doesn't necessarily go) 知る → 知るわけではない (doesn't necessarily know) できる → できるわけではない (it's not that can't)\n\nWith い-adjectives:\n\n高い → 高いわけではない (not necessarily expensive) 難しい → 難しいわけではない (not necessarily difficult)\n\nWith な-adjectives:\n\n便利 → 便利なわけではない (not necessarily convenient) 簡単 → 簡単なわけではない (not necessarily easy) Use な before わけではない\n\nWith nouns:\n\n学生 → 学生というわけではない (not necessarily a student) 問題 → 問題というわけではない (doesn't mean it's a problem) Often use という"
+          }
+        ]
+      },
+      {
+        "level": 2,
+        "heading": "Basic Usage",
+        "content": "",
+        "children": [
+          {
+            "level": 3,
+            "heading": "Softening negative statements",
+            "content": "嫌いなわけではない \"It's not that I dislike it\" (but I don't love it either) できないわけではない \"It's not that I can't\" (but it's difficult) 行きたくないわけではない \"It's not that I don't want to go\" (but...)"
+          },
+          {
+            "level": 3,
+            "heading": "Clarifying misunderstandings",
+            "content": "A: 嫌いなの？ \"Do you dislike it?\" B: 嫌いなわけじゃないよ \"It's not that I dislike it\" Clarification"
+          },
+          {
+            "level": 3,
+            "heading": "Partial negation",
+            "content": "全部が悪いわけではない \"Not everything is bad\" いつも忙しいわけではない \"I'm not always busy\" 誰でもできるわけではない \"Not everyone can do it\""
+          }
+        ]
+      },
+      {
+        "level": 2,
+        "heading": "Key Characteristics",
+        "content": "",
+        "children": [
+          {
+            "level": 3,
+            "heading": "Softens statements",
+            "content": "Direct: 嫌いだ \"I dislike it\" Softened: 嫌いなわけではない \"It's not that I dislike it\" Less direct, more nuanced"
+          },
+          {
+            "level": 3,
+            "heading": "Shows complexity",
+            "content": "Acknowledges: - Situations aren't black and white - Multiple factors exist - There are exceptions - Things are more complicated Adds nuance"
+          }
+        ]
+      },
+      {
+        "level": 2,
+        "heading": "Common Conversations",
+        "content": "",
+        "children": [
+          {
+            "level": 3,
+            "heading": "Example 1: Softening Refusal",
+            "content": "A: パーティーに来ない？ \"Won't you come to the party?\" B: 行きたくないわけじゃないんだけど、 予定があって... \"It's not that I don't want to go, but I have plans...\" A: そうなんだ \"I see\""
+          },
+          {
+            "level": 3,
+            "heading": "Example 2: Clarifying",
+            "content": "A: 彼のこと嫌い？ \"Do you dislike him?\" B: 嫌いなわけじゃないよ。ただ、ちょっと苦手で \"It's not that I dislike him. It's just, I'm not good with him\" A: なるほど \"I see\""
+          },
+          {
+            "level": 3,
+            "heading": "Example 3: Partial Negation",
+            "content": "A: 日本料理、全部好き？ \"Do you like all Japanese food?\" B: 全部が好きというわけじゃないけど、 大体好きだよ \"It's not that I like everything, but I like most of it\""
+          }
+        ]
+      },
+      {
+        "level": 2,
+        "heading": "Common Mistakes",
+        "content": "",
+        "children": [
+          {
+            "level": 3,
+            "heading": "Mistake 1: Confusing with わけがない",
+            "content": "わけではない: Not necessarily/Doesn't mean 嫌いなわけではない \"It's not that I dislike it\" わけがない: There's no way/Impossible 嫌いなわけがない \"There's no way I dislike it\" Very different!"
+          },
+          {
+            "level": 3,
+            "heading": "Mistake 2: Using だ incorrectly",
+            "content": "Wrong: 学生だわけではない ❌ Right: 学生というわけではない ✓ Or: 学生なわけではない ✓ Use という or な with nouns"
+          },
+          {
+            "level": 3,
+            "heading": "Mistake 3: Overusing",
+            "content": "Too indirect: 分からないわけではないわけではない ❌ Better: 分かる / まあ分かる ✓ Don't make it too complicated!"
+          }
+        ]
+      },
+      {
+        "level": 2,
+        "heading": "Polite Forms",
+        "content": "",
+        "children": [
+          {
+            "level": 3,
+            "heading": "Casual: わけじゃない",
+            "content": "嫌いなわけじゃない \"It's not that I dislike it\" Very common in casual speech"
+          },
+          {
+            "level": 3,
+            "heading": "Polite: わけではありません",
+            "content": "嫌いなわけではありません \"It's not that I dislike it\" Standard polite"
+          },
+          {
+            "level": 3,
+            "heading": "Formal: わけではない",
+            "content": "嫌いなわけではない \"It's not that I dislike it\" Written, formal"
+          }
+        ]
+      },
+      {
+        "level": 2,
+        "heading": "というわけではない",
+        "content": "",
+        "children": [
+          {
+            "level": 3,
+            "heading": "With nouns/concepts",
+            "content": "嘘というわけではない \"It doesn't mean it's a lie\" 悪いというわけではない \"It doesn't mean it's bad\" 問題というわけではない \"It doesn't mean it's a problem\" Common with nouns"
+          }
+        ]
+      },
+      {
+        "level": 2,
+        "heading": "～ないわけではない (Double negative)",
+        "content": "",
+        "children": [
+          {
+            "level": 3,
+            "heading": "It's not that I don't = I do (but...)",
+            "content": "分からないわけではない \"It's not that I don't understand\" = \"I understand (but...)\" できないわけではない \"It's not that I can't\" = \"I can (but...)\" 行きたくないわけではない \"It's not that I don't want to go\" = \"I want to go (but...)\" Shows reluctance or qualification"
+          }
+        ]
+      },
+      {
+        "level": 2,
+        "heading": "Common Patterns",
+        "content": "",
+        "children": [
+          {
+            "level": 3,
+            "heading": "～わけではないが (Not that...but)",
+            "content": "嫌いなわけではないが、好きでもない \"It's not that I dislike it, but I don't like it either\" できないわけではないが、難しい \"It's not that I can't, but it's difficult\" Adding contrast"
+          },
+          {
+            "level": 3,
+            "heading": "必ずしも～わけではない (Not necessarily)",
+            "content": "必ずしも正しいわけではない \"It's not necessarily correct\" 必ずしも成功するわけではない \"It doesn't necessarily succeed\" Emphasizes \"not always\""
+          },
+          {
+            "level": 3,
+            "heading": "全部/全て～わけではない (Not all/everything)",
+            "content": "全部が好きなわけではない \"I don't like everything\" 全てが正しいわけではない \"Not everything is correct\" Partial negation"
+          }
+        ]
+      },
+      {
+        "level": 2,
+        "heading": "Showing Nuance",
+        "content": "",
+        "children": [
+          {
+            "level": 3,
+            "heading": "Complex feelings",
+            "content": "A: その映画好き？ \"Do you like that movie?\" B: 好きというわけではないけど、 面白いとは思う \"It's not that I like it, but I think it's interesting\" Mixed feelings"
+          }
+        ]
+      },
+      {
+        "level": 2,
+        "heading": "Correcting Misunderstandings",
+        "content": "",
+        "children": [
+          {
+            "level": 3,
+            "heading": "Clarifying intentions",
+            "content": "A: やりたくないの？ \"You don't want to do it?\" B: やりたくないわけじゃないよ。 ただ、今は時間がないだけ \"It's not that I don't want to. It's just, I don't have time right now\""
+          }
+        ]
+      },
+      {
+        "level": 2,
+        "heading": "About Abilities",
+        "content": "",
+        "children": [
+          {
+            "level": 3,
+            "heading": "Can but with conditions",
+            "content": "できないわけではない \"It's not that I can't\" (but it's hard/but I'm not confident) 分からないわけではない \"It's not that I don't understand\" (but it's not fully clear) Shows capability with hesitation"
+          }
+        ]
+      },
+      {
+        "level": 2,
+        "heading": "Defending",
+        "content": "",
+        "children": [
+          {
+            "level": 3,
+            "heading": "Softening criticism",
+            "content": "悪いというわけではない \"It doesn't mean it's bad\" 間違っているわけではない \"It's not that it's wrong\" Less harsh judgment"
+          }
+        ]
+      },
+      {
+        "level": 2,
+        "heading": "いつも/必ず～わけではない",
+        "content": "",
+        "children": [
+          {
+            "level": 3,
+            "heading": "Not always/Not necessarily",
+            "content": "いつも正しいわけではない \"It's not always correct\" 必ず成功するわけではない \"It doesn't necessarily succeed\" 誰でもできるわけではない \"Not everyone can do it\""
+          }
+        ]
+      },
+      {
+        "level": 2,
+        "heading": "という～わけではない",
+        "content": "",
+        "children": [
+          {
+            "level": 3,
+            "heading": "Doesn't mean that",
+            "content": "失敗したからといって、ダメというわけではない \"Just because you failed doesn't mean you're no good\" 高いからといって、良いというわけではない \"Just because it's expensive doesn't mean it's good\" Rejecting simple conclusions"
+          }
+        ]
+      },
+      {
+        "level": 2,
+        "heading": "から vs わけではない",
+        "content": "",
+        "children": [
+          {
+            "level": 3,
+            "heading": "Negating simple cause-effect",
+            "content": "忙しいからといって、断るわけではない \"Just because I'm busy doesn't mean I'll refuse\" 若いからといって、分からないわけではない \"Just because I'm young doesn't mean I don't understand\""
+          }
+        ]
+      },
+      {
+        "level": 2,
+        "heading": "Practice Sentences",
+        "content": "",
+        "children": [
+          {
+            "level": 3,
+            "heading": "Basic",
+            "content": "嫌いなわけではない \"It's not that I dislike it\" できないわけではない \"It's not that I can't do it\" 全部が悪いわけではない \"Not everything is bad\""
+          },
+          {
+            "level": 3,
+            "heading": "Intermediate",
+            "content": "日本語が上手というわけではないが、 簡単な会話はできる \"I wouldn't say my Japanese is good, but I can have simple conversations\" 彼が悪いというわけではないけど、 もう少し考えてほしかった \"It's not that he's bad, but I wish he had thought about it a bit more\" お金がないわけじゃないけど、 今は買いたくない \"It's not that I don't have money, but I don't want to buy it right now\""
+          },
+          {
+            "level": 3,
+            "heading": "Advanced",
+            "content": "成功が全てというわけではない。 もちろん成功は大切だが、そこに至る 過程や経験も同じくらい価値がある。 失敗したからといって、意味がないわけではない。 \"Success isn't everything. Of course success is important, but the process and experience getting there are equally valuable. Just because you failed doesn't mean it's meaningless.\" 彼の意見に反対というわけではない。 ただ、もう少し慎重に進めたほうがいいと 思っているだけだ。急ぐ必要がない わけではないが、焦りすぎるのも良くない。 \"It's not that I oppose his opinion. It's just that I think we should proceed more carefully. It's not that there's no need to hurry, but rushing too much isn't good either.\""
+          }
+        ]
+      },
+      {
+        "level": 2,
+        "heading": "Related Grammar Points",
+        "content": "〜わけだ - That's why/No wonder 〜わけがない - There's no way 〜というわけではない - Doesn't mean that 〜ないわけではない - Not that I don't (double negative) Partial negation - Softening statements Nuance expressions - Adding complexity",
+        "children": [
+          {
+            "level": 3,
+            "heading": "Company",
+            "content": "About Pricing Blog Contact"
+          },
+          {
+            "level": 3,
+            "heading": "Legal",
+            "content": "Privacy Policy Terms of Service Cookie Policy"
+          }
+        ]
+      }
+    ]
+  },
+  "metadata": {
+    "extracted_at": "2026-01-01T22:19:37.611275300Z",
+    "duration_ms": 3,
+    "extractors_matched": [
+      "metadata",
+      "examples",
+      "sections"
+    ],
+    "extractors_failed": [
+      "vocab_tables",
+      "definitions",
+      "content_blocks"
+    ]
+  }
+}

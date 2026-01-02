@@ -1,0 +1,315 @@
+{
+  "config_name": "Language Learning Extractor",
+  "url": "https://practice-japanese.com/docs/conditionals-overview/",
+  "data": {
+    "examples": [
+      {
+        "sentence": "と conditional - Natural consequence"
+      },
+      {
+        "sentence": "ば conditional - General condition"
+      },
+      {
+        "sentence": "たら conditional - Hypothetical/sequential"
+      },
+      {
+        "sentence": "なら conditional - Contextual"
+      },
+      {
+        "sentence": "Comparing conditionals - Detailed comparison"
+      },
+      {
+        "sentence": "〜ても - Even if"
+      },
+      {
+        "sentence": "About"
+      },
+      {
+        "sentence": "Pricing"
+      },
+      {
+        "sentence": "Blog"
+      },
+      {
+        "sentence": "Contact"
+      },
+      {
+        "sentence": "Privacy Policy"
+      },
+      {
+        "sentence": "Terms of Service"
+      },
+      {
+        "sentence": "Cookie Policy"
+      }
+    ],
+    "metadata": {
+      "title": "Conditional Forms Overview"
+    },
+    "sections": [
+      {
+        "level": 2,
+        "heading": "Japanese Conditionals Overview",
+        "content": "Japanese has four main conditional forms: と , ば , たら , and なら . Each has specific uses and nuances for expressing \"if\" and \"when\" conditions.\n\nと - Natural consequence, habitual actions ば - General conditions, requirements たら - After completion, hypothetical situations なら - Based on context, advice giving"
+      },
+      {
+        "level": 2,
+        "heading": "The Four Conditionals",
+        "content": "",
+        "children": [
+          {
+            "level": 3,
+            "heading": "と (to) - Natural Consequence",
+            "content": "春になると、桜が咲く \"When spring comes, cherry blossoms bloom\" (always happens) このボタンを押すと、ドアが開く \"When you press this button, the door opens\" (automatic) Use: Natural results, scientific facts, habitual actions"
+          },
+          {
+            "level": 3,
+            "heading": "ば (ba) - General Condition",
+            "content": "安ければ、買います \"If it's cheap, I'll buy it\" (general condition) 頑張れば、できる \"If you try hard, you can do it\" (requirement) Use: General conditions, requirements, hypothetical"
+          },
+          {
+            "level": 3,
+            "heading": "たら (tara) - Hypothetical/Sequential",
+            "content": "雨が降ったら、行きません \"If it rains, I won't go\" (hypothetical future) 家に着いたら、電話してね \"When you get home, call me\" (after completion) Use: Hypothetical situations, sequential actions, discovery"
+          },
+          {
+            "level": 3,
+            "heading": "なら (nara) - Contextual",
+            "content": "A: 東京に行くんだ \"I'm going to Tokyo\" B: 東京なら、いいレストラン知ってるよ \"If it's Tokyo, I know a good restaurant\" (based on context) Use: Based on given information, advice, suggestions"
+          }
+        ]
+      },
+      {
+        "level": 2,
+        "heading": "Quick Comparison Chart",
+        "content": "| Form | Main Use | Can use commands? | Can use past? | Example | | -------- | ----------------------- | ----------------- | ------------- | ---------------- | | と | Natural consequence | No ✗ | Yes ✓ | 春になると咲く | | ば | General condition | Yes ✓ | No ✗ | 安ければ買う | | たら | Hypothetical/sequential | Yes ✓ | Yes ✓ | 着いたら電話して | | なら | Contextual | Yes ✓ | Sometimes | 東京なら知ってる |"
+      },
+      {
+        "level": 2,
+        "heading": "Basic Formation",
+        "content": "",
+        "children": [
+          {
+            "level": 3,
+            "heading": "と Formation",
+            "content": "Verb dictionary form + と い-adjective (remove い) + いと な-adjective/noun + だと 押すと開く \"When (you) press, it opens\""
+          },
+          {
+            "level": 3,
+            "heading": "ば Formation",
+            "content": "Verb: Change final う sound to え + ば い-adjective: Remove い + ければ な-adjective: なら + ば Noun: なら + ば 読む → 読めば 高い → 高ければ"
+          },
+          {
+            "level": 3,
+            "heading": "たら Formation",
+            "content": "Use た-form + ら 食べた → 食べたら 行った → 行ったら 高かった → 高かったら"
+          },
+          {
+            "level": 3,
+            "heading": "なら Formation",
+            "content": "Verb dictionary/plain form + なら い-adjective plain form + なら な-adjective + なら Noun + なら 行くなら 安いなら"
+          }
+        ]
+      },
+      {
+        "level": 2,
+        "heading": "When to Use Which",
+        "content": "",
+        "children": [
+          {
+            "level": 3,
+            "heading": "Use と when:",
+            "content": "✓ Natural/automatic consequences ✓ Scientific facts ✓ Habitual actions ✓ General truths 水を熱すると、沸騰する \"When you heat water, it boils\" (always)"
+          },
+          {
+            "level": 3,
+            "heading": "Use ば when:",
+            "content": "✓ General conditions ✓ Requirements/prerequisites ✓ Hypothetical situations (formal) ✓ Giving conditions for something 勉強すれば、合格できる \"If you study, you can pass\" (general condition)"
+          },
+          {
+            "level": 3,
+            "heading": "Use たら when:",
+            "content": "✓ Hypothetical future situations ✓ Sequential actions (when/after) ✓ Discovery/unexpected situations ✓ Casual conditions ✓ Most versatile! 明日晴れたら、行こう \"If it's sunny tomorrow, let's go\" (hypothetical)"
+          },
+          {
+            "level": 3,
+            "heading": "Use なら when:",
+            "content": "✓ Based on given information ✓ Giving advice/suggestions ✓ Topical conditions ✓ \"If that's the case...\" 日本語を勉強するなら、毎日練習したほうがいい \"If you're studying Japanese, you should practice daily\" (advice)"
+          }
+        ]
+      },
+      {
+        "level": 2,
+        "heading": "Common Patterns",
+        "content": "",
+        "children": [
+          {
+            "level": 3,
+            "heading": "と - Automatic results",
+            "content": "右に曲がると、駅がある \"When you turn right, there's a station\" ここを押すと、電気がつく \"When you press here, the light turns on\" Cannot use commands after と!"
+          },
+          {
+            "level": 3,
+            "heading": "ば - Conditions for success",
+            "content": "早く起きれば、間に合う \"If you wake up early, you'll make it in time\" もっと練習すれば、上手になる \"If you practice more, you'll improve\" Can use commands after ば"
+          },
+          {
+            "level": 3,
+            "heading": "たら - When/after/if",
+            "content": "駅に着いたら、電話してください \"When you arrive at the station, please call\" お金があったら、買いたい \"If I had money, I'd want to buy it\" Most flexible conditional"
+          },
+          {
+            "level": 3,
+            "heading": "なら - If that's the case",
+            "content": "A: 疲れた \"I'm tired\" B: 疲れたなら、休んだら？ \"If you're tired, how about resting?\" Based on what was just said"
+          }
+        ]
+      },
+      {
+        "level": 2,
+        "heading": "Key Differences",
+        "content": "",
+        "children": [
+          {
+            "level": 3,
+            "heading": "Commands/Requests After Conditional",
+            "content": "と: ❌ Cannot use 春になると、花見に行って (unnatural) ば: ✓ Can use 暇なら、手伝って \"If you're free, help me\" たら: ✓ Can use 着いたら、連絡して \"When you arrive, contact me\" なら: ✓ Can use 行くなら、気をつけて \"If you're going, be careful\""
+          },
+          {
+            "level": 3,
+            "heading": "Past Tense in Result",
+            "content": "と: ✓ Natural 家に帰ると、猫が寝ていた \"When I got home, the cat was sleeping\" ば: ❌ Cannot use past 家に帰れば、猫が寝ていた (wrong) たら: ✓ Can use 家に帰ったら、猫が寝ていた \"When I got home, the cat was sleeping\" なら: Sometimes"
+          }
+        ]
+      },
+      {
+        "level": 2,
+        "heading": "Choosing the Right Conditional",
+        "content": "",
+        "children": [
+          {
+            "level": 3,
+            "heading": "Decision Tree",
+            "content": "1. Is it automatic/natural? → Use と (ボタンを押すと開く) 2. Is it a general condition/requirement? → Use ば (頑張れば成功する) 3. Is it hypothetical or after completion? → Use たら (雨が降ったら中止) 4. Is it based on context/giving advice? → Use なら (東京なら知ってる) 5. When in doubt → Use たら (most versatile)"
+          }
+        ]
+      },
+      {
+        "level": 2,
+        "heading": "Common Mistakes",
+        "content": "",
+        "children": [
+          {
+            "level": 3,
+            "heading": "Mistake 1: Using と with commands",
+            "content": "Wrong: 暇だと、手伝って ❌ Right: 暇なら、手伝って ✓ Or: 暇だったら、手伝って ✓ \"If you're free, help me\""
+          },
+          {
+            "level": 3,
+            "heading": "Mistake 2: Using ば with past results",
+            "content": "Wrong: 行けば、いなかった ❌ Right: 行ったら、いなかった ✓ \"When I went, he wasn't there\""
+          },
+          {
+            "level": 3,
+            "heading": "Mistake 3: Confusing なら with other forms",
+            "content": "Wrong: 明日雨なら、中止 (sounds off) Better: 明日雨だったら、中止 ✓ \"If it rains tomorrow, cancelled\" なら is better for context-based conditions"
+          }
+        ]
+      },
+      {
+        "level": 2,
+        "heading": "Overlapping Uses",
+        "content": "",
+        "children": [
+          {
+            "level": 3,
+            "heading": "Some situations accept multiple forms",
+            "content": "安いと買う (automatic tendency) \"When it's cheap, I buy it\" 安ければ買う (general condition) \"If it's cheap, I'll buy it\" 安かったら買う (hypothetical) \"If it's cheap, I'll buy it\" 安いなら買う (based on information) \"If it's cheap, I'll buy it\" Nuance differs slightly!"
+          }
+        ]
+      },
+      {
+        "level": 2,
+        "heading": "Real-World Examples",
+        "content": "",
+        "children": [
+          {
+            "level": 3,
+            "heading": "Directions (と)",
+            "content": "まっすぐ行くと、コンビニがある \"When you go straight, there's a convenience store\" Natural consequence"
+          },
+          {
+            "level": 3,
+            "heading": "Requirements (ば)",
+            "content": "会員になれば、割引がもらえます \"If you become a member, you get a discount\" Condition for benefit"
+          },
+          {
+            "level": 3,
+            "heading": "Plans (たら)",
+            "content": "週末晴れたら、ピクニックに行こう \"If it's sunny this weekend, let's go on a picnic\" Hypothetical future"
+          },
+          {
+            "level": 3,
+            "heading": "Advice (なら)",
+            "content": "日本に行くなら、春がいいよ \"If you're going to Japan, spring is good\" Based on given information"
+          }
+        ]
+      },
+      {
+        "level": 2,
+        "heading": "Summary",
+        "content": "",
+        "children": [
+          {
+            "level": 3,
+            "heading": "Quick Reference",
+            "content": "**と**: \"When X, always Y\" → Natural, automatic, habitual **ば**: \"If X, then Y (generally)\" → General conditions, requirements **たら**: \"If/when X, then Y\" → Most flexible, hypothetical, sequential **なら**: \"If it's X, then Y\" → Contextual, advice, topical When unsure: Use たら!"
+          }
+        ]
+      },
+      {
+        "level": 2,
+        "heading": "Practice Recognition",
+        "content": "",
+        "children": [
+          {
+            "level": 3,
+            "heading": "Identify the best conditional",
+            "content": "1. \"When spring comes, flowers bloom\" → と (natural) 2. \"If you study hard, you'll pass\" → ば (general condition) 3. \"If it rains tomorrow, I won't go\" → たら (hypothetical future) 4. \"If you're going to Tokyo, try this restaurant\" → なら (advice based on context)"
+          }
+        ]
+      },
+      {
+        "level": 2,
+        "heading": "Related Grammar Points",
+        "content": "と conditional - Natural consequence ば conditional - General condition たら conditional - Hypothetical/sequential なら conditional - Contextual Comparing conditionals - Detailed comparison 〜ても - Even if",
+        "children": [
+          {
+            "level": 3,
+            "heading": "Company",
+            "content": "About Pricing Blog Contact"
+          },
+          {
+            "level": 3,
+            "heading": "Legal",
+            "content": "Privacy Policy Terms of Service Cookie Policy"
+          }
+        ]
+      }
+    ]
+  },
+  "metadata": {
+    "extracted_at": "2026-01-01T22:19:28.299328600Z",
+    "duration_ms": 5,
+    "extractors_matched": [
+      "metadata",
+      "examples",
+      "sections"
+    ],
+    "extractors_failed": [
+      "vocab_tables",
+      "definitions",
+      "content_blocks"
+    ]
+  }
+}

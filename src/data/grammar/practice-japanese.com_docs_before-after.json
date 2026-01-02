@@ -1,0 +1,350 @@
+{
+  "config_name": "Language Learning Extractor",
+  "url": "https://practice-japanese.com/docs/before-after/",
+  "data": {
+    "examples": [
+      {
+        "sentence": "Temporal: 学校の前に勉強する \"study before school\""
+      },
+      {
+        "sentence": "Spatial: 学校の前に車がある \"there's a car in front of the school\""
+      },
+      {
+        "sentence": "〜てから (te-kara) - After doing"
+      },
+      {
+        "sentence": "Time Words - Time expressions"
+      },
+      {
+        "sentence": "Duration - Time periods"
+      },
+      {
+        "sentence": "Sequential Actions - Ordering events"
+      },
+      {
+        "sentence": "While/During - Simultaneous actions"
+      },
+      {
+        "sentence": "Te-form - Connecting actions"
+      },
+      {
+        "sentence": "About"
+      },
+      {
+        "sentence": "Pricing"
+      },
+      {
+        "sentence": "Blog"
+      },
+      {
+        "sentence": "Contact"
+      },
+      {
+        "sentence": "Privacy Policy"
+      },
+      {
+        "sentence": "Terms of Service"
+      },
+      {
+        "sentence": "Cookie Policy"
+      }
+    ],
+    "sections": [
+      {
+        "level": 2,
+        "heading": "Overview",
+        "content": "Japanese uses 前 (まえ - mae) for \"before\" and 後 (あと - ato) for \"after\" to express temporal relationships between events or actions.\n\n食べる前 \"before eating\" 食べた後 \"after eating\""
+      },
+      {
+        "level": 2,
+        "heading": "前 (mae) - Before",
+        "content": "",
+        "children": [
+          {
+            "level": 3,
+            "heading": "Formation with Verbs",
+            "content": "Use the dictionary form (present tense) before 前:\n\nVerb (dictionary form) + 前 食べる前 - before eating 行く前 - before going 寝る前 - before sleeping"
+          },
+          {
+            "level": 3,
+            "heading": "Formation with Nouns",
+            "content": "Noun + の + 前 食事の前 - before the meal 会議の前 - before the meeting 学校の前 - before school"
+          },
+          {
+            "level": 3,
+            "heading": "Common Patterns with 前",
+            "content": "寝る前に歯を磨く \"I brush my teeth before sleeping\" 出かける前に電話した \"I called before going out\" テストの前に勉強する \"I study before the test\" 食事の前に手を洗う \"I wash my hands before meals\""
+          }
+        ]
+      },
+      {
+        "level": 2,
+        "heading": "後 (ato) - After",
+        "content": "",
+        "children": [
+          {
+            "level": 3,
+            "heading": "Formation with Verbs",
+            "content": "Use the た form (past tense) before 後:\n\nVerb (た form) + 後 食べた後 - after eating 行った後 - after going 見た後 - after seeing"
+          },
+          {
+            "level": 3,
+            "heading": "Formation with Nouns",
+            "content": "Noun + の + 後 食事の後 - after the meal 会議の後 - after the meeting 学校の後 - after school"
+          },
+          {
+            "level": 3,
+            "heading": "Common Patterns with 後",
+            "content": "食べた後、歯を磨く \"After eating, I brush my teeth\" 帰った後、電話してください \"Please call after you get home\" 映画を見た後、レストランに行った \"After watching the movie, we went to a restaurant\" 会議の後で話しましょう \"Let's talk after the meeting\""
+          }
+        ]
+      },
+      {
+        "level": 2,
+        "heading": "Important Differences",
+        "content": "",
+        "children": [
+          {
+            "level": 3,
+            "heading": "Verb Forms",
+            "content": "前: Dictionary form (present) 食べる前 - before eating 後: た form (past) 食べた後 - after eating\n\nThis is consistent - even for future actions:\n\n明日行く前に電話する \"I'll call before going tomorrow\" 明日行った後で会おう \"Let's meet after going tomorrow\""
+          }
+        ]
+      },
+      {
+        "level": 2,
+        "heading": "Particles: に vs で",
+        "content": "",
+        "children": [
+          {
+            "level": 3,
+            "heading": "に (more common)",
+            "content": "寝る前に \"before sleeping\" 食べた後に \"after eating\""
+          },
+          {
+            "level": 3,
+            "heading": "で (also acceptable)",
+            "content": "寝る前で \"before sleeping\" 食べた後で \"after eating\"\n\nNote: Both are correct, but に is more common. で can emphasize the timing more."
+          }
+        ]
+      },
+      {
+        "level": 2,
+        "heading": "Time Expressions",
+        "content": "",
+        "children": [
+          {
+            "level": 3,
+            "heading": "[Time] + 前",
+            "content": "3時間前 - 3 hours ago 2日前 - 2 days ago 1週間前 - 1 week ago 1年前 - 1 year ago 1時間前に電話した \"I called 1 hour ago\" 2日前に会った \"I met (them) 2 days ago\""
+          },
+          {
+            "level": 3,
+            "heading": "[Time] + 後",
+            "content": "3時間後 - 3 hours later 2日後 - 2 days later 1週間後 - 1 week later 1年後 - 1 year later 1時間後に来る \"I'll come 1 hour later\" 2日後に会いましょう \"Let's meet 2 days later\""
+          }
+        ]
+      },
+      {
+        "level": 2,
+        "heading": "Before/After Places",
+        "content": "",
+        "children": [
+          {
+            "level": 3,
+            "heading": "〜の前 (in front of)",
+            "content": "駅の前 - in front of the station 家の前 - in front of the house 学校の前 - in front of the school 駅の前で待っている \"I'm waiting in front of the station\"\n\nContext determines meaning:\n\nTemporal: 学校の前に勉強する \"study before school\" Spatial: 学校の前に車がある \"there's a car in front of the school\""
+          }
+        ]
+      },
+      {
+        "level": 2,
+        "heading": "Common Conversations",
+        "content": "",
+        "children": [
+          {
+            "level": 3,
+            "heading": "Example 1: Daily Routine",
+            "content": "A: いつ歯を磨きますか？ \"When do you brush your teeth?\" B: 寝る前と、起きた後に磨きます \"I brush before sleeping and after waking up\" A: 朝ごはんの前？後？ \"Before or after breakfast?\" B: 朝ごはんの後です \"After breakfast\""
+          },
+          {
+            "level": 3,
+            "heading": "Example 2: Meeting Plans",
+            "content": "A: いつ会いましょうか？ \"When shall we meet?\" B: 会議の後はどうですか？ \"How about after the meeting?\" A: 何時に終わりますか？ \"What time does it end?\" B: 3時に終わります。3時半に会いましょう \"It ends at 3. Let's meet at 3:30\""
+          },
+          {
+            "level": 3,
+            "heading": "Example 3: Past Events",
+            "content": "A: いつ日本に来ましたか？ \"When did you come to Japan?\" B: 1年前に来ました \"I came 1 year ago\" A: 来る前に日本語を勉強しましたか？ \"Did you study Japanese before coming?\" B: はい、2年間勉強しました \"Yes, I studied for 2 years\""
+          }
+        ]
+      },
+      {
+        "level": 2,
+        "heading": "Common Mistakes",
+        "content": "",
+        "children": [
+          {
+            "level": 3,
+            "heading": "Mistake 1: Wrong verb form",
+            "content": "Wrong: 食べた前 ❌ Right: 食べる前 ✓ \"before eating\" Wrong: 食べる後 ❌ Right: 食べた後 ✓ \"after eating\""
+          },
+          {
+            "level": 3,
+            "heading": "Mistake 2: Using wrong form for future",
+            "content": "Wrong: 明日行った前 ❌ Right: 明日行く前 ✓ \"before going tomorrow\" Note: Use dictionary form for 前 even for future"
+          },
+          {
+            "level": 3,
+            "heading": "Mistake 3: Confusing spatial and temporal",
+            "content": "学校の前に勉強する \"study before school\" (temporal) 学校の前に車がある \"there's a car in front of school\" (spatial) Context makes the meaning clear!"
+          }
+        ]
+      },
+      {
+        "level": 2,
+        "heading": "Special Expressions",
+        "content": "",
+        "children": [
+          {
+            "level": 3,
+            "heading": "〜する前に (before doing)",
+            "content": "出かける前に \"before going out\" 寝る前に \"before sleeping\" 食べる前に \"before eating\""
+          },
+          {
+            "level": 3,
+            "heading": "〜した後で (after doing)",
+            "content": "帰った後で \"after returning\" 見た後で \"after seeing\" 聞いた後で \"after hearing\""
+          },
+          {
+            "level": 3,
+            "heading": "〜の前に (before [noun])",
+            "content": "試験の前に \"before the exam\" パーティーの前に \"before the party\" 出発の前に \"before departure\""
+          },
+          {
+            "level": 3,
+            "heading": "〜の後で (after [noun])",
+            "content": "授業の後で \"after class\" 仕事の後で \"after work\" 食事の後で \"after the meal\""
+          }
+        ]
+      },
+      {
+        "level": 2,
+        "heading": "Comparing Before and After",
+        "content": "",
+        "children": [
+          {
+            "level": 3,
+            "heading": "Sequential Actions",
+            "content": "Before then after: 勉強する前に準備して、勉強した後で休む \"I prepare before studying, and rest after studying\""
+          },
+          {
+            "level": 3,
+            "heading": "Time Sequence",
+            "content": "1週間前に予約して、1週間後に行く \"I'll make a reservation 1 week before and go 1 week later\""
+          }
+        ]
+      },
+      {
+        "level": 2,
+        "heading": "Relative Time References",
+        "content": "",
+        "children": [
+          {
+            "level": 3,
+            "heading": "前 (ago)",
+            "content": "Looking back from now:\n\n2日前 - 2 days ago (from now) 1時間前 - 1 hour ago 昨日の3時間前 - 3 hours before yesterday"
+          },
+          {
+            "level": 3,
+            "heading": "後 (later)",
+            "content": "Looking forward from a point:\n\n2日後 - 2 days later (from a reference point) 1時間後 - 1 hour later 明日の3時間後 - 3 hours after tomorrow"
+          }
+        ]
+      },
+      {
+        "level": 2,
+        "heading": "Politeness Levels",
+        "content": "",
+        "children": [
+          {
+            "level": 3,
+            "heading": "Casual",
+            "content": "食べる前 \"before eating\" 食べた後 \"after eating\""
+          },
+          {
+            "level": 3,
+            "heading": "Polite",
+            "content": "食べる前に \"before eating\" 食べた後で \"after eating\""
+          }
+        ]
+      },
+      {
+        "level": 2,
+        "heading": "Practice Sentences",
+        "content": "",
+        "children": [
+          {
+            "level": 3,
+            "heading": "Before (前)",
+            "content": "寝る前に歯を磨く \"I brush my teeth before sleeping\" 出かける前に電話する \"I'll call before going out\" 食事の前に手を洗う \"I wash my hands before meals\" テストの前に勉強した \"I studied before the test\""
+          },
+          {
+            "level": 3,
+            "heading": "After (後)",
+            "content": "食べた後、歯を磨く \"I brush my teeth after eating\" 映画を見た後、レストランに行った \"After watching the movie, we went to a restaurant\" 帰った後で電話してください \"Please call after you get home\" 授業の後で会いましょう \"Let's meet after class\""
+          },
+          {
+            "level": 3,
+            "heading": "Time Ago (前)",
+            "content": "3時間前に電話した \"I called 3 hours ago\" 1週間前に日本に来た \"I came to Japan 1 week ago\" 2日前に会った \"I met (them) 2 days ago\""
+          },
+          {
+            "level": 3,
+            "heading": "Time Later (後)",
+            "content": "2時間後に来る \"I'll come 2 hours later\" 3日後に出発する \"I'll depart 3 days later\" 1年後に結婚した \"I got married 1 year later\""
+          },
+          {
+            "level": 3,
+            "heading": "Sequential Actions",
+            "content": "朝起きた後、シャワーを浴びる前に運動する \"After waking up in the morning, I exercise before taking a shower\" 勉強する前に準備して、勉強した後で休む \"I prepare before studying and rest after studying\""
+          }
+        ]
+      },
+      {
+        "level": 2,
+        "heading": "Related Grammar Points",
+        "content": "〜てから (te-kara) - After doing Time Words - Time expressions Duration - Time periods Sequential Actions - Ordering events While/During - Simultaneous actions Te-form - Connecting actions",
+        "children": [
+          {
+            "level": 3,
+            "heading": "Company",
+            "content": "About Pricing Blog Contact"
+          },
+          {
+            "level": 3,
+            "heading": "Legal",
+            "content": "Privacy Policy Terms of Service Cookie Policy"
+          }
+        ]
+      }
+    ],
+    "metadata": {
+      "title": "Before/After (前、後)"
+    }
+  },
+  "metadata": {
+    "extracted_at": "2026-01-01T22:19:27.723869600Z",
+    "duration_ms": 4,
+    "extractors_matched": [
+      "metadata",
+      "examples",
+      "sections"
+    ],
+    "extractors_failed": [
+      "vocab_tables",
+      "definitions",
+      "content_blocks"
+    ]
+  }
+}

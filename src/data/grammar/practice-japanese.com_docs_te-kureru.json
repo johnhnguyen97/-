@@ -1,0 +1,436 @@
+{
+  "config_name": "Language Learning Extractor",
+  "url": "https://practice-japanese.com/docs/te-kureru/",
+  "data": {
+    "metadata": {
+      "title": "〜てくれる (Someone Does for Me)"
+    },
+    "examples": [
+      {
+        "sentence": "Someone else is doing the action"
+      },
+      {
+        "sentence": "Action benefits the speaker/in-group"
+      },
+      {
+        "sentence": "Direction: from others to speaker"
+      },
+      {
+        "sentence": "Expresses gratitude or appreciation"
+      },
+      {
+        "sentence": "〜てあげる (te-ageru) - I do for others"
+      },
+      {
+        "sentence": "〜てもらう (te-morau) - I have someone do"
+      },
+      {
+        "sentence": "Giving & Receiving - Verbs of giving"
+      },
+      {
+        "sentence": "くれる/くださる - Receiving verbs"
+      },
+      {
+        "sentence": "Direction of Actions - Perspective in Japanese"
+      },
+      {
+        "sentence": "Te-form Conjugation - Basic te-form"
+      },
+      {
+        "sentence": "About"
+      },
+      {
+        "sentence": "Pricing"
+      },
+      {
+        "sentence": "Blog"
+      },
+      {
+        "sentence": "Contact"
+      },
+      {
+        "sentence": "Privacy Policy"
+      },
+      {
+        "sentence": "Terms of Service"
+      },
+      {
+        "sentence": "Cookie Policy"
+      }
+    ],
+    "sections": [
+      {
+        "level": 2,
+        "heading": "What is 〜てくれる (te-kureru)?",
+        "content": "〜てくれる means \"someone does something for me/us\" with a nuance of gratitude. It expresses that another person's action benefits the speaker or speaker's in-group.\n\n[Verb te-form] + くれる 教えてくれる \"teach (for me)\" 手伝ってくれる \"help (for me)\""
+      },
+      {
+        "level": 2,
+        "heading": "Formation",
+        "content": "",
+        "children": [
+          {
+            "level": 3,
+            "heading": "Basic Pattern",
+            "content": "Verb (te-form) + くれる Plain: 〜てくれる Polite: 〜てくれます 作ってくれる / 作ってくれます \"make (for me)\" 送ってくれる / 送ってくれます \"send/take (for me)\""
+          }
+        ]
+      },
+      {
+        "level": 2,
+        "heading": "Core Meaning",
+        "content": "",
+        "children": [
+          {
+            "level": 3,
+            "heading": "Receiving Actions",
+            "content": "くれる (to give to me) + action = someone doing an action for my benefit.\n\n友達が本を貸してくれた \"My friend lent me a book\" 母が料理を作ってくれた \"My mother cooked for me\" 先生が教えてくれた \"The teacher taught me\""
+          }
+        ]
+      },
+      {
+        "level": 2,
+        "heading": "Perspective and Direction",
+        "content": "",
+        "children": [
+          {
+            "level": 3,
+            "heading": "Receiving Actions Diagram",
+            "content": "他の人 (giver) → 私/We (receiver) てくれる \"They do something for me\""
+          },
+          {
+            "level": 3,
+            "heading": "Key Points",
+            "content": "Someone else is doing the action Action benefits the speaker/in-group Direction: from others to speaker Expresses gratitude or appreciation\n\n友達が手伝ってくれた \"My friend helped me\" (I'm grateful) 彼が送ってくれた \"He took/sent me\" (I appreciate it)"
+          }
+        ]
+      },
+      {
+        "level": 2,
+        "heading": "Politeness Variation",
+        "content": "",
+        "children": [
+          {
+            "level": 3,
+            "heading": "くれる (Neutral)",
+            "content": "教えてくれる \"(He/She) teaches me\""
+          },
+          {
+            "level": 3,
+            "heading": "くださる (Honorific)",
+            "content": "Used when someone of higher status does something for you.\n\n先生が説明してくださった \"The teacher explained (for me - honorific)\" 社長が会ってくださった \"The president met with me (honorific)\""
+          }
+        ]
+      },
+      {
+        "level": 2,
+        "heading": "Common Usage Patterns",
+        "content": "",
+        "children": [
+          {
+            "level": 3,
+            "heading": "Expressing Gratitude",
+            "content": "手伝ってくれてありがとう \"Thank you for helping me\" 教えてくれてありがとうございます \"Thank you for teaching me\" 来てくれてうれしい \"I'm happy you came\""
+          },
+          {
+            "level": 3,
+            "heading": "Past Actions",
+            "content": "友達が本を貸してくれた \"My friend lent me a book\" 母が駅まで送ってくれた \"My mother took me to the station\" 彼が宿題を手伝ってくれた \"He helped me with homework\""
+          },
+          {
+            "level": 3,
+            "heading": "Requests with てくれる",
+            "content": "手伝ってくれる？ \"Will you help me?\" 教えてくれますか？ \"Will you teach me?\" 待っててくれる？ \"Will you wait for me?\""
+          }
+        ]
+      },
+      {
+        "level": 2,
+        "heading": "Particle Usage",
+        "content": "",
+        "children": [
+          {
+            "level": 3,
+            "heading": "が Marks the Giver",
+            "content": "The person doing the action is marked with が (or は for topic/contrast).\n\n友達が教えてくれた \"My friend taught me\" 田中さんが手伝ってくれます \"Tanaka will help me\" 母が作ってくれた \"My mother made it for me\""
+          },
+          {
+            "level": 3,
+            "heading": "に Can Mark the Receiver (Optional)",
+            "content": "私に教えてくれた \"(He/She) taught me\" 弟に本を買ってくれた \"(Someone) bought a book for my younger brother\""
+          }
+        ]
+      },
+      {
+        "level": 2,
+        "heading": "Common Verbs with てくれる",
+        "content": "",
+        "children": [
+          {
+            "level": 3,
+            "heading": "Helping Actions",
+            "content": "手伝ってくれる - help (for me) 助けてくれる - save/rescue (for me) 教えてくれる - teach (for me) 説明してくれる - explain (for me)"
+          },
+          {
+            "level": 3,
+            "heading": "Doing Things",
+            "content": "作ってくれる - make (for me) 買ってくれる - buy (for me) 送ってくれる - take/send (for me) 見せてくれる - show (for me) 貸してくれる - lend (for me)"
+          },
+          {
+            "level": 3,
+            "heading": "Communication",
+            "content": "話してくれる - tell (for me) 教えてくれる - tell/teach (for me) 聞いてくれる - listen (for me) 読んでくれる - read (for me)"
+          }
+        ]
+      },
+      {
+        "level": 2,
+        "heading": "Comparison with Similar Patterns",
+        "content": "",
+        "children": [
+          {
+            "level": 3,
+            "heading": "てくれる vs てあげる vs てもらう",
+            "content": "てくれる: Others do for me 友達が教えてくれた \"My friend taught me\" てあげる: I do for others 私が友達に教えてあげた \"I taught my friend\" てもらう: I have someone do 私は友達に教えてもらった \"I had my friend teach me\""
+          }
+        ]
+      },
+      {
+        "level": 2,
+        "heading": "Common Conversations",
+        "content": "",
+        "children": [
+          {
+            "level": 3,
+            "heading": "Example 1: Thanking Someone",
+            "content": "A: 宿題、手伝ってあげようか？ \"Shall I help with your homework?\" B: ほんと？ありがとう！ \"Really? Thanks!\" A: いいよ、何でも聞いて \"Sure, ask me anything\" B: 手伝ってくれてありがとう \"Thanks for helping me\""
+          },
+          {
+            "level": 3,
+            "heading": "Example 2: Talking About Past Help",
+            "content": "A: どうやって日本語を勉強したの？ \"How did you study Japanese?\" B: 友達が毎日教えてくれたんだ \"My friend taught me every day\" A: いい友達だね \"What a good friend\" B: うん、本当に感謝してる \"Yeah, I'm really grateful\""
+          },
+          {
+            "level": 3,
+            "heading": "Example 3: Making a Request",
+            "content": "A: ちょっと手伝ってくれる？ \"Can you help me a bit?\" B: いいよ、何？ \"Sure, what?\" A: この荷物、持ってくれる？ \"Can you carry this luggage?\" B: うん、任せて \"Yeah, leave it to me\""
+          }
+        ]
+      },
+      {
+        "level": 2,
+        "heading": "Common Mistakes",
+        "content": "",
+        "children": [
+          {
+            "level": 3,
+            "heading": "Mistake 1: Wrong direction",
+            "content": "Context: I helped my friend Wrong: 友達が手伝ってくれた ❌ Right: 友達を手伝った/手伝ってあげた ✓ \"I helped my friend\" Correct usage: 友達が（私を）手伝ってくれた ✓ \"My friend helped me\""
+          },
+          {
+            "level": 3,
+            "heading": "Mistake 2: Confusing subject",
+            "content": "Wrong: 私が教えてくれた ❌ Right: 私が教えた/教えてあげた ✓ \"I taught\" Or: Right: 先生が教えてくれた ✓ \"The teacher taught me\""
+          },
+          {
+            "level": 3,
+            "heading": "Mistake 3: Using with yourself as subject",
+            "content": "Wrong: 私が友達に本を買ってくれた ❌ Right: 私が友達に本を買ってあげた ✓ \"I bought a book for my friend\" Or: Right: 友達が私に本を買ってくれた ✓ \"My friend bought a book for me\""
+          }
+        ]
+      },
+      {
+        "level": 2,
+        "heading": "Expressing Gratitude with てくれる",
+        "content": "",
+        "children": [
+          {
+            "level": 3,
+            "heading": "〜てくれてありがとう",
+            "content": "手伝ってくれてありがとう \"Thank you for helping me\" 来てくれてありがとう \"Thank you for coming\" 教えてくれてありがとうございます \"Thank you for teaching me\" 待っててくれてありがとう \"Thank you for waiting\""
+          },
+          {
+            "level": 3,
+            "heading": "〜てくれてうれしい",
+            "content": "来てくれてうれしい \"I'm happy you came\" 手伝ってくれてうれしかった \"I was happy you helped\" 覚えててくれてうれしい \"I'm happy you remembered\""
+          },
+          {
+            "level": 3,
+            "heading": "〜てくれて助かった",
+            "content": "手伝ってくれて助かった \"You helped me out by helping\" 教えてくれて助かりました \"You really helped me by teaching\""
+          }
+        ]
+      },
+      {
+        "level": 2,
+        "heading": "Special Expressions",
+        "content": "",
+        "children": [
+          {
+            "level": 3,
+            "heading": "〜てくれる？ (Will you...?)",
+            "content": "Casual request.\n\n手伝ってくれる？ \"Will you help me?\" 待っててくれる？ \"Will you wait?\" 教えてくれる？ \"Will you teach me?\""
+          },
+          {
+            "level": 3,
+            "heading": "〜てくれない？ (Won't you...?)",
+            "content": "Another way to make requests.\n\n手伝ってくれない？ \"Won't you help me?\" ちょっと見てくれない？ \"Won't you take a look?\""
+          },
+          {
+            "level": 3,
+            "heading": "〜てくれますか？ (Polite request)",
+            "content": "手伝ってくれますか？ \"Will you help me?\" 教えてくれますか？ \"Will you teach me?\" 説明してくださいますか？ (honorific) \"Will you explain for me?\""
+          }
+        ]
+      },
+      {
+        "level": 2,
+        "heading": "With Different Subjects",
+        "content": "",
+        "children": [
+          {
+            "level": 3,
+            "heading": "Friends and Family",
+            "content": "友達が手伝ってくれた \"My friend helped me\" 母が料理を作ってくれる \"My mother cooks for me\" 兄が教えてくれた \"My older brother taught me\""
+          },
+          {
+            "level": 3,
+            "heading": "Teachers and Superiors (use くださる)",
+            "content": "先生が説明してくださった \"The teacher explained (for me)\" 社長が時間を作ってくださった \"The president made time (for me)\""
+          },
+          {
+            "level": 3,
+            "heading": "Strangers Who Helped",
+            "content": "誰かが道を教えてくれた \"Someone told me the way\" 隣の人が助けてくれた \"The person next to me helped\""
+          }
+        ]
+      },
+      {
+        "level": 2,
+        "heading": "Negative Form",
+        "content": "",
+        "children": [
+          {
+            "level": 3,
+            "heading": "〜てくれない",
+            "content": "誰も手伝ってくれない \"Nobody helps me\" 教えてくれなかった \"(He/She) didn't teach me\" 待っててくれない？ \"Won't you wait for me?\""
+          }
+        ]
+      },
+      {
+        "level": 2,
+        "heading": "Conditional Forms",
+        "content": "",
+        "children": [
+          {
+            "level": 3,
+            "heading": "〜てくれたら (if someone does for me)",
+            "content": "手伝ってくれたら、うれしい \"I'd be happy if you helped me\" 教えてくれたら、ありがたい \"I'd be grateful if you taught me\""
+          },
+          {
+            "level": 3,
+            "heading": "〜てくれれば (if someone would do)",
+            "content": "手伝ってくれれば、助かる \"It would help if you helped me\" 来てくれれば、楽しい \"It would be fun if you came\""
+          }
+        ]
+      },
+      {
+        "level": 2,
+        "heading": "Politeness Levels",
+        "content": "",
+        "children": [
+          {
+            "level": 3,
+            "heading": "Casual (くれる)",
+            "content": "教えてくれる？ \"Will you teach me?\" 手伝ってくれてありがとう \"Thanks for helping\""
+          },
+          {
+            "level": 3,
+            "heading": "Polite (くれます)",
+            "content": "教えてくれますか？ \"Will you teach me?\" 手伝ってくれてありがとうございます \"Thank you for helping\""
+          },
+          {
+            "level": 3,
+            "heading": "Honorific (くださる)",
+            "content": "教えてくださいますか？ \"Will you teach me? (honorific)\" 説明してくださってありがとうございます \"Thank you for explaining (honorific)\""
+          }
+        ]
+      },
+      {
+        "level": 2,
+        "heading": "Cultural Notes",
+        "content": "",
+        "children": [
+          {
+            "level": 3,
+            "heading": "Expressing Gratitude",
+            "content": "Japanese culture highly values expressing gratitude. Using てくれる naturally conveys appreciation for what someone did for you.\n\n手伝ってくれてありがとう \"Thank you for helping me\" This is more natural than: 手伝いました、ありがとう \"You helped, thank you\""
+          },
+          {
+            "level": 3,
+            "heading": "In-group Benefit",
+            "content": "てくれる is also used when someone does something for your in-group (family, company, etc.).\n\n田中さんが会社を手伝ってくれた \"Tanaka helped our company\" 友達が妹に本を貸してくれた \"My friend lent a book to my younger sister\""
+          }
+        ]
+      },
+      {
+        "level": 2,
+        "heading": "Practice Sentences",
+        "content": "",
+        "children": [
+          {
+            "level": 3,
+            "heading": "Basic Usage",
+            "content": "友達が教えてくれた \"My friend taught me\" 母が料理を作ってくれる \"My mother cooks for me\" 彼が駅まで送ってくれた \"He took me to the station\" 誰が助けてくれましたか？ \"Who helped you?\""
+          },
+          {
+            "level": 3,
+            "heading": "With Thanks",
+            "content": "手伝ってくれてありがとう \"Thank you for helping me\" 来てくれてうれしい \"I'm happy you came\" 教えてくれて助かった \"You helped me by teaching\" 待っててくれてありがとうございます \"Thank you for waiting\""
+          },
+          {
+            "level": 3,
+            "heading": "Requests",
+            "content": "ちょっと手伝ってくれる？ \"Can you help me a bit?\" この本、貸してくれますか？ \"Will you lend me this book?\" 明日来てくれる？ \"Will you come tomorrow?\" 説明してくださいますか？ \"Will you explain? (honorific)\""
+          },
+          {
+            "level": 3,
+            "heading": "Past Actions",
+            "content": "友達が宿題を手伝ってくれた \"My friend helped me with homework\" 先生が質問に答えてくださった \"The teacher answered my question\" 彼女がプレゼントを買ってくれた \"She bought me a present\""
+          }
+        ]
+      },
+      {
+        "level": 2,
+        "heading": "Related Grammar Points",
+        "content": "〜てあげる (te-ageru) - I do for others 〜てもらう (te-morau) - I have someone do Giving & Receiving - Verbs of giving くれる/くださる - Receiving verbs Direction of Actions - Perspective in Japanese Te-form Conjugation - Basic te-form",
+        "children": [
+          {
+            "level": 3,
+            "heading": "Company",
+            "content": "About Pricing Blog Contact"
+          },
+          {
+            "level": 3,
+            "heading": "Legal",
+            "content": "Privacy Policy Terms of Service Cookie Policy"
+          }
+        ]
+      }
+    ]
+  },
+  "metadata": {
+    "extracted_at": "2026-01-01T22:19:35.779582900Z",
+    "duration_ms": 3,
+    "extractors_matched": [
+      "metadata",
+      "examples",
+      "sections"
+    ],
+    "extractors_failed": [
+      "vocab_tables",
+      "definitions",
+      "content_blocks"
+    ]
+  }
+}

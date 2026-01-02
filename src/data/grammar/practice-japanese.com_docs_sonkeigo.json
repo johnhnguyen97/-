@@ -1,0 +1,257 @@
+{
+  "config_name": "Language Learning Extractor",
+  "url": "https://practice-japanese.com/docs/sonkeigo/",
+  "data": {
+    "sections": [
+      {
+        "level": 2,
+        "heading": "What is Sonkeigo?",
+        "content": "Sonkeigo (尊敬語) is respectful language used to elevate and show respect for others' actions, states, and possessions. You use sonkeigo when talking about what superiors, customers, guests, or elders do. It raises their status by using special honorific verb forms.\n\nRegular: 先生が来る Sonkeigo: 先生がいらっしゃる \"The teacher comes\" (respectful) Regular: 社長が言う Sonkeigo: 社長がおっしゃる \"The president says\" (respectful)"
+      },
+      {
+        "level": 2,
+        "heading": "Basic Formation Methods",
+        "content": "",
+        "children": [
+          {
+            "level": 3,
+            "heading": "Special honorific verbs",
+            "content": "来る → いらっしゃる \"come\" 言う → おっしゃる \"say\" する → なさる \"do\" 食べる → 召し上がる \"eat\" 見る → ご覧になる \"look\" Dedicated respectful forms"
+          },
+          {
+            "level": 3,
+            "heading": "お + Verb stem + になる",
+            "content": "読む → お読みになる \"read\" 書く → お書きになる \"write\" 待つ → お待ちになる \"wait\" Regular pattern Most verbs"
+          },
+          {
+            "level": 3,
+            "heading": "れる/られる (passive form)",
+            "content": "使う → 使われる \"use\" 選ぶ → 選ばれる \"choose\" Less respectful than other forms Still shows respect"
+          }
+        ]
+      },
+      {
+        "level": 2,
+        "heading": "Special Honorific Verbs",
+        "content": "",
+        "children": [
+          {
+            "level": 3,
+            "heading": "Common special forms",
+            "content": "いる → いらっしゃる \"be/exist\" 行く → いらっしゃる \"go\" 来る → いらっしゃる/お見えになる \"come\" 言う → おっしゃる \"say\" する → なさる \"do\" 食べる → 召し上がる \"eat\" 飲む → 召し上がる \"drink\" 見る → ご覧になる \"see/look\" 知る → ご存じ (です) \"know\" くれる → くださる \"give (to me)\" 寝る → お休みになる \"sleep\""
+          }
+        ]
+      },
+      {
+        "level": 2,
+        "heading": "お + Verb Stem + になる",
+        "content": "",
+        "children": [
+          {
+            "level": 3,
+            "heading": "Formation",
+            "content": "読む → 読み → お読みになる \"read\" (respectful) 待つ → 待ち → お待ちになる \"wait\" (respectful) 帰る → 帰り → お帰りになる \"return\" (respectful) Productive pattern"
+          },
+          {
+            "level": 3,
+            "heading": "When to use",
+            "content": "Most action verbs When no special form exists Business contexts 先生がお帰りになりました。 \"The teacher has returned.\""
+          }
+        ]
+      },
+      {
+        "level": 2,
+        "heading": "ご + Sino-Japanese Verb + になる",
+        "content": "",
+        "children": [
+          {
+            "level": 3,
+            "heading": "For Chinese-origin verbs",
+            "content": "説明する → ご説明になる \"explain\" (respectful) 利用する → ご利用になる \"use\" (respectful) 心配する → ご心配になる \"worry\" (respectful) Chinese compounds use ご"
+          }
+        ]
+      },
+      {
+        "level": 2,
+        "heading": "Using Sonkeigo",
+        "content": "",
+        "children": [
+          {
+            "level": 3,
+            "heading": "For subject's actions",
+            "content": "社長が来る → 社長がいらっしゃる \"The president comes\" お客様が食べる → お客様が召し上がる \"The customer eats\" Subject = respected person"
+          },
+          {
+            "level": 3,
+            "heading": "In questions",
+            "content": "もう召し上がりましたか。 \"Have you eaten already?\" いつお帰りになりますか。 \"When will you return?\" Respectful questions"
+          }
+        ]
+      },
+      {
+        "level": 2,
+        "heading": "Common Patterns",
+        "content": "",
+        "children": [
+          {
+            "level": 3,
+            "heading": "いらっしゃる (versatile)",
+            "content": "Be: 社長は会議室にいらっしゃいます \"The president is in the meeting room\" Come: 明日いらっしゃいますか \"Will you come tomorrow?\" Go: どちらへいらっしゃいますか \"Where are you going?\" Multiple meanings"
+          },
+          {
+            "level": 3,
+            "heading": "おっしゃる (say)",
+            "content": "先生が何とおっしゃいましたか。 \"What did the teacher say?\" そうおっしゃっていました。 \"He/She was saying so.\" Common in reporting speech"
+          },
+          {
+            "level": 3,
+            "heading": "召し上がる (eat/drink)",
+            "content": "コーヒーを召し上がりますか。 \"Will you have coffee?\" もう召し上がりましたか。 \"Have you eaten already?\" Both food and drink"
+          }
+        ]
+      },
+      {
+        "level": 2,
+        "heading": "Polite Additions",
+        "content": "",
+        "children": [
+          {
+            "level": 3,
+            "heading": "Combining with です/ます",
+            "content": "いらっしゃいます \"Is here/comes/goes\" (respectful + polite) おっしゃいました \"Said\" (respectful + polite) Layer politeness"
+          }
+        ]
+      },
+      {
+        "level": 2,
+        "heading": "Passive Form as Respectful",
+        "content": "",
+        "children": [
+          {
+            "level": 3,
+            "heading": "れる/られる",
+            "content": "先生が使われる \"The teacher uses\" 社長が選ばれる \"The president chooses\" Less respectful When no other option"
+          }
+        ]
+      },
+      {
+        "level": 2,
+        "heading": "Common Mistakes",
+        "content": "",
+        "children": [
+          {
+            "level": 3,
+            "heading": "Using for yourself",
+            "content": "Wrong: 私がいらっしゃる ⚠️ Correct: 私が行く/参る ✓ \"I go\" Don't elevate yourself Use humble forms"
+          },
+          {
+            "level": 3,
+            "heading": "Over-respectful to peers",
+            "content": "Unnatural: 友達がいらっしゃる ⚠️ Natural: 友達が来る ✓ \"Friend comes\" Match relationship level"
+          },
+          {
+            "level": 3,
+            "heading": "Mixing forms incorrectly",
+            "content": "Wrong: お来になる ⚠️ Correct: いらっしゃる ✓ \"Come\" Use proper special form Not お + になる for 来る"
+          }
+        ]
+      },
+      {
+        "level": 2,
+        "heading": "Negative Forms",
+        "content": "",
+        "children": [
+          {
+            "level": 3,
+            "heading": "Making respectful negative",
+            "content": "いらっしゃらない \"Doesn't come/go/be\" おっしゃらない \"Doesn't say\" 召し上がらない \"Doesn't eat\" Regular negative conjugation"
+          }
+        ]
+      },
+      {
+        "level": 2,
+        "heading": "Past Forms",
+        "content": "",
+        "children": [
+          {
+            "level": 3,
+            "heading": "Respectful past",
+            "content": "いらっしゃった \"Came/went/was\" お読みになった \"Read\" ご覧になった \"Looked\" た-form as usual"
+          }
+        ]
+      },
+      {
+        "level": 2,
+        "heading": "With Time Expressions",
+        "content": "昨日いらっしゃいました \"Came yesterday\" 明日お帰りになります \"Will return tomorrow\" Time + respectful verb"
+      },
+      {
+        "level": 2,
+        "heading": "Practice Sentences",
+        "content": "",
+        "children": [
+          {
+            "level": 3,
+            "heading": "Basic",
+            "content": "先生がいらっしゃいます。 \"The teacher is here/comes.\" 社長がおっしゃいました。 \"The president said.\" お客様が召し上がります。 \"The customer will eat.\" どちらへいらっしゃいますか。 \"Where are you going?\" もうご覧になりましたか。 \"Have you seen it already?\""
+          },
+          {
+            "level": 3,
+            "heading": "Intermediate",
+            "content": "部長は会議室にいらっしゃいます。 3時にお戻りになると おっしゃっていました。 \"The director is in the meeting room. He/She was saying he/she would return at 3 o'clock.\" お客様、お飲み物は何に なさいますか。コーヒーと紅茶が ございます。 \"Customer, what would you like for a beverage? We have coffee and tea.\" 先生がこの本をお読みになりました。 とても面白いとおっしゃって いらっしゃいました。 \"The teacher read this book. He/She was saying it was very interesting.\""
+          },
+          {
+            "level": 3,
+            "heading": "Company",
+            "content": "About Pricing Blog Contact"
+          },
+          {
+            "level": 3,
+            "heading": "Legal",
+            "content": "Privacy Policy Terms of Service Cookie Policy"
+          }
+        ]
+      }
+    ],
+    "examples": [
+      {
+        "sentence": "About"
+      },
+      {
+        "sentence": "Pricing"
+      },
+      {
+        "sentence": "Blog"
+      },
+      {
+        "sentence": "Contact"
+      },
+      {
+        "sentence": "Privacy Policy"
+      },
+      {
+        "sentence": "Terms of Service"
+      },
+      {
+        "sentence": "Cookie Policy"
+      }
+    ],
+    "metadata": {
+      "title": "Respectful (尊敬語 Sonkeigo)"
+    }
+  },
+  "metadata": {
+    "extracted_at": "2026-01-01T22:19:34.686999900Z",
+    "duration_ms": 4,
+    "extractors_matched": [
+      "metadata",
+      "examples",
+      "sections"
+    ],
+    "extractors_failed": [
+      "vocab_tables",
+      "definitions",
+      "content_blocks"
+    ]
+  }
+}

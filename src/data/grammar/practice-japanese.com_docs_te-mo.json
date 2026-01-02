@@ -1,0 +1,369 @@
+{
+  "config_name": "Language Learning Extractor",
+  "url": "https://practice-japanese.com/docs/te-mo/",
+  "data": {
+    "sections": [
+      {
+        "level": 2,
+        "heading": "What is 〜ても (te-mo)?",
+        "content": "〜ても means \"even if\" or \"even though.\" It expresses that something happens or is true regardless of another condition or action. It shows concession or contrast.\n\n[Verb te-form] + も 雨が降っても \"even if it rains\" 勉強しても \"even if (I) study\""
+      },
+      {
+        "level": 2,
+        "heading": "Formation",
+        "content": "",
+        "children": [
+          {
+            "level": 3,
+            "heading": "Basic Pattern",
+            "content": "Verb (te-form) + も 食べても \"even if (I) eat\" 行っても \"even if (I) go\" 高くても \"even if it's expensive\""
+          },
+          {
+            "level": 3,
+            "heading": "With Different Word Types",
+            "content": "Verbs: 食べても \"even if (I) eat\" I-adjectives: 高くても \"even if it's expensive\" Na-adjectives: 便利でも \"even if it's convenient\" Nouns: 学生でも \"even if (someone is) a student\""
+          }
+        ]
+      },
+      {
+        "level": 2,
+        "heading": "Core Meaning",
+        "content": "",
+        "children": [
+          {
+            "level": 3,
+            "heading": "Even if / Even though",
+            "content": "Expresses that the result doesn't change despite the condition.\n\n雨が降っても、行きます \"Even if it rains, I'll go\" 高くても、買います \"Even if it's expensive, I'll buy it\" 忙しくても、手伝います \"Even if I'm busy, I'll help\""
+          }
+        ]
+      },
+      {
+        "level": 2,
+        "heading": "With Verbs",
+        "content": "",
+        "children": [
+          {
+            "level": 3,
+            "heading": "Present/Future",
+            "content": "食べても太らない \"Even if I eat, I won't gain weight\" 頑張っても無理だ \"Even if I try hard, it's impossible\" 聞いてもわからない \"Even if I ask, I won't understand\""
+          },
+          {
+            "level": 3,
+            "heading": "Past",
+            "content": "勉強しても、できなかった \"Even though I studied, I couldn't do it\" 走っても、間に合わなかった \"Even though I ran, I didn't make it in time\""
+          }
+        ]
+      },
+      {
+        "level": 2,
+        "heading": "With Adjectives",
+        "content": "",
+        "children": [
+          {
+            "level": 3,
+            "heading": "I-adjectives",
+            "content": "Change い to くて + も\n\n高い → 高くても \"even if it's expensive\" 難しい → 難しくても \"even if it's difficult\" 遠い → 遠くても \"even if it's far\" 忙しい → 忙しくても \"even if I'm busy\""
+          },
+          {
+            "level": 3,
+            "heading": "Na-adjectives",
+            "content": "Add でも\n\n便利 → 便利でも \"even if it's convenient\" きれい → きれいでも \"even if it's beautiful\" 静か → 静かでも \"even if it's quiet\" 簡単 → 簡単でも \"even if it's simple\""
+          }
+        ]
+      },
+      {
+        "level": 2,
+        "heading": "With Nouns",
+        "content": "",
+        "children": [
+          {
+            "level": 3,
+            "heading": "Add でも",
+            "content": "学生でも \"even if (someone is) a student\" 休みでも \"even if it's a day off\" 雨でも \"even if it's rain / even in rain\" 子供でも \"even if (someone is) a child\""
+          }
+        ]
+      },
+      {
+        "level": 2,
+        "heading": "Common Patterns",
+        "content": "",
+        "children": [
+          {
+            "level": 3,
+            "heading": "〜ても〜ても (whether... or...)",
+            "content": "Lists multiple conditions with same result.\n\n雨が降っても降らなくても \"whether it rains or not\" 高くても安くても \"whether it's expensive or cheap\" 行っても行かなくても \"whether (I) go or not\" 好きでも嫌いでも \"whether (you) like it or not\""
+          },
+          {
+            "level": 3,
+            "heading": "〜てもいい (it's okay even if / may)",
+            "content": "Permission or acceptance.\n\n食べてもいい \"you may eat / it's okay to eat\" 使ってもいいですか？ \"May I use it?\" 行ってもいい？ \"Is it okay if I go?\""
+          },
+          {
+            "level": 3,
+            "heading": "いくら〜ても (no matter how much)",
+            "content": "Emphasizes degree doesn't matter.\n\nいくら頑張っても \"no matter how hard (I) try\" いくら高くても \"no matter how expensive\" いくら勉強しても \"no matter how much (I) study\""
+          },
+          {
+            "level": 3,
+            "heading": "どんなに〜ても (no matter how)",
+            "content": "Similar emphasis with quality.\n\nどんなに難しくても \"no matter how difficult\" どんなに忙しくても \"no matter how busy\" どんなに遠くても \"no matter how far\""
+          }
+        ]
+      },
+      {
+        "level": 2,
+        "heading": "Question Words + ても",
+        "content": "",
+        "children": [
+          {
+            "level": 3,
+            "heading": "何を〜ても (whatever)",
+            "content": "何を食べても、おいしい \"Whatever I eat, it's delicious\" 何をしても、だめだ \"Whatever I do, it's no good\""
+          },
+          {
+            "level": 3,
+            "heading": "誰が〜ても (whoever)",
+            "content": "誰が来ても、大丈夫 \"Whoever comes, it's fine\" 誰が言っても、信じない \"Whoever says it, I won't believe it\""
+          },
+          {
+            "level": 3,
+            "heading": "どこへ〜ても (wherever)",
+            "content": "どこへ行っても、楽しい \"Wherever I go, it's fun\" どこに住んでも、同じだ \"Wherever I live, it's the same\""
+          },
+          {
+            "level": 3,
+            "heading": "いつ〜ても (whenever)",
+            "content": "いつ来ても、いいよ \"Whenever you come is fine\" いつ電話しても、出ない \"Whenever I call, they don't answer\""
+          }
+        ]
+      },
+      {
+        "level": 2,
+        "heading": "Common Conversations",
+        "content": "",
+        "children": [
+          {
+            "level": 3,
+            "heading": "Example 1: Making Plans",
+            "content": "A: 明日、雨かもしれないね \"It might rain tomorrow\" B: 雨が降っても、行くよ \"Even if it rains, I'll go\" A: 本当？ \"Really?\" B: うん、楽しみにしてるから \"Yeah, because I'm looking forward to it\""
+          },
+          {
+            "level": 3,
+            "heading": "Example 2: Discussing Difficulties",
+            "content": "A: この問題、難しいね \"This problem is difficult\" B: うん、いくら考えても、わからない \"Yeah, no matter how much I think, I don't understand\" A: 先生に聞いてみたら？ \"Why don't you try asking the teacher?\""
+          },
+          {
+            "level": 3,
+            "heading": "Example 3: Permission",
+            "content": "A: このケーキ、食べてもいい？ \"May I eat this cake?\" B: いいよ、どうぞ \"Sure, go ahead\" A: ありがとう！ \"Thanks!\""
+          }
+        ]
+      },
+      {
+        "level": 2,
+        "heading": "Common Mistakes",
+        "content": "",
+        "children": [
+          {
+            "level": 3,
+            "heading": "Mistake 1: Wrong formation with i-adjectives",
+            "content": "Wrong: 高いても ❌ Right: 高くても ✓ \"even if it's expensive\""
+          },
+          {
+            "level": 3,
+            "heading": "Mistake 2: Using だ with nouns",
+            "content": "Wrong: 学生だても ❌ Right: 学生でも ✓ \"even if (someone is) a student\""
+          },
+          {
+            "level": 3,
+            "heading": "Mistake 3: Confusing with ながら",
+            "content": "ても: even if / though (concession) 雨が降っても行く \"I'll go even if it rains\" ながら: while (simultaneous) 音楽を聞きながら勉強する \"study while listening to music\""
+          }
+        ]
+      },
+      {
+        "level": 2,
+        "heading": "Contrast with Other Patterns",
+        "content": "",
+        "children": [
+          {
+            "level": 3,
+            "heading": "〜ても vs 〜たら",
+            "content": "ても: even if (result doesn't change) 雨が降っても行く \"I'll go even if it rains\" たら: if (conditional) 雨が降ったら行かない \"If it rains, I won't go\""
+          },
+          {
+            "level": 3,
+            "heading": "〜ても vs 〜のに",
+            "content": "ても: even if (hypothetical/general) 勉強しても、できない \"Even if I study, I can't do it\" のに: even though (specific past fact with complaint) 勉強したのに、できなかった \"Even though I studied, I couldn't do it\""
+          }
+        ]
+      },
+      {
+        "level": 2,
+        "heading": "Special Expressions",
+        "content": "",
+        "children": [
+          {
+            "level": 3,
+            "heading": "たとえ〜ても (even if / supposing)",
+            "content": "Emphasizes hypothetical nature.\n\nたとえ雨が降っても \"even if it were to rain\" たとえ失敗しても \"even if (I) were to fail\" たとえお金がなくても \"even if (I) had no money\""
+          },
+          {
+            "level": 3,
+            "heading": "〜ても構わない (don't mind even if)",
+            "content": "遅くなっても構いません \"I don't mind even if it gets late\" 高くても構わない \"I don't mind even if it's expensive\""
+          },
+          {
+            "level": 3,
+            "heading": "〜てもかまわない (it's fine even if)",
+            "content": "Similar to 構わない.\n\n来なくてもかまわない \"It's fine even if you don't come\" 安くなくてもかまいません \"It's fine even if it's not cheap\""
+          }
+        ]
+      },
+      {
+        "level": 2,
+        "heading": "Negative Forms",
+        "content": "",
+        "children": [
+          {
+            "level": 3,
+            "heading": "〜なくても (even if not)",
+            "content": "食べなくても、大丈夫 \"It's okay even if (you) don't eat\" 行かなくても、いい \"It's fine even if (you) don't go\" 勉強しなくても、できる \"Can do it even without studying\" 高くなくても、買わない \"Won't buy it even if it's not expensive\""
+          }
+        ]
+      },
+      {
+        "level": 2,
+        "heading": "Politeness Levels",
+        "content": "",
+        "children": [
+          {
+            "level": 3,
+            "heading": "Casual",
+            "content": "雨が降っても行く \"I'll go even if it rains\" 食べてもいい？ \"Can I eat it?\""
+          },
+          {
+            "level": 3,
+            "heading": "Polite",
+            "content": "雨が降っても行きます \"I'll go even if it rains\" 食べてもいいですか？ \"May I eat it?\""
+          }
+        ]
+      },
+      {
+        "level": 2,
+        "heading": "Practice Sentences",
+        "content": "",
+        "children": [
+          {
+            "level": 3,
+            "heading": "Basic Concession",
+            "content": "雨が降っても、行きます \"Even if it rains, I'll go\" 高くても、買います \"Even if it's expensive, I'll buy it\" 忙しくても、手伝います \"Even if I'm busy, I'll help\" 遠くても、会いに行く \"Even if it's far, I'll go meet (you)\""
+          },
+          {
+            "level": 3,
+            "heading": "With Question Words",
+            "content": "何を食べても、おいしい \"Whatever I eat, it's delicious\" 誰が来ても、歓迎します \"Whoever comes, (I) welcome (them)\" どこへ行っても、楽しい \"Wherever I go, it's fun\" いつ来ても、いいよ \"Whenever you come is fine\""
+          },
+          {
+            "level": 3,
+            "heading": "Permission",
+            "content": "食べてもいいですか？ \"May I eat it?\" ここに座ってもいい？ \"Is it okay if I sit here?\" 写真を撮ってもいいですか？ \"May I take a photo?\""
+          },
+          {
+            "level": 3,
+            "heading": "No Matter How",
+            "content": "いくら頑張っても、できない \"No matter how hard I try, I can't do it\" どんなに忙しくても、連絡します \"No matter how busy, I'll contact you\" いくら高くても、欲しい \"No matter how expensive, I want it\""
+          },
+          {
+            "level": 3,
+            "heading": "Whether... or...",
+            "content": "雨が降っても降らなくても、行く \"Whether it rains or not, I'll go\" 高くても安くても、買う \"Whether it's expensive or cheap, I'll buy it\" 好きでも嫌いでも、やる \"Whether (I) like it or not, I'll do it\""
+          },
+          {
+            "level": 3,
+            "heading": "Past Events",
+            "content": "勉強しても、できなかった \"Even though I studied, I couldn't do it\" 急いでも、間に合わなかった \"Even though I hurried, I didn't make it\" 聞いても、教えてくれなかった \"Even though I asked, they didn't tell me\""
+          }
+        ]
+      },
+      {
+        "level": 2,
+        "heading": "Related Grammar Points",
+        "content": "Te-form Conjugation - Basic te-form 〜てもいい (te-mo ii) - Permission 〜のに (noni) - Even though (complaint) 〜たら (tara) - Conditional if/when 〜ば (ba) - Conditional forms Conditionals Overview - All conditional patterns Contrast & Concession - Expressing contrast",
+        "children": [
+          {
+            "level": 3,
+            "heading": "Company",
+            "content": "About Pricing Blog Contact"
+          },
+          {
+            "level": 3,
+            "heading": "Legal",
+            "content": "Privacy Policy Terms of Service Cookie Policy"
+          }
+        ]
+      }
+    ],
+    "metadata": {
+      "title": "〜ても (Even If)"
+    },
+    "examples": [
+      {
+        "sentence": "Te-form Conjugation - Basic te-form"
+      },
+      {
+        "sentence": "〜てもいい (te-mo ii) - Permission"
+      },
+      {
+        "sentence": "〜のに (noni) - Even though (complaint)"
+      },
+      {
+        "sentence": "〜たら (tara) - Conditional if/when"
+      },
+      {
+        "sentence": "〜ば (ba) - Conditional forms"
+      },
+      {
+        "sentence": "Conditionals Overview - All conditional patterns"
+      },
+      {
+        "sentence": "Contrast & Concession - Expressing contrast"
+      },
+      {
+        "sentence": "About"
+      },
+      {
+        "sentence": "Pricing"
+      },
+      {
+        "sentence": "Blog"
+      },
+      {
+        "sentence": "Contact"
+      },
+      {
+        "sentence": "Privacy Policy"
+      },
+      {
+        "sentence": "Terms of Service"
+      },
+      {
+        "sentence": "Cookie Policy"
+      }
+    ]
+  },
+  "metadata": {
+    "extracted_at": "2026-01-01T22:19:36.021081500Z",
+    "duration_ms": 4,
+    "extractors_matched": [
+      "metadata",
+      "examples",
+      "sections"
+    ],
+    "extractors_failed": [
+      "vocab_tables",
+      "definitions",
+      "content_blocks"
+    ]
+  }
+}

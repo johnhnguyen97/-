@@ -1,0 +1,368 @@
+{
+  "config_name": "Language Learning Extractor",
+  "url": "https://practice-japanese.com/docs/te-wa-ikenai/",
+  "data": {
+    "metadata": {
+      "title": "〜てはいけない (Must not)"
+    },
+    "examples": [
+      {
+        "sentence": "〜てもいい - May/Permission"
+      },
+      {
+        "sentence": "〜てはだめ - Must not (casual)"
+      },
+      {
+        "sentence": "〜ないでください - Please don't"
+      },
+      {
+        "sentence": "〜なければならない - Must (opposite)"
+      },
+      {
+        "sentence": "〜ないほうがいい - Better not to"
+      },
+      {
+        "sentence": "て-form - Te-form conjugation"
+      },
+      {
+        "sentence": "About"
+      },
+      {
+        "sentence": "Pricing"
+      },
+      {
+        "sentence": "Blog"
+      },
+      {
+        "sentence": "Contact"
+      },
+      {
+        "sentence": "Privacy Policy"
+      },
+      {
+        "sentence": "Terms of Service"
+      },
+      {
+        "sentence": "Cookie Policy"
+      }
+    ],
+    "sections": [
+      {
+        "level": 2,
+        "heading": "What is 〜てはいけない?",
+        "content": "〜てはいけない expresses prohibition or strong negative permission . It means \"must not,\" \"may not,\" or \"not allowed to.\"\n\n入ってはいけません \"You must not enter\" / \"Entry is prohibited\" ここで食べてはいけない \"You must not eat here\" / \"Eating is not allowed here\""
+      },
+      {
+        "level": 2,
+        "heading": "Formation",
+        "content": "",
+        "children": [
+          {
+            "level": 3,
+            "heading": "Pattern: Verb て-form + は + いけない/いけません",
+            "content": "| Verb | て-form | + はいけない | | ------ | ------- | ---------------- | | 食べる | 食べて | 食べてはいけない | | 行く | 行って | 行ってはいけない | | 見る | 見て | 見てはいけない | | する | して | してはいけない | | 来る | 来て | 来てはいけない |"
+          },
+          {
+            "level": 3,
+            "heading": "Examples",
+            "content": "飲む → 飲んではいけない (must not drink) 使う → 使ってはいけない (must not use) 触る → 触ってはいけない (must not touch) 話す → 話してはいけない (must not talk)"
+          }
+        ]
+      },
+      {
+        "level": 2,
+        "heading": "Contraction: 〜ちゃいけない",
+        "content": "In casual speech, は often contracts:\n\n食べてはいけない → 食べちゃいけない 行ってはいけない → 行っちゃいけない してはいけない → しちゃいけない\n\nVery casual:\n\n食べちゃいけない → 食べちゃダメ 行っちゃいけない → 行っちゃダメ"
+      },
+      {
+        "level": 2,
+        "heading": "Basic Usage",
+        "content": "",
+        "children": [
+          {
+            "level": 3,
+            "heading": "Stating prohibitions",
+            "content": "ここで泳いではいけません \"You must not swim here\" 嘘をついてはいけない \"You must not lie\" 遅刻してはいけません \"You must not be late\""
+          },
+          {
+            "level": 3,
+            "heading": "Warning/Advising",
+            "content": "一人で行ってはいけないよ \"You mustn't go alone\" それを食べてはいけません \"You must not eat that\" 危ないから触ってはいけない \"It's dangerous, so don't touch it\""
+          }
+        ]
+      },
+      {
+        "level": 2,
+        "heading": "Politeness Levels",
+        "content": "",
+        "children": [
+          {
+            "level": 3,
+            "heading": "Casual",
+            "content": "食べちゃいけない \"You mustn't eat\" 行っちゃいけない \"You mustn't go\" 見ちゃいけない \"You mustn't look\""
+          },
+          {
+            "level": 3,
+            "heading": "Polite",
+            "content": "食べてはいけません \"You must not eat\" 行ってはいけません \"You must not go\" 見てはいけません \"You must not look\""
+          },
+          {
+            "level": 3,
+            "heading": "Very Polite (formal rules)",
+            "content": "喫煙してはいけません \"Smoking is not permitted\" 立ち入ってはいけません \"Entry is prohibited\""
+          }
+        ]
+      },
+      {
+        "level": 2,
+        "heading": "Common Contexts",
+        "content": "",
+        "children": [
+          {
+            "level": 3,
+            "heading": "Rules and Regulations",
+            "content": "携帯電話を使ってはいけません \"You must not use cell phones\" ここに車を停めてはいけない \"You must not park cars here\" 館内で走ってはいけません \"You must not run inside\""
+          },
+          {
+            "level": 3,
+            "heading": "Parental/Teacher Instructions",
+            "content": "夜遅くまで起きてはいけないよ \"You mustn't stay up late\" 宿題を忘れてはいけません \"You must not forget your homework\" 嘘をついてはいけない \"You must not lie\""
+          },
+          {
+            "level": 3,
+            "heading": "Safety Warnings",
+            "content": "火遊びをしてはいけません \"You must not play with fire\" 知らない人についていってはいけない \"You must not go with strangers\" 一人で泳いではいけない \"You must not swim alone\""
+          }
+        ]
+      },
+      {
+        "level": 2,
+        "heading": "Common Conversations",
+        "content": "",
+        "children": [
+          {
+            "level": 3,
+            "heading": "Example 1: Classroom",
+            "content": "A: 先生、辞書を使ってもいいですか？ \"Teacher, may I use a dictionary?\" B: いいえ、使ってはいけません \"No, you must not use one\" A: 分かりました \"I understand\""
+          },
+          {
+            "level": 3,
+            "heading": "Example 2: At Home",
+            "content": "A: ゲームしてもいい？ \"Can I play games?\" B: 宿題が終わってないでしょ？今はしてはいけません \"You haven't finished homework, right? You can't now\" A: 分かった... \"Okay...\""
+          },
+          {
+            "level": 3,
+            "heading": "Example 3: Museum",
+            "content": "A: ここで写真を撮ってもいいですか？ \"May I take photos here?\" B: すみません、ここでは撮影してはいけません \"Sorry, photography is not allowed here\" A: そうですか。分かりました \"I see. Understood\""
+          }
+        ]
+      },
+      {
+        "level": 2,
+        "heading": "Strong Prohibition",
+        "content": "",
+        "children": [
+          {
+            "level": 3,
+            "heading": "いけません is quite strong",
+            "content": "For softer prohibition, use:\n\n〜ないでください (please don't):\n\n触らないでください \"Please don't touch\" (Softer than 触ってはいけません)\n\n〜てはだめ (must not - casual):\n\n食べてはだめ \"You can't eat\" / \"Don't eat\" (Less formal than いけません)"
+          }
+        ]
+      },
+      {
+        "level": 2,
+        "heading": "Explaining Reasons",
+        "content": "",
+        "children": [
+          {
+            "level": 3,
+            "heading": "〜から、〜てはいけない",
+            "content": "危ないから、触ってはいけません \"Because it's dangerous, you must not touch it\" 試験中だから、話してはいけない \"Because it's during the exam, you must not talk\" お金がないから、買ってはいけない \"Because I don't have money, I must not buy it\""
+          }
+        ]
+      },
+      {
+        "level": 2,
+        "heading": "Questioning Prohibitions",
+        "content": "",
+        "children": [
+          {
+            "level": 3,
+            "heading": "〜てはいけませんか？",
+            "content": "ここで食べてはいけませんか？ \"Must I not eat here?\" / \"Am I not allowed to eat here?\" 写真を撮ってはいけませんか？ \"Must I not take photos?\"\n\nMore natural: 〜てもいいですか？ (May I...?)"
+          }
+        ]
+      },
+      {
+        "level": 2,
+        "heading": "Past Tense",
+        "content": "",
+        "children": [
+          {
+            "level": 3,
+            "heading": "〜てはいけなかった",
+            "content": "そんなことを言ってはいけなかった \"I shouldn't have said such a thing\" 一人で行ってはいけなかった \"I shouldn't have gone alone\" あきらめてはいけなかった \"I shouldn't have given up\""
+          }
+        ]
+      },
+      {
+        "level": 2,
+        "heading": "Common Verbs with いけない",
+        "content": "",
+        "children": [
+          {
+            "level": 3,
+            "heading": "Communication",
+            "content": "言ってはいけない - must not say 話してはいけない - must not talk 聞いてはいけない - must not ask/listen"
+          },
+          {
+            "level": 3,
+            "heading": "Actions",
+            "content": "食べてはいけない - must not eat 飲んではいけない - must not drink 触ってはいけない - must not touch 使ってはいけない - must not use"
+          },
+          {
+            "level": 3,
+            "heading": "Movement",
+            "content": "入ってはいけない - must not enter 行ってはいけない - must not go 来てはいけない - must not come"
+          },
+          {
+            "level": 3,
+            "heading": "Behavior",
+            "content": "遅刻してはいけない - must not be late 忘れてはいけない - must not forget あきらめてはいけない - must not give up 嘘をついてはいけない - must not lie"
+          }
+        ]
+      },
+      {
+        "level": 2,
+        "heading": "Common Mistakes",
+        "content": "",
+        "children": [
+          {
+            "level": 3,
+            "heading": "Mistake 1: Using wrong form",
+            "content": "Wrong: 食べるはいけない ❌ Right: 食べてはいけない ✓ \"Must not eat\" Must use て-form!"
+          },
+          {
+            "level": 3,
+            "heading": "Mistake 2: Confusing with 〜なければならない",
+            "content": "〜てはいけない = must NOT do (prohibition) 〜なければならない = must DO (obligation) Opposite meanings!"
+          },
+          {
+            "level": 3,
+            "heading": "Mistake 3: Double negative confusion",
+            "content": "行かなくてはいけない = must go (double negative = positive) 行ってはいけない = must not go (single negative) Different meanings!"
+          },
+          {
+            "level": 3,
+            "heading": "Mistake 4: Using for gentle requests",
+            "content": "Too strong: 触ってはいけません ⚠️ Better: 触らないでください ✓ \"Please don't touch\" いけない is quite forceful!"
+          }
+        ]
+      },
+      {
+        "level": 2,
+        "heading": "Related Expressions",
+        "content": "",
+        "children": [
+          {
+            "level": 3,
+            "heading": "てはいけない (must not)",
+            "content": "食べてはいけない \"Must not eat\" Formal prohibition"
+          },
+          {
+            "level": 3,
+            "heading": "てはだめ (must not - casual)",
+            "content": "食べてはだめ \"Can't eat\" / \"Don't eat\" Casual prohibition"
+          },
+          {
+            "level": 3,
+            "heading": "ないでください (please don't)",
+            "content": "食べないでください \"Please don't eat\" Polite request"
+          },
+          {
+            "level": 3,
+            "heading": "ないほうがいい (better not)",
+            "content": "食べないほうがいい \"It's better not to eat\" Advice"
+          }
+        ]
+      },
+      {
+        "level": 2,
+        "heading": "Signs and Notices",
+        "content": "",
+        "children": [
+          {
+            "level": 3,
+            "heading": "Common public signs",
+            "content": "立入禁止 (入ってはいけません) \"No Entry\" 撮影禁止 (撮影してはいけません) \"No Photography\" 駐車禁止 (駐車してはいけません) \"No Parking\" 禁煙 (喫煙してはいけません) \"No Smoking\""
+          }
+        ]
+      },
+      {
+        "level": 2,
+        "heading": "Emphasis with 絶対",
+        "content": "",
+        "children": [
+          {
+            "level": 3,
+            "heading": "絶対に〜てはいけない (absolutely must not)",
+            "content": "絶対に忘れてはいけない \"You absolutely must not forget\" 絶対に触ってはいけません \"You absolutely must not touch\" 絶対にあきらめてはいけない \"You must never give up\""
+          }
+        ]
+      },
+      {
+        "level": 2,
+        "heading": "Practice Sentences",
+        "content": "",
+        "children": [
+          {
+            "level": 3,
+            "heading": "Basic",
+            "content": "ここで泳いではいけません \"You must not swim here\" 嘘をついてはいけない \"You must not lie\" 遅刻してはいけません \"You must not be late\""
+          },
+          {
+            "level": 3,
+            "heading": "Intermediate",
+            "content": "試験中に携帯を使ってはいけません \"You must not use phones during the exam\" 夜遅くまで起きてはいけないよ \"You mustn't stay up late\" 危ないから一人で行ってはいけない \"It's dangerous, so you must not go alone\""
+          },
+          {
+            "level": 3,
+            "heading": "Advanced",
+            "content": "この薬を飲んでいる間はお酒を飲んではいけません \"You must not drink alcohol while taking this medicine\" 大切な友達を裏切ってはいけないと思います \"I think you must not betray important friends\" どんなに辛くても、希望を捨ててはいけません \"No matter how painful it is, you must not abandon hope\""
+          }
+        ]
+      },
+      {
+        "level": 2,
+        "heading": "Related Grammar Points",
+        "content": "〜てもいい - May/Permission 〜てはだめ - Must not (casual) 〜ないでください - Please don't 〜なければならない - Must (opposite) 〜ないほうがいい - Better not to て-form - Te-form conjugation",
+        "children": [
+          {
+            "level": 3,
+            "heading": "Company",
+            "content": "About Pricing Blog Contact"
+          },
+          {
+            "level": 3,
+            "heading": "Legal",
+            "content": "Privacy Policy Terms of Service Cookie Policy"
+          }
+        ]
+      }
+    ]
+  },
+  "metadata": {
+    "extracted_at": "2026-01-01T22:19:36.355379400Z",
+    "duration_ms": 3,
+    "extractors_matched": [
+      "metadata",
+      "examples",
+      "sections"
+    ],
+    "extractors_failed": [
+      "vocab_tables",
+      "definitions",
+      "content_blocks"
+    ]
+  }
+}

@@ -1,0 +1,314 @@
+{
+  "config_name": "Language Learning Extractor",
+  "url": "https://practice-japanese.com/docs/sorekara/",
+  "data": {
+    "sections": [
+      {
+        "level": 2,
+        "heading": "What is それから?",
+        "content": "それから is a sentence connector meaning \"and then,\" \"after that,\" or \"since then.\" It emphasizes temporal sequence and progression, showing that one event happens after another. It's more conversational than そして and clearly marks time order.\n\n朝ごはんを食べた。それから学校に行った。 \"I ate breakfast. And then I went to school.\" 映画を見た。それからレストランに行った。 \"I watched a movie. After that, we went to a restaurant.\""
+      },
+      {
+        "level": 2,
+        "heading": "Basic Usage",
+        "content": "",
+        "children": [
+          {
+            "level": 3,
+            "heading": "Sequential events",
+            "content": "起きた。それから顔を洗った。 \"I woke up. And then I washed my face.\" 勉強した。それから寝た。 \"I studied. After that, I slept.\" Time sequence emphasized"
+          },
+          {
+            "level": 3,
+            "heading": "Continuing narrative",
+            "content": "駅に着いた。それから友達を待った。 \"I arrived at the station. And then I waited for my friend.\" Story progression"
+          }
+        ]
+      },
+      {
+        "level": 2,
+        "heading": "Position in Sentence",
+        "content": "",
+        "children": [
+          {
+            "level": 3,
+            "heading": "Beginning of second sentence",
+            "content": "買い物をした。それから帰った。 \"I went shopping. And then I went home.\" After period New sentence"
+          }
+        ]
+      },
+      {
+        "level": 2,
+        "heading": "Polite and Casual",
+        "content": "",
+        "children": [
+          {
+            "level": 3,
+            "heading": "Works in both",
+            "content": "Casual: 食べた。それから遊んだ。 \"I ate. And then I played.\" Polite: 食べました。それから遊びました。 \"I ate. And then I played.\" Conversational tone"
+          }
+        ]
+      },
+      {
+        "level": 2,
+        "heading": "Common Contexts",
+        "content": "",
+        "children": [
+          {
+            "level": 3,
+            "heading": "Daily routines",
+            "content": "朝起きた。それから朝ごはんを食べた。 \"I woke up. And then I ate breakfast.\" それから会社に行った。 \"After that, I went to work.\" Daily sequences"
+          },
+          {
+            "level": 3,
+            "heading": "Narrating past events",
+            "content": "昨日、買い物に行った。それから映画を見た。 \"Yesterday I went shopping. After that, I watched a movie.\" Past narratives"
+          },
+          {
+            "level": 3,
+            "heading": "Future plans",
+            "content": "明日、勉強する。それから友達に会う。 \"Tomorrow I'll study. And then I'll meet my friend.\" Future sequence"
+          }
+        ]
+      },
+      {
+        "level": 2,
+        "heading": "それから vs そして",
+        "content": "",
+        "children": [
+          {
+            "level": 3,
+            "heading": "それから = temporal sequence",
+            "content": "勉強した。それから休んだ。 \"I studied. After that, I rested.\" Clear time progression One after the other"
+          },
+          {
+            "level": 3,
+            "heading": "そして = general connection",
+            "content": "勉強した。そして休んだ。 \"I studied. And then I rested.\" Less time emphasis Simple connection"
+          }
+        ]
+      },
+      {
+        "level": 2,
+        "heading": "それから vs その後",
+        "content": "",
+        "children": [
+          {
+            "level": 3,
+            "heading": "それから = and then (conversational)",
+            "content": "食べた。それから寝た。 \"I ate. And then I slept.\" Casual, spoken"
+          },
+          {
+            "level": 3,
+            "heading": "その後 = after that (formal)",
+            "content": "食事をした。その後、休憩した。 \"I ate. After that, I rested.\" More formal/written"
+          }
+        ]
+      },
+      {
+        "level": 2,
+        "heading": "Listing Multiple Items",
+        "content": "",
+        "children": [
+          {
+            "level": 3,
+            "heading": "With と and それから",
+            "content": "りんごとバナナを買った。それからパンも買った。 \"I bought apples and bananas. And then I also bought bread.\" Combining connectors"
+          }
+        ]
+      },
+      {
+        "level": 2,
+        "heading": "\"Since Then\" Meaning",
+        "content": "",
+        "children": [
+          {
+            "level": 3,
+            "heading": "Continuing state",
+            "content": "3年前に日本に来た。それからずっとここに住んでいる。 \"I came to Japan 3 years ago. I've been living here since then.\" Ongoing from that point"
+          }
+        ]
+      },
+      {
+        "level": 2,
+        "heading": "Multiple それから",
+        "content": "",
+        "children": [
+          {
+            "level": 3,
+            "heading": "Listing sequence",
+            "content": "起きた。それから顔を洗った。 それから朝ごはんを食べた。 \"I woke up. Then I washed my face. Then I ate breakfast.\" Multiple steps possible"
+          }
+        ]
+      },
+      {
+        "level": 2,
+        "heading": "Common Mistakes",
+        "content": "",
+        "children": [
+          {
+            "level": 3,
+            "heading": "Using within sentence",
+            "content": "Wrong: 食べたそれから寝た ⚠️ Correct: 食べた。それから寝た。 ✓ \"I ate. And then I slept.\" Need period before それから"
+          },
+          {
+            "level": 3,
+            "heading": "Confusing with それで",
+            "content": "それから: And then (sequence) 勉強した。それから寝た。 \"I studied. And then I slept.\" それで: So/Therefore (result) 疲れた。それで寝た。 \"I was tired. So I slept.\" Different meanings"
+          }
+        ]
+      },
+      {
+        "level": 2,
+        "heading": "Time Expressions",
+        "content": "",
+        "children": [
+          {
+            "level": 3,
+            "heading": "With specific times",
+            "content": "3時に着いた。それから2時間待った。 \"I arrived at 3. After that, I waited 2 hours.\" Concrete time sequence"
+          }
+        ]
+      },
+      {
+        "level": 2,
+        "heading": "Emphasis on Order",
+        "content": "",
+        "children": [
+          {
+            "level": 3,
+            "heading": "Stressing sequence",
+            "content": "まず勉強する。それから遊ぶ。 \"First I'll study. After that, I'll play.\" Order matters"
+          }
+        ]
+      },
+      {
+        "level": 2,
+        "heading": "In Questions",
+        "content": "",
+        "children": [
+          {
+            "level": 3,
+            "heading": "Asking about next steps",
+            "content": "A: 映画を見た。 B: それから？ A: \"I watched a movie.\" B: \"And then?\" Prompting continuation"
+          }
+        ]
+      },
+      {
+        "level": 2,
+        "heading": "Formal Writing",
+        "content": "",
+        "children": [
+          {
+            "level": 3,
+            "heading": "Less common in formal text",
+            "content": "Formal: 調査を行った。その後、分析した。 Better than: 調査を行った。それから分析した。 その後 preferred in writing"
+          }
+        ]
+      },
+      {
+        "level": 2,
+        "heading": "Creating Natural Flow",
+        "content": "",
+        "children": [
+          {
+            "level": 3,
+            "heading": "Storytelling connector",
+            "content": "昨日、友達と会った。それから カフェでお茶を飲んだ。 \"Yesterday I met my friend. After that, we drank tea at a cafe.\" Natural narrative flow"
+          }
+        ]
+      },
+      {
+        "level": 2,
+        "heading": "Negative Sentences",
+        "content": "",
+        "children": [
+          {
+            "level": 3,
+            "heading": "Works with negatives",
+            "content": "勉強しなかった。それから遊びに行った。 \"I didn't study. After that, I went out to play.\" Sequential negatives fine"
+          }
+        ]
+      },
+      {
+        "level": 2,
+        "heading": "Casual Contractions",
+        "content": "",
+        "children": [
+          {
+            "level": 3,
+            "heading": "Informal speech",
+            "content": "Casual: それから → それか Very casual: それっから Spoken shortcuts Not written"
+          }
+        ]
+      },
+      {
+        "level": 2,
+        "heading": "Practice Sentences",
+        "content": "",
+        "children": [
+          {
+            "level": 3,
+            "heading": "Basic",
+            "content": "朝起きた。それから顔を洗った。 \"I woke up. And then I washed my face.\" 買い物をした。それから帰った。 \"I went shopping. After that, I went home.\" 宿題をした。それから寝た。 \"I did homework. Then I slept.\""
+          },
+          {
+            "level": 3,
+            "heading": "Intermediate",
+            "content": "昨日、友達と駅で待ち合わせをした。 それから一緒に映画を見に行った。 映画が終わったあと、レストランで 夕食を食べた。 \"Yesterday I met up with my friend at the station. After that, we went to see a movie together. After the movie ended, we ate dinner at a restaurant.\" 朝7時に起きた。それから朝ごはんを 作って食べた。それから準備をして、 8時半に家を出た。 \"I woke up at 7 am. After that, I made and ate breakfast. Then I got ready and left the house at 8:30.\" 日本語の勉強を始めた。それから 3年が経った。今では日常会話が できるようになった。 \"I started studying Japanese. Three years have passed since then. Now I can handle daily conversation.\""
+          },
+          {
+            "level": 3,
+            "heading": "Company",
+            "content": "About Pricing Blog Contact"
+          },
+          {
+            "level": 3,
+            "heading": "Legal",
+            "content": "Privacy Policy Terms of Service Cookie Policy"
+          }
+        ]
+      }
+    ],
+    "examples": [
+      {
+        "sentence": "About"
+      },
+      {
+        "sentence": "Pricing"
+      },
+      {
+        "sentence": "Blog"
+      },
+      {
+        "sentence": "Contact"
+      },
+      {
+        "sentence": "Privacy Policy"
+      },
+      {
+        "sentence": "Terms of Service"
+      },
+      {
+        "sentence": "Cookie Policy"
+      }
+    ],
+    "metadata": {
+      "title": "それから (And then/After that)"
+    }
+  },
+  "metadata": {
+    "extracted_at": "2026-01-01T22:19:34.719018600Z",
+    "duration_ms": 3,
+    "extractors_matched": [
+      "metadata",
+      "examples",
+      "sections"
+    ],
+    "extractors_failed": [
+      "vocab_tables",
+      "definitions",
+      "content_blocks"
+    ]
+  }
+}

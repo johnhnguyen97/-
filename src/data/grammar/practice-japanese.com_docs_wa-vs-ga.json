@@ -1,0 +1,214 @@
+{
+  "config_name": "Language Learning Extractor",
+  "url": "https://practice-japanese.com/docs/wa-vs-ga/",
+  "data": {
+    "metadata": {
+      "title": "は (wa) vs が (ga) Explained"
+    },
+    "examples": [
+      {
+        "sentence": "は (wa) - Topic Marker"
+      },
+      {
+        "sentence": "が (ga) - Subject Marker"
+      },
+      {
+        "sentence": "Topic vs Subject"
+      },
+      {
+        "sentence": "About"
+      },
+      {
+        "sentence": "Pricing"
+      },
+      {
+        "sentence": "Blog"
+      },
+      {
+        "sentence": "Contact"
+      },
+      {
+        "sentence": "Privacy Policy"
+      },
+      {
+        "sentence": "Terms of Service"
+      },
+      {
+        "sentence": "Cookie Policy"
+      }
+    ],
+    "sections": [
+      {
+        "level": 2,
+        "heading": "The Simple Rule",
+        "content": "は (wa) = Sets the topic/context (\"Speaking of X...\") が (ga) = Identifies the subject (Who/what specifically)"
+      },
+      {
+        "level": 2,
+        "heading": "Quick Decision Guide",
+        "content": "Use が when: ├─ Existence (ある/いる) ├─ 好き/嫌い/できる/欲しい ├─ Answering who/what ├─ New information └─ Subordinate clauses Use は when: ├─ General statements ├─ Known information ├─ Contrasting └─ Setting context"
+      },
+      {
+        "level": 2,
+        "heading": "Side-by-Side Examples",
+        "content": "",
+        "children": [
+          {
+            "level": 3,
+            "heading": "Example 1: Liking Things",
+            "content": "猫が好きです \"I like cats\" (Focus: what you like) 猫は好きです \"Cats, I like (but maybe not dogs)\" (Contrast implied)"
+          },
+          {
+            "level": 3,
+            "heading": "Example 2: Identity",
+            "content": "私が学生です \"I am the student\" (me, not others) 私は学生です \"I am a student\" (general fact about me)"
+          },
+          {
+            "level": 3,
+            "heading": "Example 3: Existence",
+            "content": "部屋に猫がいます \"There's a cat in the room\" (Must use が with いる) 猫は部屋にいます \"The cat is in the room\" (Topic: the cat)"
+          }
+        ]
+      },
+      {
+        "level": 2,
+        "heading": "When Only が Works",
+        "content": "",
+        "children": [
+          {
+            "level": 3,
+            "heading": "1. Existence Verbs",
+            "content": "✓ 本があります ✗ 本はあります (wrong for existence)"
+          },
+          {
+            "level": 3,
+            "heading": "2. Fixed Expressions",
+            "content": "✓ 水が欲しい (want) ✓ 日本語ができる (can) ✓ 寿司が好き (like) ✗ Cannot use は here"
+          },
+          {
+            "level": 3,
+            "heading": "3. Question Answers",
+            "content": "Q: 誰が来ましたか？ A: 田中さんが来ました ✓ 田中さんは来ました ✗"
+          },
+          {
+            "level": 3,
+            "heading": "4. Subordinate Clauses",
+            "content": "✓ 私が買った本 ✗ 私は買った本 \"The book I bought\""
+          }
+        ]
+      },
+      {
+        "level": 2,
+        "heading": "When Only は Works",
+        "content": "",
+        "children": [
+          {
+            "level": 3,
+            "heading": "1. Explicit Contrast",
+            "content": "ビールは飲みますが、ワインは飲みません \"I drink beer but not wine\" (Cannot use が)"
+          },
+          {
+            "level": 3,
+            "heading": "2. Topic Continuation",
+            "content": "A: 田中さんはどこですか？ B: 田中さんは図書館です (Continuing established topic)"
+          }
+        ]
+      },
+      {
+        "level": 2,
+        "heading": "Both Are Possible",
+        "content": "Context changes meaning:",
+        "children": [
+          {
+            "level": 3,
+            "heading": "Scenario: Going Somewhere",
+            "content": "私は行きます \"I will go\" (neutral statement) 私が行きます \"I will go\" (emphasis: me, not you)"
+          },
+          {
+            "level": 3,
+            "heading": "Scenario: Weather",
+            "content": "雨は降りません \"Rain won't fall (but maybe snow will)\" 雨が降りません \"It won't rain\" (neutral)"
+          }
+        ]
+      },
+      {
+        "level": 2,
+        "heading": "Double Particle Sentences",
+        "content": "Both in one sentence:\n\n私は猫が好きです Topic Subject \"I (topic) like cats (subject of liking)\" 象は鼻が長い \"Elephants (topic) have long trunks (subject)\""
+      },
+      {
+        "level": 2,
+        "heading": "Common Patterns",
+        "content": "| Pattern | Particle | Example | | ------------ | -------- | -------------- | | Existence | が | 本がある | | Like/dislike | が | 寿司が好き | | Can do | が | 日本語ができる | | Want | が | 水が欲しい | | General fact | は | 犬は動物だ | | Contrast | は | ビールは飲む |"
+      },
+      {
+        "level": 2,
+        "heading": "Practice Scenarios",
+        "content": "",
+        "children": [
+          {
+            "level": 3,
+            "heading": "Scenario 1: Self-Introduction",
+            "content": "✓ 私は田中です \"I am Tanaka\" (introducing yourself) ✗ 私が田中です (unless someone asked \"Who's Tanaka?\")"
+          },
+          {
+            "level": 3,
+            "heading": "Scenario 2: Someone Asks \"Who?\"",
+            "content": "Q: 誰が学生ですか？ A: 私が学生です ✓ \"I am the student\""
+          },
+          {
+            "level": 3,
+            "heading": "Scenario 3: Stating Preferences",
+            "content": "✓ コーヒーが好きです \"I like coffee\" Not: コーヒーは好きです (implies contrast)"
+          },
+          {
+            "level": 3,
+            "heading": "Scenario 4: Description",
+            "content": "✓ この本は面白いです \"This book is interesting\" (Describing the topic)"
+          }
+        ]
+      },
+      {
+        "level": 2,
+        "heading": "Most Common Mistake",
+        "content": "Using は with 好き/嫌い/できる:\n\nWrong: 寿司は好きです ❌ Right: 寿司が好きです ✓"
+      },
+      {
+        "level": 2,
+        "heading": "Visual Summary",
+        "content": "は (wa) ├─ \"Speaking of X...\" ├─ Sets context ├─ Known info └─ Contrast が (ga) ├─ Identifies who/what ├─ New info ├─ Answers questions └─ With ある/いる/好き/できる"
+      },
+      {
+        "level": 2,
+        "heading": "Key Takeaways",
+        "content": "✓ が for existence, likes, abilities ✓ は for topics, general statements, contrast ✓ Match particles when answering questions ✓ Both can appear in same sentence ✓ Context determines which sounds natural\n\nDeep Dive:\n\nは (wa) - Topic Marker が (ga) - Subject Marker Topic vs Subject",
+        "children": [
+          {
+            "level": 3,
+            "heading": "Company",
+            "content": "About Pricing Blog Contact"
+          },
+          {
+            "level": 3,
+            "heading": "Legal",
+            "content": "Privacy Policy Terms of Service Cookie Policy"
+          }
+        ]
+      }
+    ]
+  },
+  "metadata": {
+    "extracted_at": "2026-01-01T22:19:37.712708100Z",
+    "duration_ms": 3,
+    "extractors_matched": [
+      "metadata",
+      "examples",
+      "sections"
+    ],
+    "extractors_failed": [
+      "vocab_tables",
+      "definitions",
+      "content_blocks"
+    ]
+  }
+}

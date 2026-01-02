@@ -1,0 +1,372 @@
+{
+  "config_name": "Language Learning Extractor",
+  "url": "https://practice-japanese.com/docs/ya-list/",
+  "data": {
+    "examples": [
+      {
+        "sentence": "\"and\" (non-exhaustive)"
+      },
+      {
+        "sentence": "\"such as\""
+      },
+      {
+        "sentence": "\"things like\""
+      },
+      {
+        "sentence": "\"and so on\""
+      },
+      {
+        "sentence": "や means \"and\" for partial, non-exhaustive lists"
+      },
+      {
+        "sentence": "Implies there are more items than mentioned"
+      },
+      {
+        "sentence": "Gives examples from a larger category"
+      },
+      {
+        "sentence": "Usually paired with など: A や B など"
+      },
+      {
+        "sentence": "Structure: [Noun A] や [Noun B] (など)"
+      },
+      {
+        "sentence": "Different from と which indicates complete lists"
+      },
+      {
+        "sentence": "Use for 2-3 example items typically"
+      },
+      {
+        "sentence": "Works in all formality levels"
+      },
+      {
+        "sentence": "More natural with など at the end"
+      },
+      {
+        "sentence": "Cannot be used for listing actions (use 〜たり〜たり)"
+      },
+      {
+        "sentence": "About"
+      },
+      {
+        "sentence": "Pricing"
+      },
+      {
+        "sentence": "Blog"
+      },
+      {
+        "sentence": "Contact"
+      },
+      {
+        "sentence": "Privacy Policy"
+      },
+      {
+        "sentence": "Terms of Service"
+      },
+      {
+        "sentence": "Cookie Policy"
+      }
+    ],
+    "sections": [
+      {
+        "level": 2,
+        "heading": "What is や for Lists?",
+        "content": "や (ya) is a particle used to give examples from a larger group, meaning \"and\" or \"such as.\" Unlike と which indicates a complete list, や suggests there are MORE items than what's mentioned.\n\nEnglish equivalents:\n\n\"and\" (non-exhaustive) \"such as\" \"things like\" \"and so on\"\n\nKey characteristic: や implies the list is incomplete - there are other items not mentioned.\n\nりんごやみかんを買った。 Ringo ya mikan wo katta. \"I bought apples, oranges, and such.\" [These and possibly other fruits] 猫や犬が好きです。 Neko ya inu ga suki desu. \"I like cats, dogs, and such.\" [These and possibly other animals]"
+      },
+      {
+        "level": 2,
+        "heading": "Basic Structure",
+        "content": "",
+        "children": [
+          {
+            "level": 3,
+            "heading": "Pattern",
+            "content": "[Noun A] + や + [Noun B] + (など/なんか)\n\nや is typically used with 2-3 items and often followed by など or なんか:\n\n本やペン (hon ya pen) - \"books, pens, etc.\" 猫や犬など (neko ya inu nado) - \"cats, dogs, and such\""
+          }
+        ]
+      },
+      {
+        "level": 2,
+        "heading": "Two Items with や",
+        "content": "",
+        "children": [
+          {
+            "level": 3,
+            "heading": "Giving examples",
+            "content": "果物や野菜を食べる。 Kudamono ya yasai wo taberu. \"I eat fruits, vegetables, and such.\" [These and other foods] 本や雑誌を読む。 Hon ya zasshi wo yomu. \"I read books, magazines, and so on.\" [These and other reading materials] 東京や大阪に行った。 Toukyou ya Oosaka ni itta. \"I went to Tokyo, Osaka, and other places.\" [These cities among others]"
+          }
+        ]
+      },
+      {
+        "level": 2,
+        "heading": "Multiple Items",
+        "content": "",
+        "children": [
+          {
+            "level": 3,
+            "heading": "Three or more examples",
+            "content": "りんごやみかんやバナナを買った。 Ringo ya mikan ya banana wo katta. \"I bought apples, oranges, bananas, and such.\" 日本や中国や韓国を訪れた。 Nihon ya Chuugoku ya Kankoku wo otozureta. \"I visited Japan, China, Korea, and other places.\"\n\nNote: Usually followed by など (nado) for natural flow:\n\nりんごやみかんなどを買った。 Ringo ya mikan nado wo katta. \"I bought apples, oranges, etc.\""
+          }
+        ]
+      },
+      {
+        "level": 2,
+        "heading": "With など (Most Common)",
+        "content": "",
+        "children": [
+          {
+            "level": 3,
+            "heading": "や + など combination",
+            "content": "Very common pattern - や for examples, など for \"etc.\":\n\nStructure: [A] や [B] など\n\n猫や犬などのペット。 Neko ya inu nado no petto. \"Pets such as cats and dogs.\" 本や雑誌などを読む。 Hon ya zasshi nado wo yomu. \"I read books, magazines, and so on.\" 日本や中国などのアジアの国。 Nihon ya Chuugoku nado no Ajia no kuni. \"Asian countries such as Japan and China.\"\n\nSee: など/なんか (Etc.)"
+          }
+        ]
+      },
+      {
+        "level": 2,
+        "heading": "Suggesting More Items",
+        "content": "",
+        "children": [
+          {
+            "level": 3,
+            "heading": "Implying a larger category",
+            "content": "スポーツや音楽が好きです。 Supo-tsu ya ongaku ga suki desu. \"I like sports, music, and such things.\" [Other hobbies too] 友達や家族と過ごす。 Tomodachi ya kazoku to sugosu. \"I spend time with friends, family, and others.\" 勉強や仕事で忙しい。 Benkyou ya shigoto de isogashii. \"I'm busy with studying, work, and such.\""
+          }
+        ]
+      },
+      {
+        "level": 2,
+        "heading": "Contrasting と and や",
+        "content": "",
+        "children": [
+          {
+            "level": 3,
+            "heading": "と - Complete list",
+            "content": "猫と犬を飼っている。 Neko to inu wo katte iru. \"I have a cat and a dog.\" [Only these two pets]"
+          },
+          {
+            "level": 3,
+            "heading": "や - Partial list/examples",
+            "content": "猫や犬を飼っている。 Neko ya inu wo katte iru. \"I have cats, dogs, and such.\" [These and possibly other pets]\n\n| Particle | Meaning | Implication | When to Use | | -------- | -------------- | ------------------ | --------------- | | と | And (complete) | Only these items | Exhaustive list | | や | And (examples) | These among others | Giving examples |"
+          }
+        ]
+      },
+      {
+        "level": 2,
+        "heading": "In Descriptions",
+        "content": "",
+        "children": [
+          {
+            "level": 3,
+            "heading": "Describing categories",
+            "content": "果物や野菜が豊富です。 Kudamono ya yasai ga houfu desu. \"Fruits, vegetables, and such are abundant.\" 本や雑誌が置いてある。 Hon ya zasshi ga oite aru. \"Books, magazines, and such are placed there.\" 机や椅子などの家具。 Tsukue ya isu nado no kagu. \"Furniture such as desks and chairs.\""
+          }
+        ]
+      },
+      {
+        "level": 2,
+        "heading": "Time Expressions",
+        "content": "",
+        "children": [
+          {
+            "level": 3,
+            "heading": "Multiple times (examples)",
+            "content": "朝や夜に散歩する。 Asa ya yoru ni sanpo suru. \"I take walks in the morning, evening, and such.\" [These times among others] 月曜日や水曜日に会議がある。 Getsuyoubi ya suiyoubi ni kaigi ga aru. \"There are meetings on Mondays, Wednesdays, and such.\" [These and possibly other days]"
+          }
+        ]
+      },
+      {
+        "level": 2,
+        "heading": "People (Examples)",
+        "content": "",
+        "children": [
+          {
+            "level": 3,
+            "heading": "Listing some people",
+            "content": "田中さんや佐藤さんが来た。 Tanaka-san ya Satou-san ga kita. \"Tanaka, Sato, and others came.\" [These people among others who came] 友達や先生に相談した。 Tomodachi ya sensei ni soudan shita. \"I consulted with friends, teachers, and such.\" 学生や社会人が参加する。 Gakusei ya shakaijin ga sanka suru. \"Students, working adults, and others participate.\""
+          }
+        ]
+      },
+      {
+        "level": 2,
+        "heading": "Places (Examples)",
+        "content": "",
+        "children": [
+          {
+            "level": 3,
+            "heading": "Multiple locations",
+            "content": "スーパーやコンビニで買える。 Supa- ya konbini de kaeru. \"You can buy it at supermarkets, convenience stores, and such.\" 公園や図書館で過ごす。 Kouen ya toshokan de sugosu. \"I spend time at parks, libraries, and so on.\" 東京や大阪などの大都市。 Toukyou ya Oosaka nado no dai-toshi. \"Big cities such as Tokyo and Osaka.\""
+          }
+        ]
+      },
+      {
+        "level": 2,
+        "heading": "With Different Particles",
+        "content": "",
+        "children": [
+          {
+            "level": 3,
+            "heading": "や list + particle",
+            "content": "りんごやみかんを買う。 Ringo ya mikan wo kau. \"I buy apples, oranges, etc.\" [を marks object] 猫や犬が好きです。 Neko ya inu ga suki desu. \"I like cats, dogs, etc.\" [が marks subject] 日本や中国に行く。 Nihon ya Chuugoku ni iku. \"I go to Japan, China, etc.\" [に marks destination] 友達や家族に会う。 Tomodachi ya kazoku ni au. \"I meet friends, family, etc.\" [に marks target]"
+          }
+        ]
+      },
+      {
+        "level": 2,
+        "heading": "In Formal Writing",
+        "content": "",
+        "children": [
+          {
+            "level": 3,
+            "heading": "Academic and business",
+            "content": "経済や政治などの問題。 Keizai ya seiji nado no mondai. \"Problems such as economic and political ones.\" 品質や価格などを考慮する。 Hinshitsu ya kakaku nado wo kouryosuru. \"We consider quality, price, and such factors.\" データや統計などの情報。 De-ta ya toukei nado no jouhou. \"Information such as data and statistics.\""
+          }
+        ]
+      },
+      {
+        "level": 2,
+        "heading": "Casual Speech",
+        "content": "",
+        "children": [
+          {
+            "level": 3,
+            "heading": "All formality levels",
+            "content": "Casual: 猫や犬飼ってる Neko ya inu katteru \"I have cats, dogs, and such.\" Formal: 猫や犬などを飼っています Neko ya inu nado wo katte imasu \"I have cats, dogs, and such animals.\""
+          }
+        ]
+      },
+      {
+        "level": 2,
+        "heading": "Common Patterns",
+        "content": "",
+        "children": [
+          {
+            "level": 3,
+            "heading": "Natural groupings",
+            "content": "服や靴などの衣類 Fuku ya kutsu nado no irui \"Clothing such as clothes and shoes\" パンや米などの主食 Pan ya kome nado no shushoku \"Staple foods such as bread and rice\" 鉛筆やペンなどの文房具 Enpitsu ya pen nado no bunbougu \"Stationery such as pencils and pens\""
+          }
+        ]
+      },
+      {
+        "level": 2,
+        "heading": "や...や... Pattern",
+        "content": "",
+        "children": [
+          {
+            "level": 3,
+            "heading": "Multiple や in one sentence",
+            "content": "春や夏や秋が好きです。 Haru ya natsu ya aki ga suki desu. \"I like spring, summer, fall, and such seasons.\" 本や雑誌やマンガを読む。 Hon ya zasshi ya manga wo yomu. \"I read books, magazines, manga, and such.\"\n\nMore natural with など:\n\n春や夏などが好きです。 Haru ya natsu nado ga suki desu. \"I like spring, summer, etc.\""
+          }
+        ]
+      },
+      {
+        "level": 2,
+        "heading": "Implying Variety",
+        "content": "",
+        "children": [
+          {
+            "level": 3,
+            "heading": "Suggesting diversity",
+            "content": "色々な国、日本や中国やアメリカなど。 Iroiro na kuni, Nihon ya Chuugoku ya Amerika nado. \"Various countries - Japan, China, America, and so on.\" 様々な果物、りんごやみかんやバナナなど。 Samazama na kudamono, ringo ya mikan ya banana nado. \"Various fruits - apples, oranges, bananas, etc.\""
+          }
+        ]
+      },
+      {
+        "level": 2,
+        "heading": "Without など",
+        "content": "",
+        "children": [
+          {
+            "level": 3,
+            "heading": "や alone (less common)",
+            "content": "猫や犬が好き。 Neko ya inu ga suki. \"I like cats, dogs, and such.\" [Implies more without など]\n\nWith など is more natural:\n\n猫や犬などが好き。 Neko ya inu nado ga suki. \"I like cats, dogs, and such.\" [More natural]"
+          }
+        ]
+      },
+      {
+        "level": 2,
+        "heading": "Comparing Listing Particles",
+        "content": "",
+        "children": [
+          {
+            "level": 3,
+            "heading": "や vs と vs とか",
+            "content": "Complete list (と): 猫と犬を飼っている。 \"I have a cat and a dog.\" [Only these] Partial list/examples (や): 猫や犬を飼っている。 \"I have cats, dogs, and such.\" [Examples from my pets] Casual examples (とか): 猫とか犬とか飼ってる。 \"I have things like cats and dogs.\" [Casual examples]\n\nSee: とか (Casual listing)"
+          }
+        ]
+      },
+      {
+        "level": 2,
+        "heading": "Questions with や",
+        "content": "",
+        "children": [
+          {
+            "level": 3,
+            "heading": "Asking for examples",
+            "content": "何や何を買いましたか。 Nani ya nani wo kaimashita ka. \"What kinds of things did you buy?\" [Expecting multiple examples] どこやどこに行きましたか。 Doko ya doko ni ikimashita ka. \"Where and where did you go?\" [Expecting multiple places]"
+          }
+        ]
+      },
+      {
+        "level": 2,
+        "heading": "Common Mistakes",
+        "content": "",
+        "children": [
+          {
+            "level": 3,
+            "heading": "Mistake 1: Using や for Complete Lists",
+            "content": "❌ 兄や妹がいます (when you only have these two) ✓ 兄と妹がいます\n\nUse と when listing all items, や when giving examples."
+          },
+          {
+            "level": 3,
+            "heading": "Mistake 2: Forgetting など",
+            "content": "❌ (Sounds incomplete without など) りんごやみかんを買った\n\n✓ りんごやみかんなどを買った\n\nUsually add など after や lists for natural flow."
+          },
+          {
+            "level": 3,
+            "heading": "Mistake 3: Mixing や and と",
+            "content": "❌ 猫や犬と鳥 ✓ 猫や犬や鳥 (all や) ✓ 猫と犬と鳥 (all と)\n\nBe consistent within a list."
+          },
+          {
+            "level": 3,
+            "heading": "Mistake 4: Using や Incorrectly for Actions",
+            "content": "❌ 食べるや飲むや ✓ 食べたり飲んだりする\n\nFor actions, use 〜たり〜たり instead of や."
+          }
+        ]
+      },
+      {
+        "level": 2,
+        "heading": "Summary",
+        "content": "Key Points:\n\nや means \"and\" for partial, non-exhaustive lists Implies there are more items than mentioned Gives examples from a larger category Usually paired with など: A や B など Structure: [Noun A] や [Noun B] (など) Different from と which indicates complete lists Use for 2-3 example items typically Works in all formality levels More natural with など at the end Cannot be used for listing actions (use 〜たり〜たり)",
+        "children": [
+          {
+            "level": 3,
+            "heading": "Company",
+            "content": "About Pricing Blog Contact"
+          },
+          {
+            "level": 3,
+            "heading": "Legal",
+            "content": "Privacy Policy Terms of Service Cookie Policy"
+          }
+        ]
+      }
+    ],
+    "metadata": {
+      "title": "や (Partial list)"
+    }
+  },
+  "metadata": {
+    "extracted_at": "2026-01-01T22:19:38.423361600Z",
+    "duration_ms": 4,
+    "extractors_matched": [
+      "metadata",
+      "examples",
+      "sections"
+    ],
+    "extractors_failed": [
+      "vocab_tables",
+      "definitions",
+      "content_blocks"
+    ]
+  }
+}

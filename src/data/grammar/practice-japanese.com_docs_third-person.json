@@ -1,0 +1,330 @@
+{
+  "config_name": "Language Learning Extractor",
+  "url": "https://practice-japanese.com/docs/third-person/",
+  "data": {
+    "examples": [
+      {
+        "sentence": "About"
+      },
+      {
+        "sentence": "Pricing"
+      },
+      {
+        "sentence": "Blog"
+      },
+      {
+        "sentence": "Contact"
+      },
+      {
+        "sentence": "Privacy Policy"
+      },
+      {
+        "sentence": "Terms of Service"
+      },
+      {
+        "sentence": "Cookie Policy"
+      }
+    ],
+    "sections": [
+      {
+        "level": 2,
+        "heading": "Third Person Pronouns",
+        "content": "Third person pronouns in Japanese include 彼 (he), 彼女 (she), and their variations. However, these pronouns have dual meanings (also \"boyfriend/girlfriend\") and are less commonly used than English \"he/she.\" Japanese often prefers names, descriptive phrases, or context over pronouns.\n\n彼は学生です \"He is a student\" or \"My boyfriend is a student\" 彼女は先生です \"She is a teacher\" or \"My girlfriend is a teacher\" あの人は誰ですか \"Who is that person?\" (neutral, clearer)"
+      },
+      {
+        "level": 2,
+        "heading": "彼 (kare) - He/Him",
+        "content": "",
+        "children": [
+          {
+            "level": 3,
+            "heading": "Dual meaning",
+            "content": "Meaning 1: He 彼は学生です \"He is a student\" Meaning 2: Boyfriend 彼はやさしい \"My boyfriend is kind\" Context determines meaning Ambiguity possible"
+          },
+          {
+            "level": 3,
+            "heading": "When to use as \"he\"",
+            "content": "✓ Formal writing ✓ Academic contexts ✓ When gender is relevant ✓ Translating foreign text Not always natural Context should be clear"
+          },
+          {
+            "level": 3,
+            "heading": "Avoiding ambiguity",
+            "content": "If meaning \"he\" (not boyfriend): その男性は... \"That man...\" あの人は... \"That person...\" 田中さんは... \"Tanaka...\" Clearer alternatives Less ambiguous"
+          }
+        ]
+      },
+      {
+        "level": 2,
+        "heading": "彼女 (kanojo) - She/Her",
+        "content": "",
+        "children": [
+          {
+            "level": 3,
+            "heading": "Dual meaning",
+            "content": "Meaning 1: She 彼女は先生です \"She is a teacher\" Meaning 2: Girlfriend 彼女はきれいだ \"My girlfriend is pretty\" Same ambiguity as 彼 Context crucial"
+          },
+          {
+            "level": 3,
+            "heading": "When to use as \"she\"",
+            "content": "✓ Formal writing ✓ Academic contexts ✓ When gender needs emphasis ✓ Translating Not always natural speech Consider alternatives"
+          },
+          {
+            "level": 3,
+            "heading": "Avoiding ambiguity",
+            "content": "If meaning \"she\" (not girlfriend): その女性は... \"That woman...\" あの人は... \"That person...\" 山田さんは... \"Yamada...\" Clearer options"
+          }
+        ]
+      },
+      {
+        "level": 2,
+        "heading": "あの人 (ano hito) - That Person",
+        "content": "",
+        "children": [
+          {
+            "level": 3,
+            "heading": "Gender-neutral, polite",
+            "content": "あの人は誰ですか \"Who is that person?\" あの人は医者です \"That person is a doctor\" Used for: Anyone Gender: Neutral Formality: Polite Distance: Far from both Most common alternative"
+          },
+          {
+            "level": 3,
+            "heading": "Advantages",
+            "content": "✓ No gender assumption ✓ No boyfriend/girlfriend confusion ✓ Natural in conversation ✓ Polite and respectful ✓ Widely appropriate Preferred over 彼/彼女"
+          }
+        ]
+      },
+      {
+        "level": 2,
+        "heading": "この人/その人 (kono hito/sono hito)",
+        "content": "",
+        "children": [
+          {
+            "level": 3,
+            "heading": "Distance-based \"person\"",
+            "content": "この人は友達です \"This person is my friend\" その人は誰？ \"Who is that person?\" この: Near speaker その: Near listener あの: Far from both Demonstrative + person"
+          }
+        ]
+      },
+      {
+        "level": 2,
+        "heading": "Plural Third Person",
+        "content": "",
+        "children": [
+          {
+            "level": 3,
+            "heading": "彼ら (karera) - They (male/mixed)",
+            "content": "彼らは学生です \"They are students\" Male or mixed group Formal contexts Less common in speech"
+          },
+          {
+            "level": 3,
+            "heading": "彼女ら (kanojora) - They (female)",
+            "content": "彼女らは看護師です \"They are nurses\" All-female group Formal/written Rare in speech"
+          },
+          {
+            "level": 3,
+            "heading": "彼女たち (kanojotachi) - They (female)",
+            "content": "彼女たちは来ます \"They will come\" Female group More natural than 彼女ら"
+          },
+          {
+            "level": 3,
+            "heading": "あの人たち (ano hitotachi) - Those people",
+            "content": "あの人たちは誰ですか \"Who are those people?\" Gender-neutral plural Natural and polite Common choice"
+          }
+        ]
+      },
+      {
+        "level": 2,
+        "heading": "Better Alternatives",
+        "content": "",
+        "children": [
+          {
+            "level": 3,
+            "heading": "Use names",
+            "content": "Instead of: 彼は来る Better: 田中さんが来る \"Tanaka is coming\" Most natural Clearest option Always appropriate"
+          },
+          {
+            "level": 3,
+            "heading": "Use descriptive terms",
+            "content": "その男性 \"that man\" その女性 \"that woman\" あの子 \"that child\" あの方 \"that person\" (polite) Specific and clear Natural Japanese"
+          },
+          {
+            "level": 3,
+            "heading": "Use titles/roles",
+            "content": "先生は \"the teacher\" 社長は \"the president\" お客様は \"the customer\" Professional contexts Respectful"
+          }
+        ]
+      },
+      {
+        "level": 2,
+        "heading": "Gender-Neutral Options",
+        "content": "",
+        "children": [
+          {
+            "level": 3,
+            "heading": "Modern considerations",
+            "content": "あの人 \"that person\" その方 \"that person\" (polite) 友達 \"friend\" 相手 \"the other person/partner\" No gender assumption Inclusive language"
+          }
+        ]
+      },
+      {
+        "level": 2,
+        "heading": "この/その/あの方 (kata) - Polite \"Person\"",
+        "content": "",
+        "children": [
+          {
+            "level": 3,
+            "heading": "Respectful reference",
+            "content": "あの方はどなたですか \"Who is that person?\" (polite) その方は先生です \"That person is a teacher\" (polite) Polite form of 人 Shows respect Formal situations"
+          }
+        ]
+      },
+      {
+        "level": 2,
+        "heading": "Omitting Third Person",
+        "content": "",
+        "children": [
+          {
+            "level": 3,
+            "heading": "Often unnecessary",
+            "content": "With context: 学生です \"(He/She) is a student\" Topic established, pronoun dropped Very natural"
+          },
+          {
+            "level": 3,
+            "heading": "Continuing reference",
+            "content": "田中さんは医者です。忙しいです。 \"Tanaka is a doctor. (He) is busy.\" Name first, then omit Clear from context"
+          }
+        ]
+      },
+      {
+        "level": 2,
+        "heading": "Boyfriend/Girlfriend Meaning",
+        "content": "",
+        "children": [
+          {
+            "level": 3,
+            "heading": "When 彼/彼女 means romantic partner",
+            "content": "彼ができた \"I got a boyfriend\" 彼女と別れた \"I broke up with my girlfriend\" Context makes it clear No ambiguity here"
+          },
+          {
+            "level": 3,
+            "heading": "Avoiding confusion",
+            "content": "To clarify \"he/she\" (not romantic): その男の人 \"that man\" その女の人 \"that woman\" Or use name Be specific"
+          }
+        ]
+      },
+      {
+        "level": 2,
+        "heading": "Historical Note",
+        "content": "",
+        "children": [
+          {
+            "level": 3,
+            "heading": "Western influence",
+            "content": "彼/彼女 as \"he/she\": Borrowed from Western languages Translation convenience Not traditional Japanese Still not fully natural Japanese historically used: Names, titles, context More natural approach"
+          }
+        ]
+      },
+      {
+        "level": 2,
+        "heading": "Formal Writing",
+        "content": "",
+        "children": [
+          {
+            "level": 3,
+            "heading": "When pronouns are appropriate",
+            "content": "Academic papers Translations Formal documents News reports (sometimes) More acceptable in writing Still consider alternatives"
+          }
+        ]
+      },
+      {
+        "level": 2,
+        "heading": "Gender and Respect",
+        "content": "",
+        "children": [
+          {
+            "level": 3,
+            "heading": "Respectful terms",
+            "content": "あの方 (polite) その方 (polite) あちらの方 (that person over there) Shows respect Professional settings"
+          }
+        ]
+      },
+      {
+        "level": 2,
+        "heading": "Common Mistakes",
+        "content": "",
+        "children": [
+          {
+            "level": 3,
+            "heading": "Overusing 彼/彼女",
+            "content": "Unnatural: 彼は学生です。彼は真面目です。⚠️ Natural: 田中さんは学生です。真面目です。✓ \"Tanaka is a student. (He) is serious.\" Use name, then omit More natural"
+          },
+          {
+            "level": 3,
+            "heading": "Assuming 彼/彼女 always means romantic",
+            "content": "Context matters: 学術論文で彼は... (he in academic paper) 昨日彼と... (with my boyfriend yesterday) Academic vs. personal context"
+          },
+          {
+            "level": 3,
+            "heading": "Using when name is known",
+            "content": "Avoid: 彼は来る (when you know his name) Better: 田中さんが来る \"Tanaka is coming\" Names are more natural"
+          }
+        ]
+      },
+      {
+        "level": 2,
+        "heading": "Demonstrative Distance",
+        "content": "",
+        "children": [
+          {
+            "level": 3,
+            "heading": "この/その/あの person pattern",
+            "content": "この人: Near me \"This person (here with me)\" その人: Near you \"That person (near you)\" あの人: Away from both \"That person (over there)\" Distance determines choice"
+          }
+        ]
+      },
+      {
+        "level": 2,
+        "heading": "Practice Sentences",
+        "content": "",
+        "children": [
+          {
+            "level": 3,
+            "heading": "Basic",
+            "content": "Using alternatives: あの人は誰ですか \"Who is that person?\" 田中さんは学生です \"Tanaka is a student\" 先生は忙しいです \"The teacher is busy\" Better than pronouns"
+          },
+          {
+            "level": 3,
+            "heading": "Intermediate",
+            "content": "Without pronouns: 田中さんは医者です。毎日 忙しく働いています。 \"Tanaka is a doctor. (He) works busy every day.\" あの人は先生だと思います。 よく学校で見かけます。 \"I think that person is a teacher. I often see (them) at school.\" 友達が結婚しました。とても 幸せそうです。 \"My friend got married. (They) seem very happy.\""
+          },
+          {
+            "level": 3,
+            "heading": "Company",
+            "content": "About Pricing Blog Contact"
+          },
+          {
+            "level": 3,
+            "heading": "Legal",
+            "content": "Privacy Policy Terms of Service Cookie Policy"
+          }
+        ]
+      }
+    ],
+    "metadata": {
+      "title": "Third Person (彼、彼女)"
+    }
+  },
+  "metadata": {
+    "extracted_at": "2026-01-01T22:19:36.410380200Z",
+    "duration_ms": 3,
+    "extractors_matched": [
+      "metadata",
+      "examples",
+      "sections"
+    ],
+    "extractors_failed": [
+      "vocab_tables",
+      "definitions",
+      "content_blocks"
+    ]
+  }
+}

@@ -1,0 +1,306 @@
+{
+  "config_name": "Language Learning Extractor",
+  "url": "https://practice-japanese.com/docs/te-naranai/",
+  "data": {
+    "metadata": {
+      "title": "〜てならない (Cannot help feeling)"
+    },
+    "examples": [
+      {
+        "sentence": "Literature"
+      },
+      {
+        "sentence": "Formal writing"
+      },
+      {
+        "sentence": "Emotional expressions in formal contexts"
+      },
+      {
+        "sentence": "てならない expresses uncontrollable spontaneous feelings"
+      },
+      {
+        "sentence": "Formation: [Verb/Adj て-form] + ならない"
+      },
+      {
+        "sentence": "Emphasizes emotions arising naturally"
+      },
+      {
+        "sentence": "Quite formal and literary"
+      },
+      {
+        "sentence": "Common with: 気になる, 悲しい, 嬉しい, 心配, 不安"
+      },
+      {
+        "sentence": "Different from てたまらない (unbearable, casual)"
+      },
+      {
+        "sentence": "Different from ずにはいられない (cannot help doing action)"
+      },
+      {
+        "sentence": "Essential for expressing uncontrollable emotions formally"
+      },
+      {
+        "sentence": "About"
+      },
+      {
+        "sentence": "Pricing"
+      },
+      {
+        "sentence": "Blog"
+      },
+      {
+        "sentence": "Contact"
+      },
+      {
+        "sentence": "Privacy Policy"
+      },
+      {
+        "sentence": "Terms of Service"
+      },
+      {
+        "sentence": "Cookie Policy"
+      }
+    ],
+    "sections": [
+      {
+        "level": 2,
+        "heading": "What is 〜てならない?",
+        "content": "〜てならない (te naranai) expresses spontaneous, uncontrollable feelings or sensations that arise naturally. It emphasizes that the speaker cannot help but feel a certain way.\n\nEnglish equivalent: \"cannot help feeling,\" \"cannot help but,\" \"can't stop feeling\"\n\nStructure: [Verb/Adjective て-form] + ならない\n\n気になる (ki ni naru - worry) → 気になって + ならない = 気になってならない \"cannot help worrying\" 悲しい (kanashii - sad) → 悲しくて + ならない = 悲しくてならない \"cannot help feeling sad\" 不安 (fuan - anxious) + でならない = 不安でならない \"cannot help feeling anxious\""
+      },
+      {
+        "level": 2,
+        "heading": "Basic Formation",
+        "content": "",
+        "children": [
+          {
+            "level": 3,
+            "heading": "With verbs (て-form)",
+            "content": "[Verb て-form] + ならない\n\n気になってならない (ki ni natte naranai) - \"cannot help worrying\" 思えてならない (omoete naranai) - \"cannot help thinking\" 感じてならない (kanjite naranai) - \"cannot help feeling\""
+          },
+          {
+            "level": 3,
+            "heading": "With い-adjectives (くて)",
+            "content": "[い-adjective stem] + くて + ならない\n\n悲しくてならない (kanashikute naranai) - \"cannot help feeling sad\" 嬉しくてならない (ureshikute naranai) - \"cannot help feeling happy\" 寂しくてならない (sabishikute naranai) - \"cannot help feeling lonely\""
+          },
+          {
+            "level": 3,
+            "heading": "With な-adjectives (で)",
+            "content": "[な-adjective] + で + ならない\n\n不安でならない (fuan de naranai) - \"cannot help feeling anxious\" 心配でならない (shinpai de naranai) - \"cannot help worrying\" 残念でならない (zannen de naranai) - \"cannot help feeling regretful\""
+          }
+        ]
+      },
+      {
+        "level": 2,
+        "heading": "Uncontrollable Worry",
+        "content": "",
+        "children": [
+          {
+            "level": 3,
+            "heading": "Cannot stop worrying",
+            "content": "彼のことが気になってならない。 Kare no koto ga ki ni natte naranai. \"I cannot help worrying about him.\" 将来が心配でならない。 Shourai ga shinpai de naranai. \"I cannot help worrying about the future.\" この決定が気になってならない。 Kono kettei ga ki ni natte naranai. \"I cannot help being concerned about this decision.\""
+          }
+        ]
+      },
+      {
+        "level": 2,
+        "heading": "Spontaneous Emotions",
+        "content": "",
+        "children": [
+          {
+            "level": 3,
+            "heading": "Natural feelings",
+            "content": "彼女に会いたくてならない。 Kanojo ni aitakute naranai. \"I cannot help wanting to see her.\" 故郷が懐かしくてならない。 Kokyou ga natsukashikute naranai. \"I cannot help feeling nostalgic for my hometown.\" その話を聞いて悲しくてならない。 Sono hanashi wo kiite kanashikute naranai. \"I cannot help feeling sad hearing that story.\""
+          }
+        ]
+      },
+      {
+        "level": 2,
+        "heading": "Intellectual Impressions",
+        "content": "",
+        "children": [
+          {
+            "level": 3,
+            "heading": "Strong thoughts/impressions",
+            "content": "不思議に思えてならない。 Fushigi ni omoete naranai. \"I cannot help finding it strange.\" そう感じてならない。 Sou kanjite naranai. \"I cannot help feeling that way.\" 間違っているように思えてならない。 Machigatte iru you ni omoete naranai. \"I cannot help thinking it's wrong.\""
+          }
+        ]
+      },
+      {
+        "level": 2,
+        "heading": "Expressing Sadness",
+        "content": "",
+        "children": [
+          {
+            "level": 3,
+            "heading": "Uncontrollable sorrow",
+            "content": "彼の死が悲しくてならない。 Kare no shi ga kanashikute naranai. \"I cannot help feeling sad about his death.\" 別れが辛くてならない。 Wakare ga tsurakute naranai. \"I cannot help finding the parting painful.\" その光景が忘れられなくてならない。 Sono koukei ga wasurerarenakute naranai. \"I cannot help being unable to forget that scene.\""
+          }
+        ]
+      },
+      {
+        "level": 2,
+        "heading": "Expressing Joy",
+        "content": "",
+        "children": [
+          {
+            "level": 3,
+            "heading": "Overwhelming happiness",
+            "content": "嬉しくてならない。 Ureshikute naranai. \"I cannot help feeling happy.\" 誇らしくてならない。 Hokorashikute naranai. \"I cannot help feeling proud.\" ありがたくてならない。 Arigatakute naranai. \"I cannot help feeling grateful.\""
+          }
+        ]
+      },
+      {
+        "level": 2,
+        "heading": "Physical Sensations",
+        "content": "",
+        "children": [
+          {
+            "level": 3,
+            "heading": "Uncontrollable physical feelings",
+            "content": "眠くてならない。 Nemukute naranai. \"I cannot help feeling sleepy.\" お腹が空いてならない。 Onaka ga suite naranai. \"I cannot help feeling hungry.\" 喉が渇いてならない。 Nodo ga kawaite naranai. \"I cannot help feeling thirsty.\""
+          }
+        ]
+      },
+      {
+        "level": 2,
+        "heading": "Anxiety and Fear",
+        "content": "",
+        "children": [
+          {
+            "level": 3,
+            "heading": "Uncontrollable worry",
+            "content": "不安でならない。 Fuan de naranai. \"I cannot help feeling anxious.\" 恐ろしくてならない。 Osoroshikute naranai. \"I cannot help feeling afraid.\" 心配でならない。 Shinpai de naranai. \"I cannot help worrying.\""
+          }
+        ]
+      },
+      {
+        "level": 2,
+        "heading": "Polite Forms",
+        "content": "お会いしたくてなりません。 Oai shitakute narimasen. \"I cannot help wanting to meet you.\" 残念でなりません。 Zannen de narimasen. \"I cannot help feeling regretful.\" ご心配でならないことと存じます。 Goshinpai de naranai koto to zonjimasu. \"I imagine you cannot help worrying.\""
+      },
+      {
+        "level": 2,
+        "heading": "Common Expressions",
+        "content": "気になってならない (ki ni natte naranai) - \"cannot help worrying\" 悲しくてならない (kanashikute naranai) - \"cannot help feeling sad\" 嬉しくてならない (ureshikute naranai) - \"cannot help feeling happy\" 心配でならない (shinpai de naranai) - \"cannot help worrying\" 不安でならない (fuan de naranai) - \"cannot help feeling anxious\" 懐かしくてならない (natsukashikute naranai) - \"cannot help feeling nostalgic\" 思えてならない (omoete naranai) - \"cannot help thinking\""
+      },
+      {
+        "level": 2,
+        "heading": "Comparing てならない and てたまらない",
+        "content": "",
+        "children": [
+          {
+            "level": 3,
+            "heading": "Uncontrollable vs unbearable",
+            "content": "てならない - Spontaneous emotion (formal):\n\n悲しくてならない。 Kanashikute naranai. \"I cannot help feeling sad.\" (formal, literary)\n\nてたまらない - Unbearable/extreme (casual):\n\n悲しくてたまらない。 Kanashikute tamaranai. \"I'm unbearably sad.\" (casual, stronger)\n\n| Pattern | Formality | Strength | | ------------ | --------- | -------------- | | てならない | Formal | Uncontrollable | | てたまらない | Casual | Unbearable |"
+          }
+        ]
+      },
+      {
+        "level": 2,
+        "heading": "Comparing てならない and ずにはいられない",
+        "content": "",
+        "children": [
+          {
+            "level": 3,
+            "heading": "Cannot help feeling vs cannot help doing",
+            "content": "てならない - Spontaneous feeling:\n\n悲しくてならない。 Kanashikute naranai. \"I cannot help feeling sad.\" (emotion)\n\nずにはいられない - Cannot help doing:\n\n泣かずにはいられない。 Nakazuni wa irarenai. \"I cannot help crying.\" (action)\n\n| Pattern | Focus | Example | | ---------------- | --------------- | -------------------- | | てならない | Feeling/emotion | 悲しくてならない | | ずにはいられない | Action | 泣かずにはいられない |\n\nSee: 〜ずにはいられない (Cannot help but)"
+          }
+        ]
+      },
+      {
+        "level": 2,
+        "heading": "Regret and Disappointment",
+        "content": "",
+        "children": [
+          {
+            "level": 3,
+            "heading": "Uncontrollable regret",
+            "content": "残念でならない。 Zannen de naranai. \"I cannot help feeling regretful.\" 悔しくてならない。 Kuyashikute naranai. \"I cannot help feeling frustrated.\" 申し訳なくてならない。 Moushiwakenakute naranai. \"I cannot help feeling sorry.\""
+          }
+        ]
+      },
+      {
+        "level": 2,
+        "heading": "Longing and Desire",
+        "content": "",
+        "children": [
+          {
+            "level": 3,
+            "heading": "Uncontrollable wanting",
+            "content": "会いたくてならない。 Aitakute naranai. \"I cannot help wanting to meet.\" 帰りたくてならない。 Kaeritakute naranai. \"I cannot help wanting to go home.\" 知りたくてならない。 Shiritakute naranai. \"I cannot help wanting to know.\""
+          }
+        ]
+      },
+      {
+        "level": 2,
+        "heading": "Formal/Literary Usage",
+        "content": "",
+        "children": [
+          {
+            "level": 3,
+            "heading": "Written language",
+            "content": "てならない is quite formal and more common in:\n\nLiterature Formal writing Emotional expressions in formal contexts\n\nIn casual conversation, てたまらない is more common."
+          }
+        ]
+      },
+      {
+        "level": 2,
+        "heading": "Common Mistakes",
+        "content": "",
+        "children": [
+          {
+            "level": 3,
+            "heading": "Mistake 1: Using wrong て-form",
+            "content": "❌ 悲しいてならない ✓ 悲しくてならない\n\nUse くて for い-adjectives, not て."
+          },
+          {
+            "level": 3,
+            "heading": "Mistake 2: Using with volitional actions",
+            "content": "❌ 食べてならない (unnatural - eating is volitional) ✓ 食べたくてならない (wanting to eat - feeling)\n\nてならない is for emotions/sensations, not volitional actions."
+          },
+          {
+            "level": 3,
+            "heading": "Mistake 3: Confusing with てはならない",
+            "content": "てならない = cannot help feeling てはならない = must not do 悲しくてならない = cannot help feeling sad 食べてはならない = must not eat"
+          },
+          {
+            "level": 3,
+            "heading": "Mistake 4: Overusing in casual speech",
+            "content": "てならない is formal/literary. For casual speech:\n\nFormal: 悲しくてならない Casual: 悲しくてたまらない / すごく悲しい"
+          }
+        ]
+      },
+      {
+        "level": 2,
+        "heading": "Summary",
+        "content": "Key Points:\n\nてならない expresses uncontrollable spontaneous feelings Formation: [Verb/Adj て-form] + ならない Emphasizes emotions arising naturally Quite formal and literary Common with: 気になる, 悲しい, 嬉しい, 心配, 不安 Different from てたまらない (unbearable, casual) Different from ずにはいられない (cannot help doing action) Essential for expressing uncontrollable emotions formally",
+        "children": [
+          {
+            "level": 3,
+            "heading": "Company",
+            "content": "About Pricing Blog Contact"
+          },
+          {
+            "level": 3,
+            "heading": "Legal",
+            "content": "Privacy Policy Terms of Service Cookie Policy"
+          }
+        ]
+      }
+    ]
+  },
+  "metadata": {
+    "extracted_at": "2026-01-01T22:19:36.037536900Z",
+    "duration_ms": 4,
+    "extractors_matched": [
+      "metadata",
+      "examples",
+      "sections"
+    ],
+    "extractors_failed": [
+      "vocab_tables",
+      "definitions",
+      "content_blocks"
+    ]
+  }
+}

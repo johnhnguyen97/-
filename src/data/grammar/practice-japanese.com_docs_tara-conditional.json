@@ -1,0 +1,391 @@
+{
+  "config_name": "Language Learning Extractor",
+  "url": "https://practice-japanese.com/docs/tara-conditional/",
+  "data": {
+    "metadata": {
+      "title": "たら (tara) - If/When (past)"
+    },
+    "examples": [
+      {
+        "sentence": "と conditional - Natural consequence"
+      },
+      {
+        "sentence": "ば conditional - General condition"
+      },
+      {
+        "sentence": "なら conditional - Contextual"
+      },
+      {
+        "sentence": "Conditionals overview - All conditional forms"
+      },
+      {
+        "sentence": "〜たらどう - How about (advice)"
+      },
+      {
+        "sentence": "よかったら - If you'd like"
+      },
+      {
+        "sentence": "About"
+      },
+      {
+        "sentence": "Pricing"
+      },
+      {
+        "sentence": "Blog"
+      },
+      {
+        "sentence": "Contact"
+      },
+      {
+        "sentence": "Privacy Policy"
+      },
+      {
+        "sentence": "Terms of Service"
+      },
+      {
+        "sentence": "Cookie Policy"
+      }
+    ],
+    "sections": [
+      {
+        "level": 2,
+        "heading": "What is たら Conditional?",
+        "content": "たら is the most versatile conditional form, expressing hypothetical situations, sequential actions (\"when/after\"), and discoveries. It's formed from the past tense (た-form) + ら.\n\n雨が降ったら、行きません \"If it rains, I won't go\" (hypothetical) 家に着いたら、電話してね \"When you get home, call me\" (sequential) ドアを開けたら、誰もいなかった \"When I opened the door, no one was there\" (discovery)"
+      },
+      {
+        "level": 2,
+        "heading": "Formation",
+        "content": "",
+        "children": [
+          {
+            "level": 3,
+            "heading": "Pattern: た-form + ら",
+            "content": "| Verb | た-form | + ら | | ------ | ------- | -------- | | 行く | 行った | 行ったら | | 食べる | 食べた | 食べたら | | する | した | したら | | 来る | 来た | 来たら | | 読む | 読んだ | 読んだら | | 書く | 書いた | 書いたら |"
+          },
+          {
+            "level": 3,
+            "heading": "With adjectives",
+            "content": "い-adjectives: 高い → 高かったら な-adjectives: 静か → 静かだったら Nouns: 雨 → 雨だったら"
+          },
+          {
+            "level": 3,
+            "heading": "Negative form",
+            "content": "行かない → 行かなかったら (If (you) don't go) 高くない → 高くなかったら (If it's not expensive)"
+          }
+        ]
+      },
+      {
+        "level": 2,
+        "heading": "Three Main Uses",
+        "content": "",
+        "children": [
+          {
+            "level": 3,
+            "heading": "1. Hypothetical future (\"if\")",
+            "content": "明日雨が降ったら、中止です \"If it rains tomorrow, it's cancelled\" お金があったら、買いたい \"If I had money, I'd want to buy it\" 時間があったら、遊びに来てね \"If you have time, come visit\""
+          },
+          {
+            "level": 3,
+            "heading": "2. Sequential actions (\"when/after\")",
+            "content": "宿題が終わったら、遊ぼう \"When homework is finished, let's play\" 駅に着いたら、電話してください \"When you arrive at the station, please call\" ご飯を食べたら、出かけます \"After eating, I'll go out\""
+          },
+          {
+            "level": 3,
+            "heading": "3. Discovery/unexpected result",
+            "content": "家に帰ったら、猫が寝ていた \"When I got home, the cat was sleeping\" 窓を開けたら、雪が降っていた \"When I opened the window, it was snowing\" 財布を見たら、お金がなかった \"When I checked my wallet, there was no money\""
+          }
+        ]
+      },
+      {
+        "level": 2,
+        "heading": "Basic Usage",
+        "content": "",
+        "children": [
+          {
+            "level": 3,
+            "heading": "Hypothetical conditions",
+            "content": "暇だったら、手伝ってください \"If you're free, please help\" 分からなかったら、聞いてね \"If you don't understand, ask me\" よかったら、一緒に行きませんか \"If you'd like, won't you go together?\""
+          },
+          {
+            "level": 3,
+            "heading": "After completion",
+            "content": "仕事が終わったら、飲みに行こう \"When work is done, let's go drinking\" 春になったら、桜を見に行きたい \"When spring comes, I want to go see cherry blossoms\" 大人になったら、何になりたい？ \"When you become an adult, what do you want to be?\""
+          }
+        ]
+      },
+      {
+        "level": 2,
+        "heading": "Key Characteristics",
+        "content": "",
+        "children": [
+          {
+            "level": 3,
+            "heading": "Most versatile conditional",
+            "content": "Can use with: ✓ Commands/requests ✓ Volitional (~よう) ✓ Past tense results ✓ Desires (~たい) ✓ Any sentence type Most flexible!"
+          },
+          {
+            "level": 3,
+            "heading": "Works in all contexts",
+            "content": "Can replace other conditionals in most situations: 安いと買う → 安かったら買う ✓ 安ければ買う → 安かったら買う ✓ When in doubt, use たら!"
+          }
+        ]
+      },
+      {
+        "level": 2,
+        "heading": "Common Conversations",
+        "content": "",
+        "children": [
+          {
+            "level": 3,
+            "heading": "Example 1: Making Plans",
+            "content": "A: 週末、何する？ \"What are you doing this weekend?\" B: 天気がよかったら、ピクニックに行きたいな \"If the weather's good, I want to go on a picnic\" A: いいね！行こう \"Sounds good! Let's go\""
+          },
+          {
+            "level": 3,
+            "heading": "Example 2: Sequential Action",
+            "content": "A: これ、いつ送る？ \"When are you sending this?\" B: 確認が終わったら、すぐ送るよ \"When the check is done, I'll send it right away\" A: お願いね \"Please do\""
+          },
+          {
+            "level": 3,
+            "heading": "Example 3: Discovery",
+            "content": "A: 昨日どうだった？ \"How was yesterday?\" B: パーティーに行ったら、みんな帰ったところだった \"When I went to the party, everyone had just left\" A: え、残念！ \"Oh no, too bad!\""
+          }
+        ]
+      },
+      {
+        "level": 2,
+        "heading": "Common Mistakes",
+        "content": "",
+        "children": [
+          {
+            "level": 3,
+            "heading": "Mistake 1: Confusing with past tense",
+            "content": "たら is NOT past tense! 行ったら = \"If/when (you) go\" (future/hypothetical) 行った = \"Went\" (past tense) たら looks like past but isn't!"
+          },
+          {
+            "level": 3,
+            "heading": "Mistake 2: Using た twice",
+            "content": "Wrong: 食べたったら ❌ Right: 食べたら ✓ \"If/when (you) eat\" Don't double the た!"
+          },
+          {
+            "level": 3,
+            "heading": "Mistake 3: Wrong form",
+            "content": "Wrong: 食べるたら ❌ Right: 食べたら ✓ \"If/when (you) eat\" Must use た-form, not dictionary form!"
+          }
+        ]
+      },
+      {
+        "level": 2,
+        "heading": "たら vs Other Conditionals",
+        "content": "",
+        "children": [
+          {
+            "level": 3,
+            "heading": "たら - Most versatile",
+            "content": "雨が降ったら、中止 \"If it rains, cancelled\" Works everywhere Most common in casual speech"
+          },
+          {
+            "level": 3,
+            "heading": "と - Natural consequence",
+            "content": "雨が降ると、中止になる \"When it rains, it gets cancelled\" Habitual/natural only"
+          },
+          {
+            "level": 3,
+            "heading": "ば - General condition",
+            "content": "雨が降れば、中止 \"If it rains, cancelled\" More formal General condition"
+          },
+          {
+            "level": 3,
+            "heading": "なら - Contextual",
+            "content": "雨なら、中止だよ \"If it's rain, it's cancelled\" Based on given info"
+          }
+        ]
+      },
+      {
+        "level": 2,
+        "heading": "With Commands and Requests",
+        "content": "",
+        "children": [
+          {
+            "level": 3,
+            "heading": "Giving instructions",
+            "content": "困ったら、電話してください \"If you're in trouble, please call\" 分からなかったら、聞いてね \"If you don't understand, ask me\" 準備ができたら、教えてください \"When you're ready, please let me know\""
+          }
+        ]
+      },
+      {
+        "level": 2,
+        "heading": "Expressing Wishes",
+        "content": "",
+        "children": [
+          {
+            "level": 3,
+            "heading": "Counterfactual wishes",
+            "content": "お金があったら、旅行できるのに \"If I had money, I could travel\" (but I don't) もっと時間があったら、勉強できるのに \"If I had more time, I could study\" (but I don't) 彼がいたら、楽しいのに \"If he were here, it would be fun\" (but he isn't)"
+          }
+        ]
+      },
+      {
+        "level": 2,
+        "heading": "よかったら (If you'd like)",
+        "content": "",
+        "children": [
+          {
+            "level": 3,
+            "heading": "Polite invitation/offer",
+            "content": "よかったら、食べてください \"If you'd like, please eat\" よかったら、一緒に行きませんか \"If you'd like, won't you go together?\" よかったら、使ってください \"If you'd like, please use it\" Very common polite phrase!"
+          }
+        ]
+      },
+      {
+        "level": 2,
+        "heading": "Sequential たら",
+        "content": "",
+        "children": [
+          {
+            "level": 3,
+            "heading": "Step by step instructions",
+            "content": "まず、ここを押したら、次にこれを選んでください \"First, when you press here, next please select this\" 駅に着いたら、電話してください。 そうしたら、迎えに行きます \"When you arrive at the station, please call. Then I'll come pick you up\""
+          }
+        ]
+      },
+      {
+        "level": 2,
+        "heading": "Discovery Pattern",
+        "content": "",
+        "children": [
+          {
+            "level": 3,
+            "heading": "Past tense + たら for discoveries",
+            "content": "外を見たら、雪が降っていた \"When I looked outside, it was snowing\" 冷蔵庫を開けたら、何もなかった \"When I opened the fridge, there was nothing\" 電話したら、留守番電話だった \"When I called, it was voicemail\""
+          }
+        ]
+      },
+      {
+        "level": 2,
+        "heading": "Casual Suggestions",
+        "content": "",
+        "children": [
+          {
+            "level": 3,
+            "heading": "どうしたら (what if)",
+            "content": "どうしたらいい？ \"What should I do?\" (lit: If I do what, is it good?) どうしたら痩せられる？ \"How can I lose weight?\" (lit: If I do what, can I lose weight?)"
+          }
+        ]
+      },
+      {
+        "level": 2,
+        "heading": "Negative たら",
+        "content": "",
+        "children": [
+          {
+            "level": 3,
+            "heading": "If not / when not",
+            "content": "分からなかったら、聞いて \"If you don't understand, ask\" 行かなかったら、連絡してね \"If you're not going, let me know\" 美味しくなかったら、残していいよ \"If it's not delicious, you can leave it\""
+          }
+        ]
+      },
+      {
+        "level": 2,
+        "heading": "たら with のに (but)",
+        "content": "",
+        "children": [
+          {
+            "level": 3,
+            "heading": "Expressing regret/complaint",
+            "content": "勉強したら、合格できるのに \"If you studied, you could pass\" (but you don't) 早く寝たら、元気になるのに \"If you slept early, you'd feel better\" (but you don't) Shows what could happen but doesn't"
+          }
+        ]
+      },
+      {
+        "level": 2,
+        "heading": "Time Expressions",
+        "content": "",
+        "children": [
+          {
+            "level": 3,
+            "heading": "Temporal conditions",
+            "content": "夏になったら、海に行きたい \"When summer comes, I want to go to the beach\" 20歳になったら、お酒が飲める \"When you turn 20, you can drink alcohol\" 明日になったら、分かる \"When tomorrow comes, we'll know\""
+          }
+        ]
+      },
+      {
+        "level": 2,
+        "heading": "Polite Patterns",
+        "content": "",
+        "children": [
+          {
+            "level": 3,
+            "heading": "Formal requests",
+            "content": "お時間がありましたら、ご連絡ください \"If you have time, please contact me\" よろしかったら、こちらをどうぞ \"If it's alright, please have this\""
+          }
+        ]
+      },
+      {
+        "level": 2,
+        "heading": "Multiple たら",
+        "content": "",
+        "children": [
+          {
+            "level": 3,
+            "heading": "Multiple conditions",
+            "content": "お金があって、時間があったら、旅行したい \"If I have money and time, I want to travel\" 雨が止んで、天気がよくなったら、出かけよう \"When the rain stops and the weather gets better, let's go out\""
+          }
+        ]
+      },
+      {
+        "level": 2,
+        "heading": "Practice Sentences",
+        "content": "",
+        "children": [
+          {
+            "level": 3,
+            "heading": "Basic",
+            "content": "暇だったら、遊ぼう \"If you're free, let's hang out\" 終わったら、教えてね \"When you're done, let me know\" 家に帰ったら、すぐ寝た \"When I got home, I immediately slept\""
+          },
+          {
+            "level": 3,
+            "heading": "Intermediate",
+            "content": "もし宝くじに当たったら、世界一周旅行がしたい \"If I won the lottery, I'd want to travel around the world\" 駅に着いたら電話してください。 そうしたら、迎えに行きます \"When you arrive at the station, please call. Then I'll come pick you up\" 財布を見たら、お金が全然入っていなくて、びっくりした \"When I checked my wallet, there was no money at all, and I was surprised\""
+          },
+          {
+            "level": 3,
+            "heading": "Advanced",
+            "content": "もし時間を戻せたら、もっと一生懸命勉強して、 違う道を選んでいたかもしれない。でも、 今の人生も悪くないと思っている。 \"If I could turn back time, I might have studied harder and chosen a different path. However, I think my current life isn't bad either.\" このプロジェクトが成功したら、会社の業績が 大幅に改善されるでしょう。そうなったら、 従業員の待遇も良くなると期待しています。 \"If this project succeeds, the company's performance will improve significantly. If that happens, I expect employee treatment will also improve.\""
+          }
+        ]
+      },
+      {
+        "level": 2,
+        "heading": "Related Grammar Points",
+        "content": "と conditional - Natural consequence ば conditional - General condition なら conditional - Contextual Conditionals overview - All conditional forms 〜たらどう - How about (advice) よかったら - If you'd like",
+        "children": [
+          {
+            "level": 3,
+            "heading": "Company",
+            "content": "About Pricing Blog Contact"
+          },
+          {
+            "level": 3,
+            "heading": "Legal",
+            "content": "Privacy Policy Terms of Service Cookie Policy"
+          }
+        ]
+      }
+    ]
+  },
+  "metadata": {
+    "extracted_at": "2026-01-01T22:19:35.346137900Z",
+    "duration_ms": 3,
+    "extractors_matched": [
+      "metadata",
+      "examples",
+      "sections"
+    ],
+    "extractors_failed": [
+      "vocab_tables",
+      "definitions",
+      "content_blocks"
+    ]
+  }
+}

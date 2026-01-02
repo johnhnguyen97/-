@@ -1,0 +1,320 @@
+{
+  "config_name": "Language Learning Extractor",
+  "url": "https://practice-japanese.com/docs/email-etiquette/",
+  "data": {
+    "examples": [
+      {
+        "sentence": "About"
+      },
+      {
+        "sentence": "Pricing"
+      },
+      {
+        "sentence": "Blog"
+      },
+      {
+        "sentence": "Contact"
+      },
+      {
+        "sentence": "Privacy Policy"
+      },
+      {
+        "sentence": "Terms of Service"
+      },
+      {
+        "sentence": "Cookie Policy"
+      }
+    ],
+    "metadata": {
+      "title": "Email Etiquette"
+    },
+    "sections": [
+      {
+        "level": 2,
+        "heading": "Email Etiquette",
+        "content": "Japanese email etiquette (メールマナー) combines traditional letter-writing formality with modern digital communication. Business emails follow specific conventions that show professionalism and respect.\n\nKey elements: - Clear subject line - Proper greeting - Concise body - Polite closing - Signature block Professional standards Respectful communication"
+      },
+      {
+        "level": 2,
+        "heading": "Subject Line (件名)",
+        "content": "",
+        "children": [
+          {
+            "level": 3,
+            "heading": "Clear and specific",
+            "content": "Good examples: 【ご確認】会議資料について \"[Confirmation] Regarding meeting materials\" 10/15会議の日程変更のお願い \"Request for 10/15 meeting reschedule\" 見積書送付の件 \"Regarding quotation submission\" Specific content Action needed clear Professional format"
+          }
+        ]
+      },
+      {
+        "level": 2,
+        "heading": "Opening Greeting",
+        "content": "",
+        "children": [
+          {
+            "level": 3,
+            "heading": "Standard beginning",
+            "content": "First email: お世話になっております。 株式会社〇〇の田中です。 \"Thank you for your support. I'm Tanaka from 〇〇 Company.\" Ongoing correspondence: お世話になっております。 田中です。 Standard greeting Professional courtesy Clear identification"
+          }
+        ]
+      },
+      {
+        "level": 2,
+        "heading": "Body Structure",
+        "content": "",
+        "children": [
+          {
+            "level": 3,
+            "heading": "Organized content",
+            "content": "Standard flow: 1. Greeting お世話になっております 2. Purpose statement 〜の件でご連絡いたしました 3. Main content 詳細は以下の通りです 4. Request/Action ご確認のほどよろしくお願いいたします 5. Closing 今後ともよろしくお願いいたします Clear organization Logical flow Easy to follow"
+          }
+        ]
+      },
+      {
+        "level": 2,
+        "heading": "Greeting Variations",
+        "content": "",
+        "children": [
+          {
+            "level": 3,
+            "heading": "Context-dependent",
+            "content": "First contact: 突然のご連絡失礼いたします \"Apologies for the sudden contact\" Reply: ご返信ありがとうございます \"Thank you for your reply\" After meeting: 先日はありがとうございました \"Thank you for the other day\" Appropriate context Professional courtesy"
+          }
+        ]
+      },
+      {
+        "level": 2,
+        "heading": "Stating Purpose",
+        "content": "",
+        "children": [
+          {
+            "level": 3,
+            "heading": "Clear intention",
+            "content": "〜の件でご連絡いたしました \"I'm contacting you regarding...\" 〜についてお伺いしたく、メールいたしました \"I'm emailing to ask about...\" 〜のご報告です \"This is a report on...\" Early in email Clear purpose Reader convenience"
+          }
+        ]
+      },
+      {
+        "level": 2,
+        "heading": "Making Requests",
+        "content": "",
+        "children": [
+          {
+            "level": 3,
+            "heading": "Polite asking",
+            "content": "ご確認いただけますでしょうか \"Could you please confirm?\" お手数ですが、ご返信ください \"Sorry for the trouble, but please reply\" ご検討のほどよろしくお願いいたします \"Please consider this matter\" Maximum politeness Clear requests Professional tone"
+          }
+        ]
+      },
+      {
+        "level": 2,
+        "heading": "Providing Information",
+        "content": "",
+        "children": [
+          {
+            "level": 3,
+            "heading": "Clear presentation",
+            "content": "詳細は以下の通りです \"Details are as follows\" 下記をご覧ください \"Please see below\" 添付ファイルをご確認ください \"Please check the attached file\" Organized information Clear reference Easy access"
+          }
+        ]
+      },
+      {
+        "level": 2,
+        "heading": "Closing Phrases",
+        "content": "",
+        "children": [
+          {
+            "level": 3,
+            "heading": "Standard endings",
+            "content": "何卒よろしくお願いいたします \"I humbly ask for your consideration\" 今後ともよろしくお願いいたします \"I look forward to continued cooperation\" お忙しいところ恐れ入りますが \"I apologize for bothering you when busy\" Professional courtesy Respectful tone Standard phrases"
+          }
+        ]
+      },
+      {
+        "level": 2,
+        "heading": "Signature Block (署名)",
+        "content": "",
+        "children": [
+          {
+            "level": 3,
+            "heading": "Complete information",
+            "content": "-- 田中太郎 株式会社〇〇 営業部 〒123-4567 東京都〇〇区〇〇1-2-3 Tel: 03-1234-5678 Email: [email protected] -- Separator lines Full contact info Professional format Easy to find"
+          }
+        ]
+      },
+      {
+        "level": 2,
+        "heading": "Reply Protocol",
+        "content": "",
+        "children": [
+          {
+            "level": 3,
+            "heading": "Responding appropriately",
+            "content": "Reply quickly: 迅速な対応が重要 Quote relevant parts: 必要な部分を引用 Address all points: 全ての質問に答える Clear subject: Re: を活用 Professional speed Complete responses Clear communication"
+          }
+        ]
+      },
+      {
+        "level": 2,
+        "heading": "Attachment Etiquette",
+        "content": "",
+        "children": [
+          {
+            "level": 3,
+            "heading": "File handling",
+            "content": "Mentioning attachments: ファイルを添付いたします \"I'm attaching a file\" 資料を送付いたします \"I'm sending materials\" File size consideration: 大きいファイルは圧縮 File naming: 分かりやすい名前を使用 Professional handling Clear communication Technical consideration"
+          }
+        ]
+      },
+      {
+        "level": 2,
+        "heading": "Time Sensitivity",
+        "content": "",
+        "children": [
+          {
+            "level": 3,
+            "heading": "Urgency expression",
+            "content": "Urgent: お急ぎのところ恐れ入りますが \"I apologize for the urgency, but...\" お手数ですが、お早めにご確認ください \"Sorry for the trouble, but please check soon\" Deadline: 〇月〇日までにご返信いただけますと幸いです \"We would appreciate a reply by (date)\" Clear timeframes Respectful urgency Professional requests"
+          }
+        ]
+      },
+      {
+        "level": 2,
+        "heading": "Avoiding Miscommunication",
+        "content": "",
+        "children": [
+          {
+            "level": 3,
+            "heading": "Clear expression",
+            "content": "曖昧な表現を避ける Avoid ambiguous expressions 具体的に書く Write specifically 箇条書きを活用 Use bullet points 確認を求める Ask for confirmation Precision valued Clarity essential Professional standard"
+          }
+        ]
+      },
+      {
+        "level": 2,
+        "heading": "Tone Considerations",
+        "content": "",
+        "children": [
+          {
+            "level": 3,
+            "heading": "Professional balance",
+            "content": "Too casual: ❌ ちょっと待ってね Appropriate: ✓ 少々お待ちください Too stiff: ⚠️ 拝啓〜敬具 (in email, unless very formal) Good balance: ✓ お世話になっております Appropriate formality Professional but not excessive Modern business tone"
+          }
+        ]
+      },
+      {
+        "level": 2,
+        "heading": "Common Phrases",
+        "content": "",
+        "children": [
+          {
+            "level": 3,
+            "heading": "Frequently used",
+            "content": "お忙しいところ恐れ入りますが \"Sorry to bother you when busy\" ご多用中恐縮ですが \"I apologize for interrupting your busy schedule\" お手数をおかけしますが \"Sorry for the trouble\" 取り急ぎご連絡まで \"Just a quick message\" Standard courtesy Professional vocabulary Daily usage"
+          }
+        ]
+      },
+      {
+        "level": 2,
+        "heading": "Error Correction",
+        "content": "",
+        "children": [
+          {
+            "level": 3,
+            "heading": "Fixing mistakes",
+            "content": "Subject: 【訂正】前回メールの件 Body: 先ほどのメールに誤りがございました。 大変申し訳ございません。 正しくは〜です。 Acknowledge error Apologize Provide correction Professional accountability"
+          }
+        ]
+      },
+      {
+        "level": 2,
+        "heading": "Follow-up Emails",
+        "content": "",
+        "children": [
+          {
+            "level": 3,
+            "heading": "Checking status",
+            "content": "先日お送りしたメールについて、 ご確認いただけましたでしょうか。 \"Regarding the email I sent the other day, have you had a chance to review it?\" Polite reminder Not pushy Professional follow-up"
+          }
+        ]
+      },
+      {
+        "level": 2,
+        "heading": "Out of Office",
+        "content": "",
+        "children": [
+          {
+            "level": 3,
+            "heading": "Auto-reply message",
+            "content": "お世話になっております。 現在、休暇をいただいております。 〇月〇日から業務に復帰いたします。 ご迷惑をおかけして申し訳ございません。 緊急の場合は〜までご連絡ください。 Clear absence Return date Alternative contact Professional courtesy"
+          }
+        ]
+      },
+      {
+        "level": 2,
+        "heading": "Internal vs External",
+        "content": "",
+        "children": [
+          {
+            "level": 3,
+            "heading": "Tone differences",
+            "content": "Internal (同僚): お疲れ様です Less formal okay Direct communication External (取引先): お世話になっております Maximum formality Careful language Adjust appropriateness Know your audience"
+          }
+        ]
+      },
+      {
+        "level": 2,
+        "heading": "Mobile Email",
+        "content": "",
+        "children": [
+          {
+            "level": 3,
+            "heading": "Brief messages",
+            "content": "Still professional: お世話になっております。 田中です。 了解しました。 後ほど詳細をお送りします。 よろしくお願いいたします。 Brief but polite Essential info Professional tone maintained"
+          }
+        ]
+      },
+      {
+        "level": 2,
+        "heading": "Common Mistakes",
+        "content": "❌ No subject line Always include clear 件名 ✓ Specific subject ✓ 【重要】会議日程について ❌ Casual opening ✗ やあ、元気？ ✓ Professional greeting ✓ お世話になっております ❌ Unclear requests Be specific about what you need ✓ Clear action items ✓ 〇〇についてご確認ください ❌ Missing signature Always include contact info ✓ Complete signature block ✓ Name, company, contact details ❌ Reply all unnecessarily Consider who needs to see it ✓ Appropriate recipients ✓ Think before replying all Professionalism essential Clear communication Respectful tone"
+      },
+      {
+        "level": 2,
+        "heading": "Practical Example",
+        "content": "",
+        "children": [
+          {
+            "level": 3,
+            "heading": "Complete business email",
+            "content": "件名: 【ご確認】10/15会議資料について 〇〇株式会社 営業部 佐藤様 お世話になっております。 △△株式会社の田中です。 10月15日の会議資料についてご連絡いたします。 添付ファイルにて資料をお送りいたしますので、 ご確認のほどよろしくお願いいたします。 ご不明な点がございましたら、 お気軽にお問い合わせください。 お手数をおかけしますが、 10月10日までにご返信いただけますと幸いです。 今後ともよろしくお願いいたします。 -- 田中太郎 株式会社△△ 営業部 〒123-4567 東京都〇〇区〇〇1-2-3 Tel: 03-1234-5678 Email: [email protected] -- Clear subject Proper greeting Specific content Polite request Deadline mentioned Professional closing Complete signature Standard format Appropriate formality"
+          },
+          {
+            "level": 3,
+            "heading": "Company",
+            "content": "About Pricing Blog Contact"
+          },
+          {
+            "level": 3,
+            "heading": "Legal",
+            "content": "Privacy Policy Terms of Service Cookie Policy"
+          }
+        ]
+      }
+    ]
+  },
+  "metadata": {
+    "extracted_at": "2026-01-01T22:19:29.594372900Z",
+    "duration_ms": 3,
+    "extractors_matched": [
+      "metadata",
+      "examples",
+      "sections"
+    ],
+    "extractors_failed": [
+      "vocab_tables",
+      "definitions",
+      "content_blocks"
+    ]
+  }
+}

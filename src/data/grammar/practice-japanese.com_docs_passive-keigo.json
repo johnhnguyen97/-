@@ -1,0 +1,284 @@
+{
+  "config_name": "Language Learning Extractor",
+  "url": "https://practice-japanese.com/docs/passive-keigo/",
+  "data": {
+    "sections": [
+      {
+        "level": 2,
+        "heading": "Passive in Keigo",
+        "content": "Passive forms (られる/れる) in Japanese serve double duty as both passive voice and honorific language (尊敬語 - sonkeigo). When used as keigo, passive forms show respect to the subject of the sentence without implying adversity.\n\n先生が来られました Can mean: 1. \"Teacher came\" (honorific) 2. \"Was come to by teacher\" (passive - rare) Context determines Usually honorific meaning Respectful language"
+      },
+      {
+        "level": 2,
+        "heading": "Honorific Function",
+        "content": "",
+        "children": [
+          {
+            "level": 3,
+            "heading": "Showing respect",
+            "content": "社長が言われました \"President said\" (respectful) Not: \"Was said by president\" But: Honoring president's speech Passive form = respect marker お客様が召し上がられる \"Customer will eat\" (very respectful) Passive adds respect Standard keigo usage"
+          }
+        ]
+      },
+      {
+        "level": 2,
+        "heading": "Formation Same as Passive",
+        "content": "",
+        "children": [
+          {
+            "level": 3,
+            "heading": "Identical conjugation",
+            "content": "る-verbs: られる 来る → 来られる 食べる → 食べられる う-verbs: れる 話す → 話される 書く → 書かれる 行く → 行かれる Same forms as passive Context shows meaning Usually honorific in keigo context"
+          }
+        ]
+      },
+      {
+        "level": 2,
+        "heading": "Common in Business",
+        "content": "",
+        "children": [
+          {
+            "level": 3,
+            "heading": "Professional settings",
+            "content": "部長が出張に行かれます \"Department head will go on business trip\" 社長がおっしゃられました \"President said\" (respectful) お客様が到着されました \"Customer has arrived\" Business standard Showing respect Professional language"
+          }
+        ]
+      },
+      {
+        "level": 2,
+        "heading": "With Respect Verbs",
+        "content": "",
+        "children": [
+          {
+            "level": 3,
+            "heading": "Special honorific verbs",
+            "content": "いらっしゃる (来る honorific) おっしゃる (言う honorific) 召し上がる (食べる honorific) ご覧になる (見る honorific) These already honorific Adding られる = extra respect Sometimes considered redundant But used for maximum politeness おっしゃられる (double honorific) \"Say\" (very respectful, though criticized by purists)"
+          }
+        ]
+      },
+      {
+        "level": 2,
+        "heading": "Not Always Appropriate",
+        "content": "",
+        "children": [
+          {
+            "level": 3,
+            "heading": "Over-politeness",
+            "content": "❌ 先生が食べられました Can sound odd (honorific + passive) Better: 先生は召し上がりました \"Teacher ate\" (proper honorific verb) ❌ 社長が来られました Acceptable, but some prefer いらっしゃいました Choose proper honorific verbs when available Passive-honorific as backup Context determines best choice"
+          }
+        ]
+      },
+      {
+        "level": 2,
+        "heading": "With ください",
+        "content": "",
+        "children": [
+          {
+            "level": 3,
+            "heading": "Polite requests",
+            "content": "こちらにお座りください \"Please sit here\" (polite) お書きになってください \"Please write\" (honorific) Passive form less common in requests Use お〜になる pattern instead More natural keigo"
+          }
+        ]
+      },
+      {
+        "level": 2,
+        "heading": "Distinguishing from True Passive",
+        "content": "",
+        "children": [
+          {
+            "level": 3,
+            "heading": "Context is key",
+            "content": "Honorific (respectful): 先生が来られました \"Teacher came\" Subject is respected person True passive (adversity): 雨に降られました \"Was rained on\" Subject is affected person 社長が決められました \"President decided\" (honorific) vs 会社に決められました \"Was decided by company\" (passive) Particles help Respected person marked by が Agent in passive marked by に"
+          }
+        ]
+      },
+      {
+        "level": 2,
+        "heading": "Formality Levels",
+        "content": "",
+        "children": [
+          {
+            "level": 3,
+            "heading": "Honorific passive = formal",
+            "content": "Very formal: 社長が来られました Standard polite: 社長が来ました Casual: 社長が来た Passive-honorific = high formality Business, customer service Official situations"
+          }
+        ]
+      },
+      {
+        "level": 2,
+        "heading": "Customer Service",
+        "content": "",
+        "children": [
+          {
+            "level": 3,
+            "heading": "Standard usage",
+            "content": "お客様が注文されました \"Customer ordered\" どちらに行かれますか \"Where will you go?\" (to customer) 何を召し上がられますか \"What will you eat?\" (to customer) Service industry standard Showing maximum respect Expected language"
+          }
+        ]
+      },
+      {
+        "level": 2,
+        "heading": "Medical Settings",
+        "content": "",
+        "children": [
+          {
+            "level": 3,
+            "heading": "Doctor to patient",
+            "content": "いつから痛まれていますか \"Since when has it been hurting?\" (respectful) 薬は飲まれましたか \"Did you take medicine?\" (respectful) Respecting patient Professional courtesy Medical keigo"
+          }
+        ]
+      },
+      {
+        "level": 2,
+        "heading": "With Humble Forms",
+        "content": "",
+        "children": [
+          {
+            "level": 3,
+            "heading": "Mixing speech levels",
+            "content": "私が説明いたします。社長が確認されます。 \"I will explain. President will confirm.\" Humble for self (いたします) Honorific for superior (されます) Mixed appropriately Shows relative status Natural keigo"
+          }
+        ]
+      },
+      {
+        "level": 2,
+        "heading": "Regional Variations",
+        "content": "",
+        "children": [
+          {
+            "level": 3,
+            "heading": "Kansai dialect",
+            "content": "Kansai: はる (similar function) 先生が来はった \"Teacher came\" (respectful) Different from standard られる Regional respect marker Same concept"
+          }
+        ]
+      },
+      {
+        "level": 2,
+        "heading": "Potential Confusion",
+        "content": "",
+        "children": [
+          {
+            "level": 3,
+            "heading": "られる three meanings",
+            "content": "食べられる can mean: 1. Potential: \"can eat\" 彼は魚が食べられる \"He can eat fish\" 2. Passive: \"be eaten\" 魚が猫に食べられた \"Fish was eaten by cat\" 3. Honorific: \"eat (respectful)\" 先生が食べられました \"Teacher ate\" Context essential Particles help distinguish Common source of confusion"
+          }
+        ]
+      },
+      {
+        "level": 2,
+        "heading": "Modern Trends",
+        "content": "",
+        "children": [
+          {
+            "level": 3,
+            "heading": "Simplification",
+            "content": "Some argue られる overused Prefer pure honorific verbs: 来られる → いらっしゃる 言われる → おっしゃる する → なさる Purists prefer special verbs But られる still widespread Both acceptable"
+          }
+        ]
+      },
+      {
+        "level": 2,
+        "heading": "In Questions",
+        "content": "",
+        "children": [
+          {
+            "level": 3,
+            "heading": "Polite inquiries",
+            "content": "どちらに住まれていますか \"Where do you live?\" (respectful) 何時に起きられますか \"What time do you wake up?\" (respectful) Respectful questions Business acquaintances Formal situations"
+          }
+        ]
+      },
+      {
+        "level": 2,
+        "heading": "Email and Writing",
+        "content": "",
+        "children": [
+          {
+            "level": 3,
+            "heading": "Formal correspondence",
+            "content": "ご確認いただけますでしょうか \"Could you please confirm?\" 先日お会いしましたが、覚えていらっしゃいますか \"We met the other day, do you remember?\" Written keigo Business emails Formal letters"
+          }
+        ]
+      },
+      {
+        "level": 2,
+        "heading": "Teaching Keigo",
+        "content": "",
+        "children": [
+          {
+            "level": 3,
+            "heading": "Learning progression",
+            "content": "1. Basic polite (です/ます) 2. Humble forms (いたす, おる) 3. Honorific verbs (いらっしゃる, おっしゃる) 4. Passive-honorific (られる/れる) Learn in stages Build complexity Master gradually"
+          }
+        ]
+      },
+      {
+        "level": 2,
+        "heading": "Common Mistakes",
+        "content": "❌ Using for yourself ✗ 私が行かれます ✓ Use humble or neutral ✓ 私が参ります (humble) ✓ 私が行きます (neutral) ❌ Overusing double honorifics ✗ おっしゃられられる (triple!) ✓ One level enough ✓ おっしゃる or おっしゃいます ❌ With inappropriate subjects ✗ 子供が来られました (unless very formal context) ✓ Match respect to person ✓ For respected people only Respect only for others Not for yourself Choose appropriate level"
+      },
+      {
+        "level": 2,
+        "heading": "Practical Examples",
+        "content": "",
+        "children": [
+          {
+            "level": 3,
+            "heading": "Business situations",
+            "content": "部長はもう出かけられました \"Department head has already left\" 社長がこちらにいらっしゃいます \"President is coming here\" お客様が何かおっしゃいましたか \"Did customer say something?\" 先生はどう思われますか \"What do you think, teacher?\" お名前を書かれてください \"Please write your name\" (very polite) 明日何時に来られますか \"What time will you come tomorrow?\" (respectful) Business communication Customer service Professional respect Showing deference Formal situations Standard keigo usage Workplace necessity Cultural expectation"
+          },
+          {
+            "level": 3,
+            "heading": "Company",
+            "content": "About Pricing Blog Contact"
+          },
+          {
+            "level": 3,
+            "heading": "Legal",
+            "content": "Privacy Policy Terms of Service Cookie Policy"
+          }
+        ]
+      }
+    ],
+    "metadata": {
+      "title": "Passive in Keigo"
+    },
+    "examples": [
+      {
+        "sentence": "About"
+      },
+      {
+        "sentence": "Pricing"
+      },
+      {
+        "sentence": "Blog"
+      },
+      {
+        "sentence": "Contact"
+      },
+      {
+        "sentence": "Privacy Policy"
+      },
+      {
+        "sentence": "Terms of Service"
+      },
+      {
+        "sentence": "Cookie Policy"
+      }
+    ]
+  },
+  "metadata": {
+    "extracted_at": "2026-01-01T22:19:33.764052200Z",
+    "duration_ms": 4,
+    "extractors_matched": [
+      "metadata",
+      "examples",
+      "sections"
+    ],
+    "extractors_failed": [
+      "vocab_tables",
+      "definitions",
+      "content_blocks"
+    ]
+  }
+}

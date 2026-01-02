@@ -1,0 +1,289 @@
+{
+  "config_name": "Language Learning Extractor",
+  "url": "https://practice-japanese.com/docs/direct-passive/",
+  "data": {
+    "metadata": {
+      "title": "Direct Passive"
+    },
+    "sections": [
+      {
+        "level": 2,
+        "heading": "Direct Passive",
+        "content": "Direct passive (直接受身) is when the grammatical subject directly receives an action. This is similar to English passive voice: the thing acted upon becomes the sentence subject.\n\nActive: 先生が学生を褒めた \"Teacher praised student\" Passive: 学生が先生に褒められた \"Student was praised by teacher\" Subject receives action Agent marked by に Standard passive structure"
+      },
+      {
+        "level": 2,
+        "heading": "Formation",
+        "content": "",
+        "children": [
+          {
+            "level": 3,
+            "heading": "Basic conjugation",
+            "content": "る-verbs: Drop る, add られる 食べる → 食べられる \"be eaten\" 見る → 見られる \"be seen\" う-verbs: Change to あ-form, add れる 書く → 書かれる \"be written\" 読む → 読まれる \"be read\" 呼ぶ → 呼ばれる \"be called\" Irregular: する → される \"be done\" 来る → 来られる \"be come to\" Regular patterns Predictable formation"
+          }
+        ]
+      },
+      {
+        "level": 2,
+        "heading": "Particle Changes",
+        "content": "",
+        "children": [
+          {
+            "level": 3,
+            "heading": "Key transformations",
+            "content": "Active sentence: AがBを[verb] \"A does [verb] to B\" Passive sentence: BがAに[verb]られる \"B is [verb]ed by A\" を → が (object becomes subject) が → に (agent marked by に) Particle shift crucial Structural transformation"
+          }
+        ]
+      },
+      {
+        "level": 2,
+        "heading": "With Transitive Verbs",
+        "content": "",
+        "children": [
+          {
+            "level": 3,
+            "heading": "Most common usage",
+            "content": "Active: 警察が犯人を捕まえた \"Police caught criminal\" Passive: 犯人が警察に捕まえられた \"Criminal was caught by police\" Transitive verbs natural in passive Direct object becomes subject Agent becomes に phrase"
+          }
+        ]
+      },
+      {
+        "level": 2,
+        "heading": "Agent Omission",
+        "content": "",
+        "children": [
+          {
+            "level": 3,
+            "heading": "Often implicit",
+            "content": "この本は1950年に書かれた \"This book was written in 1950\" Agent not mentioned Focus on book Who wrote it unclear or unimportant 日本語が話されています \"Japanese is spoken\" Agent irrelevant General statement Common pattern"
+          }
+        ]
+      },
+      {
+        "level": 2,
+        "heading": "Common Uses",
+        "content": "",
+        "children": [
+          {
+            "level": 3,
+            "heading": "Descriptions",
+            "content": "この建物は1900年に建てられた \"This building was built in 1900\" 富士山は多くの人に愛されている \"Mt. Fuji is loved by many people\" 日本語は世界中で学ばれている \"Japanese is studied around the world\" Factual descriptions Historical information General truths"
+          },
+          {
+            "level": 3,
+            "heading": "Formal announcements",
+            "content": "会議は3時に開かれます \"Meeting will be held at 3 o'clock\" 試験は来週行われます \"Exam will be conducted next week\" Formal writing Official statements Professional contexts"
+          }
+        ]
+      },
+      {
+        "level": 2,
+        "heading": "Adversity Nuance",
+        "content": "",
+        "children": [
+          {
+            "level": 3,
+            "heading": "Sometimes unfortunate",
+            "content": "Even direct passive can carry adversity: 私の財布が盗まれた \"My wallet was stolen\" 彼は会社をクビにされた \"He was fired from company\" Negative situations Unfortunate events Victim perspective"
+          }
+        ]
+      },
+      {
+        "level": 2,
+        "heading": "With に as Agent",
+        "content": "",
+        "children": [
+          {
+            "level": 3,
+            "heading": "Marking doer",
+            "content": "学生が先生に褒められた \"Student was praised by teacher\" 泥棒が警察に捕まった \"Thief was caught by police\" に marks agent Who performed action Can be omitted if clear"
+          }
+        ]
+      },
+      {
+        "level": 2,
+        "heading": "Formality",
+        "content": "",
+        "children": [
+          {
+            "level": 3,
+            "heading": "More formal than active",
+            "content": "Passive voice: Generally more formal Common in writing Professional contexts Active voice: More direct Common in speech Everyday conversation Passive = formal register Choose appropriately"
+          }
+        ]
+      },
+      {
+        "level": 2,
+        "heading": "With される (from する)",
+        "content": "",
+        "children": [
+          {
+            "level": 3,
+            "heading": "Suru-verb passives",
+            "content": "勉強する → 勉強される \"be studied\" 利用する → 利用される \"be used\" 開催する → 開催される \"be held\" Common pattern Many compounds Productive form"
+          }
+        ]
+      },
+      {
+        "level": 2,
+        "heading": "Potential Confusion",
+        "content": "",
+        "children": [
+          {
+            "level": 3,
+            "heading": "られる has multiple meanings",
+            "content": "食べられる can mean: 1. \"Can eat\" (potential) 彼は納豆が食べられる \"He can eat natto\" 2. \"Be eaten\" (passive) 魚が猫に食べられた \"Fish was eaten by cat\" Context determines Particle pattern helps"
+          }
+        ]
+      },
+      {
+        "level": 2,
+        "heading": "With Inanimate Subjects",
+        "content": "",
+        "children": [
+          {
+            "level": 3,
+            "heading": "Things as subjects",
+            "content": "その問題は簡単に解かれた \"That problem was easily solved\" 新しい法律が作られた \"New law was made\" この歌は多くの人に歌われている \"This song is sung by many people\" Common pattern Things receiving actions Focus on object"
+          }
+        ]
+      },
+      {
+        "level": 2,
+        "heading": "Continuous Action",
+        "content": "",
+        "children": [
+          {
+            "level": 3,
+            "heading": "With ている",
+            "content": "この製品は世界中で使われている \"This product is used worldwide\" 日本語は何人に勉強されていますか \"By how many people is Japanese studied?\" Current ongoing state Habitual action Present relevance"
+          }
+        ]
+      },
+      {
+        "level": 2,
+        "heading": "Cannot Use with Intransitive",
+        "content": "",
+        "children": [
+          {
+            "level": 3,
+            "heading": "Only transitive verbs",
+            "content": "❌ Cannot make passive: 行く \"go\" (intransitive) 来る \"come\" (intransitive) 寝る \"sleep\" (intransitive) These have no direct object Cannot become passive subject Grammatically impossible Exception: Indirect passive uses these Different structure"
+          }
+        ]
+      },
+      {
+        "level": 2,
+        "heading": "Negative Passive",
+        "content": "",
+        "children": [
+          {
+            "level": 3,
+            "heading": "Not being done",
+            "content": "その提案は受け入れられなかった \"That proposal was not accepted\" 試験は延期されなかった \"Exam was not postponed\" Negative formation Standard conjugation"
+          }
+        ]
+      },
+      {
+        "level": 2,
+        "heading": "Past Passive",
+        "content": "",
+        "children": [
+          {
+            "level": 3,
+            "heading": "Was done",
+            "content": "手紙が書かれた \"Letter was written\" 会議が開かれた \"Meeting was held\" Past tense Completed action"
+          }
+        ]
+      },
+      {
+        "level": 2,
+        "heading": "Common Verbs in Passive",
+        "content": "",
+        "children": [
+          {
+            "level": 3,
+            "heading": "Frequently used",
+            "content": "使われる \"be used\" 書かれる \"be written\" 作られる \"be made\" 建てられる \"be built\" 呼ばれる \"be called\" 見られる \"be seen\" 聞かれる \"be asked/heard\" 知られる \"be known\" 愛される \"be loved\" Master these first Very common Daily usage"
+          }
+        ]
+      },
+      {
+        "level": 2,
+        "heading": "Comparison with English",
+        "content": "",
+        "children": [
+          {
+            "level": 3,
+            "heading": "Similar structure",
+            "content": "English: Object → Subject Japanese: Same transformation English: \"by\" marks agent Japanese: に marks agent English: Common in formal writing Japanese: Same tendency Parallel usage patterns Similar formality level"
+          }
+        ]
+      },
+      {
+        "level": 2,
+        "heading": "Common Mistakes",
+        "content": "❌ Using を for subject ✗ 学生を褒められた ✓ Use が for passive subject ✓ 学生が褒められた ❌ Using が for agent ✗ 先生が褒められた (ambiguous) ✓ Use に for agent ✓ 先生に褒められた ❌ Passive with intransitive ✗ 行かれた (as simple passive) ✓ Only transitive verbs Or indirect passive (different meaning) Particle patterns critical Structure must be correct"
+      },
+      {
+        "level": 2,
+        "heading": "Practical Examples",
+        "content": "",
+        "children": [
+          {
+            "level": 3,
+            "heading": "Real-life usage",
+            "content": "この本は去年出版された \"This book was published last year\" 彼は皆に尊敬されている \"He is respected by everyone\" この製品は日本で作られています \"This product is made in Japan\" 新しい法律が可決された \"New law was passed\" パーティーは中止された \"Party was canceled\" Formal descriptions Official statements News reports Written language Common in these contexts"
+          },
+          {
+            "level": 3,
+            "heading": "Company",
+            "content": "About Pricing Blog Contact"
+          },
+          {
+            "level": 3,
+            "heading": "Legal",
+            "content": "Privacy Policy Terms of Service Cookie Policy"
+          }
+        ]
+      }
+    ],
+    "examples": [
+      {
+        "sentence": "About"
+      },
+      {
+        "sentence": "Pricing"
+      },
+      {
+        "sentence": "Blog"
+      },
+      {
+        "sentence": "Contact"
+      },
+      {
+        "sentence": "Privacy Policy"
+      },
+      {
+        "sentence": "Terms of Service"
+      },
+      {
+        "sentence": "Cookie Policy"
+      }
+    ]
+  },
+  "metadata": {
+    "extracted_at": "2026-01-01T22:19:29.212832100Z",
+    "duration_ms": 4,
+    "extractors_matched": [
+      "metadata",
+      "examples",
+      "sections"
+    ],
+    "extractors_failed": [
+      "vocab_tables",
+      "definitions",
+      "content_blocks"
+    ]
+  }
+}

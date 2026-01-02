@@ -1,0 +1,443 @@
+{
+  "config_name": "Language Learning Extractor",
+  "url": "https://practice-japanese.com/docs/counter-nin/",
+  "data": {
+    "examples": [
+      {
+        "sentence": "Counter System Basics - How counters work"
+      },
+      {
+        "sentence": "Number System Overview - Japanese numbers"
+      },
+      {
+        "sentence": "何 (nani/nan) - What/how many"
+      },
+      {
+        "sentence": "家族 (kazoku) - Family terms"
+      },
+      {
+        "sentence": "で particle - Together/by means of"
+      },
+      {
+        "sentence": "Quantity expressions - Expressing amounts"
+      },
+      {
+        "sentence": "Polite expressions - Formal language"
+      },
+      {
+        "sentence": "About"
+      },
+      {
+        "sentence": "Pricing"
+      },
+      {
+        "sentence": "Blog"
+      },
+      {
+        "sentence": "Contact"
+      },
+      {
+        "sentence": "Privacy Policy"
+      },
+      {
+        "sentence": "Terms of Service"
+      },
+      {
+        "sentence": "Cookie Policy"
+      }
+    ],
+    "metadata": {
+      "title": "People (人)"
+    },
+    "sections": [
+      {
+        "level": 2,
+        "heading": "What is 人 (にん/り)?",
+        "content": "人 (にん/り) is the counter for people. It's one of the most essential counters in Japanese with special irregular readings for 1 and 2.\n\n1人 = ひとり (not いちにん!) 2人 = ふたり (not ににん!) 3人 = さんにん 4人 = よにん"
+      },
+      {
+        "level": 2,
+        "heading": "Complete People Counter Chart",
+        "content": "| Number | Reading | Romaji | Kanji | | ------ | ----------------- | ------------------- | ----- | | 1 | ひとり | hitori | 一人 | | 2 | ふたり | futari | 二人 | | 3 | さんにん | san-nin | 三人 | | 4 | よにん | yo-nin | 四人 | | 5 | ごにん | go-nin | 五人 | | 6 | ろくにん | roku-nin | 六人 | | 7 | しちにん/ななにん | shichi-nin/nana-nin | 七人 | | 8 | はちにん | hachi-nin | 八人 | | 9 | きゅうにん | kyuu-nin | 九人 | | 10 | じゅうにん | juu-nin | 十人 |",
+        "children": [
+          {
+            "level": 3,
+            "heading": "Larger Numbers",
+            "content": "11人 = じゅういちにん 20人 = にじゅうにん 100人 = ひゃくにん 1,000人 = せんにん 10,000人 = いちまんにん"
+          }
+        ]
+      },
+      {
+        "level": 2,
+        "heading": "Special Readings",
+        "content": "",
+        "children": [
+          {
+            "level": 3,
+            "heading": "ひとり (1 person)",
+            "content": "The only reading for one person:\n\n一人で行きます \"I'll go alone\" 一人暮らし \"Living alone\" 一人っ子 \"Only child\""
+          },
+          {
+            "level": 3,
+            "heading": "ふたり (2 people)",
+            "content": "The only reading for two people:\n\n二人で食べました \"We ate together (two people)\" 二人とも \"Both people\" 二人きり \"Just the two of us\""
+          },
+          {
+            "level": 3,
+            "heading": "Why the Irregularity?",
+            "content": "ひとり and ふたり come from native Japanese, while 3+ use Sino-Japanese numbers. This is a historical remnant."
+          }
+        ]
+      },
+      {
+        "level": 2,
+        "heading": "Common Patterns",
+        "content": "",
+        "children": [
+          {
+            "level": 3,
+            "heading": "〜人 + で (together/with)",
+            "content": "一人で \"Alone/by oneself\" 二人で \"Together (two people)\" 三人で行きました \"We went (three people together)\" 家族5人で住んでいます \"We live as a family of 5\""
+          },
+          {
+            "level": 3,
+            "heading": "〜人 + が/は (subject marker)",
+            "content": "3人が来ました \"3 people came\" 学生が10人います \"There are 10 students\" 友達が2人います \"I have 2 friends\""
+          },
+          {
+            "level": 3,
+            "heading": "〜人 + を (object marker)",
+            "content": "友達を5人招待しました \"I invited 5 friends\" 3人を選びました \"I selected 3 people\""
+          },
+          {
+            "level": 3,
+            "heading": "〜人 + の (possessive)",
+            "content": "3人の学生 \"3 students\" 二人の子供 \"2 children\" 5人の友達 \"5 friends\""
+          }
+        ]
+      },
+      {
+        "level": 2,
+        "heading": "Asking \"How Many People?\"",
+        "content": "",
+        "children": [
+          {
+            "level": 3,
+            "heading": "何人 (なんにん)",
+            "content": "何人いますか？ \"How many people are there?\" 何人来ますか？ \"How many people are coming?\" 何人必要ですか？ \"How many people are needed?\" 何人参加しますか？ \"How many people will participate?\""
+          },
+          {
+            "level": 3,
+            "heading": "何名 (なんめい) - Polite",
+            "content": "In formal situations:\n\n何名様ですか？ \"How many people?\" (polite, at restaurants) ご予約は何名様ですか？ \"How many people for the reservation?\""
+          }
+        ]
+      },
+      {
+        "level": 2,
+        "heading": "Common Situations",
+        "content": "",
+        "children": [
+          {
+            "level": 3,
+            "heading": "Restaurants",
+            "content": "A: 何名様ですか？ \"How many people?\" B: 4人です \"4 people\" A: こちらへどうぞ \"This way, please\""
+          },
+          {
+            "level": 3,
+            "heading": "Making Plans",
+            "content": "A: パーティーに何人来ますか？ \"How many people are coming to the party?\" B: 10人ぐらい来ます \"About 10 people are coming\" A: じゃあ、食べ物をたくさん用意しないと \"Then we need to prepare a lot of food\""
+          },
+          {
+            "level": 3,
+            "heading": "Family",
+            "content": "A: ご家族は何人ですか？ \"How many people are in your family?\" B: 4人家族です \"We're a family of 4\" A: お子さんは？ \"Children?\" B: 二人います \"I have 2\""
+          },
+          {
+            "level": 3,
+            "heading": "Work/School",
+            "content": "A: チームは何人ですか？ \"How many people are on the team?\" B: 6人です \"6 people\" A: それじゃ、ちょうどいいですね \"That's just right then\""
+          }
+        ]
+      },
+      {
+        "level": 2,
+        "heading": "Special Expressions",
+        "content": "",
+        "children": [
+          {
+            "level": 3,
+            "heading": "〜人目 (ordinal)",
+            "content": "\"The Nth person\":\n\n一人目 (ひとりめ) - the first person 二人目 (ふたりめ) - the second person 三人目 (さんにんめ) - the third person 彼は3人目の子供です \"He's the third child\""
+          },
+          {
+            "level": 3,
+            "heading": "〜人ずつ (each/apiece)",
+            "content": "一人ずつ入ってください \"Please enter one person at a time\" 二人ずつグループを作ってください \"Please make groups of 2\" 3人ずつ分かれましょう \"Let's divide into groups of 3\""
+          },
+          {
+            "level": 3,
+            "heading": "〜人とも (all/both)",
+            "content": "二人とも来ました \"Both people came\" 3人とも学生です \"All 3 are students\" 5人とも合格しました \"All 5 passed\""
+          },
+          {
+            "level": 3,
+            "heading": "〜人きり (just/only)",
+            "content": "二人きりで話したい \"I want to talk with just the two of us\" 一人きりにしないで \"Don't leave me alone\""
+          },
+          {
+            "level": 3,
+            "heading": "〜人前 (serving/portion)",
+            "content": "For food servings:\n\n3人前ください \"3 servings, please\" 一人前の料理 \"One serving of food\""
+          }
+        ]
+      },
+      {
+        "level": 2,
+        "heading": "Formal Alternatives",
+        "content": "",
+        "children": [
+          {
+            "level": 3,
+            "heading": "名 (めい) - Polite Counter",
+            "content": "Used in business/formal settings:\n\n参加者は50名です \"There are 50 participants\" 出席者は何名ですか？ \"How many attendees are there?\" 5名様でご予約いただいております \"We have a reservation for 5 people\""
+          },
+          {
+            "level": 3,
+            "heading": "方 (かた) - Honorific",
+            "content": "Very polite, for guests/customers:\n\nお二方 \"Two people\" (honorific) 何方様ですか？ \"How many people?\" (very polite)"
+          }
+        ]
+      },
+      {
+        "level": 2,
+        "heading": "Common Phrases",
+        "content": "",
+        "children": [
+          {
+            "level": 3,
+            "heading": "Living Situations",
+            "content": "一人暮らし \"Living alone\" 二人暮らし \"Living together (as a couple/two people)\" 家族4人で暮らしています \"We live as a family of 4\""
+          },
+          {
+            "level": 3,
+            "heading": "Being Alone",
+            "content": "一人で大丈夫です \"I'm fine alone\" 一人でできます \"I can do it by myself\" 一人じゃない \"You're not alone\""
+          },
+          {
+            "level": 3,
+            "heading": "Group Activities",
+            "content": "二人で映画を見た \"We watched a movie (two of us)\" 友達3人で遊びに行った \"I went out with 3 friends\" クラス全員30人で写真を撮った \"All 30 classmates took a photo\""
+          }
+        ]
+      },
+      {
+        "level": 2,
+        "heading": "Number + 人 + Position in Sentence",
+        "content": "",
+        "children": [
+          {
+            "level": 3,
+            "heading": "Beginning (Emphasis)",
+            "content": "5人が参加しました \"5 people participated\" 3人が合格した \"3 people passed\""
+          },
+          {
+            "level": 3,
+            "heading": "Middle (Natural)",
+            "content": "今日は友達が2人来ます \"2 friends are coming today\" パーティーに10人招待した \"I invited 10 people to the party\""
+          },
+          {
+            "level": 3,
+            "heading": "End (Count/Total)",
+            "content": "A: 何人いますか？ \"How many people are there?\" B: 全部で15人です \"15 people in total\""
+          }
+        ]
+      },
+      {
+        "level": 2,
+        "heading": "Combining with Other Counters",
+        "content": "",
+        "children": [
+          {
+            "level": 3,
+            "heading": "Age + People",
+            "content": "20歳の学生が3人います \"There are 3 twenty-year-old students\" 子供が二人いて、5歳と3歳です \"I have 2 children, 5 and 3 years old\""
+          },
+          {
+            "level": 3,
+            "heading": "Time + People",
+            "content": "3時間、5人で働きました \"5 people worked for 3 hours\" 一人30分ずつ話しました \"Each person spoke for 30 minutes\""
+          }
+        ]
+      },
+      {
+        "level": 2,
+        "heading": "Common Mistakes",
+        "content": "",
+        "children": [
+          {
+            "level": 3,
+            "heading": "Mistake 1: Using いちにん for 1 person",
+            "content": "Wrong: いちにん ❌ Right: ひとり ✓ \"1 person\""
+          },
+          {
+            "level": 3,
+            "heading": "Mistake 2: Using ににん for 2 people",
+            "content": "Wrong: ににん ❌ Right: ふたり ✓ \"2 people\""
+          },
+          {
+            "level": 3,
+            "heading": "Mistake 3: Wrong reading for 何人",
+            "content": "Wrong: なにじん (this means \"what nationality\") ❌ Right: なんにん (how many people) ✓ \"How many people?\""
+          },
+          {
+            "level": 3,
+            "heading": "Mistake 4: Forgetting the counter",
+            "content": "Wrong: 友達が3来ました ❌ Right: 友達が3人来ました ✓ \"3 friends came\""
+          },
+          {
+            "level": 3,
+            "heading": "Mistake 5: Using 人 for animals",
+            "content": "Wrong: 犬が2人います ❌ Right: 犬が2匹います ✓ \"There are 2 dogs\""
+          }
+        ]
+      },
+      {
+        "level": 2,
+        "heading": "Nationality vs Number of People",
+        "content": "",
+        "children": [
+          {
+            "level": 3,
+            "heading": "何人 (なにじん) - \"What nationality?\"",
+            "content": "あなたは何人ですか？ (なにじん) \"What nationality are you?\" 私はアメリカ人です \"I'm American\""
+          },
+          {
+            "level": 3,
+            "heading": "何人 (なんにん) - \"How many people?\"",
+            "content": "何人いますか？ (なんにん) \"How many people are there?\" 5人います \"There are 5 people\"\n\nContext usually makes it clear which is meant!"
+          }
+        ]
+      },
+      {
+        "level": 2,
+        "heading": "Casual vs Formal",
+        "content": "",
+        "children": [
+          {
+            "level": 3,
+            "heading": "Casual",
+            "content": "何人？ \"How many people?\" 二人で行く \"Going with 2 people\" 友達3人 \"3 friends\""
+          },
+          {
+            "level": 3,
+            "heading": "Polite",
+            "content": "何人いらっしゃいますか？ \"How many people are there?\" (honorific) お二人でいらっしゃいますか？ \"Are you two coming?\""
+          },
+          {
+            "level": 3,
+            "heading": "Formal/Business",
+            "content": "何名様でしょうか？ \"How many people?\" (very polite) 参加者は50名でございます \"There are 50 participants\""
+          }
+        ]
+      },
+      {
+        "level": 2,
+        "heading": "Common Conversations",
+        "content": "",
+        "children": [
+          {
+            "level": 3,
+            "heading": "Example 1: Restaurant Reservation",
+            "content": "A: ご予約のお電話ありがとうございます \"Thank you for calling for a reservation\" B: 明日の7時、4人で予約したいです \"I'd like to make a reservation for 4 people at 7pm tomorrow\" A: 4名様ですね。お名前をお願いします \"4 people. Your name, please?\""
+          },
+          {
+            "level": 3,
+            "heading": "Example 2: Group Project",
+            "content": "A: このプロジェクトは何人でやりますか？ \"How many people will work on this project?\" B: 5人のチームです \"It's a team of 5\" A: じゃあ、一人ずつ役割を決めましょう \"Then let's decide roles one person at a time\""
+          },
+          {
+            "level": 3,
+            "heading": "Example 3: Party Planning",
+            "content": "A: 誕生日パーティーに何人呼ぶ？ \"How many people will you invite to the birthday party?\" B: 友達を10人ぐらい \"About 10 friends\" A: 家族も入れたら全部で何人？ \"Including family, how many in total?\" B: 全部で15人ぐらいかな \"About 15 in total\""
+          },
+          {
+            "level": 3,
+            "heading": "Example 4: Travel",
+            "content": "A: 旅行は何人で行きますか？ \"How many people are going on the trip?\" B: 友達と二人で行きます \"I'm going with a friend (2 people)\" A: いいですね！楽しんでください \"That's nice! Have fun!\""
+          }
+        ]
+      },
+      {
+        "level": 2,
+        "heading": "Special Vocabulary",
+        "content": "",
+        "children": [
+          {
+            "level": 3,
+            "heading": "Family Members",
+            "content": "一人っ子 (ひとりっこ) \"Only child\" 二人兄弟 (ふたりきょうだい) \"Two siblings\" 三人家族 (さんにんかぞく) \"Family of 3\" 4人兄弟 (よにんきょうだい) \"Four siblings\""
+          },
+          {
+            "level": 3,
+            "heading": "Group Terms",
+            "content": "一人一人 (ひとりひとり) \"Each and every person\" 二人三脚 (ににんさんきゃく) \"Three-legged race\" (idiom: working together) 十人十色 (じゅうにんといろ) \"To each their own\" (lit: 10 people, 10 colors)"
+          }
+        ]
+      },
+      {
+        "level": 2,
+        "heading": "Practice Sentences",
+        "content": "",
+        "children": [
+          {
+            "level": 3,
+            "heading": "Basic",
+            "content": "友達が3人来ました \"3 friends came\" クラスに学生が20人います \"There are 20 students in the class\" 一人で住んでいます \"I live alone\""
+          },
+          {
+            "level": 3,
+            "heading": "Intermediate",
+            "content": "パーティーに何人招待しましたか？ \"How many people did you invite to the party?\" 二人で映画を見に行きませんか？ \"Shall we go see a movie together?\" チームは5人です \"The team has 5 people\""
+          },
+          {
+            "level": 3,
+            "heading": "Advanced",
+            "content": "この会議には何名出席されますか？ \"How many people will attend this meeting?\" 参加者が100人を超えました \"The number of participants exceeded 100\" 一人一人の意見を聞きたいと思います \"I'd like to hear each person's opinion\""
+          }
+        ]
+      },
+      {
+        "level": 2,
+        "heading": "Related Grammar Points",
+        "content": "Counter System Basics - How counters work Number System Overview - Japanese numbers 何 (nani/nan) - What/how many 家族 (kazoku) - Family terms で particle - Together/by means of Quantity expressions - Expressing amounts Polite expressions - Formal language",
+        "children": [
+          {
+            "level": 3,
+            "heading": "Company",
+            "content": "About Pricing Blog Contact"
+          },
+          {
+            "level": 3,
+            "heading": "Legal",
+            "content": "Privacy Policy Terms of Service Cookie Policy"
+          }
+        ]
+      }
+    ]
+  },
+  "metadata": {
+    "extracted_at": "2026-01-01T22:19:28.509115500Z",
+    "duration_ms": 4,
+    "extractors_matched": [
+      "metadata",
+      "examples",
+      "sections"
+    ],
+    "extractors_failed": [
+      "vocab_tables",
+      "definitions",
+      "content_blocks"
+    ]
+  }
+}

@@ -1,0 +1,522 @@
+{
+  "config_name": "Language Learning Extractor",
+  "url": "https://practice-japanese.com/docs/hodo-comparison/",
+  "data": {
+    "sections": [
+      {
+        "level": 2,
+        "heading": "What is ほど?",
+        "content": "ほど (程) expresses extent, degree, or the level \"as...as.\" It has multiple functions: (1) showing the degree or extent of something, (2) making equal comparisons, (3) expressing \"the more...the more\" patterns, and (4) indicating approximation. It's generally more formal than くらい/ぐらい.\n\n彼ほど頭がいい人はいない \"There's no one as smart as him\" 死ぬほど疲れた \"Tired to the point of dying\" 勉強すればするほど難しくなる \"The more I study, the harder it becomes\""
+      },
+      {
+        "level": 2,
+        "heading": "Basic Structure",
+        "content": "",
+        "children": [
+          {
+            "level": 3,
+            "heading": "Noun + ほど",
+            "content": "これほど美しい景色はない \"There's no scenery as beautiful as this\" Standard of comparison"
+          },
+          {
+            "level": 3,
+            "heading": "Verb + ほど",
+            "content": "泣くほど嬉しい \"So happy I could cry\" Extreme degree"
+          }
+        ]
+      },
+      {
+        "level": 2,
+        "heading": "Usage and Meaning",
+        "content": "",
+        "children": [
+          {
+            "level": 3,
+            "heading": "Equal comparison (as...as)",
+            "content": "彼女ほど優しい人はいない \"There's no one as kind as her\" 君ほど背が高くない \"Not as tall as you\" Comparison of equality"
+          },
+          {
+            "level": 3,
+            "heading": "Extreme degree/extent",
+            "content": "死ぬほど好き \"Like so much I could die\" 気が狂うほど心配した \"Worried to the point of going crazy\" Hyperbolic intensity"
+          },
+          {
+            "level": 3,
+            "heading": "Approximation",
+            "content": "10人ほど \"About 10 people\" 1時間ほど \"About an hour\" Similar to くらい but more formal"
+          }
+        ]
+      },
+      {
+        "level": 2,
+        "heading": "ほど vs くらい/ぐらい",
+        "content": "",
+        "children": [
+          {
+            "level": 3,
+            "heading": "ほど = more formal",
+            "content": "3時間ほどかかります \"Takes about 3 hours\" (formal) Literary/polite contexts"
+          },
+          {
+            "level": 3,
+            "heading": "くらい/ぐらい = neutral/casual",
+            "content": "3時間くらいかかる \"Takes about 3 hours\" (casual) Everyday conversation"
+          },
+          {
+            "level": 3,
+            "heading": "Interchangeable in many cases",
+            "content": "これほど = これくらい \"About this much\" Context determines choice"
+          }
+        ]
+      },
+      {
+        "level": 2,
+        "heading": "Negative Comparison Pattern",
+        "content": "",
+        "children": [
+          {
+            "level": 3,
+            "heading": "A ほど B ない (not as...as)",
+            "content": "東京ほど大きくない \"Not as big as Tokyo\" 去年ほど寒くない \"Not as cold as last year\" Negative comparison"
+          },
+          {
+            "level": 3,
+            "heading": "Double negative = superlative",
+            "content": "彼ほど速い人はいない \"There's no one as fast as him\" = \"He's the fastest\" Strongest expression"
+          }
+        ]
+      },
+      {
+        "level": 2,
+        "heading": "Position in Sentence",
+        "content": "",
+        "children": [
+          {
+            "level": 3,
+            "heading": "After the standard",
+            "content": "私ほど働く人はいない \"There's no one who works as much as me\" ほど marks the standard"
+          },
+          {
+            "level": 3,
+            "heading": "With quantities",
+            "content": "100人ほど集まった \"About 100 people gathered\" Follows number+counter"
+          }
+        ]
+      },
+      {
+        "level": 2,
+        "heading": "Common Patterns",
+        "content": "",
+        "children": [
+          {
+            "level": 3,
+            "heading": "〜ば〜ほど (the more...the more)",
+            "content": "勉強すればするほど面白い \"The more I study, the more interesting it becomes\" 見れば見るほど好きになる \"The more I look, the more I like it\" Proportional relationship"
+          },
+          {
+            "level": 3,
+            "heading": "〜ほど〜はない (nothing as...as)",
+            "content": "これほど美味しいものはない \"There's nothing as delicious as this\" これほど難しい問題はない \"There's no problem as difficult as this\" Superlative meaning"
+          },
+          {
+            "level": 3,
+            "heading": "〜ほどでもない (not quite as...as)",
+            "content": "思ったほどでもない \"Not quite as (good/bad) as I thought\" 噂ほどでもなかった \"Wasn't quite as (the rumor suggested)\" Falls short of expectation"
+          }
+        ]
+      },
+      {
+        "level": 2,
+        "heading": "With Verbs",
+        "content": "",
+        "children": [
+          {
+            "level": 3,
+            "heading": "Verb dictionary form + ほど",
+            "content": "泣くほど嬉しい \"So happy I could cry\" 倒れるほど疲れた \"So tired I could collapse\" Extreme degree"
+          },
+          {
+            "level": 3,
+            "heading": "する + ほど pattern",
+            "content": "考えれば考えるほど分からない \"The more I think, the less I understand\" 練習すればするほど上手になる \"The more you practice, the better you get\" Repeated verb emphasis"
+          }
+        ]
+      },
+      {
+        "level": 2,
+        "heading": "Expressing Extremes",
+        "content": "",
+        "children": [
+          {
+            "level": 3,
+            "heading": "Hyperbolic expressions",
+            "content": "死ぬほど暑い \"So hot I could die\" 気絶するほど驚いた \"So surprised I could faint\" 痛いほど分かる \"Understand painfully well\" Exaggeration"
+          }
+        ]
+      },
+      {
+        "level": 2,
+        "heading": "Approximation Usage",
+        "content": "",
+        "children": [
+          {
+            "level": 3,
+            "heading": "Formal approximation",
+            "content": "2時間ほどお待ちください \"Please wait about 2 hours\" 30名ほどご参加いただきました \"About 30 people participated\" Polite/business contexts"
+          },
+          {
+            "level": 3,
+            "heading": "Time periods",
+            "content": "1週間ほど前 \"About a week ago\" 数日ほど \"About several days\" Formal time reference"
+          }
+        ]
+      },
+      {
+        "level": 2,
+        "heading": "Polite and Casual",
+        "content": "",
+        "children": [
+          {
+            "level": 3,
+            "heading": "More common in formal speech",
+            "content": "Formal: 10分ほどお待ちください \"Please wait about 10 minutes\" Casual: 10分くらい待って \"Wait about 10 minutes\" Register difference"
+          }
+        ]
+      },
+      {
+        "level": 2,
+        "heading": "The More...The More Pattern",
+        "content": "",
+        "children": [
+          {
+            "level": 3,
+            "heading": "Verb-ば Verb + ほど",
+            "content": "食べれば食べるほど太る \"The more I eat, the more weight I gain\" 走れば走るほど痩せる \"The more I run, the more weight I lose\" Cause-effect relationship"
+          },
+          {
+            "level": 3,
+            "heading": "With adjectives",
+            "content": "速ければ速いほどいい \"The faster the better\" 安ければ安いほどいい \"The cheaper the better\" Preference for extreme"
+          }
+        ]
+      },
+      {
+        "level": 2,
+        "heading": "Common Contexts",
+        "content": "",
+        "children": [
+          {
+            "level": 3,
+            "heading": "Comparisons of people",
+            "content": "彼ほど優秀な学生はいない \"There's no student as excellent as him\" 誰ほどでもない \"Not as (good) as anyone\" Relative ability"
+          },
+          {
+            "level": 3,
+            "heading": "Intensity expressions",
+            "content": "叫びたくなるほど嬉しい \"So happy I want to scream\" 涙が出るほど笑った \"Laughed so hard I cried\" Emotional intensity"
+          },
+          {
+            "level": 3,
+            "heading": "Expectations vs reality",
+            "content": "思ったほど難しくない \"Not as difficult as I thought\" 期待したほど良くなかった \"Not as good as I expected\" Unmet expectations"
+          }
+        ]
+      },
+      {
+        "level": 2,
+        "heading": "Negative Forms",
+        "content": "",
+        "children": [
+          {
+            "level": 3,
+            "heading": "ほど〜ない",
+            "content": "君ほど頑張っていない \"Not working as hard as you\" 去年ほど忙しくない \"Not as busy as last year\" Comparative negation"
+          }
+        ]
+      },
+      {
+        "level": 2,
+        "heading": "With Demonstratives",
+        "content": "",
+        "children": [
+          {
+            "level": 3,
+            "heading": "これ/それ/あれ + ほど",
+            "content": "これほど美しい \"As beautiful as this\" それほど悪くない \"Not that bad\" Degree reference"
+          }
+        ]
+      },
+      {
+        "level": 2,
+        "heading": "それほど (not that much)",
+        "content": "",
+        "children": [
+          {
+            "level": 3,
+            "heading": "Common negative pattern",
+            "content": "それほど高くない \"Not that expensive\" それほど好きじゃない \"Don't like it that much\" Moderate negation Often with negative"
+          }
+        ]
+      },
+      {
+        "level": 2,
+        "heading": "Common Mistakes",
+        "content": "",
+        "children": [
+          {
+            "level": 3,
+            "heading": "Using with exact numbers",
+            "content": "Unnatural: ちょうど10人ほど ⚠️ Natural: 10人ほど ✓ Or: ちょうど10人 ✓ ほど implies approximation"
+          },
+          {
+            "level": 3,
+            "heading": "Confusing with まで (until)",
+            "content": "Different: 駅まで \"Until/to the station\" (destination) Different: 駅ほど \"About as far as the station\" (comparison) Different particles"
+          },
+          {
+            "level": 3,
+            "heading": "Wrong verb form in patterns",
+            "content": "Wrong: 勉強するほど面白い ⚠️ Correct: 勉強すればするほど面白い ✓ \"The more I study, the more interesting\" Need conditional ば form Repeat the verb"
+          }
+        ]
+      },
+      {
+        "level": 2,
+        "heading": "Regional Variations",
+        "content": "",
+        "children": [
+          {
+            "level": 3,
+            "heading": "Standard ほど",
+            "content": "これほど美しい \"This beautiful\" Universal usage"
+          },
+          {
+            "level": 3,
+            "heading": "Written form 程",
+            "content": "その程度 \"That degree/extent\" Formal documents Same pronunciation"
+          }
+        ]
+      },
+      {
+        "level": 2,
+        "heading": "Formal Alternatives",
+        "content": "",
+        "children": [
+          {
+            "level": 3,
+            "heading": "程度 (ていど)",
+            "content": "この程度の問題 \"A problem of this degree\" Noun form Very formal"
+          }
+        ]
+      },
+      {
+        "level": 2,
+        "heading": "Set Expressions",
+        "content": "",
+        "children": [
+          {
+            "level": 3,
+            "heading": "Common phrases",
+            "content": "ほどほどに \"In moderation\" そこそこ \"Reasonably/moderately\" 程遠い (ほどとおい) \"Far from\" Fixed expressions"
+          }
+        ]
+      },
+      {
+        "level": 2,
+        "heading": "ほどでもない Pattern",
+        "content": "",
+        "children": [
+          {
+            "level": 3,
+            "heading": "Less than expected",
+            "content": "評判ほどでもなかった \"Not as good as the reputation\" 心配したほどでもない \"Not as (bad) as I worried\" Disappointment or relief"
+          }
+        ]
+      },
+      {
+        "level": 2,
+        "heading": "Time and Frequency",
+        "content": "",
+        "children": [
+          {
+            "level": 3,
+            "heading": "Approximate time",
+            "content": "1年ほど前 \"About a year ago\" しばらくほど \"For a while\" Formal time expressions"
+          }
+        ]
+      },
+      {
+        "level": 2,
+        "heading": "Quantity Expressions",
+        "content": "",
+        "children": [
+          {
+            "level": 3,
+            "heading": "Formal amounts",
+            "content": "数十人ほど \"About several dozen people\" 半分ほど \"About half\" Business/formal contexts"
+          }
+        ]
+      },
+      {
+        "level": 2,
+        "heading": "Emphasis Patterns",
+        "content": "",
+        "children": [
+          {
+            "level": 3,
+            "heading": "これほどまでに",
+            "content": "これほどまでに美しいとは \"I didn't know it was beautiful to this extent\" Extra emphasis Formal/literary"
+          }
+        ]
+      },
+      {
+        "level": 2,
+        "heading": "Double Negatives",
+        "content": "",
+        "children": [
+          {
+            "level": 3,
+            "heading": "Superlative meaning",
+            "content": "彼ほど速い人はいない \"There's no one as fast as him\" = He's the fastest Strongest form of praise"
+          }
+        ]
+      },
+      {
+        "level": 2,
+        "heading": "Conditional Patterns",
+        "content": "",
+        "children": [
+          {
+            "level": 3,
+            "heading": "ほど〜なら",
+            "content": "そこまでほど好きなら買えば \"If you like it that much, buy it\" Conditional extent"
+          }
+        ]
+      },
+      {
+        "level": 2,
+        "heading": "In Questions",
+        "content": "",
+        "children": [
+          {
+            "level": 3,
+            "heading": "Asking about degree",
+            "content": "どのほど難しいですか \"How difficult is it?\" どれほどの時間 \"How much time\" Formal question form"
+          }
+        ]
+      },
+      {
+        "level": 2,
+        "heading": "Comparison with Multiple Standards",
+        "content": "",
+        "children": [
+          {
+            "level": 3,
+            "heading": "A ほど B ほど",
+            "content": "東京ほど大阪ほど大きくない \"Not as big as Tokyo or Osaka\" Multiple comparisons Uncommon pattern"
+          }
+        ]
+      },
+      {
+        "level": 2,
+        "heading": "Practice Sentences",
+        "content": "",
+        "children": [
+          {
+            "level": 3,
+            "heading": "Basic",
+            "content": "これほど嬉しいことはない \"Nothing is as happy as this\" 思ったほど難しくない \"Not as difficult as I thought\" 10人ほど来た \"About 10 people came\""
+          },
+          {
+            "level": 3,
+            "heading": "Intermediate",
+            "content": "彼女ほど日本語が上手な外国人は見たことがない \"I've never seen a foreigner as good at Japanese as her\" 勉強すればするほど、もっと勉強したくなる \"The more I study, the more I want to study\" 噂で聞いていたほど怖くなかった \"It wasn't as scary as I heard in the rumors\""
+          },
+          {
+            "level": 3,
+            "heading": "Advanced",
+            "content": "人生において、努力すればするほど 運も味方してくれるものだ。才能が なくても、諦めずに続ければ、 いつか必ず報われる日が来る。 成功している人ほど、実は見えない ところで多くの失敗を経験している。 \"In life, the more effort you make, the more luck sides with you. Even without talent, if you continue without giving up, the day will surely come when you're rewarded. The more successful people are, in fact, the more failures they've experienced behind the scenes.\" 技術が進歩すればするほど、人々の生活は 便利になる。しかし、便利になればなるほど、 失われるものもある。昔の人々ほど、 自然と共に生きる知恵を持っていた。 現代人は、便利さを追求するあまり、 大切なものを忘れているのかもしれない。 \"The more technology progresses, the more convenient people's lives become. However, the more convenient things become, the more is lost. People of the past had wisdom for living with nature like no one else. Modern people, in their pursuit of convenience, may have forgotten important things.\""
+          }
+        ]
+      },
+      {
+        "level": 2,
+        "heading": "Related Grammar Points",
+        "content": "くらい/ぐらい - About (more casual) より - Than (comparison) のほうが - More than (preference) 一番 - Most (superlative) 同じ - Same (equality) 〜ば〜ほど - The more...the more Negative comparisons - Not as...as patterns",
+        "children": [
+          {
+            "level": 3,
+            "heading": "Company",
+            "content": "About Pricing Blog Contact"
+          },
+          {
+            "level": 3,
+            "heading": "Legal",
+            "content": "Privacy Policy Terms of Service Cookie Policy"
+          }
+        ]
+      }
+    ],
+    "metadata": {
+      "title": "〜ほど (As...as)"
+    },
+    "examples": [
+      {
+        "sentence": "くらい/ぐらい - About (more casual)"
+      },
+      {
+        "sentence": "より - Than (comparison)"
+      },
+      {
+        "sentence": "のほうが - More than (preference)"
+      },
+      {
+        "sentence": "一番 - Most (superlative)"
+      },
+      {
+        "sentence": "同じ - Same (equality)"
+      },
+      {
+        "sentence": "〜ば〜ほど - The more...the more"
+      },
+      {
+        "sentence": "Negative comparisons - Not as...as patterns"
+      },
+      {
+        "sentence": "About"
+      },
+      {
+        "sentence": "Pricing"
+      },
+      {
+        "sentence": "Blog"
+      },
+      {
+        "sentence": "Contact"
+      },
+      {
+        "sentence": "Privacy Policy"
+      },
+      {
+        "sentence": "Terms of Service"
+      },
+      {
+        "sentence": "Cookie Policy"
+      }
+    ]
+  },
+  "metadata": {
+    "extracted_at": "2026-01-01T22:19:29.747054700Z",
+    "duration_ms": 4,
+    "extractors_matched": [
+      "metadata",
+      "examples",
+      "sections"
+    ],
+    "extractors_failed": [
+      "vocab_tables",
+      "definitions",
+      "content_blocks"
+    ]
+  }
+}

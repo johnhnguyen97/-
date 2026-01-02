@@ -1,0 +1,416 @@
+{
+  "config_name": "Language Learning Extractor",
+  "url": "https://practice-japanese.com/docs/kara-vs-node/",
+  "data": {
+    "sections": [
+      {
+        "level": 2,
+        "heading": "Overview",
+        "content": "Both から and ので mean \"because\" or \"since,\" but they differ in formality, subjectivity, and usage. Understanding when to use each is crucial for natural Japanese.\n\nから: Subjective, casual, can end sentences ので: Objective, polite, cannot end sentences 雨だから、行かない (subjective decision) \"It's raining, so I won't go\" 雨なので、中止です (objective fact) \"Because of rain, it's cancelled\""
+      },
+      {
+        "level": 2,
+        "heading": "Key Differences",
+        "content": "",
+        "children": [
+          {
+            "level": 3,
+            "heading": "1. Subjectivity vs Objectivity",
+            "content": "から - Subjective judgment\n\n疲れたから、休む \"I'm tired, so I'll rest\" (my decision) 好きだから、買った \"I liked it, so I bought it\" (my feeling) Speaker's personal opinion/decision\n\nので - Objective reason\n\n会議があるので、行けません \"I have a meeting, so I can't go\" (factual reason) 閉店時間なので、帰ります \"It's closing time, so I'll leave\" (natural consequence) States facts, natural results"
+          },
+          {
+            "level": 3,
+            "heading": "2. Formality",
+            "content": "から - Casual to neutral\n\n忙しいから、無理 \"I'm busy, so it's impossible\" (casual) Used with friends, family Okay in everyday polite conversation\n\nので - Polite to formal\n\n忙しいので、失礼します \"I'm busy, so I'll excuse myself\" (polite) Preferred in business Better for formal situations"
+          },
+          {
+            "level": 3,
+            "heading": "3. Sentence Ending",
+            "content": "から - Can end sentences\n\nA: どうして？ \"Why?\" B: 疲れたから \"Because I'm tired\" ✓ Can end with から in casual speech\n\nので - Cannot end sentences\n\nA: どうして？ \"Why?\" B: 疲れたので ❌ B: 疲れたから ✓ \"Because I'm tired\" ✗ Must have a result clause after ので"
+          }
+        ]
+      },
+      {
+        "level": 2,
+        "heading": "Comparison Chart",
+        "content": "| Feature | から | ので | | ------------------- | ---------------- | --------------- | | Formality | Casual → Neutral | Polite → Formal | | Subjectivity | Subjective | Objective | | End sentence | Yes ✓ | No ✗ | | Commands after | Yes ✓ | Sounds awkward | | Requests after | Yes ✓ | Natural | | Questions after | Natural | Very natural | | Business emails | Avoid | Preferred | | Close friends | Natural | Too stiff |"
+      },
+      {
+        "level": 2,
+        "heading": "Formation Comparison",
+        "content": "",
+        "children": [
+          {
+            "level": 3,
+            "heading": "With な-adjectives and nouns",
+            "content": "から - Uses だ\n\n静かだから - Because it's quiet 学生だから - Because I'm a student 休みだから - Because it's a holiday\n\nので - Uses な/である\n\n静かなので - Because it's quiet 学生なので - Because I'm a student 休みなので - Because it's a holiday"
+          },
+          {
+            "level": 3,
+            "heading": "With verbs and い-adjectives",
+            "content": "Both use same form\n\n行くから / 行くので - Because (I) go 高いから / 高いので - Because it's expensive"
+          }
+        ]
+      },
+      {
+        "level": 2,
+        "heading": "Usage by Context",
+        "content": "",
+        "children": [
+          {
+            "level": 3,
+            "heading": "With close friends",
+            "content": "から - Natural\n\n疲れたから、帰る \"I'm tired, so I'm going home\" お腹空いたから、何か食べよう \"I'm hungry, so let's eat something\"\n\nので - Too formal\n\n疲れたので、帰ります ⚠️ Sounds stiff with friends!"
+          },
+          {
+            "level": 3,
+            "heading": "In business/work",
+            "content": "から - Too casual\n\n会議があるから、行けません ⚠️ Okay, but less professional\n\nので - Appropriate\n\n会議がありますので、失礼いたします ✓ \"I have a meeting, so I'll excuse myself\""
+          },
+          {
+            "level": 3,
+            "heading": "Making excuses",
+            "content": "から - Sounds like excuse\n\n忙しかったから、できませんでした \"I was busy, so I couldn't do it\" Can sound defensive\n\nので - More polite\n\n忙しかったので、できませんでした \"I was busy, so I couldn't do it\" States reason objectively"
+          }
+        ]
+      },
+      {
+        "level": 2,
+        "heading": "With Commands and Requests",
+        "content": "",
+        "children": [
+          {
+            "level": 3,
+            "heading": "から + Command (Natural)",
+            "content": "危ないから、気をつけて \"It's dangerous, so be careful\" 遅れるから、急いで \"We'll be late, so hurry\" ✓ Natural combination"
+          },
+          {
+            "level": 3,
+            "heading": "ので + Command (Awkward)",
+            "content": "危ないので、気をつけて ⚠️ Sounds unnatural Better: 危ないので、気をつけてください ✓ \"It's dangerous, so please be careful\" Need ください for politeness"
+          },
+          {
+            "level": 3,
+            "heading": "Both + Polite Request (Natural)",
+            "content": "時間がないから、急いでください 時間がないので、急いでください \"We don't have time, so please hurry\" Both work with polite requests"
+          }
+        ]
+      },
+      {
+        "level": 2,
+        "heading": "Declining Invitations",
+        "content": "",
+        "children": [
+          {
+            "level": 3,
+            "heading": "Casual decline (から)",
+            "content": "A: 映画行かない？ \"Want to go to a movie?\" B: ごめん、今日は用事があるから \"Sorry, I have plans today\""
+          },
+          {
+            "level": 3,
+            "heading": "Polite decline (ので)",
+            "content": "A: パーティーにいらっしゃいませんか \"Won't you come to the party?\" B: すみません、予定がありますので \"I'm sorry, I have plans\""
+          }
+        ]
+      },
+      {
+        "level": 2,
+        "heading": "Expressing Strong Feelings",
+        "content": "",
+        "children": [
+          {
+            "level": 3,
+            "heading": "から - Better for emotions",
+            "content": "好きだから！ \"Because I like (you)!\" 嫌いだから、行きたくない \"I hate it, so I don't want to go\" Personal feelings → Use から"
+          },
+          {
+            "level": 3,
+            "heading": "ので - Sounds too objective",
+            "content": "好きなので ⚠️ Sounds clinical for emotions Better with から for feelings"
+          }
+        ]
+      },
+      {
+        "level": 2,
+        "heading": "In Questions",
+        "content": "",
+        "children": [
+          {
+            "level": 3,
+            "heading": "Both work, slight difference",
+            "content": "から - More casual\n\nどうして来なかったの？忙しかったから？ \"Why didn't you come? Because you were busy?\"\n\nので - More polite\n\nどうしてこちらを選ばれたんですか。 便利だったからですか、それとも安かったからですか。 \"Why did you choose this? Was it because it was convenient or because it was cheap?\" In polite questions, both work"
+          }
+        ]
+      },
+      {
+        "level": 2,
+        "heading": "Common Patterns",
+        "content": "",
+        "children": [
+          {
+            "level": 3,
+            "heading": "Emphasizing with んだ/のだ",
+            "content": "から with んだ\n\n忙しいんだから、無理だよ \"I'm busy (I'm telling you), so it's impossible\" だから言ったでしょ！ \"That's why I told you!\"\n\nので is softer\n\n忙しいので、すみません \"I'm busy, so I'm sorry\" Less emphatic"
+          }
+        ]
+      },
+      {
+        "level": 2,
+        "heading": "Situation-Based Choice",
+        "content": "",
+        "children": [
+          {
+            "level": 3,
+            "heading": "Choose から when:",
+            "content": "✓ Speaking with friends/family ✓ Casual conversation ✓ Expressing personal feelings ✓ Making personal decisions ✓ Ending sentences casually ✓ Giving direct commands"
+          },
+          {
+            "level": 3,
+            "heading": "Choose ので when:",
+            "content": "✓ Business communication ✓ Formal writing ✓ Polite conversation ✓ Stating objective facts ✓ Making polite requests ✓ Professional settings ✓ Declining politely"
+          }
+        ]
+      },
+      {
+        "level": 2,
+        "heading": "Real Examples Compared",
+        "content": "",
+        "children": [
+          {
+            "level": 3,
+            "heading": "Example 3: Explaining",
+            "content": "Casual (から): 面白かったから、見てみて \"It was interesting, so check it out\" Polite (ので): 興味深い内容でしたので、ぜひご覧ください \"It was interesting content, so please take a look\""
+          }
+        ]
+      },
+      {
+        "level": 2,
+        "heading": "Mixed Usage",
+        "content": "",
+        "children": [
+          {
+            "level": 3,
+            "heading": "Sometimes both work",
+            "content": "時間がないから、急ぎましょう ✓ 時間がないので、急ぎましょう ✓ \"We don't have time, so let's hurry\" Both acceptable in neutral polite situations Choose based on relationship and context"
+          }
+        ]
+      },
+      {
+        "level": 2,
+        "heading": "Regional and Personal Preferences",
+        "content": "",
+        "children": [
+          {
+            "level": 3,
+            "heading": "Some speakers prefer ので",
+            "content": "Even casually: 疲れたので、休みます More polite personality"
+          },
+          {
+            "level": 3,
+            "heading": "Others use から more",
+            "content": "Even formally: 会議がありますから、失礼します Slightly less formal but acceptable"
+          }
+        ]
+      },
+      {
+        "level": 2,
+        "heading": "Quick Decision Guide",
+        "content": "",
+        "children": [
+          {
+            "level": 3,
+            "heading": "Ask yourself:",
+            "content": "1. Is this business/formal? → ので 2. Am I stating a fact? → ので 3. Talking to friends? → から 4. Expressing my feelings? → から 5. Ending the sentence? → から (only option) 6. Making excuses? → ので (sounds better) 7. Giving commands? → から"
+          }
+        ]
+      },
+      {
+        "level": 2,
+        "heading": "Common Mistakes",
+        "content": "",
+        "children": [
+          {
+            "level": 3,
+            "heading": "Mistake 1: Wrong form before ので",
+            "content": "Wrong: 学生だので ❌ Right: 学生なので ✓ \"Because I'm a student\" Remember: な before ので for nouns/な-adjectives"
+          },
+          {
+            "level": 3,
+            "heading": "Mistake 2: Ending with ので",
+            "content": "Wrong: A: なぜ？ B: 忙しいので ❌ Right: A: なぜ？ B: 忙しいから ✓ \"Why?\" \"Because I'm busy\" Can't end with ので!"
+          },
+          {
+            "level": 3,
+            "heading": "Mistake 3: Too formal with friends",
+            "content": "Unnatural: 疲れたので、帰るね ⚠️ Natural: 疲れたから、帰るね ✓ \"I'm tired, so I'm going home\" から is better for casual"
+          },
+          {
+            "level": 3,
+            "heading": "Mistake 4: Too casual in business",
+            "content": "Less professional: 会議があるから ⚠️ Professional: 会議がありますので ✓ \"Because I have a meeting\" ので is better for business"
+          }
+        ]
+      },
+      {
+        "level": 2,
+        "heading": "Practice Comparison",
+        "content": "",
+        "children": [
+          {
+            "level": 3,
+            "heading": "Scenario 1: Declining Invitation",
+            "content": "Friend (から): ごめん、明日バイトがあるから、行けない \"Sorry, I have work tomorrow, so I can't go\" Boss (ので): 申し訳ございません。明日出張がありますので、 参加できません \"I'm very sorry. I have a business trip tomorrow, so I cannot participate\""
+          },
+          {
+            "level": 3,
+            "heading": "Scenario 2: Explaining Purchase",
+            "content": "To friend (から): 安かったから、買っちゃった \"It was cheap, so I bought it\" In survey (ので): 価格が手頃でしたので、購入を決めました \"The price was reasonable, so I decided to purchase\""
+          },
+          {
+            "level": 3,
+            "heading": "Scenario 3: Weather Reason",
+            "content": "Casual (から): 雨だから、中止だって \"It's rain, so they said it's cancelled\" Announcement (ので): 悪天候のため中止となりますので、ご了承ください \"It will be cancelled due to bad weather, so please understand\""
+          }
+        ]
+      },
+      {
+        "level": 2,
+        "heading": "Summary Table",
+        "content": "",
+        "children": [
+          {
+            "level": 3,
+            "heading": "Quick Reference",
+            "content": "Context | から | ので ----------------|------|------ Friends | ✓✓✓ | ✗ Family | ✓✓✓ | ✗ Colleagues | ✓✓ | ✓✓ Boss | ✓ | ✓✓✓ Clients | ✗ | ✓✓✓ Written report | ✗ | ✓✓✓ Casual chat | ✓✓✓ | ✗ Polite conv. | ✓✓ | ✓✓ Business email | ✗ | ✓✓✓ End sentence | ✓✓✓ | ✗✗✗ Personal feel | ✓✓✓ | ✓ Objective fact | ✓ | ✓✓✓ Commands after | ✓✓✓ | ✗ Requests after | ✓✓ | ✓✓✓"
+          }
+        ]
+      },
+      {
+        "level": 2,
+        "heading": "Key Takeaways",
+        "content": "",
+        "children": [
+          {
+            "level": 3,
+            "heading": "Remember:",
+            "content": "1. から = Subjective, casual, can end sentences 2. ので = Objective, polite, cannot end sentences 3. Friends → から 4. Business → ので 5. Feelings → から 6. Facts → ので (better) 7. When in doubt in formal situations → use ので 8. Both work in many neutral situations"
+          }
+        ]
+      },
+      {
+        "level": 2,
+        "heading": "Practice Sentences",
+        "content": "",
+        "children": [
+          {
+            "level": 3,
+            "heading": "Choose から or ので",
+            "content": "To friend about being tired: 疲れた___、もう帰る Answer: から ✓ Business email about absence: 体調不良___、お休みをいただきます Answer: ので ✓ Ending conversation casually: A: なんで？ B: 忙しい___ Answer: から ✓ (only option - can't end with ので) Explaining company policy: 規定___、できません Answer: なので ✓ (more professional) Telling friend to hurry: 遅れる___、急いで！ Answer: から ✓ (more natural with commands)"
+          }
+        ]
+      },
+      {
+        "level": 2,
+        "heading": "Advanced Notes",
+        "content": "",
+        "children": [
+          {
+            "level": 3,
+            "heading": "In writing",
+            "content": "Academic/formal writing: 主にので、ため、によって Informal writing: から is fine Newspaper: Mix of both, often ので for objectivity"
+          },
+          {
+            "level": 3,
+            "heading": "Dialect considerations",
+            "content": "Some dialects use: けん、さかい、よって instead of から/ので Standard Japanese: から/ので"
+          }
+        ]
+      },
+      {
+        "level": 2,
+        "heading": "Related Grammar Points",
+        "content": "から - Because (subjective) ので - Because (objective) ため(に) - Due to/because of て-form - Casual reason だから - Therefore Politeness levels - Formal vs casual 1: Being Late\n\nCasual (から): ごめん！電車が遅れたから \"Sorry! The train was delayed\" Polite (ので): 申し訳ございません。電車が遅れましたので \"I sincerely apologize. The train was delayed\"",
+        "children": [
+          {
+            "level": 3,
+            "heading": "Example 2: Can't Attend",
+            "content": "Casual (から): 用事があるから、行けない \"I have plans, so I can't go\" Polite (ので): 予定がありますので、伺えません \"I have plans, so I cannot attend\""
+          },
+          {
+            "level": 3,
+            "heading": "Example",
+            "content": ""
+          },
+          {
+            "level": 3,
+            "heading": "Company",
+            "content": "About Pricing Blog Contact"
+          },
+          {
+            "level": 3,
+            "heading": "Legal",
+            "content": "Privacy Policy Terms of Service Cookie Policy"
+          }
+        ]
+      }
+    ],
+    "metadata": {
+      "title": "から vs ので"
+    },
+    "examples": [
+      {
+        "sentence": "から - Because (subjective)"
+      },
+      {
+        "sentence": "ので - Because (objective)"
+      },
+      {
+        "sentence": "ため(に) - Due to/because of"
+      },
+      {
+        "sentence": "て-form - Casual reason"
+      },
+      {
+        "sentence": "だから - Therefore"
+      },
+      {
+        "sentence": "Politeness levels - Formal vs casual 1: Being Late"
+      },
+      {
+        "sentence": "About"
+      },
+      {
+        "sentence": "Pricing"
+      },
+      {
+        "sentence": "Blog"
+      },
+      {
+        "sentence": "Contact"
+      },
+      {
+        "sentence": "Privacy Policy"
+      },
+      {
+        "sentence": "Terms of Service"
+      },
+      {
+        "sentence": "Cookie Policy"
+      }
+    ]
+  },
+  "metadata": {
+    "extracted_at": "2026-01-01T22:19:30.744805800Z",
+    "duration_ms": 4,
+    "extractors_matched": [
+      "metadata",
+      "examples",
+      "sections"
+    ],
+    "extractors_failed": [
+      "vocab_tables",
+      "definitions",
+      "content_blocks"
+    ]
+  }
+}

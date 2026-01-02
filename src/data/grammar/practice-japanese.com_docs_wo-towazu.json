@@ -1,0 +1,333 @@
+{
+  "config_name": "Language Learning Extractor",
+  "url": "https://practice-japanese.com/docs/wo-towazu/",
+  "data": {
+    "sections": [
+      {
+        "level": 2,
+        "heading": "What is を問わず?",
+        "content": "を問わず (wo towazu) is a formal expression meaning \"regardless of,\" \"irrespective of,\" or \"whether... or not.\" It indicates that something applies universally, without regard to the mentioned condition or factor.\n\nLiteral meaning: \"without asking/questioning\"\n\n問う (tou) = to ask, to question ず (zu) = negative form (classical)\n\nEnglish equivalents:\n\n\"regardless of\" \"irrespective of\" \"whether... or not\" \"no matter\" \"without regard to\"\n\n年齢を問わず参加できます。 Nenrei wo towazu sanka dekimasu. \"You can participate regardless of age.\" 経験の有無を問わず応募可能です。 Keiken no umu wo towazu oubo kanou desu. \"You can apply regardless of whether you have experience or not.\""
+      },
+      {
+        "level": 2,
+        "heading": "Basic Structure",
+        "content": "",
+        "children": [
+          {
+            "level": 3,
+            "heading": "Pattern",
+            "content": "[Noun] + を問わず\n\n年齢を問わず (nenrei wo towazu) - \"regardless of age\" 性別を問わず (seibetsu wo towazu) - \"regardless of gender\" 国籍を問わず (kokuseki wo towazu) - \"regardless of nationality\" 経験を問わず (keiken wo towazu) - \"regardless of experience\""
+          }
+        ]
+      },
+      {
+        "level": 2,
+        "heading": "Common Usage Patterns",
+        "content": "",
+        "children": [
+          {
+            "level": 3,
+            "heading": "With personal attributes",
+            "content": "年齢を問わず歓迎します。 Nenrei wo towazu kangei shimasu. \"We welcome you regardless of age.\" 性別を問わず募集中。 Seibetsu wo towazu boshuu chuu. \"Now recruiting regardless of gender.\" 国籍を問わず応募できます。 Kokuseki wo towazu oubo dekimasu. \"You can apply regardless of nationality.\" 学歴を問わず採用します。 Gakureki wo towazu saiyou shimasu. \"We hire regardless of educational background.\""
+          },
+          {
+            "level": 3,
+            "heading": "With qualifications and experience",
+            "content": "経験を問わず歓迎。 Keiken wo towazu kangei. \"Welcome regardless of experience.\" 資格を問わず応募可能。 Shikaku wo towazu oubo kanou. \"Application possible regardless of qualifications.\" 職歴を問わず採用。 Shokureki wo towazu saiyou. \"Hiring regardless of work history.\""
+          },
+          {
+            "level": 3,
+            "heading": "With conditions",
+            "content": "理由を問わず受け付けます。 Riyuu wo towazu uketsukemasu. \"We accept regardless of reason.\" 場所を問わず利用できます。 Basho wo towazu riyou dekimasu. \"You can use it regardless of location.\" 時間を問わず対応します。 Jikan wo towazu taiou shimasu. \"We respond regardless of time.\""
+          }
+        ]
+      },
+      {
+        "level": 2,
+        "heading": "有無を問わず Pattern",
+        "content": "",
+        "children": [
+          {
+            "level": 3,
+            "heading": "Whether exists or not",
+            "content": "Very common pattern using 有無 (umu - existence/non-existence):\n\nStructure: [Noun] + の有無を問わず\n\n経験の有無を問わず。 Keiken no umu wo towazu. \"Regardless of whether you have experience or not.\" 資格の有無を問わず。 Shikaku no umu wo towazu. \"Regardless of whether you have qualifications or not.\" 免許の有無を問わず応募できます。 Menkyo no umu wo towazu oubo dekimasu. \"You can apply regardless of whether you have a license or not.\" 予約の有無を問わず入店できます。 Yoyaku no umu wo towazu nyuuten dekimasu. \"You can enter regardless of whether you have a reservation.\""
+          }
+        ]
+      },
+      {
+        "level": 2,
+        "heading": "Paired Items with か",
+        "content": "",
+        "children": [
+          {
+            "level": 3,
+            "heading": "A か B を問わず",
+            "content": "Structure: [A] か [B] を問わず\n\n男性か女性かを問わず。 Dansei ka josei ka wo towazu. \"Regardless of whether male or female.\" 国内か国外かを問わず。 Kokunai ka kokugai ka wo towazu. \"Regardless of whether domestic or international.\" 昼か夜かを問わず営業中。 Hiru ka yoru ka wo towazu eigyou chuu. \"Open regardless of whether day or night.\" 新品か中古かを問わず買い取ります。 Shinpin ka chuuko ka wo towazu kaitorimasu. \"We buy regardless of whether it's new or used.\""
+          }
+        ]
+      },
+      {
+        "level": 2,
+        "heading": "Job Postings and Recruitment",
+        "content": "",
+        "children": [
+          {
+            "level": 3,
+            "heading": "Common in job advertisements",
+            "content": "経験・学歴不問。 Keiken・gakureki fumon. \"Experience and education not required.\" [Abbreviated form] 年齢・性別を問わず募集。 Nenrei・seibetsu wo towazu boshuu. \"Recruiting regardless of age and gender.\" 国籍を問わず応募歓迎。 Kokuseki wo towazu oubo kangei. \"Applications welcome regardless of nationality.\" 新卒・既卒を問わず採用。 Shinsotsu・kisotsu wo towazu saiyou. \"Hiring regardless of new graduate or not.\""
+          }
+        ]
+      },
+      {
+        "level": 2,
+        "heading": "Business and Formal Contexts",
+        "content": "",
+        "children": [
+          {
+            "level": 3,
+            "heading": "In announcements and notices",
+            "content": "会員・非会員を問わずご参加いただけます。 Kaiin・hikaiin wo towazu gosanka itadakemasu. \"Members and non-members alike can participate.\" 個人・法人を問わずご利用可能です。 Kojin・houjin wo towazu goriyou kanou desu. \"Available for both individuals and corporations.\" 平日・休日を問わず対応いたします。 Heijitsu・kyuujitsu wo towazu taiou itashimasu. \"We respond on both weekdays and holidays.\""
+          }
+        ]
+      },
+      {
+        "level": 2,
+        "heading": "Abbreviated Form: 不問",
+        "content": "",
+        "children": [
+          {
+            "level": 3,
+            "heading": "不問 (fumon) - \"not asked/not questioned\"",
+            "content": "Common abbreviation in job postings:\n\n年齢不問 (nenrei fumon) - \"age not important\" 学歴不問 (gakureki fumon) - \"education not important\" 経験不問 (keiken fumon) - \"experience not required\" 性別不問 (seibetsu fumon) - \"gender not important\"\n\n経験不問・学歴不問で募集中。 Keiken fumon・gakureki fumon de boshuu chuu. \"Now recruiting - experience and education not required.\""
+          }
+        ]
+      },
+      {
+        "level": 2,
+        "heading": "Related Expressions",
+        "content": "",
+        "children": [
+          {
+            "level": 3,
+            "heading": "にかかわらず - Similar meaning",
+            "content": "年齢にかかわらず参加できます。 Nenrei ni kakawarazu sanka dekimasu. \"You can participate regardless of age.\" [Similar but slightly less formal]"
+          },
+          {
+            "level": 3,
+            "heading": "に関係なく - \"Regardless of\"",
+            "content": "年齢に関係なく応募できます。 Nenrei ni kankei naku oubo dekimasu. \"You can apply regardless of age.\" [Less formal]"
+          },
+          {
+            "level": 3,
+            "heading": "Comparison",
+            "content": "| Expression | Formality | Common Use | | ------------ | ----------- | ---------------------------- | | を問わず | Very formal | Business, official documents | | にかかわらず | Formal | General formal writing | | に関係なく | Neutral | Everyday formal speech |"
+          }
+        ]
+      },
+      {
+        "level": 2,
+        "heading": "Multiple Items",
+        "content": "",
+        "children": [
+          {
+            "level": 3,
+            "heading": "Listing several factors",
+            "content": "年齢・性別・国籍を問わず。 Nenrei・seibetsu・kokuseki wo towazu. \"Regardless of age, gender, or nationality.\" 経験・学歴・資格を問わず採用。 Keiken・gakureki・shikaku wo towazu saiyou. \"Hiring regardless of experience, education, or qualifications.\" 昼夜・天候を問わず営業。 Chuuya・tenkou wo towazu eigyou. \"Open regardless of day/night or weather.\""
+          }
+        ]
+      },
+      {
+        "level": 2,
+        "heading": "Formal Announcements",
+        "content": "",
+        "children": [
+          {
+            "level": 3,
+            "heading": "Public notices",
+            "content": "どなたでも参加資格を問わずご参加いただけます。 Donata demo sanka shikaku wo towazu gosanka itadakemasu. \"Anyone can participate regardless of qualifications.\" 事前予約の有無を問わず来店可能です。 Jizen yoyaku no umu wo towazu raiten kanou desu. \"You can visit regardless of whether you have a prior reservation.\""
+          }
+        ]
+      },
+      {
+        "level": 2,
+        "heading": "Legal and Administrative Language",
+        "content": "",
+        "children": [
+          {
+            "level": 3,
+            "heading": "In official documents",
+            "content": "国籍を問わず申請できます。 Kokuseki wo towazu shinsei dekimasu. \"You can apply regardless of nationality.\" 居住地を問わず利用可能。 Kyojuuchi wo towazu riyou kanou. \"Available regardless of place of residence.\" 年齢を問わず加入できます。 Nenrei wo towazu kanyuu dekimasu. \"You can join regardless of age.\""
+          }
+        ]
+      },
+      {
+        "level": 2,
+        "heading": "Sports and Activities",
+        "content": "",
+        "children": [
+          {
+            "level": 3,
+            "heading": "Open participation",
+            "content": "初心者・経験者を問わず歓迎。 Shoshinsha・keikensha wo towazu kangei. \"Beginners and experienced people both welcome.\" 年齢を問わず楽しめます。 Nenrei wo towazu tanoshimemasu. \"Enjoyable regardless of age.\" レベルを問わず参加できます。 Reberu wo towazu sanka dekimasu. \"You can participate regardless of level.\""
+          }
+        ]
+      },
+      {
+        "level": 2,
+        "heading": "Weather and Time",
+        "content": "",
+        "children": [
+          {
+            "level": 3,
+            "heading": "Universal availability",
+            "content": "天候を問わず開催します。 Tenkou wo towazu kaisai shimasu. \"We'll hold it regardless of weather.\" 季節を問わず楽しめる。 Kisetsu wo towazu tanoshimeru. \"Enjoyable regardless of season.\" 昼夜を問わず営業中。 Chuuya wo towazu eigyou chuu. \"Open day and night.\" / \"Open regardless of time.\""
+          }
+        ]
+      },
+      {
+        "level": 2,
+        "heading": "Academic and Professional",
+        "content": "",
+        "children": [
+          {
+            "level": 3,
+            "heading": "Research and studies",
+            "content": "分野を問わず応募可能。 Bun'ya wo towazu oubo kanou. \"Application possible regardless of field.\" 専攻を問わず参加できます。 Senkou wo towazu sanka dekimasu. \"You can participate regardless of major.\" 所属を問わず参加歓迎。 Shozoku wo towazu sanka kangei. \"Participation welcome regardless of affiliation.\""
+          }
+        ]
+      },
+      {
+        "level": 2,
+        "heading": "Common Mistakes",
+        "content": "",
+        "children": [
+          {
+            "level": 3,
+            "heading": "Mistake 1: Using in Casual Conversation",
+            "content": "❌ Casual: 年齢を問わず来てね ✓ Casual: 年齢関係なく来てね\n\nを問わず is too formal for casual speech."
+          },
+          {
+            "level": 3,
+            "heading": "Mistake 2: Wrong Particle",
+            "content": "❌ 年齢が問わず ✓ 年齢を問わず\n\nMust use を particle."
+          },
+          {
+            "level": 3,
+            "heading": "Mistake 3: With Verbs Directly",
+            "content": "❌ 行くを問わず ✓ 行くか行かないかを問わず\n\nNeed noun or nominalized form before を問わず."
+          },
+          {
+            "level": 3,
+            "heading": "Mistake 4: Overuse",
+            "content": "❌ Every sentence: 年齢を問わず...経験を問わず... ✓ Varied: 年齢や経験に関係なく\n\nDon't overuse; vary your expressions."
+          }
+        ]
+      },
+      {
+        "level": 2,
+        "heading": "Summary",
+        "content": "Key Points:\n\nを問わず means \"regardless of,\" \"irrespective of\" Very formal expression for business and official contexts Structure: [Noun] + を問わず Common pattern: 有無を問わず (whether... or not) Paired items: A か B かを問わず Abbreviated form: 不問 (not required/important) Common in: job postings, announcements, formal documents Less formal alternatives: にかかわらず, に関係なく Emphasizes universal applicability",
+        "children": [
+          {
+            "level": 3,
+            "heading": "Company",
+            "content": "About Pricing Blog Contact"
+          },
+          {
+            "level": 3,
+            "heading": "Legal",
+            "content": "Privacy Policy Terms of Service Cookie Policy"
+          }
+        ]
+      }
+    ],
+    "examples": [
+      {
+        "sentence": "問う (tou) = to ask, to question"
+      },
+      {
+        "sentence": "ず (zu) = negative form (classical)"
+      },
+      {
+        "sentence": "\"regardless of\""
+      },
+      {
+        "sentence": "\"irrespective of\""
+      },
+      {
+        "sentence": "\"whether... or not\""
+      },
+      {
+        "sentence": "\"no matter\""
+      },
+      {
+        "sentence": "\"without regard to\""
+      },
+      {
+        "sentence": "を問わず means \"regardless of,\" \"irrespective of\""
+      },
+      {
+        "sentence": "Very formal expression for business and official contexts"
+      },
+      {
+        "sentence": "Structure: [Noun] + を問わず"
+      },
+      {
+        "sentence": "Common pattern: 有無を問わず (whether... or not)"
+      },
+      {
+        "sentence": "Paired items: A か B かを問わず"
+      },
+      {
+        "sentence": "Abbreviated form: 不問 (not required/important)"
+      },
+      {
+        "sentence": "Common in: job postings, announcements, formal documents"
+      },
+      {
+        "sentence": "Less formal alternatives: にかかわらず, に関係なく"
+      },
+      {
+        "sentence": "Emphasizes universal applicability"
+      },
+      {
+        "sentence": "About"
+      },
+      {
+        "sentence": "Pricing"
+      },
+      {
+        "sentence": "Blog"
+      },
+      {
+        "sentence": "Contact"
+      },
+      {
+        "sentence": "Privacy Policy"
+      },
+      {
+        "sentence": "Terms of Service"
+      },
+      {
+        "sentence": "Cookie Policy"
+      }
+    ],
+    "metadata": {
+      "title": "〜を問わず (Regardless of)"
+    }
+  },
+  "metadata": {
+    "extracted_at": "2026-01-01T22:19:37.908500800Z",
+    "duration_ms": 3,
+    "extractors_matched": [
+      "metadata",
+      "examples",
+      "sections"
+    ],
+    "extractors_failed": [
+      "vocab_tables",
+      "definitions",
+      "content_blocks"
+    ]
+  }
+}

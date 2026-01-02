@@ -1,0 +1,287 @@
+{
+  "config_name": "Language Learning Extractor",
+  "url": "https://practice-japanese.com/docs/owaru/",
+  "data": {
+    "metadata": {
+      "title": "〜終わる (owaru) - Finish"
+    },
+    "sections": [
+      {
+        "level": 2,
+        "heading": "〜終わる (owaru) - Finish",
+        "content": "〜終わる attaches to verb stems to indicate finishing or completing an action . It emphasizes that something has been done from start to finish.\n\nVerb stem + 終わる 食べ終わる - finish eating 読み終わる - finish reading 書き終わる - finish writing Completion emphasized Action done completely"
+      },
+      {
+        "level": 2,
+        "heading": "Formation",
+        "content": "",
+        "children": [
+          {
+            "level": 3,
+            "heading": "Basic pattern",
+            "content": "る-verbs: 食べる → 食べ終わる \"finish eating\" 見る → 見終わる \"finish watching\" 寝る → 寝終わる \"finish sleeping\" (rare) う-verbs: 読む → 読み終わる \"finish reading\" 書く → 書き終わる \"finish writing\" 話す → 話し終わる \"finish talking\" Irregular: する → し終わる \"finish doing\" 来る → 来終わる (rare)"
+          }
+        ]
+      },
+      {
+        "level": 2,
+        "heading": "Core Meaning",
+        "content": "",
+        "children": [
+          {
+            "level": 3,
+            "heading": "Completed action",
+            "content": "本を読み終わった \"(I) finished reading the book\" Implies: Read from beginning to end Complete action Nothing left to do 宿題をし終わった \"(I) finished doing homework\" All homework completed Task done"
+          }
+        ]
+      },
+      {
+        "level": 2,
+        "heading": "When to Use",
+        "content": "",
+        "children": [
+          {
+            "level": 3,
+            "heading": "Completed tasks",
+            "content": "レポートを書き終わる \"Finish writing the report\" 映画を見終わる \"Finish watching the movie\" 仕事をし終わる \"Finish doing work\" Emphasis on completion From start to finish All done"
+          },
+          {
+            "level": 3,
+            "heading": "Sequential actions",
+            "content": "食べ終わってから、寝る \"After finishing eating, (I'll) sleep\" 読み終わったら、教えて \"When (you) finish reading, let me know\" Shows completion before next action Sequence of events"
+          }
+        ]
+      },
+      {
+        "level": 2,
+        "heading": "Transitivity",
+        "content": "",
+        "children": [
+          {
+            "level": 3,
+            "heading": "Maintains original verb pattern",
+            "content": "Transitive verbs stay transitive: 本を読み終わる \"finish reading a book\" 手紙を書き終わる \"finish writing a letter\" Takes direct object Object is what gets completed"
+          }
+        ]
+      },
+      {
+        "level": 2,
+        "heading": "Common Contexts",
+        "content": "",
+        "children": [
+          {
+            "level": 3,
+            "heading": "Work and tasks",
+            "content": "仕事を終わる vs 仕事をし終わる 仕事を終わる - \"finish work\" (work itself ends) 仕事をし終わる - \"finish doing work\" (emphasis on completing the doing) Compound emphasizes the action of doing"
+          },
+          {
+            "level": 3,
+            "heading": "Reading and watching",
+            "content": "本を読み終わった \"Finished reading the book\" ドラマを見終わった \"Finished watching the drama\" Very common usage Entertainment content Start to finish"
+          },
+          {
+            "level": 3,
+            "heading": "Eating and drinking",
+            "content": "ご飯を食べ終わった \"Finished eating\" コーヒーを飲み終わった \"Finished drinking coffee\" Completion of consumption All gone"
+          }
+        ]
+      },
+      {
+        "level": 2,
+        "heading": "Time Expressions",
+        "content": "",
+        "children": [
+          {
+            "level": 3,
+            "heading": "With time markers",
+            "content": "やっと終わった \"Finally finished\" もう終わった \"Already finished\" まだ終わっていない \"Haven't finished yet\" あと少しで終わる \"Will finish soon\" Completion relative to time Progress indicators"
+          }
+        ]
+      },
+      {
+        "level": 2,
+        "heading": "Aspect with ている",
+        "content": "",
+        "children": [
+          {
+            "level": 3,
+            "heading": "Completed state",
+            "content": "読み終わっている \"Have finished reading\" Current state after completion Already done Result remains もう食べ終わっている \"Have already finished eating\" Emphasis on current state Action completed before now"
+          }
+        ]
+      },
+      {
+        "level": 2,
+        "heading": "Compare with 終える",
+        "content": "",
+        "children": [
+          {
+            "level": 3,
+            "heading": "終わる (intransitive) vs 終える (transitive)",
+            "content": "読み終わる \"Finish reading\" (focus on action) 読み終える \"Complete reading\" (more formal, emphasize completion) Both similar 終える slightly more formal 終わる more common in compounds"
+          }
+        ]
+      },
+      {
+        "level": 2,
+        "heading": "Negative Forms",
+        "content": "",
+        "children": [
+          {
+            "level": 3,
+            "heading": "Not finished yet",
+            "content": "まだ読み終わっていない \"Haven't finished reading yet\" 食べ終わらなかった \"Didn't finish eating\" 宿題をし終われない \"Can't finish homework\" Incomplete state Action not done"
+          }
+        ]
+      },
+      {
+        "level": 2,
+        "heading": "In Conditional Clauses",
+        "content": "",
+        "children": [
+          {
+            "level": 3,
+            "heading": "\"When/if finished\"",
+            "content": "読み終わったら、貸して \"When (you) finish reading, lend (it to me)\" 終わったら、連絡します \"When (I) finish, (I'll) contact (you)\" 食べ終わったら、出かけよう \"When (we) finish eating, let's go out\" Completion as condition Sequential timing"
+          }
+        ]
+      },
+      {
+        "level": 2,
+        "heading": "With Other Grammar",
+        "content": "",
+        "children": [
+          {
+            "level": 3,
+            "heading": "Combined patterns",
+            "content": "読み終わってしまった \"Finished reading (completely)\" 食べ終わってから \"After finishing eating\" 書き終わるまで \"Until (I) finish writing\" Versatile with grammar patterns Natural combinations"
+          }
+        ]
+      },
+      {
+        "level": 2,
+        "heading": "Common Collocations",
+        "content": "",
+        "children": [
+          {
+            "level": 3,
+            "heading": "Frequent combinations",
+            "content": "読み終わる - finish reading Most common 食べ終わる - finish eating Very common 見終わる - finish watching Common with media 書き終わる - finish writing Tasks and work These are natural, established Learn as units"
+          }
+        ]
+      },
+      {
+        "level": 2,
+        "heading": "Formality",
+        "content": "",
+        "children": [
+          {
+            "level": 3,
+            "heading": "Neutral usage",
+            "content": "Can use in: - Casual: 読み終わった - Polite: 読み終わりました - Formal writing: 読み終わった Adjust with conjugation Not inherently formal/casual"
+          }
+        ]
+      },
+      {
+        "level": 2,
+        "heading": "Conjugation",
+        "content": "",
+        "children": [
+          {
+            "level": 3,
+            "heading": "Intransitive う-verb",
+            "content": "終わる conjugates as う-verb: Present: 終わる Past: 終わった Negative: 終わらない Te-form: 終わって Potential: 終われる Volitional: 終わろう Standard う-verb patterns"
+          }
+        ]
+      },
+      {
+        "level": 2,
+        "heading": "Emphasis Differences",
+        "content": "",
+        "children": [
+          {
+            "level": 3,
+            "heading": "Completion focus",
+            "content": "本を読んだ \"Read a book\" Just states action 本を読み終わった \"Finished reading a book\" Emphasizes completion Compound adds completion emphasis More than just doing Done completely"
+          }
+        ]
+      },
+      {
+        "level": 2,
+        "heading": "With てしまう",
+        "content": "",
+        "children": [
+          {
+            "level": 3,
+            "heading": "Complete completion",
+            "content": "読み終わってしまった \"Completely finished reading\" Double completion emphasis Really done Sometimes implies relief or regret"
+          }
+        ]
+      },
+      {
+        "level": 2,
+        "heading": "Common Mistakes",
+        "content": "❌ Using dictionary form ✗ 食べる終わる ✓ Using stem form ✓ 食べ終わる ❌ Confusing intransitive/transitive ✗ 仕事を終わる (technically okay but awkward) ✓ Better options ✓ 仕事をし終わる ✓ 仕事が終わる ❌ Wrong conjugation ✗ 終わらた ✓ Correct conjugation ✓ 終わった"
+      },
+      {
+        "level": 2,
+        "heading": "Practical Examples",
+        "content": "",
+        "children": [
+          {
+            "level": 3,
+            "heading": "Everyday situations",
+            "content": "映画を見終わったら、感想を聞かせて \"When you finish watching the movie, tell me your thoughts\" レポートを書き終わるまで、遊べない \"Can't play until I finish writing the report\" ご飯を食べ終わったら、片付けよう \"When we finish eating, let's clean up\" Natural daily usage Sequential actions Completion-based timing"
+          },
+          {
+            "level": 3,
+            "heading": "Company",
+            "content": "About Pricing Blog Contact"
+          },
+          {
+            "level": 3,
+            "heading": "Legal",
+            "content": "Privacy Policy Terms of Service Cookie Policy"
+          }
+        ]
+      }
+    ],
+    "examples": [
+      {
+        "sentence": "About"
+      },
+      {
+        "sentence": "Pricing"
+      },
+      {
+        "sentence": "Blog"
+      },
+      {
+        "sentence": "Contact"
+      },
+      {
+        "sentence": "Privacy Policy"
+      },
+      {
+        "sentence": "Terms of Service"
+      },
+      {
+        "sentence": "Cookie Policy"
+      }
+    ]
+  },
+  "metadata": {
+    "extracted_at": "2026-01-01T22:19:33.404945400Z",
+    "duration_ms": 4,
+    "extractors_matched": [
+      "metadata",
+      "examples",
+      "sections"
+    ],
+    "extractors_failed": [
+      "vocab_tables",
+      "definitions",
+      "content_blocks"
+    ]
+  }
+}

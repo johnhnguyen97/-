@@ -1,0 +1,331 @@
+{
+  "config_name": "Language Learning Extractor",
+  "url": "https://practice-japanese.com/docs/sae/",
+  "data": {
+    "examples": [
+      {
+        "sentence": "\"even\""
+      },
+      {
+        "sentence": "\"even if\""
+      },
+      {
+        "sentence": "\"as much as\""
+      },
+      {
+        "sentence": "\"so much so that\""
+      },
+      {
+        "sentence": "さえ means \"even\" for emphasis"
+      },
+      {
+        "sentence": "Highlights extreme examples or minimum requirements"
+      },
+      {
+        "sentence": "Pattern: [Noun]さえ + [Predicate]"
+      },
+      {
+        "sentence": "Common: さえ〜ば (if only...), さえ〜ない (can't even...)"
+      },
+      {
+        "sentence": "More emphatic than でも"
+      },
+      {
+        "sentence": "Verb stem + さえする for verbs"
+      },
+      {
+        "sentence": "Use sparingly for genuine emphasis"
+      },
+      {
+        "sentence": "Can combine with particles (をさえ, にさえ)"
+      },
+      {
+        "sentence": "Shows sufficiency: 〜さえあればいい (just... is enough)"
+      },
+      {
+        "sentence": "About"
+      },
+      {
+        "sentence": "Pricing"
+      },
+      {
+        "sentence": "Blog"
+      },
+      {
+        "sentence": "Contact"
+      },
+      {
+        "sentence": "Privacy Policy"
+      },
+      {
+        "sentence": "Terms of Service"
+      },
+      {
+        "sentence": "Cookie Policy"
+      }
+    ],
+    "metadata": {
+      "title": "さえ (Even)"
+    },
+    "sections": [
+      {
+        "level": 2,
+        "heading": "What is さえ?",
+        "content": "さえ (sae) is a particle meaning \"even\" that emphasizes an extreme or unexpected example. It highlights something as the minimum requirement or an extreme case to make a point.\n\nEnglish equivalents:\n\n\"even\" \"even if\" \"as much as\" \"so much so that\"\n\n子供さえ分かる。 Kodomo sae wakaru. \"Even a child understands.\" 水さえあればいい。 Mizu sae areba ii. \"If I just have water, it's fine.\" / \"Water alone is enough.\""
+      },
+      {
+        "level": 2,
+        "heading": "Basic Usage",
+        "content": "",
+        "children": [
+          {
+            "level": 3,
+            "heading": "Structure",
+            "content": "[Noun] + さえ + [Predicate]\n\nさえ replaces or follows other particles (は, が, を):\n\n彼は → 彼さえ (He even) 水が → 水さえ (Even water) 本を → 本をさえ (Even books)"
+          },
+          {
+            "level": 3,
+            "heading": "Emphasizing Minimum Requirements",
+            "content": "\"Even X (and nothing more is needed)\"\n\nこれさえあれば大丈夫だ。 Kore sae areba daijoubu da. \"If I just have this, it's okay.\" / \"This alone is enough.\" お金さえあれば何でもできる。 Okane sae areba nandemo dekiru. \"If you just have money, you can do anything.\" 時間さえあればやりたい。 Jikan sae areba yaritai. \"If I just had time, I'd want to do it.\""
+          },
+          {
+            "level": 3,
+            "heading": "Emphasizing Extreme Examples",
+            "content": "\"Even X (so extreme that...)\"\n\n彼は自分の名前さえ書けない。 Kare wa jibun no namae sae kakenai. \"He can't even write his own name.\" 犬さえ食べない。 Inu sae tabenai. \"Even a dog won't eat it.\" 簡単な問題さえ解けなかった。 Kantan na mondai sae tokenakatta. \"I couldn't even solve a simple problem.\""
+          },
+          {
+            "level": 3,
+            "heading": "Emphasizing Unexpected Situations",
+            "content": "先生さえ知らない。 Sensei sae shiranai. \"Even the teacher doesn't know.\" 彼女さえ反対した。 Kanojo sae hantai shita. \"Even she opposed it.\" 子供さえ笑わなかった。 Kodomo sae warawanakatta. \"Even the children didn't laugh.\""
+          }
+        ]
+      },
+      {
+        "level": 2,
+        "heading": "Common Patterns",
+        "content": "",
+        "children": [
+          {
+            "level": 3,
+            "heading": "さえ〜ば (Sae...ba) - \"If only... / As long as...\"",
+            "content": "Conditional form emphasizing minimum requirement:\n\nこれさえあれば幸せだ。 Kore sae areba shiawase da. \"If I just have this, I'm happy.\" 君さえいればいい。 Kimi sae ireba ii. \"As long as I have you, it's fine.\" 頑張りさえすれば成功できる。 Ganbari sae sureba seikou dekiru. \"If you just try hard, you can succeed.\" お金さえあれば買える。 Okane sae areba kaeru. \"If you just have money, you can buy it.\""
+          },
+          {
+            "level": 3,
+            "heading": "さえ〜たら (Sae...tara) - \"If only...\"",
+            "content": "Similar to さえ〜ば but with たら conditional:\n\n彼さえいたら楽しかった。 Kare sae itara tanoshikatta. \"If only he had been there, it would have been fun.\" もう少しさえあったら勝てた。 Mou sukoshi sae attara kateta. \"If I'd just had a little more, I could have won.\""
+          },
+          {
+            "level": 3,
+            "heading": "さえ〜ない (Sae...nai) - \"Can't even... / Don't even...\"",
+            "content": "Emphasizes inability or lack:\n\n一言さえ言えなかった。 Hitokoto sae ienakatta. \"I couldn't even say a word.\" 挨拶さえしない。 Aisatsu sae shinai. \"He doesn't even greet people.\" 名前さえ知らない。 Namae sae shiranai. \"I don't even know the name.\" 見ることさえできない。 Miru koto sae dekinai. \"I can't even look at it.\""
+          },
+          {
+            "level": 3,
+            "heading": "Verb stem + さえすれば",
+            "content": "For verbs, attach さえ to the verb stem:\n\n頑張りさえすれば Ganbari sae sureba \"If you just try hard\" 勉強しさえすれば Benkyou shi sae sureba \"If you just study\" 諦めさえしなければ Akirame sae shinakereba \"If you just don't give up\""
+          }
+        ]
+      },
+      {
+        "level": 2,
+        "heading": "With Negative Implications",
+        "content": "",
+        "children": [
+          {
+            "level": 3,
+            "heading": "Expressing Inability",
+            "content": "簡単な料理さえ作れない。 Kantan na ryouri sae tsukurenai. \"I can't even make simple dishes.\" ひらがなさえ読めない。 Hiragana sae yomenai. \"I can't even read hiragana.\" 歩くことさえ辛い。 Aruku koto sae tsurai. \"Even walking is painful.\""
+          },
+          {
+            "level": 3,
+            "heading": "Expressing Disappointment",
+            "content": "親友さえ信じてくれなかった。 Shin'yuu sae shinjite kurenakatta. \"Even my best friend didn't believe me.\" 先生さえ助けてくれない。 Sensei sae tasukete kurenai. \"Even the teacher won't help.\""
+          }
+        ]
+      },
+      {
+        "level": 2,
+        "heading": "Positive Emphasis",
+        "content": "",
+        "children": [
+          {
+            "level": 3,
+            "heading": "Expressing Sufficiency",
+            "content": "水さえあれば生きられる。 Mizu sae areba ikirareru. \"If I just have water, I can survive.\" 君の笑顔さえあれば十分だ。 Kimi no egao sae areba juubun da. \"Your smile alone is enough.\""
+          },
+          {
+            "level": 3,
+            "heading": "Showing Capability",
+            "content": "子供さえできる。 Kodomo sae dekiru. \"Even a child can do it.\" [It's that easy] 一人さえ来れば始められる。 Hitori sae kureba hajimerareru. \"If even one person comes, we can start.\""
+          }
+        ]
+      },
+      {
+        "level": 2,
+        "heading": "Comparison with でも and も",
+        "content": "",
+        "children": [
+          {
+            "level": 3,
+            "heading": "さえ vs も (mo)",
+            "content": "も - \"also/too\" (adding):\n\n彼も来る。 Kare mo kuru. \"He's coming too.\"\n\nさえ - \"even\" (emphasizing extreme):\n\n彼さえ来る。 Kare sae kuru. \"Even he is coming.\" [Unexpected/extreme]"
+          },
+          {
+            "level": 3,
+            "heading": "さえ vs でも (demo)",
+            "content": "でも - \"even\" (more casual, any example):\n\n子供でも分かる。 Kodomo demo wakaru. \"Even a child understands.\" [Casual]\n\nさえ - \"even\" (more emphatic):\n\n子供さえ分かる。 Kodomo sae wakaru. \"Even a child understands.\" [More emphatic]\n\nNote: さえ is more emphatic than でも."
+          }
+        ]
+      },
+      {
+        "level": 2,
+        "heading": "Formal Equivalents",
+        "content": "",
+        "children": [
+          {
+            "level": 3,
+            "heading": "さえ in formal contexts",
+            "content": "その事実さえ知らなかった。 Sono jijitsu sae shiranakatta. \"I didn't even know that fact.\" 基本的なルールさえ守られていない。 Kihonteki na ru-ru sae mamorarete inai. \"Even basic rules aren't being followed.\""
+          },
+          {
+            "level": 3,
+            "heading": "すら (sura) - More formal",
+            "content": "For very formal contexts, すら can replace さえ:\n\n彼は自分の名前すら書けない。 Kare wa jibun no namae sura kakenai. \"He can't even write his own name.\" [Formal] See: [すら (Even - formal)](/docs/sura)"
+          }
+        ]
+      },
+      {
+        "level": 2,
+        "heading": "With Different Sentence Types",
+        "content": "",
+        "children": [
+          {
+            "level": 3,
+            "heading": "With Adjectives",
+            "content": "簡単さえない。 Kantan sae nai. \"It's not even simple.\" 小さいものさえ見えない。 Chiisai mono sae mienai. \"I can't even see small things.\""
+          },
+          {
+            "level": 3,
+            "heading": "With Nouns",
+            "content": "水さえない。 Mizu sae nai. \"There isn't even water.\" 時間さえない。 Jikan sae nai. \"I don't even have time.\""
+          },
+          {
+            "level": 3,
+            "heading": "With Verbs",
+            "content": "動くことさえできない。 Ugoku koto sae dekinai. \"I can't even move.\" 話すことさえ辛い。 Hanasu koto sae tsurai. \"Even talking is painful.\""
+          }
+        ]
+      },
+      {
+        "level": 2,
+        "heading": "Particle Combinations",
+        "content": "",
+        "children": [
+          {
+            "level": 3,
+            "heading": "を + さえ",
+            "content": "Can keep を:\n\n本をさえ読めば分かる。 Hon wo sae yomeba wakaru. \"If you even just read the book, you'll understand.\"\n\nOr drop を:\n\n本さえ読めば分かる。 Hon sae yomeba wakaru. [Same meaning]"
+          },
+          {
+            "level": 3,
+            "heading": "に + さえ",
+            "content": "彼にさえ言えない。 Kare ni sae ienai. \"I can't even tell him.\""
+          },
+          {
+            "level": 3,
+            "heading": "で + さえ",
+            "content": "ここでさえ暑い。 Koko de sae atsui. \"It's hot even here.\""
+          }
+        ]
+      },
+      {
+        "level": 2,
+        "heading": "Expressing Extremes",
+        "content": "",
+        "children": [
+          {
+            "level": 3,
+            "heading": "Minimum threshold",
+            "content": "一人さえいればできる。 Hitori sae ireba dekiru. \"If there's even just one person, we can do it.\" 一円さえない。 Ichi'en sae nai. \"I don't even have one yen.\""
+          },
+          {
+            "level": 3,
+            "heading": "Maximum surprise",
+            "content": "彼さえ知らないなんて！ Kare sae shiranai nante! \"Even he doesn't know!\" これさえできないの？ Kore sae dekinai no? \"You can't even do this?\""
+          }
+        ]
+      },
+      {
+        "level": 2,
+        "heading": "Common Expressions",
+        "content": "",
+        "children": [
+          {
+            "level": 3,
+            "heading": "Set phrases with さえ",
+            "content": "思いさえしなかった Omoi sae shinakatta \"I didn't even think of it\" 想像さえできない Souzou sae dekinai \"I can't even imagine\" 夢にさえ見なかった Yume ni sae minakatta \"I didn't even dream of it\""
+          }
+        ]
+      },
+      {
+        "level": 2,
+        "heading": "Common Mistakes",
+        "content": "",
+        "children": [
+          {
+            "level": 3,
+            "heading": "Mistake 1: Confusing さえ with も",
+            "content": "❌ 彼さえ来る (when you mean \"he's also coming\") ✓ 彼も来る (correct for \"also\") ✓ 彼さえ来る (correct for \"even he is coming\" - emphasizing surprise)\n\nUse も for \"also,\" さえ for emphatic \"even.\""
+          },
+          {
+            "level": 3,
+            "heading": "Mistake 2: Wrong Verb Form",
+            "content": "❌ 勉強するさえすれば ✓ 勉強しさえすれば\n\nAttach さえ to verb stem, not dictionary form."
+          },
+          {
+            "level": 3,
+            "heading": "Mistake 3: Overusing さえ",
+            "content": "❌ 私さえ学生さえで日本語さえ勉強しています ✓ 私は学生で、日本語を勉強しています\n\nDon't overuse - reserve for emphasis."
+          },
+          {
+            "level": 3,
+            "heading": "Mistake 4: Wrong Context",
+            "content": "❌ 良い天気さえです (unnecessary emphasis) ✓ 良い天気です\n\nUse さえ only when emphasizing extremes or minimums."
+          }
+        ]
+      },
+      {
+        "level": 2,
+        "heading": "Summary",
+        "content": "Key Points:\n\nさえ means \"even\" for emphasis Highlights extreme examples or minimum requirements Pattern: [Noun]さえ + [Predicate] Common: さえ〜ば (if only...), さえ〜ない (can't even...) More emphatic than でも Verb stem + さえする for verbs Use sparingly for genuine emphasis Can combine with particles (をさえ, にさえ) Shows sufficiency: 〜さえあればいい (just... is enough)",
+        "children": [
+          {
+            "level": 3,
+            "heading": "Company",
+            "content": "About Pricing Blog Contact"
+          },
+          {
+            "level": 3,
+            "heading": "Legal",
+            "content": "Privacy Policy Terms of Service Cookie Policy"
+          }
+        ]
+      }
+    ]
+  },
+  "metadata": {
+    "extracted_at": "2026-01-01T22:19:34.319929400Z",
+    "duration_ms": 5,
+    "extractors_matched": [
+      "metadata",
+      "examples",
+      "sections"
+    ],
+    "extractors_failed": [
+      "vocab_tables",
+      "definitions",
+      "content_blocks"
+    ]
+  }
+}

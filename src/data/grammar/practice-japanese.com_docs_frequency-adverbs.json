@@ -1,0 +1,366 @@
+{
+  "config_name": "Language Learning Extractor",
+  "url": "https://practice-japanese.com/docs/frequency-adverbs/",
+  "data": {
+    "examples": [
+      {
+        "sentence": "About"
+      },
+      {
+        "sentence": "Pricing"
+      },
+      {
+        "sentence": "Blog"
+      },
+      {
+        "sentence": "Contact"
+      },
+      {
+        "sentence": "Privacy Policy"
+      },
+      {
+        "sentence": "Terms of Service"
+      },
+      {
+        "sentence": "Cookie Policy"
+      }
+    ],
+    "sections": [
+      {
+        "level": 2,
+        "heading": "Frequency Adverbs",
+        "content": "Frequency adverbs express how often an action occurs, from \"always\" to \"never.\" They answer the question \"how often?\" and are essential for describing habits, routines, and recurring events in Japanese.\n\nいつも本を読む \"I always read books\" 時々映画を見る \"I sometimes watch movies\" 全然運動しない \"I never exercise\""
+      },
+      {
+        "level": 2,
+        "heading": "Frequency Scale",
+        "content": "",
+        "children": [
+          {
+            "level": 3,
+            "heading": "From most to least frequent",
+            "content": "100%: いつも/常に \"always\" 90%: たいてい \"usually/mostly\" 80%: よく \"often\" 50%: 時々/ときどき \"sometimes\" 30%: たまに \"occasionally\" 10%: めったに〜ない \"rarely/seldom\" 0%: 全然〜ない \"never\" Frequency spectrum"
+          }
+        ]
+      },
+      {
+        "level": 2,
+        "heading": "いつも (Always)",
+        "content": "",
+        "children": [
+          {
+            "level": 3,
+            "heading": "100% frequency",
+            "content": "いつも早く起きる \"I always wake up early\" いつもここで昼ごはんを食べる \"I always eat lunch here\" いつも同じ道を通る \"I always take the same route\" Every time Without exception"
+          }
+        ]
+      },
+      {
+        "level": 2,
+        "heading": "常に (Always - Formal)",
+        "content": "",
+        "children": [
+          {
+            "level": 3,
+            "heading": "Formal \"always\"",
+            "content": "常に努力する \"Always make efforts\" 常に注意する \"Always be careful\" More formal than いつも Written/serious contexts"
+          }
+        ]
+      },
+      {
+        "level": 2,
+        "heading": "たいてい (Usually/Mostly)",
+        "content": "",
+        "children": [
+          {
+            "level": 3,
+            "heading": "About 90% of the time",
+            "content": "たいてい家で夕食を食べる \"I usually eat dinner at home\" たいてい電車で通勤する \"I mostly commute by train\" 週末はたいていゆっくり寝る \"I usually sleep in on weekends\" Most of the time General pattern"
+          }
+        ]
+      },
+      {
+        "level": 2,
+        "heading": "よく (Often/Frequently)",
+        "content": "",
+        "children": [
+          {
+            "level": 3,
+            "heading": "High frequency",
+            "content": "よく映画を見る \"I often watch movies\" この店によく来る \"I often come to this store\" よく友達と会う \"I often meet friends\" Frequent occurrence Also means \"well\""
+          }
+        ]
+      },
+      {
+        "level": 2,
+        "heading": "時々/ときどき (Sometimes)",
+        "content": "",
+        "children": [
+          {
+            "level": 3,
+            "heading": "About 50% frequency",
+            "content": "時々ジムに行く \"I sometimes go to the gym\" 週末は時々買い物をする \"I sometimes go shopping on weekends\" 時々日本料理を作る \"I sometimes cook Japanese food\" Occasional Not rare, not frequent"
+          }
+        ]
+      },
+      {
+        "level": 2,
+        "heading": "たまに (Occasionally)",
+        "content": "",
+        "children": [
+          {
+            "level": 3,
+            "heading": "Less frequent than 時々",
+            "content": "たまに外食する \"I occasionally eat out\" たまに実家に帰る \"I occasionally return to my parents' home\" たまにしか会わない \"Only meet occasionally\" Infrequent but happens"
+          }
+        ]
+      },
+      {
+        "level": 2,
+        "heading": "めったに〜ない (Rarely/Seldom)",
+        "content": "",
+        "children": [
+          {
+            "level": 3,
+            "heading": "Very infrequent - with negative",
+            "content": "めったに外食しない \"I rarely eat out\" めったに遅刻しない \"I seldom arrive late\" めったに風邪を引かない \"I rarely catch colds\" Almost never Must use negative"
+          }
+        ]
+      },
+      {
+        "level": 2,
+        "heading": "全然〜ない (Not at all/Never)",
+        "content": "",
+        "children": [
+          {
+            "level": 3,
+            "heading": "0% frequency - with negative",
+            "content": "全然運動しない \"I don't exercise at all\" 全然分からない \"I don't understand at all\" 全然会わない \"I never meet (them)\" Complete negation Emphasizes \"not\""
+          }
+        ]
+      },
+      {
+        "level": 2,
+        "heading": "あまり〜ない (Not very/Not much)",
+        "content": "",
+        "children": [
+          {
+            "level": 3,
+            "heading": "Low frequency - with negative",
+            "content": "あまり外出しない \"I don't go out much\" あまりテレビを見ない \"I don't watch TV much\" あまり肉を食べない \"I don't eat meat much\" Less than expected Mild negative"
+          }
+        ]
+      },
+      {
+        "level": 2,
+        "heading": "毎日/毎週/毎月/毎年 (Every day/week/month/year)",
+        "content": "",
+        "children": [
+          {
+            "level": 3,
+            "heading": "Regular intervals",
+            "content": "毎日走る \"Run every day\" 毎週末映画を見る \"Watch movies every weekend\" 毎月本を買う \"Buy books every month\" 毎年旅行する \"Travel every year\" Specific regular frequency"
+          }
+        ]
+      },
+      {
+        "level": 2,
+        "heading": "Position in Sentence",
+        "content": "",
+        "children": [
+          {
+            "level": 3,
+            "heading": "Before the verb",
+            "content": "いつも朝ごはんを食べる \"I always eat breakfast\" 時々公園に行く \"I sometimes go to the park\" Usually before verb Can start sentence"
+          }
+        ]
+      },
+      {
+        "level": 2,
+        "heading": "With Negative Forms",
+        "content": "",
+        "children": [
+          {
+            "level": 3,
+            "heading": "Frequency + negative",
+            "content": "めったに〜ない \"Rarely\" 全然〜ない \"Not at all/Never\" あまり〜ない \"Not very/Not much\" ほとんど〜ない \"Hardly ever\" Must use negative verb"
+          }
+        ]
+      },
+      {
+        "level": 2,
+        "heading": "ほとんど〜ない (Hardly ever)",
+        "content": "",
+        "children": [
+          {
+            "level": 3,
+            "heading": "Very close to never",
+            "content": "ほとんど行かない \"I hardly ever go\" ほとんど食べない \"I hardly eat\" Almost never Stronger than めったに"
+          }
+        ]
+      },
+      {
+        "level": 2,
+        "heading": "いつでも (Anytime)",
+        "content": "",
+        "children": [
+          {
+            "level": 3,
+            "heading": "Availability",
+            "content": "いつでも来てください \"Please come anytime\" いつでも電話していい \"You can call anytime\" Available always No time limit"
+          }
+        ]
+      },
+      {
+        "level": 2,
+        "heading": "普段 (Usually/Normally)",
+        "content": "",
+        "children": [
+          {
+            "level": 3,
+            "heading": "Normal circumstances",
+            "content": "普段は家で食べる \"I usually eat at home\" 普段はバスで行く \"I normally go by bus\" Ordinary times Regular pattern"
+          }
+        ]
+      },
+      {
+        "level": 2,
+        "heading": "Combining Frequency Adverbs",
+        "content": "",
+        "children": [
+          {
+            "level": 3,
+            "heading": "Narrowing frequency",
+            "content": "ほとんど毎日 \"Almost every day\" だいたいいつも \"Almost always\" 時々しか〜ない \"Only sometimes\" Combining for precision"
+          }
+        ]
+      },
+      {
+        "level": 2,
+        "heading": "Common Patterns",
+        "content": "",
+        "children": [
+          {
+            "level": 3,
+            "heading": "〜しか〜ない (Only)",
+            "content": "時々しか会わない \"Only meet sometimes\" たまにしか来ない \"Only come occasionally\" Emphasizes limitation"
+          }
+        ]
+      },
+      {
+        "level": 2,
+        "heading": "Questions About Frequency",
+        "content": "",
+        "children": [
+          {
+            "level": 3,
+            "heading": "どのくらい/どれくらい",
+            "content": "どのくらい運動しますか \"How often do you exercise?\" A: 週に3回くらいです \"About 3 times a week\" Asking frequency"
+          },
+          {
+            "level": 3,
+            "heading": "よく + question",
+            "content": "よくここに来ますか \"Do you come here often?\" A: はい、よく来ます \"Yes, I come often\" Common question pattern"
+          }
+        ]
+      },
+      {
+        "level": 2,
+        "heading": "Casual vs Formal",
+        "content": "",
+        "children": [
+          {
+            "level": 3,
+            "heading": "Mostly neutral",
+            "content": "いつも (neutral) 常に (formal) よく (neutral) 時々 (neutral) たまに (casual) Most are neutral Some more formal"
+          }
+        ]
+      },
+      {
+        "level": 2,
+        "heading": "Regional Variations",
+        "content": "",
+        "children": [
+          {
+            "level": 3,
+            "heading": "Dialectal differences",
+            "content": "Standard: たまに Kansai: たまーに (emphasis) しょっちゅう \"frequently\" (casual) Regional expressions exist"
+          }
+        ]
+      },
+      {
+        "level": 2,
+        "heading": "Common Mistakes",
+        "content": "",
+        "children": [
+          {
+            "level": 3,
+            "heading": "Forgetting negative with めったに",
+            "content": "Wrong: めったに行く ⚠️ Correct: めったに行かない ✓ \"I rarely go\" Must use negative"
+          },
+          {
+            "level": 3,
+            "heading": "Using 全然 with positive",
+            "content": "Wrong: 全然好き ⚠️ Correct: 全然好きじゃない ✓ \"I don't like it at all\" Requires negative (Exception in casual: 全然いい \"totally fine\")"
+          }
+        ]
+      },
+      {
+        "level": 2,
+        "heading": "Emphasis",
+        "content": "",
+        "children": [
+          {
+            "level": 3,
+            "heading": "Strengthening frequency",
+            "content": "本当によく \"Really often\" かなりよく \"Quite often\" ほとんどいつも \"Almost always\" Adding emphasis"
+          }
+        ]
+      },
+      {
+        "level": 2,
+        "heading": "Practice Sentences",
+        "content": "",
+        "children": [
+          {
+            "level": 3,
+            "heading": "Basic",
+            "content": "いつも朝ごはんを食べる \"I always eat breakfast\" よく図書館に行く \"I often go to the library\" 時々友達と会う \"I sometimes meet friends\" たまに映画を見る \"I occasionally watch movies\" めったに外食しない \"I rarely eat out\" 全然運動しない \"I never exercise\""
+          },
+          {
+            "level": 3,
+            "heading": "Intermediate",
+            "content": "私は毎日日本語を勉強している。 たいてい朝に勉強するが、 時々夜にすることもある。 よく友達と練習する。 \"I study Japanese every day. I usually study in the morning, but sometimes I do it at night too. I often practice with friends.\" 昔はよく外食していたが、 最近はあまりしない。 健康のために、たいてい家で 料理を作る。週末だけは 時々レストランに行く。 \"I used to eat out often, but I don't do it much recently. For health, I usually cook at home. Only on weekends do I sometimes go to restaurants.\" 彼はいつも時間通りに来る。 めったに遅刻しない。 とても真面目な人だ。 \"He always comes on time. He rarely arrives late. He's a very serious person.\""
+          },
+          {
+            "level": 3,
+            "heading": "Company",
+            "content": "About Pricing Blog Contact"
+          },
+          {
+            "level": 3,
+            "heading": "Legal",
+            "content": "Privacy Policy Terms of Service Cookie Policy"
+          }
+        ]
+      }
+    ],
+    "metadata": {
+      "title": "Frequency Adverbs"
+    }
+  },
+  "metadata": {
+    "extracted_at": "2026-01-01T22:19:29.374686700Z",
+    "duration_ms": 4,
+    "extractors_matched": [
+      "metadata",
+      "examples",
+      "sections"
+    ],
+    "extractors_failed": [
+      "vocab_tables",
+      "definitions",
+      "content_blocks"
+    ]
+  }
+}

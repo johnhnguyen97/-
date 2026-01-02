@@ -1,0 +1,354 @@
+{
+  "config_name": "Language Learning Extractor",
+  "url": "https://practice-japanese.com/docs/te-kudasai/",
+  "data": {
+    "sections": [
+      {
+        "level": 2,
+        "heading": "What is 〜てください?",
+        "content": "〜てください is the standard polite way to make requests, meaning \"please do\" or \"please [verb].\" It's one of the most essential patterns for everyday Japanese.\n\n待ってください \"Please wait\" 教えてください \"Please teach me\" / \"Please tell me\" 手伝ってください \"Please help me\""
+      },
+      {
+        "level": 2,
+        "heading": "Formation",
+        "content": "",
+        "children": [
+          {
+            "level": 3,
+            "heading": "Pattern: Verb て-form + ください",
+            "content": "| Verb | て-form | + ください | | ------ | ------- | -------------- | | 見る | 見て | 見てください | | 食べる | 食べて | 食べてください | | 来る | 来て | 来てください | | する | して | してください | | 書く | 書いて | 書いてください | | 読む | 読んで | 読んでください |"
+          },
+          {
+            "level": 3,
+            "heading": "Examples",
+            "content": "座る → 座ってください (Please sit) 聞く → 聞いてください (Please listen) 使う → 使ってください (Please use)"
+          }
+        ]
+      },
+      {
+        "level": 2,
+        "heading": "Basic Usage",
+        "content": "",
+        "children": [
+          {
+            "level": 3,
+            "heading": "Making requests",
+            "content": "ここに名前を書いてください \"Please write your name here\" ゆっくり話してください \"Please speak slowly\" 窓を開けてください \"Please open the window\""
+          },
+          {
+            "level": 3,
+            "heading": "Asking for help",
+            "content": "助けてください \"Please help me\" 説明してください \"Please explain\" もう一度言ってください \"Please say it once more\""
+          }
+        ]
+      },
+      {
+        "level": 2,
+        "heading": "Common てください Phrases",
+        "content": "",
+        "children": [
+          {
+            "level": 3,
+            "heading": "Everyday requests",
+            "content": "待ってください - Please wait 来てください - Please come 見てください - Please look 聞いてください - Please listen 教えてください - Please teach/tell me"
+          },
+          {
+            "level": 3,
+            "heading": "Information requests",
+            "content": "教えてください - Please tell me 説明してください - Please explain 見せてください - Please show me 確認してください - Please confirm"
+          },
+          {
+            "level": 3,
+            "heading": "Action requests",
+            "content": "座ってください - Please sit 立ってください - Please stand 開けてください - Please open 閉めてください - Please close"
+          }
+        ]
+      },
+      {
+        "level": 2,
+        "heading": "Politeness Level",
+        "content": "",
+        "children": [
+          {
+            "level": 3,
+            "heading": "Standard polite",
+            "content": "読んでください \"Please read\" 食べてください \"Please eat\""
+          },
+          {
+            "level": 3,
+            "heading": "More polite: くださいませ",
+            "content": "お待ちくださいませ \"Please wait\" (very polite) ご覧くださいませ \"Please look\" (very polite)"
+          },
+          {
+            "level": 3,
+            "heading": "Less direct: くださいますか/くださいませんか",
+            "content": "待ってくださいますか？ \"Could you please wait?\" 手伝ってくださいませんか？ \"Wouldn't you please help?\""
+          }
+        ]
+      },
+      {
+        "level": 2,
+        "heading": "Common Conversations",
+        "content": "",
+        "children": [
+          {
+            "level": 3,
+            "heading": "Example 1: Asking for Directions",
+            "content": "A: すみません、駅への行き方を教えてください \"Excuse me, please tell me how to get to the station\" B: まっすぐ行って、二つ目の角を右に曲がってください \"Go straight and turn right at the second corner\" A: ありがとうございます \"Thank you\""
+          },
+          {
+            "level": 3,
+            "heading": "Example 2: In a Store",
+            "content": "A: すみません、これを見せてください \"Excuse me, please show me this\" B: はい、どうぞ \"Yes, here you are\" A: これください \"I'll take this\" / \"This, please\""
+          },
+          {
+            "level": 3,
+            "heading": "Example 3: On the Phone",
+            "content": "A: 少々お待ちください \"Please wait a moment\" B: はい \"Okay\" A: お待たせしました \"Thank you for waiting\""
+          }
+        ]
+      },
+      {
+        "level": 2,
+        "heading": "ください Alone",
+        "content": "",
+        "children": [
+          {
+            "level": 3,
+            "heading": "Used with nouns",
+            "content": "水をください \"Water, please\" / \"Please give me water\" これをください \"This, please\" / \"I'll take this\" メニューをください \"The menu, please\""
+          },
+          {
+            "level": 3,
+            "heading": "In shops",
+            "content": "これください \"This, please\" 二つください \"Two, please\" お会計ください \"The bill, please\""
+          }
+        ]
+      },
+      {
+        "level": 2,
+        "heading": "Making it More Polite",
+        "content": "",
+        "children": [
+          {
+            "level": 3,
+            "heading": "Adding お願いします",
+            "content": "待ってください、お願いします \"Please wait, I beg you\" 教えてくださいお願いします \"Please tell me, please\""
+          },
+          {
+            "level": 3,
+            "heading": "Using honorific verbs",
+            "content": "お待ちください \"Please wait\" (more polite than 待ってください) ご覧ください \"Please look\" (more polite than 見てください)"
+          }
+        ]
+      },
+      {
+        "level": 2,
+        "heading": "Common Mistakes",
+        "content": "",
+        "children": [
+          {
+            "level": 3,
+            "heading": "Mistake 1: Using dictionary form",
+            "content": "Wrong: 待つください ❌ Right: 待ってください ✓ \"Please wait\" Must use て-form!"
+          },
+          {
+            "level": 3,
+            "heading": "Mistake 2: Using in casual situations",
+            "content": "Too formal to friends: 食べてください ⚠️ Better: 食べて ✓ \"Eat\" / \"Please eat\" ください is polite, not casual!"
+          },
+          {
+            "level": 3,
+            "heading": "Mistake 3: Forgetting particles",
+            "content": "Less clear: 本読んでください ⚠️ Clear: 本を読んでください ✓ \"Please read the book\""
+          },
+          {
+            "level": 3,
+            "heading": "Mistake 4: Using with potential form",
+            "content": "Wrong: 読めてください ❌ Right: 読んでください ✓ \"Please read\""
+          }
+        ]
+      },
+      {
+        "level": 2,
+        "heading": "Adding Emphasis",
+        "content": "",
+        "children": [
+          {
+            "level": 3,
+            "heading": "ちょっと (a bit)",
+            "content": "ちょっと待ってください \"Please wait a moment\" ちょっと見てください \"Please look for a moment\""
+          },
+          {
+            "level": 3,
+            "heading": "どうぞ (please, go ahead)",
+            "content": "どうぞ座ってください \"Please sit down\" どうぞ食べてください \"Please eat\""
+          },
+          {
+            "level": 3,
+            "heading": "もう一度 (once more)",
+            "content": "もう一度言ってください \"Please say it once more\" もう一度説明してください \"Please explain once more\""
+          }
+        ]
+      },
+      {
+        "level": 2,
+        "heading": "Softening Requests",
+        "content": "",
+        "children": [
+          {
+            "level": 3,
+            "heading": "できれば (if possible)",
+            "content": "できれば、明日までに終わらせてください \"If possible, please finish by tomorrow\""
+          },
+          {
+            "level": 3,
+            "heading": "よろしければ (if you don't mind)",
+            "content": "よろしければ、こちらに座ってください \"If you don't mind, please sit here\""
+          },
+          {
+            "level": 3,
+            "heading": "すみませんが (excuse me, but)",
+            "content": "すみませんが、静かにしてください \"Excuse me, but please be quiet\""
+          }
+        ]
+      },
+      {
+        "level": 2,
+        "heading": "Time-Related Requests",
+        "content": "急いでください \"Please hurry\" ゆっくりしてください \"Please take your time\" 少々お待ちください \"Please wait a moment\" しばらくお待ちください \"Please wait a while\""
+      },
+      {
+        "level": 2,
+        "heading": "Writing Requests",
+        "content": "ここに名前を書いてください \"Please write your name here\" サインしてください \"Please sign\" 記入してください \"Please fill in\""
+      },
+      {
+        "level": 2,
+        "heading": "Location Requests",
+        "content": "ここに座ってください \"Please sit here\" あちらへ行ってください \"Please go over there\" こちらへ来てください \"Please come this way\""
+      },
+      {
+        "level": 2,
+        "heading": "Negative Requests",
+        "content": "",
+        "children": [
+          {
+            "level": 3,
+            "heading": "Use ないでください",
+            "content": "心配しないでください \"Please don't worry\" 触らないでください \"Please don't touch\""
+          }
+        ]
+      },
+      {
+        "level": 2,
+        "heading": "In Customer Service",
+        "content": "",
+        "children": [
+          {
+            "level": 3,
+            "heading": "Common phrases",
+            "content": "少々お待ちください \"Please wait a moment\" こちらへどうぞ \"This way, please\" お名前を教えてください \"Please tell me your name\" ご記入ください \"Please fill in\" ご確認ください \"Please confirm\""
+          }
+        ]
+      },
+      {
+        "level": 2,
+        "heading": "Practice Sentences",
+        "content": "",
+        "children": [
+          {
+            "level": 3,
+            "heading": "Basic",
+            "content": "ここに座ってください \"Please sit here\" もう一度言ってください \"Please say it once more\" ゆっくり話してください \"Please speak slowly\""
+          },
+          {
+            "level": 3,
+            "heading": "Intermediate",
+            "content": "この書類に名前を書いてください \"Please write your name on this document\" 分からないことがあったら、聞いてください \"If there's something you don't understand, please ask\" 明日までにこのレポートを読んでください \"Please read this report by tomorrow\""
+          },
+          {
+            "level": 3,
+            "heading": "Advanced",
+            "content": "お手数ですが、こちらのフォームに必要事項を記入してください \"Sorry for the trouble, but please fill in the required information on this form\" ご都合の良い日時を教えてくださいますようお願いいたします \"Please inform us of a convenient date and time\" 何かご不明な点がございましたら、お気軽にお問い合わせください \"If you have any questions, please feel free to contact us\""
+          }
+        ]
+      },
+      {
+        "level": 2,
+        "heading": "Related Grammar Points",
+        "content": "〜ていただけますか - Could you (humble) 〜てくれますか - Will you (casual) 〜てもらえますか - Could you 〜ないでください - Please don't て-form - Te-form conjugation Request politeness - Politeness levels",
+        "children": [
+          {
+            "level": 3,
+            "heading": "Company",
+            "content": "About Pricing Blog Contact"
+          },
+          {
+            "level": 3,
+            "heading": "Legal",
+            "content": "Privacy Policy Terms of Service Cookie Policy"
+          }
+        ]
+      }
+    ],
+    "metadata": {
+      "title": "〜てください (Please do)"
+    },
+    "examples": [
+      {
+        "sentence": "〜ていただけますか - Could you (humble)"
+      },
+      {
+        "sentence": "〜てくれますか - Will you (casual)"
+      },
+      {
+        "sentence": "〜てもらえますか - Could you"
+      },
+      {
+        "sentence": "〜ないでください - Please don't"
+      },
+      {
+        "sentence": "て-form - Te-form conjugation"
+      },
+      {
+        "sentence": "Request politeness - Politeness levels"
+      },
+      {
+        "sentence": "About"
+      },
+      {
+        "sentence": "Pricing"
+      },
+      {
+        "sentence": "Blog"
+      },
+      {
+        "sentence": "Contact"
+      },
+      {
+        "sentence": "Privacy Policy"
+      },
+      {
+        "sentence": "Terms of Service"
+      },
+      {
+        "sentence": "Cookie Policy"
+      }
+    ]
+  },
+  "metadata": {
+    "extracted_at": "2026-01-01T22:19:35.725429600Z",
+    "duration_ms": 3,
+    "extractors_matched": [
+      "metadata",
+      "examples",
+      "sections"
+    ],
+    "extractors_failed": [
+      "vocab_tables",
+      "definitions",
+      "content_blocks"
+    ]
+  }
+}

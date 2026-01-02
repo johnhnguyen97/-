@@ -1,0 +1,199 @@
+{
+  "config_name": "Language Learning Extractor",
+  "url": "https://practice-japanese.com/docs/thanks/",
+  "data": {
+    "sections": [
+      {
+        "level": 2,
+        "heading": "Thanks",
+        "content": "Expressing thanks in Japanese goes beyond simple \"thank you.\" The language has multiple expressions for different formality levels and situations, reflecting the cultural importance of showing gratitude.\n\nありがとう (casual) ありがとうございます (polite) ありがとうございました (formal/past) Choose based on: - Relationship - Formality level - Timing"
+      },
+      {
+        "level": 2,
+        "heading": "Basic Forms",
+        "content": "",
+        "children": [
+          {
+            "level": 3,
+            "heading": "Casual",
+            "content": "ありがとう \"Thanks\" どうも \"Thanks\" (brief) Use with friends/family Informal situations"
+          },
+          {
+            "level": 3,
+            "heading": "Polite",
+            "content": "ありがとうございます \"Thank you\" どうもありがとうございます \"Thank you very much\" Standard form Safe for most situations Most commonly used"
+          },
+          {
+            "level": 3,
+            "heading": "Formal",
+            "content": "ありがとうございました \"Thank you\" (completed action) 誠にありがとうございます \"Thank you sincerely\" Business settings Formal occasions Deep gratitude"
+          }
+        ]
+      },
+      {
+        "level": 2,
+        "heading": "Adding Emphasis",
+        "content": "",
+        "children": [
+          {
+            "level": 3,
+            "heading": "Stronger gratitude",
+            "content": "本当にありがとう \"Thank you so much\" 心から感謝します \"I'm truly grateful\" 助かりました \"You really helped me\" When someone went out of their way Major favors"
+          }
+        ]
+      },
+      {
+        "level": 2,
+        "heading": "Common Situations",
+        "content": "",
+        "children": [
+          {
+            "level": 3,
+            "heading": "For food/treats",
+            "content": "ごちそうさまでした \"Thank you for the meal\" Use after eating Someone paid for you Cultural expression"
+          },
+          {
+            "level": 3,
+            "heading": "For help",
+            "content": "手伝ってくれてありがとう \"Thanks for helping\" お世話になりました \"Thanks for taking care of me\" Practical assistance Ongoing support"
+          },
+          {
+            "level": 3,
+            "heading": "For gifts",
+            "content": "素敵なプレゼントをありがとう \"Thank you for the wonderful present\" お気遣いありがとうございます \"Thank you for your thoughtfulness\""
+          }
+        ]
+      },
+      {
+        "level": 2,
+        "heading": "Timing: Present vs Past",
+        "content": "",
+        "children": [
+          {
+            "level": 3,
+            "heading": "Present tense",
+            "content": "ありがとうございます For ongoing/immediate situations Example: Receiving help right now"
+          },
+          {
+            "level": 3,
+            "heading": "Past tense",
+            "content": "ありがとうございました For completed actions Example: 先日はありがとうございました \"Thank you for the other day\" More formal feeling Acknowledging past help"
+          }
+        ]
+      },
+      {
+        "level": 2,
+        "heading": "Responding to Thanks",
+        "content": "",
+        "children": [
+          {
+            "level": 3,
+            "heading": "Standard responses",
+            "content": "どういたしまして \"You're welcome\" いえいえ \"No, no\" とんでもないです \"Not at all\" Humble and modest Downplaying your effort"
+          },
+          {
+            "level": 3,
+            "heading": "Casual responses",
+            "content": "いいよ \"It's okay\" 大丈夫 \"No problem\" 全然 \"Not at all\" Friends only"
+          }
+        ]
+      },
+      {
+        "level": 2,
+        "heading": "Work Context",
+        "content": "",
+        "children": [
+          {
+            "level": 3,
+            "heading": "Colleagues",
+            "content": "お疲れ様です \"Thanks for your work\" (acknowledgment) 助かります \"That helps / I appreciate it\" Common workplace phrases Daily usage"
+          },
+          {
+            "level": 3,
+            "heading": "To superiors",
+            "content": "ありがとうございます Standard polite form 恐れ入ります \"I'm grateful\" (very humble) Show respect Formal language"
+          }
+        ]
+      },
+      {
+        "level": 2,
+        "heading": "Special Expressions",
+        "content": "",
+        "children": [
+          {
+            "level": 3,
+            "heading": "Anticipatory thanks",
+            "content": "よろしくお願いします \"Thank you in advance / Please help me\" Not literal translation Shows humility Requests cooperation"
+          },
+          {
+            "level": 3,
+            "heading": "Deep gratitude",
+            "content": "感謝しております \"I am grateful\" お礼の言葉もございません \"I have no words to thank you\" Significant help received Formal situations"
+          }
+        ]
+      },
+      {
+        "level": 2,
+        "heading": "Common Mistakes",
+        "content": "❌ Using ありがとう to strangers/superiors ✓ ありがとうございます ❌ Forgetting ございました for past ✓ 昨日はありがとうございました ❌ Overusing どういたしまして ✓ Use いえいえ or とんでもない more naturally Context and formality matter"
+      },
+      {
+        "level": 2,
+        "heading": "Quick Reference",
+        "content": "Most casual: どうも Casual: ありがとう Standard: ありがとうございます Formal: ありがとうございました Very formal: 誠にありがとうございます Choose based on relationship and situation",
+        "children": [
+          {
+            "level": 3,
+            "heading": "Company",
+            "content": "About Pricing Blog Contact"
+          },
+          {
+            "level": 3,
+            "heading": "Legal",
+            "content": "Privacy Policy Terms of Service Cookie Policy"
+          }
+        ]
+      }
+    ],
+    "metadata": {
+      "title": "Thanks"
+    },
+    "examples": [
+      {
+        "sentence": "About"
+      },
+      {
+        "sentence": "Pricing"
+      },
+      {
+        "sentence": "Blog"
+      },
+      {
+        "sentence": "Contact"
+      },
+      {
+        "sentence": "Privacy Policy"
+      },
+      {
+        "sentence": "Terms of Service"
+      },
+      {
+        "sentence": "Cookie Policy"
+      }
+    ]
+  },
+  "metadata": {
+    "extracted_at": "2026-01-01T22:19:36.394921400Z",
+    "duration_ms": 3,
+    "extractors_matched": [
+      "metadata",
+      "examples",
+      "sections"
+    ],
+    "extractors_failed": [
+      "vocab_tables",
+      "definitions",
+      "content_blocks"
+    ]
+  }
+}

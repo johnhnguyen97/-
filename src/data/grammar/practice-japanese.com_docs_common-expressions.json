@@ -1,0 +1,366 @@
+{
+  "config_name": "Language Learning Extractor",
+  "url": "https://practice-japanese.com/docs/common-expressions/",
+  "data": {
+    "sections": [
+      {
+        "level": 2,
+        "heading": "Common Expressions",
+        "content": "Common expressions are the building blocks of natural Japanese conversation. These phrases go beyond literal translations and capture the essence of how native speakers actually communicate in everyday situations.\n\nTextbook: 今何時ですか Common: 今何時？ \"What time is it now?\" Natural speech patterns Contextual appropriateness"
+      },
+      {
+        "level": 2,
+        "heading": "Agreement and Acknowledgment",
+        "content": "",
+        "children": [
+          {
+            "level": 3,
+            "heading": "Showing understanding",
+            "content": "そうですね \"That's right / I see\" なるほど \"I see / That makes sense\" 確かに \"Certainly / Indeed\" まあね \"Well, yeah\" Understanding and agreement Common in conversation"
+          },
+          {
+            "level": 3,
+            "heading": "Strong agreement",
+            "content": "本当に \"Really / Truly\" 全くその通り \"Exactly / Absolutely right\" 間違いない \"No doubt / For sure\" だよね \"Right? / Isn't it?\" Emphatic agreement Casual to formal"
+          }
+        ]
+      },
+      {
+        "level": 2,
+        "heading": "Expressing Surprise",
+        "content": "",
+        "children": [
+          {
+            "level": 3,
+            "heading": "Mild surprise",
+            "content": "えっ \"Eh? / What?\" へえ \"Huh / Oh really?\" そうなんだ \"Is that so?\" マジで \"Seriously?\" (casual) Natural reactions Common interjections"
+          },
+          {
+            "level": 3,
+            "heading": "Strong surprise",
+            "content": "本当に？ \"Really?\" 嘘！ \"No way! / Literally: Lie!\" 信じられない \"I can't believe it\" びっくりした \"I was surprised\" Genuine shock Everyday usage"
+          }
+        ]
+      },
+      {
+        "level": 2,
+        "heading": "Hesitation and Thinking",
+        "content": "",
+        "children": [
+          {
+            "level": 3,
+            "heading": "Filler words",
+            "content": "えーと \"Um / Let me see\" あのー \"Well / Um\" そうですね \"Let's see\" ちょっと \"A moment\" Natural pauses Thinking time"
+          },
+          {
+            "level": 3,
+            "heading": "Expressing uncertainty",
+            "content": "どうかな \"I wonder / Not sure\" 分からない \"I don't know\" 多分 \"Maybe / Probably\" かもしれない \"Might be\" Showing doubt Avoiding assertion"
+          }
+        ]
+      },
+      {
+        "level": 2,
+        "heading": "Making Requests",
+        "content": "",
+        "children": [
+          {
+            "level": 3,
+            "heading": "Polite requests",
+            "content": "すみません \"Excuse me\" お願いします \"Please\" ～てもらえますか \"Could you...?\" ～ていただけますか \"Would you kindly...?\" Polite and practical Daily necessity"
+          },
+          {
+            "level": 3,
+            "heading": "Casual requests",
+            "content": "ちょっと \"Hey / Quick favor\" 悪いけど \"Sorry but\" ～てくれる？ \"Can you...?\" 頼むよ \"Come on / Please\" Among friends Informal settings"
+          }
+        ]
+      },
+      {
+        "level": 2,
+        "heading": "Declining and Refusing",
+        "content": "",
+        "children": [
+          {
+            "level": 3,
+            "heading": "Soft refusals",
+            "content": "ちょっと... \"Well... (implied no)\" 難しいです \"It's difficult\" 遠慮します \"I'll refrain\" 今日はちょっと \"Today is a bit...\" Indirect rejection Culturally appropriate"
+          },
+          {
+            "level": 3,
+            "heading": "Direct refusals",
+            "content": "無理です \"It's impossible\" できません \"I can't\" ごめんなさい \"I'm sorry (no)\" やめとく \"I'll pass\" (casual) More direct Still polite"
+          }
+        ]
+      },
+      {
+        "level": 2,
+        "heading": "Checking Understanding",
+        "content": "",
+        "children": [
+          {
+            "level": 3,
+            "heading": "Confirming comprehension",
+            "content": "分かりますか \"Do you understand?\" 大丈夫ですか \"Are you okay? / Is it alright?\" いいですか \"Is it good? / Okay?\" ～ですよね \"...right?\" Ensuring clarity Common in explanations"
+          },
+          {
+            "level": 3,
+            "heading": "Asking for repetition",
+            "content": "もう一度お願いします \"Once more please\" すみません、何ですか \"Sorry, what was that?\" 聞こえませんでした \"I couldn't hear\" ゆっくり話してください \"Please speak slowly\" No shame in asking Better than misunderstanding"
+          }
+        ]
+      },
+      {
+        "level": 2,
+        "heading": "Showing Interest",
+        "content": "",
+        "children": [
+          {
+            "level": 3,
+            "heading": "Encouraging continuation",
+            "content": "それで？ \"And then?\" へえ、そうなんだ \"Oh really?\" 続けて \"Go on / Continue\" もっと教えて \"Tell me more\" Active listening Engagement signals"
+          },
+          {
+            "level": 3,
+            "heading": "Expressing interest",
+            "content": "面白い \"Interesting\" いいね \"That's nice / Cool\" すごい \"Amazing / Wow\" さすが \"As expected (of you)\" Positive reactions Genuine interest"
+          }
+        ]
+      },
+      {
+        "level": 2,
+        "heading": "Time-Related Expressions",
+        "content": "",
+        "children": [
+          {
+            "level": 3,
+            "heading": "Temporal markers",
+            "content": "ちょうど \"Just now / Exactly\" さっき \"A moment ago\" もうすぐ \"Soon / Almost\" 今ちょっと \"Right now (busy)\" Time context Frequently used"
+          },
+          {
+            "level": 3,
+            "heading": "Duration and frequency",
+            "content": "いつも \"Always\" たまに \"Sometimes\" 最近 \"Recently\" この間 \"The other day\" Temporal relationship Natural conversation"
+          }
+        ]
+      },
+      {
+        "level": 2,
+        "heading": "Degree and Extent",
+        "content": "",
+        "children": [
+          {
+            "level": 3,
+            "heading": "Intensifiers",
+            "content": "とても \"Very\" かなり \"Quite / Pretty\" めちゃくちゃ \"Extremely\" (casual) 超 \"Super\" (casual) Degree markers Common modifiers"
+          },
+          {
+            "level": 3,
+            "heading": "Minimizers",
+            "content": "ちょっと \"A little / Somewhat\" あまり～ない \"Not very\" 全然～ない \"Not at all\" ほとんど～ない \"Hardly / Barely\" Downplaying Modest expression"
+          }
+        ]
+      },
+      {
+        "level": 2,
+        "heading": "Reactions to Bad News",
+        "content": "",
+        "children": [
+          {
+            "level": 3,
+            "heading": "Sympathy expressions",
+            "content": "それは大変ですね \"That's tough\" お気の毒に \"I'm sorry to hear that\" 残念ですね \"That's unfortunate\" 困りましたね \"That's troubling\" Showing empathy Appropriate response"
+          },
+          {
+            "level": 3,
+            "heading": "Offering support",
+            "content": "何かできることは？ \"Is there anything I can do?\" 大丈夫？ \"Are you okay?\" 頑張って \"Hang in there\" 心配しないで \"Don't worry\" Supportive phrases Caring response"
+          }
+        ]
+      },
+      {
+        "level": 2,
+        "heading": "Phone and Communication",
+        "content": "",
+        "children": [
+          {
+            "level": 3,
+            "heading": "Phone-specific",
+            "content": "もしもし \"Hello\" (phone only) お電話変わりました \"This is [name] now\" 少々お待ちください \"Please wait a moment\" また後でかけます \"I'll call again later\" Phone etiquette Specific context"
+          },
+          {
+            "level": 3,
+            "heading": "Messaging conventions",
+            "content": "了解 \"Roger / Understood\" おつかれさま \"Good work\" (common message) よろしく \"Please / Thanks\" OK \"Okay\" (borrowed) Text and chat Modern usage"
+          }
+        ]
+      },
+      {
+        "level": 2,
+        "heading": "Shopping and Service",
+        "content": "",
+        "children": [
+          {
+            "level": 3,
+            "heading": "Customer phrases",
+            "content": "見てるだけです \"Just looking\" これください \"I'll take this\" いくらですか \"How much?\" 袋いりません \"I don't need a bag\" Shopping essentials Practical daily use"
+          },
+          {
+            "level": 3,
+            "heading": "Staff responses",
+            "content": "いらっしゃいませ \"Welcome\" かしこまりました \"Certainly\" 少々お待ちください \"One moment please\" ありがとうございました \"Thank you very much\" Service industry Standard phrases"
+          }
+        ]
+      },
+      {
+        "level": 2,
+        "heading": "Changing Topics",
+        "content": "",
+        "children": [
+          {
+            "level": 3,
+            "heading": "Topic transitions",
+            "content": "ところで \"By the way\" そういえば \"Speaking of which\" 話は変わるけど \"Changing the subject\" あ、そうだ \"Oh, that reminds me\" Smooth transitions Natural flow"
+          }
+        ]
+      },
+      {
+        "level": 2,
+        "heading": "Expressing Opinions",
+        "content": "",
+        "children": [
+          {
+            "level": 3,
+            "heading": "Softening opinions",
+            "content": "個人的には \"Personally\" 私の意見では \"In my opinion\" と思います \"I think\" ～じゃないかな \"Don't you think...?\" Humble expression Not imposing"
+          },
+          {
+            "level": 3,
+            "heading": "Showing preference",
+            "content": "～の方がいい \"... is better\" どちらかというと \"If I had to choose\" ～が好き \"I like...\" できれば \"If possible / Preferably\" Personal taste Diplomatic phrasing"
+          }
+        ]
+      },
+      {
+        "level": 2,
+        "heading": "Common Casual Expressions",
+        "content": "",
+        "children": [
+          {
+            "level": 3,
+            "heading": "Among friends",
+            "content": "マジ \"Seriously / Really\" ヤバイ \"Crazy / Awesome / Bad\" うざい \"Annoying\" ダサい \"Uncool / Lame\" Youth language Casual only"
+          },
+          {
+            "level": 3,
+            "heading": "Exclamations",
+            "content": "やった！ \"Yes! / I did it!\" しまった！ \"Oh no! / Darn!\" よかった \"I'm glad / That's good\" 最高 \"The best / Awesome\" Emotional reactions Natural outbursts"
+          }
+        ]
+      },
+      {
+        "level": 2,
+        "heading": "Context-Dependent Phrases",
+        "content": "",
+        "children": [
+          {
+            "level": 3,
+            "heading": "Situation-specific",
+            "content": "At work: お疲れ様です At home: ただいま / おかえり Eating: いただきます / ごちそうさま Meeting: よろしくお願いします Each has its place Cultural rituals"
+          }
+        ]
+      },
+      {
+        "level": 2,
+        "heading": "Understanding Nuance",
+        "content": "",
+        "children": [
+          {
+            "level": 3,
+            "heading": "Same word, different feelings",
+            "content": "そうですね (Agreeing): \"Yes, that's right\" (Hesitating): \"Well, let me think\" (Dismissing): \"Yeah, whatever\" Context is everything Tone matters"
+          },
+          {
+            "level": 3,
+            "heading": "Reading between lines",
+            "content": "ちょっと... = Usually means \"no\" 考えておきます = \"I'll think about it\" (soft no) そうですね... = May indicate disagreement Indirect communication Cultural awareness needed"
+          }
+        ]
+      },
+      {
+        "level": 2,
+        "heading": "Regional Variations",
+        "content": "",
+        "children": [
+          {
+            "level": 3,
+            "heading": "Common dialect phrases",
+            "content": "じゃん (Kanto): \"isn't it?\" やん (Kansai): \"isn't it?\" ばい (Kyushu): sentence ending だべ (Tohoku): \"right?\" Regional flavor Understanding variety"
+          }
+        ]
+      },
+      {
+        "level": 2,
+        "heading": "Borrowed Expressions",
+        "content": "",
+        "children": [
+          {
+            "level": 3,
+            "heading": "English influence",
+            "content": "OK / オーケー \"Okay\" ナイス \"Nice\" グッド \"Good\" チェック \"Check\" Modern Japanese International words"
+          },
+          {
+            "level": 3,
+            "heading": "Company",
+            "content": "About Pricing Blog Contact"
+          },
+          {
+            "level": 3,
+            "heading": "Legal",
+            "content": "Privacy Policy Terms of Service Cookie Policy"
+          }
+        ]
+      }
+    ],
+    "metadata": {
+      "title": "Common Expressions"
+    },
+    "examples": [
+      {
+        "sentence": "About"
+      },
+      {
+        "sentence": "Pricing"
+      },
+      {
+        "sentence": "Blog"
+      },
+      {
+        "sentence": "Contact"
+      },
+      {
+        "sentence": "Privacy Policy"
+      },
+      {
+        "sentence": "Terms of Service"
+      },
+      {
+        "sentence": "Cookie Policy"
+      }
+    ]
+  },
+  "metadata": {
+    "extracted_at": "2026-01-01T22:19:28.094150Z",
+    "duration_ms": 3,
+    "extractors_matched": [
+      "metadata",
+      "examples",
+      "sections"
+    ],
+    "extractors_failed": [
+      "vocab_tables",
+      "definitions",
+      "content_blocks"
+    ]
+  }
+}

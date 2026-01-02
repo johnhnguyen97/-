@@ -1,0 +1,307 @@
+{
+  "config_name": "Language Learning Extractor",
+  "url": "https://practice-japanese.com/docs/sorede/",
+  "data": {
+    "sections": [
+      {
+        "level": 2,
+        "heading": "What is それで?",
+        "content": "それで means \"so,\" \"and then,\" \"therefore,\" or \"and because of that.\" It connects sentences to show that the second sentence is a result or consequence of the first. It's more neutral than だから, focusing on narrating what happened next rather than emphasizing causation.\n\n雨が降った。それで家にいた。 \"It rained. So I stayed home.\" 疲れた。それで早く寝た。 \"I was tired. So I went to bed early.\""
+      },
+      {
+        "level": 2,
+        "heading": "Basic Structure",
+        "content": "",
+        "children": [
+          {
+            "level": 3,
+            "heading": "Sentence 1. それで Sentence 2.",
+            "content": "忙しかった。それで行けなかった。 \"I was busy. So I couldn't go.\" Between sentences Shows result"
+          }
+        ]
+      },
+      {
+        "level": 2,
+        "heading": "Usage and Meaning",
+        "content": "",
+        "children": [
+          {
+            "level": 3,
+            "heading": "Showing result/consequence",
+            "content": "道が混んでた。それで遅れた。 \"The road was crowded. So I was late.\" お金がなかった。それで借りた。 \"I didn't have money. So I borrowed some.\" Natural consequence"
+          },
+          {
+            "level": 3,
+            "heading": "Continuing narrative",
+            "content": "駅に着いた。それで友達に電話した。 \"I arrived at the station. And then I called my friend.\" Sequential events Neutral tone"
+          },
+          {
+            "level": 3,
+            "heading": "Asking \"And then what?\"",
+            "content": "A: 映画を見た。 B: それで？ A: \"I watched a movie.\" B: \"And then? / So what?\" Prompting continuation"
+          }
+        ]
+      },
+      {
+        "level": 2,
+        "heading": "Position in Sentence",
+        "content": "",
+        "children": [
+          {
+            "level": 3,
+            "heading": "Beginning of second sentence",
+            "content": "失敗した。それで諦めた。 \"I failed. So I gave up.\" After period New sentence"
+          }
+        ]
+      },
+      {
+        "level": 2,
+        "heading": "Polite and Casual",
+        "content": "",
+        "children": [
+          {
+            "level": 3,
+            "heading": "Works in both",
+            "content": "Casual: 疲れた。それで休んだ。 \"I was tired. So I rested.\" Polite: 疲れました。それで休みました。 \"I was tired. So I rested.\" Neutral connector"
+          }
+        ]
+      },
+      {
+        "level": 2,
+        "heading": "Common Contexts",
+        "content": "",
+        "children": [
+          {
+            "level": 3,
+            "heading": "Explaining situations",
+            "content": "電車が遅れた。それで遅刻した。 \"The train was delayed. So I was late.\" 病気だった。それで休んだ。 \"I was sick. So I took a day off.\" Giving reasons"
+          },
+          {
+            "level": 3,
+            "heading": "Narrating events",
+            "content": "買い物に行った。それでこれを買った。 \"I went shopping. And then I bought this.\" Sequential storytelling"
+          },
+          {
+            "level": 3,
+            "heading": "Casual questions",
+            "content": "それで、どうだった？ \"So, how was it?\" それで、結果は？ \"So, what was the result?\" Follow-up questions"
+          }
+        ]
+      },
+      {
+        "level": 2,
+        "heading": "それで vs だから",
+        "content": "",
+        "children": [
+          {
+            "level": 3,
+            "heading": "それで = neutral result",
+            "content": "雨だった。それで傘を使った。 \"It was raining. So I used an umbrella.\" Neutral narration What happened next"
+          },
+          {
+            "level": 3,
+            "heading": "だから = emphasized reason",
+            "content": "雨だ。だから傘を持って行く。 \"It's raining. That's why I'm taking an umbrella.\" Emphasizes causation Personal reasoning"
+          }
+        ]
+      },
+      {
+        "level": 2,
+        "heading": "それで vs それから",
+        "content": "",
+        "children": [
+          {
+            "level": 3,
+            "heading": "それで = result/consequence",
+            "content": "疲れた。それで休んだ。 \"I was tired. So I rested.\" Cause-effect relationship"
+          },
+          {
+            "level": 3,
+            "heading": "それから = time sequence",
+            "content": "疲れた。それから休んだ。 \"I got tired. After that, I rested.\" Simple time progression Less causal"
+          }
+        ]
+      },
+      {
+        "level": 2,
+        "heading": "それで as \"And so?\"",
+        "content": "",
+        "children": [
+          {
+            "level": 3,
+            "heading": "Prompting more info",
+            "content": "A: 昨日、彼に会った。 B: それで？ A: \"Yesterday I met him.\" B: \"And so? / What happened?\" Asking for continuation"
+          }
+        ]
+      },
+      {
+        "level": 2,
+        "heading": "Asking About Results",
+        "content": "",
+        "children": [
+          {
+            "level": 3,
+            "heading": "それでどうなった？",
+            "content": "それでどうなったの？ \"So what happened?\" それで結局？ \"So in the end?\" Seeking conclusion"
+          }
+        ]
+      },
+      {
+        "level": 2,
+        "heading": "Multiple それで",
+        "content": "",
+        "children": [
+          {
+            "level": 3,
+            "heading": "Sequential narration",
+            "content": "起きた。それで朝ごはんを食べた。 それで会社に行った。 \"I woke up. So I ate breakfast. And then I went to work.\" Can sound repetitive Vary connectors"
+          }
+        ]
+      },
+      {
+        "level": 2,
+        "heading": "Common Mistakes",
+        "content": "",
+        "children": [
+          {
+            "level": 3,
+            "heading": "Using within sentence",
+            "content": "Wrong: 疲れたそれで休んだ ⚠️ Correct: 疲れた。それで休んだ。 ✓ \"I was tired. So I rested.\" Need sentence break"
+          },
+          {
+            "level": 3,
+            "heading": "Overemphasizing causation",
+            "content": "Unnatural: 春だ。それで花が咲く。⚠️ Better: 春だから花が咲く。✓ \"Because it's spring, flowers bloom.\" Use から/だから for direct cause"
+          }
+        ]
+      },
+      {
+        "level": 2,
+        "heading": "Transitional Use",
+        "content": "",
+        "children": [
+          {
+            "level": 3,
+            "heading": "Changing topics",
+            "content": "それで、話は変わるけど... \"So, changing the topic, but...\" それで、次は何？ \"So, what's next?\" Topic transition"
+          }
+        ]
+      },
+      {
+        "level": 2,
+        "heading": "In Storytelling",
+        "content": "",
+        "children": [
+          {
+            "level": 3,
+            "heading": "Natural flow",
+            "content": "昨日、買い物に行った。それで新しい靴を 買った。それで帰りにカフェに寄った。 \"Yesterday I went shopping. So I bought new shoes. And then on the way back I stopped by a cafe.\" Narrative progression"
+          }
+        ]
+      },
+      {
+        "level": 2,
+        "heading": "Negative Sentences",
+        "content": "",
+        "children": [
+          {
+            "level": 3,
+            "heading": "Works with negatives",
+            "content": "時間がなかった。それで行けなかった。 \"I didn't have time. So I couldn't go.\" 分からなかった。それで聞いた。 \"I didn't understand. So I asked.\" Negative results"
+          }
+        ]
+      },
+      {
+        "level": 2,
+        "heading": "Expressing Consequences",
+        "content": "",
+        "children": [
+          {
+            "level": 3,
+            "heading": "Logical outcomes",
+            "content": "勉強しなかった。それで落ちた。 \"I didn't study. So I failed.\" 食べすぎた。それでお腹が痛い。 \"I ate too much. So my stomach hurts.\" Natural consequences"
+          }
+        ]
+      },
+      {
+        "level": 2,
+        "heading": "それで as Filler",
+        "content": "",
+        "children": [
+          {
+            "level": 3,
+            "heading": "Thoughtful pause",
+            "content": "それで...何だっけ？ \"So... what was it?\" それで...ああ、そうだ。 \"So... oh, that's right.\" Thinking aloud"
+          }
+        ]
+      },
+      {
+        "level": 2,
+        "heading": "Practice Sentences",
+        "content": "",
+        "children": [
+          {
+            "level": 3,
+            "heading": "Basic",
+            "content": "雨が降った。それで家にいた。 \"It rained. So I stayed home.\" 疲れた。それで早く寝た。 \"I was tired. So I went to bed early.\" 道が混んでた。それで遅れた。 \"The road was crowded. So I was late.\" お金がない。それで買えない。 \"I don't have money. So I can't buy it.\" それで、どうだった？ \"So, how was it?\""
+          },
+          {
+            "level": 3,
+            "heading": "Intermediate",
+            "content": "昨日、電車が遅れた。それで会社に 遅刻してしまった。上司に謝ったけど、 あまり良い顔をされなかった。 \"Yesterday the train was delayed. So I ended up being late to work. I apologized to my boss, but he didn't look very pleased.\" 友達から連絡があった。それで久しぶりに 会うことにした。楽しみだけど、 何を話そうか少し緊張している。 \"I got a message from my friend. So we decided to meet after a long time. I'm looking forward to it, but I'm a bit nervous about what to talk about.\" 先週、風邪を引いた。それで3日間 会社を休んだ。今はもう元気だけど、 仕事が溜まってしまった。 \"Last week I caught a cold. So I took three days off from work. I'm fine now, but work has piled up.\""
+          },
+          {
+            "level": 3,
+            "heading": "Company",
+            "content": "About Pricing Blog Contact"
+          },
+          {
+            "level": 3,
+            "heading": "Legal",
+            "content": "Privacy Policy Terms of Service Cookie Policy"
+          }
+        ]
+      }
+    ],
+    "metadata": {
+      "title": "それで (So/And then)"
+    },
+    "examples": [
+      {
+        "sentence": "About"
+      },
+      {
+        "sentence": "Pricing"
+      },
+      {
+        "sentence": "Blog"
+      },
+      {
+        "sentence": "Contact"
+      },
+      {
+        "sentence": "Privacy Policy"
+      },
+      {
+        "sentence": "Terms of Service"
+      },
+      {
+        "sentence": "Cookie Policy"
+      }
+    ]
+  },
+  "metadata": {
+    "extracted_at": "2026-01-01T22:19:34.681412400Z",
+    "duration_ms": 5,
+    "extractors_matched": [
+      "metadata",
+      "examples",
+      "sections"
+    ],
+    "extractors_failed": [
+      "vocab_tables",
+      "definitions",
+      "content_blocks"
+    ]
+  }
+}

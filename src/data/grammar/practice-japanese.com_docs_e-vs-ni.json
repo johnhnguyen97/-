@@ -1,0 +1,165 @@
+{
+  "config_name": "Language Learning Extractor",
+  "url": "https://practice-japanese.com/docs/e-vs-ni/",
+  "data": {
+    "examples": [
+      {
+        "sentence": "に (ni) - Location/Direction"
+      },
+      {
+        "sentence": "へ (e) - Direction"
+      },
+      {
+        "sentence": "で (de) - Location"
+      },
+      {
+        "sentence": "About"
+      },
+      {
+        "sentence": "Pricing"
+      },
+      {
+        "sentence": "Blog"
+      },
+      {
+        "sentence": "Contact"
+      },
+      {
+        "sentence": "Privacy Policy"
+      },
+      {
+        "sentence": "Terms of Service"
+      },
+      {
+        "sentence": "Cookie Policy"
+      }
+    ],
+    "metadata": {
+      "title": "へ (e) vs に (ni) for Direction"
+    },
+    "sections": [
+      {
+        "level": 2,
+        "heading": "Basic Difference",
+        "content": "に = specific destination (concrete point) へ = direction/orientation (abstract path)\n\n東京に行く - \"go to Tokyo\" (destination focus) 東京へ行く - \"go toward Tokyo\" (direction focus)"
+      },
+      {
+        "level": 2,
+        "heading": "In Most Cases: Interchangeable",
+        "content": "For basic sentences about going places, both work:\n\n学校に行く ✓ 学校へ行く ✓ Both mean \"go to school\" 日本に来る ✓ 日本へ来る ✓ Both mean \"come to Japan\""
+      },
+      {
+        "level": 2,
+        "heading": "When に is More Natural",
+        "content": "",
+        "children": [
+          {
+            "level": 3,
+            "heading": "Specific point arrival",
+            "content": "駅に着く - \"arrive at station\" (へに着く sounds odd) 家に帰る - \"return home\" (に more common for 帰る)"
+          },
+          {
+            "level": 3,
+            "heading": "Attaching/entering",
+            "content": "壁に貼る - \"stick to wall\" 部屋に入る - \"enter room\""
+          }
+        ]
+      },
+      {
+        "level": 2,
+        "heading": "When へ is More Natural",
+        "content": "",
+        "children": [
+          {
+            "level": 3,
+            "heading": "Emphasizing direction/path",
+            "content": "北へ向かう - \"head north\" 前へ進む - \"advance forward\""
+          },
+          {
+            "level": 3,
+            "heading": "Abstract/symbolic direction",
+            "content": "未来へ - \"toward the future\" 夢へ - \"toward dreams\""
+          },
+          {
+            "level": 3,
+            "heading": "Formal/literary tone",
+            "content": "皆様へ - \"to everyone\" (letter opening)"
+          }
+        ]
+      },
+      {
+        "level": 2,
+        "heading": "Only に (Never へ)",
+        "content": "",
+        "children": [
+          {
+            "level": 3,
+            "heading": "Existence location",
+            "content": "✓ 部屋にいる - \"be in room\" ✗ 部屋へいる"
+          },
+          {
+            "level": 3,
+            "heading": "Time",
+            "content": "✓ 三時に - \"at 3 o'clock\" ✗ 三時へ"
+          },
+          {
+            "level": 3,
+            "heading": "Indirect object",
+            "content": "✓ 友達に手紙を書く - \"write to friend\" ✗ 友達へ手紙を書く (less common)"
+          }
+        ]
+      },
+      {
+        "level": 2,
+        "heading": "Comparison Chart",
+        "content": "| Use | に | へ | | --------------- | --- | --- | | Destination | ✓ | ✓ | | Direction/path | △ | ✓ | | Specific point | ✓ | △ | | Existence | ✓ | ✗ | | Time | ✓ | ✗ | | Indirect object | ✓ | △ |"
+      },
+      {
+        "level": 2,
+        "heading": "Nuance Difference",
+        "content": "手紙を母に送る \"send letter to mother\" (recipient focus) 手紙を母へ送る \"send letter toward mother\" (direction focus)\n\nBoth correct, に more common in speech."
+      },
+      {
+        "level": 2,
+        "heading": "Common Verbs",
+        "content": "| Verb | Prefers | Example | | ------ | ------- | ------------- | | 行く | Both | 学校に/へ行く | | 来る | Both | 日本に/へ来る | | 帰る | に | 家に帰る | | 着く | に | 駅に着く | | 向かう | へ | 北へ向かう | | 進む | へ | 前へ進む |"
+      },
+      {
+        "level": 2,
+        "heading": "Regional Preferences",
+        "content": "Some regions prefer one over the other:\n\nStandard: 学校に行く Some dialects: 学校へ行く (more common)\n\nBoth are correct nationwide."
+      },
+      {
+        "level": 2,
+        "heading": "Key Takeaways",
+        "content": "✓ Mostly interchangeable for destination ✓ に for specific points ✓ へ for direction/path ✓ に more common in daily speech ✓ へ slightly more formal/literary\n\nRelated:\n\nに (ni) - Location/Direction へ (e) - Direction で (de) - Location",
+        "children": [
+          {
+            "level": 3,
+            "heading": "Company",
+            "content": "About Pricing Blog Contact"
+          },
+          {
+            "level": 3,
+            "heading": "Legal",
+            "content": "Privacy Policy Terms of Service Cookie Policy"
+          }
+        ]
+      }
+    ]
+  },
+  "metadata": {
+    "extracted_at": "2026-01-01T22:19:29.315254600Z",
+    "duration_ms": 4,
+    "extractors_matched": [
+      "metadata",
+      "examples",
+      "sections"
+    ],
+    "extractors_failed": [
+      "vocab_tables",
+      "definitions",
+      "content_blocks"
+    ]
+  }
+}

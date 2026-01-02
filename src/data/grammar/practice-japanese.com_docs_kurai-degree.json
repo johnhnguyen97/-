@@ -1,0 +1,455 @@
+{
+  "config_name": "Language Learning Extractor",
+  "url": "https://practice-japanese.com/docs/kurai-degree/",
+  "data": {
+    "metadata": {
+      "title": "〜くらい/ぐらい (About/Extent)"
+    },
+    "examples": [
+      {
+        "sentence": "ほど - As...as (extent, more formal)"
+      },
+      {
+        "sentence": "くらい - About (same usage)"
+      },
+      {
+        "sentence": "だけ - Only (limit, not approximation)"
+      },
+      {
+        "sentence": "ばかり - About/only (focus on single item)"
+      },
+      {
+        "sentence": "より - Than (comparison)"
+      },
+      {
+        "sentence": "同じくらい - About the same (equality)"
+      },
+      {
+        "sentence": "Counters - Number counting system"
+      },
+      {
+        "sentence": "About"
+      },
+      {
+        "sentence": "Pricing"
+      },
+      {
+        "sentence": "Blog"
+      },
+      {
+        "sentence": "Contact"
+      },
+      {
+        "sentence": "Privacy Policy"
+      },
+      {
+        "sentence": "Terms of Service"
+      },
+      {
+        "sentence": "Cookie Policy"
+      }
+    ],
+    "sections": [
+      {
+        "level": 2,
+        "heading": "What is くらい/ぐらい?",
+        "content": "くらい/ぐらい expresses approximation, extent, or degree. It has two main functions: (1) indicating \"about\" or \"approximately\" with quantities, and (2) expressing \"as...as\" or \"to the extent of\" in comparisons. Both くらい and ぐらい are interchangeable with no difference in meaning.\n\n10分くらい \"About 10 minutes\" これくらい \"About this much\" 死ぬくらい疲れた \"Tired to the point of dying\""
+      },
+      {
+        "level": 2,
+        "heading": "Basic Structure",
+        "content": "",
+        "children": [
+          {
+            "level": 3,
+            "heading": "Quantity + くらい/ぐらい",
+            "content": "100円くらい \"About 100 yen\" 5人ぐらい \"About 5 people\" Approximate amounts"
+          },
+          {
+            "level": 3,
+            "heading": "Noun/Pronoun + くらい/ぐらい",
+            "content": "これくらい \"About this much\" そのくらい \"About that much\" Demonstrative degree"
+          }
+        ]
+      },
+      {
+        "level": 2,
+        "heading": "Usage and Meaning",
+        "content": "",
+        "children": [
+          {
+            "level": 3,
+            "heading": "Approximation with numbers",
+            "content": "3時間くらいかかる \"Takes about 3 hours\" 20人ぐらい来た \"About 20 people came\" Rough estimates"
+          },
+          {
+            "level": 3,
+            "heading": "Extent/degree comparisons",
+            "content": "死ぬくらい痛い \"Hurts so much I could die\" 泣きたいくらい嬉しい \"So happy I could cry\" Extreme degree"
+          },
+          {
+            "level": 3,
+            "heading": "Minimum expectations",
+            "content": "挨拶くらいしてよ \"At least say hello\" これくらいできるでしょ \"You can at least do this much, right?\" \"At least\" nuance"
+          }
+        ]
+      },
+      {
+        "level": 2,
+        "heading": "くらい vs ぐらい",
+        "content": "",
+        "children": [
+          {
+            "level": 3,
+            "heading": "Completely interchangeable",
+            "content": "10分くらい = 10分ぐらい \"About 10 minutes\" Same meaning Personal preference"
+          },
+          {
+            "level": 3,
+            "heading": "Pronunciation tendency",
+            "content": "After -n sounds: くらい more common 分 (fun) → 分くらい After other sounds: both equally common No strict rule"
+          }
+        ]
+      },
+      {
+        "level": 2,
+        "heading": "Position in Sentence",
+        "content": "",
+        "children": [
+          {
+            "level": 3,
+            "heading": "After quantities",
+            "content": "2キロくらい \"About 2 kilos\" 30分ぐらい \"About 30 minutes\" Following number+counter"
+          },
+          {
+            "level": 3,
+            "heading": "After nouns",
+            "content": "子供くらいの大きさ \"About the size of a child\" Comparison standard"
+          }
+        ]
+      },
+      {
+        "level": 2,
+        "heading": "Polite and Casual",
+        "content": "",
+        "children": [
+          {
+            "level": 3,
+            "heading": "Works in both",
+            "content": "Casual: これくらいでいい？ \"Is this much okay?\" Polite: 3時間くらいかかります \"It takes about 3 hours\" Neutral particle"
+          }
+        ]
+      },
+      {
+        "level": 2,
+        "heading": "Common Patterns",
+        "content": "",
+        "children": [
+          {
+            "level": 3,
+            "heading": "これ/それ/あれ + くらい",
+            "content": "これくらい \"About this much\" それくらい \"About that much\" あれくらい \"About that much (far)\" Demonstrative degree"
+          },
+          {
+            "level": 3,
+            "heading": "どのくらい/どれくらい",
+            "content": "どのくらい時間がかかる？ \"About how long does it take?\" どれくらい大きい？ \"About how big?\" Question word"
+          },
+          {
+            "level": 3,
+            "heading": "〜くらい〜はない",
+            "content": "これくらい美味しいものはない \"There's nothing as delicious as this\" Double negative = superlative"
+          }
+        ]
+      },
+      {
+        "level": 2,
+        "heading": "Expressing Extent",
+        "content": "",
+        "children": [
+          {
+            "level": 3,
+            "heading": "Verb + くらい",
+            "content": "泣くくらい嬉しい \"So happy I could cry\" 死ぬくらい疲れた \"So tired I could die\" Exaggerated extent"
+          },
+          {
+            "level": 3,
+            "heading": "Adjective + くらい",
+            "content": "痛いくらいきつい \"So tight it hurts\" 寒いくらい冷たい \"So cold it's freezing\" Intensity marker"
+          }
+        ]
+      },
+      {
+        "level": 2,
+        "heading": "Minimum Expectation",
+        "content": "",
+        "children": [
+          {
+            "level": 3,
+            "heading": "〜くらい (at least)",
+            "content": "名前くらい覚えてよ \"At least remember my name\" 電話くらいして \"At least call\" Reproachful tone Often with よ or してよ"
+          }
+        ]
+      },
+      {
+        "level": 2,
+        "heading": "Time Expressions",
+        "content": "",
+        "children": [
+          {
+            "level": 3,
+            "heading": "Duration",
+            "content": "1時間くらい待った \"Waited about an hour\" 2週間くらいかかる \"Takes about 2 weeks\" Approximate duration"
+          },
+          {
+            "level": 3,
+            "heading": "Points in time",
+            "content": "3時くらいに来る \"Come around 3 o'clock\" 昨日くらいから \"Since around yesterday\" Time approximation"
+          }
+        ]
+      },
+      {
+        "level": 2,
+        "heading": "Distance and Measurements",
+        "content": "",
+        "children": [
+          {
+            "level": 3,
+            "heading": "Physical measurements",
+            "content": "5メートルくらい \"About 5 meters\" 体重は60キロくらい \"Weight is about 60 kilos\" Approximate measures"
+          },
+          {
+            "level": 3,
+            "heading": "Distances",
+            "content": "駅まで10分くらい \"About 10 minutes to the station\" ここから2キロくらい \"About 2 km from here\" Travel distance/time"
+          }
+        ]
+      },
+      {
+        "level": 2,
+        "heading": "Comparative くらい",
+        "content": "",
+        "children": [
+          {
+            "level": 3,
+            "heading": "A くらい B",
+            "content": "彼くらい背が高い \"As tall as him\" 去年くらい寒い \"As cold as last year\" Equal degree comparison"
+          },
+          {
+            "level": 3,
+            "heading": "A は B くらい C",
+            "content": "象は車くらい大きい \"Elephants are as big as cars\" Standard of comparison"
+          }
+        ]
+      },
+      {
+        "level": 2,
+        "heading": "With ほど (interchangeable)",
+        "content": "",
+        "children": [
+          {
+            "level": 3,
+            "heading": "Similar usage",
+            "content": "これくらい = これほど \"This much/This extent\" Both express degree ほど slightly more formal"
+          },
+          {
+            "level": 3,
+            "heading": "Slight nuance difference",
+            "content": "くらい: neutral approximation 死ぬくらい疲れた \"About dead tired\" ほど: slightly more formal/literary 死ぬほど疲れた \"So tired as to die\" Mostly interchangeable"
+          }
+        ]
+      },
+      {
+        "level": 2,
+        "heading": "Age and Quantities",
+        "content": "",
+        "children": [
+          {
+            "level": 3,
+            "heading": "Approximate ages",
+            "content": "20歳くらい \"About 20 years old\" 30代くらいの人 \"Person around their 30s\" Age approximation"
+          },
+          {
+            "level": 3,
+            "heading": "Quantities of items",
+            "content": "りんご5個くらい \"About 5 apples\" 本を10冊くらい買った \"Bought about 10 books\" Item counts"
+          }
+        ]
+      },
+      {
+        "level": 2,
+        "heading": "Common Contexts",
+        "content": "",
+        "children": [
+          {
+            "level": 3,
+            "heading": "Shopping/prices",
+            "content": "1000円くらいです \"It's about 1000 yen\" もう少し安いくらいがいい \"Something a bit cheaper would be good\" Price ranges"
+          },
+          {
+            "level": 3,
+            "heading": "Planning/scheduling",
+            "content": "2時間くらいで終わる \"Finishes in about 2 hours\" 来週くらいに会おう \"Let's meet around next week\" Flexible plans"
+          },
+          {
+            "level": 3,
+            "heading": "Descriptions",
+            "content": "私くらいの年齢 \"About my age\" このくらいの大きさ \"About this size\" Comparative descriptions"
+          }
+        ]
+      },
+      {
+        "level": 2,
+        "heading": "Negative Contexts",
+        "content": "",
+        "children": [
+          {
+            "level": 3,
+            "heading": "With ない",
+            "content": "5分くらいしかない \"Only about 5 minutes\" これくらいしかできない \"Can only do about this much\" Limited extent"
+          }
+        ]
+      },
+      {
+        "level": 2,
+        "heading": "Expressing Extremes",
+        "content": "",
+        "children": [
+          {
+            "level": 3,
+            "heading": "Hyperbolic expressions",
+            "content": "死ぬくらい好き \"Like so much I could die\" 気絶するくらい驚いた \"So surprised I could faint\" Exaggeration for emphasis"
+          }
+        ]
+      },
+      {
+        "level": 2,
+        "heading": "Common Mistakes",
+        "content": "",
+        "children": [
+          {
+            "level": 3,
+            "heading": "Using with exact numbers",
+            "content": "Unnatural: ちょうど10個くらい ⚠️ Natural: ちょうど10個 ✓ Or: 10個くらい ✓ くらい implies approximation Contradicts \"exactly\""
+          },
+          {
+            "level": 3,
+            "heading": "Confusing with だけ (only)",
+            "content": "Different: 10分くらい \"About 10 minutes\" (approximate) Different: 10分だけ \"Only 10 minutes\" (limit) Different meanings"
+          }
+        ]
+      },
+      {
+        "level": 2,
+        "heading": "Double Approximation",
+        "content": "",
+        "children": [
+          {
+            "level": 3,
+            "heading": "くらい + くらい",
+            "content": "これくらいくらいでいい Sounds redundant ⚠️ Better: このくらいでいい ✓ \"About this much is fine\" Avoid doubling"
+          }
+        ]
+      },
+      {
+        "level": 2,
+        "heading": "Regional Variations",
+        "content": "",
+        "children": [
+          {
+            "level": 3,
+            "heading": "Standard form",
+            "content": "くらい/ぐらい Universal usage"
+          },
+          {
+            "level": 3,
+            "heading": "Casual contractions",
+            "content": "これくらい → これくれー 10分くらい → 10分くれー Very casual speech Mainly spoken"
+          }
+        ]
+      },
+      {
+        "level": 2,
+        "heading": "Formal Alternatives",
+        "content": "",
+        "children": [
+          {
+            "level": 3,
+            "heading": "ほど (formal)",
+            "content": "この程度 \"About this degree\" その程 \"That extent\" More formal writing"
+          },
+          {
+            "level": 3,
+            "heading": "約 (approximately)",
+            "content": "約100人 \"Approximately 100 people\" 約30分 \"Approximately 30 minutes\" Formal, written"
+          }
+        ]
+      },
+      {
+        "level": 2,
+        "heading": "In Questions",
+        "content": "",
+        "children": [
+          {
+            "level": 3,
+            "heading": "Asking for approximations",
+            "content": "どのくらいかかりますか \"About how long does it take?\" いくらくらいですか \"About how much is it?\" Seeking estimates"
+          }
+        ]
+      },
+      {
+        "level": 2,
+        "heading": "Practice Sentences",
+        "content": "",
+        "children": [
+          {
+            "level": 3,
+            "heading": "Basic",
+            "content": "10分くらい待って \"Wait about 10 minutes\" これくらいの大きさ \"About this size\" 100人くらい来た \"About 100 people came\""
+          },
+          {
+            "level": 3,
+            "heading": "Intermediate",
+            "content": "駅まで歩いて15分くらいかかります \"It takes about 15 minutes on foot to the station\" 彼は私と同じくらいの背の高さだ \"He's about as tall as me\" 死ぬくらい疲れたから、今日は早く寝る \"I'm dead tired, so I'll sleep early today\""
+          },
+          {
+            "level": 3,
+            "heading": "Advanced",
+            "content": "このプロジェクトは、予想していたより 2倍くらい時間がかかった。最初は 1ヶ月くらいで終わると思っていたが、 実際には2ヶ月以上かかってしまった。 計画の段階でもう少し余裕を持って スケジュールを立てるべきだった。 \"This project took about twice as long as expected. At first I thought it would finish in about a month, but in reality it took over 2 months. I should have made the schedule with more leeway at the planning stage.\" 日本語の勉強を始めてから3年くらいに なるが、まだネイティブのように 流暢には話せない。でも、日常会話 くらいはできるようになった。 あと2年くらい勉強すれば、 もっと上達すると思う。 \"It's been about 3 years since I started studying Japanese, but I still can't speak fluently like a native. However, I've become able to handle about everyday conversation level. If I study for about 2 more years, I think I'll improve more.\""
+          }
+        ]
+      },
+      {
+        "level": 2,
+        "heading": "Related Grammar Points",
+        "content": "ほど - As...as (extent, more formal) くらい - About (same usage) だけ - Only (limit, not approximation) ばかり - About/only (focus on single item) より - Than (comparison) 同じくらい - About the same (equality) Counters - Number counting system",
+        "children": [
+          {
+            "level": 3,
+            "heading": "Company",
+            "content": "About Pricing Blog Contact"
+          },
+          {
+            "level": 3,
+            "heading": "Legal",
+            "content": "Privacy Policy Terms of Service Cookie Policy"
+          }
+        ]
+      }
+    ]
+  },
+  "metadata": {
+    "extracted_at": "2026-01-01T22:19:30.858786800Z",
+    "duration_ms": 3,
+    "extractors_matched": [
+      "metadata",
+      "examples",
+      "sections"
+    ],
+    "extractors_failed": [
+      "vocab_tables",
+      "definitions",
+      "content_blocks"
+    ]
+  }
+}

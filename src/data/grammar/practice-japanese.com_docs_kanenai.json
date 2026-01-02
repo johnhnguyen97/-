@@ -1,0 +1,287 @@
+{
+  "config_name": "Language Learning Extractor",
+  "url": "https://practice-japanese.com/docs/kanenai/",
+  "data": {
+    "metadata": {
+      "title": "〜かねない (Might)"
+    },
+    "examples": [
+      {
+        "sentence": "かねない expresses negative possibilities"
+      },
+      {
+        "sentence": "Formation: [Verb ます-stem] + かねない"
+      },
+      {
+        "sentence": "Used for warnings and concerns"
+      },
+      {
+        "sentence": "Only for undesirable outcomes"
+      },
+      {
+        "sentence": "Stronger warning than かもしれない"
+      },
+      {
+        "sentence": "Common with: 起こる, 誤解される, 失敗する, 壊れる"
+      },
+      {
+        "sentence": "Different from かねる (cannot/hesitate)"
+      },
+      {
+        "sentence": "Essential for expressing potential dangers"
+      },
+      {
+        "sentence": "About"
+      },
+      {
+        "sentence": "Pricing"
+      },
+      {
+        "sentence": "Blog"
+      },
+      {
+        "sentence": "Contact"
+      },
+      {
+        "sentence": "Privacy Policy"
+      },
+      {
+        "sentence": "Terms of Service"
+      },
+      {
+        "sentence": "Cookie Policy"
+      }
+    ],
+    "sections": [
+      {
+        "level": 2,
+        "heading": "What is 〜かねない?",
+        "content": "〜かねない (kanenai) expresses that something undesirable might happen or is possible. It's used to warn about negative possibilities or potential dangers.\n\nEnglish equivalent: \"might,\" \"could,\" \"may well,\" \"there's a risk that\"\n\nStructure: [Verb ます-stem] + かねない\n\n起こる (okoru - occur) → 起こり + かねない = 起こりかねない \"might occur\" 誤解する (gokai suru - misunderstand) → 誤解し + かねない = 誤解しかねない \"might be misunderstood\" 失敗する (shippai suru - fail) → 失敗し + かねない = 失敗しかねない \"might fail\""
+      },
+      {
+        "level": 2,
+        "heading": "Basic Formation",
+        "content": "",
+        "children": [
+          {
+            "level": 3,
+            "heading": "With verbs (ます-stem)",
+            "content": "[Verb ます-stem] + かねない\n\n起こりかねない (okorikane nai) - \"might occur\" 壊れかねない (kowarekane nai) - \"might break\" 失敗しかねない (shippai shikane nai) - \"might fail\" 誤解しかねない (gokai shikane nai) - \"might be misunderstood\""
+          }
+        ]
+      },
+      {
+        "level": 2,
+        "heading": "Warning About Dangers",
+        "content": "",
+        "children": [
+          {
+            "level": 3,
+            "heading": "Potential negative outcomes",
+            "content": "このままだと事故が起こりかねない。 Kono mama da to jiko ga okorikane nai. \"If things continue like this, an accident might occur.\" その発言は誤解を招きかねない。 Sono hatsugen wa gokai wo manekikane nai. \"That statement might invite misunderstanding.\" 無理をすると体を壊しかねない。 Muri wo suru to karada wo kowashikane nai. \"If you overdo it, you might ruin your health.\""
+          }
+        ]
+      },
+      {
+        "level": 2,
+        "heading": "Expressing Concern",
+        "content": "",
+        "children": [
+          {
+            "level": 3,
+            "heading": "Worried possibilities",
+            "content": "彼は怒りかねない。 Kare wa okorikane nai. \"He might get angry.\" 雨で中止になりかねない。 Ame de chuushi ni narikane nai. \"It might be canceled due to rain.\" このやり方では失敗しかねない。 Kono yarikata dewa shippai shikane nai. \"With this method, we might fail.\""
+          }
+        ]
+      },
+      {
+        "level": 2,
+        "heading": "Social Consequences",
+        "content": "",
+        "children": [
+          {
+            "level": 3,
+            "heading": "Reputational risks",
+            "content": "その行動は批判されかねない。 Sono koudou wa hihan sarekane nai. \"That action might be criticized.\" 誤解されかねない言葉だ。 Gokai sarekane nai kotoba da. \"Those are words that might be misunderstood.\" 問題になりかねない。 Mondai ni narikane nai. \"It might become a problem.\""
+          }
+        ]
+      },
+      {
+        "level": 2,
+        "heading": "Physical Harm",
+        "content": "",
+        "children": [
+          {
+            "level": 3,
+            "heading": "Bodily danger",
+            "content": "そんなことをしたら怪我をしかねない。 Sonna koto wo shitara kega wo shikane nai. \"If you do that, you might get hurt.\" 転びかねない道だ。 Korobikane nai michi da. \"It's a road where you might fall.\" 病気になりかねない。 Byouki ni narikane nai. \"You might get sick.\""
+          }
+        ]
+      },
+      {
+        "level": 2,
+        "heading": "Business and Work",
+        "content": "",
+        "children": [
+          {
+            "level": 3,
+            "heading": "Professional risks",
+            "content": "このミスは会社の信用を失いかねない。 Kono misu wa kaisha no shin'you wo ushinaikane nai. \"This mistake might lose the company's credibility.\" 納期に間に合わないかもしれない。 Nouki ni maniawanai kamo shirenai. \"We might not meet the deadline.\" 契約を失いかねない。 Keiyaku wo ushinaikane nai. \"We might lose the contract.\""
+          }
+        ]
+      },
+      {
+        "level": 2,
+        "heading": "Misunderstandings",
+        "content": "",
+        "children": [
+          {
+            "level": 3,
+            "heading": "Communication risks",
+            "content": "その言い方は誤解を招きかねない。 Sono iikata wa gokai wo manekikane nai. \"That way of saying it might invite misunderstanding.\" 勘違いされかねない。 Kanchigai sarekane nai. \"It might be misunderstood.\" 間違って伝わりかねない。 Machigatte tsutawarikane nai. \"It might be conveyed incorrectly.\""
+          }
+        ]
+      },
+      {
+        "level": 2,
+        "heading": "Negative Consequences",
+        "content": "",
+        "children": [
+          {
+            "level": 3,
+            "heading": "Bad outcomes",
+            "content": "信頼を失いかねない。 Shinrai wo ushinaikane nai. \"Might lose trust.\" トラブルになりかねない。 Toraburu ni narikane nai. \"Might become trouble.\" 悪化しかねない状況だ。 Akka shikane nai joukyou da. \"It's a situation that might worsen.\""
+          }
+        ]
+      },
+      {
+        "level": 2,
+        "heading": "Polite Forms",
+        "content": "誤解を招きかねません。 Gokai wo manekikane masen. \"It might invite misunderstanding.\" 問題になりかねませんので、ご注意ください。 Mondai ni narikane masen node, gochuui kudasai. \"Please be careful as it might become a problem.\""
+      },
+      {
+        "level": 2,
+        "heading": "Common Expressions",
+        "content": "起こりかねない (okorikane nai) - \"might occur\" 誤解されかねない (gokai sarekane nai) - \"might be misunderstood\" 失敗しかねない (shippai shikane nai) - \"might fail\" 壊れかねない (kowarekane nai) - \"might break\" 怒りかねない (okorikane nai) - \"might get angry\" 問題になりかねない (mondai ni narikane nai) - \"might become a problem\" 批判されかねない (hihan sarekane nai) - \"might be criticized\""
+      },
+      {
+        "level": 2,
+        "heading": "Comparing かねない and かもしれない",
+        "content": "",
+        "children": [
+          {
+            "level": 3,
+            "heading": "Strong warning vs neutral possibility",
+            "content": "かねない - Negative warning:\n\n事故が起こりかねない。 Jiko ga okorikane nai. \"An accident might occur.\" (warning about danger)\n\nかもしれない - Neutral possibility:\n\n事故が起こるかもしれない。 Jiko ga okoru kamo shirenai. \"An accident might occur.\" (neutral statement)\n\n| Pattern | Nuance | Example | | ------------ | ------------------- | ------------------ | | かねない | Warning/concern | 起こりかねない | | かもしれない | Neutral possibility | 起こるかもしれない |\n\nかねない carries a stronger sense of warning about something undesirable."
+          }
+        ]
+      },
+      {
+        "level": 2,
+        "heading": "Comparing かねない and おそれがある",
+        "content": "",
+        "children": [
+          {
+            "level": 3,
+            "heading": "Both warn of danger",
+            "content": "かねない - Might (casual warning):\n\n失敗しかねない。 Shippai shikane nai. \"Might fail.\"\n\nおそれがある - Risk/danger (formal):\n\n失敗するおそれがある。 Shippai suru osore ga aru. \"There's a risk of failure.\" (more formal)\n\nBoth express negative possibilities, but おそれがある is more formal."
+          }
+        ]
+      },
+      {
+        "level": 2,
+        "heading": "Potential Disasters",
+        "content": "",
+        "children": [
+          {
+            "level": 3,
+            "heading": "Serious warnings",
+            "content": "火事になりかねない。 Kaji ni narikane nai. \"It might cause a fire.\" 大惨事につながりかねない。 Daisanji ni tsunagarikane nai. \"It might lead to a disaster.\" 取り返しのつかないことになりかねない。 Torikaeshi no tsukanai koto ni narikane nai. \"It might become something irreversible.\""
+          }
+        ]
+      },
+      {
+        "level": 2,
+        "heading": "Emphasizing Severity",
+        "content": "",
+        "children": [
+          {
+            "level": 3,
+            "heading": "With adverbs",
+            "content": "本当に失敗しかねない。 Hontou ni shippai shikane nai. \"We might really fail.\" このままでは大変なことになりかねない。 Kono mama dewa taihen na koto ni narikane nai. \"If things continue like this, something terrible might happen.\""
+          }
+        ]
+      },
+      {
+        "level": 2,
+        "heading": "Formation Pattern",
+        "content": "",
+        "children": [
+          {
+            "level": 3,
+            "heading": "Creating the form",
+            "content": "Dictionary form → ます-form → Remove ます → Add かねない 起こる → 起こります → 起こり → 起こりかねない 失敗する → 失敗します → 失敗し → 失敗しかねない"
+          }
+        ]
+      },
+      {
+        "level": 2,
+        "heading": "Common Mistakes",
+        "content": "",
+        "children": [
+          {
+            "level": 3,
+            "heading": "Mistake 1: Using with positive outcomes",
+            "content": "❌ 成功しかねない (success is positive, not for かねない) ✓ 成功するかもしれない\n\nかねない is for negative/undesirable outcomes only."
+          },
+          {
+            "level": 3,
+            "heading": "Mistake 2: Using dictionary form",
+            "content": "❌ 起こるかねない ✓ 起こりかねない\n\nUse ます-stem, not dictionary form."
+          },
+          {
+            "level": 3,
+            "heading": "Mistake 3: Confusing with かねる",
+            "content": "かねない = might (possibility) かねる = cannot/hesitate to (inability) 失敗しかねない = might fail 失敗しかねる = cannot fail / hesitate to fail\n\nSee: 〜かねる (Cannot/Hesitate to)"
+          },
+          {
+            "level": 3,
+            "heading": "Mistake 4: Using for neutral outcomes",
+            "content": "かねない implies concern or warning. For neutral possibilities, use かもしれない."
+          }
+        ]
+      },
+      {
+        "level": 2,
+        "heading": "Summary",
+        "content": "Key Points:\n\nかねない expresses negative possibilities Formation: [Verb ます-stem] + かねない Used for warnings and concerns Only for undesirable outcomes Stronger warning than かもしれない Common with: 起こる, 誤解される, 失敗する, 壊れる Different from かねる (cannot/hesitate) Essential for expressing potential dangers",
+        "children": [
+          {
+            "level": 3,
+            "heading": "Company",
+            "content": "About Pricing Blog Contact"
+          },
+          {
+            "level": 3,
+            "heading": "Legal",
+            "content": "Privacy Policy Terms of Service Cookie Policy"
+          }
+        ]
+      }
+    ]
+  },
+  "metadata": {
+    "extracted_at": "2026-01-01T22:19:30.545795800Z",
+    "duration_ms": 4,
+    "extractors_matched": [
+      "metadata",
+      "examples",
+      "sections"
+    ],
+    "extractors_failed": [
+      "vocab_tables",
+      "definitions",
+      "content_blocks"
+    ]
+  }
+}

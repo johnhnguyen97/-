@@ -1,0 +1,320 @@
+{
+  "config_name": "Language Learning Extractor",
+  "url": "https://practice-japanese.com/docs/simultaneous-actions/",
+  "data": {
+    "examples": [
+      {
+        "sentence": "〜ながら (nagara) - While doing"
+      },
+      {
+        "sentence": "間/間に (aida/aida ni) - During/while"
+      },
+      {
+        "sentence": "〜ている (te-iru) - Progressive form"
+      },
+      {
+        "sentence": "Te-form - Connecting actions"
+      },
+      {
+        "sentence": "〜つつ (tsutsu) - While (formal)"
+      },
+      {
+        "sentence": "〜たり〜たり - Listing actions"
+      },
+      {
+        "sentence": "About"
+      },
+      {
+        "sentence": "Pricing"
+      },
+      {
+        "sentence": "Blog"
+      },
+      {
+        "sentence": "Contact"
+      },
+      {
+        "sentence": "Privacy Policy"
+      },
+      {
+        "sentence": "Terms of Service"
+      },
+      {
+        "sentence": "Cookie Policy"
+      }
+    ],
+    "sections": [
+      {
+        "level": 2,
+        "heading": "Overview",
+        "content": "Japanese has several ways to express actions happening at the same time. The choice depends on who's doing the actions and the relationship between them.\n\n音楽を聞きながら勉強する \"I study while listening to music\" 私が料理している間、彼は掃除していた \"While I was cooking, he was cleaning\""
+      },
+      {
+        "level": 2,
+        "heading": "Main Patterns for Simultaneous Actions",
+        "content": "",
+        "children": [
+          {
+            "level": 3,
+            "heading": "1. ながら (Same Person)",
+            "content": "Same person doing two actions simultaneously:\n\nVerb (masu-stem) + ながら 音楽を聞きながら勉強する \"I study while listening to music\" 歩きながら話す \"I talk while walking\" テレビを見ながら食べる \"I eat while watching TV\""
+          },
+          {
+            "level": 3,
+            "heading": "2. 間/間に (Different People or During)",
+            "content": "Different people or events happening during a timeframe:\n\nVerb (ている) + 間/間に 私が勉強している間、彼は寝ていた \"While I was studying, he was sleeping\" 雨が降っている間に帰った \"I went home while it was raining\""
+          },
+          {
+            "level": 3,
+            "heading": "3. て Form (Sequential or Simultaneous State)",
+            "content": "Can express simultaneous states:\n\nVerb (て form) + いる 立っている \"is standing\" 座って話している \"is sitting and talking\""
+          },
+          {
+            "level": 3,
+            "heading": "4. たり〜たりする (Listing Simultaneous/Alternating Actions)",
+            "content": "Verb (たり form) + する 歌ったり踊ったりする \"sing and dance\" (among other things) 本を読んだりテレビを見たりする \"read books, watch TV, etc.\""
+          }
+        ]
+      },
+      {
+        "level": 2,
+        "heading": "Using ながら for Simultaneous Actions",
+        "content": "",
+        "children": [
+          {
+            "level": 3,
+            "heading": "Main Action + Background Action",
+            "content": "The main action comes second, background action takes ながら:\n\n音楽を聞きながら勉強する \"study while listening to music\" (studying = main, music = background) コーヒーを飲みながら話す \"talk while drinking coffee\" (talking = main, drinking = background)"
+          },
+          {
+            "level": 3,
+            "heading": "Both Actions Important",
+            "content": "泣きながら話す \"talk while crying\" 笑いながら歩く \"walk while laughing\" 走りながら叫ぶ \"shout while running\""
+          },
+          {
+            "level": 3,
+            "heading": "Cannot Use with Different Subjects",
+            "content": "Wrong: 彼が食べながら、私は勉強する ❌ Must be same person: 私は食べながら勉強する ✓ \"I study while eating\""
+          }
+        ]
+      },
+      {
+        "level": 2,
+        "heading": "Using 間/間に for Different People",
+        "content": "",
+        "children": [
+          {
+            "level": 3,
+            "heading": "間 (Throughout)",
+            "content": "Continuous simultaneous states:\n\n私が料理している間、彼は掃除していた \"While I was cooking, he was cleaning\" 母が買い物している間、子供は遊んでいた \"While mother was shopping, the children were playing\" 先生が話している間、学生は聞いていた \"While the teacher was talking, students were listening\""
+          },
+          {
+            "level": 3,
+            "heading": "間に (Event During)",
+            "content": "Something happens during another action:\n\n私が寝ている間に彼が帰った \"He came home while I was sleeping\" 授業の間に雨が降り始めた \"It started raining during class\""
+          }
+        ]
+      },
+      {
+        "level": 2,
+        "heading": "Other Patterns",
+        "content": "",
+        "children": [
+          {
+            "level": 3,
+            "heading": "と同時に (at the same time)",
+            "content": "Emphasizes exact simultaneity:\n\nドアを開けると同時に電話が鳴った \"The phone rang at the same time as I opened the door\" 授業が終わると同時に学生は出て行った \"Students left at the same time as class ended\""
+          },
+          {
+            "level": 3,
+            "heading": "〜つつ (while - formal)",
+            "content": "More formal version of ながら:\n\n考えつつ書く \"write while thinking\" 働きつつ勉強する \"study while working\" 進めつつ確認する \"check while proceeding\""
+          },
+          {
+            "level": 3,
+            "heading": "〜一方で (on the other hand/while)",
+            "content": "Contrasting simultaneous situations:\n\n彼は働いている一方で、私は勉強している \"While he is working, I am studying\" 値段が上がる一方で、質は下がっている \"While prices are rising, quality is falling\""
+          }
+        ]
+      },
+      {
+        "level": 2,
+        "heading": "Common Simultaneous Actions",
+        "content": "",
+        "children": [
+          {
+            "level": 3,
+            "heading": "Eating While",
+            "content": "テレビを見ながら食べる \"eat while watching TV\" 話しながら食べる \"eat while talking\" 歩きながら食べる \"eat while walking\" 本を読みながら食べる \"eat while reading\""
+          },
+          {
+            "level": 3,
+            "heading": "Studying While",
+            "content": "音楽を聞きながら勉強する \"study while listening to music\" メモを取りながら勉強する \"study while taking notes\" コーヒーを飲みながら勉強する \"study while drinking coffee\""
+          },
+          {
+            "level": 3,
+            "heading": "Walking While",
+            "content": "電話しながら歩く \"walk while talking on the phone\" 音楽を聞きながら歩く \"walk while listening to music\" 話しながら歩く \"walk while talking\""
+          }
+        ]
+      },
+      {
+        "level": 2,
+        "heading": "Common Conversations",
+        "content": "",
+        "children": [
+          {
+            "level": 3,
+            "heading": "Example 1: Asking About Habits",
+            "content": "A: 勉強する時、音楽を聞きますか？ \"Do you listen to music when you study?\" B: はい、いつも音楽を聞きながら勉強します \"Yes, I always study while listening to music\" A: 集中できますか？ \"Can you concentrate?\" B: はい、できます \"Yes, I can\""
+          },
+          {
+            "level": 3,
+            "heading": "Example 2: Household Tasks",
+            "content": "A: 今日は何をしていたの？ \"What were you doing today?\" B: 私が料理している間、夫が掃除していた \"While I was cooking, my husband was cleaning\" A: いいね！協力してるんだね \"Nice! You're working together\""
+          },
+          {
+            "level": 3,
+            "heading": "Example 3: Interrupted Action",
+            "content": "A: 電話に気づかなかったの？ \"Didn't you notice the phone?\" B: ごめん、シャワーを浴びている間に鳴ったみたい \"Sorry, it seems it rang while I was taking a shower\" A: そうだったんだ \"I see\""
+          }
+        ]
+      },
+      {
+        "level": 2,
+        "heading": "Common Mistakes",
+        "content": "",
+        "children": [
+          {
+            "level": 3,
+            "heading": "Mistake 1: Using ながら with different subjects",
+            "content": "Wrong: 彼が話しながら、私は聞く ❌ Right: 彼が話している間、私は聞く ✓ \"While he talks, I listen\" Or same subject: 私は聞きながら話す ✓ \"I talk while listening\""
+          },
+          {
+            "level": 3,
+            "heading": "Mistake 2: Wrong form with ながら",
+            "content": "Wrong: 食べてながら ❌ Right: 食べながら ✓ \"while eating\" Wrong: 食べているながら ❌ Right: 食べながら ✓"
+          },
+          {
+            "level": 3,
+            "heading": "Mistake 3: Confusing main and background",
+            "content": "The action with ながら is typically background:\n\n音楽を聞きながら勉強する \"study (main) while listening to music (background)\" Not usually reversed in meaning, though grammatically possible"
+          }
+        ]
+      },
+      {
+        "level": 2,
+        "heading": "Complex Simultaneous Actions",
+        "content": "",
+        "children": [
+          {
+            "level": 3,
+            "heading": "Multiple People, Multiple Actions",
+            "content": "母が料理している間に、父は仕事をして、私は勉強していた \"While mother was cooking, father was working and I was studying\" 先生が説明している間、学生たちはメモを取りながら聞いていた \"While the teacher was explaining, students were listening while taking notes\""
+          },
+          {
+            "level": 3,
+            "heading": "Nested Simultaneous Actions",
+            "content": "私が音楽を聞きながら勉強している間、弟はゲームをしていた \"While I was studying while listening to music, my brother was playing games\""
+          }
+        ]
+      },
+      {
+        "level": 2,
+        "heading": "Emphasizing Simultaneity",
+        "content": "",
+        "children": [
+          {
+            "level": 3,
+            "heading": "ちょうど (just/exactly)",
+            "content": "ちょうど食べている時に電話が来た \"The phone came just as I was eating\" ちょうど出かけようとした時に雨が降り始めた \"It started raining just as I was about to leave\""
+          },
+          {
+            "level": 3,
+            "heading": "同時に (simultaneously)",
+            "content": "二つのことを同時にする \"do two things simultaneously\" 同時に起こった \"happened simultaneously\""
+          }
+        ]
+      },
+      {
+        "level": 2,
+        "heading": "Expressing Inability to Do Two Things",
+        "content": "",
+        "children": [
+          {
+            "level": 3,
+            "heading": "〜ながら〜ない (can't do while)",
+            "content": "運転しながら電話できない \"I can't talk on the phone while driving\" 歩きながら本が読めない \"I can't read while walking\""
+          }
+        ]
+      },
+      {
+        "level": 2,
+        "heading": "Practice Sentences",
+        "content": "",
+        "children": [
+          {
+            "level": 3,
+            "heading": "ながら (Same Person)",
+            "content": "音楽を聞きながら勉強する \"I study while listening to music\" コーヒーを飲みながら新聞を読む \"I read the newspaper while drinking coffee\" 歩きながら電話する \"I talk on the phone while walking\" 泣きながら話す \"I talk while crying\""
+          },
+          {
+            "level": 3,
+            "heading": "間 (Different People/Throughout)",
+            "content": "私が料理している間、彼は掃除していた \"While I was cooking, he was cleaning\" 母が買い物している間、子供は遊んでいた \"While mother was shopping, the children were playing\" 授業の間、学生は静かに聞いていた \"During class, students were listening quietly\""
+          },
+          {
+            "level": 3,
+            "heading": "間に (Event During)",
+            "content": "寝ている間に雨が降った \"It rained while I was sleeping\" 授業の間に電話が鳴った \"The phone rang during class\" 日本にいる間に富士山を見た \"I saw Mt. Fuji while in Japan\""
+          },
+          {
+            "level": 3,
+            "heading": "と同時に (At Same Time)",
+            "content": "ドアを開けると同時に猫が飛び出した \"The cat jumped out at the same time as I opened the door\" 授業が終わると同時に学生は出て行った \"Students left at the same time as class ended\""
+          },
+          {
+            "level": 3,
+            "heading": "Complex",
+            "content": "彼が話している間、私はメモを取りながら聞いていた \"While he was talking, I was listening while taking notes\" 母が料理している間に、父は新聞を読みながらコーヒーを飲んでいた \"While mother was cooking, father was drinking coffee while reading the newspaper\""
+          }
+        ]
+      },
+      {
+        "level": 2,
+        "heading": "Related Grammar Points",
+        "content": "〜ながら (nagara) - While doing 間/間に (aida/aida ni) - During/while 〜ている (te-iru) - Progressive form Te-form - Connecting actions 〜つつ (tsutsu) - While (formal) 〜たり〜たり - Listing actions",
+        "children": [
+          {
+            "level": 3,
+            "heading": "Company",
+            "content": "About Pricing Blog Contact"
+          },
+          {
+            "level": 3,
+            "heading": "Legal",
+            "content": "Privacy Policy Terms of Service Cookie Policy"
+          }
+        ]
+      }
+    ],
+    "metadata": {
+      "title": "Simultaneous Actions"
+    }
+  },
+  "metadata": {
+    "extracted_at": "2026-01-01T22:19:34.582429200Z",
+    "duration_ms": 3,
+    "extractors_matched": [
+      "metadata",
+      "examples",
+      "sections"
+    ],
+    "extractors_failed": [
+      "vocab_tables",
+      "definitions",
+      "content_blocks"
+    ]
+  }
+}

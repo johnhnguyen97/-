@@ -1,0 +1,341 @@
+{
+  "config_name": "Language Learning Extractor",
+  "url": "https://practice-japanese.com/docs/te-reason/",
+  "data": {
+    "metadata": {
+      "title": "〜て (Casual reason)"
+    },
+    "examples": [
+      {
+        "sentence": "て-form basics - Te-form conjugation"
+      },
+      {
+        "sentence": "から - Because (casual)"
+      },
+      {
+        "sentence": "ので - Because (formal)"
+      },
+      {
+        "sentence": "〜て、〜て - Listing with て"
+      },
+      {
+        "sentence": "ために - For the purpose of"
+      },
+      {
+        "sentence": "Casual Japanese - Conversational patterns"
+      },
+      {
+        "sentence": "About"
+      },
+      {
+        "sentence": "Pricing"
+      },
+      {
+        "sentence": "Blog"
+      },
+      {
+        "sentence": "Contact"
+      },
+      {
+        "sentence": "Privacy Policy"
+      },
+      {
+        "sentence": "Terms of Service"
+      },
+      {
+        "sentence": "Cookie Policy"
+      }
+    ],
+    "sections": [
+      {
+        "level": 2,
+        "heading": "What is て as a Reason?",
+        "content": "The て-form can express casual reasons or causes, similar to \"because\" or \"and then.\" It's very natural in spoken Japanese and softer than から.\n\nお腹が空いて、コンビニに行った \"I was hungry, (so) I went to the convenience store\" 雨が降って、試合が中止になった \"It rained, (so) the match was cancelled\" 嬉しくて、泣いちゃった \"I was (so) happy, I cried\""
+      },
+      {
+        "level": 2,
+        "heading": "Formation",
+        "content": "",
+        "children": [
+          {
+            "level": 3,
+            "heading": "Uses standard て-form",
+            "content": "| Verb/Adjective | て-form | Example | | -------------- | ------- | ---------------- | | 食べる | 食べて | 食べて、寝た | | 行く | 行って | 行って、見た | | 高い | 高くて | 高くて、買えない | | 便利 | 便利で | 便利で、好き | | 学生 | 学生で | 学生で、忙しい |"
+          },
+          {
+            "level": 3,
+            "heading": "Same conjugation as regular て-form",
+            "content": "Verbs: Standard て-form conjugation い-adjectives: Remove い + くて な-adjectives/Nouns: + で"
+          }
+        ]
+      },
+      {
+        "level": 2,
+        "heading": "Basic Usage",
+        "content": "",
+        "children": [
+          {
+            "level": 3,
+            "heading": "Expressing cause and effect",
+            "content": "疲れて、眠くなった \"I got tired, (so) I became sleepy\" 道が混んでて、遅れた \"The road was crowded, (so) I was late\" 忙しくて、時間がない \"I'm busy, (so) I don't have time\""
+          },
+          {
+            "level": 3,
+            "heading": "Natural consequences",
+            "content": "雨が降って、中止になった \"It rained, (so) it was cancelled\" 安くて、たくさん買った \"It was cheap, (so) I bought a lot\" 面白くて、最後まで読んだ \"It was interesting, (so) I read to the end\""
+          }
+        ]
+      },
+      {
+        "level": 2,
+        "heading": "て-form vs から/ので",
+        "content": "",
+        "children": [
+          {
+            "level": 3,
+            "heading": "て-form - Softest, most natural",
+            "content": "嬉しくて、泣いちゃった \"I was happy, (so) I cried\" Casual, conversational Natural flow"
+          },
+          {
+            "level": 3,
+            "heading": "から - Clear causation",
+            "content": "嬉しかったから、泣いた \"Because I was happy, I cried\" More explicit reason"
+          },
+          {
+            "level": 3,
+            "heading": "ので - Formal/objective",
+            "content": "嬉しかったので、涙が出ました \"Because I was happy, tears came out\" Polite, formal"
+          }
+        ]
+      },
+      {
+        "level": 2,
+        "heading": "Common Patterns",
+        "content": "",
+        "children": [
+          {
+            "level": 3,
+            "heading": "With emotions",
+            "content": "嬉しくて、泣いた \"(I was so) happy, I cried\" 悲しくて、何もできなかった \"(I was so) sad, I couldn't do anything\" 怖くて、見られない \"(It's so) scary, I can't watch\" 驚いて、声も出なかった \"(I was so) surprised, I couldn't even speak\""
+          },
+          {
+            "level": 3,
+            "heading": "With states and conditions",
+            "content": "疲れて、眠い \"(I'm) tired, (so) sleepy\" お腹が空いて、力が出ない \"(I'm) hungry, (so) I have no energy\" 忙しくて、休めない \"(I'm) busy, (so) I can't rest\""
+          },
+          {
+            "level": 3,
+            "heading": "With actions leading to results",
+            "content": "勉強して、合格した \"(I) studied, (so/and) I passed\" 走って、間に合った \"(I) ran, (so/and) I made it in time\" 頑張って、できるようになった \"(I) tried hard, (so/and) became able to do it\""
+          }
+        ]
+      },
+      {
+        "level": 2,
+        "heading": "Characteristics",
+        "content": "",
+        "children": [
+          {
+            "level": 3,
+            "heading": "More natural than から in casual speech",
+            "content": "More natural: 高くて、買えない \"It's expensive, (so) I can't buy it\" Also correct: 高いから、買えない \"Because it's expensive, I can't buy it\" て sounds more conversational"
+          },
+          {
+            "level": 3,
+            "heading": "Shows direct connection",
+            "content": "雨が降って、濡れた \"It rained, (and/so) I got wet\" Direct cause → effect Immediate connection"
+          },
+          {
+            "level": 3,
+            "heading": "Cannot be used with commands",
+            "content": "Wrong: 危なくて、気をつけて ❌ Right: 危ないから、気をつけて ✓ \"It's dangerous, so be careful\" Use から/ので for commands/requests"
+          }
+        ]
+      },
+      {
+        "level": 2,
+        "heading": "Common Conversations",
+        "content": "",
+        "children": [
+          {
+            "level": 3,
+            "heading": "Example 1: Explaining Situation",
+            "content": "A: どうしたの？顔色悪いよ \"What's wrong? You look pale\" B: 昨日あまり寝られなくて、疲れてるんだ \"I couldn't sleep much yesterday, so I'm tired\" A: 大丈夫？ \"Are you okay?\""
+          },
+          {
+            "level": 3,
+            "heading": "Example 2: Shopping Story",
+            "content": "A: そのバッグ、いいね \"That bag is nice\" B: うん、デザインが気に入って、買っちゃった \"Yeah, I liked the design, so I bought it\" A: いくらだった？ \"How much was it?\""
+          },
+          {
+            "level": 3,
+            "heading": "Example 3: Daily Life",
+            "content": "A: 今日の試合、中止だって \"Today's game is cancelled\" B: え、なんで？ \"Huh, why?\" A: 雨が降って、グラウンドが使えないんだって \"It rained, so the field can't be used\""
+          }
+        ]
+      },
+      {
+        "level": 2,
+        "heading": "Common Mistakes",
+        "content": "",
+        "children": [
+          {
+            "level": 3,
+            "heading": "Mistake 1: Using with commands",
+            "content": "Wrong: 寒くて、窓を閉めて ❌ Right: 寒いから、窓を閉めて ✓ \"It's cold, so close the window\" Cannot use て with commands!"
+          },
+          {
+            "level": 3,
+            "heading": "Mistake 2: Too casual in formal situations",
+            "content": "Too casual: 体調が悪くて、休みます ⚠️ Better: 体調が悪いので、休みます ✓ \"I'm not feeling well, so I'll rest\" Use ので in formal situations"
+          },
+          {
+            "level": 3,
+            "heading": "Mistake 3: Wrong て-form",
+            "content": "Wrong: 高いて ❌ Right: 高くて ✓ \"Expensive, so...\" い-adjectives: 高い → 高くて"
+          }
+        ]
+      },
+      {
+        "level": 2,
+        "heading": "Expressing Degree",
+        "content": "",
+        "children": [
+          {
+            "level": 3,
+            "heading": "\"So... that\"",
+            "content": "美味しくて、毎日食べてる \"It's (so) delicious, I eat it every day\" 面白くて、やめられない \"It's (so) interesting, I can't stop\" 難しくて、分からない \"It's (so) difficult, I don't understand\""
+          }
+        ]
+      },
+      {
+        "level": 2,
+        "heading": "Multiple て-forms",
+        "content": "",
+        "children": [
+          {
+            "level": 3,
+            "heading": "Listing multiple reasons",
+            "content": "安くて、美味しくて、近い \"It's cheap, delicious, and close\" 親切で、面白くて、頭がいい \"(He's) kind, interesting, and smart\" Connecting multiple qualities"
+          }
+        ]
+      },
+      {
+        "level": 2,
+        "heading": "Shortened Forms in Casual Speech",
+        "content": "",
+        "children": [
+          {
+            "level": 3,
+            "heading": "Dropping particles",
+            "content": "Very casual: お腹空いて、コンビニ行った Standard: お腹が空いて、コンビニに行った \"I was hungry, (so) I went to the convenience store\" Natural in conversation"
+          },
+          {
+            "level": 3,
+            "heading": "Using って instead of て",
+            "content": "Casual: 高くって、買えない Standard: 高くて、買えない \"It's expensive, (so) I can't buy it\" って adds emphasis"
+          }
+        ]
+      },
+      {
+        "level": 2,
+        "heading": "When NOT to Use て",
+        "content": "",
+        "children": [
+          {
+            "level": 3,
+            "heading": "With volitional/intentional actions as reasons",
+            "content": "Unnatural: 日本語を勉強して、日本に来た ⚠️ Better: 日本語を勉強するために、日本に来た ✓ \"I came to Japan to study Japanese\" Use ために for purpose"
+          },
+          {
+            "level": 3,
+            "heading": "With requests/suggestions following",
+            "content": "Unnatural: 疲れて、休んだらどう？ ⚠️ Better: 疲れてるから、休んだらどう？ ✓ \"You're tired, so how about resting?\" Use から for suggestions"
+          }
+        ]
+      },
+      {
+        "level": 2,
+        "heading": "With Different Tenses",
+        "content": "",
+        "children": [
+          {
+            "level": 3,
+            "heading": "Present state → Result",
+            "content": "寒くて、震えてる \"It's cold, (so) I'm shivering\" 高くて、手が出ない \"It's expensive, (so) I can't afford it\""
+          },
+          {
+            "level": 3,
+            "heading": "Past event → Result",
+            "content": "雨が降って、試合が中止になった \"It rained, (so) the match was cancelled\" 勉強して、合格した \"(I) studied, (so/and) I passed\""
+          }
+        ]
+      },
+      {
+        "level": 2,
+        "heading": "Comparing Casualness",
+        "content": "",
+        "children": [
+          {
+            "level": 3,
+            "heading": "Most casual to most formal",
+            "content": "1. 高くて、買えない (very casual) \"It's expensive, can't buy it\" 2. 高いから、買えない (casual) \"It's expensive, so I can't buy it\" 3. 高いので、買えません (polite) \"It's expensive, so I can't buy it\" 4. 価格が高いため、購入できません (formal) \"Due to the high price, I cannot purchase it\""
+          }
+        ]
+      },
+      {
+        "level": 2,
+        "heading": "Practice Sentences",
+        "content": "",
+        "children": [
+          {
+            "level": 3,
+            "heading": "Basic",
+            "content": "疲れて、眠い \"(I'm) tired, (so) sleepy\" 忙しくて、会えない \"(I'm) busy, (so) can't meet\" 嬉しくて、泣いた \"(I was) happy, (so) I cried\""
+          },
+          {
+            "level": 3,
+            "heading": "Intermediate",
+            "content": "道が混んでて、1時間も遅れちゃった \"The road was crowded, (so) I was an hour late\" この本、面白くて、一晩で読み終わっちゃった \"This book was interesting, (so) I finished reading it in one night\" 彼女が優しくて、みんなに好かれている \"She's kind, (so) everyone likes her\""
+          },
+          {
+            "level": 3,
+            "heading": "Advanced",
+            "content": "昨日徹夜して、今日は頭が全然働かなくて、 仕事が全然進まない \"I stayed up all night yesterday, so my brain isn't working at all today, and work isn't progressing at all\" あまりにも感動的で言葉にならなくて、 ただ涙が止まらなかった \"It was so moving I couldn't put it into words, and tears just wouldn't stop\""
+          }
+        ]
+      },
+      {
+        "level": 2,
+        "heading": "Related Grammar Points",
+        "content": "て-form basics - Te-form conjugation から - Because (casual) ので - Because (formal) 〜て、〜て - Listing with て ために - For the purpose of Casual Japanese - Conversational patterns",
+        "children": [
+          {
+            "level": 3,
+            "heading": "Company",
+            "content": "About Pricing Blog Contact"
+          },
+          {
+            "level": 3,
+            "heading": "Legal",
+            "content": "Privacy Policy Terms of Service Cookie Policy"
+          }
+        ]
+      }
+    ]
+  },
+  "metadata": {
+    "extracted_at": "2026-01-01T22:19:36.134033900Z",
+    "duration_ms": 5,
+    "extractors_matched": [
+      "metadata",
+      "examples",
+      "sections"
+    ],
+    "extractors_failed": [
+      "vocab_tables",
+      "definitions",
+      "content_blocks"
+    ]
+  }
+}

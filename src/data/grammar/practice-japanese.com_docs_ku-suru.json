@@ -1,0 +1,221 @@
+{
+  "config_name": "Language Learning Extractor",
+  "url": "https://practice-japanese.com/docs/ku-suru/",
+  "data": {
+    "examples": [
+      {
+        "sentence": "くする = you make it change (active)"
+      },
+      {
+        "sentence": "くなる = it becomes (natural)"
+      },
+      {
+        "sentence": "くする means \"make [adjective]\" (causative)"
+      },
+      {
+        "sentence": "Formation: Remove い + add くする"
+      },
+      {
+        "sentence": "Only with い-adjectives"
+      },
+      {
+        "sentence": "Uses を particle (not が)"
+      },
+      {
+        "sentence": "Different from くなる (natural change)"
+      },
+      {
+        "sentence": "Special case: いい → 良くする (yoku suru)"
+      },
+      {
+        "sentence": "Common uses: adjusting volume, temperature, size"
+      },
+      {
+        "sentence": "Essential for expressing active changes"
+      },
+      {
+        "sentence": "About"
+      },
+      {
+        "sentence": "Pricing"
+      },
+      {
+        "sentence": "Blog"
+      },
+      {
+        "sentence": "Contact"
+      },
+      {
+        "sentence": "Privacy Policy"
+      },
+      {
+        "sentence": "Terms of Service"
+      },
+      {
+        "sentence": "Cookie Policy"
+      }
+    ],
+    "metadata": {
+      "title": "〜くする (Make - i-adj)"
+    },
+    "sections": [
+      {
+        "level": 2,
+        "heading": "What is 〜くする?",
+        "content": "〜くする (ku suru) expresses making something become a certain way with い-adjectives. Unlike くなる (natural change), くする indicates actively causing or making a change.\n\nEnglish equivalent: \"make [adjective]\"\n\nStructure: Remove い from い-adjective + くする\n\n大きい (ookii) → 大きくする (ookiku suru) \"make big\" / \"enlarge\" 暗い (kurai) → 暗くする (kuraku suru) \"make dark\" / \"darken\""
+      },
+      {
+        "level": 2,
+        "heading": "Basic Formation",
+        "content": "",
+        "children": [
+          {
+            "level": 3,
+            "heading": "How to form",
+            "content": "[い-adjective stem] + くする\n\n高い (takai) → 高くする (takaku suru) - \"raise\" / \"make high\" 安い (yasui) → 安くする (yasuku suru) - \"lower (price)\" / \"make cheap\" 小さい (chiisai) → 小さくする (chiisaku suru) - \"make small\" 短い (mijikai) → 短くする (mijikaku suru) - \"shorten\" 長い (nagai) → 長くする (nagaku suru) - \"lengthen\""
+          }
+        ]
+      },
+      {
+        "level": 2,
+        "heading": "Common Uses",
+        "content": "",
+        "children": [
+          {
+            "level": 3,
+            "heading": "Adjusting things",
+            "content": "音を大きくする。 Oto wo ookiku suru. \"Turn up the volume.\" / \"Make the sound louder.\" 部屋を明るくする。 Heya wo akuraku suru. \"Brighten the room.\" / \"Make the room bright.\" 髪を短くした。 Kami wo mijikaku shita. \"I cut my hair short.\" / \"I made my hair short.\" エアコンで部屋を涼しくする。 Eakon de heya wo suzushiku suru. \"Cool the room with the air conditioner.\""
+          },
+          {
+            "level": 3,
+            "heading": "Changing states",
+            "content": "価格を安くする。 Kakaku wo yasuku suru. \"Lower the price.\" / \"Make it cheaper.\" 文を短くする。 Bun wo mijikaku suru. \"Shorten the sentence.\" 声を小さくしてください。 Koe wo chiisaku shite kudasai. \"Please lower your voice.\" / \"Please speak more quietly.\""
+          }
+        ]
+      },
+      {
+        "level": 2,
+        "heading": "Comparing くする and くなる",
+        "content": "",
+        "children": [
+          {
+            "level": 3,
+            "heading": "くする - Causative (make)",
+            "content": "音を大きくする。 Oto wo ookiku suru. \"I make the sound louder.\" [Active - you do it]"
+          },
+          {
+            "level": 3,
+            "heading": "くなる - Natural change (become)",
+            "content": "音が大きくなる。 Oto ga ookiku naru. \"The sound becomes louder.\" [Natural change]\n\n| Pattern | Meaning | Particle | Example | | ------- | ----------------- | -------- | -------------- | | くする | Make/cause change | を | 音を大きくする | | くなる | Become (natural) | が | 音が大きくなる |\n\nSee: 〜くなる (Become)"
+          }
+        ]
+      },
+      {
+        "level": 2,
+        "heading": "Special Case: いい/良い",
+        "content": "",
+        "children": [
+          {
+            "level": 3,
+            "heading": "よくする (make good/better)",
+            "content": "❌ いいくする ✓ 良くする (yoku suru) \"make better\" / \"improve\" 成績を良くする。 Seiseki wo yoku suru. \"Improve grades.\" 関係を良くしたい。 Kankei wo yoku shitai. \"I want to improve the relationship.\""
+          }
+        ]
+      },
+      {
+        "level": 2,
+        "heading": "With Requests",
+        "content": "",
+        "children": [
+          {
+            "level": 3,
+            "heading": "Please make...",
+            "content": "もっと大きくしてください。 Motto ookiku shite kudasai. \"Please make it bigger.\" 少し小さくしてもらえますか。 Sukoshi chiisaku shite moraemasu ka. \"Could you make it a bit smaller?\" 音を小さくしてください。 Oto wo chiisaku shite kudasai. \"Please turn down the volume.\""
+          }
+        ]
+      },
+      {
+        "level": 2,
+        "heading": "Common Expressions",
+        "content": "",
+        "children": [
+          {
+            "level": 3,
+            "heading": "Practical uses",
+            "content": "髪を短くする - \"cut hair short\" 音を大きくする - \"turn up volume\" 火を強くする - \"turn up the heat\" 部屋を暖かくする - \"warm up the room\" 説明を簡単くする ❌ (簡単 is な-adjective) 説明を簡単にする ✓ - \"simplify the explanation\""
+          }
+        ]
+      },
+      {
+        "level": 2,
+        "heading": "Polite Forms",
+        "content": "",
+        "children": [
+          {
+            "level": 3,
+            "heading": "Formality levels",
+            "content": "Casual: 大きくする Polite: 大きくします Past: 大きくした/大きくしました 温度を高くしました。 Ondo wo takaku shimashita. \"I raised the temperature.\""
+          }
+        ]
+      },
+      {
+        "level": 2,
+        "heading": "Common Mistakes",
+        "content": "",
+        "children": [
+          {
+            "level": 3,
+            "heading": "Mistake 1: Using with な-adjectives",
+            "content": "❌ 簡単くする ✓ 簡単にする (use にする)\n\nOnly use くする with い-adjectives."
+          },
+          {
+            "level": 3,
+            "heading": "Mistake 2: Wrong particle",
+            "content": "❌ 音が大きくする ✓ 音を大きくする\n\nUse を (object marker), not が."
+          },
+          {
+            "level": 3,
+            "heading": "Mistake 3: Confusing with くなる",
+            "content": "Remember:\n\nくする = you make it change (active) くなる = it becomes (natural)"
+          },
+          {
+            "level": 3,
+            "heading": "Mistake 4: Using with いい",
+            "content": "❌ いいくする ✓ 良くする (yoku suru)"
+          }
+        ]
+      },
+      {
+        "level": 2,
+        "heading": "Summary",
+        "content": "Key Points:\n\nくする means \"make [adjective]\" (causative) Formation: Remove い + add くする Only with い-adjectives Uses を particle (not が) Different from くなる (natural change) Special case: いい → 良くする (yoku suru) Common uses: adjusting volume, temperature, size Essential for expressing active changes",
+        "children": [
+          {
+            "level": 3,
+            "heading": "Company",
+            "content": "About Pricing Blog Contact"
+          },
+          {
+            "level": 3,
+            "heading": "Legal",
+            "content": "Privacy Policy Terms of Service Cookie Policy"
+          }
+        ]
+      }
+    ]
+  },
+  "metadata": {
+    "extracted_at": "2026-01-01T22:19:31.839115900Z",
+    "duration_ms": 5,
+    "extractors_matched": [
+      "metadata",
+      "examples",
+      "sections"
+    ],
+    "extractors_failed": [
+      "vocab_tables",
+      "definitions",
+      "content_blocks"
+    ]
+  }
+}

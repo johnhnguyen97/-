@@ -1,0 +1,304 @@
+{
+  "config_name": "Language Learning Extractor",
+  "url": "https://practice-japanese.com/docs/kara-miru-to/",
+  "data": {
+    "sections": [
+      {
+        "level": 2,
+        "heading": "What is 〜から見ると?",
+        "content": "〜から見ると (kara miru to) expresses \"from the viewpoint of\" or \"looking from.\" It indicates making an observation or judgment from a particular perspective or standpoint.\n\nEnglish equivalent: \"from the viewpoint of,\" \"from the perspective of,\" \"judging from,\" \"looking from\"\n\nStructure: [Person/Position/Angle] + から見ると\n\n私 (watashi - I) + から見ると = 私から見ると \"from my viewpoint\" 専門家 (senmonka - expert) + から見ると = 専門家から見ると \"from an expert's viewpoint\" 外 (soto - outside) + から見ると = 外から見ると \"looking from outside\""
+      },
+      {
+        "level": 2,
+        "heading": "Basic Formation",
+        "content": "",
+        "children": [
+          {
+            "level": 3,
+            "heading": "With people/positions",
+            "content": "[Person/Position] + から見ると\n\n私から見ると (watashi kara miru to) - \"from my viewpoint\" 彼から見ると (kare kara miru to) - \"from his viewpoint\" 専門家から見ると (senmonka kara miru to) - \"from an expert's viewpoint\" 親から見ると (oya kara miru to) - \"from a parent's viewpoint\""
+          },
+          {
+            "level": 3,
+            "heading": "With locations/angles",
+            "content": "[Location/Angle] + から見ると\n\n外から見ると (soto kara miru to) - \"looking from outside\" 上から見ると (ue kara miru to) - \"looking from above\" 客観的に見ると (kyakkanteki ni miru to) - \"objectively speaking\""
+          }
+        ]
+      },
+      {
+        "level": 2,
+        "heading": "Making Judgments",
+        "content": "",
+        "children": [
+          {
+            "level": 3,
+            "heading": "Forming opinions",
+            "content": "私から見ると、これは正しい。 Watashi kara miru to, kore wa tadashii. \"From my viewpoint, this is correct.\" 専門家から見ると、問題がある。 Senmonka kara miru to, mondai ga aru. \"From an expert's viewpoint, there's a problem.\" 彼から見ると、簡単に見える。 Kare kara miru to, kantan ni mieru. \"From his viewpoint, it looks easy.\""
+          }
+        ]
+      },
+      {
+        "level": 2,
+        "heading": "Professional Perspective",
+        "content": "",
+        "children": [
+          {
+            "level": 3,
+            "heading": "Expert opinions",
+            "content": "医者から見ると、これは危険だ。 Isha kara miru to, kore wa kiken da. \"From a doctor's perspective, this is dangerous.\" 技術者から見ると、設計に問題がある。 Gijutsusha kara miru to, sekkei ni mondai ga aru. \"From an engineer's viewpoint, there's a design problem.\" 経済学者から見ると、この政策は効果的だ。 Keizaigakusha kara miru to, kono seisaku wa koukатeki da. \"From an economist's perspective, this policy is effective.\""
+          }
+        ]
+      },
+      {
+        "level": 2,
+        "heading": "Comparing Viewpoints",
+        "content": "",
+        "children": [
+          {
+            "level": 3,
+            "heading": "Different perspectives",
+            "content": "私から見ると正しいが、彼から見ると間違っている。 Watashi kara miru to tadashii ga, kare kara miru to machigatte iru. \"From my viewpoint it's correct, but from his viewpoint it's wrong.\" 日本人から見ると普通だが、外国人から見ると不思議だ。 Nihonjin kara miru to futsuu da ga, gaikokujin kara miru to fushigi da. \"From a Japanese perspective it's normal, but from a foreigner's perspective it's strange.\""
+          }
+        ]
+      },
+      {
+        "level": 2,
+        "heading": "Physical Viewpoint",
+        "content": "",
+        "children": [
+          {
+            "level": 3,
+            "heading": "Observing from position",
+            "content": "外から見ると大きく見える。 Soto kara miru to ookiku mieru. \"Looking from outside, it appears big.\" 上から見ると円形だ。 Ue kara miru to enkei da. \"Looking from above, it's circular.\" 遠くから見ると小さい。 Tooku kara miru to chiisai. \"Looking from far away, it's small.\""
+          }
+        ]
+      },
+      {
+        "level": 2,
+        "heading": "Variations",
+        "content": "",
+        "children": [
+          {
+            "level": 3,
+            "heading": "Similar expressions",
+            "content": "から見ると (kara miru to) - most common から見れば (kara mireba) - \"if you look from\" から見て (kara mite) - \"looking from\" から見ても (kara mite mo) - \"even looking from\" 客観的に見ると (kyakkanteki ni miru to) - \"objectively speaking\" 常識から見ると (joushiki kara miru to) - \"from common sense\""
+          }
+        ]
+      },
+      {
+        "level": 2,
+        "heading": "Objective Observations",
+        "content": "",
+        "children": [
+          {
+            "level": 3,
+            "heading": "Analytical perspective",
+            "content": "データから見ると、成功している。 Deeta kara miru to, seikou shite iru. \"Judging from the data, it's succeeding.\" 結果から見ると、効果があった。 Kekka kara miru to, kouka ga atta. \"Judging from the results, it was effective.\" 客観的に見ると、改善が必要だ。 Kyakkanteki ni miru to, kaizen ga hitsuyou da. \"Objectively speaking, improvement is needed.\""
+          }
+        ]
+      },
+      {
+        "level": 2,
+        "heading": "Cultural Perspective",
+        "content": "",
+        "children": [
+          {
+            "level": 3,
+            "heading": "Cultural viewpoints",
+            "content": "日本の文化から見ると、これは失礼だ。 Nihon no bunka kara miru to, kore wa shitsurei da. \"From Japanese cultural perspective, this is rude.\" 西洋の視点から見ると、違う意味になる。 Seiyou no shiten kara miru to, chigau imi ni naru. \"From a Western viewpoint, it has a different meaning.\""
+          }
+        ]
+      },
+      {
+        "level": 2,
+        "heading": "Polite Forms",
+        "content": "私から見ますと、問題ありません。 Watashi kara mirimasu to, mondai arimasen. \"From my viewpoint, there's no problem.\" 専門家から見ますと、これは正しい方法です。 Senmonka kara mirimasu to, kore wa tadashii houhou desu. \"From an expert's viewpoint, this is the correct method.\""
+      },
+      {
+        "level": 2,
+        "heading": "Common Expressions",
+        "content": "私から見ると (watashi kara miru to) - \"from my viewpoint\" 専門家から見ると (senmonka kara miru to) - \"from expert's view\" 外から見ると (soto kara miru to) - \"looking from outside\" 客観的に見ると (kyakkanteki ni miru to) - \"objectively\" 常識から見ると (joushiki kara miru to) - \"from common sense\" 歴史的に見ると (rekishiteki ni miru to) - \"historically speaking\" 〜から見て (kara mite) - \"looking from\" 〜から見ても (kara mite mo) - \"even from\""
+      },
+      {
+        "level": 2,
+        "heading": "Comparing から見ると and にとって",
+        "content": "",
+        "children": [
+          {
+            "level": 3,
+            "heading": "Observation vs personal significance",
+            "content": "から見ると - Viewpoint/observation:\n\n私から見ると正しい。 Watashi kara miru to tadashii. \"From my viewpoint, it's correct.\" (observation/judgment)\n\nにとって - Personal significance:\n\n私にとって大切だ。 Watashi ni totte taisetsu da. \"It's important to me.\" (personal value)\n\n| Pattern | Focus | Example | | ---------- | --------------------- | ------------------ | | から見ると | Observation/judgment | 私から見ると正しい | | にとって | Personal significance | 私にとって大切 |\n\nSee: 〜にとって (For/To)"
+          }
+        ]
+      },
+      {
+        "level": 2,
+        "heading": "With Time Perspective",
+        "content": "",
+        "children": [
+          {
+            "level": 3,
+            "heading": "Historical viewpoint",
+            "content": "歴史的に見ると、大きな変化だ。 Rekishiteki ni miru to, ookina henka da. \"Historically speaking, it's a big change.\" 長期的に見ると、良い選択だ。 Choukiteki ni miru to, yoi sentaku da. \"From a long-term perspective, it's a good choice.\" 今から見ると、間違いだった。 Ima kara miru to, machigai datta. \"Looking at it now, it was a mistake.\""
+          }
+        ]
+      },
+      {
+        "level": 2,
+        "heading": "Subject's Perception",
+        "content": "",
+        "children": [
+          {
+            "level": 3,
+            "heading": "How things appear",
+            "content": "彼から見ると、私は怠け者だ。 Kare kara miru to, watashi wa namakemono da. \"From his viewpoint, I'm lazy.\" 子供から見ると、大人は厳しい。 Kodomo kara miru to, otona wa kibishii. \"From a child's viewpoint, adults are strict.\""
+          }
+        ]
+      },
+      {
+        "level": 2,
+        "heading": "Conditional Form: から見れば",
+        "content": "",
+        "children": [
+          {
+            "level": 3,
+            "heading": "If you look from",
+            "content": "常識から見れば、おかしい。 Joushiki kara mireba, okashii. \"If you look from common sense, it's strange.\" 法律から見れば、違法だ。 Houritsu kara mireba, ihou da. \"From a legal viewpoint, it's illegal.\""
+          }
+        ]
+      },
+      {
+        "level": 2,
+        "heading": "With ても: から見ても",
+        "content": "",
+        "children": [
+          {
+            "level": 3,
+            "heading": "Even from viewpoint",
+            "content": "どこから見ても美しい。 Doko kara mite mo utsukushii. \"It's beautiful from any angle.\" 誰から見ても明らかだ。 Dare kara mite mo akiraka da. \"It's obvious from anyone's viewpoint.\" どう見ても間違っている。 Dou mite mo machigatte iru. \"No matter how you look at it, it's wrong.\""
+          }
+        ]
+      },
+      {
+        "level": 2,
+        "heading": "Analyzing Situations",
+        "content": "",
+        "children": [
+          {
+            "level": 3,
+            "heading": "Evaluating circumstances",
+            "content": "現状から見ると、難しい。 Genjou kara miru to, muzukashii. \"Looking at the current situation, it's difficult.\" 過去の経験から見ると、可能だ。 Kako no keiken kara miru to, kanou da. \"Judging from past experience, it's possible.\""
+          }
+        ]
+      },
+      {
+        "level": 2,
+        "heading": "Common Mistakes",
+        "content": "",
+        "children": [
+          {
+            "level": 3,
+            "heading": "Mistake 1: Confusing with にとって",
+            "content": "から見ると = making an observation/judgment にとって = personal significance/importance 私から見ると正しい = From my view, it's correct (judgment) 私にとって大切 = Important to me (personal value)"
+          },
+          {
+            "level": 3,
+            "heading": "Mistake 2: Using が instead of から",
+            "content": "❌ 私が見ると ✓ 私から見ると\n\nUse から, not が."
+          },
+          {
+            "level": 3,
+            "heading": "Mistake 3: Wrong verb form",
+            "content": "❌ 私から見た ✓ 私から見ると (conditional と) ✓ 私から見て (て-form)"
+          },
+          {
+            "level": 3,
+            "heading": "Mistake 4: Literal physical viewing only",
+            "content": "から見ると is not just for physical viewing - it's mainly for viewpoints/perspectives.\n\n✓ 専門家から見ると (perspective, not physical) ✓ 外から見ると (can be physical or figurative)"
+          }
+        ]
+      },
+      {
+        "level": 2,
+        "heading": "Summary",
+        "content": "Key Points:\n\nから見ると expresses viewpoint or perspective Formation: [Person/Position/Angle] + から見ると For observations and judgments Can be physical or figurative viewpoint Variations: から見れば, から見て, から見ても Different from にとって (personal significance) Common with: 専門家, 外, 客観的に Essential for expressing observations and opinions",
+        "children": [
+          {
+            "level": 3,
+            "heading": "Company",
+            "content": "About Pricing Blog Contact"
+          },
+          {
+            "level": 3,
+            "heading": "Legal",
+            "content": "Privacy Policy Terms of Service Cookie Policy"
+          }
+        ]
+      }
+    ],
+    "metadata": {
+      "title": "〜から見ると (From viewpoint)"
+    },
+    "examples": [
+      {
+        "sentence": "から見ると expresses viewpoint or perspective"
+      },
+      {
+        "sentence": "Formation: [Person/Position/Angle] + から見ると"
+      },
+      {
+        "sentence": "For observations and judgments"
+      },
+      {
+        "sentence": "Can be physical or figurative viewpoint"
+      },
+      {
+        "sentence": "Variations: から見れば, から見て, から見ても"
+      },
+      {
+        "sentence": "Different from にとって (personal significance)"
+      },
+      {
+        "sentence": "Common with: 専門家, 外, 客観的に"
+      },
+      {
+        "sentence": "Essential for expressing observations and opinions"
+      },
+      {
+        "sentence": "About"
+      },
+      {
+        "sentence": "Pricing"
+      },
+      {
+        "sentence": "Blog"
+      },
+      {
+        "sentence": "Contact"
+      },
+      {
+        "sentence": "Privacy Policy"
+      },
+      {
+        "sentence": "Terms of Service"
+      },
+      {
+        "sentence": "Cookie Policy"
+      }
+    ]
+  },
+  "metadata": {
+    "extracted_at": "2026-01-01T22:19:30.722128800Z",
+    "duration_ms": 5,
+    "extractors_matched": [
+      "metadata",
+      "examples",
+      "sections"
+    ],
+    "extractors_failed": [
+      "vocab_tables",
+      "definitions",
+      "content_blocks"
+    ]
+  }
+}

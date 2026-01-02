@@ -1,0 +1,335 @@
+{
+  "config_name": "Language Learning Extractor",
+  "url": "https://practice-japanese.com/docs/second-person/",
+  "data": {
+    "sections": [
+      {
+        "level": 2,
+        "heading": "Second Person Pronouns",
+        "content": "Second person pronouns in Japanese are tricky and often avoided. Unlike English where \"you\" is standard, Japanese speakers frequently omit \"you\" or use names/titles instead. When pronouns are used, they carry strong implications about relationship, formality, and social distance.\n\nあなたは学生ですか (formal/distant) \"Are you a student?\" 君は学生？ (casual, male to junior) \"Are you a student?\" Better: 学生ですか \"Are (you) a student?\" (pronoun omitted)"
+      },
+      {
+        "level": 2,
+        "heading": "Why \"You\" is Often Avoided",
+        "content": "",
+        "children": [
+          {
+            "level": 3,
+            "heading": "Cultural context",
+            "content": "Using \"you\" can be: - Too direct - Distancing - Potentially rude - Unnecessary Japanese prefers: - Omission - Names - Titles - Context Avoidance is polite"
+          }
+        ]
+      },
+      {
+        "level": 2,
+        "heading": "Better Alternatives to \"You\"",
+        "content": "",
+        "children": [
+          {
+            "level": 3,
+            "heading": "Use the person's name",
+            "content": "Instead of: あなたは学生ですか Better: 田中さんは学生ですか \"Tanaka, are you a student?\" Most polite Most common Shows respect"
+          },
+          {
+            "level": 3,
+            "heading": "Use titles",
+            "content": "先生は忙しいですか \"Teacher, are you busy?\" 社長はどう思いますか \"President, what do you think?\" Professional contexts Shows position respect"
+          },
+          {
+            "level": 3,
+            "heading": "Omit entirely",
+            "content": "学生ですか \"Are (you) a student?\" 忙しい？ \"Are (you) busy?\" Natural Japanese When context is clear"
+          }
+        ]
+      },
+      {
+        "level": 2,
+        "heading": "あなた (anata) - Formal \"You\"",
+        "content": "",
+        "children": [
+          {
+            "level": 3,
+            "heading": "Standard but limited use",
+            "content": "あなたは誰ですか \"Who are you?\" あなたの名前は \"Your name is...\" Used for: Strangers, formal Formality: Formal Problems: Can be distant/rude Use sparingly"
+          },
+          {
+            "level": 3,
+            "heading": "When あなた works",
+            "content": "✓ To complete strangers ✓ In very formal situations ✓ When no name is known ✓ In songs/poetry (romantic) ✓ Between spouses (older usage) Limited appropriate contexts"
+          },
+          {
+            "level": 3,
+            "heading": "When to avoid あなた",
+            "content": "✗ To superiors (very rude) ✗ When you know their name ✗ To customers/clients ✗ In casual conversation ✗ Most daily situations Use name or title instead"
+          },
+          {
+            "level": 3,
+            "heading": "Special case: Marriage",
+            "content": "Wives sometimes say: あなた \"you\" (to husband) \"Dear/honey\" Older usage Becoming less common Traditional couples"
+          }
+        ]
+      },
+      {
+        "level": 2,
+        "heading": "君 (kimi) - Casual \"You\"",
+        "content": "",
+        "children": [
+          {
+            "level": 3,
+            "heading": "Friendly but hierarchical",
+            "content": "君は学生？ \"Are you a student?\" 君の意見は？ \"Your opinion is?\" Used by: Males usually To: Equals/juniors Formality: Casual-friendly Context: Personal Implies hierarchy"
+          },
+          {
+            "level": 3,
+            "heading": "When to use 君",
+            "content": "✓ To younger people ✓ To subordinates ✓ Among male friends (equal) ✓ Teacher to student ✓ Boss to employee Casual but polite Shows familiarity"
+          },
+          {
+            "level": 3,
+            "heading": "When to avoid 君",
+            "content": "✗ To superiors ✗ To strangers ✗ In formal settings ✗ To women (can be patronizing) Know your relationship"
+          }
+        ]
+      },
+      {
+        "level": 2,
+        "heading": "お前 (omae) - Rough \"You\"",
+        "content": "",
+        "children": [
+          {
+            "level": 3,
+            "heading": "Very casual/rough",
+            "content": "お前、何してる？ \"What are you doing?\" お前の意見は？ \"Your opinion?\" Used by: Males mainly To: Very close friends/subordinates Formality: Very casual/rough Context: Informal only Can be offensive"
+          },
+          {
+            "level": 3,
+            "heading": "When お前 is acceptable",
+            "content": "✓ Very close male friends ✓ Family (informal) ✓ To subordinates (rough) ✓ In anger/fights Very limited use Masculine speech"
+          },
+          {
+            "level": 3,
+            "heading": "When to avoid お前",
+            "content": "✗ To superiors (very rude) ✗ To strangers ✗ In polite conversation ✗ Professional settings ✗ To women (usually rude) Offensive in most contexts"
+          }
+        ]
+      },
+      {
+        "level": 2,
+        "heading": "あんた (anta) - Casual/Confrontational",
+        "content": "",
+        "children": [
+          {
+            "level": 3,
+            "heading": "Rough casual form",
+            "content": "あんた誰？ \"Who are you?\" あんた何言ってんの？ \"What are you saying?\" Used by: Anyone Formality: Casual to rough Context: Confrontational often Can be fighting words"
+          },
+          {
+            "level": 3,
+            "heading": "Usage notes",
+            "content": "Between close friends: OK To strangers: Rude In arguments: Common Regional: Some dialects use casually Women: Sometimes use to husbands Context-dependent Often negative"
+          }
+        ]
+      },
+      {
+        "level": 2,
+        "heading": "貴方/貴女 (anata) - Written Forms",
+        "content": "",
+        "children": [
+          {
+            "level": 3,
+            "heading": "Kanji variations",
+            "content": "貴方 (formal \"you\" - male) 貴女 (formal \"you\" - female) Written language Very formal Letters/documents Rare in speech"
+          }
+        ]
+      },
+      {
+        "level": 2,
+        "heading": "そちら (sochira) - Polite \"You\"",
+        "content": "",
+        "children": [
+          {
+            "level": 3,
+            "heading": "Indirect reference",
+            "content": "そちら様は \"You (that honored person)\" Over there/your side Very polite Business contexts Formal situations Indirect = polite"
+          }
+        ]
+      },
+      {
+        "level": 2,
+        "heading": "Plural \"You\"",
+        "content": "",
+        "children": [
+          {
+            "level": 3,
+            "heading": "あなたたち (anatatachi)",
+            "content": "あなたたちは学生ですか \"Are you (plural) students?\" Plural form Still carries あなた issues Better alternatives exist"
+          },
+          {
+            "level": 3,
+            "heading": "君たち (kimitachi)",
+            "content": "君たちは何をしてる？ \"What are you (guys) doing?\" Casual plural To juniors/equals Male speakers usually"
+          },
+          {
+            "level": 3,
+            "heading": "みなさん (minasan) - Everyone",
+            "content": "みなさん、聞いてください \"Everyone, please listen\" Polite group address No \"you\" pronoun Respectful Common alternative"
+          }
+        ]
+      },
+      {
+        "level": 2,
+        "heading": "Professional Contexts",
+        "content": "",
+        "children": [
+          {
+            "level": 3,
+            "heading": "Business settings",
+            "content": "Avoid pronouns: 御社は... \"Your company...\" お客様は... \"The customer...\" 先生は... \"Teacher/Doctor...\" Use titles/roles Most professional Maintains respect"
+          }
+        ]
+      },
+      {
+        "level": 2,
+        "heading": "Regional Variations",
+        "content": "",
+        "children": [
+          {
+            "level": 3,
+            "heading": "Dialectal forms",
+            "content": "おまえさん (some dialects) おまえら (plural, rough) われ (Kansai: you) おみゃー (Nagoya area) Local variations Different connotations Regional color"
+          }
+        ]
+      },
+      {
+        "level": 2,
+        "heading": "Gender and \"You\"",
+        "content": "",
+        "children": [
+          {
+            "level": 3,
+            "heading": "Male-oriented",
+            "content": "君 (to equals/juniors) お前 (very casual) てめえ (very rough/insulting) Males mainly use Hierarchical implications"
+          },
+          {
+            "level": 3,
+            "heading": "Neutral options",
+            "content": "あなた (formal) Name + さん Omission Safer for everyone"
+          }
+        ]
+      },
+      {
+        "level": 2,
+        "heading": "When Pronouns Are Used",
+        "content": "",
+        "children": [
+          {
+            "level": 3,
+            "heading": "Specific situations",
+            "content": "Arguments/confrontations When emphasizing When identity unclear In questions about person Teaching/explaining grammar Purpose-driven use Not casual default"
+          }
+        ]
+      },
+      {
+        "level": 2,
+        "heading": "Levels of Politeness",
+        "content": "",
+        "children": [
+          {
+            "level": 3,
+            "heading": "From most to least polite",
+            "content": "Most polite: そちら様 (very formal) Name + さん/様 Omission あなた (formal but distant) Casual: 君 (friendly) あんた (rough) お前 (very rough) てめえ (insulting) Choose appropriately"
+          }
+        ]
+      },
+      {
+        "level": 2,
+        "heading": "Common Mistakes",
+        "content": "",
+        "children": [
+          {
+            "level": 3,
+            "heading": "Using あなた to superiors",
+            "content": "Wrong: 先生、あなたは... ⚠️ Correct: 先生は... ✓ \"Teacher, are you...\" Never use あなた to superiors Use their title"
+          },
+          {
+            "level": 3,
+            "heading": "Overusing any \"you\"",
+            "content": "Unnatural: あなたは何を食べる？ あなたは忙しい？⚠️ Natural: 何を食べる？忙しい？✓ Omit when possible Sounds foreign with too many"
+          },
+          {
+            "level": 3,
+            "heading": "Using お前 inappropriately",
+            "content": "Wrong: お客様、お前は... ⚠️ Correct: お客様は... ✓ お前 is very rough Never to superiors/customers"
+          }
+        ]
+      },
+      {
+        "level": 2,
+        "heading": "Practice Sentences",
+        "content": "",
+        "children": [
+          {
+            "level": 3,
+            "heading": "Basic",
+            "content": "Name instead of pronoun: 田中さんは学生ですか \"Tanaka, are you a student?\" Title instead: 先生は忙しいですか \"Teacher, are you busy?\" Omission: 今日は暇？ \"Are (you) free today?\""
+          },
+          {
+            "level": 3,
+            "heading": "Intermediate",
+            "content": "Avoiding \"you\": お名前は何ですか \"What is (your) name?\" (Not: あなたの名前) どちらにお住まいですか \"Where do (you) live?\" (Not: あなたはどこに) 何時に来られますか \"What time can (you) come?\" (Not: あなたは何時に) Most polite without pronouns"
+          },
+          {
+            "level": 3,
+            "heading": "Company",
+            "content": "About Pricing Blog Contact"
+          },
+          {
+            "level": 3,
+            "heading": "Legal",
+            "content": "Privacy Policy Terms of Service Cookie Policy"
+          }
+        ]
+      }
+    ],
+    "metadata": {
+      "title": "Second Person (あなた、君)"
+    },
+    "examples": [
+      {
+        "sentence": "About"
+      },
+      {
+        "sentence": "Pricing"
+      },
+      {
+        "sentence": "Blog"
+      },
+      {
+        "sentence": "Contact"
+      },
+      {
+        "sentence": "Privacy Policy"
+      },
+      {
+        "sentence": "Terms of Service"
+      },
+      {
+        "sentence": "Cookie Policy"
+      }
+    ]
+  },
+  "metadata": {
+    "extracted_at": "2026-01-01T22:19:34.394344200Z",
+    "duration_ms": 3,
+    "extractors_matched": [
+      "metadata",
+      "examples",
+      "sections"
+    ],
+    "extractors_failed": [
+      "vocab_tables",
+      "definitions",
+      "content_blocks"
+    ]
+  }
+}

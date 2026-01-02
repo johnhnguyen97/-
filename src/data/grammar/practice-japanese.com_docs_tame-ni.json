@@ -1,0 +1,340 @@
+{
+  "config_name": "Language Learning Extractor",
+  "url": "https://practice-japanese.com/docs/tame-ni/",
+  "data": {
+    "metadata": {
+      "title": "〜ために (For the purpose of)"
+    },
+    "examples": [
+      {
+        "sentence": "〜ように - So that (for states/abilities)"
+      },
+      {
+        "sentence": "〜ため - For/because (shortened form)"
+      },
+      {
+        "sentence": "〜ために vs 〜ように - Purpose comparison"
+      },
+      {
+        "sentence": "から/ので - Because (different usage)"
+      },
+      {
+        "sentence": "Purpose expressions - Expressing purpose"
+      },
+      {
+        "sentence": "About"
+      },
+      {
+        "sentence": "Pricing"
+      },
+      {
+        "sentence": "Blog"
+      },
+      {
+        "sentence": "Contact"
+      },
+      {
+        "sentence": "Privacy Policy"
+      },
+      {
+        "sentence": "Terms of Service"
+      },
+      {
+        "sentence": "Cookie Policy"
+      }
+    ],
+    "sections": [
+      {
+        "level": 2,
+        "heading": "What is 〜ために?",
+        "content": "〜ために has two main uses: expressing purpose (\"in order to\") and stating reasons (\"because of\"). Context determines which meaning applies.\n\nPurpose: 合格するために、勉強する \"I study in order to pass\" Reason: 雨のために、中止になった \"Because of the rain, it was cancelled\""
+      },
+      {
+        "level": 2,
+        "heading": "Formation",
+        "content": "",
+        "children": [
+          {
+            "level": 3,
+            "heading": "Use 1: Purpose (in order to)",
+            "content": "Pattern: Verb dictionary form + ために\n\n| Verb | + ために | Meaning | | ---- | ---------- | ----------------- | | 行く | 行くために | In order to go | | 買う | 買うために | In order to buy | | 学ぶ | 学ぶために | In order to learn | | 会う | 会うために | In order to meet |"
+          },
+          {
+            "level": 3,
+            "heading": "Use 2: Reason (because of)",
+            "content": "Pattern: Noun + の + ために\n\n| Noun | + のために | Meaning | | ---- | ------------ | ----------------------- | | 雨 | 雨のために | Because of rain | | 事故 | 事故のために | Because of accident | | 工事 | 工事のために | Because of construction | | 病気 | 病気のために | Because of illness |"
+          }
+        ]
+      },
+      {
+        "level": 2,
+        "heading": "Use 1: Expressing Purpose",
+        "content": "",
+        "children": [
+          {
+            "level": 3,
+            "heading": "\"In order to\"",
+            "content": "日本語を学ぶために、日本に来ました \"I came to Japan in order to learn Japanese\" 健康のために、運動しています \"I exercise for (the sake of) my health\" 試験に合格するために、毎日勉強する \"I study every day in order to pass the exam\""
+          },
+          {
+            "level": 3,
+            "heading": "With noun + の",
+            "content": "健康のために - For health 将来のために - For the future 家族のために - For my family 仕事のために - For work"
+          }
+        ]
+      },
+      {
+        "level": 2,
+        "heading": "Use 2: Stating Reasons",
+        "content": "",
+        "children": [
+          {
+            "level": 3,
+            "heading": "\"Because of\" (usually negative situations)",
+            "content": "台風のために、飛行機が欠航した \"Because of the typhoon, the flight was cancelled\" 事故のために、道路が閉鎖されている \"Because of the accident, the road is closed\" 工事のために、通行止めです \"Because of construction, it's closed to traffic\""
+          }
+        ]
+      },
+      {
+        "level": 2,
+        "heading": "ために vs ように (Purpose)",
+        "content": "",
+        "children": [
+          {
+            "level": 3,
+            "heading": "ために - For controllable actions",
+            "content": "お金を貯めるために、働く \"I work in order to save money\" Used with verbs you can control"
+          },
+          {
+            "level": 3,
+            "heading": "ように - For states/abilities",
+            "content": "見えるように、前に座る \"I sit in front so I can see\" Used for potential/states Cannot use with する verbs (exceptions exist)"
+          },
+          {
+            "level": 3,
+            "heading": "Comparison",
+            "content": "ために: 合格するために勉強する \"Study in order to pass\" (controllable goal) ように: 合格できるように勉強する \"Study so that I can pass\" (potential state)"
+          }
+        ]
+      },
+      {
+        "level": 2,
+        "heading": "Common Contexts",
+        "content": "",
+        "children": [
+          {
+            "level": 3,
+            "heading": "Health and lifestyle",
+            "content": "健康のために、野菜を食べる \"I eat vegetables for my health\" ダイエットのために、運動する \"I exercise for my diet\" 長生きするために、タバコをやめた \"I quit smoking in order to live long\""
+          },
+          {
+            "level": 3,
+            "heading": "Study and career",
+            "content": "医者になるために、勉強している \"I'm studying in order to become a doctor\" 将来のために、お金を貯める \"I save money for the future\" 試験に合格するために、頑張る \"I try hard in order to pass the exam\""
+          },
+          {
+            "level": 3,
+            "heading": "Formal reasons (accidents, events)",
+            "content": "地震のために、建物が倒壊した \"Because of the earthquake, buildings collapsed\" 火事のために、避難した \"Because of the fire, we evacuated\" システムエラーのために、サービスが停止した \"Because of a system error, the service stopped\""
+          }
+        ]
+      },
+      {
+        "level": 2,
+        "heading": "Common Mistakes",
+        "content": "",
+        "children": [
+          {
+            "level": 3,
+            "heading": "Mistake 1: Using ように with する verbs",
+            "content": "Wrong: 勉強するように、図書館に行く ❌ Right: 勉強するために、図書館に行く ✓ \"I go to the library in order to study\" Use ために with する verbs!"
+          },
+          {
+            "level": 3,
+            "heading": "Mistake 2: Using wrong form",
+            "content": "Wrong: 行ったために ❌ Right: 行くために ✓ \"In order to go\" Use dictionary form for purpose!"
+          },
+          {
+            "level": 3,
+            "heading": "Mistake 3: Confusing purpose and reason",
+            "content": "Purpose: 買うために、お金を貯める \"I save money in order to buy (something)\" Reason: 雨のために、中止 \"Because of rain, cancelled\" Different uses, different patterns"
+          }
+        ]
+      },
+      {
+        "level": 2,
+        "heading": "Formal Usage",
+        "content": "",
+        "children": [
+          {
+            "level": 3,
+            "heading": "In announcements",
+            "content": "工事のため、通行止め \"Closed due to construction\" (のため shortened) メンテナンスのため、サービス停止中 \"Service stopped for maintenance\" 点検のため、休業 \"Closed for inspection\""
+          },
+          {
+            "level": 3,
+            "heading": "In business",
+            "content": "品質向上のため、改善を続けます \"For quality improvement, we continue to improve\" お客様のため、サービスを充実させます \"For our customers, we enhance our service\""
+          }
+        ]
+      },
+      {
+        "level": 2,
+        "heading": "ため vs のため",
+        "content": "",
+        "children": [
+          {
+            "level": 3,
+            "heading": "Both mean the same",
+            "content": "健康のため = 健康のために \"For health\" Often drop に in signs/notices"
+          },
+          {
+            "level": 3,
+            "heading": "In sentences, usually use ために",
+            "content": "Better: 健康のために運動する ✓ Okay: 健康のため運動する ✓ \"Exercise for health\" ために is more complete"
+          }
+        ]
+      },
+      {
+        "level": 2,
+        "heading": "Personal Sacrifice",
+        "content": "",
+        "children": [
+          {
+            "level": 3,
+            "heading": "\"For the sake of\"",
+            "content": "子供のために、頑張る \"I try hard for the sake of my children\" 会社のために、残業する \"I work overtime for the company\" 国のために、戦う \"Fight for the country\""
+          }
+        ]
+      },
+      {
+        "level": 2,
+        "heading": "Negative Situations",
+        "content": "",
+        "children": [
+          {
+            "level": 3,
+            "heading": "Usually with nouns",
+            "content": "病気のために、休んだ \"I rested because of illness\" 渋滞のために、遅れた \"I was late because of traffic\" 停電のために、営業できない \"We can't operate because of the power outage\""
+          }
+        ]
+      },
+      {
+        "level": 2,
+        "heading": "With Different Verbs",
+        "content": "",
+        "children": [
+          {
+            "level": 3,
+            "heading": "Movement verbs",
+            "content": "会うために、東京に行く \"I go to Tokyo in order to meet (someone)\" 買うために、店に行く \"I go to the store in order to buy\" 見るために、早く来た \"I came early in order to see\""
+          },
+          {
+            "level": 3,
+            "heading": "Action verbs",
+            "content": "作るために、材料を買う \"I buy ingredients in order to make (something)\" 教えるために、勉強する \"I study in order to teach\" 助けるために、走った \"I ran in order to help\""
+          }
+        ]
+      },
+      {
+        "level": 2,
+        "heading": "Emphasis Patterns",
+        "content": "",
+        "children": [
+          {
+            "level": 3,
+            "heading": "〜のためだけに (only for)",
+            "content": "これのためだけに来た \"I came only for this\" あなたのためだけに作った \"I made it only for you\""
+          },
+          {
+            "level": 3,
+            "heading": "〜のためなら (if it's for)",
+            "content": "あなたのためなら、何でもする \"If it's for you, I'll do anything\" 夢のためなら、頑張れる \"If it's for my dream, I can try hard\""
+          }
+        ]
+      },
+      {
+        "level": 2,
+        "heading": "Shortened Forms",
+        "content": "",
+        "children": [
+          {
+            "level": 3,
+            "heading": "Signs and notices",
+            "content": "Full: 工事のために通行止め Short: 工事のため通行止め Even shorter: 工事中 \"Closed due to construction\" Common to drop に"
+          }
+        ]
+      },
+      {
+        "level": 2,
+        "heading": "Common Expressions",
+        "content": "",
+        "children": [
+          {
+            "level": 3,
+            "heading": "Future-oriented",
+            "content": "将来のために - For the future 明日のために - For tomorrow 子供のために - For the children みんなのために - For everyone"
+          },
+          {
+            "level": 3,
+            "heading": "Abstract concepts",
+            "content": "平和のために - For peace 正義のために - For justice 愛のために - For love 自由のために - For freedom"
+          }
+        ]
+      },
+      {
+        "level": 2,
+        "heading": "Practice Sentences",
+        "content": "",
+        "children": [
+          {
+            "level": 3,
+            "heading": "Basic",
+            "content": "勉強するために、図書館に行く \"I go to the library in order to study\" 健康のために、運動する \"I exercise for my health\" 雨のために、中止になった \"Because of rain, it was cancelled\""
+          },
+          {
+            "level": 3,
+            "heading": "Intermediate",
+            "content": "日本語が上手になるために、毎日練習しています \"I practice every day in order to become good at Japanese\" 家族のために、一生懸命働いています \"I work hard for my family\" 台風のために、学校が休みになりました \"Because of the typhoon, school was closed\""
+          },
+          {
+            "level": 3,
+            "heading": "Advanced",
+            "content": "世界平和を実現するために、私たちは 対話を続けなければならない \"In order to realize world peace, we must continue dialogue\" 地震の被害を最小限に抑えるために、 建物の耐震性を高める必要がある \"In order to minimize earthquake damage, we need to increase building earthquake resistance\" この研究は、難病の治療法を見つけるために 行われている。多くの人々の命を救うためだ。 \"This research is being conducted in order to find treatments for incurable diseases. It's for the sake of saving many people's lives.\""
+          }
+        ]
+      },
+      {
+        "level": 2,
+        "heading": "Related Grammar Points",
+        "content": "〜ように - So that (for states/abilities) 〜ため - For/because (shortened form) 〜ために vs 〜ように - Purpose comparison から/ので - Because (different usage) Purpose expressions - Expressing purpose",
+        "children": [
+          {
+            "level": 3,
+            "heading": "Company",
+            "content": "About Pricing Blog Contact"
+          },
+          {
+            "level": 3,
+            "heading": "Legal",
+            "content": "Privacy Policy Terms of Service Cookie Policy"
+          }
+        ]
+      }
+    ]
+  },
+  "metadata": {
+    "extracted_at": "2026-01-01T22:19:35.238371600Z",
+    "duration_ms": 3,
+    "extractors_matched": [
+      "metadata",
+      "examples",
+      "sections"
+    ],
+    "extractors_failed": [
+      "vocab_tables",
+      "definitions",
+      "content_blocks"
+    ]
+  }
+}

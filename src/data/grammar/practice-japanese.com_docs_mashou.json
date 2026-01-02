@@ -1,0 +1,350 @@
+{
+  "config_name": "Language Learning Extractor",
+  "url": "https://practice-japanese.com/docs/mashou/",
+  "data": {
+    "sections": [
+      {
+        "level": 2,
+        "heading": "What is 〜ましょう?",
+        "content": "〜ましょう is the polite way to suggest doing something together, meaning \"let's do\" or \"shall we.\" It's used to invite someone to join you in an activity.\n\n行きましょう \"Let's go\" 食べましょう \"Let's eat\" 始めましょう \"Let's begin\""
+      },
+      {
+        "level": 2,
+        "heading": "Formation",
+        "content": "",
+        "children": [
+          {
+            "level": 3,
+            "heading": "Pattern: Verb ます-stem + ましょう",
+            "content": "| Verb | ます-form | ます-stem | + ましょう | | ------ | --------- | --------- | ------------ | | 見る | 見ます | 見 | 見ましょう | | 食べる | 食べます | 食べ | 食べましょう | | 来る | 来ます | 来 | 来ましょう | | する | します | し | しましょう | | 書く | 書きます | 書き | 書きましょう | | 読む | 読みます | 読み | 読みましょう |"
+          },
+          {
+            "level": 3,
+            "heading": "Examples",
+            "content": "行く → 行きましょう (Let's go) 話す → 話しましょう (Let's talk) 遊ぶ → 遊びましょう (Let's play)"
+          }
+        ]
+      },
+      {
+        "level": 2,
+        "heading": "Basic Usage",
+        "content": "",
+        "children": [
+          {
+            "level": 3,
+            "heading": "Making suggestions",
+            "content": "一緒に行きましょう \"Let's go together\" コーヒーを飲みましょう \"Let's drink coffee\" 休憩しましょう \"Let's take a break\""
+          },
+          {
+            "level": 3,
+            "heading": "Starting activities",
+            "content": "始めましょう \"Let's begin\" 出発しましょう \"Let's depart\" 頑張りましょう \"Let's do our best\""
+          }
+        ]
+      },
+      {
+        "level": 2,
+        "heading": "Common Phrases",
+        "content": "",
+        "children": [
+          {
+            "level": 3,
+            "heading": "Daily activities",
+            "content": "行きましょう - Let's go 食べましょう - Let's eat 飲みましょう - Let's drink やりましょう - Let's do it 見ましょう - Let's watch/see"
+          },
+          {
+            "level": 3,
+            "heading": "Social invitations",
+            "content": "会いましょう - Let's meet 話しましょう - Let's talk 遊びましょう - Let's hang out 楽しみましょう - Let's enjoy"
+          },
+          {
+            "level": 3,
+            "heading": "Work/study",
+            "content": "始めましょう - Let's start 頑張りましょう - Let's do our best 確認しましょう - Let's check 相談しましょう - Let's discuss"
+          }
+        ]
+      },
+      {
+        "level": 2,
+        "heading": "Politeness Level",
+        "content": "",
+        "children": [
+          {
+            "level": 3,
+            "heading": "Polite: ましょう",
+            "content": "行きましょう (polite) \"Let's go\" 食べましょう (polite) \"Let's eat\""
+          },
+          {
+            "level": 3,
+            "heading": "Casual: よう",
+            "content": "行こう (casual) \"Let's go\" 食べよう (casual) \"Let's eat\" Use with friends and family!"
+          }
+        ]
+      },
+      {
+        "level": 2,
+        "heading": "Common Conversations",
+        "content": "",
+        "children": [
+          {
+            "level": 3,
+            "heading": "Example 1: Making Plans",
+            "content": "A: 今日、映画を見ましょうか \"Shall we watch a movie today?\" B: いいですね。何時に行きましょうか \"Sounds good. What time shall we go?\" A: ６時に駅で会いましょう \"Let's meet at the station at 6\""
+          },
+          {
+            "level": 3,
+            "heading": "Example 2: At Work",
+            "content": "A: そろそろ会議を始めましょうか \"Shall we start the meeting soon?\" B: はい、始めましょう \"Yes, let's start\" A: では、今日のテーマについて話しましょう \"Well then, let's talk about today's topic\""
+          },
+          {
+            "level": 3,
+            "heading": "Example 3: At a Restaurant",
+            "content": "A: 何を注文しましょうか \"What shall we order?\" B: この店のパスタがおいしいですよ \"The pasta here is delicious\" A: じゃあ、それにしましょう \"Then let's get that\""
+          }
+        ]
+      },
+      {
+        "level": 2,
+        "heading": "Adding Time and Place",
+        "content": "",
+        "children": [
+          {
+            "level": 3,
+            "heading": "With time expressions",
+            "content": "明日会いましょう \"Let's meet tomorrow\" 来週また話しましょう \"Let's talk again next week\" 今すぐ行きましょう \"Let's go right now\""
+          },
+          {
+            "level": 3,
+            "heading": "With place expressions",
+            "content": "ここで待ちましょう \"Let's wait here\" 駅で会いましょう \"Let's meet at the station\" 公園で遊びましょう \"Let's play at the park\""
+          }
+        ]
+      },
+      {
+        "level": 2,
+        "heading": "Making it a Question",
+        "content": "",
+        "children": [
+          {
+            "level": 3,
+            "heading": "Adding か for suggestions",
+            "content": "行きましょうか \"Shall we go?\" 食べましょうか \"Shall we eat?\" 休みましょうか \"Shall we rest?\""
+          }
+        ]
+      },
+      {
+        "level": 2,
+        "heading": "Common Mistakes",
+        "content": "",
+        "children": [
+          {
+            "level": 3,
+            "heading": "Mistake 1: Wrong stem",
+            "content": "Wrong: 行くましょう ❌ Right: 行きましょう ✓ \"Let's go\" Use ます-stem, not dictionary form!"
+          },
+          {
+            "level": 3,
+            "heading": "Mistake 2: Using with solo activities",
+            "content": "Unnatural: 一人で行きましょう ⚠️ Better: 一人で行きます ✓ \"I'll go alone\" ましょう implies \"together\"!"
+          },
+          {
+            "level": 3,
+            "heading": "Mistake 3: Too polite with close friends",
+            "content": "To close friends: 行きましょう ⚠️ Natural: 行こう ✓ \"Let's go\" Use casual form with friends!"
+          }
+        ]
+      },
+      {
+        "level": 2,
+        "heading": "Response Patterns",
+        "content": "",
+        "children": [
+          {
+            "level": 3,
+            "heading": "Agreeing",
+            "content": "はい、そうしましょう \"Yes, let's do that\" いいですね \"Sounds good\" 賛成です \"I agree\" ぜひ \"By all means\""
+          },
+          {
+            "level": 3,
+            "heading": "Declining",
+            "content": "すみません、今日はちょっと... \"Sorry, today is a bit...\" また今度にしましょう \"Let's do it another time\" 遠慮します \"I'll pass\""
+          }
+        ]
+      },
+      {
+        "level": 2,
+        "heading": "Softening Suggestions",
+        "content": "",
+        "children": [
+          {
+            "level": 3,
+            "heading": "Adding ね",
+            "content": "行きましょうね \"Let's go, okay?\" 頑張りましょうね \"Let's do our best, okay?\" Adds warmth and confirmation"
+          },
+          {
+            "level": 3,
+            "heading": "Adding よ",
+            "content": "行きましょうよ \"Come on, let's go\" やりましょうよ \"Come on, let's do it\" Adds encouragement"
+          }
+        ]
+      },
+      {
+        "level": 2,
+        "heading": "Common Contexts",
+        "content": "",
+        "children": [
+          {
+            "level": 3,
+            "heading": "Meals",
+            "content": "ランチを食べましょう \"Let's have lunch\" 乾杯しましょう \"Let's make a toast\" 一緒に料理しましょう \"Let's cook together\""
+          },
+          {
+            "level": 3,
+            "heading": "Activities",
+            "content": "散歩しましょう \"Let's take a walk\" 買い物に行きましょう \"Let's go shopping\" カラオケに行きましょう \"Let's go to karaoke\""
+          },
+          {
+            "level": 3,
+            "heading": "Work situations",
+            "content": "休憩しましょう \"Let's take a break\" 会議を始めましょう \"Let's start the meeting\" 資料を確認しましょう \"Let's check the documents\""
+          }
+        ]
+      },
+      {
+        "level": 2,
+        "heading": "Combined Patterns",
+        "content": "",
+        "children": [
+          {
+            "level": 3,
+            "heading": "ましょうか with question words",
+            "content": "何を食べましょうか \"What shall we eat?\" どこに行きましょうか \"Where shall we go?\" いつ会いましょうか \"When shall we meet?\" 誰を誘いましょうか \"Who shall we invite?\""
+          }
+        ]
+      },
+      {
+        "level": 2,
+        "heading": "Expressing Determination",
+        "content": "",
+        "children": [
+          {
+            "level": 3,
+            "heading": "Let's definitely do it",
+            "content": "必ず成功させましょう \"Let's definitely make it succeed\" 絶対に勝ちましょう \"Let's absolutely win\" 頑張りましょう \"Let's do our best\""
+          }
+        ]
+      },
+      {
+        "level": 2,
+        "heading": "Casual vs Polite",
+        "content": "",
+        "children": [
+          {
+            "level": 3,
+            "heading": "Comparison",
+            "content": "Polite: 行きましょう Casual: 行こう \"Let's go\" Polite: 食べましょう Casual: 食べよう \"Let's eat\" Polite: しましょう Casual: しよう \"Let's do it\""
+          },
+          {
+            "level": 3,
+            "heading": "When to use casual よう",
+            "content": "✓ Close friends ✓ Family ✓ People your age ✓ Casual situations Use ましょう for: ✓ Colleagues ✓ Acquaintances ✓ Polite situations ✓ When unsure"
+          }
+        ]
+      },
+      {
+        "level": 2,
+        "heading": "Practice Sentences",
+        "content": "",
+        "children": [
+          {
+            "level": 3,
+            "heading": "Basic",
+            "content": "一緒に勉強しましょう \"Let's study together\" 明日会いましょう \"Let's meet tomorrow\" コーヒーを飲みましょう \"Let's drink coffee\""
+          },
+          {
+            "level": 3,
+            "heading": "Intermediate",
+            "content": "駅の前で待ち合わせしましょう \"Let's meet in front of the station\" もっと詳しく話しましょう \"Let's talk in more detail\" 来週までにこれを終わらせましょう \"Let's finish this by next week\""
+          },
+          {
+            "level": 3,
+            "heading": "Advanced",
+            "content": "この問題について、みんなで話し合いましょう \"Let's discuss this issue together\" 新しいプロジェクトに向けて、準備を始めましょう \"Let's start preparing for the new project\" お互いに協力して、この目標を達成しましょう \"Let's cooperate with each other and achieve this goal\""
+          }
+        ]
+      },
+      {
+        "level": 2,
+        "heading": "Related Grammar Points",
+        "content": "〜ませんか - Won't you (invitation) 〜ましょうか - Shall I/we (offering) Volitional form - Let's (casual) 〜ない？ - Won't you (casual invitation) Suggestions - Making suggestions",
+        "children": [
+          {
+            "level": 3,
+            "heading": "Company",
+            "content": "About Pricing Blog Contact"
+          },
+          {
+            "level": 3,
+            "heading": "Legal",
+            "content": "Privacy Policy Terms of Service Cookie Policy"
+          }
+        ]
+      }
+    ],
+    "examples": [
+      {
+        "sentence": "〜ませんか - Won't you (invitation)"
+      },
+      {
+        "sentence": "〜ましょうか - Shall I/we (offering)"
+      },
+      {
+        "sentence": "Volitional form - Let's (casual)"
+      },
+      {
+        "sentence": "〜ない？ - Won't you (casual invitation)"
+      },
+      {
+        "sentence": "Suggestions - Making suggestions"
+      },
+      {
+        "sentence": "About"
+      },
+      {
+        "sentence": "Pricing"
+      },
+      {
+        "sentence": "Blog"
+      },
+      {
+        "sentence": "Contact"
+      },
+      {
+        "sentence": "Privacy Policy"
+      },
+      {
+        "sentence": "Terms of Service"
+      },
+      {
+        "sentence": "Cookie Policy"
+      }
+    ],
+    "metadata": {
+      "title": "〜ましょう (Let's)"
+    }
+  },
+  "metadata": {
+    "extracted_at": "2026-01-01T22:19:31.408877400Z",
+    "duration_ms": 3,
+    "extractors_matched": [
+      "metadata",
+      "examples",
+      "sections"
+    ],
+    "extractors_failed": [
+      "vocab_tables",
+      "definitions",
+      "content_blocks"
+    ]
+  }
+}

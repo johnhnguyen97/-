@@ -1,0 +1,346 @@
+{
+  "config_name": "Language Learning Extractor",
+  "url": "https://practice-japanese.com/docs/when-use-keigo/",
+  "data": {
+    "metadata": {
+      "title": "When to Use Keigo"
+    },
+    "examples": [
+      {
+        "sentence": "About"
+      },
+      {
+        "sentence": "Pricing"
+      },
+      {
+        "sentence": "Blog"
+      },
+      {
+        "sentence": "Contact"
+      },
+      {
+        "sentence": "Privacy Policy"
+      },
+      {
+        "sentence": "Terms of Service"
+      },
+      {
+        "sentence": "Cookie Policy"
+      }
+    ],
+    "sections": [
+      {
+        "level": 2,
+        "heading": "When to Use Keigo",
+        "content": "Keigo should be used based on social relationships, situations, and contexts. Understanding when to use keigo is as important as knowing the forms themselves. Use keigo to show respect to superiors, maintain professional distance, and navigate formal situations appropriately.\n\nWith boss: 部長がおっしゃいました (keigo) \"The director said\" With friend: 友達が言った (casual) \"My friend said\" Context determines usage"
+      },
+      {
+        "level": 2,
+        "heading": "Based on Relationship",
+        "content": "",
+        "children": [
+          {
+            "level": 3,
+            "heading": "Superior to you",
+            "content": "Boss/Manager: Use keigo 先生 (teacher): Use keigo 先輩 (senior): Use keigo お客様 (customer): Use keigo 年上 (elders): Use keigo Higher status requires respect"
+          },
+          {
+            "level": 3,
+            "heading": "Equal or lower",
+            "content": "同僚 (colleague): Polite form usually sufficient 後輩 (junior): Polite or casual 友達 (friend): Casual 家族 (family): Casual (except formal occasions) Less formality needed"
+          }
+        ]
+      },
+      {
+        "level": 2,
+        "heading": "Workplace Situations",
+        "content": "",
+        "children": [
+          {
+            "level": 3,
+            "heading": "Always use keigo for",
+            "content": "Speaking to superiors 部長、この資料をご覧になりますか。 \"Director, will you look at this document?\" Speaking about superiors to others 部長がおっしゃっていました。 \"The director was saying...\" Client/customer interactions お客様がお待ちです。 \"The customer is waiting.\""
+          },
+          {
+            "level": 3,
+            "heading": "When representing company",
+            "content": "To external people 弊社の山田が参ります。 \"Our Yamada will come.\" (humble) Lower your company Raise other company Professional standard"
+          }
+        ]
+      },
+      {
+        "level": 2,
+        "heading": "Customer Service",
+        "content": "",
+        "children": [
+          {
+            "level": 3,
+            "heading": "Always use keigo",
+            "content": "Retail: お客様、こちらでございます。 \"Customer, it's this one.\" Restaurant: ご注文をお伺いします。 \"I'll take your order.\" Hotel: お部屋へご案内いたします。 \"I'll guide you to your room.\" Service = keigo"
+          }
+        ]
+      },
+      {
+        "level": 2,
+        "heading": "Formal Situations",
+        "content": "",
+        "children": [
+          {
+            "level": 3,
+            "heading": "Use keigo in",
+            "content": "Job interviews Presentations Ceremonies First meetings Official events Business negotiations Formal context = keigo"
+          }
+        ]
+      },
+      {
+        "level": 2,
+        "heading": "Age and Seniority",
+        "content": "",
+        "children": [
+          {
+            "level": 3,
+            "heading": "Generally use with",
+            "content": "Significantly older people Your seniors (先輩) People you just met Authority figures Age/seniority → respect"
+          },
+          {
+            "level": 3,
+            "heading": "Can be casual with",
+            "content": "Close friends (same age) Younger siblings Close colleagues (after rapport) Very casual settings Relationship allows casual"
+          }
+        ]
+      },
+      {
+        "level": 2,
+        "heading": "When NOT to Use Keigo",
+        "content": "",
+        "children": [
+          {
+            "level": 3,
+            "heading": "Family at home",
+            "content": "お母さん、ご飯食べた？ Unnatural with parents at home お母さん、ご飯食べた？ Natural casual form Home = casual usually"
+          },
+          {
+            "level": 3,
+            "heading": "Close friends",
+            "content": "Unnatural: 友達がいらっしゃった Natural: 友達が来た \"Friend came\" Over-keigo creates distance"
+          },
+          {
+            "level": 3,
+            "heading": "About yourself",
+            "content": "Wrong: 私がいらっしゃる ⚠️ Correct: 私が行く/参る ✓ \"I go\" Don't elevate yourself"
+          }
+        ]
+      },
+      {
+        "level": 2,
+        "heading": "Social Distance",
+        "content": "",
+        "children": [
+          {
+            "level": 3,
+            "heading": "First meeting",
+            "content": "初めまして。田中と申します。 \"Nice to meet you. I'm called Tanaka.\" (humble) Start formal Adjust based on cues"
+          },
+          {
+            "level": 3,
+            "heading": "After building rapport",
+            "content": "With colleagues: Formal → Polite → Casual (over time) With friends: Can shift to casual faster Relationship evolves"
+          }
+        ]
+      },
+      {
+        "level": 2,
+        "heading": "In-group vs Out-group",
+        "content": "",
+        "children": [
+          {
+            "level": 3,
+            "heading": "Talking to outsiders",
+            "content": "About your boss to client: 部長の山田が参ります (humble) \"Our director Yamada will come\" Lower your in-group Raise out-group"
+          },
+          {
+            "level": 3,
+            "heading": "Internal communication",
+            "content": "Within company to boss: 部長がおっしゃいました (respectful) \"The director said\" Maintain internal hierarchy"
+          }
+        ]
+      },
+      {
+        "level": 2,
+        "heading": "Written Communication",
+        "content": "",
+        "children": [
+          {
+            "level": 3,
+            "heading": "Emails to superiors",
+            "content": "件名: 報告書について 部長、お疲れ様です。 資料をお送りいたします。 Use keigo in business emails"
+          },
+          {
+            "level": 3,
+            "heading": "Formal documents",
+            "content": "Reports Applications Official letters Written formality = keigo"
+          }
+        ]
+      },
+      {
+        "level": 2,
+        "heading": "Service Industries",
+        "content": "",
+        "children": [
+          {
+            "level": 3,
+            "heading": "Always required",
+            "content": "Restaurants Hotels Retail stores Banks Hospitals Customer = superior Always use keigo"
+          }
+        ]
+      },
+      {
+        "level": 2,
+        "heading": "Educational Settings",
+        "content": "",
+        "children": [
+          {
+            "level": 3,
+            "heading": "Students to teachers",
+            "content": "先生、質問がございます。 \"Teacher, I have a question.\" Always use keigo Shows respect"
+          },
+          {
+            "level": 3,
+            "heading": "Teachers to students",
+            "content": "Can use polite form Less keigo required But maintain dignity"
+          }
+        ]
+      },
+      {
+        "level": 2,
+        "heading": "Between Companies",
+        "content": "",
+        "children": [
+          {
+            "level": 3,
+            "heading": "Business meetings",
+            "content": "お時間をいただき、ありがとうございます。 \"Thank you for your time.\" ご検討いただけますでしょうか。 \"Could you consider it?\" Professional keigo essential"
+          }
+        ]
+      },
+      {
+        "level": 2,
+        "heading": "Public Speaking",
+        "content": "",
+        "children": [
+          {
+            "level": 3,
+            "heading": "Presentations",
+            "content": "本日はお集まりいただき、 ありがとうございます。 \"Thank you for gathering today.\" Formal audience = keigo"
+          }
+        ]
+      },
+      {
+        "level": 2,
+        "heading": "When Visiting",
+        "content": "",
+        "children": [
+          {
+            "level": 3,
+            "heading": "Guest in home/office",
+            "content": "Use polite language Don't be too casual Show respect as guest お邪魔します \"Excuse me for intruding\""
+          }
+        ]
+      },
+      {
+        "level": 2,
+        "heading": "Telephone Calls",
+        "content": "",
+        "children": [
+          {
+            "level": 3,
+            "heading": "Business calls",
+            "content": "お世話になっております。 \"Thank you for your continued support.\" Always use keigo Can't see status Be safe with formality"
+          }
+        ]
+      },
+      {
+        "level": 2,
+        "heading": "Online Communication",
+        "content": "",
+        "children": [
+          {
+            "level": 3,
+            "heading": "Business contexts",
+            "content": "Emails: Use keigo Slack/Teams: Polite minimum With superiors: Full keigo Context matters"
+          }
+        ]
+      },
+      {
+        "level": 2,
+        "heading": "Adjustment Over Time",
+        "content": "",
+        "children": [
+          {
+            "level": 3,
+            "heading": "Reading the room",
+            "content": "Start formal Observe others Match their level Don't shift too quickly 空気を読む (read the air)"
+          }
+        ]
+      },
+      {
+        "level": 2,
+        "heading": "Common Situations",
+        "content": "",
+        "children": [
+          {
+            "level": 3,
+            "heading": "Safe to use keigo",
+            "content": "✓ Job interviews ✓ Meeting clients ✓ Speaking to strangers ✓ Formal events ✓ Service interactions ✓ Business emails When in doubt, use keigo"
+          },
+          {
+            "level": 3,
+            "heading": "Can be casual",
+            "content": "✓ Close friends ✓ Family (usually) ✓ Peers after rapport ✓ Very informal settings Clear casual relationship"
+          }
+        ]
+      },
+      {
+        "level": 2,
+        "heading": "Practice Scenarios",
+        "content": "",
+        "children": [
+          {
+            "level": 3,
+            "heading": "Basic",
+            "content": "Meeting boss: 部長、おはようございます。 \"Director, good morning.\" Helping customer: お客様、こちらへどうぞ。 \"Customer, this way please.\" With friend: 昨日、何した？ \"What did you do yesterday?\""
+          },
+          {
+            "level": 3,
+            "heading": "Intermediate",
+            "content": "ビジネスミーティング: 本日はお忙しいところお時間を いただき、誠にありがとうございます。 弊社の新しい企画についてご説明 させていただきます。 \"Business meeting: Thank you very much for your time today despite being busy. I will explain about our company's new project.\" 同僚との会話: 昨日の会議、どうだった？ 部長、何かおっしゃってた？ \"Conversation with colleague: How was yesterday's meeting? Did the director say anything?\""
+          },
+          {
+            "level": 3,
+            "heading": "Company",
+            "content": "About Pricing Blog Contact"
+          },
+          {
+            "level": 3,
+            "heading": "Legal",
+            "content": "Privacy Policy Terms of Service Cookie Policy"
+          }
+        ]
+      }
+    ]
+  },
+  "metadata": {
+    "extracted_at": "2026-01-01T22:19:37.736192300Z",
+    "duration_ms": 3,
+    "extractors_matched": [
+      "metadata",
+      "examples",
+      "sections"
+    ],
+    "extractors_failed": [
+      "vocab_tables",
+      "definitions",
+      "content_blocks"
+    ]
+  }
+}

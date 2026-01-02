@@ -1,7 +1,7 @@
 import React from 'react';
 import { useTheme } from '../../contexts/ThemeContext';
 import { CONJUGATION_PHASES } from '../../types/drill';
-import { Slider } from '../common/Slider';
+import { Toggle, Slider, ChipGroup, Button } from '../../lib/gojun-ui';
 import type { DrillSettings as DrillSettingsType, WordType, JLPTLevel } from '../../types/drill';
 
 interface DrillSettingsPanelProps {
@@ -10,12 +10,28 @@ interface DrillSettingsPanelProps {
   onStart: () => void;
 }
 
-const WORD_TYPES: { value: WordType; label: string }[] = [
+const WORD_TYPE_OPTIONS: { value: WordType; label: string }[] = [
   { value: 'verb', label: 'Verbs' },
   { value: 'adjective', label: 'Adjectives' },
 ];
 
-const JLPT_LEVELS: JLPTLevel[] = ['N5', 'N4', 'N3', 'N2', 'N1'];
+const JLPT_OPTIONS: { value: JLPTLevel; label: string }[] = [
+  { value: 'N5', label: 'N5' },
+  { value: 'N4', label: 'N4' },
+  { value: 'N3', label: 'N3' },
+  { value: 'N2', label: 'N2' },
+  { value: 'N1', label: 'N1' },
+];
+
+const ANSWER_MODE_OPTIONS = [
+  { value: 'multiple_choice' as const, label: 'Multiple Choice' },
+  { value: 'typing' as const, label: 'Typing' },
+];
+
+const PRACTICE_MODE_OPTIONS = [
+  { value: 'word' as const, label: 'Single Word' },
+  { value: 'sentence' as const, label: 'Full Sentence' },
+];
 
 export const DrillSettingsPanel: React.FC<DrillSettingsPanelProps> = ({
   settings,
@@ -29,11 +45,7 @@ export const DrillSettingsPanel: React.FC<DrillSettingsPanelProps> = ({
     text: isDark ? 'text-white' : 'text-gray-800',
     textMuted: isDark ? 'text-gray-400' : 'text-gray-500',
     buttonInactive: isDark ? 'bg-gray-700 text-gray-300 hover:bg-gray-600' : 'bg-gray-100 text-gray-700 hover:bg-gray-200',
-    slider: isDark ? 'accent-purple-500' : 'accent-violet-500',
     card: isDark ? 'bg-gray-800/50 border-gray-700' : 'bg-gray-50 border-gray-200',
-    toggle: isDark
-      ? 'bg-gradient-to-r from-violet-500/10 to-purple-500/10 border border-violet-500/20'
-      : 'bg-gradient-to-r from-violet-50 to-purple-50 border border-violet-200',
   };
 
   const togglePhase = (phase: number) => {
@@ -59,82 +71,44 @@ export const DrillSettingsPanel: React.FC<DrillSettingsPanelProps> = ({
       {/* Answer Mode */}
       <div>
         <h3 className={`text-lg font-semibold mb-3 ${theme.text}`}>Answer Mode</h3>
-        <div className="flex gap-3">
-          <button
-            onClick={() => onSettingsChange({ ...settings, mode: 'multiple_choice' })}
-            className={`flex-1 py-3 px-4 rounded-xl font-medium transition-all ${
-              settings.mode === 'multiple_choice'
-                ? 'bg-gradient-to-r from-violet-500 to-purple-500 text-white shadow-lg'
-                : theme.buttonInactive
-            }`}
-          >
-            Multiple Choice
-          </button>
-          <button
-            onClick={() => onSettingsChange({ ...settings, mode: 'typing' })}
-            className={`flex-1 py-3 px-4 rounded-xl font-medium transition-all ${
-              settings.mode === 'typing'
-                ? 'bg-gradient-to-r from-violet-500 to-purple-500 text-white shadow-lg'
-                : theme.buttonInactive
-            }`}
-          >
-            Typing
-          </button>
-        </div>
+        <ChipGroup
+          value={settings.mode}
+          onChange={(mode) => onSettingsChange({ ...settings, mode })}
+          options={ANSWER_MODE_OPTIONS}
+          size="lg"
+          intent="secondary"
+        />
       </div>
 
       {/* Practice Mode */}
       <div>
         <h3 className={`text-lg font-semibold mb-3 ${theme.text}`}>Practice Mode</h3>
-        <div className="flex gap-3">
-          <button
-            onClick={() => onSettingsChange({ ...settings, practiceMode: 'word' })}
-            className={`flex-1 py-3 px-4 rounded-xl font-medium transition-all ${
-              settings.practiceMode === 'word'
-                ? 'bg-gradient-to-r from-amber-500 to-orange-500 text-white shadow-lg'
-                : theme.buttonInactive
-            }`}
-          >
-            Single Word
-          </button>
-          <button
-            onClick={() => onSettingsChange({ ...settings, practiceMode: 'sentence' })}
-            className={`flex-1 py-3 px-4 rounded-xl font-medium transition-all ${
-              settings.practiceMode === 'sentence'
-                ? 'bg-gradient-to-r from-amber-500 to-orange-500 text-white shadow-lg'
-                : theme.buttonInactive
-            }`}
-          >
-            Full Sentence
-          </button>
-        </div>
+        <ChipGroup
+          value={settings.practiceMode}
+          onChange={(practiceMode) => onSettingsChange({ ...settings, practiceMode })}
+          options={PRACTICE_MODE_OPTIONS}
+          size="lg"
+          intent="primary"
+        />
       </div>
 
       {/* JLPT Level */}
       <div>
         <h3 className={`text-lg font-semibold mb-3 ${theme.text}`}>JLPT Level</h3>
-        <div className="flex gap-2">
-          {JLPT_LEVELS.map((level) => (
-            <button
-              key={level}
-              onClick={() => onSettingsChange({ ...settings, jlptLevel: level })}
-              className={`flex-1 py-2 px-3 rounded-lg font-medium transition-all ${
-                settings.jlptLevel === level
-                  ? 'bg-gradient-to-r from-green-500 to-emerald-500 text-white shadow-md'
-                  : theme.buttonInactive
-              }`}
-            >
-              {level}
-            </button>
-          ))}
-        </div>
+        <ChipGroup
+          value={settings.jlptLevel}
+          onChange={(jlptLevel) => onSettingsChange({ ...settings, jlptLevel })}
+          options={JLPT_OPTIONS}
+          size="md"
+          intent="success"
+        />
       </div>
 
       {/* Word Types */}
       <div>
         <h3 className={`text-lg font-semibold mb-3 ${theme.text}`}>Word Types</h3>
         <div className="flex gap-3">
-          {WORD_TYPES.map(({ value, label }) => (
+          {WORD_TYPE_OPTIONS.map(({ value, label }) => (
             <button
               key={value}
               onClick={() => toggleWordType(value)}
@@ -150,7 +124,7 @@ export const DrillSettingsPanel: React.FC<DrillSettingsPanelProps> = ({
         </div>
       </div>
 
-      {/* Conjugation Phases - Updated with new phases */}
+      {/* Conjugation Phases */}
       <div>
         <h3 className={`text-lg font-semibold mb-3 ${theme.text}`}>Conjugation Phases</h3>
         <div className="space-y-2 max-h-64 overflow-y-auto pr-2">
@@ -178,74 +152,48 @@ export const DrillSettingsPanel: React.FC<DrillSettingsPanelProps> = ({
         </div>
       </div>
 
-      {/* Reading Assistance Section - NEW */}
+      {/* Reading Assistance Section */}
       <div>
         <h3 className={`text-lg font-semibold mb-3 ${theme.text}`}>Reading Assistance</h3>
-        <div className="space-y-3">
+        <div className="space-y-4">
           {/* Furigana Toggle */}
-          <label
-            className={`flex items-center gap-3 p-3 rounded-xl cursor-pointer transition-all border ${
-              settings.showFurigana ? theme.toggle : `${theme.card} hover:border-purple-300`
-            }`}
-          >
-            <input
-              type="checkbox"
-              checked={settings.showFurigana}
-              onChange={(e) => onSettingsChange({ ...settings, showFurigana: e.target.checked })}
-              className="w-5 h-5 accent-purple-500 rounded"
-            />
+          <div className={`flex items-center justify-between p-4 rounded-xl border ${theme.card}`}>
             <div className="flex-1">
               <div className={`font-medium ${theme.text}`}>Show Furigana</div>
               <div className={`text-sm ${theme.textMuted}`}>Display readings above kanji (振り仮名)</div>
             </div>
-            <div className={`text-2xl ${isDark ? 'text-gray-500' : 'text-gray-400'}`}>
-              <ruby>
-                漢<rt className="text-xs">かん</rt>
-              </ruby>
-            </div>
-          </label>
+            <Toggle
+              checked={settings.showFurigana}
+              onChange={(checked) => onSettingsChange({ ...settings, showFurigana: checked })}
+              intent="secondary"
+            />
+          </div>
 
           {/* Romaji Toggle */}
-          <label
-            className={`flex items-center gap-3 p-3 rounded-xl cursor-pointer transition-all border ${
-              settings.showRomaji ? theme.toggle : `${theme.card} hover:border-purple-300`
-            }`}
-          >
-            <input
-              type="checkbox"
-              checked={settings.showRomaji}
-              onChange={(e) => onSettingsChange({ ...settings, showRomaji: e.target.checked })}
-              className="w-5 h-5 accent-purple-500 rounded"
-            />
+          <div className={`flex items-center justify-between p-4 rounded-xl border ${theme.card}`}>
             <div className="flex-1">
               <div className={`font-medium ${theme.text}`}>Show Romaji</div>
               <div className={`text-sm ${theme.textMuted}`}>Display romanized readings</div>
             </div>
-            <div className={`text-sm font-mono ${isDark ? 'text-gray-500' : 'text-gray-400'}`}>
-              taberu
-            </div>
-          </label>
+            <Toggle
+              checked={settings.showRomaji}
+              onChange={(checked) => onSettingsChange({ ...settings, showRomaji: checked })}
+              intent="secondary"
+            />
+          </div>
 
           {/* Grammar Tips Toggle */}
-          <label
-            className={`flex items-center gap-3 p-3 rounded-xl cursor-pointer transition-all border ${
-              settings.showGrammarTips ? theme.toggle : `${theme.card} hover:border-purple-300`
-            }`}
-          >
-            <input
-              type="checkbox"
-              checked={settings.showGrammarTips}
-              onChange={(e) => onSettingsChange({ ...settings, showGrammarTips: e.target.checked })}
-              className="w-5 h-5 accent-purple-500 rounded"
-            />
+          <div className={`flex items-center justify-between p-4 rounded-xl border ${theme.card}`}>
             <div className="flex-1">
               <div className={`font-medium ${theme.text}`}>Show Grammar Tips</div>
               <div className={`text-sm ${theme.textMuted}`}>Display conjugation hints before answering</div>
             </div>
-            <div className={`text-xl ${isDark ? 'text-amber-400' : 'text-amber-500'}`}>
-              💡
-            </div>
-          </label>
+            <Toggle
+              checked={settings.showGrammarTips}
+              onChange={(checked) => onSettingsChange({ ...settings, showGrammarTips: checked })}
+              intent="primary"
+            />
+          </div>
         </div>
       </div>
 
@@ -259,15 +207,18 @@ export const DrillSettingsPanel: React.FC<DrillSettingsPanelProps> = ({
         onChange={(val) => onSettingsChange({ ...settings, questionsPerSession: val })}
         showInput={true}
         showValue={false}
+        intent="secondary"
       />
 
       {/* Start Button */}
-      <button
+      <Button
         onClick={onStart}
-        className="w-full py-4 bg-gradient-to-r from-indigo-500 to-purple-500 text-white text-lg font-bold rounded-xl shadow-lg hover:shadow-xl transform hover:scale-[1.02] active:scale-[0.98] transition-all"
+        intent="secondary"
+        size="xl"
+        fullWidth
       >
         Start Practice
-      </button>
+      </Button>
     </div>
   );
 };

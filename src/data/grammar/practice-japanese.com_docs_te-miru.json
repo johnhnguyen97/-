@@ -1,0 +1,390 @@
+{
+  "config_name": "Language Learning Extractor",
+  "url": "https://practice-japanese.com/docs/te-miru/",
+  "data": {
+    "metadata": {
+      "title": "〜てみる (Try doing)"
+    },
+    "sections": [
+      {
+        "level": 2,
+        "heading": "What is 〜てみる (te-miru)?",
+        "content": "〜てみる means \"to try doing something\" or \"to do something and see.\" It expresses attempting an action to test or experience it, often with curiosity about the outcome.\n\n[Verb te-form] + みる 食べてみる \"try eating\" やってみる \"try doing\""
+      },
+      {
+        "level": 2,
+        "heading": "Formation",
+        "content": "",
+        "children": [
+          {
+            "level": 3,
+            "heading": "Basic Pattern",
+            "content": "Verb (te-form) + みる Plain: 〜てみる Polite: 〜てみます 読んでみる / 読んでみます \"try reading\" 使ってみる / 使ってみます \"try using\""
+          }
+        ]
+      },
+      {
+        "level": 2,
+        "heading": "Core Meaning",
+        "content": "",
+        "children": [
+          {
+            "level": 3,
+            "heading": "Try and See",
+            "content": "The literal meaning combines:\n\nて (te-form) - doing action みる (見る) - \"to see/look\" Together: \"do and see (what happens)\"\n\n食べてみる \"try eating (to see how it tastes)\" 聞いてみる \"try asking (to see what they say)\" 調べてみる \"try looking it up (to see what we find)\""
+          }
+        ]
+      },
+      {
+        "level": 2,
+        "heading": "Common Usage Patterns",
+        "content": "",
+        "children": [
+          {
+            "level": 3,
+            "heading": "〜てみてください (please try)",
+            "content": "これを食べてみてください \"Please try eating this\" 使ってみてください \"Please try using it\" やってみてください \"Please try doing it\" 考えてみてください \"Please try thinking about it\""
+          },
+          {
+            "level": 3,
+            "heading": "〜てみたい (want to try)",
+            "content": "日本に行ってみたい \"I want to try going to Japan\" 寿司を食べてみたい \"I want to try eating sushi\" この本を読んでみたい \"I want to try reading this book\""
+          },
+          {
+            "level": 3,
+            "heading": "〜てみよう (let's try)",
+            "content": "Volitional form for suggesting.\n\nやってみよう \"Let's try doing it\" 食べてみよう \"Let's try eating it\" 聞いてみよう \"Let's try asking\" 行ってみよう \"Let's try going\""
+          },
+          {
+            "level": 3,
+            "heading": "〜てみたら (if you try / when you tried)",
+            "content": "やってみたら、簡単だった \"When I tried it, it was easy\" 食べてみたら、おいしかった \"When I tried eating it, it was delicious\" 聞いてみたら、知っていた \"When I asked, they knew\""
+          }
+        ]
+      },
+      {
+        "level": 2,
+        "heading": "Tense Forms",
+        "content": "",
+        "children": [
+          {
+            "level": 3,
+            "heading": "Present/Future: 〜てみる",
+            "content": "これから食べてみる \"I'll try eating it from now\" 明日やってみる \"I'll try doing it tomorrow\""
+          },
+          {
+            "level": 3,
+            "heading": "Past: 〜てみた",
+            "content": "昨日食べてみた \"I tried eating it yesterday\" もうやってみた \"I already tried doing it\" 聞いてみたけど、知らなかった \"I tried asking, but they didn't know\""
+          },
+          {
+            "level": 3,
+            "heading": "Negative: 〜てみない",
+            "content": "食べてみない？ \"Won't you try eating?\" やってみないとわからない \"You won't know unless you try\""
+          }
+        ]
+      },
+      {
+        "level": 2,
+        "heading": "Common Verbs with てみる",
+        "content": "",
+        "children": [
+          {
+            "level": 3,
+            "heading": "Trying Activities",
+            "content": "やってみる - try doing してみる - try doing 食べてみる - try eating 飲んでみる - try drinking 使ってみる - try using 読んでみる - try reading 書いてみる - try writing 見てみる - try looking/watching"
+          },
+          {
+            "level": 3,
+            "heading": "Communication",
+            "content": "聞いてみる - try asking 話してみる - try talking 言ってみる - try saying 電話してみる - try calling メールしてみる - try emailing"
+          },
+          {
+            "level": 3,
+            "heading": "Exploration",
+            "content": "行ってみる - try going 来てみる - try coming 調べてみる - try researching 探してみる - try searching 考えてみる - try thinking"
+          }
+        ]
+      },
+      {
+        "level": 2,
+        "heading": "Casual Contraction",
+        "content": "In casual speech, てみる often contracts:\n\n食べてみる → 食べてみる (no change) やってみる → やってみる (no change) But in very casual speech: 食べてみる → 食べてみ やってみる → やってみ Examples: やってみ！ \"Try it!\" 食べてみたら？ \"Why don't you try eating it?\""
+      },
+      {
+        "level": 2,
+        "heading": "Suggesting with てみる",
+        "content": "",
+        "children": [
+          {
+            "level": 3,
+            "heading": "〜てみたら？ (Why don't you try?)",
+            "content": "Casual suggestion.\n\nやってみたら？ \"Why don't you try doing it?\" 食べてみたら？ \"Why don't you try eating it?\" 聞いてみたら？ \"Why don't you try asking?\""
+          },
+          {
+            "level": 3,
+            "heading": "〜てみたらどう？ (How about trying?)",
+            "content": "More explicit suggestion.\n\n日本に行ってみたらどう？ \"How about trying to go to Japan?\" 新しいレストランに行ってみたらどう？ \"How about trying the new restaurant?\""
+          },
+          {
+            "level": 3,
+            "heading": "〜てみませんか？ (Won't you try?)",
+            "content": "Polite invitation.\n\n一緒に行ってみませんか？ \"Won't you try going together?\" これを使ってみませんか？ \"Won't you try using this?\""
+          }
+        ]
+      },
+      {
+        "level": 2,
+        "heading": "Common Conversations",
+        "content": "",
+        "children": [
+          {
+            "level": 3,
+            "heading": "Example 1: Trying Food",
+            "content": "A: これ、おいしそうだね \"This looks delicious\" B: 食べてみる？ \"Want to try it?\" A: うん、食べてみたい \"Yeah, I want to try it\" B: どうぞ \"Go ahead\" A: わあ、本当においしい！ \"Wow, it's really delicious!\""
+          },
+          {
+            "level": 3,
+            "heading": "Example 2: Trying Something New",
+            "content": "A: この本、面白いよ \"This book is interesting\" B: そう？読んでみようかな \"Really? Maybe I'll try reading it\" A: ぜひ読んでみて \"Please do try reading it\" B: 読んでみたら、感想を教えるね \"When I try reading it, I'll tell you what I think\""
+          },
+          {
+            "level": 3,
+            "heading": "Example 3: Asking for Help",
+            "content": "A: これ、どうやって使うの？ \"How do you use this?\" B: やってみてもいい？ \"May I try doing it?\" A: どうぞ \"Please do\" B: こうやってみて…あ、できた！ \"Try doing it like this... Ah, I did it!\""
+          },
+          {
+            "level": 3,
+            "heading": "Example 4: Past Experience",
+            "content": "A: 日本料理を食べたことある？ \"Have you ever eaten Japanese food?\" B: うん、この前食べてみた \"Yeah, I tried it the other day\" A: どうだった？ \"How was it?\" B: とてもおいしかった！ \"It was very delicious!\""
+          }
+        ]
+      },
+      {
+        "level": 2,
+        "heading": "Common Mistakes",
+        "content": "",
+        "children": [
+          {
+            "level": 3,
+            "heading": "Mistake 1: Confusing with ている",
+            "content": "Wrong context: 今食べてみている ❌ Better: 今食べている ✓ \"I'm eating now\" Note: てみる is for \"trying,\" not ongoing actions"
+          },
+          {
+            "level": 3,
+            "heading": "Mistake 2: Using for habitual actions",
+            "content": "Wrong: 毎日走ってみる ❌ Right: 毎日走る ✓ \"I run every day\" Note: てみる implies testing/experiencing, not routine"
+          },
+          {
+            "level": 3,
+            "heading": "Mistake 3: Double conjugation",
+            "content": "Wrong: 食べてみている ❌ Right: 食べてみる ✓ or 食べてみた ✓ \"try eating\" or \"tried eating\""
+          }
+        ]
+      },
+      {
+        "level": 2,
+        "heading": "Nuances and Implications",
+        "content": "",
+        "children": [
+          {
+            "level": 3,
+            "heading": "Curiosity and Experimentation",
+            "content": "新しいアプリを使ってみる \"try using a new app\" (out of curiosity) この方法でやってみる \"try doing it this way\" (to test)"
+          },
+          {
+            "level": 3,
+            "heading": "Tentative Action",
+            "content": "聞いてみるけど、わからない \"I'll try asking, but I don't know\" やってみるけど、難しいかも \"I'll try doing it, but it might be difficult\""
+          },
+          {
+            "level": 3,
+            "heading": "Politeness and Softness",
+            "content": "Using てみる can soften requests:\n\n考えてみてください \"Please try thinking about it\" (softer) vs. 考えてください \"Please think about it\" (more direct)"
+          }
+        ]
+      },
+      {
+        "level": 2,
+        "heading": "With Various Contexts",
+        "content": "",
+        "children": [
+          {
+            "level": 3,
+            "heading": "First-time Experiences",
+            "content": "初めて日本食を食べてみた \"I tried Japanese food for the first time\" スキーをしてみたい \"I want to try skiing\""
+          },
+          {
+            "level": 3,
+            "heading": "Testing Solutions",
+            "content": "この方法を試してみよう \"Let's try this method\" もう一度やってみる \"I'll try doing it one more time\""
+          },
+          {
+            "level": 3,
+            "heading": "Checking Information",
+            "content": "調べてみます \"I'll try looking it up\" 確認してみる \"I'll try checking\""
+          }
+        ]
+      },
+      {
+        "level": 2,
+        "heading": "Politeness Levels",
+        "content": "",
+        "children": [
+          {
+            "level": 3,
+            "heading": "Casual",
+            "content": "やってみる \"I'll try it\" 食べてみたい \"I want to try eating it\" 行ってみよう \"Let's try going\""
+          },
+          {
+            "level": 3,
+            "heading": "Polite",
+            "content": "やってみます \"I will try it\" 食べてみたいです \"I want to try eating it\" 行ってみましょう \"Let's try going\""
+          },
+          {
+            "level": 3,
+            "heading": "Very Polite",
+            "content": "やってみたいと思います \"I would like to try doing it\" お試しください \"Please try it\" (honorific)"
+          }
+        ]
+      },
+      {
+        "level": 2,
+        "heading": "Special Expressions",
+        "content": "",
+        "children": [
+          {
+            "level": 3,
+            "heading": "一度〜てみる (try once)",
+            "content": "一度食べてみてください \"Please try eating it once\" 一度行ってみたい \"I want to try going once\""
+          },
+          {
+            "level": 3,
+            "heading": "ちょっと〜てみる (try a bit)",
+            "content": "ちょっとやってみる \"I'll try doing it a bit\" ちょっと考えてみます \"I'll try thinking about it a bit\""
+          }
+        ]
+      },
+      {
+        "level": 2,
+        "heading": "With Results and Outcomes",
+        "content": "",
+        "children": [
+          {
+            "level": 3,
+            "heading": "〜てみたら〜だった",
+            "content": "Expressing the outcome after trying.\n\nやってみたら、簡単だった \"When I tried it, it was easy\" 食べてみたら、まずかった \"When I tried eating it, it tasted bad\" 聞いてみたら、違った \"When I asked, it was different\" 行ってみたら、閉まっていた \"When I went to try, it was closed\""
+          }
+        ]
+      },
+      {
+        "level": 2,
+        "heading": "Practice Sentences",
+        "content": "",
+        "children": [
+          {
+            "level": 3,
+            "heading": "Basic Trying",
+            "content": "これを食べてみてください \"Please try eating this\" 新しい方法でやってみる \"I'll try doing it a new way\" 日本語で話してみます \"I'll try speaking in Japanese\" この本を読んでみたい \"I want to try reading this book\""
+          },
+          {
+            "level": 3,
+            "heading": "Suggestions",
+            "content": "やってみたら？ \"Why don't you try it?\" 聞いてみたらどう？ \"How about trying to ask?\" 一緒に行ってみませんか？ \"Won't you try going together?\""
+          },
+          {
+            "level": 3,
+            "heading": "Past Experiences",
+            "content": "昨日やってみた \"I tried doing it yesterday\" 初めて寿司を食べてみた \"I tried eating sushi for the first time\" 新しいレストランに行ってみた \"I tried going to a new restaurant\""
+          },
+          {
+            "level": 3,
+            "heading": "With Outcomes",
+            "content": "やってみたら、できた \"When I tried, I could do it\" 食べてみたら、おいしかった \"When I tried eating it, it was delicious\" 調べてみたけど、わからなかった \"I tried looking it up, but I didn't understand\""
+          }
+        ]
+      },
+      {
+        "level": 2,
+        "heading": "Related Grammar Points",
+        "content": "Te-form Conjugation - Basic te-form 〜たい (tai) - Want to do 〜てください - Request patterns 〜たら (tara) - Conditional \"when/if\" Volitional Form - Let's expressions 〜たことがある - Have experienced",
+        "children": [
+          {
+            "level": 3,
+            "heading": "Company",
+            "content": "About Pricing Blog Contact"
+          },
+          {
+            "level": 3,
+            "heading": "Legal",
+            "content": "Privacy Policy Terms of Service Cookie Policy"
+          }
+        ]
+      }
+    ],
+    "examples": [
+      {
+        "sentence": "て (te-form) - doing action"
+      },
+      {
+        "sentence": "みる (見る) - \"to see/look\""
+      },
+      {
+        "sentence": "Together: \"do and see (what happens)\""
+      },
+      {
+        "sentence": "Te-form Conjugation - Basic te-form"
+      },
+      {
+        "sentence": "〜たい (tai) - Want to do"
+      },
+      {
+        "sentence": "〜てください - Request patterns"
+      },
+      {
+        "sentence": "〜たら (tara) - Conditional \"when/if\""
+      },
+      {
+        "sentence": "Volitional Form - Let's expressions"
+      },
+      {
+        "sentence": "〜たことがある - Have experienced"
+      },
+      {
+        "sentence": "About"
+      },
+      {
+        "sentence": "Pricing"
+      },
+      {
+        "sentence": "Blog"
+      },
+      {
+        "sentence": "Contact"
+      },
+      {
+        "sentence": "Privacy Policy"
+      },
+      {
+        "sentence": "Terms of Service"
+      },
+      {
+        "sentence": "Cookie Policy"
+      }
+    ]
+  },
+  "metadata": {
+    "extracted_at": "2026-01-01T22:19:35.921565300Z",
+    "duration_ms": 4,
+    "extractors_matched": [
+      "metadata",
+      "examples",
+      "sections"
+    ],
+    "extractors_failed": [
+      "vocab_tables",
+      "definitions",
+      "content_blocks"
+    ]
+  }
+}

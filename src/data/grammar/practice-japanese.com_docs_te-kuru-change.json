@@ -1,0 +1,288 @@
+{
+  "config_name": "Language Learning Extractor",
+  "url": "https://practice-japanese.com/docs/te-kuru-change/",
+  "data": {
+    "metadata": {
+      "title": "〜てくる (Come to)"
+    },
+    "sections": [
+      {
+        "level": 2,
+        "heading": "What is 〜てくる?",
+        "content": "〜てくる (te kuru) expresses a change or action that moves toward the speaker or continues from the past toward the present. It indicates gradual development or an action approaching the current moment.\n\nEnglish equivalent: \"come to (do),\" \"start to (do),\" \"have been (doing)\"\n\nStructure: [Verb て-form] + くる\n\n分かる (wakaru - understand) → 分かって + くる = 分かってくる \"come to understand\" 降る (furu - fall/rain) → 降って + くる = 降ってくる \"start to rain\" / \"it's coming down\" 暑い (atsui - hot) → 暑くなって + くる = 暑くなってくる \"it's getting hot\" (toward now)"
+      },
+      {
+        "level": 2,
+        "heading": "Basic Formation",
+        "content": "",
+        "children": [
+          {
+            "level": 3,
+            "heading": "With verbs",
+            "content": "[Verb て-form] + くる\n\n分かってくる (wakatte kuru) - \"come to understand\" 見えてくる (miete kuru) - \"come into view\" / \"become visible\" 分かれてくる (wakarete kuru) - \"come apart\" / \"diverge\" 聞こえてくる (kikoete kuru) - \"become audible\""
+          }
+        ]
+      },
+      {
+        "level": 2,
+        "heading": "Gradual Change Toward Present",
+        "content": "",
+        "children": [
+          {
+            "level": 3,
+            "heading": "Progressive development",
+            "content": "だんだん分かってきた。 Dandan wakatte kita. \"I gradually came to understand.\" 日本語が話せるようになってきた。 Nihongo ga hanaseru you ni natte kita. \"I've come to be able to speak Japanese.\" 面白くなってきた。 Omoshiroku natte kita. \"It's getting interesting.\" 寒くなってきた。 Samuku natte kita. \"It's getting cold.\""
+          },
+          {
+            "level": 3,
+            "heading": "Recent changes",
+            "content": "最近暑くなってきた。 Saikin atsuku natte kita. \"It's been getting hot recently.\" 雨が降ってきた。 Ame ga futte kita. \"It started raining.\" / \"Rain is coming.\" お腹が空いてきた。 Onaka ga suite kita. \"I'm getting hungry.\" 眠くなってきた。 Nemuku natte kita. \"I'm getting sleepy.\""
+          }
+        ]
+      },
+      {
+        "level": 2,
+        "heading": "Starting Actions",
+        "content": "",
+        "children": [
+          {
+            "level": 3,
+            "heading": "Beginning to happen",
+            "content": "雨が降ってくる。 Ame ga futte kuru. \"It starts to rain.\" 風が吹いてくる。 Kaze ga fuite kuru. \"The wind starts to blow.\" 人が集まってきた。 Hito ga atsumatte kita. \"People started gathering.\""
+          }
+        ]
+      },
+      {
+        "level": 2,
+        "heading": "Movement Toward Speaker",
+        "content": "",
+        "children": [
+          {
+            "level": 3,
+            "heading": "Physical approach",
+            "content": "友達が来てくる。 Tomodachi ga kite kuru. \"A friend is coming (here).\" バスが走ってくる。 Basu ga hashitte kuru. \"The bus is coming (toward us).\" 子供が泣いてきた。 Kodomo ga naite kita. \"The child came crying.\" 犬が走ってきた。 Inu ga hashitte kita. \"The dog came running.\""
+          }
+        ]
+      },
+      {
+        "level": 2,
+        "heading": "Realizing or Understanding",
+        "content": "",
+        "children": [
+          {
+            "level": 3,
+            "heading": "Coming to know",
+            "content": "やっと分かってきた。 Yatto wakatte kita. \"I finally came to understand.\" だんだん見えてきた。 Dandan miete kita. \"It gradually became visible.\" 意味が分かってきた。 Imi ga wakatte kita. \"I came to understand the meaning.\" 答えが見えてきた。 Kotae ga miete kita. \"The answer is becoming clear.\""
+          }
+        ]
+      },
+      {
+        "level": 2,
+        "heading": "Continuous State Leading to Present",
+        "content": "",
+        "children": [
+          {
+            "level": 3,
+            "heading": "Ongoing until now",
+            "content": "ずっと待ってきた。 Zutto matte kita. \"I've been waiting (all along).\" 頑張ってきた。 Ganbatte kita. \"I've been trying hard.\" 勉強してきた。 Benkyou shite kita. \"I've been studying.\""
+          }
+        ]
+      },
+      {
+        "level": 2,
+        "heading": "Physical Movement and Return",
+        "content": "",
+        "children": [
+          {
+            "level": 3,
+            "heading": "Going and coming back",
+            "content": "買ってくる。 Katte kuru. \"I'll go buy (and come back).\" 調べてくる。 Shirabete kuru. \"I'll go check (and come back).\" ちょっと見てくる。 Chotto mite kuru. \"I'll go take a look (and come back).\" コンビニに行ってくる。 Konbini ni itte kuru. \"I'll go to the convenience store (and come back).\""
+          }
+        ]
+      },
+      {
+        "level": 2,
+        "heading": "With Change Verbs",
+        "content": "",
+        "children": [
+          {
+            "level": 3,
+            "heading": "なる/する + てくる",
+            "content": "暑くなってくる (atsuku natte kuru) - \"get hot (toward now)\" 寒くなってくる (samuku natte kuru) - \"get cold (toward now)\" 大きくなってくる (ookiku natte kuru) - \"grow bigger (toward now)\" きれいになってくる (kirei ni natte kuru) - \"become clean (toward now)\" 部屋が暖かくなってきた。 Heya ga atatakaku natte kita. \"The room has gotten warm.\" 街がきれいになってきた。 Machi ga kirei ni natte kita. \"The town has become clean.\""
+          }
+        ]
+      },
+      {
+        "level": 2,
+        "heading": "Weather and Nature",
+        "content": "",
+        "children": [
+          {
+            "level": 3,
+            "heading": "Environmental changes",
+            "content": "雨が降ってきた。 Ame ga futte kita. \"It started raining.\" 雪が降ってきた。 Yuki ga futte kita. \"It started snowing.\" 暗くなってきた。 Kuraku natte kita. \"It's getting dark.\" 明るくなってきた。 Akaruku natte kita. \"It's getting light.\" 曇ってきた。 Kumotte kita. \"It's becoming cloudy.\""
+          }
+        ]
+      },
+      {
+        "level": 2,
+        "heading": "Tense Variations",
+        "content": "",
+        "children": [
+          {
+            "level": 3,
+            "heading": "Different time frames",
+            "content": "分かってくる (wakatte kuru) - \"will come to understand\" 分かってきた (wakatte kita) - \"came to understand\" / \"have come to understand\" 分かってきている (wakatte kite iru) - \"is coming to understand\" 少しずつ分かってきている。 Sukoshi zutsu wakatte kite iru. \"I'm gradually coming to understand.\""
+          }
+        ]
+      },
+      {
+        "level": 2,
+        "heading": "Polite Forms",
+        "content": "Casual: 分かってくる Polite: 分かってきます Past polite: 分かってきました だんだん分かってきました。 Dandan wakatte kimashita. \"I gradually came to understand.\" 寒くなってきましたね。 Samuku natte kimashita ne. \"It's gotten cold, hasn't it?\""
+      },
+      {
+        "level": 2,
+        "heading": "With Time Expressions",
+        "content": "",
+        "children": [
+          {
+            "level": 3,
+            "heading": "Temporal markers",
+            "content": "だんだん (dandan) - \"gradually\" 少しずつ (sukoshi zutsu) - \"little by little\" 最近 (saikin) - \"recently\" やっと (yatto) - \"finally\" だんだん暖かくなってきた。 Dandan atatakaku natte kita. \"It's gradually getting warm.\" 最近忙しくなってきた。 Saikin isogashiku natte kita. \"It's been getting busy recently.\""
+          }
+        ]
+      },
+      {
+        "level": 2,
+        "heading": "Comparing てくる and ていく",
+        "content": "",
+        "children": [
+          {
+            "level": 3,
+            "heading": "Direction of change",
+            "content": "てくる - Toward present/speaker:\n\n暑くなってくる (atsuku natte kuru) \"It's getting hot\" (up until now) 分かってきた (wakatte kita) \"I came to understand\" (toward present)\n\nていく - Away from present/speaker:\n\n暑くなっていく (atsuku natte iku) \"It will get hot\" (from now on) 分かっていく (wakatte iku) \"Will come to understand\" (going forward)\n\n| Pattern | Direction | Focus | | ------- | --------- | ------------ | | てくる | → present | Up until now | | ていく | present → | From now on |\n\nSee: 〜ていく (Gradually)"
+          }
+        ]
+      },
+      {
+        "level": 2,
+        "heading": "Common Expressions",
+        "content": "",
+        "children": [
+          {
+            "level": 3,
+            "heading": "Set phrases",
+            "content": "頑張ってくる (ganbatte kuru) - \"I'll do my best (and return)\" 行ってくる (itte kuru) - \"I'll go (and come back)\" やってくる (yatte kuru) - \"come along\" / \"approach\" 出てくる (dete kuru) - \"come out\" / \"appear\" ちょっと行ってくる。 Chotto itte kuru. \"I'll be back in a bit.\" 夏がやってくる。 Natsu ga yatte kuru. \"Summer is coming.\""
+          }
+        ]
+      },
+      {
+        "level": 2,
+        "heading": "Common Mistakes",
+        "content": "",
+        "children": [
+          {
+            "level": 3,
+            "heading": "Mistake 1: Confusing with ていく",
+            "content": "❌ 暑くなっていった (when talking about recent change) ✓ 暑くなってきた\n\nUse てくる for changes toward the present."
+          },
+          {
+            "level": 3,
+            "heading": "Mistake 2: Wrong て-form",
+            "content": "❌ 分かりてくる ✓ 分かってくる\n\nUse correct て-form: 分かる → 分かって"
+          },
+          {
+            "level": 3,
+            "heading": "Mistake 3: Literal translation",
+            "content": "買ってくる ≠ \"buy and come\" 買ってくる = \"go buy and come back\"\n\nIt implies a round trip."
+          }
+        ]
+      },
+      {
+        "level": 2,
+        "heading": "Summary",
+        "content": "Key Points:\n\nてくる expresses change or action toward the present/speaker Formation: [Verb て-form] + くる Indicates gradual development leading to now Common with: なってくる (getting), 分かってくる (coming to understand) For recent changes: 暑くなってきた \"it's gotten hot\" For starting actions: 降ってきた \"it started raining\" For round trips: 買ってくる \"go buy and come back\" Direction: toward present (← now) Opposite: ていく (away from present, now →) Essential for describing progressive changes and realizations",
+        "children": [
+          {
+            "level": 3,
+            "heading": "Company",
+            "content": "About Pricing Blog Contact"
+          },
+          {
+            "level": 3,
+            "heading": "Legal",
+            "content": "Privacy Policy Terms of Service Cookie Policy"
+          }
+        ]
+      }
+    ],
+    "examples": [
+      {
+        "sentence": "てくる expresses change or action toward the present/speaker"
+      },
+      {
+        "sentence": "Formation: [Verb て-form] + くる"
+      },
+      {
+        "sentence": "Indicates gradual development leading to now"
+      },
+      {
+        "sentence": "Common with: なってくる (getting), 分かってくる (coming to understand)"
+      },
+      {
+        "sentence": "For recent changes: 暑くなってきた \"it's gotten hot\""
+      },
+      {
+        "sentence": "For starting actions: 降ってきた \"it started raining\""
+      },
+      {
+        "sentence": "For round trips: 買ってくる \"go buy and come back\""
+      },
+      {
+        "sentence": "Direction: toward present (← now)"
+      },
+      {
+        "sentence": "Opposite: ていく (away from present, now →)"
+      },
+      {
+        "sentence": "Essential for describing progressive changes and realizations"
+      },
+      {
+        "sentence": "About"
+      },
+      {
+        "sentence": "Pricing"
+      },
+      {
+        "sentence": "Blog"
+      },
+      {
+        "sentence": "Contact"
+      },
+      {
+        "sentence": "Privacy Policy"
+      },
+      {
+        "sentence": "Terms of Service"
+      },
+      {
+        "sentence": "Cookie Policy"
+      }
+    ]
+  },
+  "metadata": {
+    "extracted_at": "2026-01-01T22:19:35.849323400Z",
+    "duration_ms": 3,
+    "extractors_matched": [
+      "metadata",
+      "examples",
+      "sections"
+    ],
+    "extractors_failed": [
+      "vocab_tables",
+      "definitions",
+      "content_blocks"
+    ]
+  }
+}

@@ -1,0 +1,285 @@
+{
+  "config_name": "Language Learning Extractor",
+  "url": "https://practice-japanese.com/docs/ni-koshita-koto-wa-nai/",
+  "data": {
+    "sections": [
+      {
+        "level": 2,
+        "heading": "What is 〜に越したことはない?",
+        "content": "〜に越したことはない (ni koshita koto wa nai) means \"nothing is better than\" or \"it's best to.\" It expresses that something is the optimal or most preferable choice, even if not absolutely necessary.\n\nEnglish equivalent: \"nothing is better than,\" \"it's best to,\" \"you can't go wrong with\"\n\nStructure: [Verb dictionary form / い-adjective / Noun] + に越したことはない\n\n早い (hayai - early) + に越したことはない = 早いに越したことはない \"the earlier the better\" ある (aru - have/exist) + に越したことはない = あるに越したことはない \"it's best to have it\" 安全 (anzen - safe) + に越したことはない = 安全に越したことはない \"nothing is better than being safe\""
+      },
+      {
+        "level": 2,
+        "heading": "Basic Formation",
+        "content": "",
+        "children": [
+          {
+            "level": 3,
+            "heading": "With verbs (dictionary form)",
+            "content": "[Verb dictionary form] + に越したことはない\n\n準備するに越したことはない (junbi suru ni koshita koto wa nai) - \"it's best to prepare\" 確認するに越したことはない (kakunin suru ni koshita koto wa nai) - \"it's best to check\" 行くに越したことはない (iku ni koshita koto wa nai) - \"it's best to go\""
+          },
+          {
+            "level": 3,
+            "heading": "With い-adjectives",
+            "content": "[い-adjective] + に越したことはない\n\n早いに越したことはない (hayai ni koshita koto wa nai) - \"the earlier the better\" 安いに越したことはない (yasui ni koshita koto wa nai) - \"the cheaper the better\" 多いに越したことはない (ooi ni koshita koto wa nai) - \"the more the better\""
+          },
+          {
+            "level": 3,
+            "heading": "With nouns (の)",
+            "content": "[Noun] + (である/の) + に越したことはない\n\n専門家に越したことはない (senmonka ni koshita koto wa nai) - \"an expert is best\" 本物に越したことはない (honmono ni koshita koto wa nai) - \"nothing beats the real thing\""
+          }
+        ]
+      },
+      {
+        "level": 2,
+        "heading": "The Earlier/Sooner the Better",
+        "content": "",
+        "children": [
+          {
+            "level": 3,
+            "heading": "Time-related preferences",
+            "content": "早いに越したことはない。 Hayai ni koshita koto wa nai. \"The earlier the better.\" 早く始めるに越したことはない。 Hayaku hajimeru ni koshita koto wa nai. \"It's best to start early.\" すぐに対応するに越したことはない。 Sugu ni taiou suru ni koshita koto wa nai. \"It's best to respond immediately.\""
+          }
+        ]
+      },
+      {
+        "level": 2,
+        "heading": "The More the Better",
+        "content": "",
+        "children": [
+          {
+            "level": 3,
+            "heading": "Quantity preferences",
+            "content": "多いに越したことはない。 Ooi ni koshita koto wa nai. \"The more the better.\" お金はあるに越したことはない。 Okane wa aru ni koshita koto wa nai. \"It's best to have money.\" 経験は多いに越したことはない。 Keiken wa ooi ni koshita koto wa nai. \"The more experience, the better.\""
+          }
+        ]
+      },
+      {
+        "level": 2,
+        "heading": "Safety and Precaution",
+        "content": "",
+        "children": [
+          {
+            "level": 3,
+            "heading": "Better safe than sorry",
+            "content": "注意するに越したことはない。 Chuui suru ni koshita koto wa nai. \"It's best to be careful.\" 確認するに越したことはない。 Kakunin suru ni koshita koto wa nai. \"It's best to check.\" 準備しておくに越したことはない。 Junbi shite oku ni koshita koto wa nai. \"It's best to prepare in advance.\" 保険に入っておくに越したことはない。 Hoken ni haitte oku ni koshita koto wa nai. \"It's best to get insurance.\""
+          }
+        ]
+      },
+      {
+        "level": 2,
+        "heading": "Quality Preferences",
+        "content": "",
+        "children": [
+          {
+            "level": 3,
+            "heading": "Better quality",
+            "content": "本物に越したことはない。 Honmono ni koshita koto wa nai. \"Nothing beats the real thing.\" 新しいに越したことはない。 Atarashii ni koshita koto wa nai. \"Newer is better.\" 品質が良いに越したことはない。 Hinshitsu ga yoi ni koshita koto wa nai. \"Better quality is best.\""
+          }
+        ]
+      },
+      {
+        "level": 2,
+        "heading": "Cost Preferences",
+        "content": "",
+        "children": [
+          {
+            "level": 3,
+            "heading": "Cheaper is better",
+            "content": "安いに越したことはない。 Yasui ni koshita koto wa nai. \"The cheaper the better.\" 無料に越したことはない。 Muryou ni koshita koto wa nai. \"Free is best.\" コストが低いに越したことはない。 Kosuto ga hikui ni koshita koto wa nai. \"Lower cost is better.\""
+          }
+        ]
+      },
+      {
+        "level": 2,
+        "heading": "Health and Wellbeing",
+        "content": "",
+        "children": [
+          {
+            "level": 3,
+            "heading": "Better for health",
+            "content": "健康に越したことはない。 Kenkou ni koshita koto wa nai. \"Nothing is better than being healthy.\" 運動するに越したことはない。 Undou suru ni koshita koto wa nai. \"It's best to exercise.\" 早く寝るに越したことはない。 Hayaku neru ni koshita koto wa nai. \"It's best to go to bed early.\""
+          }
+        ]
+      },
+      {
+        "level": 2,
+        "heading": "Practical Advice",
+        "content": "",
+        "children": [
+          {
+            "level": 3,
+            "heading": "Best course of action",
+            "content": "専門家に相談するに越したことはない。 Senmonka ni soudan suru ni koshita koto wa nai. \"It's best to consult an expert.\" 契約書を読むに越したことはない。 Keiyakusho wo yomu ni koshita koto wa nai. \"It's best to read the contract.\" 事前に調べるに越したことはない。 Jizen ni shiraberu ni koshita koto wa nai. \"It's best to research beforehand.\""
+          }
+        ]
+      },
+      {
+        "level": 2,
+        "heading": "Polite Forms",
+        "content": "早めに来るに越したことはございません。 Hayame ni kuru ni koshita koto wa gozaimasen. \"It's best to come early.\" 確認していただくに越したことはありません。 Kakunin shite itadaku ni koshita koto wa arimasen. \"It's best for you to confirm.\""
+      },
+      {
+        "level": 2,
+        "heading": "Common Expressions",
+        "content": "早いに越したことはない (hayai ni koshita koto wa nai) - \"the earlier the better\" 安いに越したことはない (yasui ni koshita koto wa nai) - \"the cheaper the better\" 多いに越したことはない (ooi ni koshita koto wa nai) - \"the more the better\" あるに越したことはない (aru ni koshita koto wa nai) - \"it's best to have\" 確認するに越したことはない (kakunin suru ni koshita koto wa nai) - \"it's best to check\" 準備するに越したことはない (junbi suru ni koshita koto wa nai) - \"it's best to prepare\""
+      },
+      {
+        "level": 2,
+        "heading": "Shortened Casual Form",
+        "content": "",
+        "children": [
+          {
+            "level": 3,
+            "heading": "に越したことはない → に限る",
+            "content": "早いに越したことはない → 早いに限る Hayai ni koshita koto wa nai → Hayai ni kagiru \"The earlier the better.\" (casual) 安全に越したことはない → 安全に限る Anzen ni koshita koto wa nai → Anzen ni kagiru \"Safe is best.\" (casual)\n\nに限る is more casual and commonly used in conversation."
+          }
+        ]
+      },
+      {
+        "level": 2,
+        "heading": "Comparing に越したことはない and 方がいい",
+        "content": "",
+        "children": [
+          {
+            "level": 3,
+            "heading": "Optimal vs better",
+            "content": "に越したことはない - Optimal/best:\n\n早いに越したことはない。 Hayai ni koshita koto wa nai. \"The earlier the better.\" (nothing surpasses early)\n\n方がいい - Better/preferable:\n\n早い方がいい。 Hayai hou ga ii. \"Earlier is better.\" (simple comparison)\n\n| Pattern | Strength | Example | | ------------------ | ------------ | ---------------------- | | に越したことはない | Optimal/best | 早いに越したことはない | | 方がいい | Better | 早い方がいい |"
+          }
+        ]
+      },
+      {
+        "level": 2,
+        "heading": "With Negative Implications",
+        "content": "",
+        "children": [
+          {
+            "level": 3,
+            "heading": "Not necessary but better",
+            "content": "無理してまで行くことはないが、行けるなら行くに越したことはない。 Muri shite made iku koto wa nai ga, ikeru nara iku ni koshita koto wa nai. \"You don't need to force yourself to go, but if you can go, it's best to go.\" 必須ではないが、あるに越したことはない。 Hissu dewa nai ga, aru ni koshita koto wa nai. \"It's not required, but it's best to have it.\""
+          }
+        ]
+      },
+      {
+        "level": 2,
+        "heading": "In Professional Context",
+        "content": "",
+        "children": [
+          {
+            "level": 3,
+            "heading": "Business advice",
+            "content": "契約前に弁護士に相談するに越したことはない。 Keiyaku mae ni bengoshi ni soudan suru ni koshita koto wa nai. \"It's best to consult a lawyer before signing a contract.\" データをバックアップするに越したことはない。 Deeta wo bakkuappu suru ni koshita koto wa nai. \"It's best to back up data.\" 計画は詳細であるに越したことはない。 Keikaku wa shousai de aru ni koshita koto wa nai. \"The more detailed the plan, the better.\""
+          }
+        ]
+      },
+      {
+        "level": 2,
+        "heading": "Common Mistakes",
+        "content": "",
+        "children": [
+          {
+            "level": 3,
+            "heading": "Mistake 1: Using た-form",
+            "content": "❌ 準備したに越したことはない ✓ 準備するに越したことはない\n\nUse dictionary form for verbs, not past tense."
+          },
+          {
+            "level": 3,
+            "heading": "Mistake 2: Wrong particle",
+            "content": "❌ 早くに越したことはない (using adverb form) ✓ 早いに越したことはない (using adjective)\n\nUse the adjective form, not adverb."
+          },
+          {
+            "level": 3,
+            "heading": "Mistake 3: Confusing with なければならない",
+            "content": "に越したことはない = it's best (optimal but not required) なければならない = must (obligation) 早いに越したことはない = earlier is best (preferred) 早くなければならない = must be early (required)"
+          },
+          {
+            "level": 3,
+            "heading": "Mistake 4: Overusing in casual conversation",
+            "content": "に越したことはない is somewhat formal. For casual speech, に限る is more natural.\n\nFormal: 安いに越したことはない Casual: 安いに限る / 安い方がいい"
+          }
+        ]
+      },
+      {
+        "level": 2,
+        "heading": "Summary",
+        "content": "Key Points:\n\nに越したことはない means \"nothing is better than\" Formation: [Verb dictionary / Adjective] + に越したことはない Expresses optimal choice or preference Common with: 早い, 安い, 多い, ある Implies \"not necessary but best\" More formal than に限る Different from 方がいい (simple comparison) Essential for expressing optimal preferences",
+        "children": [
+          {
+            "level": 3,
+            "heading": "Company",
+            "content": "About Pricing Blog Contact"
+          },
+          {
+            "level": 3,
+            "heading": "Legal",
+            "content": "Privacy Policy Terms of Service Cookie Policy"
+          }
+        ]
+      }
+    ],
+    "examples": [
+      {
+        "sentence": "に越したことはない means \"nothing is better than\""
+      },
+      {
+        "sentence": "Formation: [Verb dictionary / Adjective] + に越したことはない"
+      },
+      {
+        "sentence": "Expresses optimal choice or preference"
+      },
+      {
+        "sentence": "Common with: 早い, 安い, 多い, ある"
+      },
+      {
+        "sentence": "Implies \"not necessary but best\""
+      },
+      {
+        "sentence": "More formal than に限る"
+      },
+      {
+        "sentence": "Different from 方がいい (simple comparison)"
+      },
+      {
+        "sentence": "Essential for expressing optimal preferences"
+      },
+      {
+        "sentence": "About"
+      },
+      {
+        "sentence": "Pricing"
+      },
+      {
+        "sentence": "Blog"
+      },
+      {
+        "sentence": "Contact"
+      },
+      {
+        "sentence": "Privacy Policy"
+      },
+      {
+        "sentence": "Terms of Service"
+      },
+      {
+        "sentence": "Cookie Policy"
+      }
+    ],
+    "metadata": {
+      "title": "〜に越したことはない (Nothing better than)"
+    }
+  },
+  "metadata": {
+    "extracted_at": "2026-01-01T22:19:32.071497800Z",
+    "duration_ms": 5,
+    "extractors_matched": [
+      "metadata",
+      "examples",
+      "sections"
+    ],
+    "extractors_failed": [
+      "vocab_tables",
+      "definitions",
+      "content_blocks"
+    ]
+  }
+}

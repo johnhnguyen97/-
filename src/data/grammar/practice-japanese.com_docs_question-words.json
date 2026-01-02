@@ -1,0 +1,313 @@
+{
+  "config_name": "Language Learning Extractor",
+  "url": "https://practice-japanese.com/docs/question-words/",
+  "data": {
+    "examples": [
+      {
+        "sentence": "何 (nani/nan) - What (detailed)"
+      },
+      {
+        "sentence": "誰 (dare) - Who (detailed)"
+      },
+      {
+        "sentence": "いつ (itsu) - When (detailed)"
+      },
+      {
+        "sentence": "どこ (doko) - Where (detailed)"
+      },
+      {
+        "sentence": "なぜ/どうして - Why (detailed)"
+      },
+      {
+        "sentence": "どう (dou) - How (detailed)"
+      },
+      {
+        "sentence": "か (ka) - Question particle"
+      },
+      {
+        "sentence": "Yes/No Questions - Question formation"
+      },
+      {
+        "sentence": "About"
+      },
+      {
+        "sentence": "Pricing"
+      },
+      {
+        "sentence": "Blog"
+      },
+      {
+        "sentence": "Contact"
+      },
+      {
+        "sentence": "Privacy Policy"
+      },
+      {
+        "sentence": "Terms of Service"
+      },
+      {
+        "sentence": "Cookie Policy"
+      }
+    ],
+    "sections": [
+      {
+        "level": 2,
+        "heading": "What are Question Words?",
+        "content": "Question words (疑問詞 - gimonshi) are used to ask for specific information. Japanese has equivalents for the English 5W1H: Who, What, When, Where, Why, and How.\n\n何 (なに/なん) - What 誰 (だれ) - Who いつ - When どこ - Where なぜ/どうして - Why どう/どのように - How"
+      },
+      {
+        "level": 2,
+        "heading": "The Basic Question Words",
+        "content": "",
+        "children": [
+          {
+            "level": 3,
+            "heading": "何 (nani/nan) - What",
+            "content": "何ですか？ \"What is it?\" 何を食べますか？ \"What do you eat?\" 何時ですか？ \"What time is it?\""
+          },
+          {
+            "level": 3,
+            "heading": "誰 (dare) - Who",
+            "content": "誰ですか？ \"Who is it?\" 誰が来ますか？ \"Who will come?\" 誰と行きますか？ \"Who will you go with?\""
+          },
+          {
+            "level": 3,
+            "heading": "いつ (itsu) - When",
+            "content": "いつですか？ \"When is it?\" いつ行きますか？ \"When will you go?\" いつ来ましたか？ \"When did you come?\""
+          },
+          {
+            "level": 3,
+            "heading": "どこ (doko) - Where",
+            "content": "どこですか？ \"Where is it?\" どこに行きますか？ \"Where will you go?\" どこから来ましたか？ \"Where did you come from?\""
+          },
+          {
+            "level": 3,
+            "heading": "なぜ/どうして (naze/doushite) - Why",
+            "content": "なぜですか？ \"Why is it?\" どうして来なかったの？ \"Why didn't you come?\" なぜ勉強しますか？ \"Why do you study?\""
+          },
+          {
+            "level": 3,
+            "heading": "どう (dou) - How",
+            "content": "どうですか？ \"How is it?\" どうやって行きますか？ \"How do you go?\" 日本語はどうですか？ \"How is your Japanese?\""
+          }
+        ]
+      },
+      {
+        "level": 2,
+        "heading": "Extended Question Words",
+        "content": "",
+        "children": [
+          {
+            "level": 3,
+            "heading": "どのくらい/どれくらい - How much/long",
+            "content": "どのくらいかかりますか？ \"How long does it take?\" どれくらい勉強しますか？ \"How much do you study?\""
+          },
+          {
+            "level": 3,
+            "heading": "いくら (ikura) - How much (price)",
+            "content": "いくらですか？ \"How much is it?\" 全部でいくらですか？ \"How much is everything?\""
+          },
+          {
+            "level": 3,
+            "heading": "いくつ (ikutsu) - How many/How old",
+            "content": "いくつありますか？ \"How many are there?\" いくつですか？ \"How old are you?\" (casual)"
+          },
+          {
+            "level": 3,
+            "heading": "どんな (donna) - What kind of",
+            "content": "どんな食べ物が好きですか？ \"What kind of food do you like?\" どんな人ですか？ \"What kind of person is he/she?\""
+          },
+          {
+            "level": 3,
+            "heading": "どの (dono) - Which",
+            "content": "どの本ですか？ \"Which book is it?\" どれですか？ \"Which one is it?\""
+          },
+          {
+            "level": 3,
+            "heading": "どちら (dochira) - Which (of two)",
+            "content": "どちらがいいですか？ \"Which is better?\" どちらから来ましたか？ \"Where are you from?\" (polite)"
+          }
+        ]
+      },
+      {
+        "level": 2,
+        "heading": "Question Word Placement",
+        "content": "Question words typically go where the answer would be :\n\nQuestion: 誰が来ますか？ \"Who will come?\" Answer: 田中さんが来ます \"Tanaka will come\" Question: 何を食べますか？ \"What will you eat?\" Answer: 寿司を食べます \"I'll eat sushi\""
+      },
+      {
+        "level": 2,
+        "heading": "With Particles",
+        "content": "Question words combine with particles naturally:",
+        "children": [
+          {
+            "level": 3,
+            "heading": "が (subject)",
+            "content": "誰が言いましたか？ \"Who said it?\" 何がほしいですか？ \"What do you want?\""
+          },
+          {
+            "level": 3,
+            "heading": "を (object)",
+            "content": "何を食べますか？ \"What do you eat?\" 誰を待っていますか？ \"Who are you waiting for?\""
+          },
+          {
+            "level": 3,
+            "heading": "に (direction/time)",
+            "content": "どこに行きますか？ \"Where are you going?\" 誰に会いますか？ \"Who will you meet?\""
+          },
+          {
+            "level": 3,
+            "heading": "で (location/means)",
+            "content": "どこで買いましたか？ \"Where did you buy it?\" 何で来ますか？ \"How (by what means) will you come?\""
+          },
+          {
+            "level": 3,
+            "heading": "と (with)",
+            "content": "誰と行きますか？ \"Who will you go with?\" 何と言いましたか？ \"What did you say?\""
+          },
+          {
+            "level": 3,
+            "heading": "から (from)",
+            "content": "どこから来ましたか？ \"Where did you come from?\" 誰から聞きましたか？ \"Who did you hear it from?\""
+          }
+        ]
+      },
+      {
+        "level": 2,
+        "heading": "Common Question Patterns",
+        "content": "",
+        "children": [
+          {
+            "level": 3,
+            "heading": "Basic Information",
+            "content": "名前は何ですか？ \"What is your name?\" どこに住んでいますか？ \"Where do you live?\" いつ来ましたか？ \"When did you come?\""
+          },
+          {
+            "level": 3,
+            "heading": "Preferences",
+            "content": "何が好きですか？ \"What do you like?\" どんな音楽が好きですか？ \"What kind of music do you like?\" どれがいいですか？ \"Which is good?\""
+          },
+          {
+            "level": 3,
+            "heading": "Plans and Actions",
+            "content": "今日何をしますか？ \"What will you do today?\" いつ行きますか？ \"When will you go?\" 誰と行きますか？ \"Who will you go with?\""
+          }
+        ]
+      },
+      {
+        "level": 2,
+        "heading": "Politeness Levels",
+        "content": "",
+        "children": [
+          {
+            "level": 3,
+            "heading": "Casual",
+            "content": "何？ - What? 誰？ - Who? いつ？ - When? どこ？ - Where?"
+          },
+          {
+            "level": 3,
+            "heading": "Polite",
+            "content": "何ですか？ - What is it? 誰ですか？ - Who is it? いつですか？ - When is it? どこですか？ - Where is it?"
+          },
+          {
+            "level": 3,
+            "heading": "Very Polite",
+            "content": "何でしょうか？ - What might it be? どちらですか？ - Which is it? (polite) いつでしょうか？ - When might it be?"
+          }
+        ]
+      },
+      {
+        "level": 2,
+        "heading": "Multiple Question Words",
+        "content": "You can use multiple question words in one sentence:\n\n誰がいつどこに行きますか？ \"Who will go where when?\" 何をどこで買いますか？ \"What will you buy where?\""
+      },
+      {
+        "level": 2,
+        "heading": "Common Conversations",
+        "content": "",
+        "children": [
+          {
+            "level": 3,
+            "heading": "Example 1: First Meeting",
+            "content": "A: お名前は何ですか？ \"What is your name?\" B: 田中です \"I'm Tanaka\" A: どこから来ましたか？ \"Where are you from?\" B: 東京から来ました \"I came from Tokyo\""
+          },
+          {
+            "level": 3,
+            "heading": "Example 2: Making Plans",
+            "content": "A: 週末何をしますか？ \"What will you do on the weekend?\" B: 映画を見に行きます \"I'll go to see a movie\" A: 誰と行きますか？ \"Who will you go with?\" B: 友達と行きます \"I'll go with a friend\""
+          },
+          {
+            "level": 3,
+            "heading": "Example 3: Shopping",
+            "content": "A: これはいくらですか？ \"How much is this?\" B: 1000円です \"It's 1000 yen\" A: どこで作りましたか？ \"Where was it made?\" B: 日本で作りました \"It was made in Japan\""
+          }
+        ]
+      },
+      {
+        "level": 2,
+        "heading": "Common Mistakes",
+        "content": "",
+        "children": [
+          {
+            "level": 3,
+            "heading": "Mistake 1: Wrong particle",
+            "content": "Wrong: 誰を来ますか？ ❌ Right: 誰が来ますか？ ✓ \"Who will come?\""
+          },
+          {
+            "level": 3,
+            "heading": "Mistake 2: Using か in casual speech",
+            "content": "Casual context: 何食べる？ ✓ (no か) \"What will you eat?\" Polite: 何を食べますか？ ✓ \"What will you eat?\""
+          },
+          {
+            "level": 3,
+            "heading": "Mistake 3: Wrong form of 何",
+            "content": "Before です or counter: 何 (なん) 何ですか？ (なんですか) Before を, が: 何 (なに) 何を食べる？ (なにを)"
+          }
+        ]
+      },
+      {
+        "level": 2,
+        "heading": "Question Word Summary",
+        "content": "Who: 誰 (だれ) What: 何 (なに/なん) When: いつ Where: どこ Why: なぜ/どうして How: どう/どのように Which: どれ/どの/どちら What kind: どんな How much (price): いくら How much/long: どのくらい How many/old: いくつ"
+      },
+      {
+        "level": 2,
+        "heading": "Practice Sentences",
+        "content": "何を食べますか？ \"What will you eat?\" 誰が来ますか？ \"Who will come?\" いつ行きますか？ \"When will you go?\" どこに住んでいますか？ \"Where do you live?\" なぜ勉強しますか？ \"Why do you study?\" どう行きますか？ \"How will you go?\" いくらですか？ \"How much is it?\" どのくらいかかりますか？ \"How long does it take?\""
+      },
+      {
+        "level": 2,
+        "heading": "Related Grammar Points",
+        "content": "何 (nani/nan) - What (detailed) 誰 (dare) - Who (detailed) いつ (itsu) - When (detailed) どこ (doko) - Where (detailed) なぜ/どうして - Why (detailed) どう (dou) - How (detailed) か (ka) - Question particle Yes/No Questions - Question formation",
+        "children": [
+          {
+            "level": 3,
+            "heading": "Company",
+            "content": "About Pricing Blog Contact"
+          },
+          {
+            "level": 3,
+            "heading": "Legal",
+            "content": "Privacy Policy Terms of Service Cookie Policy"
+          }
+        ]
+      }
+    ],
+    "metadata": {
+      "title": "Question Words (5W1H)"
+    }
+  },
+  "metadata": {
+    "extracted_at": "2026-01-01T22:19:34.120330100Z",
+    "duration_ms": 3,
+    "extractors_matched": [
+      "metadata",
+      "examples",
+      "sections"
+    ],
+    "extractors_failed": [
+      "vocab_tables",
+      "definitions",
+      "content_blocks"
+    ]
+  }
+}

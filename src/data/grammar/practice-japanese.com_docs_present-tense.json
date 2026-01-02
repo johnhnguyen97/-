@@ -1,0 +1,364 @@
+{
+  "config_name": "Language Learning Extractor",
+  "url": "https://practice-japanese.com/docs/present-tense/",
+  "data": {
+    "examples": [
+      {
+        "sentence": "Past Tense Usage - Past forms"
+      },
+      {
+        "sentence": "〜ている (te-iru) - Present progressive"
+      },
+      {
+        "sentence": "Future Expressions - Expressing future"
+      },
+      {
+        "sentence": "Time Words - Time expressions"
+      },
+      {
+        "sentence": "Frequency - Habitual actions"
+      },
+      {
+        "sentence": "Verb Conjugation - Basic forms"
+      },
+      {
+        "sentence": "About"
+      },
+      {
+        "sentence": "Pricing"
+      },
+      {
+        "sentence": "Blog"
+      },
+      {
+        "sentence": "Contact"
+      },
+      {
+        "sentence": "Privacy Policy"
+      },
+      {
+        "sentence": "Terms of Service"
+      },
+      {
+        "sentence": "Cookie Policy"
+      }
+    ],
+    "sections": [
+      {
+        "level": 2,
+        "heading": "What is Present Tense in Japanese?",
+        "content": "Japanese \"present tense\" is actually a non-past tense that covers both present and future meanings. It's used for current states, habitual actions, general truths, and future events.\n\n食べる \"eat / will eat\" 学生です \"am a student\" 雨が降る \"it rains / it will rain\""
+      },
+      {
+        "level": 2,
+        "heading": "Two Forms: Plain and Polite",
+        "content": "",
+        "children": [
+          {
+            "level": 3,
+            "heading": "Plain Form (Dictionary Form)",
+            "content": "食べる - eat 行く - go 見る - see する - do"
+          },
+          {
+            "level": 3,
+            "heading": "Polite Form (ます Form)",
+            "content": "食べます - eat (polite) 行きます - go (polite) 見ます - see (polite) します - do (polite)"
+          }
+        ]
+      },
+      {
+        "level": 2,
+        "heading": "Main Uses of Present Tense",
+        "content": "",
+        "children": [
+          {
+            "level": 3,
+            "heading": "1. Current State/Condition",
+            "content": "Describing how things are right now:\n\n私は学生です \"I am a student\" 今日は暑い \"Today is hot\" ここは静かです \"Here is quiet\" 彼は忙しい \"He is busy\""
+          },
+          {
+            "level": 3,
+            "heading": "2. Habitual/Regular Actions",
+            "content": "Actions that happen regularly:\n\n毎日学校に行く \"I go to school every day\" 朝ごはんを食べます \"I eat breakfast\" よく本を読む \"I often read books\" 週末は休みます \"I rest on weekends\""
+          },
+          {
+            "level": 3,
+            "heading": "3. General Truths/Facts",
+            "content": "Universal or permanent truths:\n\n太陽は東から昇る \"The sun rises from the east\" 水は100度で沸騰する \"Water boils at 100 degrees\" 地球は丸い \"The Earth is round\" 猫は動物です \"Cats are animals\""
+          },
+          {
+            "level": 3,
+            "heading": "4. Future Events",
+            "content": "Present tense can express future actions:\n\n明日東京に行く \"I will go to Tokyo tomorrow\" 来週テストがある \"There will be a test next week\" 8時に会います \"I will meet (you) at 8 o'clock\" 来年日本に来る \"I will come to Japan next year\""
+          },
+          {
+            "level": 3,
+            "heading": "5. Scheduled Events",
+            "content": "Fixed schedules and timetables:\n\n電車は9時に出発する \"The train departs at 9 o'clock\" 授業は月曜日に始まる \"Class starts on Monday\" 店は10時に開く \"The store opens at 10 o'clock\""
+          }
+        ]
+      },
+      {
+        "level": 2,
+        "heading": "Present Progressive: 〜ている",
+        "content": "For actions happening RIGHT NOW, use ている:\n\n今、勉強している \"I'm studying now\" 雨が降っている \"It is raining\" テレビを見ています \"I'm watching TV\"",
+        "children": [
+          {
+            "level": 3,
+            "heading": "Present Tense vs ている",
+            "content": "Present simple: 本を読む \"I read books\" (habitual) Present progressive: 本を読んでいる \"I'm reading a book\" (right now)"
+          }
+        ]
+      },
+      {
+        "level": 2,
+        "heading": "With Time Expressions",
+        "content": "",
+        "children": [
+          {
+            "level": 3,
+            "heading": "Present/Habitual",
+            "content": "毎日 - every day いつも - always よく - often 時々 - sometimes 毎日運動する \"I exercise every day\" いつも早く起きます \"I always wake up early\""
+          },
+          {
+            "level": 3,
+            "heading": "Future",
+            "content": "明日 - tomorrow 来週 - next week 今晩 - tonight 後で - later 明日映画を見る \"I will watch a movie tomorrow\" 来週テストがあります \"There will be a test next week\""
+          }
+        ]
+      },
+      {
+        "level": 2,
+        "heading": "Negating Present Tense",
+        "content": "",
+        "children": [
+          {
+            "level": 3,
+            "heading": "Plain Negative",
+            "content": "食べる → 食べない \"don't eat / won't eat\" 行く → 行かない \"don't go / won't go\" する → しない \"don't do / won't do\""
+          },
+          {
+            "level": 3,
+            "heading": "Polite Negative",
+            "content": "食べます → 食べません \"don't eat / won't eat\" 行きます → 行きません \"don't go / won't go\" します → しません \"don't do / won't do\""
+          }
+        ]
+      },
+      {
+        "level": 2,
+        "heading": "Question Forms",
+        "content": "",
+        "children": [
+          {
+            "level": 3,
+            "heading": "Yes/No Questions",
+            "content": "食べますか？ \"Do you eat? / Will you eat?\" 学生ですか？ \"Are you a student?\" 行きますか？ \"Do you go? / Will you go?\""
+          },
+          {
+            "level": 3,
+            "heading": "With Question Words",
+            "content": "何を食べますか？ \"What do you eat?\" いつ行きますか？ \"When do you go?\" どこに住んでいますか？ \"Where do you live?\""
+          }
+        ]
+      },
+      {
+        "level": 2,
+        "heading": "Common Conversations",
+        "content": "",
+        "children": [
+          {
+            "level": 3,
+            "heading": "Example 1: Daily Routine",
+            "content": "A: 毎朝何時に起きますか？ \"What time do you wake up every morning?\" B: 7時に起きます \"I wake up at 7 o'clock\" A: 朝ごはんは食べますか？ \"Do you eat breakfast?\" B: はい、いつも食べます \"Yes, I always eat it\""
+          },
+          {
+            "level": 3,
+            "heading": "Example 2: Future Plans",
+            "content": "A: 明日何をしますか？ \"What will you do tomorrow?\" B: 映画を見に行きます \"I will go to see a movie\" A: 何時に行きますか？ \"What time will you go?\" B: 3時に行きます \"I will go at 3 o'clock\""
+          },
+          {
+            "level": 3,
+            "heading": "Example 3: General Information",
+            "content": "A: どこに住んでいますか？ \"Where do you live?\" B: 東京に住んでいます \"I live in Tokyo\" A: 仕事は何ですか？ \"What's your job?\" B: 会社員です \"I'm a company employee\""
+          }
+        ]
+      },
+      {
+        "level": 2,
+        "heading": "Common Mistakes",
+        "content": "",
+        "children": [
+          {
+            "level": 3,
+            "heading": "Mistake 1: Using present for ongoing actions",
+            "content": "Wrong context (happening now): 今、勉強する ⚠️ Better: 今、勉強している ✓ \"I'm studying now\" Note: 勉強する can mean \"I study\" (habitual) or \"I will study\""
+          },
+          {
+            "level": 3,
+            "heading": "Mistake 2: Confusing with past tense",
+            "content": "Wrong: 昨日食べる ❌ Right: 昨日食べた ✓ \"I ate yesterday\""
+          },
+          {
+            "level": 3,
+            "heading": "Mistake 3: Forgetting です with nouns",
+            "content": "Wrong: 私は学生 ⚠️ (incomplete) Right: 私は学生です ✓ \"I am a student\""
+          }
+        ]
+      },
+      {
+        "level": 2,
+        "heading": "Present Tense with Different Word Types",
+        "content": "",
+        "children": [
+          {
+            "level": 3,
+            "heading": "Verbs",
+            "content": "食べる / 食べます \"eat / will eat\" 行く / 行きます \"go / will go\" 見る / 見ます \"see / will see\""
+          },
+          {
+            "level": 3,
+            "heading": "I-adjectives",
+            "content": "高い / 高いです \"is expensive\" 楽しい / 楽しいです \"is fun\" 大きい / 大きいです \"is big\""
+          },
+          {
+            "level": 3,
+            "heading": "Na-adjectives",
+            "content": "便利だ / 便利です \"is convenient\" 静かだ / 静かです \"is quiet\" 元気だ / 元気です \"is healthy/energetic\""
+          },
+          {
+            "level": 3,
+            "heading": "Nouns + Copula",
+            "content": "学生だ / 学生です \"is a student\" 先生だ / 先生です \"is a teacher\" 日本人だ / 日本人です \"is Japanese\""
+          }
+        ]
+      },
+      {
+        "level": 2,
+        "heading": "Expressing Future with Present Tense",
+        "content": "",
+        "children": [
+          {
+            "level": 3,
+            "heading": "Definite Plans",
+            "content": "明日東京に行く \"I will go to Tokyo tomorrow\" 来週友達が来る \"My friend will come next week\" 今晩パーティーがある \"There will be a party tonight\""
+          },
+          {
+            "level": 3,
+            "heading": "Scheduled Events",
+            "content": "授業は9時に始まる \"Class starts at 9 o'clock\" 電車は10分後に出発する \"The train departs in 10 minutes\""
+          },
+          {
+            "level": 3,
+            "heading": "Adding つもり for Intention",
+            "content": "来年日本に行くつもりだ \"I intend to go to Japan next year\" 大学で勉強するつもりです \"I intend to study at university\""
+          }
+        ]
+      },
+      {
+        "level": 2,
+        "heading": "Contextual Understanding",
+        "content": "Context determines whether present tense means \"now\" or \"future\":\n\n明日雨が降る \"It will rain tomorrow\" (future - 明日) 毎日雨が降る \"It rains every day\" (habitual - 毎日) 今雨が降っている \"It is raining now\" (current - ている)"
+      },
+      {
+        "level": 2,
+        "heading": "Politeness Considerations",
+        "content": "",
+        "children": [
+          {
+            "level": 3,
+            "heading": "Casual Settings",
+            "content": "行く \"go / will go\" 食べる \"eat / will eat\""
+          },
+          {
+            "level": 3,
+            "heading": "Polite Settings",
+            "content": "行きます \"go / will go\" 食べます \"eat / will eat\""
+          }
+        ]
+      },
+      {
+        "level": 2,
+        "heading": "Special Cases",
+        "content": "",
+        "children": [
+          {
+            "level": 3,
+            "heading": "ある and いる (Existence)",
+            "content": "ここに本がある \"There is a book here\" 誰かいる \"Someone is there\""
+          },
+          {
+            "level": 3,
+            "heading": "できる (Can/Ability)",
+            "content": "日本語ができる \"I can speak Japanese\" 泳ぐことができます \"I can swim\""
+          }
+        ]
+      },
+      {
+        "level": 2,
+        "heading": "Practice Sentences",
+        "content": "",
+        "children": [
+          {
+            "level": 3,
+            "heading": "Current State",
+            "content": "今日は暑い \"Today is hot\" 私は学生です \"I am a student\" ここは静かです \"Here is quiet\" 彼は忙しい \"He is busy\""
+          },
+          {
+            "level": 3,
+            "heading": "Habitual Actions",
+            "content": "毎日学校に行く \"I go to school every day\" 朝ごはんを食べます \"I eat breakfast\" よく本を読む \"I often read books\" いつも早く起きます \"I always wake up early\""
+          },
+          {
+            "level": 3,
+            "heading": "Future Events",
+            "content": "明日東京に行く \"I will go to Tokyo tomorrow\" 来週テストがあります \"There will be a test next week\" 今晩映画を見る \"I will watch a movie tonight\""
+          },
+          {
+            "level": 3,
+            "heading": "General Truths",
+            "content": "太陽は東から昇る \"The sun rises from the east\" 水は0度で凍る \"Water freezes at 0 degrees\" 猫は動物です \"Cats are animals\""
+          },
+          {
+            "level": 3,
+            "heading": "Questions",
+            "content": "何を食べますか？ \"What do you eat?\" いつ行きますか？ \"When will you go?\" どこに住んでいますか？ \"Where do you live?\" 毎日運動しますか？ \"Do you exercise every day?\""
+          }
+        ]
+      },
+      {
+        "level": 2,
+        "heading": "Related Grammar Points",
+        "content": "Past Tense Usage - Past forms 〜ている (te-iru) - Present progressive Future Expressions - Expressing future Time Words - Time expressions Frequency - Habitual actions Verb Conjugation - Basic forms",
+        "children": [
+          {
+            "level": 3,
+            "heading": "Company",
+            "content": "About Pricing Blog Contact"
+          },
+          {
+            "level": 3,
+            "heading": "Legal",
+            "content": "Privacy Policy Terms of Service Cookie Policy"
+          }
+        ]
+      }
+    ],
+    "metadata": {
+      "title": "Present Tense Usage"
+    }
+  },
+  "metadata": {
+    "extracted_at": "2026-01-01T22:19:34.050380700Z",
+    "duration_ms": 4,
+    "extractors_matched": [
+      "metadata",
+      "examples",
+      "sections"
+    ],
+    "extractors_failed": [
+      "vocab_tables",
+      "definitions",
+      "content_blocks"
+    ]
+  }
+}

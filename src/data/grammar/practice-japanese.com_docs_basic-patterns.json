@@ -1,0 +1,442 @@
+{
+  "config_name": "Language Learning Extractor",
+  "url": "https://practice-japanese.com/docs/basic-patterns/",
+  "data": {
+    "metadata": {
+      "title": "Basic Japanese Sentence Patterns"
+    },
+    "examples": [
+      {
+        "sentence": "食べる (taberu) - to eat"
+      },
+      {
+        "sentence": "飲む (nomu) - to drink"
+      },
+      {
+        "sentence": "見る (miru) - to see/watch"
+      },
+      {
+        "sentence": "聞く (kiku) - to listen/hear"
+      },
+      {
+        "sentence": "読む (yomu) - to read"
+      },
+      {
+        "sentence": "書く (kaku) - to write"
+      },
+      {
+        "sentence": "買う (kau) - to buy"
+      },
+      {
+        "sentence": "上 (ue) - on top, above"
+      },
+      {
+        "sentence": "下 (shita) - under, below"
+      },
+      {
+        "sentence": "中 (naka) - inside"
+      },
+      {
+        "sentence": "外 (soto) - outside"
+      },
+      {
+        "sentence": "前 (mae) - in front"
+      },
+      {
+        "sentence": "後ろ (ushiro) - behind"
+      },
+      {
+        "sentence": "隣 (tonari) - next to"
+      },
+      {
+        "sentence": "近く (chikaku) - near"
+      },
+      {
+        "sentence": "大好き (daisuki) - love, really like"
+      },
+      {
+        "sentence": "好き (suki) - like"
+      },
+      {
+        "sentence": "嫌い (kirai) - dislike"
+      },
+      {
+        "sentence": "大嫌い (daikirai) - hate, really dislike"
+      },
+      {
+        "sentence": "行く (iku) - to go"
+      },
+      {
+        "sentence": "来る (kuru) - to come"
+      },
+      {
+        "sentence": "帰る (kaeru) - to return home"
+      },
+      {
+        "sentence": "戻る (modoru) - to return, go back"
+      },
+      {
+        "sentence": "何 (nani/nan) - what"
+      },
+      {
+        "sentence": "誰 (dare) - who"
+      },
+      {
+        "sentence": "どこ (doko) - where"
+      },
+      {
+        "sentence": "いつ (itsu) - when"
+      },
+      {
+        "sentence": "どうして/なぜ (doushite/naze) - why"
+      },
+      {
+        "sentence": "どう (dou) - how"
+      },
+      {
+        "sentence": "I am [your name]"
+      },
+      {
+        "sentence": "I am a student"
+      },
+      {
+        "sentence": "I am from [country]"
+      },
+      {
+        "sentence": "食べる (eat)"
+      },
+      {
+        "sentence": "見る (watch/see)"
+      },
+      {
+        "sentence": "勉強する (study)"
+      },
+      {
+        "sentence": "There is a desk"
+      },
+      {
+        "sentence": "There is a computer"
+      },
+      {
+        "sentence": "There is a chair"
+      },
+      {
+        "sentence": "I like coffee"
+      },
+      {
+        "sentence": "I dislike vegetables"
+      },
+      {
+        "sentence": "I love music"
+      },
+      {
+        "sentence": "About"
+      },
+      {
+        "sentence": "Pricing"
+      },
+      {
+        "sentence": "Blog"
+      },
+      {
+        "sentence": "Contact"
+      },
+      {
+        "sentence": "Privacy Policy"
+      },
+      {
+        "sentence": "Terms of Service"
+      },
+      {
+        "sentence": "Cookie Policy"
+      }
+    ],
+    "sections": [
+      {
+        "level": 2,
+        "heading": "Pattern 1: X は Y です (X is Y)",
+        "content": "Structure: [Topic] は [Noun/Adjective] です Meaning: \"X is Y\" or \"As for X, it's Y\"\n\nThe most basic pattern for stating facts and introducing yourself.",
+        "children": [
+          {
+            "level": 3,
+            "heading": "Examples",
+            "content": "私は学生です。 Watashi wa gakusei desu. I (topic) student am. \"I am a student.\" これは本です。 Kore wa hon desu. This (topic) book is. \"This is a book.\" 東京は大きいです。 Toukyou wa ookii desu. Tokyo (topic) big is. \"Tokyo is big.\""
+          },
+          {
+            "level": 3,
+            "heading": "Making it Negative",
+            "content": "Add じゃないです (janai desu) or じゃありません (ja arimasen):\n\n私は学生じゃないです。 Watashi wa gakusei janai desu. \"I'm not a student.\" これは本じゃありません。 Kore wa hon ja arimasen. \"This is not a book.\""
+          },
+          {
+            "level": 3,
+            "heading": "Making it Past Tense",
+            "content": "Change です to でした (deshita):\n\n私は学生でした。 Watashi wa gakusei deshita. \"I was a student.\" 東京は寒かったです。 Toukyou wa samukatta desu. \"Tokyo was cold.\""
+          }
+        ]
+      },
+      {
+        "level": 2,
+        "heading": "Pattern 2: X は Y を V (X does V to Y)",
+        "content": "Structure: [Topic] は [Object] を [Verb] Meaning: \"X does [verb] to Y\"\n\nThis pattern describes actions with direct objects.",
+        "children": [
+          {
+            "level": 3,
+            "heading": "Examples",
+            "content": "私は本を読みます。 Watashi wa hon wo yomimasu. I (topic) book (object) read. \"I read books.\" 田中さんはコーヒーを飲みます。 Tanaka-san wa ko-hi- wo nomimasu. \"Tanaka drinks coffee.\" 学生は日本語を勉強します。 Gakusei wa nihongo wo benkyou shimasu. \"Students study Japanese.\""
+          },
+          {
+            "level": 3,
+            "heading": "Common Verbs",
+            "content": "食べる (taberu) - to eat 飲む (nomu) - to drink 見る (miru) - to see/watch 聞く (kiku) - to listen/hear 読む (yomu) - to read 書く (kaku) - to write 買う (kau) - to buy"
+          },
+          {
+            "level": 3,
+            "heading": "Making it Negative",
+            "content": "Change ます to ません:\n\n私は本を読みません。 Watashi wa hon wo yomimasen. \"I don't read books.\" コーヒーを飲みません。 Ko-hi- wo nomimasen. \"I don't drink coffee.\""
+          },
+          {
+            "level": 3,
+            "heading": "Making it Past Tense",
+            "content": "Change ます to ました:\n\n私は本を読みました。 Watashi wa hon wo yomimashita. \"I read a book.\""
+          }
+        ]
+      },
+      {
+        "level": 2,
+        "heading": "Pattern 3: X に Y があります/います (Y exists at X)",
+        "content": "Structure: [Location] に [Thing] が あります/います Meaning: \"There is Y at/in X\" or \"Y exists at X\"\n\nUse あります (arimasu) for inanimate objects, います (imasu) for living things.",
+        "children": [
+          {
+            "level": 3,
+            "heading": "Examples - Inanimate (あります)",
+            "content": "机の上に本があります。 Tsukue no ue ni hon ga arimasu. Desk top on book exists. \"There is a book on the desk.\" 冷蔵庫に牛乳があります。 Reizouko ni gyuunyuu ga arimasu. \"There is milk in the refrigerator.\" 駅の近くにコンビニがあります。 Eki no chikaku ni konbini ga arimasu. \"There's a convenience store near the station.\""
+          },
+          {
+            "level": 3,
+            "heading": "Examples - Animate (います)",
+            "content": "部屋に猫がいます。 Heya ni neko ga imasu. Room in cat exists. \"There is a cat in the room.\" 公園に子供がいます。 Kouen ni kodomo ga imasu. \"There are children in the park.\" 教室に先生がいます。 Kyoushitsu ni sensei ga imasu. \"There is a teacher in the classroom.\""
+          },
+          {
+            "level": 3,
+            "heading": "Common Location Words",
+            "content": "上 (ue) - on top, above 下 (shita) - under, below 中 (naka) - inside 外 (soto) - outside 前 (mae) - in front 後ろ (ushiro) - behind 隣 (tonari) - next to 近く (chikaku) - near"
+          }
+        ]
+      },
+      {
+        "level": 2,
+        "heading": "Pattern 4: X は Y が好きです (X likes Y)",
+        "content": "Structure: [Topic] は [Thing] が 好きです Meaning: \"X likes Y\"\n\nUse が (ga) to mark what you like, not を (wo).",
+        "children": [
+          {
+            "level": 3,
+            "heading": "Examples",
+            "content": "私は寿司が好きです。 Watashi wa sushi ga suki desu. I (topic) sushi (subject) like. \"I like sushi.\" 田中さんは音楽が好きです。 Tanaka-san wa ongaku ga suki desu. \"Tanaka likes music.\" 猫が好きです。 Neko ga suki desu. \"I like cats.\" [Subject implied]"
+          },
+          {
+            "level": 3,
+            "heading": "Dislike - 嫌い (kirai)",
+            "content": "私は野菜が嫌いです。 Watashi wa yasai ga kirai desu. \"I dislike vegetables.\""
+          },
+          {
+            "level": 3,
+            "heading": "Degrees of Like/Dislike",
+            "content": "大好き (daisuki) - love, really like 好き (suki) - like 嫌い (kirai) - dislike 大嫌い (daikirai) - hate, really dislike"
+          }
+        ]
+      },
+      {
+        "level": 2,
+        "heading": "Pattern 5: X は Y ができます (X can do Y)",
+        "content": "Structure: [Topic] は [Ability] が できます Meaning: \"X can do Y\" or \"X is able to Y\"",
+        "children": [
+          {
+            "level": 3,
+            "heading": "Examples",
+            "content": "私は日本語ができます。 Watashi wa nihongo ga dekimasu. I (topic) Japanese (subject) can. \"I can speak Japanese.\" 田中さんは料理ができます。 Tanaka-san wa ryouri ga dekimasu. \"Tanaka can cook.\" 泳ぐことができます。 Oyogu koto ga dekimasu. \"I can swim.\" [Literally: \"swimming thing can do\"]"
+          },
+          {
+            "level": 3,
+            "heading": "Negative - Cannot",
+            "content": "私は運転ができません。 Watashi wa unten ga dekimasen. \"I cannot drive.\""
+          }
+        ]
+      },
+      {
+        "level": 2,
+        "heading": "Pattern 6: X へ/に 行きます (Go to X)",
+        "content": "Structure: [Place] へ/に 行きます/来ます Meaning: \"Go to X\" or \"Come to X\"\n\nUse へ (e) or に (ni) for destination.",
+        "children": [
+          {
+            "level": 3,
+            "heading": "Examples",
+            "content": "学校に行きます。 Gakkou ni ikimasu. School to go. \"I go to school.\" 日本へ行きます。 Nihon e ikimasu. \"I will go to Japan.\" 家に帰ります。 Ie ni kaerimasu. \"I return home.\" ここに来ます。 Koko ni kimasu. \"I come here.\""
+          },
+          {
+            "level": 3,
+            "heading": "Common Verbs of Movement",
+            "content": "行く (iku) - to go 来る (kuru) - to come 帰る (kaeru) - to return home 戻る (modoru) - to return, go back"
+          }
+        ]
+      },
+      {
+        "level": 2,
+        "heading": "Pattern 7: X で Y をします (Do Y at/with X)",
+        "content": "Structure: [Place/Means] で [Action] をします Meaning: \"Do Y at X\" or \"Do Y by means of X\"\n\nThe particle で marks location of action or means.",
+        "children": [
+          {
+            "level": 3,
+            "heading": "Examples - Location",
+            "content": "図書館で勉強します。 Toshokan de benkyou shimasu. Library at study do. \"I study at the library.\" レストランで食べます。 Resutoran de tabemasu. \"I eat at a restaurant.\""
+          },
+          {
+            "level": 3,
+            "heading": "Examples - Means/Tool",
+            "content": "ペンで書きます。 Pen de kakimasu. Pen with write. \"I write with a pen.\" 日本語で話します。 Nihongo de hanashimasu. \"I speak in Japanese.\" 電車で行きます。 Densha de ikimasu. \"I go by train.\""
+          }
+        ]
+      },
+      {
+        "level": 2,
+        "heading": "Pattern 8: X は Y に Z をあげます (X gives Z to Y)",
+        "content": "Structure: [Giver] は [Receiver] に [Thing] を あげます Meaning: \"X gives Z to Y\"",
+        "children": [
+          {
+            "level": 3,
+            "heading": "Examples",
+            "content": "私は友達にプレゼントをあげます。 Watashi wa tomodachi ni purezento wo agemasu. I (topic) friend (to) present (object) give. \"I give a present to my friend.\" 先生は学生に本をあげます。 Sensei wa gakusei ni hon wo agemasu. \"The teacher gives books to students.\""
+          },
+          {
+            "level": 3,
+            "heading": "Receiving - もらいます (moraimasu)",
+            "content": "私は友達にプレゼントをもらいます。 Watashi wa tomodachi ni purezento wo moraimasu. \"I receive a present from my friend.\"\n\nSee: Giving and Receiving Verbs for more detail"
+          }
+        ]
+      },
+      {
+        "level": 2,
+        "heading": "Pattern 9: X は Y が欲しいです (X wants Y)",
+        "content": "Structure: [Topic] は [Thing] が 欲しいです Meaning: \"X wants Y\" (for things)",
+        "children": [
+          {
+            "level": 3,
+            "heading": "Examples",
+            "content": "私は新しい車が欲しいです。 Watashi wa atarashii kuruma ga hoshii desu. I (topic) new car (subject) want. \"I want a new car.\" 水が欲しいです。 Mizu ga hoshii desu. \"I want water.\""
+          },
+          {
+            "level": 3,
+            "heading": "Want to DO something - たい (tai)",
+            "content": "For actions, use verb stem + たい:\n\n寿司を食べたいです。 Sushi wo tabetai desu. \"I want to eat sushi.\" 日本に行きたいです。 Nihon ni ikitai desu. \"I want to go to Japan.\"\n\nSee: Expressing Desires for complete guide"
+          }
+        ]
+      },
+      {
+        "level": 2,
+        "heading": "Pattern 10: Question Pattern",
+        "content": "Structure: [Statement] + か Meaning: Turns statement into question\n\nSimply add か (ka) to the end.",
+        "children": [
+          {
+            "level": 3,
+            "heading": "Examples",
+            "content": "これは本ですか？ Kore wa hon desu ka? \"Is this a book?\" 日本語が分かりますか？ Nihongo ga wakarimasu ka? \"Do you understand Japanese?\" どこに行きますか？ Doko ni ikimasu ka? \"Where are you going?\""
+          },
+          {
+            "level": 3,
+            "heading": "Question Words",
+            "content": "何 (nani/nan) - what 誰 (dare) - who どこ (doko) - where いつ (itsu) - when どうして/なぜ (doushite/naze) - why どう (dou) - how\n\nSee: Question Patterns for detailed guide"
+          }
+        ]
+      },
+      {
+        "level": 2,
+        "heading": "Combining Patterns",
+        "content": "Real sentences often combine multiple patterns:\n\n私は図書館で日本語の本を読みました。 Watashi wa toshokan de nihongo no hon wo yomimashita. \"I read a Japanese book at the library.\" [Pattern 2: を Verb] + [Pattern 7: で location]\n\n田中さんは寿司が好きですが、私は嫌いです。 Tanaka-san wa sushi ga suki desu ga, watashi wa kirai desu. \"Tanaka likes sushi, but I dislike it.\" [Pattern 4: Likes] + が (but) + [Pattern 4: Dislikes]"
+      },
+      {
+        "level": 2,
+        "heading": "Practice Exercises",
+        "content": "Try creating sentences with these patterns:",
+        "children": [
+          {
+            "level": 3,
+            "heading": "Exercise 1: Introduction",
+            "content": "Use Pattern 1 to introduce yourself:\n\nI am [your name] I am a student I am from [country]"
+          },
+          {
+            "level": 3,
+            "heading": "Exercise 2: Daily Actions",
+            "content": "Use Pattern 2 with these verbs:\n\n食べる (eat) 見る (watch/see) 勉強する (study)"
+          },
+          {
+            "level": 3,
+            "heading": "Exercise 3: Locations",
+            "content": "Use Pattern 3 to describe your room:\n\nThere is a desk There is a computer There is a chair"
+          },
+          {
+            "level": 3,
+            "heading": "Exercise 4: Preferences",
+            "content": "Use Pattern 4 for likes/dislikes:\n\nI like coffee I dislike vegetables I love music"
+          }
+        ]
+      },
+      {
+        "level": 2,
+        "heading": "Common Mistakes",
+        "content": "",
+        "children": [
+          {
+            "level": 3,
+            "heading": "Mistake 1: Wrong Particle",
+            "content": "Wrong: 私は本が読みます ❌ Right: 私は本を読みます ✓\n\nUse を for direct objects of action verbs."
+          },
+          {
+            "level": 3,
+            "heading": "Mistake 2: Missing Topic",
+            "content": "Wrong: 学生です ❌ (without context) Right: 私は学生です ✓\n\nInclude は topic marker when introducing new information."
+          },
+          {
+            "level": 3,
+            "heading": "Mistake 3: が vs を with 好き",
+            "content": "Wrong: 寿司を好きです ❌ Right: 寿司が好きです ✓\n\n好き、嫌い、上手、下手 always use が."
+          },
+          {
+            "level": 3,
+            "heading": "Mistake 4: あります vs います",
+            "content": "Wrong: 部屋に猫があります ❌ Right: 部屋に猫がいます ✓\n\nLiving things use います, inanimate objects use あります."
+          }
+        ]
+      },
+      {
+        "level": 2,
+        "heading": "Summary Chart",
+        "content": "| Pattern | Structure | Example | Meaning | | ------- | -------------------- | ---------------- | ------------- | | 1 | X は Y です | 私は学生です | X is Y | | 2 | X は Y を V | 本を読みます | Do V to Y | | 3 | X に Y があります | 机に本がある | Y exists at X | | 4 | X は Y が好き | 寿司が好き | X likes Y | | 5 | X は Y ができる | 日本語ができる | X can do Y | | 6 | X へ/に 行く | 学校に行く | Go to X | | 7 | X で Y をする | 図書館で勉強 | Do Y at X | | 8 | X は Y に Z をあげる | 友達に本をあげる | Give Z to Y | | 9 | X は Y が欲しい | 車が欲しい | Want Y | | 10 | Statement + か | 学生ですか | Question |",
+        "children": [
+          {
+            "level": 3,
+            "heading": "Company",
+            "content": "About Pricing Blog Contact"
+          },
+          {
+            "level": 3,
+            "heading": "Legal",
+            "content": "Privacy Policy Terms of Service Cookie Policy"
+          }
+        ]
+      }
+    ]
+  },
+  "metadata": {
+    "extracted_at": "2026-01-01T22:19:27.781536100Z",
+    "duration_ms": 3,
+    "extractors_matched": [
+      "metadata",
+      "examples",
+      "sections"
+    ],
+    "extractors_failed": [
+      "vocab_tables",
+      "definitions",
+      "content_blocks"
+    ]
+  }
+}

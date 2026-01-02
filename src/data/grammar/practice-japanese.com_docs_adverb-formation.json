@@ -1,0 +1,298 @@
+{
+  "config_name": "Language Learning Extractor",
+  "url": "https://practice-japanese.com/docs/adverb-formation/",
+  "data": {
+    "examples": [
+      {
+        "sentence": "About"
+      },
+      {
+        "sentence": "Pricing"
+      },
+      {
+        "sentence": "Blog"
+      },
+      {
+        "sentence": "Contact"
+      },
+      {
+        "sentence": "Privacy Policy"
+      },
+      {
+        "sentence": "Terms of Service"
+      },
+      {
+        "sentence": "Cookie Policy"
+      }
+    ],
+    "sections": [
+      {
+        "level": 2,
+        "heading": "What is Adverb Formation?",
+        "content": "Adverb formation in Japanese turns adjectives into adverbs that modify verbs, adjectives, or sentences. い-adjectives change to く form, while な-adjectives take に. These adverbs describe how, when, or to what degree an action occurs.\n\n速い (fast - adjective) → 速く (fast - adverb) 速く走る \"run fast\" 静か (quiet - adjective) → 静かに (quietly - adverb) 静かに話す \"speak quietly\""
+      },
+      {
+        "level": 2,
+        "heading": "い-Adjective Adverbs",
+        "content": "",
+        "children": [
+          {
+            "level": 3,
+            "heading": "Formation: drop い, add く",
+            "content": "高い → 高く \"highly/expensive-ly\" 速い → 速く \"fast\" 強い → 強く \"strongly\" 早い → 早く \"early\" 多い → 多く \"much/many\" 高く飛ぶ \"fly high\" 速く走る \"run fast\" 強く押す \"push strongly\""
+          },
+          {
+            "level": 3,
+            "heading": "Usage with verbs",
+            "content": "早く起きる \"Wake up early\" 大きく開ける \"Open widely\" 小さく書く \"Write small\" Modifies the verb"
+          }
+        ]
+      },
+      {
+        "level": 2,
+        "heading": "な-Adjective Adverbs",
+        "content": "",
+        "children": [
+          {
+            "level": 3,
+            "heading": "Formation: adjective + に",
+            "content": "静か → 静かに \"quietly\" きれい → きれいに \"beautifully/cleanly\" 元気 → 元気に \"energetically\" 丁寧 → 丁寧に \"politely/carefully\" 真面目 → 真面目に \"seriously\" 静かに話す \"speak quietly\" きれいに書く \"write neatly\" 元気に遊ぶ \"play energetically\""
+          },
+          {
+            "level": 3,
+            "heading": "Usage",
+            "content": "丁寧に教える \"Teach carefully\" 真面目に勉強する \"Study seriously\" Describes manner"
+          }
+        ]
+      },
+      {
+        "level": 2,
+        "heading": "Common い-Adjective Adverbs",
+        "content": "",
+        "children": [
+          {
+            "level": 3,
+            "heading": "Degree and extent",
+            "content": "多く \"much/many\" 少なく \"few/little\" 長く \"long (time/length)\" 短く \"short\" 広く \"widely\" 深く \"deeply\" 多く食べる \"eat a lot\" 長く続ける \"continue for long\""
+          },
+          {
+            "level": 3,
+            "heading": "Speed and intensity",
+            "content": "速く \"fast\" 遅く \"slow\" 強く \"strongly\" 弱く \"weakly\" 激しく \"intensely\" 速く走る \"run fast\" 強く打つ \"hit strongly\""
+          },
+          {
+            "level": 3,
+            "heading": "Quality",
+            "content": "良く/よく \"well\" 悪く \"badly\" 正しく \"correctly\" 詳しく \"in detail\" よく分かる \"understand well\" 正しく使う \"use correctly\""
+          }
+        ]
+      },
+      {
+        "level": 2,
+        "heading": "Common な-Adjective Adverbs",
+        "content": "",
+        "children": [
+          {
+            "level": 3,
+            "heading": "Manner",
+            "content": "静かに \"quietly\" 丁寧に \"carefully/politely\" 簡単に \"easily\" 楽に \"comfortably/easily\" 自由に \"freely\" 静かに歩く \"walk quietly\" 簡単に解ける \"solve easily\""
+          },
+          {
+            "level": 3,
+            "heading": "State",
+            "content": "元気に \"energetically\" 健康に \"healthily\" 幸せに \"happily\" 安全に \"safely\" 元気に挨拶する \"greet energetically\" 安全に運転する \"drive safely\""
+          }
+        ]
+      },
+      {
+        "level": 2,
+        "heading": "Special Cases",
+        "content": "",
+        "children": [
+          {
+            "level": 3,
+            "heading": "いい/よい → よく",
+            "content": "いい → よく (irregular) \"good\" → \"well\" よく分かる \"understand well\" よく見る \"look carefully\" よく寝る \"sleep well\" Irregular formation Most common adverb"
+          },
+          {
+            "level": 3,
+            "heading": "同じ → 同じように",
+            "content": "同じ → 同じように \"same\" → \"in the same way\" 同じように作る \"Make in the same way\" Pre-noun adjective Needs ように"
+          }
+        ]
+      },
+      {
+        "level": 2,
+        "heading": "Modifying Other Adjectives",
+        "content": "",
+        "children": [
+          {
+            "level": 3,
+            "heading": "Adverb + adjective",
+            "content": "とても大きい \"Very big\" すごく美味しい \"Extremely delicious\" 少し難しい \"A little difficult\" Degree modification"
+          }
+        ]
+      },
+      {
+        "level": 2,
+        "heading": "Negative Adverbs",
+        "content": "",
+        "children": [
+          {
+            "level": 3,
+            "heading": "With ない",
+            "content": "高くない \"Not expensive\" 静かじゃない/静かでない \"Not quiet\" Used with negative forms"
+          }
+        ]
+      },
+      {
+        "level": 2,
+        "heading": "Adverbs Modifying Adverbs",
+        "content": "とても速く走る \"Run very fast\" もっと静かに話す \"Speak more quietly\" かなり詳しく説明する \"Explain quite in detail\" Layered modification"
+      },
+      {
+        "level": 2,
+        "heading": "Position in Sentence",
+        "content": "",
+        "children": [
+          {
+            "level": 3,
+            "heading": "Before what it modifies",
+            "content": "速く走る \"Run fast\" (modifies verb) とても美味しい \"Very delicious\" (modifies adjective) Usually precedes"
+          }
+        ]
+      },
+      {
+        "level": 2,
+        "heading": "Contractions in Speech",
+        "content": "",
+        "children": [
+          {
+            "level": 3,
+            "heading": "Casual forms",
+            "content": "すごく → すげー (very casual) めっちゃ (Kansai: very) ちょー (slang: super) Informal speech Regional variations"
+          }
+        ]
+      },
+      {
+        "level": 2,
+        "heading": "Common Patterns",
+        "content": "",
+        "children": [
+          {
+            "level": 3,
+            "heading": "よく + verb",
+            "content": "よく分かる \"understand well\" よく知る \"know well\" よく見る \"often see/look carefully\" よく食べる \"eat often/well\" Multiple meanings Context dependent"
+          },
+          {
+            "level": 3,
+            "heading": "早く + verb",
+            "content": "早く起きる \"wake up early\" 早く来る \"come early\" 早く終わる \"finish early\" Time-related"
+          }
+        ]
+      },
+      {
+        "level": 2,
+        "heading": "Adverbs from Nouns",
+        "content": "",
+        "children": [
+          {
+            "level": 3,
+            "heading": "Noun + に",
+            "content": "毎日 → 毎日に (rare) Usually: 毎日 (functions as adverb) 一生懸命 → 一生懸命に \"with all one's might\" 一緒 → 一緒に \"together\" Some nouns become adverbs"
+          }
+        ]
+      },
+      {
+        "level": 2,
+        "heading": "Common Mistakes",
+        "content": "",
+        "children": [
+          {
+            "level": 3,
+            "heading": "Wrong ending",
+            "content": "Wrong: 速いに ⚠️ Correct: 速く ✓ \"Fast\" い-adjectives use く"
+          },
+          {
+            "level": 3,
+            "heading": "Forgetting に",
+            "content": "Wrong: 静か話す ⚠️ Correct: 静かに話す ✓ \"Speak quietly\" な-adjectives need に"
+          },
+          {
+            "level": 3,
+            "heading": "Using adjective form with verbs",
+            "content": "Wrong: 速い走る ⚠️ Correct: 速く走る ✓ \"Run fast\" Must convert to adverb"
+          }
+        ]
+      },
+      {
+        "level": 2,
+        "heading": "Multiple Adverbs",
+        "content": "",
+        "children": [
+          {
+            "level": 3,
+            "heading": "Stacking",
+            "content": "とても速く走る \"Run very fast\" もっときれいに書く \"Write more neatly\" Can layer adverbs"
+          }
+        ]
+      },
+      {
+        "level": 2,
+        "heading": "Intensifiers",
+        "content": "",
+        "children": [
+          {
+            "level": 3,
+            "heading": "Common intensifying adverbs",
+            "content": "とても \"very\" すごく \"extremely\" 非常に \"extremely\" (formal) かなり \"quite/considerably\" ちょっと/少し \"a little\" あまり \"not very\" (with negative) Modify degree"
+          }
+        ]
+      },
+      {
+        "level": 2,
+        "heading": "Practice Sentences",
+        "content": "",
+        "children": [
+          {
+            "level": 3,
+            "heading": "Basic",
+            "content": "速く走る \"Run fast\" 静かに話す \"Speak quietly\" よく分かる \"Understand well\" 早く起きる \"Wake up early\" きれいに書く \"Write neatly\" 丁寧に教える \"Teach carefully\""
+          },
+          {
+            "level": 3,
+            "heading": "Intermediate",
+            "content": "もっと速く走らないと、 間に合わない。 \"If you don't run faster, you won't make it.\" 静かに話してください。 赤ちゃんが寝ています。 \"Please speak quietly. The baby is sleeping.\" この仕事は丁寧にやらなければ ならない。時間をかけて、 正しく進めましょう。 \"This work must be done carefully. Let's take our time and proceed correctly.\" 毎日一生懸命に日本語を 勉強している。少しずつだが、 よく分かるようになってきた。 \"I'm studying Japanese hard every day. Little by little, I've come to understand well.\""
+          },
+          {
+            "level": 3,
+            "heading": "Company",
+            "content": "About Pricing Blog Contact"
+          },
+          {
+            "level": 3,
+            "heading": "Legal",
+            "content": "Privacy Policy Terms of Service Cookie Policy"
+          }
+        ]
+      }
+    ],
+    "metadata": {
+      "title": "Adverb Formation"
+    }
+  },
+  "metadata": {
+    "extracted_at": "2026-01-01T22:19:28.004002Z",
+    "duration_ms": 3,
+    "extractors_matched": [
+      "metadata",
+      "examples",
+      "sections"
+    ],
+    "extractors_failed": [
+      "vocab_tables",
+      "definitions",
+      "content_blocks"
+    ]
+  }
+}

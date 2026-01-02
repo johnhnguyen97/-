@@ -1,0 +1,328 @@
+{
+  "config_name": "Language Learning Extractor",
+  "url": "https://practice-japanese.com/docs/wasureru/",
+  "data": {
+    "metadata": {
+      "title": "〜忘れる (wasureru) - Forget to"
+    },
+    "sections": [
+      {
+        "level": 2,
+        "heading": "〜忘れる (wasureru) - Forget To",
+        "content": "〜忘れる attaches to verb stems to indicate forgetting to do an action . It expresses that an action was supposed to happen but didn't because it was forgotten.\n\nVerb stem + 忘れる 持って行き忘れる - forget to bring 買い忘れる - forget to buy 言い忘れる - forget to say Action not done Due to forgetting Unintentional omission"
+      },
+      {
+        "level": 2,
+        "heading": "Formation",
+        "content": "",
+        "children": [
+          {
+            "level": 3,
+            "heading": "Basic pattern",
+            "content": "る-verbs: 食べる → 食べ忘れる \"forget to eat\" 見る → 見忘れる \"forget to watch\" 閉める → 閉め忘れる \"forget to close\" う-verbs: 買う → 買い忘れる \"forget to buy\" 書く → 書き忘れる \"forget to write\" 消す → 消し忘れる \"forget to turn off\" Irregular: する → し忘れる \"forget to do\" 持って来る → 持って来忘れる (awkward, less common)"
+          }
+        ]
+      },
+      {
+        "level": 2,
+        "heading": "Core Meaning",
+        "content": "",
+        "children": [
+          {
+            "level": 3,
+            "heading": "Unintentional non-action",
+            "content": "宿題をし忘れた \"Forgot to do homework\" Intended to do it But forgot Action didn't happen 電気を消し忘れた \"Forgot to turn off the lights\" Should have done it Slipped mind Now realizes mistake"
+          }
+        ]
+      },
+      {
+        "level": 2,
+        "heading": "Common Contexts",
+        "content": "",
+        "children": [
+          {
+            "level": 3,
+            "heading": "Daily forgetfulness",
+            "content": "傘を持って行き忘れた \"Forgot to bring umbrella\" ドアに鍵をかけ忘れた \"Forgot to lock the door\" メールの返事を書き忘れた \"Forgot to write email reply\" Common mistakes Everyday forgetfulness Realizing omission"
+          },
+          {
+            "level": 3,
+            "heading": "Bringing and taking",
+            "content": "持って行き忘れる \"Forget to bring (when going)\" 持って帰り忘れる \"Forget to bring back\" 持ってくるのを忘れた \"Forgot to bring (when coming)\" Movement + forgetting Very common pattern"
+          },
+          {
+            "level": 3,
+            "heading": "Communication",
+            "content": "言い忘れる \"Forget to say/tell\" 伝え忘れる \"Forget to convey\" 連絡し忘れる \"Forget to contact\" Message not delivered Communication gap"
+          },
+          {
+            "level": 3,
+            "heading": "Tasks and duties",
+            "content": "提出し忘れる \"Forget to submit\" 予約し忘れる \"Forget to make reservation\" 支払い忘れる \"Forget to pay\" Obligations missed Responsibilities overlooked"
+          }
+        ]
+      },
+      {
+        "level": 2,
+        "heading": "Structure Variations",
+        "content": "",
+        "children": [
+          {
+            "level": 3,
+            "heading": "Using の construction",
+            "content": "Both patterns possible: Compound: 買い忘れた \"forgot to buy\" の-construction: 買うのを忘れた \"forgot to buy\" Compound = more concise の-construction = more explicit Both natural and common"
+          }
+        ]
+      },
+      {
+        "level": 2,
+        "heading": "Directional Compounds",
+        "content": "",
+        "children": [
+          {
+            "level": 3,
+            "heading": "With movement verbs",
+            "content": "持って行き忘れる \"Forget to take (going)\" 持って帰り忘れる \"Forget to bring back\" 連れて行き忘れる \"Forget to take (someone)\" Complex but natural Directional meaning preserved"
+          }
+        ]
+      },
+      {
+        "level": 2,
+        "heading": "Realizing the Mistake",
+        "content": "",
+        "children": [
+          {
+            "level": 3,
+            "heading": "Common follow-up",
+            "content": "あ、忘れた！ \"Oh, I forgot!\" 宿題をし忘れた！ \"I forgot to do homework!\" Often with realization Sudden awareness Moment of recognition"
+          }
+        ]
+      },
+      {
+        "level": 2,
+        "heading": "Asking if Forgotten",
+        "content": "",
+        "children": [
+          {
+            "level": 3,
+            "heading": "Checking",
+            "content": "何か忘れていない？ \"Haven't you forgotten something?\" 買い忘れたものはない？ \"Is there anything you forgot to buy?\" Checking for omissions Reminding others"
+          }
+        ]
+      },
+      {
+        "level": 2,
+        "heading": "Apologizing for Forgetting",
+        "content": "",
+        "children": [
+          {
+            "level": 3,
+            "heading": "Taking responsibility",
+            "content": "すみません、言い忘れました \"Sorry, I forgot to tell you\" ごめん、持ってくるの忘れた \"Sorry, forgot to bring it\" Acknowledgment Apology Common social situation"
+          }
+        ]
+      },
+      {
+        "level": 2,
+        "heading": "With ている",
+        "content": "",
+        "children": [
+          {
+            "level": 3,
+            "heading": "Forgotten state",
+            "content": "消し忘れている \"Have forgotten to turn off (still off)\" Current state resulting from forgetting Action still undone Ongoing consequence"
+          }
+        ]
+      },
+      {
+        "level": 2,
+        "heading": "Negative Forms",
+        "content": "",
+        "children": [
+          {
+            "level": 3,
+            "heading": "Didn't forget",
+            "content": "忘れなかった \"Didn't forget\" 買い忘れることはなかった \"There was no forgetting to buy\" Successfully remembered Emphasizing completion"
+          }
+        ]
+      },
+      {
+        "level": 2,
+        "heading": "Transitivity",
+        "content": "",
+        "children": [
+          {
+            "level": 3,
+            "heading": "Maintains verb pattern",
+            "content": "Transitive verbs: 宿題をし忘れる \"forget to do homework\" 本を返し忘れる \"forget to return book\" Intransitive verbs: 行き忘れる \"forget to go\" 来忘れる (rare/awkward) Object patterns preserved"
+          }
+        ]
+      },
+      {
+        "level": 2,
+        "heading": "Caution and Reminders",
+        "content": "",
+        "children": [
+          {
+            "level": 3,
+            "heading": "Warnings",
+            "content": "忘れないでね \"Don't forget, okay?\" 買い忘れないように \"So that you don't forget to buy\" Preventive reminders Careful warnings"
+          }
+        ]
+      },
+      {
+        "level": 2,
+        "heading": "Common Collocations",
+        "content": "持って行き忘れる - forget to bring Very common 買い忘れる - forget to buy Shopping context 言い忘れる - forget to say Communication 消し忘れる - forget to turn off Household 閉め忘れる - forget to close Doors, windows These are natural combinations Learn as phrases"
+      },
+      {
+        "level": 2,
+        "heading": "Formality",
+        "content": "",
+        "children": [
+          {
+            "level": 3,
+            "heading": "Neutral usage",
+            "content": "Can use in: - Casual: 忘れた - Polite: 忘れました - Written: 忘れた Adjust with conjugation Not inherently formal/casual"
+          }
+        ]
+      },
+      {
+        "level": 2,
+        "heading": "Conjugation",
+        "content": "",
+        "children": [
+          {
+            "level": 3,
+            "heading": "Regular る-verb",
+            "content": "忘れる is a る-verb: Present: 忘れる Past: 忘れた Negative: 忘れない Te-form: 忘れて Potential: 忘れられる Volitional: 忘れよう Standard conjugations"
+          }
+        ]
+      },
+      {
+        "level": 2,
+        "heading": "Double Negative Confusion",
+        "content": "",
+        "children": [
+          {
+            "level": 3,
+            "heading": "\"Don't forget to\"",
+            "content": "忘れないで \"Don't forget\" 買うのを忘れないで \"Don't forget to buy\" 忘れずに \"Without forgetting\" Negative + forget = remember Common reminder pattern"
+          }
+        ]
+      },
+      {
+        "level": 2,
+        "heading": "Standalone 忘れる",
+        "content": "",
+        "children": [
+          {
+            "level": 3,
+            "heading": "As independent verb",
+            "content": "Standalone meaning: 名前を忘れた \"Forgot (someone's) name\" パスワードを忘れた \"Forgot password\" Forgetting information/things Compound meaning: 買い忘れた \"Forgot to buy\" Forgetting to do action Different but related uses"
+          }
+        ]
+      },
+      {
+        "level": 2,
+        "heading": "Emphasis on Accident",
+        "content": "",
+        "children": [
+          {
+            "level": 3,
+            "heading": "Unintentional nature",
+            "content": "Using 忘れる emphasizes: - Not on purpose - Accident/mistake - Didn't mean to omit - Memory failure わざと忘れたわけじゃない \"Didn't forget on purpose\" Excuse/explanation Lack of intention"
+          }
+        ]
+      },
+      {
+        "level": 2,
+        "heading": "Prevention Strategies",
+        "content": "",
+        "children": [
+          {
+            "level": 3,
+            "heading": "Reminders",
+            "content": "忘れないようにメモする \"Take notes so I don't forget\" 忘れないためにアラームをセットした \"Set alarm so I wouldn't forget\" リマインダーを設定する \"Set a reminder\" Proactive measures Learning from mistakes"
+          }
+        ]
+      },
+      {
+        "level": 2,
+        "heading": "In Conditional",
+        "content": "",
+        "children": [
+          {
+            "level": 3,
+            "heading": "\"If forget\"",
+            "content": "もし忘れたら、電話して \"If (you) forget, call me\" 買い忘れたら、また行く \"If (I) forget to buy, (I'll) go again\" Contingency planning Backup plans"
+          }
+        ]
+      },
+      {
+        "level": 2,
+        "heading": "Common Mistakes",
+        "content": "❌ Using dictionary form ✗ 買う忘れる ✓ Using stem form ✓ 買い忘れる ❌ Confusing with 忘れている 忘れている = have forgotten (state) 忘れる = forget to do (action) ✓ Understand difference in meaning ❌ Wrong particle ✗ 買い忘れるを ✓ Correct structure ✓ 買い忘れる ✓ 買うのを忘れる"
+      },
+      {
+        "level": 2,
+        "heading": "Practical Examples",
+        "content": "",
+        "children": [
+          {
+            "level": 3,
+            "heading": "Real-life situations",
+            "content": "あ、財布を持って来忘れた！ \"Oh, I forgot to bring my wallet!\" ごめん、返事するの忘れてた \"Sorry, I forgot to reply\" 窓を閉め忘れて出かけた \"Left without closing the window (forgot to close)\" 電気を消し忘れないでね \"Don't forget to turn off the lights, okay?\" 傘を持って帰り忘れた \"Forgot to bring back my umbrella\" メールで送るのを忘れた \"Forgot to send (it) by email\" Everyday situations Common mistakes Natural contexts Apologizing and explaining"
+          },
+          {
+            "level": 3,
+            "heading": "Company",
+            "content": "About Pricing Blog Contact"
+          },
+          {
+            "level": 3,
+            "heading": "Legal",
+            "content": "Privacy Policy Terms of Service Cookie Policy"
+          }
+        ]
+      }
+    ],
+    "examples": [
+      {
+        "sentence": "About"
+      },
+      {
+        "sentence": "Pricing"
+      },
+      {
+        "sentence": "Blog"
+      },
+      {
+        "sentence": "Contact"
+      },
+      {
+        "sentence": "Privacy Policy"
+      },
+      {
+        "sentence": "Terms of Service"
+      },
+      {
+        "sentence": "Cookie Policy"
+      }
+    ]
+  },
+  "metadata": {
+    "extracted_at": "2026-01-01T22:19:37.827754700Z",
+    "duration_ms": 3,
+    "extractors_matched": [
+      "metadata",
+      "examples",
+      "sections"
+    ],
+    "extractors_failed": [
+      "vocab_tables",
+      "definitions",
+      "content_blocks"
+    ]
+  }
+}

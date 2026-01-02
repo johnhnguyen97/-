@@ -1,0 +1,430 @@
+{
+  "config_name": "Language Learning Extractor",
+  "url": "https://practice-japanese.com/docs/te-oku/",
+  "data": {
+    "sections": [
+      {
+        "level": 2,
+        "heading": "What is 〜ておく (te-oku)?",
+        "content": "〜ておく expresses doing something in advance for future convenience or leaving something in a certain state. It emphasizes preparation or completing an action before it's needed.\n\n[Verb te-form] + おく 買っておく \"buy (in advance)\" 調べておく \"look up (beforehand)\""
+      },
+      {
+        "level": 2,
+        "heading": "Formation",
+        "content": "",
+        "children": [
+          {
+            "level": 3,
+            "heading": "Basic Pattern",
+            "content": "Verb (te-form) + おく Plain: 〜ておく Polite: 〜ておきます 読んでおく / 読んでおきます \"read (in advance)\" 準備しておく / 準備しておきます \"prepare (beforehand)\""
+          }
+        ]
+      },
+      {
+        "level": 2,
+        "heading": "Two Main Meanings",
+        "content": "",
+        "children": [
+          {
+            "level": 3,
+            "heading": "1. Preparation (Do in Advance)",
+            "content": "Doing something beforehand for future use or convenience.\n\n宿題をしておく \"do homework (in advance)\" 予約しておく \"make a reservation (beforehand)\" 買っておく \"buy (in advance)\" 調べておく \"look up (beforehand)\" 勉強しておく \"study (in advance)\""
+          },
+          {
+            "level": 3,
+            "heading": "2. Leave As Is",
+            "content": "Leaving something in a state intentionally.\n\n窓を開けておく \"leave the window open\" 電気をつけておく \"leave the light on\" そのままにしておく \"leave it as it is\" 置いておく \"leave it there\" 待っておく \"wait (and stay waiting)\""
+          }
+        ]
+      },
+      {
+        "level": 2,
+        "heading": "Common Usage Patterns",
+        "content": "",
+        "children": [
+          {
+            "level": 3,
+            "heading": "〜ておいた方がいい (had better do in advance)",
+            "content": "予約しておいた方がいいよ \"You'd better make a reservation in advance\" 確認しておいた方がいい \"You'd better check beforehand\" 準備しておいた方がいい \"You'd better prepare in advance\""
+          },
+          {
+            "level": 3,
+            "heading": "〜ておいてください (please do in advance)",
+            "content": "明日までに読んでおいてください \"Please read it by tomorrow\" 調べておいてください \"Please look it up (beforehand)\" 準備しておいてください \"Please prepare it (in advance)\""
+          },
+          {
+            "level": 3,
+            "heading": "もう〜ておいた (already did in advance)",
+            "content": "もう買っておいた \"I already bought it\" もう予約しておいた \"I already made a reservation\" もう調べておいた \"I already looked it up\""
+          },
+          {
+            "level": 3,
+            "heading": "〜ておこう (let's do in advance)",
+            "content": "Volitional form expressing intention to prepare.\n\n予約しておこう \"Let's make a reservation (in advance)\" 買っておこう \"Let's buy it (now for later)\" 準備しておこう \"Let's prepare (beforehand)\" 調べておこう \"Let's look it up (now)\""
+          }
+        ]
+      },
+      {
+        "level": 2,
+        "heading": "Casual Contraction: とく",
+        "content": "In casual speech, ておく contracts to とく:\n\n買っておく → 買っとく 読んでおく → 読んどく しておく → しとく 調べておく → 調べとく Examples: 買っとくね \"I'll buy it (in advance)\" 読んどいて \"Read it (beforehand)\" 準備しといて \"Prepare it (in advance)\""
+      },
+      {
+        "level": 2,
+        "heading": "Negative Form",
+        "content": "",
+        "children": [
+          {
+            "level": 3,
+            "heading": "〜ておかない",
+            "content": "予約しておかない \"won't make a reservation in advance\" 準備しておかない \"won't prepare beforehand\" 買っておかない \"won't buy in advance\""
+          },
+          {
+            "level": 3,
+            "heading": "〜ておかなくてもいい",
+            "content": "予約しておかなくてもいい \"don't need to reserve in advance\" 準備しておかなくてもいい \"don't need to prepare beforehand\""
+          },
+          {
+            "level": 3,
+            "heading": "〜ておかないと (if don't do in advance)",
+            "content": "予約しておかないと、入れない \"If we don't reserve, we can't get in\" 勉強しておかないと、テストができない \"If I don't study beforehand, I can't do the test\""
+          }
+        ]
+      },
+      {
+        "level": 2,
+        "heading": "Past Form",
+        "content": "",
+        "children": [
+          {
+            "level": 3,
+            "heading": "〜ておいた",
+            "content": "買っておいた \"bought (in advance)\" 予約しておいた \"made a reservation (beforehand)\" 準備しておいた \"prepared (in advance)\" 調べておいた \"looked up (beforehand)\""
+          }
+        ]
+      },
+      {
+        "level": 2,
+        "heading": "Comparison with Similar Patterns",
+        "content": "",
+        "children": [
+          {
+            "level": 3,
+            "heading": "ておく vs てある",
+            "content": "ておく: Action of preparing 食べ物を買っておく \"buy food (in advance)\" てある: Result of preparation 食べ物が買ってある \"food has been bought\""
+          },
+          {
+            "level": 3,
+            "heading": "ておく vs ている",
+            "content": "ておく: Deliberate preparation 窓を開けておく \"leave window open (on purpose)\" ている: Current state 窓が開いている \"window is open\""
+          }
+        ]
+      },
+      {
+        "level": 2,
+        "heading": "Common Verbs with ておく",
+        "content": "",
+        "children": [
+          {
+            "level": 3,
+            "heading": "Study and Work",
+            "content": "勉強しておく - study in advance 準備しておく - prepare beforehand 練習しておく - practice beforehand 確認しておく - check in advance"
+          },
+          {
+            "level": 3,
+            "heading": "Daily Activities",
+            "content": "買っておく - buy in advance 作っておく - make beforehand 用意しておく - prepare beforehand 予約しておく - reserve in advance"
+          },
+          {
+            "level": 3,
+            "heading": "Information Gathering",
+            "content": "調べておく - look up beforehand 聞いておく - ask in advance 読んでおく - read beforehand 覚えておく - remember/memorize"
+          },
+          {
+            "level": 3,
+            "heading": "Maintenance",
+            "content": "掃除しておく - clean beforehand 洗っておく - wash in advance 直しておく - fix beforehand"
+          }
+        ]
+      },
+      {
+        "level": 2,
+        "heading": "Time Expressions with ておく",
+        "content": "",
+        "children": [
+          {
+            "level": 3,
+            "heading": "〜までに〜ておく (by the time)",
+            "content": "明日までに読んでおく \"read it by tomorrow\" 来週までに準備しておく \"prepare by next week\" 会議までに調べておく \"look it up before the meeting\""
+          },
+          {
+            "level": 3,
+            "heading": "〜前に〜ておく (before)",
+            "content": "出発前に確認しておく \"check before departure\" 寝る前に宿題をしておく \"do homework before sleeping\""
+          },
+          {
+            "level": 3,
+            "heading": "今〜ておく (do it now for later)",
+            "content": "今買っておく \"buy it now (for later)\" 今のうちに準備しておく \"prepare now while we can\""
+          }
+        ]
+      },
+      {
+        "level": 2,
+        "heading": "Common Conversations",
+        "content": "",
+        "children": [
+          {
+            "level": 3,
+            "heading": "Example 1: Making Preparations",
+            "content": "A: 明日のパーティー、何か準備する？ \"Should we prepare anything for tomorrow's party?\" B: そうだね。飲み物を買っておこう \"Yeah. Let's buy drinks in advance\" A: 食べ物は？ \"What about food?\" B: もう作っておいたよ \"I already made it\""
+          },
+          {
+            "level": 3,
+            "heading": "Example 2: Advice",
+            "content": "A: 明日、早く起きないといけないんだ \"I have to wake up early tomorrow\" B: じゃあ、今晩早く寝ておいた方がいいよ \"Then you'd better go to bed early tonight\" A: そうするよ。ありがとう \"I will. Thanks\""
+          },
+          {
+            "level": 3,
+            "heading": "Example 3: Checking if Something is Done",
+            "content": "A: レポート、もう書いた？ \"Did you write the report already?\" B: うん、昨日書いておいた \"Yeah, I wrote it yesterday (in advance)\" A: すごい！早いね \"Wow! That's fast\""
+          },
+          {
+            "level": 3,
+            "heading": "Example 4: Leaving Something in a State",
+            "content": "A: 窓、閉める？ \"Should I close the window?\" B: いや、開けておいて \"No, leave it open\" A: わかった \"Got it\""
+          }
+        ]
+      },
+      {
+        "level": 2,
+        "heading": "Common Mistakes",
+        "content": "",
+        "children": [
+          {
+            "level": 3,
+            "heading": "Mistake 1: Confusing with ている",
+            "content": "Context: Preparation Wrong: 予約している (when meaning \"made in advance\") ⚠️ Better: 予約しておく ✓ \"make a reservation in advance\" Note: している can mean \"is making\" or \"has made\""
+          },
+          {
+            "level": 3,
+            "heading": "Mistake 2: Using for unintentional actions",
+            "content": "Wrong: 雨が降っておく ❌ Right: 雨が降っている ✓ \"It's raining\" Note: ておく implies intentional human action"
+          },
+          {
+            "level": 3,
+            "heading": "Mistake 3: Overusing in casual speech",
+            "content": "Too formal: 毎日勉強しておきます Natural: 毎日勉強します \"I study every day\" Note: ておく emphasizes preparation, not routine"
+          }
+        ]
+      },
+      {
+        "level": 2,
+        "heading": "Nuance and Implications",
+        "content": "",
+        "children": [
+          {
+            "level": 3,
+            "heading": "Preparation for Future Benefit",
+            "content": "薬を買っておく \"buy medicine (so I'll have it when needed)\" 傘を持っておく \"take an umbrella (in case it rains)\""
+          },
+          {
+            "level": 3,
+            "heading": "Thoughtfulness",
+            "content": "Using ておく can show consideration:\n\nコーヒーを入れておきました \"I made coffee (for you/us)\" 席を予約しておきました \"I reserved seats (for us)\""
+          },
+          {
+            "level": 3,
+            "heading": "Responsibility",
+            "content": "宿題をしておかないと \"I have to do homework (beforehand)\" 準備しておく必要がある \"Need to prepare in advance\""
+          }
+        ]
+      },
+      {
+        "level": 2,
+        "heading": "Special Expressions",
+        "content": "",
+        "children": [
+          {
+            "level": 3,
+            "heading": "覚えておく (remember/keep in mind)",
+            "content": "これを覚えておいてください \"Please remember this\" 名前を覚えておく \"remember the name\""
+          },
+          {
+            "level": 3,
+            "heading": "取っておく (save/keep)",
+            "content": "あなたの分を取っておく \"save your portion\" これは取っておいて \"keep this (for later)\""
+          },
+          {
+            "level": 3,
+            "heading": "しておく (do/leave it)",
+            "content": "Very common general use:\n\nこれ、しておいて \"Do this (beforehand)\" そのままにしておく \"leave it as is\""
+          }
+        ]
+      },
+      {
+        "level": 2,
+        "heading": "With Permission and Prohibition",
+        "content": "",
+        "children": [
+          {
+            "level": 3,
+            "heading": "〜ておいてもいい (may leave)",
+            "content": "窓を開けておいてもいいですか？ \"May I leave the window open?\" ここに置いておいてもいい？ \"Is it okay to leave it here?\""
+          },
+          {
+            "level": 3,
+            "heading": "〜ておいてはいけない (must not leave)",
+            "content": "ドアを開けておいてはいけない \"You must not leave the door open\" そのままにしておいてはいけない \"You must not leave it as is\""
+          }
+        ]
+      },
+      {
+        "level": 2,
+        "heading": "Politeness Levels",
+        "content": "",
+        "children": [
+          {
+            "level": 3,
+            "heading": "Casual",
+            "content": "買っとく \"I'll buy it\" 読んどいて \"Read it (beforehand)\""
+          },
+          {
+            "level": 3,
+            "heading": "Polite",
+            "content": "買っておきます \"I will buy it (in advance)\" 読んでおいてください \"Please read it (beforehand)\""
+          },
+          {
+            "level": 3,
+            "heading": "Very Polite",
+            "content": "準備しておきます \"I will prepare it (in advance)\" ご確認しておいてください \"Please check (beforehand)\""
+          }
+        ]
+      },
+      {
+        "level": 2,
+        "heading": "Regional and Stylistic Notes",
+        "content": "",
+        "children": [
+          {
+            "level": 3,
+            "heading": "Kansai Dialect",
+            "content": "In Kansai, different contractions exist:\n\nStandard: 買っておく → 買っとく Kansai: 買っておく → 買うとく / 買っとく"
+          },
+          {
+            "level": 3,
+            "heading": "Written vs. Spoken",
+            "content": "Written: 準備しておく Spoken casual: 準備しとく Spoken polite: 準備しておきます"
+          }
+        ]
+      },
+      {
+        "level": 2,
+        "heading": "Practice Sentences",
+        "content": "",
+        "children": [
+          {
+            "level": 3,
+            "heading": "Preparation",
+            "content": "明日までに読んでおいてください \"Please read it by tomorrow\" 会議の前に資料を準備しておきます \"I'll prepare materials before the meeting\" 旅行の前に予約しておいた方がいい \"You'd better make reservations before the trip\" 今のうちに買っておこう \"Let's buy it now (while we can)\""
+          },
+          {
+            "level": 3,
+            "heading": "Leaving in a State",
+            "content": "窓を開けておいてください \"Please leave the window open\" 電気をつけておきます \"I'll leave the light on\" そのままにしておいて \"Leave it as is\" ここに置いておく \"I'll leave it here\""
+          },
+          {
+            "level": 3,
+            "heading": "Past Actions",
+            "content": "もう予約しておいた \"I already made a reservation\" 昨日買っておいた \"I bought it yesterday (in advance)\" 前に調べておいたから知ってる \"I know because I looked it up beforehand\""
+          },
+          {
+            "level": 3,
+            "heading": "Advice and Suggestions",
+            "content": "早めに予約しておいた方がいいよ \"You'd better reserve early\" 確認しておいてください \"Please check beforehand\" これは覚えておいて \"Remember this\""
+          },
+          {
+            "level": 3,
+            "heading": "Casual Contractions",
+            "content": "買っとくね \"I'll buy it\" 準備しといて \"Prepare it (in advance)\" 調べとく \"I'll look it up\" 読んどく \"I'll read it (beforehand)\""
+          }
+        ]
+      },
+      {
+        "level": 2,
+        "heading": "Related Grammar Points",
+        "content": "〜てある (te-aru) - Resultant state 〜ている (te-iru) - Progressive/state Te-form Conjugation - Basic te-form 〜ておいた方がいい - Had better do 〜てください - Request patterns Volitional Form - Let's expressions",
+        "children": [
+          {
+            "level": 3,
+            "heading": "Company",
+            "content": "About Pricing Blog Contact"
+          },
+          {
+            "level": 3,
+            "heading": "Legal",
+            "content": "Privacy Policy Terms of Service Cookie Policy"
+          }
+        ]
+      }
+    ],
+    "examples": [
+      {
+        "sentence": "〜てある (te-aru) - Resultant state"
+      },
+      {
+        "sentence": "〜ている (te-iru) - Progressive/state"
+      },
+      {
+        "sentence": "Te-form Conjugation - Basic te-form"
+      },
+      {
+        "sentence": "〜ておいた方がいい - Had better do"
+      },
+      {
+        "sentence": "〜てください - Request patterns"
+      },
+      {
+        "sentence": "Volitional Form - Let's expressions"
+      },
+      {
+        "sentence": "About"
+      },
+      {
+        "sentence": "Pricing"
+      },
+      {
+        "sentence": "Blog"
+      },
+      {
+        "sentence": "Contact"
+      },
+      {
+        "sentence": "Privacy Policy"
+      },
+      {
+        "sentence": "Terms of Service"
+      },
+      {
+        "sentence": "Cookie Policy"
+      }
+    ],
+    "metadata": {
+      "title": "〜ておく (Preparation/Completion)"
+    }
+  },
+  "metadata": {
+    "extracted_at": "2026-01-01T22:19:36.060136900Z",
+    "duration_ms": 3,
+    "extractors_matched": [
+      "metadata",
+      "examples",
+      "sections"
+    ],
+    "extractors_failed": [
+      "vocab_tables",
+      "definitions",
+      "content_blocks"
+    ]
+  }
+}

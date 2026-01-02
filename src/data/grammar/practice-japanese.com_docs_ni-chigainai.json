@@ -1,0 +1,408 @@
+{
+  "config_name": "Language Learning Extractor",
+  "url": "https://practice-japanese.com/docs/ni-chigainai/",
+  "data": {
+    "sections": [
+      {
+        "level": 2,
+        "heading": "What is 〜にちがいない?",
+        "content": "〜にちがいない expresses strong conviction or certainty, meaning \"must be,\" \"no doubt,\" \"certainly,\" or \"I'm sure.\" It shows you're very confident in your conclusion based on evidence or logic.\n\n彼は嘘をついているにちがいない \"He must be lying\" これは本物にちがいありません \"This must be genuine\" 成功するにちがいない \"It will surely succeed\""
+      },
+      {
+        "level": 2,
+        "heading": "Formation",
+        "content": "",
+        "children": [
+          {
+            "level": 3,
+            "heading": "Pattern: Plain form + にちがいない",
+            "content": "With verbs:\n\n行く → 行くにちがいない (must go/will surely go) 行った → 行ったにちがいない (must have gone) 行かない → 行かないにちがいない (surely won't go)\n\nWith い-adjectives:\n\n高い → 高いにちがいない (must be expensive) 高かった → 高かったにちがいない (must have been expensive)\n\nWith な-adjectives:\n\n便利 → 便利にちがいない (must be convenient) 本物 → 本物にちがいない (must be genuine)\n\nWith nouns:\n\n学生 → 学生にちがいない (must be a student) 嘘 → 嘘にちがいない (must be a lie) 彼 → 彼にちがいない (must be him)"
+          }
+        ]
+      },
+      {
+        "level": 2,
+        "heading": "Basic Usage",
+        "content": "",
+        "children": [
+          {
+            "level": 3,
+            "heading": "Strong conclusions based on evidence",
+            "content": "電気がついている。誰かいるにちがいない \"The light is on. Someone must be there\" 彼は来ない。忙しいにちがいない \"He's not coming. He must be busy\" 高そうだ。本物にちがいない \"It looks expensive. It must be genuine\""
+          },
+          {
+            "level": 3,
+            "heading": "Confident predictions",
+            "content": "彼は成功するにちがいない \"He will surely succeed\" この計画はうまくいくにちがいありません \"This plan will surely work\" 明日は晴れるにちがいない \"Tomorrow will surely be sunny\""
+          },
+          {
+            "level": 3,
+            "heading": "Strong beliefs",
+            "content": "愛は存在するにちがいない \"Love must exist\" 努力は報われるにちがいない \"Effort will surely be rewarded\" 真実にちがいない \"It must be the truth\""
+          }
+        ]
+      },
+      {
+        "level": 2,
+        "heading": "Key Characteristics",
+        "content": "",
+        "children": [
+          {
+            "level": 3,
+            "heading": "Shows high certainty",
+            "content": "Very confident (90-99% sure) Based on: - Observable evidence - Logical reasoning - Strong conviction - Experience Not 100% certain, but very close"
+          },
+          {
+            "level": 3,
+            "heading": "More certain than かもしれない",
+            "content": "Least certain: 雨かもしれない \"It might rain\" ↓ 雨だと思う \"I think it will rain\" ↓ Most certain: 雨にちがいない \"It must rain\" / \"It will surely rain\""
+          }
+        ]
+      },
+      {
+        "level": 2,
+        "heading": "Common Conversations",
+        "content": "",
+        "children": [
+          {
+            "level": 3,
+            "heading": "Example 1: Making Deductions",
+            "content": "A: 電話に出ないね \"He's not answering the phone\" B: 寝ているにちがいない \"He must be sleeping\" A: そうかもね \"Maybe so\""
+          },
+          {
+            "level": 3,
+            "heading": "Example 2: Confident Predictions",
+            "content": "A: この試合、どっちが勝つと思う？ \"Who do you think will win this match?\" B: Aチームが勝つにちがいないよ。実力が違う \"Team A will surely win. Their ability is different\""
+          },
+          {
+            "level": 3,
+            "heading": "Example 3: Judging Authenticity",
+            "content": "A: これ、本物かな \"Is this genuine?\" B: この値段なら、本物にちがいない \"At this price, it must be genuine\""
+          }
+        ]
+      },
+      {
+        "level": 2,
+        "heading": "Common Mistakes",
+        "content": "",
+        "children": [
+          {
+            "level": 3,
+            "heading": "Mistake 1: Using だ before にちがいない",
+            "content": "Wrong: 学生だにちがいない ❌ Right: 学生にちがいない ✓ \"Must be a student\" No だ with nouns/な-adjectives!"
+          },
+          {
+            "level": 3,
+            "heading": "Mistake 2: Confusing with かもしれない",
+            "content": "Uncertain: 雨かもしれない \"It might rain\" Certain: 雨にちがいない \"It must rain\" Very different certainty levels!"
+          },
+          {
+            "level": 3,
+            "heading": "Mistake 3: Using for trivial matters",
+            "content": "Unnatural: 今日は月曜日にちがいない ⚠️ Natural: 今日は月曜日だ ✓ \"Today is Monday\" Don't use for obvious facts"
+          }
+        ]
+      },
+      {
+        "level": 2,
+        "heading": "Polite Forms",
+        "content": "",
+        "children": [
+          {
+            "level": 3,
+            "heading": "Casual: にちがいない",
+            "content": "彼は嘘をついているにちがいない \"He must be lying\" Casual conversation"
+          },
+          {
+            "level": 3,
+            "heading": "Polite: にちがいありません",
+            "content": "彼は嘘をついているにちがいありません \"He must be lying\" Standard polite form"
+          },
+          {
+            "level": 3,
+            "heading": "Formal: に相違ありません",
+            "content": "事実に相違ありません \"There is no doubt it's a fact\" Very formal, written"
+          }
+        ]
+      },
+      {
+        "level": 2,
+        "heading": "Based on Evidence",
+        "content": "",
+        "children": [
+          {
+            "level": 3,
+            "heading": "Observable clues",
+            "content": "靴がない。出かけたにちがいない \"The shoes are gone. He must have gone out\" 窓が開いている。誰か入ったにちがいない \"The window is open. Someone must have entered\""
+          },
+          {
+            "level": 3,
+            "heading": "Logical reasoning",
+            "content": "彼は天才だ。成功するにちがいない \"He's a genius. He'll surely succeed\" 練習している。上手になるにちがいない \"He's practicing. He'll surely improve\""
+          }
+        ]
+      },
+      {
+        "level": 2,
+        "heading": "Negative Forms",
+        "content": "",
+        "children": [
+          {
+            "level": 3,
+            "heading": "～ないにちがいない (must not/surely won't)",
+            "content": "彼は来ないにちがいない \"He surely won't come\" 嘘ではないにちがいない \"It must not be a lie\" 簡単ではないにちがいない \"It must not be easy\""
+          }
+        ]
+      },
+      {
+        "level": 2,
+        "heading": "Past Certainty",
+        "content": "",
+        "children": [
+          {
+            "level": 3,
+            "heading": "Must have done",
+            "content": "彼は行ったにちがいない \"He must have gone\" 忘れたにちがいありません \"He must have forgotten\" 見たにちがいない \"He must have seen it\" Based on past evidence"
+          }
+        ]
+      },
+      {
+        "level": 2,
+        "heading": "Expressing Conviction",
+        "content": "",
+        "children": [
+          {
+            "level": 3,
+            "heading": "Strong beliefs",
+            "content": "努力は裏切らないにちがいない \"Effort surely won't betray you\" 真実は明らかになるにちがいない \"The truth will surely be revealed\" 愛は勝つにちがいない \"Love will surely win\""
+          }
+        ]
+      },
+      {
+        "level": 2,
+        "heading": "About People",
+        "content": "",
+        "children": [
+          {
+            "level": 3,
+            "heading": "Judging character",
+            "content": "彼はいい人にちがいない \"He must be a good person\" 彼女は優しいにちがいありません \"She must be kind\" 犯人は彼にちがいない \"The culprit must be him\""
+          }
+        ]
+      },
+      {
+        "level": 2,
+        "heading": "Future Predictions",
+        "content": "",
+        "children": [
+          {
+            "level": 3,
+            "heading": "Confident forecasts",
+            "content": "このプロジェクトは成功するにちがいない \"This project will surely succeed\" 彼は有名になるにちがいありません \"He will surely become famous\" 技術は進歩するにちがいない \"Technology will surely advance\""
+          }
+        ]
+      },
+      {
+        "level": 2,
+        "heading": "にちがいない vs はずだ",
+        "content": "",
+        "children": [
+          {
+            "level": 3,
+            "heading": "にちがいない - Strong conviction",
+            "content": "彼は来るにちがいない \"He must come\" (I'm very confident based on evidence) Personal strong belief"
+          },
+          {
+            "level": 3,
+            "heading": "はずだ - Logical expectation",
+            "content": "彼は来るはずだ \"He should come\" (based on plan/logic) Based on expectations, plans More next article"
+          }
+        ]
+      },
+      {
+        "level": 2,
+        "heading": "In Literature/Formal Writing",
+        "content": "",
+        "children": [
+          {
+            "level": 3,
+            "heading": "Written style",
+            "content": "これは真実に相違ない \"This must be the truth\" 歴史的事実に違いない \"It must be a historical fact\" More formal expressions"
+          }
+        ]
+      },
+      {
+        "level": 2,
+        "heading": "Common Patterns",
+        "content": "",
+        "children": [
+          {
+            "level": 3,
+            "heading": "きっと～にちがいない",
+            "content": "きっと成功するにちがいない \"Surely it will succeed\" Emphasizes certainty"
+          },
+          {
+            "level": 3,
+            "heading": "絶対に～にちがいない",
+            "content": "絶対に彼にちがいない \"It absolutely must be him\" Adds even more certainty"
+          }
+        ]
+      },
+      {
+        "level": 2,
+        "heading": "With のだ",
+        "content": "",
+        "children": [
+          {
+            "level": 3,
+            "heading": "Explanatory tone",
+            "content": "彼は知っているにちがいないのだ \"He must know (I tell you)\" 犯人は彼にちがいないのです \"The culprit must be him\""
+          }
+        ]
+      },
+      {
+        "level": 2,
+        "heading": "Softening with と思う",
+        "content": "",
+        "children": [
+          {
+            "level": 3,
+            "heading": "Slightly softer",
+            "content": "成功するにちがいないと思う \"I think it will surely succeed\" Slightly less forceful"
+          }
+        ]
+      },
+      {
+        "level": 2,
+        "heading": "About Yourself",
+        "content": "",
+        "children": [
+          {
+            "level": 3,
+            "heading": "Your own certainty",
+            "content": "私は成功するにちがいない \"I will surely succeed\" できるにちがいない \"I surely can do it\" Shows self-confidence"
+          }
+        ]
+      },
+      {
+        "level": 2,
+        "heading": "Common Situations",
+        "content": "",
+        "children": [
+          {
+            "level": 3,
+            "heading": "Mystery/Detective",
+            "content": "犯人は彼にちがいない \"The culprit must be him\" ここに隠されているにちがいない \"It must be hidden here\""
+          },
+          {
+            "level": 3,
+            "heading": "Judgment",
+            "content": "これは本物にちがいない \"This must be genuine\" 嘘にちがいありません \"It must be a lie\""
+          },
+          {
+            "level": 3,
+            "heading": "Predictions",
+            "content": "将来成功するにちがいない \"He will surely succeed in the future\" この技術は普及するにちがいない \"This technology will surely spread\""
+          }
+        ]
+      },
+      {
+        "level": 2,
+        "heading": "Practice Sentences",
+        "content": "",
+        "children": [
+          {
+            "level": 3,
+            "heading": "Basic",
+            "content": "彼は来るにちがいない \"He must come\" これは本物にちがいありません \"This must be genuine\" 雨が降るにちがいない \"It will surely rain\""
+          },
+          {
+            "level": 3,
+            "heading": "Intermediate",
+            "content": "電気がついているから、誰か家にいるにちがいない \"The light is on, so someone must be at home\" 彼女は一生懸命勉強している。 合格するにちがいない \"She's studying hard. She will surely pass\" この値段なら、偽物ではないにちがいありません \"At this price, it must not be fake\""
+          },
+          {
+            "level": 3,
+            "heading": "Advanced",
+            "content": "人類は必ず進化し続けるにちがいない。 困難に直面しても、人間は それを乗り越える力を持っているはずだ。 \"Humanity will surely continue to evolve. Even when facing difficulties, humans should have the power to overcome them.\" 彼の話を聞けば分かる。彼は真実を 語っているにちがいない。嘘をつく人の 目ではない。誠実な人にちがいない。 \"If you listen to his story, you'll understand. He must be telling the truth. Those aren't the eyes of someone lying. He must be an honest person.\""
+          }
+        ]
+      },
+      {
+        "level": 2,
+        "heading": "Related Grammar Points",
+        "content": "〜はずだ - Should be/Expected to 〜かもしれない - Might be 〜だろう - Probably 〜と思う - I think Certainty expressions - Expressing confidence Conviction - Strong beliefs",
+        "children": [
+          {
+            "level": 3,
+            "heading": "Company",
+            "content": "About Pricing Blog Contact"
+          },
+          {
+            "level": 3,
+            "heading": "Legal",
+            "content": "Privacy Policy Terms of Service Cookie Policy"
+          }
+        ]
+      }
+    ],
+    "metadata": {
+      "title": "〜にちがいない (Must be)"
+    },
+    "examples": [
+      {
+        "sentence": "〜はずだ - Should be/Expected to"
+      },
+      {
+        "sentence": "〜かもしれない - Might be"
+      },
+      {
+        "sentence": "〜だろう - Probably"
+      },
+      {
+        "sentence": "〜と思う - I think"
+      },
+      {
+        "sentence": "Certainty expressions - Expressing confidence"
+      },
+      {
+        "sentence": "Conviction - Strong beliefs"
+      },
+      {
+        "sentence": "About"
+      },
+      {
+        "sentence": "Pricing"
+      },
+      {
+        "sentence": "Blog"
+      },
+      {
+        "sentence": "Contact"
+      },
+      {
+        "sentence": "Privacy Policy"
+      },
+      {
+        "sentence": "Terms of Service"
+      },
+      {
+        "sentence": "Cookie Policy"
+      }
+    ]
+  },
+  "metadata": {
+    "extracted_at": "2026-01-01T22:19:31.983180Z",
+    "duration_ms": 6,
+    "extractors_matched": [
+      "metadata",
+      "examples",
+      "sections"
+    ],
+    "extractors_failed": [
+      "vocab_tables",
+      "definitions",
+      "content_blocks"
+    ]
+  }
+}

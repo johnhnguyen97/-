@@ -1,0 +1,334 @@
+{
+  "config_name": "Language Learning Extractor",
+  "url": "https://practice-japanese.com/docs/kedo-keredo/",
+  "data": {
+    "examples": [
+      {
+        "sentence": "About"
+      },
+      {
+        "sentence": "Pricing"
+      },
+      {
+        "sentence": "Blog"
+      },
+      {
+        "sentence": "Contact"
+      },
+      {
+        "sentence": "Privacy Policy"
+      },
+      {
+        "sentence": "Terms of Service"
+      },
+      {
+        "sentence": "Cookie Policy"
+      }
+    ],
+    "metadata": {
+      "title": "けど/けれど (But/Although)"
+    },
+    "sections": [
+      {
+        "level": 2,
+        "heading": "What are けど and けれど?",
+        "content": "けど and けれど both mean \"but,\" \"although,\" or \"however,\" connecting clauses to show contrast. けど is casual and conversational, while けれど is slightly more formal. They're very common in everyday speech and more natural than が in casual contexts.\n\n忙しいけど、行く。 \"I'm busy, but I'll go.\" 高いけれど、買います。 \"It's expensive, but I'll buy it.\""
+      },
+      {
+        "level": 2,
+        "heading": "Basic Structure",
+        "content": "",
+        "children": [
+          {
+            "level": 3,
+            "heading": "[Clause 1] + けど/けれど + [Clause 2]",
+            "content": "疲れたけど、頑張る。 \"I'm tired, but I'll try hard.\" Within single sentence Casual connector"
+          }
+        ]
+      },
+      {
+        "level": 2,
+        "heading": "Usage and Meaning",
+        "content": "",
+        "children": [
+          {
+            "level": 3,
+            "heading": "Showing contrast",
+            "content": "難しいけど、面白い。 \"It's difficult, but interesting.\" 好きじゃないけど、食べる。 \"I don't like it, but I'll eat it.\" Opposing facts"
+          },
+          {
+            "level": 3,
+            "heading": "Softening statements",
+            "content": "ちょっと聞きたいんだけど... \"I want to ask you something, but...\" 悪いんだけど... \"I feel bad, but...\" Cushioning requests"
+          }
+        ]
+      },
+      {
+        "level": 2,
+        "heading": "けど vs けれど vs けれども",
+        "content": "",
+        "children": [
+          {
+            "level": 3,
+            "heading": "けど = most casual",
+            "content": "忙しいけど、行く。 \"I'm busy, but I'll go.\" Everyday speech Very common"
+          },
+          {
+            "level": 3,
+            "heading": "けれど = slightly formal",
+            "content": "忙しいけれど、行きます。 \"I'm busy, but I'll go.\" Polite conversation"
+          },
+          {
+            "level": 3,
+            "heading": "けれども = most formal",
+            "content": "忙しいけれども、参ります。 \"I'm busy, but I'll go.\" Formal speech/writing Less common"
+          }
+        ]
+      },
+      {
+        "level": 2,
+        "heading": "Position in Sentence",
+        "content": "",
+        "children": [
+          {
+            "level": 3,
+            "heading": "Mid-sentence connector",
+            "content": "雨だけど、出かける。 \"It's raining, but I'll go out.\" Connects two clauses"
+          },
+          {
+            "level": 3,
+            "heading": "Can end sentence",
+            "content": "A: 行く？ B: 行きたいんだけど... A: \"Will you go?\" B: \"I want to go, but...\" (implied hesitation) Trailing off"
+          }
+        ]
+      },
+      {
+        "level": 2,
+        "heading": "Polite Forms",
+        "content": "",
+        "children": [
+          {
+            "level": 3,
+            "heading": "With です/ます",
+            "content": "高いですけど、買います。 \"It's expensive, but I'll buy it.\" 分かりますけど、できません。 \"I understand, but I can't do it.\" Polite endings"
+          }
+        ]
+      },
+      {
+        "level": 2,
+        "heading": "Common Contexts",
+        "content": "",
+        "children": [
+          {
+            "level": 3,
+            "heading": "Making requests",
+            "content": "悪いんだけど、手伝ってくれる？ \"I feel bad, but can you help me?\" ちょっといいけど？ \"Got a minute, but...?\" (Can I talk to you?) Softening asks"
+          },
+          {
+            "level": 3,
+            "heading": "Giving opinions",
+            "content": "いいと思うけど、ちょっと高いね。 \"I think it's good, but it's a bit expensive.\" Qualified statements"
+          },
+          {
+            "level": 3,
+            "heading": "Casual refusals",
+            "content": "行きたいけど、無理だ。 \"I want to go, but I can't.\" ごめん、今日はちょっと...けど。 \"Sorry, today is a bit... but.\" Soft declining"
+          }
+        ]
+      },
+      {
+        "level": 2,
+        "heading": "んだけど Pattern",
+        "content": "",
+        "children": [
+          {
+            "level": 3,
+            "heading": "ん + だけど (explanatory)",
+            "content": "聞きたいんだけど... \"I want to ask, but...\" 行くんだけど、一緒にどう？ \"I'm going, but want to come?\" Explanatory + but Very conversational"
+          }
+        ]
+      },
+      {
+        "level": 2,
+        "heading": "Ending with けど",
+        "content": "",
+        "children": [
+          {
+            "level": 3,
+            "heading": "Implying continuation",
+            "content": "美味しいけど...（高い） \"It's delicious, but...\" (it's expensive - implied) 行きたいけど...（時間がない） \"I want to go, but...\" (I don't have time - implied) Leaving unsaid"
+          }
+        ]
+      },
+      {
+        "level": 2,
+        "heading": "けど vs でも",
+        "content": "",
+        "children": [
+          {
+            "level": 3,
+            "heading": "けど = within sentence",
+            "content": "疲れたけど、頑張る。 \"I'm tired, but I'll try.\" Single sentence"
+          },
+          {
+            "level": 3,
+            "heading": "でも = between sentences",
+            "content": "疲れた。でも頑張る。 \"I'm tired. But I'll try.\" Separate sentences"
+          }
+        ]
+      },
+      {
+        "level": 2,
+        "heading": "けど vs が",
+        "content": "",
+        "children": [
+          {
+            "level": 3,
+            "heading": "けど = casual",
+            "content": "忙しいけど、行く。 \"I'm busy, but I'll go.\" Conversational Natural in speech"
+          },
+          {
+            "level": 3,
+            "heading": "が = formal",
+            "content": "忙しいですが、行きます。 \"I'm busy, but I'll go.\" More polite Formal situations"
+          }
+        ]
+      },
+      {
+        "level": 2,
+        "heading": "Negative Forms",
+        "content": "",
+        "children": [
+          {
+            "level": 3,
+            "heading": "With ない",
+            "content": "好きじゃないけど、食べる。 \"I don't like it, but I'll eat it.\" 行きたくないけど、行く。 \"I don't want to go, but I'll go.\" Negative contrasts"
+          }
+        ]
+      },
+      {
+        "level": 2,
+        "heading": "Starting Conversations",
+        "content": "",
+        "children": [
+          {
+            "level": 3,
+            "heading": "Opening with けど",
+            "content": "あのさ、ちょっと聞きたいんだけど... \"Hey, I want to ask something, but...\" ねえ、悪いんだけど... \"Hey, I feel bad, but...\" Conversation starter"
+          }
+        ]
+      },
+      {
+        "level": 2,
+        "heading": "Multiple Contrasts",
+        "content": "",
+        "children": [
+          {
+            "level": 3,
+            "heading": "Sequential けど",
+            "content": "高いけど、美味しいけど、遠い。 Possible but awkward Better: 高くて美味しいけど、遠い。 \"It's expensive and delicious, but far.\" Combine where possible"
+          }
+        ]
+      },
+      {
+        "level": 2,
+        "heading": "Common Mistakes",
+        "content": "",
+        "children": [
+          {
+            "level": 3,
+            "heading": "Using けど too formally",
+            "content": "Stiff: 謹んでお願いしますけど... ⚠️ Better: 謹んでお願いしますが... ✓ \"I humbly request, but...\" が better for very formal"
+          },
+          {
+            "level": 3,
+            "heading": "Ending abruptly",
+            "content": "Incomplete: 行きたいけど ⚠️ Better: 行きたいんだけど... ✓ Or complete: 行きたいけど、無理 ✓ Need context or continuation"
+          }
+        ]
+      },
+      {
+        "level": 2,
+        "heading": "Softening Function",
+        "content": "",
+        "children": [
+          {
+            "level": 3,
+            "heading": "Making statements gentler",
+            "content": "Direct: これ、まずい Softer: 美味しいけど、ちょっと... \"It's delicious, but a bit...\" (not to my taste) Polite hedging"
+          }
+        ]
+      },
+      {
+        "level": 2,
+        "heading": "In Questions",
+        "content": "",
+        "children": [
+          {
+            "level": 3,
+            "heading": "Softening questions",
+            "content": "今、いい？ → 今、いいけど？ \"Is now good?\" → \"Is now good?\" (softer) Less direct"
+          }
+        ]
+      },
+      {
+        "level": 2,
+        "heading": "Expressing Uncertainty",
+        "content": "分かるけど、できるかな... \"I understand, but I wonder if I can do it...\" Self-doubt"
+      },
+      {
+        "level": 2,
+        "heading": "Regional Variations",
+        "content": "",
+        "children": [
+          {
+            "level": 3,
+            "heading": "Standard forms",
+            "content": "けど (most common) けれど (slightly formal) けども (dialectal/emphatic) Regional differences exist"
+          }
+        ]
+      },
+      {
+        "level": 2,
+        "heading": "Practice Sentences",
+        "content": "",
+        "children": [
+          {
+            "level": 3,
+            "heading": "Basic",
+            "content": "疲れたけど、頑張る。 \"I'm tired, but I'll try hard.\" 高いけど、買う。 \"It's expensive, but I'll buy it.\" 雨だけど、行く。 \"It's raining, but I'll go.\" 好きじゃないけど、食べる。 \"I don't like it, but I'll eat it.\" 悪いんだけど、手伝ってくれる？ \"I feel bad, but can you help me?\""
+          },
+          {
+            "level": 3,
+            "heading": "Intermediate",
+            "content": "日本語は難しいけど、毎日勉強すれば 必ず上達する。諦めないことが 一番大切だと思う。 \"Japanese is difficult, but if you study every day, you'll definitely improve. I think not giving up is most important.\" このレストランは少し高いけど、 料理が美味しくて雰囲気もいい。 特別な日にぴったりだと思う。 \"This restaurant is a bit expensive, but the food is delicious and the atmosphere is good. I think it's perfect for special occasions.\" 明日は休みだけど、やらなきゃいけない ことがたくさんある。のんびりしたい けど、無理そうだ。 \"Tomorrow is a day off, but I have a lot of things I must do. I want to relax, but it seems impossible.\""
+          },
+          {
+            "level": 3,
+            "heading": "Company",
+            "content": "About Pricing Blog Contact"
+          },
+          {
+            "level": 3,
+            "heading": "Legal",
+            "content": "Privacy Policy Terms of Service Cookie Policy"
+          }
+        ]
+      }
+    ]
+  },
+  "metadata": {
+    "extracted_at": "2026-01-01T22:19:30.680042100Z",
+    "duration_ms": 4,
+    "extractors_matched": [
+      "metadata",
+      "examples",
+      "sections"
+    ],
+    "extractors_failed": [
+      "vocab_tables",
+      "definitions",
+      "content_blocks"
+    ]
+  }
+}

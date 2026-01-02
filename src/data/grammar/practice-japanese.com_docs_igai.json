@@ -1,0 +1,311 @@
+{
+  "config_name": "Language Learning Extractor",
+  "url": "https://practice-japanese.com/docs/igai/",
+  "data": {
+    "metadata": {
+      "title": "以外 (Except)"
+    },
+    "examples": [
+      {
+        "sentence": "\"except\""
+      },
+      {
+        "sentence": "\"other than\""
+      },
+      {
+        "sentence": "\"besides\""
+      },
+      {
+        "sentence": "\"aside from\""
+      },
+      {
+        "sentence": "\"apart from\""
+      },
+      {
+        "sentence": "以外 means \"except,\" \"other than,\" \"besides\""
+      },
+      {
+        "sentence": "Structure: [Noun/Clause] + 以外 + particle"
+      },
+      {
+        "sentence": "Common particles: は (topic), に (other options), の (modifier), で (means/location)"
+      },
+      {
+        "sentence": "Explicitly excludes mentioned items"
+      },
+      {
+        "sentence": "More formal than ほか"
+      },
+      {
+        "sentence": "Don't confuse with 意外 (unexpected)"
+      },
+      {
+        "sentence": "Can create \"only\" meaning with negatives: X 以外にない = \"only X\""
+      },
+      {
+        "sentence": "Used for clear exceptions and exclusions"
+      },
+      {
+        "sentence": "About"
+      },
+      {
+        "sentence": "Pricing"
+      },
+      {
+        "sentence": "Blog"
+      },
+      {
+        "sentence": "Contact"
+      },
+      {
+        "sentence": "Privacy Policy"
+      },
+      {
+        "sentence": "Terms of Service"
+      },
+      {
+        "sentence": "Cookie Policy"
+      }
+    ],
+    "sections": [
+      {
+        "level": 2,
+        "heading": "What is 以外?",
+        "content": "以外 (igai) means \"except,\" \"other than,\" \"besides,\" or \"aside from.\" It explicitly excludes something from a group or category, indicating everything EXCEPT the mentioned item(s).\n\nEnglish equivalents:\n\n\"except\" \"other than\" \"besides\" \"aside from\" \"apart from\"\n\n日曜日以外は働く。 Nichiyoubi igai wa hataraku. \"I work except on Sundays.\" これ以外に方法がない。 Kore igai ni houhou ga nai. \"There's no method other than this.\""
+      },
+      {
+        "level": 2,
+        "heading": "Basic Structure",
+        "content": "",
+        "children": [
+          {
+            "level": 3,
+            "heading": "Pattern",
+            "content": "[Noun/Clause] + 以外 + (particle)\n\n以外 attaches to nouns or nominalized clauses:\n\n水以外 (mizu igai) - \"except water\" 彼以外 (kare igai) - \"except him\" これ以外 (kore igai) - \"except this\" 今以外 (ima igai) - \"except now\""
+          }
+        ]
+      },
+      {
+        "level": 2,
+        "heading": "With Particles",
+        "content": "",
+        "children": [
+          {
+            "level": 3,
+            "heading": "以外は (igai wa) - Topic marker",
+            "content": "彼以外は来た。 Kare igai wa kita. \"Everyone except him came.\" 月曜日以外は暇です。 Getsuyoubi igai wa hima desu. \"I'm free except on Mondays.\" これ以外は全部売れた。 Kore igai wa zenbu ureta. \"Everything except this sold.\""
+          },
+          {
+            "level": 3,
+            "heading": "以外に (igai ni) - Other forms/options",
+            "content": "これ以外に方法がない。 Kore igai ni houhou ga nai. \"There's no method other than this.\" 彼以外に誰もいない。 Kare igai ni dare mo inai. \"There's nobody other than him.\" 英語以外に何か話せますか。 Eigo igai ni nanika hanasemasu ka. \"Can you speak anything other than English?\""
+          },
+          {
+            "level": 3,
+            "heading": "以外の (igai no) - Modifying nouns",
+            "content": "これ以外の方法。 Kore igai no houhou. \"Methods other than this.\" 日本以外の国。 Nihon igai no kuni. \"Countries other than Japan.\" 彼以外の人。 Kare igai no hito. \"People other than him.\""
+          },
+          {
+            "level": 3,
+            "heading": "以外で (igai de) - Location/means",
+            "content": "ここ以外で会いましょう。 Koko igai de aimashou. \"Let's meet somewhere other than here.\" 電話以外で連絡してください。 Denwa igai de renraku shite kudasai. \"Please contact me by means other than phone.\""
+          }
+        ]
+      },
+      {
+        "level": 2,
+        "heading": "Common Usage Patterns",
+        "content": "",
+        "children": [
+          {
+            "level": 3,
+            "heading": "Expressing exceptions",
+            "content": "彼女以外は知らない。 Kanojo igai wa shiranai. \"Nobody knows except her.\" これ以外は全部ダメだ。 Kore igai wa zenbu dame da. \"Everything except this is no good.\" 日本語以外は話せません。 Nihongo igai wa hanasemasen. \"I can't speak anything except Japanese.\""
+          },
+          {
+            "level": 3,
+            "heading": "No other option",
+            "content": "これ以外に選択肢がない。 Kore igai ni sentakushi ga nai. \"There's no choice other than this.\" 今以外に時間がない。 Ima igai ni jikan ga nai. \"There's no time other than now.\" 彼以外に頼める人がいない。 Kare igai ni tanomeru hito ga inai. \"There's nobody I can ask other than him.\""
+          },
+          {
+            "level": 3,
+            "heading": "Excluding items",
+            "content": "肉以外は何でも食べる。 Niku igai wa nandemo taberu. \"I eat anything except meat.\" 月曜日以外は営業しています。 Getsuyoubi igai wa eigyou shite imasu. \"We're open except on Mondays.\" 彼以外は全員合格した。 Kare igai wa zen'in goukaku shita. \"Everyone except him passed.\""
+          }
+        ]
+      },
+      {
+        "level": 2,
+        "heading": "With Numbers and Quantities",
+        "content": "一つ以外は全部売れた。 Hitotsu igai wa zenbu ureta. \"All sold except one.\" 三人以外は来なかった。 Sannin igai wa konakatta. \"Nobody came except three people.\" この店以外は全部閉まっている。 Kono mise igai wa zenbu shimatte iru. \"All stores are closed except this one.\""
+      },
+      {
+        "level": 2,
+        "heading": "Negative Contexts",
+        "content": "",
+        "children": [
+          {
+            "level": 3,
+            "heading": "With ない",
+            "content": "これ以外にない。 Kore igai ni nai. \"There's nothing other than this.\" 彼以外に知っている人はいない。 Kare igai ni shitte iru hito wa inai. \"There's nobody who knows other than him.\" 今以外に時間がない。 Ima igai ni jikan ga nai. \"There's no time other than now.\""
+          }
+        ]
+      },
+      {
+        "level": 2,
+        "heading": "With Verbs and Clauses",
+        "content": "",
+        "children": [
+          {
+            "level": 3,
+            "heading": "Nominalizing verbs with の/こと",
+            "content": "Structure: [Verb dictionary form] + の/こと + 以外\n\n諦めること以外に方法がない。 Akirameru koto igai ni houhou ga nai. \"There's no way other than giving up.\" 待つこと以外にできない。 Matsu koto igai ni dekinai. \"There's nothing to do other than wait.\" 食べること以外は何もしたくない。 Taberu koto igai wa nani mo shitakunai. \"I don't want to do anything other than eat.\""
+          }
+        ]
+      },
+      {
+        "level": 2,
+        "heading": "Expressing \"Besides/In addition to\"",
+        "content": "While 以外 primarily means \"except,\" it can mean \"besides\" with に:\n\nこれ以外にもある。 Kore igai ni mo aru. \"There are some besides this too.\" 日本語以外にも英語を話す。 Nihongo igai ni mo eigo wo hanasu. \"I speak English besides Japanese.\"\n\nNote: This usage is less common; ほかに or それに are more natural for \"besides.\""
+      },
+      {
+        "level": 2,
+        "heading": "Formal Contexts",
+        "content": "",
+        "children": [
+          {
+            "level": 3,
+            "heading": "In business and formal writing",
+            "content": "当社以外の企業。 Tousha igai no kigyou. \"Companies other than ours.\" 規定以外の方法は認められません。 Kitei igai no houhou wa mitomeraremasen. \"Methods other than those stipulated are not permitted.\" 指定された場所以外での撮影は禁止です。 Shitei sareta basho igai de no satsuei wa kinshi desu. \"Photography in places other than designated areas is prohibited.\""
+          }
+        ]
+      },
+      {
+        "level": 2,
+        "heading": "Time Expressions",
+        "content": "今以外に時間がない。 Ima igai ni jikan ga nai. \"There's no time other than now.\" 平日以外は休みです。 Heijitsu igai wa yasumi desu. \"I'm off except on weekdays.\" 夏以外は寒い。 Natsu igai wa samui. \"It's cold except in summer.\" 朝以外は眠い。 Asa igai wa nemui. \"I'm sleepy except in the morning.\""
+      },
+      {
+        "level": 2,
+        "heading": "Place Expressions",
+        "content": "ここ以外に行く場所がない。 Koko igai ni iku basho ga nai. \"There's nowhere to go other than here.\" 東京以外に住みたくない。 Toukyou igai ni sumitakunai. \"I don't want to live anywhere other than Tokyo.\" 日本以外の国に行ったことがない。 Nihon igai no kuni ni itta koto ga nai. \"I've never been to countries other than Japan.\""
+      },
+      {
+        "level": 2,
+        "heading": "Comparison: 以外 vs ほか vs 他",
+        "content": "",
+        "children": [
+          {
+            "level": 3,
+            "heading": "以外 (igai) - Formal exception",
+            "content": "これ以外に方法がない。 Kore igai ni houhou ga nai. \"There's no method other than this.\""
+          },
+          {
+            "level": 3,
+            "heading": "ほか (hoka) - Other/rest (more casual)",
+            "content": "これのほかに方法がない。 Kore no hoka ni houhou ga nai. \"There's no method other than this.\" [Slightly less formal]"
+          },
+          {
+            "level": 3,
+            "heading": "他 (ta/hoka) - Other (written/formal)",
+            "content": "他の方法。 Ta no houhou / Hoka no houhou. \"Other methods.\"\n\n| Expression | Formality | Usage | | ---------- | -------------- | --------------- | | 以外 | Formal/neutral | Clear exception | | ほか | Casual/neutral | Other items | | 他 | Formal/written | Other (general) |"
+          }
+        ]
+      },
+      {
+        "level": 2,
+        "heading": "Double Negatives",
+        "content": "",
+        "children": [
+          {
+            "level": 3,
+            "heading": "Creating positive meaning",
+            "content": "これ以外にない。 Kore igai ni nai. Literally: \"There isn't other than this\" Meaning: \"This is the only option\" 彼以外に頼れない。 Kare igai ni tayorenai. Literally: \"Can't rely on other than him\" Meaning: \"He's the only one I can rely on\""
+          }
+        ]
+      },
+      {
+        "level": 2,
+        "heading": "Common Expressions",
+        "content": "",
+        "children": [
+          {
+            "level": 3,
+            "heading": "Set phrases",
+            "content": "それ以外にない Sore igai ni nai \"There's nothing other than that\" / \"That's the only way\" これ以外の何物でもない Kore igai no nanimono de mo nai \"It's nothing other than this\" 予想以外 Yosou igai \"Unexpected\" / \"Beyond expectations\" 意外 (igai) \"Unexpected\" / \"Surprising\" [Different word, same reading]"
+          }
+        ]
+      },
+      {
+        "level": 2,
+        "heading": "Multiple Exceptions",
+        "content": "",
+        "children": [
+          {
+            "level": 3,
+            "heading": "Listing multiple items",
+            "content": "月曜日と火曜日以外は営業しています。 Getsuyoubi to kayoubi igai wa eigyou shite imasu. \"We're open except on Mondays and Tuesdays.\" 彼と彼女以外は知らない。 Kare to kanojo igai wa shiranai. \"Nobody knows except him and her.\""
+          }
+        ]
+      },
+      {
+        "level": 2,
+        "heading": "Common Mistakes",
+        "content": "",
+        "children": [
+          {
+            "level": 3,
+            "heading": "Mistake 1: Confusing 以外 (igai) with 意外 (igai)",
+            "content": "❌ これは意外に方法がない (wrong kanji - means \"unexpected\") ✓ これは以外に方法がない (\"no method other than this\")\n\n以外 = except/other than 意外 = unexpected/surprising"
+          },
+          {
+            "level": 3,
+            "heading": "Mistake 2: Wrong Particle Usage",
+            "content": "❌ 彼以外知らない (missing particle) ✓ 彼以外は知らない or 彼以外に誰も知らない\n\nNeed appropriate particle after 以外."
+          },
+          {
+            "level": 3,
+            "heading": "Mistake 3: Using with Adjectives Directly",
+            "content": "❌ 赤い以外 (can't attach to adjectives directly) ✓ 赤いもの以外 (\"things other than red ones\") ✓ 赤以外 (\"other than red\")\n\nAttach to nouns or nominalized forms."
+          },
+          {
+            "level": 3,
+            "heading": "Mistake 4: Redundant Negatives",
+            "content": "❌ 彼以外は来なかった以外 (double 以外) ✓ 彼以外は来なかった (\"nobody except him came\")\n\nDon't use 以外 twice unnecessarily."
+          }
+        ]
+      },
+      {
+        "level": 2,
+        "heading": "Summary",
+        "content": "Key Points:\n\n以外 means \"except,\" \"other than,\" \"besides\" Structure: [Noun/Clause] + 以外 + particle Common particles: は (topic), に (other options), の (modifier), で (means/location) Explicitly excludes mentioned items More formal than ほか Don't confuse with 意外 (unexpected) Can create \"only\" meaning with negatives: X 以外にない = \"only X\" Used for clear exceptions and exclusions",
+        "children": [
+          {
+            "level": 3,
+            "heading": "Company",
+            "content": "About Pricing Blog Contact"
+          },
+          {
+            "level": 3,
+            "heading": "Legal",
+            "content": "Privacy Policy Terms of Service Cookie Policy"
+          }
+        ]
+      }
+    ]
+  },
+  "metadata": {
+    "extracted_at": "2026-01-01T22:19:30.099959100Z",
+    "duration_ms": 3,
+    "extractors_matched": [
+      "metadata",
+      "examples",
+      "sections"
+    ],
+    "extractors_failed": [
+      "vocab_tables",
+      "definitions",
+      "content_blocks"
+    ]
+  }
+}

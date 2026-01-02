@@ -1,0 +1,374 @@
+{
+  "config_name": "Language Learning Extractor",
+  "url": "https://practice-japanese.com/docs/copula-past/",
+  "data": {
+    "metadata": {
+      "title": "Past Forms (だった/でした)"
+    },
+    "examples": [
+      {
+        "sentence": "だ (da) - Plain present copula"
+      },
+      {
+        "sentence": "です (desu) - Polite present copula"
+      },
+      {
+        "sentence": "である (de aru) - Formal copula"
+      },
+      {
+        "sentence": "じゃない (janai) - Negative copula"
+      },
+      {
+        "sentence": "Past Tense Usage - Using past tense in context"
+      },
+      {
+        "sentence": "Time Words (今、昨日、明日) - Time expressions"
+      },
+      {
+        "sentence": "About"
+      },
+      {
+        "sentence": "Pricing"
+      },
+      {
+        "sentence": "Blog"
+      },
+      {
+        "sentence": "Contact"
+      },
+      {
+        "sentence": "Privacy Policy"
+      },
+      {
+        "sentence": "Terms of Service"
+      },
+      {
+        "sentence": "Cookie Policy"
+      }
+    ],
+    "sections": [
+      {
+        "level": 2,
+        "heading": "Past Tense Copula Overview",
+        "content": "The past tense of the Japanese copula has two main forms corresponding to the present forms だ and です:\n\nPresent → Past だ → だった (plain) です → でした (polite) 学生だ → 学生だった \"was a student\" 学生です → 学生でした \"was a student\" (polite)"
+      },
+      {
+        "level": 2,
+        "heading": "だった (datta) - Plain Past",
+        "content": "",
+        "children": [
+          {
+            "level": 3,
+            "heading": "Basic Formation",
+            "content": "だった is the plain past form, meaning \"was\" or \"were.\"\n\nNoun + だった Na-adjective + だった 学生だった \"was a student\" きれいだった \"was beautiful\""
+          },
+          {
+            "level": 3,
+            "heading": "Basic Usage",
+            "content": "昨日は月曜日だった \"Yesterday was Monday\" 彼は学生だった \"He was a student\" 昔は静かだった \"It was quiet long ago\" 子供の頃は元気だった \"I was energetic when I was a child\" あの映画は面白かった \"That movie was interesting\""
+          },
+          {
+            "level": 3,
+            "heading": "With Na-adjectives",
+            "content": "きれいだった \"was beautiful\" 静かだった \"was quiet\" 便利だった \"was convenient\" 有名だった \"was famous\" 親切だった \"was kind\""
+          }
+        ]
+      },
+      {
+        "level": 2,
+        "heading": "でした (deshita) - Polite Past",
+        "content": "",
+        "children": [
+          {
+            "level": 3,
+            "heading": "Basic Formation",
+            "content": "でした is the polite past form, meaning \"was\" or \"were.\"\n\nNoun + でした Na-adjective + でした 学生でした \"was a student\" (polite) きれいでした \"was beautiful\" (polite)"
+          },
+          {
+            "level": 3,
+            "heading": "Basic Usage",
+            "content": "昨日は月曜日でした \"Yesterday was Monday\" 彼は学生でした \"He was a student\" 昔は静かでした \"It was quiet long ago\" とても便利でした \"It was very convenient\" いい天気でした \"It was nice weather\""
+          },
+          {
+            "level": 3,
+            "heading": "With Na-adjectives",
+            "content": "きれいでした \"was beautiful\" 静かでした \"was quiet\" 便利でした \"was convenient\" 有名でした \"was famous\" 親切でした \"was kind\""
+          }
+        ]
+      },
+      {
+        "level": 2,
+        "heading": "Negative Past Forms",
+        "content": "",
+        "children": [
+          {
+            "level": 3,
+            "heading": "じゃなかった (Plain negative past)",
+            "content": "学生じゃなかった \"was not a student\" 本当じゃなかった \"was not true\" 簡単じゃなかった \"was not simple\" きれいじゃなかった \"was not beautiful\" 静かじゃなかった \"was not quiet\""
+          },
+          {
+            "level": 3,
+            "heading": "じゃなかったです (Polite casual)",
+            "content": "学生じゃなかったです \"was not a student\" (polite) 簡単じゃなかったです \"was not simple\" (polite) 便利じゃなかったです \"was not convenient\" (polite)"
+          },
+          {
+            "level": 3,
+            "heading": "ではありませんでした (Most polite)",
+            "content": "学生ではありませんでした \"was not a student\" (formal/polite) 簡単ではありませんでした \"was not simple\" (formal/polite) 適切ではありませんでした \"was not appropriate\" (formal/polite)"
+          }
+        ]
+      },
+      {
+        "level": 2,
+        "heading": "Complete Conjugation Chart",
+        "content": "",
+        "children": [
+          {
+            "level": 3,
+            "heading": "Affirmative Forms",
+            "content": "Present Plain: だ Present Polite: です Past Plain: だった Past Polite: でした 学生だ → 学生です 学生だった → 学生でした"
+          },
+          {
+            "level": 3,
+            "heading": "Negative Forms",
+            "content": "Present Negative Plain: じゃない Present Negative Polite: じゃないです / ではありません Past Negative Plain: じゃなかった Past Negative Polite: じゃなかったです / ではありませんでした 学生じゃない → 学生じゃないです 学生じゃなかった → 学生じゃなかったです"
+          }
+        ]
+      },
+      {
+        "level": 2,
+        "heading": "Time Expressions with Past Copula",
+        "content": "",
+        "children": [
+          {
+            "level": 3,
+            "heading": "Yesterday/Past Time",
+            "content": "昨日は雨だった \"It was rainy yesterday\" 先週は忙しかった \"I was busy last week\" 去年の夏は暑かった \"Last summer was hot\" 10年前は学生だった \"I was a student 10 years ago\""
+          },
+          {
+            "level": 3,
+            "heading": "Childhood/Long Ago",
+            "content": "子供の頃は元気だった \"I was energetic in my childhood\" 昔はここは畑だった \"This used to be a field long ago\" 若い時は細かった \"I was thin when I was young\""
+          },
+          {
+            "level": 3,
+            "heading": "Specific Past Moments",
+            "content": "その時は大変だった \"It was tough at that time\" あの日は特別だった \"That day was special\" その瞬間は静かだった \"That moment was quiet\""
+          }
+        ]
+      },
+      {
+        "level": 2,
+        "heading": "Common Patterns",
+        "content": "",
+        "children": [
+          {
+            "level": 3,
+            "heading": "だったら (if it was/were)",
+            "content": "Conditional form of だった.\n\n学生だったら、割引がある \"If you were a student, there would be a discount\" 昨日だったら、行けた \"If it were yesterday, I could have gone\" もっと早かったら、間に合った \"If it were earlier, I would have made it\""
+          },
+          {
+            "level": 3,
+            "heading": "だったのに (even though it was)",
+            "content": "Expresses regret or contrast.\n\n簡単だったのに \"Even though it was easy\" きれいだったのに、壊れた \"Even though it was beautiful, it broke\" 学生だったのに、覚えていない \"Even though I was a student, I don't remember\""
+          },
+          {
+            "level": 3,
+            "heading": "だったんだ (explanatory past)",
+            "content": "Explains past situations.\n\nそうだったんだ \"So that's how it was\" 学生だったんだ \"Oh, you were a student (I see)\" 大変だったんだね \"So it was tough, huh\""
+          },
+          {
+            "level": 3,
+            "heading": "だったっけ (was it...? reminder)",
+            "content": "Casual question about past.\n\n昨日だったっけ？ \"Was it yesterday?\" 田中さんだったっけ？ \"Was it Tanaka?\" 月曜日だったっけ？ \"Was it Monday?\""
+          }
+        ]
+      },
+      {
+        "level": 2,
+        "heading": "Question Forms",
+        "content": "",
+        "children": [
+          {
+            "level": 3,
+            "heading": "だった + か",
+            "content": "学生だったか？ \"Were you a student?\" 昨日だったか？ \"Was it yesterday?\" 本当だったか？ \"Was it true?\""
+          },
+          {
+            "level": 3,
+            "heading": "でしたか (Polite question)",
+            "content": "学生でしたか？ \"Were you a student?\" 大変でしたか？ \"Was it difficult?\" きれいでしたか？ \"Was it beautiful?\""
+          },
+          {
+            "level": 3,
+            "heading": "Answering Past Questions",
+            "content": "Q: 学生でしたか？ \"Were you a student?\" A: はい、学生でした \"Yes, I was a student\" A: いいえ、学生じゃなかったです \"No, I wasn't a student\""
+          }
+        ]
+      },
+      {
+        "level": 2,
+        "heading": "Common Conversations",
+        "content": "",
+        "children": [
+          {
+            "level": 3,
+            "heading": "Example 1: Past Experience",
+            "content": "A: 昨日のパーティーはどうだった？ \"How was yesterday's party?\" B: 楽しかった！みんな元気だった \"It was fun! Everyone was energetic\" A: 食べ物はおいしかった？ \"Was the food delicious?\" B: うん、とてもおいしかった \"Yeah, it was very delicious\""
+          },
+          {
+            "level": 3,
+            "heading": "Example 2: Reminiscing",
+            "content": "A: 子供の頃、どんな子だった？ \"What kind of child were you in childhood?\" B: 静かな子だった \"I was a quiet child\" A: 今は全然違うね \"You're totally different now\" B: そうだね。昔はシャイだったんだ \"That's right. I was shy back then\""
+          },
+          {
+            "level": 3,
+            "heading": "Example 3: Polite Inquiry",
+            "content": "A: 会議はいかがでしたか？ \"How was the meeting?\" B: とても有益でした \"It was very beneficial\" A: 長かったですか？ \"Was it long?\" B: いいえ、1時間ぐらいでした \"No, it was about an hour\""
+          }
+        ]
+      },
+      {
+        "level": 2,
+        "heading": "Common Mistakes",
+        "content": "",
+        "children": [
+          {
+            "level": 3,
+            "heading": "Mistake 1: Using でした with verbs",
+            "content": "Wrong: 行きましたでした ❌ Right: 行きました ✓ \"I went\" Note: Verbs have their own past forms"
+          },
+          {
+            "level": 3,
+            "heading": "Mistake 2: Using だった with i-adjectives directly",
+            "content": "Wrong: 大きいだった ❌ Right: 大きかった ✓ \"It was big\" Note: I-adjectives conjugate differently"
+          },
+          {
+            "level": 3,
+            "heading": "Mistake 3: Double past marking",
+            "content": "Wrong: 学生だったでした ❌ Right: 学生でした ✓ \"I was a student\""
+          },
+          {
+            "level": 3,
+            "heading": "Mistake 4: Wrong negative past",
+            "content": "Wrong: 学生ないだった ❌ Right: 学生じゃなかった ✓ \"I wasn't a student\""
+          }
+        ]
+      },
+      {
+        "level": 2,
+        "heading": "Comparison with Other Past Forms",
+        "content": "",
+        "children": [
+          {
+            "level": 3,
+            "heading": "I-adjectives Past",
+            "content": "I-adjective: おいしい → おいしかった \"delicious → was delicious\" NOT: おいしいだった ❌"
+          },
+          {
+            "level": 3,
+            "heading": "Verbs Past",
+            "content": "Verb: 行く → 行った \"go → went\" NOT: 行くだった ❌"
+          },
+          {
+            "level": 3,
+            "heading": "Na-adjectives and Nouns Past",
+            "content": "Na-adj: きれい → きれいだった Noun: 学生 → 学生だった \"beautiful → was beautiful\" \"student → was a student\""
+          }
+        ]
+      },
+      {
+        "level": 2,
+        "heading": "Formal Written Past: であった",
+        "content": "",
+        "children": [
+          {
+            "level": 3,
+            "heading": "In Formal Writing",
+            "content": "彼は学生であった \"He was a student\" (formal written) その結果は明らかであった \"The result was clear\" (formal written) これは事実であった \"This was a fact\" (formal written)"
+          }
+        ]
+      },
+      {
+        "level": 2,
+        "heading": "Special Expressions",
+        "content": "",
+        "children": [
+          {
+            "level": 3,
+            "heading": "だったら (conditional/advice)",
+            "content": "私だったら、行かない \"If it were me, I wouldn't go\" 明日だったら、大丈夫 \"If it's tomorrow, it's okay\""
+          },
+          {
+            "level": 3,
+            "heading": "そうだったんですか (I see)",
+            "content": "A: 学生でした \"I was a student\" B: そうだったんですか \"Oh, I see / Is that so\""
+          },
+          {
+            "level": 3,
+            "heading": "だったんですね (confirmation with understanding)",
+            "content": "大変だったんですね \"So it was tough (I understand now)\" そうだったんですね \"So that's how it was (I get it now)\""
+          }
+        ]
+      },
+      {
+        "level": 2,
+        "heading": "Practice Sentences",
+        "content": "",
+        "children": [
+          {
+            "level": 3,
+            "heading": "Basic Past Statements",
+            "content": "昨日は日曜日だった \"Yesterday was Sunday\" 彼は先生だった \"He was a teacher\" その映画は面白かった \"That movie was interesting\" 天気はよかった \"The weather was good\""
+          },
+          {
+            "level": 3,
+            "heading": "Polite Past",
+            "content": "とてもきれいでした \"It was very beautiful\" 会議は長かったです \"The meeting was long\" 先生は親切でした \"The teacher was kind\""
+          },
+          {
+            "level": 3,
+            "heading": "Negative Past",
+            "content": "簡単じゃなかった \"It wasn't easy\" 学生じゃなかったです \"I wasn't a student\" 本当ではありませんでした \"It was not true\""
+          },
+          {
+            "level": 3,
+            "heading": "In Context",
+            "content": "子供の時は元気だった \"I was energetic when I was a child\" 10年前、ここは静かだった \"Ten years ago, this place was quiet\" あの人は有名な歌手だった \"That person was a famous singer\" 昔はもっと安かった \"It used to be cheaper long ago\" その時は大変だったんだ \"It was tough at that time (you see)\""
+          }
+        ]
+      },
+      {
+        "level": 2,
+        "heading": "Related Grammar Points",
+        "content": "だ (da) - Plain present copula です (desu) - Polite present copula である (de aru) - Formal copula じゃない (janai) - Negative copula Past Tense Usage - Using past tense in context Time Words (今、昨日、明日) - Time expressions",
+        "children": [
+          {
+            "level": 3,
+            "heading": "Company",
+            "content": "About Pricing Blog Contact"
+          },
+          {
+            "level": 3,
+            "heading": "Legal",
+            "content": "Privacy Policy Terms of Service Cookie Policy"
+          }
+        ]
+      }
+    ]
+  },
+  "metadata": {
+    "extracted_at": "2026-01-01T22:19:28.427456100Z",
+    "duration_ms": 4,
+    "extractors_matched": [
+      "metadata",
+      "examples",
+      "sections"
+    ],
+    "extractors_failed": [
+      "vocab_tables",
+      "definitions",
+      "content_blocks"
+    ]
+  }
+}

@@ -1,0 +1,392 @@
+{
+  "config_name": "Language Learning Extractor",
+  "url": "https://practice-japanese.com/docs/introduction/",
+  "data": {
+    "sections": [
+      {
+        "level": 2,
+        "heading": "Why Japanese Grammar is Different from English",
+        "content": "Japanese grammar operates on fundamentally different principles than English. Understanding these differences early will accelerate your learning dramatically.",
+        "children": [
+          {
+            "level": 3,
+            "heading": "1. Subject-Object-Verb (SOV) Word Order",
+            "content": "The most striking difference: Japanese puts verbs at the end.\n\nEnglish (SVO): I eat sushi Japanese (SOV): 私は寿司を食べます (watashi wa sushi wo tabemasu) Literally: \"I sushi eat\"\n\nThis means you wait until the end of the sentence to know what action is happening. Native speakers find this completely natural."
+          },
+          {
+            "level": 3,
+            "heading": "2. Particles Define Relationships",
+            "content": "Instead of relying on word order, Japanese uses small words called particles (助詞 joshi) to show how words relate to each other:\n\n田中さんは学生です。 Tanaka-san wa gakusei desu. Tanaka (topic) student is. \"Tanaka is a student.\"\n\nThe particle は (wa) marks \"Tanaka\" as the topic. Change the particle, change the meaning entirely:\n\n田中さんが学生です。 Tanaka-san ga gakusei desu. \"It's Tanaka who is a student.\" [Emphasis on Tanaka]"
+          },
+          {
+            "level": 3,
+            "heading": "3. No Articles or Plural Forms",
+            "content": "Japanese has no \"a,\" \"an,\" or \"the,\" and rarely uses plural markers:\n\n本 (hon) can mean: book, books, a book, the book, the books\n\nContext determines everything. This simplicity is actually liberating once you get used to it."
+          },
+          {
+            "level": 3,
+            "heading": "4. Verb Conjugation is Predictable",
+            "content": "Unlike English irregular verbs (go-went-gone, eat-ate-eaten), Japanese verbs follow consistent patterns:\n\n食べる (taberu) → 食べます (tabemasu) → 食べた (tabeta) → 食べない (tabenai) eat → eat politely → ate → don't eat\n\nOnly two verbs are truly irregular: する (suru) and 来る (kuru)."
+          },
+          {
+            "level": 3,
+            "heading": "5. Subjects Can Be Omitted",
+            "content": "If context makes it clear, Japanese drops subjects entirely:\n\n映画を見ました。 Eiga wo mimashita. \"(I) watched a movie.\"\n\nThe subject \"I\" is understood. This happens constantly in natural speech."
+          }
+        ]
+      },
+      {
+        "level": 2,
+        "heading": "The Three Writing Systems",
+        "content": "Japanese uniquely uses three different scripts simultaneously:",
+        "children": [
+          {
+            "level": 3,
+            "heading": "Hiragana (ひらがな) - 46 characters",
+            "content": "Native Japanese words Grammar particles Verb/adjective endings Example: ありがとう (arigatou - thank you)"
+          },
+          {
+            "level": 3,
+            "heading": "Katakana (カタカナ) - 46 characters",
+            "content": "Foreign loanwords Emphasis (like italics) Onomatopoeia Example: コーヒー (ko-hi- - coffee)"
+          },
+          {
+            "level": 3,
+            "heading": "Kanji (漢字) - 2000+ characters",
+            "content": "Chinese-origin characters Convey meaning visually Multiple readings per character Example: 食 (eat, food)\n\nReal sentence combining all three:\n\nコーヒーを飲みます ko-hi- wo nomimasu coffee (katakana) + particle (hiragana) + drink (kanji + hiragana) \"I drink coffee.\"\n\nLearn more: Japanese Writing Systems"
+          }
+        ]
+      },
+      {
+        "level": 2,
+        "heading": "Core Grammar Concepts",
+        "content": "",
+        "children": [
+          {
+            "level": 3,
+            "heading": "Politeness Levels are Built Into Grammar",
+            "content": "Japanese doesn't just add \"please\" - the verb itself changes:\n\nCasual: 食べる (taberu) - with close friends Polite: 食べます (tabemasu) - standard, safe to use Honorific: 召し上がる (meshiagaru) - showing respect\n\nUsing the wrong level can be awkward or rude. Start with polite forms."
+          },
+          {
+            "level": 3,
+            "heading": "Topic (は) vs Subject (が)",
+            "content": "This distinction doesn't exist in English but is fundamental in Japanese:\n\nTopic は (wa): What we're discussing\n\n私は学生です。 Watashi wa gakusei desu. \"As for me, I'm a student.\"\n\nSubject が (ga): Who/what performs the action\n\n誰が来ましたか？ Dare ga kimashita ka? \"Who came?\"\n\nMaster this and you'll sound natural instantly. See: は vs が Complete Guide"
+          },
+          {
+            "level": 3,
+            "heading": "Adjectives Come in Two Types",
+            "content": "I-adjectives end in い and conjugate:\n\n大きい → 大きかった (big → was big) ookii → ookikatta\n\nNa-adjectives need な before nouns:\n\n静かな部屋 (quiet room) shizuka na heya\n\nLearn more: Adjectives Overview"
+          }
+        ]
+      },
+      {
+        "level": 2,
+        "heading": "Essential Sentence Patterns",
+        "content": "",
+        "children": [
+          {
+            "level": 3,
+            "heading": "Pattern 1: X は Y です (X is Y)",
+            "content": "私は田中です。 Watashi wa Tanaka desu. \"I'm Tanaka.\""
+          },
+          {
+            "level": 3,
+            "heading": "Pattern 2: X は Y を V (X does V to Y)",
+            "content": "私は本を読みます。 Watashi wa hon wo yomimasu. \"I read books.\""
+          },
+          {
+            "level": 3,
+            "heading": "Pattern 3: X に Y があります/います (Y exists at X)",
+            "content": "机の上に本があります。 Tsukue no ue ni hon ga arimasu. \"There's a book on the desk.\"\n\nSee all patterns: Basic Sentence Patterns"
+          }
+        ]
+      },
+      {
+        "level": 2,
+        "heading": "What Makes Japanese Logical",
+        "content": "Despite seeming complex, Japanese is remarkably consistent:\n\nParticle system: Once you learn は、が、を、に、で, you can build any sentence Verb conjugation: Follows predictable rules (no \"I am, you are, he is\" irregularity) Pronunciation: Spelled exactly as pronounced (unlike English) Politeness: Clear rules for formal vs casual\n\nThe challenge isn't complexity - it's just different from European languages."
+      },
+      {
+        "level": 2,
+        "heading": "How This Guide is Organized",
+        "content": "",
+        "children": [
+          {
+            "level": 3,
+            "heading": "Level 1: Foundations (Start Here)",
+            "content": "Writing systems Basic particles Simple verb forms Essential patterns"
+          },
+          {
+            "level": 3,
+            "heading": "Level 2: Building Blocks",
+            "content": "All particles in detail Complete verb conjugations Adjective forms Common grammar patterns"
+          },
+          {
+            "level": 3,
+            "heading": "Level 3: Fluency",
+            "content": "Advanced expressions Honorific language Literary forms Nuanced meanings"
+          },
+          {
+            "level": 3,
+            "heading": "Level 4: Mastery",
+            "content": "Complex patterns Subtle distinctions Regional variations Classical influences"
+          }
+        ]
+      },
+      {
+        "level": 2,
+        "heading": "Study Approach Recommendations",
+        "content": "",
+        "children": [
+          {
+            "level": 3,
+            "heading": "For Complete Beginners",
+            "content": "Learn hiragana first (1-2 weeks) Study basic particles (は、が、を、に、で) Master verb groups and masu-form Practice with simple sentences daily"
+          },
+          {
+            "level": 3,
+            "heading": "For Intermediate Learners",
+            "content": "Fill particle knowledge gaps Master all verb conjugations Learn te-form patterns Study advanced sentence connectors"
+          },
+          {
+            "level": 3,
+            "heading": "For Advanced Learners",
+            "content": "Polish honorific language Master subtle distinctions Study literary patterns Practice register shifts"
+          }
+        ]
+      },
+      {
+        "level": 2,
+        "heading": "What You'll Achieve",
+        "content": "Working through this guide systematically, you'll master:\n\nAll 30+ Japanese particles and their nuances Complete verb conjugation system (potential, passive, causative, etc.) I-adjective and na-adjective forms 200+ essential grammar patterns Honorific and humble language (keigo) Formal vs casual speech JLPT N5 through N1 grammar points Natural expression in context"
+      },
+      {
+        "level": 2,
+        "heading": "The Learning Mindset",
+        "content": "Japanese grammar is puzzle pieces that fit together logically. Each particle, each verb form, each pattern connects to create meaning. Unlike memorizing vocabulary, grammar understanding builds exponentially - each new concept makes previous ones clearer.\n\nMistakes are part of mastery. Native speakers will understand even imperfect Japanese. Focus on communication first, perfection later.\n\nContext is everything. Grammar rules have exceptions, but context always clarifies meaning. Immerse yourself in real Japanese alongside studying grammar."
+      },
+      {
+        "level": 2,
+        "heading": "Start Your Journey",
+        "content": "Ready to begin? Here's your path:\n\nNext Step: How to Use This Guide - Learn the most effective way to navigate this resource\n\nThen: Japanese Writing Systems - Understand hiragana, katakana, and kanji\n\nCore Foundation: Basic Sentence Patterns - Build your first Japanese sentences\n\nRemember: Every expert was once a beginner. The Japanese language has been learned by millions of non-native speakers. You can do this.\n\n頑張ってください！(ganbatte kudasai - Do your best!)\n\nQuick Links:\n\nParticles Overview Verb Basics は (wa) Topic Particle JLPT N5 Grammar",
+        "children": [
+          {
+            "level": 3,
+            "heading": "Company",
+            "content": "About Pricing Blog Contact"
+          },
+          {
+            "level": 3,
+            "heading": "Legal",
+            "content": "Privacy Policy Terms of Service Cookie Policy"
+          }
+        ]
+      }
+    ],
+    "metadata": {
+      "title": "Introduction to Japanese Grammar"
+    },
+    "examples": [
+      {
+        "sentence": "Learn hiragana first (1-2 weeks)"
+      },
+      {
+        "sentence": "Study basic particles (は、が、を、に、で)"
+      },
+      {
+        "sentence": "Master verb groups and masu-form"
+      },
+      {
+        "sentence": "Practice with simple sentences daily"
+      },
+      {
+        "sentence": "Fill particle knowledge gaps"
+      },
+      {
+        "sentence": "Master all verb conjugations"
+      },
+      {
+        "sentence": "Learn te-form patterns"
+      },
+      {
+        "sentence": "Study advanced sentence connectors"
+      },
+      {
+        "sentence": "Polish honorific language"
+      },
+      {
+        "sentence": "Master subtle distinctions"
+      },
+      {
+        "sentence": "Study literary patterns"
+      },
+      {
+        "sentence": "Practice register shifts"
+      },
+      {
+        "sentence": "本 (hon) can mean: book, books, a book, the book, the books"
+      },
+      {
+        "sentence": "食べる (taberu) → 食べます (tabemasu) → 食べた (tabeta) → 食べない (tabenai)"
+      },
+      {
+        "sentence": "eat → eat politely → ate → don't eat"
+      },
+      {
+        "sentence": "Native Japanese words"
+      },
+      {
+        "sentence": "Grammar particles"
+      },
+      {
+        "sentence": "Verb/adjective endings"
+      },
+      {
+        "sentence": "Example: ありがとう (arigatou - thank you)"
+      },
+      {
+        "sentence": "Foreign loanwords"
+      },
+      {
+        "sentence": "Emphasis (like italics)"
+      },
+      {
+        "sentence": "Onomatopoeia"
+      },
+      {
+        "sentence": "Example: コーヒー (ko-hi- - coffee)"
+      },
+      {
+        "sentence": "Chinese-origin characters"
+      },
+      {
+        "sentence": "Convey meaning visually"
+      },
+      {
+        "sentence": "Multiple readings per character"
+      },
+      {
+        "sentence": "Example: 食 (eat, food)"
+      },
+      {
+        "sentence": "Writing systems"
+      },
+      {
+        "sentence": "Basic particles"
+      },
+      {
+        "sentence": "Simple verb forms"
+      },
+      {
+        "sentence": "Essential patterns"
+      },
+      {
+        "sentence": "All particles in detail"
+      },
+      {
+        "sentence": "Complete verb conjugations"
+      },
+      {
+        "sentence": "Adjective forms"
+      },
+      {
+        "sentence": "Common grammar patterns"
+      },
+      {
+        "sentence": "Advanced expressions"
+      },
+      {
+        "sentence": "Honorific language"
+      },
+      {
+        "sentence": "Literary forms"
+      },
+      {
+        "sentence": "Nuanced meanings"
+      },
+      {
+        "sentence": "Complex patterns"
+      },
+      {
+        "sentence": "Subtle distinctions"
+      },
+      {
+        "sentence": "Regional variations"
+      },
+      {
+        "sentence": "Classical influences"
+      },
+      {
+        "sentence": "All 30+ Japanese particles and their nuances"
+      },
+      {
+        "sentence": "Complete verb conjugation system (potential, passive, causative, etc.)"
+      },
+      {
+        "sentence": "I-adjective and na-adjective forms"
+      },
+      {
+        "sentence": "200+ essential grammar patterns"
+      },
+      {
+        "sentence": "Honorific and humble language (keigo)"
+      },
+      {
+        "sentence": "Formal vs casual speech"
+      },
+      {
+        "sentence": "JLPT N5 through N1 grammar points"
+      },
+      {
+        "sentence": "Natural expression in context"
+      },
+      {
+        "sentence": "Particles Overview"
+      },
+      {
+        "sentence": "Verb Basics"
+      },
+      {
+        "sentence": "は (wa) Topic Particle"
+      },
+      {
+        "sentence": "JLPT N5 Grammar"
+      },
+      {
+        "sentence": "About"
+      },
+      {
+        "sentence": "Pricing"
+      },
+      {
+        "sentence": "Blog"
+      },
+      {
+        "sentence": "Contact"
+      },
+      {
+        "sentence": "Privacy Policy"
+      },
+      {
+        "sentence": "Terms of Service"
+      },
+      {
+        "sentence": "Cookie Policy"
+      }
+    ]
+  },
+  "metadata": {
+    "extracted_at": "2026-01-01T22:19:30.241984300Z",
+    "duration_ms": 5,
+    "extractors_matched": [
+      "metadata",
+      "examples",
+      "sections"
+    ],
+    "extractors_failed": [
+      "vocab_tables",
+      "definitions",
+      "content_blocks"
+    ]
+  }
+}

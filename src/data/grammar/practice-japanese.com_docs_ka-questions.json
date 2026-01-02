@@ -1,0 +1,464 @@
+{
+  "config_name": "Language Learning Extractor",
+  "url": "https://practice-japanese.com/docs/ka-questions/",
+  "data": {
+    "examples": [
+      {
+        "sentence": "か is almost always included in polite writing"
+      },
+      {
+        "sentence": "Question mark ？ is often added"
+      },
+      {
+        "sentence": "Formal documents always use か"
+      },
+      {
+        "sentence": "Polite: Always use か"
+      },
+      {
+        "sentence": "Casual: Often omit か, use intonation"
+      },
+      {
+        "sentence": "Regional variations exist"
+      },
+      {
+        "sentence": "Yes/No Questions - Basic question formation"
+      },
+      {
+        "sentence": "Question Words (5W1H) - Information questions"
+      },
+      {
+        "sentence": "の (no) Questions - Casual question particle"
+      },
+      {
+        "sentence": "Choice Questions - Using か for alternatives"
+      },
+      {
+        "sentence": "Indirect speech - Embedded questions"
+      },
+      {
+        "sentence": "かどうか pattern - Whether or not"
+      },
+      {
+        "sentence": "Question intonation - Rising pitch in questions"
+      },
+      {
+        "sentence": "About"
+      },
+      {
+        "sentence": "Pricing"
+      },
+      {
+        "sentence": "Blog"
+      },
+      {
+        "sentence": "Contact"
+      },
+      {
+        "sentence": "Privacy Policy"
+      },
+      {
+        "sentence": "Terms of Service"
+      },
+      {
+        "sentence": "Cookie Policy"
+      }
+    ],
+    "sections": [
+      {
+        "level": 2,
+        "heading": "What is か (ka)?",
+        "content": "か (ka) is the primary question particle in Japanese. It marks a sentence as a question and is roughly equivalent to a question mark, though question marks are also used in writing.\n\nこれは本です \"This is a book\" (statement) これは本ですか？ \"Is this a book?\" (question)"
+      },
+      {
+        "level": 2,
+        "heading": "Basic Usage",
+        "content": "",
+        "children": [
+          {
+            "level": 3,
+            "heading": "With です/ます (Polite)",
+            "content": "Always use か in polite/formal situations:\n\n学生ですか？ \"Are you a student?\" 行きますか？ \"Will you go?\" わかりますか？ \"Do you understand?\" 美味しいですか？ \"Is it delicious?\""
+          },
+          {
+            "level": 3,
+            "heading": "Question Mark Usage",
+            "content": "In modern Japanese, both か and ？ are often used:\n\nStandard: 学生ですか？ Common: 学生ですか Also seen: 学生ですか。 All three are acceptable in writing."
+          }
+        ]
+      },
+      {
+        "level": 2,
+        "heading": "When to Use か",
+        "content": "",
+        "children": [
+          {
+            "level": 3,
+            "heading": "1. Polite/Formal Speech",
+            "content": "Always use か with です/ます forms:\n\nこれは何ですか？ \"What is this?\" どこに行きますか？ \"Where are you going?\" いくらですか？ \"How much is it?\""
+          },
+          {
+            "level": 3,
+            "heading": "2. Yes/No Questions",
+            "content": "日本人ですか？ \"Are you Japanese?\" 好きですか？ \"Do you like it?\" 明日来ますか？ \"Will you come tomorrow?\""
+          },
+          {
+            "level": 3,
+            "heading": "3. Information Questions",
+            "content": "With question words (何、誰、いつ、どこ、etc.):\n\nこれは何ですか？ \"What is this?\" 誰が来ますか？ \"Who is coming?\" いつ行きますか？ \"When will you go?\""
+          },
+          {
+            "level": 3,
+            "heading": "4. Alternative Questions",
+            "content": "Between choices:\n\nコーヒーか紅茶ですか？ \"Coffee or tea?\" 行くか行かないか？ \"Going or not going?\""
+          }
+        ]
+      },
+      {
+        "level": 2,
+        "heading": "When NOT to Use か",
+        "content": "",
+        "children": [
+          {
+            "level": 3,
+            "heading": "1. Casual Conversation (だ form)",
+            "content": "In casual speech with だ, omit か and use rising intonation:\n\nCasual: 学生？ (rising intonation) Not: 学生だか？ ❌ Polite: 学生ですか？ ✓ Casual: これ何？ Not: これ何だか？ ❌ Polite: これは何ですか？ ✓"
+          },
+          {
+            "level": 3,
+            "heading": "2. With Question Words in Casual Speech",
+            "content": "Casual: 誰？ Polite: 誰ですか？ Casual: どこ行く？ Polite: どこに行きますか？ Casual: いつ？ Polite: いつですか？"
+          },
+          {
+            "level": 3,
+            "heading": "3. After の in Casual Questions",
+            "content": "の acts as a question marker itself:\n\nCasual: 行くの？ Not: 行くのか？ (sounds masculine/rough) Polite: 行くのですか？ ✓ Casual: 何してるの？ Polite: 何をしているのですか？"
+          },
+          {
+            "level": 3,
+            "heading": "4. With か Already Used",
+            "content": "Don't double up:\n\nWrong: 何ですかか？ ❌ Right: 何ですか？ ✓"
+          }
+        ]
+      },
+      {
+        "level": 2,
+        "heading": "Special か Patterns",
+        "content": "",
+        "children": [
+          {
+            "level": 3,
+            "heading": "かどうか (ka dou ka) - \"Whether or not\"",
+            "content": "Used in indirect questions:\n\n行くかどうかわかりません \"I don't know whether (I'll) go or not\" 本当かどうか確認してください \"Please confirm whether it's true or not\" できるかどうか試してみます \"I'll try to see whether I can do it\" 彼が来るかどうか聞いてください \"Please ask whether he's coming\""
+          },
+          {
+            "level": 3,
+            "heading": "か (embedded questions)",
+            "content": "In indirect questions within sentences:\n\n誰が来るか知っていますか？ \"Do you know who is coming?\" 何時に始まるか教えてください \"Please tell me what time it starts\" どこにあるかわかりません \"I don't know where it is\" いくらかかるか計算しています \"I'm calculating how much it will cost\""
+          },
+          {
+            "level": 3,
+            "heading": "か with Counters",
+            "content": "For \"about/approximately\":\n\n3つか4つ \"About 3 or 4\" 10分か15分 \"About 10 or 15 minutes\" 2、3日か \"About 2 or 3 days\""
+          },
+          {
+            "level": 3,
+            "heading": "〜か〜か (repetitive か)",
+            "content": "Listing alternatives or examples:\n\n誰か \"Someone\" 何か \"Something\" どこか \"Somewhere\" いつか \"Someday\" どちらか \"Either one\""
+          },
+          {
+            "level": 3,
+            "heading": "〜か〜ないか (affirmative or negative)",
+            "content": "行くか行かないか \"Whether to go or not\" 食べるか食べないか \"Whether to eat or not\" 好きか嫌いか \"Whether you like it or hate it\""
+          }
+        ]
+      },
+      {
+        "level": 2,
+        "heading": "Formal vs Casual Patterns",
+        "content": "",
+        "children": [
+          {
+            "level": 3,
+            "heading": "Formal Business/Written",
+            "content": "ご確認いただけますでしょうか？ \"Could you please confirm?\" よろしいでしょうか？ \"Would that be alright?\" お時間はございますでしょうか？ \"Do you have time?\""
+          },
+          {
+            "level": 3,
+            "heading": "Standard Polite",
+            "content": "わかりますか？ \"Do you understand?\" 行きますか？ \"Will you go?\" いいですか？ \"Is it okay?\""
+          },
+          {
+            "level": 3,
+            "heading": "Casual (omit か)",
+            "content": "わかる？ \"Understand?\" 行く？ \"Going?\" いい？ \"Okay?\""
+          },
+          {
+            "level": 3,
+            "heading": "Masculine/Rough (のか、んか)",
+            "content": "何してんのか？ \"What are you doing?\" (rough) どこ行くんか？ \"Where are you going?\" (dialect/rough)\n\nThese forms should be avoided by learners unless you understand the context well."
+          }
+        ]
+      },
+      {
+        "level": 2,
+        "heading": "Common Conversations",
+        "content": "",
+        "children": [
+          {
+            "level": 3,
+            "heading": "Example 1: Meeting Someone",
+            "content": "A: 日本人ですか？ \"Are you Japanese?\" B: いいえ、アメリカ人です \"No, I'm American\" A: 学生ですか？ \"Are you a student?\" B: はい、そうです \"Yes, that's right\""
+          },
+          {
+            "level": 3,
+            "heading": "Example 2: Shopping",
+            "content": "A: これはいくらですか？ \"How much is this?\" B: 1000円です \"It's 1000 yen\" A: 高いですか？ \"Is it expensive?\" B: いいえ、安いですよ \"No, it's cheap\""
+          },
+          {
+            "level": 3,
+            "heading": "Example 3: Making Plans (Casual)",
+            "content": "A: 明日暇？ \"Free tomorrow?\" B: うん、暇だよ \"Yeah, I'm free\" A: 映画見に行かない？ \"Want to go see a movie?\" B: いいね！何時？ \"Sounds good! What time?\""
+          }
+        ]
+      },
+      {
+        "level": 2,
+        "heading": "か in Different Sentence Types",
+        "content": "",
+        "children": [
+          {
+            "level": 3,
+            "heading": "With Verbs",
+            "content": "食べますか？ \"Will you eat?\" 行きましたか？ \"Did you go?\" 見ていますか？ \"Are you watching?\" できますか？ \"Can you do it?\""
+          },
+          {
+            "level": 3,
+            "heading": "With Adjectives",
+            "content": "い-adjectives:\n\n美味しいですか？ \"Is it delicious?\" 大きいですか？ \"Is it big?\" 高いですか？ \"Is it expensive?\"\n\nな-adjectives:\n\n元気ですか？ \"Are you well?\" 便利ですか？ \"Is it convenient?\" 好きですか？ \"Do you like it?\""
+          },
+          {
+            "level": 3,
+            "heading": "With Nouns",
+            "content": "学生ですか？ \"Are you a student?\" 日本人ですか？ \"Are you Japanese?\" 先生ですか？ \"Are you a teacher?\""
+          }
+        ]
+      },
+      {
+        "level": 2,
+        "heading": "Indirect Questions with か",
+        "content": "",
+        "children": [
+          {
+            "level": 3,
+            "heading": "Embedded in Statements",
+            "content": "誰が来るかわかりません \"I don't know who is coming\" 何時に始まるか教えてください \"Please tell me what time it starts\" どこに行くか決めましょう \"Let's decide where to go\" いつ終わるか聞いてみます \"I'll try asking when it ends\""
+          },
+          {
+            "level": 3,
+            "heading": "With Verbs of Thinking/Knowing",
+            "content": "本当かどうか考えています \"I'm thinking about whether it's true\" できるか試してみます \"I'll try to see if I can do it\" 正しいかどうか確認してください \"Please confirm whether it's correct\""
+          }
+        ]
+      },
+      {
+        "level": 2,
+        "heading": "Regional and Contextual Variations",
+        "content": "",
+        "children": [
+          {
+            "level": 3,
+            "heading": "Kansai Dialect",
+            "content": "Often omits か even in polite speech:\n\nStandard: 何ですか？ Kansai: 何ですか → 何です？ \"What is it?\""
+          },
+          {
+            "level": 3,
+            "heading": "かい (kai) - Masculine/Old-fashioned",
+            "content": "元気かい？ \"Are you well?\" (masculine) わかるかい？ \"Do you understand?\" (masculine)\n\nUsed mainly by older men or in fiction."
+          },
+          {
+            "level": 3,
+            "heading": "かしら (kashira) - Feminine/Old-fashioned",
+            "content": "本当かしら？ \"I wonder if it's true?\" (feminine) 来るかしら？ \"I wonder if they'll come?\" (feminine)\n\nLess common in modern speech, sounds dated."
+          },
+          {
+            "level": 3,
+            "heading": "かな (kana) - Wondering",
+            "content": "Gender-neutral, modern:\n\nできるかな？ \"I wonder if I can do it?\" 本当かな？ \"I wonder if it's true?\" 誰かな？ \"I wonder who it is?\""
+          }
+        ]
+      },
+      {
+        "level": 2,
+        "heading": "か with Other Particles",
+        "content": "",
+        "children": [
+          {
+            "level": 3,
+            "heading": "かね (ka ne)",
+            "content": "Seeking agreement or confirmation:\n\n高いですかね？ \"It's expensive, isn't it?\" 難しいですかね？ \"It's difficult, isn't it?\" そうですかね？ \"Is that so?\""
+          },
+          {
+            "level": 3,
+            "heading": "かよ (ka yo)",
+            "content": "Expressing surprise or disbelief (casual/rough):\n\n本当かよ！ \"Really?!\" (masculine) 嘘だろう？ \"No way, right?\""
+          },
+          {
+            "level": 3,
+            "heading": "から (kara) after か",
+            "content": "Sometimes seen but redundant:\n\nLess common: 行きますかから Standard: 行きますか \"Will you go?\""
+          }
+        ]
+      },
+      {
+        "level": 2,
+        "heading": "Common Mistakes",
+        "content": "",
+        "children": [
+          {
+            "level": 3,
+            "heading": "Mistake 1: Using か with だ in casual speech",
+            "content": "Wrong: 学生だか？ ❌ Right: 学生？ ✓ (casual) Right: 学生ですか？ ✓ (polite)"
+          },
+          {
+            "level": 3,
+            "heading": "Mistake 2: Forgetting か in formal situations",
+            "content": "Too casual: 何です (in formal setting) ⚠️ Better: 何ですか？ ✓ \"What is it?\""
+          },
+          {
+            "level": 3,
+            "heading": "Mistake 3: Double か",
+            "content": "Wrong: これは何ですかか？ ❌ Right: これは何ですか？ ✓ \"What is this?\""
+          },
+          {
+            "level": 3,
+            "heading": "Mistake 4: Using か after の casually",
+            "content": "Sounds rough: 行くのか？ ⚠️ Better (casual): 行くの？ ✓ Polite: 行くのですか？ ✓"
+          }
+        ]
+      },
+      {
+        "level": 2,
+        "heading": "Writing vs Speaking",
+        "content": "",
+        "children": [
+          {
+            "level": 3,
+            "heading": "In Writing",
+            "content": "か is almost always included in polite writing Question mark ？ is often added Formal documents always use か\n\nご参加いただけますか？ \"Could you participate?\" お名前を教えていただけますか？ \"Could you tell me your name?\""
+          },
+          {
+            "level": 3,
+            "heading": "In Speaking",
+            "content": "Polite: Always use か Casual: Often omit か, use intonation Regional variations exist\n\nWritten/Formal: 行きますか？ Spoken polite: 行きますか？ Spoken casual: 行く？"
+          }
+        ]
+      },
+      {
+        "level": 2,
+        "heading": "Advanced Patterns",
+        "content": "",
+        "children": [
+          {
+            "level": 3,
+            "heading": "〜か〜ないか (whether or not)",
+            "content": "行くか行かないか決めてください \"Please decide whether to go or not\" 好きか嫌いかはっきりして \"Be clear about whether you like it or hate it\""
+          },
+          {
+            "level": 3,
+            "heading": "Multiple か in One Sentence",
+            "content": "誰が何をどこで買うか知っていますか？ \"Do you know who will buy what where?\" いつどこでどうやって会うか相談しましょう \"Let's discuss when, where, and how to meet\""
+          },
+          {
+            "level": 3,
+            "heading": "か with Potential Form",
+            "content": "できますか？ \"Can you do it?\" 読めますか？ \"Can you read it?\" 行けますか？ \"Can you go?\""
+          }
+        ]
+      },
+      {
+        "level": 2,
+        "heading": "Politeness Hierarchy",
+        "content": "",
+        "children": [
+          {
+            "level": 3,
+            "heading": "Very Formal",
+            "content": "〜いただけますでしょうか？ \"Could you possibly...?\" 〜してくださいますか？ \"Would you do...?\""
+          },
+          {
+            "level": 3,
+            "heading": "Standard Polite",
+            "content": "〜しますか？ \"Will you...?\" 〜ですか？ \"Is it...?\""
+          },
+          {
+            "level": 3,
+            "heading": "Casual",
+            "content": "〜する？ \"Will you...?\" 〜？ \"...?\""
+          },
+          {
+            "level": 3,
+            "heading": "Rough (avoid)",
+            "content": "〜するのか？ \"Are you going to...?\" 〜なのか？ \"Is it...?\""
+          }
+        ]
+      },
+      {
+        "level": 2,
+        "heading": "Practice Sentences",
+        "content": "",
+        "children": [
+          {
+            "level": 3,
+            "heading": "Basic Questions",
+            "content": "これは何ですか？ \"What is this?\" どこに行きますか？ \"Where are you going?\" いつ来ますか？ \"When will you come?\" 誰ですか？ \"Who is it?\""
+          },
+          {
+            "level": 3,
+            "heading": "Embedded Questions",
+            "content": "何時に始まるか知っていますか？ \"Do you know what time it starts?\" 誰が来るかわかりません \"I don't know who is coming\" どこにあるか教えてください \"Please tell me where it is\""
+          },
+          {
+            "level": 3,
+            "heading": "かどうか Patterns",
+            "content": "本当かどうか確認します \"I'll confirm whether it's true\" できるかどうか試します \"I'll try to see if I can do it\" 来るかどうか聞いてみます \"I'll try asking if they're coming\""
+          }
+        ]
+      },
+      {
+        "level": 2,
+        "heading": "Related Grammar Points",
+        "content": "Yes/No Questions - Basic question formation Question Words (5W1H) - Information questions の (no) Questions - Casual question particle Choice Questions - Using か for alternatives Indirect speech - Embedded questions かどうか pattern - Whether or not Question intonation - Rising pitch in questions",
+        "children": [
+          {
+            "level": 3,
+            "heading": "Company",
+            "content": "About Pricing Blog Contact"
+          },
+          {
+            "level": 3,
+            "heading": "Legal",
+            "content": "Privacy Policy Terms of Service Cookie Policy"
+          }
+        ]
+      }
+    ],
+    "metadata": {
+      "title": "か (ka) Question Usage"
+    }
+  },
+  "metadata": {
+    "extracted_at": "2026-01-01T22:19:30.590003800Z",
+    "duration_ms": 5,
+    "extractors_matched": [
+      "metadata",
+      "examples",
+      "sections"
+    ],
+    "extractors_failed": [
+      "vocab_tables",
+      "definitions",
+      "content_blocks"
+    ]
+  }
+}

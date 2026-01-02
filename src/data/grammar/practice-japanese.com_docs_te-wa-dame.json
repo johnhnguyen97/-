@@ -1,0 +1,375 @@
+{
+  "config_name": "Language Learning Extractor",
+  "url": "https://practice-japanese.com/docs/te-wa-dame/",
+  "data": {
+    "sections": [
+      {
+        "level": 2,
+        "heading": "What is 〜てはだめ?",
+        "content": "〜てはだめ is a casual way to express prohibition, meaning \"must not,\" \"can't,\" or \"don't.\" It's softer and more colloquial than てはいけない.\n\n食べてはだめ \"You can't eat\" / \"Don't eat\" 行ってはだめだよ \"You mustn't go\""
+      },
+      {
+        "level": 2,
+        "heading": "Formation",
+        "content": "",
+        "children": [
+          {
+            "level": 3,
+            "heading": "Pattern: Verb て-form + は + だめ(です)",
+            "content": "| Verb | て-form | + はだめ | | ------ | ------- | ------------ | | 食べる | 食べて | 食べてはだめ | | 行く | 行って | 行ってはだめ | | 見る | 見て | 見てはだめ | | する | して | してはだめ |"
+          },
+          {
+            "level": 3,
+            "heading": "Contraction: 〜ちゃだめ",
+            "content": "Common in casual speech:\n\n食べてはだめ → 食べちゃだめ 行ってはだめ → 行っちゃだめ してはだめ → しちゃだめ 見てはだめ → 見ちゃだめ"
+          }
+        ]
+      },
+      {
+        "level": 2,
+        "heading": "だめ vs いけない",
+        "content": "| Feature | だめ | いけない | | --------- | ------------------ | ------------- | | Formality | Casual | More formal | | Tone | Friendlier | Stricter | | Usage | Daily conversation | Rules, formal |\n\nCasual: 食べちゃだめ Formal: 食べてはいけません Both mean: \"You mustn't eat\""
+      },
+      {
+        "level": 2,
+        "heading": "Basic Usage",
+        "content": "",
+        "children": [
+          {
+            "level": 3,
+            "heading": "Giving warnings/advice",
+            "content": "それ触っちゃだめ！ \"Don't touch that!\" 一人で行ってはだめだよ \"You mustn't go alone\" そんなこと言っちゃだめ \"You can't say such things\""
+          },
+          {
+            "level": 3,
+            "heading": "Parental/friendly prohibition",
+            "content": "危ないからだめ！ \"No, because it's dangerous!\" まだ食べちゃだめ \"You can't eat yet\" 遅くまで起きてちゃだめ \"You shouldn't stay up late\""
+          }
+        ]
+      },
+      {
+        "level": 2,
+        "heading": "Politeness Levels",
+        "content": "",
+        "children": [
+          {
+            "level": 3,
+            "heading": "Very Casual",
+            "content": "食べちゃだめ \"Don't eat\" 行っちゃだめ \"Don't go\" 見ちゃだめ \"Don't look\""
+          },
+          {
+            "level": 3,
+            "heading": "Casual Polite",
+            "content": "食べてはだめです \"You can't eat\" (polite but casual) 行ってはだめですよ \"You mustn't go\""
+          },
+          {
+            "level": 3,
+            "heading": "Explanation with だめ",
+            "content": "だめなんです \"It's not allowed\" だめなの \"You can't\" (explaining)"
+          }
+        ]
+      },
+      {
+        "level": 2,
+        "heading": "Common Conversations",
+        "content": "",
+        "children": [
+          {
+            "level": 3,
+            "heading": "Example 1: Parent and Child",
+            "content": "A: ママ、これ食べてもいい？ \"Mom, can I eat this?\" B: だめだめ、まだ夕飯前よ \"No no, it's still before dinner\" A: えー、少しだけ？ \"Aww, just a little?\" B: だめって言ってるでしょ \"I said no, didn't I\""
+          },
+          {
+            "level": 3,
+            "heading": "Example 2: Between Friends",
+            "content": "A: 一人で行ってくるね \"I'll go alone\" B: ちょっと待って！一人で行っちゃだめだよ \"Wait! You can't go alone\" A: 大丈夫だって \"It'll be fine\" B: だめだって。一緒に行くから \"No way. I'll go with you\""
+          },
+          {
+            "level": 3,
+            "heading": "Example 3: At Home",
+            "content": "A: ゲームしてもいい？ \"Can I play games?\" B: 宿題終わった？ \"Did you finish homework?\" A: まだ... \"Not yet...\" B: じゃあだめ。宿題が先 \"Then no. Homework first\""
+          }
+        ]
+      },
+      {
+        "level": 2,
+        "heading": "Using だめ Alone",
+        "content": "",
+        "children": [
+          {
+            "level": 3,
+            "heading": "Just \"だめ\" as response",
+            "content": "A: これ使ってもいい？ \"Can I use this?\" B: だめ \"No\" / \"You can't\" A: 明日は？ \"How about tomorrow?\" B: 明日もだめ \"Tomorrow's no good either\""
+          }
+        ]
+      },
+      {
+        "level": 2,
+        "heading": "Softening the Prohibition",
+        "content": "",
+        "children": [
+          {
+            "level": 3,
+            "heading": "Adding particles for softer tone",
+            "content": "食べちゃだめだよ \"You can't eat (I'm telling you)\" 行っちゃだめだからね \"You can't go, okay?\" 触っちゃだめって言ったでしょ \"I told you not to touch it, right?\""
+          }
+        ]
+      },
+      {
+        "level": 2,
+        "heading": "Common Expressions",
+        "content": "",
+        "children": [
+          {
+            "level": 3,
+            "heading": "だめだよ / だめだ",
+            "content": "それはだめだよ \"That's no good\" 絶対だめだ \"Absolutely not\" どうしてもだめ？ \"Is it really not possible?\""
+          },
+          {
+            "level": 3,
+            "heading": "だめなの",
+            "content": "Explanation form:\n\nなんでだめなの？ \"Why not?\" / \"Why can't I?\" 今はだめなの \"Not now\" / \"You can't right now\""
+          }
+        ]
+      },
+      {
+        "level": 2,
+        "heading": "Reasons with から",
+        "content": "",
+        "children": [
+          {
+            "level": 3,
+            "heading": "Explaining why it's だめ",
+            "content": "危ないからだめ \"No, because it's dangerous\" まだ早いからだめ \"No, because it's still early\" お金がないからだめ \"No, because there's no money\""
+          }
+        ]
+      },
+      {
+        "level": 2,
+        "heading": "Comparison with Other Forms",
+        "content": "",
+        "children": [
+          {
+            "level": 3,
+            "heading": "てはだめ (casual prohibition)",
+            "content": "食べちゃだめ \"Don't eat\" (casual, friendly)"
+          },
+          {
+            "level": 3,
+            "heading": "てはいけない (formal prohibition)",
+            "content": "食べてはいけません \"You must not eat\" (formal, strict)"
+          },
+          {
+            "level": 3,
+            "heading": "ないでください (polite request)",
+            "content": "食べないでください \"Please don't eat\" (polite request)"
+          },
+          {
+            "level": 3,
+            "heading": "ないほうがいい (advice)",
+            "content": "食べないほうがいい \"It's better not to eat\" (advice)"
+          }
+        ]
+      },
+      {
+        "level": 2,
+        "heading": "Common Mistakes",
+        "content": "",
+        "children": [
+          {
+            "level": 3,
+            "heading": "Mistake 1: Using in formal situations",
+            "content": "Wrong context: 上司に「それはだめです」 ⚠️ Better: 「申し訳ございませんが...」 ✓ \"I'm sorry but...\" だめ is too casual for superiors!"
+          },
+          {
+            "level": 3,
+            "heading": "Mistake 2: Wrong conjugation",
+            "content": "Wrong: 食べるはだめ ❌ Right: 食べてはだめ ✓ \"You can't eat\" Must use て-form!"
+          },
+          {
+            "level": 3,
+            "heading": "Mistake 3: Confusing with できない",
+            "content": "だめ = not allowed (prohibition) できない = cannot (ability) 食べちゃだめ = \"You can't eat\" (not allowed) 食べられない = \"I can't eat\" (unable to)"
+          }
+        ]
+      },
+      {
+        "level": 2,
+        "heading": "Expressing Strong Prohibition",
+        "content": "",
+        "children": [
+          {
+            "level": 3,
+            "heading": "絶対だめ (absolutely not)",
+            "content": "絶対に触っちゃだめ！ \"You absolutely must not touch!\" 絶対だめだからね \"It's absolutely not allowed, okay?\""
+          }
+        ]
+      },
+      {
+        "level": 2,
+        "heading": "With Conditional",
+        "content": "",
+        "children": [
+          {
+            "level": 3,
+            "heading": "〜たらだめ (if you do, it's bad)",
+            "content": "遅刻したらだめだよ \"You can't be late\" (If you're late, it's bad) 忘れたらだめ \"Don't forget\" (If you forget, it's bad)"
+          }
+        ]
+      },
+      {
+        "level": 2,
+        "heading": "Various Uses of だめ",
+        "content": "",
+        "children": [
+          {
+            "level": 3,
+            "heading": "As adjective (no good)",
+            "content": "この案はだめだ \"This plan is no good\" もうだめだ \"It's hopeless / I'm done for\""
+          },
+          {
+            "level": 3,
+            "heading": "As permission denial",
+            "content": "A: いい？ \"Is it okay?\" B: だめ \"No\""
+          },
+          {
+            "level": 3,
+            "heading": "As impossibility",
+            "content": "もう歩けない。だめだ \"I can't walk anymore. I'm done\""
+          }
+        ]
+      },
+      {
+        "level": 2,
+        "heading": "Repeated だめ for Emphasis",
+        "content": "だめだめだめ！ \"No, no, no!\" だめったらだめ！ \"I said no!\""
+      },
+      {
+        "level": 2,
+        "heading": "Written Style",
+        "content": "In writing, だめ is usually written in hiragana:\n\nHiragana: だめ (common) Kanji: 駄目 (less common) Katakana: ダメ (emphasis/casual)"
+      },
+      {
+        "level": 2,
+        "heading": "Explaining Rules",
+        "content": "",
+        "children": [
+          {
+            "level": 3,
+            "heading": "Using だめ to state rules",
+            "content": "ここは禁煙だから、吸っちゃだめ \"This is non-smoking, so you can't smoke\" まだ子供だから、見ちゃだめ \"You're still a child, so you can't watch\""
+          }
+        ]
+      },
+      {
+        "level": 2,
+        "heading": "Question Form",
+        "content": "",
+        "children": [
+          {
+            "level": 3,
+            "heading": "〜てはだめですか？",
+            "content": "食べてはだめですか？ \"Can't I eat?\" / \"Is eating not allowed?\" 行っちゃだめ？ \"Can't I go?\""
+          }
+        ]
+      },
+      {
+        "level": 2,
+        "heading": "Practice Sentences",
+        "content": "",
+        "children": [
+          {
+            "level": 3,
+            "heading": "Basic",
+            "content": "それ触っちゃだめ \"Don't touch that\" ここで遊んじゃだめ \"You can't play here\" 嘘をついちゃだめだよ \"You mustn't lie\""
+          },
+          {
+            "level": 3,
+            "heading": "Intermediate",
+            "content": "まだ宿題終わってないでしょ？ゲームしちゃだめ \"You haven't finished homework yet, right? You can't play games\" 一人で夜道を歩いちゃだめだよ \"You can't walk alone on night streets\" そんなに食べちゃだめ。お腹壊すよ \"Don't eat so much. You'll get a stomachache\""
+          },
+          {
+            "level": 3,
+            "heading": "Advanced",
+            "content": "危ないから絶対に近づいちゃだめだからね \"It's dangerous, so absolutely don't go near it, okay?\" この秘密は誰にも言っちゃだめだよ。約束して \"You can't tell this secret to anyone. Promise\" 諦めちゃだめ！まだチャンスはあるから \"Don't give up! There's still a chance\""
+          }
+        ]
+      },
+      {
+        "level": 2,
+        "heading": "Related Grammar Points",
+        "content": "〜てはいけない - Must not (formal) 〜ないでください - Please don't 〜てもいい - May/Permission 〜ないほうがいい - Better not to て-form - Te-form conjugation Prohibition expressions - Various prohibition forms",
+        "children": [
+          {
+            "level": 3,
+            "heading": "Company",
+            "content": "About Pricing Blog Contact"
+          },
+          {
+            "level": 3,
+            "heading": "Legal",
+            "content": "Privacy Policy Terms of Service Cookie Policy"
+          }
+        ]
+      }
+    ],
+    "metadata": {
+      "title": "〜てはだめ (Prohibition)"
+    },
+    "examples": [
+      {
+        "sentence": "〜てはいけない - Must not (formal)"
+      },
+      {
+        "sentence": "〜ないでください - Please don't"
+      },
+      {
+        "sentence": "〜てもいい - May/Permission"
+      },
+      {
+        "sentence": "〜ないほうがいい - Better not to"
+      },
+      {
+        "sentence": "て-form - Te-form conjugation"
+      },
+      {
+        "sentence": "Prohibition expressions - Various prohibition forms"
+      },
+      {
+        "sentence": "About"
+      },
+      {
+        "sentence": "Pricing"
+      },
+      {
+        "sentence": "Blog"
+      },
+      {
+        "sentence": "Contact"
+      },
+      {
+        "sentence": "Privacy Policy"
+      },
+      {
+        "sentence": "Terms of Service"
+      },
+      {
+        "sentence": "Cookie Policy"
+      }
+    ]
+  },
+  "metadata": {
+    "extracted_at": "2026-01-01T22:19:36.271522700Z",
+    "duration_ms": 5,
+    "extractors_matched": [
+      "metadata",
+      "examples",
+      "sections"
+    ],
+    "extractors_failed": [
+      "vocab_tables",
+      "definitions",
+      "content_blocks"
+    ]
+  }
+}

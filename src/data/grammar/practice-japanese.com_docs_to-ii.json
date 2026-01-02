@@ -1,0 +1,370 @@
+{
+  "config_name": "Language Learning Extractor",
+  "url": "https://practice-japanese.com/docs/to-ii/",
+  "data": {
+    "examples": [
+      {
+        "sentence": "〜たほうがいい - Should/had better"
+      },
+      {
+        "sentence": "〜たらどう - How about"
+      },
+      {
+        "sentence": "〜といいですね - I hope (with ね)"
+      },
+      {
+        "sentence": "〜たらいい - Would be good if"
+      },
+      {
+        "sentence": "〜といいのですが - I hope (formal)"
+      },
+      {
+        "sentence": "Conditional と - If/when"
+      },
+      {
+        "sentence": "About"
+      },
+      {
+        "sentence": "Pricing"
+      },
+      {
+        "sentence": "Blog"
+      },
+      {
+        "sentence": "Contact"
+      },
+      {
+        "sentence": "Privacy Policy"
+      },
+      {
+        "sentence": "Terms of Service"
+      },
+      {
+        "sentence": "Cookie Policy"
+      }
+    ],
+    "sections": [
+      {
+        "level": 2,
+        "heading": "What is 〜といい?",
+        "content": "〜といい (or 〜といいです ) expresses wishes, hopes, or gentle suggestions, meaning \"it would be good if\" or \"I hope.\" It's softer and less direct than other advice patterns.\n\n晴れるといいですね \"I hope it clears up\" / \"It would be good if it cleared up\" 早く治るといいね \"I hope you get better soon\" 合格するといいです \"I hope you pass\" / \"It would be good if you passed\""
+      },
+      {
+        "level": 2,
+        "heading": "Formation",
+        "content": "",
+        "children": [
+          {
+            "level": 3,
+            "heading": "Pattern: Verb dictionary form + といい(です/ですね)",
+            "content": "| Verb | Dictionary | + といい | | ------ | ---------- | ------------ | | 見る | 見る | 見るといい | | 食べる | 食べる | 食べるといい | | 来る | 来る | 来るといい | | する | する | するといい | | 行く | 行く | 行くといい | | 受かる | 受かる | 受かるといい |"
+          },
+          {
+            "level": 3,
+            "heading": "Also with negative form",
+            "content": "雨が降らないといいですね \"I hope it doesn't rain\" 遅れないといい \"I hope we're not late\""
+          }
+        ]
+      },
+      {
+        "level": 2,
+        "heading": "Two Main Uses",
+        "content": "",
+        "children": [
+          {
+            "level": 3,
+            "heading": "Use 1: Expressing wishes/hopes",
+            "content": "明日晴れるといいですね \"I hope it's sunny tomorrow\" 試験に合格するといいね \"I hope you pass the exam\" 元気になるといいです \"I hope you get well\" For someone else's benefit"
+          },
+          {
+            "level": 3,
+            "heading": "Use 2: Gentle suggestions/advice",
+            "content": "もっと休むといいですよ \"It would be good if you rested more\" 医者に行くといいと思います \"I think it would be good if you went to the doctor\" 早く寝るといいよ \"It would be good if you slept early\" Softer than ほうがいい"
+          }
+        ]
+      },
+      {
+        "level": 2,
+        "heading": "Politeness Levels",
+        "content": "",
+        "children": [
+          {
+            "level": 3,
+            "heading": "Casual: といい",
+            "content": "早く治るといいね \"I hope you get better soon\" Use with friends and family"
+          },
+          {
+            "level": 3,
+            "heading": "Polite: といいです",
+            "content": "お元気になるといいですね \"I hope you get well\" General polite form"
+          },
+          {
+            "level": 3,
+            "heading": "More polite: といいのですが",
+            "content": "お役に立てるといいのですが \"I hope I can be of help\" Humble and polite"
+          }
+        ]
+      },
+      {
+        "level": 2,
+        "heading": "Common Conversations",
+        "content": "",
+        "children": [
+          {
+            "level": 3,
+            "heading": "Example 1: Expressing Hope",
+            "content": "A: 明日、遠足なんだ \"We have a field trip tomorrow\" B: 晴れるといいね \"I hope it's sunny\" A: うん、楽しみ！ \"Yeah, I'm looking forward to it!\""
+          },
+          {
+            "level": 3,
+            "heading": "Example 2: Giving Gentle Advice",
+            "content": "A: 最近、疲れが取れなくて... \"I can't seem to shake off my tiredness lately...\" B: もっと休むといいですよ \"It would be good if you rested more\" A: そうですね \"You're right\""
+          },
+          {
+            "level": 3,
+            "heading": "Example 3: Wishing Well",
+            "content": "A: 来週、面接があるんです \"I have an interview next week\" B: うまくいくといいですね \"I hope it goes well\" A: ありがとうございます \"Thank you\""
+          }
+        ]
+      },
+      {
+        "level": 2,
+        "heading": "Common Wish Expressions",
+        "content": "",
+        "children": [
+          {
+            "level": 3,
+            "heading": "Weather wishes",
+            "content": "晴れるといいですね - I hope it's sunny 雨が降らないといい - I hope it doesn't rain 暖かくなるといい - I hope it gets warm"
+          },
+          {
+            "level": 3,
+            "heading": "Health wishes",
+            "content": "早く治るといいね - I hope you get better soon 元気になるといいです - I hope you recover 風邪を引かないといい - I hope you don't catch a cold"
+          },
+          {
+            "level": 3,
+            "heading": "Success wishes",
+            "content": "合格するといいね - I hope you pass うまくいくといいです - I hope it goes well 成功するといい - I hope you succeed 見つかるといいですね - I hope you find it"
+          }
+        ]
+      },
+      {
+        "level": 2,
+        "heading": "Gentle Advice Patterns",
+        "content": "",
+        "children": [
+          {
+            "level": 3,
+            "heading": "Health advice",
+            "content": "もっと寝るといいですよ \"It would be good if you slept more\" 運動するといいと思います \"I think it would be good if you exercised\" 野菜を食べるといいよ \"It would be good if you ate vegetables\""
+          },
+          {
+            "level": 3,
+            "heading": "Study/work advice",
+            "content": "もっと勉強するといいね \"It would be good if you studied more\" 先生に聞くといいですよ \"It would be good if you asked the teacher\" 計画を立てるといいと思います \"I think it would be good if you made a plan\""
+          }
+        ]
+      },
+      {
+        "level": 2,
+        "heading": "Adding と思う (I think)",
+        "content": "",
+        "children": [
+          {
+            "level": 3,
+            "heading": "Making it even softer",
+            "content": "休んだほうがいいと思います \"I think you should rest\" (direct) 休むといいと思います \"I think it would be good if you rested\" (softer) 休むといいんじゃないかと思います \"I think it might be good if you rested\" (very soft)"
+          }
+        ]
+      },
+      {
+        "level": 2,
+        "heading": "Common Mistakes",
+        "content": "",
+        "children": [
+          {
+            "level": 3,
+            "heading": "Mistake 1: Using た-form",
+            "content": "Wrong: 行ったといい ❌ Right: 行くといい ✓ \"It would be good if (you) went\" Use dictionary form, not た-form!"
+          },
+          {
+            "level": 3,
+            "heading": "Mistake 2: Using for your own wishes",
+            "content": "Unnatural: 私が合格するといい ⚠️ Natural: 合格するといい ✓ Or: 合格したい ✓ \"I hope I pass\" といい is usually for others' benefit For yourself, use たい or hope implicitly"
+          },
+          {
+            "level": 3,
+            "heading": "Mistake 3: Too indirect for strong advice",
+            "content": "When urgent: 医者に行くといいよ ⚠️ Better: 医者に行ったほうがいい ✓ \"You should go to the doctor\" といい is too soft for urgent situations!"
+          }
+        ]
+      },
+      {
+        "level": 2,
+        "heading": "Responding to といい",
+        "content": "",
+        "children": [
+          {
+            "level": 3,
+            "heading": "When receiving wishes",
+            "content": "ありがとうございます \"Thank you\" そう思います \"I think so too\" そうなるといいです \"I hope so\" 頑張ります \"I'll do my best\""
+          },
+          {
+            "level": 3,
+            "heading": "When receiving advice",
+            "content": "そうですね \"You're right\" そうしてみます \"I'll try that\" 考えてみます \"I'll think about it\""
+          }
+        ]
+      },
+      {
+        "level": 2,
+        "heading": "Comparing Advice Patterns",
+        "content": "",
+        "children": [
+          {
+            "level": 3,
+            "heading": "といい (softest)",
+            "content": "もっと休むといいよ \"It would be good if you rested more\" Gentle suggestion, expressing hope"
+          },
+          {
+            "level": 3,
+            "heading": "たらどう (casual)",
+            "content": "もっと休んだらどう？ \"How about resting more?\" Casual advice"
+          },
+          {
+            "level": 3,
+            "heading": "ほうがいい (direct)",
+            "content": "もっと休んだほうがいい \"You should rest more\" Direct recommendation"
+          },
+          {
+            "level": 3,
+            "heading": "べき (strongest)",
+            "content": "もっと休むべきだ \"You should rest more\" (obligation) Strong obligation"
+          }
+        ]
+      },
+      {
+        "level": 2,
+        "heading": "With Negative Form",
+        "content": "",
+        "children": [
+          {
+            "level": 3,
+            "heading": "Hopes that something doesn't happen",
+            "content": "遅れないといいね \"I hope we're not late\" 失敗しないといいです \"I hope you don't fail\" 忘れないといい \"I hope you don't forget\" 風邪を引かないといいですね \"I hope you don't catch a cold\""
+          }
+        ]
+      },
+      {
+        "level": 2,
+        "heading": "Formal Situations",
+        "content": "",
+        "children": [
+          {
+            "level": 3,
+            "heading": "Using といいのですが",
+            "content": "お役に立てるといいのですが \"I hope I can be of help\" ご満足いただけるといいのですが \"I hope you'll be satisfied\" うまくいくといいのですが \"I hope it goes well\" More humble and polite!"
+          }
+        ]
+      },
+      {
+        "level": 2,
+        "heading": "Adding ね for Empathy",
+        "content": "",
+        "children": [
+          {
+            "level": 3,
+            "heading": "Shared feeling",
+            "content": "早く治るといいですね \"I hope you get better soon\" (we both hope) うまくいくといいね \"I hope it goes well\" (sharing the wish) ね adds warmth and empathy"
+          }
+        ]
+      },
+      {
+        "level": 2,
+        "heading": "Practical Uses",
+        "content": "",
+        "children": [
+          {
+            "level": 3,
+            "heading": "Before events",
+            "content": "試験、頑張ってね。合格するといいね \"Good luck on the exam. I hope you pass\" 明日の天気、晴れるといいですね \"I hope tomorrow's weather is sunny\""
+          },
+          {
+            "level": 3,
+            "heading": "For ongoing situations",
+            "content": "早く仕事が見つかるといいですね \"I hope you find a job soon\" 問題が解決するといい \"I hope the problem gets resolved\""
+          }
+        ]
+      },
+      {
+        "level": 2,
+        "heading": "といいな (Casual Variant)",
+        "content": "",
+        "children": [
+          {
+            "level": 3,
+            "heading": "Even more casual",
+            "content": "晴れるといいな \"I hope it's sunny\" 合格するといいな \"I hope I pass\" Use with close friends or to yourself"
+          }
+        ]
+      },
+      {
+        "level": 2,
+        "heading": "Practice Sentences",
+        "content": "",
+        "children": [
+          {
+            "level": 3,
+            "heading": "Basic",
+            "content": "明日晴れるといいですね \"I hope it's sunny tomorrow\" 早く治るといい \"I hope you get better soon\" うまくいくといいです \"I hope it goes well\""
+          },
+          {
+            "level": 3,
+            "heading": "Intermediate",
+            "content": "もっと野菜を食べるといいですよ \"It would be good if you ate more vegetables\" 遅刻しないといいね。急ごう \"I hope we're not late. Let's hurry\" 彼女と仲直りできるといいですね \"I hope you can make up with your girlfriend\""
+          },
+          {
+            "level": 3,
+            "heading": "Advanced",
+            "content": "お体を大切にして、お元気でいられるといいですね \"Please take care of yourself, and I hope you stay healthy\" この提案が皆さんのお役に立てるといいのですが \"I hope this proposal can be of help to everyone\" 今回の経験が、あなたの将来に役立つといいと思います \"I think it would be good if this experience helps your future\""
+          }
+        ]
+      },
+      {
+        "level": 2,
+        "heading": "Related Grammar Points",
+        "content": "〜たほうがいい - Should/had better 〜たらどう - How about 〜といいですね - I hope (with ね) 〜たらいい - Would be good if 〜といいのですが - I hope (formal) Conditional と - If/when",
+        "children": [
+          {
+            "level": 3,
+            "heading": "Company",
+            "content": "About Pricing Blog Contact"
+          },
+          {
+            "level": 3,
+            "heading": "Legal",
+            "content": "Privacy Policy Terms of Service Cookie Policy"
+          }
+        ]
+      }
+    ],
+    "metadata": {
+      "title": "〜といい (It would be good if)"
+    }
+  },
+  "metadata": {
+    "extracted_at": "2026-01-01T22:19:36.418459Z",
+    "duration_ms": 4,
+    "extractors_matched": [
+      "metadata",
+      "examples",
+      "sections"
+    ],
+    "extractors_failed": [
+      "vocab_tables",
+      "definitions",
+      "content_blocks"
+    ]
+  }
+}

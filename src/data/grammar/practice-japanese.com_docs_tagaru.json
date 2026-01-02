@@ -1,0 +1,434 @@
+{
+  "config_name": "Language Learning Extractor",
+  "url": "https://practice-japanese.com/docs/tagaru/",
+  "data": {
+    "metadata": {
+      "title": "〜たがる (Want to - 3rd person)"
+    },
+    "examples": [
+      {
+        "sentence": "たい : Speaker's own desires (direct knowledge)"
+      },
+      {
+        "sentence": "たがる : Others' desires (observed/inferred)"
+      },
+      {
+        "sentence": "Your own desires"
+      },
+      {
+        "sentence": "Direct questions to second person"
+      },
+      {
+        "sentence": "Quotes of what someone said"
+      },
+      {
+        "sentence": "Describing third person desires"
+      },
+      {
+        "sentence": "Observable wants from behavior"
+      },
+      {
+        "sentence": "Making general statements about others"
+      },
+      {
+        "sentence": "〜たい (tai) - Want to (1st person)"
+      },
+      {
+        "sentence": "〜ほしい (hoshii) - Want something"
+      },
+      {
+        "sentence": "〜てほしい (te-hoshii) - Want someone to do"
+      },
+      {
+        "sentence": "〜そう (sou) - Appearance/seems"
+      },
+      {
+        "sentence": "〜ようだ (you da) - It appears"
+      },
+      {
+        "sentence": "Reporting Speech - Direct vs indirect speech"
+      },
+      {
+        "sentence": "About"
+      },
+      {
+        "sentence": "Pricing"
+      },
+      {
+        "sentence": "Blog"
+      },
+      {
+        "sentence": "Contact"
+      },
+      {
+        "sentence": "Privacy Policy"
+      },
+      {
+        "sentence": "Terms of Service"
+      },
+      {
+        "sentence": "Cookie Policy"
+      }
+    ],
+    "sections": [
+      {
+        "level": 2,
+        "heading": "What is 〜たがる (tagaru)?",
+        "content": "〜たがる expresses that someone (third person) wants to do something. It's the third-person equivalent of たい, used when describing others' desires based on observable behavior or evidence.\n\n[Verb stem] + たがる 食べたがる \"wants to eat\" (he/she/they) 行きたがる \"wants to go\" (he/she/they)"
+      },
+      {
+        "level": 2,
+        "heading": "Formation",
+        "content": "",
+        "children": [
+          {
+            "level": 3,
+            "heading": "Basic Pattern",
+            "content": "Verb (masu-stem) + たがる 食べる → 食べます → 食べたがる \"wants to eat\" 行く → 行きます → 行きたがる \"wants to go\" 見る → 見ます → 見たがる \"wants to see\""
+          }
+        ]
+      },
+      {
+        "level": 2,
+        "heading": "たい vs たがる",
+        "content": "",
+        "children": [
+          {
+            "level": 3,
+            "heading": "First Person (たい)",
+            "content": "私は日本に行きたい \"I want to go to Japan\" 食べたい \"I want to eat\""
+          },
+          {
+            "level": 3,
+            "heading": "Third Person (たがる)",
+            "content": "彼は日本に行きたがっている \"He wants to go to Japan\" 子供が食べたがる \"The child wants to eat\""
+          },
+          {
+            "level": 3,
+            "heading": "Key Difference",
+            "content": "たい : Speaker's own desires (direct knowledge) たがる : Others' desires (observed/inferred)"
+          }
+        ]
+      },
+      {
+        "level": 2,
+        "heading": "Conjugation",
+        "content": "たがる is a regular godan verb (-u verb).",
+        "children": [
+          {
+            "level": 3,
+            "heading": "Present",
+            "content": "食べたがる / 食べたがります \"wants to eat\" 行きたがる / 行きたがります \"wants to go\""
+          },
+          {
+            "level": 3,
+            "heading": "Present Progressive (Common Form)",
+            "content": "Most often used with ている:\n\n食べたがっている / 食べたがっています \"wants to eat / is wanting to eat\" 行きたがっている / 行きたがっています \"wants to go\""
+          },
+          {
+            "level": 3,
+            "heading": "Past",
+            "content": "食べたがった / 食べたがりました \"wanted to eat\" 行きたがった / 行きたがりました \"wanted to go\""
+          },
+          {
+            "level": 3,
+            "heading": "Negative",
+            "content": "食べたがらない / 食べたがりません \"doesn't want to eat\" 行きたがらない / 行きたがりません \"doesn't want to go\""
+          }
+        ]
+      },
+      {
+        "level": 2,
+        "heading": "Particle Usage",
+        "content": "",
+        "children": [
+          {
+            "level": 3,
+            "heading": "を with Object",
+            "content": "Unlike たい (which can use が), たがる typically uses を:\n\n彼は寿司を食べたがっている \"He wants to eat sushi\" 子供がおもちゃを買いたがる \"The child wants to buy a toy\""
+          }
+        ]
+      },
+      {
+        "level": 2,
+        "heading": "Common Usage",
+        "content": "",
+        "children": [
+          {
+            "level": 3,
+            "heading": "With ている Form",
+            "content": "Most commonly used with ている to describe current state:\n\n彼は日本に行きたがっている \"He wants to go to Japan\" 娘が猫を飼いたがっています \"My daughter wants to have a cat\" みんな見たがっている \"Everyone wants to see it\""
+          },
+          {
+            "level": 3,
+            "heading": "Describing Habitual Desires",
+            "content": "彼はいつも注目されたがる \"He always wants attention\" 子供はお菓子を食べたがる \"Children want to eat sweets\""
+          }
+        ]
+      },
+      {
+        "level": 2,
+        "heading": "Observable Behavior",
+        "content": "たがる implies the desire is evident from behavior or statements:\n\n彼女は泣きたがっている \"She wants to cry\" (you can tell) 子供が話したがっている \"The child wants to talk\" (showing signs) 犬が散歩に行きたがっている \"The dog wants to go for a walk\" (behavior shows it)"
+      },
+      {
+        "level": 2,
+        "heading": "Common Patterns",
+        "content": "",
+        "children": [
+          {
+            "level": 3,
+            "heading": "〜たがっている (current state)",
+            "content": "Most common form - continuous state of wanting:\n\n友達が会いたがっている \"My friend wants to meet\" 彼は知りたがっている \"He wants to know\""
+          },
+          {
+            "level": 3,
+            "heading": "〜たがらない (doesn't want to)",
+            "content": "彼は食べたがらない \"He doesn't want to eat\" 誰も行きたがらない \"Nobody wants to go\""
+          },
+          {
+            "level": 3,
+            "heading": "〜たがっていた (was wanting)",
+            "content": "Past continuous:\n\n子供が遊びたがっていた \"The child wanted to play\" みんな見たがっていた \"Everyone wanted to see it\""
+          }
+        ]
+      },
+      {
+        "level": 2,
+        "heading": "With Different Subjects",
+        "content": "",
+        "children": [
+          {
+            "level": 3,
+            "heading": "Third Person Individuals",
+            "content": "彼は帰りたがっている \"He wants to go home\" 田中さんは話したがっている \"Tanaka wants to talk\" 先生が知りたがっています \"The teacher wants to know\""
+          },
+          {
+            "level": 3,
+            "heading": "Children and Animals",
+            "content": "Very common with children and animals:\n\n子供が外で遊びたがる \"Children want to play outside\" 犬が散歩に行きたがっている \"The dog wants to go for a walk\" 猫が食べたがっている \"The cat wants to eat\""
+          },
+          {
+            "level": 3,
+            "heading": "Groups",
+            "content": "みんなが行きたがっている \"Everyone wants to go\" 学生たちが知りたがっている \"The students want to know\""
+          }
+        ]
+      },
+      {
+        "level": 2,
+        "heading": "Common Conversations",
+        "content": "",
+        "children": [
+          {
+            "level": 3,
+            "heading": "Example 1: Talking About Others",
+            "content": "A: 田中さん、どうしたの？ \"What's wrong with Tanaka?\" B: 彼、家に帰りたがっているみたい \"He seems to want to go home\" A: 具合が悪いのかな \"Maybe he's not feeling well\""
+          },
+          {
+            "level": 3,
+            "heading": "Example 2: Children's Desires",
+            "content": "A: 子供、何してるの？ \"What's your child doing?\" B: おもちゃを買いたがってるんだ \"They want to buy a toy\" A: かわいいね \"That's cute\""
+          },
+          {
+            "level": 3,
+            "heading": "Example 3: Observations",
+            "content": "A: 犬が吠えてるね \"The dog is barking\" B: 散歩に行きたがってるんだよ \"It wants to go for a walk\" A: じゃあ、連れて行ってあげたら？ \"Then why don't you take it?\""
+          }
+        ]
+      },
+      {
+        "level": 2,
+        "heading": "Common Mistakes",
+        "content": "",
+        "children": [
+          {
+            "level": 3,
+            "heading": "Mistake 1: Using たがる for first person",
+            "content": "Wrong: 私は行きたがる ❌ Right: 私は行きたい ✓ \"I want to go\""
+          },
+          {
+            "level": 3,
+            "heading": "Mistake 2: Using たい for third person (without context)",
+            "content": "Less natural in statements: 彼は行きたい ⚠️ More natural: 彼は行きたがっている ✓ \"He wants to go\" Note: In quotes, たい is fine: 彼は「行きたい」と言った ✓ \"He said 'I want to go'\""
+          },
+          {
+            "level": 3,
+            "heading": "Mistake 3: Wrong particle with object",
+            "content": "Less common: 彼は寿司が食べたがる ⚠️ More natural: 彼は寿司を食べたがる ✓ \"He wants to eat sushi\""
+          },
+          {
+            "level": 3,
+            "heading": "Mistake 4: Forgetting ている",
+            "content": "Less natural: 彼は行きたがる ⚠️ More natural: 彼は行きたがっている ✓ \"He wants to go\""
+          }
+        ]
+      },
+      {
+        "level": 2,
+        "heading": "When to Use たい vs たがる",
+        "content": "",
+        "children": [
+          {
+            "level": 3,
+            "heading": "Use たい for:",
+            "content": "Your own desires Direct questions to second person Quotes of what someone said\n\n行きたい \"I want to go\" 行きたい？ \"Do you want to go?\" (to the person) 彼は「行きたい」と言った \"He said he wants to go\""
+          },
+          {
+            "level": 3,
+            "heading": "Use たがる for:",
+            "content": "Describing third person desires Observable wants from behavior Making general statements about others\n\n彼は行きたがっている \"He wants to go\" 子供が遊びたがる \"Children want to play\""
+          }
+        ]
+      },
+      {
+        "level": 2,
+        "heading": "Nuance and Implications",
+        "content": "",
+        "children": [
+          {
+            "level": 3,
+            "heading": "Can Imply Childishness",
+            "content": "たがる can sometimes carry a slightly childish or immature nuance:\n\n彼はいつも目立ちたがる \"He always wants to stand out\" (slightly negative) More neutral: 彼は目立ちたいようだ \"He seems to want to stand out\""
+          },
+          {
+            "level": 3,
+            "heading": "Objective Observation",
+            "content": "Used for objective reporting of desires:\n\n多くの人が知りたがっている \"Many people want to know\" 学生が質問したがっている \"The student wants to ask a question\""
+          }
+        ]
+      },
+      {
+        "level": 2,
+        "heading": "Common Verbs with たがる",
+        "content": "",
+        "children": [
+          {
+            "level": 3,
+            "heading": "Communication",
+            "content": "話したがる - wants to talk 聞きたがる - wants to listen/ask 知りたがる - wants to know 言いたがる - wants to say"
+          },
+          {
+            "level": 3,
+            "heading": "Actions",
+            "content": "行きたがる - wants to go 来たがる - wants to come 帰りたがる - wants to go home やりたがる - wants to do 遊びたがる - wants to play"
+          },
+          {
+            "level": 3,
+            "heading": "Desires",
+            "content": "買いたがる - wants to buy 食べたがる - wants to eat 見たがる - wants to see 会いたがる - wants to meet"
+          }
+        ]
+      },
+      {
+        "level": 2,
+        "heading": "Special Expressions",
+        "content": "",
+        "children": [
+          {
+            "level": 3,
+            "heading": "〜たがり屋 (someone who wants to ~)",
+            "content": "Creates a noun for a type of person:\n\n目立ちたがり屋 \"someone who wants to stand out / attention seeker\" 知りたがり屋 \"curious person / someone who wants to know everything\" 構いたがり屋 \"busybody / someone who wants to interfere\""
+          },
+          {
+            "level": 3,
+            "heading": "〜たがっているようだ (seems to want)",
+            "content": "Softer observation:\n\n行きたがっているようだ \"seems to want to go\" 知りたがっているらしい \"apparently wants to know\""
+          }
+        ]
+      },
+      {
+        "level": 2,
+        "heading": "With Reported Speech",
+        "content": "",
+        "children": [
+          {
+            "level": 3,
+            "heading": "Direct vs Indirect",
+            "content": "Direct quote (use たい): 彼は「行きたい」と言った \"He said 'I want to go'\" Indirect report (use たがる): 彼は行きたがっている \"He wants to go\""
+          }
+        ]
+      },
+      {
+        "level": 2,
+        "heading": "Politeness Levels",
+        "content": "",
+        "children": [
+          {
+            "level": 3,
+            "heading": "Casual",
+            "content": "行きたがってる \"wants to go\" 食べたがらない \"doesn't want to eat\""
+          },
+          {
+            "level": 3,
+            "heading": "Polite",
+            "content": "行きたがっています \"wants to go\" 食べたがりません \"doesn't want to eat\""
+          }
+        ]
+      },
+      {
+        "level": 2,
+        "heading": "Practice Sentences",
+        "content": "",
+        "children": [
+          {
+            "level": 3,
+            "heading": "Basic Usage",
+            "content": "彼は日本に行きたがっている \"He wants to go to Japan\" 子供がアイスを食べたがる \"The child wants to eat ice cream\" 犬が散歩に行きたがっている \"The dog wants to go for a walk\" 友達が会いたがっている \"My friend wants to meet\""
+          },
+          {
+            "level": 3,
+            "heading": "Negative",
+            "content": "彼は食べたがらない \"He doesn't want to eat\" 誰も行きたがらない \"Nobody wants to go\" 子供が勉強したがらない \"The child doesn't want to study\""
+          },
+          {
+            "level": 3,
+            "heading": "Past",
+            "content": "みんなが見たがっていた \"Everyone wanted to see it\" 彼女は話したがっていた \"She wanted to talk\" 子供が遊びたがっていた \"The child wanted to play\""
+          },
+          {
+            "level": 3,
+            "heading": "With Animals",
+            "content": "猫が外に出たがっている \"The cat wants to go outside\" 鳥が飛びたがっている \"The bird wants to fly\" 犬が食べたがっている \"The dog wants to eat\""
+          },
+          {
+            "level": 3,
+            "heading": "Observations",
+            "content": "彼はいつも注目されたがる \"He always wants attention\" 学生たちが知りたがっている \"The students want to know\" みんなが参加したがっている \"Everyone wants to participate\""
+          }
+        ]
+      },
+      {
+        "level": 2,
+        "heading": "Related Grammar Points",
+        "content": "〜たい (tai) - Want to (1st person) 〜ほしい (hoshii) - Want something 〜てほしい (te-hoshii) - Want someone to do 〜そう (sou) - Appearance/seems 〜ようだ (you da) - It appears Reporting Speech - Direct vs indirect speech",
+        "children": [
+          {
+            "level": 3,
+            "heading": "Company",
+            "content": "About Pricing Blog Contact"
+          },
+          {
+            "level": 3,
+            "heading": "Legal",
+            "content": "Privacy Policy Terms of Service Cookie Policy"
+          }
+        ]
+      }
+    ]
+  },
+  "metadata": {
+    "extracted_at": "2026-01-01T22:19:35.040105700Z",
+    "duration_ms": 3,
+    "extractors_matched": [
+      "metadata",
+      "examples",
+      "sections"
+    ],
+    "extractors_failed": [
+      "vocab_tables",
+      "definitions",
+      "content_blocks"
+    ]
+  }
+}

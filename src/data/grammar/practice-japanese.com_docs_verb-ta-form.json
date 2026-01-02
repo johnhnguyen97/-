@@ -1,0 +1,298 @@
+{
+  "config_name": "Language Learning Extractor",
+  "url": "https://practice-japanese.com/docs/verb-ta-form/",
+  "data": {
+    "metadata": {
+      "title": "Ta-form (Plain Past)"
+    },
+    "sections": [
+      {
+        "level": 2,
+        "heading": "What is Ta-form?",
+        "content": "た-form (ta-form) is the plain/casual past tense . It expresses completed actions in informal speech.\n\n食べた (tabeta) - ate 行った (itta) - went した (shita) - did"
+      },
+      {
+        "level": 2,
+        "heading": "Ta-form vs Te-form",
+        "content": "Key relationship: Ta-form is made from te-form!\n\nて → た (te → ta) で → だ (de → da) 食べて → 食べた 読んで → 読んだ\n\nJust change the final vowel: e → a"
+      },
+      {
+        "level": 2,
+        "heading": "Conjugation Rules",
+        "content": "",
+        "children": [
+          {
+            "level": 3,
+            "heading": "From Te-form to Ta-form",
+            "content": "Simple rule: Change て to た, で to だ\n\nTe-form → Ta-form 食べて → 食べた 飲んで → 飲んだ 書いて → 書いた"
+          },
+          {
+            "level": 3,
+            "heading": "Ichidan Verbs",
+            "content": "Drop る , add た :\n\n食べる → 食べた (ate) 見る → 見た (saw) 寝る → 寝た (slept) 起きる → 起きた (woke up) 教える → 教えた (taught) 着る → 着た (wore)"
+          },
+          {
+            "level": 3,
+            "heading": "Irregular Verbs",
+            "content": "する → した (did) 来る → 来た (came)"
+          },
+          {
+            "level": 3,
+            "heading": "Godan Verbs",
+            "content": "Follow the same patterns as te-form, but with た/だ:",
+            "children": [
+              {
+                "level": 4,
+                "heading": "Pattern 1: う, つ, る → った",
+                "content": "買う → 買った (bought) 待つ → 待った (waited) 帰る → 帰った (returned)"
+              },
+              {
+                "level": 4,
+                "heading": "Pattern 2: む, ぶ, ぬ → んだ",
+                "content": "読む → 読んだ (read) 遊ぶ → 遊んだ (played) 死ぬ → 死んだ (died)"
+              },
+              {
+                "level": 4,
+                "heading": "Pattern 3: く → いた",
+                "content": "書く → 書いた (wrote) 聞く → 聞いた (listened) 歩く → 歩いた (walked)\n\nException: 行く → 行った (iku → itta)"
+              },
+              {
+                "level": 4,
+                "heading": "Pattern 4: ぐ → いだ",
+                "content": "泳ぐ → 泳いだ (swam) 急ぐ → 急いだ (hurried)"
+              },
+              {
+                "level": 4,
+                "heading": "Pattern 5: す → した",
+                "content": "話す → 話した (spoke) 貸す → 貸した (lent)"
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "level": 2,
+        "heading": "Complete Conjugation Chart",
+        "content": "| Dictionary | Te-form | Ta-form | Meaning | | ---------- | ------- | ------- | -------- | | 食べる | 食べて | 食べた | ate | | 見る | 見て | 見た | saw | | 買う | 買って | 買った | bought | | 待つ | 待って | 待った | waited | | 帰る | 帰って | 帰った | returned | | 読む | 読んで | 読んだ | read | | 遊ぶ | 遊んで | 遊んだ | played | | 死ぬ | 死んで | 死んだ | died | | 書く | 書いて | 書いた | wrote | | 泳ぐ | 泳いで | 泳いだ | swam | | 話す | 話して | 話した | spoke | | 行く | 行って | 行った | went | | する | して | した | did | | 来る | 来て | 来た | came |"
+      },
+      {
+        "level": 2,
+        "heading": "When to Use Ta-form",
+        "content": "",
+        "children": [
+          {
+            "level": 3,
+            "heading": "1. Casual Past Statements",
+            "content": "With friends, family, casual situations:\n\n昨日映画見た \"I watched a movie yesterday\" 今朝パン食べた \"I ate bread this morning\" さっき友達に会った \"I met a friend just now\""
+          },
+          {
+            "level": 3,
+            "heading": "2. Confirming Events",
+            "content": "もう食べた？ \"Did you already eat?\" 宿題した？ \"Did you do homework?\" 行った？ \"Did you go?\""
+          },
+          {
+            "level": 3,
+            "heading": "3. Narrative/Story",
+            "content": "昔々、ある所におじいさんとおばあさんが住んでいた \"Long ago, an old man and woman lived...\""
+          },
+          {
+            "level": 3,
+            "heading": "4. Grammar Patterns",
+            "content": "Many patterns require ta-form:\n\n食べたことがある - have eaten (experience) 見たことがない - have never seen 行ったほうがいい - should go"
+          }
+        ]
+      },
+      {
+        "level": 2,
+        "heading": "Polite vs Plain Past",
+        "content": "| Plain (Ta-form) | Polite (Mashita) | Meaning | | --------------- | ---------------- | ------- | | 食べた | 食べました | ate | | 行った | 行きました | went | | した | しました | did | | 来た | 来ました | came | | 見た | 見ました | saw |\n\nUse ta-form with friends, mashita with others!"
+      },
+      {
+        "level": 2,
+        "heading": "Question Form",
+        "content": "Use rising intonation or add の:\n\nもう食べた？ \"Did you eat already?\" 昨日どこ行った？ \"Where did you go yesterday?\" 映画見たの？ \"Did you watch the movie?\""
+      },
+      {
+        "level": 2,
+        "heading": "Common Conversation Patterns",
+        "content": "",
+        "children": [
+          {
+            "level": 3,
+            "heading": "Asking About Past",
+            "content": "週末何した？ \"What did you do on the weekend?\" 昨日誰と会った？ \"Who did you meet yesterday?\" どこで買った？ \"Where did you buy it?\""
+          },
+          {
+            "level": 3,
+            "heading": "Answering",
+            "content": "Q: 映画見た？ A: うん、見た \"Yeah, I saw it\" Q: 宿題した？ A: ううん、まだ \"Nope, not yet\""
+          }
+        ]
+      },
+      {
+        "level": 2,
+        "heading": "Experience Pattern (～たことがある)",
+        "content": "日本に行ったことがある \"I have been to Japan\" 納豆を食べたことがある？ \"Have you ever eaten natto?\" 富士山を見たことがない \"I've never seen Mt. Fuji\""
+      },
+      {
+        "level": 2,
+        "heading": "Should/Better to (～たほうがいい)",
+        "content": "早く寝たほうがいい \"You should sleep early\" 医者に行ったほうがいい \"You should go to the doctor\" 勉強したほうがいいよ \"You'd better study\""
+      },
+      {
+        "level": 2,
+        "heading": "Just Did (～たばかり)",
+        "content": "今起きたばかり \"I just woke up\" さっき食べたばかり \"I just ate\" 昨日買ったばかり \"I just bought it yesterday\""
+      },
+      {
+        "level": 2,
+        "heading": "After Doing (～た後で)",
+        "content": "食べた後で歯を磨く \"I brush my teeth after eating\" 宿題をした後で遊ぶ \"I play after doing homework\""
+      },
+      {
+        "level": 2,
+        "heading": "Common Mistakes",
+        "content": "",
+        "children": [
+          {
+            "level": 3,
+            "heading": "Mistake 1: Using Ta-form in Formal Situations",
+            "content": "Wrong: 先生、昨日行った ❌ Right: 先生、昨日行きました ✓"
+          },
+          {
+            "level": 3,
+            "heading": "Mistake 2: Wrong て → た Conversion",
+            "content": "Wrong: 飲んで → 飲んた ❌ Right: 飲んで → 飲んだ ✓ Wrong: 書いて → 書いだ ❌ Right: 書いて → 書いた ✓"
+          },
+          {
+            "level": 3,
+            "heading": "Mistake 3: Forgetting 行く Exception",
+            "content": "Wrong: 行いた ❌ Right: 行った ✓"
+          },
+          {
+            "level": 3,
+            "heading": "Mistake 4: Wrong Godan Pattern",
+            "content": "Wrong: 買う → 買うた ❌ Right: 買う → 買った ✓ Wrong: 読む → 読むた ❌ Right: 読む → 読んだ ✓"
+          }
+        ]
+      },
+      {
+        "level": 2,
+        "heading": "Ta-form in Sentences",
+        "content": "",
+        "children": [
+          {
+            "level": 3,
+            "heading": "Simple Past",
+            "content": "昨日公園で遊んだ \"I played in the park yesterday\" 今朝早く起きた \"I woke up early this morning\" 先週友達に会った \"I met a friend last week\""
+          },
+          {
+            "level": 3,
+            "heading": "With Time Expressions",
+            "content": "3時間前に食べた \"I ate 3 hours ago\" 去年日本に行った \"I went to Japan last year\" 5分前に来た \"I came 5 minutes ago\""
+          },
+          {
+            "level": 3,
+            "heading": "Describing Past States",
+            "content": "昨日は暑かった \"It was hot yesterday\" その映画は面白かった \"That movie was interesting\" 子供の時は背が低かった \"I was short when I was a child\""
+          }
+        ]
+      },
+      {
+        "level": 2,
+        "heading": "Casual Conversation Examples",
+        "content": "",
+        "children": [
+          {
+            "level": 3,
+            "heading": "Example 1: After School",
+            "content": "A: 今日学校どうだった？ \"How was school today?\" B: 楽しかった！新しい友達できた \"It was fun! I made a new friend\" A: いいね！どこの人？ \"Nice! Where are they from?\" B: 大阪から来た \"They came from Osaka\""
+          },
+          {
+            "level": 3,
+            "heading": "Example 2: Weekend Chat",
+            "content": "A: 週末何した？ \"What did you do on the weekend?\" B: 映画見て、買い物した \"I watched a movie and went shopping\" A: 何買った？ \"What did you buy?\" B: 服買った \"I bought clothes\""
+          },
+          {
+            "level": 3,
+            "heading": "Example 3: Food Talk",
+            "content": "A: もう昼ご飯食べた？ \"Did you eat lunch already?\" B: うん、さっき食べた \"Yeah, I just ate\" A: 何食べた？ \"What did you eat?\" B: ラーメン食べた \"I ate ramen\""
+          }
+        ]
+      },
+      {
+        "level": 2,
+        "heading": "Building Narratives",
+        "content": "今朝早く起きた。 朝ご飯を食べた。 それから学校に行った。 友達に会った。 一緒に勉強した。 楽しかった。 \"I woke up early this morning. I ate breakfast. Then I went to school. I met friends. We studied together. It was fun.\""
+      },
+      {
+        "level": 2,
+        "heading": "Negative Ta-form",
+        "content": "Use なかった :\n\n食べた → 食べなかった (didn't eat) 行った → 行かなかった (didn't go) した → しなかった (didn't do)\n\nMore details in Nakatta Form lesson."
+      },
+      {
+        "level": 2,
+        "heading": "Key Takeaways",
+        "content": "✓ Ta-form = plain/casual past tense ✓ Made from te-form: て → た, で → だ ✓ Same patterns as te-form ✓ Used in casual speech ✓ Essential for grammar patterns ✓ Exception: 行く → 行った ✓ Remember: polite situations need ました\n\nMaster ta-form - essential for casual past tense!\n\nNext: Nai-form (Plain Negative)\n\nRelated:\n\nTe-form Conjugation Mashita Form (Polite Past) Nakatta Form (Past Negative)",
+        "children": [
+          {
+            "level": 3,
+            "heading": "Company",
+            "content": "About Pricing Blog Contact"
+          },
+          {
+            "level": 3,
+            "heading": "Legal",
+            "content": "Privacy Policy Terms of Service Cookie Policy"
+          }
+        ]
+      }
+    ],
+    "examples": [
+      {
+        "sentence": "Te-form Conjugation"
+      },
+      {
+        "sentence": "Mashita Form (Polite Past)"
+      },
+      {
+        "sentence": "Nakatta Form (Past Negative)"
+      },
+      {
+        "sentence": "About"
+      },
+      {
+        "sentence": "Pricing"
+      },
+      {
+        "sentence": "Blog"
+      },
+      {
+        "sentence": "Contact"
+      },
+      {
+        "sentence": "Privacy Policy"
+      },
+      {
+        "sentence": "Terms of Service"
+      },
+      {
+        "sentence": "Cookie Policy"
+      }
+    ]
+  },
+  "metadata": {
+    "extracted_at": "2026-01-01T22:19:37.494959400Z",
+    "duration_ms": 3,
+    "extractors_matched": [
+      "metadata",
+      "examples",
+      "sections"
+    ],
+    "extractors_failed": [
+      "vocab_tables",
+      "definitions",
+      "content_blocks"
+    ]
+  }
+}

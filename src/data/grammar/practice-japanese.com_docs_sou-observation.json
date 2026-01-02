@@ -1,0 +1,359 @@
+{
+  "config_name": "Language Learning Extractor",
+  "url": "https://practice-japanese.com/docs/sou-observation/",
+  "data": {
+    "metadata": {
+      "title": "〜そう (Looks like - observation)"
+    },
+    "sections": [
+      {
+        "level": 2,
+        "heading": "What is 〜そう (sou) for Observation?",
+        "content": "〜そう (observation) expresses your judgment about something based on what you can see or observe right now. It means \"looks like\" or \"seems\" when making a visual assessment.\n\nおいしそう \"looks delicious\" 楽しそう \"looks fun / seems fun\""
+      },
+      {
+        "level": 2,
+        "heading": "Formation",
+        "content": "",
+        "children": [
+          {
+            "level": 3,
+            "heading": "With I-adjectives",
+            "content": "Remove い and add そう:\n\nおいしい → おいしそう \"looks delicious\" 楽しい → 楽しそう \"looks fun\" 難しい → 難しそう \"looks difficult\"\n\nException: いい (good)\n\nいい → よさそう \"looks good\""
+          },
+          {
+            "level": 3,
+            "heading": "With Na-adjectives",
+            "content": "Remove だ and add そう:\n\n元気 → 元気そう \"looks energetic/healthy\" 便利 → 便利そう \"looks convenient\" 静か → 静かそう \"looks quiet\""
+          },
+          {
+            "level": 3,
+            "heading": "With Verbs",
+            "content": "Add そう to masu-stem:\n\n降る → 降ります → 降りそう \"looks like it will rain\" 壊れる → 壊れます → 壊れそう \"looks like it will break\" 泣く → 泣きます → 泣きそう \"looks like (someone) will cry\""
+          }
+        ]
+      },
+      {
+        "level": 2,
+        "heading": "Core Meaning",
+        "content": "",
+        "children": [
+          {
+            "level": 3,
+            "heading": "Based on Visual Observation",
+            "content": "You make a judgment based on what you SEE right now:\n\nおいしそうなケーキ \"a delicious-looking cake\" 楽しそうなパーティー \"a fun-looking party\" 難しそうな問題 \"a difficult-looking problem\""
+          }
+        ]
+      },
+      {
+        "level": 2,
+        "heading": "Usage Patterns",
+        "content": "",
+        "children": [
+          {
+            "level": 3,
+            "heading": "Describing Appearance",
+            "content": "このケーキ、おいしそう \"This cake looks delicious\" あの人は優しそう \"That person looks kind\" この本は面白そう \"This book looks interesting\""
+          },
+          {
+            "level": 3,
+            "heading": "Modifying Nouns",
+            "content": "そう becomes そうな before nouns:\n\nおいしそうな料理 \"delicious-looking food\" 楽しそうな映画 \"fun-looking movie\" 難しそうな宿題 \"difficult-looking homework\""
+          }
+        ]
+      },
+      {
+        "level": 2,
+        "heading": "Common Adjectives with そう",
+        "content": "",
+        "children": [
+          {
+            "level": 3,
+            "heading": "Positive Impressions",
+            "content": "おいしそう - looks delicious 楽しそう - looks fun 嬉しそう - looks happy 元気そう - looks healthy/energetic 幸せそう - looks happy 面白そう - looks interesting"
+          },
+          {
+            "level": 3,
+            "heading": "Negative Impressions",
+            "content": "まずそう - looks bad/unappetizing つまらなそう - looks boring 難しそう - looks difficult 大変そう - looks tough/hard 痛そう - looks painful 寒そう - looks cold"
+          },
+          {
+            "level": 3,
+            "heading": "States",
+            "content": "忙しそう - looks busy 暇そう - looks free 疲れそう - looks tiring 眠そう - looks sleepy"
+          }
+        ]
+      },
+      {
+        "level": 2,
+        "heading": "Comparison with Similar Patterns",
+        "content": "",
+        "children": [
+          {
+            "level": 3,
+            "heading": "そう (observation) vs そう (hearsay)",
+            "content": "Observation (based on appearance): 雨が降りそう \"Looks like it will rain\" (看clouds) Hearsay (I heard): 雨が降るそう \"I heard it will rain\""
+          },
+          {
+            "level": 3,
+            "heading": "そう vs らしい vs みたい",
+            "content": "そう: Visual observation おいしそう \"looks delicious\" (I can see it) らしい: Heard/Inferred おいしいらしい \"I hear it's delicious\" みたい: Looks similar おいしいみたい \"It seems delicious\""
+          }
+        ]
+      },
+      {
+        "level": 2,
+        "heading": "With Verbs - Imminent Actions",
+        "content": "",
+        "children": [
+          {
+            "level": 3,
+            "heading": "About to Happen",
+            "content": "When used with verbs, そう indicates something is about to happen:\n\n雨が降りそう \"Looks like it will rain\" (clouds gathering) 壊れそう \"Looks like it will break\" (it's wobbling) 泣きそう \"Looks like (they) will cry\" (tears forming) 落ちそう \"Looks like it will fall\""
+          }
+        ]
+      },
+      {
+        "level": 2,
+        "heading": "Negative Forms",
+        "content": "",
+        "children": [
+          {
+            "level": 3,
+            "heading": "With Adjectives",
+            "content": "I-adjectives: おいしくなさそう \"doesn't look delicious\" 楽しくなさそう \"doesn't look fun\" Na-adjectives: 元気じゃなさそう / 元気ではなさそう \"doesn't look healthy\" 便利じゃなさそう \"doesn't look convenient\""
+          },
+          {
+            "level": 3,
+            "heading": "With Verbs",
+            "content": "降りそうにない \"doesn't look like it will rain\" 壊れそうにない \"doesn't look like it will break\""
+          }
+        ]
+      },
+      {
+        "level": 2,
+        "heading": "Common Conversations",
+        "content": "",
+        "children": [
+          {
+            "level": 3,
+            "heading": "Example 1: Restaurant",
+            "content": "A: このレストラン、どう？ \"How about this restaurant?\" B: おいしそうだね \"Looks delicious\" A: じゃあ、ここにしよう \"Then let's go here\""
+          },
+          {
+            "level": 3,
+            "heading": "Example 2: Weather",
+            "content": "A: 空を見て \"Look at the sky\" B: 雨が降りそうだね \"Looks like it will rain\" A: 傘を持って行った方がいいね \"We should bring umbrellas\""
+          },
+          {
+            "level": 3,
+            "heading": "Example 3: Movie",
+            "content": "A: この映画、見たい？ \"Do you want to watch this movie?\" B: 面白そう！見よう \"Looks interesting! Let's watch it\""
+          }
+        ]
+      },
+      {
+        "level": 2,
+        "heading": "Common Mistakes",
+        "content": "",
+        "children": [
+          {
+            "level": 3,
+            "heading": "Mistake 1: Using with いい incorrectly",
+            "content": "Wrong: いいそう ❌ Right: よさそう ✓ \"looks good\""
+          },
+          {
+            "level": 3,
+            "heading": "Mistake 2: Confusing with hearsay そう",
+            "content": "Observation: 雨が降りそう ✓ \"Looks like it will rain\" (I see clouds) Hearsay: 雨が降るそう ✓ \"I heard it will rain\" (someone told me)"
+          },
+          {
+            "level": 3,
+            "heading": "Mistake 3: Using です directly",
+            "content": "Less natural: おいしいそうです ⚠️ Natural: おいしそうです ✓ \"It looks delicious\""
+          }
+        ]
+      },
+      {
+        "level": 2,
+        "heading": "Special Expressions",
+        "content": "",
+        "children": [
+          {
+            "level": 3,
+            "heading": "〜そうもない (unlikely to)",
+            "content": "雨が降りそうもない \"It doesn't look like it will rain at all\" できそうもない \"Doesn't look like I can do it\""
+          },
+          {
+            "level": 3,
+            "heading": "〜そうに (adverb form)",
+            "content": "嬉しそうに笑う \"smile happily\" (in a happy-looking way) 楽しそうに話す \"talk in a fun-looking way\" 悲しそうに歩く \"walk sadly\""
+          },
+          {
+            "level": 3,
+            "heading": "今にも〜そう (about to any moment)",
+            "content": "今にも雨が降りそう \"Looks like it will rain any moment\" 今にも泣きそう \"Looks like (they) will cry any moment\""
+          }
+        ]
+      },
+      {
+        "level": 2,
+        "heading": "Describing People's Appearance",
+        "content": "",
+        "children": [
+          {
+            "level": 3,
+            "heading": "Emotional States",
+            "content": "嬉しそうな顔 \"a happy-looking face\" 悲しそうな目 \"sad-looking eyes\" 疲れそうな様子 \"a tired-looking appearance\""
+          },
+          {
+            "level": 3,
+            "heading": "Physical States",
+            "content": "元気そうな人 \"a healthy-looking person\" 眠そうな子供 \"a sleepy-looking child\" 寒そうな服装 \"clothing that looks cold\""
+          }
+        ]
+      },
+      {
+        "level": 2,
+        "heading": "Describing Objects and Food",
+        "content": "",
+        "children": [
+          {
+            "level": 3,
+            "heading": "Food",
+            "content": "おいしそうなケーキ \"a delicious-looking cake\" まずそうな食べ物 \"bad-looking food\" 新鮮そうな魚 \"fresh-looking fish\""
+          },
+          {
+            "level": 3,
+            "heading": "Objects",
+            "content": "高そうな車 \"an expensive-looking car\" 古そうな本 \"an old-looking book\" 壊れそうな椅子 \"a chair that looks like it will break\""
+          }
+        ]
+      },
+      {
+        "level": 2,
+        "heading": "Politeness Levels",
+        "content": "",
+        "children": [
+          {
+            "level": 3,
+            "heading": "Casual",
+            "content": "おいしそう \"looks delicious\" 面白そう \"looks interesting\""
+          },
+          {
+            "level": 3,
+            "heading": "Polite",
+            "content": "おいしそうです \"looks delicious\" 面白そうですね \"looks interesting, doesn't it\""
+          }
+        ]
+      },
+      {
+        "level": 2,
+        "heading": "Practice Sentences",
+        "content": "",
+        "children": [
+          {
+            "level": 3,
+            "heading": "Basic Observations",
+            "content": "このケーキ、おいしそう \"This cake looks delicious\" あの映画は面白そう \"That movie looks interesting\" この問題は難しそう \"This problem looks difficult\" 彼は優しそうな人だ \"He seems like a kind person\""
+          },
+          {
+            "level": 3,
+            "heading": "Weather and Nature",
+            "content": "雨が降りそう \"Looks like it will rain\" 雪が降りそうな空 \"A sky that looks like it will snow\" 台風が来そう \"Looks like a typhoon is coming\""
+          },
+          {
+            "level": 3,
+            "heading": "People's States",
+            "content": "楽しそうに遊んでいる \"Playing in a fun-looking way\" 疲れそうな仕事 \"A tiring-looking job\" 忙しそうな人 \"A busy-looking person\" 眠そうな顔 \"A sleepy-looking face\""
+          },
+          {
+            "level": 3,
+            "heading": "Imminent Actions",
+            "content": "泣きそう \"Looks like (they) will cry\" 壊れそう \"Looks like it will break\" 落ちそう \"Looks like it will fall\" 始まりそう \"Looks like it will start\""
+          },
+          {
+            "level": 3,
+            "heading": "Negative",
+            "content": "おいしくなさそう \"Doesn't look delicious\" 面白くなさそう \"Doesn't look interesting\" 降りそうにない \"Doesn't look like it will rain\""
+          }
+        ]
+      },
+      {
+        "level": 2,
+        "heading": "Related Grammar Points",
+        "content": "〜そう (sou) - I heard that (hearsay) 〜らしい (rashii) - It seems/apparently 〜みたい (mitai) - Looks like/similar 〜ようだ (you da) - It appears/seems I-adjective Conjugation - Base for formation Na-adjective Conjugation - Base for formation Masu-stem - Verb stem usage",
+        "children": [
+          {
+            "level": 3,
+            "heading": "Company",
+            "content": "About Pricing Blog Contact"
+          },
+          {
+            "level": 3,
+            "heading": "Legal",
+            "content": "Privacy Policy Terms of Service Cookie Policy"
+          }
+        ]
+      }
+    ],
+    "examples": [
+      {
+        "sentence": "〜そう (sou) - I heard that (hearsay)"
+      },
+      {
+        "sentence": "〜らしい (rashii) - It seems/apparently"
+      },
+      {
+        "sentence": "〜みたい (mitai) - Looks like/similar"
+      },
+      {
+        "sentence": "〜ようだ (you da) - It appears/seems"
+      },
+      {
+        "sentence": "I-adjective Conjugation - Base for formation"
+      },
+      {
+        "sentence": "Na-adjective Conjugation - Base for formation"
+      },
+      {
+        "sentence": "Masu-stem - Verb stem usage"
+      },
+      {
+        "sentence": "About"
+      },
+      {
+        "sentence": "Pricing"
+      },
+      {
+        "sentence": "Blog"
+      },
+      {
+        "sentence": "Contact"
+      },
+      {
+        "sentence": "Privacy Policy"
+      },
+      {
+        "sentence": "Terms of Service"
+      },
+      {
+        "sentence": "Cookie Policy"
+      }
+    ]
+  },
+  "metadata": {
+    "extracted_at": "2026-01-01T22:19:34.775083400Z",
+    "duration_ms": 4,
+    "extractors_matched": [
+      "metadata",
+      "examples",
+      "sections"
+    ],
+    "extractors_failed": [
+      "vocab_tables",
+      "definitions",
+      "content_blocks"
+    ]
+  }
+}

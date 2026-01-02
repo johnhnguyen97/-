@@ -1,0 +1,405 @@
+{
+  "config_name": "Language Learning Extractor",
+  "url": "https://practice-japanese.com/docs/ppoi/",
+  "data": {
+    "examples": [
+      {
+        "sentence": "〜らしい (rashii) - Typical of"
+      },
+      {
+        "sentence": "〜みたい (mitai) - Looks like/seems"
+      },
+      {
+        "sentence": "〜ようだ (you da) - It appears/seems"
+      },
+      {
+        "sentence": "〜そう (sou) - Looks like"
+      },
+      {
+        "sentence": "I-adjective Conjugation - Similar pattern"
+      },
+      {
+        "sentence": "Casual Speech Patterns - Informal expressions"
+      },
+      {
+        "sentence": "About"
+      },
+      {
+        "sentence": "Pricing"
+      },
+      {
+        "sentence": "Blog"
+      },
+      {
+        "sentence": "Contact"
+      },
+      {
+        "sentence": "Privacy Policy"
+      },
+      {
+        "sentence": "Terms of Service"
+      },
+      {
+        "sentence": "Cookie Policy"
+      }
+    ],
+    "metadata": {
+      "title": "〜っぽい (Seems like/tends to)"
+    },
+    "sections": [
+      {
+        "level": 2,
+        "heading": "What is 〜っぽい (ppoi)?",
+        "content": "〜っぽい is a casual suffix meaning \"seems like,\" \"tends to be,\" or \"-ish\" in English. It expresses that something has the characteristics or tendency of what precedes it.\n\n子供っぽい \"childish / child-like\" 忘れっぽい \"forgetful / tends to forget\" 水っぽい \"watery / water-ish\""
+      },
+      {
+        "level": 2,
+        "heading": "Formation",
+        "content": "",
+        "children": [
+          {
+            "level": 3,
+            "heading": "With Nouns",
+            "content": "Add っぽい directly to nouns:\n\n子供 → 子供っぽい \"childish\" 男 → 男っぽい \"boyish / masculine\" 女 → 女っぽい \"girlish / feminine\" 安 → 安っぽい \"cheap-looking\""
+          },
+          {
+            "level": 3,
+            "heading": "With Verb Stems",
+            "content": "Add っぽい to masu-stem:\n\n忘れる → 忘れ → 忘れっぽい \"forgetful / tends to forget\" 怒る → 怒り → 怒りっぽい \"quick-tempered / tends to get angry\" 飽きる → 飽き → 飽きっぽい \"gets bored easily\""
+          },
+          {
+            "level": 3,
+            "heading": "With Some Adjectives/Colors",
+            "content": "水 → 水っぽい \"watery\" 茶色 → 茶色っぽい \"brownish\" 青 → 青っぽい \"bluish\""
+          }
+        ]
+      },
+      {
+        "level": 2,
+        "heading": "Core Meanings",
+        "content": "",
+        "children": [
+          {
+            "level": 3,
+            "heading": "1. Has Characteristics Of (like/ish)",
+            "content": "子供っぽい \"childish / child-like\" 男っぽい \"boyish / masculine\" 春っぽい \"spring-like / springish\" 安っぽい \"cheap-looking\""
+          },
+          {
+            "level": 3,
+            "heading": "2. Tendency/Habit (tends to)",
+            "content": "忘れっぽい \"forgetful / tends to forget\" 怒りっぽい \"quick-tempered\" 飽きっぽい \"gets bored easily\" 疑いっぽい \"suspicious / tends to doubt\""
+          },
+          {
+            "level": 3,
+            "heading": "3. Color/Appearance (-ish)",
+            "content": "青っぽい \"bluish\" 黄色っぽい \"yellowish\" 白っぽい \"whitish\" 黒っぽい \"blackish\""
+          }
+        ]
+      },
+      {
+        "level": 2,
+        "heading": "Conjugation",
+        "content": "っぽい conjugates like an i-adjective:",
+        "children": [
+          {
+            "level": 3,
+            "heading": "Present",
+            "content": "子供っぽい / 子供っぽいです \"is childish\""
+          },
+          {
+            "level": 3,
+            "heading": "Negative",
+            "content": "子供っぽくない / 子供っぽくないです \"is not childish\""
+          },
+          {
+            "level": 3,
+            "heading": "Past",
+            "content": "子供っぽかった / 子供っぽかったです \"was childish\""
+          },
+          {
+            "level": 3,
+            "heading": "Past Negative",
+            "content": "子供っぽくなかった / 子供っぽくなかったです \"wasn't childish\""
+          }
+        ]
+      },
+      {
+        "level": 2,
+        "heading": "Common Expressions",
+        "content": "",
+        "children": [
+          {
+            "level": 3,
+            "heading": "Personality/Behavior",
+            "content": "子供っぽい \"childish\" 大人っぽい \"mature / adult-like\" 男っぽい \"boyish / masculine\" 女っぽい \"girlish / feminine\""
+          },
+          {
+            "level": 3,
+            "heading": "Tendencies (Verb + っぽい)",
+            "content": "忘れっぽい \"forgetful\" 怒りっぽい \"quick-tempered\" 飽きっぽい \"gets bored easily\" 疑いっぽい \"suspicious\" 嘘っぽい \"seems like a lie / fishy\""
+          },
+          {
+            "level": 3,
+            "heading": "Appearance/Quality",
+            "content": "安っぽい \"cheap-looking\" 油っぽい \"greasy / oily\" 水っぽい \"watery\" 粉っぽい \"powdery\""
+          },
+          {
+            "level": 3,
+            "heading": "Colors",
+            "content": "青っぽい \"bluish\" 赤っぽい \"reddish\" 黄色っぽい \"yellowish\" 茶色っぽい \"brownish\""
+          }
+        ]
+      },
+      {
+        "level": 2,
+        "heading": "Usage Nuance",
+        "content": "",
+        "children": [
+          {
+            "level": 3,
+            "heading": "Often Negative Connotation",
+            "content": "Many っぽい expressions carry a slightly negative nuance:\n\n子供っぽい \"childish\" (negative - immature) 安っぽい \"cheap-looking\" (negative quality) But not always negative: 大人っぽい \"mature\" (positive) 春っぽい \"spring-like\" (neutral/positive)"
+          }
+        ]
+      },
+      {
+        "level": 2,
+        "heading": "Comparison with Similar Patterns",
+        "content": "",
+        "children": [
+          {
+            "level": 3,
+            "heading": "っぽい vs らしい vs みたい",
+            "content": "っぽい: Has characteristics/tendency (casual, often negative) 子供っぽい \"childish\" らしい: Typical of (can be positive) 子供らしい \"child-like\" (appropriately so) みたい: Looks like/similar to 子供みたい \"like a child\""
+          },
+          {
+            "level": 3,
+            "heading": "Nuance Differences",
+            "content": "子供っぽい - childish (immature, negative) 子供らしい - child-like (appropriate for a child, positive) 子供みたい - like a child (comparison/observation)"
+          }
+        ]
+      },
+      {
+        "level": 2,
+        "heading": "Common Conversations",
+        "content": "",
+        "children": [
+          {
+            "level": 3,
+            "heading": "Example 1: Personality",
+            "content": "A: 彼、もう30歳なのに \"He's already 30\" B: でも、子供っぽいよね \"But he's childish, isn't he\" A: そうだね \"Yeah\""
+          },
+          {
+            "level": 3,
+            "heading": "Example 2: Appearance",
+            "content": "A: この服、どう？ \"How's this outfit?\" B: ちょっと安っぽく見えるかも \"It might look a bit cheap\" A: そうか...別のにしよう \"I see... I'll choose another one\""
+          },
+          {
+            "level": 3,
+            "heading": "Example 3: Weather",
+            "content": "A: 今日は暖かいね \"It's warm today\" B: 春っぽい天気だね \"It's spring-like weather\" A: もうすぐ春だね \"Spring is coming soon\""
+          }
+        ]
+      },
+      {
+        "level": 2,
+        "heading": "Common Mistakes",
+        "content": "",
+        "children": [
+          {
+            "level": 3,
+            "heading": "Mistake 1: Using with all words indiscriminately",
+            "content": "Not natural: 嬉しいっぽい ❌ Better: 嬉しそう ✓ \"seems happy\" っぽい has limited usage with specific words"
+          },
+          {
+            "level": 3,
+            "heading": "Mistake 2: Confusing with observation そう",
+            "content": "っぽい: Has characteristic 子供っぽい \"childish\" そう: Looks like (observation) 子供そう ✗ (unnatural) 子供みたい ✓ \"looks like a child\""
+          },
+          {
+            "level": 3,
+            "heading": "Mistake 3: Using too formally",
+            "content": "Too casual for formal: っぽい Better for formal: のような"
+          }
+        ]
+      },
+      {
+        "level": 2,
+        "heading": "Special Expressions",
+        "content": "",
+        "children": [
+          {
+            "level": 3,
+            "heading": "〜っぽく (adverb form)",
+            "content": "大人っぽく振る舞う \"behave maturely\" 安っぽく見える \"looks cheap\""
+          },
+          {
+            "level": 3,
+            "heading": "〜っぽい人 (~ kind of person)",
+            "content": "忘れっぽい人 \"a forgetful person\" 怒りっぽい人 \"a quick-tempered person\""
+          }
+        ]
+      },
+      {
+        "level": 2,
+        "heading": "Personality Traits",
+        "content": "",
+        "children": [
+          {
+            "level": 3,
+            "heading": "Positive/Neutral",
+            "content": "大人っぽい \"mature\" しっかりしているっぽい (less common) \"seems reliable\""
+          },
+          {
+            "level": 3,
+            "heading": "Negative",
+            "content": "子供っぽい \"childish\" わがままっぽい \"selfish\" 嘘っぽい \"seems like a lie\""
+          }
+        ]
+      },
+      {
+        "level": 2,
+        "heading": "With Seasons and Time",
+        "content": "",
+        "children": [
+          {
+            "level": 3,
+            "heading": "Seasons",
+            "content": "春っぽい \"spring-like\" 夏っぽい \"summer-like\" 秋っぽい \"autumn-like\" 冬っぽい \"winter-like\""
+          },
+          {
+            "level": 3,
+            "heading": "Time of Day",
+            "content": "朝っぽい \"morning-like\" 夜っぽい \"night-like\""
+          }
+        ]
+      },
+      {
+        "level": 2,
+        "heading": "Physical Descriptions",
+        "content": "",
+        "children": [
+          {
+            "level": 3,
+            "heading": "Texture",
+            "content": "油っぽい \"greasy / oily\" 水っぽい \"watery\" 粉っぽい \"powdery\" ベタベタっぽい (less common) \"sticky-ish\""
+          },
+          {
+            "level": 3,
+            "heading": "Food",
+            "content": "この料理、油っぽい \"This dish is greasy\" 水っぽいスープ \"watery soup\""
+          }
+        ]
+      },
+      {
+        "level": 2,
+        "heading": "Style and Fashion",
+        "content": "",
+        "children": [
+          {
+            "level": 3,
+            "heading": "Appearance",
+            "content": "安っぽい服 \"cheap-looking clothes\" 派手っぽい \"flashy-looking\" 地味っぽい \"plain-looking\""
+          }
+        ]
+      },
+      {
+        "level": 2,
+        "heading": "Behavioral Tendencies",
+        "content": "",
+        "children": [
+          {
+            "level": 3,
+            "heading": "Common Behavioral っぽい",
+            "content": "忘れっぽい - forgetful 怒りっぽい - quick-tempered 飽きっぽい - gets bored easily 疑いっぽい - suspicious 騙されっぽい - gullible 照れっぽい - easily embarrassed 泣きっぽい - cries easily"
+          }
+        ]
+      },
+      {
+        "level": 2,
+        "heading": "Politeness Levels",
+        "content": "",
+        "children": [
+          {
+            "level": 3,
+            "heading": "Casual",
+            "content": "子供っぽい \"childish\" 忘れっぽい \"forgetful\""
+          },
+          {
+            "level": 3,
+            "heading": "Polite",
+            "content": "子供っぽいです \"is childish\" 忘れっぽいですね \"is forgetful, isn't it\""
+          },
+          {
+            "level": 3,
+            "heading": "Formal (avoid っぽい)",
+            "content": "Use more formal alternatives:\n\nInstead of 子供っぽい: 未熟な / 幼稚な \"immature\""
+          }
+        ]
+      },
+      {
+        "level": 2,
+        "heading": "Practice Sentences",
+        "content": "",
+        "children": [
+          {
+            "level": 3,
+            "heading": "Characteristics",
+            "content": "彼は子供っぽい \"He's childish\" 彼女は大人っぽい \"She's mature\" この服は安っぽい \"These clothes look cheap\" 春っぽい天気ですね \"It's spring-like weather\""
+          },
+          {
+            "level": 3,
+            "heading": "Tendencies",
+            "content": "私は忘れっぽい \"I'm forgetful\" 彼は怒りっぽい \"He's quick-tempered\" すぐ飽きっぽい性格 \"A personality that gets bored easily\""
+          },
+          {
+            "level": 3,
+            "heading": "Colors",
+            "content": "青っぽい色 \"A bluish color\" 黄色っぽい服 \"Yellowish clothes\" 茶色っぽい髪 \"Brownish hair\""
+          },
+          {
+            "level": 3,
+            "heading": "Food/Texture",
+            "content": "このスープは水っぽい \"This soup is watery\" 油っぽい料理 \"Greasy food\" 粉っぽいケーキ \"Powdery cake\""
+          },
+          {
+            "level": 3,
+            "heading": "Negative Observations",
+            "content": "嘘っぽい話 \"A fishy story\" 安っぽく見える \"Looks cheap\" 子供っぽい行動 \"Childish behavior\""
+          }
+        ]
+      },
+      {
+        "level": 2,
+        "heading": "Related Grammar Points",
+        "content": "〜らしい (rashii) - Typical of 〜みたい (mitai) - Looks like/seems 〜ようだ (you da) - It appears/seems 〜そう (sou) - Looks like I-adjective Conjugation - Similar pattern Casual Speech Patterns - Informal expressions",
+        "children": [
+          {
+            "level": 3,
+            "heading": "Company",
+            "content": "About Pricing Blog Contact"
+          },
+          {
+            "level": 3,
+            "heading": "Legal",
+            "content": "Privacy Policy Terms of Service Cookie Policy"
+          }
+        ]
+      }
+    ]
+  },
+  "metadata": {
+    "extracted_at": "2026-01-01T22:19:34.007267200Z",
+    "duration_ms": 5,
+    "extractors_matched": [
+      "metadata",
+      "examples",
+      "sections"
+    ],
+    "extractors_failed": [
+      "vocab_tables",
+      "definitions",
+      "content_blocks"
+    ]
+  }
+}

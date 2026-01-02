@@ -1,0 +1,346 @@
+{
+  "config_name": "Language Learning Extractor",
+  "url": "https://practice-japanese.com/docs/tte-quotation/",
+  "data": {
+    "examples": [
+      {
+        "sentence": "Contraction of という (to iu)"
+      },
+      {
+        "sentence": "Sometimes represents とは (to wa)"
+      },
+      {
+        "sentence": "Extremely common in spoken Japanese"
+      },
+      {
+        "sentence": "Rarely used in formal writing"
+      },
+      {
+        "sentence": "Formal situations"
+      },
+      {
+        "sentence": "Writing (reports, emails, etc.)"
+      },
+      {
+        "sentence": "Business settings"
+      },
+      {
+        "sentence": "With strangers or superiors"
+      },
+      {
+        "sentence": "Casual conversation"
+      },
+      {
+        "sentence": "With friends and family"
+      },
+      {
+        "sentence": "Everyday speech"
+      },
+      {
+        "sentence": "Informal situations"
+      },
+      {
+        "sentence": "Tokyo: Very common"
+      },
+      {
+        "sentence": "Kansai: Also common, sometimes pronounced differently"
+      },
+      {
+        "sentence": "Used everywhere in casual speech"
+      },
+      {
+        "sentence": "って is casual version of と for quotations"
+      },
+      {
+        "sentence": "Extremely common in spoken Japanese"
+      },
+      {
+        "sentence": "Can replace は as casual topic marker"
+      },
+      {
+        "sentence": "Used for clarification and repetition"
+      },
+      {
+        "sentence": "Forms: ってば (emphasis), ったら (complaint)"
+      },
+      {
+        "sentence": "Essential for natural casual conversation"
+      },
+      {
+        "sentence": "Never use in formal writing or business settings"
+      },
+      {
+        "sentence": "Makes speech sound more natural and native-like"
+      },
+      {
+        "sentence": "About"
+      },
+      {
+        "sentence": "Pricing"
+      },
+      {
+        "sentence": "Blog"
+      },
+      {
+        "sentence": "Contact"
+      },
+      {
+        "sentence": "Privacy Policy"
+      },
+      {
+        "sentence": "Terms of Service"
+      },
+      {
+        "sentence": "Cookie Policy"
+      }
+    ],
+    "metadata": {
+      "title": "って (Casual quotation)"
+    },
+    "sections": [
+      {
+        "level": 2,
+        "heading": "What is って?",
+        "content": "って (tte) is the casual, conversational version of the quotation particle と (to). It's one of the most common particles in everyday Japanese speech and makes your Japanese sound much more natural.\n\nFormal: 彼は忙しいと言った。(Kare wa isogashii to itta.) Casual: 彼、忙しいって。(Kare, isogashii tte.) \"He says he's busy.\"\n\nOrigins:\n\nContraction of という (to iu) Sometimes represents とは (to wa) Extremely common in spoken Japanese Rarely used in formal writing"
+      },
+      {
+        "level": 2,
+        "heading": "Basic Usage: Casual Quotation",
+        "content": "",
+        "children": [
+          {
+            "level": 3,
+            "heading": "Replacing と言う",
+            "content": "The most basic use of って is replacing と言う/と言った:\n\n彼は「行く」って言った。 Kare wa \"iku\" tte itta. \"He said 'I'm going.'\" Compare with formal: 彼は「行く」と言った。\n\nOften 言う is dropped entirely:\n\n彼、行くって。 Kare, iku tte. \"He says he's going.\" 雨が降るって。 Ame ga furu tte. \"They say it's going to rain.\" おいしいって！ Oishii tte! \"I'm telling you, it's delicious!\""
+          },
+          {
+            "level": 3,
+            "heading": "Reporting What You Heard",
+            "content": "田中さん、明日休むって。 Tanaka-san, ashita yasumu tte. \"I heard Tanaka is taking tomorrow off.\" あのレストラン、高いって。 Ano resutoran, takai tte. \"I heard that restaurant is expensive.\" 彼女、結婚するって！ Kanojo, kekkon suru tte! \"I heard she's getting married!\""
+          },
+          {
+            "level": 3,
+            "heading": "Hearsay and Rumors",
+            "content": "あの店、閉店するって聞いた。 Ano mise, heiten suru tte kiita. \"I heard that shop is closing.\" 来週テストがあるって。 Raishuu tesuto ga aru tte. \"I heard there's a test next week.\" 彼、会社辞めたって。 Kare, kaisha yameta tte. \"I heard he quit his job.\""
+          }
+        ]
+      },
+      {
+        "level": 2,
+        "heading": "って for Definitions and Explanations",
+        "content": "",
+        "children": [
+          {
+            "level": 3,
+            "heading": "\"What is called...\" / \"The thing called...\"",
+            "content": "Use って to define or explain what something is:\n\n寿司って何ですか？ Sushi tte nan desu ka? \"What is sushi?\" 桜って日本の花です。 Sakura tte nihon no hana desu. \"Sakura is a Japanese flower.\" これって何？ Kore tte nani? \"What's this?\"\n\nSimilar to という:\n\nFormal: 田中という人 Casual: 田中って人 \"A person called Tanaka\" Formal: 何という意味ですか Casual: 何って意味？ \"What does that mean?\""
+          },
+          {
+            "level": 3,
+            "heading": "Identifying People",
+            "content": "田中さんって誰？ Tanaka-san tte dare? \"Who is Tanaka?\" あの人って先生だよ。 Ano hito tte sensei da yo. \"That person is a teacher.\" この人って誰なの？ Kono hito tte dare na no? \"Who is this person?\""
+          }
+        ]
+      },
+      {
+        "level": 2,
+        "heading": "って as Topic Marker",
+        "content": "",
+        "children": [
+          {
+            "level": 3,
+            "heading": "Replacing は (wa) in Casual Speech",
+            "content": "って can replace は to mark the topic casually:\n\n日本語って難しい。 Nihongo tte muzukashii. \"Japanese is difficult.\" (casual topic) Compare with: 日本語は難しい。 Nihongo wa muzukashii. [Same meaning, slightly more formal]\n\nMore examples:\n\nあの映画って面白かった？ Ano eiga tte omoshirokatta? \"Was that movie interesting?\" この店って有名だよね。 Kono mise tte yuumei da yo ne. \"This shop is famous, right?\" 彼って優しいね。 Kare tte yasashii ne. \"He's kind, isn't he?\""
+          }
+        ]
+      },
+      {
+        "level": 2,
+        "heading": "って for Clarification and Repetition",
+        "content": "",
+        "children": [
+          {
+            "level": 3,
+            "heading": "\"Did you say...?\" / \"You mean...?\"",
+            "content": "Use って to ask for clarification or repeat what you heard:\n\nA: 明日行くよ。(Ashita iku yo.) B: 明日って？(Ashita tte?) \"Tomorrow, you say?\" / \"Did you say tomorrow?\" A: 田中さんに会った。(Tanaka-san ni atta.) B: 田中さんって誰？(Tanaka-san tte dare?) \"Tanaka? Who's that?\" A: これ3000円。(Kore sanzen en.) B: 3000円って！高い！(Sanzen en tte! Takai!) \"3000 yen!? That's expensive!\""
+          },
+          {
+            "level": 3,
+            "heading": "Echoing for Emphasis",
+            "content": "忙しいって言ってるでしょ！ Isogashii tte itteru desho! \"I'm telling you I'm busy!\" 知らないって！ Shiranai tte! \"I said I don't know!\" 無理だって。 Muri da tte. \"I'm saying it's impossible.\""
+          }
+        ]
+      },
+      {
+        "level": 2,
+        "heading": "って in Questions",
+        "content": "",
+        "children": [
+          {
+            "level": 3,
+            "heading": "Casual Question Formation",
+            "content": "どういうことって？ Dou iu koto tte? \"What do you mean?\" 本当って？ Hontou tte? \"Really?\" / \"Is that true?\" 何時って言った？ Nanji tte itta? \"What time did you say?\""
+          },
+          {
+            "level": 3,
+            "heading": "Embedded Questions",
+            "content": "彼が何て言ったか知ってる？ Kare ga nan tte itta ka shitteru? \"Do you know what he said?\" どこって聞いた？ Doko tte kiita? \"Where did they say?\""
+          }
+        ]
+      },
+      {
+        "level": 2,
+        "heading": "って with Thinking and Opinion",
+        "content": "",
+        "children": [
+          {
+            "level": 3,
+            "heading": "って思う (tte omou)",
+            "content": "これでいいって思う。 Kore de ii tte omou. \"I think this is fine.\" 彼、来ないって思うよ。 Kare, konai tte omou yo. \"I think he won't come.\" 変だって思わない？ Hen da tte omowanai? \"Don't you think it's weird?\""
+          },
+          {
+            "level": 3,
+            "heading": "って感じ (tte kanji) - \"Kind of like...\" / \"Feel like...\"",
+            "content": "なんか嫌な感じって思った。 Nanka iya na kanji tte omotta. \"I kind of felt it was unpleasant.\" そういう感じって分かる。 Sou iu kanji tte wakaru. \"I understand that kind of feeling.\""
+          }
+        ]
+      },
+      {
+        "level": 2,
+        "heading": "ってば / ったら - Emphatic Forms",
+        "content": "",
+        "children": [
+          {
+            "level": 3,
+            "heading": "ってば - \"I'm telling you!\" / \"Listen!\"",
+            "content": "Used to get attention or emphasize you've said something before:\n\n聞いてってば！ Kiite tteba! \"I'm telling you, listen!\" もう、田中さんってば！ Mou, Tanaka-san tteba! \"Oh, Tanaka! / Geez, Tanaka!\" だから忙しいってば。 Dakara isogashii tteba. \"That's why I'm saying I'm busy!\""
+          },
+          {
+            "level": 3,
+            "heading": "ったら - Complaining/Venting",
+            "content": "Often used when complaining about someone:\n\nもう、彼ったら！ Mou, kare ttara! \"Oh, he's such...!\" / \"Geez, him!\" 田中さんったら、いつも遅刻する。 Tanaka-san ttara, itsumo chikoku suru. \"Tanaka is always late!\" [Complaining] 子供ったら、全然言うこと聞かない。 Kodomo ttara, zenzen iu koto kikanai. \"Kids just don't listen at all!\""
+          }
+        ]
+      },
+      {
+        "level": 2,
+        "heading": "Common Patterns with って",
+        "content": "",
+        "children": [
+          {
+            "level": 3,
+            "heading": "ってこと - \"That means...\" / \"The fact that...\"",
+            "content": "明日休みってこと？ Ashita yasumi tte koto? \"You mean tomorrow is a day off?\" 要するに無理ってことだね。 Yousuru ni muri tte koto da ne. \"So basically, you're saying it's impossible.\" つまり、来ないってことね。 Tsumari, konai tte koto ne. \"In other words, you're not coming, right?\""
+          },
+          {
+            "level": 3,
+            "heading": "ってか - \"Or rather...\" / \"Actually...\"",
+            "content": "嬉しいってか、びっくりした。 Ureshii tte ka, bikkuri shita. \"I'm happy, or rather, I'm surprised.\" 難しいってか、無理。 Muzukashii tte ka, muri. \"It's difficult, or rather, impossible.\""
+          },
+          {
+            "level": 3,
+            "heading": "って言ったじゃん - \"I told you so!\" / \"Didn't I tell you?\"",
+            "content": "だから言ったじゃん！ Dakara itta jan! \"That's what I told you!\" / \"I told you so!\" 危ないって言ったじゃん。 Abunai tte itta jan. \"I told you it was dangerous.\""
+          }
+        ]
+      },
+      {
+        "level": 2,
+        "heading": "って vs と Comparison",
+        "content": "| Aspect | と (to) | って (tte) | | ------------- | -------------- | ------------------- | | Formality | Formal/neutral | Casual only | | Written | Yes | Rarely | | Spoken | Yes | Very common | | With 言う | と言う | って (言う dropped) | | Topic marker | No | Yes (casual) | | Clarification | Less common | Very common |\n\nWhen to use と:\n\nFormal situations Writing (reports, emails, etc.) Business settings With strangers or superiors\n\nWhen to use って:\n\nCasual conversation With friends and family Everyday speech Informal situations"
+      },
+      {
+        "level": 2,
+        "heading": "Regional and Stylistic Variations",
+        "content": "",
+        "children": [
+          {
+            "level": 3,
+            "heading": "って in Different Regions",
+            "content": "Standard across Japan, but frequency varies:\n\nTokyo: Very common Kansai: Also common, sometimes pronounced differently Used everywhere in casual speech"
+          },
+          {
+            "level": 3,
+            "heading": "って in Different Contexts",
+            "content": "Among friends:\n\n昨日さ、田中って奴に会ったんだけど... Kinou sa, Tanaka tte yatsu ni attan da kedo... \"So yesterday, I met this guy Tanaka...\"\n\nFamily:\n\nお母さんって、いつ帰るの？ Okaasan tte, itsu kaeru no? \"Mom, when are you coming home?\"\n\nCasual but polite:\n\nこれって、いくらですか？ Kore tte, ikura desu ka? \"How much is this?\" [Casual topic marker + polite ending]"
+          }
+        ]
+      },
+      {
+        "level": 2,
+        "heading": "Common Mistakes",
+        "content": "",
+        "children": [
+          {
+            "level": 3,
+            "heading": "Mistake 1: Using って in Formal Writing",
+            "content": "❌ Business email: 明日休みって聞きました ✓ Business email: 明日休みだと聞きました\n\nUse と in formal writing."
+          },
+          {
+            "level": 3,
+            "heading": "Mistake 2: Overusing って with Superiors",
+            "content": "❌ To boss: 会議って何時ですか？ ✓ To boss: 会議は何時ですか？\n\nBe careful using って with superiors - stick to は."
+          },
+          {
+            "level": 3,
+            "heading": "Mistake 3: Wrong Context",
+            "content": "❌ Formal presentation: 日本語って難しいです ✓ Formal presentation: 日本語は難しいです\n\nMatch formality to situation."
+          },
+          {
+            "level": 3,
+            "heading": "Mistake 4: Confusing って with Other Particles",
+            "content": "❌ 彼って行く (Trying to say \"with him\") ✓ 彼と行く (Correct: \"go with him\")\n\nって is not the same as と meaning \"with.\""
+          }
+        ]
+      },
+      {
+        "level": 2,
+        "heading": "Practice Patterns",
+        "content": "",
+        "children": [
+          {
+            "level": 3,
+            "heading": "Converting Formal to Casual",
+            "content": "Formal → Casual: 田中さんは明日来ると言いました → 田中さん、明日来るって これは何という食べ物ですか → これって何？ 彼女は忙しいと思います → 彼女、忙しいって思う"
+          },
+          {
+            "level": 3,
+            "heading": "Natural Conversation Examples",
+            "content": "A: 新しいカフェ、行った？ Atarashii kafe, itta? \"Did you go to the new cafe?\" B: まだ。どうだった？ Mada. Dou datta? \"Not yet. How was it?\" A: めっちゃおいしいって！ Meccha oishii tte! \"They say it's super delicious!\" B: そうなんだ。今度行こう。 Sou nan da. Kondo ikou. \"Really? Let's go next time.\""
+          }
+        ]
+      },
+      {
+        "level": 2,
+        "heading": "Summary",
+        "content": "Key Points:\n\nって is casual version of と for quotations Extremely common in spoken Japanese Can replace は as casual topic marker Used for clarification and repetition Forms: ってば (emphasis), ったら (complaint) Essential for natural casual conversation Never use in formal writing or business settings Makes speech sound more natural and native-like",
+        "children": [
+          {
+            "level": 3,
+            "heading": "Company",
+            "content": "About Pricing Blog Contact"
+          },
+          {
+            "level": 3,
+            "heading": "Legal",
+            "content": "Privacy Policy Terms of Service Cookie Policy"
+          }
+        ]
+      }
+    ]
+  },
+  "metadata": {
+    "extracted_at": "2026-01-01T22:19:36.794606Z",
+    "duration_ms": 7,
+    "extractors_matched": [
+      "metadata",
+      "examples",
+      "sections"
+    ],
+    "extractors_failed": [
+      "vocab_tables",
+      "definitions",
+      "content_blocks"
+    ]
+  }
+}

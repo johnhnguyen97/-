@@ -1,0 +1,366 @@
+{
+  "config_name": "Language Learning Extractor",
+  "url": "https://practice-japanese.com/docs/duration/",
+  "data": {
+    "sections": [
+      {
+        "level": 2,
+        "heading": "What is 間 (aida)?",
+        "content": "間 (あいだ - aida) means \"interval,\" \"period,\" or \"duration.\" It's used to express how long something lasts or the time span between events.\n\n3時間 \"3 hours\" (duration) 日本にいる間 \"while/during being in Japan\" 夏休みの間 \"during summer vacation\""
+      },
+      {
+        "level": 2,
+        "heading": "Expressing Duration",
+        "content": "",
+        "children": [
+          {
+            "level": 3,
+            "heading": "Time Period + 間",
+            "content": "To emphasize duration, add 間 after time expressions:\n\n1時間 → 1時間(の間) \"for 1 hour\" 3日間 \"for 3 days\" 2週間 \"for 2 weeks\" 1年間 \"for 1 year\""
+          },
+          {
+            "level": 3,
+            "heading": "With or Without 間",
+            "content": "Some time words can be used with or without 間:\n\n3時間 = 3時間 \"3 hours\" (both acceptable) But: 3日 vs 3日間 \"3 days\" - 間 emphasizes the duration"
+          }
+        ]
+      },
+      {
+        "level": 2,
+        "heading": "Common Duration Expressions",
+        "content": "",
+        "children": [
+          {
+            "level": 3,
+            "heading": "Hours",
+            "content": "1時間 - 1 hour 2時間 - 2 hours 半時間 - half an hour 何時間 - how many hours 2時間勉強した \"I studied for 2 hours\""
+          },
+          {
+            "level": 3,
+            "heading": "Days",
+            "content": "1日 - 1 day 2日間 - 2 days 3日間 - 3 days 何日間 - how many days 3日間東京にいました \"I was in Tokyo for 3 days\""
+          },
+          {
+            "level": 3,
+            "heading": "Weeks",
+            "content": "1週間 - 1 week 2週間 - 2 weeks 3週間 - 3 weeks 何週間 - how many weeks 2週間休みます \"I'll rest for 2 weeks\""
+          },
+          {
+            "level": 3,
+            "heading": "Months",
+            "content": "1ヶ月 / 一ヶ月 - 1 month 2ヶ月 - 2 months 半年 - half a year 何ヶ月 - how many months 3ヶ月日本語を勉強した \"I studied Japanese for 3 months\""
+          },
+          {
+            "level": 3,
+            "heading": "Years",
+            "content": "1年 / 1年間 - 1 year 2年間 - 2 years 3年間 - 3 years 何年間 - how many years 5年間働きました \"I worked for 5 years\""
+          }
+        ]
+      },
+      {
+        "level": 2,
+        "heading": "の間 (no aida) - During",
+        "content": "",
+        "children": [
+          {
+            "level": 3,
+            "heading": "[Time/Event] + の間",
+            "content": "Expresses \"during\" or \"while\":\n\n夏休みの間 \"during summer vacation\" 会議の間 \"during the meeting\" 授業の間 \"during class\" 旅行の間 \"during the trip\""
+          },
+          {
+            "level": 3,
+            "heading": "With Verbs: ている間",
+            "content": "寝ている間 \"while sleeping\" 勉強している間 \"while studying\" 日本にいる間 \"while in Japan\" 待っている間 \"while waiting\""
+          }
+        ]
+      },
+      {
+        "level": 2,
+        "heading": "Asking About Duration",
+        "content": "",
+        "children": [
+          {
+            "level": 3,
+            "heading": "どのくらい/どれくらい",
+            "content": "\"How long\":\n\nどのくらいかかりますか？ \"How long will it take?\" どれくらい日本にいますか？ \"How long will you be in Japan?\" どのくらい勉強しましたか？ \"How long did you study?\""
+          },
+          {
+            "level": 3,
+            "heading": "何時間/何日間",
+            "content": "Specific time units:\n\n何時間かかりますか？ \"How many hours will it take?\" 何日間休みますか？ \"How many days will you rest?\" 何年間働きましたか？ \"How many years did you work?\""
+          }
+        ]
+      },
+      {
+        "level": 2,
+        "heading": "Particle Usage with Duration",
+        "content": "",
+        "children": [
+          {
+            "level": 3,
+            "heading": "を with Duration (Optional)",
+            "content": "Duration can take を but often omitted:\n\n3時間(を)勉強した \"I studied for 3 hours\" 2日間(を)休んだ \"I rested for 2 days\""
+          },
+          {
+            "level": 3,
+            "heading": "に with Points in Time",
+            "content": "Note the difference:\n\n3時に - at 3 o'clock (point) 3時間 - for 3 hours (duration) 月曜日に - on Monday (point) 3日間 - for 3 days (duration)"
+          }
+        ]
+      },
+      {
+        "level": 2,
+        "heading": "Common Patterns",
+        "content": "",
+        "children": [
+          {
+            "level": 3,
+            "heading": "〜間に (during/within)",
+            "content": "Something happens within a period:\n\n夏休みの間に旅行した \"I traveled during summer vacation\" 1時間の間に終わった \"It finished within 1 hour\" 授業の間に寝てしまった \"I fell asleep during class\""
+          },
+          {
+            "level": 3,
+            "heading": "〜間ずっと (the whole time)",
+            "content": "Throughout the entire duration:\n\n1時間ずっと待った \"I waited the whole hour\" 夏休みの間ずっと勉強した \"I studied throughout summer vacation\" 3日間ずっと雨だった \"It rained for the whole 3 days\""
+          }
+        ]
+      },
+      {
+        "level": 2,
+        "heading": "Duration with Different Verbs",
+        "content": "",
+        "children": [
+          {
+            "level": 3,
+            "heading": "Continuous Actions",
+            "content": "3時間勉強した \"I studied for 3 hours\" 2時間映画を見た \"I watched a movie for 2 hours\" 30分走った \"I ran for 30 minutes\""
+          },
+          {
+            "level": 3,
+            "heading": "States",
+            "content": "3日間病気だった \"I was sick for 3 days\" 1年間日本にいる \"I'll be in Japan for 1 year\" 2週間忙しい \"I'll be busy for 2 weeks\""
+          }
+        ]
+      },
+      {
+        "level": 2,
+        "heading": "Common Conversations",
+        "content": "",
+        "children": [
+          {
+            "level": 3,
+            "heading": "Example 1: Study Duration",
+            "content": "A: 毎日どのくらい勉強しますか？ \"How long do you study every day?\" B: 2時間ぐらい勉強します \"I study for about 2 hours\" A: 週末は？ \"What about weekends?\" B: 3時間ぐらい勉強します \"I study for about 3 hours\""
+          },
+          {
+            "level": 3,
+            "heading": "Example 2: Vacation",
+            "content": "A: 夏休みはどのくらいですか？ \"How long is summer vacation?\" B: 2ヶ月間です \"It's 2 months\" A: その間に何をしますか？ \"What will you do during that time?\" B: 旅行するつもりです \"I plan to travel\""
+          },
+          {
+            "level": 3,
+            "heading": "Example 3: Work Experience",
+            "content": "A: どのくらい働いていますか？ \"How long have you been working?\" B: 5年間働いています \"I've been working for 5 years\" A: 同じ会社ですか？ \"The same company?\" B: はい、同じ会社です \"Yes, the same company\""
+          }
+        ]
+      },
+      {
+        "level": 2,
+        "heading": "Common Mistakes",
+        "content": "",
+        "children": [
+          {
+            "level": 3,
+            "heading": "Mistake 1: Using に with duration",
+            "content": "Wrong: 3時間に勉強した ❌ Right: 3時間勉強した ✓ \"I studied for 3 hours\""
+          },
+          {
+            "level": 3,
+            "heading": "Mistake 2: Confusing 間 and 時",
+            "content": "3時間 - 3 hours (duration) 3時 - 3 o'clock (time point) Wrong context: 3時勉強した (studied at 3 o'clock - incomplete) Right: 3時間勉強した (studied for 3 hours)"
+          },
+          {
+            "level": 3,
+            "heading": "Mistake 3: Wrong counter",
+            "content": "Wrong: 3時間日 ❌ Right: 3日間 ✓ \"3 days\""
+          }
+        ]
+      },
+      {
+        "level": 2,
+        "heading": "Approximate Duration",
+        "content": "",
+        "children": [
+          {
+            "level": 3,
+            "heading": "ぐらい/くらい (about)",
+            "content": "2時間ぐらい \"about 2 hours\" 3日間くらい \"about 3 days\" 1週間ぐらい \"about 1 week\""
+          },
+          {
+            "level": 3,
+            "heading": "〜ほど (approximately)",
+            "content": "1時間ほど \"about 1 hour\" 2ヶ月ほど \"about 2 months\""
+          }
+        ]
+      },
+      {
+        "level": 2,
+        "heading": "Past Duration",
+        "content": "",
+        "children": [
+          {
+            "level": 3,
+            "heading": "まで (until)",
+            "content": "3時まで勉強した \"I studied until 3 o'clock\" 金曜日まで待つ \"I'll wait until Friday\""
+          },
+          {
+            "level": 3,
+            "heading": "から〜まで (from~until)",
+            "content": "9時から5時まで働く \"I work from 9 to 5\" 月曜日から金曜日まで学校がある \"I have school from Monday to Friday\""
+          }
+        ]
+      },
+      {
+        "level": 2,
+        "heading": "Special Expressions",
+        "content": "",
+        "children": [
+          {
+            "level": 3,
+            "heading": "この間 (the other day/recently)",
+            "content": "この間会った \"I met (them) the other day\" この間映画を見た \"I watched a movie recently\""
+          },
+          {
+            "level": 3,
+            "heading": "その間 (during that time/meanwhile)",
+            "content": "その間に準備する \"I'll prepare during that time\" その間待っていてください \"Please wait during that time\""
+          },
+          {
+            "level": 3,
+            "heading": "しばらくの間 (for a while)",
+            "content": "しばらくの間休みます \"I'll rest for a while\" しばらくの間会っていない \"I haven't met (them) for a while\""
+          }
+        ]
+      },
+      {
+        "level": 2,
+        "heading": "Minimum/Maximum Duration",
+        "content": "",
+        "children": [
+          {
+            "level": 3,
+            "heading": "少なくとも (at least)",
+            "content": "少なくとも1時間かかる \"It takes at least 1 hour\" 少なくとも3日間必要だ \"At least 3 days are needed\""
+          },
+          {
+            "level": 3,
+            "heading": "最大 (maximum)",
+            "content": "最大2時間 \"maximum 2 hours\" 最大1週間かかる \"It takes a maximum of 1 week\""
+          }
+        ]
+      },
+      {
+        "level": 2,
+        "heading": "Practice Sentences",
+        "content": "",
+        "children": [
+          {
+            "level": 3,
+            "heading": "Basic Duration",
+            "content": "3時間勉強した \"I studied for 3 hours\" 2日間休みました \"I rested for 2 days\" 1週間旅行する \"I'll travel for 1 week\" 5年間日本にいます \"I'll be in Japan for 5 years\""
+          },
+          {
+            "level": 3,
+            "heading": "During/While",
+            "content": "夏休みの間に旅行した \"I traveled during summer vacation\" 授業の間に寝た \"I slept during class\" 日本にいる間、勉強します \"While in Japan, I'll study\" 待っている間、本を読んだ \"While waiting, I read a book\""
+          },
+          {
+            "level": 3,
+            "heading": "Questions",
+            "content": "どのくらいかかりますか？ \"How long will it take?\" 何時間勉強しますか？ \"How many hours will you study?\" どれくらい日本にいますか？ \"How long will you be in Japan?\""
+          },
+          {
+            "level": 3,
+            "heading": "Approximate",
+            "content": "2時間ぐらいかかります \"It takes about 2 hours\" 3日間くらい休みます \"I'll rest for about 3 days\" 1週間ほど待ってください \"Please wait about 1 week\""
+          }
+        ]
+      },
+      {
+        "level": 2,
+        "heading": "Related Grammar Points",
+        "content": "Time Words - Specific time expressions Frequency - How often Before/After - Temporal relationships 〜ている間 - While doing 〜ながら - While/simultaneous Counters - Time counters",
+        "children": [
+          {
+            "level": 3,
+            "heading": "Company",
+            "content": "About Pricing Blog Contact"
+          },
+          {
+            "level": 3,
+            "heading": "Legal",
+            "content": "Privacy Policy Terms of Service Cookie Policy"
+          }
+        ]
+      }
+    ],
+    "metadata": {
+      "title": "Duration (間)"
+    },
+    "examples": [
+      {
+        "sentence": "Time Words - Specific time expressions"
+      },
+      {
+        "sentence": "Frequency - How often"
+      },
+      {
+        "sentence": "Before/After - Temporal relationships"
+      },
+      {
+        "sentence": "〜ている間 - While doing"
+      },
+      {
+        "sentence": "〜ながら - While/simultaneous"
+      },
+      {
+        "sentence": "Counters - Time counters"
+      },
+      {
+        "sentence": "About"
+      },
+      {
+        "sentence": "Pricing"
+      },
+      {
+        "sentence": "Blog"
+      },
+      {
+        "sentence": "Contact"
+      },
+      {
+        "sentence": "Privacy Policy"
+      },
+      {
+        "sentence": "Terms of Service"
+      },
+      {
+        "sentence": "Cookie Policy"
+      }
+    ]
+  },
+  "metadata": {
+    "extracted_at": "2026-01-01T22:19:29.496467800Z",
+    "duration_ms": 3,
+    "extractors_matched": [
+      "metadata",
+      "examples",
+      "sections"
+    ],
+    "extractors_failed": [
+      "vocab_tables",
+      "definitions",
+      "content_blocks"
+    ]
+  }
+}

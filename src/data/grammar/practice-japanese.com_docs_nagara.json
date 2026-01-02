@@ -1,0 +1,297 @@
+{
+  "config_name": "Language Learning Extractor",
+  "url": "https://practice-japanese.com/docs/nagara/",
+  "data": {
+    "metadata": {
+      "title": "〜ながら (While)"
+    },
+    "examples": [
+      {
+        "sentence": "ながら expresses simultaneous actions"
+      },
+      {
+        "sentence": "Formation: [Verb ます-stem] + ながら"
+      },
+      {
+        "sentence": "Action before ながら is secondary/background"
+      },
+      {
+        "sentence": "Main action comes after ながら"
+      },
+      {
+        "sentence": "Only for truly simultaneous actions, not sequential"
+      },
+      {
+        "sentence": "Common with: 食べる, 歩く, 聞く, 見る, 話す"
+      },
+      {
+        "sentence": "Casual and common in daily speech"
+      },
+      {
+        "sentence": "Different from つつ (formal version)"
+      },
+      {
+        "sentence": "Essential for describing multitasking"
+      },
+      {
+        "sentence": "About"
+      },
+      {
+        "sentence": "Pricing"
+      },
+      {
+        "sentence": "Blog"
+      },
+      {
+        "sentence": "Contact"
+      },
+      {
+        "sentence": "Privacy Policy"
+      },
+      {
+        "sentence": "Terms of Service"
+      },
+      {
+        "sentence": "Cookie Policy"
+      }
+    ],
+    "sections": [
+      {
+        "level": 2,
+        "heading": "What is 〜ながら?",
+        "content": "〜ながら (nagara) expresses doing two actions simultaneously, with the first action being the secondary or background activity. It means \"while doing\" or \"as.\"\n\nEnglish equivalent: \"while,\" \"as,\" \"doing...at the same time\"\n\nStructure: [Verb ます-stem] + ながら\n\n食べる (taberu - eat) → 食べ + ながら = 食べながら \"while eating\" 歩く (aruku - walk) → 歩き + ながら = 歩きながら \"while walking\" 聞く (kiku - listen) → 聞き + ながら = 聞きながら \"while listening\""
+      },
+      {
+        "level": 2,
+        "heading": "Basic Formation",
+        "content": "",
+        "children": [
+          {
+            "level": 3,
+            "heading": "With verb stems",
+            "content": "[Verb ます-stem] + ながら\n\n食べながら (tabenagara) - \"while eating\" 歩きながら (arukinagara) - \"while walking\" 見ながら (minagara) - \"while watching\" 聞きながら (kikinagara) - \"while listening\""
+          }
+        ]
+      },
+      {
+        "level": 2,
+        "heading": "Simultaneous Actions",
+        "content": "",
+        "children": [
+          {
+            "level": 3,
+            "heading": "Doing two things at once",
+            "content": "音楽を聞きながら勉強する。 Ongaku wo kikinagara benkyou suru. \"Study while listening to music.\" テレビを見ながら食べる。 Terebi wo minagara taberu. \"Eat while watching TV.\" 歩きながら話す。 Arukinagara hanasu. \"Talk while walking.\" 運転しながら電話をする。 Unten shinagara denwa wo suru. \"Talk on the phone while driving.\""
+          }
+        ]
+      },
+      {
+        "level": 2,
+        "heading": "Main vs Secondary Action",
+        "content": "",
+        "children": [
+          {
+            "level": 3,
+            "heading": "Order matters",
+            "content": "The action before ながら is secondary (background), the main action comes after.\n\n音楽を聞きながら勉強する。 Ongaku wo kikinagara benkyou suru. \"Study while listening to music.\" (Main: studying, Secondary: listening) 勉強しながら音楽を聞く。 Benkyou shinagara ongaku wo kiku. \"Listen to music while studying.\" (Main: listening, Secondary: studying)"
+          }
+        ]
+      },
+      {
+        "level": 2,
+        "heading": "Common Daily Activities",
+        "content": "",
+        "children": [
+          {
+            "level": 3,
+            "heading": "Typical combinations",
+            "content": "歩きながら食べる。 Arukinagara taberu. \"Eat while walking.\" コーヒーを飲みながら話す。 Koohii wo nominagara hanasu. \"Talk while drinking coffee.\" スマホを見ながら歩く。 Sumaho wo minagara aruku. \"Walk while looking at smartphone.\" 泣きながら話す。 Nakinagara hanasu. \"Talk while crying.\" 笑いながら言う。 Warainagara iu. \"Say while laughing.\""
+          }
+        ]
+      },
+      {
+        "level": 2,
+        "heading": "Work and Study",
+        "content": "",
+        "children": [
+          {
+            "level": 3,
+            "heading": "Professional contexts",
+            "content": "メモを取りながら聞く。 Memo wo torinagara kiku. \"Listen while taking notes.\" 資料を見ながら説明する。 Shiryou wo minagara setsumei suru. \"Explain while looking at materials.\" 働きながら勉強する。 Hatarakinagara benkyou suru. \"Study while working.\" (having a job) 考えながら書く。 Kangaenagara kaku. \"Write while thinking.\""
+          }
+        ]
+      },
+      {
+        "level": 2,
+        "heading": "With する verbs",
+        "content": "",
+        "children": [
+          {
+            "level": 3,
+            "heading": "Compound verbs",
+            "content": "運転しながら (unten shinagara) - \"while driving\" 勉強しながら (benkyou shinagara) - \"while studying\" 料理しながら (ryouri shinagara) - \"while cooking\" 掃除しながら (souji shinagara) - \"while cleaning\" 料理しながら話す。 Ryouri shinagara hanasu. \"Talk while cooking.\" 掃除しながら音楽を聞く。 Souji shinagara ongaku wo kiku. \"Listen to music while cleaning.\""
+          }
+        ]
+      },
+      {
+        "level": 2,
+        "heading": "Long-term Simultaneous States",
+        "content": "",
+        "children": [
+          {
+            "level": 3,
+            "heading": "Extended periods",
+            "content": "働きながら学校に通う。 Hatarakinagara gakkou ni kayou. \"Attend school while working.\" アルバイトをしながら勉強する。 Arubaito wo shinagara benkyou suru. \"Study while doing part-time work.\" 子育てしながら仕事をする。 Kosodate shinagara shigoto wo suru. \"Work while raising children.\""
+          }
+        ]
+      },
+      {
+        "level": 2,
+        "heading": "Emotional States",
+        "content": "",
+        "children": [
+          {
+            "level": 3,
+            "heading": "Feelings during actions",
+            "content": "泣きながら謝る。 Nakinagara ayamaru. \"Apologize while crying.\" 笑いながら話す。 Warainagara hanasu. \"Talk while laughing.\" 怒りながら説明する。 Okorinagara setsumei suru. \"Explain while angry.\" 驚きながら見る。 Odorokinagara miru. \"Watch in surprise.\""
+          }
+        ]
+      },
+      {
+        "level": 2,
+        "heading": "Polite Forms",
+        "content": "",
+        "children": [
+          {
+            "level": 3,
+            "heading": "Used in both casual and polite",
+            "content": "聞きながら質問してください。 Kikinagara shitsumon shite kudasai. \"Please ask questions while listening.\" 考えながら答えます。 Kangaenagara kotaemasu. \"I'll answer while thinking.\" 歩きながら話しましょう。 Arukinagara hanashimashou. \"Let's talk while walking.\""
+          }
+        ]
+      },
+      {
+        "level": 2,
+        "heading": "Contrasting with 〜ながら (While/Although)",
+        "content": "",
+        "children": [
+          {
+            "level": 3,
+            "heading": "Different meaning with adjectives",
+            "content": "With adjectives and some nouns, ながら can mean \"although\":\n\n小さいながら便利だ。 Chiisai nagara benri da. \"Although small, it's convenient.\" 残念ながら行けません。 Zannen nagara ikemasen. \"Unfortunately, I cannot go.\" This is different from the simultaneous action ながら!"
+          }
+        ]
+      },
+      {
+        "level": 2,
+        "heading": "Common Expressions",
+        "content": "歩きながら (arukinagara) - \"while walking\" 食べながら (tabenagara) - \"while eating\" 見ながら (minagara) - \"while watching\" 聞きながら (kikinagara) - \"while listening\" 話しながら (hanashinagara) - \"while talking\" 泣きながら (nakinagara) - \"while crying\" 笑いながら (warainagara) - \"while laughing\" 働きながら (hatarakinagara) - \"while working\" 勉強しながら (benkyou shinagara) - \"while studying\" 運転しながら (unten shinagara) - \"while driving\""
+      },
+      {
+        "level": 2,
+        "heading": "Cannot Use with Same Subject Doing Sequential Actions",
+        "content": "",
+        "children": [
+          {
+            "level": 3,
+            "heading": "Must be truly simultaneous",
+            "content": "✓ 音楽を聞きながら勉強する (simultaneous) ❌ 朝ご飯を食べながら学校に行く (sequential, not simultaneous) ✓ 朝ご飯を食べてから学校に行く (correct for sequential)"
+          }
+        ]
+      },
+      {
+        "level": 2,
+        "heading": "Comparing ながら and つつ",
+        "content": "",
+        "children": [
+          {
+            "level": 3,
+            "heading": "Casual vs formal",
+            "content": "ながら - Common, casual:\n\n歩きながら話す (arukinagara hanasu) \"talk while walking\" (everyday)\n\nつつ - Formal, literary:\n\n歩きつつ話す (arukitsutsu hanasu) \"talk while walking\" (formal/literary)\n\n| Pattern | Formality | Usage | | ------- | --------- | --------------- | | ながら | Casual | Everyday speech | | つつ | Formal | Writing/formal |\n\nSee: 〜つつ (While - formal)"
+          }
+        ]
+      },
+      {
+        "level": 2,
+        "heading": "Warning About Dangerous Combinations",
+        "content": "",
+        "children": [
+          {
+            "level": 3,
+            "heading": "Safety concerns",
+            "content": "運転しながらスマホを見る。 Unten shinagara sumaho wo miru. \"Look at smartphone while driving.\" (dangerous - don't do!) 歩きながらスマホを見る。 Arukinagara sumaho wo miru. \"Look at smartphone while walking.\" (dangerous)\n\nThese are grammatically correct but socially discouraged!"
+          }
+        ]
+      },
+      {
+        "level": 2,
+        "heading": "With Movement Verbs",
+        "content": "",
+        "children": [
+          {
+            "level": 3,
+            "heading": "Coming and going",
+            "content": "走りながら叫ぶ。 Hashirinagara sakebu. \"Shout while running.\" 帰りながら買い物をする。 Kaerinagara kaimono wo suru. \"Shop while going home.\" 来ながら電話した。 Kinagara denwa shita. \"Called while coming.\""
+          }
+        ]
+      },
+      {
+        "level": 2,
+        "heading": "Common Mistakes",
+        "content": "",
+        "children": [
+          {
+            "level": 3,
+            "heading": "Mistake 1: Using wrong verb form",
+            "content": "❌ 食べるながら ✓ 食べながら\n\nUse ます-stem, not dictionary form."
+          },
+          {
+            "level": 3,
+            "heading": "Mistake 2: Using for sequential actions",
+            "content": "❌ 朝ご飯を食べながら会社に行く (sequential) ✓ 朝ご飯を食べてから会社に行く\n\nUse ながら only for truly simultaneous actions."
+          },
+          {
+            "level": 3,
+            "heading": "Mistake 3: Same verb twice",
+            "content": "❌ 歩きながら歩く (unnatural)\n\nThe two actions should be different."
+          },
+          {
+            "level": 3,
+            "heading": "Mistake 4: Wrong word order for emphasis",
+            "content": "Remember: action before ながら is secondary.\n\n音楽を聞きながら勉強する = studying is main 勉強しながら音楽を聞く = listening is main"
+          }
+        ]
+      },
+      {
+        "level": 2,
+        "heading": "Summary",
+        "content": "Key Points:\n\nながら expresses simultaneous actions Formation: [Verb ます-stem] + ながら Action before ながら is secondary/background Main action comes after ながら Only for truly simultaneous actions, not sequential Common with: 食べる, 歩く, 聞く, 見る, 話す Casual and common in daily speech Different from つつ (formal version) Essential for describing multitasking",
+        "children": [
+          {
+            "level": 3,
+            "heading": "Company",
+            "content": "About Pricing Blog Contact"
+          },
+          {
+            "level": 3,
+            "heading": "Legal",
+            "content": "Privacy Policy Terms of Service Cookie Policy"
+          }
+        ]
+      }
+    ]
+  },
+  "metadata": {
+    "extracted_at": "2026-01-01T22:19:31.489005800Z",
+    "duration_ms": 3,
+    "extractors_matched": [
+      "metadata",
+      "examples",
+      "sections"
+    ],
+    "extractors_failed": [
+      "vocab_tables",
+      "definitions",
+      "content_blocks"
+    ]
+  }
+}

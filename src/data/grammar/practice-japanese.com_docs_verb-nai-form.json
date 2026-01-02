@@ -1,0 +1,330 @@
+{
+  "config_name": "Language Learning Extractor",
+  "url": "https://practice-japanese.com/docs/verb-nai-form/",
+  "data": {
+    "sections": [
+      {
+        "level": 2,
+        "heading": "What is Nai-form?",
+        "content": "ない-form (nai-form) is the plain/casual negative present/future . It means \"don't/won't do something\" in casual speech.\n\n食べない (tabenai) - don't eat / won't eat 行かない (ikanai) - don't go / won't go しない (shinai) - don't do / won't do"
+      },
+      {
+        "level": 2,
+        "heading": "When to Use Nai-form",
+        "content": "",
+        "children": [
+          {
+            "level": 3,
+            "heading": "1. Casual Negative Statements",
+            "content": "With friends, family, in casual situations:\n\n今日は行かない \"I won't go today\" 肉食べない \"I don't eat meat\" 分からない \"I don't understand\""
+          },
+          {
+            "level": 3,
+            "heading": "2. Informal Conversations",
+            "content": "明日来ない？ \"Aren't you coming tomorrow?\" 食べない？ \"Won't you eat?\""
+          },
+          {
+            "level": 3,
+            "heading": "3. Grammar Patterns",
+            "content": "Many patterns require nai-form:\n\n食べなくてもいい - don't have to eat 行かなければならない - must go 見ないで - without seeing"
+          }
+        ]
+      },
+      {
+        "level": 2,
+        "heading": "Conjugation Rules",
+        "content": "",
+        "children": [
+          {
+            "level": 3,
+            "heading": "Ichidan Verbs",
+            "content": "Drop る , add ない :\n\n食べる → 食べない (don't eat) 見る → 見ない (don't see) 寝る → 寝ない (don't sleep) 起きる → 起きない (don't wake up) 教える → 教えない (don't teach) 着る → 着ない (don't wear) 出る → 出ない (don't go out)"
+          },
+          {
+            "level": 3,
+            "heading": "Godan Verbs",
+            "content": "Change final -u sound to -a , then add ない :\n\n買う → 買わない (kau → kawanai) ka-u → ka-wanai 書く → 書かない (kaku → kakanai) kak-u → kak-anai 読む → 読まない (yomu → yomanai) yom-u → yom-anai 話す → 話さない (hanasu → hanasanai) hanas-u → hanas-anai 待つ → 待たない (matsu → matanai) mat-u → mat-anai 遊ぶ → 遊ばない (asobu → asobanai) asob-u → asob-anai 帰る → 帰らない (kaeru → kaeranai) kaer-u → kaer-anai"
+          },
+          {
+            "level": 3,
+            "heading": "Special Case: う Verbs",
+            "content": "う becomes わ + ない:\n\n買う → 買わない (NOT 買あない) 言う → 言わない 会う → 会わない 歌う → 歌わない"
+          },
+          {
+            "level": 3,
+            "heading": "Irregular Verbs",
+            "content": "する → しない (don't do) 来る → 来ない (こない, konai) (don't come)"
+          },
+          {
+            "level": 3,
+            "heading": "Special: ある",
+            "content": "ある → ない (not exist) (NOT あらない)"
+          }
+        ]
+      },
+      {
+        "level": 2,
+        "heading": "Complete Conjugation Chart",
+        "content": "| Dictionary | A-row | Nai-form | Meaning | | ---------- | ------- | -------- | ------------ | | 書く | kak-a | 書かない | don't write | | 読む | yom-a | 読まない | don't read | | 話す | hanas-a | 話さない | don't speak | | 待つ | mat-a | 待たない | don't wait | | 遊ぶ | asob-a | 遊ばない | don't play | | 死ぬ | shin-a | 死なない | don't die | | 帰る | kaer-a | 帰らない | don't return | | 泳ぐ | oyog-a | 泳がない | don't swim | | 買う | kaw-a | 買わない | don't buy | | 食べる | - | 食べない | don't eat | | 見る | - | 見ない | don't see | | する | - | しない | don't do | | 来る | - | 来ない | don't come |"
+      },
+      {
+        "level": 2,
+        "heading": "Present and Future Negative",
+        "content": "Nai-form expresses both:",
+        "children": [
+          {
+            "level": 3,
+            "heading": "Present Habitual",
+            "content": "私は肉を食べない \"I don't eat meat\" 朝ご飯を食べない \"I don't eat breakfast\" お酒を飲まない \"I don't drink alcohol\""
+          },
+          {
+            "level": 3,
+            "heading": "Future Negative",
+            "content": "明日は行かない \"I won't go tomorrow\" 今日は勉強しない \"I won't study today\" 週末は働かない \"I won't work on the weekend\""
+          }
+        ]
+      },
+      {
+        "level": 2,
+        "heading": "Polite vs Plain Negative",
+        "content": "| Plain (Nai) | Polite (Masen) | Meaning | | ----------- | -------------- | ---------- | | 食べない | 食べません | don't eat | | 行かない | 行きません | don't go | | しない | しません | don't do | | 来ない | 来ません | don't come | | 見ない | 見ません | don't see |\n\nUse nai-form in casual situations!"
+      },
+      {
+        "level": 2,
+        "heading": "Common Patterns Using Nai-form",
+        "content": "",
+        "children": [
+          {
+            "level": 3,
+            "heading": "1. Don't Have To (～なくてもいい)",
+            "content": "食べなくてもいい \"You don't have to eat\" 行かなくてもいいよ \"You don't have to go\" 勉強しなくてもいい \"You don't have to study\""
+          },
+          {
+            "level": 3,
+            "heading": "2. Must (～なければならない / ～なきゃ)",
+            "content": "勉強しなければならない \"I must study\" 行かなきゃ \"I gotta go\" (casual) 食べなきゃいけない \"I have to eat\""
+          },
+          {
+            "level": 3,
+            "heading": "3. Without Doing (～ないで)",
+            "content": "朝ご飯を食べないで学校に行った \"I went to school without eating breakfast\" 何も言わないで帰った \"I left without saying anything\""
+          },
+          {
+            "level": 3,
+            "heading": "4. If You Don't (～ないと)",
+            "content": "急がないと！ \"If we don't hurry! / We gotta hurry!\" 勉強しないと試験に落ちる \"If you don't study, you'll fail the exam\""
+          },
+          {
+            "level": 3,
+            "heading": "5. Negative Requests (～ないで)",
+            "content": "行かないで \"Don't go\" 泣かないで \"Don't cry\" 忘れないで \"Don't forget\""
+          }
+        ]
+      },
+      {
+        "level": 2,
+        "heading": "Question Form",
+        "content": "Use rising intonation:\n\n食べない？ \"Won't you eat? / Don't you eat?\" 行かない？ \"Won't you go? / Aren't you going?\" 分からない？ \"Don't you understand?\""
+      },
+      {
+        "level": 2,
+        "heading": "Answering Negative Questions",
+        "content": "Japanese yes/no can be tricky:\n\nQ: 肉を食べない？ \"Don't you eat meat?\" A: うん、食べない \"Right, I don't eat it\" (Agreeing with negative) A: ううん、食べる \"No, I do eat it\" (Disagreeing with negative)"
+      },
+      {
+        "level": 2,
+        "heading": "Common Mistakes",
+        "content": "",
+        "children": [
+          {
+            "level": 3,
+            "heading": "Mistake 1: Wrong A-row Conjugation",
+            "content": "Wrong: 書く → 書くない ❌ Right: 書く → 書かない ✓ Wrong: 読む → 読むない ❌ Right: 読む → 読まない ✓"
+          },
+          {
+            "level": 3,
+            "heading": "Mistake 2: う Verbs",
+            "content": "Wrong: 買う → 買あない ❌ Right: 買う → 買わない ✓ Wrong: 言う → 言あない ❌ Right: 言う → 言わない ✓"
+          },
+          {
+            "level": 3,
+            "heading": "Mistake 3: Using with Polite Suffix",
+            "content": "Wrong: 食べないます ❌ Right: 食べません ✓ (polite) Right: 食べない ✓ (plain)"
+          },
+          {
+            "level": 3,
+            "heading": "Mistake 4: ある Exception",
+            "content": "Wrong: あらない ❌ Right: ない ✓ 時間がない \"There's no time\""
+          }
+        ]
+      },
+      {
+        "level": 2,
+        "heading": "Step-by-Step Conjugation",
+        "content": "",
+        "children": [
+          {
+            "level": 3,
+            "heading": "For Godan Verbs:",
+            "content": "Find the u-sound Change to a-sound Add ない\n\nExample: 読む (yomu)\n\nu-sound: む (mu) a-sound: ま (ma) Result: 読まない (yomanai)"
+          },
+          {
+            "level": 3,
+            "heading": "For Ichidan Verbs:",
+            "content": "Drop る Add ない\n\nExample: 食べる (taberu)\n\nDrop る: 食べ Result: 食べない (tabenai)"
+          }
+        ]
+      },
+      {
+        "level": 2,
+        "heading": "Casual Conversation Examples",
+        "content": "",
+        "children": [
+          {
+            "level": 3,
+            "heading": "Example 1: Making Plans",
+            "content": "A: 明日映画見ない？ \"Want to see a movie tomorrow?\" B: ごめん、明日は行けない \"Sorry, I can't go tomorrow\" A: じゃあ、週末は？ \"Then, how about the weekend?\" B: 週末はいいよ！ \"The weekend is good!\""
+          },
+          {
+            "level": 3,
+            "heading": "Example 2: Food Preferences",
+            "content": "A: 納豆食べる？ \"Do you eat natto?\" B: ううん、食べない。苦手 \"No, I don't. I don't like it\" A: そうなんだ。じゃあ、寿司は？ \"I see. Then, sushi?\" B: 寿司は好き！ \"I like sushi!\""
+          },
+          {
+            "level": 3,
+            "heading": "Example 3: Daily Habits",
+            "content": "A: 毎日運動する？ \"Do you exercise every day?\" B: ううん、しない。時々だけ \"No, I don't. Only sometimes\" A: そっか。僕も毎日はしない \"I see. I don't do it every day either\""
+          }
+        ]
+      },
+      {
+        "level": 2,
+        "heading": "With Frequency Words",
+        "content": "ぜんぜん食べない \"I don't eat at all\" あまり飲まない \"I don't drink much\" ほとんど行かない \"I hardly go\" めったに見ない \"I rarely watch\" 全く分からない \"I don't understand at all\""
+      },
+      {
+        "level": 2,
+        "heading": "Common Expressions",
+        "content": "知らない - don't know 分からない - don't understand できない - can't do いらない - don't need いない - not here/don't exist (animate) ない - not exist (inanimate)",
+        "children": [
+          {
+            "level": 3,
+            "heading": "Examples",
+            "content": "それ知らない \"I don't know that\" 意味が分からない \"I don't understand the meaning\" 日本語ができない \"I can't speak Japanese\" お金がない \"I don't have money\" 時間がない \"I don't have time\""
+          }
+        ]
+      },
+      {
+        "level": 2,
+        "heading": "Nai-form as Adjective",
+        "content": "Nai-form conjugates like an い-adjective:\n\nPresent: 食べない Past: 食べなかった Te-form: 食べなくて\n\nMore on this in Nakatta Form ."
+      },
+      {
+        "level": 2,
+        "heading": "Double Negatives",
+        "content": "食べなくはない \"It's not that I don't eat\" (= I do eat sometimes) 嫌いではない \"I don't dislike it\" (= I kind of like it)"
+      },
+      {
+        "level": 2,
+        "heading": "Nai-form in Compound Sentences",
+        "content": "雨が降らないから、出かける \"Because it's not raining, I'll go out\" 分からないので、教えてください \"I don't understand, so please teach me\" 食べないけど、飲む \"I won't eat, but I'll drink\""
+      },
+      {
+        "level": 2,
+        "heading": "Key Takeaways",
+        "content": "✓ Nai-form = plain negative present/future ✓ Godan: change u→a + ない ✓ Ichidan: drop る + ない ✓ Irregular: する → しない, 来る → 来ない ✓ Special: ある → ない ✓ う verbs: う → わない ✓ Used in casual speech and grammar patterns ✓ Essential for intermediate grammar\n\nMaster nai-form - it's crucial for natural Japanese!\n\nNext: Nakatta Form (Past Negative)\n\nRelated:\n\nMasen Form (Polite Negative) Te-form Conjugation Verb Groups",
+        "children": [
+          {
+            "level": 3,
+            "heading": "Company",
+            "content": "About Pricing Blog Contact"
+          },
+          {
+            "level": 3,
+            "heading": "Legal",
+            "content": "Privacy Policy Terms of Service Cookie Policy"
+          }
+        ]
+      }
+    ],
+    "metadata": {
+      "title": "Nai-form (Plain Negative)"
+    },
+    "examples": [
+      {
+        "sentence": "Find the u-sound"
+      },
+      {
+        "sentence": "Change to a-sound"
+      },
+      {
+        "sentence": "Add ない"
+      },
+      {
+        "sentence": "u-sound: む (mu)"
+      },
+      {
+        "sentence": "a-sound: ま (ma)"
+      },
+      {
+        "sentence": "Result: 読まない (yomanai)"
+      },
+      {
+        "sentence": "Drop る"
+      },
+      {
+        "sentence": "Add ない"
+      },
+      {
+        "sentence": "Drop る: 食べ"
+      },
+      {
+        "sentence": "Result: 食べない (tabenai)"
+      },
+      {
+        "sentence": "Masen Form (Polite Negative)"
+      },
+      {
+        "sentence": "Te-form Conjugation"
+      },
+      {
+        "sentence": "Verb Groups"
+      },
+      {
+        "sentence": "About"
+      },
+      {
+        "sentence": "Pricing"
+      },
+      {
+        "sentence": "Blog"
+      },
+      {
+        "sentence": "Contact"
+      },
+      {
+        "sentence": "Privacy Policy"
+      },
+      {
+        "sentence": "Terms of Service"
+      },
+      {
+        "sentence": "Cookie Policy"
+      }
+    ]
+  },
+  "metadata": {
+    "extracted_at": "2026-01-01T22:19:37.168968500Z",
+    "duration_ms": 3,
+    "extractors_matched": [
+      "metadata",
+      "examples",
+      "sections"
+    ],
+    "extractors_failed": [
+      "vocab_tables",
+      "definitions",
+      "content_blocks"
+    ]
+  }
+}

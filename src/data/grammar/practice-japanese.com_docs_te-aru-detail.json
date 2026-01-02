@@ -1,0 +1,282 @@
+{
+  "config_name": "Language Learning Extractor",
+  "url": "https://practice-japanese.com/docs/te-aru-detail/",
+  "data": {
+    "metadata": {
+      "title": "〜てある (Is done)"
+    },
+    "examples": [
+      {
+        "sentence": "てある = current result state"
+      },
+      {
+        "sentence": "ておく = doing something in advance"
+      },
+      {
+        "sentence": "てある expresses intentional action with remaining result"
+      },
+      {
+        "sentence": "Formation: [Transitive verb て-form] + ある"
+      },
+      {
+        "sentence": "Only works with transitive verbs"
+      },
+      {
+        "sentence": "Uses particle が (or は), never を"
+      },
+      {
+        "sentence": "Emphasizes preparation or deliberate action"
+      },
+      {
+        "sentence": "Common with: 書く, 置く, 開ける, 閉める, 準備する"
+      },
+      {
+        "sentence": "Different from ている (just a state)"
+      },
+      {
+        "sentence": "Different from ておく (doing in advance)"
+      },
+      {
+        "sentence": "Essential for describing prepared states"
+      },
+      {
+        "sentence": "About"
+      },
+      {
+        "sentence": "Pricing"
+      },
+      {
+        "sentence": "Blog"
+      },
+      {
+        "sentence": "Contact"
+      },
+      {
+        "sentence": "Privacy Policy"
+      },
+      {
+        "sentence": "Terms of Service"
+      },
+      {
+        "sentence": "Cookie Policy"
+      }
+    ],
+    "sections": [
+      {
+        "level": 2,
+        "heading": "What is 〜てある?",
+        "content": "〜てある (te aru) expresses that something has been intentionally done and the result of that action remains. It emphasizes the current state resulting from a deliberate action.\n\nEnglish equivalent: \"has been done,\" \"is done,\" \"is [verb]ed\"\n\nStructure: [Transitive verb て-form] + ある\n\n書く (kaku - write) → 書いて + ある = 書いてある \"is written\" / \"has been written\" 開ける (akeru - open) → 開けて + ある = 開けてある \"is opened\" / \"has been opened\" 置く (oku - place) → 置いて + ある = 置いてある \"is placed\" / \"has been placed\""
+      },
+      {
+        "level": 2,
+        "heading": "Basic Formation",
+        "content": "",
+        "children": [
+          {
+            "level": 3,
+            "heading": "With transitive verbs",
+            "content": "[Transitive verb て-form] + ある\n\n書いてある (kaite aru) - \"is written\" 置いてある (oite aru) - \"is placed\" 閉めてある (shimete aru) - \"is closed\" 準備してある (junbi shite aru) - \"is prepared\""
+          }
+        ]
+      },
+      {
+        "level": 2,
+        "heading": "Describing Current State",
+        "content": "",
+        "children": [
+          {
+            "level": 3,
+            "heading": "Result of intentional action",
+            "content": "窓が開けてある。 Mado ga akete aru. \"The window is open.\" (Someone opened it) 名前が書いてある。 Namae ga kaite aru. \"The name is written.\" 机の上に本が置いてある。 Tsukue no ue ni hon ga oite aru. \"A book is placed on the desk.\" ドアが閉めてある。 Doa ga shimete aru. \"The door is closed.\" (Someone closed it)"
+          }
+        ]
+      },
+      {
+        "level": 2,
+        "heading": "Emphasizing Preparation",
+        "content": "",
+        "children": [
+          {
+            "level": 3,
+            "heading": "Something done in advance",
+            "content": "もう準備してある。 Mou junbi shite aru. \"It's already prepared.\" 予約してあります。 Yoyaku shite arimasu. \"It's been reserved.\" 調べてあるから大丈夫。 Shirabete aru kara daijoubu. \"It's been checked, so it's fine.\" 全部用意してある。 Zenbu youi shite aru. \"Everything is ready.\""
+          }
+        ]
+      },
+      {
+        "level": 2,
+        "heading": "Written Information",
+        "content": "",
+        "children": [
+          {
+            "level": 3,
+            "heading": "Signs, notes, labels",
+            "content": "ここに住所が書いてある。 Koko ni juusho ga kaite aru. \"The address is written here.\" 壁にポスターが貼ってある。 Kabe ni posutaa ga hatte aru. \"A poster is stuck on the wall.\" メモが残してある。 Memo ga nokoshite aru. \"A memo has been left.\" 看板に値段が書いてある。 Kanban ni nedan ga kaite aru. \"The price is written on the sign.\""
+          }
+        ]
+      },
+      {
+        "level": 2,
+        "heading": "Physical States",
+        "content": "",
+        "children": [
+          {
+            "level": 3,
+            "heading": "Objects and positions",
+            "content": "テーブルに料理が並べてある。 Teeburu ni ryouri ga narabete aru. \"Dishes are arranged on the table.\" 椅子が片付けてある。 Isu ga katadzukete aru. \"The chairs are tidied away.\" 荷物が運んである。 Nimotsu ga hakonde aru. \"The luggage has been carried.\" 鍵がかけてある。 Kagi ga kakete aru. \"It's locked.\""
+          }
+        ]
+      },
+      {
+        "level": 2,
+        "heading": "Particle Usage",
+        "content": "",
+        "children": [
+          {
+            "level": 3,
+            "heading": "が vs は with てある",
+            "content": "が - Neutral observation:\n\n窓が開けてある。 Mado ga akete aru. \"The window is open.\"\n\nは - Topic/contrast:\n\n窓は開けてあるけど、ドアは閉まっている。 Mado wa akete aru kedo, doa wa shimatte iru. \"The window is open, but the door is closed.\""
+          }
+        ]
+      },
+      {
+        "level": 2,
+        "heading": "Comparing てある and ている",
+        "content": "",
+        "children": [
+          {
+            "level": 3,
+            "heading": "てある - Intentional action with result",
+            "content": "てある - Someone did it on purpose:\n\n窓が開けてある。 Mado ga akete aru. \"The window is open.\" (Someone opened it intentionally) 電気がつけてある。 Denki ga tsukete aru. \"The light is on.\" (Someone turned it on)"
+          },
+          {
+            "level": 3,
+            "heading": "ている - Natural state or ongoing",
+            "content": "ている - Just a state or ongoing action:\n\n窓が開いている。 Mado ga aite iru. \"The window is open.\" (just a state, no emphasis on who did it) 電気がついている。 Denki ga tsuite iru. \"The light is on.\" (just a state)\n\n| Pattern | Emphasis | Example | | ------- | ------------------ | ---------- | | てある | Intentional result | 開けてある | | ている | State/ongoing | 開いている |"
+          }
+        ]
+      },
+      {
+        "level": 2,
+        "heading": "Only Transitive Verbs",
+        "content": "",
+        "children": [
+          {
+            "level": 3,
+            "heading": "Must be transitive",
+            "content": "✓ 開ける (akeru - to open, transitive) → 開けてある ✓ 書く (kaku - to write, transitive) → 書いてある ❌ 開く (aku - to open, intransitive) → 開いてある ✓ 開く → 開いている ❌ 起きる (okiru - to wake up, intransitive) → 起きてある ✓ 起きる → 起きている\n\nIntransitive verbs cannot use てある - use ている instead."
+          }
+        ]
+      },
+      {
+        "level": 2,
+        "heading": "Polite Forms",
+        "content": "Casual: 書いてある Polite: 書いてあります Negative: 書いてない / 書いてありません Past: 書いてあった / 書いてありました 名前が書いてあります。 Namae ga kaite arimasu. \"The name is written.\" 予約してありました。 Yoyaku shite arimashita. \"It had been reserved.\""
+      },
+      {
+        "level": 2,
+        "heading": "Negative Forms",
+        "content": "書いてない (kaitenai) - \"isn't written\" 書いてありません (kaite arimasen) - \"isn't written\" (polite) 何も書いてない。 Nani mo kaitenai. \"Nothing is written.\" まだ準備してありません。 Mada junbi shite arimasen. \"It's not prepared yet.\""
+      },
+      {
+        "level": 2,
+        "heading": "Past Tense",
+        "content": "",
+        "children": [
+          {
+            "level": 3,
+            "heading": "Was done",
+            "content": "昨日準備してあった。 Kinou junbi shite atta. \"It was prepared yesterday.\" メモが書いてあった。 Memo ga kaite atta. \"There was a memo written.\" 前に調べてあった。 Mae ni shirabete atta. \"It had been checked before.\""
+          }
+        ]
+      },
+      {
+        "level": 2,
+        "heading": "Common Verbs with てある",
+        "content": "書いてある (kaite aru) - \"is written\" 置いてある (oite aru) - \"is placed\" 閉めてある (shimete aru) - \"is closed\" 開けてある (akete aru) - \"is opened\" 準備してある (junbi shite aru) - \"is prepared\" 用意してある (youi shite aru) - \"is prepared/ready\" 貼ってある (hatte aru) - \"is posted/stuck\" 並べてある (narabete aru) - \"is arranged\" 隠してある (kakushite aru) - \"is hidden\" 予約してある (yoyaku shite aru) - \"is reserved\""
+      },
+      {
+        "level": 2,
+        "heading": "Expressing Purpose",
+        "content": "",
+        "children": [
+          {
+            "level": 3,
+            "heading": "Done for a reason",
+            "content": "飲み物を冷やしてある。 Nomimono wo hiyashite aru. \"The drinks are chilled.\" (prepared for drinking) 席を取ってある。 Seki wo totte aru. \"Seats are reserved.\" (prepared for sitting) 料理を作ってある。 Ryouri wo tsukutte aru. \"Food is made.\" (prepared for eating)"
+          }
+        ]
+      },
+      {
+        "level": 2,
+        "heading": "Location and Placement",
+        "content": "",
+        "children": [
+          {
+            "level": 3,
+            "heading": "Where things are",
+            "content": "冷蔵庫にケーキが入れてある。 Reizouko ni keeki ga irete aru. \"Cake is put in the refrigerator.\" 机の引き出しにしまってある。 Tsukue no hikidashi ni shimatte aru. \"It's stored in the desk drawer.\" 壁にかけてある。 Kabe ni kakete aru. \"It's hung on the wall.\""
+          }
+        ]
+      },
+      {
+        "level": 2,
+        "heading": "Common Mistakes",
+        "content": "",
+        "children": [
+          {
+            "level": 3,
+            "heading": "Mistake 1: Using with intransitive verbs",
+            "content": "❌ ドアが開いてある ✓ ドアが開いている (intransitive) ✓ ドアが開けてある (transitive)\n\nUse transitive verbs only."
+          },
+          {
+            "level": 3,
+            "heading": "Mistake 2: Confusing with ておく",
+            "content": "てある = current result state ておく = doing something in advance\n\n予約してある = \"is reserved\" (state) 予約しておく = \"reserve in advance\" (action)"
+          },
+          {
+            "level": 3,
+            "heading": "Mistake 3: Wrong particle",
+            "content": "❌ 窓を開けてある ✓ 窓が開けてある\n\nUse が (or は), not を, with てある."
+          },
+          {
+            "level": 3,
+            "heading": "Mistake 4: Using いる instead of ある",
+            "content": "❌ 書いている (when emphasizing intentional result) ✓ 書いてある\n\nてある uses ある, not いる."
+          }
+        ]
+      },
+      {
+        "level": 2,
+        "heading": "Summary",
+        "content": "Key Points:\n\nてある expresses intentional action with remaining result Formation: [Transitive verb て-form] + ある Only works with transitive verbs Uses particle が (or は), never を Emphasizes preparation or deliberate action Common with: 書く, 置く, 開ける, 閉める, 準備する Different from ている (just a state) Different from ておく (doing in advance) Essential for describing prepared states",
+        "children": [
+          {
+            "level": 3,
+            "heading": "Company",
+            "content": "About Pricing Blog Contact"
+          },
+          {
+            "level": 3,
+            "heading": "Legal",
+            "content": "Privacy Policy Terms of Service Cookie Policy"
+          }
+        ]
+      }
+    ]
+  },
+  "metadata": {
+    "extracted_at": "2026-01-01T22:19:35.389728900Z",
+    "duration_ms": 4,
+    "extractors_matched": [
+      "metadata",
+      "examples",
+      "sections"
+    ],
+    "extractors_failed": [
+      "vocab_tables",
+      "definitions",
+      "content_blocks"
+    ]
+  }
+}

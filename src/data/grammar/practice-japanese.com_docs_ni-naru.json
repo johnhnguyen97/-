@@ -1,0 +1,350 @@
+{
+  "config_name": "Language Learning Extractor",
+  "url": "https://practice-japanese.com/docs/ni-naru/",
+  "data": {
+    "examples": [
+      {
+        "sentence": "になる = become (natural change)"
+      },
+      {
+        "sentence": "にする = make/decide (causative/decision)"
+      },
+      {
+        "sentence": "になる expresses change with な-adjectives and nouns"
+      },
+      {
+        "sentence": "Formation: [な-adj/Noun] + になる"
+      },
+      {
+        "sentence": "Means \"become [something]\""
+      },
+      {
+        "sentence": "Works with: な-adjectives, professions, life stages, times, seasons"
+      },
+      {
+        "sentence": "Common with: 医者, 大人, 春, 静か, 便利, 有名"
+      },
+      {
+        "sentence": "Tenses: なる (will), なった (became), なっている (becoming)"
+      },
+      {
+        "sentence": "Want to: になりたい"
+      },
+      {
+        "sentence": "Different from くなる (for い-adjectives)"
+      },
+      {
+        "sentence": "Different from にする (causative/decision)"
+      },
+      {
+        "sentence": "Essential for describing transformations and changes"
+      },
+      {
+        "sentence": "About"
+      },
+      {
+        "sentence": "Pricing"
+      },
+      {
+        "sentence": "Blog"
+      },
+      {
+        "sentence": "Contact"
+      },
+      {
+        "sentence": "Privacy Policy"
+      },
+      {
+        "sentence": "Terms of Service"
+      },
+      {
+        "sentence": "Cookie Policy"
+      }
+    ],
+    "sections": [
+      {
+        "level": 2,
+        "heading": "What is 〜になる?",
+        "content": "〜になる (ni naru) expresses a change in state with な-adjectives and nouns, meaning \"become [something].\" It indicates transformation into a new state, condition, or identity.\n\nEnglish equivalent: \"become [noun/na-adjective]\"\n\nStructure: [な-adjective/Noun] + になる\n\n静か (shizuka - quiet) + になる = 静かになる \"become quiet\" 医者 (isha - doctor) + になる = 医者になる \"become a doctor\" 春 (haru - spring) + になる = 春になる \"become spring\" / \"spring comes\""
+      },
+      {
+        "level": 2,
+        "heading": "Basic Formation",
+        "content": "",
+        "children": [
+          {
+            "level": 3,
+            "heading": "With な-adjectives",
+            "content": "[な-adjective] + になる\n\n静かになる (shizuka ni naru) - \"become quiet\" 元気になる (genki ni naru) - \"become healthy/energetic\" 簡単になる (kantan ni naru) - \"become simple/easy\" 便利になる (benri ni naru) - \"become convenient\" 有名になる (yuumei ni naru) - \"become famous\""
+          },
+          {
+            "level": 3,
+            "heading": "With nouns",
+            "content": "[Noun] + になる\n\n医者になる (isha ni naru) - \"become a doctor\" 大人になる (otona ni naru) - \"become an adult\" 春になる (haru ni naru) - \"become spring\" 3時になる (sanji ni naru) - \"become 3 o'clock\""
+          }
+        ]
+      },
+      {
+        "level": 2,
+        "heading": "With な-adjectives",
+        "content": "",
+        "children": [
+          {
+            "level": 3,
+            "heading": "Common na-adjectives",
+            "content": "静かになる。 Shizuka ni naru. \"It becomes quiet.\" 部屋がきれいになった。 Heya ga kirei ni natta. \"The room became clean.\" 日本語が上手になりたい。 Nihongo ga jouzu ni naritai. \"I want to become good at Japanese.\" 生活が楽になった。 Seikatsu ga raku ni natta. \"Life became easier.\" 病気が元気になった ❌ (awkward) 病気が治った ✓ or 元気になった ✓ Genki ni natta. \"I got better.\" / \"I became healthy.\""
+          },
+          {
+            "level": 3,
+            "heading": "State changes",
+            "content": "賑やかになる (nigiyaka ni naru) - \"become lively\" 穏やかになる (odayaka ni naru) - \"become calm\" 不便になる (fuben ni naru) - \"become inconvenient\" 複雑になる (fukuzatsu ni naru) - \"become complicated\" この町は最近賑やかになった。 Kono machi wa saikin nigiyaka ni natta. \"This town has become lively recently.\""
+          }
+        ]
+      },
+      {
+        "level": 2,
+        "heading": "With Nouns - Professions",
+        "content": "",
+        "children": [
+          {
+            "level": 3,
+            "heading": "Occupations",
+            "content": "医者になる (isha ni naru) - \"become a doctor\" 先生になる (sensei ni naru) - \"become a teacher\" 社長になる (shachou ni naru) - \"become a president\" 看護師になる (kangoshi ni naru) - \"become a nurse\" 将来医者になりたい。 Shourai isha ni naritai. \"I want to become a doctor in the future.\" 彼は弁護士になった。 Kare wa bengoshi ni natta. \"He became a lawyer.\""
+          }
+        ]
+      },
+      {
+        "level": 2,
+        "heading": "With Nouns - Life Stages",
+        "content": "",
+        "children": [
+          {
+            "level": 3,
+            "heading": "Age and status",
+            "content": "大人になる (otona ni naru) - \"become an adult\" 大学生になる (daigakusei ni naru) - \"become a university student\" 社会人になる (shakaijin ni naru) - \"become a working adult\" 親になる (oya ni naru) - \"become a parent\" 20歳で大人になる。 Hatachi de otona ni naru. \"You become an adult at 20.\" 父親になった。 Chichioya ni natta. \"I became a father.\""
+          }
+        ]
+      },
+      {
+        "level": 2,
+        "heading": "With Time",
+        "content": "",
+        "children": [
+          {
+            "level": 3,
+            "heading": "Seasons and times",
+            "content": "春になる (haru ni naru) - \"spring comes\" / \"it becomes spring\" 夏になる (natsu ni naru) - \"summer comes\" 3時になる (sanji ni naru) - \"it becomes 3 o'clock\" 夜になる (yoru ni naru) - \"it becomes night\" 春になると暖かくなる。 Haru ni naru to atatakaku naru. \"When spring comes, it becomes warm.\" もうすぐ12時になる。 Mousugu juuniji ni naru. \"It's almost 12 o'clock.\" / \"It will soon be 12.\""
+          },
+          {
+            "level": 3,
+            "heading": "Years and ages",
+            "content": "来年になる (rainen ni naru) - \"next year comes\" 20歳になる (hatachi ni naru) - \"turn 20\" / \"become 20\" 来週で30歳になる。 Raishuu de sanjussai ni naru. \"I'll turn 30 next week.\""
+          }
+        ]
+      },
+      {
+        "level": 2,
+        "heading": "Expressing Desire",
+        "content": "",
+        "children": [
+          {
+            "level": 3,
+            "heading": "Want to become",
+            "content": "[Noun/な-adjective] + になりたい\n\n有名になりたい。 Yuumei ni naritai. \"I want to become famous.\" 医者になりたかった。 Isha ni naritakatta. \"I wanted to become a doctor.\" もっと上手になりたい。 Motto jouzu ni naritai. \"I want to become better.\""
+          }
+        ]
+      },
+      {
+        "level": 2,
+        "heading": "Tense Variations",
+        "content": "",
+        "children": [
+          {
+            "level": 3,
+            "heading": "Present/Future",
+            "content": "来年大学生になる。 Rainen daigakusei ni naru. \"I'll become a university student next year.\" 静かになります。 Shizuka ni narimasu. \"It will become quiet.\""
+          },
+          {
+            "level": 3,
+            "heading": "Past",
+            "content": "先生になった。 Sensei ni natta. \"I became a teacher.\" きれいになりました。 Kirei ni narimashita. \"It became beautiful.\""
+          },
+          {
+            "level": 3,
+            "heading": "Progressive",
+            "content": "だんだん便利になっている。 Dandan benri ni natte iru. \"It's gradually becoming convenient.\" 有名になってきた。 Yuumei ni natte kita. \"It's becoming famous.\""
+          }
+        ]
+      },
+      {
+        "level": 2,
+        "heading": "Conditional Forms",
+        "content": "",
+        "children": [
+          {
+            "level": 3,
+            "heading": "If it becomes...",
+            "content": "静かになったら教えて。 Shizuka ni nattara oshiete. \"Tell me if it becomes quiet.\" 医者になれば、人を助けられる。 Isha ni nareba, hito wo tasukerareru. \"If I become a doctor, I can help people.\""
+          }
+        ]
+      },
+      {
+        "level": 2,
+        "heading": "Negative Forms",
+        "content": "",
+        "children": [
+          {
+            "level": 3,
+            "heading": "Won't become",
+            "content": "医者にならない。 Isha ni naranai. \"I won't become a doctor.\" 簡単になりません。 Kantan ni narimasen. \"It won't become easy.\" 有名にならなかった。 Yuumei ni naranakatta. \"Didn't become famous.\""
+          }
+        ]
+      },
+      {
+        "level": 2,
+        "heading": "Describing Results",
+        "content": "",
+        "children": [
+          {
+            "level": 3,
+            "heading": "Changed state",
+            "content": "部屋がきれいになった。 Heya ga kirei ni natta. \"The room became clean.\" 町が便利になった。 Machi ga benri ni natta. \"The town became convenient.\" 問題が簡単になった。 Mondai ga kantan ni natta. \"The problem became simple.\""
+          }
+        ]
+      },
+      {
+        "level": 2,
+        "heading": "With Specific Nouns",
+        "content": "",
+        "children": [
+          {
+            "level": 3,
+            "heading": "Common transformations",
+            "content": "友達になる (tomodachi ni naru) - \"become friends\" 夫婦になる (fuufu ni naru) - \"become a married couple\" 問題になる (mondai ni naru) - \"become a problem\" 話題になる (wadai ni naru) - \"become a topic (of conversation)\" 彼と友達になった。 Kare to tomodachi ni natta. \"I became friends with him.\" それが問題になった。 Sore ga mondai ni natta. \"That became a problem.\""
+          }
+        ]
+      },
+      {
+        "level": 2,
+        "heading": "Comparing Before and After",
+        "content": "",
+        "children": [
+          {
+            "level": 3,
+            "heading": "Changes over time",
+            "content": "前より便利になった。 Mae yori benri ni natta. \"It became more convenient than before.\" もっと上手になりたい。 Motto jouzu ni naritai. \"I want to become better.\" 昔と違って、賑やかになった。 Mukashi to chigatte, nigiyaka ni natta. \"Unlike the past, it became lively.\""
+          }
+        ]
+      },
+      {
+        "level": 2,
+        "heading": "Gradual Change",
+        "content": "",
+        "children": [
+          {
+            "level": 3,
+            "heading": "Progressive transformation",
+            "content": "だんだん有名になる。 Dandan yuumei ni naru. \"Gradually become famous.\" 少しずつ上手になる。 Sukoshi zutsu jouzu ni naru. \"Get better little by little.\" 最近きれいになってきた。 Saikin kirei ni natte kita. \"It's been getting beautiful recently.\""
+          }
+        ]
+      },
+      {
+        "level": 2,
+        "heading": "Polite Forms",
+        "content": "",
+        "children": [
+          {
+            "level": 3,
+            "heading": "Formal situations",
+            "content": "Casual: 医者になる Polite: 医者になります Past polite: 医者になりました 来年社会人になります。 Rainen shakaijin ni narimasu. \"I will become a working adult next year.\" 部屋が静かになりました。 Heya ga shizuka ni narimashita. \"The room became quiet.\""
+          }
+        ]
+      },
+      {
+        "level": 2,
+        "heading": "Common Expressions",
+        "content": "",
+        "children": [
+          {
+            "level": 3,
+            "heading": "Set phrases",
+            "content": "〜ようになる (you ni naru) - \"come to (do)\" / \"become able to\" 話題になる (wadai ni naru) - \"become a topic\" 必要になる (hitsuyou ni naru) - \"become necessary\" 可能になる (kanou ni naru) - \"become possible\" 日本語が話せるようになった。 Nihongo ga hanaseru you ni natta. \"I came to be able to speak Japanese.\" それが話題になっている。 Sore ga wadai ni natte iru. \"That's becoming a topic of conversation.\""
+          }
+        ]
+      },
+      {
+        "level": 2,
+        "heading": "Comparing くなる and になる",
+        "content": "",
+        "children": [
+          {
+            "level": 3,
+            "heading": "い-adjectives vs な-adjectives/nouns",
+            "content": "くなる - Only with い-adjectives:\n\n暑くなる (atsuku naru) - \"become hot\" 大きくなる (ookiku naru) - \"become big\"\n\nになる - With な-adjectives and nouns:\n\n静かになる (shizuka ni naru) - \"become quiet\" 医者になる (isha ni naru) - \"become a doctor\"\n\n| Type | Pattern | Example | | ------ | -------- | ---------- | | い-adj | 〜くなる | 暑くなる | | な-adj | 〜になる | 静かになる | | Noun | 〜になる | 医者になる |\n\nSee: 〜くなる (Become - i-adj)"
+          }
+        ]
+      },
+      {
+        "level": 2,
+        "heading": "Common Mistakes",
+        "content": "",
+        "children": [
+          {
+            "level": 3,
+            "heading": "Mistake 1: Using くなる with な-adjectives",
+            "content": "❌ 静かくなる ✓ 静かになる\n\nUse になる, not くなる, with な-adjectives."
+          },
+          {
+            "level": 3,
+            "heading": "Mistake 2: Forgetting に",
+            "content": "❌ 医者なる ✓ 医者になる\n\nDon't forget the に particle."
+          },
+          {
+            "level": 3,
+            "heading": "Mistake 3: Using with い-adjectives",
+            "content": "❌ 暑いになる ✓ 暑くなる (use くなる)\n\nUse くなる for い-adjectives, not になる."
+          },
+          {
+            "level": 3,
+            "heading": "Mistake 4: Confusing with にする",
+            "content": "になる = become (natural change) にする = make/decide (causative/decision)\n\nThey're different patterns."
+          }
+        ]
+      },
+      {
+        "level": 2,
+        "heading": "Summary",
+        "content": "Key Points:\n\nになる expresses change with な-adjectives and nouns Formation: [な-adj/Noun] + になる Means \"become [something]\" Works with: な-adjectives, professions, life stages, times, seasons Common with: 医者, 大人, 春, 静か, 便利, 有名 Tenses: なる (will), なった (became), なっている (becoming) Want to: になりたい Different from くなる (for い-adjectives) Different from にする (causative/decision) Essential for describing transformations and changes",
+        "children": [
+          {
+            "level": 3,
+            "heading": "Company",
+            "content": "About Pricing Blog Contact"
+          },
+          {
+            "level": 3,
+            "heading": "Legal",
+            "content": "Privacy Policy Terms of Service Cookie Policy"
+          }
+        ]
+      }
+    ],
+    "metadata": {
+      "title": "〜になる (Become - na-adj/noun)"
+    }
+  },
+  "metadata": {
+    "extracted_at": "2026-01-01T22:19:32.795552700Z",
+    "duration_ms": 3,
+    "extractors_matched": [
+      "metadata",
+      "examples",
+      "sections"
+    ],
+    "extractors_failed": [
+      "vocab_tables",
+      "definitions",
+      "content_blocks"
+    ]
+  }
+}

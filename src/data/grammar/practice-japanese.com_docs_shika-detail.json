@@ -1,0 +1,345 @@
+{
+  "config_name": "Language Learning Extractor",
+  "url": "https://practice-japanese.com/docs/shika-detail/",
+  "data": {
+    "examples": [
+      {
+        "sentence": "\"only\" (with negative nuance)"
+      },
+      {
+        "sentence": "\"nothing but\""
+      },
+      {
+        "sentence": "\"no more than\""
+      },
+      {
+        "sentence": "\"merely\""
+      },
+      {
+        "sentence": "ない (nai)"
+      },
+      {
+        "sentence": "ません (masen)"
+      },
+      {
+        "sentence": "なかった (nakatta)"
+      },
+      {
+        "sentence": "ませんでした (masen deshita)"
+      },
+      {
+        "sentence": "できない (dekinai)"
+      },
+      {
+        "sentence": "いない (inai)"
+      },
+      {
+        "sentence": "しか means \"only\" with negative emphasis"
+      },
+      {
+        "sentence": "MUST be followed by negative form (ない, ません, etc.)"
+      },
+      {
+        "sentence": "Emphasizes insufficiency or lack"
+      },
+      {
+        "sentence": "Common pattern: Verb dictionary form + しかない (no choice but to...)"
+      },
+      {
+        "sentence": "Stronger negative feeling than だけ"
+      },
+      {
+        "sentence": "Replaces が and を particles"
+      },
+      {
+        "sentence": "Cannot use with positive verbs"
+      },
+      {
+        "sentence": "Expresses: limitation, regret, insufficient amounts, lack of options"
+      },
+      {
+        "sentence": "About"
+      },
+      {
+        "sentence": "Pricing"
+      },
+      {
+        "sentence": "Blog"
+      },
+      {
+        "sentence": "Contact"
+      },
+      {
+        "sentence": "Privacy Policy"
+      },
+      {
+        "sentence": "Terms of Service"
+      },
+      {
+        "sentence": "Cookie Policy"
+      }
+    ],
+    "metadata": {
+      "title": "しか (Only - negative)"
+    },
+    "sections": [
+      {
+        "level": 2,
+        "heading": "What is しか?",
+        "content": "しか (shika) is a particle meaning \"only\" or \"nothing but\" that must be followed by a negative form . It emphasizes insufficiency, limitation, or the sense that something is less than desired or expected.\n\nKey rule: しか ALWAYS requires a negative verb/adjective.\n\nEnglish equivalents:\n\n\"only\" (with negative nuance) \"nothing but\" \"no more than\" \"merely\"\n\n水しかない。 Mizu shika nai. \"There's only water.\" / \"There's nothing but water.\" 三つしか買えなかった。 Mittsu shika kaenakatta. \"I could only buy three.\" [Not enough]"
+      },
+      {
+        "level": 2,
+        "heading": "Basic Structure",
+        "content": "",
+        "children": [
+          {
+            "level": 3,
+            "heading": "Mandatory Negative Form",
+            "content": "[Noun/Number/Amount] + しか + [Negative form]\n\nAlways negative:\n\nない (nai) ません (masen) なかった (nakatta) ませんでした (masen deshita) できない (dekinai) いない (inai)\n\nお金しかない。 Okane shika nai. \"I have only money.\" [Emphasis on lack of other things] 一人しか来なかった。 Hitori shika konakatta. \"Only one person came.\" [Fewer than expected] 日本語しか話せません。 Nihongo shika hanasemasen. \"I can only speak Japanese.\" [Can't speak other languages]"
+          }
+        ]
+      },
+      {
+        "level": 2,
+        "heading": "Emphasizing Insufficiency",
+        "content": "",
+        "children": [
+          {
+            "level": 3,
+            "heading": "Not Enough",
+            "content": "しか emphasizes that the amount/number is insufficient:\n\n100円しかない。 Hyaku-en shika nai. \"I only have 100 yen.\" [Not enough money] 三時間しか寝ていない。 San-jikan shika nete inai. \"I've only slept three hours.\" [Not enough sleep] 少ししか残っていない。 Sukoshi shika nokotte inai. \"Only a little remains.\" [Not much left]"
+          },
+          {
+            "level": 3,
+            "heading": "Limited Options",
+            "content": "これしかない。 Kore shika nai. \"There's only this.\" / \"This is the only option.\" 彼しか知らない。 Kare shika shiranai. \"Only he knows.\" [Nobody else] 今しかない。 Ima shika nai. \"It's now or never.\" / \"Only now is possible.\""
+          }
+        ]
+      },
+      {
+        "level": 2,
+        "heading": "Common Patterns",
+        "content": "",
+        "children": [
+          {
+            "level": 3,
+            "heading": "しかない (No choice but/Only option)",
+            "content": "Expresses having no alternative:\n\n行くしかない。 Iku shika nai. \"I have no choice but to go.\" / \"I can only go.\" 頑張るしかない。 Ganbaru shika nai. \"I have no choice but to try my best.\" やるしかない。 Yaru shika nai. \"I have to do it.\" / \"There's nothing but to do it.\" 諦めるしかない。 Akirameru shika nai. \"I have no choice but to give up.\""
+          },
+          {
+            "level": 3,
+            "heading": "しか + できない (Can only)",
+            "content": "見ることしかできない。 Miru koto shika dekinai. \"I can only watch.\" [Can't do anything else] 待つことしかできない。 Matsu koto shika dekinai. \"All I can do is wait.\" 祈ることしかできない。 Inoru koto shika dekinai. \"All I can do is pray.\""
+          },
+          {
+            "level": 3,
+            "heading": "しか + いない (Only... exists/remains)",
+            "content": "一人しかいない。 Hitori shika inai. \"There's only one person.\" 彼女しかいない。 Kanojo shika inai. \"There's only her.\" / \"She's the only one.\" ここしかいられない。 Koko shika irarenai. \"I can only be here.\" / \"This is the only place I can be.\""
+          }
+        ]
+      },
+      {
+        "level": 2,
+        "heading": "With Quantities and Numbers",
+        "content": "",
+        "children": [
+          {
+            "level": 3,
+            "heading": "Emphasizing small amounts",
+            "content": "一つしか買えない。 Hitotsu shika kaenai. \"I can only buy one.\" 二人しか来なかった。 Futari shika konakatta. \"Only two people came.\" 10分しかない。 Juppun shika nai. \"There are only 10 minutes.\" 少ししか食べなかった。 Sukoshi shika tabenakatta. \"I ate only a little.\""
+          }
+        ]
+      },
+      {
+        "level": 2,
+        "heading": "Negative Past Forms",
+        "content": "",
+        "children": [
+          {
+            "level": 3,
+            "heading": "With ない → なかった",
+            "content": "水しかなかった。 Mizu shika nakatta. \"There was only water.\" 一度しか行かなかった。 Ichido shika ikanakatta. \"I only went once.\" 五つしか売れなかった。 Itsutsu shika urenakatta. \"Only five sold.\""
+          },
+          {
+            "level": 3,
+            "heading": "With できない → できなかった",
+            "content": "日本語しか話せなかった。 Nihongo shika hanasenakatta. \"I could only speak Japanese.\" 一人しか助けられなかった。 Hitori shika tasukerarenakatta. \"I could only help one person.\""
+          }
+        ]
+      },
+      {
+        "level": 2,
+        "heading": "Comparison: しか vs だけ",
+        "content": "",
+        "children": [
+          {
+            "level": 3,
+            "heading": "しか - Negative emphasis (insufficient)",
+            "content": "Must use negative:\n\n水しかない。 Mizu shika nai. \"There's only water.\" [Emphasis on lack - want more options] 100円しかない。 Hyaku-en shika nai. \"I only have 100 yen.\" [Not enough]"
+          },
+          {
+            "level": 3,
+            "heading": "だけ - Neutral limitation",
+            "content": "Neutral statement:\n\n水だけある。 Mizu dake aru. \"There's only water.\" [Neutral fact] 100円だけある。 Hyaku-en dake aru. \"I have only 100 yen.\" [Neutral]"
+          },
+          {
+            "level": 3,
+            "heading": "Key Differences",
+            "content": "| Aspect | しか | だけ | | --------- | ---------------------- | ---------------------- | | Verb form | Must be negative | Any form | | Nuance | Insufficient/regretful | Neutral | | Emphasis | What's lacking | What's limited | | Feeling | Disappointment | Neutral/matter-of-fact |\n\nExamples: 彼だけ来た。 Kare dake kita. \"Only he came.\" [Neutral - he came] 彼しか来なかった。 Kare shika konakatta. \"Only he came.\" [Others didn't come - disappointing]"
+          }
+        ]
+      },
+      {
+        "level": 2,
+        "heading": "With Different Verb Types",
+        "content": "",
+        "children": [
+          {
+            "level": 3,
+            "heading": "Potential verbs (できる)",
+            "content": "これしかできない。 Kore shika dekinai. \"I can only do this.\" 英語しか読めない。 Eigo shika yomenai. \"I can only read English.\""
+          },
+          {
+            "level": 3,
+            "heading": "Existence verbs (いる/ある)",
+            "content": "ここしかない。 Koko shika nai. \"There's only here.\" / \"This is the only place.\" 猫しかいない。 Neko shika inai. \"There are only cats.\""
+          },
+          {
+            "level": 3,
+            "heading": "Action verbs",
+            "content": "食べることしかしない。 Taberu koto shika shinai. \"All I do is eat.\" / \"I only eat.\" 勉強することしかできない。 Benkyou suru koto shika dekinai. \"All I can do is study.\""
+          }
+        ]
+      },
+      {
+        "level": 2,
+        "heading": "Expressing Regret or Disappointment",
+        "content": "もう遅いしかない。 Mou osoi shika nai. \"It's already too late.\" [Only this situation remains] 失敗したとしか言えない。 Shippai shita to shika ienai. \"I can only say that I failed.\" 残念だとしか思えない。 Zannen da to shika omoenai. \"I can only think it's regrettable.\""
+      },
+      {
+        "level": 2,
+        "heading": "Formal Contexts",
+        "content": "",
+        "children": [
+          {
+            "level": 3,
+            "heading": "Polite forms",
+            "content": "これしかございません。 Kore shika gozaimasen. \"We only have this.\" [Very polite] 日本語しか話せません。 Nihongo shika hanasemasen. \"I can only speak Japanese.\" [Polite] 少ししか残っておりません。 Sukoshi shika nokotte orimasen. \"Only a little remains.\" [Formal/polite]"
+          }
+        ]
+      },
+      {
+        "level": 2,
+        "heading": "Double Negatives",
+        "content": "",
+        "children": [
+          {
+            "level": 3,
+            "heading": "しか with negative + ない",
+            "content": "Creates double negative = positive emphasis:\n\n行くしかない。 Iku shika nai. Literally: \"There's nothing but to go\" Meaning: \"I must go\" / \"I have no choice but to go\" やるしかない。 Yaru shika nai. \"I have to do it.\""
+          }
+        ]
+      },
+      {
+        "level": 2,
+        "heading": "Time Expressions",
+        "content": "今しかない。 Ima shika nai. \"It's now or never.\" / \"Only now.\" 一日しかない。 Ichinichi shika nai. \"There's only one day.\" 三時間しか寝ていない。 San-jikan shika nete inai. \"I've only slept three hours.\" 少しの間しかない。 Sukoshi no aida shika nai. \"There's only a short time.\""
+      },
+      {
+        "level": 2,
+        "heading": "Particle Combinations",
+        "content": "",
+        "children": [
+          {
+            "level": 3,
+            "heading": "しか with other particles",
+            "content": "しか typically replaces が and を:\n\n彼が → 彼しか 水を → 水しか But can combine with に, で, へ: 日本にしか行けない。 Nihon ni shika ikenai. \"I can only go to Japan.\" ここでしか買えない。 Koko de shika kaenai. \"You can only buy it here.\""
+          }
+        ]
+      },
+      {
+        "level": 2,
+        "heading": "Common Expressions",
+        "content": "",
+        "children": [
+          {
+            "level": 3,
+            "heading": "Set phrases with しか",
+            "content": "仕方がない → しかたがない / 仕方がない \"It can't be helped\" / \"There's no other way\" 他にない → 他にしかない \"There's no other choice\" ～としか言えない \"Can only say that...\""
+          }
+        ]
+      },
+      {
+        "level": 2,
+        "heading": "Negative Context Emphasis",
+        "content": "",
+        "children": [
+          {
+            "level": 3,
+            "heading": "Adding to negative situations",
+            "content": "悪くなるしかない。 Waruku naru shika nai. \"It can only get worse.\" 減るしかない。 Heru shika nai. \"It can only decrease.\" 失敗するしかない。 Shippai suru shika nai. \"It can only fail.\""
+          }
+        ]
+      },
+      {
+        "level": 2,
+        "heading": "Common Mistakes",
+        "content": "",
+        "children": [
+          {
+            "level": 3,
+            "heading": "Mistake 1: Using Positive Form",
+            "content": "❌ 水しかある ✓ 水しかない\n\nしか MUST use negative form."
+          },
+          {
+            "level": 3,
+            "heading": "Mistake 2: Confusing with だけ",
+            "content": "❌ 彼しか来た (positive verb) ✓ 彼しか来なかった (negative verb) ✓ 彼だけ来た (use だけ for positive)\n\nRemember: しか = negative, だけ = any form."
+          },
+          {
+            "level": 3,
+            "heading": "Mistake 3: Double Positive",
+            "content": "❌ 行くしかある ✓ 行くしかない\n\nEven with \"must\" meaning, use negative."
+          },
+          {
+            "level": 3,
+            "heading": "Mistake 4: Wrong Particle Choice",
+            "content": "Consider the nuance you want:\n\nNeutral: 水だけ飲んだ (I only drank water - neutral) Insufficient: 水しか飲めなかった (I could only drink water - wanted more)"
+          }
+        ]
+      },
+      {
+        "level": 2,
+        "heading": "Summary",
+        "content": "Key Points:\n\nしか means \"only\" with negative emphasis MUST be followed by negative form (ない, ません, etc.) Emphasizes insufficiency or lack Common pattern: Verb dictionary form + しかない (no choice but to...) Stronger negative feeling than だけ Replaces が and を particles Cannot use with positive verbs Expresses: limitation, regret, insufficient amounts, lack of options",
+        "children": [
+          {
+            "level": 3,
+            "heading": "Company",
+            "content": "About Pricing Blog Contact"
+          },
+          {
+            "level": 3,
+            "heading": "Legal",
+            "content": "Privacy Policy Terms of Service Cookie Policy"
+          }
+        ]
+      }
+    ]
+  },
+  "metadata": {
+    "extracted_at": "2026-01-01T22:19:35.178666900Z",
+    "duration_ms": 3,
+    "extractors_matched": [
+      "metadata",
+      "examples",
+      "sections"
+    ],
+    "extractors_failed": [
+      "vocab_tables",
+      "definitions",
+      "content_blocks"
+    ]
+  }
+}
