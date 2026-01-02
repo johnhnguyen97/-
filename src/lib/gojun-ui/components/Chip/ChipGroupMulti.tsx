@@ -3,7 +3,6 @@
  * Multi-select chip group with controlled value array
  */
 
-import React from 'react';
 import { cn } from '../../utils/cn';
 import { Chip } from './Chip';
 import type { Size, Intent } from '../../types';
