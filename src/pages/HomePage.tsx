@@ -8,6 +8,8 @@ import { KanaChart } from '../components/KanaChart';
 import { NotesPanel } from '../components/NotesPanel';
 import { TodoWidget } from '../components/TodoWidget';
 import { TimerWidget } from '../components/TimerWidget';
+import { FavoriteButton } from '../components/FavoriteButton';
+import { WordNoteButton } from '../components/WordNoteButton';
 import { getDailyData } from '../services/calendarApi';
 import { getUserStats } from '../services/userStatsApi';
 
@@ -204,6 +206,15 @@ export function HomePage() {
   } | null>(null);
   const [wordLoading, setWordLoading] = useState(true);
 
+  // Dynamic Kanji of the Day from Calendar API
+  const [kanjiOfTheDay, setKanjiOfTheDay] = useState<{
+    kanji: string;
+    meaning: string;
+    onyomi: string[];
+    kunyomi: string[];
+    strokeCount?: number;
+  } | null>(null);
+
   // Dynamic weekly progress from user stats
   const [activeDays, setActiveDays] = useState<string[]>([]);
 
@@ -263,6 +274,17 @@ export function HomePage() {
           english: fallbackWordOfTheDay.english,
           type: fallbackWordOfTheDay.type,
           example: fallbackWordOfTheDay.example,
+        });
+      }
+
+      // Set Kanji of the Day from Calendar API
+      if (dailyData?.kanjiOfTheDay) {
+        setKanjiOfTheDay({
+          kanji: dailyData.kanjiOfTheDay.kanji,
+          meaning: dailyData.kanjiOfTheDay.meaning,
+          onyomi: dailyData.kanjiOfTheDay.onyomi || [],
+          kunyomi: dailyData.kanjiOfTheDay.kunyomi || [],
+          strokeCount: dailyData.kanjiOfTheDay.strokeCount,
         });
       }
 
@@ -571,7 +593,25 @@ export function HomePage() {
           {/* Right Column - Word of Day, Tips, Quick Links */}
           <div className="lg:col-span-4 order-3 lg:order-3 space-y-4">
             {/* Word of the Day - Compact */}
-            <div className={`${theme.card} border rounded-2xl overflow-hidden`}>
+            <div className={`${theme.card} border rounded-2xl overflow-hidden relative`}>
+              {/* Favorite/Note buttons */}
+              {wordOfTheDay && (
+                <div className="absolute top-3 right-3 flex gap-1 z-10">
+                  <FavoriteButton
+                    word={wordOfTheDay.japanese}
+                    reading={wordOfTheDay.reading}
+                    english={wordOfTheDay.english}
+                    partOfSpeech={wordOfTheDay.type.toLowerCase() as 'noun' | 'verb' | 'adjective' | 'adverb' | 'particle' | 'expression'}
+                    isFavorited={false}
+                  />
+                  <WordNoteButton
+                    word={wordOfTheDay.japanese}
+                    reading={wordOfTheDay.reading}
+                    english={wordOfTheDay.english}
+                  />
+                </div>
+              )}
+
               <div className={`${isDark ? 'bg-gradient-to-r from-pink-600/20 to-purple-600/20' : 'bg-gradient-to-r from-pink-100 to-purple-100'} px-4 py-3`}>
                 <div className="flex items-center justify-between">
                   <div className="flex items-center gap-2">
@@ -579,7 +619,7 @@ export function HomePage() {
                     <h3 className="font-semibold text-sm">Word of the Day</h3>
                   </div>
                   {wordOfTheDay && (
-                    <span className={`text-xs px-2 py-0.5 rounded-full ${isDark ? 'bg-white/10' : 'bg-white/60'} ${theme.textMuted}`}>
+                    <span className={`text-xs px-2 py-0.5 rounded-full ${isDark ? 'bg-white/10' : 'bg-white/60'} ${theme.textMuted} mr-16`}>
                       {wordOfTheDay.type}
                     </span>
                   )}
@@ -614,20 +654,94 @@ export function HomePage() {
                       </p>
                     </div>
 
-                    <div className="flex gap-2">
-                      <button className={`flex-1 py-2 ${isDark ? 'bg-white/5 hover:bg-white/10 border-white/10' : 'bg-slate-50 hover:bg-slate-100 border-slate-200'} border rounded-lg text-xs font-medium transition-all`}>
-                        ⭐ Save
-                      </button>
-                      <Link to="/calendar" className="flex-1 py-2 bg-gradient-to-r from-pink-500 to-purple-500 text-white rounded-lg text-xs font-medium text-center hover:shadow-lg transition-all">
-                        Calendar →
-                      </Link>
-                    </div>
+                    <Link to="/calendar" className="block w-full py-2 bg-gradient-to-r from-pink-500 to-purple-500 text-white rounded-lg text-xs font-medium text-center hover:shadow-lg transition-all">
+                      Calendar →
+                    </Link>
                   </>
                 ) : (
                   <p className={`text-center py-4 text-sm ${theme.textMuted}`}>Sign in to see your Word of the Day</p>
                 )}
               </div>
             </div>
+
+            {/* Kanji of the Day - Compact */}
+            {kanjiOfTheDay && (
+              <div className={`${theme.card} border rounded-2xl overflow-hidden relative`}>
+                {/* Favorite/Note buttons */}
+                <div className="absolute top-3 right-3 flex gap-1 z-10">
+                  <FavoriteButton
+                    word={kanjiOfTheDay.kanji}
+                    reading={kanjiOfTheDay.onyomi?.[0] || kanjiOfTheDay.kunyomi?.[0] || ''}
+                    english={kanjiOfTheDay.meaning}
+                    partOfSpeech="kanji"
+                    isFavorited={false}
+                  />
+                  <WordNoteButton
+                    word={kanjiOfTheDay.kanji}
+                    reading={kanjiOfTheDay.onyomi?.[0] || kanjiOfTheDay.kunyomi?.[0] || ''}
+                    english={kanjiOfTheDay.meaning}
+                  />
+                </div>
+
+                <div className={`${isDark ? 'bg-gradient-to-r from-indigo-600/20 to-purple-600/20' : 'bg-gradient-to-r from-indigo-100 to-purple-100'} px-4 py-3`}>
+                  <div className="flex items-center justify-between">
+                    <div className="flex items-center gap-2">
+                      <span className={isDark ? 'text-indigo-400' : 'text-indigo-500'}>漢</span>
+                      <h3 className="font-semibold text-sm">Kanji of the Day</h3>
+                    </div>
+                    {kanjiOfTheDay.strokeCount && (
+                      <span className={`text-xs px-2 py-0.5 rounded-full ${isDark ? 'bg-white/10' : 'bg-white/60'} ${theme.textMuted} mr-16`}>
+                        {kanjiOfTheDay.strokeCount} strokes
+                      </span>
+                    )}
+                  </div>
+                </div>
+
+                <div className="p-4">
+                  <div className="text-center mb-3">
+                    <div className="flex items-center justify-center gap-2 mb-1">
+                      <span className="text-5xl font-bold">{kanjiOfTheDay.kanji}</span>
+                      <button
+                        onClick={() => handleSpeak(kanjiOfTheDay.kanji)}
+                        disabled={speaking}
+                        className={`w-10 h-10 rounded-lg flex items-center justify-center transition-all text-lg ${
+                          speaking
+                            ? 'bg-indigo-500 text-white scale-110'
+                            : isDark ? 'bg-white/10 hover:bg-white/20' : 'bg-slate-100 hover:bg-slate-200'
+                        }`}
+                      >
+                        🔊
+                      </button>
+                    </div>
+                    <p className={`text-base font-medium ${isDark ? 'text-indigo-400' : 'text-indigo-600'}`}>{kanjiOfTheDay.meaning}</p>
+                  </div>
+
+                  {/* Readings */}
+                  <div className="grid grid-cols-2 gap-2 mb-3">
+                    {kanjiOfTheDay.onyomi.length > 0 && (
+                      <div className={`${isDark ? 'bg-white/5' : 'bg-slate-50'} rounded-lg p-2 text-center`}>
+                        <p className={`text-xs ${theme.textSubtle} mb-0.5`}>On'yomi</p>
+                        <p className={`text-sm font-medium ${isDark ? 'text-purple-400' : 'text-purple-600'}`}>
+                          {kanjiOfTheDay.onyomi.slice(0, 2).join(', ')}
+                        </p>
+                      </div>
+                    )}
+                    {kanjiOfTheDay.kunyomi.length > 0 && (
+                      <div className={`${isDark ? 'bg-white/5' : 'bg-slate-50'} rounded-lg p-2 text-center`}>
+                        <p className={`text-xs ${theme.textSubtle} mb-0.5`}>Kun'yomi</p>
+                        <p className={`text-sm font-medium ${isDark ? 'text-blue-400' : 'text-blue-600'}`}>
+                          {kanjiOfTheDay.kunyomi.slice(0, 2).join(', ')}
+                        </p>
+                      </div>
+                    )}
+                  </div>
+
+                  <Link to="/calendar" className="block w-full py-2 bg-gradient-to-r from-indigo-500 to-purple-500 text-white rounded-lg text-xs font-medium text-center hover:shadow-lg transition-all">
+                    More Kanji →
+                  </Link>
+                </div>
+              </div>
+            )}
 
             {/* Study Tip - Compact */}
             <div className={`${theme.card} border rounded-2xl p-4`}>

@@ -18,6 +18,54 @@ import { DrillProgress } from '../components/PatternDrill/DrillProgress';
 import { DrillSettingsPanel } from '../components/PatternDrill/DrillSettings';
 import { GrammarSidebar } from '../components/PatternDrill/GrammarSidebar';
 
+// Fun Japanese loading phrases for drill practice
+const LOADING_PHRASES = [
+  { japanese: '頑張って！', romaji: 'Ganbatte!', english: 'Do your best!' },
+  { japanese: '練習開始！', romaji: 'Renshū kaishi!', english: 'Practice begins!' },
+  { japanese: '準備中...', romaji: 'Junbi-chū...', english: 'Preparing...' },
+  { japanese: '動詞の時間', romaji: 'Dōshi no jikan', english: 'Verb time!' },
+  { japanese: 'もうすぐ！', romaji: 'Mō sugu!', english: 'Almost there!' },
+  { japanese: '活用しよう', romaji: 'Katsuyō shiyō', english: "Let's conjugate!" },
+  { japanese: '一緒に勉強しよう', romaji: 'Issho ni benkyō shiyō', english: "Let's study together!" },
+  { japanese: 'わくわく', romaji: 'Waku waku', english: 'Excited!' },
+];
+
+// Loading Screen Component
+function LoadingScreen({ phrase, isDark = false }: { phrase: typeof LOADING_PHRASES[0]; isDark?: boolean }) {
+  return (
+    <div className="flex flex-col items-center justify-center py-16">
+      <div className="relative mb-8">
+        {/* Animated rings */}
+        <div className={`absolute inset-0 w-24 h-24 rounded-full border-4 animate-ping opacity-20 ${
+          isDark ? 'border-violet-400' : 'border-violet-200'
+        }`}></div>
+        <div className={`absolute inset-2 w-20 h-20 rounded-full border-4 animate-ping opacity-30 ${
+          isDark ? 'border-violet-500' : 'border-violet-300'
+        }`} style={{ animationDelay: '0.2s' }}></div>
+        <div className="relative w-24 h-24 rounded-full bg-gradient-to-br from-violet-500 to-purple-600 flex items-center justify-center shadow-xl">
+          <span className="text-4xl animate-bounce">🔄</span>
+        </div>
+      </div>
+
+      <div className="text-center">
+        <p className={`text-3xl font-bold mb-2 ${isDark ? 'text-white' : 'text-gray-800'}`}>{phrase.japanese}</p>
+        <p className={`text-sm italic mb-1 ${isDark ? 'text-gray-400' : 'text-gray-500'}`}>{phrase.romaji}</p>
+        <p className={isDark ? 'text-gray-300' : 'text-gray-600'}>{phrase.english}</p>
+      </div>
+
+      <div className="mt-8 flex gap-1">
+        {[0, 1, 2].map(i => (
+          <div
+            key={i}
+            className="w-3 h-3 rounded-full bg-violet-500 animate-bounce"
+            style={{ animationDelay: `${i * 0.15}s` }}
+          />
+        ))}
+      </div>
+    </div>
+  );
+}
+
 type GameStatus = 'settings' | 'loading' | 'playing' | 'answered' | 'complete';
 
 export function PatternDrillPage() {
@@ -70,6 +118,9 @@ export function PatternDrillPage() {
   // Results tracking for API update
   const [sessionResults, setSessionResults] = useState<Array<{ category: string; correct: boolean }>>([]);
 
+  // Loading phrase
+  const [loadingPhrase, setLoadingPhrase] = useState(LOADING_PHRASES[0]);
+
   // Theme classes
   const theme = {
     card: isDark ? 'bg-white/5 border-white/10' : 'bg-white/80 border-gray-100',
@@ -83,6 +134,13 @@ export function PatternDrillPage() {
   useEffect(() => {
     requestAnimationFrame(() => setIsVisible(true));
   }, []);
+
+  // Pick random phrase when loading starts
+  useEffect(() => {
+    if (status === 'loading') {
+      setLoadingPhrase(LOADING_PHRASES[Math.floor(Math.random() * LOADING_PHRASES.length)]);
+    }
+  }, [status]);
 
   // Start a new drill session
   const startSession = useCallback(async () => {
@@ -326,13 +384,7 @@ export function PatternDrillPage() {
 
             {/* Loading */}
             {status === 'loading' && (
-              <div className="flex flex-col items-center justify-center py-12">
-                <div className="relative w-16 h-16 mb-4">
-                  <div className={`absolute inset-0 rounded-full border-4 ${isDark ? 'border-purple-900' : 'border-purple-200'}`}></div>
-                  <div className="absolute inset-0 rounded-full border-4 border-purple-500 border-t-transparent animate-spin"></div>
-                </div>
-                <p className={`font-medium ${theme.textMuted}`}>Loading drill...</p>
-              </div>
+              <LoadingScreen phrase={loadingPhrase} isDark={isDark} />
             )}
 
             {/* Playing / Answered states */}

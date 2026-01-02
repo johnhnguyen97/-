@@ -1,7 +1,9 @@
-import React from 'react';
+import React, { useState } from 'react';
 import { useSpeechSynthesis } from '../../hooks/useSpeechSynthesis';
 import { useTheme } from '../../contexts/ThemeContext';
 import { Furigana } from '../common/Furigana';
+import { FavoriteButton } from '../FavoriteButton';
+import { WordNoteButton } from '../WordNoteButton';
 import { VERB_GROUP_NAMES, getVerbGroupDisplayName } from '../../types/drill';
 import type { DrillSentence, DrillPrompt, ExampleSentence, DrillPracticeMode } from '../../types/drill';
 
@@ -24,6 +26,7 @@ export const DrillQuestionDisplay: React.FC<DrillQuestionDisplayProps> = ({
 }) => {
   const { isDark } = useTheme();
   const { speak, speaking } = useSpeechSynthesis();
+  const [_notePopupOpen, setNotePopupOpen] = useState(false);
 
   const handleSpeak = (text: string) => {
     speak(text);
@@ -101,7 +104,24 @@ export const DrillQuestionDisplay: React.FC<DrillQuestionDisplayProps> = ({
 
       {/* Dictionary Form Info Card - NEW */}
       {sentence.word_type === 'verb' && sentence.verb_group && (
-        <div className={`inline-flex items-center gap-3 px-4 py-2 rounded-xl border ${theme.card}`}>
+        <div className={`relative inline-flex items-center gap-3 px-4 py-2 rounded-xl border ${theme.card}`}>
+          {/* Favorite & Note buttons */}
+          <div className="absolute -top-1 -right-1 flex gap-0.5 z-20">
+            <FavoriteButton
+              word={sentence.dictionary_form || sentence.japanese_base}
+              reading={sentence.reading || ''}
+              english={sentence.english}
+              partOfSpeech={sentence.word_type === 'verb' ? 'verb' : 'adjective'}
+              isFavorited={false}
+            />
+            <WordNoteButton
+              word={sentence.dictionary_form || sentence.japanese_base}
+              reading={sentence.reading || ''}
+              english={sentence.english}
+              onPopupChange={setNotePopupOpen}
+            />
+          </div>
+
           <div className="text-left">
             <div className={`text-xs uppercase tracking-wide font-medium ${isDark ? 'text-indigo-400' : 'text-indigo-600'}`}>
               Dictionary Form
@@ -186,23 +206,44 @@ export const DrillQuestionDisplay: React.FC<DrillQuestionDisplayProps> = ({
       ) : (
         <div className="space-y-2">
           {/* Single word mode */}
-          <div className="flex items-center justify-center gap-3">
-            {showFurigana && sentence.reading ? (
-              <Furigana
-                text={sentence.japanese_base}
-                reading={sentence.reading}
-                showFurigana={showFurigana}
-                romaji={sentence.romaji}
-                showRomaji={showRomaji}
-                textClassName={`text-4xl font-bold ${theme.text}`}
-                furiganaClassName={`text-[0.5em] ${theme.textMuted}`}
-              />
-            ) : (
-              <span className={`text-4xl font-bold ${theme.text}`}>
-                {sentence.japanese_base}
-              </span>
+          <div className="relative inline-block">
+            {/* Favorite & Note buttons for non-verb words or words without verb_group */}
+            {(!sentence.verb_group) && (
+              <div className="absolute -top-1 -right-1 flex gap-0.5 z-20">
+                <FavoriteButton
+                  word={sentence.dictionary_form || sentence.japanese_base}
+                  reading={sentence.reading || ''}
+                  english={sentence.english}
+                  partOfSpeech={sentence.word_type === 'verb' ? 'verb' : sentence.adjective_type || 'adjective'}
+                  isFavorited={false}
+                />
+                <WordNoteButton
+                  word={sentence.dictionary_form || sentence.japanese_base}
+                  reading={sentence.reading || ''}
+                  english={sentence.english}
+                  onPopupChange={setNotePopupOpen}
+                />
+              </div>
             )}
-            <AudioButton text={sentence.japanese_base} size="lg" />
+
+            <div className="flex items-center justify-center gap-3">
+              {showFurigana && sentence.reading ? (
+                <Furigana
+                  text={sentence.japanese_base}
+                  reading={sentence.reading}
+                  showFurigana={showFurigana}
+                  romaji={sentence.romaji}
+                  showRomaji={showRomaji}
+                  textClassName={`text-4xl font-bold ${theme.text}`}
+                  furiganaClassName={`text-[0.5em] ${theme.textMuted}`}
+                />
+              ) : (
+                <span className={`text-4xl font-bold ${theme.text}`}>
+                  {sentence.japanese_base}
+                </span>
+              )}
+              <AudioButton text={sentence.japanese_base} size="lg" />
+            </div>
           </div>
 
           {/* Romaji (shown separately if no furigana) */}

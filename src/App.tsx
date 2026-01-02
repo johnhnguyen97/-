@@ -7,6 +7,7 @@ import { SentenceDisplay } from './components/SentenceDisplay';
 import { GrammarSidebar } from './components/GrammarSidebar';
 import { ToolboxButton } from './components/ToolboxButton';
 import { Logo } from './components/Logo';
+import { Button, IconButton } from './lib/gojun-ui';
 import { parseEnglishSentence, describeSentenceStructure } from './services/englishParser';
 import { translateSentence } from './services/japaneseApi';
 import { handleKeepCallback } from './services/keepApi';
@@ -378,18 +379,19 @@ function AppContent({ embedded = false, isDark = false }: AppContentProps) {
 
               {/* Only show settings button when not embedded */}
               {!embedded && (
-                <button
+                <IconButton
                   onClick={() => setShowSettings(true)}
-                  className={`absolute right-0 top-0 p-2 transition-colors rounded-full ${
-                    isDark ? 'text-gray-400 hover:text-gray-200 hover:bg-gray-700/50' : 'text-gray-500 hover:text-gray-700 hover:bg-white/50'
-                  }`}
-                  title="Settings"
-                >
-                  <svg className="w-6 h-6" fill="none" stroke="currentColor" viewBox="0 0 24 24">
-                    <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M10.325 4.317c.426-1.756 2.924-1.756 3.35 0a1.724 1.724 0 002.573 1.066c1.543-.94 3.31.826 2.37 2.37a1.724 1.724 0 001.065 2.572c1.756.426 1.756 2.924 0 3.35a1.724 1.724 0 00-1.066 2.573c.94 1.543-.826 3.31-2.37 2.37a1.724 1.724 0 00-2.572 1.065c-.426 1.756-2.924 1.756-3.35 0a1.724 1.724 0 00-2.573-1.066c-1.543.94-3.31-.826-2.37-2.37a1.724 1.724 0 00-1.065-2.572c-1.756-.426-1.756-2.924 0-3.35a1.724 1.724 0 001.066-2.573c-.94-1.543.826-3.31 2.37-2.37.996.608 2.296.07 2.572-1.065z" />
-                    <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M15 12a3 3 0 11-6 0 3 3 0 016 0z" />
-                  </svg>
-                </button>
+                  className="absolute right-0 top-0"
+                  variant="ghost"
+                  size="md"
+                  aria-label="Settings"
+                  icon={
+                    <svg className="w-5 h-5" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                      <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M10.325 4.317c.426-1.756 2.924-1.756 3.35 0a1.724 1.724 0 002.573 1.066c1.543-.94 3.31.826 2.37 2.37a1.724 1.724 0 001.065 2.572c1.756.426 1.756 2.924 0 3.35a1.724 1.724 0 00-1.066 2.573c.94 1.543-.826 3.31-2.37 2.37a1.724 1.724 0 00-2.572 1.065c-.426 1.756-2.924 1.756-3.35 0a1.724 1.724 0 00-2.573-1.066c-1.543.94-3.31-.826-2.37-2.37a1.724 1.724 0 00-1.065-2.572c-1.756-.426-1.756-2.924 0-3.35a1.724 1.724 0 001.066-2.573c-.94-1.543.826-3.31 2.37-2.37.996.608 2.296.07 2.572-1.065z" />
+                      <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M15 12a3 3 0 11-6 0 3 3 0 016 0z" />
+                    </svg>
+                  }
+                />
               )}
 
 
@@ -460,22 +462,22 @@ function AppContent({ embedded = false, isDark = false }: AppContentProps) {
                       </div>
                     </div>
                     <div className="flex gap-2">
-                      <button
+                      <Button
                         onClick={handleResetAll}
-                        className={`px-3 py-1.5 text-sm rounded-lg transition-colors ${
-                          isDark ? 'text-gray-300 bg-gray-700 hover:bg-gray-600' : 'text-gray-600 bg-gray-100 hover:bg-gray-200'
-                        }`}
+                        variant="ghost"
+                        size="sm"
                       >
                         Reset All
-                      </button>
-                      <button
+                      </Button>
+                      <Button
                         onClick={() => setSidebarOpen(!sidebarOpen)}
-                        className={`px-3 py-1.5 text-sm rounded-lg hidden lg:block transition-colors ${
-                          isDark ? 'text-amber-400 bg-amber-900/30 hover:bg-amber-900/50' : 'text-amber-600 bg-amber-50 hover:bg-amber-100'
-                        }`}
+                        variant="ghost"
+                        intent="primary"
+                        size="sm"
+                        className="hidden lg:flex"
                       >
                         {sidebarOpen ? 'Hide Notes' : 'Show Notes'}
-                      </button>
+                      </Button>
                     </div>
                   </div>
                 )}
@@ -520,51 +522,56 @@ function AppContent({ embedded = false, isDark = false }: AppContentProps) {
                           <div className={`mt-6 p-4 rounded-xl flex flex-wrap justify-center gap-3 ${
                             isDark ? 'bg-gray-800/60' : 'bg-white/60'
                           }`}>
-                            <button
+                            <Button
                               onClick={(e) => { e.stopPropagation(); handleNewSentence(); }}
-                              className={`px-5 py-2.5 border rounded-xl transition-all hover:shadow-md font-medium flex items-center gap-2 ${
-                                isDark ? 'text-gray-300 bg-gray-700 border-gray-600 hover:bg-gray-600' : 'text-gray-600 bg-white border-gray-300 hover:bg-gray-50'
-                              }`}
+                              variant="outline"
+                              leftIcon={
+                                <svg className="w-4 h-4" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                                  <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M10 19l-7-7m0 0l7-7m-7 7h18" />
+                                </svg>
+                              }
                             >
-                              <svg className="w-4 h-4" fill="none" stroke="currentColor" viewBox="0 0 24 24">
-                                <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M10 19l-7-7m0 0l7-7m-7 7h18" />
-                              </svg>
                               New Sentence
-                            </button>
-                            <button
+                            </Button>
+                            <Button
                               onClick={(e) => { e.stopPropagation(); handleReset(index); }}
-                              className={`px-5 py-2.5 border rounded-xl transition-all hover:shadow-md font-medium flex items-center gap-2 ${
-                                isDark ? 'text-amber-400 bg-amber-900/30 border-amber-800 hover:bg-amber-900/50' : 'text-amber-600 bg-amber-50 border-amber-200 hover:bg-amber-100'
-                              }`}
+                              variant="outline"
+                              intent="primary"
+                              leftIcon={
+                                <svg className="w-4 h-4" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                                  <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M4 4v5h.582m15.356 2A8.001 8.001 0 004.582 9m0 0H9m11 11v-5h-.581m0 0a8.003 8.003 0 01-15.357-2m15.357 2H15" />
+                                </svg>
+                              }
                             >
-                              <svg className="w-4 h-4" fill="none" stroke="currentColor" viewBox="0 0 24 24">
-                                <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M4 4v5h.582m15.356 2A8.001 8.001 0 004.582 9m0 0H9m11 11v-5h-.581m0 0a8.003 8.003 0 01-15.357-2m15.357 2H15" />
-                              </svg>
                               Reset
-                            </button>
-                            <button
+                            </Button>
+                            <Button
                               onClick={(e) => { e.stopPropagation(); handleShowAnswers(index); }}
-                              className="px-5 py-2.5 text-white bg-gradient-to-r from-amber-500 to-orange-500 rounded-xl hover:shadow-lg transition-all font-medium flex items-center gap-2"
+                              variant="solid"
+                              intent="primary"
+                              leftIcon={
+                                <svg className="w-4 h-4" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                                  <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M15 12a3 3 0 11-6 0 3 3 0 016 0z" />
+                                  <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M2.458 12C3.732 7.943 7.523 5 12 5c4.478 0 8.268 2.943 9.542 7-1.274 4.057-5.064 7-9.542 7-4.477 0-8.268-2.943-9.542-7z" />
+                                </svg>
+                              }
                             >
-                              <svg className="w-4 h-4" fill="none" stroke="currentColor" viewBox="0 0 24 24">
-                                <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M15 12a3 3 0 11-6 0 3 3 0 016 0z" />
-                                <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M2.458 12C3.732 7.943 7.523 5 12 5c4.478 0 8.268 2.943 9.542 7-1.274 4.057-5.064 7-9.542 7-4.477 0-8.268-2.943-9.542-7z" />
-                              </svg>
                               Show Answers
-                            </button>
+                            </Button>
                             {/* Show Grammar Notes button - visible when sidebar is closed and grammar data exists */}
                             {!sidebarOpen && allGrammarData.length > 0 && (
-                              <button
+                              <Button
                                 onClick={(e) => { e.stopPropagation(); setSidebarOpen(true); }}
-                                className={`px-5 py-2.5 border rounded-xl transition-all hover:shadow-md font-medium flex items-center gap-2 ${
-                                  isDark ? 'text-indigo-400 bg-indigo-900/30 border-indigo-800 hover:bg-indigo-900/50' : 'text-indigo-600 bg-indigo-50 border-indigo-200 hover:bg-indigo-100'
-                                }`}
+                                variant="outline"
+                                intent="secondary"
+                                leftIcon={
+                                  <svg className="w-4 h-4" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                                    <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M9 12h6m-6 4h6m2 5H7a2 2 0 01-2-2V5a2 2 0 012-2h5.586a1 1 0 01.707.293l5.414 5.414a1 1 0 01.293.707V19a2 2 0 01-2 2z" />
+                                  </svg>
+                                }
                               >
-                                <svg className="w-4 h-4" fill="none" stroke="currentColor" viewBox="0 0 24 24">
-                                  <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M9 12h6m-6 4h6m2 5H7a2 2 0 01-2-2V5a2 2 0 012-2h5.586a1 1 0 01.707.293l5.414 5.414a1 1 0 01.293.707V19a2 2 0 01-2 2z" />
-                                </svg>
                                 Grammar Notes
-                              </button>
+                              </Button>
                             )}
                           </div>
 
@@ -594,12 +601,14 @@ function AppContent({ embedded = false, isDark = false }: AppContentProps) {
                     <p className={isDark ? 'text-green-200 mb-4' : 'text-green-100 mb-4'}>
                       You completed all {totalCount} sentences!
                     </p>
-                    <button
+                    <Button
                       onClick={handleNewSentence}
-                      className="px-6 py-3 bg-white text-green-600 rounded-xl font-bold hover:shadow-lg transition-all"
+                      variant="solid"
+                      size="lg"
+                      className="bg-white text-green-600 hover:bg-gray-100"
                     >
                       Try Another Sentence →
-                    </button>
+                    </Button>
                   </div>
                 )}
               </div>

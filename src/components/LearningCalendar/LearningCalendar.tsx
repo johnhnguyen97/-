@@ -1,6 +1,8 @@
 import { useState, useEffect, useCallback } from 'react';
 import { useAuth } from '../../contexts/AuthContext';
 import { getDailyData, getSettings, updateSettings, markAsLearned, removeLearnedStatus, getIcalUrl } from '../../services/calendarApi';
+import { FavoriteButton } from '../FavoriteButton';
+import { WordNoteButton } from '../WordNoteButton';
 import type { DailyCalendarData, CalendarSettings, JLPTLevel } from '../../types/calendar';
 
 interface LearningCalendarProps {
@@ -159,7 +161,23 @@ export function LearningCalendar({ onClose, embedded = false }: LearningCalendar
 
             {/* Word of the Day */}
             {dailyData.wordOfTheDay && (
-              <div className="bg-white dark:bg-gray-800 rounded-xl p-5 shadow-md border border-indigo-100 dark:border-indigo-900">
+              <div className="relative bg-white dark:bg-gray-800 rounded-xl p-5 shadow-md border border-indigo-100 dark:border-indigo-900">
+                {/* Favorite & Note buttons */}
+                <div className="absolute top-3 right-3 flex gap-1 z-10">
+                  <FavoriteButton
+                    word={dailyData.wordOfTheDay.word}
+                    reading={dailyData.wordOfTheDay.reading}
+                    english={dailyData.wordOfTheDay.meaning}
+                    partOfSpeech={dailyData.wordOfTheDay.partOfSpeech}
+                    isFavorited={false}
+                  />
+                  <WordNoteButton
+                    word={dailyData.wordOfTheDay.word}
+                    reading={dailyData.wordOfTheDay.reading}
+                    english={dailyData.wordOfTheDay.meaning}
+                  />
+                </div>
+
                 <div className="flex items-center justify-between mb-3">
                   <span className="text-xs font-semibold text-indigo-600 dark:text-indigo-400 uppercase tracking-wider">
                     Word of the Day
@@ -199,7 +217,23 @@ export function LearningCalendar({ onClose, embedded = false }: LearningCalendar
 
             {/* Kanji of the Day */}
             {dailyData.kanjiOfTheDay && (
-              <div className="bg-white dark:bg-gray-800 rounded-xl p-5 shadow-md border border-purple-100 dark:border-purple-900">
+              <div className="relative bg-white dark:bg-gray-800 rounded-xl p-5 shadow-md border border-purple-100 dark:border-purple-900">
+                {/* Favorite & Note buttons */}
+                <div className="absolute top-3 right-3 flex gap-1 z-10">
+                  <FavoriteButton
+                    word={dailyData.kanjiOfTheDay.kanji}
+                    reading={dailyData.kanjiOfTheDay.onyomi?.[0] || dailyData.kanjiOfTheDay.kunyomi?.[0] || ''}
+                    english={dailyData.kanjiOfTheDay.meaning}
+                    partOfSpeech="kanji"
+                    isFavorited={false}
+                  />
+                  <WordNoteButton
+                    word={dailyData.kanjiOfTheDay.kanji}
+                    reading={dailyData.kanjiOfTheDay.onyomi?.[0] || dailyData.kanjiOfTheDay.kunyomi?.[0] || ''}
+                    english={dailyData.kanjiOfTheDay.meaning}
+                  />
+                </div>
+
                 <div className="flex items-center justify-between mb-3">
                   <span className="text-xs font-semibold text-purple-600 dark:text-purple-400 uppercase tracking-wider">
                     Kanji of the Day
@@ -341,7 +375,23 @@ export function LearningCalendar({ onClose, embedded = false }: LearningCalendar
 
                 {/* Word of the Day */}
                 {dailyData.wordOfTheDay && (
-                  <div className="bg-white dark:bg-gray-800 rounded-xl p-5 shadow-md border border-indigo-100 dark:border-indigo-900">
+                  <div className="relative bg-white dark:bg-gray-800 rounded-xl p-5 shadow-md border border-indigo-100 dark:border-indigo-900">
+                    {/* Favorite & Note buttons */}
+                    <div className="absolute top-3 right-3 flex gap-1 z-10">
+                      <FavoriteButton
+                        word={dailyData.wordOfTheDay.word}
+                        reading={dailyData.wordOfTheDay.reading}
+                        english={dailyData.wordOfTheDay.meaning}
+                        partOfSpeech={dailyData.wordOfTheDay.partOfSpeech}
+                        isFavorited={false}
+                      />
+                      <WordNoteButton
+                        word={dailyData.wordOfTheDay.word}
+                        reading={dailyData.wordOfTheDay.reading}
+                        english={dailyData.wordOfTheDay.meaning}
+                      />
+                    </div>
+
                     <div className="flex items-center justify-between mb-3">
                       <span className="text-xs font-semibold text-indigo-600 dark:text-indigo-400 uppercase tracking-wider">
                         Word of the Day
@@ -381,7 +431,23 @@ export function LearningCalendar({ onClose, embedded = false }: LearningCalendar
 
                 {/* Kanji of the Day */}
                 {dailyData.kanjiOfTheDay && (
-                  <div className="bg-white dark:bg-gray-800 rounded-xl p-5 shadow-md border border-purple-100 dark:border-purple-900">
+                  <div className="relative bg-white dark:bg-gray-800 rounded-xl p-5 shadow-md border border-purple-100 dark:border-purple-900">
+                    {/* Favorite & Note buttons */}
+                    <div className="absolute top-3 right-3 flex gap-1 z-10">
+                      <FavoriteButton
+                        word={dailyData.kanjiOfTheDay.kanji}
+                        reading={dailyData.kanjiOfTheDay.onyomi?.[0] || dailyData.kanjiOfTheDay.kunyomi?.[0] || ''}
+                        english={dailyData.kanjiOfTheDay.meaning}
+                        partOfSpeech="kanji"
+                        isFavorited={false}
+                      />
+                      <WordNoteButton
+                        word={dailyData.kanjiOfTheDay.kanji}
+                        reading={dailyData.kanjiOfTheDay.onyomi?.[0] || dailyData.kanjiOfTheDay.kunyomi?.[0] || ''}
+                        english={dailyData.kanjiOfTheDay.meaning}
+                      />
+                    </div>
+
                     <div className="flex items-center justify-between mb-3">
                       <span className="text-xs font-semibold text-purple-600 dark:text-purple-400 uppercase tracking-wider">
                         Kanji of the Day
