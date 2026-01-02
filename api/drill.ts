@@ -17,6 +17,7 @@ interface Verb {
   verb_group: 'godan' | 'ichidan' | 'irregular-suru' | 'irregular-kuru';
   jlpt_level: string;
   is_transitive: boolean | null;
+  frequency: number; // 1-10, where 10 = most common daily use
   conjugations: Record<string, ConjugationForm>;
 }
 
@@ -98,6 +99,18 @@ const VERB_GROUP_MAP: Record<string, string> = {
   'irregular-kuru': 'group3',
 };
 
+// Phase to conjugation forms mapping - for random selection
+const PHASE_FORMS: Record<number, string[]> = {
+  1: ['masu', 'masen', 'mashita', 'masen_deshita'],
+  2: ['dictionary', 'negative', 'past', 'past_negative'],
+  3: ['te', 'potential'],
+  4: ['tai', 'volitional'],
+  5: ['potential', 'conditional_ba'],
+  6: ['conditional_ba', 'conditional_tara'],
+  7: ['passive', 'causative'],
+  8: ['imperative'],
+};
+
 // ============================================================================
 // UTILITIES
 // ============================================================================
@@ -109,6 +122,94 @@ function shuffleArray<T>(array: T[]): T[] {
     [shuffled[i], shuffled[j]] = [shuffled[j], shuffled[i]];
   }
   return shuffled;
+}
+
+/**
+ * Weighted random selection - prioritizes common daily-use words
+ * @param items Array of items with frequency property
+ * @param jlptLevel JLPT level to adjust weighting strength
+ * @returns Weighted-shuffled array favoring higher frequency items
+ */
+function weightedShuffle<T extends { frequency?: number }>(
+  items: T[],
+  jlptLevel: string = 'N5'
+): T[] {
+  if (items.length === 0) return [];
+
+  // Calculate frequency boost multiplier based on JLPT level
+  // N5: Strong bias towards common words (3x multiplier)
+  // N4: Moderate bias (2x multiplier)
+  // N3+: Light bias (1.5x multiplier) - advanced learners need variety
+  const frequencyMultiplier: Record<string, number> = {
+    'N5': 3.0,
+    'N4': 2.0,
+    'N3': 1.5,
+    'N2': 1.2,
+    'N1': 1.1,
+  };
+  const multiplier = frequencyMultiplier[jlptLevel] || 2.0;
+
+  // Create weighted array with probability scores
+  const weighted = items.map(item => ({
+    item,
+    // Weight = frequency^multiplier (exponential weighting)
+    // Default frequency = 5 if not set
+    weight: Math.pow(item.frequency || 5, multiplier),
+    randomBoost: Math.random() // Add randomness to avoid deterministic ordering
+  }));
+
+  // Sort by combined weight + random boost (prevents total predictability)
+  weighted.sort((a, b) => {
+    const scoreA = a.weight * (0.7 + a.randomBoost * 0.3); // 70% weight, 30% random
+    const scoreB = b.weight * (0.7 + b.randomBoost * 0.3);
+    return scoreB - scoreA; // Higher scores first
+  });
+
+  return weighted.map(w => w.item);
+}
+
+/**
+ * Select random items with weighted probability
+ * Uses cumulative distribution function for true weighted random selection
+ */
+function weightedRandomSelect<T extends { frequency?: number }>(
+  items: T[],
+  count: number,
+  jlptLevel: string = 'N5'
+): T[] {
+  if (items.length === 0) return [];
+  if (items.length <= count) return weightedShuffle(items, jlptLevel);
+
+  const multiplier = jlptLevel === 'N5' ? 3.0 : jlptLevel === 'N4' ? 2.0 : 1.5;
+  const selected: T[] = [];
+  const available = [...items];
+
+  while (selected.length < count && available.length > 0) {
+    // Calculate total weight of remaining items
+    const totalWeight = available.reduce((sum, item) => {
+      return sum + Math.pow(item.frequency || 5, multiplier);
+    }, 0);
+
+    // Random point in the cumulative distribution
+    let random = Math.random() * totalWeight;
+
+    // Select item based on cumulative weight
+    let selectedIndex = 0;
+    for (let i = 0; i < available.length; i++) {
+      const weight = Math.pow(available[i].frequency || 5, multiplier);
+      random -= weight;
+      if (random <= 0) {
+        selectedIndex = i;
+        break;
+      }
+    }
+
+    // Add selected item and remove from available pool
+    selected.push(available[selectedIndex]);
+    available.splice(selectedIndex, 1);
+  }
+
+  return selected;
 }
 
 function getConjugationEnglish(toForm: string): string {
@@ -177,22 +278,47 @@ function generateMCOptions(
 }
 
 /**
- * Build all valid verb-prompt combinations
+ * Build valid verb-form combinations with intelligent randomization
+ * - Weighted random verb selection (prioritizes common words)
+ * - Random conjugation form selection within each phase
  */
 function buildValidCombinations(
   verbs: Verb[],
-  prompts: DrillPrompt[]
+  phases: number[],
+  jlptLevel: string
 ): ValidCombination[] {
   const combinations: ValidCombination[] = [];
 
-  for (const verb of verbs) {
-    for (const prompt of prompts) {
-      // Map the prompt's to_form to grammar engine's conjugation key
-      const grammarEngineKey = FORM_TO_GRAMMAR_ENGINE[prompt.to_form] || prompt.to_form;
+  // Use weighted random selection for verbs (prioritizes common daily words)
+  const selectedVerbs = weightedShuffle(verbs, jlptLevel);
 
-      // Check if this conjugation exists for this verb
-      if (verb.conjugations && verb.conjugations[grammarEngineKey]) {
-        combinations.push({ verb, prompt });
+  for (const verb of selectedVerbs) {
+    for (const phase of phases) {
+      // Get available conjugation forms for this phase
+      const phaseForms = PHASE_FORMS[phase] || [];
+
+      // Randomly select 1-2 forms from this phase (adds variety)
+      const numForms = Math.random() < 0.7 ? 1 : 2; // 70% chance of 1 form, 30% chance of 2
+      const shuffledForms = shuffleArray(phaseForms);
+      const selectedForms = shuffledForms.slice(0, numForms);
+
+      for (const formKey of selectedForms) {
+        // Check if this verb has this conjugation
+        if (verb.conjugations && verb.conjugations[formKey]) {
+          // Create a synthetic prompt for this form
+          const prompt: DrillPrompt = {
+            id: `auto-${phase}-${formKey}`,
+            from_form: 'plain_positive',
+            to_form: formKey,
+            prompt_en: `Change to ${getConjugationEnglish(formKey)}`,
+            prompt_jp: `${getConjugationEnglish(formKey)}に変えてください`,
+            explanation: '',
+            word_type: 'verb',
+            phase: phase as 1 | 2 | 3 | 4 | 5 | 6 | 7 | 8,
+          };
+
+          combinations.push({ verb, prompt });
+        }
       }
     }
   }
@@ -203,11 +329,12 @@ function buildValidCombinations(
 /**
  * Generate questions from valid combinations
  */
-function generateQuestionsFromCombinations(
+async function generateQuestionsFromCombinations(
   combinations: ValidCombination[],
   count: number,
-  practiceMode: string
-): any[] {
+  practiceMode: string,
+  supabase: any
+): Promise<any[]> {
   if (combinations.length === 0) {
     return [];
   }
@@ -223,7 +350,7 @@ function generateQuestionsFromCombinations(
     }
 
     const { verb, prompt } = shuffled[idx];
-    const grammarEngineKey = FORM_TO_GRAMMAR_ENGINE[prompt.to_form] || prompt.to_form;
+    const grammarEngineKey = prompt.to_form; // Use the form key directly
     const correctConjugation = verb.conjugations[grammarEngineKey];
 
     // Convert grammar engine format to drill format
@@ -255,12 +382,36 @@ function generateQuestionsFromCombinations(
 
     const mcOptions = generateMCOptions(correctConjugation, verb.conjugations, grammarEngineKey);
 
+    // Fetch example sentence for sentence mode
+    let exampleSentence = undefined;
+    if (practiceMode === 'sentence') {
+      const { data: sentences } = await supabase
+        .from('example_sentences')
+        .select('*')
+        .eq('word_key', verb.dictionary_form)
+        .limit(1);
+
+      if (sentences && sentences.length > 0) {
+        const sent = sentences[0];
+        exampleSentence = {
+          id: sent.id,
+          japanese: sent.japanese,
+          english: sent.english,
+          word_key: sent.word_key,
+          word_reading: sent.word_reading,
+          tatoeba_id: sent.tatoeba_id || 0,
+          jlpt_level: sent.jlpt_level || verb.jlpt_level,
+        };
+      }
+    }
+
     questions.push({
       sentence,
       prompt,
       correctAnswer,
       mcOptions,
       practiceMode,
+      exampleSentence,
       // Include verb info for grammar sidebar
       verbInfo: {
         dictionary_form: verb.dictionary_form,
@@ -339,29 +490,11 @@ export default async function handler(req: VercelRequest, res: VercelResponse) {
       });
     }
 
-    // Fetch prompts for selected phases
-    const { data: prompts, error: promptError } = await supabase
-      .from('drill_prompts')
-      .select('*')
-      .in('phase', phaseList)
-      .or('word_type.eq.both,word_type.eq.verb');
-
-    if (promptError) {
-      console.error('Prompt fetch error:', promptError);
-      return res.status(500).json({ error: 'Failed to fetch prompts' });
-    }
-
-    if (!prompts || prompts.length === 0) {
-      return res.status(200).json({
-        questions: [],
-        message: 'No prompts found for the selected phases'
-      });
-    }
-
-    // Build valid combinations using grammar engine data
+    // Build valid combinations using grammar engine data with weighted randomization
     const validCombinations = buildValidCombinations(
       verbs as Verb[],
-      prompts as DrillPrompt[]
+      phaseList,
+      jlptLevel
     );
 
     if (validCombinations.length === 0) {
@@ -378,11 +511,12 @@ export default async function handler(req: VercelRequest, res: VercelResponse) {
       });
     }
 
-    // Generate questions
-    const questions = generateQuestionsFromCombinations(
+    // Generate questions (async to fetch example sentences)
+    const questions = await generateQuestionsFromCombinations(
       validCombinations,
       questionCount,
-      practiceMode
+      practiceMode,
+      supabase
     );
 
     return res.status(200).json({
