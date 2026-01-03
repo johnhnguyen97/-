@@ -450,31 +450,50 @@ export function CalendarPage() {
     }
   };
 
-  // Save task to localStorage (syncs with TodoWidget)
-  const handleSaveTask = (text: string) => {
+  // Save task to database (syncs with TodoWidget)
+  const handleSaveTask = async (text: string) => {
     const dateStr = taskPopupDate.toLocaleDateString('ja-JP', { month: 'short', day: 'numeric' });
     const taskWithDate = `[${dateStr}] ${text}`;
+    const dueDateStr = taskPopupDate.toISOString().split('T')[0]; // YYYY-MM-DD format
 
-    // Get existing todos from localStorage
-    const existingTodos = JSON.parse(localStorage.getItem('gojun-todos') || '[]');
+    if (!session?.access_token) {
+      // Fallback to localStorage for non-logged-in users
+      const existingTodos = JSON.parse(localStorage.getItem('gojun-todos') || '[]');
+      const newTodo = {
+        id: Date.now().toString(),
+        text: taskWithDate,
+        completed: false,
+        createdAt: Date.now(),
+      };
+      const updatedTodos = [newTodo, ...existingTodos];
+      localStorage.setItem('gojun-todos', JSON.stringify(updatedTodos));
+      window.dispatchEvent(new StorageEvent('storage', {
+        key: 'gojun-todos',
+        newValue: JSON.stringify(updatedTodos),
+      }));
+      return;
+    }
 
-    // Create new todo item matching TodoWidget format
-    const newTodo = {
-      id: Date.now().toString(),
-      text: taskWithDate,
-      completed: false,
-      createdAt: Date.now(),
-    };
+    try {
+      const response = await fetch('/api/todos', {
+        method: 'POST',
+        headers: {
+          'Content-Type': 'application/json',
+          Authorization: `Bearer ${session.access_token}`,
+        },
+        body: JSON.stringify({
+          title: taskWithDate,
+          task_type: 'custom',
+          due_date: dueDateStr,
+        }),
+      });
 
-    // Add to beginning of list
-    const updatedTodos = [newTodo, ...existingTodos];
-    localStorage.setItem('gojun-todos', JSON.stringify(updatedTodos));
-
-    // Dispatch storage event so TodoWidget updates
-    window.dispatchEvent(new StorageEvent('storage', {
-      key: 'gojun-todos',
-      newValue: JSON.stringify(updatedTodos),
-    }));
+      if (!response.ok) {
+        console.error('Failed to save task');
+      }
+    } catch (error) {
+      console.error('Error saving task:', error);
+    }
   };
 
   // Get selected day's data
