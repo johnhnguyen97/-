@@ -12,6 +12,7 @@ export const WORD_CATEGORIES = [
   { id: 'adverb', label: 'Adverb', icon: '副', color: 'from-purple-500 to-purple-600' },
   { id: 'particle', label: 'Particle', icon: '助', color: 'from-pink-500 to-pink-600' },
   { id: 'expression', label: 'Expression', icon: '表', color: 'from-red-500 to-red-600' },
+  { id: 'kanji', label: 'Kanji', icon: '漢', color: 'from-indigo-500 to-indigo-600' },
   { id: 'other', label: 'Other', icon: '他', color: 'from-gray-500 to-gray-600' },
 ] as const;
 
@@ -21,6 +22,7 @@ export type WordCategory = typeof WORD_CATEGORIES[number]['id'];
 export function detectCategory(partOfSpeech?: string, word?: string): WordCategory {
   const pos = partOfSpeech?.toLowerCase() || '';
 
+  if (pos.includes('kanji') || pos === 'kanji') return 'kanji';
   if (pos.includes('particle')) return 'particle';
   if (pos.includes('adverb')) return 'adverb';
   if (pos.includes('i-adjective') || pos.includes('い-adjective')) return 'i-adjective';

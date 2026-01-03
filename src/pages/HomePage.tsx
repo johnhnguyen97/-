@@ -169,7 +169,7 @@ export function HomePage() {
   const [jlptLevel, setJlptLevel] = useState('N5');
   const [isVisible, setIsVisible] = useState(false);
   const [currentTime, setCurrentTime] = useState(new Date());
-  const { speak, speaking } = useSpeechSynthesis();
+  const { speak, isSpeaking } = useSpeechSynthesis();
 
   // Load timezone preferences
   const [selectedTimezones, setSelectedTimezones] = useState<string[]>(() => {
@@ -638,9 +638,8 @@ export function HomePage() {
                         <span className="text-4xl font-bold">{wordOfTheDay.japanese}</span>
                         <button
                           onClick={() => handleSpeak(wordOfTheDay.japanese)}
-                          disabled={speaking}
                           className={`w-10 h-10 rounded-lg flex items-center justify-center transition-all text-lg ${
-                            speaking
+                            isSpeaking(wordOfTheDay.japanese)
                               ? 'bg-pink-500 text-white scale-110'
                               : isDark ? 'bg-white/10 hover:bg-white/20' : 'bg-slate-100 hover:bg-slate-200'
                           }`}
@@ -703,9 +702,8 @@ export function HomePage() {
                       <span className="text-5xl font-bold">{kanjiOfTheDay.kanji}</span>
                       <button
                         onClick={() => handleSpeak(kanjiOfTheDay.kanji)}
-                        disabled={speaking}
                         className={`w-10 h-10 rounded-lg flex items-center justify-center transition-all text-lg ${
-                          speaking
+                          isSpeaking(kanjiOfTheDay.kanji)
                             ? 'bg-indigo-500 text-white scale-110'
                             : isDark ? 'bg-white/10 hover:bg-white/20' : 'bg-slate-100 hover:bg-slate-200'
                         }`}
