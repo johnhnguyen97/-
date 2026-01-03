@@ -63,7 +63,7 @@ export function TodoWidget({ compact = false }: TodoWidgetProps) {
 
     setIsLoading(true);
     try {
-      const response = await fetch('/api/todos', {
+      const response = await fetch('/api/calendar?action=todos', {
         headers: { Authorization: `Bearer ${session.access_token}` },
       });
       if (response.ok) {
@@ -121,7 +121,7 @@ export function TodoWidget({ compact = false }: TodoWidgetProps) {
     }
 
     try {
-      const response = await fetch('/api/todos', {
+      const response = await fetch('/api/calendar?action=todos', {
         method: 'POST',
         headers: {
           'Content-Type': 'application/json',
@@ -166,7 +166,7 @@ export function TodoWidget({ compact = false }: TodoWidgetProps) {
     }
 
     try {
-      const response = await fetch('/api/todos', {
+      const response = await fetch('/api/calendar?action=todos', {
         method: 'PUT',
         headers: {
           'Content-Type': 'application/json',
@@ -204,7 +204,7 @@ export function TodoWidget({ compact = false }: TodoWidgetProps) {
     }
 
     try {
-      const response = await fetch(`/api/todos?id=${id}`, {
+      const response = await fetch(`/api/calendar?action=todos&id=${id}`, {
         method: 'DELETE',
         headers: { Authorization: `Bearer ${session.access_token}` },
       });
@@ -236,7 +236,7 @@ export function TodoWidget({ compact = false }: TodoWidgetProps) {
     }
 
     try {
-      const response = await fetch('/api/todos?clearCompleted=true', {
+      const response = await fetch('/api/calendar?action=todos&clearCompleted=true', {
         method: 'DELETE',
         headers: { Authorization: `Bearer ${session.access_token}` },
       });

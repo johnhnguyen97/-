@@ -151,8 +151,10 @@ export default async function handler(req: VercelRequest, res: VercelResponse) {
         return handleSettings(req, res, supabase, user.id);
       case 'learned':
         return handleLearned(req, res, supabase, user.id);
+      case 'todos':
+        return handleTodos(req, res, supabase, user.id);
       default:
-        return res.status(400).json({ error: 'Invalid action. Use: daily, range, settings, learned, or ical' });
+        return res.status(400).json({ error: 'Invalid action. Use: daily, range, settings, learned, todos, or ical' });
     }
   } catch (error) {
     console.error('Calendar API error:', error);
@@ -549,6 +551,131 @@ async function handleLearned(req: VercelRequest, res: VercelResponse, supabase: 
       .eq('user_id', userId)
       .eq('item_type', itemType)
       .eq('item_key', itemKey);
+
+    return res.status(200).json({ success: true });
+  }
+
+  return res.status(405).json({ error: 'Method not allowed' });
+}
+
+// eslint-disable-next-line @typescript-eslint/no-explicit-any
+async function handleTodos(req: VercelRequest, res: VercelResponse, supabase: any, userId: string) {
+  // GET - List all todos
+  if (req.method === 'GET') {
+    const { includeCompleted, limit } = req.query;
+    const shouldIncludeCompleted = includeCompleted !== 'false';
+    const limitNum = parseInt(typeof limit === 'string' ? limit : '100');
+
+    let query = supabase
+      .from('user_calendar_tasks')
+      .select('*')
+      .eq('user_id', userId)
+      .order('created_at', { ascending: false })
+      .limit(limitNum);
+
+    if (!shouldIncludeCompleted) {
+      query = query.eq('is_completed', false);
+    }
+
+    const { data, error } = await query;
+    if (error) return res.status(500).json({ error: 'Failed to fetch todos' });
+
+    return res.status(200).json({ todos: data || [] });
+  }
+
+  // POST - Create new todo
+  if (req.method === 'POST') {
+    const { title, notes, task_type, due_date, due_time, priority, linked_word, linked_kanji } = req.body || {};
+
+    if (!title?.trim()) {
+      return res.status(400).json({ error: 'Title is required' });
+    }
+
+    const { data, error } = await supabase
+      .from('user_calendar_tasks')
+      .insert({
+        user_id: userId,
+        title: title.trim(),
+        notes: notes?.trim() || null,
+        task_type: task_type || 'custom',
+        due_date: due_date || null,
+        due_time: due_time || null,
+        priority: priority ?? 0,
+        linked_word: linked_word || null,
+        linked_kanji: linked_kanji || null,
+        is_completed: false,
+        sync_status: 'local',
+      })
+      .select()
+      .single();
+
+    if (error) return res.status(500).json({ error: 'Failed to create todo' });
+
+    return res.status(201).json({ todo: data });
+  }
+
+  // PUT - Update todo (toggle complete, edit, etc.)
+  if (req.method === 'PUT') {
+    const { id, title, notes, is_completed, due_date, due_time, priority } = req.body || {};
+
+    if (!id) {
+      return res.status(400).json({ error: 'Todo ID is required' });
+    }
+
+    const updates: Record<string, unknown> = {
+      updated_at: new Date().toISOString(),
+    };
+
+    if (title !== undefined) updates.title = title.trim();
+    if (notes !== undefined) updates.notes = notes?.trim() || null;
+    if (is_completed !== undefined) {
+      updates.is_completed = is_completed;
+      updates.completed_at = is_completed ? new Date().toISOString() : null;
+    }
+    if (due_date !== undefined) updates.due_date = due_date || null;
+    if (due_time !== undefined) updates.due_time = due_time || null;
+    if (priority !== undefined) updates.priority = priority;
+
+    const { data, error } = await supabase
+      .from('user_calendar_tasks')
+      .update(updates)
+      .eq('id', id)
+      .eq('user_id', userId)
+      .select()
+      .single();
+
+    if (error) return res.status(500).json({ error: 'Failed to update todo' });
+
+    return res.status(200).json({ todo: data });
+  }
+
+  // DELETE - Delete todo or clear completed
+  if (req.method === 'DELETE') {
+    const { id, clearCompleted } = req.query;
+
+    if (clearCompleted === 'true') {
+      const { error } = await supabase
+        .from('user_calendar_tasks')
+        .delete()
+        .eq('user_id', userId)
+        .eq('is_completed', true);
+
+      if (error) return res.status(500).json({ error: 'Failed to clear completed todos' });
+
+      return res.status(200).json({ success: true, message: 'Completed todos cleared' });
+    }
+
+    if (!id) {
+      return res.status(400).json({ error: 'Todo ID is required' });
+    }
+
+    const { error } = await supabase
+      .from('user_calendar_tasks')
+      .delete()
+      .eq('id', id)
+      .eq('user_id', userId);
+
+    if (error) return res.status(500).json({ error: 'Failed to delete todo' });
 
     return res.status(200).json({ success: true });
   }

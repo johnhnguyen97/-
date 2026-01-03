@@ -475,7 +475,7 @@ export function CalendarPage() {
     }
 
     try {
-      const response = await fetch('/api/todos', {
+      const response = await fetch('/api/calendar?action=todos', {
         method: 'POST',
         headers: {
           'Content-Type': 'application/json',
