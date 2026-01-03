@@ -1,0 +1,484 @@
+{
+  "config_name": "Language Learning Extractor",
+  "url": "https://practice-japanese.com/docs/jlpt-n3-grammar/",
+  "data": {
+    "metadata": {
+      "title": "JLPT N3 Grammar List"
+    },
+    "examples": [
+      {
+        "sentence": "Focus on nuance - Many patterns have similar meanings but different uses"
+      },
+      {
+        "sentence": "Learn formal vs casual - N3 introduces more formal expressions"
+      },
+      {
+        "sentence": "Practice compound patterns - てくる, ていく with other grammar"
+      },
+      {
+        "sentence": "Master ように and ために - Key differences in usage"
+      },
+      {
+        "sentence": "Read extensively - Exposure to natural usage is crucial"
+      },
+      {
+        "sentence": "JLPT N2 Grammar - Advanced level"
+      },
+      {
+        "sentence": "Read news articles and novels"
+      },
+      {
+        "sentence": "Focus on formal written expressions"
+      },
+      {
+        "sentence": "About"
+      },
+      {
+        "sentence": "Pricing"
+      },
+      {
+        "sentence": "Blog"
+      },
+      {
+        "sentence": "Contact"
+      },
+      {
+        "sentence": "Privacy Policy"
+      },
+      {
+        "sentence": "Terms of Service"
+      },
+      {
+        "sentence": "Cookie Policy"
+      }
+    ],
+    "sections": [
+      {
+        "level": 2,
+        "heading": "JLPT N3 Grammar Overview",
+        "content": "JLPT N3 represents true intermediate Japanese, bridging basic communication and advanced expression. It introduces formal expressions, nuanced sentence endings, and complex grammatical structures. This level covers approximately 150 grammar points."
+      },
+      {
+        "level": 2,
+        "heading": "Advanced て-form Patterns",
+        "content": "",
+        "children": [
+          {
+            "level": 3,
+            "heading": "〜てくる - Come to/Start to",
+            "content": "See: 〜てくる (Come to)\n\nだんだん分かってきた。 Dandan wakatte kita. \"I've gradually come to understand.\""
+          },
+          {
+            "level": 3,
+            "heading": "〜ていく - Continue to/Going forward",
+            "content": "See: 〜ていく (Gradually)\n\nこれから変わっていく。 Kore kara kawatte iku. \"It will change from now on.\""
+          },
+          {
+            "level": 3,
+            "heading": "〜っぱなし - Left as is",
+            "content": "See: 〜っぱなし (Left as is)\n\n電気をつけっぱなしにした。 Denki wo tsukeppanashi ni shita. \"I left the light on.\""
+          }
+        ]
+      },
+      {
+        "level": 2,
+        "heading": "Tendency and Habit",
+        "content": "",
+        "children": [
+          {
+            "level": 3,
+            "heading": "〜がち - Tend to (negative)",
+            "content": "See: 〜がち (Tend to)\n\n休みがちだ。 Yasumigachi da. \"Tend to be absent often.\""
+          },
+          {
+            "level": 3,
+            "heading": "〜っぽい - Tend to be/-ish",
+            "content": "See: 〜っぽい (Tend to be)\n\n子供っぽい。 Kodomoppoi. \"Childish.\""
+          },
+          {
+            "level": 3,
+            "heading": "〜気味 - Slightly/Tending",
+            "content": "See: 〜気味 (Slightly/Tending)\n\n風邪気味だ。 Kaze gimi da. \"I have a slight cold.\""
+          },
+          {
+            "level": 3,
+            "heading": "〜ぶる - Act like/Pretend",
+            "content": "See: 〜ぶる (Act like)\n\n知ったかぶる。 Shittaka buru. \"Pretend to know.\""
+          }
+        ]
+      },
+      {
+        "level": 2,
+        "heading": "Formal Contrast and Concession",
+        "content": "",
+        "children": [
+          {
+            "level": 3,
+            "heading": "〜ものの - Although (formal)",
+            "content": "See: 〜ものの (Although)\n\n計画したものの、実行できなかった。 Keikaku shita monono, jikkou dekinakatta. \"Although I planned, I couldn't execute.\""
+          },
+          {
+            "level": 3,
+            "heading": "〜にもかかわらず - Despite (formal)",
+            "content": "See: 〜にもかかわらず (Despite)\n\n雨にもかかわらず、試合は行われた。 Ame nimo kakawarazu, shiai wa okonawareta. \"Despite the rain, the match was held.\""
+          },
+          {
+            "level": 3,
+            "heading": "〜つつも - While/Although (formal)",
+            "content": "See: 〜つつ (While - formal)\n\n知りつつも黙っていた。 Shiritsutsu mo damatte ita. \"Although I knew, I kept quiet.\""
+          },
+          {
+            "level": 3,
+            "heading": "〜ながらも - While/Although",
+            "content": "See: 〜ながらも (While/Although)\n\n小さいながらも強い。 Chiisai nagara mo tsuyoi. \"Although small, strong.\""
+          }
+        ]
+      },
+      {
+        "level": 2,
+        "heading": "Perspective and Standpoint",
+        "content": "",
+        "children": [
+          {
+            "level": 3,
+            "heading": "〜にとって - For/To (perspective)",
+            "content": "See: 〜にとって (For/To)\n\n私にとって大切だ。 Watashi ni totte taisetsu da. \"It's important to me.\""
+          },
+          {
+            "level": 3,
+            "heading": "〜について - About/Concerning",
+            "content": "See: 〜について (About)\n\n日本について話す。 Nihon ni tsuite hanasu. \"Talk about Japan.\""
+          },
+          {
+            "level": 3,
+            "heading": "〜に関して - Regarding (formal)",
+            "content": "See: 〜に関して (Regarding)\n\nこの件に関して質問があります。 Kono ken ni kanshite shitsumon ga arimasu. \"I have questions regarding this matter.\""
+          },
+          {
+            "level": 3,
+            "heading": "〜によると - According to",
+            "content": "See: 〜によると (According to)\n\nニュースによると、地震があった。 Nyuusu ni yoru to, jishin ga atta. \"According to the news, there was an earthquake.\""
+          }
+        ]
+      },
+      {
+        "level": 2,
+        "heading": "Worth and Value",
+        "content": "",
+        "children": [
+          {
+            "level": 3,
+            "heading": "〜甲斐がある - Worth doing",
+            "content": "See: 〜甲斐がある (Worth doing)\n\n頑張った甲斐があった。 Ganbatta kai ga atta. \"It was worth trying hard.\""
+          },
+          {
+            "level": 3,
+            "heading": "〜価値がある - Have value",
+            "content": "See: 〜価値がある (Have value)\n\n読む価値がある本。 Yomu kachi ga aru hon. \"A book worth reading.\""
+          }
+        ]
+      },
+      {
+        "level": 2,
+        "heading": "Advanced Difficulty",
+        "content": "",
+        "children": [
+          {
+            "level": 3,
+            "heading": "〜がたい - Hard to (formal)",
+            "content": "See: 〜がたい (Hard to - formal)\n\n信じがたい話。 Shinjigatai hanashi. \"A hard-to-believe story.\""
+          },
+          {
+            "level": 3,
+            "heading": "〜づらい - Hard to (feeling)",
+            "content": "See: 〜づらい (Hard to - feeling)\n\n言いづらいことがある。 Iizurai koto ga aru. \"There's something hard to say.\""
+          }
+        ]
+      },
+      {
+        "level": 2,
+        "heading": "Condition and Assumption",
+        "content": "",
+        "children": [
+          {
+            "level": 3,
+            "heading": "〜としたら/〜とすれば - If we assume/suppose",
+            "content": "行くとしたら、明日だ。 Iku to shitara, ashita da. \"If I go, it'll be tomorrow.\""
+          },
+          {
+            "level": 3,
+            "heading": "〜にしても/〜にせよ - Even if/Whether",
+            "content": "雨にしても雪にしても行く。 Ame ni shite mo yuki ni shite mo iku. \"Whether it's rain or snow, I'll go.\""
+          },
+          {
+            "level": 3,
+            "heading": "〜たところで - Even if/Even though",
+            "content": "今から行ったところで間に合わない。 Ima kara itta tokoro de maniawanai. \"Even if I go now, I won't make it.\""
+          },
+          {
+            "level": 3,
+            "heading": "〜ことだ - Should (advice)",
+            "content": "早く寝ることだ。 Hayaku neru koto da. \"You should sleep early.\""
+          },
+          {
+            "level": 3,
+            "heading": "〜べきだ - Should/Ought to",
+            "content": "勉強するべきだ。 Benkyou suru beki da. \"You should study.\""
+          },
+          {
+            "level": 3,
+            "heading": "〜わけだ - It means that/No wonder",
+            "content": "だから遅れたわけだ。 Dakara okureta wake da. \"That's why you were late.\""
+          },
+          {
+            "level": 3,
+            "heading": "〜わけがない - There's no way/Can't be",
+            "content": "そんなわけがない。 Sonna wake ga nai. \"There's no way that's true.\""
+          },
+          {
+            "level": 3,
+            "heading": "〜わけではない - It's not that/Not necessarily",
+            "content": "嫌いなわけではない。 Kirai na wake dewa nai. \"It's not that I dislike it.\""
+          },
+          {
+            "level": 3,
+            "heading": "〜わけにはいかない - Cannot/Must not",
+            "content": "休むわけにはいかない。 Yasumu wake ni wa ikanai. \"I cannot take a rest.\""
+          }
+        ]
+      },
+      {
+        "level": 2,
+        "heading": "Extent and Degree",
+        "content": "",
+        "children": [
+          {
+            "level": 3,
+            "heading": "〜ほど - The more... the more",
+            "content": "勉強すればするほど分かる。 Benkyou sureba suru hodo wakaru. \"The more you study, the more you understand.\""
+          },
+          {
+            "level": 3,
+            "heading": "〜くらい/ぐらい - About/To the extent",
+            "content": "死ぬくらい疲れた。 Shinu kurai tsukareta. \"I'm tired to death.\""
+          },
+          {
+            "level": 3,
+            "heading": "〜ばかり - Just/Only/Nothing but",
+            "content": "文句ばかり言う。 Monku bakari iu. \"Do nothing but complain.\""
+          },
+          {
+            "level": 3,
+            "heading": "〜だけでなく/〜のみならず - Not only... but also",
+            "content": "日本語だけでなく英語も話せる。 Nihongo dake de naku eigo mo hanaseru. \"I can speak not only Japanese but also English.\""
+          }
+        ]
+      },
+      {
+        "level": 2,
+        "heading": "Repetition and Continuation",
+        "content": "",
+        "children": [
+          {
+            "level": 3,
+            "heading": "〜たびに - Every time",
+            "content": "会うたびに元気になる。 Au tabi ni genki ni naru. \"I feel better every time we meet.\""
+          },
+          {
+            "level": 3,
+            "heading": "〜次第 - As soon as/Depending on",
+            "content": "着き次第連絡します。 Tsuki shidai renraku shimasu. \"I'll contact you as soon as I arrive.\""
+          },
+          {
+            "level": 3,
+            "heading": "〜に従って - In accordance with/As",
+            "content": "計画に従って進める。 Keikaku ni shitagatte susumeru. \"Proceed according to plan.\""
+          },
+          {
+            "level": 3,
+            "heading": "〜につれて - As/Along with",
+            "content": "年を取るにつれて物忘れが増える。 Toshi wo toru ni tsurete monowasure ga fueru. \"As you get older, forgetfulness increases.\""
+          }
+        ]
+      },
+      {
+        "level": 2,
+        "heading": "Formal Occasion",
+        "content": "",
+        "children": [
+          {
+            "level": 3,
+            "heading": "〜際 - When/Occasion (formal)",
+            "content": "See: 〜際 (When/Occasion)\n\nご利用の際はご注意ください。 Goriyou no sai wa gochuui kudasai. \"Please be careful when using.\""
+          },
+          {
+            "level": 3,
+            "heading": "〜上で - After/Upon (doing)",
+            "content": "確認した上で決めます。 Kakunin shita ue de kimemasu. \"I'll decide after confirming.\""
+          },
+          {
+            "level": 3,
+            "heading": "〜末 - After (much effort)/End result",
+            "content": "考えた末、断ることにした。 Kangaeta sue, kotowaru koto ni shita. \"After much thought, I decided to refuse.\""
+          }
+        ]
+      },
+      {
+        "level": 2,
+        "heading": "Emphasis and Addition",
+        "content": "",
+        "children": [
+          {
+            "level": 3,
+            "heading": "〜さえ - Even",
+            "content": "子供さえ知っている。 Kodomo sae shitte iru. \"Even children know.\""
+          },
+          {
+            "level": 3,
+            "heading": "〜すら - Even (formal)",
+            "content": "名前すら知らない。 Namae sura shiranai. \"I don't even know the name.\""
+          },
+          {
+            "level": 3,
+            "heading": "〜こそ - Precisely/Exactly (emphasis)",
+            "content": "今こそチャンスだ。 Ima koso chansu da. \"Now is precisely the chance.\""
+          }
+        ]
+      },
+      {
+        "level": 2,
+        "heading": "Negative Forms",
+        "content": "",
+        "children": [
+          {
+            "level": 3,
+            "heading": "〜ないことはない/〜なくもない - It's not that... not",
+            "content": "できないことはない。 Dekinai koto wa nai. \"It's not that I can't do it.\""
+          },
+          {
+            "level": 3,
+            "heading": "〜ずに - Without doing",
+            "content": "何も言わずに帰った。 Nani mo iwazu ni kaetta. \"I went home without saying anything.\""
+          },
+          {
+            "level": 3,
+            "heading": "〜ないで済む - Can get by without",
+            "content": "説明しないで済んだ。 Setsumei shinai de sunda. \"I got by without explaining.\""
+          }
+        ]
+      },
+      {
+        "level": 2,
+        "heading": "Purpose and Benefit",
+        "content": "",
+        "children": [
+          {
+            "level": 3,
+            "heading": "〜ために - For the purpose of",
+            "content": "健康のために運動する。 Kenkou no tame ni undou suru. \"Exercise for health.\""
+          },
+          {
+            "level": 3,
+            "heading": "〜ように - So that/In order to",
+            "content": "忘れないようにメモする。 Wasurenai you ni memo suru. \"Take notes so as not to forget.\""
+          },
+          {
+            "level": 3,
+            "heading": "〜おかげで - Thanks to",
+            "content": "先生のおかげで合格した。 Sensei no okage de goukaku shita. \"I passed thanks to my teacher.\""
+          },
+          {
+            "level": 3,
+            "heading": "〜せいで - Because of (negative)",
+            "content": "雨のせいで遅れた。 Ame no sei de okureta. \"I was late because of the rain.\""
+          }
+        ]
+      },
+      {
+        "level": 2,
+        "heading": "Change of State",
+        "content": "",
+        "children": [
+          {
+            "level": 3,
+            "heading": "〜くなる - Become (i-adj)",
+            "content": "See: 〜くなる (Become - i-adj)\n\n暑くなってきた。 Atsuku natte kita. \"It's gotten hot.\""
+          },
+          {
+            "level": 3,
+            "heading": "〜になる - Become (na-adj/noun)",
+            "content": "See: 〜になる (Become - na-adj/noun)\n\n医者になった。 Isha ni natta. \"I became a doctor.\""
+          },
+          {
+            "level": 3,
+            "heading": "〜ようになる - Come to/Become able to",
+            "content": "日本語が話せるようになった。 Nihongo ga hanaseru you ni natta. \"I came to be able to speak Japanese.\""
+          },
+          {
+            "level": 3,
+            "heading": "〜ことになる - It has been decided that",
+            "content": "来月から働くことになった。 Raigetsu kara hataraku koto ni natta. \"It's been decided I'll work from next month.\""
+          },
+          {
+            "level": 3,
+            "heading": "〜ことにする - Decide to",
+            "content": "毎日運動することにした。 Mainichi undou suru koto ni shita. \"I decided to exercise every day.\""
+          }
+        ]
+      },
+      {
+        "level": 2,
+        "heading": "Appearance and Seeming",
+        "content": "",
+        "children": [
+          {
+            "level": 3,
+            "heading": "〜ように見える - Appear to/Look like",
+            "content": "楽しいように見える。 Tanoshii you ni mieru. \"It appears to be fun.\""
+          },
+          {
+            "level": 3,
+            "heading": "〜ようだ - It seems/It's like",
+            "content": "雨が降りそうだ。 Ame ga furisou da. \"It looks like it will rain.\""
+          }
+        ]
+      },
+      {
+        "level": 2,
+        "heading": "Study Tips for N3 Grammar",
+        "content": "Focus on nuance - Many patterns have similar meanings but different uses Learn formal vs casual - N3 introduces more formal expressions Practice compound patterns - てくる, ていく with other grammar Master ように and ために - Key differences in usage Read extensively - Exposure to natural usage is crucial"
+      },
+      {
+        "level": 2,
+        "heading": "Next Steps",
+        "content": "After mastering N3 grammar, progress to:\n\nJLPT N2 Grammar - Advanced level Read news articles and novels Focus on formal written expressions\n\nNote: N3 is a significant step up from N4. Take time to master these patterns thoroughly.",
+        "children": [
+          {
+            "level": 3,
+            "heading": "Company",
+            "content": "About Pricing Blog Contact"
+          },
+          {
+            "level": 3,
+            "heading": "Legal",
+            "content": "Privacy Policy Terms of Service Cookie Policy"
+          }
+        ]
+      }
+    ]
+  },
+  "metadata": {
+    "extracted_at": "2026-01-01T22:19:30.378820700Z",
+    "duration_ms": 3,
+    "extractors_matched": [
+      "metadata",
+      "examples",
+      "sections"
+    ],
+    "extractors_failed": [
+      "vocab_tables",
+      "definitions",
+      "content_blocks"
+    ]
+  }
+}

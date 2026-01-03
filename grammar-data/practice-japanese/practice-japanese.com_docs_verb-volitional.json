@@ -1,0 +1,358 @@
+{
+  "config_name": "Language Learning Extractor",
+  "url": "https://practice-japanese.com/docs/verb-volitional/",
+  "data": {
+    "examples": [
+      {
+        "sentence": "Te-form + ください"
+      },
+      {
+        "sentence": "Masu Form"
+      },
+      {
+        "sentence": "Verb Groups"
+      },
+      {
+        "sentence": "About"
+      },
+      {
+        "sentence": "Pricing"
+      },
+      {
+        "sentence": "Blog"
+      },
+      {
+        "sentence": "Contact"
+      },
+      {
+        "sentence": "Privacy Policy"
+      },
+      {
+        "sentence": "Terms of Service"
+      },
+      {
+        "sentence": "Cookie Policy"
+      }
+    ],
+    "sections": [
+      {
+        "level": 2,
+        "heading": "What is Volitional Form?",
+        "content": "Volitional form (意向形) expresses intention or invitation . It means \"let's...\" or \"I will...\"\n\n食べよう (tabeyou) - let's eat / I'll eat 行こう (ikou) - let's go / I'll go しよう (shiyou) - let's do / I'll do"
+      },
+      {
+        "level": 2,
+        "heading": "Two Main Uses",
+        "content": "",
+        "children": [
+          {
+            "level": 3,
+            "heading": "1. Invitation (Let's...)",
+            "content": "映画を見よう！ \"Let's watch a movie!\" 一緒に行こう \"Let's go together\""
+          },
+          {
+            "level": 3,
+            "heading": "2. Strong Intention (I will...)",
+            "content": "頑張ろう！ \"I'll do my best!\" 明日早く起きよう \"I'll wake up early tomorrow\""
+          }
+        ]
+      },
+      {
+        "level": 2,
+        "heading": "Conjugation Rules",
+        "content": "",
+        "children": [
+          {
+            "level": 3,
+            "heading": "Ichidan Verbs",
+            "content": "Drop る , add よう :\n\n食べる → 食べよう (let's eat) 見る → 見よう (let's see) 寝る → 寝よう (let's sleep) 起きる → 起きよう (let's wake up) 教える → 教えよう (let's teach)"
+          },
+          {
+            "level": 3,
+            "heading": "Godan Verbs",
+            "content": "Change -u to -ou :\n\n書く → 書こう (kaku → kakou) kak-u → kak-ou 読む → 読もう (yomu → yomou) yom-u → yom-ou 話す → 話そう (hanasu → hanasou) hanas-u → hanas-ou 買う → 買おう (kau → kaou) ka-u → ka-ou 待つ → 待とう (matsu → matou) mat-u → mat-ou 遊ぶ → 遊ぼう (asobu → asobou) asob-u → asob-ou 帰る → 帰ろう (kaeru → kaerou) kaer-u → kaer-ou 泳ぐ → 泳ごう (oyogu → oyogou) oyog-u → oyog-ou 行く → 行こう (iku → ikou) ik-u → ik-ou"
+          },
+          {
+            "level": 3,
+            "heading": "Irregular Verbs",
+            "content": "する → しよう (let's do) 来る → 来よう (こよう, koyou) (let's come)"
+          }
+        ]
+      },
+      {
+        "level": 2,
+        "heading": "Complete Conjugation Chart",
+        "content": "| Dictionary | O-row | Volitional | Meaning | | ---------- | ------- | ---------- | ----------- | | 書く | kak-o | 書こう | let's write | | 読む | yom-o | 読もう | let's read | | 話す | hanas-o | 話そう | let's speak | | 買う | ka-o | 買おう | let's buy | | 食べる | tabe | 食べよう | let's eat | | 見る | mi | 見よう | let's see | | する | - | しよう | let's do | | 来る | - | 来よう | let's come |"
+      },
+      {
+        "level": 2,
+        "heading": "Polite Volitional: ～ましょう",
+        "content": "For polite situations, use ましょう :\n\n食べる → 食べましょう (let's eat - polite) 行く → 行きましょう (let's go - polite) する → しましょう (let's do - polite)\n\nFormation: Masu-stem + ましょう\n\n食べます → 食べましょう 行きます → 行きましょう します → しましょう"
+      },
+      {
+        "level": 2,
+        "heading": "Making Suggestions (Let's...)",
+        "content": "",
+        "children": [
+          {
+            "level": 3,
+            "heading": "Casual",
+            "content": "映画を見よう！ \"Let's watch a movie!\" 公園に行こう \"Let's go to the park\" 一緒に勉強しよう \"Let's study together\" 昼ご飯を食べよう \"Let's eat lunch\""
+          },
+          {
+            "level": 3,
+            "heading": "Polite",
+            "content": "映画を見ましょう \"Let's watch a movie\" (polite) 公園に行きましょう \"Let's go to the park\" (polite) 一緒に勉強しましょう \"Let's study together\" (polite)"
+          }
+        ]
+      },
+      {
+        "level": 2,
+        "heading": "Expressing Intention (I will...)",
+        "content": "",
+        "children": [
+          {
+            "level": 3,
+            "heading": "Inner Monologue",
+            "content": "明日は早く起きよう \"I'll wake up early tomorrow\" もっと頑張ろう \"I'll try harder\" 毎日運動しよう \"I'll exercise every day\""
+          },
+          {
+            "level": 3,
+            "heading": "Determination",
+            "content": "絶対に合格しよう！ \"I'll definitely pass!\" 諦めないぞ！頑張ろう！ \"I won't give up! I'll do my best!\""
+          }
+        ]
+      },
+      {
+        "level": 2,
+        "heading": "Common Patterns",
+        "content": "",
+        "children": [
+          {
+            "level": 3,
+            "heading": "～ようと思う (Thinking of doing)",
+            "content": "日本に行こうと思う \"I'm thinking of going to Japan\" 新しい仕事を探そうと思っている \"I'm thinking of looking for a new job\" 明日は早く寝ようと思う \"I'm thinking of sleeping early tomorrow\""
+          },
+          {
+            "level": 3,
+            "heading": "～ようとする (Try to do / About to do)",
+            "content": "ドアを開けようとした \"I tried to open the door\" 立とうとしたが、立てなかった \"I tried to stand up, but couldn't\" 話そうとしている \"I'm about to speak / trying to speak\""
+          },
+          {
+            "level": 3,
+            "heading": "～ようか (Shall we...?)",
+            "content": "どこに行こうか？ \"Where shall we go?\" 何を食べようか？ \"What shall we eat?\" 映画でも見ようか？ \"Shall we watch a movie or something?\""
+          },
+          {
+            "level": 3,
+            "heading": "～ようよ (Let's... / casual feminine)",
+            "content": "行こうよ！ \"Let's go!\" (casual, friendly) 食べようよ \"Let's eat!\" (casual)"
+          }
+        ]
+      },
+      {
+        "level": 2,
+        "heading": "Invitations and Responses",
+        "content": "",
+        "children": [
+          {
+            "level": 3,
+            "heading": "Making Invitations",
+            "content": "A: 今日映画見に行こう！ \"Let's go see a movie today!\" B: いいね！行こう！ \"Sounds good! Let's go!\"\n\nA: 一緒にランチしましょうか？ \"Shall we have lunch together?\" B: はい、しましょう \"Yes, let's\""
+          },
+          {
+            "level": 3,
+            "heading": "Declining",
+            "content": "A: 今晩飲みに行こう \"Let's go drinking tonight\" B: ごめん、今日はちょっと... \"Sorry, today is a bit...\""
+          }
+        ]
+      },
+      {
+        "level": 2,
+        "heading": "Conversation Examples",
+        "content": "",
+        "children": [
+          {
+            "level": 3,
+            "heading": "Example 1: Weekend Plans",
+            "content": "A: 週末何しよう？ \"What shall we do on the weekend?\" B: 映画でも見ようか \"Shall we watch a movie or something?\" A: いいね！何時に行こう？ \"Sounds good! What time shall we go?\" B: 2時に行こう \"Let's go at 2\""
+          },
+          {
+            "level": 3,
+            "heading": "Example 2: Study Group",
+            "content": "A: 今日は図書館で勉強しよう \"Let's study at the library today\" B: うん、何時に行く？ \"Yeah, what time shall we go?\" A: 3時に行こうよ \"Let's go at 3\" B: OK！ \"OK!\""
+          },
+          {
+            "level": 3,
+            "heading": "Example 3: Self-Encouragement",
+            "content": "よし、今日も頑張ろう！ \"Alright, I'll do my best today too!\" 明日は早く起きよう \"I'll wake up early tomorrow\" もっと練習しよう \"I'll practice more\""
+          }
+        ]
+      },
+      {
+        "level": 2,
+        "heading": "Common Mistakes",
+        "content": "",
+        "children": [
+          {
+            "level": 3,
+            "heading": "Mistake 1: Using Volitional as Command",
+            "content": "Wrong: 食べよう！(as command) ❌ Right: 食べて！/ 食べなさい！✓ \"Eat!\" (command) Volitional is invitation, not command!"
+          },
+          {
+            "level": 3,
+            "heading": "Mistake 2: Wrong O-row Conjugation",
+            "content": "Wrong: 書く → 書くよう ❌ Right: 書く → 書こう ✓ Wrong: 読む → 読むよう ❌ Right: 読む → 読もう ✓"
+          },
+          {
+            "level": 3,
+            "heading": "Mistake 3: Using in Wrong Context",
+            "content": "Wrong: 先生、一緒に食べよう ❌ Right: 先生、一緒に食べましょう ✓ \"Teacher, let's eat together\" (needs polite)"
+          },
+          {
+            "level": 3,
+            "heading": "Mistake 4: Confusing with よう (auxiliary)",
+            "content": "食べよう - volitional \"let's eat\" 食べるよう - \"so that (you) eat\" Different meanings!"
+          }
+        ]
+      },
+      {
+        "level": 2,
+        "heading": "Volitional with か",
+        "content": "",
+        "children": [
+          {
+            "level": 3,
+            "heading": "～ようか？",
+            "content": "どこに行こうか？ \"Where shall we go?\" 何を食べようか？ \"What shall we eat?\" いつ始めようか？ \"When shall we start?\""
+          },
+          {
+            "level": 3,
+            "heading": "～ましょうか？ (Polite)",
+            "content": "お茶でも飲みましょうか？ \"Shall we have some tea?\" 窓を開けましょうか？ \"Shall I open the window?\" 手伝いましょうか？ \"Shall I help?\""
+          }
+        ]
+      },
+      {
+        "level": 2,
+        "heading": "Special Uses",
+        "content": "",
+        "children": [
+          {
+            "level": 3,
+            "heading": "Encouraging Others",
+            "content": "さあ、行こう！ \"Come on, let's go!\" 頑張ろう！ \"Let's do our best!\" 一緒にやろう！ \"Let's do it together!\""
+          },
+          {
+            "level": 3,
+            "heading": "Self-Motivation",
+            "content": "よし、やろう！ \"Alright, I'll do it!\" 今日こそ成功させよう \"I'll make it succeed today!\" 諦めずに続けよう \"I'll keep going without giving up\""
+          },
+          {
+            "level": 3,
+            "heading": "Suggestions",
+            "content": "今日は早く帰ろうか \"Shall we go home early today?\" 休憩しようよ \"Let's take a break\" ちょっと休もう \"Let's rest a bit\""
+          }
+        ]
+      },
+      {
+        "level": 2,
+        "heading": "Volitional in Different Contexts",
+        "content": "",
+        "children": [
+          {
+            "level": 3,
+            "heading": "Making Plans",
+            "content": "明日は早く起きよう \"I'll wake up early tomorrow\" 来週旅行に行こう \"Let's go on a trip next week\" 夏に日本へ行こうと思っている \"I'm thinking of going to Japan in summer\""
+          },
+          {
+            "level": 3,
+            "heading": "Inviting",
+            "content": "今度一緒に食事しよう \"Let's have a meal together sometime\" 週末遊ぼうよ \"Let's hang out on the weekend\" また会おうね \"Let's meet again\""
+          },
+          {
+            "level": 3,
+            "heading": "Expressing Resolve",
+            "content": "明日から本気で勉強しよう \"From tomorrow, I'll study seriously\" 健康のために運動しよう \"I'll exercise for my health\" 毎日日本語を練習しよう \"I'll practice Japanese every day\""
+          }
+        ]
+      },
+      {
+        "level": 2,
+        "heading": "Negative Volitional (Rare)",
+        "content": "まい form (archaic/literary):\n\nもう二度と会うまい \"I will never meet again\" 忘れまい \"I will not forget\"\n\nModern: Use negative + と思う\n\nもう行かないと思う \"I think I won't go anymore\""
+      },
+      {
+        "level": 2,
+        "heading": "Common Expressions",
+        "content": "",
+        "children": [
+          {
+            "level": 3,
+            "heading": "Daily Life",
+            "content": "さあ、始めよう！ \"Alright, let's start!\" もう寝よう \"Let's go to sleep now\" ご飯食べよう \"Let's eat\" 帰ろうか \"Shall we go home?\""
+          },
+          {
+            "level": 3,
+            "heading": "Decisions",
+            "content": "これにしよう \"Let's go with this / I'll choose this\" 明日決めよう \"Let's decide tomorrow\" やってみよう \"Let's try it / I'll try it\""
+          },
+          {
+            "level": 3,
+            "heading": "Encouragement",
+            "content": "頑張ろう！ \"Let's do our best!\" 最後まで諦めないでいこう \"Let's not give up until the end\" 一緒に乗り越えよう \"Let's overcome it together\""
+          }
+        ]
+      },
+      {
+        "level": 2,
+        "heading": "Polite vs Casual",
+        "content": "| Casual | Polite | Meaning | | -------- | ------------ | ---------- | | 行こう | 行きましょう | let's go | | 食べよう | 食べましょう | let's eat | | しよう | しましょう | let's do | | 来よう | 来ましょう | let's come |\n\nUse casual with friends, polite with others!"
+      },
+      {
+        "level": 2,
+        "heading": "Practice Sentences",
+        "content": "今日は映画を見よう \"Let's watch a movie today\" 一緒に勉強しようよ \"Let's study together\" 明日早く起きよう \"I'll wake up early tomorrow\" もっと頑張ろう \"I'll try harder\" 公園で遊ぼう \"Let's play in the park\" お茶でも飲もうか？ \"Shall we have some tea?\" ここで休憩しましょう \"Let's take a break here\" (polite) また会おうね \"Let's meet again\" 絶対に成功させよう！ \"I'll definitely make it succeed!\" 諦めずに続けよう \"Let's keep going without giving up\""
+      },
+      {
+        "level": 2,
+        "heading": "Volitional in Narrative",
+        "content": "私は決めた。明日から新しい生活を始めよう。 毎日運動しよう。健康的な食事をしよう。 そして、夢を諦めずに頑張ろう。 \"I decided. I'll start a new life from tomorrow. I'll exercise every day. I'll eat healthily. And I'll try hard without giving up on my dreams.\""
+      },
+      {
+        "level": 2,
+        "heading": "Key Takeaways",
+        "content": "✓ Volitional = invitation or intention ✓ Godan: -u → -ou ✓ Ichidan: -ru → -you ✓ Polite: ましょう ✓ \"Let's...\" or \"I will...\" ✓ ～ようと思う = thinking of doing ✓ ～ようとする = try to do ✓ ～ようか = shall we? ✓ Use casual with friends, polite with others\n\nMaster volitional form - make suggestions and express will!\n\nNext: Imperative Form (Command)\n\nRelated:\n\nTe-form + ください Masu Form Verb Groups",
+        "children": [
+          {
+            "level": 3,
+            "heading": "Company",
+            "content": "About Pricing Blog Contact"
+          },
+          {
+            "level": 3,
+            "heading": "Legal",
+            "content": "Privacy Policy Terms of Service Cookie Policy"
+          }
+        ]
+      }
+    ],
+    "metadata": {
+      "title": "Volitional Form (Let's / Will)"
+    }
+  },
+  "metadata": {
+    "extracted_at": "2026-01-01T22:19:37.570322800Z",
+    "duration_ms": 3,
+    "extractors_matched": [
+      "metadata",
+      "examples",
+      "sections"
+    ],
+    "extractors_failed": [
+      "vocab_tables",
+      "definitions",
+      "content_blocks"
+    ]
+  }
+}

@@ -1,0 +1,300 @@
+{
+  "config_name": "Language Learning Extractor",
+  "url": "https://practice-japanese.com/docs/demo-shikashi/",
+  "data": {
+    "sections": [
+      {
+        "level": 2,
+        "heading": "What are でも and しかし?",
+        "content": "でも and しかし both mean \"but\" or \"however,\" introducing contrast or contradiction between sentences. でも is casual and conversational, while しかし is formal and literary. They connect two opposing or contrasting ideas.\n\n疲れた。でも頑張る。 \"I'm tired. But I'll do my best.\" 雨だった。しかし出かけた。 \"It was raining. However, I went out.\""
+      },
+      {
+        "level": 2,
+        "heading": "Basic Usage",
+        "content": "",
+        "children": [
+          {
+            "level": 3,
+            "heading": "でも (casual \"but\")",
+            "content": "高い。でも買う。 \"It's expensive. But I'll buy it.\" 難しい。でもやる。 \"It's difficult. But I'll do it.\" Casual, spoken"
+          },
+          {
+            "level": 3,
+            "heading": "しかし (formal \"however\")",
+            "content": "雨が降った。しかし試合は続いた。 \"It rained. However, the game continued.\" 努力した。しかし成功しなかった。 \"I tried hard. However, I didn't succeed.\" Formal, written"
+          }
+        ]
+      },
+      {
+        "level": 2,
+        "heading": "Position in Sentence",
+        "content": "",
+        "children": [
+          {
+            "level": 3,
+            "heading": "Beginning of second sentence",
+            "content": "寒い。でも外に出る。 \"It's cold. But I'll go outside.\" After period New sentence starts"
+          }
+        ]
+      },
+      {
+        "level": 2,
+        "heading": "Polite and Casual",
+        "content": "",
+        "children": [
+          {
+            "level": 3,
+            "heading": "でも = casual",
+            "content": "忙しい。でも行く。 \"I'm busy. But I'll go.\" Conversational Everyday speech"
+          },
+          {
+            "level": 3,
+            "heading": "しかし = formal",
+            "content": "困難である。しかし諦めない。 \"It's difficult. However, I won't give up.\" Written language Formal speech"
+          }
+        ]
+      },
+      {
+        "level": 2,
+        "heading": "Common Contexts",
+        "content": "",
+        "children": [
+          {
+            "level": 3,
+            "heading": "でも in daily conversation",
+            "content": "疲れた。でもまだ仕事がある。 \"I'm tired. But I still have work.\" お腹空いた。でもダイエット中だ。 \"I'm hungry. But I'm on a diet.\" Everyday situations"
+          },
+          {
+            "level": 3,
+            "heading": "しかし in formal writing",
+            "content": "計画は順調だった。しかし問題が発生した。 \"The plan was going smoothly. However, a problem occurred.\" 結果は良好だった。しかし課題も残った。 \"The results were good. However, challenges remained.\" Reports, essays"
+          }
+        ]
+      },
+      {
+        "level": 2,
+        "heading": "でも vs しかし Comparison",
+        "content": "",
+        "children": [
+          {
+            "level": 3,
+            "heading": "Register difference",
+            "content": "Casual: 難しい。でもやる。 \"It's difficult. But I'll do it.\" Formal: 難しい。しかしやる。 \"It's difficult. However, I will do it.\" Same meaning, different tone"
+          }
+        ]
+      },
+      {
+        "level": 2,
+        "heading": "でも at Sentence Start",
+        "content": "",
+        "children": [
+          {
+            "level": 3,
+            "heading": "Can start conversation",
+            "content": "A: 今日は忙しい？ B: でも、ちょっとなら大丈夫。 A: \"Are you busy today?\" B: \"Well, but if it's just a little, it's okay.\" Softens response"
+          }
+        ]
+      },
+      {
+        "level": 2,
+        "heading": "Multiple でも/しかし",
+        "content": "",
+        "children": [
+          {
+            "level": 3,
+            "heading": "Can use repeatedly",
+            "content": "疲れた。でも頑張る。でも休みたい。 \"I'm tired. But I'll try hard. But I want to rest.\" Multiple contrasts Can sound repetitive"
+          }
+        ]
+      },
+      {
+        "level": 2,
+        "heading": "Combining with Other Words",
+        "content": "",
+        "children": [
+          {
+            "level": 3,
+            "heading": "でもね (but you know)",
+            "content": "好きだよ。でもね、今は忙しい。 \"I like it. But you know, I'm busy now.\" Softening, casual"
+          },
+          {
+            "level": 3,
+            "heading": "しかしながら (however - very formal)",
+            "content": "結果は良い。しかしながら改善の余地がある。 \"The results are good. However, there is room for improvement.\" Very formal/academic"
+          }
+        ]
+      },
+      {
+        "level": 2,
+        "heading": "Common Mistakes",
+        "content": "",
+        "children": [
+          {
+            "level": 3,
+            "heading": "Using でも with formal writing",
+            "content": "Inappropriate: 研究は進んだ。でも問題がある。△ Better: 研究は進んだ。しかし問題がある。✓ \"Research progressed. However, there are problems.\" Match formality level"
+          },
+          {
+            "level": 3,
+            "heading": "Using しかし in casual speech",
+            "content": "Unnatural: お腹空いた。しかし食べない。△ Natural: お腹空いた。でも食べない。✓ \"I'm hungry. But I won't eat.\" Too stiff for conversation"
+          }
+        ]
+      },
+      {
+        "level": 2,
+        "heading": "でも as \"Even\"",
+        "content": "",
+        "children": [
+          {
+            "level": 3,
+            "heading": "Different meaning",
+            "content": "でも私は行く \"Even I will go\" (different でも) 誰でも \"Anyone\" (different でも) Context determines meaning"
+          }
+        ]
+      },
+      {
+        "level": 2,
+        "heading": "Alternatives",
+        "content": "",
+        "children": [
+          {
+            "level": 3,
+            "heading": "だけど/けど (casual)",
+            "content": "忙しい。だけど行く。 \"I'm busy. But I'll go.\" More casual than でも"
+          },
+          {
+            "level": 3,
+            "heading": "が (but - mid-sentence)",
+            "content": "忙しいが、行く。 \"I'm busy, but I'll go.\" Within same sentence"
+          }
+        ]
+      },
+      {
+        "level": 2,
+        "heading": "Emphasis with でも",
+        "content": "",
+        "children": [
+          {
+            "level": 3,
+            "heading": "Strong contrast",
+            "content": "嫌いだ。でも食べる。 \"I hate it. But I'll eat it.\" Emphasizes contradiction"
+          }
+        ]
+      },
+      {
+        "level": 2,
+        "heading": "Formal Writing Patterns",
+        "content": "",
+        "children": [
+          {
+            "level": 3,
+            "heading": "しかし in essays",
+            "content": "人口は増えた。しかし資源は限られている。 \"Population increased. However, resources are limited.\" Academic, analytical"
+          }
+        ]
+      },
+      {
+        "level": 2,
+        "heading": "Negative Contrasts",
+        "content": "",
+        "children": [
+          {
+            "level": 3,
+            "heading": "With negative sentences",
+            "content": "勉強しなかった。でもテストに合格した。 \"I didn't study. But I passed the test.\" Unexpected outcome"
+          }
+        ]
+      },
+      {
+        "level": 2,
+        "heading": "Time-based Contrasts",
+        "content": "昨日は晴れた。でも今日は雨だ。 \"Yesterday was sunny. But today it's raining.\" Temporal contrast"
+      },
+      {
+        "level": 2,
+        "heading": "Degree Contrast",
+        "content": "少し高い。でも買う。 \"It's a bit expensive. But I'll buy it.\" とても高い。しかし必要だ。 \"It's very expensive. However, it's necessary.\" Comparing degrees"
+      },
+      {
+        "level": 2,
+        "heading": "In Questions",
+        "content": "",
+        "children": [
+          {
+            "level": 3,
+            "heading": "Contrasting question",
+            "content": "A: 行く？ B: うーん...でも、疲れてる。 A: \"Will you go?\" B: \"Hmm... but I'm tired.\" Hesitant response"
+          }
+        ]
+      },
+      {
+        "level": 2,
+        "heading": "Practice Sentences",
+        "content": "",
+        "children": [
+          {
+            "level": 3,
+            "heading": "Basic",
+            "content": "でも examples: 疲れた。でも頑張る。 \"I'm tired. But I'll try hard.\" 高い。でも欲しい。 \"It's expensive. But I want it.\" 難しい。でもやる。 \"It's difficult. But I'll do it.\" しかし examples: 雨だった。しかし出かけた。 \"It was raining. However, I went out.\" 努力した。しかし失敗した。 \"I tried hard. However, I failed.\""
+          },
+          {
+            "level": 3,
+            "heading": "Intermediate",
+            "content": "昨日はとても忙しかった。でも今日は 少し時間がある。一緒に買い物に 行かない？ \"Yesterday was very busy. But today I have a little time. Want to go shopping together?\" この商品は高価である。しかし品質は 確かだ。長く使えることを考えれば、 妥当な価格と言える。 \"This product is expensive. However, the quality is certain. Considering it can be used for a long time, it can be said to be a reasonable price.\" 日本語の勉強は難しい。でも毎日 少しずつ続ければ、必ず上達する。 諦めないことが大切だ。 \"Studying Japanese is difficult. But if you continue little by little every day, you'll definitely improve. Not giving up is important.\""
+          },
+          {
+            "level": 3,
+            "heading": "Company",
+            "content": "About Pricing Blog Contact"
+          },
+          {
+            "level": 3,
+            "heading": "Legal",
+            "content": "Privacy Policy Terms of Service Cookie Policy"
+          }
+        ]
+      }
+    ],
+    "metadata": {
+      "title": "でも/しかし (But/However)"
+    },
+    "examples": [
+      {
+        "sentence": "About"
+      },
+      {
+        "sentence": "Pricing"
+      },
+      {
+        "sentence": "Blog"
+      },
+      {
+        "sentence": "Contact"
+      },
+      {
+        "sentence": "Privacy Policy"
+      },
+      {
+        "sentence": "Terms of Service"
+      },
+      {
+        "sentence": "Cookie Policy"
+      }
+    ]
+  },
+  "metadata": {
+    "extracted_at": "2026-01-01T22:19:28.824968700Z",
+    "duration_ms": 3,
+    "extractors_matched": [
+      "metadata",
+      "examples",
+      "sections"
+    ],
+    "extractors_failed": [
+      "vocab_tables",
+      "definitions",
+      "content_blocks"
+    ]
+  }
+}

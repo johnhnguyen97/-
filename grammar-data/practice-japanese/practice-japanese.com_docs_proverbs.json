@@ -1,0 +1,269 @@
+{
+  "config_name": "Language Learning Extractor",
+  "url": "https://practice-japanese.com/docs/proverbs/",
+  "data": {
+    "metadata": {
+      "title": "Proverbs (ことわざ)"
+    },
+    "sections": [
+      {
+        "level": 2,
+        "heading": "Proverbs (ことわざ)",
+        "content": "Japanese proverbs (ことわざ - kotowaza) are traditional sayings that convey wisdom, life lessons, and cultural values. Many reference nature, animals, and everyday life, reflecting Japanese perspectives and worldview.\n\nことわざ = Proverb Short, memorable Teach lessons Cultural wisdom Often use metaphors Historical origins"
+      },
+      {
+        "level": 2,
+        "heading": "Common Animal Proverbs",
+        "content": "",
+        "children": [
+          {
+            "level": 3,
+            "heading": "Cats",
+            "content": "猫に小判 \"Gold coins to a cat\" Meaning: Wasted on someone who can't appreciate it English equivalent: \"Pearls before swine\" Use: When valuable things go to waste\n\n猫の手も借りたい \"Want to borrow even a cat's paws\" Meaning: So busy you need any help available Use: Extremely busy situations"
+          },
+          {
+            "level": 3,
+            "heading": "Dogs",
+            "content": "犬も歩けば棒に当たる \"A dog that walks will hit a stick\" Meaning: Can mean either: 1. Try things and you'll have opportunities 2. Go out and you'll encounter trouble Context determines interpretation"
+          },
+          {
+            "level": 3,
+            "heading": "Monkeys",
+            "content": "猿も木から落ちる \"Even monkeys fall from trees\" Meaning: Even experts make mistakes English equivalent: \"Homer nods\" Use: When skilled person fails"
+          },
+          {
+            "level": 3,
+            "heading": "Birds",
+            "content": "能ある鷹は爪を隠す \"A capable hawk hides its talons\" Meaning: Truly able people are modest Use: Praising humility Japanese cultural value: Modesty\n\n鳥なき里の蝙蝠 \"A bat in a village without birds\" Meaning: Acting big when there's no competition English equivalent: \"Big fish in a small pond\""
+          }
+        ]
+      },
+      {
+        "level": 2,
+        "heading": "Effort and Perseverance",
+        "content": "",
+        "children": [
+          {
+            "level": 3,
+            "heading": "Patience",
+            "content": "石の上にも三年 \"Three years on a stone\" Meaning: Persevere and you'll succeed Use: Encouraging persistence Cultural value: Endurance\n\n継続は力なり \"Continuation is power\" Meaning: Persistence brings strength Use: Encouraging steady effort"
+          },
+          {
+            "level": 3,
+            "heading": "Small steps",
+            "content": "千里の道も一歩から \"A journey of a thousand miles begins with one step\" Meaning: Big things start small Same as English version Universal wisdom\n\n雨垂れ石を穿つ \"Dripping water pierces stone\" Meaning: Persistence overcomes anything Use: Encouraging continued effort"
+          }
+        ]
+      },
+      {
+        "level": 2,
+        "heading": "Wisdom and Action",
+        "content": "",
+        "children": [
+          {
+            "level": 3,
+            "heading": "Thinking before acting",
+            "content": "急がば回れ \"If in a hurry, take the detour\" Meaning: Haste makes waste; careful approach is faster English equivalent: \"More haste, less speed\" Very common proverb\n\n後悔先に立たず \"Regret doesn't precede action\" Meaning: Can't undo the past; think before acting Use: Warning about consequences"
+          },
+          {
+            "level": 3,
+            "heading": "Actions over words",
+            "content": "言うは易く行うは難し \"Easy to say, hard to do\" Meaning: Actions harder than words Universal truth"
+          }
+        ]
+      },
+      {
+        "level": 2,
+        "heading": "Human Nature",
+        "content": "",
+        "children": [
+          {
+            "level": 3,
+            "heading": "Character",
+            "content": "類は友を呼ぶ \"Similar types call their friends\" Meaning: Birds of a feather flock together Use: People associate with similar people\n\n十人十色 \"Ten people, ten colors\" Meaning: Everyone is different Use: Accepting diversity Cultural value: Individual differences okay"
+          },
+          {
+            "level": 3,
+            "heading": "Preparation",
+            "content": "備えあれば憂いなし \"With preparation, there's no worry\" Meaning: Be prepared English equivalent: \"Better safe than sorry\"\n\n転ばぬ先の杖 \"A walking stick before you fall\" Meaning: Take precautions Use: Encouraging preparation"
+          }
+        ]
+      },
+      {
+        "level": 2,
+        "heading": "Social Relations",
+        "content": "",
+        "children": [
+          {
+            "level": 3,
+            "heading": "Gratitude",
+            "content": "恩を仇で返す \"Return favor with betrayal\" Meaning: Bite the hand that feeds you Use: Condemning ingratitude Negative behavior"
+          },
+          {
+            "level": 3,
+            "heading": "Cooperation",
+            "content": "三人寄れば文殊の知恵 \"Three people together have Monju's wisdom\" Meaning: Collaboration brings wisdom English equivalent: \"Two heads are better than one\" Buddhist reference (Monju = wisdom deity)"
+          }
+        ]
+      },
+      {
+        "level": 2,
+        "heading": "Nature-Based Wisdom",
+        "content": "",
+        "children": [
+          {
+            "level": 3,
+            "heading": "Seasons and time",
+            "content": "一年の計は元旦にあり \"A year's plan begins on New Year's Day\" Meaning: Start with planning Use: Encouraging goal-setting New Year context\n\n花より団子 \"Dumplings over flowers\" Meaning: Practical over aesthetic Use: Preferring substance to style Cultural humor"
+          },
+          {
+            "level": 3,
+            "heading": "Water and fluidity",
+            "content": "水に流す \"Let it flow in water\" Meaning: Forgive and forget Use: Moving past conflicts Cultural value: Harmony"
+          }
+        ]
+      },
+      {
+        "level": 2,
+        "heading": "Caution and Warning",
+        "content": "",
+        "children": [
+          {
+            "level": 3,
+            "heading": "Danger",
+            "content": "虎穴に入らずんば虎子を得ず \"If you don't enter the tiger's den, you won't catch its cub\" Meaning: Nothing ventured, nothing gained Use: Encouraging calculated risks\n\n火のないところに煙は立たぬ \"No smoke without fire\" Meaning: Rumors have some basis English equivalent: Same Universal observation"
+          },
+          {
+            "level": 3,
+            "heading": "Excess",
+            "content": "過ぎたるは猶及ばざるが如し \"Too much is the same as too little\" Meaning: Excess is as bad as deficiency Use: Advocating moderation Balance valued"
+          }
+        ]
+      },
+      {
+        "level": 2,
+        "heading": "Irony and Contradiction",
+        "content": "",
+        "children": [
+          {
+            "level": 3,
+            "heading": "Unexpected outcomes",
+            "content": "瓢箪から駒 \"A horse from a gourd\" Meaning: Something unexpected happens Use: Surprising positive outcome Rare occurrence\n\n嘘から出た真 \"Truth coming from lies\" Meaning: A lie becomes reality Use: When fiction becomes fact"
+          }
+        ]
+      },
+      {
+        "level": 2,
+        "heading": "Success and Failure",
+        "content": "",
+        "children": [
+          {
+            "level": 3,
+            "heading": "Winning",
+            "content": "勝って兜の緒を締めよ \"Win and tighten your helmet straps\" Meaning: Don't let success make you careless Use: Warning against complacency Cultural wisdom"
+          },
+          {
+            "level": 3,
+            "heading": "Learning from mistakes",
+            "content": "失敗は成功のもと \"Failure is the foundation of success\" Meaning: Learn from mistakes Use: Encouraging after failure Growth mindset"
+          }
+        ]
+      },
+      {
+        "level": 2,
+        "heading": "Time and Opportunity",
+        "content": "",
+        "children": [
+          {
+            "level": 3,
+            "heading": "Timing",
+            "content": "善は急げ \"Hasten good deeds\" Meaning: Strike while the iron is hot Use: Seize opportunities\n\n時は金なり \"Time is money\" Meaning: Same as English Borrowed concept Modern proverb"
+          }
+        ]
+      },
+      {
+        "level": 2,
+        "heading": "Cultural Values Reflected",
+        "content": "",
+        "children": [
+          {
+            "level": 3,
+            "heading": "Common themes",
+            "content": "Modesty: 能ある鷹は爪を隠す Perseverance: 石の上にも三年 Harmony: 水に流す Preparation: 備えあれば憂いなし Cooperation: 三人寄れば文殊の知恵 Proverbs reflect what culture values Understanding them = understanding Japan"
+          }
+        ]
+      },
+      {
+        "level": 2,
+        "heading": "Usage in Conversation",
+        "content": "",
+        "children": [
+          {
+            "level": 3,
+            "heading": "When to use",
+            "content": "✓ Making a point ✓ Giving advice ✓ Explaining situations ✓ Teaching moments ❌ Don't overuse ❌ Not in casual chat constantly ❌ Sounds preachy if too frequent Use sparingly for impact"
+          }
+        ]
+      },
+      {
+        "level": 2,
+        "heading": "Common Mistakes",
+        "content": "❌ Using incorrectly Each has specific context ❌ Translating literally to English Cultural concepts may differ ❌ Using in wrong formality level Some are very formal Learn meaning AND usage context"
+      },
+      {
+        "level": 2,
+        "heading": "Quick Reference",
+        "content": "Most useful: - 急がば回れ (haste makes waste) - 猿も木から落ちる (experts err) - 能ある鷹は爪を隠す (hide ability) - 石の上にも三年 (persevere) - 十人十色 (everyone different) Start with these Learn more gradually",
+        "children": [
+          {
+            "level": 3,
+            "heading": "Company",
+            "content": "About Pricing Blog Contact"
+          },
+          {
+            "level": 3,
+            "heading": "Legal",
+            "content": "Privacy Policy Terms of Service Cookie Policy"
+          }
+        ]
+      }
+    ],
+    "examples": [
+      {
+        "sentence": "About"
+      },
+      {
+        "sentence": "Pricing"
+      },
+      {
+        "sentence": "Blog"
+      },
+      {
+        "sentence": "Contact"
+      },
+      {
+        "sentence": "Privacy Policy"
+      },
+      {
+        "sentence": "Terms of Service"
+      },
+      {
+        "sentence": "Cookie Policy"
+      }
+    ]
+  },
+  "metadata": {
+    "extracted_at": "2026-01-01T22:19:34.073141300Z",
+    "duration_ms": 4,
+    "extractors_matched": [
+      "metadata",
+      "examples",
+      "sections"
+    ],
+    "extractors_failed": [
+      "vocab_tables",
+      "definitions",
+      "content_blocks"
+    ]
+  }
+}

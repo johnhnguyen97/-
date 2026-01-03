@@ -1,0 +1,280 @@
+{
+  "config_name": "Language Learning Extractor",
+  "url": "https://practice-japanese.com/docs/kai-ga-aru/",
+  "data": {
+    "metadata": {
+      "title": "〜甲斐がある (Worth doing)"
+    },
+    "sections": [
+      {
+        "level": 2,
+        "heading": "What is 〜甲斐がある?",
+        "content": "〜甲斐がある (kai ga aru) expresses that something is worth doing or worthwhile, emphasizing the reward or satisfaction from effort. It focuses on personal fulfillment from action.\n\nEnglish equivalent: \"worth doing,\" \"worthwhile,\" \"rewarding\"\n\nStructure: [Verb た-form / Verb ます-stem] + 甲斐がある\n\nやる (yaru - do) → やった + 甲斐がある = やった甲斐がある \"was worth doing\" 頑張る (ganbaru - try hard) → 頑張り + 甲斐がある = 頑張り甲斐がある \"worth trying hard for\" 生きる (ikiru - live) → 生き + 甲斐がある = 生き甲斐がある \"worth living\" / \"having purpose in life\""
+      },
+      {
+        "level": 2,
+        "heading": "Basic Formation",
+        "content": "",
+        "children": [
+          {
+            "level": 3,
+            "heading": "With た-form (past actions)",
+            "content": "[Verb た-form] + 甲斐がある/あった\n\nやった甲斐がある (yatta kai ga aru) - \"was worth doing\" 頑張った甲斐がある (ganbatta kai ga aru) - \"was worth trying hard\" 来た甲斐がある (kita kai ga aru) - \"was worth coming\" 勉強した甲斐がある (benkyou shita kai ga aru) - \"was worth studying\""
+          },
+          {
+            "level": 3,
+            "heading": "With ます-stem (future/general)",
+            "content": "[Verb ます-stem] + 甲斐がある\n\n頑張り甲斐がある (ganbari gai ga aru) - \"worth trying hard for\" やり甲斐がある (yari gai ga aru) - \"rewarding to do\" 働き甲斐がある (hataraki gai ga aru) - \"rewarding to work\" 読み甲斐がある (yomi gai ga aru) - \"worth reading\""
+          }
+        ]
+      },
+      {
+        "level": 2,
+        "heading": "Expressing Past Worthwhileness",
+        "content": "",
+        "children": [
+          {
+            "level": 3,
+            "heading": "Effort was rewarded",
+            "content": "頑張った甲斐があった。 Ganbatta kai ga atta. \"It was worth trying hard.\" 来た甲斐があった。 Kita kai ga atta. \"It was worth coming.\" 勉強した甲斐があった。 Benkyou shita kai ga atta. \"It was worth studying.\" 諦めなかった甲斐があった。 Akiramenakatta kai ga atta. \"It was worth not giving up.\""
+          }
+        ]
+      },
+      {
+        "level": 2,
+        "heading": "Job Satisfaction",
+        "content": "",
+        "children": [
+          {
+            "level": 3,
+            "heading": "Work fulfillment",
+            "content": "やり甲斐がある仕事。 Yari gai ga aru shigoto. \"A rewarding job.\" 働き甲斐がある会社。 Hataraki gai ga aru kaisha. \"A company worth working for.\" この仕事はやり甲斐がある。 Kono shigoto wa yari gai ga aru. \"This work is rewarding.\" やり甲斐のある職場。 Yari gai no aru shokuba. \"A rewarding workplace.\""
+          }
+        ]
+      },
+      {
+        "level": 2,
+        "heading": "生き甲斐 (Purpose in Life)",
+        "content": "",
+        "children": [
+          {
+            "level": 3,
+            "heading": "Special expression",
+            "content": "生き甲斐 (iki gai) - \"purpose in life\" / \"reason for living\" 生き甲斐を見つけた。 Iki gai wo mitsuketa. \"I found my purpose in life.\" 仕事が生き甲斐だ。 Shigoto ga iki gai da. \"Work is my reason for living.\" 子供が生き甲斐です。 Kodomo ga iki gai desu. \"My children are my purpose in life.\""
+          }
+        ]
+      },
+      {
+        "level": 2,
+        "heading": "Worth the Effort",
+        "content": "",
+        "children": [
+          {
+            "level": 3,
+            "heading": "Various activities",
+            "content": "見に行った甲斐があった。 Mi ni itta kai ga atta. \"It was worth going to see.\" 聞いた甲斐があった。 Kiita kai ga atta. \"It was worth listening.\" 待った甲斐があった。 Matta kai ga atta. \"It was worth waiting.\" 教えた甲斐があった。 Oshieta kai ga atta. \"It was worth teaching.\""
+          }
+        ]
+      },
+      {
+        "level": 2,
+        "heading": "Rewarding Activities",
+        "content": "",
+        "children": [
+          {
+            "level": 3,
+            "heading": "General worthwhileness",
+            "content": "読み甲斐がある本。 Yomi gai ga aru hon. \"A book worth reading.\" 行き甲斐がある場所。 Iki gai ga aru basho. \"A place worth going to.\" 見甲斐がある映画。 Mi gai ga aru eiga. \"A movie worth watching.\" 学び甲斐がある。 Manabi gai ga aru. \"Worth learning.\""
+          }
+        ]
+      },
+      {
+        "level": 2,
+        "heading": "Negative Form",
+        "content": "",
+        "children": [
+          {
+            "level": 3,
+            "heading": "Not worthwhile",
+            "content": "やった甲斐がない。 Yatta kai ga nai. \"It wasn't worth doing.\" 頑張った甲斐がなかった。 Ganbatta kai ga nakatta. \"It wasn't worth trying hard.\" 来た甲斐がない。 Kita kai ga nai. \"It wasn't worth coming.\" やり甲斐がない仕事。 Yari gai ga nai shigoto. \"An unrewarding job.\""
+          }
+        ]
+      },
+      {
+        "level": 2,
+        "heading": "Using の for Noun Modification",
+        "content": "",
+        "children": [
+          {
+            "level": 3,
+            "heading": "Describing nouns",
+            "content": "やり甲斐のある仕事 (yari gai no aru shigoto) - \"a rewarding job\" 読み甲斐のある本 (yomi gai no aru hon) - \"a book worth reading\" 生き甲斐のある人生 (iki gai no aru jinsei) - \"a meaningful life\" やり甲斐のない仕事。 Yari gai no nai shigoto. \"An unrewarding job.\" 生き甲斐のある毎日。 Iki gai no aru mainichi. \"Meaningful everyday life.\""
+          }
+        ]
+      },
+      {
+        "level": 2,
+        "heading": "Polite Forms",
+        "content": "Casual: やった甲斐がある Polite: やった甲斐があります Past: やった甲斐があった / やった甲斐がありました 頑張った甲斐がありました。 Ganbatta kai ga arimashita. \"It was worth trying hard.\" 来た甲斐がありますね。 Kita kai ga arimasu ne. \"It's worth coming, isn't it?\""
+      },
+      {
+        "level": 2,
+        "heading": "Expressing Satisfaction",
+        "content": "",
+        "children": [
+          {
+            "level": 3,
+            "heading": "Positive outcome",
+            "content": "やっぱり来た甲斐があった！ Yappari kita kai ga atta! \"I knew it was worth coming!\" 頑張った甲斐があって嬉しい。 Ganbatta kai ga atte ureshii. \"I'm happy that trying hard paid off.\" 勉強した甲斐がありました。 Benkyou shita kai ga arimashita. \"It was worth studying.\""
+          }
+        ]
+      },
+      {
+        "level": 2,
+        "heading": "Common Expressions",
+        "content": "やった甲斐がある (yatta kai ga aru) - \"was worth doing\" 頑張った甲斐がある (ganbatta kai ga aru) - \"was worth trying\" 来た甲斐がある (kita kai ga aru) - \"was worth coming\" やり甲斐がある (yari gai ga aru) - \"rewarding\" 働き甲斐がある (hataraki gai ga aru) - \"rewarding to work\" 生き甲斐 (iki gai) - \"purpose in life\" 読み甲斐がある (yomi gai ga aru) - \"worth reading\" 見甲斐がある (mi gai ga aru) - \"worth seeing\""
+      },
+      {
+        "level": 2,
+        "heading": "Comparing 甲斐がある and 価値がある",
+        "content": "",
+        "children": [
+          {
+            "level": 3,
+            "heading": "Worth effort vs inherent value",
+            "content": "甲斐がある - Worth the effort (personal reward):\n\n頑張った甲斐がある (ganbatta kai ga aru) \"was worth trying hard\" (personal satisfaction)\n\n価値がある - Has value (objective worth):\n\n価値がある絵 (kachi ga aru e) \"a valuable painting\" (objective value)\n\n| Pattern | Focus | Example | | ---------- | --------------- | ------------------ | | 甲斐がある | Personal reward | 頑張った甲斐がある | | 価値がある | Objective value | 価値がある |\n\nSee: 〜価値がある (Have value)"
+          }
+        ]
+      },
+      {
+        "level": 2,
+        "heading": "Disappointment",
+        "content": "",
+        "children": [
+          {
+            "level": 3,
+            "heading": "When effort wasn't rewarded",
+            "content": "せっかく来たのに、甲斐がなかった。 Sekkaku kita no ni, kai ga nakatta. \"Even though I made the effort to come, it wasn't worth it.\" 頑張った甲斐がなくて残念だ。 Ganbatta kai ga nakute zannen da. \"It's disappointing that trying hard wasn't worthwhile.\""
+          }
+        ]
+      },
+      {
+        "level": 2,
+        "heading": "Personal Fulfillment",
+        "content": "",
+        "children": [
+          {
+            "level": 3,
+            "heading": "Finding meaning",
+            "content": "この仕事にはやり甲斐がある。 Kono shigoto ni wa yari gai ga aru. \"This work is fulfilling.\" 子育ては大変だけど、やり甲斐がある。 Kosodate wa taihen da kedo, yari gai ga aru. \"Child-rearing is tough, but rewarding.\""
+          }
+        ]
+      },
+      {
+        "level": 2,
+        "heading": "Common Mistakes",
+        "content": "",
+        "children": [
+          {
+            "level": 3,
+            "heading": "Mistake 1: Using wrong verb form",
+            "content": "❌ 頑張る甲斐がある (dictionary form for past) ✓ 頑張った甲斐がある (た-form for completed action) ✓ 頑張り甲斐がある (ます-stem for general)"
+          },
+          {
+            "level": 3,
+            "heading": "Mistake 2: Confusing 甲斐 and 価値",
+            "content": "甲斐 = personal reward/worth the effort 価値 = objective value/worth 頑張った甲斐がある ✓ (personal) 頑張った価値がある ❌ (unnatural)"
+          },
+          {
+            "level": 3,
+            "heading": "Mistake 3: Wrong particle",
+            "content": "❌ 甲斐をある ✓ 甲斐がある\n\nUse が, not を."
+          },
+          {
+            "level": 3,
+            "heading": "Mistake 4: Overusing with objects",
+            "content": "甲斐がある focuses on actions/efforts, not just objects.\n\n✓ やり甲斐がある (action) ✓ 読み甲斐がある本 (action + object) ❌ 甲斐がある本 (missing action)"
+          }
+        ]
+      },
+      {
+        "level": 2,
+        "heading": "Summary",
+        "content": "Key Points:\n\n甲斐がある expresses personal worthwhileness Formation: [Verb た-form / ます-stem] + 甲斐がある Emphasizes reward from effort Common with: やる, 頑張る, 働く, 読む, 来る Special: 生き甲斐 (purpose in life) Uses の for noun modification Different from 価値がある (objective value) Essential for expressing fulfillment and satisfaction",
+        "children": [
+          {
+            "level": 3,
+            "heading": "Company",
+            "content": "About Pricing Blog Contact"
+          },
+          {
+            "level": 3,
+            "heading": "Legal",
+            "content": "Privacy Policy Terms of Service Cookie Policy"
+          }
+        ]
+      }
+    ],
+    "examples": [
+      {
+        "sentence": "甲斐がある expresses personal worthwhileness"
+      },
+      {
+        "sentence": "Formation: [Verb た-form / ます-stem] + 甲斐がある"
+      },
+      {
+        "sentence": "Emphasizes reward from effort"
+      },
+      {
+        "sentence": "Common with: やる, 頑張る, 働く, 読む, 来る"
+      },
+      {
+        "sentence": "Special: 生き甲斐 (purpose in life)"
+      },
+      {
+        "sentence": "Uses の for noun modification"
+      },
+      {
+        "sentence": "Different from 価値がある (objective value)"
+      },
+      {
+        "sentence": "Essential for expressing fulfillment and satisfaction"
+      },
+      {
+        "sentence": "About"
+      },
+      {
+        "sentence": "Pricing"
+      },
+      {
+        "sentence": "Blog"
+      },
+      {
+        "sentence": "Contact"
+      },
+      {
+        "sentence": "Privacy Policy"
+      },
+      {
+        "sentence": "Terms of Service"
+      },
+      {
+        "sentence": "Cookie Policy"
+      }
+    ]
+  },
+  "metadata": {
+    "extracted_at": "2026-01-01T22:19:30.702282100Z",
+    "duration_ms": 3,
+    "extractors_matched": [
+      "metadata",
+      "examples",
+      "sections"
+    ],
+    "extractors_failed": [
+      "vocab_tables",
+      "definitions",
+      "content_blocks"
+    ]
+  }
+}

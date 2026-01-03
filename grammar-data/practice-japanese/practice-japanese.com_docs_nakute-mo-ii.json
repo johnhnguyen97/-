@@ -1,0 +1,351 @@
+{
+  "config_name": "Language Learning Extractor",
+  "url": "https://practice-japanese.com/docs/nakute-mo-ii/",
+  "data": {
+    "examples": [
+      {
+        "sentence": "〜てもいい - May/Permission"
+      },
+      {
+        "sentence": "〜てはいけない - Must not"
+      },
+      {
+        "sentence": "〜なければならない - Must"
+      },
+      {
+        "sentence": "〜ないでください - Please don't"
+      },
+      {
+        "sentence": "〜なくてもかまわない - It's fine not to"
+      },
+      {
+        "sentence": "Permission expressions - Various permission forms"
+      },
+      {
+        "sentence": "About"
+      },
+      {
+        "sentence": "Pricing"
+      },
+      {
+        "sentence": "Blog"
+      },
+      {
+        "sentence": "Contact"
+      },
+      {
+        "sentence": "Privacy Policy"
+      },
+      {
+        "sentence": "Terms of Service"
+      },
+      {
+        "sentence": "Cookie Policy"
+      }
+    ],
+    "metadata": {
+      "title": "〜なくてもいい (Don't have to)"
+    },
+    "sections": [
+      {
+        "level": 2,
+        "heading": "What is 〜なくてもいい?",
+        "content": "〜なくてもいい expresses lack of obligation or that something is not necessary , meaning \"don't have to,\" \"don't need to,\" or \"it's okay not to.\"\n\n行かなくてもいい \"You don't have to go\" 心配しなくてもいいです \"You don't need to worry\""
+      },
+      {
+        "level": 2,
+        "heading": "Formation",
+        "content": "",
+        "children": [
+          {
+            "level": 3,
+            "heading": "Pattern: Verb negative て-form + もいい",
+            "content": "Step 1: Negative form (ない) Step 2: Change ない to なくて Step 3: Add もいい\n\n| Verb | Negative | なくて form | + もいい | | ------ | -------- | ----------- | ---------------- | | 行く | 行かない | 行かなくて | 行かなくてもいい | | 食べる | 食べない | 食べなくて | 食べなくてもいい | | する | しない | しなくて | しなくてもいい | | 来る | 来ない | 来なくて | 来なくてもいい |"
+          },
+          {
+            "level": 3,
+            "heading": "Examples",
+            "content": "読む → 読まなくてもいい (don't have to read) 書く → 書かなくてもいい (don't have to write) 働く → 働かなくてもいい (don't have to work)"
+          }
+        ]
+      },
+      {
+        "level": 2,
+        "heading": "Basic Usage",
+        "content": "",
+        "children": [
+          {
+            "level": 3,
+            "heading": "Stating no obligation",
+            "content": "今日は来なくてもいいです \"You don't have to come today\" 全部食べなくてもいいよ \"You don't have to eat everything\" 急がなくてもいい \"You don't have to hurry\""
+          },
+          {
+            "level": 3,
+            "heading": "Giving permission to skip",
+            "content": "宿題をしなくてもいい \"You don't have to do homework\" 無理しなくてもいいですよ \"You don't have to push yourself\""
+          }
+        ]
+      },
+      {
+        "level": 2,
+        "heading": "Politeness Levels",
+        "content": "",
+        "children": [
+          {
+            "level": 3,
+            "heading": "Casual",
+            "content": "行かなくてもいい \"Don't have to go\" やらなくてもいい \"Don't have to do\""
+          },
+          {
+            "level": 3,
+            "heading": "Polite",
+            "content": "行かなくてもいいです \"You don't have to go\" やらなくてもいいですよ \"You don't have to do it\""
+          },
+          {
+            "level": 3,
+            "heading": "Formal",
+            "content": "提出しなくてもよろしいです \"You don't need to submit it\""
+          }
+        ]
+      },
+      {
+        "level": 2,
+        "heading": "Common Conversations",
+        "content": "",
+        "children": [
+          {
+            "level": 3,
+            "heading": "Example 1: Reassuring",
+            "content": "A: 手伝わなくてもいいですか？ \"Is it okay if I don't help?\" B: うん、大丈夫。一人でできるから \"Yeah, it's fine. I can do it alone\" A: 本当に？ \"Really?\" B: 本当に。心配しなくてもいいよ \"Really. You don't need to worry\""
+          },
+          {
+            "level": 3,
+            "heading": "Example 2: Permission",
+            "content": "A: 明日の会議、出なければなりませんか？ \"Do I have to attend tomorrow's meeting?\" B: いいえ、出なくてもいいです \"No, you don't have to attend\" A: 助かります \"That helps\""
+          },
+          {
+            "level": 3,
+            "heading": "Example 3: Consideration",
+            "content": "A: プレゼント、高いものじゃなくてもいい？ \"Is it okay if the present isn't expensive?\" B: もちろん！気持ちが大切だから \"Of course! It's the thought that counts\""
+          }
+        ]
+      },
+      {
+        "level": 2,
+        "heading": "Opposite: Must/Have to",
+        "content": "",
+        "children": [
+          {
+            "level": 3,
+            "heading": "なくてもいい (don't have to)",
+            "content": "行かなくてもいい \"You don't have to go\" (No obligation)"
+          },
+          {
+            "level": 3,
+            "heading": "なければならない (must)",
+            "content": "行かなければならない \"You must go\" (Obligation)"
+          },
+          {
+            "level": 3,
+            "heading": "Comparing",
+            "content": "勉強しなくてもいい \"You don't have to study\" ↔ 勉強しなければならない \"You must study\""
+          }
+        ]
+      },
+      {
+        "level": 2,
+        "heading": "Common Patterns",
+        "content": "",
+        "children": [
+          {
+            "level": 3,
+            "heading": "〜なくてもいいよ (reassuring)",
+            "content": "急がなくてもいいよ \"You don't have to hurry\" 全部言わなくてもいいよ \"You don't have to say everything\""
+          },
+          {
+            "level": 3,
+            "heading": "〜なくてもいいですか？ (asking)",
+            "content": "今日行かなくてもいいですか？ \"Is it okay if I don't go today?\" 答えなくてもいいですか？ \"Can I not answer?\""
+          },
+          {
+            "level": 3,
+            "heading": "〜なくてもいいから (because you don't have to)",
+            "content": "無理しなくてもいいから、ゆっくり休んで \"You don't have to push yourself, so rest well\" 急がなくてもいいから、気をつけて来てね \"You don't have to hurry, so come carefully\""
+          }
+        ]
+      },
+      {
+        "level": 2,
+        "heading": "Softening Refusals",
+        "content": "",
+        "children": [
+          {
+            "level": 3,
+            "heading": "Polite way to decline help",
+            "content": "A: 手伝いましょうか？ \"Shall I help?\" B: ありがとうございます。でも、大丈夫です。手伝わなくてもいいですよ \"Thank you. But I'm fine. You don't need to help\""
+          }
+        ]
+      },
+      {
+        "level": 2,
+        "heading": "Common Verbs with なくてもいい",
+        "content": "",
+        "children": [
+          {
+            "level": 3,
+            "heading": "Actions",
+            "content": "行かなくてもいい - don't have to go やらなくてもいい - don't have to do 来なくてもいい - don't have to come"
+          },
+          {
+            "level": 3,
+            "heading": "Communication",
+            "content": "言わなくてもいい - don't have to say 聞かなくてもいい - don't have to ask 答えなくてもいい - don't have to answer"
+          },
+          {
+            "level": 3,
+            "heading": "Emotions/States",
+            "content": "心配しなくてもいい - don't need to worry 気にしなくてもいい - don't need to care 我慢しなくてもいい - don't have to endure"
+          }
+        ]
+      },
+      {
+        "level": 2,
+        "heading": "Asking About Necessity",
+        "content": "",
+        "children": [
+          {
+            "level": 3,
+            "heading": "Checking if required",
+            "content": "今すぐやらなくてもいいですか？ \"Is it okay if I don't do it right now?\" 全部読まなくてもいいですか？ \"Do I have to read everything?\" 持って行かなくてもいいですか？ \"Is it okay if I don't bring it?\""
+          }
+        ]
+      },
+      {
+        "level": 2,
+        "heading": "With Time Expressions",
+        "content": "今日は来なくてもいい \"You don't have to come today\" 明日までに出さなくてもいいです \"You don't have to submit it by tomorrow\" 今すぐ決めなくてもいいよ \"You don't have to decide right now\""
+      },
+      {
+        "level": 2,
+        "heading": "Expressing Relief",
+        "content": "",
+        "children": [
+          {
+            "level": 3,
+            "heading": "When obligation is removed",
+            "content": "A: レポート、来週までに出せばいいよ \"You can submit the report by next week\" B: 本当ですか？今週中に出さなくてもいいんですか？ \"Really? I don't have to submit it this week?\" A: うん、大丈夫 \"Yeah, it's fine\" B: よかった！ \"Great!\""
+          }
+        ]
+      },
+      {
+        "level": 2,
+        "heading": "Common Mistakes",
+        "content": "",
+        "children": [
+          {
+            "level": 3,
+            "heading": "Mistake 1: Wrong negative form",
+            "content": "Wrong: 行かないでもいい ❌ Right: 行かなくてもいい ✓ \"Don't have to go\" Use なくて, not ないで!"
+          },
+          {
+            "level": 3,
+            "heading": "Mistake 2: Confusing with prohibition",
+            "content": "なくてもいい = don't have to (no obligation) てはいけない = must not (prohibition) Different meanings!"
+          },
+          {
+            "level": 3,
+            "heading": "Mistake 3: Using for things you want to prohibit",
+            "content": "Wrong: 食べなくてもいい (when you mean \"don't eat\") ❌ Right: 食べてはいけない ✓ \"Must not eat\" なくてもいい = optional, not prohibited!"
+          }
+        ]
+      },
+      {
+        "level": 2,
+        "heading": "Casual Variations",
+        "content": "",
+        "children": [
+          {
+            "level": 3,
+            "heading": "なくていい (more casual)",
+            "content": "行かなくていい \"Don't have to go\" やらなくていいよ \"Don't have to do it\""
+          },
+          {
+            "level": 3,
+            "heading": "Even more casual (spoken)",
+            "content": "行かんでいい (dialectal) やらんでいい (dialectal)"
+          }
+        ]
+      },
+      {
+        "level": 2,
+        "heading": "Comparing Permission Forms",
+        "content": "| Expression | Meaning | Usage | | ---------------- | ------------- | ---------------- | | てもいい | May/can | Permission to do | | なくてもいい | Don't have to | No obligation | | てはいけない | Must not | Prohibition | | なければならない | Must | Obligation |\n\n食べてもいい - You may eat 食べなくてもいい - You don't have to eat 食べてはいけない - You must not eat 食べなければならない - You must eat"
+      },
+      {
+        "level": 2,
+        "heading": "With Reasons",
+        "content": "",
+        "children": [
+          {
+            "level": 3,
+            "heading": "〜から、なくてもいい",
+            "content": "明日休みだから、早く起きなくてもいい \"Because tomorrow is a day off, you don't have to wake up early\" 時間があるから、急がなくてもいいよ \"Because we have time, you don't have to hurry\""
+          }
+        ]
+      },
+      {
+        "level": 2,
+        "heading": "Practice Sentences",
+        "content": "",
+        "children": [
+          {
+            "level": 3,
+            "heading": "Basic",
+            "content": "今日は来なくてもいいです \"You don't have to come today\" 全部食べなくてもいいよ \"You don't have to eat everything\" 心配しなくてもいい \"You don't need to worry\""
+          },
+          {
+            "level": 3,
+            "heading": "Intermediate",
+            "content": "無理して笑わなくてもいいんですよ \"You don't have to force yourself to smile\" 今すぐ答えなくてもいいから、ゆっくり考えて \"You don't have to answer right now, so think carefully\" 遠慮しなくてもいいですよ。何でも言ってください \"You don't need to hold back. Please say anything\""
+          },
+          {
+            "level": 3,
+            "heading": "Advanced",
+            "content": "完璧じゃなくてもいいから、とりあえずやってみよう \"It doesn't have to be perfect, so let's just try it\" 全部理解しなくてもいいです。大切なポイントだけ覚えてください \"You don't have to understand everything. Just remember the important points\" 人と比べなくてもいい。自分のペースで進めばいいんだよ \"You don't have to compare yourself with others. Just go at your own pace\""
+          }
+        ]
+      },
+      {
+        "level": 2,
+        "heading": "Related Grammar Points",
+        "content": "〜てもいい - May/Permission 〜てはいけない - Must not 〜なければならない - Must 〜ないでください - Please don't 〜なくてもかまわない - It's fine not to Permission expressions - Various permission forms",
+        "children": [
+          {
+            "level": 3,
+            "heading": "Company",
+            "content": "About Pricing Blog Contact"
+          },
+          {
+            "level": 3,
+            "heading": "Legal",
+            "content": "Privacy Policy Terms of Service Cookie Policy"
+          }
+        ]
+      }
+    ]
+  },
+  "metadata": {
+    "extracted_at": "2026-01-01T22:19:31.911079300Z",
+    "duration_ms": 4,
+    "extractors_matched": [
+      "metadata",
+      "examples",
+      "sections"
+    ],
+    "extractors_failed": [
+      "vocab_tables",
+      "definitions",
+      "content_blocks"
+    ]
+  }
+}

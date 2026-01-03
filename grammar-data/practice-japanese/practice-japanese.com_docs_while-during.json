@@ -1,0 +1,307 @@
+{
+  "config_name": "Language Learning Extractor",
+  "url": "https://practice-japanese.com/docs/while-during/",
+  "data": {
+    "sections": [
+      {
+        "level": 2,
+        "heading": "Overview",
+        "content": "Japanese has several ways to express \"while\" or \"during\":\n\n間に (あいだに - aida ni) - during/while (something happens in that timeframe) 間 (あいだ - aida) - during/while (throughout) ながら (nagara) - while doing (simultaneous actions by same person)\n\n勉強している間に電話が来た \"A call came while I was studying\" 音楽を聞きながら勉強する \"I study while listening to music\""
+      },
+      {
+        "level": 2,
+        "heading": "間に (aida ni) - During/While",
+        "content": "",
+        "children": [
+          {
+            "level": 3,
+            "heading": "Formation",
+            "content": "Verb (ている form) + 間に Noun + の + 間に 寝ている間に - while/during sleeping 夏休みの間に - during summer vacation"
+          },
+          {
+            "level": 3,
+            "heading": "Meaning",
+            "content": "Something happens during a timeframe or while something else is happening:\n\n寝ている間に雨が降った \"It rained while I was sleeping\" 日本にいる間に富士山を見たい \"I want to see Mt. Fuji while I'm in Japan\" 夏休みの間に旅行した \"I traveled during summer vacation\""
+          },
+          {
+            "level": 3,
+            "heading": "Key Point",
+            "content": "間に emphasizes that something happens within that period - often a completed action or event that occurs during the background action."
+          }
+        ]
+      },
+      {
+        "level": 2,
+        "heading": "間 (aida) - During/Throughout",
+        "content": "",
+        "children": [
+          {
+            "level": 3,
+            "heading": "Formation",
+            "content": "Verb (ている form) + 間 Noun + の + 間 寝ている間 - while sleeping (the whole time) 夏休みの間 - during summer vacation (throughout)"
+          },
+          {
+            "level": 3,
+            "heading": "Meaning",
+            "content": "Describes a continuous state throughout the period:\n\n寝ている間、ずっと夢を見ていた \"I was dreaming the whole time while sleeping\" 日本にいる間、日本語を勉強する \"I'll study Japanese while I'm in Japan\" (ongoing) 待っている間、本を読んでいた \"I was reading while waiting\" (continuous)"
+          },
+          {
+            "level": 3,
+            "heading": "間 vs 間に",
+            "content": "間に: Something happens during (point/completion) 寝ている間に電話が来た \"A call came while I was sleeping\" 間: Continuous throughout 寝ている間、ずっと静かだった \"It was quiet the whole time while sleeping\""
+          }
+        ]
+      },
+      {
+        "level": 2,
+        "heading": "ながら (nagara) - While Doing",
+        "content": "",
+        "children": [
+          {
+            "level": 3,
+            "heading": "Formation",
+            "content": "Verb (masu-stem) + ながら 食べながら - while eating 見ながら - while watching 聞きながら - while listening"
+          },
+          {
+            "level": 3,
+            "heading": "Meaning",
+            "content": "Same person doing two actions simultaneously. The action with ながら is secondary/background:\n\n音楽を聞きながら勉強する \"I study while listening to music\" (listening = background, studying = main) テレビを見ながら食べる \"I eat while watching TV\" (watching = background, eating = main) 歩きながら話す \"I talk while walking\" (walking = background, talking = main)"
+          },
+          {
+            "level": 3,
+            "heading": "Important Rule",
+            "content": "Both actions must be done by the same person :\n\nCorrect: 私は音楽を聞きながら勉強する ✓ \"I study while listening to music\" Wrong with different subjects: 彼が寝ながら、私は勉強する ❌"
+          }
+        ]
+      },
+      {
+        "level": 2,
+        "heading": "Comparing the Three",
+        "content": "",
+        "children": [
+          {
+            "level": 3,
+            "heading": "間に (something happens during)",
+            "content": "勉強している間に友達が来た \"My friend came while I was studying\" (friend coming = event during studying)"
+          },
+          {
+            "level": 3,
+            "heading": "間 (continuous throughout)",
+            "content": "勉強している間、静かだった \"It was quiet while I was studying\" (quiet = continuous state throughout)"
+          },
+          {
+            "level": 3,
+            "heading": "ながら (simultaneous actions, same person)",
+            "content": "音楽を聞きながら勉強する \"I study while listening to music\" (both actions by me, simultaneously)"
+          }
+        ]
+      },
+      {
+        "level": 2,
+        "heading": "Common Patterns with ながら",
+        "content": "",
+        "children": [
+          {
+            "level": 3,
+            "heading": "Daily Activities",
+            "content": "コーヒーを飲みながら新聞を読む \"I read the newspaper while drinking coffee\" 歩きながら電話する \"I talk on the phone while walking\" 料理しながら音楽を聞く \"I listen to music while cooking\""
+          },
+          {
+            "level": 3,
+            "heading": "Working/Studying",
+            "content": "音楽を聞きながら勉強する \"I study while listening to music\" メモを取りながら授業を聞く \"I listen to class while taking notes\" 考えながら書く \"I write while thinking\""
+          }
+        ]
+      },
+      {
+        "level": 2,
+        "heading": "Common Patterns with 間/間に",
+        "content": "",
+        "children": [
+          {
+            "level": 3,
+            "heading": "With ている",
+            "content": "寝ている間に \"while sleeping\" 待っている間に \"while waiting\" 日本にいる間に \"while in Japan\""
+          },
+          {
+            "level": 3,
+            "heading": "With Nouns",
+            "content": "授業の間に \"during class\" 夏休みの間に \"during summer vacation\" 会議の間に \"during the meeting\""
+          }
+        ]
+      },
+      {
+        "level": 2,
+        "heading": "Common Conversations",
+        "content": "",
+        "children": [
+          {
+            "level": 3,
+            "heading": "Example 1: Daily Routine",
+            "content": "A: いつ音楽を聞きますか？ \"When do you listen to music?\" B: 勉強しながら聞きます \"I listen while studying\" A: 集中できますか？ \"Can you concentrate?\" B: はい、できます \"Yes, I can\""
+          },
+          {
+            "level": 3,
+            "heading": "Example 2: Vacation",
+            "content": "A: 夏休みに何をしましたか？ \"What did you do during summer vacation?\" B: 日本にいる間に色々な所に行きました \"While I was in Japan, I went to various places\" A: 富士山は見ましたか？ \"Did you see Mt. Fuji?\" B: はい、旅行している間に見ました \"Yes, I saw it while traveling\""
+          },
+          {
+            "level": 3,
+            "heading": "Example 3: Unexpected Event",
+            "content": "A: どうして電話に出なかったの？ \"Why didn't you answer the phone?\" B: シャワーを浴びている間に電話が来たんだ \"The call came while I was taking a shower\" A: そうだったんだ \"I see\""
+          }
+        ]
+      },
+      {
+        "level": 2,
+        "heading": "Common Mistakes",
+        "content": "",
+        "children": [
+          {
+            "level": 3,
+            "heading": "Mistake 1: Using ながら with different subjects",
+            "content": "Wrong: 彼が食べながら、私は勉強する ❌ Right: 彼が食べている間、私は勉強する ✓ \"While he's eating, I study\" Or: 私は食べながら勉強する ✓ \"I study while eating\""
+          },
+          {
+            "level": 3,
+            "heading": "Mistake 2: Wrong verb form with ながら",
+            "content": "Wrong: 食べてながら ❌ Right: 食べながら ✓ \"while eating\" Wrong: 食べるながら ❌ Right: 食べながら ✓"
+          },
+          {
+            "level": 3,
+            "heading": "Mistake 3: Confusing 間 and 間に",
+            "content": "For continuous state - use 間: 寝ている間、静かだった ✓ For event during - use 間に: 寝ている間に電話が来た ✓"
+          }
+        ]
+      },
+      {
+        "level": 2,
+        "heading": "Special Uses of ながら",
+        "content": "",
+        "children": [
+          {
+            "level": 3,
+            "heading": "ながらも (although/while)",
+            "content": "Expresses contrast or concession:\n\n忙しいながらも、手伝った \"Although busy, I helped\" 小さいながらも、強い \"Although small, it's strong\""
+          },
+          {
+            "level": 3,
+            "heading": "〜つつ (while - formal)",
+            "content": "More formal version of ながら:\n\n考えつつ書く \"write while thinking\" 働きつつ勉強する \"study while working\""
+          }
+        ]
+      },
+      {
+        "level": 2,
+        "heading": "Practice Sentences",
+        "content": "",
+        "children": [
+          {
+            "level": 3,
+            "heading": "間に (during - event occurs)",
+            "content": "寝ている間に雨が降った \"It rained while I was sleeping\" 日本にいる間に富士山を見たい \"I want to see Mt. Fuji while in Japan\" 待っている間に本を読んだ \"I read a book while waiting\" 授業の間に寝てしまった \"I fell asleep during class\""
+          },
+          {
+            "level": 3,
+            "heading": "間 (during - continuous)",
+            "content": "夏休みの間、ずっと勉強した \"I studied throughout summer vacation\" 日本にいる間、毎日日本語を話す \"I speak Japanese every day while in Japan\" 待っている間、ずっと立っていた \"I was standing the whole time while waiting\""
+          },
+          {
+            "level": 3,
+            "heading": "ながら (while - simultaneous)",
+            "content": "音楽を聞きながら勉強する \"I study while listening to music\" テレビを見ながら食べる \"I eat while watching TV\" 歩きながら話す \"I talk while walking\" コーヒーを飲みながら新聞を読む \"I read the newspaper while drinking coffee\""
+          },
+          {
+            "level": 3,
+            "heading": "Comparing",
+            "content": "Same event, different expressions: 彼が食べている間に、電話が来た \"A call came while he was eating\" 彼が食べている間、私は待っていた \"I was waiting while he was eating\" 私は食べながら本を読んだ \"I read a book while eating\""
+          }
+        ]
+      },
+      {
+        "level": 2,
+        "heading": "Related Grammar Points",
+        "content": "〜ている (te-iru) - Progressive form Te-form - Connecting actions Duration (間) - Time periods Simultaneous Actions - Multiple actions Masu-stem - Verb stem formation 〜つつ (tsutu) - While (formal)",
+        "children": [
+          {
+            "level": 3,
+            "heading": "Company",
+            "content": "About Pricing Blog Contact"
+          },
+          {
+            "level": 3,
+            "heading": "Legal",
+            "content": "Privacy Policy Terms of Service Cookie Policy"
+          }
+        ]
+      }
+    ],
+    "metadata": {
+      "title": "While/During (間に、ながら)"
+    },
+    "examples": [
+      {
+        "sentence": "間に (あいだに - aida ni) - during/while (something happens in that timeframe)"
+      },
+      {
+        "sentence": "間 (あいだ - aida) - during/while (throughout)"
+      },
+      {
+        "sentence": "ながら (nagara) - while doing (simultaneous actions by same person)"
+      },
+      {
+        "sentence": "〜ている (te-iru) - Progressive form"
+      },
+      {
+        "sentence": "Te-form - Connecting actions"
+      },
+      {
+        "sentence": "Duration (間) - Time periods"
+      },
+      {
+        "sentence": "Simultaneous Actions - Multiple actions"
+      },
+      {
+        "sentence": "Masu-stem - Verb stem formation"
+      },
+      {
+        "sentence": "〜つつ (tsutu) - While (formal)"
+      },
+      {
+        "sentence": "About"
+      },
+      {
+        "sentence": "Pricing"
+      },
+      {
+        "sentence": "Blog"
+      },
+      {
+        "sentence": "Contact"
+      },
+      {
+        "sentence": "Privacy Policy"
+      },
+      {
+        "sentence": "Terms of Service"
+      },
+      {
+        "sentence": "Cookie Policy"
+      }
+    ]
+  },
+  "metadata": {
+    "extracted_at": "2026-01-01T22:19:37.743228200Z",
+    "duration_ms": 5,
+    "extractors_matched": [
+      "metadata",
+      "examples",
+      "sections"
+    ],
+    "extractors_failed": [
+      "vocab_tables",
+      "definitions",
+      "content_blocks"
+    ]
+  }
+}

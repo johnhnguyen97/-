@@ -1,0 +1,450 @@
+{
+  "config_name": "Language Learning Extractor",
+  "url": "https://practice-japanese.com/docs/jlpt-n2-grammar/",
+  "data": {
+    "examples": [
+      {
+        "sentence": "Read extensively - News articles, essays, formal writing"
+      },
+      {
+        "sentence": "Learn kanji readings - Many N2 patterns use specific kanji"
+      },
+      {
+        "sentence": "Understand formality levels - Know when each pattern is appropriate"
+      },
+      {
+        "sentence": "Practice output - Use patterns in your own sentences"
+      },
+      {
+        "sentence": "Study collocations - Learn common word combinations"
+      },
+      {
+        "sentence": "JLPT N1 Grammar - Near-native level"
+      },
+      {
+        "sentence": "Read academic papers and literature"
+      },
+      {
+        "sentence": "Master formal business Japanese"
+      },
+      {
+        "sentence": "About"
+      },
+      {
+        "sentence": "Pricing"
+      },
+      {
+        "sentence": "Blog"
+      },
+      {
+        "sentence": "Contact"
+      },
+      {
+        "sentence": "Privacy Policy"
+      },
+      {
+        "sentence": "Terms of Service"
+      },
+      {
+        "sentence": "Cookie Policy"
+      }
+    ],
+    "sections": [
+      {
+        "level": 2,
+        "heading": "JLPT N2 Grammar Overview",
+        "content": "JLPT N2 represents advanced Japanese proficiency. It covers complex grammatical structures, formal written expressions, and nuanced speech patterns. N2 grammar appears frequently in newspapers, formal writing, and professional contexts. This level includes approximately 200 grammar points."
+      },
+      {
+        "level": 2,
+        "heading": "Advanced Formal Expressions",
+        "content": "",
+        "children": [
+          {
+            "level": 3,
+            "heading": "〜に値する - Deserve/Be worthy of",
+            "content": "See: 〜に値する (Deserve)\n\n尊敬に値する人物。 Sonkei ni ataisuru jinbutsu. \"A person worthy of respect.\""
+          },
+          {
+            "level": 3,
+            "heading": "〜を通して/〜を通じて - Through/Via",
+            "content": "経験を通して学んだ。 Keiken wo tooshite mananda. \"I learned through experience.\""
+          },
+          {
+            "level": 3,
+            "heading": "〜に基づいて - Based on",
+            "content": "データに基づいて判断する。 Deeta ni motozuite handan suru. \"Judge based on data.\""
+          },
+          {
+            "level": 3,
+            "heading": "〜をめぐって - Concerning/Regarding",
+            "content": "政策をめぐって議論した。 Seisaku wo megutte giron shita. \"Debated concerning policy.\""
+          },
+          {
+            "level": 3,
+            "heading": "〜に先立って - Prior to/Before",
+            "content": "会議に先立って資料を送る。 Kaigi ni sakidatte shiryou wo okuru. \"Send materials prior to the meeting.\""
+          },
+          {
+            "level": 3,
+            "heading": "〜にあたって/〜にあたり - On the occasion of",
+            "content": "開会にあたり、挨拶を述べる。 Kaikai ni atari, aisatsu wo noberu. \"Give greetings on the occasion of opening.\""
+          }
+        ]
+      },
+      {
+        "level": 2,
+        "heading": "Extent and Limit",
+        "content": "",
+        "children": [
+          {
+            "level": 3,
+            "heading": "〜限り - As far as/As long as",
+            "content": "See: 〜限り (As far as)\n\n知る限りでは正しい。 Shiru kagiri dewa tadashii. \"As far as I know, it's correct.\""
+          },
+          {
+            "level": 3,
+            "heading": "〜だけ - As much as/Only",
+            "content": "See: 〜だけ (As much as)\n\nできるだけ早く来てください。 Dekiru dake hayaku kite kudasai. \"Please come as soon as possible.\""
+          },
+          {
+            "level": 3,
+            "heading": "〜に過ぎない - Nothing but/Merely",
+            "content": "冗談に過ぎない。 Joudan ni suginai. \"It's nothing but a joke.\""
+          },
+          {
+            "level": 3,
+            "heading": "〜に限って - Only/Particularly",
+            "content": "彼に限ってそんなことはない。 Kare ni kagitte sonna koto wa nai. \"He of all people wouldn't do such a thing.\""
+          },
+          {
+            "level": 3,
+            "heading": "〜に限らず - Not limited to",
+            "content": "学生に限らず誰でも参加できる。 Gakusei ni kagirazu dare demo sanka dekiru. \"Not limited to students, anyone can participate.\""
+          }
+        ]
+      },
+      {
+        "level": 2,
+        "heading": "Inevitability and Naturalness",
+        "content": "",
+        "children": [
+          {
+            "level": 3,
+            "heading": "〜ざるを得ない - Cannot help but/Have no choice but to",
+            "content": "従わざるを得ない。 Shitagawazaru wo enai. \"I have no choice but to obey.\""
+          },
+          {
+            "level": 3,
+            "heading": "〜ないではいられない - Cannot help but",
+            "content": "笑わないではいられない。 Warawanai dewa irarenai. \"I cannot help but laugh.\""
+          },
+          {
+            "level": 3,
+            "heading": "〜ずにはいられない - Cannot help but",
+            "content": "心配せずにはいられない。 Shinpai sezu ni wa irarenai. \"I cannot help but worry.\""
+          },
+          {
+            "level": 3,
+            "heading": "〜ものだ - Used to/Should/Natural",
+            "content": "子供の頃はよく遊んだものだ。 Kodomo no koro wa yoku asonda mono da. \"I used to play a lot as a child.\""
+          },
+          {
+            "level": 3,
+            "heading": "〜ものではない - Should not/It's not proper",
+            "content": "人前で泣くものではない。 Hitomae de naku mono dewa nai. \"One shouldn't cry in public.\""
+          }
+        ]
+      },
+      {
+        "level": 2,
+        "heading": "Tendency and Inclination",
+        "content": "",
+        "children": [
+          {
+            "level": 3,
+            "heading": "〜がちだ - Tend to (negative)",
+            "content": "See: 〜がち (Tend to)\n\n最近遅刻しがちだ。 Saikin chikoku shigachi da. \"I tend to be late recently.\""
+          },
+          {
+            "level": 3,
+            "heading": "〜きらいがある - Tend to (have a tendency)",
+            "content": "彼は早とちりするきらいがある。 Kare wa hayatochiri suru kirai ga aru. \"He has a tendency to jump to conclusions.\""
+          },
+          {
+            "level": 3,
+            "heading": "〜向きだ/〜向けだ - Suitable for",
+            "content": "初心者向けの本。 Shoshinsha muke no hon. \"A book suitable for beginners.\""
+          }
+        ]
+      },
+      {
+        "level": 2,
+        "heading": "Contrast Advanced",
+        "content": "",
+        "children": [
+          {
+            "level": 3,
+            "heading": "〜反面 - On the other hand/While",
+            "content": "便利な反面、高い。 Benri na hanmen, takai. \"While convenient, it's expensive.\""
+          },
+          {
+            "level": 3,
+            "heading": "〜一方で - On the other hand/Meanwhile",
+            "content": "経済は成長する一方で、環境は悪化している。 Keizai wa seichou suru ippou de, kankyou wa akka shite iru. \"While the economy is growing, the environment is deteriorating.\""
+          },
+          {
+            "level": 3,
+            "heading": "〜どころか - Far from/Let alone",
+            "content": "楽どころか大変だった。 Raku dokoro ka taihen datta. \"Far from being easy, it was difficult.\""
+          },
+          {
+            "level": 3,
+            "heading": "〜はもちろん/〜はもとより - Not to mention/Let alone",
+            "content": "英語はもちろん、フランス語も話せる。 Eigo wa mochiron, furansugo mo hanaseru. \"I can speak not only English but also French.\""
+          }
+        ]
+      },
+      {
+        "level": 2,
+        "heading": "Cause and Reason Advanced",
+        "content": "",
+        "children": [
+          {
+            "level": 3,
+            "heading": "〜がゆえに - Because of/Due to",
+            "content": "若さゆえの過ち。 Wakasa yue no ayamachi. \"A mistake due to youth.\""
+          },
+          {
+            "level": 3,
+            "heading": "〜からして - Judging from/Starting from",
+            "content": "名前からして外国人だ。 Namae kara shite gaikokujin da. \"Judging from the name, they're a foreigner.\""
+          },
+          {
+            "level": 3,
+            "heading": "〜からには - Now that/Since",
+            "content": "始めたからには最後までやる。 Hajimeta kara ni wa saigo made yaru. \"Now that I've started, I'll do it to the end.\""
+          },
+          {
+            "level": 3,
+            "heading": "〜だけに - Precisely because/All the more",
+            "content": "プロだけに技術が高い。 Puro dake ni gijutsu ga takai. \"Precisely because he's a pro, his skill is high.\""
+          },
+          {
+            "level": 3,
+            "heading": "〜だけあって - As expected of/Worthy of",
+            "content": "有名なだけあって美味しい。 Yuumei na dake atte oishii. \"As expected of being famous, it's delicious.\""
+          }
+        ]
+      },
+      {
+        "level": 2,
+        "heading": "Supposition and Assumption",
+        "content": "",
+        "children": [
+          {
+            "level": 3,
+            "heading": "〜とみられる/〜とみなす - Be regarded as/Be considered",
+            "content": "事故とみなされる。 Jiko to minasareru. \"It's regarded as an accident.\""
+          },
+          {
+            "level": 3,
+            "heading": "〜といったところだ - Something like/About",
+            "content": "参加者は100人といったところだ。 Sankasha wa hyakunin to itta tokoro da. \"There are something like 100 participants.\""
+          },
+          {
+            "level": 3,
+            "heading": "〜ともなると/〜ともなれば - When it comes to/If",
+            "content": "プロともなると違う。 Puro to mo naru to chigau. \"When it comes to professionals, it's different.\""
+          },
+          {
+            "level": 3,
+            "heading": "〜と思いきや - Contrary to expectation",
+            "content": "簡単と思いきや難しかった。 Kantan to omoikiya muzukashikatta. \"Contrary to thinking it would be easy, it was difficult.\""
+          }
+        ]
+      },
+      {
+        "level": 2,
+        "heading": "Condition and Circumstance",
+        "content": "",
+        "children": [
+          {
+            "level": 3,
+            "heading": "〜ば〜ほど - The more... the more",
+            "content": "考えれば考えるほど分からなくなる。 Kangaereba kangaeru hodo wakaranaku naru. \"The more I think, the less I understand.\""
+          },
+          {
+            "level": 3,
+            "heading": "〜ようでは - If (negative implication)",
+            "content": "そんなことで怒るようでは駄目だ。 Sonna koto de okoru you dewa dame da. \"If you get angry over such things, that's no good.\""
+          },
+          {
+            "level": 3,
+            "heading": "〜ようものなら - If by any chance",
+            "content": "遅れようものなら怒られる。 Okureyou mono nara okorareru. \"If I'm late by any chance, I'll be scolded.\""
+          },
+          {
+            "level": 3,
+            "heading": "〜ないことには - Unless/Without",
+            "content": "試さないことには分からない。 Tamesanai koto ni wa wakaranai. \"You won't know unless you try.\""
+          }
+        ]
+      },
+      {
+        "level": 2,
+        "heading": "Result and Consequence",
+        "content": "",
+        "children": [
+          {
+            "level": 3,
+            "heading": "〜結果 - As a result",
+            "content": "努力した結果、成功した。 Doryoku shita kekka, seikou shita. \"As a result of effort, I succeeded.\""
+          },
+          {
+            "level": 3,
+            "heading": "〜あげく - In the end/After all",
+            "content": "悩んだあげく、断った。 Nayanda ageku, kotowatta. \"After much agonizing, I refused.\""
+          },
+          {
+            "level": 3,
+            "heading": "〜末に - After (much effort)",
+            "content": "考え抜いた末に決めた。 Kangaenuita sue ni kimeta. \"I decided after thinking it through.\""
+          },
+          {
+            "level": 3,
+            "heading": "〜次第だ - It depends on",
+            "content": "君次第だ。 Kimi shidai da. \"It depends on you.\""
+          }
+        ]
+      },
+      {
+        "level": 2,
+        "heading": "Inevitability",
+        "content": "",
+        "children": [
+          {
+            "level": 3,
+            "heading": "〜べく - In order to/So as to",
+            "content": "成功すべく努力する。 Seikou subeku doryoku suru. \"Make efforts in order to succeed.\""
+          },
+          {
+            "level": 3,
+            "heading": "〜べくして - As was meant to be",
+            "content": "成功すべくして成功した。 Seikou subeku shite seikou shita. \"Succeeded as was meant to be.\""
+          },
+          {
+            "level": 3,
+            "heading": "〜べからず - Must not/Should not (written)",
+            "content": "立入るべからず。 Tachiiru bekarazu. \"Entry prohibited.\""
+          }
+        ]
+      },
+      {
+        "level": 2,
+        "heading": "Proportionality",
+        "content": "",
+        "children": [
+          {
+            "level": 3,
+            "heading": "〜に応じて - According to/In response to",
+            "content": "能力に応じて給料が決まる。 Nouryoku ni oujite kyuuryou ga kimaru. \"Salary is determined according to ability.\""
+          },
+          {
+            "level": 3,
+            "heading": "〜に伴って - Along with/As",
+            "content": "発展に伴って問題も増える。 Hatten ni tomonatte mondai mo fueru. \"Problems increase along with development.\""
+          },
+          {
+            "level": 3,
+            "heading": "〜につき - Per/Due to",
+            "content": "一人につき一つ。 Hitori ni tsuki hitotsu. \"One per person.\""
+          }
+        ]
+      },
+      {
+        "level": 2,
+        "heading": "Emphasis",
+        "content": "",
+        "children": [
+          {
+            "level": 3,
+            "heading": "〜ばこそ - Precisely because",
+            "content": "信じればこそ待った。 Shinjireba koso matta. \"I waited precisely because I believed.\""
+          },
+          {
+            "level": 3,
+            "heading": "〜てこそ - Only by/Only when",
+            "content": "努力してこそ成功する。 Doryoku shite koso seikou suru. \"You succeed only by making effort.\""
+          },
+          {
+            "level": 3,
+            "heading": "〜ことだし - Precisely because/Considering",
+            "content": "雨だことだし、中止しよう。 Ame da koto dashi, chuushi shiyou. \"Precisely because it's raining, let's cancel.\""
+          }
+        ]
+      },
+      {
+        "level": 2,
+        "heading": "State and Appearance",
+        "content": "",
+        "children": [
+          {
+            "level": 3,
+            "heading": "〜かねない - Might/Could possibly",
+            "content": "危険を伴いかねない。 Kiken wo tomonai kanenai. \"It could possibly involve danger.\""
+          },
+          {
+            "level": 3,
+            "heading": "〜かねる - Cannot/Hard to",
+            "content": "お答えしかねます。 Okotae shikanemasu. \"I cannot answer.\""
+          },
+          {
+            "level": 3,
+            "heading": "〜極まりない/〜極まる - Extremely",
+            "content": "失礼極まりない。 Shitsurei kiwamarinai. \"Extremely rude.\""
+          }
+        ]
+      },
+      {
+        "level": 2,
+        "heading": "Study Tips for N2 Grammar",
+        "content": "Read extensively - News articles, essays, formal writing Learn kanji readings - Many N2 patterns use specific kanji Understand formality levels - Know when each pattern is appropriate Practice output - Use patterns in your own sentences Study collocations - Learn common word combinations"
+      },
+      {
+        "level": 2,
+        "heading": "Next Steps",
+        "content": "After mastering N2 grammar, progress to:\n\nJLPT N1 Grammar - Near-native level Read academic papers and literature Master formal business Japanese\n\nNote: N2 is considered the minimum level for professional work in Japanese. Take time to master these thoroughly.",
+        "children": [
+          {
+            "level": 3,
+            "heading": "Company",
+            "content": "About Pricing Blog Contact"
+          },
+          {
+            "level": 3,
+            "heading": "Legal",
+            "content": "Privacy Policy Terms of Service Cookie Policy"
+          }
+        ]
+      }
+    ],
+    "metadata": {
+      "title": "JLPT N2 Grammar List"
+    }
+  },
+  "metadata": {
+    "extracted_at": "2026-01-01T22:19:30.364729200Z",
+    "duration_ms": 3,
+    "extractors_matched": [
+      "metadata",
+      "examples",
+      "sections"
+    ],
+    "extractors_failed": [
+      "vocab_tables",
+      "definitions",
+      "content_blocks"
+    ]
+  }
+}

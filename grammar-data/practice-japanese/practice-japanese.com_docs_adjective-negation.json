@@ -1,0 +1,332 @@
+{
+  "config_name": "Language Learning Extractor",
+  "url": "https://practice-japanese.com/docs/adjective-negation/",
+  "data": {
+    "examples": [
+      {
+        "sentence": "About"
+      },
+      {
+        "sentence": "Pricing"
+      },
+      {
+        "sentence": "Blog"
+      },
+      {
+        "sentence": "Contact"
+      },
+      {
+        "sentence": "Privacy Policy"
+      },
+      {
+        "sentence": "Terms of Service"
+      },
+      {
+        "sentence": "Cookie Policy"
+      }
+    ],
+    "metadata": {
+      "title": "Adjective Negation"
+    },
+    "sections": [
+      {
+        "level": 2,
+        "heading": "Adjective Negation",
+        "content": "Adjective negation differs between い-adjectives and な-adjectives . Each type follows distinct patterns for expressing \"not [adjective].\"\n\nい-adjectives: Change い to くない 高い → 高くない \"not expensive\" な-adjectives: Add じゃない/ではない 静か → 静かじゃない \"not quiet\" Different types Different patterns"
+      },
+      {
+        "level": 2,
+        "heading": "い-Adjective Negation",
+        "content": "",
+        "children": [
+          {
+            "level": 3,
+            "heading": "Change い to くない",
+            "content": "高い → 高くない \"expensive\" → \"not expensive\" 大きい → 大きくない \"big\" → \"not big\" 面白い → 面白くない \"interesting\" → \"not interesting\" 美味しい → 美味しくない \"delicious\" → \"not delicious\" 難しい → 難しくない \"difficult\" → \"not difficult\" Replace final い Add くない Regular pattern"
+          }
+        ]
+      },
+      {
+        "level": 2,
+        "heading": "Special Case: いい",
+        "content": "",
+        "children": [
+          {
+            "level": 3,
+            "heading": "Irregular adjective",
+            "content": "いい (good) uses よい stem: いい → よくない \"good\" → \"not good\" NOT いくない Unique exception Common adjective よくありません (polite) \"not good\""
+          }
+        ]
+      },
+      {
+        "level": 2,
+        "heading": "い-Adjective Past Negative",
+        "content": "",
+        "children": [
+          {
+            "level": 3,
+            "heading": "Was not",
+            "content": "高くなかった \"wasn't expensive\" 面白くなかった \"wasn't interesting\" 美味しくなかった \"wasn't delicious\" くない → くなかった Regular conjugation"
+          }
+        ]
+      },
+      {
+        "level": 2,
+        "heading": "Polite い-Adjective Negative",
+        "content": "",
+        "children": [
+          {
+            "level": 3,
+            "heading": "Formal negation",
+            "content": "Casual: 高くない Polite: 高くないです More formal: 高くありません Casual: 面白くない Polite: 面白くないです More formal: 面白くありません Add です for politeness Or use ありません Context determines"
+          }
+        ]
+      },
+      {
+        "level": 2,
+        "heading": "な-Adjective Negation",
+        "content": "",
+        "children": [
+          {
+            "level": 3,
+            "heading": "Add じゃない/ではない",
+            "content": "Casual: 静か → 静かじゃない \"quiet\" → \"not quiet\" 便利 → 便利じゃない \"convenient\" → \"not convenient\" Formal: 静か → 静かではない 便利 → 便利ではない じゃない = casual ではない = formal Same structure as nouns"
+          }
+        ]
+      },
+      {
+        "level": 2,
+        "heading": "な-Adjective Past Negative",
+        "content": "",
+        "children": [
+          {
+            "level": 3,
+            "heading": "Was not",
+            "content": "Casual: 静かじゃなかった \"wasn't quiet\" Formal: 静かではなかった 便利ではありませんでした \"wasn't convenient\" Past tense added Regular pattern"
+          }
+        ]
+      },
+      {
+        "level": 2,
+        "heading": "Noun Negation (Same as な)",
+        "content": "",
+        "children": [
+          {
+            "level": 3,
+            "heading": "Not a [noun]",
+            "content": "学生じゃない / 学生ではない \"not a student\" 先生じゃない / 先生ではない \"not a teacher\" 日本人じゃない \"not Japanese (person)\" Same pattern as な-adjectives Uses copula negation"
+          }
+        ]
+      },
+      {
+        "level": 2,
+        "heading": "じゃ vs では",
+        "content": "",
+        "children": [
+          {
+            "level": 3,
+            "heading": "Formality difference",
+            "content": "じゃない: - More casual - Common in speech - Natural conversation ではない: - More formal - Written language - Official contexts Both correct Choose by formality Context determines"
+          }
+        ]
+      },
+      {
+        "level": 2,
+        "heading": "Polite Forms",
+        "content": "",
+        "children": [
+          {
+            "level": 3,
+            "heading": "です/ます level",
+            "content": "い-adjectives: 高くないです (casual polite) 高くありません (formal polite) な-adjectives: 静かじゃないです (casual polite) 静かではありません (formal polite) Nouns: 学生じゃないです (casual polite) 学生ではありません (formal polite) Multiple politeness levels Adjust to situation"
+          }
+        ]
+      },
+      {
+        "level": 2,
+        "heading": "Te-Form Negatives",
+        "content": "",
+        "children": [
+          {
+            "level": 3,
+            "heading": "Not...and",
+            "content": "い-adjectives: 高くなくて \"not expensive and...\" 面白くなくて \"not interesting, so...\" な-adjectives: 静かじゃなくて \"not quiet and...\" 便利じゃなくて \"not convenient, so...\" Connecting ideas Showing reason Common pattern"
+          }
+        ]
+      },
+      {
+        "level": 2,
+        "heading": "Adverb Form",
+        "content": "",
+        "children": [
+          {
+            "level": 3,
+            "heading": "In a not-[adj] way",
+            "content": "い-adjectives: 高くなく \"not expensively\" 大きくなく \"not largely\" Used before する verbs: 高くなく買う \"buy not expensively\" 大きくなく作る \"make not largely\" Adverbial usage Less common Formal feel"
+          }
+        ]
+      },
+      {
+        "level": 2,
+        "heading": "Conditional Negative",
+        "content": "",
+        "children": [
+          {
+            "level": 3,
+            "heading": "If not",
+            "content": "い-adjectives: 高くなければ \"if not expensive\" 面白くなければ \"if not interesting\" な-adjectives: 静かでなければ \"if not quiet\" 便利でなければ \"if not convenient\" Conditional form \"If not\" meaning Common in conditions"
+          }
+        ]
+      },
+      {
+        "level": 2,
+        "heading": "Emphasis Patterns",
+        "content": "",
+        "children": [
+          {
+            "level": 3,
+            "heading": "Very not / not at all",
+            "content": "全然高くない \"not expensive at all\" 全く面白くない \"not interesting at all\" あまり大きくない \"not very big\" Emphatic negation Strengthening denial Common intensifiers"
+          }
+        ]
+      },
+      {
+        "level": 2,
+        "heading": "Double Adjectives",
+        "content": "",
+        "children": [
+          {
+            "level": 3,
+            "heading": "Both negative",
+            "content": "高くなくて、不便 \"not expensive and inconvenient\" 面白くなくて、つまらない \"not interesting and boring\" Combining adjectives Listing qualities Natural flow"
+          }
+        ]
+      },
+      {
+        "level": 2,
+        "heading": "Questions with Negatives",
+        "content": "",
+        "children": [
+          {
+            "level": 3,
+            "heading": "Isn't it?",
+            "content": "高くない？ \"Isn't it expensive?\" 面白くないですか？ \"Isn't it interesting?\" 静かじゃない？ \"Isn't it quiet?\" Seeking confirmation Expecting agreement Common pattern"
+          }
+        ]
+      },
+      {
+        "level": 2,
+        "heading": "Negative Comparisons",
+        "content": "",
+        "children": [
+          {
+            "level": 3,
+            "heading": "Not as...as",
+            "content": "これは高くない \"This is not expensive\" あれほど高くない \"Not as expensive as that\" そんなに大きくない \"Not that big\" Relative negation Comparison implied"
+          }
+        ]
+      },
+      {
+        "level": 2,
+        "heading": "Softening Statements",
+        "content": "",
+        "children": [
+          {
+            "level": 3,
+            "heading": "Not very",
+            "content": "あまり高くない \"not very expensive\" それほど難しくない \"not that difficult\" そんなに遠くない \"not so far\" Moderate negation Softening Diplomatic"
+          }
+        ]
+      },
+      {
+        "level": 2,
+        "heading": "With すぎる",
+        "content": "",
+        "children": [
+          {
+            "level": 3,
+            "heading": "Not too much",
+            "content": "Affirmative: 高すぎる \"too expensive\" Negative: 高すぎない \"not too expensive\" Negating excess Appropriate level Common expression"
+          }
+        ]
+      },
+      {
+        "level": 2,
+        "heading": "Written Style",
+        "content": "",
+        "children": [
+          {
+            "level": 3,
+            "heading": "Formal negation",
+            "content": "Written Japanese often uses: 高くない (plain) 高くありません (polite) Literary: 高からず (classical) Modern writing standard Polite forms common"
+          }
+        ]
+      },
+      {
+        "level": 2,
+        "heading": "Casual Contractions",
+        "content": "",
+        "children": [
+          {
+            "level": 3,
+            "heading": "Spoken shortcuts",
+            "content": "ない → ねえ (dialectal) 高くない → 高くねえ じゃない → じゃん (casual) 学生じゃない → 学生じゃん Very casual Regional variations Not standard"
+          }
+        ]
+      },
+      {
+        "level": 2,
+        "heading": "Past Polite Forms",
+        "content": "",
+        "children": [
+          {
+            "level": 3,
+            "heading": "Was not (polite)",
+            "content": "い-adjectives: 高くなかったです 高くありませんでした な-adjectives: 静かじゃなかったです 静かではありませんでした Polite past negative Formal contexts Standard forms"
+          }
+        ]
+      },
+      {
+        "level": 2,
+        "heading": "Common Mistakes",
+        "content": "❌ Wrong い-adjective negation ✗ 高いない ✗ 高いじゃない ✓ Correct form ✓ 高くない ❌ Wrong な-adjective negation ✗ 静かくない ✓ Correct form ✓ 静かじゃない ❌ Forgetting いい exception ✗ いくない ✓ Irregular form ✓ よくない ❌ Mixing types Don't use い-adjective pattern for な ✓ Learn which type Use correct negation Master distinction Practice both types Know exceptions"
+      },
+      {
+        "level": 2,
+        "heading": "Practical Examples",
+        "content": "",
+        "children": [
+          {
+            "level": 3,
+            "heading": "Real-life usage",
+            "content": "この店は高くない \"This store is not expensive\" 映画は面白くなかった \"Movie wasn't interesting\" 部屋は静かじゃない \"Room is not quiet\" 今日は忙しくありません \"Not busy today\" 彼は親切じゃない \"He's not kind\" 天気はよくない \"Weather is not good\" ここは便利じゃなかった \"This place wasn't convenient\" あまり難しくないです \"Not very difficult\" 全然怖くない \"Not scary at all\" そんなに遠くないよ \"Not that far\" Daily descriptions Natural speech Common patterns Essential expressions Real contexts"
+          },
+          {
+            "level": 3,
+            "heading": "Company",
+            "content": "About Pricing Blog Contact"
+          },
+          {
+            "level": 3,
+            "heading": "Legal",
+            "content": "Privacy Policy Terms of Service Cookie Policy"
+          }
+        ]
+      }
+    ]
+  },
+  "metadata": {
+    "extracted_at": "2026-01-01T22:19:28.013095700Z",
+    "duration_ms": 4,
+    "extractors_matched": [
+      "metadata",
+      "examples",
+      "sections"
+    ],
+    "extractors_failed": [
+      "vocab_tables",
+      "definitions",
+      "content_blocks"
+    ]
+  }
+}

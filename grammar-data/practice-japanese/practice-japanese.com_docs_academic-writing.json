@@ -1,0 +1,320 @@
+{
+  "config_name": "Language Learning Extractor",
+  "url": "https://practice-japanese.com/docs/academic-writing/",
+  "data": {
+    "metadata": {
+      "title": "Academic Writing"
+    },
+    "examples": [
+      {
+        "sentence": "About"
+      },
+      {
+        "sentence": "Pricing"
+      },
+      {
+        "sentence": "Blog"
+      },
+      {
+        "sentence": "Contact"
+      },
+      {
+        "sentence": "Privacy Policy"
+      },
+      {
+        "sentence": "Terms of Service"
+      },
+      {
+        "sentence": "Cookie Policy"
+      }
+    ],
+    "sections": [
+      {
+        "level": 2,
+        "heading": "Academic Writing",
+        "content": "Academic writing in Japanese (学術論文) follows strict conventions including である style, logical structure, specialized vocabulary, and objective tone. It's essential for research papers, theses, and scholarly publications.\n\nKey features: - である style exclusively - Logical structure (序論・本論・結論) - Hedging language - Citations and references - Objective stance Scholarly tone Rigorous methodology"
+      },
+      {
+        "level": 2,
+        "heading": "である Style Required",
+        "content": "",
+        "children": [
+          {
+            "level": 3,
+            "heading": "Formal assertion",
+            "content": "この研究は重要である \"This research is important\" 結果は明らかである \"The results are clear\" 仮説は正しいと考えられる \"The hypothesis is thought to be correct\" NOT です・ます Always である Academic standard"
+          }
+        ]
+      },
+      {
+        "level": 2,
+        "heading": "Paper Structure",
+        "content": "",
+        "children": [
+          {
+            "level": 3,
+            "heading": "Standard sections",
+            "content": "序論 (Introduction) - 研究背景 \"research background\" - 目的 \"objective\" - 先行研究 \"previous research\" 本論 (Main body) - 方法 \"methodology\" - 結果 \"results\" - 考察 \"discussion\" 結論 (Conclusion) - まとめ \"summary\" - 今後の課題 \"future issues\" Standard organization Clear hierarchy Logical flow"
+          }
+        ]
+      },
+      {
+        "level": 2,
+        "heading": "Hedging Language",
+        "content": "",
+        "children": [
+          {
+            "level": 3,
+            "heading": "Academic caution",
+            "content": "〜と考えられる \"is thought to be\" 結果は有意であると考えられる 〜と思われる \"seems to be\" 問題であると思われる 〜可能性がある \"there is a possibility\" 影響する可能性がある 〜傾向がある \"tends to\" 増加する傾向がある Avoiding absolute claims Scholarly caution Nuanced assertion"
+          }
+        ]
+      },
+      {
+        "level": 2,
+        "heading": "Stating Research Purpose",
+        "content": "",
+        "children": [
+          {
+            "level": 3,
+            "heading": "Objective expression",
+            "content": "本研究の目的は〜である \"The objective of this research is...\" 本稿では〜を明らかにする \"This paper clarifies...\" 本論文は〜を論じる \"This thesis discusses...\" 〜を検討する \"examine\" 〜を分析する \"analyze\" 〜を考察する \"consider\" Clear purpose statement Academic framing"
+          }
+        ]
+      },
+      {
+        "level": 2,
+        "heading": "Methodology Description",
+        "content": "",
+        "children": [
+          {
+            "level": 3,
+            "heading": "Research methods",
+            "content": "方法は以下の通りである \"The method is as follows\" 実験は〜のように行った \"The experiment was conducted as follows\" データは〜によって収集された \"Data was collected by...\" 〜を用いて \"using, by means of\" 統計を用いて分析 \"analyzed using statistics\" Precise description Reproducibility Scientific rigor"
+          }
+        ]
+      },
+      {
+        "level": 2,
+        "heading": "Results Presentation",
+        "content": "",
+        "children": [
+          {
+            "level": 3,
+            "heading": "Findings",
+            "content": "結果は表1に示す \"Results are shown in Table 1\" 図2に見られるように \"As can be seen in Figure 2\" 有意な差が認められた \"A significant difference was observed\" 〜という結果が得られた \"The result... was obtained\" Objective reporting Visual reference Statistical precision"
+          }
+        ]
+      },
+      {
+        "level": 2,
+        "heading": "Discussion Section",
+        "content": "",
+        "children": [
+          {
+            "level": 3,
+            "heading": "Interpretation",
+            "content": "この結果から〜が示唆される \"From these results, ... is suggested\" 先行研究と一致する \"Consistent with previous research\" 〜と解釈できる \"Can be interpreted as...\" 考えられる理由は〜である \"A possible reason is...\" Careful interpretation Connecting to literature Logical reasoning"
+          }
+        ]
+      },
+      {
+        "level": 2,
+        "heading": "Citation Phrases",
+        "content": "",
+        "children": [
+          {
+            "level": 3,
+            "heading": "Referencing previous work",
+            "content": "〜によると \"according to\" 田中(2020)によると 〜は〜と述べている \"... states that...\" 〜が指摘するように \"As ... points out\" 〜の研究では \"In ...'s research\" Proper attribution Academic integrity Building on literature"
+          }
+        ]
+      },
+      {
+        "level": 2,
+        "heading": "Listing and Enumeration",
+        "content": "",
+        "children": [
+          {
+            "level": 3,
+            "heading": "Organizing points",
+            "content": "第一に \"firstly\" 第二に \"secondly\" 第三に \"thirdly\" まず \"first\" 次に \"next\" 最後に \"finally\" 一つ目は \"the first is\" 二つ目は \"the second is\" Clear organization Logical progression Reader guidance"
+          }
+        ]
+      },
+      {
+        "level": 2,
+        "heading": "Comparison and Contrast",
+        "content": "",
+        "children": [
+          {
+            "level": 3,
+            "heading": "Analytical language",
+            "content": "〜に対して \"in contrast to\" A国に対してB国では 一方で \"on the other hand\" 〜である一方で、〜でもある 〜と異なり \"unlike\" 従来の方法と異なり 比較すると \"comparing\" 両者を比較すると Analytical thinking Balanced discussion Critical evaluation"
+          }
+        ]
+      },
+      {
+        "level": 2,
+        "heading": "Causation",
+        "content": "",
+        "children": [
+          {
+            "level": 3,
+            "heading": "Showing relationships",
+            "content": "〜により \"due to, by\" この要因により 〜によって \"through, by means of\" 実験によって明らかになった 〜ため \"because\" 重要であるため 〜結果 \"as a result\" その結果、〜となった Logical connections Cause-effect relationships Clear reasoning"
+          }
+        ]
+      },
+      {
+        "level": 2,
+        "heading": "Stating Limitations",
+        "content": "",
+        "children": [
+          {
+            "level": 3,
+            "heading": "Acknowledging constraints",
+            "content": "本研究の限界は〜である \"The limitation of this research is...\" サンプル数が少ないという制約がある \"There's a constraint that sample size is small\" 今後の課題として〜が挙げられる \"As a future issue, ... can be mentioned\" Scholarly honesty Self-critical Future directions"
+          }
+        ]
+      },
+      {
+        "level": 2,
+        "heading": "Conclusions",
+        "content": "",
+        "children": [
+          {
+            "level": 3,
+            "heading": "Summarizing findings",
+            "content": "以上のことから〜と結論づけられる \"From the above, it can be concluded that...\" 本研究では〜が明らかになった \"In this research, ... became clear\" 〜ということが示された \"It was shown that...\" Final assertions Key takeaways Research contribution"
+          }
+        ]
+      },
+      {
+        "level": 2,
+        "heading": "Technical Vocabulary",
+        "content": "",
+        "children": [
+          {
+            "level": 3,
+            "heading": "Discipline-specific terms",
+            "content": "仮説 \"hypothesis\" 変数 \"variable\" 相関 \"correlation\" 有意性 \"significance\" 妥当性 \"validity\" 信頼性 \"reliability\" 標本 \"sample\" 母集団 \"population\" Field-specific language Precise terminology Professional vocabulary"
+          }
+        ]
+      },
+      {
+        "level": 2,
+        "heading": "Passive Voice",
+        "content": "",
+        "children": [
+          {
+            "level": 3,
+            "heading": "Objective stance",
+            "content": "実験が行われた \"Experiment was conducted\" データが収集された \"Data was collected\" 結論が導き出された \"Conclusion was drawn\" Emphasis on action, not agent Scientific objectivity Standard academic style"
+          }
+        ]
+      },
+      {
+        "level": 2,
+        "heading": "Avoiding First Person",
+        "content": "",
+        "children": [
+          {
+            "level": 3,
+            "heading": "Objective writing",
+            "content": "Avoid: 私は〜と思う \"I think\" Prefer: 〜と考えられる \"it is thought\" 〜と言える \"it can be said\" 〜が示唆される \"it is suggested\" Impersonal stance Scholarly objectivity Professional distance"
+          }
+        ]
+      },
+      {
+        "level": 2,
+        "heading": "Acknowledging Sources",
+        "content": "",
+        "children": [
+          {
+            "level": 3,
+            "heading": "Previous research",
+            "content": "先行研究において〜が報告されている \"In previous research, ... has been reported\" 既存の研究では〜とされている \"In existing research, it is said that...\" 従来〜と考えられてきた \"Traditionally it has been thought that...\" Literature review Building on foundations Academic conversation"
+          }
+        ]
+      },
+      {
+        "level": 2,
+        "heading": "Presenting Arguments",
+        "content": "",
+        "children": [
+          {
+            "level": 3,
+            "heading": "Thesis development",
+            "content": "〜という点で重要である \"Is important in that...\" 〜という意味で意義がある \"Has significance in the sense that...\" 〜から〜が導かれる \"From ..., ... is derived\" Logical argumentation Clear reasoning Scholarly discourse"
+          }
+        ]
+      },
+      {
+        "level": 2,
+        "heading": "Common Patterns",
+        "content": "",
+        "children": [
+          {
+            "level": 3,
+            "heading": "Frequently used expressions",
+            "content": "〜ことが分かる \"it is understood that\" 〜ことが明らかである \"it is clear that\" 〜ことができる \"it is possible to\" 〜ことが重要である \"it is important that\" 〜と言える \"it can be said that\" 〜と考えられる \"it is thought that\" Standard academic phrases Building blocks Professional writing"
+          }
+        ]
+      },
+      {
+        "level": 2,
+        "heading": "Footnotes and References",
+        "content": "",
+        "children": [
+          {
+            "level": 3,
+            "heading": "Citation format",
+            "content": "参考文献 \"References\" 注 \"Notes\" 引用文献 \"Cited works\" 田中太郎(2020)『研究の方法』東京:出版社 \"Tanaka Taro (2020) 'Research Methods' Tokyo: Publisher\" Proper citation Academic honesty Standard format"
+          }
+        ]
+      },
+      {
+        "level": 2,
+        "heading": "Common Mistakes",
+        "content": "❌ Using です・ます Academic writing requires である ✓ である style ✓ 〜である、〜だ ❌ Personal opinions without hedging ✗ これは正しい ✓ Hedged statements ✓ これは正しいと考えられる ❌ Casual vocabulary Avoid colloquial language ✓ Formal academic vocabulary ✓ Technical precision ❌ Unclear logic Must show clear reasoning ✓ Explicit connections ✓ Logical flow markers Formal register essential Objective tone required Precise language needed"
+      },
+      {
+        "level": 2,
+        "heading": "Practical Example",
+        "content": "",
+        "children": [
+          {
+            "level": 3,
+            "heading": "Abstract sample",
+            "content": "要旨 本研究の目的は、日本語学習における動機づけの要因を明らかにすることである。先行研究では内発的動機と外発的動機が重要であるとされているが、両者の関係については十分に検討されていない。 本研究では200名の日本語学習者を対象に質問紙調査を実施した。その結果、内発的動機が高い学習者は学習時間が長い傾向があることが明らかになった。 この結果から、日本語教育において内発的動機を高めることが重要であると示唆される。今後の課題として、長期的な追跡調査が必要である。 \"Abstract The objective of this research is to clarify motivational factors in Japanese language learning. Previous research suggests intrinsic and extrinsic motivation are important, but the relationship between the two has not been sufficiently examined. In this research, a questionnaire survey was conducted with 200 Japanese learners. As a result, it became clear that learners with high intrinsic motivation tend to study for longer periods. From these results, it is suggested that increasing intrinsic motivation is important in Japanese language education. As a future issue, long-term follow-up research is necessary.\" Standard structure である style throughout Hedging language Clear purpose Methodology stated Results presented Implications discussed Future directions Professional tone"
+          },
+          {
+            "level": 3,
+            "heading": "Company",
+            "content": "About Pricing Blog Contact"
+          },
+          {
+            "level": 3,
+            "heading": "Legal",
+            "content": "Privacy Policy Terms of Service Cookie Policy"
+          }
+        ]
+      }
+    ]
+  },
+  "metadata": {
+    "extracted_at": "2026-01-01T22:19:27.424938600Z",
+    "duration_ms": 5,
+    "extractors_matched": [
+      "metadata",
+      "examples",
+      "sections"
+    ],
+    "extractors_failed": [
+      "vocab_tables",
+      "definitions",
+      "content_blocks"
+    ]
+  }
+}

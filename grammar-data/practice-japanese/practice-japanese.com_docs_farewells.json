@@ -1,0 +1,455 @@
+{
+  "config_name": "Language Learning Extractor",
+  "url": "https://practice-japanese.com/docs/farewells/",
+  "data": {
+    "examples": [
+      {
+        "sentence": "About"
+      },
+      {
+        "sentence": "Pricing"
+      },
+      {
+        "sentence": "Blog"
+      },
+      {
+        "sentence": "Contact"
+      },
+      {
+        "sentence": "Privacy Policy"
+      },
+      {
+        "sentence": "Terms of Service"
+      },
+      {
+        "sentence": "Cookie Policy"
+      }
+    ],
+    "sections": [
+      {
+        "level": 2,
+        "heading": "Farewells",
+        "content": "Farewells in Japanese vary greatly depending on when you'll see the person again, your relationship, and the context. Unlike English's simple \"goodbye,\" Japanese has many nuanced ways to part.\n\nEnglish: \"Goodbye\" (general) Japanese: Multiple farewells Time until next meeting matters Formality levels vary Context-specific Choose appropriately"
+      },
+      {
+        "level": 2,
+        "heading": "Temporary Farewells",
+        "content": "",
+        "children": [
+          {
+            "level": 3,
+            "heading": "See you soon",
+            "content": "じゃあね \"See you\" (casual) じゃあ \"Well then\" (casual) またね \"See you again\" バイバイ \"Bye bye\" (borrowed, casual) Short separation Friends/peers Informal settings"
+          },
+          {
+            "level": 3,
+            "heading": "See you later",
+            "content": "また後で \"See you later\" 後でね \"Later\" じゃ、後で \"Well, see you later\" Same day reunion Casual only Among friends"
+          }
+        ]
+      },
+      {
+        "level": 2,
+        "heading": "Polite Temporary Farewells",
+        "content": "",
+        "children": [
+          {
+            "level": 3,
+            "heading": "Standard polite",
+            "content": "では \"Well then\" それでは \"Well then\" また \"Again / See you\" 失礼します \"Excuse me (I'm leaving)\" Appropriate anywhere Neutral politeness Safe choice"
+          },
+          {
+            "level": 3,
+            "heading": "More formal",
+            "content": "失礼いたします \"Excuse me (very polite)\" これで失礼します \"I'll excuse myself now\" お先に失礼します \"Excuse me for leaving first\" Business settings Showing respect Leaving work/meetings"
+          }
+        ]
+      },
+      {
+        "level": 2,
+        "heading": "Specific Time References",
+        "content": "",
+        "children": [
+          {
+            "level": 3,
+            "heading": "See you tomorrow",
+            "content": "また明日 \"See you tomorrow\" じゃあ明日ね \"Well, tomorrow then\" 明日会いましょう \"Let's meet tomorrow\" Next day plans Clear timeframe Common at school/work"
+          },
+          {
+            "level": 3,
+            "heading": "See you next time",
+            "content": "また今度 \"See you next time / some other time\" また次回 \"Until next time\" また会いましょう \"Let's meet again\" Indefinite future Polite intention Flexible timing"
+          },
+          {
+            "level": 3,
+            "heading": "Day-specific",
+            "content": "また月曜日に \"See you Monday\" 週末に \"On the weekend\" 来週 \"Next week\" Specific plans Clear expectations Scheduling language"
+          }
+        ]
+      },
+      {
+        "level": 2,
+        "heading": "Long-Term Farewells",
+        "content": "",
+        "children": [
+          {
+            "level": 3,
+            "heading": "Extended absence",
+            "content": "お元気で \"Take care / Be well\" 元気でね \"Take care\" (casual) 体に気をつけて \"Take care of yourself\" Long separation Genuine concern Warm wishes"
+          },
+          {
+            "level": 3,
+            "heading": "Indefinite parting",
+            "content": "さようなら \"Goodbye\" (formal, final) Use: Long-term or permanent separation Not: Daily farewells Serious tone Relatively rare Sounds final Use carefully"
+          }
+        ]
+      },
+      {
+        "level": 2,
+        "heading": "Leaving Home",
+        "content": "",
+        "children": [
+          {
+            "level": 3,
+            "heading": "Going out",
+            "content": "行ってきます \"I'm going (and will return)\" Use: Leaving home Response: 行ってらっしゃい Daily ritual Implies return Family phrase Cultural practice"
+          },
+          {
+            "level": 3,
+            "heading": "Wishing someone off",
+            "content": "行ってらっしゃい \"Go and come back safely\" 気をつけて \"Be careful\" Response: 行ってきます From home to departing person Shows care Standard exchange"
+          }
+        ]
+      },
+      {
+        "level": 2,
+        "heading": "Work Farewells",
+        "content": "",
+        "children": [
+          {
+            "level": 3,
+            "heading": "Leaving work",
+            "content": "お疲れ様でした \"Thank you for your work\" お先に失礼します \"Excuse me for leaving first\" Response: お疲れ様でした Standard workplace Daily routine Shows respect Professional norm"
+          },
+          {
+            "level": 3,
+            "heading": "Leaving a meeting",
+            "content": "これで失礼いたします \"I'll excuse myself now\" 本日はありがとうございました \"Thank you for today\" すみません、失礼します \"Sorry, excuse me\" Business meetings Formal settings Polite departure"
+          }
+        ]
+      },
+      {
+        "level": 2,
+        "heading": "Casual Among Friends",
+        "content": "",
+        "children": [
+          {
+            "level": 3,
+            "heading": "Very casual",
+            "content": "バイ \"Bye\" じゃ \"Well\" またな \"See ya\" あばよ \"See ya\" (masculine, rough) Close friends Peers only Relaxed atmosphere"
+          },
+          {
+            "level": 3,
+            "heading": "Youth slang",
+            "content": "おつかれ \"See ya / Good job\" (shortened) おつ \"Bye\" (very shortened) またね〜 \"See ya~\" またあとで \"Later\" Modern casual Young people Text messages"
+          }
+        ]
+      },
+      {
+        "level": 2,
+        "heading": "Phone Farewells",
+        "content": "",
+        "children": [
+          {
+            "level": 3,
+            "heading": "Ending calls",
+            "content": "では、失礼します \"Well then, excuse me\" また連絡します \"I'll contact you again\" じゃあね \"See you\" (casual) それでは \"Well then\" Phone-specific ending Clear closure Polite sign-off"
+          },
+          {
+            "level": 3,
+            "heading": "Business calls",
+            "content": "お電話ありがとうございました \"Thank you for calling\" 失礼いたします \"Excuse me (hanging up)\" またご連絡いたします \"I'll contact you again\" Professional tone Respectful ending Standard business"
+          }
+        ]
+      },
+      {
+        "level": 2,
+        "heading": "Visiting Someone",
+        "content": "",
+        "children": [
+          {
+            "level": 3,
+            "heading": "Leaving someone's home",
+            "content": "お邪魔しました \"Thank you for having me / Sorry for intruding\" そろそろ失礼します \"I should be going now\" ありがとうございました \"Thank you very much\" Gratitude expressed Polite departure Host-guest dynamic"
+          },
+          {
+            "level": 3,
+            "heading": "Seeing guest off",
+            "content": "お気をつけて \"Take care / Be safe\" またいらしてください \"Please come again\" ありがとうございました \"Thank you for coming\" Host's farewell Warm send-off Showing hospitality"
+          }
+        ]
+      },
+      {
+        "level": 2,
+        "heading": "Travel Farewells",
+        "content": "",
+        "children": [
+          {
+            "level": 3,
+            "heading": "Going on a trip",
+            "content": "行ってきます \"I'm going (and will return)\" 行ってらっしゃい \"Have a safe trip\" 気をつけて行ってきてね \"Go carefully and come back safely\" Travel departure Implies return Family/friends"
+          },
+          {
+            "level": 3,
+            "heading": "Long journey",
+            "content": "良い旅を \"Have a good trip\" 楽しんできてね \"Enjoy yourself\" お気をつけて \"Be careful\" Well wishes Longer absence Caring tone"
+          }
+        ]
+      },
+      {
+        "level": 2,
+        "heading": "School Farewells",
+        "content": "",
+        "children": [
+          {
+            "level": 3,
+            "heading": "End of school day",
+            "content": "また明日 \"See you tomorrow\" バイバイ \"Bye bye\" 気をつけて帰ってね \"Get home safely\" Student farewells Casual friendly Daily routine"
+          },
+          {
+            "level": 3,
+            "heading": "To teachers",
+            "content": "失礼します \"Excuse me (leaving)\" さようなら、先生 \"Goodbye, teacher\" ありがとうございました \"Thank you very much\" Respectful tone Student to teacher Polite form"
+          }
+        ]
+      },
+      {
+        "level": 2,
+        "heading": "Moving Away Farewells",
+        "content": "",
+        "children": [
+          {
+            "level": 3,
+            "heading": "Relocation",
+            "content": "お世話になりました \"Thank you for everything\" ずっと忘れません \"I'll never forget\" また会いましょう \"Let's meet again\" Emotional farewell Long-term separation Gratitude expressed"
+          },
+          {
+            "level": 3,
+            "heading": "Permanent goodbye",
+            "content": "さようなら \"Goodbye\" お元気で \"Take care\" 幸せになってください \"Please be happy\" Final parting Serious tone Deep emotion"
+          }
+        ]
+      },
+      {
+        "level": 2,
+        "heading": "Seasonal Farewells",
+        "content": "",
+        "children": [
+          {
+            "level": 3,
+            "heading": "End of year",
+            "content": "良いお年を \"Have a good year\" 来年もよろしく \"Please treat me well next year too\" Use: December farewells Until New Year Seasonal phrase Cultural timing Annual ritual"
+          }
+        ]
+      },
+      {
+        "level": 2,
+        "heading": "Refusing to Say Goodbye",
+        "content": "",
+        "children": [
+          {
+            "level": 3,
+            "heading": "Not parting",
+            "content": "さよならは言わない \"I won't say goodbye\" またね \"See you again\" これは別れじゃない \"This isn't a farewell\" Emotional moment Refusing finality Hope for reunion"
+          }
+        ]
+      },
+      {
+        "level": 2,
+        "heading": "Evening Farewells",
+        "content": "",
+        "children": [
+          {
+            "level": 3,
+            "heading": "End of day",
+            "content": "おやすみなさい \"Good night\" (polite) おやすみ \"Good night\" (casual) 良い夢を \"Sweet dreams\" Bedtime only Not evening meetings Going to sleep Specific usage Not general farewell"
+          }
+        ]
+      },
+      {
+        "level": 2,
+        "heading": "Email/Message Farewells",
+        "content": "",
+        "children": [
+          {
+            "level": 3,
+            "heading": "Email closings",
+            "content": "よろしくお願いします \"Thank you / Please and thank you\" 失礼いたします \"Respectfully yours\" では、また \"Well then, again\" Written correspondence Professional norm Standard closing"
+          },
+          {
+            "level": 3,
+            "heading": "Text messages",
+            "content": "またね \"See ya\" じゃ \"Well\" おやすみ \"Night\" バイ \"Bye\" Casual digital Quick sign-off Modern communication"
+          }
+        ]
+      },
+      {
+        "level": 2,
+        "heading": "Store/Service Farewells",
+        "content": "",
+        "children": [
+          {
+            "level": 3,
+            "heading": "Customer leaving",
+            "content": "ありがとうございました \"Thank you very much\" また来てください \"Please come again\" またお待ちしております \"We look forward to serving you again\" Staff to customer Business politeness Service industry"
+          },
+          {
+            "level": 3,
+            "heading": "Customer response",
+            "content": "(Usually no verbal response) or ありがとう \"Thank you\" Simple acknowledgment Not required Brief if any"
+          }
+        ]
+      },
+      {
+        "level": 2,
+        "heading": "Regional Variations",
+        "content": "",
+        "children": [
+          {
+            "level": 3,
+            "heading": "Kansai dialect",
+            "content": "ほな \"Well then / See ya\" ほなまたな \"See you again\" おおきに \"Thanks / Bye\" Regional flavor Osaka area Local identity"
+          },
+          {
+            "level": 3,
+            "heading": "Other regions",
+            "content": "Standard: じゃあね Kansai: ほな Kyushu: じゃあね Tohoku: したっけ (Hokkaido) Regional differences Dialect variations Local color"
+          }
+        ]
+      },
+      {
+        "level": 2,
+        "heading": "Polite vs Casual Scale",
+        "content": "",
+        "children": [
+          {
+            "level": 3,
+            "heading": "Formality levels",
+            "content": "Most casual: じゃ / バイ Casual: じゃあね / またね Neutral: では / また Polite: 失礼します Very polite: 失礼いたします / さようなら Context determines choice"
+          }
+        ]
+      },
+      {
+        "level": 2,
+        "heading": "When to Use さようなら",
+        "content": "",
+        "children": [
+          {
+            "level": 3,
+            "heading": "Appropriate situations",
+            "content": "Use さようなら when: - Long-term separation - Formal school settings - Serious farewells - With people you may not see again Don't use for: - Daily goodbyes - Casual settings - Friends - See you tomorrow scenarios Surprisingly rare Sounds very final"
+          }
+        ]
+      },
+      {
+        "level": 2,
+        "heading": "Adding Emphasis",
+        "content": "",
+        "children": [
+          {
+            "level": 3,
+            "heading": "Warm farewells",
+            "content": "またね、楽しかったよ \"See ya, it was fun\" 気をつけて帰ってね \"Get home safe, okay?\" ありがとう、また会おうね \"Thanks, let's meet again\" Personal touch Emotional warmth Genuine connection"
+          }
+        ]
+      },
+      {
+        "level": 2,
+        "heading": "Time-Appropriate Farewells",
+        "content": "",
+        "children": [
+          {
+            "level": 3,
+            "heading": "By time of day",
+            "content": "Morning/Afternoon: では、また / じゃあね Evening (not bedtime): お疲れ様です / では Bedtime: おやすみなさい Match timing Avoid おやすみ early Context matters"
+          }
+        ]
+      },
+      {
+        "level": 2,
+        "heading": "Common Mistakes",
+        "content": "",
+        "children": [
+          {
+            "level": 3,
+            "heading": "Errors to avoid",
+            "content": "❌ さようなら for daily goodbye ✓ またね / じゃあね ❌ おやすみ at 6 PM ✓ さようなら / では ❌ バイバイ to boss ✓ 失礼します ❌ 行ってきます when not returning ✓ 行ってくる (going somewhere nearby) Learn proper context Avoid awkwardness"
+          }
+        ]
+      },
+      {
+        "level": 2,
+        "heading": "Goodbye Combinations",
+        "content": "",
+        "children": [
+          {
+            "level": 3,
+            "heading": "Natural sequences",
+            "content": "じゃあ、また明日ね。気をつけて。 \"Well, see you tomorrow. Take care.\" お疲れ様でした。良い週末を。 \"Good work. Have a good weekend.\" これで失礼します。ありがとうございました。 \"I'll excuse myself now. Thank you very much.\" Smooth flow Multiple elements Natural speech"
+          }
+        ]
+      },
+      {
+        "level": 2,
+        "heading": "Emotional Farewells",
+        "content": "",
+        "children": [
+          {
+            "level": 3,
+            "heading": "Touching moments",
+            "content": "寂しくなるよ \"I'll miss you\" また絶対会おうね \"Let's definitely meet again\" ずっと友達だよ \"We'll always be friends\" Emotional depth Personal connection Heartfelt words"
+          }
+        ]
+      },
+      {
+        "level": 2,
+        "heading": "Quick Departures",
+        "content": "",
+        "children": [
+          {
+            "level": 3,
+            "heading": "Rushing off",
+            "content": "ごめん、急いでる \"Sorry, I'm in a hurry\" じゃ、行くね \"Well, I'm going\" 急ぐから \"Because I'm rushing\" Abbreviated farewell Necessary brevity Still polite enough"
+          },
+          {
+            "level": 3,
+            "heading": "Company",
+            "content": "About Pricing Blog Contact"
+          },
+          {
+            "level": 3,
+            "heading": "Legal",
+            "content": "Privacy Policy Terms of Service Cookie Policy"
+          }
+        ]
+      }
+    ],
+    "metadata": {
+      "title": "Farewells"
+    }
+  },
+  "metadata": {
+    "extracted_at": "2026-01-01T22:19:29.383240600Z",
+    "duration_ms": 5,
+    "extractors_matched": [
+      "metadata",
+      "examples",
+      "sections"
+    ],
+    "extractors_failed": [
+      "vocab_tables",
+      "definitions",
+      "content_blocks"
+    ]
+  }
+}

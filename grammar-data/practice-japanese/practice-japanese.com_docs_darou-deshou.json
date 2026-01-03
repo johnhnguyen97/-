@@ -1,0 +1,405 @@
+{
+  "config_name": "Language Learning Extractor",
+  "url": "https://practice-japanese.com/docs/darou-deshou/",
+  "data": {
+    "sections": [
+      {
+        "level": 2,
+        "heading": "What is 〜だろう/でしょう?",
+        "content": "〜だろう (casual) and 〜でしょう (polite) express probability, conjecture, or predictions, meaning \"probably,\" \"I think,\" \"likely,\" or \"I suppose.\" They show the speaker's estimation about something.\n\n明日は晴れるだろう \"It will probably be sunny tomorrow\" 彼は来るでしょう \"He'll probably come\" 難しいだろうね \"It's probably difficult\""
+      },
+      {
+        "level": 2,
+        "heading": "Formation",
+        "content": "",
+        "children": [
+          {
+            "level": 3,
+            "heading": "Pattern: Plain form + だろう/でしょう",
+            "content": "With verbs:\n\n行く → 行くだろう / 行くでしょう 来た → 来たでしょう 行かない → 行かないだろう\n\nWith い-adjectives:\n\n高い → 高いだろう / 高いでしょう 良い → 良いでしょう 高くない → 高くないだろう\n\nWith な-adjectives:\n\n便利 → 便利だろう / 便利でしょう 簡単 → 簡単でしょう\n\nWith nouns:\n\n学生 → 学生だろう / 学生でしょう 雨 → 雨だろう / 雨でしょう"
+          }
+        ]
+      },
+      {
+        "level": 2,
+        "heading": "だろう vs でしょう",
+        "content": "",
+        "children": [
+          {
+            "level": 3,
+            "heading": "だろう - Casual",
+            "content": "明日は雨だろう \"It'll probably rain tomorrow\" Use with friends, family More masculine"
+          },
+          {
+            "level": 3,
+            "heading": "でしょう - Polite",
+            "content": "明日は雨でしょう \"It will probably rain tomorrow\" Standard polite form Gender neutral"
+          },
+          {
+            "level": 3,
+            "heading": "でしょ - Very casual",
+            "content": "明日は雨でしょ \"It'll probably rain tomorrow, right?\" Super casual Rising intonation"
+          }
+        ]
+      },
+      {
+        "level": 2,
+        "heading": "Basic Usage",
+        "content": "",
+        "children": [
+          {
+            "level": 3,
+            "heading": "Making predictions",
+            "content": "明日は晴れるだろう \"It will probably be sunny tomorrow\" 彼は成功するでしょう \"He will probably succeed\" 試験は難しいだろう \"The exam will probably be difficult\""
+          },
+          {
+            "level": 3,
+            "heading": "Expressing probability",
+            "content": "たぶん来るだろう \"He'll probably come\" そうでしょう \"That's probably so\" 10時頃につくでしょう \"We'll probably arrive around 10\""
+          },
+          {
+            "level": 3,
+            "heading": "Seeking agreement",
+            "content": "いいでしょう？ \"It's good, right?\" そうでしょ？ \"Right?\" / \"I told you so\" 知ってるでしょう？ \"You know, right?\""
+          }
+        ]
+      },
+      {
+        "level": 2,
+        "heading": "Key Characteristics",
+        "content": "",
+        "children": [
+          {
+            "level": 3,
+            "heading": "Shows uncertainty",
+            "content": "Less certain than はずだ More certain than かもしれない Moderate probability (60-80%) Speaker's estimation"
+          },
+          {
+            "level": 3,
+            "heading": "Can soften statements",
+            "content": "Direct: 高い \"It's expensive\" Softened: 高いでしょう \"It's probably expensive\" Less assertive"
+          }
+        ]
+      },
+      {
+        "level": 2,
+        "heading": "Common Conversations",
+        "content": "",
+        "children": [
+          {
+            "level": 3,
+            "heading": "Example 1: Making Plans",
+            "content": "A: 明日、天気どうかな \"I wonder about tomorrow's weather\" B: たぶん晴れるでしょう \"It'll probably be sunny\" A: じゃあ、ピクニック行ける \"Then we can go on a picnic\""
+          },
+          {
+            "level": 3,
+            "heading": "Example 2: Seeking Confirmation",
+            "content": "A: これ、正しいでしょう？ \"This is correct, right?\" B: うん、そうだと思う \"Yeah, I think so\" A: よかった \"Good\""
+          },
+          {
+            "level": 3,
+            "heading": "Example 3: Prediction",
+            "content": "A: 彼、受かるかな \"I wonder if he'll pass\" B: 頑張ってたから、受かるでしょう \"He was trying hard, so he'll probably pass\" A: そうだといいね \"I hope so\""
+          }
+        ]
+      },
+      {
+        "level": 2,
+        "heading": "Common Mistakes",
+        "content": "",
+        "children": [
+          {
+            "level": 3,
+            "heading": "Mistake 1: Confusing with かもしれない",
+            "content": "だろう: Probably (60-80% sure) 来るだろう \"He'll probably come\" かもしれない: Might (30-50% sure) 来るかもしれない \"He might come\" Different probability levels!"
+          },
+          {
+            "level": 3,
+            "heading": "Mistake 2: Using です before だろう",
+            "content": "Wrong: 学生ですだろう ❌ Right: 学生だろう ✓ Or: 学生でしょう ✓ Don't use です with だろう!"
+          },
+          {
+            "level": 3,
+            "heading": "Mistake 3: Wrong intonation",
+            "content": "でしょう↓ - Statement (probably) でしょう↑ - Question (right?) Intonation matters!"
+          }
+        ]
+      },
+      {
+        "level": 2,
+        "heading": "でしょう for Confirmation",
+        "content": "",
+        "children": [
+          {
+            "level": 3,
+            "heading": "Rising intonation (right?/isn't it?)",
+            "content": "知ってるでしょう？ \"You know, right?\" そうでしょう？ \"Right?\" / \"See? I told you\" 言ったでしょう？ \"I told you, didn't I?\" Seeking agreement"
+          }
+        ]
+      },
+      {
+        "level": 2,
+        "heading": "Polite Predictions",
+        "content": "",
+        "children": [
+          {
+            "level": 3,
+            "heading": "Formal でしょう",
+            "content": "会議は3時に始まるでしょう \"The meeting will probably start at 3\" 彼は来ないでしょう \"He probably won't come\" それは難しいでしょう \"That will probably be difficult\""
+          }
+        ]
+      },
+      {
+        "level": 2,
+        "heading": "Past Conjecture",
+        "content": "",
+        "children": [
+          {
+            "level": 3,
+            "heading": "だっただろう/だったでしょう",
+            "content": "昨日は寒かっただろう \"It was probably cold yesterday\" 彼は知っていたでしょう \"He probably knew\" 大変だったでしょう \"It was probably tough\""
+          }
+        ]
+      },
+      {
+        "level": 2,
+        "heading": "Negative Forms",
+        "content": "",
+        "children": [
+          {
+            "level": 3,
+            "heading": "～ないだろう/でしょう",
+            "content": "来ないだろう \"He probably won't come\" 高くないでしょう \"It probably isn't expensive\" 簡単ではないだろう \"It's probably not easy\""
+          }
+        ]
+      },
+      {
+        "level": 2,
+        "heading": "With Question Words",
+        "content": "",
+        "children": [
+          {
+            "level": 3,
+            "heading": "Adding uncertainty",
+            "content": "誰が来るでしょうか \"Who will come, I wonder?\" いつ終わるだろう \"When will it end, I wonder?\" どうなるでしょう \"What will happen?\""
+          }
+        ]
+      },
+      {
+        "level": 2,
+        "heading": "だろうか (I wonder)",
+        "content": "",
+        "children": [
+          {
+            "level": 3,
+            "heading": "Expressing doubt",
+            "content": "本当だろうか \"I wonder if it's true\" 彼は来るだろうか \"I wonder if he'll come\" うまくいくだろうか \"I wonder if it will go well\" Self-questioning"
+          }
+        ]
+      },
+      {
+        "level": 2,
+        "heading": "Common Patterns",
+        "content": "",
+        "children": [
+          {
+            "level": 3,
+            "heading": "たぶん～だろう/でしょう",
+            "content": "たぶん来るでしょう \"He'll probably come\" たぶん大丈夫だろう \"It's probably okay\" Emphasizes probability"
+          },
+          {
+            "level": 3,
+            "heading": "きっと～だろう/でしょう",
+            "content": "きっと成功するでしょう \"He'll surely succeed\" きっといい結果が出るだろう \"We'll surely get good results\" More certain than just だろう"
+          },
+          {
+            "level": 3,
+            "heading": "おそらく～だろう/でしょう",
+            "content": "おそらく雨が降るでしょう \"It will probably rain\" おそらく来ないだろう \"He probably won't come\" Formal, written"
+          }
+        ]
+      },
+      {
+        "level": 2,
+        "heading": "でしょ (Super Casual)",
+        "content": "",
+        "children": [
+          {
+            "level": 3,
+            "heading": "Very informal",
+            "content": "そうでしょ！ \"Right?!\" / \"See!\" 知ってたでしょ \"You knew, right?\" いいでしょ \"It's good, right?\" With rising tone"
+          }
+        ]
+      },
+      {
+        "level": 2,
+        "heading": "Softening Statements",
+        "content": "",
+        "children": [
+          {
+            "level": 3,
+            "heading": "Making opinions less direct",
+            "content": "Direct: 難しい \"It's difficult\" Softer: 難しいでしょう \"It's probably difficult\" Direct: 間違いだ \"It's wrong\" Softer: 間違いだろう \"It's probably wrong\""
+          }
+        ]
+      },
+      {
+        "level": 2,
+        "heading": "In Formal Contexts",
+        "content": "",
+        "children": [
+          {
+            "level": 3,
+            "heading": "Business/Official",
+            "content": "結果は来週発表されるでしょう \"The results will probably be announced next week\" この提案は承認されるでしょう \"This proposal will probably be approved\" More formal tone"
+          }
+        ]
+      },
+      {
+        "level": 2,
+        "heading": "Expressing Sympathy",
+        "content": "",
+        "children": [
+          {
+            "level": 3,
+            "heading": "大変でしょう (That must be tough)",
+            "content": "忙しいでしょう \"You must be busy\" 疲れたでしょう \"You must be tired\" 大変でしょうね \"That must be tough\" Shows understanding"
+          }
+        ]
+      },
+      {
+        "level": 2,
+        "heading": "だろうと思う (I think probably)",
+        "content": "",
+        "children": [
+          {
+            "level": 3,
+            "heading": "Combining patterns",
+            "content": "来るだろうと思う \"I think he'll probably come\" 成功するだろうと思います \"I think it will probably succeed\" Double probability marker"
+          }
+        ]
+      },
+      {
+        "level": 2,
+        "heading": "Rhetorical Questions",
+        "content": "",
+        "children": [
+          {
+            "level": 3,
+            "heading": "でしょう？for emphasis",
+            "content": "誰だって知ってるでしょう？ \"Everyone knows, right?\" 当然でしょう？ \"Of course, right?\" 分かるでしょう？ \"You understand, right?\""
+          }
+        ]
+      },
+      {
+        "level": 2,
+        "heading": "Comparing Certainty Levels",
+        "content": "",
+        "children": [
+          {
+            "level": 3,
+            "heading": "From least to most certain",
+            "content": "Least: かもしれない (might) ↓ だろう/でしょう (probably) ↓ と思う (I think) ↓ はずだ (should be) ↓ Most: にちがいない (must be)"
+          }
+        ]
+      },
+      {
+        "level": 2,
+        "heading": "Practice Sentences",
+        "content": "",
+        "children": [
+          {
+            "level": 3,
+            "heading": "Basic",
+            "content": "明日は晴れるでしょう \"It will probably be sunny tomorrow\" 彼は来ないだろう \"He probably won't come\" 難しいでしょうね \"It's probably difficult\""
+          },
+          {
+            "level": 3,
+            "heading": "Intermediate",
+            "content": "この映画は面白いでしょう。 みんなが褒めていましたから \"This movie is probably interesting. Because everyone was praising it\" 彼は今頃家に着いただろう \"He's probably arrived home by now\" そうでしょう？だから言ったのに \"Right? That's why I told you\""
+          },
+          {
+            "level": 3,
+            "heading": "Advanced",
+            "content": "経済状況を考えると、今年の成長率は 低くなるでしょう。専門家も同じ意見です。 おそらく2%程度だろうと予想されています。 \"Considering the economic situation, this year's growth rate will probably be low. Experts have the same opinion. It's predicted to be probably around 2%.\" 彼の経験と能力を考えれば、 このプロジェクトを成功させるでしょう。 困難はあるだろうが、必ず乗り越えられると 信じています。 \"Considering his experience and ability, he will probably make this project succeed. There will probably be difficulties, but I believe he can definitely overcome them.\""
+          }
+        ]
+      },
+      {
+        "level": 2,
+        "heading": "Related Grammar Points",
+        "content": "〜かもしれない - Might (less certain) 〜はずだ - Should be (expected) 〜にちがいない - Must be (very certain) 〜と思う - I think だろうか - I wonder Probability expressions - Expressing likelihood",
+        "children": [
+          {
+            "level": 3,
+            "heading": "Company",
+            "content": "About Pricing Blog Contact"
+          },
+          {
+            "level": 3,
+            "heading": "Legal",
+            "content": "Privacy Policy Terms of Service Cookie Policy"
+          }
+        ]
+      }
+    ],
+    "metadata": {
+      "title": "〜だろう/でしょう (Probably)"
+    },
+    "examples": [
+      {
+        "sentence": "〜かもしれない - Might (less certain)"
+      },
+      {
+        "sentence": "〜はずだ - Should be (expected)"
+      },
+      {
+        "sentence": "〜にちがいない - Must be (very certain)"
+      },
+      {
+        "sentence": "〜と思う - I think"
+      },
+      {
+        "sentence": "だろうか - I wonder"
+      },
+      {
+        "sentence": "Probability expressions - Expressing likelihood"
+      },
+      {
+        "sentence": "About"
+      },
+      {
+        "sentence": "Pricing"
+      },
+      {
+        "sentence": "Blog"
+      },
+      {
+        "sentence": "Contact"
+      },
+      {
+        "sentence": "Privacy Policy"
+      },
+      {
+        "sentence": "Terms of Service"
+      },
+      {
+        "sentence": "Cookie Policy"
+      }
+    ]
+  },
+  "metadata": {
+    "extracted_at": "2026-01-01T22:19:28.752579500Z",
+    "duration_ms": 4,
+    "extractors_matched": [
+      "metadata",
+      "examples",
+      "sections"
+    ],
+    "extractors_failed": [
+      "vocab_tables",
+      "definitions",
+      "content_blocks"
+    ]
+  }
+}

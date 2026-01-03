@@ -1,0 +1,214 @@
+{
+  "config_name": "Language Learning Extractor",
+  "url": "https://practice-japanese.com/docs/particle-to/",
+  "data": {
+    "sections": [
+      {
+        "level": 2,
+        "heading": "Core Functions",
+        "content": "と has 4 main uses:\n\nComplete listing - \"and\" (exhaustive) Accompaniment - \"with\" (doing together) Quotation - marks quoted speech/thought Natural consequence - \"when/if\" (automatic result)"
+      },
+      {
+        "level": 2,
+        "heading": "1. Complete Listing (And)",
+        "content": "List all items in a group:\n\nりんごとバナナ - \"apples and bananas\" 犬と猫 - \"dogs and cats\" 私と田中さん - \"me and Tanaka\"\n\nKey: Lists ALL items (complete list).\n\nCompare with や (partial list):\n\nと = complete: A, B, C (only these) や = partial: A, B, etc. (and other things)"
+      },
+      {
+        "level": 2,
+        "heading": "2. Accompaniment (With)",
+        "content": "Doing something together with someone:\n\n友達と遊ぶ - \"play with friends\" 家族と食べる - \"eat with family\" 彼と話す - \"talk with him\" 先生と会う - \"meet with teacher\"\n\nPattern: [Person]と [Action verb]"
+      },
+      {
+        "level": 2,
+        "heading": "3. Quotation Marker",
+        "content": "Marks direct/indirect speech or thought:\n\n「行きます」と言った \"(He) said 'I'll go'\" 面白いと思う \"(I) think it's interesting\" 田中さんだと聞いた \"(I) heard it's Tanaka\"\n\nCommon verbs with と:\n\n言う (say) 思う (think) 聞く (hear) 書く (write)"
+      },
+      {
+        "level": 2,
+        "heading": "4. Natural Consequence",
+        "content": "Automatic/natural result (conditional):\n\n春になると暖かくなる \"When spring comes, it gets warm\" ボタンを押すとドアが開く \"When you press the button, the door opens\"\n\nPattern: [Action]と [Natural result]"
+      },
+      {
+        "level": 2,
+        "heading": "と vs や vs か",
+        "content": "| Particle | Meaning | Use | | -------- | ---------- | -------------------- | | と | and (all) | 犬と猫 (only these) | | や | and (etc.) | 犬や猫 (and others) | | か | or | 犬か猫 (one of them) |"
+      },
+      {
+        "level": 2,
+        "heading": "と vs に for \"To\"",
+        "content": "友達と話す - \"talk with friend\" (mutual) 友達に話す - \"talk to friend\" (one-way) 友達と会う - \"meet with friend\" (together) 友達に会う - \"meet friend\" (see them)"
+      },
+      {
+        "level": 2,
+        "heading": "Quotation Patterns",
+        "content": "",
+        "children": [
+          {
+            "level": 3,
+            "heading": "Direct Quote",
+            "content": "「はい」と言った \"(He) said 'yes'\""
+          },
+          {
+            "level": 3,
+            "heading": "Indirect Quote",
+            "content": "行くと言った \"(He) said he'll go\""
+          },
+          {
+            "level": 3,
+            "heading": "Thought",
+            "content": "美味しいと思う \"(I) think it's delicious\""
+          },
+          {
+            "level": 3,
+            "heading": "Hearsay",
+            "content": "雨だと聞いた \"(I) heard it's raining\""
+          }
+        ]
+      },
+      {
+        "level": 2,
+        "heading": "Conditional と",
+        "content": "Natural/habitual consequence:\n\nこの道を行くと駅がある \"If you go down this road, there's a station\" 夏になると暑くなる \"When summer comes, it gets hot\"\n\nNot for intentions - use たら/ば for those."
+      },
+      {
+        "level": 2,
+        "heading": "Cannot Use と With",
+        "content": "",
+        "children": [
+          {
+            "level": 3,
+            "heading": "Tools/means (use で)",
+            "content": "✗ ペンと書く ✓ ペンで書く \"write with a pen\""
+          },
+          {
+            "level": 3,
+            "heading": "Destinations (use に/へ)",
+            "content": "✗ 東京と行く ✓ 東京に行く \"go to Tokyo\""
+          }
+        ]
+      },
+      {
+        "level": 2,
+        "heading": "Common Patterns",
+        "content": "",
+        "children": [
+          {
+            "level": 3,
+            "heading": "Listing",
+            "content": "AとBとC パンと牛乳とりんご \"bread, milk, and apples\""
+          },
+          {
+            "level": 3,
+            "heading": "Accompaniment",
+            "content": "[Person]と [Verb] 友達と遊ぶ - \"play with friends\""
+          },
+          {
+            "level": 3,
+            "heading": "Quotation",
+            "content": "「Quote」と言う 面白いと思う - \"think it's interesting\""
+          },
+          {
+            "level": 3,
+            "heading": "Natural Result",
+            "content": "[Condition]と [Result] 春になると花が咲く \"When spring comes, flowers bloom\""
+          }
+        ]
+      },
+      {
+        "level": 2,
+        "heading": "Casual Speech",
+        "content": "って can replace と in quotations:\n\nFormal: 行くと言った Casual: 行くって言った \"(He) said he'll go\""
+      },
+      {
+        "level": 2,
+        "heading": "Key Takeaways",
+        "content": "✓ Complete list (all items) ✓ Doing together with someone ✓ Marks quotations/thoughts ✓ Natural consequences ✓ Different from や (partial) and か (or)\n\nRelated:\n\nや (ya) - Partial List か (ka) - Or/Question って Casual Quotation",
+        "children": [
+          {
+            "level": 3,
+            "heading": "Company",
+            "content": "About Pricing Blog Contact"
+          },
+          {
+            "level": 3,
+            "heading": "Legal",
+            "content": "Privacy Policy Terms of Service Cookie Policy"
+          }
+        ]
+      }
+    ],
+    "examples": [
+      {
+        "sentence": "Complete listing - \"and\" (exhaustive)"
+      },
+      {
+        "sentence": "Accompaniment - \"with\" (doing together)"
+      },
+      {
+        "sentence": "Quotation - marks quoted speech/thought"
+      },
+      {
+        "sentence": "Natural consequence - \"when/if\" (automatic result)"
+      },
+      {
+        "sentence": "言う (say)"
+      },
+      {
+        "sentence": "思う (think)"
+      },
+      {
+        "sentence": "聞く (hear)"
+      },
+      {
+        "sentence": "書く (write)"
+      },
+      {
+        "sentence": "や (ya) - Partial List"
+      },
+      {
+        "sentence": "か (ka) - Or/Question"
+      },
+      {
+        "sentence": "って Casual Quotation"
+      },
+      {
+        "sentence": "About"
+      },
+      {
+        "sentence": "Pricing"
+      },
+      {
+        "sentence": "Blog"
+      },
+      {
+        "sentence": "Contact"
+      },
+      {
+        "sentence": "Privacy Policy"
+      },
+      {
+        "sentence": "Terms of Service"
+      },
+      {
+        "sentence": "Cookie Policy"
+      }
+    ],
+    "metadata": {
+      "title": "と (to) - And/With/Quotation"
+    }
+  },
+  "metadata": {
+    "extracted_at": "2026-01-01T22:19:33.801664800Z",
+    "duration_ms": 4,
+    "extractors_matched": [
+      "metadata",
+      "examples",
+      "sections"
+    ],
+    "extractors_failed": [
+      "vocab_tables",
+      "definitions",
+      "content_blocks"
+    ]
+  }
+}

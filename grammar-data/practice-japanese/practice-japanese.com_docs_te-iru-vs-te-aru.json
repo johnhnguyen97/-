@@ -1,0 +1,376 @@
+{
+  "config_name": "Language Learning Extractor",
+  "url": "https://practice-japanese.com/docs/te-iru-vs-te-aru/",
+  "data": {
+    "sections": [
+      {
+        "level": 2,
+        "heading": "Overview",
+        "content": "Both 〜ています and 〜てある express states or results of actions, but they have important differences in meaning, usage, and the types of verbs they work with.\n\nています: State or ongoing action 窓が開いている \"The window is open\" てある: Prepared state (someone did it intentionally) 窓が開けてある \"The window has been opened (by someone)\""
+      },
+      {
+        "level": 2,
+        "heading": "Key Differences",
+        "content": "",
+        "children": [
+          {
+            "level": 3,
+            "heading": "Basic Contrast",
+            "content": "ています: - Used with intransitive verbs - Natural state or result - No emphasis on who did it - Neutral observation てある: - Used with transitive verbs - Intentional preparation - Emphasis on purpose - Someone did it deliberately"
+          }
+        ]
+      },
+      {
+        "level": 2,
+        "heading": "Verb Type Distinction",
+        "content": "",
+        "children": [
+          {
+            "level": 3,
+            "heading": "ています + Intransitive Verbs",
+            "content": "Intransitive verbs (自動詞) - no direct object.\n\n開く (あく) → 開いている \"is open\" 閉まる → 閉まっている \"is closed\" 壊れる → 壊れている \"is broken\" 消える → 消えている \"is off/disappeared\""
+          },
+          {
+            "level": 3,
+            "heading": "てある + Transitive Verbs",
+            "content": "Transitive verbs (他動詞) - take a direct object.\n\n開ける → 開けてある \"has been opened\" 閉める → 閉めてある \"has been closed\" 壊す → 壊してある \"has been broken\" 消す → 消してある \"has been turned off\""
+          }
+        ]
+      },
+      {
+        "level": 2,
+        "heading": "Common Verb Pairs",
+        "content": "",
+        "children": [
+          {
+            "level": 3,
+            "heading": "Intransitive (ています) vs Transitive (てある)",
+            "content": "開く/開ける (open) 窓が開いている - \"window is open\" (state) 窓が開けてある - \"window has been opened\" (someone opened it) 閉まる/閉める (close) ドアが閉まっている - \"door is closed\" (state) ドアが閉めてある - \"door has been closed\" (someone closed it) つく/つける (turn on) 電気がついている - \"light is on\" (state) 電気がつけてある - \"light has been turned on\" (someone turned it on) 消える/消す (turn off) 電気が消えている - \"light is off\" (state) 電気が消してある - \"light has been turned off\" (someone turned it off)"
+          }
+        ]
+      },
+      {
+        "level": 2,
+        "heading": "Particle Usage",
+        "content": "",
+        "children": [
+          {
+            "level": 3,
+            "heading": "が with Both",
+            "content": "Both patterns use が (not を) to mark the subject.\n\nています: 窓が開いている \"The window is open\" てある: 窓が開けてある \"The window has been opened\""
+          }
+        ]
+      },
+      {
+        "level": 2,
+        "heading": "Meaning Differences",
+        "content": "",
+        "children": [
+          {
+            "level": 3,
+            "heading": "Neutral State (ています)",
+            "content": "Simply describes current state, no emphasis on cause.\n\n窓が開いている \"The window is open\" (neutral - could be wind, forgotten, etc.) 花が咲いている \"Flowers are blooming\" (natural state) 本が置いてある \"A book is placed\" (someone placed it)"
+          },
+          {
+            "level": 3,
+            "heading": "Intentional Preparation (てある)",
+            "content": "Emphasizes someone did it purposefully, often for preparation.\n\n窓が開けてある \"The window has been opened\" (someone opened it intentionally) 予約してある \"A reservation has been made\" (someone made it for a purpose) 用意してある \"It has been prepared\" (prepared in advance)"
+          }
+        ]
+      },
+      {
+        "level": 2,
+        "heading": "When State Matters vs When Action Matters",
+        "content": "",
+        "children": [
+          {
+            "level": 3,
+            "heading": "Focus on Current State (ています)",
+            "content": "ドアが閉まっている \"The door is closed\" → Fact: door is in closed state 電気がついている \"The light is on\" → Fact: light is in on state"
+          },
+          {
+            "level": 3,
+            "heading": "Focus on Prepared Result (てある)",
+            "content": "ドアが閉めてある \"The door has been closed\" → Implication: someone closed it for a reason 電気がつけてある \"The light has been turned on\" → Implication: someone left it on intentionally"
+          }
+        ]
+      },
+      {
+        "level": 2,
+        "heading": "Practical Examples",
+        "content": "",
+        "children": [
+          {
+            "level": 3,
+            "heading": "Example 1: Window",
+            "content": "Situation: You notice window state 窓が開いている \"The window is open\" (neutral observation) 窓が開けてある \"The window has been opened\" (noticing someone opened it, maybe for ventilation)"
+          },
+          {
+            "level": 3,
+            "heading": "Example 2: Door",
+            "content": "Situation: Checking door ドアが閉まっている \"The door is closed\" (just the state) ドアが閉めてある \"The door has been closed\" (someone closed it, maybe for security)"
+          },
+          {
+            "level": 3,
+            "heading": "Example 3: Light",
+            "content": "Situation: Entering room 電気がついている \"The light is on\" (neutral fact) 電気がつけてある \"The light has been left on\" (someone turned it on and left it that way)"
+          }
+        ]
+      },
+      {
+        "level": 2,
+        "heading": "Written vs Posted Information",
+        "content": "",
+        "children": [
+          {
+            "level": 3,
+            "heading": "てある for Displayed Information",
+            "content": "When something is written/posted intentionally:\n\n名前が書いてある \"The name is written (there)\" (someone wrote it) 値段が書いてある \"The price is written\" (someone posted the price) 地図が貼ってある \"A map is posted\" (someone put it up)"
+          },
+          {
+            "level": 3,
+            "heading": "ています for Existence",
+            "content": "名前が書いている \"A name is written\" (state of being written - less common)"
+          }
+        ]
+      },
+      {
+        "level": 2,
+        "heading": "With Preparation Verbs",
+        "content": "",
+        "children": [
+          {
+            "level": 3,
+            "heading": "Only てある",
+            "content": "Some verbs only use てある because they're inherently preparatory:\n\n予約してある ✓ \"A reservation has been made\" 予約している ✓ (but different meaning) \"Someone is making a reservation\" (ongoing) 用意してある ✓ \"It has been prepared\" 買ってある ✓ \"It has been bought (in advance)\""
+          }
+        ]
+      },
+      {
+        "level": 2,
+        "heading": "Common Conversations",
+        "content": "",
+        "children": [
+          {
+            "level": 3,
+            "heading": "Example 1: Arriving Home",
+            "content": "A: 窓が開いているね \"The window is open\" B: うん、出かける前に開けてあったんだ \"Yeah, I left it open before going out\" A: そうなんだ \"I see\""
+          },
+          {
+            "level": 3,
+            "heading": "Example 2: Checking Preparation",
+            "content": "A: 予約してある？ \"Has a reservation been made?\" B: うん、もう予約してあるよ \"Yeah, it's already been reserved\" A: よかった \"Good\""
+          },
+          {
+            "level": 3,
+            "heading": "Example 3: Noticing State",
+            "content": "A: あれ、電気がついている \"Huh, the light is on\" B: 朝つけてあったから \"Because I left it on this morning\" A: そうか \"I see\""
+          }
+        ]
+      },
+      {
+        "level": 2,
+        "heading": "Common Mistakes",
+        "content": "",
+        "children": [
+          {
+            "level": 3,
+            "heading": "Mistake 1: Using wrong verb type",
+            "content": "Wrong: 窓が開けている ❌ Right: 窓が開いている ✓ \"The window is open\" Wrong: 窓が開いてある ❌ Right: 窓が開けてある ✓ \"The window has been opened\""
+          },
+          {
+            "level": 3,
+            "heading": "Mistake 2: Using を particle",
+            "content": "Wrong: 窓を開けてある ❌ Right: 窓が開けてある ✓ \"The window has been opened\""
+          },
+          {
+            "level": 3,
+            "heading": "Mistake 3: Confusing natural vs intentional",
+            "content": "Situation: Flower naturally blooming Wrong: 花が咲いてある ❌ Right: 花が咲いている ✓ \"Flowers are blooming\" Situation: Flowers arranged by someone Right: 花が飾ってある ✓ \"Flowers are displayed/arranged\""
+          }
+        ]
+      },
+      {
+        "level": 2,
+        "heading": "Quick Reference Chart",
+        "content": "",
+        "children": [
+          {
+            "level": 3,
+            "heading": "Intransitive + ています",
+            "content": "開く → 開いている (is open) 閉まる → 閉まっている (is closed) つく → ついている (is on) 消える → 消えている (is off) 壊れる → 壊れている (is broken) 落ちる → 落ちている (has fallen)"
+          },
+          {
+            "level": 3,
+            "heading": "Transitive + てある",
+            "content": "開ける → 開けてある (has been opened) 閉める → 閉めてある (has been closed) つける → つけてある (has been turned on) 消す → 消してある (has been turned off) 壊す → 壊してある (has been broken) 落とす → 落としてある (has been dropped)"
+          }
+        ]
+      },
+      {
+        "level": 2,
+        "heading": "Choosing the Right Pattern",
+        "content": "",
+        "children": [
+          {
+            "level": 3,
+            "heading": "Ask Yourself:",
+            "content": "Is the verb transitive or intransitive? Intransitive → ています Transitive → てある Do you want to emphasize someone did it? No emphasis → ています Emphasize purpose → てある Is it natural or prepared? Natural state → ています Prepared state → てある"
+          }
+        ]
+      },
+      {
+        "level": 2,
+        "heading": "Practice Pairs",
+        "content": "",
+        "children": [
+          {
+            "level": 3,
+            "heading": "Open/Close",
+            "content": "窓が開いている \"The window is open\" 窓が開けてある \"The window has been opened (by someone)\" ドアが閉まっている \"The door is closed\" ドアが閉めてある \"The door has been closed (by someone)\""
+          },
+          {
+            "level": 3,
+            "heading": "On/Off",
+            "content": "電気がついている \"The light is on\" 電気がつけてある \"The light has been turned on (by someone)\" エアコンが消えている \"The AC is off\" エアコンが消してある \"The AC has been turned off (by someone)\""
+          },
+          {
+            "level": 3,
+            "heading": "Break",
+            "content": "コップが壊れている \"The cup is broken\" コップが壊してある \"The cup has been broken (by someone - rare usage)\""
+          },
+          {
+            "level": 3,
+            "heading": "Write/Display",
+            "content": "名前が書いてある \"The name is written (there)\" 値段が表示してある \"The price is displayed\" ポスターが貼ってある \"A poster is posted\""
+          }
+        ]
+      },
+      {
+        "level": 2,
+        "heading": "Summary Table",
+        "content": "| Aspect | ています | てある | | --------- | ------------------- | ------------------------ | | Verb type | Intransitive | Transitive | | Meaning | Current state | Prepared result | | Emphasis | State itself | Purpose/preparation | | Agent | Not emphasized | Implied (someone did it) | | Particle | が | が | | Usage | Neutral observation | Intentional action |"
+      },
+      {
+        "level": 2,
+        "heading": "Related Grammar Points",
+        "content": "〜ている (te-iru) - Progressive/State 〜てある (te-aru) - Resultant state Transitive & Intransitive - Verb pairs 〜ておく (te-oku) - Do in advance Passive Voice - Related to てある Particles Overview - Understanding が/を",
+        "children": [
+          {
+            "level": 3,
+            "heading": "Company",
+            "content": "About Pricing Blog Contact"
+          },
+          {
+            "level": 3,
+            "heading": "Legal",
+            "content": "Privacy Policy Terms of Service Cookie Policy"
+          }
+        ]
+      }
+    ],
+    "examples": [
+      {
+        "sentence": "Is the verb transitive or intransitive? Intransitive → ています Transitive → てある"
+      },
+      {
+        "sentence": "Intransitive → ています"
+      },
+      {
+        "sentence": "Transitive → てある"
+      },
+      {
+        "sentence": "Do you want to emphasize someone did it? No emphasis → ています Emphasize purpose → てある"
+      },
+      {
+        "sentence": "No emphasis → ています"
+      },
+      {
+        "sentence": "Emphasize purpose → てある"
+      },
+      {
+        "sentence": "Is it natural or prepared? Natural state → ています Prepared state → てある"
+      },
+      {
+        "sentence": "Natural state → ています"
+      },
+      {
+        "sentence": "Prepared state → てある"
+      },
+      {
+        "sentence": "Intransitive → ています"
+      },
+      {
+        "sentence": "Transitive → てある"
+      },
+      {
+        "sentence": "No emphasis → ています"
+      },
+      {
+        "sentence": "Emphasize purpose → てある"
+      },
+      {
+        "sentence": "Natural state → ています"
+      },
+      {
+        "sentence": "Prepared state → てある"
+      },
+      {
+        "sentence": "〜ている (te-iru) - Progressive/State"
+      },
+      {
+        "sentence": "〜てある (te-aru) - Resultant state"
+      },
+      {
+        "sentence": "Transitive & Intransitive - Verb pairs"
+      },
+      {
+        "sentence": "〜ておく (te-oku) - Do in advance"
+      },
+      {
+        "sentence": "Passive Voice - Related to てある"
+      },
+      {
+        "sentence": "Particles Overview - Understanding が/を"
+      },
+      {
+        "sentence": "About"
+      },
+      {
+        "sentence": "Pricing"
+      },
+      {
+        "sentence": "Blog"
+      },
+      {
+        "sentence": "Contact"
+      },
+      {
+        "sentence": "Privacy Policy"
+      },
+      {
+        "sentence": "Terms of Service"
+      },
+      {
+        "sentence": "Cookie Policy"
+      }
+    ],
+    "metadata": {
+      "title": "〜ています vs 〜てある"
+    }
+  },
+  "metadata": {
+    "extracted_at": "2026-01-01T22:19:35.732148500Z",
+    "duration_ms": 5,
+    "extractors_matched": [
+      "metadata",
+      "examples",
+      "sections"
+    ],
+    "extractors_failed": [
+      "vocab_tables",
+      "definitions",
+      "content_blocks"
+    ]
+  }
+}

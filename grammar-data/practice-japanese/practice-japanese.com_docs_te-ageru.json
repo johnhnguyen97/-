@@ -1,0 +1,417 @@
+{
+  "config_name": "Language Learning Extractor",
+  "url": "https://practice-japanese.com/docs/te-ageru/",
+  "data": {
+    "examples": [
+      {
+        "sentence": "Speaker is doing the action"
+      },
+      {
+        "sentence": "Action benefits someone else"
+      },
+      {
+        "sentence": "Direction: from speaker/in-group to others"
+      },
+      {
+        "sentence": "To superiors"
+      },
+      {
+        "sentence": "To strangers"
+      },
+      {
+        "sentence": "When the favor wasn't asked for"
+      },
+      {
+        "sentence": "Use てあげる in questions/offers more than statements"
+      },
+      {
+        "sentence": "Simply omit it when talking about past actions"
+      },
+      {
+        "sentence": "Use てくれる when appropriate (when someone did for you)"
+      },
+      {
+        "sentence": "〜てくれる (te-kureru) - Someone does for me"
+      },
+      {
+        "sentence": "〜てもらう (te-morau) - I have someone do"
+      },
+      {
+        "sentence": "Giving & Receiving - Verbs of giving"
+      },
+      {
+        "sentence": "あげる/やる/さしあげる - Giving verbs"
+      },
+      {
+        "sentence": "Direction of Actions - Perspective in Japanese"
+      },
+      {
+        "sentence": "Te-form Conjugation - Basic te-form"
+      },
+      {
+        "sentence": "About"
+      },
+      {
+        "sentence": "Pricing"
+      },
+      {
+        "sentence": "Blog"
+      },
+      {
+        "sentence": "Contact"
+      },
+      {
+        "sentence": "Privacy Policy"
+      },
+      {
+        "sentence": "Terms of Service"
+      },
+      {
+        "sentence": "Cookie Policy"
+      }
+    ],
+    "sections": [
+      {
+        "level": 2,
+        "heading": "What is 〜てあげる (te-ageru)?",
+        "content": "〜てあげる means \"to do something for someone\" with the nuance that the speaker is doing a favor or helping someone. It emphasizes the action being done for another person's benefit.\n\n[Verb te-form] + あげる 教えてあげる \"teach (for someone)\" 手伝ってあげる \"help (for someone)\""
+      },
+      {
+        "level": 2,
+        "heading": "Formation",
+        "content": "",
+        "children": [
+          {
+            "level": 3,
+            "heading": "Basic Pattern",
+            "content": "Verb (te-form) + あげる Plain: 〜てあげる Polite: 〜てあげます 作ってあげる / 作ってあげます \"make (for someone)\" 送ってあげる / 送ってあげます \"send/take (for someone)\""
+          }
+        ]
+      },
+      {
+        "level": 2,
+        "heading": "Core Meaning",
+        "content": "",
+        "children": [
+          {
+            "level": 3,
+            "heading": "Doing a Favor",
+            "content": "あげる (to give) + action = doing an action as a favor for someone.\n\n本を貸してあげる \"lend a book (for someone)\" 宿題を手伝ってあげる \"help with homework (for someone)\" 教えてあげる \"teach (for someone)\""
+          }
+        ]
+      },
+      {
+        "level": 2,
+        "heading": "Particle Usage",
+        "content": "",
+        "children": [
+          {
+            "level": 3,
+            "heading": "に or のために",
+            "content": "The person receiving the benefit is marked with に or のために.\n\n友達に教えてあげる \"teach (for) a friend\" 弟のために作ってあげる \"make (for) my younger brother\" 彼女に買ってあげた \"bought (for) her\""
+          }
+        ]
+      },
+      {
+        "level": 2,
+        "heading": "Perspective and Direction",
+        "content": "",
+        "children": [
+          {
+            "level": 3,
+            "heading": "Giving Actions Diagram",
+            "content": "私/We (giver) → 他の人 (receiver) てあげる \"I do something for them\""
+          },
+          {
+            "level": 3,
+            "heading": "Key Points",
+            "content": "Speaker is doing the action Action benefits someone else Direction: from speaker/in-group to others\n\n私は弟に本を買ってあげた \"I bought a book for my younger brother\" 母が妹にケーキを作ってあげた \"Mom made a cake for my younger sister\""
+          }
+        ]
+      },
+      {
+        "level": 2,
+        "heading": "Politeness Variation",
+        "content": "",
+        "children": [
+          {
+            "level": 3,
+            "heading": "あげる (Neutral)",
+            "content": "手伝ってあげる \"I'll help (you/them)\""
+          },
+          {
+            "level": 3,
+            "heading": "さしあげる (Humble/Honorific)",
+            "content": "Used when doing something for someone of higher status.\n\n説明してさしあげます \"I'll explain (for you - honorific)\" お持ちしてさしあげましょうか \"Shall I carry it (for you - honorific)?\""
+          }
+        ]
+      },
+      {
+        "level": 2,
+        "heading": "Common Usage Patterns",
+        "content": "",
+        "children": [
+          {
+            "level": 3,
+            "heading": "Offering Help",
+            "content": "手伝ってあげようか？ \"Shall I help you?\" 教えてあげましょうか？ \"Shall I teach you?\" 作ってあげる \"I'll make it for you\""
+          },
+          {
+            "level": 3,
+            "heading": "Past Actions",
+            "content": "弟に本を買ってあげた \"I bought a book for my younger brother\" 友達を駅まで送ってあげた \"I took my friend to the station\" 母に料理を作ってあげた \"I cooked for my mother\""
+          },
+          {
+            "level": 3,
+            "heading": "Negative Form",
+            "content": "教えてあげない \"I won't teach (you/them)\" 手伝ってあげられない \"I can't help (you/them)\""
+          }
+        ]
+      },
+      {
+        "level": 2,
+        "heading": "Important Nuances",
+        "content": "",
+        "children": [
+          {
+            "level": 3,
+            "heading": "Can Sound Condescending",
+            "content": "てあげる can sound patronizing if used inappropriately, especially:\n\nTo superiors To strangers When the favor wasn't asked for\n\nLess appropriate: 先生に教えてあげた ❌ \"I taught the teacher\" (sounds condescending) Better: 先生に教えた ✓ \"I taught the teacher\" Or with honorific: 先生にお教えした ✓ \"I taught the teacher (humble)\""
+          },
+          {
+            "level": 3,
+            "heading": "Better in Questions/Offers",
+            "content": "てあげる is safer when offering help rather than stating you did something.\n\nSafer (offer): 手伝ってあげようか？ ✓ \"Shall I help you?\" Can sound arrogant: 手伝ってあげた ⚠️ \"I helped you\" (can imply superiority)"
+          }
+        ]
+      },
+      {
+        "level": 2,
+        "heading": "Common Verbs with てあげる",
+        "content": "",
+        "children": [
+          {
+            "level": 3,
+            "heading": "Helping Actions",
+            "content": "手伝ってあげる - help (for someone) 助けてあげる - save/rescue (for someone) 教えてあげる - teach (for someone) 説明してあげる - explain (for someone)"
+          },
+          {
+            "level": 3,
+            "heading": "Doing Things",
+            "content": "作ってあげる - make (for someone) 買ってあげる - buy (for someone) 送ってあげる - take/send (for someone) 見せてあげる - show (for someone)"
+          },
+          {
+            "level": 3,
+            "heading": "Communication",
+            "content": "話してあげる - tell (for someone) 読んであげる - read (for someone) 書いてあげる - write (for someone)"
+          }
+        ]
+      },
+      {
+        "level": 2,
+        "heading": "Comparison with Similar Patterns",
+        "content": "",
+        "children": [
+          {
+            "level": 3,
+            "heading": "てあげる vs てくれる vs てもらう",
+            "content": "てあげる: I do for others 私が友達に教えてあげた \"I taught my friend\" てくれる: Others do for me 友達が（私に）教えてくれた \"My friend taught me\" てもらう: I have someone do 私は友達に教えてもらった \"I had my friend teach me / My friend taught me\""
+          }
+        ]
+      },
+      {
+        "level": 2,
+        "heading": "Common Conversations",
+        "content": "",
+        "children": [
+          {
+            "level": 3,
+            "heading": "Example 1: Offering Help",
+            "content": "A: 重そうだね \"That looks heavy\" B: 持ってあげようか？ \"Shall I carry it for you?\" A: ありがとう！お願い \"Thanks! Please do\""
+          },
+          {
+            "level": 3,
+            "heading": "Example 2: Talking About Past Help",
+            "content": "A: 宿題できた？ \"Did you finish your homework?\" B: うん、兄が教えてくれたんだ \"Yeah, my brother taught me\" (Note: Using てくれる, not てあげる) A: いいお兄さんだね \"What a nice brother\""
+          },
+          {
+            "level": 3,
+            "heading": "Example 3: Between Friends",
+            "content": "A: これ、どうやって使うの？ \"How do you use this?\" B: 教えてあげる \"I'll teach you\" A: ありがとう！ \"Thanks!\""
+          }
+        ]
+      },
+      {
+        "level": 2,
+        "heading": "Common Mistakes",
+        "content": "",
+        "children": [
+          {
+            "level": 3,
+            "heading": "Mistake 1: Using with superiors",
+            "content": "Wrong: 先生に教えてあげた ❌ Better: 先生に教えた ✓ Or: 先生にお教えした ✓ \"I taught the teacher\""
+          },
+          {
+            "level": 3,
+            "heading": "Mistake 2: Sounding too proud",
+            "content": "Can sound arrogant: 私が全部やってあげた ⚠️ \"I did everything for them\" More humble: 私が全部やった ✓ \"I did everything\""
+          },
+          {
+            "level": 3,
+            "heading": "Mistake 3: Wrong particle",
+            "content": "Wrong: 友達を教えてあげた ❌ Right: 友達に教えてあげた ✓ \"I taught my friend\""
+          },
+          {
+            "level": 3,
+            "heading": "Mistake 4: Confusing direction",
+            "content": "Context: Someone helped you Wrong: 友達が私に教えてあげた ❌ Right: 友達が私に教えてくれた ✓ \"My friend taught me\""
+          }
+        ]
+      },
+      {
+        "level": 2,
+        "heading": "When to Avoid てあげる",
+        "content": "",
+        "children": [
+          {
+            "level": 3,
+            "heading": "With Superiors",
+            "content": "Don't use: 社長に説明してあげた ❌ Better: 社長に説明した/ご説明した ✓ \"I explained to the president\""
+          },
+          {
+            "level": 3,
+            "heading": "When Not Really a Favor",
+            "content": "Unnatural: ご飯を食べてあげた ❌ Natural: ご飯を食べた ✓ \"I ate a meal\""
+          },
+          {
+            "level": 3,
+            "heading": "In Formal Writing",
+            "content": "Often better to use simpler forms in formal contexts.\n\nCasual: 手伝ってあげました Formal: お手伝いしました/ご協力しました \"I helped/assisted\""
+          }
+        ]
+      },
+      {
+        "level": 2,
+        "heading": "Special Expressions",
+        "content": "",
+        "children": [
+          {
+            "level": 3,
+            "heading": "〜てあげようか？ (Shall I...?)",
+            "content": "Offering to do something.\n\n手伝ってあげようか？ \"Shall I help you?\" 教えてあげようか？ \"Shall I teach you?\" やってあげようか？ \"Shall I do it for you?\""
+          },
+          {
+            "level": 3,
+            "heading": "〜てあげたい (want to do for)",
+            "content": "何かしてあげたい \"I want to do something for them\" 助けてあげたい \"I want to help them\""
+          },
+          {
+            "level": 3,
+            "heading": "〜てあげられない (can't do for)",
+            "content": "今は手伝ってあげられない \"I can't help now\" お金がないから、買ってあげられない \"I can't buy it because I have no money\""
+          }
+        ]
+      },
+      {
+        "level": 2,
+        "heading": "With Family and Close Relationships",
+        "content": "てあげる is more natural when talking about helping family members or close friends, especially those younger or of equal/lower status.\n\nNatural contexts: 弟に本を買ってあげた \"I bought a book for my younger brother\" 子供に絵本を読んであげる \"I read a picture book to my child\" 友達を空港まで送ってあげた \"I took my friend to the airport\""
+      },
+      {
+        "level": 2,
+        "heading": "Politeness Levels",
+        "content": "",
+        "children": [
+          {
+            "level": 3,
+            "heading": "Casual (あげる)",
+            "content": "教えてあげる \"I'll teach you\" 手伝ってあげるよ \"I'll help you\""
+          },
+          {
+            "level": 3,
+            "heading": "Polite (あげます)",
+            "content": "教えてあげます \"I'll teach you\" 手伝ってあげましょうか \"Shall I help you?\""
+          },
+          {
+            "level": 3,
+            "heading": "Honorific (さしあげる)",
+            "content": "ご説明してさしあげます \"I'll explain (for you - honorific)\" お手伝いしてさしあげましょうか \"Shall I help you? (honorific)\""
+          }
+        ]
+      },
+      {
+        "level": 2,
+        "heading": "Cultural Notes",
+        "content": "",
+        "children": [
+          {
+            "level": 3,
+            "heading": "Japanese Perspective on Giving",
+            "content": "In Japanese culture, explicitly stating you did something for someone can sound boastful. Native speakers often:\n\nUse てあげる in questions/offers more than statements Simply omit it when talking about past actions Use てくれる when appropriate (when someone did for you)\n\nMore humble: 手伝った \"I helped\" More explicit (can sound proud): 手伝ってあげた \"I helped (for them)\""
+          }
+        ]
+      },
+      {
+        "level": 2,
+        "heading": "Practice Sentences",
+        "content": "",
+        "children": [
+          {
+            "level": 3,
+            "heading": "Offers",
+            "content": "手伝ってあげましょうか？ \"Shall I help you?\" 教えてあげようか？ \"Shall I teach you?\" 持ってあげる \"I'll carry it for you\" 作ってあげます \"I'll make it for you\""
+          },
+          {
+            "level": 3,
+            "heading": "Past Actions",
+            "content": "弟に本を買ってあげた \"I bought a book for my younger brother\" 妹を駅まで送ってあげた \"I took my younger sister to the station\" 友達に日本語を教えてあげた \"I taught Japanese to my friend\""
+          },
+          {
+            "level": 3,
+            "heading": "With Children/Pets",
+            "content": "子供に絵本を読んであげる \"I read a picture book to my child\" 犬に餌をあげる \"I feed the dog\" 赤ちゃんをお風呂に入れてあげる \"I bathe the baby\""
+          },
+          {
+            "level": 3,
+            "heading": "Questions",
+            "content": "何をしてあげようか？ \"What shall I do for you?\" どこまで送ってあげようか？ \"How far shall I take you?\" 何か買ってあげようか？ \"Shall I buy you something?\""
+          }
+        ]
+      },
+      {
+        "level": 2,
+        "heading": "Related Grammar Points",
+        "content": "〜てくれる (te-kureru) - Someone does for me 〜てもらう (te-morau) - I have someone do Giving & Receiving - Verbs of giving あげる/やる/さしあげる - Giving verbs Direction of Actions - Perspective in Japanese Te-form Conjugation - Basic te-form",
+        "children": [
+          {
+            "level": 3,
+            "heading": "Company",
+            "content": "About Pricing Blog Contact"
+          },
+          {
+            "level": 3,
+            "heading": "Legal",
+            "content": "Privacy Policy Terms of Service Cookie Policy"
+          }
+        ]
+      }
+    ],
+    "metadata": {
+      "title": "〜てあげる (Do for Others)"
+    }
+  },
+  "metadata": {
+    "extracted_at": "2026-01-01T22:19:35.326713500Z",
+    "duration_ms": 5,
+    "extractors_matched": [
+      "metadata",
+      "examples",
+      "sections"
+    ],
+    "extractors_failed": [
+      "vocab_tables",
+      "definitions",
+      "content_blocks"
+    ]
+  }
+}

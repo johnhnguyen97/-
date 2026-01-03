@@ -1,0 +1,336 @@
+{
+  "config_name": "Language Learning Extractor",
+  "url": "https://practice-japanese.com/docs/adjective-equivalence/",
+  "data": {
+    "examples": [
+      {
+        "sentence": "Adjective Comparisons (より)"
+      },
+      {
+        "sentence": "Adjective Superlatives (一番)"
+      },
+      {
+        "sentence": "I-adjectives"
+      },
+      {
+        "sentence": "Na-adjectives"
+      },
+      {
+        "sentence": "About"
+      },
+      {
+        "sentence": "Pricing"
+      },
+      {
+        "sentence": "Blog"
+      },
+      {
+        "sentence": "Contact"
+      },
+      {
+        "sentence": "Privacy Policy"
+      },
+      {
+        "sentence": "Terms of Service"
+      },
+      {
+        "sentence": "Cookie Policy"
+      }
+    ],
+    "metadata": {
+      "title": "Adjective Equivalence (同じくらい)"
+    },
+    "sections": [
+      {
+        "level": 2,
+        "heading": "Equivalence Overview",
+        "content": "Japanese expresses equivalence (as... as) using 同じくらい (onaji kurai) or ほど (hodo). These show that two things are equal or similar in degree.\n\nA は B と同じくらい高い \"A is as expensive as B\" A は B と同じくらい大きい \"A is as big as B\""
+      },
+      {
+        "level": 2,
+        "heading": "Basic Equivalence Pattern",
+        "content": "",
+        "children": [
+          {
+            "level": 3,
+            "heading": "Using 同じくらい (onaji kurai)",
+            "content": "A は B と同じくらい [adjective]\n\n[Subject] は [Comparison] と 同じくらい [Adjective] A は B と 同じくらい 高い \"A is as expensive as B\""
+          },
+          {
+            "level": 3,
+            "heading": "Examples",
+            "content": "この車はあの車と同じくらい速い \"This car is as fast as that car\" 東京は大阪と同じくらい暑い \"Tokyo is as hot as Osaka\" 私は兄と同じくらい背が高い \"I am as tall as my older brother\""
+          }
+        ]
+      },
+      {
+        "level": 2,
+        "heading": "Using くらい/ぐらい (about, approximately)",
+        "content": "A は B くらい/ぐらい [adjective]\n\nSimpler, more casual form:\n\nこの本はあの本くらい面白い \"This book is about as interesting as that book\" 彼は私くらい背が高い \"He is about as tall as me\" 今日は昨日ぐらい暑い \"Today is about as hot as yesterday\""
+      },
+      {
+        "level": 2,
+        "heading": "Using ほど (hodo)",
+        "content": "A は B ほど [adjective]\n\nOften used in negative comparisons but can be positive:",
+        "children": [
+          {
+            "level": 3,
+            "heading": "Positive Equivalence",
+            "content": "この車はあの車ほど速い \"This car is as fast as that car\" 彼は私ほど日本語が上手だ \"He is as good at Japanese as me\""
+          },
+          {
+            "level": 3,
+            "heading": "Negative (Not as... as)",
+            "content": "More common usage:\n\n私は兄ほど背が高くない \"I'm not as tall as my older brother\" この本はあの本ほど面白くない \"This book is not as interesting as that book\""
+          }
+        ]
+      },
+      {
+        "level": 2,
+        "heading": "Comparison of Equivalence Forms",
+        "content": "| Form | Usage | Nuance | | ------------- | ----------------------- | --------------------- | | 同じくらい | Positive equivalence | \"just as, equally\" | | くらい/ぐらい | Approximate equivalence | \"about as\" | | ほど | Often negative | \"as... as\" (emphasis) |",
+        "children": [
+          {
+            "level": 3,
+            "heading": "Examples Side by Side",
+            "content": "同じくらい: 東京は大阪と同じくらい大きい \"Tokyo is just as big as Osaka\" (equal) くらい: 東京は大阪くらい大きい \"Tokyo is about as big as Osaka\" (approximate) ほど (positive): 東京は大阪ほど大きい \"Tokyo is as big as Osaka\" ほど (negative): 大阪は東京ほど大きくない \"Osaka is not as big as Tokyo\""
+          }
+        ]
+      },
+      {
+        "level": 2,
+        "heading": "Common Equivalence Patterns",
+        "content": "",
+        "children": [
+          {
+            "level": 3,
+            "heading": "Size",
+            "content": "この部屋はあの部屋と同じくらい広い \"This room is as spacious as that room\" 私の家は彼の家くらい大きい \"My house is about as big as his house\""
+          },
+          {
+            "level": 3,
+            "heading": "Price",
+            "content": "この車はあの車と同じくらい高い \"This car is as expensive as that car\" リンゴはバナナくらい高い \"Apples are about as expensive as bananas\""
+          },
+          {
+            "level": 3,
+            "heading": "Quality",
+            "content": "この映画はあの映画と同じくらい面白い \"This movie is as interesting as that movie\" 彼女は私くらい日本語が上手だ \"She is about as good at Japanese as me\""
+          },
+          {
+            "level": 3,
+            "heading": "Time/Duration",
+            "content": "今日は昨日と同じくらい忙しい \"Today is as busy as yesterday\" 今年は去年くらい暑い \"This year is about as hot as last year\""
+          }
+        ]
+      },
+      {
+        "level": 2,
+        "heading": "Question Forms",
+        "content": "",
+        "children": [
+          {
+            "level": 3,
+            "heading": "同じくらいですか？",
+            "content": "A と B は同じくらい高いですか？ \"Are A and B equally expensive?\" この2つは同じくらいですか？ \"Are these two about the same?\""
+          },
+          {
+            "level": 3,
+            "heading": "どのくらい (how much)",
+            "content": "A は B とどのくらい違いますか？ \"How different are A and B?\" これはあれとどのくらい似ていますか？ \"How similar is this to that?\""
+          }
+        ]
+      },
+      {
+        "level": 2,
+        "heading": "Answering Equivalence Questions",
+        "content": "Q: 東京と大阪はどちらが大きいですか？ \"Which is bigger, Tokyo or Osaka?\" A: 同じくらいです \"They're about the same\" A: 東京の方が少し大きいです \"Tokyo is a little bigger\" A: ほとんど同じです \"They're almost the same\""
+      },
+      {
+        "level": 2,
+        "heading": "Conversation Examples",
+        "content": "",
+        "children": [
+          {
+            "level": 3,
+            "heading": "Example 1: Comparing Items",
+            "content": "A: この2つのパソコン、どちらがいいですか？ \"Which of these two computers is better?\" B: 性能は同じくらいです \"The performance is about the same\" A: 値段は？ \"How about the price?\" B: こっちの方が少し安いです \"This one is a little cheaper\""
+          },
+          {
+            "level": 3,
+            "heading": "Example 2: Personal Comparison",
+            "content": "A: 日本語と中国語、どちらが難しいですか？ \"Which is more difficult, Japanese or Chinese?\" B: 同じくらい難しいと思います \"I think they're equally difficult\" A: 本当？ \"Really?\" B: はい、どちらも漢字がたくさんあります \"Yes, both have many kanji\""
+          },
+          {
+            "level": 3,
+            "heading": "Example 3: Weather",
+            "content": "A: 今日は暑いね \"It's hot today\" B: 昨日と同じくらいだよ \"It's about the same as yesterday\" A: そう？もっと暑く感じる \"Really? It feels hotter\" B: 湿度が高いからかもね \"Maybe because the humidity is high\""
+          }
+        ]
+      },
+      {
+        "level": 2,
+        "heading": "Advanced Equivalence Patterns",
+        "content": "",
+        "children": [
+          {
+            "level": 3,
+            "heading": "～と同じくらい～ (as... as with details)",
+            "content": "彼は私と同じくらい一生懸命勉強する \"He studies as hard as me\" この店はあの店と同じくらいよく売れている \"This store sells about as well as that store\""
+          },
+          {
+            "level": 3,
+            "heading": "～も～も同じくらい (both equally)",
+            "content": "犬も猫も同じくらい好きです \"I like both dogs and cats equally\" 春も秋も同じくらい好きだ \"I like both spring and autumn equally\""
+          },
+          {
+            "level": 3,
+            "heading": "ほぼ同じ (almost the same)",
+            "content": "ほぼ同じくらい高い \"almost equally expensive\" ほぼ同じサイズです \"almost the same size\""
+          }
+        ]
+      },
+      {
+        "level": 2,
+        "heading": "Degree Modifiers",
+        "content": "",
+        "children": [
+          {
+            "level": 3,
+            "heading": "ちょうど (exactly)",
+            "content": "ちょうど同じくらい \"exactly the same\" ちょうど同じ大きさ \"exactly the same size\""
+          },
+          {
+            "level": 3,
+            "heading": "だいたい (about, roughly)",
+            "content": "だいたい同じくらい \"about the same\" だいたい同じ値段 \"about the same price\""
+          },
+          {
+            "level": 3,
+            "heading": "ほとんど (almost)",
+            "content": "ほとんど同じくらい \"almost the same\" ほとんど同じ速さ \"almost the same speed\""
+          }
+        ]
+      },
+      {
+        "level": 2,
+        "heading": "Negative Equivalence Detailed",
+        "content": "",
+        "children": [
+          {
+            "level": 3,
+            "heading": "～ほど～ない (not as... as)",
+            "content": "私は兄ほど背が高くない \"I'm not as tall as my older brother\" この本はあの本ほど面白くない \"This book is not as interesting as that book\" 今日は昨日ほど暑くないです \"Today is not as hot as yesterday\" 彼女は私ほど日本語が上手じゃない \"She's not as good at Japanese as me\""
+          },
+          {
+            "level": 3,
+            "heading": "それほど～ない (not that much)",
+            "content": "それほど高くない \"not that expensive\" それほど難しくないです \"not that difficult\""
+          }
+        ]
+      },
+      {
+        "level": 2,
+        "heading": "Common Mistakes",
+        "content": "",
+        "children": [
+          {
+            "level": 3,
+            "heading": "Mistake 1: Using より with 同じくらい",
+            "content": "Wrong: A は B より同じくらい高い ❌ Right: A は B と同じくらい高い ✓ \"A is as expensive as B\""
+          },
+          {
+            "level": 3,
+            "heading": "Mistake 2: Wrong Particle",
+            "content": "Wrong: A は B で同じくらい ❌ Right: A は B と同じくらい ✓ Wrong: A は B に同じくらい ❌ Right: A は B と同じくらい ✓"
+          },
+          {
+            "level": 3,
+            "heading": "Mistake 3: Confusing Positive and Negative ほど",
+            "content": "Positive: 彼は私ほど速い \"He is as fast as me\" Negative: 彼は私ほど速くない \"He is not as fast as me\""
+          },
+          {
+            "level": 3,
+            "heading": "Mistake 4: Adding くらい Twice",
+            "content": "Wrong: 同じくらいくらい ❌ Right: 同じくらい ✓ Right: くらい ✓"
+          }
+        ]
+      },
+      {
+        "level": 2,
+        "heading": "Expressing Similarity",
+        "content": "",
+        "children": [
+          {
+            "level": 3,
+            "heading": "似ている (similar to)",
+            "content": "この車はあの車に似ている \"This car is similar to that car\" 彼は父親に似ています \"He resembles his father\""
+          },
+          {
+            "level": 3,
+            "heading": "ような (like, similar to)",
+            "content": "あの車のような車 \"a car like that car\" これと同じような物 \"something similar to this\""
+          }
+        ]
+      },
+      {
+        "level": 2,
+        "heading": "Summary Patterns",
+        "content": "",
+        "children": [
+          {
+            "level": 3,
+            "heading": "Positive Equivalence",
+            "content": "A は B と同じくらい [adjective] \"A is as [adjective] as B\" A は B くらい [adjective] \"A is about as [adjective] as B\""
+          },
+          {
+            "level": 3,
+            "heading": "Negative Equivalence",
+            "content": "A は B ほど [adjective]-くない \"A is not as [adjective] as B\""
+          },
+          {
+            "level": 3,
+            "heading": "Question",
+            "content": "A と B は同じくらいですか？ \"Are A and B about the same?\""
+          }
+        ]
+      },
+      {
+        "level": 2,
+        "heading": "Practice Sentences",
+        "content": "この本はあの本と同じくらい面白い \"This book is as interesting as that book\" 私は兄くらい背が高い \"I'm about as tall as my older brother\" 今日は昨日ほど暑くない \"Today is not as hot as yesterday\" 東京と大阪は同じくらい大きいです \"Tokyo and Osaka are about equally big\" この店はあの店と同じくらい人気がある \"This store is as popular as that store\" 彼女は私ほど日本語が上手じゃない \"She's not as good at Japanese as me\" ほぼ同じくらいの値段です \"They're almost the same price\" どちらも同じくらい好きです \"I like both about equally\""
+      },
+      {
+        "level": 2,
+        "heading": "Key Takeaways",
+        "content": "✓ 同じくらい = \"equally, just as\" ✓ くらい/ぐらい = \"about as\" (casual) ✓ ほど = \"as\" (often with negative) ✓ Use と particle with comparison ✓ ～ほど～ない = \"not as... as\" ✓ 同じ = \"same\" ✓ Can modify with degree words ✓ Essential for expressing equality\n\nMaster equivalence - compare things accurately!\n\nCongratulations! You've completed all adjective lessons!\n\nRelated:\n\nAdjective Comparisons (より) Adjective Superlatives (一番) I-adjectives Na-adjectives",
+        "children": [
+          {
+            "level": 3,
+            "heading": "Company",
+            "content": "About Pricing Blog Contact"
+          },
+          {
+            "level": 3,
+            "heading": "Legal",
+            "content": "Privacy Policy Terms of Service Cookie Policy"
+          }
+        ]
+      }
+    ]
+  },
+  "metadata": {
+    "extracted_at": "2026-01-01T22:19:27.429861700Z",
+    "duration_ms": 3,
+    "extractors_matched": [
+      "metadata",
+      "examples",
+      "sections"
+    ],
+    "extractors_failed": [
+      "vocab_tables",
+      "definitions",
+      "content_blocks"
+    ]
+  }
+}

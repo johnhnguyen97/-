@@ -1,0 +1,355 @@
+{
+  "config_name": "Language Learning Extractor",
+  "url": "https://practice-japanese.com/docs/adjective-negative/",
+  "data": {
+    "examples": [
+      {
+        "sentence": "Adjective Present Tense"
+      },
+      {
+        "sentence": "I-adjective Conjugation"
+      },
+      {
+        "sentence": "Na-adjective Conjugation"
+      },
+      {
+        "sentence": "About"
+      },
+      {
+        "sentence": "Pricing"
+      },
+      {
+        "sentence": "Blog"
+      },
+      {
+        "sentence": "Contact"
+      },
+      {
+        "sentence": "Privacy Policy"
+      },
+      {
+        "sentence": "Terms of Service"
+      },
+      {
+        "sentence": "Cookie Policy"
+      }
+    ],
+    "metadata": {
+      "title": "Adjective Negative Forms"
+    },
+    "sections": [
+      {
+        "level": 2,
+        "heading": "Negative Forms Overview",
+        "content": "Negative forms express what something is not . Both i-adjectives and na-adjectives have different negative patterns.\n\nI-adjective: 高くない - is not expensive Na-adjective: 静かじゃない - is not quiet"
+      },
+      {
+        "level": 2,
+        "heading": "I-adjective Negative",
+        "content": "",
+        "children": [
+          {
+            "level": 3,
+            "heading": "Plain Form",
+            "content": "Change い to くない\n\n高い → 高くない - is not expensive 大きい → 大きくない - is not big 美味しい → 美味しくない - is not delicious 難しい → 難しくない - is not difficult 楽しい → 楽しくない - is not fun"
+          },
+          {
+            "level": 3,
+            "heading": "Polite Form",
+            "content": "Change い to くないです or くありません\n\n高くないです / 高くありません \"is not expensive\" (polite) 大きくないです / 大きくありません \"is not big\" (polite) 美味しくないです / 美味しくありません \"is not delicious\" (polite)\n\nくないです = casual polite くありません = formal polite"
+          }
+        ]
+      },
+      {
+        "level": 2,
+        "heading": "Na-adjective Negative",
+        "content": "",
+        "children": [
+          {
+            "level": 3,
+            "heading": "Plain Form",
+            "content": "Na-adjective + じゃない or ではない\n\n静かじゃない / 静かではない - is not quiet 便利じゃない / 便利ではない - is not convenient きれいじゃない / きれいではない - is not beautiful 元気じゃない / 元気ではない - is not energetic\n\nじゃない = casual ではない = formal"
+          },
+          {
+            "level": 3,
+            "heading": "Polite Form",
+            "content": "Na-adjective + じゃないです or じゃありません\n\n静かじゃないです / 静かじゃありません \"is not quiet\" (polite) 便利じゃないです / 便利じゃありません \"is not convenient\" (polite) きれいじゃないです / きれいじゃありません \"is not beautiful\" (polite)"
+          }
+        ]
+      },
+      {
+        "level": 2,
+        "heading": "Complete Negative Chart",
+        "content": "| Type | Plain | Polite (Casual) | Polite (Formal) | | --------------- | ------------ | ---------------- | ------------------ | | I-adj | 高くない | 高くないです | 高くありません | | Na-adj | 静かじゃない | 静かじゃないです | 静かじゃありません | | Na-adj (formal) | 静かではない | 静かではないです | 静かではありません |"
+      },
+      {
+        "level": 2,
+        "heading": "Special Case: いい/よい",
+        "content": "Good has irregular negative:\n\nPresent: いい / よい Negative: よくない (NOT いくない!) Polite negative: よくないです / よくありません 天気がよくない \"The weather is not good\" 映画はよくなかったです \"The movie was not good\""
+      },
+      {
+        "level": 2,
+        "heading": "When to Use Negative Forms",
+        "content": "",
+        "children": [
+          {
+            "level": 3,
+            "heading": "1. Denying Characteristics",
+            "content": "この車は高くない \"This car is not expensive\" その部屋は静かじゃないです \"That room is not quiet\" 彼は親切じゃない \"He is not kind\""
+          },
+          {
+            "level": 3,
+            "heading": "2. Correcting Information",
+            "content": "A: 日本語は難しいですか？ \"Is Japanese difficult?\" B: いいえ、難しくないです \"No, it's not difficult\""
+          },
+          {
+            "level": 3,
+            "heading": "3. Expressing Mild Disagreement",
+            "content": "それはあまり面白くない \"That's not very interesting\" そんなに高くないよ \"It's not that expensive\""
+          }
+        ]
+      },
+      {
+        "level": 2,
+        "heading": "Comparison: Affirmative vs Negative",
+        "content": "",
+        "children": [
+          {
+            "level": 3,
+            "heading": "I-adjectives",
+            "content": "高い → 高くない \"is expensive\" → \"is not expensive\" 大きい → 大きくない \"is big\" → \"is not big\" 美味しい → 美味しくない \"is delicious\" → \"is not delicious\""
+          },
+          {
+            "level": 3,
+            "heading": "Na-adjectives",
+            "content": "静かだ → 静かじゃない \"is quiet\" → \"is not quiet\" 便利だ → 便利じゃない \"is convenient\" → \"is not convenient\" きれいだ → きれいじゃない \"is beautiful\" → \"is not beautiful\""
+          }
+        ]
+      },
+      {
+        "level": 2,
+        "heading": "Degree Expressions with Negatives",
+        "content": "",
+        "children": [
+          {
+            "level": 3,
+            "heading": "あまり～ない (not very)",
+            "content": "あまり高くない \"not very expensive\" あまり静かじゃない \"not very quiet\" あまり美味しくないです \"not very delicious\""
+          },
+          {
+            "level": 3,
+            "heading": "全然～ない (not at all)",
+            "content": "全然高くない \"not expensive at all\" 全然難しくない \"not difficult at all\" 全然静かじゃないです \"not quiet at all\""
+          },
+          {
+            "level": 3,
+            "heading": "それほど～ない (not that much)",
+            "content": "それほど大きくない \"not that big\" それほど便利じゃない \"not that convenient\""
+          }
+        ]
+      },
+      {
+        "level": 2,
+        "heading": "Question Forms",
+        "content": "",
+        "children": [
+          {
+            "level": 3,
+            "heading": "I-adjectives",
+            "content": "高くないですか？ \"Isn't it expensive?\" 美味しくないですか？ \"Isn't it delicious?\" 難しくないですか？ \"Isn't it difficult?\""
+          },
+          {
+            "level": 3,
+            "heading": "Na-adjectives",
+            "content": "静かじゃないですか？ \"Isn't it quiet?\" 便利じゃないですか？ \"Isn't it convenient?\" 元気じゃないですか？ \"Aren't you well?\""
+          }
+        ]
+      },
+      {
+        "level": 2,
+        "heading": "Answering Negative Questions",
+        "content": "Tricky! Japanese yes/no logic:\n\nQ: 高くないですか？ \"Isn't it expensive?\" A: はい、高くないです \"Right, it's not expensive\" (agreeing with negative) A: いいえ、高いです \"No, it IS expensive\" (disagreeing with negative)"
+      },
+      {
+        "level": 2,
+        "heading": "Common Patterns",
+        "content": "",
+        "children": [
+          {
+            "level": 3,
+            "heading": "Soft Negation",
+            "content": "あまり好きじゃない \"don't like it very much\" そんなに悪くない \"not that bad\" それほど難しくないです \"not that difficult\""
+          },
+          {
+            "level": 3,
+            "heading": "Emphatic Negation",
+            "content": "全然面白くない \"not interesting at all\" 全く美味しくない \"not delicious at all\" 本当に静かじゃないです \"really not quiet\""
+          }
+        ]
+      },
+      {
+        "level": 2,
+        "heading": "Conversation Examples",
+        "content": "",
+        "children": [
+          {
+            "level": 3,
+            "heading": "Example 1: Shopping",
+            "content": "A: この服はどうですか？ \"How is this clothing?\" B: 悪くないですね \"It's not bad\" A: 高くないですか？ \"Isn't it expensive?\" B: いいえ、そんなに高くないです \"No, it's not that expensive\""
+          },
+          {
+            "level": 3,
+            "heading": "Example 2: Restaurant",
+            "content": "A: この店は美味しいですか？ \"Is this restaurant delicious?\" B: うーん、あまり美味しくない \"Hmm, it's not very delicious\" A: 高いですか？ \"Is it expensive?\" B: 高くないけど、美味しくない \"It's not expensive, but it's not delicious\""
+          },
+          {
+            "level": 3,
+            "heading": "Example 3: Place Description",
+            "content": "A: その町は静かですか？ \"Is that town quiet?\" B: いいえ、静かじゃないです \"No, it's not quiet\" A: にぎやかですか？ \"Is it lively?\" B: はい、とてもにぎやかです \"Yes, it's very lively\""
+          }
+        ]
+      },
+      {
+        "level": 2,
+        "heading": "Multiple Negatives",
+        "content": "高くなくて、美味しくない \"not expensive and not delicious\" 静かじゃなくて、便利じゃない \"not quiet and not convenient\" 大きくなくて、きれいじゃないです \"not big and not beautiful\""
+      },
+      {
+        "level": 2,
+        "heading": "Common Mistakes",
+        "content": "",
+        "children": [
+          {
+            "level": 3,
+            "heading": "Mistake 1: Wrong I-adjective Negative",
+            "content": "Wrong: 高いない ❌ Right: 高くない ✓ Wrong: 美味しいじゃない ❌ Right: 美味しくない ✓"
+          },
+          {
+            "level": 3,
+            "heading": "Mistake 2: Wrong Na-adjective Negative",
+            "content": "Wrong: 静かくない ❌ Right: 静かじゃない ✓ Wrong: きれいない ❌ Right: きれいじゃない ✓"
+          },
+          {
+            "level": 3,
+            "heading": "Mistake 3: いい Negative",
+            "content": "Wrong: いくない ❌ Right: よくない ✓ Wrong: いくないです ❌ Right: よくないです ✓"
+          },
+          {
+            "level": 3,
+            "heading": "Mistake 4: Double Negative Marker",
+            "content": "Wrong: 高くないじゃない ❌ Right: 高くない ✓ Wrong: 静かじゃないくない ❌ Right: 静かじゃない ✓"
+          }
+        ]
+      },
+      {
+        "level": 2,
+        "heading": "Modifying Nouns with Negative",
+        "content": "",
+        "children": [
+          {
+            "level": 3,
+            "heading": "I-adjectives",
+            "content": "高くない車 \"car that is not expensive\" 美味しくない料理 \"food that is not delicious\" 大きくない部屋 \"room that is not big\""
+          },
+          {
+            "level": 3,
+            "heading": "Na-adjectives",
+            "content": "Use relative clause:\n\n静かじゃない部屋 \"room that is not quiet\" 便利じゃない場所 \"place that is not convenient\" きれいじゃない花 \"flower that is not beautiful\""
+          }
+        ]
+      },
+      {
+        "level": 2,
+        "heading": "Comparing Politeness Levels",
+        "content": "",
+        "children": [
+          {
+            "level": 3,
+            "heading": "I-adjectives",
+            "content": "高くない (plain) 高くないです (casual polite) 高くありません (formal polite)"
+          },
+          {
+            "level": 3,
+            "heading": "Na-adjectives",
+            "content": "静かじゃない (plain casual) 静かではない (plain formal) 静かじゃないです (polite casual) 静かじゃありません (polite formal) 静かではありません (most formal)"
+          }
+        ]
+      },
+      {
+        "level": 2,
+        "heading": "Conjugation Practice",
+        "content": "",
+        "children": [
+          {
+            "level": 3,
+            "heading": "新しい (new)",
+            "content": "新しい → 新しくない 新しくないです / 新しくありません"
+          },
+          {
+            "level": 3,
+            "heading": "古い (old)",
+            "content": "古い → 古くない 古くないです / 古くありません"
+          },
+          {
+            "level": 3,
+            "heading": "簡単 (simple)",
+            "content": "簡単だ → 簡単じゃない / 簡単ではない 簡単じゃないです / 簡単じゃありません"
+          },
+          {
+            "level": 3,
+            "heading": "複雑 (complex)",
+            "content": "複雑だ → 複雑じゃない / 複雑ではない 複雑じゃないです / 複雑じゃありません"
+          }
+        ]
+      },
+      {
+        "level": 2,
+        "heading": "Using in Context",
+        "content": "",
+        "children": [
+          {
+            "level": 3,
+            "heading": "Describing Things",
+            "content": "この問題は難しくない \"This problem is not difficult\" その答えは正しくないです \"That answer is not correct\" 彼の説明は明確じゃない \"His explanation is not clear\""
+          },
+          {
+            "level": 3,
+            "heading": "Expressing Opinions",
+            "content": "私はその意見に賛成じゃない \"I don't agree with that opinion\" この方法はよくないと思う \"I think this method is not good\" そのアイデアは悪くないです \"That idea is not bad\""
+          }
+        ]
+      },
+      {
+        "level": 2,
+        "heading": "Key Takeaways",
+        "content": "✓ I-adjectives: い → くない ✓ Na-adjectives: じゃない (casual) / ではない (formal) ✓ いい → よくない (irregular) ✓ Add です for politeness ✓ Use with あまり, 全然, それほど ✓ Negative questions need careful answers ✓ Can modify nouns ✓ Multiple politeness levels available\n\nMaster negative forms - essential for denying and correcting!\n\nNext: Adjective Past Negative\n\nRelated:\n\nAdjective Present Tense I-adjective Conjugation Na-adjective Conjugation",
+        "children": [
+          {
+            "level": 3,
+            "heading": "Company",
+            "content": "About Pricing Blog Contact"
+          },
+          {
+            "level": 3,
+            "heading": "Legal",
+            "content": "Privacy Policy Terms of Service Cookie Policy"
+          }
+        ]
+      }
+    ]
+  },
+  "metadata": {
+    "extracted_at": "2026-01-01T22:19:27.970245500Z",
+    "duration_ms": 3,
+    "extractors_matched": [
+      "metadata",
+      "examples",
+      "sections"
+    ],
+    "extractors_failed": [
+      "vocab_tables",
+      "definitions",
+      "content_blocks"
+    ]
+  }
+}

@@ -1,0 +1,340 @@
+{
+  "config_name": "Language Learning Extractor",
+  "url": "https://practice-japanese.com/docs/dare/",
+  "data": {
+    "examples": [
+      {
+        "sentence": "Question Words (5W1H) - Overview"
+      },
+      {
+        "sentence": "Particles - が, を, と, に usage"
+      },
+      {
+        "sentence": "どなた (donata) - Polite form"
+      },
+      {
+        "sentence": "誰か/誰も/誰でも - Someone/nobody/anyone"
+      },
+      {
+        "sentence": "か (ka) - Question particle"
+      },
+      {
+        "sentence": "Yes/No Questions - Question formation"
+      },
+      {
+        "sentence": "About"
+      },
+      {
+        "sentence": "Pricing"
+      },
+      {
+        "sentence": "Blog"
+      },
+      {
+        "sentence": "Contact"
+      },
+      {
+        "sentence": "Privacy Policy"
+      },
+      {
+        "sentence": "Terms of Service"
+      },
+      {
+        "sentence": "Cookie Policy"
+      }
+    ],
+    "metadata": {
+      "title": "誰 (dare) - Who"
+    },
+    "sections": [
+      {
+        "level": 2,
+        "heading": "What is 誰 (dare)?",
+        "content": "誰 (だれ - dare) means \"who\" in Japanese. It's used to ask about people's identity or to inquire who is performing an action.\n\n誰ですか？ \"Who is it?\" 誰が来ますか？ \"Who will come?\" 誰と行きますか？ \"Who will you go with?\""
+      },
+      {
+        "level": 2,
+        "heading": "Basic Usage",
+        "content": "",
+        "children": [
+          {
+            "level": 3,
+            "heading": "Asking Identity",
+            "content": "誰ですか？ \"Who is it?\" あの人は誰ですか？ \"Who is that person?\" これは誰の本ですか？ \"Whose book is this?\""
+          },
+          {
+            "level": 3,
+            "heading": "Asking Who Does Something",
+            "content": "誰が来ますか？ \"Who will come?\" 誰が言いましたか？ \"Who said it?\" 誰がやりましたか？ \"Who did it?\""
+          }
+        ]
+      },
+      {
+        "level": 2,
+        "heading": "With Particles",
+        "content": "",
+        "children": [
+          {
+            "level": 3,
+            "heading": "が (subject marker)",
+            "content": "When asking who is the subject:\n\n誰が来ますか？ \"Who will come?\" 誰が好きですか？ \"Who do you like?\" 誰がしましたか？ \"Who did it?\""
+          },
+          {
+            "level": 3,
+            "heading": "を (object marker)",
+            "content": "When asking about the object:\n\n誰を待っていますか？ \"Who are you waiting for?\" 誰を見ましたか？ \"Who did you see?\" 誰を呼びますか？ \"Who will you call?\""
+          },
+          {
+            "level": 3,
+            "heading": "と (with)",
+            "content": "Asking who someone does something with:\n\n誰と行きますか？ \"Who will you go with?\" 誰と話していますか？ \"Who are you talking with?\" 誰と住んでいますか？ \"Who do you live with?\""
+          },
+          {
+            "level": 3,
+            "heading": "に (to/for)",
+            "content": "Asking who receives an action:\n\n誰に会いますか？ \"Who will you meet?\" 誰にあげますか？ \"Who will you give it to?\" 誰に聞きますか？ \"Who will you ask?\""
+          },
+          {
+            "level": 3,
+            "heading": "から (from)",
+            "content": "Asking who something comes from:\n\n誰から聞きましたか？ \"Who did you hear it from?\" 誰からもらいましたか？ \"Who did you receive it from?\" 誰から電話がありましたか？ \"Who called?\" (lit: from whom was there a call)"
+          },
+          {
+            "level": 3,
+            "heading": "の (possession)",
+            "content": "Asking about ownership:\n\n誰のですか？ \"Whose is it?\" これは誰の本ですか？ \"Whose book is this?\" 誰のかばんですか？ \"Whose bag is it?\""
+          }
+        ]
+      },
+      {
+        "level": 2,
+        "heading": "Politeness: 誰 (dare) vs どなた (donata)",
+        "content": "",
+        "children": [
+          {
+            "level": 3,
+            "heading": "誰 (dare) - Neutral/Casual",
+            "content": "誰ですか？ \"Who is it?\" 誰が来る？ \"Who's coming?\""
+          },
+          {
+            "level": 3,
+            "heading": "どなた (donata) - Polite",
+            "content": "Used in formal situations or when showing respect:\n\nどなたですか？ \"Who is it?\" (polite) どなたがいらっしゃいますか？ \"Who is coming?\" (honorific + polite) 失礼ですが、どなたですか？ \"Excuse me, but who are you?\""
+          }
+        ]
+      },
+      {
+        "level": 2,
+        "heading": "Common Question Patterns",
+        "content": "",
+        "children": [
+          {
+            "level": 3,
+            "heading": "Basic Identity",
+            "content": "誰ですか？ \"Who is it?\" 彼は誰ですか？ \"Who is he?\" あの人は誰？ \"Who is that person?\""
+          },
+          {
+            "level": 3,
+            "heading": "Asking About Actions",
+            "content": "誰が食べましたか？ \"Who ate it?\" 誰が来ますか？ \"Who will come?\" 誰がやりますか？ \"Who will do it?\""
+          },
+          {
+            "level": 3,
+            "heading": "With Companions",
+            "content": "誰と行きますか？ \"Who will you go with?\" 誰と話していますか？ \"Who are you talking with?\" 誰と一緒ですか？ \"Who are you with?\""
+          },
+          {
+            "level": 3,
+            "heading": "Asking for Help/Direction",
+            "content": "誰に聞けばいいですか？ \"Who should I ask?\" 誰に相談しますか？ \"Who will you consult?\""
+          }
+        ]
+      },
+      {
+        "level": 2,
+        "heading": "Common Expressions",
+        "content": "",
+        "children": [
+          {
+            "level": 3,
+            "heading": "誰か (dareka) - Someone/Anybody",
+            "content": "誰か来ましたか？ \"Did someone come?\" 誰かいますか？ \"Is anyone there?\" 誰か知っていますか？ \"Does anyone know?\""
+          },
+          {
+            "level": 3,
+            "heading": "誰も〜ない (daremo~nai) - Nobody/No one",
+            "content": "誰もいない \"No one is here\" 誰も知らない \"Nobody knows\" 誰も来なかった \"Nobody came\""
+          },
+          {
+            "level": 3,
+            "heading": "誰でも (daredemo) - Anyone/Everyone",
+            "content": "誰でもいい \"Anyone is fine\" 誰でもできる \"Anyone can do it\" 誰でも知っている \"Everyone knows\""
+          }
+        ]
+      },
+      {
+        "level": 2,
+        "heading": "Common Conversations",
+        "content": "",
+        "children": [
+          {
+            "level": 3,
+            "heading": "Example 1: Party",
+            "content": "A: パーティーに誰が来ますか？ \"Who will come to the party?\" B: 田中さんと山田さんが来ます \"Tanaka and Yamada will come\" A: 誰か他に来ますか？ \"Will anyone else come?\" B: たぶん鈴木さんも来ます \"Probably Suzuki will come too\""
+          },
+          {
+            "level": 3,
+            "heading": "Example 2: Lost Item",
+            "content": "A: これは誰のですか？ \"Whose is this?\" B: わかりません \"I don't know\" A: 誰か知っていますか？ \"Does anyone know?\" B: 誰も知らないと思います \"I don't think anyone knows\""
+          },
+          {
+            "level": 3,
+            "heading": "Example 3: Phone Call",
+            "content": "A: 誰から電話がありましたか？ \"Who called?\" B: 母から電話がありました \"My mother called\" A: 何時に電話がありましたか？ \"What time did she call?\" B: 3時頃です \"Around 3 o'clock\""
+          }
+        ]
+      },
+      {
+        "level": 2,
+        "heading": "Common Mistakes",
+        "content": "",
+        "children": [
+          {
+            "level": 3,
+            "heading": "Mistake 1: Using を when が is needed",
+            "content": "Wrong: 誰を来ますか？ ❌ Right: 誰が来ますか？ ✓ \"Who will come?\""
+          },
+          {
+            "level": 3,
+            "heading": "Mistake 2: Forgetting particle",
+            "content": "Less natural: 誰行きますか？ ⚠️ Better: 誰が行きますか？ ✓ \"Who will go?\""
+          },
+          {
+            "level": 3,
+            "heading": "Mistake 3: Using だれか in negative sentences",
+            "content": "Wrong: 誰か来ませんでした ❌ Right: 誰も来ませんでした ✓ \"Nobody came\""
+          }
+        ]
+      },
+      {
+        "level": 2,
+        "heading": "Asking About Multiple People",
+        "content": "",
+        "children": [
+          {
+            "level": 3,
+            "heading": "誰と誰 (who and who)",
+            "content": "誰と誰が来ますか？ \"Who and who will come?\" パーティーには誰と誰がいましたか？ \"Who all were at the party?\""
+          },
+          {
+            "level": 3,
+            "heading": "何人 (how many people)",
+            "content": "Often used together with 誰:\n\n誰が来ますか？何人ですか？ \"Who will come? How many people?\""
+          }
+        ]
+      },
+      {
+        "level": 2,
+        "heading": "In Relative Clauses",
+        "content": "昨日会った人は誰ですか？ \"Who is the person you met yesterday?\" ここにいる人は誰ですか？ \"Who is the person here?\""
+      },
+      {
+        "level": 2,
+        "heading": "Politeness Levels",
+        "content": "",
+        "children": [
+          {
+            "level": 3,
+            "heading": "Casual",
+            "content": "誰？ \"Who?\" 誰が来る？ \"Who's coming?\" 誰と行く？ \"Who are you going with?\""
+          },
+          {
+            "level": 3,
+            "heading": "Polite",
+            "content": "誰ですか？ \"Who is it?\" 誰が来ますか？ \"Who will come?\" 誰と行きますか？ \"Who will you go with?\""
+          },
+          {
+            "level": 3,
+            "heading": "Very Polite",
+            "content": "どなたですか？ \"Who is it?\" (polite) どなたがいらっしゃいますか？ \"Who is coming?\" (honorific) どなたとご一緒ですか？ \"Who are you with?\" (very polite)"
+          }
+        ]
+      },
+      {
+        "level": 2,
+        "heading": "Special Patterns",
+        "content": "",
+        "children": [
+          {
+            "level": 3,
+            "heading": "誰のため (for whose sake)",
+            "content": "誰のためにしますか？ \"For whose sake will you do it?\" これは誰のためですか？ \"For whom is this?\""
+          },
+          {
+            "level": 3,
+            "heading": "誰に対して (toward whom)",
+            "content": "誰に対して言いましたか？ \"To whom did you say it?\""
+          }
+        ]
+      },
+      {
+        "level": 2,
+        "heading": "Practice Sentences",
+        "content": "",
+        "children": [
+          {
+            "level": 3,
+            "heading": "Basic Questions",
+            "content": "誰ですか？ \"Who is it?\" あの人は誰ですか？ \"Who is that person?\" 誰が来ますか？ \"Who will come?\" 誰と行きますか？ \"Who will you go with?\""
+          },
+          {
+            "level": 3,
+            "heading": "With Ownership",
+            "content": "これは誰のですか？ \"Whose is this?\" 誰の本ですか？ \"Whose book is it?\" 誰のかばんですか？ \"Whose bag is it?\""
+          },
+          {
+            "level": 3,
+            "heading": "With Actions",
+            "content": "誰が言いましたか？ \"Who said it?\" 誰を待っていますか？ \"Who are you waiting for?\" 誰に会いましたか？ \"Who did you meet?\" 誰から聞きましたか？ \"Who did you hear it from?\""
+          },
+          {
+            "level": 3,
+            "heading": "Common Phrases",
+            "content": "誰かいますか？ \"Is anyone there?\" 誰もいません \"No one is here\" 誰でもいいです \"Anyone is fine\" 誰か知っていますか？ \"Does anyone know?\""
+          }
+        ]
+      },
+      {
+        "level": 2,
+        "heading": "Related Grammar Points",
+        "content": "Question Words (5W1H) - Overview Particles - が, を, と, に usage どなた (donata) - Polite form 誰か/誰も/誰でも - Someone/nobody/anyone か (ka) - Question particle Yes/No Questions - Question formation",
+        "children": [
+          {
+            "level": 3,
+            "heading": "Company",
+            "content": "About Pricing Blog Contact"
+          },
+          {
+            "level": 3,
+            "heading": "Legal",
+            "content": "Privacy Policy Terms of Service Cookie Policy"
+          }
+        ]
+      }
+    ]
+  },
+  "metadata": {
+    "extracted_at": "2026-01-01T22:19:28.682165300Z",
+    "duration_ms": 6,
+    "extractors_matched": [
+      "metadata",
+      "examples",
+      "sections"
+    ],
+    "extractors_failed": [
+      "vocab_tables",
+      "definitions",
+      "content_blocks"
+    ]
+  }
+}

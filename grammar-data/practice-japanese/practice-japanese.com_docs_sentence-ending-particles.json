@@ -1,0 +1,381 @@
+{
+  "config_name": "Language Learning Extractor",
+  "url": "https://practice-japanese.com/docs/sentence-ending-particles/",
+  "data": {
+    "metadata": {
+      "title": "Sentence-ending Particles"
+    },
+    "examples": [
+      {
+        "sentence": "よ (yo) - Emphasis, new information"
+      },
+      {
+        "sentence": "ね (ne) - Agreement, confirmation"
+      },
+      {
+        "sentence": "よね (yo ne) - Emphasis + confirmation"
+      },
+      {
+        "sentence": "か (ka) - Questions (formal)"
+      },
+      {
+        "sentence": "かな (ka na) - Wondering"
+      },
+      {
+        "sentence": "な (na) - Reflection"
+      },
+      {
+        "sentence": "じゃん (jan) - Casual confirmation"
+      },
+      {
+        "sentence": "Make speech sound natural and native-like"
+      },
+      {
+        "sentence": "Express emotions and attitudes"
+      },
+      {
+        "sentence": "Show relationships between speakers"
+      },
+      {
+        "sentence": "Essential for natural conversation"
+      },
+      {
+        "sentence": "Can change a statement's entire feeling"
+      },
+      {
+        "sentence": "Telling someone new information"
+      },
+      {
+        "sentence": "Emphasizing your point"
+      },
+      {
+        "sentence": "Gentle insistence"
+      },
+      {
+        "sentence": "Friendly advice"
+      },
+      {
+        "sentence": "Seeking agreement"
+      },
+      {
+        "sentence": "Confirming shared knowledge"
+      },
+      {
+        "sentence": "Softening statements"
+      },
+      {
+        "sentence": "Expressing empathy"
+      },
+      {
+        "sentence": "Confirming obvious facts"
+      },
+      {
+        "sentence": "Gentle reminder of shared knowledge"
+      },
+      {
+        "sentence": "Seeking agreement on your statement"
+      },
+      {
+        "sentence": "Talking to oneself"
+      },
+      {
+        "sentence": "Casual reflection"
+      },
+      {
+        "sentence": "Softer than よ"
+      },
+      {
+        "sentence": "Wishing/hoping"
+      },
+      {
+        "sentence": "Young people's speech"
+      },
+      {
+        "sentence": "Kanto dialect (Tokyo area)"
+      },
+      {
+        "sentence": "よね (yo ne) - Emphasis + seeking agreement"
+      },
+      {
+        "sentence": "かな (ka na) - Question + wondering"
+      },
+      {
+        "sentence": "のよ (no yo) - Explanation + feminine emphasis"
+      },
+      {
+        "sentence": "かよ (ka yo) - Question + masculine emphasis"
+      },
+      {
+        "sentence": "Particles add nuance and emotion without changing core meaning"
+      },
+      {
+        "sentence": "Essential for natural-sounding Japanese"
+      },
+      {
+        "sentence": "Different particles for different genders (though increasingly flexible)"
+      },
+      {
+        "sentence": "Can be stacked for additional nuance"
+      },
+      {
+        "sentence": "Overuse sounds unnatural - vary your particles"
+      },
+      {
+        "sentence": "Context and tone matter more than rules"
+      },
+      {
+        "sentence": "About"
+      },
+      {
+        "sentence": "Pricing"
+      },
+      {
+        "sentence": "Blog"
+      },
+      {
+        "sentence": "Contact"
+      },
+      {
+        "sentence": "Privacy Policy"
+      },
+      {
+        "sentence": "Terms of Service"
+      },
+      {
+        "sentence": "Cookie Policy"
+      }
+    ],
+    "sections": [
+      {
+        "level": 2,
+        "heading": "What Are Sentence-ending Particles?",
+        "content": "Sentence-ending particles (終助詞 shuu-joshi) are small words added to the end of sentences to express emotion, emphasis, confirmation, or other nuances. They don't change the core meaning but dramatically affect tone and feeling.\n\nWhy they matter:\n\nMake speech sound natural and native-like Express emotions and attitudes Show relationships between speakers Essential for natural conversation Can change a statement's entire feeling\n\nWithout particles: 今日は暑い (Kyou wa atsui) - \"It's hot today\" [factual] With particles: 今日は暑いね (Kyou wa atsui ne) - \"It's hot today, isn't it?\" [seeking agreement]"
+      },
+      {
+        "level": 2,
+        "heading": "Core Particles",
+        "content": "",
+        "children": [
+          {
+            "level": 3,
+            "heading": "よ (yo) - Emphasis / New Information",
+            "content": "Adds emphasis or provides information the listener doesn't know.\n\nUses:\n\nTelling someone new information Emphasizing your point Gentle insistence Friendly advice\n\n電車が来たよ。 Densha ga kita yo. \"The train's here!\" [FYI] これ、おいしいよ。 Kore, oishii yo. \"This is delicious!\" [You should try it] 明日は休みだよ。 Ashita wa yasumi da yo. \"Tomorrow's a day off.\" [In case you didn't know] 気をつけてよ。 Ki wo tsukete yo. \"Be careful!\" [Warning/concern]\n\nTone: Informative, emphatic, sometimes pushy if overused."
+          },
+          {
+            "level": 3,
+            "heading": "ね (ne) - Confirmation / Agreement",
+            "content": "Seeks confirmation, agreement, or shares a common feeling.\n\nUses:\n\nSeeking agreement Confirming shared knowledge Softening statements Expressing empathy\n\nいい天気ですね。 Ii tenki desu ne. \"Nice weather, isn't it?\" [Seeking agreement] 難しいですね。 Muzukashii desu ne. \"It's difficult, huh?\" [Shared feeling] 田中さんですね。 Tanaka-san desu ne. \"You're Tanaka-san, right?\" [Confirmation] そうですね。 Sou desu ne. \"That's right.\" / \"Let me think...\" [Agreement/thinking]\n\nTone: Friendly, seeking connection, softer than よ."
+          },
+          {
+            "level": 3,
+            "heading": "よね (yo ne) - Emphasis + Confirmation",
+            "content": "Combines よ and ね: stating information while expecting agreement.\n\nUses:\n\nConfirming obvious facts Gentle reminder of shared knowledge Seeking agreement on your statement\n\n明日は月曜日だよね。 Ashita wa getsuyoubi da yo ne. \"Tomorrow's Monday, right?\" これ、高いよね。 Kore, takai yo ne. \"This is expensive, isn't it?\" 知ってるよね？ Shitteru yo ne? \"You know this, right?\"\n\nTone: Expects listener to agree, slightly more assertive than just ね."
+          },
+          {
+            "level": 3,
+            "heading": "か (ka) - Question Marker",
+            "content": "Turns statements into questions (more formal than rising intonation alone).\n\n行きますか？ Ikimasu ka? \"Are you going?\" 何ですか？ Nan desu ka? \"What is it?\" 本当ですか？ Hontou desu ka? \"Is it true?\"\n\nIn casual speech: Often dropped, replaced by rising intonation.\n\nPolite: 行きますか？ (Ikimasu ka?) Casual: 行く？ (Iku?) - just rising tone"
+          },
+          {
+            "level": 3,
+            "heading": "かな (ka na) - Wondering / Uncertainty",
+            "content": "Expresses wondering or uncertainty, talking to oneself or softly asking.\n\n雨が降るかな。 Ame ga furu ka na. \"I wonder if it'll rain.\" 誰かな？ Dare ka na? \"I wonder who it is?\" できるかな？ Dekiru ka na? \"Can I do it, I wonder?\" 大丈夫かな。 Daijoubu ka na. \"I hope it's okay...\" [Uncertainty]\n\nTone: Soft, uncertain, contemplative."
+          },
+          {
+            "level": 3,
+            "heading": "な (na) - Reflection / Emphasis",
+            "content": "More masculine, used for self-reflection or casual emphasis.\n\nUses:\n\nTalking to oneself Casual reflection Softer than よ Wishing/hoping\n\nいい天気だな。 Ii tenki da na. \"Nice weather.\" [Reflection] 難しいな。 Muzukashii na. \"This is tough.\" [To oneself] 行きたいな。 Ikitai na. \"I want to go...\" [Wishing] 早く終わらないかな。 Hayaku owaranai ka na. \"I wish this would end soon.\"\n\nTone: Reflective, contemplative, slightly masculine."
+          },
+          {
+            "level": 3,
+            "heading": "ぞ (zo) - Strong Assertion",
+            "content": "Masculine, strong emphasis or determination.\n\n行くぞ！ Iku zo! \"Let's go!\" / \"I'm going!\" 見てろよ！ Mitero yo! → Mitero zo! \"Just watch!\" [Determined] 頑張るぞ！ Ganbaru zo! \"I'll do my best!\" [Fired up]\n\nTone: Strong, masculine, determined."
+          },
+          {
+            "level": 3,
+            "heading": "ぜ (ze) - Casual Assertion",
+            "content": "Masculine, casual but confident statement.\n\n面白いぜ。 Omoshiroi ze. \"This is interesting.\" [Confident] いいぜ。 Ii ze. \"That's good.\" / \"Sure.\" 行くぜ！ Iku ze! \"I'm going!\" / \"Let's go!\"\n\nTone: Casual, masculine, confident."
+          }
+        ]
+      },
+      {
+        "level": 2,
+        "heading": "Feminine Particles",
+        "content": "",
+        "children": [
+          {
+            "level": 3,
+            "heading": "わ (wa) - Soft Assertion",
+            "content": "Traditionally feminine, soft emphasis (less common in modern young women's speech).\n\nきれいだわ。 Kirei da wa. \"It's beautiful.\" [Gentle emphasis] 知らないわ。 Shiranai wa. \"I don't know.\" [Feminine]\n\nNote: Modern young women often don't use わ as much; it can sound old-fashioned."
+          },
+          {
+            "level": 3,
+            "heading": "の (no) / のよ (no yo) - Explanatory + Feminine",
+            "content": "Adds explanation or emphasis, more feminine.\n\n忙しいの。 Isogashii no. \"I'm busy.\" [Explanatory, feminine] 行くのよ。 Iku no yo. \"I'm going!\" [Feminine emphasis] 何してるの？ Nani shiteru no? \"What are you doing?\" [Seeking explanation]"
+          },
+          {
+            "level": 3,
+            "heading": "かしら (kashira) - Wondering (Feminine)",
+            "content": "Feminine equivalent of かな.\n\n雨が降るかしら。 Ame ga furu kashira. \"I wonder if it'll rain.\" [Feminine] 誰かしら？ Dare kashira? \"I wonder who?\" [Feminine]\n\nNote: Sounds quite feminine and somewhat formal/older."
+          }
+        ]
+      },
+      {
+        "level": 2,
+        "heading": "Casual/Rough Particles",
+        "content": "",
+        "children": [
+          {
+            "level": 3,
+            "heading": "さ (sa) - Filler Emphasis",
+            "content": "Casual filler, adds emphasis or connects thoughts.\n\nだからさ。 Dakara sa. \"So like...\" / \"That's why...\" いいんじゃないのさ。 Ii n ja nai no sa. \"Isn't it fine?\" 知ってるさ。 Shitteru sa. \"I know.\" [Casual confirmation]\n\nTone: Casual, conversational, slightly masculine."
+          },
+          {
+            "level": 3,
+            "heading": "っけ (kke) - Recollection",
+            "content": "Trying to recall something, asking for confirmation of memory.\n\n明日だっけ？ Ashita datta kke? \"Was it tomorrow?\" [Trying to remember] 何時だっけ？ Nanji datta kke? \"What time was it again?\" 言ったっけ？ Itta kke? \"Did I say that?\" [Can't remember]"
+          },
+          {
+            "level": 3,
+            "heading": "もん / もの (mon / mono) - Excuse/Reason",
+            "content": "Giving a reason or excuse, slightly childish or defensive.\n\nだって、知らなかったんだもん。 Datte, shiranakatta n da mon. \"But I didn't know!\" [Excuse] 忙しいんだもん。 Isogashii n da mon. \"Because I'm busy!\" [Defensive reason]\n\nTone: Childish, defensive, excuse-making."
+          },
+          {
+            "level": 3,
+            "heading": "ぜんぜん (zenzen) + Negative = 全然 (Not at all)",
+            "content": "Note: This is not a particle but commonly paired with ending particles.\n\n全然分からないよ。 Zenzen wakaranai yo. \"I don't understand at all!\""
+          }
+        ]
+      },
+      {
+        "level": 2,
+        "heading": "Combined Particles",
+        "content": "",
+        "children": [
+          {
+            "level": 3,
+            "heading": "じゃん (jan) - Isn't it? / Right?",
+            "content": "Casual form of じゃない (ja nai) meaning \"isn't it?\"\n\nいいじゃん。 Ii jan. \"That's good!\" / \"Sounds good!\" 知ってるじゃん。 Shitteru jan. \"You know that!\" / \"Of course you know!\" できるじゃん！ Dekiru jan! \"You can do it!\" / \"See, you could do it!\"\n\nCommon in:\n\nYoung people's speech Kanto dialect (Tokyo area)"
+          },
+          {
+            "level": 3,
+            "heading": "だろ / でしょ (daro / desho) - Right? / Probably",
+            "content": "Seeking agreement or expressing probability.\n\nそうだろ？ Sou daro? \"Right?\" / \"See?\" 明日は晴れるでしょう。 Ashita wa hareru deshou. \"It'll probably be sunny tomorrow.\" 知ってるでしょ？ Shitteru desho? \"You know, right?\"\n\nだろ: Masculine, casual でしょ: Neutral/feminine, polite"
+          },
+          {
+            "level": 3,
+            "heading": "っしょ (ssho) - Casual Right?",
+            "content": "Super casual contraction of でしょう.\n\nそうっしょ？ Sou ssho? \"Right?\" / \"Isn't it?\" いいっしょ。 Ii ssho. \"It's fine, right?\""
+          }
+        ]
+      },
+      {
+        "level": 2,
+        "heading": "Regional Particles",
+        "content": "",
+        "children": [
+          {
+            "level": 3,
+            "heading": "ばい (bai) - Kyushu Dialect",
+            "content": "Emphasis in Kyushu (especially Fukuoka).\n\nおいしかばい。 Oishika bai. \"It was delicious!\" [Kyushu]"
+          },
+          {
+            "level": 3,
+            "heading": "やん / ねん - Kansai Dialect",
+            "content": "ええやん！ Ee yan! \"That's good!\" [Kansai] 知らんねん。 Shiran nen. \"I don't know.\" [Kansai, explanatory]"
+          },
+          {
+            "level": 3,
+            "heading": "べ (be) - Tohoku/Kanto Dialects",
+            "content": "行くべ。 Iku be. \"Let's go.\" [Regional]"
+          }
+        ]
+      },
+      {
+        "level": 2,
+        "heading": "Polite vs Casual Particle Usage",
+        "content": "",
+        "children": [
+          {
+            "level": 3,
+            "heading": "Polite Context",
+            "content": "そうですね。(Sou desu ne.) - \"That's right.\" 行きますよ。(Ikimasu yo.) - \"I'm going.\" いいですか？(Ii desu ka?) - \"Is it okay?\""
+          },
+          {
+            "level": 3,
+            "heading": "Casual Context",
+            "content": "そうだね。(Sou da ne.) - \"Yeah, right.\" 行くよ。(Iku yo.) - \"I'm going.\" いい？(Ii?) - \"Okay?\""
+          }
+        ]
+      },
+      {
+        "level": 2,
+        "heading": "Stacking Particles",
+        "content": "Multiple particles can combine:\n\nそうだよね。(Sou da yo ne.) - \"That's right, isn't it?\" 行くのかな。(Iku no ka na.) - \"I wonder if they're going.\" 本当かよ！(Hontou ka yo!) - \"Are you serious!?\" [Masculine] 知らないわよ。(Shiranai wa yo.) - \"I don't know!\" [Feminine]\n\nCommon combinations:\n\nよね (yo ne) - Emphasis + seeking agreement かな (ka na) - Question + wondering のよ (no yo) - Explanation + feminine emphasis かよ (ka yo) - Question + masculine emphasis"
+      },
+      {
+        "level": 2,
+        "heading": "Particle Nuance Chart",
+        "content": "| Particle | Function | Tone | Gender | | -------- | ----------------------- | ------------- | ---------------- | | よ | Information/emphasis | Assertive | Neutral | | ね | Confirmation/agreement | Soft | Neutral | | よね | Emphasis + confirmation | Moderate | Neutral | | か | Question | Formal | Neutral | | な | Reflection | Contemplative | Masculine | | ぞ | Strong assertion | Strong | Masculine | | ぜ | Casual assertion | Confident | Masculine | | わ | Soft assertion | Gentle | Feminine | | の | Explanation | Seeking | Feminine lean | | さ | Filler | Casual | Slight masculine | | じゃん | Confirmation | Casual | Neutral |"
+      },
+      {
+        "level": 2,
+        "heading": "Common Mistakes",
+        "content": "",
+        "children": [
+          {
+            "level": 3,
+            "heading": "Mistake 1: Overusing よ",
+            "content": "Using よ too much sounds pushy or know-it-all.\n\n❌ 今日は月曜日だよ。天気がいいよ。行こうよ。 ✓ 今日は月曜日だね。天気がいいね。行こう！\n\nMix particles naturally."
+          },
+          {
+            "level": 3,
+            "heading": "Mistake 2: Wrong Gender Particles",
+            "content": "❌ Male speaker: きれいだわ (Kirei da wa) ✓ Male speaker: きれいだな (Kirei da na)\n\nBe aware of gendered particles, though modern speech is more flexible."
+          },
+          {
+            "level": 3,
+            "heading": "Mistake 3: Using か in Too-Casual Contexts",
+            "content": "❌ To close friend: 今日暇ですか？(Kyou hima desu ka?) ✓ To close friend: 今日暇？(Kyou hima?)\n\nDrop か in casual conversation, use rising intonation instead."
+          },
+          {
+            "level": 3,
+            "heading": "Mistake 4: Wrong Particle Combinations",
+            "content": "❌ そうだねよ (Sou da ne yo) - Doesn't flow naturally ✓ そうだよね (Sou da yo ne) - Natural combination\n\nLearn which particles combine naturally."
+          }
+        ]
+      },
+      {
+        "level": 2,
+        "heading": "Summary",
+        "content": "Essential Particles to Master:\n\nよ (yo) - Emphasis, new information ね (ne) - Agreement, confirmation よね (yo ne) - Emphasis + confirmation か (ka) - Questions (formal) かな (ka na) - Wondering な (na) - Reflection じゃん (jan) - Casual confirmation\n\nKey Points:\n\nParticles add nuance and emotion without changing core meaning Essential for natural-sounding Japanese Different particles for different genders (though increasingly flexible) Can be stacked for additional nuance Overuse sounds unnatural - vary your particles Context and tone matter more than rules",
+        "children": [
+          {
+            "level": 3,
+            "heading": "Company",
+            "content": "About Pricing Blog Contact"
+          },
+          {
+            "level": 3,
+            "heading": "Legal",
+            "content": "Privacy Policy Terms of Service Cookie Policy"
+          }
+        ]
+      }
+    ]
+  },
+  "metadata": {
+    "extracted_at": "2026-01-01T22:19:34.481512800Z",
+    "duration_ms": 4,
+    "extractors_matched": [
+      "metadata",
+      "examples",
+      "sections"
+    ],
+    "extractors_failed": [
+      "vocab_tables",
+      "definitions",
+      "content_blocks"
+    ]
+  }
+}

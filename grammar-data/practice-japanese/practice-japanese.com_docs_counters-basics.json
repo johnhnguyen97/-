@@ -1,0 +1,518 @@
+{
+  "config_name": "Language Learning Extractor",
+  "url": "https://practice-japanese.com/docs/counters-basics/",
+  "data": {
+    "metadata": {
+      "title": "Counter System Basics"
+    },
+    "examples": [
+      {
+        "sentence": "Classify objects by type or shape"
+      },
+      {
+        "sentence": "Provide clarity about what's being counted"
+      },
+      {
+        "sentence": "Add specificity to quantities"
+      },
+      {
+        "sentence": "Follow linguistic patterns similar to Chinese"
+      },
+      {
+        "sentence": "つ - General (works for most things)"
+      },
+      {
+        "sentence": "人 - People (most common in conversation)"
+      },
+      {
+        "sentence": "個 - Small objects"
+      },
+      {
+        "sentence": "本 - Long objects"
+      },
+      {
+        "sentence": "枚 - Flat objects"
+      },
+      {
+        "sentence": "匹 - Small animals"
+      },
+      {
+        "sentence": "台 - Machines"
+      },
+      {
+        "sentence": "冊 - Books"
+      },
+      {
+        "sentence": "杯 - Cups/glasses"
+      },
+      {
+        "sentence": "回 - Times"
+      },
+      {
+        "sentence": "1 (いち) → often becomes いっ + [counter changes to っ version]"
+      },
+      {
+        "sentence": "3 (さん) → often triggers ん sound leading to b/p sound"
+      },
+      {
+        "sentence": "6 (ろく) → often becomes ろっ"
+      },
+      {
+        "sentence": "8 (はち) → often becomes はっ"
+      },
+      {
+        "sentence": "10 (じゅう) → often becomes じゅっ or じっ"
+      },
+      {
+        "sentence": "What shape is it?"
+      },
+      {
+        "sentence": "Is it living or non-living?"
+      },
+      {
+        "sentence": "How is it typically measured?"
+      },
+      {
+        "sentence": "Native speakers often use つ or 個 as defaults"
+      },
+      {
+        "sentence": "Context usually makes meaning clear"
+      },
+      {
+        "sentence": "Specific counters sound more natural but aren't always required"
+      },
+      {
+        "sentence": "Number System Overview - Japanese numbers"
+      },
+      {
+        "sentence": "Native vs Sino Numbers - Two number systems"
+      },
+      {
+        "sentence": "General Counter (つ) - Most versatile counter"
+      },
+      {
+        "sentence": "Specific Counters - Detailed guides for each"
+      },
+      {
+        "sentence": "いくつ (ikutsu) - How many"
+      },
+      {
+        "sentence": "Quantity expressions - Expressing amounts"
+      },
+      {
+        "sentence": "Approximation - About/approximately"
+      },
+      {
+        "sentence": "About"
+      },
+      {
+        "sentence": "Pricing"
+      },
+      {
+        "sentence": "Blog"
+      },
+      {
+        "sentence": "Contact"
+      },
+      {
+        "sentence": "Privacy Policy"
+      },
+      {
+        "sentence": "Terms of Service"
+      },
+      {
+        "sentence": "Cookie Policy"
+      }
+    ],
+    "sections": [
+      {
+        "level": 2,
+        "heading": "What are Counters?",
+        "content": "Counters (助数詞 josūshi) are special words attached to numbers when counting objects, people, or actions in Japanese. Different counters are used based on the shape, size, or type of object being counted.\n\nWithout counter: 3 ❌ (incomplete) With counter: 3つ ✓ \"3 items\" 3人 ✓ \"3 people\" 3本 ✓ \"3 long objects\""
+      },
+      {
+        "level": 2,
+        "heading": "Basic Structure",
+        "content": "",
+        "children": [
+          {
+            "level": 3,
+            "heading": "Pattern: Number + Counter",
+            "content": "Number + Counter │ │ 2 + 人 = ふたり \"Two people\" 3 + 本 = さんぼん \"Three long objects\" 5 + 枚 = ごまい \"Five flat objects\""
+          }
+        ]
+      },
+      {
+        "level": 2,
+        "heading": "Why Counters Exist",
+        "content": "Counters serve several purposes:\n\nClassify objects by type or shape Provide clarity about what's being counted Add specificity to quantities Follow linguistic patterns similar to Chinese\n\nEnglish: \"Three pieces of paper\" (uses \"pieces of\" as measure word) Japanese: 紙3枚 (かみさんまい) (uses 枚 counter for flat objects)"
+      },
+      {
+        "level": 2,
+        "heading": "Essential Counter Categories",
+        "content": "",
+        "children": [
+          {
+            "level": 3,
+            "heading": "By Shape",
+            "content": "つ - General items 本 (ほん/ぼん/ぽん) - Long, cylindrical objects 枚 (まい) - Flat, thin objects 個 (こ) - Small, compact objects 台 (だい) - Machines, vehicles"
+          },
+          {
+            "level": 3,
+            "heading": "By Living Things",
+            "content": "人 (にん/り) - People 匹 (ひき/びき/ぴき) - Small animals 頭 (とう) - Large animals 羽 (わ) - Birds, rabbits"
+          },
+          {
+            "level": 3,
+            "heading": "By Container/Portion",
+            "content": "杯 (はい/ばい/ぱい) - Cups, glasses, bowls 皿 (さら) - Plates/dishes of food 本 (ほん) - Bottles (also long objects)"
+          },
+          {
+            "level": 3,
+            "heading": "By Abstract",
+            "content": "回 (かい) - Times, occasions 度 (ど) - Degrees, times 階 (かい) - Floors of buildings"
+          }
+        ]
+      },
+      {
+        "level": 2,
+        "heading": "Sound Changes (Phonetic Variations)",
+        "content": "Many counters undergo sound changes when combined with certain numbers:",
+        "children": [
+          {
+            "level": 3,
+            "heading": "ほん/ぼん/ぽん Pattern",
+            "content": "1本 (いっぽん) - 1 long object 2本 (にほん) - 2 long objects 3本 (さんぼん) - 3 long objects 4本 (よんほん) - 4 long objects 6本 (ろっぽん) - 6 long objects 8本 (はっぽん) - 8 long objects 10本 (じゅっぽん/じっぽん) - 10 long objects"
+          },
+          {
+            "level": 3,
+            "heading": "ひき/びき/ぴき Pattern",
+            "content": "1匹 (いっぴき) - 1 small animal 2匹 (にひき) - 2 small animals 3匹 (さんびき) - 3 small animals 4匹 (よんひき) - 4 small animals 6匹 (ろっぴき) - 6 small animals 8匹 (はっぴき) - 8 small animals 10匹 (じゅっぴき/じっぴき) - 10 small animals"
+          },
+          {
+            "level": 3,
+            "heading": "はい/ばい/ぱい Pattern",
+            "content": "1杯 (いっぱい) - 1 cup/glass 2杯 (にはい) - 2 cups/glasses 3杯 (さんばい) - 3 cups/glasses 6杯 (ろっぱい) - 6 cups/glasses 8杯 (はっぱい) - 8 cups/glasses 10杯 (じゅっぱい/じっぱい) - 10 cups/glasses"
+          },
+          {
+            "level": 3,
+            "heading": "General Sound Change Rules",
+            "content": "Numbers that trigger changes:\n\n1 (いち) → often becomes いっ + [counter changes to っ version] 3 (さん) → often triggers ん sound leading to b/p sound 6 (ろく) → often becomes ろっ 8 (はち) → often becomes はっ 10 (じゅう) → often becomes じゅっ or じっ"
+          }
+        ]
+      },
+      {
+        "level": 2,
+        "heading": "Common Counters Quick Reference",
+        "content": "| Counter | Reading | Used For | Example | | ------- | -------------- | ------------- | ---------------- | | つ | tsu | General items | 3 つ (mittsu) | | 個 | こ | Small objects | 3 個 (sanko) | | 人 | にん/り | People | 3 人 (san-nin) | | 本 | ほん/ぼん/ぽん | Long objects | 3 本 (san-bon) | | 枚 | まい | Flat objects | 3 枚 (san-mai) | | 匹 | ひき/びき/ぴき | Small animals | 3 匹 (san-biki) | | 頭 | とう | Large animals | 3 頭 (san-tou) | | 台 | だい | Machines | 3 台 (san-dai) | | 冊 | さつ | Books | 3 冊 (san-satsu) | | 杯 | はい/ばい/ぱい | Cups/bowls | 3 杯 (san-bai) | | 回 | かい | Times | 3 回 (san-kai) | | 階 | かい | Floors | 3 階 (san-gai) |"
+      },
+      {
+        "level": 2,
+        "heading": "How to Choose the Right Counter",
+        "content": "",
+        "children": [
+          {
+            "level": 3,
+            "heading": "Step 1: Identify the Object Type",
+            "content": "Ask yourself:\n\nWhat shape is it? Is it living or non-living? How is it typically measured?"
+          },
+          {
+            "level": 3,
+            "heading": "Step 2: Match to Counter Category",
+            "content": "Pencil → long, cylindrical → 本 Paper → flat, thin → 枚 Apple → small, round → 個 or つ Dog → small animal → 匹 Car → machine/vehicle → 台"
+          },
+          {
+            "level": 3,
+            "heading": "Step 3: When in Doubt",
+            "content": "Use the general counter つ for objects (works for most things):\n\nりんごを3つください \"Three apples, please\" More specific: りんごを3個ください"
+          }
+        ]
+      },
+      {
+        "level": 2,
+        "heading": "Asking \"How Many?\"",
+        "content": "",
+        "children": [
+          {
+            "level": 3,
+            "heading": "With Counters",
+            "content": "Use 何 (なん/なに) + counter:\n\n何人ですか？ (なんにん) \"How many people?\" 何本ありますか？ (なんぼん) \"How many (long objects) are there?\" 何枚ほしいですか？ (なんまい) \"How many (flat objects) do you want?\""
+          },
+          {
+            "level": 3,
+            "heading": "General Questions",
+            "content": "いくつですか？ \"How many?\" (general, using native numbers) いくつありますか？ \"How many are there?\""
+          }
+        ]
+      },
+      {
+        "level": 2,
+        "heading": "Position in Sentences",
+        "content": "",
+        "children": [
+          {
+            "level": 3,
+            "heading": "Before Particle",
+            "content": "りんごを3個買いました \"I bought 3 apples\" 友達が2人来ました \"Two friends came\""
+          },
+          {
+            "level": 3,
+            "heading": "After Noun",
+            "content": "学生が5人います \"There are 5 students\" ペンが3本あります \"There are 3 pens\""
+          },
+          {
+            "level": 3,
+            "heading": "End of Sentence",
+            "content": "A: 何人いますか？ \"How many people are there?\" B: 10人です \"10 people\""
+          }
+        ]
+      },
+      {
+        "level": 2,
+        "heading": "Common Patterns",
+        "content": "",
+        "children": [
+          {
+            "level": 3,
+            "heading": "Noun + Counter + Verb",
+            "content": "本を2冊読みました \"I read 2 books\" 水を3杯飲みました \"I drank 3 glasses of water\" 友達に5人会いました \"I met 5 friends\""
+          },
+          {
+            "level": 3,
+            "heading": "Noun + が + Counter + Verb",
+            "content": "学生が3人来ました \"3 students came\" 猫が2匹います \"There are 2 cats\""
+          },
+          {
+            "level": 3,
+            "heading": "Counter + の + Noun",
+            "content": "3本のペン \"3 pens\" (literally: 3 [long objects] of pen) 2枚の紙 \"2 sheets of paper\" 5人の学生 \"5 students\""
+          }
+        ]
+      },
+      {
+        "level": 2,
+        "heading": "Special Exceptions",
+        "content": "",
+        "children": [
+          {
+            "level": 3,
+            "heading": "人 (People Counter)",
+            "content": "1人 = ひとり (not いちにん) ⚠️ 2人 = ふたり (not ににん) ⚠️ 3人 = さんにん ✓ 4人 = よにん ✓"
+          },
+          {
+            "level": 3,
+            "heading": "Days of the Month",
+            "content": "Special readings for 1-10:\n\n1日 = ついたち 2日 = ふつか 3日 = みっか 4日 = よっか ... 11日 = じゅういちにち"
+          },
+          {
+            "level": 3,
+            "heading": "20 Years Old",
+            "content": "20歳 = はたち (special word) Not: にじゅっさい (though also used)"
+          }
+        ]
+      },
+      {
+        "level": 2,
+        "heading": "Formal vs Casual",
+        "content": "",
+        "children": [
+          {
+            "level": 3,
+            "heading": "Casual Conversation",
+            "content": "Often omit counters with context:\n\nりんご3つちょうだい \"Give me 3 apples\" 友達2人と行った \"I went with 2 friends\""
+          },
+          {
+            "level": 3,
+            "heading": "Formal/Written",
+            "content": "Use specific counters:\n\nりんごを3個購入いたしました \"I purchased 3 apples\" 参加者は50名でございます \"There are 50 participants\""
+          }
+        ]
+      },
+      {
+        "level": 2,
+        "heading": "Common Conversations",
+        "content": "",
+        "children": [
+          {
+            "level": 3,
+            "heading": "Example 1: Shopping",
+            "content": "A: これをいくつください \"How many of these would you like?\" B: 5個ください \"5, please\" A: 全部で500円です \"That's 500 yen total\""
+          },
+          {
+            "level": 3,
+            "heading": "Example 2: Restaurant",
+            "content": "A: 何名様ですか？ \"How many people?\" B: 4人です \"4 people\" A: ビールを何杯お持ちしましょうか？ \"How many beers shall I bring?\" B: 2杯お願いします \"2, please\""
+          },
+          {
+            "level": 3,
+            "heading": "Example 3: Pets",
+            "content": "A: ペットを飼っていますか？ \"Do you have any pets?\" B: はい、犬を2匹飼っています \"Yes, I have 2 dogs\" A: 猫は？ \"Cats?\" B: 猫は1匹です \"1 cat\""
+          }
+        ]
+      },
+      {
+        "level": 2,
+        "heading": "Counter with \"About\"",
+        "content": "",
+        "children": [
+          {
+            "level": 3,
+            "heading": "くらい/ぐらい - \"About\"",
+            "content": "3個くらい \"About 3 (small objects)\" 10人ぐらい \"About 10 people\" 5本ぐらい \"About 5 (long objects)\""
+          },
+          {
+            "level": 3,
+            "heading": "ほど - \"Approximately\"",
+            "content": "More formal:\n\n3個ほど \"Approximately 3\" 10人ほど \"Approximately 10 people\""
+          }
+        ]
+      },
+      {
+        "level": 2,
+        "heading": "Counting Actions",
+        "content": "",
+        "children": [
+          {
+            "level": 3,
+            "heading": "回 (かい) - Times",
+            "content": "1回 (いっかい) - once 2回 (にかい) - twice 3回 (さんかい) - 3 times 日本に3回行きました \"I went to Japan 3 times\""
+          },
+          {
+            "level": 3,
+            "heading": "度 (ど) - Degrees/Times",
+            "content": "1度 (いちど) - once 2度 (にど) - twice 何度も (なんども) - many times 何度も言いました \"I said it many times\""
+          }
+        ]
+      },
+      {
+        "level": 2,
+        "heading": "Common Mistakes",
+        "content": "",
+        "children": [
+          {
+            "level": 3,
+            "heading": "Mistake 1: Forgetting counters",
+            "content": "Wrong: 3買いました ❌ Right: 3つ買いました ✓ \"I bought 3\""
+          },
+          {
+            "level": 3,
+            "heading": "Mistake 2: Wrong counter choice",
+            "content": "Unnatural: 紙を3本ください ❌ Right: 紙を3枚ください ✓ \"3 sheets of paper, please\" (本 is for long objects, not flat)"
+          },
+          {
+            "level": 3,
+            "heading": "Mistake 3: Wrong sound changes",
+            "content": "Wrong: さんほん (should change) ❌ Right: さんぼん ✓ \"3 long objects\" Wrong: いちひき ❌ Right: いっぴき ✓ \"1 small animal\""
+          },
+          {
+            "level": 3,
+            "heading": "Mistake 4: Using wrong reading for 人",
+            "content": "Wrong: いちにん (1 person) ❌ Right: ひとり ✓ Wrong: ににん (2 people) ❌ Right: ふたり ✓"
+          }
+        ]
+      },
+      {
+        "level": 2,
+        "heading": "Learning Strategy",
+        "content": "",
+        "children": [
+          {
+            "level": 3,
+            "heading": "Start with These Essential Counters",
+            "content": "つ - General (works for most things) 人 - People (most common in conversation) 個 - Small objects 本 - Long objects 枚 - Flat objects"
+          },
+          {
+            "level": 3,
+            "heading": "Gradually Add More",
+            "content": "匹 - Small animals 台 - Machines 冊 - Books 杯 - Cups/glasses 回 - Times"
+          },
+          {
+            "level": 3,
+            "heading": "Don't Worry About Perfection",
+            "content": "Native speakers often use つ or 個 as defaults Context usually makes meaning clear Specific counters sound more natural but aren't always required"
+          }
+        ]
+      },
+      {
+        "level": 2,
+        "heading": "Counters in Different Contexts",
+        "content": "",
+        "children": [
+          {
+            "level": 3,
+            "heading": "Shopping",
+            "content": "これを3個ください \"3 of these, please\" りんごを5個と梨を2個 \"5 apples and 2 pears\""
+          },
+          {
+            "level": 3,
+            "heading": "Restaurants",
+            "content": "ビールを2杯 \"2 beers\" 餃子を1皿 \"1 plate of gyoza\""
+          },
+          {
+            "level": 3,
+            "heading": "Office/School",
+            "content": "コピーを10枚 \"10 copies\" 会議が3回 \"3 meetings\""
+          },
+          {
+            "level": 3,
+            "heading": "Home",
+            "content": "猫が2匹 \"2 cats\" 車が1台 \"1 car\""
+          }
+        ]
+      },
+      {
+        "level": 2,
+        "heading": "Practice Sentences",
+        "content": "",
+        "children": [
+          {
+            "level": 3,
+            "heading": "Basic Counting",
+            "content": "ペンが3本あります \"There are 3 pens\" 学生が10人います \"There are 10 students\" 紙を5枚ください \"5 sheets of paper, please\""
+          },
+          {
+            "level": 3,
+            "heading": "Questions",
+            "content": "何個買いますか？ \"How many will you buy?\" 何人来ますか？ \"How many people are coming?\" 何回行きましたか？ \"How many times did you go?\""
+          },
+          {
+            "level": 3,
+            "heading": "Answers",
+            "content": "5個買います \"I'll buy 5\" 3人来ます \"3 people are coming\" 2回行きました \"I went twice\""
+          }
+        ]
+      },
+      {
+        "level": 2,
+        "heading": "Related Grammar Points",
+        "content": "Number System Overview - Japanese numbers Native vs Sino Numbers - Two number systems General Counter (つ) - Most versatile counter Specific Counters - Detailed guides for each いくつ (ikutsu) - How many Quantity expressions - Expressing amounts Approximation - About/approximately",
+        "children": [
+          {
+            "level": 3,
+            "heading": "Company",
+            "content": "About Pricing Blog Contact"
+          },
+          {
+            "level": 3,
+            "heading": "Legal",
+            "content": "Privacy Policy Terms of Service Cookie Policy"
+          }
+        ]
+      }
+    ]
+  },
+  "metadata": {
+    "extracted_at": "2026-01-01T22:19:28.688385400Z",
+    "duration_ms": 4,
+    "extractors_matched": [
+      "metadata",
+      "examples",
+      "sections"
+    ],
+    "extractors_failed": [
+      "vocab_tables",
+      "definitions",
+      "content_blocks"
+    ]
+  }
+}

@@ -1,0 +1,392 @@
+{
+  "config_name": "Language Learning Extractor",
+  "url": "https://practice-japanese.com/docs/janai/",
+  "data": {
+    "sections": [
+      {
+        "level": 2,
+        "heading": "What is じゃない (janai)?",
+        "content": "じゃない (janai) is the negative form of the copula だ/です, meaning \"is not\" or \"are not.\" It's used to negate nouns and na-adjectives in Japanese.\n\nA は B じゃない \"A is not B\" 私は学生じゃない \"I am not a student\""
+      },
+      {
+        "level": 2,
+        "heading": "Basic Formation",
+        "content": "",
+        "children": [
+          {
+            "level": 3,
+            "heading": "じゃない vs ではない",
+            "content": "There are two forms of the negative copula:\n\nCasual: じゃない (janai) Formal: ではない (dewa nai) Both mean \"is not\"\n\nUsage:\n\nじゃない - Spoken, casual ではない - Written, formal"
+          }
+        ]
+      },
+      {
+        "level": 2,
+        "heading": "Basic Usage",
+        "content": "",
+        "children": [
+          {
+            "level": 3,
+            "heading": "Negating Nouns",
+            "content": "学生じゃない \"I'm not a student\" これは本じゃない \"This is not a book\" 彼は先生じゃない \"He is not a teacher\" 私のじゃない \"It's not mine\" 日本人じゃない \"I'm not Japanese\""
+          },
+          {
+            "level": 3,
+            "heading": "Negating Na-adjectives",
+            "content": "静かじゃない \"It's not quiet\" きれいじゃない \"It's not beautiful\" 便利じゃない \"It's not convenient\" 簡単じゃない \"It's not simple\" 親切じゃない \"He/She is not kind\""
+          }
+        ]
+      },
+      {
+        "level": 2,
+        "heading": "Politeness Levels",
+        "content": "",
+        "children": [
+          {
+            "level": 3,
+            "heading": "じゃないです (Polite casual)",
+            "content": "学生じゃないです \"I'm not a student\" (polite) 本じゃないです \"It's not a book\" (polite) きれいじゃないです \"It's not beautiful\" (polite)"
+          },
+          {
+            "level": 3,
+            "heading": "ではありません (Most polite)",
+            "content": "学生ではありません \"I am not a student\" (formal/polite) 本ではありません \"It is not a book\" (formal/polite) きれいではありません \"It is not beautiful\" (formal/polite)"
+          },
+          {
+            "level": 3,
+            "heading": "じゃない (Plain)",
+            "content": "学生じゃない \"I'm not a student\" (casual) 本じゃない \"It's not a book\" (casual)"
+          },
+          {
+            "level": 3,
+            "heading": "ではない (Formal written)",
+            "content": "学生ではない \"I am not a student\" (written) 事実ではない \"It is not a fact\" (written)"
+          }
+        ]
+      },
+      {
+        "level": 2,
+        "heading": "Politeness Hierarchy",
+        "content": "From casual to most formal:\n\n1. じゃない (casual) 2. じゃないです (polite casual) 3. ではないです (polite formal) 4. ではありません (most polite) Example: 学生じゃない 学生じゃないです 学生ではないです 学生ではありません All mean: \"I am not a student\""
+      },
+      {
+        "level": 2,
+        "heading": "Question Forms",
+        "content": "",
+        "children": [
+          {
+            "level": 3,
+            "heading": "じゃない + か",
+            "content": "学生じゃないか？ \"Aren't you a student?\" 本当じゃないか？ \"Isn't it true?\" 彼のじゃないか？ \"Isn't it his?\""
+          },
+          {
+            "level": 3,
+            "heading": "じゃないですか (polite)",
+            "content": "学生じゃないですか？ \"Aren't you a student?\" きれいじゃないですか？ \"Isn't it beautiful?\" 便利じゃないですか？ \"Isn't it convenient?\""
+          },
+          {
+            "level": 3,
+            "heading": "Rising Intonation",
+            "content": "学生じゃない？↗ \"You're not a student?\" 本当じゃない？↗ \"It's not true?\""
+          }
+        ]
+      },
+      {
+        "level": 2,
+        "heading": "Common Patterns",
+        "content": "",
+        "children": [
+          {
+            "level": 3,
+            "heading": "じゃないかな (I wonder if it's not)",
+            "content": "学生じゃないかな \"I wonder if he's not a student\" 間違いじゃないかな \"I wonder if it's not a mistake\" 本当じゃないかな \"I wonder if it's not true\""
+          },
+          {
+            "level": 3,
+            "heading": "じゃないかと思う (I think it's not)",
+            "content": "学生じゃないかと思う \"I think he's not a student\" 正しくないかと思う \"I think it's not correct\""
+          },
+          {
+            "level": 3,
+            "heading": "じゃなくて (not X, but Y)",
+            "content": "これじゃなくて、それ \"Not this one, but that one\" 学生じゃなくて、先生です \"I'm not a student, but a teacher\" 赤じゃなくて、青 \"Not red, but blue\""
+          },
+          {
+            "level": 3,
+            "heading": "じゃないと (if not)",
+            "content": "学生じゃないと、入れない \"If you're not a student, you can't enter\" 本当じゃないと、困る \"If it's not true, there's a problem\""
+          }
+        ]
+      },
+      {
+        "level": 2,
+        "heading": "With Sentence-ending Particles",
+        "content": "",
+        "children": [
+          {
+            "level": 3,
+            "heading": "じゃないよ (emphasis)",
+            "content": "学生じゃないよ \"I'm not a student (I'm telling you)\" 本当じゃないよ \"It's not true (really)\" 私のじゃないよ \"It's not mine (I assure you)\""
+          },
+          {
+            "level": 3,
+            "heading": "じゃないね (confirmation/agreement)",
+            "content": "簡単じゃないね \"It's not simple, is it\" きれいじゃないね \"It's not beautiful, is it\""
+          },
+          {
+            "level": 3,
+            "heading": "じゃないか (emphatic statement)",
+            "content": "これは本じゃないか！ \"This IS a book (isn't it)!\" 君は学生じゃないか \"You ARE a student (aren't you)\""
+          },
+          {
+            "level": 3,
+            "heading": "じゃないの (casual question - feminine)",
+            "content": "学生じゃないの？ \"Aren't you a student?\" 知らないの？ \"Don't you know?\""
+          }
+        ]
+      },
+      {
+        "level": 2,
+        "heading": "Variations by Context",
+        "content": "",
+        "children": [
+          {
+            "level": 3,
+            "heading": "Casual Conversation",
+            "content": "A: 学生？ \"A student?\" B: ううん、学生じゃない \"No, I'm not a student\" A: じゃ、何？ \"Then what?\" B: 社会人だよ \"I'm a working adult\""
+          },
+          {
+            "level": 3,
+            "heading": "Polite Conversation",
+            "content": "A: 学生さんですか？ \"Are you a student?\" B: いいえ、学生じゃないです \"No, I'm not a student\" A: そうですか \"I see\""
+          },
+          {
+            "level": 3,
+            "heading": "Written/Formal",
+            "content": "これは事実ではない \"This is not a fact\" 簡単ではない問題 \"A problem that is not simple\" 適切ではない \"It is not appropriate\""
+          }
+        ]
+      },
+      {
+        "level": 2,
+        "heading": "Emphasis and Confirmation",
+        "content": "",
+        "children": [
+          {
+            "level": 3,
+            "heading": "じゃないですか (isn't it)",
+            "content": "Used to seek confirmation or express \"you know!\"\n\nきれいじゃないですか！ \"Isn't it beautiful!\" (seeking agreement) 彼、有名じゃないですか \"He's famous, you know!\" 知ってるじゃないですか \"You know it, don't you!\""
+          }
+        ]
+      },
+      {
+        "level": 2,
+        "heading": "Common Conversations",
+        "content": "",
+        "children": [
+          {
+            "level": 3,
+            "heading": "Example 1: Identification",
+            "content": "A: これ、あなたの本？ \"Is this your book?\" B: ううん、私のじゃない \"No, it's not mine\" A: じゃ、誰の？ \"Then whose is it?\" B: たぶん田中さんのだと思う \"Probably Tanaka's, I think\""
+          },
+          {
+            "level": 3,
+            "heading": "Example 2: Clarification",
+            "content": "A: 先生ですか？ \"Are you a teacher?\" B: いいえ、先生じゃないです。学生です \"No, I'm not a teacher. I'm a student\" A: あ、そうなんですか \"Oh, I see\""
+          },
+          {
+            "level": 3,
+            "heading": "Example 3: Disagreement",
+            "content": "A: これ、簡単でしょう？ \"This is easy, right?\" B: ううん、簡単じゃないよ \"No, it's not easy\" A: え、そう？ \"Really?\" B: うん、結構難しい \"Yeah, it's quite difficult\""
+          }
+        ]
+      },
+      {
+        "level": 2,
+        "heading": "Common Mistakes",
+        "content": "",
+        "children": [
+          {
+            "level": 3,
+            "heading": "Mistake 1: Using じゃない with i-adjectives",
+            "content": "Wrong: 大きいじゃない ❌ Right: 大きくない ✓ \"It's not big\" Note: I-adjectives have their own negative form"
+          },
+          {
+            "level": 3,
+            "heading": "Mistake 2: Double negatives (unintentional)",
+            "content": "Wrong: 学生じゃないくない ❌ Right: 学生じゃない ✓ \"I'm not a student\""
+          },
+          {
+            "level": 3,
+            "heading": "Mistake 3: Wrong politeness mixing",
+            "content": "Inconsistent: 私は学生じゃない。でも、毎日勉強しています ⚠️ Better: 私は学生じゃない。でも、毎日勉強してる ✓ Or: 私は学生じゃないです。でも、毎日勉強しています ✓"
+          },
+          {
+            "level": 3,
+            "heading": "Mistake 4: Using だじゃない",
+            "content": "Wrong: 学生だじゃない ❌ Right: 学生じゃない ✓ \"I'm not a student\""
+          }
+        ]
+      },
+      {
+        "level": 2,
+        "heading": "Special Expressions",
+        "content": "",
+        "children": [
+          {
+            "level": 3,
+            "heading": "じゃないのよ (explanatory - feminine)",
+            "content": "違うのよ、私じゃないのよ \"It's different, it's not me (I'm telling you)\""
+          },
+          {
+            "level": 3,
+            "heading": "じゃないんだ (explanatory)",
+            "content": "学生じゃないんだ。もう卒業した \"I'm not a student (you see). I already graduated\" 違うんだ、そうじゃないんだ \"No, that's not it (let me explain)\""
+          },
+          {
+            "level": 3,
+            "heading": "じゃないでしょう (probably not)",
+            "content": "学生じゃないでしょう \"He's probably not a student\" 本当じゃないでしょう \"It's probably not true\""
+          }
+        ]
+      },
+      {
+        "level": 2,
+        "heading": "Contracted Forms",
+        "content": "",
+        "children": [
+          {
+            "level": 3,
+            "heading": "In rapid speech",
+            "content": "じゃない → じゃない / じゃん ではない → じゃない Examples: 学生じゃん！ (very casual) \"You're a student!\" 違うじゃん (very casual) \"That's not it!\""
+          }
+        ]
+      },
+      {
+        "level": 2,
+        "heading": "Regional Variations",
+        "content": "",
+        "children": [
+          {
+            "level": 3,
+            "heading": "Standard",
+            "content": "学生じゃない \"I'm not a student\""
+          },
+          {
+            "level": 3,
+            "heading": "Kansai",
+            "content": "学生やない / 学生ちゃう \"I'm not a student\""
+          },
+          {
+            "level": 3,
+            "heading": "Casual Tokyo",
+            "content": "学生じゃん \"I'm not a student / You're a student!\""
+          }
+        ]
+      },
+      {
+        "level": 2,
+        "heading": "Practice Sentences",
+        "content": "",
+        "children": [
+          {
+            "level": 3,
+            "heading": "Basic Negations",
+            "content": "これは私のじゃない \"This is not mine\" 彼は日本人じゃない \"He's not Japanese\" 今日は月曜日じゃない \"Today is not Monday\" ここは図書館じゃない \"This is not a library\""
+          },
+          {
+            "level": 3,
+            "heading": "With Politeness",
+            "content": "学生じゃないです \"I'm not a student\" (polite) 便利じゃないです \"It's not convenient\" (polite) 簡単ではありません \"It's not simple\" (formal)"
+          },
+          {
+            "level": 3,
+            "heading": "In Context",
+            "content": "A: 高いですね \"It's expensive, isn't it\" B: そうですね。安くないですね \"Yes. It's not cheap, is it\" 違う、そうじゃない！ \"No, that's not it!\" 私じゃなくて、田中さんです \"Not me, it's Tanaka\" 学生じゃないから、割引がない \"Because I'm not a student, there's no discount\""
+          }
+        ]
+      },
+      {
+        "level": 2,
+        "heading": "Related Grammar Points",
+        "content": "だ (da) - Plain copula です (desu) - Polite copula である (de aru) - Formal copula Past Forms (だった/でした) - Past tense copula Negation Overview - General negation patterns I-adjective Negation - Negative forms for i-adjectives",
+        "children": [
+          {
+            "level": 3,
+            "heading": "Company",
+            "content": "About Pricing Blog Contact"
+          },
+          {
+            "level": 3,
+            "heading": "Legal",
+            "content": "Privacy Policy Terms of Service Cookie Policy"
+          }
+        ]
+      }
+    ],
+    "metadata": {
+      "title": "じゃない (janai) - Negative Copula"
+    },
+    "examples": [
+      {
+        "sentence": "じゃない - Spoken, casual"
+      },
+      {
+        "sentence": "ではない - Written, formal"
+      },
+      {
+        "sentence": "だ (da) - Plain copula"
+      },
+      {
+        "sentence": "です (desu) - Polite copula"
+      },
+      {
+        "sentence": "である (de aru) - Formal copula"
+      },
+      {
+        "sentence": "Past Forms (だった/でした) - Past tense copula"
+      },
+      {
+        "sentence": "Negation Overview - General negation patterns"
+      },
+      {
+        "sentence": "I-adjective Negation - Negative forms for i-adjectives"
+      },
+      {
+        "sentence": "About"
+      },
+      {
+        "sentence": "Pricing"
+      },
+      {
+        "sentence": "Blog"
+      },
+      {
+        "sentence": "Contact"
+      },
+      {
+        "sentence": "Privacy Policy"
+      },
+      {
+        "sentence": "Terms of Service"
+      },
+      {
+        "sentence": "Cookie Policy"
+      }
+    ]
+  },
+  "metadata": {
+    "extracted_at": "2026-01-01T22:19:30.325207900Z",
+    "duration_ms": 4,
+    "extractors_matched": [
+      "metadata",
+      "examples",
+      "sections"
+    ],
+    "extractors_failed": [
+      "vocab_tables",
+      "definitions",
+      "content_blocks"
+    ]
+  }
+}

@@ -1,0 +1,289 @@
+{
+  "config_name": "Language Learning Extractor",
+  "url": "https://practice-japanese.com/docs/hodo-extent/",
+  "data": {
+    "examples": [
+      {
+        "sentence": "ほど expresses extent, degree, and proportional relationships"
+      },
+      {
+        "sentence": "Formation varies by usage: [Verb ば + Verb] + ほど for proportional"
+      },
+      {
+        "sentence": "Multiple meanings: \"the more...the more,\" \"about,\" \"not as...as,\" \"to the extent\""
+      },
+      {
+        "sentence": "これほど/そのほど for demonstrative extent"
+      },
+      {
+        "sentence": "Common with extreme expressions: 死ぬほど, 泣くほど"
+      },
+      {
+        "sentence": "Can mean \"about\" with numbers"
+      },
+      {
+        "sentence": "Essential for expressing relationships and comparisons"
+      },
+      {
+        "sentence": "About"
+      },
+      {
+        "sentence": "Pricing"
+      },
+      {
+        "sentence": "Blog"
+      },
+      {
+        "sentence": "Contact"
+      },
+      {
+        "sentence": "Privacy Policy"
+      },
+      {
+        "sentence": "Terms of Service"
+      },
+      {
+        "sentence": "Cookie Policy"
+      }
+    ],
+    "metadata": {
+      "title": "〜ほど (The more... the more)"
+    },
+    "sections": [
+      {
+        "level": 2,
+        "heading": "What is 〜ほど?",
+        "content": "〜ほど (hodo) expresses extent, degree, or proportional relationships. It has multiple meanings including \"the more...the more,\" \"to the extent that,\" \"not as...as,\" and \"about/approximately.\"\n\nEnglish equivalent: \"the more...the more,\" \"to the extent,\" \"as...as,\" \"about\"\n\nStructure: [Verb/Adjective] + ほど\n\n見る (miru - see) → 見れば見るほど = 見れば見るほど \"the more I see\" 難しい (muzukashii - difficult) + ほど = 難しいほど \"the more difficult\" これ (kore - this) + ほど = これほど \"this much\" / \"to this extent\""
+      },
+      {
+        "level": 2,
+        "heading": "Basic Formation",
+        "content": "",
+        "children": [
+          {
+            "level": 3,
+            "heading": "Proportional: Verb ば-form + Verb dictionary form + ほど",
+            "content": "[Verb ば-form] + [Same verb dictionary form] + ほど = \"the more... the more\"\n\n見れば見るほど (mireba miru hodo) - \"the more I see\" 食べれば食べるほど (tabereba taberu hodo) - \"the more I eat\" 考えれば考えるほど (kangaereba kangaeru hodo) - \"the more I think\""
+          },
+          {
+            "level": 3,
+            "heading": "With adjectives",
+            "content": "[い-adjective stem] + ければ + [same adjective] + ほど\n\n高ければ高いほど (takakereba takai hodo) - \"the more expensive\" 難しければ難しいほど (muzukashikereba muzukashii hodo) - \"the more difficult\""
+          }
+        ]
+      },
+      {
+        "level": 2,
+        "heading": "The More...The More",
+        "content": "",
+        "children": [
+          {
+            "level": 3,
+            "heading": "Proportional relationship",
+            "content": "見れば見るほど好きになる。 Mireba miru hodo suki ni naru. \"The more I see it, the more I like it.\" 勉強すればするほど分かる。 Benkyou sureba suru hodo wakaru. \"The more you study, the more you understand.\" 考えれば考えるほど不安になる。 Kangaereba kangaeru hodo fuan ni naru. \"The more I think about it, the more anxious I become.\""
+          }
+        ]
+      },
+      {
+        "level": 2,
+        "heading": "With Adjectives",
+        "content": "",
+        "children": [
+          {
+            "level": 3,
+            "heading": "Proportional with qualities",
+            "content": "高ければ高いほど良い。 Takakereba takai hodo yoi. \"The higher, the better.\" 大きければ大きいほど便利だ。 Ookikereba ookii hodo benri da. \"The bigger, the more convenient.\" 安ければ安いほど嬉しい。 Yasukereba yasui hodo ureshii. \"The cheaper, the happier.\""
+          }
+        ]
+      },
+      {
+        "level": 2,
+        "heading": "Extent/Degree",
+        "content": "",
+        "children": [
+          {
+            "level": 3,
+            "heading": "To such an extent",
+            "content": "泣くほど嬉しい。 Naku hodo ureshii. \"So happy I could cry.\" / \"Happy to the point of crying.\" 死ぬほど疲れた。 Shinu hodo tsukareta. \"Tired to death.\" / \"Extremely tired.\" 倒れるほど働いた。 Taoreru hodo hataraita. \"Worked to the point of collapsing.\""
+          }
+        ]
+      },
+      {
+        "level": 2,
+        "heading": "Approximate Amount",
+        "content": "",
+        "children": [
+          {
+            "level": 3,
+            "heading": "About/approximately",
+            "content": "10人ほど来た。 Juunin hodo kita. \"About 10 people came.\" 一週間ほど待ってください。 Isshuukan hodo matte kudasai. \"Please wait about one week.\" 一時間ほどかかる。 Ichijikan hodo kakaru. \"It takes about one hour.\""
+          }
+        ]
+      },
+      {
+        "level": 2,
+        "heading": "Negative Comparison",
+        "content": "",
+        "children": [
+          {
+            "level": 3,
+            "heading": "Not as...as",
+            "content": "[Noun] + ほど + [Negative] = \"not as...as\"\n\n彼ほど上手くない。 Kare hodo umaku nai. \"Not as good as him.\" これほど難しくない。 Kore hodo muzukashiku nai. \"Not as difficult as this.\" 昨日ほど寒くない。 Kinou hodo samuku nai. \"Not as cold as yesterday.\""
+          }
+        ]
+      },
+      {
+        "level": 2,
+        "heading": "これほど/そのほど/あれほど",
+        "content": "",
+        "children": [
+          {
+            "level": 3,
+            "heading": "Demonstrative extent",
+            "content": "これほど (kore hodo) - \"this much\" / \"to this extent\" そのほど (sono hodo) - \"that much\" / \"to that extent\" あれほど (are hodo) - \"that much\" (distant) これほど美しいとは思わなかった。 Kore hodo utsukushii to wa omowanakatta. \"I didn't think it would be this beautiful.\" あれほど言ったのに。 Are hodo itta no ni. \"Even though I told you that much.\""
+          }
+        ]
+      },
+      {
+        "level": 2,
+        "heading": "Emphasizing Extremeness",
+        "content": "",
+        "children": [
+          {
+            "level": 3,
+            "heading": "Extreme degree",
+            "content": "信じられないほど美しい。 Shinjirarenai hodo utsukushii. \"Beautiful beyond belief.\" 言葉にできないほど嬉しい。 Kotoba ni dekinai hodo ureshii. \"Happy beyond words.\" 数え切れないほどある。 Kazoekirenai hodo aru. \"There are countless amounts.\""
+          }
+        ]
+      },
+      {
+        "level": 2,
+        "heading": "Common Expressions",
+        "content": "見れば見るほど (mireba miru hodo) - \"the more I see\" 考えれば考えるほど (kangaereba kangaeru hodo) - \"the more I think\" 食べれば食べるほど (tabereba taberu hodo) - \"the more I eat\" 〜ほど〜ない (~hodo ~nai) - \"not as...as\" これほど (kore hodo) - \"this much\" 死ぬほど (shinu hodo) - \"to death\" (extremely) 〜人ほど (~nin hodo) - \"about ~ people\" 泣くほど (naku hodo) - \"to the point of crying\""
+      },
+      {
+        "level": 2,
+        "heading": "ほどの (Modifying nouns)",
+        "content": "",
+        "children": [
+          {
+            "level": 3,
+            "heading": "Describing extent",
+            "content": "[Extent] + ほどの + [Noun]\n\n死ぬほどの痛み (shinu hodo no itami) - \"pain enough to die\" 泣くほどの嬉しさ (naku hodo no ureshisa) - \"happiness enough to cry\" 信じられないほどの美しさ (shinjirarenai hodo no utsukushisa) - \"unbelievable beauty\" これほどの経験は初めてだ。 Kore hodo no keiken wa hajimete da. \"This is the first time I've had an experience of this extent.\""
+          }
+        ]
+      },
+      {
+        "level": 2,
+        "heading": "Polite Forms",
+        "content": "10名ほどお越しいただけますでしょうか。 Juumei hodo okoshi itadakemasu deshou ka. \"Could about 10 people please come?\" 一週間ほどお待ちください。 Isshuukan hodo omachi kudasai. \"Please wait about one week.\" 考えれば考えるほど難しくなります。 Kangaereba kangaeru hodo muzukashiku narimasu. \"The more I think, the more difficult it becomes.\""
+      },
+      {
+        "level": 2,
+        "heading": "Comparing ほど and くらい/ぐらい",
+        "content": "",
+        "children": [
+          {
+            "level": 3,
+            "heading": "Extent vs approximation",
+            "content": "ほど - Extent/degree (often with negatives):\n\n彼ほど上手くない。 Kare hodo umaku nai. \"Not as good as him.\" (comparison)\n\nくらい/ぐらい - Simple approximation:\n\n10人くらい来た。 Juunin kurai kita. \"About 10 people came.\" (approximation)\n\nBoth can mean \"about,\" but ほど is more formal and often used in comparisons."
+          }
+        ]
+      },
+      {
+        "level": 2,
+        "heading": "With Potential Form",
+        "content": "",
+        "children": [
+          {
+            "level": 3,
+            "heading": "The more you can",
+            "content": "できればできるほど良い。 Dekireba dekiru hodo yoi. \"The more you can do, the better.\" 話せれば話せるほど上達する。 Hanasereba hanaseru hodo joutatsu suru. \"The more you can speak, the more you improve.\""
+          }
+        ]
+      },
+      {
+        "level": 2,
+        "heading": "Time-Related",
+        "content": "",
+        "children": [
+          {
+            "level": 3,
+            "heading": "Duration approximation",
+            "content": "一時間ほど (ichijikan hodo) - \"about one hour\" 三日ほど (mikka hodo) - \"about three days\" 一年ほど前 (ichinen hodo mae) - \"about one year ago\" 一ヶ月ほど日本にいた。 Ikkagetsu hodo nihon ni ita. \"I was in Japan for about one month.\""
+          }
+        ]
+      },
+      {
+        "level": 2,
+        "heading": "Expressing Intensity",
+        "content": "",
+        "children": [
+          {
+            "level": 3,
+            "heading": "Extreme feelings",
+            "content": "飛び上がるほど嬉しい。 Tobiagaru hodo ureshii. \"So happy I could jump.\" 震えるほど寒い。 Furueru hodo samui. \"So cold I'm shivering.\" 叫びたくなるほど辛い。 Sakebitaku naru hodo tsurai. \"So painful I want to scream.\""
+          }
+        ]
+      },
+      {
+        "level": 2,
+        "heading": "Common Mistakes",
+        "content": "",
+        "children": [
+          {
+            "level": 3,
+            "heading": "Mistake 1: Wrong form for proportional",
+            "content": "❌ 見る見るほど ✓ 見れば見るほど\n\nUse ば-form + dictionary form for \"the more...the more.\""
+          },
+          {
+            "level": 3,
+            "heading": "Mistake 2: Using だ with な-adjectives in proportional",
+            "content": "❌ 便利だ便利だほど ✓ 便利なら便利なほど\n\nUse なら conditional for な-adjectives."
+          },
+          {
+            "level": 3,
+            "heading": "Mistake 3: Confusing with まで",
+            "content": "ほど = extent/degree まで = until (time/space) 死ぬほど = to the point of death (extent) 朝まで = until morning (time)"
+          },
+          {
+            "level": 3,
+            "heading": "Mistake 4: Wrong particle with comparison",
+            "content": "❌ 彼をほど ✓ 彼ほど\n\nNo を needed before ほど in comparisons."
+          }
+        ]
+      },
+      {
+        "level": 2,
+        "heading": "Summary",
+        "content": "Key Points:\n\nほど expresses extent, degree, and proportional relationships Formation varies by usage: [Verb ば + Verb] + ほど for proportional Multiple meanings: \"the more...the more,\" \"about,\" \"not as...as,\" \"to the extent\" これほど/そのほど for demonstrative extent Common with extreme expressions: 死ぬほど, 泣くほど Can mean \"about\" with numbers Essential for expressing relationships and comparisons",
+        "children": [
+          {
+            "level": 3,
+            "heading": "Company",
+            "content": "About Pricing Blog Contact"
+          },
+          {
+            "level": 3,
+            "heading": "Legal",
+            "content": "Privacy Policy Terms of Service Cookie Policy"
+          }
+        ]
+      }
+    ]
+  },
+  "metadata": {
+    "extracted_at": "2026-01-01T22:19:29.737568Z",
+    "duration_ms": 5,
+    "extractors_matched": [
+      "metadata",
+      "examples",
+      "sections"
+    ],
+    "extractors_failed": [
+      "vocab_tables",
+      "definitions",
+      "content_blocks"
+    ]
+  }
+}

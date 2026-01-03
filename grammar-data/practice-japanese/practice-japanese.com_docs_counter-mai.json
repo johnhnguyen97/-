@@ -1,0 +1,413 @@
+{
+  "config_name": "Language Learning Extractor",
+  "url": "https://practice-japanese.com/docs/counter-mai/",
+  "data": {
+    "examples": [
+      {
+        "sentence": "Counter System Basics - How counters work"
+      },
+      {
+        "sentence": "Number System Overview - Japanese numbers"
+      },
+      {
+        "sentence": "個 (ko) - Small objects counter"
+      },
+      {
+        "sentence": "本 (hon) - Long objects counter"
+      },
+      {
+        "sentence": "冊 (satsu) - Books counter"
+      },
+      {
+        "sentence": "Quantity expressions - Expressing amounts"
+      },
+      {
+        "sentence": "About"
+      },
+      {
+        "sentence": "Pricing"
+      },
+      {
+        "sentence": "Blog"
+      },
+      {
+        "sentence": "Contact"
+      },
+      {
+        "sentence": "Privacy Policy"
+      },
+      {
+        "sentence": "Terms of Service"
+      },
+      {
+        "sentence": "Cookie Policy"
+      }
+    ],
+    "metadata": {
+      "title": "Flat Objects (枚)"
+    },
+    "sections": [
+      {
+        "level": 2,
+        "heading": "What is 枚 (まい)?",
+        "content": "枚 (mai) is the counter for flat, thin objects. Unlike many counters, it doesn't undergo sound changes and always stays まい.\n\n紙を3枚ください \"3 sheets of paper, please\" Tシャツを2枚買いました \"I bought 2 T-shirts\""
+      },
+      {
+        "level": 2,
+        "heading": "Complete 枚 Counter Chart",
+        "content": "| Number | Reading | Romaji | | ------ | ---------- | --------- | | 1 | いちまい | ichi-mai | | 2 | にまい | ni-mai | | 3 | さんまい | san-mai | | 4 | よんまい | yon-mai | | 5 | ごまい | go-mai | | 6 | ろくまい | roku-mai | | 7 | ななまい | nana-mai | | 8 | はちまい | hachi-mai | | 9 | きゅうまい | kyuu-mai | | 10 | じゅうまい | juu-mai |",
+        "children": [
+          {
+            "level": 3,
+            "heading": "Larger Numbers",
+            "content": "11枚 = じゅういちまい 20枚 = にじゅうまい 50枚 = ごじゅうまい 100枚 = ひゃくまい 1,000枚 = せんまい\n\nGood news: No sound changes! Always まい."
+          }
+        ]
+      },
+      {
+        "level": 2,
+        "heading": "What to Count with 枚",
+        "content": "",
+        "children": [
+          {
+            "level": 3,
+            "heading": "Paper and Documents",
+            "content": "紙 (かみ) - paper コピー - copies 写真 (しゃしん) - photographs 手紙 (てがみ) - letters はがき - postcards 切手 (きって) - stamps チケット - tickets 名刺 (めいし) - business cards 領収書 (りょうしゅうしょ) - receipts\n\n紙を10枚コピーしてください \"Please make 10 copies\" 写真を5枚撮りました \"I took 5 photos\" 切手を3枚ください \"3 stamps, please\""
+          },
+          {
+            "level": 3,
+            "heading": "Dishes and Plates",
+            "content": "皿 (さら) - plates/dishes お皿 - plates (polite)\n\nお皿を5枚洗いました \"I washed 5 plates\" 大きい皿を2枚ください \"2 large plates, please\""
+          },
+          {
+            "level": 3,
+            "heading": "Clothing (Flat Items)",
+            "content": "Tシャツ - T-shirts シャツ - shirts ズボン - pants/trousers スカート - skirts タオル - towels ハンカチ - handkerchiefs 毛布 (もうふ) - blankets 布団 (ふとん) - futons\n\nTシャツを3枚買いました \"I bought 3 T-shirts\" タオルを2枚使いました \"I used 2 towels\" 毛布を1枚貸してください \"Please lend me 1 blanket\""
+          },
+          {
+            "level": 3,
+            "heading": "Boards and Panels",
+            "content": "板 (いた) - boards ガラス - glass panels CD - CDs DVD - DVDs カード - cards\n\nCDを5枚持っています \"I have 5 CDs\" ガラスを2枚割りました \"I broke 2 glass panels\""
+          },
+          {
+            "level": 3,
+            "heading": "Currency",
+            "content": "お札 (おさつ) - bills/banknotes 千円札 - 1,000 yen bills\n\n千円札を5枚両替してください \"Please exchange 5 one-thousand yen bills\""
+          },
+          {
+            "level": 3,
+            "heading": "Other Flat Objects",
+            "content": "畳 (たたみ) - tatami mats じゅうたん - carpets/rugs ポスター - posters カレンダー - calendars"
+          }
+        ]
+      },
+      {
+        "level": 2,
+        "heading": "Asking \"How Many?\"",
+        "content": "",
+        "children": [
+          {
+            "level": 3,
+            "heading": "何枚 (なんまい)",
+            "content": "何枚ありますか？ \"How many are there?\" 何枚必要ですか？ \"How many do you need?\" 紙を何枚コピーしますか？ \"How many sheets will you copy?\" 写真を何枚撮りましたか？ \"How many photos did you take?\""
+          }
+        ]
+      },
+      {
+        "level": 2,
+        "heading": "Common Patterns",
+        "content": "",
+        "children": [
+          {
+            "level": 3,
+            "heading": "Object + を + 枚 Counter",
+            "content": "紙を3枚使いました \"I used 3 sheets of paper\" 写真を10枚撮りました \"I took 10 photos\" シャツを2枚買いました \"I bought 2 shirts\""
+          },
+          {
+            "level": 3,
+            "heading": "Subject + が + 枚 Counter + Verb",
+            "content": "皿が5枚あります \"There are 5 plates\" 切手が3枚足りません \"We're 3 stamps short\""
+          },
+          {
+            "level": 3,
+            "heading": "枚 Counter + の + Noun",
+            "content": "3枚の紙 \"3 sheets of paper\" 5枚の写真 \"5 photographs\" 2枚のTシャツ \"2 T-shirts\""
+          }
+        ]
+      },
+      {
+        "level": 2,
+        "heading": "Common Conversations",
+        "content": "",
+        "children": [
+          {
+            "level": 3,
+            "heading": "Example 1: Office",
+            "content": "A: コピーを何枚お願いしますか？ \"How many copies would you like?\" B: 20枚お願いします \"20, please\" A: 白黒ですか、カラーですか？ \"Black and white or color?\" B: 白黒で \"Black and white\""
+          },
+          {
+            "level": 3,
+            "heading": "Example 2: Shopping",
+            "content": "A: このTシャツ、何枚買いますか？ \"How many of these T-shirts will you buy?\" B: 色違いで3枚ください \"3 in different colors, please\" A: かしこまりました \"Certainly\""
+          },
+          {
+            "level": 3,
+            "heading": "Example 3: Post Office",
+            "content": "A: 切手を何枚ください？ \"How many stamps?\" B: 84円切手を5枚お願いします \"5 of the 84-yen stamps, please\" A: はい、420円になります \"Yes, that'll be 420 yen\""
+          },
+          {
+            "level": 3,
+            "heading": "Example 4: Photography",
+            "content": "A: 今日、写真を何枚撮りましたか？ \"How many photos did you take today?\" B: 50枚ぐらい撮りました \"I took about 50\" A: いい写真はありましたか？ \"Were there any good ones?\" B: 10枚ぐらいいいのがあります \"About 10 good ones\""
+          }
+        ]
+      },
+      {
+        "level": 2,
+        "heading": "Special Expressions",
+        "content": "",
+        "children": [
+          {
+            "level": 3,
+            "heading": "〜枚ずつ (each/apiece)",
+            "content": "一枚ずつ取ってください \"Please take one each\" 3枚ずつ配ります \"I'll distribute 3 to each person\" 2枚ずつコピーしてください \"Please make 2 copies of each\""
+          },
+          {
+            "level": 3,
+            "heading": "〜枚目 (ordinal)",
+            "content": "1枚目 (いちまいめ) - the first one 2枚目 (にまいめ) - the second one 3枚目 (さんまいめ) - the third one 2枚目の写真が一番きれいです \"The second photo is the prettiest\""
+          },
+          {
+            "level": 3,
+            "heading": "〜枚も (as many as)",
+            "content": "50枚も撮った \"I took as many as 50\" 10枚も買った \"I bought as many as 10\""
+          },
+          {
+            "level": 3,
+            "heading": "〜枚しか (only)",
+            "content": "1枚しかない \"There's only 1\" 3枚しか残っていません \"Only 3 remain\""
+          }
+        ]
+      },
+      {
+        "level": 2,
+        "heading": "Clothing Specifics",
+        "content": "",
+        "children": [
+          {
+            "level": 3,
+            "heading": "Tops (Use 枚)",
+            "content": "シャツ - shirts Tシャツ - T-shirts セーター - sweaters ジャケット - jackets コート - coats\n\nシャツを5枚持っています \"I have 5 shirts\""
+          },
+          {
+            "level": 3,
+            "heading": "Bottoms (Also Use 枚)",
+            "content": "ズボン - pants/trousers ジーンズ - jeans スカート - skirts\n\nズボンを3枚買いました \"I bought 3 pairs of pants\""
+          },
+          {
+            "level": 3,
+            "heading": "Note on Pairs",
+            "content": "Unlike English, Japanese doesn't use \"pair\" for pants. Just count with 枚:\n\nEnglish: 2 pairs of pants Japanese: ズボン2枚 (literally: 2 sheets of pants)"
+          }
+        ]
+      },
+      {
+        "level": 2,
+        "heading": "Documents and Papers",
+        "content": "",
+        "children": [
+          {
+            "level": 3,
+            "heading": "Office Documents",
+            "content": "契約書 (けいやくしょ) - contracts 報告書 (ほうこくしょ) - reports 資料 (しりょう) - materials/documents 書類 (しょるい) - documents\n\n契約書を3枚サインしてください \"Please sign 3 contracts\" 資料を20枚印刷しました \"I printed 20 copies of the materials\""
+          },
+          {
+            "level": 3,
+            "heading": "Personal Documents",
+            "content": "履歴書 (りれきしょ) - resume/CV 申込書 (もうしこみしょ) - application form\n\n履歴書を2枚準備しました \"I prepared 2 copies of my resume\""
+          }
+        ]
+      },
+      {
+        "level": 2,
+        "heading": "Common Mistakes",
+        "content": "",
+        "children": [
+          {
+            "level": 3,
+            "heading": "Mistake 1: Using wrong counter for thick items",
+            "content": "Wrong: 本を3枚読みました ❌ Right: 本を3冊読みました ✓ \"I read 3 books\" (Books are not flat/thin enough for 枚)"
+          },
+          {
+            "level": 3,
+            "heading": "Mistake 2: Using 枚 for non-flat clothing",
+            "content": "Questionable: 靴下を2枚 ⚠️ Better: 靴下を2足 (にそく) ✓ \"2 pairs of socks\" Wrong: セーターを3枚 (actually OK!) ✓ Sweaters are flat when folded, so 枚 works"
+          },
+          {
+            "level": 3,
+            "heading": "Mistake 3: Forgetting counter entirely",
+            "content": "Wrong: 紙を3ください ❌ Right: 紙を3枚ください ✓ \"3 sheets of paper, please\""
+          },
+          {
+            "level": 3,
+            "heading": "Mistake 4: Wrong sound changes",
+            "content": "This is actually NOT a mistake with 枚 - it never changes!\n\n1枚 = いちまい ✓ (stays まい) 3枚 = さんまい ✓ (stays まい) 8枚 = はちまい ✓ (stays まい)"
+          }
+        ]
+      },
+      {
+        "level": 2,
+        "heading": "Size Descriptions with 枚",
+        "content": "",
+        "children": [
+          {
+            "level": 3,
+            "heading": "Large/Small",
+            "content": "大きい紙を2枚 \"2 large sheets of paper\" 小さいお皿を5枚 \"5 small plates\""
+          },
+          {
+            "level": 3,
+            "heading": "A4, B5, etc.",
+            "content": "A4の紙を10枚 \"10 sheets of A4 paper\" B5のコピーを20枚 \"20 B5 copies\""
+          }
+        ]
+      },
+      {
+        "level": 2,
+        "heading": "Currency Specific Usage",
+        "content": "",
+        "children": [
+          {
+            "level": 3,
+            "heading": "Bills/Banknotes",
+            "content": "千円札を5枚 \"5 one-thousand yen bills\" 一万円札を3枚 \"3 ten-thousand yen bills\""
+          },
+          {
+            "level": 3,
+            "heading": "Not for Coins",
+            "content": "Wrong: 100円を3枚 ❌ Right: 100円玉を3個 ✓ \"3 one-hundred yen coins\" Coins use 個, not 枚"
+          }
+        ]
+      },
+      {
+        "level": 2,
+        "heading": "Practical Situations",
+        "content": "",
+        "children": [
+          {
+            "level": 3,
+            "heading": "At Copy Shop",
+            "content": "A: コピーは何枚ですか？ \"How many copies?\" B: 白黒30枚とカラー10枚お願いします \"30 black and white and 10 color, please\""
+          },
+          {
+            "level": 3,
+            "heading": "Buying Clothes",
+            "content": "A: この柄で何枚お買い上げですか？ \"How many of this pattern will you buy?\" B: 色違いで2枚ください \"2 in different colors, please\""
+          },
+          {
+            "level": 3,
+            "heading": "At Restaurant (Plates)",
+            "content": "A: お皿は何枚必要ですか？ \"How many plates do you need?\" B: 4枚お願いします \"4, please\""
+          },
+          {
+            "level": 3,
+            "heading": "Photography",
+            "content": "A: 今日は何枚撮りましたか？ \"How many did you take today?\" B: 100枚以上撮りました \"I took over 100\""
+          }
+        ]
+      },
+      {
+        "level": 2,
+        "heading": "Formal vs Casual",
+        "content": "",
+        "children": [
+          {
+            "level": 3,
+            "heading": "Casual",
+            "content": "紙3枚ちょうだい \"Give me 3 sheets of paper\" 写真何枚撮った？ \"How many photos did you take?\""
+          },
+          {
+            "level": 3,
+            "heading": "Polite",
+            "content": "紙を3枚ください \"3 sheets of paper, please\" 写真を何枚撮りましたか？ \"How many photos did you take?\""
+          },
+          {
+            "level": 3,
+            "heading": "Formal/Business",
+            "content": "コピーを50枚お願いいたします \"I would like 50 copies, please\" 書類を3枚提出いたします \"I will submit 3 documents\""
+          }
+        ]
+      },
+      {
+        "level": 2,
+        "heading": "Combining with Other Counters",
+        "content": "",
+        "children": [
+          {
+            "level": 3,
+            "heading": "枚 + 人",
+            "content": "一人3枚ずつ \"3 sheets per person\" 5人で20枚使いました \"5 people used 20 sheets\""
+          },
+          {
+            "level": 3,
+            "heading": "枚 + 回",
+            "content": "1回に10枚コピーできます \"You can copy 10 sheets at a time\""
+          }
+        ]
+      },
+      {
+        "level": 2,
+        "heading": "Practice Sentences",
+        "content": "",
+        "children": [
+          {
+            "level": 3,
+            "heading": "Basic",
+            "content": "紙が10枚あります \"There are 10 sheets of paper\" お皿を5枚洗いました \"I washed 5 plates\" Tシャツを2枚買いました \"I bought 2 T-shirts\""
+          },
+          {
+            "level": 3,
+            "heading": "Intermediate",
+            "content": "写真を何枚撮りましたか？ \"How many photos did you take?\" コピーを20枚してください \"Please make 20 copies\" 切手を5枚買ってきてください \"Please go buy 5 stamps\""
+          },
+          {
+            "level": 3,
+            "heading": "Advanced",
+            "content": "一人一枚ずつ資料を配ってください \"Please distribute one copy of the materials to each person\" この書類を3枚ずつホチキスで留めてください \"Please staple these documents in sets of 3\" 写真を100枚以上撮りましたが、良いのは10枚ぐらいでした \"I took over 100 photos, but only about 10 were good\""
+          }
+        ]
+      },
+      {
+        "level": 2,
+        "heading": "Related Grammar Points",
+        "content": "Counter System Basics - How counters work Number System Overview - Japanese numbers 個 (ko) - Small objects counter 本 (hon) - Long objects counter 冊 (satsu) - Books counter Quantity expressions - Expressing amounts",
+        "children": [
+          {
+            "level": 3,
+            "heading": "Company",
+            "content": "About Pricing Blog Contact"
+          },
+          {
+            "level": 3,
+            "heading": "Legal",
+            "content": "Privacy Policy Terms of Service Cookie Policy"
+          }
+        ]
+      }
+    ]
+  },
+  "metadata": {
+    "extracted_at": "2026-01-01T22:19:28.440419100Z",
+    "duration_ms": 4,
+    "extractors_matched": [
+      "metadata",
+      "examples",
+      "sections"
+    ],
+    "extractors_failed": [
+      "vocab_tables",
+      "definitions",
+      "content_blocks"
+    ]
+  }
+}

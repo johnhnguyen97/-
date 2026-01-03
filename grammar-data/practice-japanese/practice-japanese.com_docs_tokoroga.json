@@ -1,0 +1,300 @@
+{
+  "config_name": "Language Learning Extractor",
+  "url": "https://practice-japanese.com/docs/tokoroga/",
+  "data": {
+    "examples": [
+      {
+        "sentence": "About"
+      },
+      {
+        "sentence": "Pricing"
+      },
+      {
+        "sentence": "Blog"
+      },
+      {
+        "sentence": "Contact"
+      },
+      {
+        "sentence": "Privacy Policy"
+      },
+      {
+        "sentence": "Terms of Service"
+      },
+      {
+        "sentence": "Cookie Policy"
+      }
+    ],
+    "metadata": {
+      "title": "ところが (However)"
+    },
+    "sections": [
+      {
+        "level": 2,
+        "heading": "What is ところが?",
+        "content": "ところが means \"however,\" \"but,\" or \"unexpectedly,\" introducing a surprising or contrary result. It emphasizes that what follows is opposite to what was expected or contrary to the normal outcome. It's more dramatic than でも or けど, highlighting the unexpected nature of the situation.\n\n勉強した。ところが落ちた。 \"I studied. However, I failed.\" 急いだ。ところが間に合わなかった。 \"I hurried. However, I didn't make it.\""
+      },
+      {
+        "level": 2,
+        "heading": "Basic Structure",
+        "content": "",
+        "children": [
+          {
+            "level": 3,
+            "heading": "Sentence 1. ところが Sentence 2.",
+            "content": "準備した。ところが中止になった。 \"I prepared. However, it was canceled.\" Between sentences Unexpected result"
+          }
+        ]
+      },
+      {
+        "level": 2,
+        "heading": "Usage and Meaning",
+        "content": "",
+        "children": [
+          {
+            "level": 3,
+            "heading": "Unexpected outcomes",
+            "content": "晴れの予報だった。ところが雨が降った。 \"The forecast was sunny. However, it rained.\" 頑張った。ところが失敗した。 \"I tried hard. However, I failed.\" Contrary to expectation"
+          },
+          {
+            "level": 3,
+            "heading": "Surprising reversals",
+            "content": "嫌いだった。ところが今は好きだ。 \"I used to hate it. However, now I like it.\" 信じていた。ところが嘘だった。 \"I believed it. However, it was a lie.\" Complete reversal"
+          },
+          {
+            "level": 3,
+            "heading": "Dramatic contrasts",
+            "content": "簡単だと思った。ところがとても難しかった。 \"I thought it would be easy. However, it was very difficult.\" Emphasizes surprise"
+          }
+        ]
+      },
+      {
+        "level": 2,
+        "heading": "Position in Sentence",
+        "content": "",
+        "children": [
+          {
+            "level": 3,
+            "heading": "Beginning of second sentence",
+            "content": "計画した。ところが問題が起きた。 \"I made a plan. However, a problem arose.\" After period New sentence"
+          }
+        ]
+      },
+      {
+        "level": 2,
+        "heading": "Polite and Casual",
+        "content": "",
+        "children": [
+          {
+            "level": 3,
+            "heading": "Works in both",
+            "content": "Casual: 行った。ところが休みだった。 \"I went. However, it was closed.\" Polite: 行きました。ところが休みでした。 \"I went. However, it was closed.\" Formal connector"
+          }
+        ]
+      },
+      {
+        "level": 2,
+        "heading": "Common Contexts",
+        "content": "",
+        "children": [
+          {
+            "level": 3,
+            "heading": "Storytelling",
+            "content": "家を出た。ところが雨が降り出した。 \"I left home. However, it started raining.\" 駅に着いた。ところが電車が遅れていた。 \"I arrived at the station. However, the train was delayed.\" Narrative surprises"
+          },
+          {
+            "level": 3,
+            "heading": "Explaining failures",
+            "content": "準備万端だった。ところがミスをした。 \"I was fully prepared. However, I made a mistake.\" 練習した。ところが本番で失敗した。 \"I practiced. However, I failed during the actual performance.\" Unexpected setbacks"
+          },
+          {
+            "level": 3,
+            "heading": "Describing reversals",
+            "content": "最初は反対だった。ところが賛成に変わった。 \"At first he was against it. However, he changed to being in favor.\" Life changes"
+          }
+        ]
+      },
+      {
+        "level": 2,
+        "heading": "ところが vs でも/しかし",
+        "content": "",
+        "children": [
+          {
+            "level": 3,
+            "heading": "ところが = dramatic/unexpected",
+            "content": "急いだ。ところが遅れた。 \"I hurried. However, I was late.\" Strong surprise Contrary outcome"
+          },
+          {
+            "level": 3,
+            "heading": "でも = casual contrast",
+            "content": "急いだ。でも遅れた。 \"I hurried. But I was late.\" Neutral statement No special emphasis"
+          },
+          {
+            "level": 3,
+            "heading": "しかし = formal contrast",
+            "content": "急いだ。しかし遅れた。 \"I hurried. However, I was late.\" Formal, written Less dramatic than ところが"
+          }
+        ]
+      },
+      {
+        "level": 2,
+        "heading": "ところが vs だが",
+        "content": "",
+        "children": [
+          {
+            "level": 3,
+            "heading": "ところが = unexpected result",
+            "content": "努力した。ところがダメだった。 \"I made an effort. However, it was no good.\" Emphasizes surprise"
+          },
+          {
+            "level": 3,
+            "heading": "だが = neutral contrast",
+            "content": "努力した。だがダメだった。 \"I made an effort. But it was no good.\" Simple contrast Literary"
+          }
+        ]
+      },
+      {
+        "level": 2,
+        "heading": "Expressing Surprise",
+        "content": "",
+        "children": [
+          {
+            "level": 3,
+            "heading": "Highlighting unexpectedness",
+            "content": "勝つと思った。ところが負けた。 \"I thought we'd win. However, we lost.\" 信じられない結果 Surprising outcome"
+          }
+        ]
+      },
+      {
+        "level": 2,
+        "heading": "In Written Narratives",
+        "content": "",
+        "children": [
+          {
+            "level": 3,
+            "heading": "Literary style",
+            "content": "彼は出発した。ところが途中で事故に遭った。 \"He departed. However, he had an accident on the way.\" Story progression Building tension"
+          }
+        ]
+      },
+      {
+        "level": 2,
+        "heading": "Negative to Positive Reversals",
+        "content": "",
+        "children": [
+          {
+            "level": 3,
+            "heading": "Unexpected improvement",
+            "content": "諦めかけた。ところが成功した。 \"I was about to give up. However, I succeeded.\" ダメだと思った。ところがうまくいった。 \"I thought it wouldn't work. However, it went well.\" Pleasant surprises"
+          }
+        ]
+      },
+      {
+        "level": 2,
+        "heading": "Common Mistakes",
+        "content": "",
+        "children": [
+          {
+            "level": 3,
+            "heading": "Overusing for simple contrasts",
+            "content": "Unnatural: 疲れた。ところが寝る。⚠️ Better: 疲れた。だから寝る。✓ \"I'm tired. So I'll sleep.\" Use for unexpected only Not for logical results"
+          },
+          {
+            "level": 3,
+            "heading": "Using too casually",
+            "content": "Unnatural: お腹空いた。ところが食べる。⚠️ Natural: お腹空いた。だから食べる。✓ ところが for surprises Not normal sequences"
+          }
+        ]
+      },
+      {
+        "level": 2,
+        "heading": "Emphasizing Drama",
+        "content": "",
+        "children": [
+          {
+            "level": 3,
+            "heading": "Strong contrast marker",
+            "content": "完璧だと思った。ところが大失敗だった。 \"I thought it was perfect. However, it was a huge failure.\" Dramatic effect Storytelling device"
+          }
+        ]
+      },
+      {
+        "level": 2,
+        "heading": "Multiple Reversals",
+        "content": "",
+        "children": [
+          {
+            "level": 3,
+            "heading": "Can use multiple times",
+            "content": "最初は順調だった。ところが問題が起きた。 解決した。ところがまた別の問題が起きた。 \"At first it was going smoothly. However, a problem arose. I solved it. However, another problem arose.\" Series of surprises"
+          }
+        ]
+      },
+      {
+        "level": 2,
+        "heading": "In Formal Writing",
+        "content": "",
+        "children": [
+          {
+            "level": 3,
+            "heading": "Reports and narratives",
+            "content": "計画は承認された。ところが実行段階で 予算不足が判明した。 \"The plan was approved. However, at the implementation stage, budget shortage was discovered.\" Formal documentation"
+          }
+        ]
+      },
+      {
+        "level": 2,
+        "heading": "Contrary Expectations",
+        "content": "",
+        "children": [
+          {
+            "level": 3,
+            "heading": "Reality vs. expectation",
+            "content": "簡単なはずだった。ところが複雑だった。 \"It was supposed to be simple. However, it was complex.\" すぐ終わると思った。ところが時間がかかった。 \"I thought it would end quickly. However, it took time.\" Unmet expectations"
+          }
+        ]
+      },
+      {
+        "level": 2,
+        "heading": "Practice Sentences",
+        "content": "",
+        "children": [
+          {
+            "level": 3,
+            "heading": "Basic",
+            "content": "勉強した。ところが落ちた。 \"I studied. However, I failed.\" 急いだ。ところが間に合わなかった。 \"I hurried. However, I didn't make it.\" 準備した。ところが中止になった。 \"I prepared. However, it was canceled.\" 晴れの予報だった。ところが雨が降った。 \"The forecast was sunny. However, it rained.\" 簡単だと思った。ところが難しかった。 \"I thought it would be easy. However, it was difficult.\""
+          },
+          {
+            "level": 3,
+            "heading": "Intermediate",
+            "content": "昨日、新しいレストランに行った。 評判がよかったので期待していた。 ところが、料理はあまり美味しくなかった。 とても残念だった。 \"Yesterday I went to a new restaurant. Since the reputation was good, I had expectations. However, the food wasn't very delicious. It was very disappointing.\" 試験の準備は完璧だった。過去問も 全部解いた。ところが、本番では 見たことのない問題ばかりが出た。 結果は散々だった。 \"My exam preparation was perfect. I also solved all the past questions. However, in the actual test, only problems I'd never seen came up. The result was terrible.\" 彼は最初、この計画に反対していた。 何度も説明しても聞いてくれなかった。 ところが、ある日突然、賛成すると 言い出した。理由は分からない。 \"He was against this plan at first. Even though I explained many times, he wouldn't listen. However, one day suddenly, he said he would agree. I don't know the reason.\""
+          },
+          {
+            "level": 3,
+            "heading": "Company",
+            "content": "About Pricing Blog Contact"
+          },
+          {
+            "level": 3,
+            "heading": "Legal",
+            "content": "Privacy Policy Terms of Service Cookie Policy"
+          }
+        ]
+      }
+    ]
+  },
+  "metadata": {
+    "extracted_at": "2026-01-01T22:19:36.517558200Z",
+    "duration_ms": 3,
+    "extractors_matched": [
+      "metadata",
+      "examples",
+      "sections"
+    ],
+    "extractors_failed": [
+      "vocab_tables",
+      "definitions",
+      "content_blocks"
+    ]
+  }
+}

@@ -1,0 +1,324 @@
+{
+  "config_name": "Language Learning Extractor",
+  "url": "https://practice-japanese.com/docs/personal-pronouns/",
+  "data": {
+    "sections": [
+      {
+        "level": 2,
+        "heading": "Personal Pronouns",
+        "content": "Personal pronouns in Japanese are complex and context-dependent. Unlike English, Japanese has multiple words for \"I,\" \"you,\" etc., each with different formality levels, gender associations, and usage contexts. Additionally, pronouns are often omitted when clear from context.\n\n私は学生です \"I am a student\" (formal/neutral) 僕は学生だ \"I am a student\" (casual male) 学生です \"Am a student\" (pronoun omitted)"
+      },
+      {
+        "level": 2,
+        "heading": "Key Differences from English",
+        "content": "",
+        "children": [
+          {
+            "level": 3,
+            "heading": "Formality and context matter",
+            "content": "Multiple forms for each person Formality levels vary Gender associations exist Context determines choice Omission is common Not one-to-one with English"
+          },
+          {
+            "level": 3,
+            "heading": "Often omitted",
+            "content": "With context: 学生です \"(I) am a student\" Full: 私は学生です \"I am a student\" Pronouns often unnecessary Japanese prefers omission"
+          }
+        ]
+      },
+      {
+        "level": 2,
+        "heading": "First Person (I/We)",
+        "content": "",
+        "children": [
+          {
+            "level": 3,
+            "heading": "私 (watashi) - Standard neutral",
+            "content": "私は田中です \"I am Tanaka\" Most common Formal and neutral Used by everyone Safe choice"
+          },
+          {
+            "level": 3,
+            "heading": "僕 (boku) - Casual male",
+            "content": "僕は学生だ \"I am a student\" Male speakers Casual to polite Not very casual"
+          },
+          {
+            "level": 3,
+            "heading": "俺 (ore) - Very casual male",
+            "content": "俺は行く \"I'm going\" Male speakers only Very casual Friends, peers Rough/masculine"
+          },
+          {
+            "level": 3,
+            "heading": "あたし (atashi) - Feminine casual",
+            "content": "あたし、嬉しい \"I'm happy\" Female speakers Casual, cute Young women"
+          },
+          {
+            "level": 3,
+            "heading": "私たち (watashitachi) - We",
+            "content": "私たちは学生です \"We are students\" Standard \"we\" Formal and neutral"
+          },
+          {
+            "level": 3,
+            "heading": "僕ら/俺ら (bokura/orera) - We (casual)",
+            "content": "僕らは行く \"We're going\" Casual \"we\" Male-oriented"
+          }
+        ]
+      },
+      {
+        "level": 2,
+        "heading": "Second Person (You)",
+        "content": "",
+        "children": [
+          {
+            "level": 3,
+            "heading": "あなた (anata) - You",
+            "content": "あなたは誰ですか \"Who are you?\" Formal situations Can be rude/distant Often avoided Used to strangers"
+          },
+          {
+            "level": 3,
+            "heading": "君 (kimi) - You (casual)",
+            "content": "君は学生？ \"Are you a student?\" Casual, friendly Male speakers usually To equals/juniors"
+          },
+          {
+            "level": 3,
+            "heading": "お前 (omae) - You (rough)",
+            "content": "お前、何してる？ \"What are you doing?\" Very casual/rough Male speakers Friends/subordinates Can be offensive"
+          },
+          {
+            "level": 3,
+            "heading": "あんた (anta) - You (casual/rough)",
+            "content": "あんた誰？ \"Who are you?\" Casual to rough Can be confrontational Regional variations"
+          },
+          {
+            "level": 3,
+            "heading": "Avoidance strategies",
+            "content": "Instead of \"you\": Use name: 田中さんは Use title: 先生は Use position: お客様は More polite More common"
+          }
+        ]
+      },
+      {
+        "level": 2,
+        "heading": "Third Person (He/She/They)",
+        "content": "",
+        "children": [
+          {
+            "level": 3,
+            "heading": "彼 (kare) - He",
+            "content": "彼は学生です \"He is a student\" Also means \"boyfriend\" Context dependent"
+          },
+          {
+            "level": 3,
+            "heading": "彼女 (kanojo) - She",
+            "content": "彼女は先生です \"She is a teacher\" Also means \"girlfriend\" Context important"
+          },
+          {
+            "level": 3,
+            "heading": "あの人 (ano hito) - That person",
+            "content": "あの人は誰ですか \"Who is that person?\" Neutral Polite Gender-neutral"
+          },
+          {
+            "level": 3,
+            "heading": "この人/その人 (kono hito/sono hito)",
+            "content": "この人は友達です \"This person is my friend\" Demonstrative + person Depends on distance"
+          },
+          {
+            "level": 3,
+            "heading": "彼ら/彼女ら (karera/kanojora) - They",
+            "content": "彼らは学生です \"They are students\" (male/mixed) 彼女らは学生です \"They are students\" (all female) Plural forms"
+          }
+        ]
+      },
+      {
+        "level": 2,
+        "heading": "Plural Forms",
+        "content": "",
+        "children": [
+          {
+            "level": 3,
+            "heading": "Adding たち/ら",
+            "content": "私たち \"we\" あなたたち \"you (plural)\" 彼ら \"they\" (male/mixed) 子供たち \"children\" たち: more formal ら: more casual"
+          }
+        ]
+      },
+      {
+        "level": 2,
+        "heading": "Formality Levels",
+        "content": "",
+        "children": [
+          {
+            "level": 3,
+            "heading": "Formal situations",
+            "content": "私 (watashi) あなた (use sparingly) 彼/彼女 私たち Business, strangers Official contexts"
+          },
+          {
+            "level": 3,
+            "heading": "Casual situations",
+            "content": "僕/俺 (male) あたし (female) 君/お前 僕ら/俺ら Friends, family Informal settings"
+          }
+        ]
+      },
+      {
+        "level": 2,
+        "heading": "When to Omit Pronouns",
+        "content": "",
+        "children": [
+          {
+            "level": 3,
+            "heading": "Clear from context",
+            "content": "学生です \"(I) am a student\" 行く？ \"(Do you) go?\" Topic established Understood subject"
+          },
+          {
+            "level": 3,
+            "heading": "Avoiding \"you\"",
+            "content": "Instead: お名前は？ \"Your name is...?\" Not: あなたの名前は？ \"Your name is...?\" More polite without あなた"
+          }
+        ]
+      },
+      {
+        "level": 2,
+        "heading": "Gender and Pronouns",
+        "content": "",
+        "children": [
+          {
+            "level": 3,
+            "heading": "Male-associated",
+            "content": "僕 (casual-polite) 俺 (very casual) 君 (to others) お前 (rough) Primarily male speakers"
+          },
+          {
+            "level": 3,
+            "heading": "Female-associated",
+            "content": "あたし (casual) 私 (neutral, anyone) Women use 私 most あたし more feminine/young"
+          },
+          {
+            "level": 3,
+            "heading": "Neutral",
+            "content": "私 (anyone) あなた (formal) あの人 (that person) No gender restriction"
+          }
+        ]
+      },
+      {
+        "level": 2,
+        "heading": "Common Mistakes",
+        "content": "",
+        "children": [
+          {
+            "level": 3,
+            "heading": "Overusing pronouns",
+            "content": "Unnatural: 私は家に帰る。私は疲れた。⚠️ Natural: 家に帰る。疲れた。✓ \"(I)'ll go home. (I)'m tired.\" Omit when clear"
+          },
+          {
+            "level": 3,
+            "heading": "Using あなた too much",
+            "content": "Avoid: あなたは何が好き？⚠️ Better: 何が好き？✓ Or: 田中さんは何が好き？✓ \"What do you like?\" Use name instead"
+          },
+          {
+            "level": 3,
+            "heading": "Wrong formality level",
+            "content": "To boss: 俺は行きます ⚠️ Correct: 私は行きます ✓ \"I will go\" Match situation"
+          }
+        ]
+      },
+      {
+        "level": 2,
+        "heading": "Name as Pronoun",
+        "content": "",
+        "children": [
+          {
+            "level": 3,
+            "heading": "Using own name (children/cute)",
+            "content": "マリは嬉しい \"Mari is happy\" (saying \"I'm happy\") Children commonly Some women (cute speech) Self-reference"
+          }
+        ]
+      },
+      {
+        "level": 2,
+        "heading": "Regional and Group Speech",
+        "content": "",
+        "children": [
+          {
+            "level": 3,
+            "heading": "Special pronouns",
+            "content": "わし (older men, dialect) うち (Kansai: I) 自分 (jibun: various meanings) Regional variations Group-specific"
+          }
+        ]
+      },
+      {
+        "level": 2,
+        "heading": "Professional Contexts",
+        "content": "",
+        "children": [
+          {
+            "level": 3,
+            "heading": "Workplace",
+            "content": "私 - standard 弊社 - our company (humble) 御社 - your company (respectful) 当社 - our company (neutral) Business formality"
+          }
+        ]
+      },
+      {
+        "level": 2,
+        "heading": "Practice Sentences",
+        "content": "",
+        "children": [
+          {
+            "level": 3,
+            "heading": "Basic",
+            "content": "私は学生です \"I am a student\" 彼は先生です \"He is a teacher\" 私たちは日本人です \"We are Japanese\" あの人は誰ですか \"Who is that person?\""
+          },
+          {
+            "level": 3,
+            "heading": "Intermediate",
+            "content": "私は毎日日本語を勉強しています。 友達も一緒に勉強しています。 彼らはとても真面目です。 \"I study Japanese every day. My friends also study together. They are very serious.\" 昨日、映画を見た。とても 面白かった。友達も気に入った みたいだ。 \"(I) watched a movie yesterday. (It) was very interesting. (My) friend seemed to like it too.\" 田中さんは今日来ますか。 彼はいつも時間通りです。 \"Will Tanaka come today? He is always on time.\""
+          },
+          {
+            "level": 3,
+            "heading": "Company",
+            "content": "About Pricing Blog Contact"
+          },
+          {
+            "level": 3,
+            "heading": "Legal",
+            "content": "Privacy Policy Terms of Service Cookie Policy"
+          }
+        ]
+      }
+    ],
+    "metadata": {
+      "title": "Personal Pronouns"
+    },
+    "examples": [
+      {
+        "sentence": "About"
+      },
+      {
+        "sentence": "Pricing"
+      },
+      {
+        "sentence": "Blog"
+      },
+      {
+        "sentence": "Contact"
+      },
+      {
+        "sentence": "Privacy Policy"
+      },
+      {
+        "sentence": "Terms of Service"
+      },
+      {
+        "sentence": "Cookie Policy"
+      }
+    ]
+  },
+  "metadata": {
+    "extracted_at": "2026-01-01T22:19:33.635719400Z",
+    "duration_ms": 3,
+    "extractors_matched": [
+      "metadata",
+      "examples",
+      "sections"
+    ],
+    "extractors_failed": [
+      "vocab_tables",
+      "definitions",
+      "content_blocks"
+    ]
+  }
+}

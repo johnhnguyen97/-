@@ -1,0 +1,141 @@
+{
+  "config_name": "Language Learning Extractor",
+  "url": "https://practice-japanese.com/docs/particle-ga/",
+  "data": {
+    "examples": [
+      {
+        "sentence": "は (wa) - Topic Marker"
+      },
+      {
+        "sentence": "は vs が Explained"
+      },
+      {
+        "sentence": "Topic vs Subject"
+      },
+      {
+        "sentence": "About"
+      },
+      {
+        "sentence": "Pricing"
+      },
+      {
+        "sentence": "Blog"
+      },
+      {
+        "sentence": "Contact"
+      },
+      {
+        "sentence": "Privacy Policy"
+      },
+      {
+        "sentence": "Terms of Service"
+      },
+      {
+        "sentence": "Cookie Policy"
+      }
+    ],
+    "metadata": {
+      "title": "が (ga) - Subject Marker"
+    },
+    "sections": [
+      {
+        "level": 2,
+        "heading": "Core Function",
+        "content": "が marks the subject - who/what performs the action or has the state.\n\n雨が降る ame ga furu \"Rain falls\" (rain is the subject)"
+      },
+      {
+        "level": 2,
+        "heading": "Main Uses",
+        "content": "",
+        "children": [
+          {
+            "level": 3,
+            "heading": "1. New Information",
+            "content": "Answering \"who\" or \"what\":\n\nQ: 誰が来ますか？ \"Who is coming?\" A: 田中さんが来ます \"Tanaka is coming\""
+          },
+          {
+            "level": 3,
+            "heading": "2. Existence (ある/いる)",
+            "content": "Always use が with existence verbs:\n\n机の上に本があります \"There is a book on the desk\" 部屋に猫がいます \"There is a cat in the room\""
+          },
+          {
+            "level": 3,
+            "heading": "3. Desires, Abilities, Preferences",
+            "content": "Fixed patterns that require が:\n\n水が欲しい - \"want water\" 日本語ができる - \"can speak Japanese\" 寿司が好き - \"like sushi\" 意味がわかる - \"understand the meaning\""
+          },
+          {
+            "level": 3,
+            "heading": "4. Emphasis",
+            "content": "Stressing who/what specifically:\n\n私が作りました \"I made it\" (emphasis: I did it, not someone else) これが好きです \"This is what I like\" (not that)"
+          },
+          {
+            "level": 3,
+            "heading": "5. Subordinate Clauses",
+            "content": "Use が in relative clauses:\n\n私が買った本 \"the book that I bought\" 彼が住んでいる家 \"the house where he lives\""
+          }
+        ]
+      },
+      {
+        "level": 2,
+        "heading": "が vs は",
+        "content": "| が (ga) | は (wa) | | ---------------- | ----------------- | | New information | Known/topic | | Answers who/what | Sets context | | Emphasis | Contrast | | Existence | General statement |\n\n猫が好きです \"I like cats\" (what I like) 猫は好きです \"Cats, I like (but maybe not dogs)\"\n\nSee: は vs が Explained"
+      },
+      {
+        "level": 2,
+        "heading": "Mandatory が Patterns",
+        "content": "Some expressions always use が:\n\n〜が欲しい (want) 〜が好き/嫌い (like/dislike) 〜ができる (can do) 〜がわかる (understand) 〜がある/いる (exist) 〜が見える/聞こえる (can see/hear)"
+      },
+      {
+        "level": 2,
+        "heading": "Double Particle Sentences",
+        "content": "Both は and が in one sentence:\n\n私は猫が好きです watashi wa neko ga suki desu \"I (topic) like cats (object of liking)\" 象は鼻が長い \"Elephants have long trunks\" (Topic: elephants, Subject: trunks)"
+      },
+      {
+        "level": 2,
+        "heading": "Subordinate Clauses",
+        "content": "が marks subjects in dependent clauses:\n\n雨が降ったので、家にいました \"Because rain fell, I stayed home\" 彼が言ったことは正しい \"What he said is correct\""
+      },
+      {
+        "level": 2,
+        "heading": "Question Words",
+        "content": "Question words typically use が:\n\n誰が来ましたか？ - \"Who came?\" 何が起きましたか？ - \"What happened?\" どれがいいですか？ - \"Which is good?\""
+      },
+      {
+        "level": 2,
+        "heading": "Emphasis Contrast",
+        "content": "私は行きます - \"I will go\" (neutral) 私が行きます - \"I will go\" (I, not others) 本を読みます - \"read a book\" (neutral) 本が読めます - \"can read\" (ability focus)"
+      },
+      {
+        "level": 2,
+        "heading": "Key Takeaways",
+        "content": "✓ Marks the grammatical subject ✓ New information/answers ✓ Always with ある/いる ✓ Required with 好き/できる/欲しい ✓ Emphasis on who/what ✓ In subordinate clauses\n\nRelated:\n\nは (wa) - Topic Marker は vs が Explained Topic vs Subject",
+        "children": [
+          {
+            "level": 3,
+            "heading": "Company",
+            "content": "About Pricing Blog Contact"
+          },
+          {
+            "level": 3,
+            "heading": "Legal",
+            "content": "Privacy Policy Terms of Service Cookie Policy"
+          }
+        ]
+      }
+    ]
+  },
+  "metadata": {
+    "extracted_at": "2026-01-01T22:19:33.363249300Z",
+    "duration_ms": 3,
+    "extractors_matched": [
+      "metadata",
+      "examples",
+      "sections"
+    ],
+    "extractors_failed": [
+      "vocab_tables",
+      "definitions",
+      "content_blocks"
+    ]
+  }
+}

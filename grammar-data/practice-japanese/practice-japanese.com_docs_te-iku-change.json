@@ -1,0 +1,281 @@
+{
+  "config_name": "Language Learning Extractor",
+  "url": "https://practice-japanese.com/docs/te-iku-change/",
+  "data": {
+    "examples": [
+      {
+        "sentence": "ていく expresses change or action away from present/into future"
+      },
+      {
+        "sentence": "Formation: [Verb て-form] + いく"
+      },
+      {
+        "sentence": "Indicates gradual development going forward"
+      },
+      {
+        "sentence": "Common with: なっていく (will become), 変わっていく (will change)"
+      },
+      {
+        "sentence": "For future changes: 暑くなっていく \"it will get hot\""
+      },
+      {
+        "sentence": "For continuing: 頑張っていく \"keep trying\""
+      },
+      {
+        "sentence": "For departure: 走っていく \"run away\""
+      },
+      {
+        "sentence": "Direction: from present (now →)"
+      },
+      {
+        "sentence": "Opposite: てくる (toward present, ← now)"
+      },
+      {
+        "sentence": "Essential for describing ongoing and future changes"
+      },
+      {
+        "sentence": "About"
+      },
+      {
+        "sentence": "Pricing"
+      },
+      {
+        "sentence": "Blog"
+      },
+      {
+        "sentence": "Contact"
+      },
+      {
+        "sentence": "Privacy Policy"
+      },
+      {
+        "sentence": "Terms of Service"
+      },
+      {
+        "sentence": "Cookie Policy"
+      }
+    ],
+    "metadata": {
+      "title": "〜ていく (Gradually)"
+    },
+    "sections": [
+      {
+        "level": 2,
+        "heading": "What is 〜ていく?",
+        "content": "〜ていく (te iku) expresses a change or action that moves away from the speaker or continues from the present into the future. It indicates gradual development going forward or an action moving away from the current moment.\n\nEnglish equivalent: \"will (gradually),\" \"go on (doing),\" \"continue to (do)\"\n\nStructure: [Verb て-form] + いく\n\n変わる (kawaru - change) → 変わって + いく = 変わっていく \"will change\" / \"go on changing\" 増える (fueru - increase) → 増えて + いく = 増えていく \"will increase\" / \"keep increasing\" 暑い (atsui - hot) → 暑くなって + いく = 暑くなっていく \"will get hot\" (from now)"
+      },
+      {
+        "level": 2,
+        "heading": "Basic Formation",
+        "content": "",
+        "children": [
+          {
+            "level": 3,
+            "heading": "With verbs",
+            "content": "[Verb て-form] + いく\n\n変わっていく (kawatte iku) - \"will change\" 増えていく (fuete iku) - \"will increase\" 減っていく (hette iku) - \"will decrease\" 続けていく (tsuzukete iku) - \"will continue\""
+          }
+        ]
+      },
+      {
+        "level": 2,
+        "heading": "Gradual Change Into Future",
+        "content": "",
+        "children": [
+          {
+            "level": 3,
+            "heading": "Progressive development forward",
+            "content": "これから暑くなっていく。 Kore kara atsuku natte iku. \"It will get hot from now on.\" 人口が増えていく。 Jinkou ga fuete iku. \"The population will increase.\" 時代が変わっていく。 Jidai ga kawatte iku. \"The times will change.\" 忘れていく。 Wasurete iku. \"Will gradually forget.\""
+          },
+          {
+            "level": 3,
+            "heading": "Ongoing into future",
+            "content": "これから頑張っていく。 Kore kara ganbatte iku. \"I'll do my best from now on.\" 勉強を続けていく。 Benkyou wo tsuzukete iku. \"I'll continue studying.\" 成長していく。 Seichou shite iku. \"Will grow\" / \"Will develop\""
+          }
+        ]
+      },
+      {
+        "level": 2,
+        "heading": "Movement Away From Speaker",
+        "content": "",
+        "children": [
+          {
+            "level": 3,
+            "heading": "Physical departure",
+            "content": "バスが走っていく。 Basu ga hashitte iku. \"The bus goes away.\" 友達が帰っていった。 Tomodachi ga kaette itta. \"My friend went home (away).\" 鳥が飛んでいく。 Tori ga tonde iku. \"The bird flies away.\" 船が出ていった。 Fune ga dete itta. \"The ship departed.\""
+          }
+        ]
+      },
+      {
+        "level": 2,
+        "heading": "Continuing Actions",
+        "content": "",
+        "children": [
+          {
+            "level": 3,
+            "heading": "Ongoing from now",
+            "content": "これからも頑張っていきます。 Kore kara mo ganbatte ikimasu. \"I'll keep doing my best from now on too.\" 日本語を勉強していく。 Nihongo wo benkyou shite iku. \"I'll continue studying Japanese.\" 働いていく。 Hataraite iku. \"Will keep working.\" 生きていく。 Ikite iku. \"Will go on living.\""
+          }
+        ]
+      },
+      {
+        "level": 2,
+        "heading": "Future Changes",
+        "content": "",
+        "children": [
+          {
+            "level": 3,
+            "heading": "Predictions and forecasts",
+            "content": "これから寒くなっていく。 Kore kara samuku natte iku. \"It will get cold from now.\" だんだん難しくなっていく。 Dandan muzukashiku natte iku. \"It will gradually get difficult.\" 世界が変わっていく。 Sekai ga kawatte iku. \"The world will change.\" 技術が進んでいく。 Gijutsu ga susunde iku. \"Technology will advance.\""
+          }
+        ]
+      },
+      {
+        "level": 2,
+        "heading": "With Change Verbs",
+        "content": "",
+        "children": [
+          {
+            "level": 3,
+            "heading": "なる/する + ていく",
+            "content": "暑くなっていく (atsuku natte iku) - \"will get hot\" 寒くなっていく (samuku natte iku) - \"will get cold\" 大きくなっていく (ookiku natte iku) - \"will grow bigger\" きれいになっていく (kirei ni natte iku) - \"will become beautiful\" 子供が大きくなっていく。 Kodomo ga ookiku natte iku. \"The child will grow up.\" 街がきれいになっていく。 Machi ga kirei ni natte iku. \"The town will become beautiful.\""
+          }
+        ]
+      },
+      {
+        "level": 2,
+        "heading": "Gradual Disappearance",
+        "content": "",
+        "children": [
+          {
+            "level": 3,
+            "heading": "Fading away",
+            "content": "記憶が薄れていく。 Kioku ga usure te iku. \"Memories will fade.\" 音が消えていった。 Oto ga kiete itta. \"The sound disappeared.\" 姿が見えなくなっていった。 Sugata ga mienaku natte itta. \"The figure became invisible (going away).\""
+          }
+        ]
+      },
+      {
+        "level": 2,
+        "heading": "Weather and Seasons",
+        "content": "",
+        "children": [
+          {
+            "level": 3,
+            "heading": "Natural progression",
+            "content": "これから暑くなっていく。 Kore kara atsuku natte iku. \"It will get hot from now.\" 日が短くなっていく。 Hi ga mijikaku natte iku. \"The days will get shorter.\" 秋になっていく。 Aki ni natte iku. \"It will become autumn.\" だんだん春になっていく。 Dandan haru ni natte iku. \"It will gradually become spring.\""
+          }
+        ]
+      },
+      {
+        "level": 2,
+        "heading": "Determination and Resolve",
+        "content": "",
+        "children": [
+          {
+            "level": 3,
+            "heading": "Commitment going forward",
+            "content": "頑張っていく。 Ganbatte iku. \"I'll keep trying my best.\" 努力していく。 Doryoku shite iku. \"I'll continue making efforts.\" 諦めないで続けていく。 Akiramenai de tsuzukete iku. \"I'll keep going without giving up.\" これからも応援していく。 Kore kara mo ouen shite iku. \"I'll keep supporting (you) from now on.\""
+          }
+        ]
+      },
+      {
+        "level": 2,
+        "heading": "Tense Variations",
+        "content": "変わっていく (kawatte iku) - \"will change\" 変わっていった (kawatte itta) - \"changed (going away)\" 変わっていっている (kawatte itte iru) - \"is changing (ongoing)\" 少しずつ変わっていっている。 Sukoshi zutsu kawatte itte iru. \"It's gradually changing.\""
+      },
+      {
+        "level": 2,
+        "heading": "Polite Forms",
+        "content": "Casual: 頑張っていく Polite: 頑張っていきます Past polite: 頑張っていきました これから頑張っていきます。 Kore kara ganbatte ikimasu. \"I'll do my best from now on.\" 時代が変わっていきました。 Jidai ga kawatte ikimashita. \"The era changed.\""
+      },
+      {
+        "level": 2,
+        "heading": "With Time Expressions",
+        "content": "",
+        "children": [
+          {
+            "level": 3,
+            "heading": "Temporal markers",
+            "content": "これから (kore kara) - \"from now on\" だんだん (dandan) - \"gradually\" 少しずつ (sukoshi zutsu) - \"little by little\" これからも (kore kara mo) - \"from now on too\" これから暑くなっていく。 Kore kara atsuku natte iku. \"It will get hot from now on.\" だんだん分かっていく。 Dandan wakatte iku. \"Will gradually understand.\""
+          }
+        ]
+      },
+      {
+        "level": 2,
+        "heading": "Comparing ていく and てくる",
+        "content": "",
+        "children": [
+          {
+            "level": 3,
+            "heading": "Direction of change",
+            "content": "ていく - Away from present/into future:\n\n暑くなっていく (atsuku natte iku) \"It will get hot\" (from now on) 忘れていく (wasurete iku) \"Will forget\" (going forward)\n\nてくる - Toward present/speaker:\n\n暑くなってくる (atsuku natte kuru) \"It's getting hot\" (up until now) 分かってきた (wakatte kita) \"Came to understand\" (toward present)\n\n| Pattern | Direction | Focus | | ------- | --------- | ------------ | | ていく | present → | From now on | | てくる | → present | Up until now |\n\nSee: 〜てくる (Come to)"
+          }
+        ]
+      },
+      {
+        "level": 2,
+        "heading": "Common Expressions",
+        "content": "",
+        "children": [
+          {
+            "level": 3,
+            "heading": "Set phrases",
+            "content": "生きていく (ikite iku) - \"go on living\" 頑張っていく (ganbatte iku) - \"keep doing one's best\" 続けていく (tsuzukete iku) - \"continue doing\" 変わっていく (kawatte iku) - \"will change\" 一人で生きていく。 Hitori de ikite iku. \"I'll live on alone.\" この道を進んでいく。 Kono michi wo susunde iku. \"I'll continue on this path.\""
+          }
+        ]
+      },
+      {
+        "level": 2,
+        "heading": "Common Mistakes",
+        "content": "",
+        "children": [
+          {
+            "level": 3,
+            "heading": "Mistake 1: Confusing with てくる",
+            "content": "❌ 暑くなってくる (when talking about future) ✓ 暑くなっていく\n\nUse ていく for changes into the future."
+          },
+          {
+            "level": 3,
+            "heading": "Mistake 2: Wrong て-form",
+            "content": "❌ 変わりていく ✓ 変わっていく\n\nUse correct て-form: 変わる → 変わって"
+          },
+          {
+            "level": 3,
+            "heading": "Mistake 3: Direction confusion",
+            "content": "鳥が飛んでいく = \"bird flies away\" 鳥が飛んでくる = \"bird flies here\"\n\nていく = movement away; てくる = movement toward"
+          }
+        ]
+      },
+      {
+        "level": 2,
+        "heading": "Summary",
+        "content": "Key Points:\n\nていく expresses change or action away from present/into future Formation: [Verb て-form] + いく Indicates gradual development going forward Common with: なっていく (will become), 変わっていく (will change) For future changes: 暑くなっていく \"it will get hot\" For continuing: 頑張っていく \"keep trying\" For departure: 走っていく \"run away\" Direction: from present (now →) Opposite: てくる (toward present, ← now) Essential for describing ongoing and future changes",
+        "children": [
+          {
+            "level": 3,
+            "heading": "Company",
+            "content": "About Pricing Blog Contact"
+          },
+          {
+            "level": 3,
+            "heading": "Legal",
+            "content": "Privacy Policy Terms of Service Cookie Policy"
+          }
+        ]
+      }
+    ]
+  },
+  "metadata": {
+    "extracted_at": "2026-01-01T22:19:35.796744100Z",
+    "duration_ms": 3,
+    "extractors_matched": [
+      "metadata",
+      "examples",
+      "sections"
+    ],
+    "extractors_failed": [
+      "vocab_tables",
+      "definitions",
+      "content_blocks"
+    ]
+  }
+}

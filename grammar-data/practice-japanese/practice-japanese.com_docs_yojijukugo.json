@@ -1,0 +1,205 @@
+{
+  "config_name": "Language Learning Extractor",
+  "url": "https://practice-japanese.com/docs/yojijukugo/",
+  "data": {
+    "sections": [
+      {
+        "level": 2,
+        "heading": "Four-Character Idioms (四字熟語)",
+        "content": "Four-character idioms (四字熟語 - yojijukugo) are compact expressions made of four kanji characters. Most originated from Chinese classics, conveying complex concepts concisely. They're used in writing, speeches, and formal contexts to express ideas elegantly.\n\n四字熟語 = Four-character idiom Always exactly 4 kanji Often Chinese origin Compact meaning More literary/formal Shows education Cultural knowledge"
+      },
+      {
+        "level": 2,
+        "heading": "Popular Yojijukugo",
+        "content": "",
+        "children": [
+          {
+            "level": 3,
+            "heading": "Self-improvement",
+            "content": "一生懸命 (いっしょうけんめい) \"With all one's might\" Meaning: Doing your absolute best Use: Very common, describing effort Example: 一生懸命頑張る \"try with all one's might\"\n\n自画自賛 (じがじさん) \"Self-praise\" Meaning: Praising yourself, tooting your own horn Use: Usually negative connotation Cultural note: Humility valued in Japan\n\n試行錯誤 (しこうさくご) \"Trial and error\" Meaning: Learning through experimentation Use: Common in modern Japanese Practical approach"
+          },
+          {
+            "level": 3,
+            "heading": "Determination",
+            "content": "不撓不屈 (ふとうふくつ) \"Unbending, unyielding\" Meaning: Indomitable spirit, never giving up Use: Describing strong determination Formal/literary\n\n初志貫徹 (しょしかんてつ) \"Carry out initial intention\" Meaning: Achieving your original goal Use: New Year's resolutions, life goals Encouraging perseverance\n\n七転八起 (しちてんはっき) \"Fall seven times, rise eight\" Meaning: Never give up despite setbacks Use: Encouraging resilience Popular motivational phrase"
+          },
+          {
+            "level": 3,
+            "heading": "Nature and Change",
+            "content": "春夏秋冬 (しゅんかしゅうとう) \"Spring, summer, autumn, winter\" Meaning: The four seasons, passage of time Use: Describing full cycle, completeness Cultural importance: Seasons in Japan\n\n花鳥風月 (かちょうふうげつ) \"Flowers, birds, wind, moon\" Meaning: Natural beauty, elegance Use: Appreciating nature's aesthetics Traditional Japanese aesthetic\n\n朝令暮改 (ちょうれいぼかい) \"Morning order, evening change\" Meaning: Constantly changing policies Use: Criticizing inconsistency Negative connotation"
+          },
+          {
+            "level": 3,
+            "heading": "Human Relations",
+            "content": "一期一会 (いちごいちえ) \"One time, one meeting\" Meaning: Treasure each encounter as once-in-lifetime Use: Famous tea ceremony concept Cultural importance: Mindfulness, appreciation Origin: Zen Buddhism\n\n以心伝心 (いしんでんしん) \"Mind-to-mind transmission\" Meaning: Telepathy, understanding without words Use: Close relationships, intuitive understanding Cultural value: Implicit communication\n\n十人十色 (じゅうにんといろ) \"Ten people, ten colors\" Meaning: Everyone is different Use: Accepting diversity Same as proverb version"
+          },
+          {
+            "level": 3,
+            "heading": "Success and Achievement",
+            "content": "一石二鳥 (いっせきにちょう) \"One stone, two birds\" Meaning: Killing two birds with one stone Use: Same as English idiom Common expression\n\n臥薪嘗胆 (がしんしょうたん) \"Sleep on brushwood, taste gall\" Meaning: Enduring hardship to achieve goal Use: Describing sacrifice for success Chinese historical origin Literary/formal"
+          },
+          {
+            "level": 3,
+            "heading": "Wisdom and Knowledge",
+            "content": "温故知新 (おんこちしん) \"Review old, know new\" Meaning: Learning from the past Use: Value of tradition and history Educational context Confucian concept\n\n博学多才 (はくがくたさい) \"Broad learning, many talents\" Meaning: Well-educated and multi-talented Use: Complimenting someone's abilities"
+          },
+          {
+            "level": 3,
+            "heading": "Contradiction and Paradox",
+            "content": "自業自得 (じごうじとく) \"One's own deed, one's own gain\" Meaning: You reap what you sow Use: Usually for negative consequences Karma concept\n\n自問自答 (じもんじとう) \"Self-question, self-answer\" Meaning: Questioning and answering yourself Use: Internal dialogue, reflection Common modern usage\n\n矛盾 (むじゅん) \"Spear and shield\" Meaning: Contradiction Use: Very common word Origin: Chinese story of strongest spear vs strongest shield"
+          },
+          {
+            "level": 3,
+            "heading": "Unity and Cooperation",
+            "content": "一心同体 (いっしんどうたい) \"One heart, same body\" Meaning: Perfect unity, being of one mind Use: Teams, close relationships Strong bond\n\n和気藹々 (わきあいあい) \"Harmonious atmosphere\" Meaning: Friendly, harmonious mood Use: Describing pleasant group dynamics Cultural value: Harmony (和)"
+          },
+          {
+            "level": 3,
+            "heading": "Time and Opportunity",
+            "content": "一朝一夕 (いっちょういっせき) \"One morning, one evening\" Meaning: Can't be done overnight Use: Usually in negative (できない) Example: 一朝一夕にはできない \"can't be done in a day\"\n\n千載一遇 (せんざいいちぐう) \"Once in a thousand years\" Meaning: Once-in-a-lifetime opportunity Use: Rare, precious chances Formal expression"
+          },
+          {
+            "level": 3,
+            "heading": "Extremes",
+            "content": "一喜一憂 (いっきいちゆう) \"One joy, one sorrow\" Meaning: Alternating between joy and sorrow Use: Being too emotional about ups and downs Usually advised against\n\n危機一髪 (ききいっぱつ) \"Crisis, one hair\" Meaning: Close call, narrow escape Use: Barely avoided disaster Common in news, stories"
+          }
+        ]
+      },
+      {
+        "level": 2,
+        "heading": "Modern Yojijukugo",
+        "content": "",
+        "children": [
+          {
+            "level": 3,
+            "heading": "Contemporary creations",
+            "content": "弱肉強食 (じゃくにくきょうしょく) \"Weak meat, strong eat\" Meaning: Survival of the fittest Use: Competitive society Modern concept\n\n質実剛健 (しつじつごうけん) \"Sincere, simple, sturdy, healthy\" Meaning: Practical and sturdy character Use: Praising solid character Traditional values"
+          }
+        ]
+      },
+      {
+        "level": 2,
+        "heading": "Usage Context",
+        "content": "",
+        "children": [
+          {
+            "level": 3,
+            "heading": "When to use",
+            "content": "✓ Formal writing ✓ Speeches ✓ Essays ✓ Newspaper headlines ✓ Showing education ❌ Casual conversation (usually) ❌ With beginners ❌ When simpler words work Shows sophistication But don't overuse"
+          },
+          {
+            "level": 3,
+            "heading": "Common patterns",
+            "content": "Many have similar structure: - Opposite pairs: 一喜一憂 - Numbers: 一石二鳥, 七転八起 - Natural elements: 花鳥風月 - Repeated characters: 自画自賛 Patterns help memorization"
+          }
+        ]
+      },
+      {
+        "level": 2,
+        "heading": "Learning Strategy",
+        "content": "",
+        "children": [
+          {
+            "level": 3,
+            "heading": "Start with common ones",
+            "content": "Most useful for learners: - 一生懸命 (very common) - 一石二鳥 (useful concept) - 一期一会 (culturally important) - 試行錯誤 (practical) - 十人十色 (accepting differences) Learn gradually Focus on frequency Understand cultural context"
+          },
+          {
+            "level": 3,
+            "heading": "Reading vs Using",
+            "content": "Recognition easier than production Know many passively Use few actively Start by recognizing Gradually use appropriate ones Don't force it"
+          }
+        ]
+      },
+      {
+        "level": 2,
+        "heading": "Cultural Significance",
+        "content": "",
+        "children": [
+          {
+            "level": 3,
+            "heading": "Why they matter",
+            "content": "Show education level Chinese classics knowledge Cultural literacy Elegant expression In business cards Company mottos Personal philosophy Part of educated speech"
+          },
+          {
+            "level": 3,
+            "heading": "Chinese influence",
+            "content": "Most from Chinese classics: - Confucian texts - Historical stories - Buddhist teachings - Ancient wisdom Understanding origin helps meaning Cultural connection China-Japan"
+          }
+        ]
+      },
+      {
+        "level": 2,
+        "heading": "Common Mistakes",
+        "content": "❌ Using in wrong context Each has specific nuance ❌ Overusing in casual talk Sounds pompous ❌ Wrong reading Many have special readings ❌ Creating your own These are set expressions Learn established ones Use appropriately"
+      },
+      {
+        "level": 2,
+        "heading": "Quick Reference",
+        "content": "Effort: 一生懸命 Perseverance: 七転八起 Opportunity: 一石二鳥 Uniqueness: 十人十色 Unity: 一期一会 Contradiction: 矛盾 Change: 試行錯誤 Start with these seven Build from there Context is key"
+      },
+      {
+        "level": 2,
+        "heading": "In Modern Japanese",
+        "content": "",
+        "children": [
+          {
+            "level": 3,
+            "heading": "Still relevant",
+            "content": "Some very common: 一生懸命, 一石二鳥, 試行錯誤 Others more literary: 臥薪嘗胆, 不撓不屈 Know which are practical Which are classical Balance knowledge"
+          },
+          {
+            "level": 3,
+            "heading": "Company",
+            "content": "About Pricing Blog Contact"
+          },
+          {
+            "level": 3,
+            "heading": "Legal",
+            "content": "Privacy Policy Terms of Service Cookie Policy"
+          }
+        ]
+      }
+    ],
+    "metadata": {
+      "title": "Four-Character Idioms (四字熟語)"
+    },
+    "examples": [
+      {
+        "sentence": "About"
+      },
+      {
+        "sentence": "Pricing"
+      },
+      {
+        "sentence": "Blog"
+      },
+      {
+        "sentence": "Contact"
+      },
+      {
+        "sentence": "Privacy Policy"
+      },
+      {
+        "sentence": "Terms of Service"
+      },
+      {
+        "sentence": "Cookie Policy"
+      }
+    ]
+  },
+  "metadata": {
+    "extracted_at": "2026-01-01T22:19:37.918177Z",
+    "duration_ms": 3,
+    "extractors_matched": [
+      "metadata",
+      "examples",
+      "sections"
+    ],
+    "extractors_failed": [
+      "vocab_tables",
+      "definitions",
+      "content_blocks"
+    ]
+  }
+}

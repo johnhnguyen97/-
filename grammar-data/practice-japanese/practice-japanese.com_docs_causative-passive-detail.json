@@ -1,0 +1,392 @@
+{
+  "config_name": "Language Learning Extractor",
+  "url": "https://practice-japanese.com/docs/causative-passive-detail/",
+  "data": {
+    "metadata": {
+      "title": "Causative-Passive"
+    },
+    "sections": [
+      {
+        "level": 2,
+        "heading": "Causative-Passive",
+        "content": "Causative-passive (使役受身 - shieki ukemi) combines causative and passive to express being made to do something . This form emphasizes the speaker as victim of someone else's force or authority.\n\nFormation: Causative + Passive 食べさせる (causative) + られる (passive) = 食べさせられる \"be made to eat\" Victim perspective Being forced Against will"
+      },
+      {
+        "level": 2,
+        "heading": "Formation",
+        "content": "",
+        "children": [
+          {
+            "level": 3,
+            "heading": "Two-step process",
+            "content": "Step 1: Make causative 食べる → 食べさせる Step 2: Make passive of causative 食べさせる → 食べさせられる 読む → 読ませる → 読ませられる 行く → 行かせる → 行かせられる する → させる → させられる Causative first Then passive"
+          }
+        ]
+      },
+      {
+        "level": 2,
+        "heading": "Short Form (Colloquial)",
+        "content": "",
+        "children": [
+          {
+            "level": 3,
+            "heading": "For う-verbs only",
+            "content": "Standard: 読ませられる Short: 読まされる Standard: 行かせられる Short: 行かされる Standard: 書かせられる Short: 書かされる Drop せ from させられる Common in speech More natural sounding Only for う-verbs"
+          }
+        ]
+      },
+      {
+        "level": 2,
+        "heading": "る-Verbs (No Short Form)",
+        "content": "",
+        "children": [
+          {
+            "level": 3,
+            "heading": "Keep full form",
+            "content": "食べさせられる (No short form) 見させられる (No short form) 起きさせられる (No short form) Cannot shorten Must use full form Remember distinction"
+          }
+        ]
+      },
+      {
+        "level": 2,
+        "heading": "Core Meaning",
+        "content": "",
+        "children": [
+          {
+            "level": 3,
+            "heading": "Being forced",
+            "content": "宿題をさせられた \"Was made to do homework\" Implies: Against will Forced by authority No choice 残業させられた \"Was made to work overtime\" Unwilling compliance Victim of authority"
+          }
+        ]
+      },
+      {
+        "level": 2,
+        "heading": "Victim Perspective",
+        "content": "",
+        "children": [
+          {
+            "level": 3,
+            "heading": "Speaker as victim",
+            "content": "親に野菜を食べさせられた \"Was made to eat vegetables by parents\" 先生に掃除をさせられた \"Was made to clean by teacher\" Focus on being forced Speaker didn't want to Authority imposed"
+          }
+        ]
+      },
+      {
+        "level": 2,
+        "heading": "Complaint Function",
+        "content": "",
+        "children": [
+          {
+            "level": 3,
+            "heading": "Expressing grievance",
+            "content": "毎日残業させられる \"Am made to work overtime every day\" 無理やり飲ませられた \"Was forcibly made to drink\" Common in complaints Venting frustration Sharing hardship"
+          }
+        ]
+      },
+      {
+        "level": 2,
+        "heading": "Authority Contexts",
+        "content": "",
+        "children": [
+          {
+            "level": 3,
+            "heading": "Hierarchical situations",
+            "content": "上司に報告書を書かせられた \"Was made to write report by boss\" 親に塾に行かせられた \"Was made to go to cram school by parents\" 先生に宿題をやらせられた \"Was made to do homework by teacher\" Work hierarchies Parent-child Teacher-student"
+          }
+        ]
+      },
+      {
+        "level": 2,
+        "heading": "Unwanted Tasks",
+        "content": "",
+        "children": [
+          {
+            "level": 3,
+            "heading": "Unpleasant duties",
+            "content": "嫌な仕事をさせられた \"Was made to do unpleasant work\" 掃除をさせられた \"Was made to clean\" 待たされた \"Was made to wait\" Negative tasks Unwilling performance Frustration expressed"
+          }
+        ]
+      },
+      {
+        "level": 2,
+        "heading": "With に (Agent)",
+        "content": "",
+        "children": [
+          {
+            "level": 3,
+            "heading": "Who forced you",
+            "content": "親に勉強させられる \"Be made to study by parents\" 会社に残業させられる \"Be made to work overtime by company\" に marks the forcer Agent of causation Who made you do it"
+          }
+        ]
+      },
+      {
+        "level": 2,
+        "heading": "Negative Form",
+        "content": "",
+        "children": [
+          {
+            "level": 3,
+            "heading": "Not being made to",
+            "content": "宿題をさせられなかった \"Wasn't made to do homework\" 行かせられなかった \"Wasn't made to go\" Escaped obligation Avoided being forced Lucky exception"
+          }
+        ]
+      },
+      {
+        "level": 2,
+        "heading": "Past Tense",
+        "content": "",
+        "children": [
+          {
+            "level": 3,
+            "heading": "Was made to",
+            "content": "昨日残業させられた \"Was made to work overtime yesterday\" 子供の時よく勉強させられた \"Was often made to study as a child\" Past forced actions Completed unwilling acts Historical complaints"
+          }
+        ]
+      },
+      {
+        "level": 2,
+        "heading": "てしまう Addition",
+        "content": "",
+        "children": [
+          {
+            "level": 3,
+            "heading": "Regret emphasis",
+            "content": "変な物を食べさせられてしまった \"Ended up being made to eat strange thing\" 無理やり歌わされてしまった \"Ended up being forced to sing\" Double regret Unfortunate completion Emphasized victimhood"
+          }
+        ]
+      },
+      {
+        "level": 2,
+        "heading": "Continuous State",
+        "content": "",
+        "children": [
+          {
+            "level": 3,
+            "heading": "Ongoing force",
+            "content": "毎日残業させられている \"Am being made to work overtime every day\" ずっと待たされている \"Am being made to wait forever\" Current ongoing Continuing victimhood Still being forced"
+          }
+        ]
+      },
+      {
+        "level": 2,
+        "heading": "Physical Actions",
+        "content": "",
+        "children": [
+          {
+            "level": 3,
+            "heading": "Bodily force",
+            "content": "立たされた \"Was made to stand\" 走らされた \"Was made to run\" 座らされた \"Was made to sit\" Physical compliance Body control Often punishment"
+          }
+        ]
+      },
+      {
+        "level": 2,
+        "heading": "Childhood Memories",
+        "content": "",
+        "children": [
+          {
+            "level": 3,
+            "heading": "Common reminiscence",
+            "content": "子供の時、よく勉強させられた \"As a child, was often made to study\" ピアノを習わされた \"Was made to learn piano\" 野菜を食べさせられた \"Was made to eat vegetables\" Childhood experiences Parental authority Common stories"
+          }
+        ]
+      },
+      {
+        "level": 2,
+        "heading": "Work Complaints",
+        "content": "",
+        "children": [
+          {
+            "level": 3,
+            "heading": "Professional grievances",
+            "content": "無理な仕事をさせられる \"Am made to do unreasonable work\" 休日出勤させられた \"Was made to come to work on day off\" 夜遅くまで働かされた \"Was made to work until late at night\" Workplace complaints Authority abuse Common frustrations"
+          }
+        ]
+      },
+      {
+        "level": 2,
+        "heading": "Polite Contexts",
+        "content": "",
+        "children": [
+          {
+            "level": 3,
+            "heading": "Formal complaints",
+            "content": "お客様を待たせてしまい、申し訳ございません \"Apologies for making customer wait\" Even in formal language Causative-passive appears Though softer phrasing"
+          }
+        ]
+      },
+      {
+        "level": 2,
+        "heading": "Short Form Usage",
+        "content": "",
+        "children": [
+          {
+            "level": 3,
+            "heading": "Casual speech",
+            "content": "Standard long: 読ませられた Casual short: 読まされた Standard long: 行かせられた Casual short: 行かされた Standard long: 待たせられた Casual short: 待たされた Shorter = more casual Common in conversation Natural speech Only う-verbs"
+          }
+        ]
+      },
+      {
+        "level": 2,
+        "heading": "Emotional Weight",
+        "content": "",
+        "children": [
+          {
+            "level": 3,
+            "heading": "Feeling forced",
+            "content": "Using causative-passive shows: - Resentment - Unwillingness - Victimhood - Complaint Strong emotional content Not neutral description Implies negative feeling"
+          }
+        ]
+      },
+      {
+        "level": 2,
+        "heading": "Avoiding Responsibility",
+        "content": "",
+        "children": [
+          {
+            "level": 3,
+            "heading": "Not my choice",
+            "content": "させられた implies: \"It wasn't my decision\" \"I had no choice\" \"Authority made me\" \"Not my fault\" Shifts responsibility Away from self Onto authority"
+          }
+        ]
+      },
+      {
+        "level": 2,
+        "heading": "Common Verbs",
+        "content": "",
+        "children": [
+          {
+            "level": 3,
+            "heading": "Frequently used",
+            "content": "待たされる/待たされる \"be made to wait\" 働かされる/働かせられる \"be made to work\" 勉強させられる \"be made to study\" 食べさせられる \"be made to eat\" やらされる/やらせられる \"be made to do\" 行かされる/行かせられる \"be made to go\" 立たされる/立たせられる \"be made to stand\" 書かされる/書かせられる \"be made to write\" Master these patterns Common complaints Daily usage"
+          }
+        ]
+      },
+      {
+        "level": 2,
+        "heading": "Nuance Difference",
+        "content": "",
+        "children": [
+          {
+            "level": 3,
+            "heading": "Causative vs causative-passive",
+            "content": "Causative (active): 親が子供を勉強させる \"Parent makes child study\" Parent's perspective Causative-passive: 子供が親に勉強させられる \"Child is made to study by parent\" Child's (victim's) perspective Different viewpoints Different implications Choose by perspective"
+          }
+        ]
+      },
+      {
+        "level": 2,
+        "heading": "In Questions",
+        "content": "",
+        "children": [
+          {
+            "level": 3,
+            "heading": "Asking about being forced",
+            "content": "何をさせられたの？ \"What were you made to do?\" 誰に行かされたの？ \"Who made you go?\" なぜそんなことをさせられたの？ \"Why were you made to do such a thing?\" Sympathetic questions Understanding situation"
+          }
+        ]
+      },
+      {
+        "level": 2,
+        "heading": "Formal Situations",
+        "content": "",
+        "children": [
+          {
+            "level": 3,
+            "heading": "Professional language",
+            "content": "長時間労働をさせられております \"Am being made to work long hours\" 過重な業務をさせられています \"Am being made to do excessive work\" More formal conjugation Same victim feeling Professional complaints"
+          }
+        ]
+      },
+      {
+        "level": 2,
+        "heading": "Cultural Context",
+        "content": "",
+        "children": [
+          {
+            "level": 3,
+            "heading": "Japanese work culture",
+            "content": "Causative-passive common in: - Work complaints - School memories - Parental authority stories - Service industry Reflects hierarchical society Power dynamics Authority structures"
+          }
+        ]
+      },
+      {
+        "level": 2,
+        "heading": "てもらう Alternative",
+        "content": "",
+        "children": [
+          {
+            "level": 3,
+            "heading": "When not victim",
+            "content": "If willing: ❌ 手伝わされた (sounds unwilling) ✓ 手伝ってもらった \"Had (someone) help me\" If not victim perspective Use different structure てもらう for cooperation"
+          }
+        ]
+      },
+      {
+        "level": 2,
+        "heading": "Common Mistakes",
+        "content": "❌ Using when you wanted to do it Causative-passive implies unwillingness ✓ Only use when forced ❌ Confusing short and long forms ✗ 食べさされる (wrong for る-verb) ✓ Know which verbs can shorten ✓ 食べさせられる (る-verbs stay long) ❌ Wrong particle for agent ✗ 親が勉強させられた ✓ Use に for agent ✓ 親に勉強させられた Victim perspective crucial Implies negative feeling Use appropriately"
+      },
+      {
+        "level": 2,
+        "heading": "Practical Examples",
+        "content": "",
+        "children": [
+          {
+            "level": 3,
+            "heading": "Real-life complaints",
+            "content": "会議で発表させられた \"Was made to present at meeting\" 一晩中勉強させられた \"Was made to study all night\" 嫌いな食べ物を食べさせられた \"Was made to eat food I hate\" 雨の中、外で待たされた \"Was made to wait outside in rain\" 理不尽な仕事をやらされている \"Am being made to do unreasonable work\" 子供の頃、ピアノを習わされた \"Was made to learn piano as a child\" 上司に休日出勤させられた \"Was made to work on holiday by boss\" 無理やり飲まされた \"Was forcibly made to drink\" Daily complaints Work frustrations Childhood memories Unwilling compliance Victim stories Authority grievances Natural expression Common in conversation"
+          },
+          {
+            "level": 3,
+            "heading": "Company",
+            "content": "About Pricing Blog Contact"
+          },
+          {
+            "level": 3,
+            "heading": "Legal",
+            "content": "Privacy Policy Terms of Service Cookie Policy"
+          }
+        ]
+      }
+    ],
+    "examples": [
+      {
+        "sentence": "About"
+      },
+      {
+        "sentence": "Pricing"
+      },
+      {
+        "sentence": "Blog"
+      },
+      {
+        "sentence": "Contact"
+      },
+      {
+        "sentence": "Privacy Policy"
+      },
+      {
+        "sentence": "Terms of Service"
+      },
+      {
+        "sentence": "Cookie Policy"
+      }
+    ]
+  },
+  "metadata": {
+    "extracted_at": "2026-01-01T22:19:28.132400Z",
+    "duration_ms": 3,
+    "extractors_matched": [
+      "metadata",
+      "examples",
+      "sections"
+    ],
+    "extractors_failed": [
+      "vocab_tables",
+      "definitions",
+      "content_blocks"
+    ]
+  }
+}

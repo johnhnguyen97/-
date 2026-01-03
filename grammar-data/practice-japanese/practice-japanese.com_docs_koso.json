@@ -1,0 +1,311 @@
+{
+  "config_name": "Language Learning Extractor",
+  "url": "https://practice-japanese.com/docs/koso/",
+  "data": {
+    "sections": [
+      {
+        "level": 2,
+        "heading": "What is こそ?",
+        "content": "こそ (koso) is a powerful emphasis particle that highlights the preceding word or phrase as the key, essential, or precise element. It's stronger than は or が and adds meaning like \"precisely,\" \"exactly,\" \"none other than,\" or \"it is... that really matters.\"\n\nEnglish equivalents:\n\n\"precisely/exactly\" \"it is... that...\" \"none other than\" \"above all\" \"truly\"\n\nこれこそ答えだ。 Kore koso kotae da. \"This is precisely the answer.\" / \"This is the very answer.\" 今こそチャンスだ。 Ima koso chansu da. \"Now is exactly the right time.\" / \"Now is the chance.\""
+      },
+      {
+        "level": 2,
+        "heading": "Basic Usage",
+        "content": "",
+        "children": [
+          {
+            "level": 3,
+            "heading": "Structure",
+            "content": "こそ replaces or attaches to particles:\n\n[Noun/Phrase] + こそ + [Predicate]\n\nReplacing particles:\n\nは → こそ が → こそ を → こそ\n\nNormal: 君は私の友達だ。 Kimi wa watashi no tomodachi da. \"You are my friend.\" With こそ: 君こそ私の友達だ。 Kimi koso watashi no tomodachi da. \"You are precisely my friend.\" / \"It's you who is my friend.\""
+          },
+          {
+            "level": 3,
+            "heading": "Emphasizing Subject",
+            "content": "彼こそ真犯人だ。 Kare koso shin-hannin da. \"He is precisely the real culprit.\" / \"It's he who is the real culprit.\" これこそ本物です。 Kore koso honmono desu. \"This is precisely the real thing.\" 今こそ行動する時だ。 Ima koso koudou suru toki da. \"Now is exactly the time to act.\""
+          },
+          {
+            "level": 3,
+            "heading": "Emphasizing Object",
+            "content": "この本こそ読むべきだ。 Kono hon koso yomu beki da. \"This book is precisely what you should read.\" 君の意見こそ聞きたい。 Kimi no iken koso kikitai. \"It's your opinion that I want to hear.\""
+          }
+        ]
+      },
+      {
+        "level": 2,
+        "heading": "Common Patterns",
+        "content": "",
+        "children": [
+          {
+            "level": 3,
+            "heading": "〜こそ〜 (Emphatic statements)",
+            "content": "努力こそ成功の鍵だ。 Doryoku koso seikou no kagi da. \"Effort is precisely the key to success.\" 愛こそすべてだ。 Ai koso subete da. \"Love is everything.\" / \"It's love that matters.\" 健康こそ一番大切だ。 Kenkou koso ichiban taisetsu da. \"Health is precisely the most important thing.\""
+          },
+          {
+            "level": 3,
+            "heading": "今こそ (Ima koso) - \"Now is the time\"",
+            "content": "今こそ決断する時だ。 Ima koso ketsudan suru toki da. \"Now is precisely the time to decide.\" 今こそチャンスだ。 Ima koso chansu da. \"Now is exactly our chance.\" 今こそ立ち上がる時だ。 Ima koso tachiagaru toki da. \"Now is the time to stand up.\""
+          },
+          {
+            "level": 3,
+            "heading": "これこそ (Kore koso) - \"This is exactly/precisely\"",
+            "content": "これこそ私が探していたものだ。 Kore koso watashi ga sagashite ita mono da. \"This is precisely what I was looking for.\" これこそ本当の幸せだ。 Kore koso hontou no shiawase da. \"This is true happiness.\" / \"This is happiness itself.\" これこそ答えです。 Kore koso kotae desu. \"This is exactly the answer.\""
+          },
+          {
+            "level": 3,
+            "heading": "あなたこそ (Anata koso) - \"You're the one\" / \"Same to you\"",
+            "content": "Used to return emphasis or compliments:\n\nA: ありがとう。(Arigatou.) \"Thank you.\" B: こちらこそ。(Kochira koso.) \"Thank you (I'm the one who should thank you).\" A: お疲れ様です。(Otsukaresama desu.) \"Good work.\" B: お疲れ様こそ。(Otsukaresama koso.) \"You too.\" A: 頑張ってね。(Ganbatte ne.) \"Good luck.\" B: あなたこそ。(Anata koso.) \"You too.\" / \"Same to you.\""
+          },
+          {
+            "level": 3,
+            "heading": "〜てこそ (Te koso) - \"Only by doing... / It's by doing that...\"",
+            "content": "Emphasizes that only through a certain action can something be achieved:\n\n努力してこそ成功できる。 Doryoku shite koso seikou dekiru. \"Only by making an effort can you succeed.\" 経験してこそ分かる。 Keiken shite koso wakaru. \"You understand only by experiencing it.\" 失敗してこそ学べる。 Shippai shite koso manaberu. \"It's by failing that you can learn.\" やってみてこそ分かる。 Yatte mite koso wakaru. \"You understand only by trying.\""
+          },
+          {
+            "level": 3,
+            "heading": "〜ばこそ (Ba koso) - \"Precisely because...\"",
+            "content": "Emphasizes that something happens precisely because of a condition:\n\n君を信じるからこそ言うんだ。 Kimi wo shinjiru kara koso iun da. \"It's precisely because I trust you that I'm telling you.\" 好きだからこそ厳しくする。 Suki da kara koso kibishiku suru. \"It's precisely because I care that I'm strict.\" 大切だからこそ守りたい。 Taisetsu da kara koso mamoritai. \"It's precisely because it's important that I want to protect it.\""
+          },
+          {
+            "level": 3,
+            "heading": "〜であればこそ (De areba koso) - Formal \"precisely because\"",
+            "content": "More formal version:\n\n友達であればこそ言える。 Tomodachi de areba koso ieru. \"It's precisely because we're friends that I can say this.\" 日本人であればこそ分かる。 Nihonjin de areba koso wakaru. \"It's precisely because one is Japanese that one understands.\""
+          }
+        ]
+      },
+      {
+        "level": 2,
+        "heading": "With Time Expressions",
+        "content": "",
+        "children": [
+          {
+            "level": 3,
+            "heading": "Emphasizing specific times",
+            "content": "今日こそ勝つ！ Kyou koso katsu! \"Today is the day we'll win!\" 明日こそ頑張る。 Ashita koso ganbaru. \"Tomorrow is when I'll really try hard.\" 今年こそ成功する。 Kotoshi koso seikou suru. \"This year I'll definitely succeed.\" 今回こそは失敗しない。 Konkai koso wa shippai shinai. \"This time I definitely won't fail.\""
+          }
+        ]
+      },
+      {
+        "level": 2,
+        "heading": "Particle Combinations",
+        "content": "",
+        "children": [
+          {
+            "level": 3,
+            "heading": "こそ with other particles",
+            "content": "When こそ is used with certain particles:\n\nを → をこそ\n\n君をこそ愛している。 Kimi wo koso aishite iru. \"It's you that I love.\"\n\nに → にこそ\n\nここにこそ答えがある。 Koko ni koso kotae ga aru. \"It's right here that the answer lies.\"\n\nで → でこそ\n\n日本でこそできる経験だ。 Nihon de koso dekiru keiken da. \"It's an experience you can have precisely in Japan.\"\n\nが/は → こそ (replace)\n\n彼こそリーダーだ。 Kare koso ri-da- da. \"He is precisely the leader.\""
+          }
+        ]
+      },
+      {
+        "level": 2,
+        "heading": "Formal and Written Uses",
+        "content": "",
+        "children": [
+          {
+            "level": 3,
+            "heading": "In formal speeches",
+            "content": "皆様のご協力こそが成功の鍵です。 Minasama no gokyouryoku koso ga seikou no kagi desu. \"It is precisely your cooperation that is the key to success.\" 教育こそ国の未来を作る。 Kyouiku koso kuni no mirai wo tsukuru. \"It is education that creates the nation's future.\""
+          },
+          {
+            "level": 3,
+            "heading": "In written language",
+            "content": "平和こそ最も大切なものである。 Heiwa koso mottomo taisetsu na mono de aru. \"Peace is precisely the most important thing.\" 知識こそ力なり。 Chishiki koso chikara nari. \"Knowledge is precisely power.\""
+          }
+        ]
+      },
+      {
+        "level": 2,
+        "heading": "Expressing Strong Determination",
+        "content": "今度こそやり遂げる。 Kondo koso yaritogeru. \"This time I'll definitely accomplish it.\" 今日こそ告白する。 Kyou koso kokuhaku suru. \"Today I'll definitely confess.\" 今こそ変わる時だ。 Ima koso kawaru toki da. \"Now is the time to change.\""
+      },
+      {
+        "level": 2,
+        "heading": "Contrasting with Other Particles",
+        "content": "",
+        "children": [
+          {
+            "level": 3,
+            "heading": "こそ vs は",
+            "content": "は - Topic marker (neutral):\n\nこれは答えだ。 Kore wa kotae da. \"This is the answer.\" [Neutral statement]\n\nこそ - Strong emphasis:\n\nこれこそ答えだ。 Kore koso kotae da. \"This is precisely the answer.\" [Strong emphasis]"
+          },
+          {
+            "level": 3,
+            "heading": "こそ vs が",
+            "content": "が - Subject marker (neutral/contrast):\n\n彼が犯人だ。 Kare ga hannin da. \"He is the culprit.\" [Identifying]\n\nこそ - Emphatic:\n\n彼こそ犯人だ。 Kare koso hannin da. \"He is precisely the culprit.\" [Strong emphasis]"
+          }
+        ]
+      },
+      {
+        "level": 2,
+        "heading": "Responding with こそ",
+        "content": "",
+        "children": [
+          {
+            "level": 3,
+            "heading": "Common responses",
+            "content": "A: ありがとうございました。 Arigatou gozaimashita. \"Thank you very much.\" B: こちらこそ。 Kochira koso. \"No, thank you.\" [I'm the one who should thank you] A: お世話になりました。 Osewa ni narimashita. \"Thank you for taking care of me.\" B: こちらこそお世話になりました。 Kochira koso osewa ni narimashita. \"No, thank you for everything.\""
+          }
+        ]
+      },
+      {
+        "level": 2,
+        "heading": "Emphasis Levels",
+        "content": "From neutral to strongest:\n\nLevel 1: 彼が好きだ (Neutral) \"I like him.\" Level 2: 彼は好きだ (Topic) \"As for him, I like him.\" Level 3: 彼が好きだ (Identifying) \"It's him that I like.\" Level 4: 彼こそ好きだ (Strong emphasis) \"It's precisely him that I like.\""
+      },
+      {
+        "level": 2,
+        "heading": "Literary and Poetic Uses",
+        "content": "こそ appears frequently in classical Japanese and poetry:\n\n春こそ来たれ。 Haru koso kitare. \"Spring has indeed come.\" [Classical/poetic] 君こそ我が命。 Kimi koso waga inochi. \"You are my very life.\" [Poetic]"
+      },
+      {
+        "level": 2,
+        "heading": "Set Phrases",
+        "content": "",
+        "children": [
+          {
+            "level": 3,
+            "heading": "Common fixed expressions",
+            "content": "どういたしまして → こちらこそ \"You're welcome\" → \"No, I should thank you\" お疲れ様です → お疲れ様こそ \"Good work\" → \"You too\" よろしくお願いします → こちらこそよろしく \"Nice to meet you/Please\" → \"Likewise\""
+          }
+        ]
+      },
+      {
+        "level": 2,
+        "heading": "Regional Variations",
+        "content": "While こそ is standard across Japan, some regions use it more frequently:\n\nStandard: 今こそ頑張る Regional emphasis may vary in frequency"
+      },
+      {
+        "level": 2,
+        "heading": "Common Mistakes",
+        "content": "",
+        "children": [
+          {
+            "level": 3,
+            "heading": "Mistake 1: Using こそ Too Frequently",
+            "content": "❌ 私こそ学生こそで、日本語こそ勉強しています ✓ 私は学生で、日本語を勉強しています\n\nDon't overuse こそ - reserve for true emphasis."
+          },
+          {
+            "level": 3,
+            "heading": "Mistake 2: Wrong Particle Combination",
+            "content": "❌ 彼をこそが好きだ ✓ 彼こそが好きだ or 彼をこそ好きだ\n\nBe careful with particle combinations."
+          },
+          {
+            "level": 3,
+            "heading": "Mistake 3: Weak Emphasis Context",
+            "content": "❌ 昨日こそご飯を食べた (unnecessary emphasis) ✓ 昨日ご飯を食べた\n\nUse こそ only when strong emphasis is needed."
+          },
+          {
+            "level": 3,
+            "heading": "Mistake 4: Misunderstanding Scope",
+            "content": "❌ 本こそを読む (incorrect particle order) ✓ 本をこそ読む or 本こそ読む\n\nParticle order matters with こそ."
+          }
+        ]
+      },
+      {
+        "level": 2,
+        "heading": "Summary",
+        "content": "Key Points:\n\nこそ provides strong emphasis (\"precisely,\" \"exactly,\" \"none other than\") Replaces or attaches to particles (は, が, を) Common patterns: 〜てこそ (only by doing), 〜からこそ (precisely because) Used for strong determination: 今度こそ (this time for sure) こちらこそ returns emphasis/compliments Stronger than は or が Don't overuse - reserve for genuine emphasis Essential for expressing strong feelings and determination",
+        "children": [
+          {
+            "level": 3,
+            "heading": "Company",
+            "content": "About Pricing Blog Contact"
+          },
+          {
+            "level": 3,
+            "heading": "Legal",
+            "content": "Privacy Policy Terms of Service Cookie Policy"
+          }
+        ]
+      }
+    ],
+    "metadata": {
+      "title": "こそ (Emphasis particle)"
+    },
+    "examples": [
+      {
+        "sentence": "\"precisely/exactly\""
+      },
+      {
+        "sentence": "\"it is... that...\""
+      },
+      {
+        "sentence": "\"none other than\""
+      },
+      {
+        "sentence": "\"above all\""
+      },
+      {
+        "sentence": "\"truly\""
+      },
+      {
+        "sentence": "は → こそ"
+      },
+      {
+        "sentence": "が → こそ"
+      },
+      {
+        "sentence": "を → こそ"
+      },
+      {
+        "sentence": "こそ provides strong emphasis (\"precisely,\" \"exactly,\" \"none other than\")"
+      },
+      {
+        "sentence": "Replaces or attaches to particles (は, が, を)"
+      },
+      {
+        "sentence": "Common patterns: 〜てこそ (only by doing), 〜からこそ (precisely because)"
+      },
+      {
+        "sentence": "Used for strong determination: 今度こそ (this time for sure)"
+      },
+      {
+        "sentence": "こちらこそ returns emphasis/compliments"
+      },
+      {
+        "sentence": "Stronger than は or が"
+      },
+      {
+        "sentence": "Don't overuse - reserve for genuine emphasis"
+      },
+      {
+        "sentence": "Essential for expressing strong feelings and determination"
+      },
+      {
+        "sentence": "About"
+      },
+      {
+        "sentence": "Pricing"
+      },
+      {
+        "sentence": "Blog"
+      },
+      {
+        "sentence": "Contact"
+      },
+      {
+        "sentence": "Privacy Policy"
+      },
+      {
+        "sentence": "Terms of Service"
+      },
+      {
+        "sentence": "Cookie Policy"
+      }
+    ]
+  },
+  "metadata": {
+    "extracted_at": "2026-01-01T22:19:30.813708800Z",
+    "duration_ms": 3,
+    "extractors_matched": [
+      "metadata",
+      "examples",
+      "sections"
+    ],
+    "extractors_failed": [
+      "vocab_tables",
+      "definitions",
+      "content_blocks"
+    ]
+  }
+}

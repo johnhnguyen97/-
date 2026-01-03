@@ -1,0 +1,328 @@
+{
+  "config_name": "Language Learning Extractor",
+  "url": "https://practice-japanese.com/docs/adjective-past/",
+  "data": {
+    "sections": [
+      {
+        "level": 2,
+        "heading": "Past Tense Overview",
+        "content": "Past tense adjectives describe past states and completed conditions . Both i-adjectives and na-adjectives have past forms.\n\nI-adjective: 高かった - was expensive Na-adjective: 静かだった - was quiet"
+      },
+      {
+        "level": 2,
+        "heading": "I-adjective Past",
+        "content": "",
+        "children": [
+          {
+            "level": 3,
+            "heading": "Plain Form",
+            "content": "Change い to かった\n\n高い → 高かった - was expensive 大きい → 大きかった - was big 美味しい → 美味しかった - was delicious 難しい → 難しかった - was difficult 楽しい → 楽しかった - was fun"
+          },
+          {
+            "level": 3,
+            "heading": "Polite Form",
+            "content": "Add です to かった\n\n高かったです - was expensive (polite) 大きかったです - was big (polite) 美味しかったです - was delicious (polite) 難しかったです - was difficult (polite) 楽しかったです - was fun (polite)"
+          }
+        ]
+      },
+      {
+        "level": 2,
+        "heading": "Na-adjective Past",
+        "content": "",
+        "children": [
+          {
+            "level": 3,
+            "heading": "Plain Form",
+            "content": "Na-adjective + だった\n\n静かだった - was quiet 便利だった - was convenient きれいだった - was beautiful 元気だった - was energetic 有名だった - was famous"
+          },
+          {
+            "level": 3,
+            "heading": "Polite Form",
+            "content": "Na-adjective + でした\n\n静かでした - was quiet (polite) 便利でした - was convenient (polite) きれいでした - was beautiful (polite) 元気でした - was energetic (polite) 有名でした - was famous (polite)"
+          }
+        ]
+      },
+      {
+        "level": 2,
+        "heading": "When to Use Past Tense",
+        "content": "",
+        "children": [
+          {
+            "level": 3,
+            "heading": "1. Describing Past States",
+            "content": "昨日は暑かった \"Yesterday was hot\" その部屋は静かでした \"That room was quiet\" 子供の時、私は元気だった \"When I was a child, I was energetic\""
+          },
+          {
+            "level": 3,
+            "heading": "2. Past Experiences",
+            "content": "その映画は面白かった \"That movie was interesting\" 日本旅行は楽しかったです \"The Japan trip was fun\" 昔この町は有名だった \"This town used to be famous\""
+          },
+          {
+            "level": 3,
+            "heading": "3. Past Conditions",
+            "content": "10年前、この店は安かった \"10 years ago, this store was cheap\" 昔はここは静かでした \"Long ago, this place was quiet\""
+          }
+        ]
+      },
+      {
+        "level": 2,
+        "heading": "Comparison: Present vs Past",
+        "content": "| Type | Present | Past | | ------------- | -------- | ------------ | | I-adj plain | 高い | 高かった | | I-adj polite | 高いです | 高かったです | | Na-adj plain | 静かだ | 静かだった | | Na-adj polite | 静かです | 静かでした |",
+        "children": [
+          {
+            "level": 3,
+            "heading": "Side by Side Examples",
+            "content": "Present: 今日は暑い Past: 昨日は暑かった \"Today is hot\" / \"Yesterday was hot\" Present: この部屋は静かです Past: あの部屋は静かでした \"This room is quiet\" / \"That room was quiet\""
+          }
+        ]
+      },
+      {
+        "level": 2,
+        "heading": "Special Case: いい/よい",
+        "content": "Good conjugates from よい:\n\nPresent: いい / よい Past: よかった (NOT いかった!) Past polite: よかったです 天気がよかった \"The weather was good\" 映画がよかったです \"The movie was good\""
+      },
+      {
+        "level": 2,
+        "heading": "Common Patterns",
+        "content": "",
+        "children": [
+          {
+            "level": 3,
+            "heading": "Describing Past Events",
+            "content": "パーティーは楽しかった \"The party was fun\" 試験は難しかったです \"The exam was difficult\" 昨日の会議は長かった \"Yesterday's meeting was long\""
+          },
+          {
+            "level": 3,
+            "heading": "Describing Past Weather",
+            "content": "昨日は寒かった \"Yesterday was cold\" 先週は暑かったです \"Last week was hot\" 今朝は涼しかった \"This morning was cool\""
+          },
+          {
+            "level": 3,
+            "heading": "Describing Past Places",
+            "content": "その店は静かだった \"That store was quiet\" 東京はにぎやかでした \"Tokyo was lively\" 昔この町は小さかった \"This town used to be small\""
+          },
+          {
+            "level": 3,
+            "heading": "Describing Past Food",
+            "content": "そのラーメンは美味しかった \"That ramen was delicious\" 料理は美味しかったです \"The food was delicious\" ケーキは甘かった \"The cake was sweet\""
+          }
+        ]
+      },
+      {
+        "level": 2,
+        "heading": "Time Expressions",
+        "content": "",
+        "children": [
+          {
+            "level": 3,
+            "heading": "Common Time Words",
+            "content": "昨日 (kinou) - yesterday 今朝 (kesa) - this morning 先週 (senshuu) - last week 去年 (kyonen) - last year 昔 (mukashi) - long ago さっき (sakki) - just now 先月 (sengetsu) - last month 子供の時 (kodomo no toki) - when (I) was a child"
+          },
+          {
+            "level": 3,
+            "heading": "Examples",
+            "content": "昨日は暑かった \"Yesterday was hot\" 先週は忙しかったです \"Last week was busy\" 去年の夏は楽しかった \"Last summer was fun\" 子供の時は元気だった \"When I was a child, I was energetic\""
+          }
+        ]
+      },
+      {
+        "level": 2,
+        "heading": "Question Forms",
+        "content": "",
+        "children": [
+          {
+            "level": 3,
+            "heading": "I-adjectives",
+            "content": "昨日は暑かったですか？ \"Was yesterday hot?\" 映画は面白かったですか？ \"Was the movie interesting?\" 試験は難しかったですか？ \"Was the exam difficult?\""
+          },
+          {
+            "level": 3,
+            "heading": "Na-adjectives",
+            "content": "部屋は静かでしたか？ \"Was the room quiet?\" 旅行は楽しかったですか？ \"Was the trip fun?\" 町は便利でしたか？ \"Was the town convenient?\""
+          }
+        ]
+      },
+      {
+        "level": 2,
+        "heading": "Answering Questions",
+        "content": "",
+        "children": [
+          {
+            "level": 3,
+            "heading": "Affirmative",
+            "content": "Q: 映画は面白かったですか？ \"Was the movie interesting?\" A: はい、面白かったです \"Yes, it was interesting\" Q: 部屋は静かでしたか？ \"Was the room quiet?\" A: はい、静かでした \"Yes, it was quiet\""
+          },
+          {
+            "level": 3,
+            "heading": "Negative",
+            "content": "Q: 高かったですか？ \"Was it expensive?\" A: いいえ、高くなかったです \"No, it was not expensive\""
+          }
+        ]
+      },
+      {
+        "level": 2,
+        "heading": "Conversation Examples",
+        "content": "",
+        "children": [
+          {
+            "level": 3,
+            "heading": "Example 1: After Watching Movie",
+            "content": "A: 映画はどうだった？ \"How was the movie?\" B: とても面白かった！ \"It was very interesting!\" A: 長かった？ \"Was it long?\" B: うん、3時間だった \"Yeah, it was 3 hours\""
+          },
+          {
+            "level": 3,
+            "heading": "Example 2: Travel Experience",
+            "content": "A: 日本旅行はどうでしたか？ \"How was your Japan trip?\" B: すごく楽しかったです \"It was very fun\" A: 天気はよかったですか？ \"Was the weather good?\" B: はい、毎日よかったです \"Yes, it was good every day\""
+          },
+          {
+            "level": 3,
+            "heading": "Example 3: Past Experience",
+            "content": "A: 子供の時、どんな子だった？ \"What kind of child were you?\" B: 元気な子だった \"I was an energetic child\" A: 勉強は好きだった？ \"Did you like studying?\" B: いいえ、あまり好きじゃなかった \"No, I didn't like it much\""
+          }
+        ]
+      },
+      {
+        "level": 2,
+        "heading": "Comparing Then and Now",
+        "content": "昔は小さかったけど、今は大きい \"It used to be small, but now it's big\" 昔は静かだったけど、今はにぎやかです \"It used to be quiet, but now it's lively\" 昔は不便だったけど、今は便利だ \"It used to be inconvenient, but now it's convenient\""
+      },
+      {
+        "level": 2,
+        "heading": "Multiple Adjectives in Past",
+        "content": "",
+        "children": [
+          {
+            "level": 3,
+            "heading": "Connecting with て-form",
+            "content": "その映画は面白くて感動的だった \"That movie was interesting and moving\" 部屋は広くてきれいでした \"The room was spacious and clean\" 彼は親切で優しかった \"He was kind and gentle\""
+          }
+        ]
+      },
+      {
+        "level": 2,
+        "heading": "Common Mistakes",
+        "content": "",
+        "children": [
+          {
+            "level": 3,
+            "heading": "Mistake 1: Wrong Past Form for I-adjectives",
+            "content": "Wrong: 高いた ❌ Right: 高かった ✓ Wrong: 大きいでした ❌ Right: 大きかったです ✓"
+          },
+          {
+            "level": 3,
+            "heading": "Mistake 2: Wrong Past Form for Na-adjectives",
+            "content": "Wrong: 静かかった ❌ Right: 静かだった ✓ Wrong: きれいかった ❌ Right: きれいだった ✓"
+          },
+          {
+            "level": 3,
+            "heading": "Mistake 3: いい Conjugation",
+            "content": "Wrong: いかった ❌ Right: よかった ✓ Wrong: いかったです ❌ Right: よかったです ✓"
+          },
+          {
+            "level": 3,
+            "heading": "Mistake 4: Double Past Marker",
+            "content": "Wrong: 高かったでした ❌ Right: 高かったです ✓ Wrong: 静かだったでした ❌ Right: 静かでした ✓"
+          }
+        ]
+      },
+      {
+        "level": 2,
+        "heading": "Modifying Past-tense Nouns",
+        "content": "Use relative clause structure:\n\n昨日食べた料理は美味しかった \"The food I ate yesterday was delicious\" 買った車は高かった \"The car I bought was expensive\" 子供の時住んでいた町は静かだった \"The town I lived in as a child was quiet\""
+      },
+      {
+        "level": 2,
+        "heading": "Degree Expressions in Past",
+        "content": "とても楽しかった \"was very fun\" すごく美味しかった \"was extremely delicious\" 本当に難しかったです \"was really difficult\" かなり高かった \"was quite expensive\" ちょっと寒かった \"was a little cold\""
+      },
+      {
+        "level": 2,
+        "heading": "Practice Patterns",
+        "content": "",
+        "children": [
+          {
+            "level": 3,
+            "heading": "Weather",
+            "content": "今日は暑い → 昨日は暑かった \"Today is hot\" → \"Yesterday was hot\" 今は涼しい → さっきは暑かった \"It's cool now\" → \"It was hot just now\""
+          },
+          {
+            "level": 3,
+            "heading": "Food",
+            "content": "美味しい → 美味しかった \"is delicious\" → \"was delicious\" 甘い → 甘かった \"is sweet\" → \"was sweet\""
+          },
+          {
+            "level": 3,
+            "heading": "Places",
+            "content": "静かだ → 静かだった \"is quiet\" → \"was quiet\" 便利です → 便利でした \"is convenient\" → \"was convenient\""
+          }
+        ]
+      },
+      {
+        "level": 2,
+        "heading": "Key Takeaways",
+        "content": "✓ I-adjectives: い → かった ✓ Na-adjectives: だった (plain) / でした (polite) ✓ いい → よかった (irregular) ✓ Add です for politeness to かった ✓ Describes past states and experiences ✓ Use with time expressions ✓ Connect multiple past adjectives with て ✓ Essential for past narratives\n\nMaster past tense - tell stories about the past!\n\nNext: Adjective Negative Forms\n\nRelated:\n\nAdjective Present Tense Adjective Past Negative I-adjective Conjugation",
+        "children": [
+          {
+            "level": 3,
+            "heading": "Company",
+            "content": "About Pricing Blog Contact"
+          },
+          {
+            "level": 3,
+            "heading": "Legal",
+            "content": "Privacy Policy Terms of Service Cookie Policy"
+          }
+        ]
+      }
+    ],
+    "metadata": {
+      "title": "Adjective Past Tense"
+    },
+    "examples": [
+      {
+        "sentence": "Adjective Present Tense"
+      },
+      {
+        "sentence": "Adjective Past Negative"
+      },
+      {
+        "sentence": "I-adjective Conjugation"
+      },
+      {
+        "sentence": "About"
+      },
+      {
+        "sentence": "Pricing"
+      },
+      {
+        "sentence": "Blog"
+      },
+      {
+        "sentence": "Contact"
+      },
+      {
+        "sentence": "Privacy Policy"
+      },
+      {
+        "sentence": "Terms of Service"
+      },
+      {
+        "sentence": "Cookie Policy"
+      }
+    ]
+  },
+  "metadata": {
+    "extracted_at": "2026-01-01T22:19:27.417395100Z",
+    "duration_ms": 4,
+    "extractors_matched": [
+      "metadata",
+      "examples",
+      "sections"
+    ],
+    "extractors_failed": [
+      "vocab_tables",
+      "definitions",
+      "content_blocks"
+    ]
+  }
+}

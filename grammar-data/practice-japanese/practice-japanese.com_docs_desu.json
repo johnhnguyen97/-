@@ -1,0 +1,318 @@
+{
+  "config_name": "Language Learning Extractor",
+  "url": "https://practice-japanese.com/docs/desu/",
+  "data": {
+    "sections": [
+      {
+        "level": 2,
+        "heading": "What is です (desu)?",
+        "content": "です (desu) is the polite copula in Japanese, roughly equivalent to \"is/am/are\" in English. It's used to link a subject with a noun or na-adjective in polite speech.\n\nA は B です \"A is B\" 私は学生です \"I am a student\""
+      },
+      {
+        "level": 2,
+        "heading": "Basic Usage",
+        "content": "",
+        "children": [
+          {
+            "level": 3,
+            "heading": "With Nouns",
+            "content": "です connects a subject to a noun predicate in polite sentences.\n\nこれは本です \"This is a book\" 田中さんは先生です \"Tanaka is a teacher\" 私は日本人です \"I am Japanese\" 今日は月曜日です \"Today is Monday\" これは私のペンです \"This is my pen\""
+          },
+          {
+            "level": 3,
+            "heading": "With Na-adjectives",
+            "content": "です follows na-adjectives (without な) in polite sentences.\n\nこの部屋は静かです \"This room is quiet\" 京都はきれいです \"Kyoto is beautiful\" 日本語は便利です \"Japanese is convenient\" 彼は親切です \"He is kind\""
+          },
+          {
+            "level": 3,
+            "heading": "With Pronouns and Demonstratives",
+            "content": "これです \"It's this\" あれは私のです \"That one is mine\" 誰ですか？ \"Who is it?\" どれですか？ \"Which one is it?\""
+          }
+        ]
+      },
+      {
+        "level": 2,
+        "heading": "Question Form",
+        "content": "",
+        "children": [
+          {
+            "level": 3,
+            "heading": "です + か = ですか",
+            "content": "Simply add か to make a polite question.\n\n学生ですか？ \"Are you a student?\" 日本人ですか？ \"Are you Japanese?\" これは本ですか？ \"Is this a book?\" 田中さんは先生ですか？ \"Is Tanaka a teacher?\""
+          },
+          {
+            "level": 3,
+            "heading": "Answering Questions",
+            "content": "Q: 学生ですか？ \"Are you a student?\" A: はい、学生です \"Yes, I am a student\" A: いいえ、学生じゃないです \"No, I'm not a student\""
+          }
+        ]
+      },
+      {
+        "level": 2,
+        "heading": "Negative Form",
+        "content": "",
+        "children": [
+          {
+            "level": 3,
+            "heading": "じゃないです / ではないです",
+            "content": "The negative of です is じゃないです (casual) or ではないです (formal).\n\n学生じゃないです \"I'm not a student\" 学生ではないです (more formal) \"I'm not a student\" これは本じゃないです \"This is not a book\" 田中さんは先生じゃないです \"Tanaka is not a teacher\"\n\nNote: じゃない is more common in spoken Japanese, while ではない is more formal and common in writing."
+          }
+        ]
+      },
+      {
+        "level": 2,
+        "heading": "Politeness Level",
+        "content": "です is the polite form used in:\n\nFormal situations Speaking to strangers Business contexts Speaking to superiors Public settings\n\nPolite: 学生です Plain: 学生だ Polite: 日本人です Plain: 日本人だ"
+      },
+      {
+        "level": 2,
+        "heading": "Common Patterns",
+        "content": "",
+        "children": [
+          {
+            "level": 3,
+            "heading": "これは～です (This is~)",
+            "content": "これは私の本です \"This is my book\" これはペンです \"This is a pen\" これは日本の車です \"This is a Japanese car\""
+          },
+          {
+            "level": 3,
+            "heading": "～は～です (Topic pattern)",
+            "content": "私は田中です \"I am Tanaka\" 彼は学生です \"He is a student\" 東京は大きいです \"Tokyo is big\""
+          },
+          {
+            "level": 3,
+            "heading": "～の～です (Possessive)",
+            "content": "これは私のです \"This is mine\" 田中さんのです \"It's Tanaka's\" 日本のです \"It's from Japan\""
+          }
+        ]
+      },
+      {
+        "level": 2,
+        "heading": "Location and Existence",
+        "content": "",
+        "children": [
+          {
+            "level": 3,
+            "heading": "Place + です",
+            "content": "図書館は二階です \"The library is on the second floor\" トイレはあそこです \"The bathroom is over there\" 駅は左です \"The station is to the left\""
+          },
+          {
+            "level": 3,
+            "heading": "Time + です",
+            "content": "今は三時です \"It's three o'clock now\" 会議は明日です \"The meeting is tomorrow\" 誕生日は来週です \"My birthday is next week\""
+          }
+        ]
+      },
+      {
+        "level": 2,
+        "heading": "Special Uses",
+        "content": "",
+        "children": [
+          {
+            "level": 3,
+            "heading": "Emphasis and Confirmation",
+            "content": "です can be used for emphasis or to soften statements.\n\nそうです \"That's right\" 本当です \"It's true\" そうですね \"That's right, isn't it\""
+          },
+          {
+            "level": 3,
+            "heading": "With Question Words",
+            "content": "何ですか？ \"What is it?\" 誰ですか？ \"Who is it?\" どこですか？ \"Where is it?\" いつですか？ \"When is it?\""
+          }
+        ]
+      },
+      {
+        "level": 2,
+        "heading": "Common Conversations",
+        "content": "",
+        "children": [
+          {
+            "level": 3,
+            "heading": "Example 1: Introduction",
+            "content": "A: お名前は？ \"What's your name?\" B: 田中です \"I'm Tanaka\" A: 学生ですか？ \"Are you a student?\" B: はい、学生です \"Yes, I'm a student\""
+          },
+          {
+            "level": 3,
+            "heading": "Example 2: Identification",
+            "content": "A: これは何ですか？ \"What is this?\" B: それは辞書です \"That's a dictionary\" A: 誰のですか？ \"Whose is it?\" B: 先生のです \"It's the teacher's\""
+          },
+          {
+            "level": 3,
+            "heading": "Example 3: Location",
+            "content": "A: トイレはどこですか？ \"Where is the bathroom?\" B: あそこです \"It's over there\" A: 二階ですか？ \"Is it on the second floor?\" B: いいえ、一階です \"No, it's on the first floor\""
+          }
+        ]
+      },
+      {
+        "level": 2,
+        "heading": "Common Mistakes",
+        "content": "",
+        "children": [
+          {
+            "level": 3,
+            "heading": "Mistake 1: Using です with I-adjectives",
+            "content": "Wrong: 大きいです ✓ (This is actually correct, but see note) Better: 大きいです (colloquial) Formal: 大きゅうございます Note: 大きいです is widely accepted in modern Japanese"
+          },
+          {
+            "level": 3,
+            "heading": "Mistake 2: Double copula",
+            "content": "Wrong: 学生だです ❌ Right: 学生です ✓ \"I am a student\""
+          },
+          {
+            "level": 3,
+            "heading": "Mistake 3: Using です with verbs",
+            "content": "Wrong: 行きますです ❌ Right: 行きます ✓ \"I will go\""
+          },
+          {
+            "level": 3,
+            "heading": "Mistake 4: Forgetting です in polite speech",
+            "content": "Too casual: 私は学生 Polite: 私は学生です \"I am a student\""
+          }
+        ]
+      },
+      {
+        "level": 2,
+        "heading": "Regional and Contextual Variations",
+        "content": "",
+        "children": [
+          {
+            "level": 3,
+            "heading": "Tokyo/Standard",
+            "content": "学生です \"I am a student\""
+          },
+          {
+            "level": 3,
+            "heading": "Kansai Dialect",
+            "content": "学生や / 学生やで \"I am a student\""
+          },
+          {
+            "level": 3,
+            "heading": "Formal Writing",
+            "content": "Often replaced by である in formal writing:\n\n彼は学生である \"He is a student\""
+          }
+        ]
+      },
+      {
+        "level": 2,
+        "heading": "With Sentence-ending Particles",
+        "content": "",
+        "children": [
+          {
+            "level": 3,
+            "heading": "です + ね (confirmation)",
+            "content": "そうですね \"That's right, isn't it\" いい天気ですね \"Nice weather, isn't it\""
+          },
+          {
+            "level": 3,
+            "heading": "です + よ (emphasis)",
+            "content": "これは本ですよ \"This IS a book (I'm telling you)\" 明日ですよ \"It's tomorrow (remember)\""
+          },
+          {
+            "level": 3,
+            "heading": "です + か (question)",
+            "content": "学生ですか？ \"Are you a student?\" 日本人ですか？ \"Are you Japanese?\""
+          }
+        ]
+      },
+      {
+        "level": 2,
+        "heading": "Formality Scale",
+        "content": "From most casual to most formal:\n\n1. だ (plain) 2. です (polite) 3. でございます (very polite/formal) 学生だ → 学生です → 学生でございます"
+      },
+      {
+        "level": 2,
+        "heading": "Practice Sentences",
+        "content": "私は山田です \"I am Yamada\" これは日本の本です \"This is a Japanese book\" 田中さんは先生です \"Tanaka is a teacher\" 今日は月曜日です \"Today is Monday\" 図書館は三階です \"The library is on the third floor\" それは私のではないです \"That's not mine\" 会議は来週ですか？ \"Is the meeting next week?\" きれいな花ですね \"It's a beautiful flower, isn't it\" 誰のペンですか？ \"Whose pen is it?\" これは何ですか？ \"What is this?\""
+      },
+      {
+        "level": 2,
+        "heading": "Related Grammar Points",
+        "content": "だ (da) - Plain form copula である (de aru) - Formal copula じゃない (janai) - Negative form でした (deshita) - Past polite form Sentence Structure (SOV) - Basic word order Particles Overview - Understanding は and が",
+        "children": [
+          {
+            "level": 3,
+            "heading": "Company",
+            "content": "About Pricing Blog Contact"
+          },
+          {
+            "level": 3,
+            "heading": "Legal",
+            "content": "Privacy Policy Terms of Service Cookie Policy"
+          }
+        ]
+      }
+    ],
+    "metadata": {
+      "title": "です (desu) - Polite Copula"
+    },
+    "examples": [
+      {
+        "sentence": "Formal situations"
+      },
+      {
+        "sentence": "Speaking to strangers"
+      },
+      {
+        "sentence": "Business contexts"
+      },
+      {
+        "sentence": "Speaking to superiors"
+      },
+      {
+        "sentence": "Public settings"
+      },
+      {
+        "sentence": "だ (da) - Plain form copula"
+      },
+      {
+        "sentence": "である (de aru) - Formal copula"
+      },
+      {
+        "sentence": "じゃない (janai) - Negative form"
+      },
+      {
+        "sentence": "でした (deshita) - Past polite form"
+      },
+      {
+        "sentence": "Sentence Structure (SOV) - Basic word order"
+      },
+      {
+        "sentence": "Particles Overview - Understanding は and が"
+      },
+      {
+        "sentence": "About"
+      },
+      {
+        "sentence": "Pricing"
+      },
+      {
+        "sentence": "Blog"
+      },
+      {
+        "sentence": "Contact"
+      },
+      {
+        "sentence": "Privacy Policy"
+      },
+      {
+        "sentence": "Terms of Service"
+      },
+      {
+        "sentence": "Cookie Policy"
+      }
+    ]
+  },
+  "metadata": {
+    "extracted_at": "2026-01-01T22:19:29.024589200Z",
+    "duration_ms": 3,
+    "extractors_matched": [
+      "metadata",
+      "examples",
+      "sections"
+    ],
+    "extractors_failed": [
+      "vocab_tables",
+      "definitions",
+      "content_blocks"
+    ]
+  }
+}

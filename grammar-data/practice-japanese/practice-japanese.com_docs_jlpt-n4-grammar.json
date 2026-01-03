@@ -1,0 +1,516 @@
+{
+  "config_name": "Language Learning Extractor",
+  "url": "https://practice-japanese.com/docs/jlpt-n4-grammar/",
+  "data": {
+    "metadata": {
+      "title": "JLPT N4 Grammar List"
+    },
+    "sections": [
+      {
+        "level": 2,
+        "heading": "JLPT N4 Grammar Overview",
+        "content": "JLPT N4 builds on N5 foundations and introduces more complex sentence structures, causative and passive forms, and various functional expressions. This list covers approximately 100 essential grammar points for N4."
+      },
+      {
+        "level": 2,
+        "heading": "Verb Forms",
+        "content": "",
+        "children": [
+          {
+            "level": 3,
+            "heading": "Causative Form - 〜させる/〜せる",
+            "content": "子供に野菜を食べさせる。 Kodomo ni yasai wo tabesaseru. \"Make a child eat vegetables.\""
+          },
+          {
+            "level": 3,
+            "heading": "Passive Form - 〜られる/〜れる",
+            "content": "先生に褒められた。 Sensei ni home rareta. \"I was praised by the teacher.\""
+          },
+          {
+            "level": 3,
+            "heading": "Causative-Passive - 〜させられる",
+            "content": "宿題をさせられた。 Shukudai wo saserareta. \"I was made to do homework.\""
+          },
+          {
+            "level": 3,
+            "heading": "Potential Form - 〜られる/〜える",
+            "content": "泳げます。 Oyogemasu. \"I can swim.\""
+          },
+          {
+            "level": 3,
+            "heading": "Volitional Form - 〜よう/〜おう",
+            "content": "一緒に行こう。 Issho ni ikou. \"Let's go together.\""
+          }
+        ]
+      },
+      {
+        "level": 2,
+        "heading": "て-form Patterns",
+        "content": "",
+        "children": [
+          {
+            "level": 3,
+            "heading": "〜てある - Has been done",
+            "content": "See: 〜てある (Is done)\n\n窓が開けてある。 Mado ga akete aru. \"The window has been opened.\""
+          },
+          {
+            "level": 3,
+            "heading": "〜ておく - Do in advance",
+            "content": "See: 〜ておく (Have done in advance)\n\n準備しておきます。 Junbi shite okimasu. \"I'll prepare in advance.\""
+          },
+          {
+            "level": 3,
+            "heading": "〜てしまう - Completely/Regrettably",
+            "content": "See: 〜てしまう (Has ended up)\n\n忘れてしまった。 Wasurete shimatta. \"I forgot (unfortunately).\""
+          },
+          {
+            "level": 3,
+            "heading": "〜てみる - Try doing",
+            "content": "食べてみます。 Tabete mimasu. \"I'll try eating it.\""
+          },
+          {
+            "level": 3,
+            "heading": "〜てあげる - Do for someone",
+            "content": "手伝ってあげる。 Tetsudatte ageru. \"I'll help (for someone).\""
+          },
+          {
+            "level": 3,
+            "heading": "〜てくれる - Do for me",
+            "content": "教えてくれた。 Oshiete kureta. \"He taught me.\""
+          },
+          {
+            "level": 3,
+            "heading": "〜てもらう - Have someone do",
+            "content": "説明してもらった。 Setsumei shite moratta. \"I had someone explain.\""
+          }
+        ]
+      },
+      {
+        "level": 2,
+        "heading": "Change and Transformation",
+        "content": "",
+        "children": [
+          {
+            "level": 3,
+            "heading": "〜くなる - Become (i-adj)",
+            "content": "See: 〜くなる (Become - i-adj)\n\n寒くなりました。 Samuku narimashita. \"It became cold.\""
+          },
+          {
+            "level": 3,
+            "heading": "〜になる - Become (na-adj/noun)",
+            "content": "See: 〜になる (Become - na-adj/noun)\n\n医者になりたい。 Isha ni naritai. \"I want to become a doctor.\""
+          },
+          {
+            "level": 3,
+            "heading": "〜くする - Make (i-adj)",
+            "content": "See: 〜くする (Make - i-adj)\n\n部屋を暖かくする。 Heya wo atatakaku suru. \"Make the room warm.\""
+          },
+          {
+            "level": 3,
+            "heading": "〜にする - Make/decide (na-adj/noun)",
+            "content": "See: 〜にする (Make - na-adj/noun)\n\nこれにします。 Kore ni shimasu. \"I'll take this.\""
+          }
+        ]
+      },
+      {
+        "level": 2,
+        "heading": "Reasons and Explanations",
+        "content": "",
+        "children": [
+          {
+            "level": 3,
+            "heading": "〜から - Because",
+            "content": "忙しいから行けません。 Isogashii kara ikemasen. \"I can't go because I'm busy.\""
+          },
+          {
+            "level": 3,
+            "heading": "〜ので - Because/Since (formal)",
+            "content": "雨なので中止です。 Ame na node chuushi desu. \"It's canceled because of rain.\""
+          },
+          {
+            "level": 3,
+            "heading": "〜のだ/んだ - Explanatory",
+            "content": "疲れているんです。 Tsukarete irun desu. \"The thing is, I'm tired.\""
+          }
+        ]
+      },
+      {
+        "level": 2,
+        "heading": "Contrast and Concession",
+        "content": "",
+        "children": [
+          {
+            "level": 3,
+            "heading": "〜けど/けれど - But",
+            "content": "See: 〜けど (But)\n\n高いけど買います。 Takai kedo kaimasu. \"It's expensive, but I'll buy it.\""
+          },
+          {
+            "level": 3,
+            "heading": "〜のに - Even though/Despite",
+            "content": "See: 〜のに (Even though)\n\n勉強したのに落ちた。 Benkyou shita noni ochita. \"I failed even though I studied.\""
+          },
+          {
+            "level": 3,
+            "heading": "〜ても - Even if",
+            "content": "See: 〜ても (Even if)\n\n雨が降っても行く。 Ame ga futte mo iku. \"I'll go even if it rains.\""
+          },
+          {
+            "level": 3,
+            "heading": "〜が - But (formal)",
+            "content": "See: 〜が (However)\n\n高いですが、買います。 Takai desu ga, kaimasu. \"It's expensive, but I'll buy it.\""
+          }
+        ]
+      },
+      {
+        "level": 2,
+        "heading": "Difficulty and Ease",
+        "content": "",
+        "children": [
+          {
+            "level": 3,
+            "heading": "〜やすい - Easy to",
+            "content": "See: 〜やすい (Easy to)\n\nこの本は読みやすい。 Kono hon wa yomiyasui. \"This book is easy to read.\""
+          },
+          {
+            "level": 3,
+            "heading": "〜にくい - Hard to",
+            "content": "See: 〜にくい (Hard to)\n\nこの文字は読みにくい。 Kono moji wa yominikui. \"This character is hard to read.\""
+          }
+        ]
+      },
+      {
+        "level": 2,
+        "heading": "Simultaneous Actions",
+        "content": "",
+        "children": [
+          {
+            "level": 3,
+            "heading": "〜ながら - While",
+            "content": "See: 〜ながら (While)\n\n音楽を聞きながら勉強する。 Ongaku wo kikinagara benkyou suru. \"Study while listening to music.\""
+          },
+          {
+            "level": 3,
+            "heading": "〜まま - As is/While",
+            "content": "See: 〜まま (As is/While)\n\n座ったまま食べる。 Suwatta mama taberu. \"Eat while sitting.\""
+          }
+        ]
+      },
+      {
+        "level": 2,
+        "heading": "Conditions",
+        "content": "",
+        "children": [
+          {
+            "level": 3,
+            "heading": "〜たら - If/When",
+            "content": "雨が降ったら中止です。 Ame ga futtara chuushi desu. \"If it rains, it's canceled.\""
+          },
+          {
+            "level": 3,
+            "heading": "〜なら - If (condition)",
+            "content": "行くなら一緒に行こう。 Iku nara issho ni ikou. \"If you're going, let's go together.\""
+          },
+          {
+            "level": 3,
+            "heading": "〜ば - If (conditional)",
+            "content": "安ければ買います。 Yasukereba kaimasu. \"If it's cheap, I'll buy it.\""
+          },
+          {
+            "level": 3,
+            "heading": "〜と - When/If (natural result)",
+            "content": "春になると暖かくなる。 Haru ni naru to atatakaku naru. \"When spring comes, it gets warm.\""
+          }
+        ]
+      },
+      {
+        "level": 2,
+        "heading": "Purpose and Intention",
+        "content": "",
+        "children": [
+          {
+            "level": 3,
+            "heading": "〜ために - In order to/For",
+            "content": "勉強するために図書館に行く。 Benkyou suru tame ni toshokan ni iku. \"Go to the library to study.\""
+          },
+          {
+            "level": 3,
+            "heading": "〜ように - So that/In order to",
+            "content": "忘れないようにメモする。 Wasurenai you ni memo suru. \"Take notes so as not to forget.\""
+          },
+          {
+            "level": 3,
+            "heading": "〜に行く/来る - Go/come to do",
+            "content": "映画を見に行く。 Eiga wo mi ni iku. \"Go to watch a movie.\""
+          }
+        ]
+      },
+      {
+        "level": 2,
+        "heading": "Ability and Possibility",
+        "content": "",
+        "children": [
+          {
+            "level": 3,
+            "heading": "〜ことができる - Can do/Able to",
+            "content": "日本語を話すことができます。 Nihongo wo hanasu koto ga dekimasu. \"I can speak Japanese.\""
+          },
+          {
+            "level": 3,
+            "heading": "〜られる - Can (potential)",
+            "content": "泳げますか。 Oyogemasu ka. \"Can you swim?\""
+          }
+        ]
+      },
+      {
+        "level": 2,
+        "heading": "Completion and Experience",
+        "content": "",
+        "children": [
+          {
+            "level": 3,
+            "heading": "〜たことがある - Have done before",
+            "content": "日本に行ったことがあります。 Nihon ni itta koto ga arimasu. \"I have been to Japan.\""
+          },
+          {
+            "level": 3,
+            "heading": "〜たばかり - Just did",
+            "content": "食べたばかりです。 Tabeta bakari desu. \"I just ate.\""
+          },
+          {
+            "level": 3,
+            "heading": "〜ところだ - About to/Just did/Currently",
+            "content": "今食べるところです。 Ima taberu tokoro desu. \"I'm about to eat now.\""
+          }
+        ]
+      },
+      {
+        "level": 2,
+        "heading": "Advice and Suggestion",
+        "content": "",
+        "children": [
+          {
+            "level": 3,
+            "heading": "〜方がいい - Should/Had better",
+            "content": "休んだ方がいいです。 Yasunda hou ga ii desu. \"You should rest.\""
+          },
+          {
+            "level": 3,
+            "heading": "〜ないで - Without doing/Don't",
+            "content": "食べないで寝た。 Tabenai de neta. \"I slept without eating.\""
+          },
+          {
+            "level": 3,
+            "heading": "〜なくてもいい - Don't have to",
+            "content": "行かなくてもいいです。 Ikanakute mo ii desu. \"You don't have to go.\""
+          },
+          {
+            "level": 3,
+            "heading": "〜なければならない/なきゃ - Must/Have to",
+            "content": "勉強しなければならない。 Benkyou shinakereba naranai. \"I must study.\""
+          },
+          {
+            "level": 3,
+            "heading": "〜なくてはいけない - Must/Have to",
+            "content": "行かなくてはいけない。 Ikanakute wa ikenai. \"I have to go.\""
+          }
+        ]
+      },
+      {
+        "level": 2,
+        "heading": "Hearsay and Quotations",
+        "content": "",
+        "children": [
+          {
+            "level": 3,
+            "heading": "〜そうだ - I heard that",
+            "content": "明日は雨だそうです。 Ashita wa ame da sou desu. \"I heard it will rain tomorrow.\""
+          },
+          {
+            "level": 3,
+            "heading": "〜と言う/言った - Say/Said that",
+            "content": "行くと言いました。 Iku to iimashita. \"He said he would go.\""
+          },
+          {
+            "level": 3,
+            "heading": "〜って - Casual quotation",
+            "content": "明日来るって。 Ashita kuru tte. \"He says he'll come tomorrow.\""
+          }
+        ]
+      },
+      {
+        "level": 2,
+        "heading": "Appearance and Seeming",
+        "content": "",
+        "children": [
+          {
+            "level": 3,
+            "heading": "〜そうだ - Looks like/Seems",
+            "content": "美味しそうです。 Oishisou desu. \"It looks delicious.\""
+          },
+          {
+            "level": 3,
+            "heading": "〜みたいだ - Looks like/Seems",
+            "content": "雨みたいです。 Ame mitai desu. \"It seems like rain.\""
+          },
+          {
+            "level": 3,
+            "heading": "〜らしい - Seems/Apparently",
+            "content": "彼は学生らしい。 Kare wa gakusei rashii. \"He seems to be a student.\""
+          }
+        ]
+      },
+      {
+        "level": 2,
+        "heading": "Giving and Receiving",
+        "content": "",
+        "children": [
+          {
+            "level": 3,
+            "heading": "あげる - Give (to someone else)",
+            "content": "友達にプレゼントをあげた。 Tomodachi ni purezento wo ageta. \"I gave a present to my friend.\""
+          },
+          {
+            "level": 3,
+            "heading": "くれる - Give (to me)",
+            "content": "友達がプレゼントをくれた。 Tomodachi ga purezento wo kureta. \"My friend gave me a present.\""
+          },
+          {
+            "level": 3,
+            "heading": "もらう - Receive",
+            "content": "友達にプレゼントをもらった。 Tomodachi ni purezento wo moratta. \"I received a present from my friend.\""
+          }
+        ]
+      },
+      {
+        "level": 2,
+        "heading": "Additional Patterns",
+        "content": "",
+        "children": [
+          {
+            "level": 3,
+            "heading": "〜すぎる - Too much/Excessive",
+            "content": "食べすぎた。 Tabesugita. \"I ate too much.\""
+          },
+          {
+            "level": 3,
+            "heading": "〜始める - Begin to",
+            "content": "雨が降り始めた。 Ame ga furihajimeta. \"It started to rain.\""
+          },
+          {
+            "level": 3,
+            "heading": "〜続ける - Continue to",
+            "content": "走り続ける。 Hashiritsuzukeru. \"Continue running.\""
+          },
+          {
+            "level": 3,
+            "heading": "〜終わる - Finish doing",
+            "content": "読み終わった。 Yomiowatta. \"I finished reading.\""
+          },
+          {
+            "level": 3,
+            "heading": "〜かもしれない - Might/Maybe",
+            "content": "雨かもしれない。 Ame kamo shirenai. \"It might rain.\""
+          },
+          {
+            "level": 3,
+            "heading": "〜でしょう - Probably/I think",
+            "content": "明日は晴れでしょう。 Ashita wa hare deshou. \"It will probably be sunny tomorrow.\""
+          },
+          {
+            "level": 3,
+            "heading": "〜つもりだ - Plan to/Intend to",
+            "content": "日本に行くつもりです。 Nihon ni iku tsumori desu. \"I plan to go to Japan.\""
+          },
+          {
+            "level": 3,
+            "heading": "〜予定だ - Plan to/Scheduled to",
+            "content": "明日出発する予定です。 Ashita shuppatsu suru yotei desu. \"I'm scheduled to depart tomorrow.\""
+          }
+        ]
+      },
+      {
+        "level": 2,
+        "heading": "Study Tips for N4 Grammar",
+        "content": "Master verb conjugations - Causative, passive, potential Practice て-form combinations - てあげる, てくれる, てもらう Understand nuance differences - Similar patterns have different uses Use grammar in conversations - Don't just memorize, apply Review N5 regularly - N4 builds on N5 foundations"
+      },
+      {
+        "level": 2,
+        "heading": "Next Steps",
+        "content": "After mastering N4 grammar, progress to:\n\nJLPT N3 Grammar - Intermediate level Practice more complex sentence structures Focus on formal vs casual expressions\n\nNote: This list covers core N4 grammar points. Practice materials may vary slightly in their classification.",
+        "children": [
+          {
+            "level": 3,
+            "heading": "Company",
+            "content": "About Pricing Blog Contact"
+          },
+          {
+            "level": 3,
+            "heading": "Legal",
+            "content": "Privacy Policy Terms of Service Cookie Policy"
+          }
+        ]
+      }
+    ],
+    "examples": [
+      {
+        "sentence": "Master verb conjugations - Causative, passive, potential"
+      },
+      {
+        "sentence": "Practice て-form combinations - てあげる, てくれる, てもらう"
+      },
+      {
+        "sentence": "Understand nuance differences - Similar patterns have different uses"
+      },
+      {
+        "sentence": "Use grammar in conversations - Don't just memorize, apply"
+      },
+      {
+        "sentence": "Review N5 regularly - N4 builds on N5 foundations"
+      },
+      {
+        "sentence": "JLPT N3 Grammar - Intermediate level"
+      },
+      {
+        "sentence": "Practice more complex sentence structures"
+      },
+      {
+        "sentence": "Focus on formal vs casual expressions"
+      },
+      {
+        "sentence": "About"
+      },
+      {
+        "sentence": "Pricing"
+      },
+      {
+        "sentence": "Blog"
+      },
+      {
+        "sentence": "Contact"
+      },
+      {
+        "sentence": "Privacy Policy"
+      },
+      {
+        "sentence": "Terms of Service"
+      },
+      {
+        "sentence": "Cookie Policy"
+      }
+    ]
+  },
+  "metadata": {
+    "extracted_at": "2026-01-01T22:19:30.404599400Z",
+    "duration_ms": 5,
+    "extractors_matched": [
+      "metadata",
+      "examples",
+      "sections"
+    ],
+    "extractors_failed": [
+      "vocab_tables",
+      "definitions",
+      "content_blocks"
+    ]
+  }
+}

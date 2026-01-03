@@ -1,0 +1,368 @@
+{
+  "config_name": "Language Learning Extractor",
+  "url": "https://practice-japanese.com/docs/newspaper-japanese/",
+  "data": {
+    "metadata": {
+      "title": "Newspaper Japanese"
+    },
+    "examples": [
+      {
+        "sentence": "About"
+      },
+      {
+        "sentence": "Pricing"
+      },
+      {
+        "sentence": "Blog"
+      },
+      {
+        "sentence": "Contact"
+      },
+      {
+        "sentence": "Privacy Policy"
+      },
+      {
+        "sentence": "Terms of Service"
+      },
+      {
+        "sentence": "Cookie Policy"
+      }
+    ],
+    "sections": [
+      {
+        "level": 2,
+        "heading": "Newspaper Japanese",
+        "content": "Newspaper Japanese (新聞日本語) is a distinct style characterized by concise headlines, である style writing, specialized vocabulary, and unique grammatical patterns designed for efficient information delivery.\n\nKey features: - Abbreviated headlines - である style - Passive voice common - Specialized vocabulary - Concise expression Efficient communication Formal register"
+      },
+      {
+        "level": 2,
+        "heading": "Headline Style",
+        "content": "",
+        "children": [
+          {
+            "level": 3,
+            "heading": "Extreme brevity",
+            "content": "Full sentence: 政府が新政策を発表した \"Government announced new policy\" Headline: 政府、新政策発表 \"Gov't announces new policy\" Particles dropped Verbs often nominalized Maximum conciseness"
+          }
+        ]
+      },
+      {
+        "level": 2,
+        "heading": "Particle Omission",
+        "content": "",
+        "children": [
+          {
+            "level": 3,
+            "heading": "Headlines drop particles",
+            "content": "Standard: 首相が辞任を表明した Headline: 首相、辞任表明 Standard: 経済が回復している Headline: 経済回復 を、が、は often omitted Comma replaces が/は sometimes Space savings"
+          }
+        ]
+      },
+      {
+        "level": 2,
+        "heading": "Nominalization",
+        "content": "",
+        "children": [
+          {
+            "level": 3,
+            "heading": "Converting verbs to nouns",
+            "content": "発表する → 発表 \"announce\" → \"announcement\" 決定する → 決定 \"decide\" → \"decision\" 開催する → 開催 \"hold\" → \"holding\" Headlines: 会議開催 \"conference held\" 法案可決 \"bill passed\" 事故発生 \"accident occurred\" Noun-heavy style Compact expression"
+          }
+        ]
+      },
+      {
+        "level": 2,
+        "heading": "である Style",
+        "content": "",
+        "children": [
+          {
+            "level": 3,
+            "heading": "Standard in articles",
+            "content": "政府は新政策を発表した。これは重要である。 \"Government announced new policy. This is important.\" 原因は不明である \"Cause is unknown\" 調査は継続中である \"Investigation is ongoing\" Formal written style Assertive tone Objective reporting"
+          }
+        ]
+      },
+      {
+        "level": 2,
+        "heading": "Passive Voice",
+        "content": "",
+        "children": [
+          {
+            "level": 3,
+            "heading": "Frequent usage",
+            "content": "容疑者が逮捕された \"Suspect was arrested\" 法案が可決された \"Bill was passed\" 会議が開催される \"Conference will be held\" De-emphasizes agent Focuses on event Formal tone"
+          }
+        ]
+      },
+      {
+        "level": 2,
+        "heading": "Time Expressions",
+        "content": "",
+        "children": [
+          {
+            "level": 3,
+            "heading": "Specific dates",
+            "content": "5日 \"5th (day)\" 同日 \"same day\" 翌日 \"following day\" 前日 \"previous day\" 当日 \"that day\" 午前 \"morning (AM)\" 午後 \"afternoon (PM)\" Precise timing Standard format Clear chronology"
+          }
+        ]
+      },
+      {
+        "level": 2,
+        "heading": "Quotations",
+        "content": "",
+        "children": [
+          {
+            "level": 3,
+            "heading": "Direct and indirect speech",
+            "content": "Direct quote: 首相は「改革を進める」と述べた \"PM stated, 'will advance reform'\" Indirect: 首相は改革を進めると述べた \"PM stated will advance reform\" と for quotation Reporting verbs common"
+          }
+        ]
+      },
+      {
+        "level": 2,
+        "heading": "Common Verbs",
+        "content": "",
+        "children": [
+          {
+            "level": 3,
+            "heading": "Journalistic vocabulary",
+            "content": "発表する \"announce\" 表明する \"express, state\" 述べる \"state, say\" 明らかにする \"clarify, reveal\" 指摘する \"point out\" 強調する \"emphasize\" 否定する \"deny\" 確認する \"confirm\" 報告する \"report\" Formal reporting verbs Precise meaning Professional vocabulary"
+          }
+        ]
+      },
+      {
+        "level": 2,
+        "heading": "Numbers and Statistics",
+        "content": "",
+        "children": [
+          {
+            "level": 3,
+            "heading": "Numerical reporting",
+            "content": "約100人 \"about 100 people\" およそ50% \"approximately 50%\" 前年比10%増 \"10% increase year-on-year\" 計1000万円 \"total 10 million yen\" Precise figures Statistical data Economic reporting"
+          }
+        ]
+      },
+      {
+        "level": 2,
+        "heading": "Location Markers",
+        "content": "",
+        "children": [
+          {
+            "level": 3,
+            "heading": "Place references",
+            "content": "東京都内 \"within Tokyo\" 現地 \"on site, local area\" 同市 \"the same city\" 県内 \"within the prefecture\" Geographical precision Standard terminology Clear location"
+          }
+        ]
+      },
+      {
+        "level": 2,
+        "heading": "Causation Expressions",
+        "content": "",
+        "children": [
+          {
+            "level": 3,
+            "heading": "Showing reason",
+            "content": "〜により \"due to, by means of\" 台風により被害 \"damage due to typhoon\" 〜によって \"by, through\" 政府によって決定 \"decided by government\" 〜のため \"because of\" 雨のため中止 \"cancelled due to rain\" Formal causation Clear reasoning Logical connection"
+          }
+        ]
+      },
+      {
+        "level": 2,
+        "heading": "Compound Nouns",
+        "content": "",
+        "children": [
+          {
+            "level": 3,
+            "heading": "Multi-word compounds",
+            "content": "交通事故 \"traffic accident\" 経済成長 \"economic growth\" 政府関係者 \"government official\" 環境問題 \"environmental problem\" 国際会議 \"international conference\" Compact expression Specialized vocabulary Technical precision"
+          }
+        ]
+      },
+      {
+        "level": 2,
+        "heading": "Agency and Attribution",
+        "content": "",
+        "children": [
+          {
+            "level": 3,
+            "heading": "Who did what",
+            "content": "〜によると \"according to\" 警察によると \"according to police\" 〜筋 \"sources\" 政府筋 \"government sources\" 関係者 \"concerned parties, officials\" 同社関係者 \"company officials\" Attribution Source citation Credibility"
+          }
+        ]
+      },
+      {
+        "level": 2,
+        "heading": "Honorific Avoidance",
+        "content": "",
+        "children": [
+          {
+            "level": 3,
+            "heading": "Neutral reporting",
+            "content": "Generally avoid: いらっしゃる、おっしゃる (Too casual/spoken) Use instead: いる、述べる、訪れる (Neutral, formal) Objective tone Equal treatment Professional distance"
+          }
+        ]
+      },
+      {
+        "level": 2,
+        "heading": "Abbreviations",
+        "content": "",
+        "children": [
+          {
+            "level": 3,
+            "heading": "Common shortenings",
+            "content": "米国 \"US\" (アメリカ) 英国 \"UK\" (イギリス) 中国 \"China\" 韓国 \"Korea\" EU \"EU\" GDP \"GDP\" Space saving International standard Reader familiarity"
+          }
+        ]
+      },
+      {
+        "level": 2,
+        "heading": "Section Headings",
+        "content": "",
+        "children": [
+          {
+            "level": 3,
+            "heading": "Article structure",
+            "content": "社会 \"Society\" 政治 \"Politics\" 経済 \"Economy\" 国際 \"International\" スポーツ \"Sports\" 文化 \"Culture\" Standard categories Organizational clarity Reader navigation"
+          }
+        ]
+      },
+      {
+        "level": 2,
+        "heading": "Breaking News Style",
+        "content": "",
+        "children": [
+          {
+            "level": 3,
+            "heading": "Urgent reporting",
+            "content": "速報 \"breaking news\" 続報 \"follow-up report\" 号外 \"extra edition\" 〜模様 \"appears that\" 被害の模様 \"appears to be damage\" Immediate reporting Developing situations"
+          }
+        ]
+      },
+      {
+        "level": 2,
+        "heading": "Weather Reports",
+        "content": "",
+        "children": [
+          {
+            "level": 3,
+            "heading": "Meteorological language",
+            "content": "晴れ \"clear\" 曇り \"cloudy\" 雨 \"rain\" 降水確率 \"precipitation probability\" 最高気温 \"high temperature\" 最低気温 \"low temperature\" Standardized terminology Daily feature Practical information"
+          }
+        ]
+      },
+      {
+        "level": 2,
+        "heading": "Sports Reporting",
+        "content": "",
+        "children": [
+          {
+            "level": 3,
+            "heading": "Athletic coverage",
+            "content": "勝利 \"victory\" 敗北 \"defeat\" 優勝 \"championship\" 決勝 \"finals\" 準決勝 \"semifinals\" 〜対〜 \"vs\" 日本対韓国 \"Japan vs Korea\" Results-focused Score reporting Tournament structure"
+          }
+        ]
+      },
+      {
+        "level": 2,
+        "heading": "Economic News",
+        "content": "",
+        "children": [
+          {
+            "level": 3,
+            "heading": "Financial reporting",
+            "content": "株価 \"stock price\" 為替 \"exchange rate\" 円高 \"strong yen\" 円安 \"weak yen\" 上昇 \"rise\" 下落 \"fall\" 前日比 \"compared to previous day\" Market movements Financial vocabulary Investor information"
+          }
+        ]
+      },
+      {
+        "level": 2,
+        "heading": "Crime Reporting",
+        "content": "",
+        "children": [
+          {
+            "level": 3,
+            "heading": "Legal/police news",
+            "content": "容疑者 \"suspect\" 被害者 \"victim\" 逮捕 \"arrest\" 起訴 \"prosecution\" 判決 \"verdict\" 懲役 \"imprisonment\" Legal terminology Objective reporting Careful language"
+          }
+        ]
+      },
+      {
+        "level": 2,
+        "heading": "Disaster Reporting",
+        "content": "",
+        "children": [
+          {
+            "level": 3,
+            "heading": "Emergency coverage",
+            "content": "地震 \"earthquake\" 津波 \"tsunami\" 台風 \"typhoon\" 被害 \"damage\" 避難 \"evacuation\" 救助 \"rescue\" 死者 \"deaths\" 行方不明 \"missing\" Crisis vocabulary Emergency information Public safety"
+          }
+        ]
+      },
+      {
+        "level": 2,
+        "heading": "Opinion Pieces",
+        "content": "",
+        "children": [
+          {
+            "level": 3,
+            "heading": "Editorial style",
+            "content": "〜べきである \"should\" 改革すべきである \"should reform\" 〜必要がある \"is necessary\" 対策が必要である \"countermeasures are necessary\" Argumentative Policy discussion Formal opinion"
+          }
+        ]
+      },
+      {
+        "level": 2,
+        "heading": "Tense Usage",
+        "content": "",
+        "children": [
+          {
+            "level": 3,
+            "heading": "Temporal precision",
+            "content": "Past events: 〜た 現在も続く \"still continuing\" Future: 〜する、〜予定 来月開催する \"will hold next month\" Present state: である 問題である \"is a problem\" Clear temporal markers Precise timing Reader clarity"
+          }
+        ]
+      },
+      {
+        "level": 2,
+        "heading": "Common Mistakes",
+        "content": "❌ Using です・ます Newspapers use である ✓ Formal written style ✓ である、だ ❌ Overusing particles in headlines Headlines omit particles ✓ Concise headline style ✓ 政府、発表 not 政府が発表 ❌ Casual vocabulary Avoid colloquial expressions ✓ Formal vocabulary ✓ Professional terminology ❌ Ambiguous attribution Always cite sources ✓ Clear attribution ✓ 〜によると、関係者 Understanding register crucial Formal written conventions Specialized vocabulary"
+      },
+      {
+        "level": 2,
+        "heading": "Practical Examples",
+        "content": "",
+        "children": [
+          {
+            "level": 3,
+            "heading": "Complete headline and article",
+            "content": "Headline: 首相、経済政策発表 Article opening: 首相は5日、新たな経済政策を発表した。これは景気回復を目指すものである。政府関係者によると、来月から実施される予定だ。 \"PM announces economic policy\" \"The Prime Minister announced a new economic policy on the 5th. This aims at economic recovery. According to government officials, it's scheduled to be implemented from next month.\" Headline: concise, particles dropped Article: である style, formal vocabulary Attribution: clear sourcing Time: specific dates Professional tone Objective reporting Standard structure"
+          },
+          {
+            "level": 3,
+            "heading": "Company",
+            "content": "About Pricing Blog Contact"
+          },
+          {
+            "level": 3,
+            "heading": "Legal",
+            "content": "Privacy Policy Terms of Service Cookie Policy"
+          }
+        ]
+      }
+    ]
+  },
+  "metadata": {
+    "extracted_at": "2026-01-01T22:19:31.993115600Z",
+    "duration_ms": 6,
+    "extractors_matched": [
+      "metadata",
+      "examples",
+      "sections"
+    ],
+    "extractors_failed": [
+      "vocab_tables",
+      "definitions",
+      "content_blocks"
+    ]
+  }
+}

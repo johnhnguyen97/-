@@ -1,0 +1,470 @@
+{
+  "config_name": "Language Learning Extractor",
+  "url": "https://practice-japanese.com/docs/te-kuru/",
+  "data": {
+    "metadata": {
+      "title": "〜てくる (Motion Towards)"
+    },
+    "examples": [
+      {
+        "sentence": "Physical movement towards the speaker while doing an action"
+      },
+      {
+        "sentence": "Change that has occurred up to the present"
+      },
+      {
+        "sentence": "Something beginning to happen or approaching"
+      },
+      {
+        "sentence": "〜ていく (te-iku) - Motion away/future progression"
+      },
+      {
+        "sentence": "Te-form Conjugation - Basic te-form"
+      },
+      {
+        "sentence": "〜てくる vs 〜ていく - Directional comparison"
+      },
+      {
+        "sentence": "Change & Transformation - Expressing change"
+      },
+      {
+        "sentence": "〜始める (hajimeru) - Start doing"
+      },
+      {
+        "sentence": "Present Tense Usage - Current states"
+      },
+      {
+        "sentence": "About"
+      },
+      {
+        "sentence": "Pricing"
+      },
+      {
+        "sentence": "Blog"
+      },
+      {
+        "sentence": "Contact"
+      },
+      {
+        "sentence": "Privacy Policy"
+      },
+      {
+        "sentence": "Terms of Service"
+      },
+      {
+        "sentence": "Cookie Policy"
+      }
+    ],
+    "sections": [
+      {
+        "level": 2,
+        "heading": "What is 〜てくる (te-kuru)?",
+        "content": "〜てくる combines the te-form with くる (to come) and expresses:\n\nPhysical movement towards the speaker while doing an action Change that has occurred up to the present Something beginning to happen or approaching\n\n[Verb te-form] + くる 持ってくる \"bring (here)\" 寒くなってくる \"has become cold / is getting cold\""
+      },
+      {
+        "level": 2,
+        "heading": "Formation",
+        "content": "",
+        "children": [
+          {
+            "level": 3,
+            "heading": "Basic Pattern",
+            "content": "Verb (te-form) + くる Plain: 〜てくる Polite: 〜てきます 持ってくる / 持ってきます \"bring (here)\" 変わってくる / 変わってきます \"has changed / is changing\""
+          }
+        ]
+      },
+      {
+        "level": 2,
+        "heading": "Three Main Meanings",
+        "content": "",
+        "children": [
+          {
+            "level": 3,
+            "heading": "1. Physical Movement Towards",
+            "content": "Doing an action while coming towards the speaker.\n\n持ってくる \"bring (something here)\" 連れてくる \"bring (someone here)\" 運んでくる \"carry (here)\" 送ってくる \"send (to here)\""
+          },
+          {
+            "level": 3,
+            "heading": "2. Change Up to Present",
+            "content": "Change that has occurred from the past until now.\n\n寒くなってきた \"has gotten cold / is getting cold\" わかってきた \"am starting to understand\" 慣れてきた \"have gotten used to\" 疲れてきた \"am getting tired\""
+          },
+          {
+            "level": 3,
+            "heading": "3. Beginning/Approaching",
+            "content": "Something starting to happen or coming near.\n\n雨が降ってきた \"it started raining\" 春が来る \"spring is coming\" 暗くなってきた \"it's getting dark\""
+          }
+        ]
+      },
+      {
+        "level": 2,
+        "heading": "Physical Movement Uses",
+        "content": "",
+        "children": [
+          {
+            "level": 3,
+            "heading": "Bringing Things",
+            "content": "お弁当を持ってくる \"bring a lunch box\" 本を持ってきた \"brought a book\" 荷物を運んでくる \"carry luggage here\""
+          },
+          {
+            "level": 3,
+            "heading": "Bringing People",
+            "content": "友達を連れてくる \"bring a friend\" 子供を連れてきた \"brought a child\""
+          },
+          {
+            "level": 3,
+            "heading": "Versus ていく (Direction)",
+            "content": "てくる: Toward speaker 持ってくる - \"bring (here)\" ていく: Away from speaker 持っていく - \"take (away)\""
+          }
+        ]
+      },
+      {
+        "level": 2,
+        "heading": "Change Up to Present",
+        "content": "",
+        "children": [
+          {
+            "level": 3,
+            "heading": "Recent Changes",
+            "content": "寒くなってきた \"it's gotten cold\" 暗くなってきた \"it's gotten dark\" わかってきた \"I'm starting to understand\" 慣れてきた \"I've gotten used to it\""
+          },
+          {
+            "level": 3,
+            "heading": "Progressive Understanding",
+            "content": "意味がわかってきた \"the meaning is becoming clear\" 日本語ができてきた \"my Japanese is improving\" 上手になってきた \"I'm getting better\""
+          },
+          {
+            "level": 3,
+            "heading": "Physical/Emotional Changes",
+            "content": "疲れてきた \"I'm getting tired\" 眠くなってきた \"I'm getting sleepy\" お腹が空いてきた \"I'm getting hungry\" 楽しくなってきた \"it's becoming fun\""
+          }
+        ]
+      },
+      {
+        "level": 2,
+        "heading": "Beginning of Actions",
+        "content": "",
+        "children": [
+          {
+            "level": 3,
+            "heading": "Weather Changes",
+            "content": "雨が降ってきた \"it started raining\" 雪が降ってきた \"it started snowing\" 風が吹いてきた \"wind started blowing\""
+          },
+          {
+            "level": 3,
+            "heading": "Natural Phenomena",
+            "content": "暗くなってきた \"it's getting dark\" 明るくなってきた \"it's getting light\" 暖かくなってきた \"it's getting warm\""
+          },
+          {
+            "level": 3,
+            "heading": "Events Beginning",
+            "content": "音楽が聞こえてきた \"music started to be heard\" 人が集まってきた \"people started gathering\""
+          }
+        ]
+      },
+      {
+        "level": 2,
+        "heading": "Time Expressions with てくる",
+        "content": "",
+        "children": [
+          {
+            "level": 3,
+            "heading": "最近 (recently)",
+            "content": "最近寒くなってきた \"it's gotten cold recently\" 最近忙しくなってきた \"I've gotten busy recently\""
+          },
+          {
+            "level": 3,
+            "heading": "だんだん (gradually)",
+            "content": "だんだんわかってきた \"I'm gradually understanding\" だんだん慣れてきた \"I'm gradually getting used to it\""
+          },
+          {
+            "level": 3,
+            "heading": "少しずつ (little by little)",
+            "content": "少しずつできてきた \"I can do it little by little\" 少しずつ良くなってきた \"it's getting better little by little\""
+          }
+        ]
+      },
+      {
+        "level": 2,
+        "heading": "Comparison: てくる vs ていく",
+        "content": "",
+        "children": [
+          {
+            "level": 3,
+            "heading": "てくる (Towards/Up to Now)",
+            "content": "Physical: 持ってくる \"bring (here)\" Change: 寒くなってきた \"has gotten cold (up to now)\" Beginning: 雨が降ってきた \"it started raining\""
+          },
+          {
+            "level": 3,
+            "heading": "ていく (Away/From Now On)",
+            "content": "Physical: 持っていく \"take (away)\" Change: 寒くなっていく \"will get colder (going forward)\" Future: 頑張っていく \"will work hard (from now)\""
+          },
+          {
+            "level": 3,
+            "heading": "Key Difference",
+            "content": "てくる: Focus on change up to present ていく: Focus on future progression"
+          }
+        ]
+      },
+      {
+        "level": 2,
+        "heading": "Common Verbs with てくる",
+        "content": "",
+        "children": [
+          {
+            "level": 3,
+            "heading": "Movement",
+            "content": "持ってくる - bring 連れてくる - bring (person) 運んでくる - carry here 帰ってくる - come back"
+          },
+          {
+            "level": 3,
+            "heading": "Change/Beginning",
+            "content": "なってくる - become わかってくる - start to understand できてくる - become able to 見えてくる - come into view 聞こえてくる - become audible"
+          },
+          {
+            "level": 3,
+            "heading": "Development",
+            "content": "慣れてくる - get used to 疲れてくる - get tired 飽きてくる - get bored 覚えてくる - start remembering"
+          }
+        ]
+      },
+      {
+        "level": 2,
+        "heading": "Negative Form",
+        "content": "",
+        "children": [
+          {
+            "level": 3,
+            "heading": "〜てこない",
+            "content": "持ってこない \"won't bring\" わかってこない \"don't start understanding\" 慣れてこない \"don't get used to\""
+          }
+        ]
+      },
+      {
+        "level": 2,
+        "heading": "Past Form",
+        "content": "",
+        "children": [
+          {
+            "level": 3,
+            "heading": "〜てきた",
+            "content": "Often emphasizes completion of gradual change.\n\nやっとわかってきた \"finally started understanding\" だんだん慣れてきた \"gradually got used to it\" 寒くなってきた \"got cold\""
+          }
+        ]
+      },
+      {
+        "level": 2,
+        "heading": "Common Conversations",
+        "content": "",
+        "children": [
+          {
+            "level": 3,
+            "heading": "Example 1: Bringing Something",
+            "content": "A: 明日何を持ってくる？ \"What will you bring tomorrow?\" B: お弁当を持ってきます \"I'll bring lunch\" A: 飲み物は？ \"What about drinks?\" B: それも持ってくるよ \"I'll bring that too\""
+          },
+          {
+            "level": 3,
+            "heading": "Example 2: Noticing Change",
+            "content": "A: 寒いね \"It's cold\" B: うん、最近寒くなってきたね \"Yeah, it's gotten cold recently\" A: もう冬だね \"It's already winter\""
+          },
+          {
+            "level": 3,
+            "heading": "Example 3: Progress",
+            "content": "A: 日本語、どう？ \"How's your Japanese?\" B: 少しずつわかってきた \"I'm starting to understand little by little\" A: 頑張ってるね \"You're working hard\" B: ありがとう。最近楽しくなってきた \"Thanks. It's become fun recently\""
+          },
+          {
+            "level": 3,
+            "heading": "Example 4: Sudden Change",
+            "content": "A: あ、雨だ \"Oh, rain\" B: 急に降ってきたね \"It suddenly started raining\" A: 傘ある？ \"Do you have an umbrella?\""
+          }
+        ]
+      },
+      {
+        "level": 2,
+        "heading": "Common Mistakes",
+        "content": "",
+        "children": [
+          {
+            "level": 3,
+            "heading": "Mistake 1: Wrong direction",
+            "content": "Context: Someone bringing something to you Wrong: 持っていく ❌ Right: 持ってくる ✓ \"bring (here)\""
+          },
+          {
+            "level": 3,
+            "heading": "Mistake 2: Using for future changes",
+            "content": "Context: Will get cold from now Less natural: 寒くなってくる ⚠️ More natural: 寒くなっていく ✓ \"will get cold\" Note: てくる focuses on changes up to now"
+          },
+          {
+            "level": 3,
+            "heading": "Mistake 3: Confusing with simple past",
+            "content": "寒くなった - \"got cold\" (simple past) 寒くなってきた - \"has gotten cold / is getting cold\" (gradual/recent)"
+          }
+        ]
+      },
+      {
+        "level": 2,
+        "heading": "Nuances and Implications",
+        "content": "",
+        "children": [
+          {
+            "level": 3,
+            "heading": "Gradual Realization",
+            "content": "わかってきた \"I'm starting to understand\" (gradual process) vs. わかった \"I understood\" (sudden realization)"
+          },
+          {
+            "level": 3,
+            "heading": "Recent Change",
+            "content": "忙しくなってきた \"I've gotten busy (recently)\" vs. 忙しくなった \"I got busy\" (neutral past)"
+          }
+        ]
+      },
+      {
+        "level": 2,
+        "heading": "Special Patterns",
+        "content": "",
+        "children": [
+          {
+            "level": 3,
+            "heading": "やっと〜てきた (finally)",
+            "content": "やっとわかってきた \"finally starting to understand\" やっと慣れてきた \"finally getting used to it\""
+          },
+          {
+            "level": 3,
+            "heading": "急に〜てきた (suddenly)",
+            "content": "急に雨が降ってきた \"it suddenly started raining\" 急に寒くなってきた \"it suddenly got cold\""
+          },
+          {
+            "level": 3,
+            "heading": "〜てきたところ (just came)",
+            "content": "今帰ってきたところです \"I just came back\" 買ってきたところ \"just bought and brought it\""
+          }
+        ]
+      },
+      {
+        "level": 2,
+        "heading": "With Adjectives",
+        "content": "",
+        "children": [
+          {
+            "level": 3,
+            "heading": "I-adjectives",
+            "content": "寒くなってきた \"has gotten cold\" 難しくなってきた \"has gotten difficult\" 良くなってきた \"has gotten better\" 暗くなってきた \"has gotten dark\""
+          },
+          {
+            "level": 3,
+            "heading": "Na-adjectives",
+            "content": "便利になってきた \"has become convenient\" 有名になってきた \"has become famous\" 元気になってきた \"has become energetic\""
+          }
+        ]
+      },
+      {
+        "level": 2,
+        "heading": "Expressing Sensations",
+        "content": "",
+        "children": [
+          {
+            "level": 3,
+            "heading": "Physical Sensations",
+            "content": "疲れてきた \"I'm getting tired\" 眠くなってきた \"I'm getting sleepy\" お腹が空いてきた \"I'm getting hungry\" のどが渇いてきた \"I'm getting thirsty\""
+          },
+          {
+            "level": 3,
+            "heading": "Emotional Changes",
+            "content": "楽しくなってきた \"it's becoming fun\" つまらなくなってきた \"it's becoming boring\" 心配になってきた \"I'm getting worried\""
+          }
+        ]
+      },
+      {
+        "level": 2,
+        "heading": "Seasonal and Time Changes",
+        "content": "",
+        "children": [
+          {
+            "level": 3,
+            "heading": "Seasons Approaching",
+            "content": "春になってきた \"spring is coming\" 暖かくなってきた \"it's getting warm\" 涼しくなってきた \"it's getting cool\""
+          },
+          {
+            "level": 3,
+            "heading": "Time of Day",
+            "content": "明るくなってきた \"it's getting light\" 暗くなってきた \"it's getting dark\" 遅くなってきた \"it's getting late\""
+          }
+        ]
+      },
+      {
+        "level": 2,
+        "heading": "Politeness Levels",
+        "content": "",
+        "children": [
+          {
+            "level": 3,
+            "heading": "Casual",
+            "content": "持ってくる \"I'll bring it\" わかってきた \"I'm starting to understand\""
+          },
+          {
+            "level": 3,
+            "heading": "Polite",
+            "content": "持ってきます \"I'll bring it\" わかってきました \"I've started to understand\""
+          }
+        ]
+      },
+      {
+        "level": 2,
+        "heading": "Practice Sentences",
+        "content": "",
+        "children": [
+          {
+            "level": 3,
+            "heading": "Physical Movement",
+            "content": "本を図書館から持ってくる \"bring a book from the library\" 友達を家に連れてくる \"bring a friend to my house\" 荷物を運んでくる \"carry luggage here\" 明日持ってきます \"I'll bring it tomorrow\""
+          },
+          {
+            "level": 3,
+            "heading": "Change Up to Present",
+            "content": "最近寒くなってきた \"it's gotten cold recently\" 日本語がわかってきた \"I'm starting to understand Japanese\" だんだん慣れてきた \"I've gradually gotten used to it\" 疲れてきた \"I'm getting tired\""
+          },
+          {
+            "level": 3,
+            "heading": "Beginning Actions",
+            "content": "雨が降ってきた \"it started raining\" 暗くなってきた \"it's getting dark\" 音が聞こえてきた \"sound started to be heard\" 人が集まってきた \"people started gathering\""
+          },
+          {
+            "level": 3,
+            "heading": "Realization/Understanding",
+            "content": "やっとわかってきた \"finally starting to understand\" 意味が見えてきた \"the meaning is becoming clear\" できてきた \"I'm becoming able to do it\""
+          }
+        ]
+      },
+      {
+        "level": 2,
+        "heading": "Related Grammar Points",
+        "content": "〜ていく (te-iku) - Motion away/future progression Te-form Conjugation - Basic te-form 〜てくる vs 〜ていく - Directional comparison Change & Transformation - Expressing change 〜始める (hajimeru) - Start doing Present Tense Usage - Current states",
+        "children": [
+          {
+            "level": 3,
+            "heading": "Company",
+            "content": "About Pricing Blog Contact"
+          },
+          {
+            "level": 3,
+            "heading": "Legal",
+            "content": "Privacy Policy Terms of Service Cookie Policy"
+          }
+        ]
+      }
+    ]
+  },
+  "metadata": {
+    "extracted_at": "2026-01-01T22:19:35.787147900Z",
+    "duration_ms": 4,
+    "extractors_matched": [
+      "metadata",
+      "examples",
+      "sections"
+    ],
+    "extractors_failed": [
+      "vocab_tables",
+      "definitions",
+      "content_blocks"
+    ]
+  }
+}

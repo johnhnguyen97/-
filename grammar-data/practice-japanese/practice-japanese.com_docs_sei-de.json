@@ -1,0 +1,368 @@
+{
+  "config_name": "Language Learning Extractor",
+  "url": "https://practice-japanese.com/docs/sei-de/",
+  "data": {
+    "examples": [
+      {
+        "sentence": "〜おかげで - Thanks to (positive)"
+      },
+      {
+        "sentence": "〜ため(に) - Because of (neutral)"
+      },
+      {
+        "sentence": "から/ので - Because (neutral)"
+      },
+      {
+        "sentence": "せいか - Maybe because of"
+      },
+      {
+        "sentence": "Blame expressions - Assigning fault"
+      },
+      {
+        "sentence": "Negative outcomes - Expressing bad results"
+      },
+      {
+        "sentence": "About"
+      },
+      {
+        "sentence": "Pricing"
+      },
+      {
+        "sentence": "Blog"
+      },
+      {
+        "sentence": "Contact"
+      },
+      {
+        "sentence": "Privacy Policy"
+      },
+      {
+        "sentence": "Terms of Service"
+      },
+      {
+        "sentence": "Cookie Policy"
+      }
+    ],
+    "sections": [
+      {
+        "level": 2,
+        "heading": "What is 〜せいで?",
+        "content": "〜せいで (or 〜せいだ ) expresses that something bad happened because of someone or something. It implies blame or fault, meaning \"because of,\" \"due to,\" or \"it's [someone's] fault.\"\n\n彼のせいで、遅れた \"Because of him, I was late\" (It's his fault) 雨のせいで、中止になった \"Because of the rain, it was cancelled\" 寝坊したせいで、試験に遅刻した \"Because I overslept, I was late for the exam\""
+      },
+      {
+        "level": 2,
+        "heading": "Formation",
+        "content": "",
+        "children": [
+          {
+            "level": 3,
+            "heading": "With nouns: Noun + の + せいで",
+            "content": "| Noun | + のせいで | Meaning | | ---- | ------------ | -------------------------- | | 雨 | 雨のせいで | Because of rain | | 彼 | 彼のせいで | Because of him (his fault) | | 台風 | 台風のせいで | Because of the typhoon | | 病気 | 病気のせいで | Because of illness |"
+          },
+          {
+            "level": 3,
+            "heading": "With verbs: た-form + せいで",
+            "content": "| Verb | た-form | + せいで | | ------ | ------- | ------------ | | 食べる | 食べた | 食べたせいで | | 寝る | 寝た | 寝たせいで | | 遅れる | 遅れた | 遅れたせいで | | 忘れる | 忘れた | 忘れたせいで |"
+          },
+          {
+            "level": 3,
+            "heading": "With adjectives",
+            "content": "い-adjectives: 忙しかったせいで な-adjectives: 不注意だったせいで"
+          }
+        ]
+      },
+      {
+        "level": 2,
+        "heading": "Basic Usage",
+        "content": "",
+        "children": [
+          {
+            "level": 3,
+            "heading": "Blaming circumstances",
+            "content": "渋滞のせいで、遅刻した \"Because of traffic, I was late\" 雨のせいで、ピクニックが中止になった \"Because of rain, the picnic was cancelled\" 台風のせいで、飛行機が欠航した \"Because of the typhoon, the flight was cancelled\""
+          },
+          {
+            "level": 3,
+            "heading": "Blaming actions",
+            "content": "遅く起きたせいで、電車に乗り遅れた \"Because I woke up late, I missed the train\" 食べ過ぎたせいで、お腹が痛い \"Because I ate too much, my stomach hurts\" 勉強しなかったせいで、試験に落ちた \"Because I didn't study, I failed the exam\""
+          },
+          {
+            "level": 3,
+            "heading": "Blaming people",
+            "content": "お前のせいだ！ \"It's your fault!\" 彼のせいで、計画が失敗した \"Because of him, the plan failed\" あなたのせいで、みんな迷惑した \"Because of you, everyone was inconvenienced\""
+          }
+        ]
+      },
+      {
+        "level": 2,
+        "heading": "Key Characteristics",
+        "content": "",
+        "children": [
+          {
+            "level": 3,
+            "heading": "Always negative outcomes",
+            "content": "✓ 雨のせいで、中止 (negative - cancelled) ✗ 雨のせいで、成功 (positive - doesn't work) Only use for bad results! For positive → use おかげで"
+          },
+          {
+            "level": 3,
+            "heading": "Implies blame or fault",
+            "content": "彼のせいで、失敗した \"Because of him, it failed\" (blaming him) Assigns responsibility for bad outcome"
+          }
+        ]
+      },
+      {
+        "level": 2,
+        "heading": "せいで vs おかげで",
+        "content": "",
+        "children": [
+          {
+            "level": 3,
+            "heading": "せいで - Negative outcomes",
+            "content": "寝坊したせいで、遅刻した \"Because I overslept, I was late\" (negative)"
+          },
+          {
+            "level": 3,
+            "heading": "おかげで - Positive outcomes",
+            "content": "あなたのおかげで、成功した \"Thanks to you, it succeeded\" (positive)"
+          },
+          {
+            "level": 3,
+            "heading": "Clear contrast",
+            "content": "Bad: 雨のせいで、中止になった \"Because of rain, it was cancelled\" Good: いい天気のおかげで、楽しめた \"Thanks to good weather, we enjoyed it\""
+          }
+        ]
+      },
+      {
+        "level": 2,
+        "heading": "Common Conversations",
+        "content": "",
+        "children": [
+          {
+            "level": 3,
+            "heading": "Example 1: Making Excuses",
+            "content": "A: なんで遅れたの？ \"Why were you late?\" B: 電車が遅れたせいで、間に合わなかったんだ \"Because the train was delayed, I couldn't make it\" A: そうなんだ \"I see\""
+          },
+          {
+            "level": 3,
+            "heading": "Example 2: Blaming",
+            "content": "A: プロジェクトが失敗したね \"The project failed\" B: 彼が情報を共有しなかったせいだよ \"It's because he didn't share the information\" A: それは困ったね \"That's troublesome\""
+          },
+          {
+            "level": 3,
+            "heading": "Example 3: Regret",
+            "content": "A: 試験どうだった？ \"How was the exam?\" B: ダメだった。昨日ゲームしてたせいで、 勉強できなかった \"It was bad. Because I was playing games yesterday, I couldn't study\""
+          }
+        ]
+      },
+      {
+        "level": 2,
+        "heading": "Common Mistakes",
+        "content": "",
+        "children": [
+          {
+            "level": 3,
+            "heading": "Mistake 1: Using for positive outcomes",
+            "content": "Wrong: 彼のせいで、成功した ❌ Right: 彼のおかげで、成功した ✓ \"Thanks to him, it succeeded\" Use おかげで for positive!"
+          },
+          {
+            "level": 3,
+            "heading": "Mistake 2: Wrong form with verbs",
+            "content": "Wrong: 食べるせいで ❌ Right: 食べたせいで ✓ Or: 食べすぎたせいで ✓ \"Because (I) ate/overate\" Use た-form with verbs!"
+          },
+          {
+            "level": 3,
+            "heading": "Mistake 3: Confusing with から/ので",
+            "content": "Neutral: 雨だから、中止 \"Because it's raining, cancelled\" Blaming: 雨のせいで、中止 \"Because of rain, cancelled\" (fault on rain) せいで adds blame element"
+          }
+        ]
+      },
+      {
+        "level": 2,
+        "heading": "Casual Form: せいだ",
+        "content": "",
+        "children": [
+          {
+            "level": 3,
+            "heading": "Ending sentences with せいだ",
+            "content": "遅れたのは彼のせいだ \"The reason we're late is his fault\" これは全部お前のせいだ！ \"This is all your fault!\" 病気になったのは寝不足のせいだ \"The reason I got sick is lack of sleep\""
+          }
+        ]
+      },
+      {
+        "level": 2,
+        "heading": "Personal Responsibility",
+        "content": "",
+        "children": [
+          {
+            "level": 3,
+            "heading": "Admitting fault",
+            "content": "私のせいです \"It's my fault\" すみません、私のせいで \"Sorry, because of me\" 自分のせいだと分かっている \"I know it's my own fault\""
+          },
+          {
+            "level": 3,
+            "heading": "Blaming self",
+            "content": "自分のせいで、みんなに迷惑をかけた \"Because of me, I caused trouble for everyone\" 私が遅刻したせいで、会議が遅れた \"Because I was late, the meeting was delayed\""
+          }
+        ]
+      },
+      {
+        "level": 2,
+        "heading": "With Different Grammatical Forms",
+        "content": "",
+        "children": [
+          {
+            "level": 3,
+            "heading": "With い-adjectives",
+            "content": "忙しかったせいで、忘れた \"Because I was busy, I forgot\" 高かったせいで、買えなかった \"Because it was expensive, I couldn't buy it\""
+          },
+          {
+            "level": 3,
+            "heading": "With な-adjectives",
+            "content": "不注意だったせいで、事故が起きた \"Because of carelessness, an accident occurred\" 複雑だったせいで、理解できなかった \"Because it was complex, I couldn't understand\""
+          },
+          {
+            "level": 3,
+            "heading": "With negative forms",
+            "content": "準備しなかったせいで、失敗した \"Because I didn't prepare, I failed\" 聞いてなかったせいで、分からなかった \"Because I wasn't listening, I didn't understand\""
+          }
+        ]
+      },
+      {
+        "level": 2,
+        "heading": "Expressing Annoyance",
+        "content": "",
+        "children": [
+          {
+            "level": 3,
+            "heading": "Complaining",
+            "content": "うるさいせいで、寝られない \"Because it's noisy, I can't sleep\" 彼のせいで、いつも迷惑してる \"Because of him, I'm always troubled\" 天気のせいで、予定が台無しだ \"Because of the weather, my plans are ruined\""
+          }
+        ]
+      },
+      {
+        "level": 2,
+        "heading": "せいか (Maybe because of)",
+        "content": "",
+        "children": [
+          {
+            "level": 3,
+            "heading": "Uncertain blame",
+            "content": "疲れてるせいか、頭が痛い \"Maybe because I'm tired, I have a headache\" 風邪のせいか、食欲がない \"Maybe because of a cold, I have no appetite\" Less direct blame, more uncertainty"
+          }
+        ]
+      },
+      {
+        "level": 2,
+        "heading": "Formal Alternatives",
+        "content": "",
+        "children": [
+          {
+            "level": 3,
+            "heading": "により (formal)",
+            "content": "台風により、中止となりました \"Due to the typhoon, it was cancelled\" More formal, less blame"
+          },
+          {
+            "level": 3,
+            "heading": "のため (neutral/formal)",
+            "content": "工事のため、通行止め \"Closed due to construction\" No blame implied"
+          }
+        ]
+      },
+      {
+        "level": 2,
+        "heading": "Common Situations",
+        "content": "",
+        "children": [
+          {
+            "level": 3,
+            "heading": "Weather",
+            "content": "雨のせいで、試合が延期 \"Because of rain, the game was postponed\" 雪のせいで、電車が止まった \"Because of snow, trains stopped\" 台風のせいで、停電した \"Because of the typhoon, there was a power outage\""
+          },
+          {
+            "level": 3,
+            "heading": "Health",
+            "content": "風邪のせいで、休んだ \"Because of a cold, I rested\" 寝不足のせいで、体調が悪い \"Because of lack of sleep, I don't feel well\" アレルギーのせいで、食べられない \"Because of allergies, I can't eat it\""
+          },
+          {
+            "level": 3,
+            "heading": "Mistakes and accidents",
+            "content": "不注意のせいで、怪我をした \"Because of carelessness, I got injured\" 操作ミスのせいで、データが消えた \"Because of an operation error, data was deleted\""
+          }
+        ]
+      },
+      {
+        "level": 2,
+        "heading": "Emphasizing Blame",
+        "content": "",
+        "children": [
+          {
+            "level": 3,
+            "heading": "全部〜のせい (all because of)",
+            "content": "全部お前のせいだ！ \"It's all your fault!\" これは全部私のせいです \"This is all my fault\""
+          },
+          {
+            "level": 3,
+            "heading": "〜のせいばかり (only because of)",
+            "content": "彼のせいばかりじゃない \"It's not only his fault\" 自分のせいばかりにするな \"Don't blame only yourself\""
+          }
+        ]
+      },
+      {
+        "level": 2,
+        "heading": "Practice Sentences",
+        "content": "",
+        "children": [
+          {
+            "level": 3,
+            "heading": "Basic",
+            "content": "雨のせいで、中止になった \"Because of rain, it was cancelled\" 寝坊したせいで、遅刻した \"Because I overslept, I was late\" 彼のせいで、失敗した \"Because of him, it failed\""
+          },
+          {
+            "level": 3,
+            "heading": "Intermediate",
+            "content": "昨日夜更かししたせいで、今日は眠くて仕方がない \"Because I stayed up late yesterday, I'm unbearably sleepy today\" スマホを見ていたせいで、人にぶつかってしまった \"Because I was looking at my phone, I bumped into someone\" 彼女が約束を忘れたせいで、1時間も待たされた \"Because she forgot our appointment, I was made to wait an hour\""
+          },
+          {
+            "level": 3,
+            "heading": "Advanced",
+            "content": "管理体制が不十分だったせいで、 重大な事故が発生してしまった。 二度とこのようなことがないよう、 システムを見直す必要がある。 \"Because the management system was inadequate, a serious accident occurred. We need to review the system so this never happens again.\" 彼が情報を共有しなかったせいで、 チーム全体の計画が狂ってしまい、 プロジェクトが大幅に遅れることになった。 \"Because he didn't share information, the entire team's plan went wrong, and the project ended up being significantly delayed.\""
+          }
+        ]
+      },
+      {
+        "level": 2,
+        "heading": "Related Grammar Points",
+        "content": "〜おかげで - Thanks to (positive) 〜ため(に) - Because of (neutral) から/ので - Because (neutral) せいか - Maybe because of Blame expressions - Assigning fault Negative outcomes - Expressing bad results",
+        "children": [
+          {
+            "level": 3,
+            "heading": "Company",
+            "content": "About Pricing Blog Contact"
+          },
+          {
+            "level": 3,
+            "heading": "Legal",
+            "content": "Privacy Policy Terms of Service Cookie Policy"
+          }
+        ]
+      }
+    ],
+    "metadata": {
+      "title": "〜せいで (Because of - negative)"
+    }
+  },
+  "metadata": {
+    "extracted_at": "2026-01-01T22:19:34.412956300Z",
+    "duration_ms": 3,
+    "extractors_matched": [
+      "metadata",
+      "examples",
+      "sections"
+    ],
+    "extractors_failed": [
+      "vocab_tables",
+      "definitions",
+      "content_blocks"
+    ]
+  }
+}

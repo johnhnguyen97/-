@@ -1,0 +1,103 @@
+{
+  "config_name": "Language Learning Extractor",
+  "url": "https://practice-japanese.com/docs/particle-nado/",
+  "data": {
+    "metadata": {
+      "title": "など (nado) - And So On/Etc."
+    },
+    "examples": [
+      {
+        "sentence": "や (ya) - Partial List"
+      },
+      {
+        "sentence": "と (to) - Complete List"
+      },
+      {
+        "sentence": "About"
+      },
+      {
+        "sentence": "Pricing"
+      },
+      {
+        "sentence": "Blog"
+      },
+      {
+        "sentence": "Contact"
+      },
+      {
+        "sentence": "Privacy Policy"
+      },
+      {
+        "sentence": "Terms of Service"
+      },
+      {
+        "sentence": "Cookie Policy"
+      }
+    ],
+    "sections": [
+      {
+        "level": 2,
+        "heading": "Core Function",
+        "content": "など means \"and so on\", \"etc.\", \"such as\" - indicates examples from a larger group."
+      },
+      {
+        "level": 2,
+        "heading": "Main Uses",
+        "content": "",
+        "children": [
+          {
+            "level": 3,
+            "heading": "1. Examples (And So On)",
+            "content": "犬や猫など \"dogs, cats, etc.\" 本やペンなど \"books, pens, and so on\" りんごやバナナなど \"apples, bananas, and such\""
+          },
+          {
+            "level": 3,
+            "heading": "2. Humble/Modest (With 私)",
+            "content": "私など \"someone like me\" (humble) 私などには無理です \"it's impossible for someone like me\""
+          },
+          {
+            "level": 3,
+            "heading": "3. Dismissive \"Such As\"",
+            "content": "そんなことなど \"such things\" (dismissive) お金など要らない \"don't need money and such\""
+          }
+        ]
+      },
+      {
+        "level": 2,
+        "heading": "Common Pattern",
+        "content": "[A]や[B]など 犬や猫など \"dogs, cats, etc.\" 本やペンやノートなど \"books, pens, notebooks, etc.\""
+      },
+      {
+        "level": 2,
+        "heading": "Key Takeaways",
+        "content": "✓ \"And so on/etc.\" ✓ Lists examples ✓ Humble expression ✓ Often with や\n\nRelated:\n\nや (ya) - Partial List と (to) - Complete List",
+        "children": [
+          {
+            "level": 3,
+            "heading": "Company",
+            "content": "About Pricing Blog Contact"
+          },
+          {
+            "level": 3,
+            "heading": "Legal",
+            "content": "Privacy Policy Terms of Service Cookie Policy"
+          }
+        ]
+      }
+    ]
+  },
+  "metadata": {
+    "extracted_at": "2026-01-01T22:19:33.789943100Z",
+    "duration_ms": 4,
+    "extractors_matched": [
+      "metadata",
+      "examples",
+      "sections"
+    ],
+    "extractors_failed": [
+      "vocab_tables",
+      "definitions",
+      "content_blocks"
+    ]
+  }
+}

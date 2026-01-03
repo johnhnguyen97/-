@@ -1,0 +1,380 @@
+{
+  "config_name": "Language Learning Extractor",
+  "url": "https://practice-japanese.com/docs/verb-te-form/",
+  "data": {
+    "sections": [
+      {
+        "level": 2,
+        "heading": "What is Te-form?",
+        "content": "て-form (te-form) is one of the most important and versatile verb forms in Japanese. It's used for:\n\nConnecting actions Making requests Present progressive And many more grammar patterns!\n\n食べる → 食べて (tabete) 行く → 行って (itte) する → して (shite)"
+      },
+      {
+        "level": 2,
+        "heading": "Why Te-form Matters",
+        "content": "Te-form is the connector of Japanese. You'll use it constantly:\n\n朝起きて、朝ご飯を食べて、学校に行きます \"I wake up, eat breakfast, and go to school\"\n\nMaster te-form = unlock intermediate Japanese!"
+      },
+      {
+        "level": 2,
+        "heading": "Conjugation Rules",
+        "content": "Te-form has different rules for each verb group.",
+        "children": [
+          {
+            "level": 3,
+            "heading": "Ichidan Verbs (Easiest!)",
+            "content": "Drop る , add て :\n\n食べる → 食べて (eat) 見る → 見て (see) 寝る → 寝て (sleep) 起きる → 起きて (wake up) 教える → 教えて (teach) 着る → 着て (wear) 出る → 出て (go out)"
+          },
+          {
+            "level": 3,
+            "heading": "Irregular Verbs",
+            "content": "する → して (do) 来る → 来て (come)"
+          },
+          {
+            "level": 3,
+            "heading": "Godan Verbs (Trickiest!)",
+            "content": "Godan verbs have 6 different patterns based on the final sound:",
+            "children": [
+              {
+                "level": 4,
+                "heading": "Pattern 1: う, つ, る → って",
+                "content": "買う → 買って (kau → katte) 待つ → 待って (matsu → matte) 帰る → 帰って (kaeru → kaette)"
+              },
+              {
+                "level": 4,
+                "heading": "Pattern 2: む, ぶ, ぬ → んで",
+                "content": "読む → 読んで (yomu → yonde) 遊ぶ → 遊んで (asobu → asonde) 死ぬ → 死んで (shinu → shinde)"
+              },
+              {
+                "level": 4,
+                "heading": "Pattern 3: く → いて",
+                "content": "書く → 書いて (kaku → kaite) 聞く → 聞いて (kiku → kiite) 歩く → 歩いて (aruku → aruite)\n\nException: 行く → 行って (iku → itte) NOT いいて!"
+              },
+              {
+                "level": 4,
+                "heading": "Pattern 4: ぐ → いで",
+                "content": "泳ぐ → 泳いで (oyogu → oyoide) 急ぐ → 急いで (isogu → isoide)"
+              },
+              {
+                "level": 4,
+                "heading": "Pattern 5: す → して",
+                "content": "話す → 話して (hanasu → hanashite) 貸す → 貸して (kasu → kashite)"
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "level": 2,
+        "heading": "Complete Conjugation Chart",
+        "content": "| Ending | Te-form | Example | Result | | ------------- | ------- | ------- | ------ | | -る (Ichidan) | -て | 食べる | 食べて | | -る (Godan) | -って | 帰る | 帰って | | -う | -って | 買う | 買って | | -つ | -って | 待つ | 待って | | -む | -んで | 読む | 読んで | | -ぶ | -んで | 遊ぶ | 遊んで | | -ぬ | -んで | 死ぬ | 死んで | | -く | -いて | 書く | 書いて | | -ぐ | -いで | 泳ぐ | 泳いで | | -す | -して | 話す | 話して | | する | して | する | して | | 来る | 来て | 来る | 来て |"
+      },
+      {
+        "level": 2,
+        "heading": "Memory Tricks",
+        "content": "",
+        "children": [
+          {
+            "level": 3,
+            "heading": "The RU-TTO-MU-N-DE Song",
+            "content": "る、う、つ → って (ru, u, tsu → tte) む、ぶ、ぬ → んで (mu, bu, nu → nde)\n\nOr remember: \"RUT-MBN\"\n\nRUT (る、う、つ) → って MBN (む、ぶ、ぬ) → んで"
+          },
+          {
+            "level": 3,
+            "heading": "For K and G",
+            "content": "K → ITE (く → いて) G → IDE (ぐ → いで)\n\nThink: \"kite\" and \"guide\""
+          }
+        ]
+      },
+      {
+        "level": 2,
+        "heading": "Common Uses of Te-form",
+        "content": "",
+        "children": [
+          {
+            "level": 3,
+            "heading": "1. Connecting Actions (Sequential)",
+            "content": "朝起きて、シャワーを浴びて、朝ご飯を食べます \"I wake up, take a shower, and eat breakfast\" 家に帰って、宿題をして、寝ます \"I go home, do homework, and sleep\""
+          },
+          {
+            "level": 3,
+            "heading": "2. Making Requests (～てください)",
+            "content": "食べてください \"Please eat\" ここに座ってください \"Please sit here\" ゆっくり話してください \"Please speak slowly\""
+          },
+          {
+            "level": 3,
+            "heading": "3. Present Progressive (～ています)",
+            "content": "今勉強しています \"I'm studying now\" テレビを見ています \"I'm watching TV\" 日本に住んでいます \"I'm living in Japan\""
+          },
+          {
+            "level": 3,
+            "heading": "4. Permission (～てもいい)",
+            "content": "食べてもいいですか？ \"May I eat?\" ここに座ってもいいですか？ \"May I sit here?\""
+          },
+          {
+            "level": 3,
+            "heading": "5. Prohibition (～てはいけない)",
+            "content": "ここで写真を撮ってはいけません \"You must not take photos here\" 入ってはいけない \"Must not enter\""
+          },
+          {
+            "level": 3,
+            "heading": "6. Trying (~てみる)",
+            "content": "食べてみます \"I'll try eating\" やってみてください \"Please try doing it\""
+          },
+          {
+            "level": 3,
+            "heading": "7. Doing Something in Advance (～ておく)",
+            "content": "予約しておきます \"I'll make a reservation in advance\" 準備しておいてください \"Please prepare in advance\""
+          },
+          {
+            "level": 3,
+            "heading": "8. Receiving Favor (～てくれる/～てもらう)",
+            "content": "友達が手伝ってくれました \"My friend helped me\" 先生に教えてもらいました \"I received teaching from the teacher\""
+          }
+        ]
+      },
+      {
+        "level": 2,
+        "heading": "Practice Conjugation",
+        "content": "",
+        "children": [
+          {
+            "level": 3,
+            "heading": "Common Verbs",
+            "content": "行く → 行って (go) 来る → 来て (come) 食べる → 食べて (eat) 飲む → 飲んで (drink) 見る → 見て (see) 聞く → 聞いて (listen) 話す → 話して (speak) 読む → 読んで (read) 書く → 書いて (write) する → して (do) 買う → 買って (buy) 売る → 売って (sell) 作る → 作って (make)"
+          }
+        ]
+      },
+      {
+        "level": 2,
+        "heading": "Step-by-Step Process",
+        "content": "",
+        "children": [
+          {
+            "level": 3,
+            "heading": "For Godan Verbs:",
+            "content": "Identify the final sound Apply the pattern Replace the ending\n\nExample: 読む (yomu)\n\nFinal sound: む Pattern: む → んで Result: 読んで (yonde)"
+          },
+          {
+            "level": 3,
+            "heading": "For Ichidan Verbs:",
+            "content": "Drop る Add て\n\nExample: 食べる (taberu)\n\nDrop る: 食べ Add て: 食べて"
+          }
+        ]
+      },
+      {
+        "level": 2,
+        "heading": "Common Mistakes",
+        "content": "",
+        "children": [
+          {
+            "level": 3,
+            "heading": "Mistake 1: Wrong Godan Pattern",
+            "content": "Wrong: 買う → 買うて ❌ Right: 買う → 買って ✓ Wrong: 読む → 読むて ❌ Right: 読む → 読んで ✓ Wrong: 書く → 書くて ❌ Right: 書く → 書いて ✓"
+          },
+          {
+            "level": 3,
+            "heading": "Mistake 2: 行く Exception",
+            "content": "Wrong: 行く → 行いて ❌ Right: 行く → 行って ✓\n\n行く is the ONLY く verb that becomes って!"
+          },
+          {
+            "level": 3,
+            "heading": "Mistake 3: Confusing Ichidan and Godan",
+            "content": "Wrong: 帰る (Godan) → 帰て ❌ Right: 帰る → 帰って ✓ Wrong: 食べる (Ichidan) → 食べいて ❌ Right: 食べる → 食べて ✓"
+          },
+          {
+            "level": 3,
+            "heading": "Mistake 4: Using Dictionary Form",
+            "content": "Wrong: 食べるください ❌ Right: 食べてください ✓ Wrong: ここに座るください ❌ Right: ここに座ってください ✓"
+          }
+        ]
+      },
+      {
+        "level": 2,
+        "heading": "Negative Te-form",
+        "content": "Use ないで or なくて :\n\n食べない → 食べないで / 食べなくて 行かない → 行かないで / 行かなくて\n\nないで = without doing なくて = and not (connecting)\n\n朝ご飯を食べないで学校に行きました \"I went to school without eating breakfast\" 高くなくておいしい \"Not expensive and delicious\""
+      },
+      {
+        "level": 2,
+        "heading": "Conversation Examples",
+        "content": "",
+        "children": [
+          {
+            "level": 3,
+            "heading": "Example 1: Daily Routine",
+            "content": "毎朝6時に起きて、ジョギングをして、 シャワーを浴びて、朝ご飯を食べます \"Every morning I wake up at 6, jog, take a shower, and eat breakfast\""
+          },
+          {
+            "level": 3,
+            "heading": "Example 2: Making Requests",
+            "content": "A: すみません、写真を撮ってください \"Excuse me, please take a photo\" B: いいですよ。はい、チーズ！ \"Sure! Okay, cheese!\" A: ありがとうございます \"Thank you\""
+          },
+          {
+            "level": 3,
+            "heading": "Example 3: Asking Permission",
+            "content": "A: このペンを使ってもいいですか？ \"May I use this pen?\" B: はい、どうぞ \"Yes, please go ahead\""
+          },
+          {
+            "level": 3,
+            "heading": "Example 4: Present Progressive",
+            "content": "A: 今何をしていますか？ \"What are you doing now?\" B: 宿題をしています \"I'm doing homework\" A: 難しいですか？ \"Is it difficult?\" B: はい、少し難しいです \"Yes, it's a bit difficult\""
+          }
+        ]
+      },
+      {
+        "level": 2,
+        "heading": "Te-form in Context",
+        "content": "",
+        "children": [
+          {
+            "level": 3,
+            "heading": "Recipe Instructions",
+            "content": "野菜を切ってください \"Please cut the vegetables\" お湯を沸かして、パスタを入れてください \"Boil water and add pasta\" 5分待ってください \"Please wait 5 minutes\""
+          },
+          {
+            "level": 3,
+            "heading": "Directions",
+            "content": "まっすぐ行って、右に曲がってください \"Go straight and turn right\" この道を歩いて、橋を渡ってください \"Walk on this road and cross the bridge\""
+          },
+          {
+            "level": 3,
+            "heading": "Polite Commands",
+            "content": "静かにしてください \"Please be quiet\" お待ちください \"Please wait\" お座りください \"Please sit down\""
+          }
+        ]
+      },
+      {
+        "level": 2,
+        "heading": "Multiple Te-forms in One Sentence",
+        "content": "You can chain many actions:\n\n朝起きて、顔を洗って、歯を磨いて、 服を着て、朝ご飯を食べて、学校に行きます \"I wake up, wash my face, brush my teeth, get dressed, eat breakfast, and go to school\"\n\nOnly the final verb is conjugated fully!"
+      },
+      {
+        "level": 2,
+        "heading": "Te-form with Adjectives",
+        "content": "い-adjectives:\n\n高い → 高くて (expensive and...) 大きい → 大きくて (big and...) この部屋は広くて明るいです \"This room is spacious and bright\"\n\nな-adjectives:\n\n静か → 静かで (quiet and...) 便利 → 便利で (convenient and...) この町は静かで便利です \"This town is quiet and convenient\""
+      },
+      {
+        "level": 2,
+        "heading": "Quick Reference Table",
+        "content": "| Verb | Group | Te-form | Rule | | ------ | --------- | ------- | ------------ | | 食べる | Ichidan | 食べて | drop る + て | | 見る | Ichidan | 見て | drop る + て | | 買う | Godan | 買って | う → って | | 待つ | Godan | 待って | つ → って | | 帰る | Godan | 帰って | る → って | | 読む | Godan | 読んで | む → んで | | 遊ぶ | Godan | 遊んで | ぶ → んで | | 死ぬ | Godan | 死んで | ぬ → んで | | 書く | Godan | 書いて | く → いて | | 泳ぐ | Godan | 泳いで | ぐ → いで | | 話す | Godan | 話して | す → して | | 行く | Godan | 行って | exception! | | する | Irregular | して | memorize | | 来る | Irregular | 来て | memorize |"
+      },
+      {
+        "level": 2,
+        "heading": "Drilling Practice",
+        "content": "Practice these transformations until automatic:\n\n食べる → 食べて → 食べてください 飲む → 飲んで → 飲んでください 見る → 見て → 見てください 行く → 行って → 行ってください 来る → 来て → 来てください する → して → してください"
+      },
+      {
+        "level": 2,
+        "heading": "Key Takeaways",
+        "content": "✓ Te-form connects actions and creates requests ✓ Ichidan: drop る + て ✓ Godan: 6 patterns based on final sound ✓ Irregular: する → して, 来る → 来て ✓ Exception: 行く → 行って ✓ Essential for ~ください, ~ている, ~てもいい ✓ Used constantly in Japanese ✓ Practice until automatic!\n\nMaster te-form - it's the key to natural Japanese!\n\nNext: Ta-form (Plain Past)\n\nRelated:\n\nVerb Groups Te-form Uses (Advanced) Masu Form",
+        "children": [
+          {
+            "level": 3,
+            "heading": "Company",
+            "content": "About Pricing Blog Contact"
+          },
+          {
+            "level": 3,
+            "heading": "Legal",
+            "content": "Privacy Policy Terms of Service Cookie Policy"
+          }
+        ]
+      }
+    ],
+    "metadata": {
+      "title": "Te-form Conjugation"
+    },
+    "examples": [
+      {
+        "sentence": "Identify the final sound"
+      },
+      {
+        "sentence": "Apply the pattern"
+      },
+      {
+        "sentence": "Replace the ending"
+      },
+      {
+        "sentence": "Final sound: む"
+      },
+      {
+        "sentence": "Pattern: む → んで"
+      },
+      {
+        "sentence": "Result: 読んで (yonde)"
+      },
+      {
+        "sentence": "Drop る"
+      },
+      {
+        "sentence": "Add て"
+      },
+      {
+        "sentence": "Drop る: 食べ"
+      },
+      {
+        "sentence": "Add て: 食べて"
+      },
+      {
+        "sentence": "Connecting actions"
+      },
+      {
+        "sentence": "Making requests"
+      },
+      {
+        "sentence": "Present progressive"
+      },
+      {
+        "sentence": "And many more grammar patterns!"
+      },
+      {
+        "sentence": "RUT (る、う、つ) → って"
+      },
+      {
+        "sentence": "MBN (む、ぶ、ぬ) → んで"
+      },
+      {
+        "sentence": "Verb Groups"
+      },
+      {
+        "sentence": "Te-form Uses (Advanced)"
+      },
+      {
+        "sentence": "Masu Form"
+      },
+      {
+        "sentence": "About"
+      },
+      {
+        "sentence": "Pricing"
+      },
+      {
+        "sentence": "Blog"
+      },
+      {
+        "sentence": "Contact"
+      },
+      {
+        "sentence": "Privacy Policy"
+      },
+      {
+        "sentence": "Terms of Service"
+      },
+      {
+        "sentence": "Cookie Policy"
+      }
+    ]
+  },
+  "metadata": {
+    "extracted_at": "2026-01-01T22:16:27.706517200Z",
+    "duration_ms": 4,
+    "extractors_matched": [
+      "metadata",
+      "examples",
+      "sections"
+    ],
+    "extractors_failed": [
+      "vocab_tables",
+      "definitions",
+      "content_blocks"
+    ]
+  }
+}

@@ -1,0 +1,212 @@
+{
+  "config_name": "Language Learning Extractor",
+  "url": "https://practice-japanese.com/docs/embedded-questions/",
+  "data": {
+    "metadata": {
+      "title": "Embedded Questions"
+    },
+    "examples": [
+      {
+        "sentence": "Use plain forms (not polite forms)"
+      },
+      {
+        "sentence": "か stays but sentence doesn't end there"
+      },
+      {
+        "sentence": "No rising intonation at か"
+      },
+      {
+        "sentence": "Function as noun clauses"
+      },
+      {
+        "sentence": "About"
+      },
+      {
+        "sentence": "Pricing"
+      },
+      {
+        "sentence": "Blog"
+      },
+      {
+        "sentence": "Contact"
+      },
+      {
+        "sentence": "Privacy Policy"
+      },
+      {
+        "sentence": "Terms of Service"
+      },
+      {
+        "sentence": "Cookie Policy"
+      }
+    ],
+    "sections": [
+      {
+        "level": 2,
+        "heading": "What Are Embedded Questions?",
+        "content": "Embedded questions (間接疑問文 kansetsu gimonbun) are questions that function as part of a larger sentence rather than standing alone. In English: \"I don't know where he went\" - \"where he went\" is the embedded question.\n\nDirect question:\n\nどこに行きますか？ Doko ni ikimasu ka? \"Where are you going?\"\n\nEmbedded question:\n\nどこに行くか分かりません。 Doko ni iku ka wakarimasen. \"I don't know where (you're) going.\"\n\nKey differences from direct questions:\n\nUse plain forms (not polite forms) か stays but sentence doesn't end there No rising intonation at か Function as noun clauses"
+      },
+      {
+        "level": 2,
+        "heading": "Two Main Types",
+        "content": "",
+        "children": [
+          {
+            "level": 3,
+            "heading": "1. Information Questions (WH-questions)",
+            "content": "Questions with question words (who, what, where, when, why, how):\n\nPattern: [Question word] + [Plain form] + か\n\n何時に来るか知っていますか。 Nanji ni kuru ka shitte imasu ka. \"Do you know what time (he's) coming?\" 誰が来るか分からない。 Dare ga kuru ka wakaranai. \"I don't know who's coming.\" どこに行ったか教えてください。 Doko ni itta ka oshiete kudasai. \"Please tell me where (he) went.\""
+          },
+          {
+            "level": 3,
+            "heading": "2. Yes/No Questions",
+            "content": "Questions without question words that need yes/no answers:\n\nPattern: [Plain form] + かどうか\n\n彼が来るかどうか分からない。 Kare ga kuru ka dou ka wakaranai. \"I don't know whether he's coming (or not).\" 雨が降るかどうか聞いた。 Ame ga furu ka dou ka kiita. \"I asked whether it would rain.\""
+          }
+        ]
+      },
+      {
+        "level": 2,
+        "heading": "Information Questions with Question Words",
+        "content": "",
+        "children": [
+          {
+            "level": 3,
+            "heading": "Question Words + か",
+            "content": "All question words follow the same pattern:\n\n何 (nani/nan) - What:\n\n何が起きたか知っていますか。 Nani ga okita ka shitte imasu ka. \"Do you know what happened?\" 彼が何を食べたか覚えていない。 Kare ga nani wo tabeta ka oboete inai. \"I don't remember what he ate.\" 何時か分かりますか。 Nanji ka wakarimasu ka. \"Do you know what time (it is)?\"\n\n誰 (dare) - Who:\n\n誰が来るか教えて。 Dare ga kuru ka oshiete. \"Tell me who's coming.\" 誰に聞いたか言いたくない。 Dare ni kiita ka iitakunai. \"I don't want to say who I asked.\" 誰がやったか知りたい。 Dare ga yatta ka shiritai. \"I want to know who did it.\"\n\nどこ (doko) - Where:\n\nどこに行くか決めましょう。 Doko ni iku ka kimemashou. \"Let's decide where to go.\" どこで買ったか覚えていますか。 Doko de katta ka oboete imasu ka. \"Do you remember where you bought it?\" 彼がどこにいるか分からない。 Kare ga doko ni iru ka wakaranai. \"I don't know where he is.\"\n\nいつ (itsu) - When:\n\nいつ帰るか教えてください。 Itsu kaeru ka oshiete kudasai. \"Please tell me when you'll return.\" いつから始まるか聞きました。 Itsu kara hajimaru ka kikimashita. \"I asked when it starts.\" 会議がいつあるか知っていますか。 Kaigi ga itsu aru ka shitte imasu ka. \"Do you know when the meeting is?\"\n\nなぜ/どうして (naze/doushite) - Why:\n\nなぜ休んだか聞いた。 Naze yasunda ka kiita. \"I asked why (he) was absent.\" どうして遅れたか説明してください。 Doushite okureta ka setsumei shite kudasai. \"Please explain why you were late.\" 彼女がどうして泣いているか分からない。 Kanojo ga doushite naite iru ka wakaranai. \"I don't know why she's crying.\"\n\nどう/どのように (dou/dono you ni) - How:\n\nどうやって行くか教えて。 Douyatte iku ka oshiete. \"Tell me how to get there.\" どう思うか聞きたい。 Dou omou ka kikitai. \"I want to ask what you think / how you feel about it.\" これをどう使うか分かりますか。 Kore wo dou tsukau ka wakarimasu ka. \"Do you know how to use this?\"\n\nどれ/どの (dore/dono) - Which:\n\nどれがいいか選んでください。 Dore ga ii ka erande kudasai. \"Please choose which one is good.\" どの電車に乗るか確認した。 Dono densha ni noru ka kakunin shita. \"I confirmed which train to take.\"\n\nいくつ/いくら (ikutsu/ikura) - How many/much:\n\nいくらかかるか知りたい。 Ikura kakaru ka shiritai. \"I want to know how much it costs.\" いくつ必要か教えて。 Ikutsu hitsuyou ka oshiete. \"Tell me how many are needed.\""
+          }
+        ]
+      },
+      {
+        "level": 2,
+        "heading": "Yes/No Questions with かどうか",
+        "content": "",
+        "children": [
+          {
+            "level": 3,
+            "heading": "Basic Pattern",
+            "content": "Structure: [Plain form] + かどうか\n\n明日雨が降るかどうか分からない。 Ashita ame ga furu ka dou ka wakaranai. \"I don't know whether it will rain tomorrow (or not).\" 彼が来るかどうか聞いてください。 Kare ga kuru ka dou ka kiite kudasai. \"Please ask whether he's coming.\" これが正しいかどうか確認しましょう。 Kore ga tadashii ka dou ka kakunin shimashou. \"Let's confirm whether this is correct.\""
+          },
+          {
+            "level": 3,
+            "heading": "Negative Form",
+            "content": "彼が来ないかどうか心配だ。 Kare ga konai ka dou ka shinpai da. \"I'm worried about whether he won't come.\" 動くかどうか見てみよう。 Ugoku ka dou ka mite miyou. \"Let's see whether it moves (or not).\""
+          },
+          {
+            "level": 3,
+            "heading": "Past Tense",
+            "content": "彼女が行ったかどうか知らない。 Kanojo ga itta ka dou ka shiranai. \"I don't know whether she went.\" 誰かが来たかどうか確認して。 Dareka ga kita ka dou ka kakunin shite. \"Check whether someone came.\""
+          }
+        ]
+      },
+      {
+        "level": 2,
+        "heading": "Common Verbs with Embedded Questions",
+        "content": "",
+        "children": [
+          {
+            "level": 3,
+            "heading": "分かる (wakaru) - To know/understand",
+            "content": "いつ始まるか分かりますか。 Itsu hajimaru ka wakarimasu ka. \"Do you know when it starts?\" どうすればいいか分からない。 Dou sureba ii ka wakaranai. \"I don't know what to do.\""
+          },
+          {
+            "level": 3,
+            "heading": "知る (shiru) - To know",
+            "content": "彼がどこにいるか知っていますか。 Kare ga doko ni iru ka shitte imasu ka. \"Do you know where he is?\" 何が起きたか誰も知らない。 Nani ga okita ka dare mo shiranai. \"Nobody knows what happened.\""
+          },
+          {
+            "level": 3,
+            "heading": "教える (oshieru) - To tell/teach",
+            "content": "駅への行き方を教えてください。 Eki e no ikikata wo oshiete kudasai. \"Please tell me how to get to the station.\" 何時に来るか教えて。 Nanji ni kuru ka oshiete. \"Tell me what time you're coming.\""
+          },
+          {
+            "level": 3,
+            "heading": "聞く (kiku) - To ask/hear",
+            "content": "何時に終わるか聞いた。 Nanji ni owaru ka kiita. \"I asked what time it ends.\" 彼が来るかどうか聞いてください。 Kare ga kuru ka dou ka kiite kudasai. \"Please ask whether he's coming.\""
+          },
+          {
+            "level": 3,
+            "heading": "見る (miru) - To see/check",
+            "content": "誰が来るか見てみよう。 Dare ga kuru ka mite miyou. \"Let's see who comes.\" これが使えるかどうか見てください。 Kore ga tsukaeru ka dou ka mite kudasai. \"Please check whether this is usable.\""
+          },
+          {
+            "level": 3,
+            "heading": "確認する (kakunin suru) - To confirm",
+            "content": "時間を確認してください。 Jikan wo kakunin shite kudasai. \"Please confirm the time.\" 予約があるかどうか確認しましょう。 Yoyaku ga aru ka dou ka kakunin shimashou. \"Let's confirm whether there's a reservation.\""
+          },
+          {
+            "level": 3,
+            "heading": "決める (kimeru) - To decide",
+            "content": "どこに行くか決めた？ Doko ni iku ka kimeta? \"Did you decide where to go?\" 何を食べるか決められない。 Nani wo taberu ka kimerarenai. \"I can't decide what to eat.\""
+          },
+          {
+            "level": 3,
+            "heading": "覚える (oboeru) - To remember",
+            "content": "どこで会ったか覚えていますか。 Doko de atta ka oboete imasu ka. \"Do you remember where we met?\" 何時だったか覚えていない。 Nanji datta ka oboete inai. \"I don't remember what time it was.\""
+          },
+          {
+            "level": 3,
+            "heading": "忘れる (wasureru) - To forget",
+            "content": "何を買うか忘れた。 Nani wo kau ka wasureta. \"I forgot what to buy.\" どこに置いたか忘れました。 Doko ni oita ka wasuremashita. \"I forgot where I put it.\""
+          }
+        ]
+      },
+      {
+        "level": 2,
+        "heading": "Complex Patterns",
+        "content": "",
+        "children": [
+          {
+            "level": 3,
+            "heading": "Multiple Embedded Questions",
+            "content": "いつどこで会うか決めましょう。 Itsu doko de au ka kimemashou. \"Let's decide when and where to meet.\" 何を誰に渡すか教えてください。 Nani wo dare ni watasu ka oshiete kudasai. \"Please tell me what to give to whom.\""
+          },
+          {
+            "level": 3,
+            "heading": "Embedded Questions as Subjects",
+            "content": "彼がいつ来るかが問題だ。 Kare ga itsu kuru ka ga mondai da. \"When he comes is the problem.\" / \"The problem is when he'll come.\" どうすればいいかが分からない。 Dou sureba ii ka ga wakaranai. \"I don't know what to do.\" [Emphasis on \"what to do\"]"
+          },
+          {
+            "level": 3,
+            "heading": "Embedded Questions with の",
+            "content": "Adding の makes it more nominal:\n\nいつ帰るのか教えて。 Itsu kaeru no ka oshiete. \"Tell me when you're coming home.\" [Softer, seeking explanation] 何が起きたのか知りたい。 Nani ga okita no ka shiritai. \"I want to know what happened.\" [Emphasis on explanation]"
+          }
+        ]
+      },
+      {
+        "level": 2,
+        "heading": "Casual Forms",
+        "content": "",
+        "children": [
+          {
+            "level": 3,
+            "heading": "Dropping か in Casual Speech",
+            "content": "In very casual conversation, か can be dropped:\n\nFormal: どこに行くか分からない Casual: どこ行くか分かんない Super casual: どこ行くかわかんない / どこ行くかわかんな"
+          },
+          {
+            "level": 3,
+            "heading": "Company",
+            "content": "About Pricing Blog Contact"
+          },
+          {
+            "level": 3,
+            "heading": "Legal",
+            "content": "Privacy Policy Terms of Service Cookie Policy"
+          }
+        ]
+      }
+    ]
+  },
+  "metadata": {
+    "extracted_at": "2026-01-01T22:19:29.880278200Z",
+    "duration_ms": 5,
+    "extractors_matched": [
+      "metadata",
+      "examples",
+      "sections"
+    ],
+    "extractors_failed": [
+      "vocab_tables",
+      "definitions",
+      "content_blocks"
+    ]
+  }
+}

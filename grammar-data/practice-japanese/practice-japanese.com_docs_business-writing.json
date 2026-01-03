@@ -1,0 +1,337 @@
+{
+  "config_name": "Language Learning Extractor",
+  "url": "https://practice-japanese.com/docs/business-writing/",
+  "data": {
+    "examples": [
+      {
+        "sentence": "About"
+      },
+      {
+        "sentence": "Pricing"
+      },
+      {
+        "sentence": "Blog"
+      },
+      {
+        "sentence": "Contact"
+      },
+      {
+        "sentence": "Privacy Policy"
+      },
+      {
+        "sentence": "Terms of Service"
+      },
+      {
+        "sentence": "Cookie Policy"
+      }
+    ],
+    "sections": [
+      {
+        "level": 2,
+        "heading": "Business Writing",
+        "content": "Business writing in Japanese (ビジネス文書) requires specific formats, honorific language (keigo), and formal expressions. It includes reports, proposals, memos, and various corporate documents.\n\nKey features: - です・ます style (mostly) - Keigo (honorific language) - Fixed formats - Formal vocabulary - Clear structure Professional tone Respectful language"
+      },
+      {
+        "level": 2,
+        "heading": "です・ます vs である",
+        "content": "",
+        "children": [
+          {
+            "level": 3,
+            "heading": "Style choice",
+            "content": "Internal documents: である style common Reports, analysis External documents: です・ます style Letters, proposals to clients Context determines Audience matters Company culture varies"
+          }
+        ]
+      },
+      {
+        "level": 2,
+        "heading": "Document Structure",
+        "content": "",
+        "children": [
+          {
+            "level": 3,
+            "heading": "Standard format",
+            "content": "Title: 件名 Date: 日付 To: 宛先 From: 発信者 Subject: 標題 Body: - 前文 (opening) - 主文 (main content) - 末文 (closing) Signature: 署名 Fixed structure Professional appearance Standard across companies"
+          }
+        ]
+      },
+      {
+        "level": 2,
+        "heading": "Opening Phrases",
+        "content": "",
+        "children": [
+          {
+            "level": 3,
+            "heading": "Standard beginnings",
+            "content": "拝啓 \"Dear Sir/Madam\" (formal letter) 謹啓 \"Respectfully\" (very formal) いつもお世話になっております \"Thank you for your continued support\" 平素は格別のお引き立てを賜り、厚く御礼申し上げます \"We deeply appreciate your continued patronage\" Standard greetings Professional courtesy Relationship acknowledgment"
+          }
+        ]
+      },
+      {
+        "level": 2,
+        "heading": "Closing Phrases",
+        "content": "",
+        "children": [
+          {
+            "level": 3,
+            "heading": "Document endings",
+            "content": "敬具 \"Respectfully yours\" (Pairs with 拝啓) 謹言 \"Respectfully\" (Pairs with 謹啓) 何卒よろしくお願い申し上げます \"We humbly ask for your kind consideration\" 今後ともよろしくお願いいたします \"We look forward to your continued support\" Formal closings Professional courtesy Standard endings"
+          }
+        ]
+      },
+      {
+        "level": 2,
+        "heading": "Honorific Language",
+        "content": "",
+        "children": [
+          {
+            "level": 3,
+            "heading": "Respect for clients",
+            "content": "Humble (謙譲語): 申し上げる \"say (humble)\" いたす \"do (humble)\" 拝見する \"see (humble)\" Respectful (尊敬語): いらっしゃる \"be/go/come (respect)\" おっしゃる \"say (respect)\" ご覧になる \"see (respect)\" Keigo essential Shows respect Professional standard"
+          }
+        ]
+      },
+      {
+        "level": 2,
+        "heading": "Request Expressions",
+        "content": "",
+        "children": [
+          {
+            "level": 3,
+            "heading": "Asking politely",
+            "content": "〜いただけますでしょうか \"Could you possibly...?\" ご確認いただければ幸いです \"We would be grateful if you could confirm\" お手数ですが、〜 \"Sorry for the trouble, but...\" ご検討のほどよろしくお願いいたします \"Please consider this matter\" Maximum politeness Business courtesy Professional requests"
+          }
+        ]
+      },
+      {
+        "level": 2,
+        "heading": "Apology Phrases",
+        "content": "",
+        "children": [
+          {
+            "level": 3,
+            "heading": "Business apologies",
+            "content": "申し訳ございません \"We sincerely apologize\" お詫び申し上げます \"We offer our apologies\" ご迷惑をおかけして申し訳ございません \"We apologize for any inconvenience\" 深くお詫び申し上げます \"We deeply apologize\" Taking responsibility Professional accountability Sincere apology"
+          }
+        ]
+      },
+      {
+        "level": 2,
+        "heading": "Report Writing",
+        "content": "",
+        "children": [
+          {
+            "level": 3,
+            "heading": "Internal reports",
+            "content": "Title: 報告書 \"Report\" 件名: 〇〇に関する報告 \"Regarding: Report on 〇〇\" 概要 \"Overview\" 詳細 \"Details\" 結論 \"Conclusion\" 提案 \"Proposal\" である or です・ます Clear sections Objective tone"
+          }
+        ]
+      },
+      {
+        "level": 2,
+        "heading": "Proposal Format",
+        "content": "",
+        "children": [
+          {
+            "level": 3,
+            "heading": "提案書 structure",
+            "content": "提案の背景 \"Background\" 目的 \"Objective\" 提案内容 \"Proposal content\" 期待される効果 \"Expected effects\" 予算 \"Budget\" スケジュール \"Schedule\" Persuasive writing Clear benefits Professional presentation"
+          }
+        ]
+      },
+      {
+        "level": 2,
+        "heading": "Meeting Minutes",
+        "content": "",
+        "children": [
+          {
+            "level": 3,
+            "heading": "議事録 format",
+            "content": "日時: Date/time 場所: Location 出席者: Attendees 議題: Agenda 討議内容: Discussion 決定事項: Decisions 次回予定: Next meeting Factual recording Clear documentation Action items"
+          }
+        ]
+      },
+      {
+        "level": 2,
+        "heading": "Memo Writing",
+        "content": "",
+        "children": [
+          {
+            "level": 3,
+            "heading": "社内メモ",
+            "content": "To: 〇〇部 各位 \"To: All in 〇〇 dept\" From: 総務部 \"From: General Affairs\" Date: 令和〇年〇月〇日 Re: 〇〇の件 \"Re: Regarding 〇〇\" Brief and clear Internal communication Informative"
+          }
+        ]
+      },
+      {
+        "level": 2,
+        "heading": "Formal Vocabulary",
+        "content": "",
+        "children": [
+          {
+            "level": 3,
+            "heading": "Business terms",
+            "content": "検討する \"examine, consider\" 実施する \"implement, carry out\" 報告する \"report\" 確認する \"confirm\" 承認する \"approve\" 対応する \"deal with, respond\" ご連絡する \"contact (humble)\" お知らせする \"inform (humble)\" Professional vocabulary Precise meaning Standard usage"
+          }
+        ]
+      },
+      {
+        "level": 2,
+        "heading": "Numbers and Dates",
+        "content": "",
+        "children": [
+          {
+            "level": 3,
+            "heading": "Formal notation",
+            "content": "Numbers in kanji for formal: 一万円 \"10,000 yen\" 三千人 \"3,000 people\" Dates: 令和6年10月4日 \"Reiwa 6, October 4\" Or: 2024年10月4日 Consistent format Professional appearance"
+          }
+        ]
+      },
+      {
+        "level": 2,
+        "heading": "Avoiding Ambiguity",
+        "content": "",
+        "children": [
+          {
+            "level": 3,
+            "heading": "Clear communication",
+            "content": "明確に述べる Be explicit 具体的に書く Write specifically 誤解を避ける表現 Avoid ambiguous expressions 数値で示す Show with numbers Precision valued Clarity essential Professional standard"
+          }
+        ]
+      },
+      {
+        "level": 2,
+        "heading": "Attachments",
+        "content": "",
+        "children": [
+          {
+            "level": 3,
+            "heading": "Referencing enclosures",
+            "content": "別紙をご参照ください \"Please refer to attached document\" 添付ファイルをご確認ください \"Please check attached file\" 資料を同封いたします \"We enclose the materials\" Clear reference Professional handling"
+          }
+        ]
+      },
+      {
+        "level": 2,
+        "heading": "Confirmation Requests",
+        "content": "",
+        "children": [
+          {
+            "level": 3,
+            "heading": "Seeking verification",
+            "content": "ご確認のほどよろしくお願いいたします \"Please confirm\" ご査収ください \"Please review and accept\" ご検討いただけますでしょうか \"Could you please consider?\" Professional requests Respectful tone Standard phrases"
+          }
+        ]
+      },
+      {
+        "level": 2,
+        "heading": "Deadline Expressions",
+        "content": "",
+        "children": [
+          {
+            "level": 3,
+            "heading": "Time constraints",
+            "content": "〇月〇日までに \"By (date)\" お早めにご返信ください \"Please reply as soon as possible\" 期限は〇日です \"Deadline is (date)\" なるべく早くご対応ください \"Please respond as soon as possible\" Clear timeframes Professional urgency Respectful requests"
+          }
+        ]
+      },
+      {
+        "level": 2,
+        "heading": "Notification Language",
+        "content": "",
+        "children": [
+          {
+            "level": 3,
+            "heading": "Informing formally",
+            "content": "お知らせいたします \"We inform you\" ご案内申し上げます \"We would like to inform you\" ご報告いたします \"We report\" お伝えいたします \"We convey\" Formal notification Professional courtesy Standard announcements"
+          }
+        ]
+      },
+      {
+        "level": 2,
+        "heading": "Response Acknowledgment",
+        "content": "",
+        "children": [
+          {
+            "level": 3,
+            "heading": "Confirming receipt",
+            "content": "ご連絡ありがとうございます \"Thank you for contacting us\" メールを拝受いたしました \"We received your email\" 承知いたしました \"Understood / Acknowledged\" かしこまりました \"Certainly\" Professional acknowledgment Prompt response Courtesy"
+          }
+        ]
+      },
+      {
+        "level": 2,
+        "heading": "Refusal Language",
+        "content": "",
+        "children": [
+          {
+            "level": 3,
+            "heading": "Declining politely",
+            "content": "誠に申し訳ございませんが \"We are truly sorry, but...\" 残念ながら〜できかねます \"Unfortunately we cannot...\" ご期待に沿えず申し訳ございません \"We apologize for not meeting your expectations\" Diplomatic refusal Maintaining relationship Professional courtesy"
+          }
+        ]
+      },
+      {
+        "level": 2,
+        "heading": "Contract Language",
+        "content": "",
+        "children": [
+          {
+            "level": 3,
+            "heading": "Legal documents",
+            "content": "甲 \"Party A\" 乙 \"Party B\" 以下の通り契約する \"Contract as follows\" 本契約は〜 \"This contract...\" である style Legal precision Formal structure"
+          }
+        ]
+      },
+      {
+        "level": 2,
+        "heading": "Common Mistakes",
+        "content": "❌ Using casual language ✗ ちょっと待ってください ✓ Formal language ✓ 少々お待ちください ❌ Insufficient keigo Must use appropriate honorifics ✓ Proper keigo Client = 尊敬語 Self = 謙譲語 ❌ Unclear structure Proper formatting essential ✓ Standard format Clear sections and headings ❌ Ambiguous expressions Precision required ✓ Clear, specific language Avoid misunderstanding Professional tone essential Respect crucial Format matters"
+      },
+      {
+        "level": 2,
+        "heading": "Practical Examples",
+        "content": "",
+        "children": [
+          {
+            "level": 3,
+            "heading": "Business email",
+            "content": "件名: 会議日程のご確認 〇〇株式会社 営業部 田中様 いつもお世話になっております。 株式会社△△の山田でございます。 先日ご提案いただきました会議の件ですが、 以下の日程でご都合はいかがでしょうか。 日時: 10月15日（火）14:00-15:00 場所: 弊社会議室 ご確認のほどよろしくお願いいたします。 何かご不明な点がございましたら、 お気軽にお問い合わせください。 今後ともよろしくお願いいたします。 株式会社△△ 営業部 山田太郎 Tel: 03-1234-5678 Email: [email protected] Standard format Polite language Clear content Professional tone Contact information"
+          },
+          {
+            "level": 3,
+            "heading": "Internal report",
+            "content": "報告書 件名: 第3四半期売上報告 日付: 2024年10月4日 報告者: 営業部 佐藤 1. 概要 第3四半期の売上は前年比10%増となった。 2. 詳細 - 新規顧客: 50社 - 売上高: 5000万円 - 主要製品: A製品が好調 3. 課題 競合他社の攻勢が激しく、価格競争が激化している。 4. 今後の対策 新製品の開発を加速し、差別化を図る必要がある。 以上 Clear structure Objective tone Factual presentation Actionable conclusions Professional format"
+          },
+          {
+            "level": 3,
+            "heading": "Company",
+            "content": "About Pricing Blog Contact"
+          },
+          {
+            "level": 3,
+            "heading": "Legal",
+            "content": "Privacy Policy Terms of Service Cookie Policy"
+          }
+        ]
+      }
+    ],
+    "metadata": {
+      "title": "Business Writing"
+    }
+  },
+  "metadata": {
+    "extracted_at": "2026-01-01T22:19:27.840700500Z",
+    "duration_ms": 5,
+    "extractors_matched": [
+      "metadata",
+      "examples",
+      "sections"
+    ],
+    "extractors_failed": [
+      "vocab_tables",
+      "definitions",
+      "content_blocks"
+    ]
+  }
+}

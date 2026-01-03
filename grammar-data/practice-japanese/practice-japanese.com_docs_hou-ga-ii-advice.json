@@ -1,0 +1,422 @@
+{
+  "config_name": "Language Learning Extractor",
+  "url": "https://practice-japanese.com/docs/hou-ga-ii-advice/",
+  "data": {
+    "sections": [
+      {
+        "level": 2,
+        "heading": "What is 〜ほうがいい?",
+        "content": "〜ほうがいい is used to give advice or recommendations, meaning \"should,\" \"had better,\" or \"it would be better to.\" It's more direct than といい but not as strong as べき.\n\n休んだほうがいい \"You should rest\" / \"You had better rest\" 医者に行ったほうがいいですよ \"You should go to the doctor\" 早く寝たほうがいい \"You should sleep early\""
+      },
+      {
+        "level": 2,
+        "heading": "Formation",
+        "content": "",
+        "children": [
+          {
+            "level": 3,
+            "heading": "Pattern: Verb た-form + ほうがいい(です)",
+            "content": "| Verb | た-form | + ほうがいい | | ------ | ------- | ---------------- | | 見る | 見た | 見たほうがいい | | 食べる | 食べた | 食べたほうがいい | | 来る | 来た | 来たほうがいい | | する | した | したほうがいい | | 行く | 行った | 行ったほうがいい | | 読む | 読んだ | 読んだほうがいい |"
+          },
+          {
+            "level": 3,
+            "heading": "Negative advice (ない form)",
+            "content": "食べないほうがいい \"You shouldn't eat\" 行かないほうがいい \"You shouldn't go\" Use ない-form, NOT なかった!"
+          }
+        ]
+      },
+      {
+        "level": 2,
+        "heading": "Basic Usage",
+        "content": "",
+        "children": [
+          {
+            "level": 3,
+            "heading": "Positive advice (should do)",
+            "content": "もっと勉強したほうがいいよ \"You should study more\" 医者に行ったほうがいいですよ \"You should go to the doctor\" 謝ったほうがいい \"You should apologize\""
+          },
+          {
+            "level": 3,
+            "heading": "Negative advice (shouldn't do)",
+            "content": "そんなに食べないほうがいい \"You shouldn't eat that much\" 行かないほうがいいよ \"You shouldn't go\" 無理しないほうがいいですよ \"You shouldn't overdo it\""
+          }
+        ]
+      },
+      {
+        "level": 2,
+        "heading": "Politeness Levels",
+        "content": "",
+        "children": [
+          {
+            "level": 3,
+            "heading": "Casual: ほうがいい",
+            "content": "休んだほうがいいよ \"You should rest\" Use with friends"
+          },
+          {
+            "level": 3,
+            "heading": "Polite: ほうがいいです",
+            "content": "休んだほうがいいですよ \"You should rest\" Standard polite form"
+          },
+          {
+            "level": 3,
+            "heading": "Softer: ほうがいいと思います",
+            "content": "休んだほうがいいと思います \"I think you should rest\" Adds と思う to soften"
+          },
+          {
+            "level": 3,
+            "heading": "Very soft: ほうがいいんじゃないですか",
+            "content": "休んだほうがいいんじゃないですか \"Don't you think you should rest?\" Most tentative"
+          }
+        ]
+      },
+      {
+        "level": 2,
+        "heading": "Common Conversations",
+        "content": "",
+        "children": [
+          {
+            "level": 3,
+            "heading": "Example 1: Health Advice",
+            "content": "A: 熱があるんだ \"I have a fever\" B: 今日は会社を休んだほうがいいよ \"You should take the day off from work\" A: そうだね。そうする \"You're right. I'll do that\""
+          },
+          {
+            "level": 3,
+            "heading": "Example 2: Study Advice",
+            "content": "A: 試験、心配だな \"I'm worried about the exam\" B: もっと勉強したほうがいいんじゃない？ \"Don't you think you should study more?\" A: うん、頑張るよ \"Yeah, I'll do my best\""
+          },
+          {
+            "level": 3,
+            "heading": "Example 3: Relationship Advice",
+            "content": "A: 彼氏とまた喧嘩しちゃった \"I had another fight with my boyfriend\" B: ちゃんと話し合ったほうがいいですよ \"You should talk it through properly\" A: そうですね \"You're right\""
+          }
+        ]
+      },
+      {
+        "level": 2,
+        "heading": "Common Mistakes",
+        "content": "",
+        "children": [
+          {
+            "level": 3,
+            "heading": "Mistake 1: Using dictionary form",
+            "content": "Wrong: 行くほうがいい ❌ Right: 行ったほうがいい ✓ \"You should go\" Must use た-form for positive!"
+          },
+          {
+            "level": 3,
+            "heading": "Mistake 2: Using past tense for negative",
+            "content": "Wrong: 食べなかったほうがいい ❌ Right: 食べないほうがいい ✓ \"You shouldn't eat\" Use ない-form, not なかった!"
+          },
+          {
+            "level": 3,
+            "heading": "Mistake 3: Too direct with strangers",
+            "content": "Too direct: 休んだほうがいい (to stranger) ⚠️ Better: 休まれたほうがいいかもしれませんね ✓ \"Perhaps you should rest\" Add softeners with strangers!"
+          }
+        ]
+      },
+      {
+        "level": 2,
+        "heading": "Positive vs Negative",
+        "content": "",
+        "children": [
+          {
+            "level": 3,
+            "heading": "Positive (should do)",
+            "content": "行ったほうがいい - You should go 食べたほうがいい - You should eat 勉強したほうがいい - You should study Use た-form"
+          },
+          {
+            "level": 3,
+            "heading": "Negative (shouldn't do)",
+            "content": "行かないほうがいい - You shouldn't go 食べないほうがいい - You shouldn't eat 勉強しないほうがいい - You shouldn't study Use ない-form"
+          }
+        ]
+      },
+      {
+        "level": 2,
+        "heading": "Common Advice Topics",
+        "content": "",
+        "children": [
+          {
+            "level": 3,
+            "heading": "Health advice",
+            "content": "医者に行ったほうがいいよ \"You should go to the doctor\" もっと寝たほうがいいです \"You should sleep more\" 運動したほうがいい \"You should exercise\" タバコをやめたほうがいいですよ \"You should quit smoking\""
+          },
+          {
+            "level": 3,
+            "heading": "Study/work advice",
+            "content": "もっと勉強したほうがいい \"You should study more\" 先生に相談したほうがいいよ \"You should consult the teacher\" 早く始めたほうがいいです \"You should start early\" 計画を立てたほうがいい \"You should make a plan\""
+          },
+          {
+            "level": 3,
+            "heading": "Relationship advice",
+            "content": "謝ったほうがいいよ \"You should apologize\" 正直に話したほうがいい \"You should talk honestly\" 別れたほうがいいんじゃない？ \"Don't you think you should break up?\""
+          },
+          {
+            "level": 3,
+            "heading": "Safety warnings",
+            "content": "行かないほうがいいよ \"You shouldn't go\" 触らないほうがいい \"You shouldn't touch it\" 信じないほうがいいです \"You shouldn't believe it\""
+          }
+        ]
+      },
+      {
+        "level": 2,
+        "heading": "Softening the Advice",
+        "content": "",
+        "children": [
+          {
+            "level": 3,
+            "heading": "Adding と思う (I think)",
+            "content": "休んだほうがいいと思います \"I think you should rest\" Makes it your opinion, not a command"
+          },
+          {
+            "level": 3,
+            "heading": "Adding かもしれない (might)",
+            "content": "医者に行ったほうがいいかもしれません \"You might want to go to the doctor\" Very soft suggestion"
+          },
+          {
+            "level": 3,
+            "heading": "Adding んじゃない？ (don't you think?)",
+            "content": "謝ったほうがいいんじゃない？ \"Don't you think you should apologize?\" Asking their opinion"
+          },
+          {
+            "level": 3,
+            "heading": "Adding よ for emphasis",
+            "content": "早く帰ったほうがいいよ \"You really should go home early\" Friendly emphasis"
+          }
+        ]
+      },
+      {
+        "level": 2,
+        "heading": "Comparing Advice Strengths",
+        "content": "",
+        "children": [
+          {
+            "level": 3,
+            "heading": "といい (softest)",
+            "content": "休むといいですよ \"It would be good if you rested\" Gentle wish/hope"
+          },
+          {
+            "level": 3,
+            "heading": "たらどう (casual suggestion)",
+            "content": "休んだらどう？ \"How about resting?\" Casual advice"
+          },
+          {
+            "level": 3,
+            "heading": "ほうがいい (recommendation)",
+            "content": "休んだほうがいい \"You should rest\" Clear recommendation"
+          },
+          {
+            "level": 3,
+            "heading": "べき (strongest)",
+            "content": "休むべきだ \"You must rest\" Strong obligation"
+          }
+        ]
+      },
+      {
+        "level": 2,
+        "heading": "When to Use Each",
+        "content": "",
+        "children": [
+          {
+            "level": 3,
+            "heading": "Use ほうがいい when",
+            "content": "✓ Giving clear advice ✓ Health and safety matters ✓ Friend asking for advice ✓ Concerned recommendation ✓ Practical suggestions"
+          },
+          {
+            "level": 3,
+            "heading": "Don't use ほうがいい when",
+            "content": "✗ Speaking to superiors (too direct) ✗ Very sensitive topics (too blunt) ✗ When advice wasn't asked for ✗ With people you don't know well"
+          }
+        ]
+      },
+      {
+        "level": 2,
+        "heading": "Responding to ほうがいい",
+        "content": "",
+        "children": [
+          {
+            "level": 3,
+            "heading": "Agreeing",
+            "content": "そうだね \"You're right\" そうします \"I'll do that\" 分かった \"Got it\" そうしようと思います \"I was thinking of doing that\""
+          },
+          {
+            "level": 3,
+            "heading": "Disagreeing politely",
+            "content": "でも、ちょっと難しいんだよね \"But it's a bit difficult\" そうかもしれないけど... \"That might be true, but...\" 考えてみます \"I'll think about it\""
+          }
+        ]
+      },
+      {
+        "level": 2,
+        "heading": "In Different Contexts",
+        "content": "",
+        "children": [
+          {
+            "level": 3,
+            "heading": "At work (to colleague)",
+            "content": "上司に報告したほうがいいんじゃない？ \"Don't you think you should report to the boss?\" 資料を確認したほうがいいですよ \"You should check the documents\""
+          },
+          {
+            "level": 3,
+            "heading": "To family",
+            "content": "早く寝たほうがいいよ \"You should sleep early\" 野菜も食べたほうがいい \"You should eat vegetables too\""
+          },
+          {
+            "level": 3,
+            "heading": "To friends",
+            "content": "あいつとは付き合わないほうがいいよ \"You shouldn't date that guy\" もっと自信を持ったほうがいいよ \"You should have more confidence\""
+          }
+        ]
+      },
+      {
+        "level": 2,
+        "heading": "Urgent Advice",
+        "content": "",
+        "children": [
+          {
+            "level": 3,
+            "heading": "When it's important",
+            "content": "すぐに病院に行ったほうがいい \"You should go to the hospital right away\" 今日中に終わらせたほうがいいですよ \"You should finish it today\" 早く決めたほうがいい \"You should decide quickly\""
+          }
+        ]
+      },
+      {
+        "level": 2,
+        "heading": "Adding Reasons",
+        "content": "",
+        "children": [
+          {
+            "level": 3,
+            "heading": "Explaining why",
+            "content": "雨が降るから、傘を持って行ったほうがいい \"It's going to rain, so you should take an umbrella\" 試験があるんだから、勉強したほうがいいよ \"You have an exam, so you should study\" 危ないから、行かないほうがいい \"It's dangerous, so you shouldn't go\""
+          }
+        ]
+      },
+      {
+        "level": 2,
+        "heading": "Conditional Patterns",
+        "content": "",
+        "children": [
+          {
+            "level": 3,
+            "heading": "If conditions",
+            "content": "時間があるなら、見たほうがいい \"If you have time, you should watch it\" お金がないなら、買わないほうがいいよ \"If you don't have money, you shouldn't buy it\""
+          }
+        ]
+      },
+      {
+        "level": 2,
+        "heading": "Past Advice (Regret)",
+        "content": "",
+        "children": [
+          {
+            "level": 3,
+            "heading": "Should have done",
+            "content": "勉強したほうがよかった \"I should have studied\" (regret) 行かないほうがよかった \"I shouldn't have gone\" (regret) Uses past tense よかった"
+          }
+        ]
+      },
+      {
+        "level": 2,
+        "heading": "Making Lists of Advice",
+        "content": "早く寝たほうがいいし、野菜も食べたほうがいい \"You should sleep early, and you should eat vegetables too\" Using し to connect multiple advice"
+      },
+      {
+        "level": 2,
+        "heading": "Practice Sentences",
+        "content": "",
+        "children": [
+          {
+            "level": 3,
+            "heading": "Basic",
+            "content": "もっと休んだほうがいいよ \"You should rest more\" 医者に行ったほうがいいです \"You should go to the doctor\" タバコをやめたほうがいい \"You should quit smoking\""
+          },
+          {
+            "level": 3,
+            "heading": "Intermediate",
+            "content": "そんなに無理しないほうがいいんじゃない？ \"Don't you think you shouldn't push yourself so hard?\" 試験の前にちゃんと復習したほうがいいと思います \"I think you should review properly before the exam\" 彼に正直に話したほうがいいですよ \"You should talk to him honestly\""
+          },
+          {
+            "level": 3,
+            "heading": "Advanced",
+            "content": "その仕事、条件があまり良くないから、もう一度よく考えたほうがいいと思いますよ \"That job doesn't have very good conditions, so I think you should think about it carefully once more\" 体調が悪いなら、無理して会社に行かないほうがいいんじゃないですか \"If you're not feeling well, don't you think you shouldn't force yourself to go to work?\" 今はまだ決断する時期じゃないと思うから、もう少し待ったほうがいいかもしれません \"I don't think it's time to decide yet, so you might want to wait a bit longer\""
+          }
+        ]
+      },
+      {
+        "level": 2,
+        "heading": "Related Grammar Points",
+        "content": "〜べき - Should/must (stronger) 〜たらどう - How about (casual) 〜といい - It would be good if (softer) 〜ないほうがいい - Shouldn't (negative advice) 〜たほうがよかった - Should have (regret) Giving advice - Advice patterns",
+        "children": [
+          {
+            "level": 3,
+            "heading": "Company",
+            "content": "About Pricing Blog Contact"
+          },
+          {
+            "level": 3,
+            "heading": "Legal",
+            "content": "Privacy Policy Terms of Service Cookie Policy"
+          }
+        ]
+      }
+    ],
+    "metadata": {
+      "title": "〜ほうがいい (Had better)"
+    },
+    "examples": [
+      {
+        "sentence": "〜べき - Should/must (stronger)"
+      },
+      {
+        "sentence": "〜たらどう - How about (casual)"
+      },
+      {
+        "sentence": "〜といい - It would be good if (softer)"
+      },
+      {
+        "sentence": "〜ないほうがいい - Shouldn't (negative advice)"
+      },
+      {
+        "sentence": "〜たほうがよかった - Should have (regret)"
+      },
+      {
+        "sentence": "Giving advice - Advice patterns"
+      },
+      {
+        "sentence": "About"
+      },
+      {
+        "sentence": "Pricing"
+      },
+      {
+        "sentence": "Blog"
+      },
+      {
+        "sentence": "Contact"
+      },
+      {
+        "sentence": "Privacy Policy"
+      },
+      {
+        "sentence": "Terms of Service"
+      },
+      {
+        "sentence": "Cookie Policy"
+      }
+    ]
+  },
+  "metadata": {
+    "extracted_at": "2026-01-01T22:19:30.018620100Z",
+    "duration_ms": 5,
+    "extractors_matched": [
+      "metadata",
+      "examples",
+      "sections"
+    ],
+    "extractors_failed": [
+      "vocab_tables",
+      "definitions",
+      "content_blocks"
+    ]
+  }
+}

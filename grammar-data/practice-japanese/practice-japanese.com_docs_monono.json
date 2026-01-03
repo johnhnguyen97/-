@@ -1,0 +1,285 @@
+{
+  "config_name": "Language Learning Extractor",
+  "url": "https://practice-japanese.com/docs/monono/",
+  "data": {
+    "sections": [
+      {
+        "level": 2,
+        "heading": "What is 〜ものの?",
+        "content": "〜ものの (monono) is a formal conjunction meaning \"although\" or \"though.\" It expresses contrast between expectation and reality, often with a sense of disappointment. It's mainly used in writing and formal speech.\n\nEnglish equivalent: \"although,\" \"though,\" \"even though,\" \"despite\"\n\nStructure: [Verb/Adjective plain form] + ものの\n\n行った (itta - went) + ものの = 行ったものの \"although I went\" 高い (takai - expensive) + ものの = 高いものの \"although it's expensive\" 便利な (benri na - convenient) + ものの = 便利なものの \"although it's convenient\""
+      },
+      {
+        "level": 2,
+        "heading": "Basic Formation",
+        "content": "",
+        "children": [
+          {
+            "level": 3,
+            "heading": "With verbs (plain form)",
+            "content": "[Verb plain form] + ものの\n\n行ったものの (itta monono) - \"although I went\" 買ったものの (katta monono) - \"although I bought\" 始めたものの (hajimeta monono) - \"although I started\" 勉強したものの (benkyou shita monono) - \"although I studied\""
+          },
+          {
+            "level": 3,
+            "heading": "With い-adjectives",
+            "content": "[い-adjective] + ものの\n\n高いものの (takai monono) - \"although it's expensive\" 難しいものの (muzukashii monono) - \"although it's difficult\" 遠いものの (tooi monono) - \"although it's far\""
+          },
+          {
+            "level": 3,
+            "heading": "With な-adjectives",
+            "content": "[な-adjective] + な + ものの [な-adjective] + である + ものの (formal writing)\n\n便利なものの (benri na monono) - \"although it's convenient\" 簡単なものの (kantan na monono) - \"although it's simple\" 便利であるものの (benri de aru monono) - \"although it's convenient\" (formal)"
+          },
+          {
+            "level": 3,
+            "heading": "With nouns",
+            "content": "[Noun] + である + ものの\n\n学生であるものの (gakusei de aru monono) - \"although [he's] a student\" 専門家であるものの (senmonka de aru monono) - \"although [he's] an expert\""
+          }
+        ]
+      },
+      {
+        "level": 2,
+        "heading": "Disappointment or Unexpected Result",
+        "content": "",
+        "children": [
+          {
+            "level": 3,
+            "heading": "Reality differs from expectation",
+            "content": "買ったものの、使っていない。 Katta monono, tsukatte inai. \"Although I bought it, I'm not using it.\" 計画したものの、実行できなかった。 Keikaku shita monono, jikkou dekinakatta. \"Although I planned it, I couldn't execute it.\" 始めたものの、すぐに諦めた。 Hajimeta monono, sugu ni akirameta. \"Although I started, I gave up right away.\""
+          }
+        ]
+      },
+      {
+        "level": 2,
+        "heading": "Formal Writing",
+        "content": "",
+        "children": [
+          {
+            "level": 3,
+            "heading": "Literary and academic",
+            "content": "努力したものの、成果は得られなかった。 Doryoku shita monono, seika wa erarenakatta. \"Although I made efforts, I couldn't obtain results.\" 高価であるものの、品質は優れている。 Kouka de aru monono, hinshitsu wa sugurete iru. \"Although it's expensive, the quality is excellent.\" 理論的には可能であるものの、実現は困難だ。 Rironteki ni wa kanou de aru monono, jitsugen wa konnan da. \"Although it's theoretically possible, realization is difficult.\""
+          }
+        ]
+      },
+      {
+        "level": 2,
+        "heading": "Expressing Regret",
+        "content": "",
+        "children": [
+          {
+            "level": 3,
+            "heading": "Things that didn't go as hoped",
+            "content": "勉強したものの、試験に落ちた。 Benkyou shita monono, shiken ni ochita. \"Although I studied, I failed the exam.\" 頑張ったものの、うまくいかなかった。 Ganbatta monono, umaku ikanakatta. \"Although I tried hard, it didn't go well.\" 準備したものの、中止になった。 Junbi shita monono, chuushi ni natta. \"Although I prepared, it was canceled.\""
+          }
+        ]
+      },
+      {
+        "level": 2,
+        "heading": "Acknowledging While Contrasting",
+        "content": "",
+        "children": [
+          {
+            "level": 3,
+            "heading": "Admitting one thing, but...",
+            "content": "理解はできるものの、賛成はできない。 Rikai wa dekiru monono, sansei wa dekinai. \"Although I can understand, I cannot agree.\" 便利であるものの、高すぎる。 Benri de aru monono, takasugiru. \"Although it's convenient, it's too expensive.\" 面白いものの、長すぎる。 Omoshiroi monono, nagasugiru. \"Although it's interesting, it's too long.\""
+          }
+        ]
+      },
+      {
+        "level": 2,
+        "heading": "Comparing ものの and けど/が",
+        "content": "",
+        "children": [
+          {
+            "level": 3,
+            "heading": "Formal vs casual contrast",
+            "content": "ものの - Formal, written:\n\n行ったものの、会えなかった。 Itta monono, aenakatta. \"Although I went, I couldn't meet them.\" (formal/written)\n\nけど - Casual:\n\n行ったけど、会えなかった。 Itta kedo, aenakatta. \"I went, but I couldn't meet them.\" (casual)\n\nが - Polite:\n\n行きましたが、会えませんでした。 Ikimashita ga, aemasen deshita. \"I went, but I couldn't meet them.\" (polite)\n\n| Pattern | Formality | Context | | ------- | --------- | ---------------------- | | ものの | Formal | Writing, formal speech | | が | Polite | Polite conversation | | けど | Casual | Casual conversation |\n\nSee: 〜けど (But) See: 〜が (However)"
+          }
+        ]
+      },
+      {
+        "level": 2,
+        "heading": "In News and Reports",
+        "content": "",
+        "children": [
+          {
+            "level": 3,
+            "heading": "Journalistic usage",
+            "content": "経済は回復したものの、まだ不安定だ。 Keizai wa kaifuku shita monono, mada fuantei da. \"Although the economy recovered, it's still unstable.\" 法案は可決されたものの、反対意見も多い。 Houan wa kaketsu sareta monono, hantai iken mo ooi. \"Although the bill was passed, there are many opposing opinions.\" 新製品は発表されたものの、発売は来年だ。 Shinseihin wa happyou sareta monono, hatsubai wa rainen da. \"Although the new product was announced, it won't be released until next year.\""
+          }
+        ]
+      },
+      {
+        "level": 2,
+        "heading": "Academic Writing",
+        "content": "",
+        "children": [
+          {
+            "level": 3,
+            "heading": "Research and analysis",
+            "content": "実験は成功したものの、課題は残った。 Jikken wa seikou shita monono, kadai wa nokotta. \"Although the experiment succeeded, challenges remained.\" 仮説は立てたものの、検証には時間がかかる。 Kasetsu wa tateta monono, kenshou ni wa jikan ga kakaru. \"Although we formulated a hypothesis, verification will take time.\" データは集めたものの、分析は未完了だ。 Deeta wa atsumeta monono, bunseki wa mikanryou da. \"Although we collected data, analysis is incomplete.\""
+          }
+        ]
+      },
+      {
+        "level": 2,
+        "heading": "Not Common in Spoken Language",
+        "content": "",
+        "children": [
+          {
+            "level": 3,
+            "heading": "Rare in daily conversation",
+            "content": "ものの is literary/formal and rarely used in casual speech.\n\nDaily conversation: ❌ 行ったものの、会えなかった (too formal) ✓ 行ったけど、会えなかった Formal writing: ✓ 計画したものの、実現しなかった ✓ 努力したものの、成功しなかった"
+          }
+        ]
+      },
+      {
+        "level": 2,
+        "heading": "Comparing ものの and のに",
+        "content": "",
+        "children": [
+          {
+            "level": 3,
+            "heading": "Formal concession vs disappointment",
+            "content": "ものの - Formal concession:\n\n勉強したものの、できなかった。 Benkyou shita monono, dekinakatta. \"Although I studied, I couldn't do it.\" (formal, neutral)\n\nのに - Disappointment:\n\n勉強したのに、できなかった。 Benkyou shita noni, dekinakatta. \"Even though I studied, I couldn't do it.\" (disappointed)\n\n| Pattern | Nuance | Formality | | ------- | -------------- | --------- | | ものの | Neutral/formal | Formal | | のに | Disappointment | Casual |\n\nSee: 〜のに (Even though)"
+          }
+        ]
+      },
+      {
+        "level": 2,
+        "heading": "With である",
+        "content": "",
+        "children": [
+          {
+            "level": 3,
+            "heading": "Extra formal",
+            "content": "専門家であるものの、間違えることもある。 Senmonka de aru monono, machigaeru koto mo aru. \"Although [he's] an expert, he also makes mistakes.\" 学生であるものの、社会経験は豊富だ。 Gakusei de aru monono, shakai keiken wa houfu da. \"Although [he's] a student, he has extensive social experience.\" 小さい会社であるものの、技術力は高い。 Chiisai kaisha de aru monono, gijutsuryoku wa takai. \"Although it's a small company, its technical capabilities are high.\""
+          }
+        ]
+      },
+      {
+        "level": 2,
+        "heading": "Common Expressions",
+        "content": "〜ものの、〜ない (monono ~nai) - \"although ~, cannot ~\" 買ったものの (katta monono) - \"although I bought\" 始めたものの (hajimeta monono) - \"although I started\" 計画したものの (keikaku shita monono) - \"although I planned\" 理解できるものの (rikai dekiru monono) - \"although I can understand\" 〜であるものの (de aru monono) - \"although it is ~\" (formal)"
+      },
+      {
+        "level": 2,
+        "heading": "Position in Sentence",
+        "content": "",
+        "children": [
+          {
+            "level": 3,
+            "heading": "Connecting clauses",
+            "content": "[Expectation] + ものの + [Contrasting reality] 成功したものの、満足していない。 Seikou shita monono, manzoku shite inai. \"Although I succeeded, I'm not satisfied.\""
+          }
+        ]
+      },
+      {
+        "level": 2,
+        "heading": "Common Mistakes",
+        "content": "",
+        "children": [
+          {
+            "level": 3,
+            "heading": "Mistake 1: Using in casual conversation",
+            "content": "❌ 昨日行ったものの、楽しかった (too formal for casual chat) ✓ 昨日行ったけど、楽しかった\n\nSave ものの for writing and formal contexts."
+          },
+          {
+            "level": 3,
+            "heading": "Mistake 2: Wrong form with な-adjectives",
+            "content": "❌ 便利ものの ✓ 便利なものの ✓ 便利であるものの (more formal)"
+          },
+          {
+            "level": 3,
+            "heading": "Mistake 3: Using with positive outcomes",
+            "content": "ものの typically implies disappointment or unexpected negative result.\n\nLess natural: 勉強したものの、合格した More natural: 勉強したものの、落ちた"
+          },
+          {
+            "level": 3,
+            "heading": "Mistake 4: Confusing with もの (thing)",
+            "content": "もの = thing ものの = although 買ったもの = thing I bought 買ったものの = although I bought"
+          }
+        ]
+      },
+      {
+        "level": 2,
+        "heading": "Summary",
+        "content": "Key Points:\n\nものの expresses formal \"although/though\" Formation: [Plain form / である] + ものの Mainly used in writing and formal speech Often implies disappointment or unexpected result More formal than けど and が Common in news, academic writing, reports Rarely used in casual conversation Essential for formal written expression",
+        "children": [
+          {
+            "level": 3,
+            "heading": "Company",
+            "content": "About Pricing Blog Contact"
+          },
+          {
+            "level": 3,
+            "heading": "Legal",
+            "content": "Privacy Policy Terms of Service Cookie Policy"
+          }
+        ]
+      }
+    ],
+    "metadata": {
+      "title": "〜ものの (Although)"
+    },
+    "examples": [
+      {
+        "sentence": "ものの expresses formal \"although/though\""
+      },
+      {
+        "sentence": "Formation: [Plain form / である] + ものの"
+      },
+      {
+        "sentence": "Mainly used in writing and formal speech"
+      },
+      {
+        "sentence": "Often implies disappointment or unexpected result"
+      },
+      {
+        "sentence": "More formal than けど and が"
+      },
+      {
+        "sentence": "Common in news, academic writing, reports"
+      },
+      {
+        "sentence": "Rarely used in casual conversation"
+      },
+      {
+        "sentence": "Essential for formal written expression"
+      },
+      {
+        "sentence": "About"
+      },
+      {
+        "sentence": "Pricing"
+      },
+      {
+        "sentence": "Blog"
+      },
+      {
+        "sentence": "Contact"
+      },
+      {
+        "sentence": "Privacy Policy"
+      },
+      {
+        "sentence": "Terms of Service"
+      },
+      {
+        "sentence": "Cookie Policy"
+      }
+    ]
+  },
+  "metadata": {
+    "extracted_at": "2026-01-01T22:19:31.472373800Z",
+    "duration_ms": 4,
+    "extractors_matched": [
+      "metadata",
+      "examples",
+      "sections"
+    ],
+    "extractors_failed": [
+      "vocab_tables",
+      "definitions",
+      "content_blocks"
+    ]
+  }
+}

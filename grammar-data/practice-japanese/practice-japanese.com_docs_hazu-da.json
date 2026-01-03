@@ -1,0 +1,439 @@
+{
+  "config_name": "Language Learning Extractor",
+  "url": "https://practice-japanese.com/docs/hazu-da/",
+  "data": {
+    "metadata": {
+      "title": "〜はずだ (Should be)"
+    },
+    "sections": [
+      {
+        "level": 2,
+        "heading": "What is 〜はずだ?",
+        "content": "〜はずだ expresses logical expectations or reasonable assumptions based on available information, meaning \"should be,\" \"supposed to,\" \"ought to,\" or \"is expected to.\" It indicates what you believe is logical or reasonable.\n\n彼は今日来るはずだ \"He should come today\" (based on plan) これで動くはずです \"This should work\" (based on logic) 知っているはずだ \"He should know\" (reasonable expectation)"
+      },
+      {
+        "level": 2,
+        "heading": "Formation",
+        "content": "",
+        "children": [
+          {
+            "level": 3,
+            "heading": "Pattern: Plain form + はずだ",
+            "content": "With verbs:\n\n行く → 行くはずだ (should go) 行った → 行ったはずだ (should have gone) 行かない → 行かないはずだ (shouldn't go)\n\nWith い-adjectives:\n\n高い → 高いはずだ (should be expensive) 高かった → 高かったはずだ (should have been expensive)\n\nWith な-adjectives:\n\n便利 → 便利なはずだ (should be convenient) 簡単 → 簡単なはずだ (should be easy) Use な before はずだ\n\nWith nouns:\n\n学生 → 学生のはずだ (should be a student) 本物 → 本物のはずだ (should be genuine) Use の before はずだ"
+          }
+        ]
+      },
+      {
+        "level": 2,
+        "heading": "Basic Usage",
+        "content": "",
+        "children": [
+          {
+            "level": 3,
+            "heading": "Based on plans/schedules",
+            "content": "彼は3時に来るはずです \"He should come at 3\" (that's the plan) 明日は休みのはずだ \"Tomorrow should be a holiday\" (according to calendar) 会議は10時に始まるはずだ \"The meeting should start at 10\" (scheduled time)"
+          },
+          {
+            "level": 3,
+            "heading": "Based on logic/reasoning",
+            "content": "これで動くはずだ \"This should work\" (logically) 彼は知っているはずだ \"He should know\" (it's reasonable to assume) 簡単なはずです \"It should be easy\" (based on reasoning)"
+          },
+          {
+            "level": 3,
+            "heading": "Based on past information",
+            "content": "ここにあったはずだ \"It should have been here\" (I put it here) 彼は昨日来たはずだ \"He should have come yesterday\" (that was the plan)"
+          }
+        ]
+      },
+      {
+        "level": 2,
+        "heading": "Key Characteristics",
+        "content": "",
+        "children": [
+          {
+            "level": 3,
+            "heading": "Shows logical expectation",
+            "content": "Based on: - Plans and schedules - Previous information - Logical reasoning - Common sense - Known facts Not personal opinion, but logical conclusion"
+          },
+          {
+            "level": 3,
+            "heading": "Different from にちがいない",
+            "content": "はずだ: Logical expectation 彼は来るはずだ (based on plan/logic) \"He should come\" にちがいない: Strong conviction 彼は来るにちがいない (I'm very sure) \"He must come\" Different bases for belief"
+          }
+        ]
+      },
+      {
+        "level": 2,
+        "heading": "Common Conversations",
+        "content": "",
+        "children": [
+          {
+            "level": 3,
+            "heading": "Example 1: Checking Plans",
+            "content": "A: 田中さん、今日来る？ \"Is Tanaka coming today?\" B: うん、来るはずだよ。そう言ってたから \"Yeah, he should come. Because he said so\" A: 分かった \"Got it\""
+          },
+          {
+            "level": 3,
+            "heading": "Example 2: Logical Reasoning",
+            "content": "A: このボタン押せば動く？ \"Will it work if I press this button?\" B: うん、動くはずだ \"Yeah, it should work\" A: じゃあ、やってみる \"Then I'll try\""
+          },
+          {
+            "level": 3,
+            "heading": "Example 3: Past Expectation",
+            "content": "A: 鍵、どこ？ \"Where's the key?\" B: ここにあったはずなんだけど... \"It should have been here...\" A: 探そう \"Let's look for it\""
+          }
+        ]
+      },
+      {
+        "level": 2,
+        "heading": "Common Mistakes",
+        "content": "",
+        "children": [
+          {
+            "level": 3,
+            "heading": "Mistake 1: Confusing with だろう",
+            "content": "はずだ: Based on facts/logic 来るはずだ (he said he would) \"He should come\" だろう: Probability/guess 来るだろう (probably) \"He'll probably come\" Different bases!"
+          },
+          {
+            "level": 3,
+            "heading": "Mistake 2: Wrong particle with nouns",
+            "content": "Wrong: 学生はずだ ❌ Right: 学生のはずだ ✓ \"Should be a student\" Use の with nouns/な-adjectives!"
+          },
+          {
+            "level": 3,
+            "heading": "Mistake 3: Using for personal desires",
+            "content": "Wrong: 晴れるはずだ (I hope) ❌ Right: 晴れるはずだ (forecast says so) ✓ Based on objective info, not wishes"
+          }
+        ]
+      },
+      {
+        "level": 2,
+        "heading": "Polite Forms",
+        "content": "",
+        "children": [
+          {
+            "level": 3,
+            "heading": "Casual: はずだ",
+            "content": "来るはずだ \"Should come\""
+          },
+          {
+            "level": 3,
+            "heading": "Polite: はずです",
+            "content": "来るはずです \"Should come\" Standard polite"
+          },
+          {
+            "level": 3,
+            "heading": "Negative: はずがない / はずはない",
+            "content": "Wrong: はずじゃない ❌ Right: はずがない / はずはない ✓ \"Can't be\" / \"There's no way\" Special negative form"
+          }
+        ]
+      },
+      {
+        "level": 2,
+        "heading": "はずがない (Can't be/There's no way)",
+        "content": "",
+        "children": [
+          {
+            "level": 3,
+            "heading": "Strong denial",
+            "content": "彼が嘘をつくはずがない \"There's no way he would lie\" これが本物のはずがない \"This can't be genuine\" そんなはずはない \"That can't be\" / \"That's impossible\" Stronger than ～ないはずだ"
+          }
+        ]
+      },
+      {
+        "level": 2,
+        "heading": "Negative Expectations",
+        "content": "",
+        "children": [
+          {
+            "level": 3,
+            "heading": "～ないはずだ (shouldn't)",
+            "content": "彼は来ないはずだ \"He shouldn't come\" (based on plan) 高くないはずです \"It shouldn't be expensive\" (based on info) Different from はずがない!"
+          }
+        ]
+      },
+      {
+        "level": 2,
+        "heading": "Past Expectations",
+        "content": "",
+        "children": [
+          {
+            "level": 3,
+            "heading": "Should have done",
+            "content": "彼は昨日来たはずだ \"He should have come yesterday\" ここにあったはずなのに \"It should have been here, but...\" Based on past plans/facts"
+          }
+        ]
+      },
+      {
+        "level": 2,
+        "heading": "はずだった (Was supposed to)",
+        "content": "",
+        "children": [
+          {
+            "level": 3,
+            "heading": "Unfulfilled expectations",
+            "content": "彼は来るはずだったのに \"He was supposed to come, but...\" 簡単なはずだったのに、難しい \"It was supposed to be easy, but it's difficult\" Shows disappointment"
+          }
+        ]
+      },
+      {
+        "level": 2,
+        "heading": "With のに (But/Even though)",
+        "content": "",
+        "children": [
+          {
+            "level": 3,
+            "heading": "Contrary to expectation",
+            "content": "簡単なはずなのに、できない \"Even though it should be easy, I can't do it\" 来るはずだったのに、来なかった \"He was supposed to come, but didn't\" Expresses surprise/disappointment"
+          }
+        ]
+      },
+      {
+        "level": 2,
+        "heading": "Common Patterns",
+        "content": "",
+        "children": [
+          {
+            "level": 3,
+            "heading": "～はずがない (Impossible)",
+            "content": "そんなはずがない！ \"That's impossible!\" 彼が犯人のはずがない \"There's no way he's the culprit\" 忘れるはずがない \"There's no way I'd forget\""
+          },
+          {
+            "level": 3,
+            "heading": "～はずだ (Verification)",
+            "content": "A: これでいい？ B: いいはずだよ \"This should be good\" Confirming based on logic"
+          }
+        ]
+      },
+      {
+        "level": 2,
+        "heading": "Expressing Certainty Based on Facts",
+        "content": "",
+        "children": [
+          {
+            "level": 3,
+            "heading": "With evidence",
+            "content": "彼は医者だ。知っているはずだ \"He's a doctor. He should know\" 勉強した。できるはずだ \"I studied. I should be able to do it\" Based on known facts"
+          }
+        ]
+      },
+      {
+        "level": 2,
+        "heading": "はず alone (The expectation)",
+        "content": "",
+        "children": [
+          {
+            "level": 3,
+            "heading": "As a noun",
+            "content": "そのはずだ \"That should be the case\" そのはずはない \"That can't be the case\" 彼が来るはず \"The expectation that he'll come\" Used nominally"
+          }
+        ]
+      },
+      {
+        "level": 2,
+        "heading": "Difference from だろう",
+        "content": "",
+        "children": [
+          {
+            "level": 3,
+            "heading": "はずだ - Based on facts",
+            "content": "彼は医者だから、知っているはずだ \"He's a doctor, so he should know\" Logical conclusion from facts"
+          },
+          {
+            "level": 3,
+            "heading": "だろう - Probability",
+            "content": "彼は知っているだろう \"He probably knows\" Based on guessing/probability"
+          }
+        ]
+      },
+      {
+        "level": 2,
+        "heading": "Checking Expectations",
+        "content": "",
+        "children": [
+          {
+            "level": 3,
+            "heading": "Confirming what should be",
+            "content": "ここにあるはずなんだけど... \"It should be here...\" 彼は知っているはずだが \"He should know, but...\" Checking against reality"
+          }
+        ]
+      },
+      {
+        "level": 2,
+        "heading": "With んだけど (But)",
+        "content": "",
+        "children": [
+          {
+            "level": 3,
+            "heading": "Expressing confusion",
+            "content": "動くはずなんだけど、動かない \"It should work, but it doesn't\" 簡単なはずなんだけどな \"It should be easy though\" Reality doesn't match expectation"
+          }
+        ]
+      },
+      {
+        "level": 2,
+        "heading": "Formal Alternatives",
+        "content": "",
+        "children": [
+          {
+            "level": 3,
+            "heading": "はずである (Formal)",
+            "content": "彼は来るはずである \"He is expected to come\" 正しいはずである \"It should be correct\" Written, formal"
+          }
+        ]
+      },
+      {
+        "level": 2,
+        "heading": "Common Situations",
+        "content": "",
+        "children": [
+          {
+            "level": 3,
+            "heading": "Transportation",
+            "content": "バスは10時に来るはずです \"The bus should come at 10\" 電車は遅れないはずだ \"The train shouldn't be delayed\""
+          },
+          {
+            "level": 3,
+            "heading": "Work/Meetings",
+            "content": "会議は2時に始まるはずだ \"The meeting should start at 2\" 彼は今日休むはずです \"He should be taking the day off today\""
+          },
+          {
+            "level": 3,
+            "heading": "Knowledge",
+            "content": "彼は知っているはずだ \"He should know\" 聞いたはずです \"You should have heard\""
+          }
+        ]
+      },
+      {
+        "level": 2,
+        "heading": "Expressing Disappointment",
+        "content": "",
+        "children": [
+          {
+            "level": 3,
+            "heading": "When expectations fail",
+            "content": "うまくいくはずだったのに \"It was supposed to go well\" 簡単なはずだったのに、難しい \"It was supposed to be easy, but it's difficult\" Shows frustration"
+          }
+        ]
+      },
+      {
+        "level": 2,
+        "heading": "About Past",
+        "content": "",
+        "children": [
+          {
+            "level": 3,
+            "heading": "What should have happened",
+            "content": "彼は昨日来たはずだ \"He should have come yesterday\" メールが届いたはずです \"The email should have arrived\" Based on past plans"
+          }
+        ]
+      },
+      {
+        "level": 2,
+        "heading": "Verification",
+        "content": "",
+        "children": [
+          {
+            "level": 3,
+            "heading": "Double-checking",
+            "content": "A: これで正しい？ \"Is this correct?\" B: 正しいはずだよ \"It should be correct\" Confirming based on knowledge"
+          }
+        ]
+      },
+      {
+        "level": 2,
+        "heading": "Practice Sentences",
+        "content": "",
+        "children": [
+          {
+            "level": 3,
+            "heading": "Basic",
+            "content": "彼は今日来るはずだ \"He should come today\" これで動くはずです \"This should work\" 知っているはずだ \"He should know\""
+          },
+          {
+            "level": 3,
+            "heading": "Intermediate",
+            "content": "説明書を読んだから、できるはずです \"I read the manual, so I should be able to do it\" 彼は東京に住んでいるはずだが、 最近連絡がない \"He should be living in Tokyo, but I haven't heard from him recently\" そんなはずはない。もう一度確認しよう \"That can't be. Let's check again\""
+          },
+          {
+            "level": 3,
+            "heading": "Advanced",
+            "content": "計算が正しければ、この答えで合っているはずだ。 しかし、何か違和感がある。もう一度 最初から見直してみよう。 \"If the calculation is correct, this answer should be right. However, something feels off. Let's review from the beginning again.\" 彼は約束したはずなのに来なかった。 何か問題があったにちがいない。 連絡してみたほうがいいだろう。 \"He should have come because he promised, but he didn't. There must be some problem. We should probably try contacting him.\""
+          }
+        ]
+      },
+      {
+        "level": 2,
+        "heading": "Related Grammar Points",
+        "content": "〜にちがいない - Must be (strong conviction) 〜だろう - Probably 〜かもしれない - Might be 〜はずがない - Can't be/Impossible 〜はずだった - Was supposed to Logical expectations - Reasonable assumptions",
+        "children": [
+          {
+            "level": 3,
+            "heading": "Company",
+            "content": "About Pricing Blog Contact"
+          },
+          {
+            "level": 3,
+            "heading": "Legal",
+            "content": "Privacy Policy Terms of Service Cookie Policy"
+          }
+        ]
+      }
+    ],
+    "examples": [
+      {
+        "sentence": "〜にちがいない - Must be (strong conviction)"
+      },
+      {
+        "sentence": "〜だろう - Probably"
+      },
+      {
+        "sentence": "〜かもしれない - Might be"
+      },
+      {
+        "sentence": "〜はずがない - Can't be/Impossible"
+      },
+      {
+        "sentence": "〜はずだった - Was supposed to"
+      },
+      {
+        "sentence": "Logical expectations - Reasonable assumptions"
+      },
+      {
+        "sentence": "About"
+      },
+      {
+        "sentence": "Pricing"
+      },
+      {
+        "sentence": "Blog"
+      },
+      {
+        "sentence": "Contact"
+      },
+      {
+        "sentence": "Privacy Policy"
+      },
+      {
+        "sentence": "Terms of Service"
+      },
+      {
+        "sentence": "Cookie Policy"
+      }
+    ]
+  },
+  "metadata": {
+    "extracted_at": "2026-01-01T22:19:29.705938400Z",
+    "duration_ms": 5,
+    "extractors_matched": [
+      "metadata",
+      "examples",
+      "sections"
+    ],
+    "extractors_failed": [
+      "vocab_tables",
+      "definitions",
+      "content_blocks"
+    ]
+  }
+}

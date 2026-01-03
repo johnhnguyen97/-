@@ -1,0 +1,363 @@
+{
+  "config_name": "Language Learning Extractor",
+  "url": "https://practice-japanese.com/docs/sentence-adverbs/",
+  "data": {
+    "metadata": {
+      "title": "Sentence Adverbs"
+    },
+    "sections": [
+      {
+        "level": 2,
+        "heading": "Sentence Adverbs",
+        "content": "Sentence adverbs modify entire sentences rather than individual words, expressing the speaker's attitude, judgment, or evaluation about the whole statement. They set the tone, show perspective, or indicate how the speaker views the information.\n\n幸い、間に合った \"Fortunately, I made it in time\" 正直、分からない \"Honestly, I don't understand\" 実は、知らなかった \"Actually, I didn't know\""
+      },
+      {
+        "level": 2,
+        "heading": "Fortunate and Unfortunate",
+        "content": "",
+        "children": [
+          {
+            "level": 3,
+            "heading": "幸い/幸いに (Fortunately)",
+            "content": "幸い、怪我はなかった \"Fortunately, there were no injuries\" 幸いにも助かった \"Fortunately, I was saved\" Positive outcome Lucky circumstance"
+          },
+          {
+            "level": 3,
+            "heading": "残念ながら (Unfortunately)",
+            "content": "残念ながら、行けません \"Unfortunately, I can't go\" 残念ながら失敗した \"Unfortunately, I failed\" Negative outcome Regrettable"
+          },
+          {
+            "level": 3,
+            "heading": "不幸にも (Unfortunately/Unluckily)",
+            "content": "不幸にも事故に遭った \"Unfortunately, I had an accident\" More serious than 残念 Misfortune"
+          }
+        ]
+      },
+      {
+        "level": 2,
+        "heading": "Honesty and Truth",
+        "content": "",
+        "children": [
+          {
+            "level": 3,
+            "heading": "正直/正直に言うと (Honestly)",
+            "content": "正直、分からない \"Honestly, I don't understand\" 正直に言うと、好きじゃない \"To be honest, I don't like it\" Truthful admission Candid expression"
+          },
+          {
+            "level": 3,
+            "heading": "実は (Actually/In fact)",
+            "content": "実は、知らなかった \"Actually, I didn't know\" 実は初めてです \"Actually, it's my first time\" Revealing truth Confession"
+          },
+          {
+            "level": 3,
+            "heading": "本当は (Actually/Really)",
+            "content": "本当は行きたくない \"Actually, I don't want to go\" 本当は知っている \"I actually know\" True feeling Real intention"
+          }
+        ]
+      },
+      {
+        "level": 2,
+        "heading": "Certainty and Doubt",
+        "content": "",
+        "children": [
+          {
+            "level": 3,
+            "heading": "もちろん (Of course)",
+            "content": "もちろん行きます \"Of course I'll go\" もちろん知っています \"Of course I know\" Obvious fact Strong agreement"
+          },
+          {
+            "level": 3,
+            "heading": "確かに (Certainly/Indeed)",
+            "content": "確かにその通りだ \"That's certainly true\" 確かに難しい \"It's certainly difficult\" Acknowledging truth"
+          },
+          {
+            "level": 3,
+            "heading": "おそらく (Probably/Likely)",
+            "content": "おそらく雨だろう \"It'll probably rain\" おそらく来ないと思う \"I think he probably won't come\" High probability Formal estimation"
+          },
+          {
+            "level": 3,
+            "heading": "たぶん (Probably)",
+            "content": "たぶん大丈夫 \"Probably okay\" たぶん来ると思う \"I think he'll probably come\" Moderate certainty Casual than おそらく"
+          }
+        ]
+      },
+      {
+        "level": 2,
+        "heading": "Surprise and Expectation",
+        "content": "",
+        "children": [
+          {
+            "level": 3,
+            "heading": "驚いたことに (Surprisingly)",
+            "content": "驚いたことに、彼が勝った \"Surprisingly, he won\" Unexpected result Astonishment"
+          },
+          {
+            "level": 3,
+            "heading": "意外に/意外にも (Unexpectedly)",
+            "content": "意外に簡単だった \"It was unexpectedly easy\" 意外にも合格した \"Unexpectedly, I passed\" Contrary to expectation"
+          },
+          {
+            "level": 3,
+            "heading": "案の定 (As expected)",
+            "content": "案の定、雨が降った \"As expected, it rained\" 案の定失敗した \"Failed as expected\" Expected outcome"
+          },
+          {
+            "level": 3,
+            "heading": "やはり/やっぱり (As expected/After all)",
+            "content": "やはり難しかった \"As expected, it was difficult\" やっぱり来なかった \"After all, he didn't come\" Confirming expectation"
+          }
+        ]
+      },
+      {
+        "level": 2,
+        "heading": "General Statements",
+        "content": "",
+        "children": [
+          {
+            "level": 3,
+            "heading": "一般的に (Generally)",
+            "content": "一般的に、日本人は真面目だ \"Generally, Japanese people are serious\" General observation"
+          },
+          {
+            "level": 3,
+            "heading": "普通 (Normally/Usually)",
+            "content": "普通はこうする \"Normally, we do it this way\" Standard way"
+          },
+          {
+            "level": 3,
+            "heading": "通常 (Normally - Formal)",
+            "content": "通常、3日かかる \"Normally, it takes 3 days\" Standard procedure Formal contexts"
+          }
+        ]
+      },
+      {
+        "level": 2,
+        "heading": "Personal View",
+        "content": "",
+        "children": [
+          {
+            "level": 3,
+            "heading": "個人的に (Personally)",
+            "content": "個人的には反対だ \"Personally, I'm against it\" 個人的に好きだ \"I personally like it\" Own opinion"
+          },
+          {
+            "level": 3,
+            "heading": "私としては (As for me)",
+            "content": "私としては賛成です \"As for me, I agree\" Personal position"
+          }
+        ]
+      },
+      {
+        "level": 2,
+        "heading": "Adding Information",
+        "content": "",
+        "children": [
+          {
+            "level": 3,
+            "heading": "ちなみに (By the way/Incidentally)",
+            "content": "ちなみに、明日は休みです \"By the way, tomorrow is a day off\" Additional information Side note"
+          },
+          {
+            "level": 3,
+            "heading": "ところで (By the way)",
+            "content": "ところで、昼ごはん食べた？ \"By the way, did you eat lunch?\" Topic change"
+          },
+          {
+            "level": 3,
+            "heading": "なお (Furthermore/Moreover - Formal)",
+            "content": "なお、詳細は後ほど \"Furthermore, details will be provided later\" Additional point Formal writing"
+          }
+        ]
+      },
+      {
+        "level": 2,
+        "heading": "Obviousness",
+        "content": "",
+        "children": [
+          {
+            "level": 3,
+            "heading": "明らかに (Obviously/Clearly)",
+            "content": "明らかに間違っている \"It's obviously wrong\" 明らかに嘘だ \"It's clearly a lie\" Self-evident"
+          },
+          {
+            "level": 3,
+            "heading": "当然 (Naturally/Of course)",
+            "content": "当然、反対した \"Naturally, I opposed\" 当然の結果だ \"It's a natural result\" Expected outcome"
+          }
+        ]
+      },
+      {
+        "level": 2,
+        "heading": "Emphasis",
+        "content": "",
+        "children": [
+          {
+            "level": 3,
+            "heading": "実際 (Actually/In reality)",
+            "content": "実際、そうではない \"Actually, that's not the case\" 実際に見た \"Actually saw it\" Reality emphasis"
+          },
+          {
+            "level": 3,
+            "heading": "特に (Especially/Particularly)",
+            "content": "特に問題ない \"No particular problem\" 特に好きだ \"Especially like it\" Singling out"
+          }
+        ]
+      },
+      {
+        "level": 2,
+        "heading": "Conclusion",
+        "content": "",
+        "children": [
+          {
+            "level": 3,
+            "heading": "結局 (In the end/After all)",
+            "content": "結局、行かなかった \"In the end, I didn't go\" 結局失敗した \"Ultimately, I failed\" Final outcome"
+          },
+          {
+            "level": 3,
+            "heading": "要するに (In short/To sum up)",
+            "content": "要するに、できないということだ \"In short, it means we can't do it\" Summarizing"
+          },
+          {
+            "level": 3,
+            "heading": "つまり (That is/In other words)",
+            "content": "つまり、無理だということだ \"That is, it means it's impossible\" Clarification"
+          }
+        ]
+      },
+      {
+        "level": 2,
+        "heading": "Partial Truth",
+        "content": "",
+        "children": [
+          {
+            "level": 3,
+            "heading": "ある意味 (In a sense)",
+            "content": "ある意味、正しい \"In a sense, it's correct\" Qualified agreement"
+          },
+          {
+            "level": 3,
+            "heading": "ある程度 (To some extent)",
+            "content": "ある程度分かる \"I understand to some extent\" Partial degree"
+          }
+        ]
+      },
+      {
+        "level": 2,
+        "heading": "Time Reference",
+        "content": "",
+        "children": [
+          {
+            "level": 3,
+            "heading": "現在 (Currently - Formal)",
+            "content": "現在、準備中です \"Currently, we're preparing\" Present state"
+          },
+          {
+            "level": 3,
+            "heading": "最近 (Recently)",
+            "content": "最近、忙しい \"Recently, I'm busy\" Recent period"
+          }
+        ]
+      },
+      {
+        "level": 2,
+        "heading": "Contrast",
+        "content": "",
+        "children": [
+          {
+            "level": 3,
+            "heading": "逆に (Conversely/On the contrary)",
+            "content": "逆に、良かったかもしれない \"Conversely, it might have been good\" Opposite perspective"
+          },
+          {
+            "level": 3,
+            "heading": "反対に (On the contrary)",
+            "content": "反対に、問題が増えた \"On the contrary, problems increased\" Opposing result"
+          }
+        ]
+      },
+      {
+        "level": 2,
+        "heading": "Common Mistakes",
+        "content": "",
+        "children": [
+          {
+            "level": 3,
+            "heading": "Overusing sentence adverbs",
+            "content": "Too many: 正直、実は、本当は、確かに... ⚠️ Better: Choose one appropriate adverb ✓ Don't stack unnecessarily"
+          },
+          {
+            "level": 3,
+            "heading": "Wrong positioning",
+            "content": "Unnatural: 分からない正直 ⚠️ Natural: 正直、分からない ✓ \"Honestly, I don't understand\" Usually at sentence beginning"
+          }
+        ]
+      },
+      {
+        "level": 2,
+        "heading": "Practice Sentences",
+        "content": "",
+        "children": [
+          {
+            "level": 3,
+            "heading": "Basic",
+            "content": "幸い、間に合った \"Fortunately, I made it in time\" 正直、分からない \"Honestly, I don't understand\" 実は、初めてです \"Actually, it's my first time\" もちろん行きます \"Of course I'll go\" やはり難しかった \"As expected, it was difficult\""
+          },
+          {
+            "level": 3,
+            "heading": "Intermediate",
+            "content": "実は、日本語を勉強し始めたのは 最近です。正直に言うと、まだ あまり上手ではありません。でも、 一生懸命頑張っています。 \"Actually, I started studying Japanese recently. To be honest, I'm still not very good. But I'm trying hard.\" 残念ながら、今回のイベントは 中止になりました。幸い、 来月また開催される予定です。 ちなみに、参加費は無料です。 \"Unfortunately, this event has been canceled. Fortunately, it's scheduled to be held again next month. By the way, the participation fee is free.\" 確かに、この方法は効果的だ。 しかし、個人的には、もっと 簡単な方法があると思う。 要するに、やり方は人それぞれ だということだ。 \"Certainly, this method is effective. However, personally, I think there's a simpler method. In short, the way of doing things differs by person.\""
+          },
+          {
+            "level": 3,
+            "heading": "Company",
+            "content": "About Pricing Blog Contact"
+          },
+          {
+            "level": 3,
+            "heading": "Legal",
+            "content": "Privacy Policy Terms of Service Cookie Policy"
+          }
+        ]
+      }
+    ],
+    "examples": [
+      {
+        "sentence": "About"
+      },
+      {
+        "sentence": "Pricing"
+      },
+      {
+        "sentence": "Blog"
+      },
+      {
+        "sentence": "Contact"
+      },
+      {
+        "sentence": "Privacy Policy"
+      },
+      {
+        "sentence": "Terms of Service"
+      },
+      {
+        "sentence": "Cookie Policy"
+      }
+    ]
+  },
+  "metadata": {
+    "extracted_at": "2026-01-01T22:19:34.389392500Z",
+    "duration_ms": 4,
+    "extractors_matched": [
+      "metadata",
+      "examples",
+      "sections"
+    ],
+    "extractors_failed": [
+      "vocab_tables",
+      "definitions",
+      "content_blocks"
+    ]
+  }
+}

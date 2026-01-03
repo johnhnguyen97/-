@@ -1,0 +1,202 @@
+{
+  "config_name": "Language Learning Extractor",
+  "url": "https://practice-japanese.com/docs/ni-vs-de/",
+  "data": {
+    "metadata": {
+      "title": "に (ni) vs で (de) Explained"
+    },
+    "examples": [
+      {
+        "sentence": "に (ni) - Location/Direction"
+      },
+      {
+        "sentence": "で (de) - Location/Means"
+      },
+      {
+        "sentence": "へ vs に Direction"
+      },
+      {
+        "sentence": "About"
+      },
+      {
+        "sentence": "Pricing"
+      },
+      {
+        "sentence": "Blog"
+      },
+      {
+        "sentence": "Contact"
+      },
+      {
+        "sentence": "Privacy Policy"
+      },
+      {
+        "sentence": "Terms of Service"
+      },
+      {
+        "sentence": "Cookie Policy"
+      }
+    ],
+    "sections": [
+      {
+        "level": 2,
+        "heading": "The Simple Rule",
+        "content": "に = Where something exists/is で = Where you do something"
+      },
+      {
+        "level": 2,
+        "heading": "Quick Decision",
+        "content": "Ask: \"Is this about existing/being somewhere, or doing an action?\"\n\nExisting/being → に Doing an action → で"
+      },
+      {
+        "level": 2,
+        "heading": "Side-by-Side Examples",
+        "content": "",
+        "children": [
+          {
+            "level": 3,
+            "heading": "Example 1: Library",
+            "content": "図書館にいる \"be at the library\" (existence) 図書館で勉強する \"study at the library\" (action)"
+          },
+          {
+            "level": 3,
+            "heading": "Example 2: Home",
+            "content": "家にある \"be at home / exist at home\" 家で寝る \"sleep at home\" (action of sleeping)"
+          },
+          {
+            "level": 3,
+            "heading": "Example 3: School",
+            "content": "学校にいる \"be at school\" 学校で働く \"work at school\" (action)"
+          }
+        ]
+      },
+      {
+        "level": 2,
+        "heading": "Existence Verbs (Always に)",
+        "content": "いる - be/exist (animate) ある - be/exist (inanimate) 住む - live/reside 東京に住んでいる - \"live in Tokyo\" 部屋に猫がいる - \"there's a cat in the room\" 机の上に本がある - \"there's a book on the desk\""
+      },
+      {
+        "level": 2,
+        "heading": "Action Verbs (Use で)",
+        "content": "勉強する - study 働く - work 遊ぶ - play 食べる - eat 買う - buy 図書館で勉強する - \"study at library\" レストランで食べる - \"eat at restaurant\" 公園で遊ぶ - \"play in park\""
+      },
+      {
+        "level": 2,
+        "heading": "Movement Verbs (Special Case)",
+        "content": "Destination uses に:\n\n学校に行く - \"go to school\" 日本に来る - \"come to Japan\" 家に帰る - \"return home\""
+      },
+      {
+        "level": 2,
+        "heading": "Common Patterns",
+        "content": "| Situation | Particle | Example | | ------------------- | -------- | ------------ | | Be somewhere | に | 部屋にいる | | Live somewhere | に | 東京に住む | | Go somewhere | に | 学校に行く | | Do action somewhere | で | 図書館で勉強 | | Meet somewhere | で | 駅で会う | | Buy somewhere | で | 店で買う |"
+      },
+      {
+        "level": 2,
+        "heading": "Both Possible, Different Meaning",
+        "content": "",
+        "children": [
+          {
+            "level": 3,
+            "heading": "With 会う (meet)",
+            "content": "駅に会う - \"meet AT the station\" (destination) 駅で会う - \"meet at the station\" (location of meeting)\n\nBoth grammatically correct, で more common for \"meet at.\""
+          },
+          {
+            "level": 3,
+            "heading": "With いる",
+            "content": "部屋にいる - \"be in the room\" (location) 部屋でいる - ✗ Usually wrong\n\nException: When emphasizing action/state in a place:\n\nここでいてください - \"Please stay here\""
+          }
+        ]
+      },
+      {
+        "level": 2,
+        "heading": "Transportation (Use で)",
+        "content": "車で行く - \"go by car\" 電車で来る - \"come by train\" バスで帰る - \"return by bus\"\n\nException: 歩いて (on foot) doesn't use particle:\n\n✓ 歩いて行く ✗ 足で行く"
+      },
+      {
+        "level": 2,
+        "heading": "Decision Flowchart",
+        "content": "Is the verb ある/いる/住む? └─ Yes → に Is it a movement verb (行く/来る/帰る)? └─ Yes → に (destination) Is it an action verb? └─ Yes → で (action location)"
+      },
+      {
+        "level": 2,
+        "heading": "Common Mistakes",
+        "content": "",
+        "children": [
+          {
+            "level": 3,
+            "heading": "Mistake 1: Using で with いる",
+            "content": "Wrong: 部屋でいる ❌ Right: 部屋にいる ✓"
+          },
+          {
+            "level": 3,
+            "heading": "Mistake 2: Using に with Action Verbs",
+            "content": "Wrong: 図書館に勉強する ❌ Right: 図書館で勉強する ✓"
+          },
+          {
+            "level": 3,
+            "heading": "Mistake 3: Confusing Destination with Action Location",
+            "content": "Wrong: 学校で行く ❌ Right: 学校に行く ✓ (destination) Wrong: 学校に働く ❌ Right: 学校で働く ✓ (action location)"
+          }
+        ]
+      },
+      {
+        "level": 2,
+        "heading": "Memory Tricks",
+        "content": "に = \"IN\" (existence, destination) で = \"DO\" (action location)\n\nに = static, being で = dynamic, doing"
+      },
+      {
+        "level": 2,
+        "heading": "Practice Scenarios",
+        "content": "",
+        "children": [
+          {
+            "level": 3,
+            "heading": "Scenario 1: Daily Routine",
+            "content": "家にいる → 家を出る → 電車で行く → 会社に着く → 会社で働く \"Be at home → Leave home → Go by train → Arrive at company → Work at company\""
+          },
+          {
+            "level": 3,
+            "heading": "Scenario 2: Shopping",
+            "content": "店に行く → 店で買い物する → 店にいる \"Go to store → Shop at store → Be at store\""
+          },
+          {
+            "level": 3,
+            "heading": "Scenario 3: Studying",
+            "content": "図書館に行く → 図書館で勉強する → 図書館にいる \"Go to library → Study at library → Be at library\""
+          }
+        ]
+      },
+      {
+        "level": 2,
+        "heading": "Key Takeaways",
+        "content": "✓ に for existence (いる/ある/住む) ✓ で for action location ✓ に for destination (行く/来る/帰る) ✓ で for means/method ✓ Ask: \"existing or doing?\"\n\nRelated:\n\nに (ni) - Location/Direction で (de) - Location/Means へ vs に Direction",
+        "children": [
+          {
+            "level": 3,
+            "heading": "Company",
+            "content": "About Pricing Blog Contact"
+          },
+          {
+            "level": 3,
+            "heading": "Legal",
+            "content": "Privacy Policy Terms of Service Cookie Policy"
+          }
+        ]
+      }
+    ]
+  },
+  "metadata": {
+    "extracted_at": "2026-01-01T22:19:32.470165300Z",
+    "duration_ms": 3,
+    "extractors_matched": [
+      "metadata",
+      "examples",
+      "sections"
+    ],
+    "extractors_failed": [
+      "vocab_tables",
+      "definitions",
+      "content_blocks"
+    ]
+  }
+}

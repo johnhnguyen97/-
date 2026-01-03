@@ -1,0 +1,602 @@
+{
+  "config_name": "Language Learning Extractor",
+  "url": "https://practice-japanese.com/docs/common-counters/",
+  "data": {
+    "sections": [
+      {
+        "level": 2,
+        "heading": "Introduction",
+        "content": "This is a comprehensive reference list of common Japanese counters organized by category. Use this as a quick lookup guide when you need to count something in Japanese."
+      },
+      {
+        "level": 2,
+        "heading": "General Objects",
+        "content": "| Counter | Reading | Used For | Example | | --------- | ----------- | ------------------------- | ----------- | | つ | tsu | General items (1-10) | りんご 3 つ | | 個 (こ) | ko | Small, compact objects | ボール 5 個 | | 本 (ほん) | hon/bon/pon | Long, cylindrical objects | ペン 3 本 | | 枚 (まい) | mai | Flat, thin objects | 紙 10 枚 | | 台 (だい) | dai | Machines, vehicles | 車 2 台 | | 冊 (さつ) | satsu | Books, magazines | 本 5 冊 | | 点 (てん) | ten | Items, artworks | 作品 3 点 |",
+        "children": [
+          {
+            "level": 3,
+            "heading": "Examples",
+            "content": "りんごを3つ買いました \"I bought 3 apples\" ボールが5個あります \"There are 5 balls\" ペンを3本持っています \"I have 3 pens\" 紙を10枚ください \"10 sheets of paper, please\" 車を2台持っています \"I have 2 cars\" 本を5冊読みました \"I read 5 books\""
+          }
+        ]
+      },
+      {
+        "level": 2,
+        "heading": "People & Living Things",
+        "content": "| Counter | Reading | Used For | Example | | --------- | -------------- | --------------- | ------------ | | 人 (にん) | nin/ri | People | 学生 3 人 | | 名 (めい) | mei | People (polite) | 参加者 50 名 | | 匹 (ひき) | hiki/biki/piki | Small animals | 犬 2 匹 | | 頭 (とう) | tou | Large animals | 象 3 頭 | | 羽 (わ) | wa | Birds, rabbits | 鳥 5 羽 | | 尾 (び) | bi | Fish (formal) | 鯛 2 尾 |",
+        "children": [
+          {
+            "level": 3,
+            "heading": "Examples",
+            "content": "友達が3人来ました \"3 friends came\" 参加者は50名です \"There are 50 participants\" 犬を2匹飼っています \"I have 2 dogs\" 象が3頭います \"There are 3 elephants\" 鳥が5羽飛んでいます \"5 birds are flying\""
+          }
+        ]
+      },
+      {
+        "level": 2,
+        "heading": "Clothing & Accessories",
+        "content": "| Counter | Reading | Used For | Example | | ----------- | ----------- | ----------------------- | ------------- | | 着 (ちゃく) | chaku | Suits, complete outfits | スーツ 2 着 | | 枚 (まい) | mai | Shirts, pants, skirts | T シャツ 3 枚 | | 足 (そく) | soku | Pairs of footwear | 靴 2 足 | | 本 (ほん) | hon/bon/pon | Ties, belts | ネクタイ 5 本 | | 個 (こ) | ko | Accessories | ボタン 10 個 |",
+        "children": [
+          {
+            "level": 3,
+            "heading": "Examples",
+            "content": "スーツを2着持っています \"I have 2 suits\" Tシャツを3枚買いました \"I bought 3 T-shirts\" 靴を2足買いました \"I bought 2 pairs of shoes\" ネクタイを5本持っています \"I have 5 ties\""
+          }
+        ]
+      },
+      {
+        "level": 2,
+        "heading": "Food & Drink",
+        "content": "| Counter | Reading | Used For | Example | | ----------- | ----------- | -------------------- | ------------- | | 杯 (はい) | hai/bai/pai | Cups, glasses, bowls | コーヒー 2 杯 | | 皿 (さら) | sara | Plates of food | 料理 3 皿 | | 切れ (きれ) | kire | Slices | パン 2 切れ | | 粒 (つぶ) | tsubu | Grains, pills | 米粒 100 粒 | | 本 (ほん) | hon/bon/pon | Bottles, long food | ビール 3 本 | | 個 (こ) | ko | Pieces, items | おにぎり 2 個 | | 缶 (かん) | kan | Cans | ジュース 5 缶 |",
+        "children": [
+          {
+            "level": 3,
+            "heading": "Examples",
+            "content": "コーヒーを2杯飲みました \"I drank 2 cups of coffee\" 料理を3皿注文しました \"I ordered 3 dishes\" パンを2切れ食べました \"I ate 2 slices of bread\" ビールを3本買いました \"I bought 3 bottles of beer\""
+          }
+        ]
+      },
+      {
+        "level": 2,
+        "heading": "Buildings & Places",
+        "content": "| Counter | Reading | Used For | Example | | --------- | ------- | ------------------- | -------------- | | 階 (かい) | kai | Floors of buildings | 3 階 | | 軒 (けん) | ken | Houses, shops | 家 5 軒 | | 棟 (とう) | tou | Buildings | ビル 2 棟 | | 室 (しつ) | shitsu | Rooms | 会議室 3 室 | | 店 (てん) | ten | Stores, shops | コンビニ 10 店 |",
+        "children": [
+          {
+            "level": 3,
+            "heading": "Examples",
+            "content": "3階に住んでいます \"I live on the 3rd floor\" この通りに家が5軒あります \"There are 5 houses on this street\" ビルが2棟建っています \"2 buildings are standing\" 会議室が3室あります \"There are 3 meeting rooms\""
+          }
+        ]
+      },
+      {
+        "level": 2,
+        "heading": "Time & Frequency",
+        "content": "| Counter | Reading | Used For | Example | | ----------------- | ------- | ------------------ | ------- | | 回 (かい) | kai | Times, occurrences | 3 回 | | 度 (ど) | do | Times, degrees | 2 度 | | 時間 (じかん) | jikan | Hours (duration) | 3 時間 | | 分 (ふん) | fun/pun | Minutes | 5 分 | | 秒 (びょう) | byou | Seconds | 10 秒 | | 日 (にち) | nichi | Days | 3 日間 | | 週間 (しゅうかん) | shuukan | Weeks | 2 週間 | | ヶ月 (かげつ) | kagetsu | Months | 3 ヶ月 | | 年 (ねん) | nen | Years | 5 年 |",
+        "children": [
+          {
+            "level": 3,
+            "heading": "Examples",
+            "content": "日本に3回行きました \"I went to Japan 3 times\" 2時間待ちました \"I waited 2 hours\" 5分ください \"Give me 5 minutes\" 2週間の旅行 \"A 2-week trip\" 3ヶ月勉強しました \"I studied for 3 months\""
+          }
+        ]
+      },
+      {
+        "level": 2,
+        "heading": "Paper & Documents",
+        "content": "| Counter | Reading | Used For | Example | | --------- | ------- | ------------------ | ------------ | | 枚 (まい) | mai | Sheets, pages | コピー 10 枚 | | 通 (つう) | tsuu | Letters, documents | 手紙 2 通 | | 部 (ぶ) | bu | Copies, sets | 資料 5 部 | | ページ | peeji | Pages | 20 ページ | | 冊 (さつ) | satsu | Bound books | 雑誌 3 冊 |",
+        "children": [
+          {
+            "level": 3,
+            "heading": "Examples",
+            "content": "コピーを10枚してください \"Please make 10 copies\" 手紙を2通書きました \"I wrote 2 letters\" 資料を5部印刷しました \"I printed 5 copies of the materials\" 20ページ読みました \"I read 20 pages\""
+          }
+        ]
+      },
+      {
+        "level": 2,
+        "heading": "Abstract Concepts",
+        "content": "| Counter | Reading | Used For | Example | | --------------- | ------- | -------------- | ----------- | | つ | tsu | Ideas, reasons | 理由 3 つ | | 件 (けん) | ken | Cases, matters | 事件 2 件 | | 項目 (こうもく) | koumoku | Items, topics | 項目 5 項目 | | 問 (もん) | mon | Questions | 質問 10 問 | | 語 (ご) | go | Words | 単語 100 語 |",
+        "children": [
+          {
+            "level": 3,
+            "heading": "Examples",
+            "content": "理由が3つあります \"There are 3 reasons\" 事件が2件ありました \"There were 2 incidents\" 質問が10問あります \"There are 10 questions\" 単語を100語覚えました \"I memorized 100 words\""
+          }
+        ]
+      },
+      {
+        "level": 2,
+        "heading": "Money & Numbers",
+        "content": "| Counter | Reading | Used For | Example | | --------------- | ------- | -------------- | -------- | | 円 (えん) | en | Yen | 1000 円 | | ドル | doru | Dollars | 50 ドル | | 番 (ばん) | ban | Numbers, order | 3 番 | | 号 (ごう) | gou | Number, issue | 5 号室 | | 番号 (ばんごう) | bangou | Number | 電話番号 |",
+        "children": [
+          {
+            "level": 3,
+            "heading": "Examples",
+            "content": "1000円です \"It's 1000 yen\" 50ドル払いました \"I paid 50 dollars\" 3番に並んでください \"Please line up at number 3\" 5号室です \"It's room 5\""
+          }
+        ]
+      },
+      {
+        "level": 2,
+        "heading": "Transportation",
+        "content": "| Counter | Reading | Used For | Example | | ----------- | ------- | -------------- | ------------- | | 台 (だい) | dai | Vehicles | 車 3 台 | | 機 (き) | ki | Aircraft | 飛行機 2 機 | | 隻 (せき) | seki | Ships | 船 5 隻 | | 両 (りょう) | ryou | Train cars | 電車 8 両 | | 便 (びん) | bin | Flights, trips | フライト 2 便 |",
+        "children": [
+          {
+            "level": 3,
+            "heading": "Examples",
+            "content": "車が3台あります \"There are 3 cars\" 飛行機が2機飛んでいます \"2 airplanes are flying\" 電車は8両編成です \"The train has 8 cars\""
+          }
+        ]
+      },
+      {
+        "level": 2,
+        "heading": "Nature",
+        "content": "| Counter | Reading | Used For | Example | | --------- | ----------- | ------------------ | ----------- | | 本 (ほん) | hon/bon/pon | Trees | 木 10 本 | | 株 (かぶ) | kabu | Plants, stocks | 花 5 株 | | 輪 (りん) | rin | Flowers (on stems) | バラ 3 輪 | | 粒 (つぶ) | tsubu | Drops, grains | 雨粒 100 粒 | | 滴 (てき) | teki | Drops (liquid) | 水 3 滴 |",
+        "children": [
+          {
+            "level": 3,
+            "heading": "Examples",
+            "content": "庭に木が10本あります \"There are 10 trees in the garden\" 花を5株植えました \"I planted 5 flower plants\" バラが3輪咲いています \"3 roses are blooming\""
+          }
+        ]
+      },
+      {
+        "level": 2,
+        "heading": "Sound Changes Reference",
+        "content": "",
+        "children": [
+          {
+            "level": 3,
+            "heading": "Common Patterns",
+            "content": "ほん/ぼん/ぽん (本, Long objects)\n\n1本 = いっぽん 3本 = さんぼん 6本 = ろっぽん\n\nひき/びき/ぴき (匹, Small animals)\n\n1匹 = いっぴき 3匹 = さんびき 6匹 = ろっぴき\n\nはい/ばい/ぱい (杯, Cups)\n\n1杯 = いっぱい 3杯 = さんばい 6杯 = ろっぱい"
+          },
+          {
+            "level": 3,
+            "heading": "Numbers That Trigger Changes",
+            "content": "1 (いち) → often becomes いっ 3 (さん) → triggers ん sound → b/p 6 (ろく) → often becomes ろっ 8 (はち) → often becomes はっ 10 (じゅう) → often becomes じゅっ"
+          }
+        ]
+      },
+      {
+        "level": 2,
+        "heading": "Quick Selection Guide",
+        "content": "",
+        "children": [
+          {
+            "level": 3,
+            "heading": "\"I don't know which counter to use!\"",
+            "content": "For objects:\n\nIs it long/cylindrical? → 本 Is it flat/thin? → 枚 Is it small/compact? → 個 Not sure? → つ (1-10 only)\n\nFor living things:\n\nPerson? → 人 Small animal? → 匹 Large animal? → 頭 Bird? → 羽 or 匹\n\nFor drinks/food:\n\nIn a cup/glass? → 杯 On a plate? → 皿 Bottle? → 本 Slice? → 切れ"
+          }
+        ]
+      },
+      {
+        "level": 2,
+        "heading": "Practice Exercise",
+        "content": "Try counting these items:\n\n3 apples = りんごを3個/3つ 5 pens = ペンを5本 2 cats = 猫を2匹 10 sheets of paper = 紙を10枚 4 people = 4人 2 cups of coffee = コーヒーを2杯 7th floor = 7階 3 times = 3回 2 books = 本を2冊 5 cars = 車を5台"
+      },
+      {
+        "level": 2,
+        "heading": "Less Common but Useful Counters",
+        "content": "",
+        "children": [
+          {
+            "level": 3,
+            "heading": "Specialized Counters",
+            "content": "| Counter | Reading | Used For | Example | | --------------- | ------- | -------------------- | ------------- | | 巻 (かん) | kan | Volumes, rolls | 巻物 3 巻 | | 品 (ひん) | hin | Products, items | 商品 5 品 | | 局 (きょく) | kyoku | Pieces of music | 曲 3 局 | | 曲 (きょく) | kyoku | Songs | 歌 5 曲 | | 組 (くみ) | kumi | Sets, pairs | セット 3 組 | | 束 (たば) | taba | Bundles | 花束 2 束 | | 箱 (はこ) | hako | Boxes | 箱 3 箱 | | 袋 (ふくろ) | fukuro | Bags | 袋 2 袋 | | 膳 (ぜん) | zen | Meals, sets | 定食 2 膳 | | 人前 (にんまえ) | ninmae | Servings/portions | 3 人前 | | 丁 (ちょう) | chou | Blocks, tools | 豆腐 1 丁 | | 玉 (たま) | tama | Balls, round objects | キャベツ 3 玉 | | 房 (ふさ) | fusa | Bunches (fruit) | バナナ 2 房 | | 株 (かぶ) | kabu | Plants, companies | 野菜 5 株 |"
+          },
+          {
+            "level": 3,
+            "heading": "Examples",
+            "content": "漫画を3巻買いました \"I bought 3 volumes of manga\" この曲を5曲知っています \"I know 5 of these songs\" 靴下を3組買いました \"I bought 3 pairs of socks\" 花束を2束もらいました \"I received 2 bouquets\" チョコレートの箱が3箱あります \"There are 3 boxes of chocolate\" 定食を2膳お願いします \"2 set meals, please\""
+          }
+        ]
+      },
+      {
+        "level": 2,
+        "heading": "Sports & Games",
+        "content": "| Counter | Reading | Used For | Example | | ------------------- | -------- | --------------- | ---------- | | 勝 (しょう) | shou | Wins | 3 勝 | | 敗 (はい) | hai | Losses | 2 敗 | | 引き分け (ひきわけ) | hikiwake | Draws | 1 引き分け | | ゲーム | geemu | Games | 3 ゲーム | | セット | setto | Sets | 2 セット | | ラウンド | raundo | Rounds | 5 ラウンド | | 打 (だ) | da | Hits (baseball) | 3 打 | | 点 (てん) | ten | Points | 10 点 |",
+        "children": [
+          {
+            "level": 3,
+            "heading": "Examples",
+            "content": "3勝2敗です \"3 wins, 2 losses\" 3ゲームで勝ちました \"Won in 3 games\" 10点取りました \"Scored 10 points\""
+          }
+        ]
+      },
+      {
+        "level": 2,
+        "heading": "Academic & Work",
+        "content": "| Counter | Reading | Used For | Example | | ------------- | ------- | ------------------- | ------------ | | 問 (もん) | mon | Questions, problems | 問題 10 問 | | 課 (か) | ka | Lessons | 第 3 課 | | 章 (しょう) | shou | Chapters | 5 章 | | 単位 (たんい) | tan'i | Credits | 単位 20 単位 | | 科目 (かもく) | kamoku | Subjects | 科目 5 科目 | | 期 (き) | ki | Terms, periods | 第 2 期 |",
+        "children": [
+          {
+            "level": 3,
+            "heading": "Examples",
+            "content": "問題を10問解きました \"I solved 10 problems\" 5章まで読みました \"I read up to chapter 5\" 20単位取りました \"I earned 20 credits\""
+          }
+        ]
+      },
+      {
+        "level": 2,
+        "heading": "Technology",
+        "content": "| Counter | Reading | Used For | Example | | --------- | ----------- | ---------------- | ------------- | | 台 (だい) | dai | Devices | パソコン 2 台 | | 個 (こ) | ko | Apps, files | アプリ 5 個 | | 件 (けん) | ken | Messages, emails | メール 10 件 | | 枚 (まい) | mai | Photos (digital) | 写真 50 枚 | | 本 (ほん) | hon/bon/pon | Videos | 動画 3 本 |",
+        "children": [
+          {
+            "level": 3,
+            "heading": "Examples",
+            "content": "パソコンを2台持っています \"I have 2 computers\" アプリを5個ダウンロードしました \"I downloaded 5 apps\" メールが10件来ています \"There are 10 emails\" 写真を50枚撮りました \"I took 50 photos\" 動画を3本見ました \"I watched 3 videos\""
+          }
+        ]
+      },
+      {
+        "level": 2,
+        "heading": "Medical & Body",
+        "content": "| Counter | Reading | Used For | Example | | --------------- | ----------- | ---------------- | ------------- | | 錠 (じょう) | jou | Pills, tablets | 薬 2 錠 | | 粒 (つぶ) | tsubu | Pills (small) | カプセル 3 粒 | | 本 (ほん) | hon/bon/pon | Injections | 注射 2 本 | | 滴 (てき) | teki | Drops (medicine) | 目薬 3 滴 | | 人分 (にんぶん) | ninbun | Doses | 薬 3 人分 |",
+        "children": [
+          {
+            "level": 3,
+            "heading": "Examples",
+            "content": "この薬を1日2錠飲んでください \"Please take 2 tablets of this medicine per day\" 注射を2本打ちました \"I got 2 injections\" 目薬を3滴さしてください \"Please put in 3 drops of eye drops\""
+          }
+        ]
+      },
+      {
+        "level": 2,
+        "heading": "When Counters Are Optional",
+        "content": "",
+        "children": [
+          {
+            "level": 3,
+            "heading": "In casual conversation, counters can sometimes be omitted:",
+            "content": "Full: りんごを3個買いました Casual: りんご3つ買った \"I bought 3 apples\" Full: 友達が5人来ます Casual: 友達5人来る \"5 friends are coming\""
+          },
+          {
+            "level": 3,
+            "heading": "But generally, use counters for clarity!",
+            "content": ""
+          }
+        ]
+      },
+      {
+        "level": 2,
+        "heading": "Multiple Counters Together",
+        "content": "",
+        "children": [
+          {
+            "level": 3,
+            "heading": "Combining different counters in one sentence:",
+            "content": "3人で2時間、5回練習しました \"3 people practiced 5 times for 2 hours\" 2階の会議室で3回会議があります \"There are 3 meetings in the meeting room on the 2nd floor\" 友達3人と映画を2本見ました \"I watched 2 movies with 3 friends\""
+          }
+        ]
+      },
+      {
+        "level": 2,
+        "heading": "Counter + Classifier Combinations",
+        "content": "",
+        "children": [
+          {
+            "level": 3,
+            "heading": "Some items need both:",
+            "content": "ペットボトル3本 \"3 plastic bottles\" (ペットボトル = type, 本 = counter) 千円札5枚 \"5 one-thousand yen bills\" (千円札 = type, 枚 = counter) 缶ビール2本 \"2 cans of beer\" (缶 = can, 本 = counter for bottles)"
+          }
+        ]
+      },
+      {
+        "level": 2,
+        "heading": "Regional Variations",
+        "content": "",
+        "children": [
+          {
+            "level": 3,
+            "heading": "Some counters vary by region:",
+            "content": "Standard: 2人 (ふたり) Kansai: sometimes still 2人 (ににん) Standard: 一個 (いっこ) Some regions: 一つ (ひとつ) preferred"
+          }
+        ]
+      },
+      {
+        "level": 2,
+        "heading": "Learning Strategy",
+        "content": "",
+        "children": [
+          {
+            "level": 3,
+            "heading": "Priority Order for Learners:",
+            "content": "Essential (Learn First):\n\nつ - general counter 人 - people 個 - small objects 枚 - flat objects 本 - long objects\n\nImportant (Learn Next): 6. 匹 - small animals 7. 台 - machines 8. 杯 - cups 9. 回 - times 10. 階 - floors\n\nUseful (Learn Gradually):\n\n冊 (books) 頭 (large animals) 着 (clothing) 足 (footwear) 軒 (buildings)\n\nAdvanced (Learn as needed):\n\nSpecialized counters for your field Literary or formal counters Technical counters"
+          }
+        ]
+      },
+      {
+        "level": 2,
+        "heading": "Common Mistakes Summary",
+        "content": "",
+        "children": [
+          {
+            "level": 3,
+            "heading": "Top 5 Mistakes:",
+            "content": "Forgetting counters entirely Wrong: 3買いました ❌ Right: 3個買いました ✓ Wrong sound changes Wrong: さんほん ❌ Right: さんぼん ✓ Using wrong counter Wrong: 紙3本 ❌ Right: 紙3枚 ✓ Mixing people counters Wrong: いちにん ❌ Right: ひとり ✓ Using counters for wrong items Wrong: 犬3頭 ❌ Right: 犬3匹 ✓"
+          }
+        ]
+      },
+      {
+        "level": 2,
+        "heading": "Tips for Remembering",
+        "content": "",
+        "children": [
+          {
+            "level": 3,
+            "heading": "Visual Association:",
+            "content": "本 looks like a tree trunk → long objects 枚 has 木 (tree) → flat like a board 人 looks like a person → people 匹 has 匚 (box) → small animals fit in boxes"
+          },
+          {
+            "level": 3,
+            "heading": "Sound Pattern Memory:",
+            "content": "Remember the trio:\n\n本 (hon/bon/pon) 匹 (hiki/biki/piki) 杯 (hai/bai/pai)\n\nAll follow the same pattern!"
+          },
+          {
+            "level": 3,
+            "heading": "Context Clues:",
+            "content": "Ask yourself:\n\nWhat shape is it? Is it living or not? How is it typically used?"
+          }
+        ]
+      },
+      {
+        "level": 2,
+        "heading": "Final Notes",
+        "content": "",
+        "children": [
+          {
+            "level": 3,
+            "heading": "When in doubt:",
+            "content": "Use つ for objects (1-10) Use 個 for objects (11+) Ask a native speaker!"
+          },
+          {
+            "level": 3,
+            "heading": "Don't worry about perfection:",
+            "content": "Native speakers will understand context Some counters are interchangeable It's okay to ask \"what counter should I use?\""
+          },
+          {
+            "level": 3,
+            "heading": "Keep practicing:",
+            "content": "Notice counters in real Japanese Practice with everyday items Learn as you go!"
+          }
+        ]
+      },
+      {
+        "level": 2,
+        "heading": "Related Grammar Points",
+        "content": "Number System Overview - Basic numbers Native vs Sino Numbers - Two systems Counter System Basics - How counters work Specific Counter Guides - Detailed explanations Quantity expressions - Expressing amounts Question patterns - How many?",
+        "children": [
+          {
+            "level": 3,
+            "heading": "Company",
+            "content": "About Pricing Blog Contact"
+          },
+          {
+            "level": 3,
+            "heading": "Legal",
+            "content": "Privacy Policy Terms of Service Cookie Policy"
+          }
+        ]
+      }
+    ],
+    "examples": [
+      {
+        "sentence": "Is it long/cylindrical? → 本"
+      },
+      {
+        "sentence": "Is it flat/thin? → 枚"
+      },
+      {
+        "sentence": "Is it small/compact? → 個"
+      },
+      {
+        "sentence": "Not sure? → つ (1-10 only)"
+      },
+      {
+        "sentence": "Person? → 人"
+      },
+      {
+        "sentence": "Small animal? → 匹"
+      },
+      {
+        "sentence": "Large animal? → 頭"
+      },
+      {
+        "sentence": "Bird? → 羽 or 匹"
+      },
+      {
+        "sentence": "In a cup/glass? → 杯"
+      },
+      {
+        "sentence": "On a plate? → 皿"
+      },
+      {
+        "sentence": "Bottle? → 本"
+      },
+      {
+        "sentence": "Slice? → 切れ"
+      },
+      {
+        "sentence": "つ - general counter"
+      },
+      {
+        "sentence": "人 - people"
+      },
+      {
+        "sentence": "個 - small objects"
+      },
+      {
+        "sentence": "枚 - flat objects"
+      },
+      {
+        "sentence": "本 - long objects"
+      },
+      {
+        "sentence": "Forgetting counters entirely Wrong: 3買いました ❌ Right: 3個買いました ✓"
+      },
+      {
+        "sentence": "Wrong sound changes Wrong: さんほん ❌ Right: さんぼん ✓"
+      },
+      {
+        "sentence": "Using wrong counter Wrong: 紙3本 ❌ Right: 紙3枚 ✓"
+      },
+      {
+        "sentence": "Mixing people counters Wrong: いちにん ❌ Right: ひとり ✓"
+      },
+      {
+        "sentence": "Using counters for wrong items Wrong: 犬3頭 ❌ Right: 犬3匹 ✓"
+      },
+      {
+        "sentence": "Use つ for objects (1-10)"
+      },
+      {
+        "sentence": "Use 個 for objects (11+)"
+      },
+      {
+        "sentence": "Ask a native speaker!"
+      },
+      {
+        "sentence": "1 (いち) → often becomes いっ"
+      },
+      {
+        "sentence": "3 (さん) → triggers ん sound → b/p"
+      },
+      {
+        "sentence": "6 (ろく) → often becomes ろっ"
+      },
+      {
+        "sentence": "8 (はち) → often becomes はっ"
+      },
+      {
+        "sentence": "10 (じゅう) → often becomes じゅっ"
+      },
+      {
+        "sentence": "冊 (books)"
+      },
+      {
+        "sentence": "頭 (large animals)"
+      },
+      {
+        "sentence": "着 (clothing)"
+      },
+      {
+        "sentence": "足 (footwear)"
+      },
+      {
+        "sentence": "軒 (buildings)"
+      },
+      {
+        "sentence": "Specialized counters for your field"
+      },
+      {
+        "sentence": "Literary or formal counters"
+      },
+      {
+        "sentence": "Technical counters"
+      },
+      {
+        "sentence": "本 looks like a tree trunk → long objects"
+      },
+      {
+        "sentence": "枚 has 木 (tree) → flat like a board"
+      },
+      {
+        "sentence": "人 looks like a person → people"
+      },
+      {
+        "sentence": "匹 has 匚 (box) → small animals fit in boxes"
+      },
+      {
+        "sentence": "本 (hon/bon/pon)"
+      },
+      {
+        "sentence": "匹 (hiki/biki/piki)"
+      },
+      {
+        "sentence": "杯 (hai/bai/pai)"
+      },
+      {
+        "sentence": "What shape is it?"
+      },
+      {
+        "sentence": "Is it living or not?"
+      },
+      {
+        "sentence": "How is it typically used?"
+      },
+      {
+        "sentence": "Native speakers will understand context"
+      },
+      {
+        "sentence": "Some counters are interchangeable"
+      },
+      {
+        "sentence": "It's okay to ask \"what counter should I use?\""
+      },
+      {
+        "sentence": "Notice counters in real Japanese"
+      },
+      {
+        "sentence": "Practice with everyday items"
+      },
+      {
+        "sentence": "Learn as you go!"
+      },
+      {
+        "sentence": "Number System Overview - Basic numbers"
+      },
+      {
+        "sentence": "Native vs Sino Numbers - Two systems"
+      },
+      {
+        "sentence": "Counter System Basics - How counters work"
+      },
+      {
+        "sentence": "Specific Counter Guides - Detailed explanations"
+      },
+      {
+        "sentence": "Quantity expressions - Expressing amounts"
+      },
+      {
+        "sentence": "Question patterns - How many?"
+      },
+      {
+        "sentence": "About"
+      },
+      {
+        "sentence": "Pricing"
+      },
+      {
+        "sentence": "Blog"
+      },
+      {
+        "sentence": "Contact"
+      },
+      {
+        "sentence": "Privacy Policy"
+      },
+      {
+        "sentence": "Terms of Service"
+      },
+      {
+        "sentence": "Cookie Policy"
+      }
+    ],
+    "metadata": {
+      "title": "Common Counters List"
+    }
+  },
+  "metadata": {
+    "extracted_at": "2026-01-01T22:19:28.062602Z",
+    "duration_ms": 7,
+    "extractors_matched": [
+      "metadata",
+      "examples",
+      "sections"
+    ],
+    "extractors_failed": [
+      "vocab_tables",
+      "definitions",
+      "content_blocks"
+    ]
+  }
+}

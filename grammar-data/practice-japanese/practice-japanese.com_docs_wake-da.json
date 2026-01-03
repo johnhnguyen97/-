@@ -1,0 +1,371 @@
+{
+  "config_name": "Language Learning Extractor",
+  "url": "https://practice-japanese.com/docs/wake-da/",
+  "data": {
+    "examples": [
+      {
+        "sentence": "〜わけがない - There's no way"
+      },
+      {
+        "sentence": "〜わけではない - Not necessarily"
+      },
+      {
+        "sentence": "〜わけにはいかない - Can't/shouldn't"
+      },
+      {
+        "sentence": "というわけで - That's why/Therefore"
+      },
+      {
+        "sentence": "Logical conclusions - Drawing conclusions"
+      },
+      {
+        "sentence": "Explanatory expressions - Clarifying situations"
+      },
+      {
+        "sentence": "About"
+      },
+      {
+        "sentence": "Pricing"
+      },
+      {
+        "sentence": "Blog"
+      },
+      {
+        "sentence": "Contact"
+      },
+      {
+        "sentence": "Privacy Policy"
+      },
+      {
+        "sentence": "Terms of Service"
+      },
+      {
+        "sentence": "Cookie Policy"
+      }
+    ],
+    "sections": [
+      {
+        "level": 2,
+        "heading": "What is 〜わけだ?",
+        "content": "〜わけだ expresses logical conclusions, explanations, or realizations, meaning \"no wonder,\" \"that's why,\" \"it means that,\" or \"naturally.\" It shows understanding of why something is the way it is.\n\n練習したわけだ \"No wonder you improved\" (lit: You practiced, that's why) だから忙しいわけだ \"That's why you're busy\" つまり、できないわけですね \"So that means you can't do it\""
+      },
+      {
+        "level": 2,
+        "heading": "Formation",
+        "content": "",
+        "children": [
+          {
+            "level": 3,
+            "heading": "Pattern: Plain form + わけだ",
+            "content": "With verbs:\n\n行く → 行くわけだ 行った → 行ったわけだ 行かない → 行かないわけだ\n\nWith い-adjectives:\n\n高い → 高いわけだ 高かった → 高かったわけだ\n\nWith な-adjectives:\n\n便利 → 便利なわけだ 簡単 → 簡単なわけだ Use な before わけだ\n\nWith nouns:\n\n学生 → 学生というわけだ / 学生なわけだ 問題 → 問題というわけだ Often use という or な"
+          }
+        ]
+      },
+      {
+        "level": 2,
+        "heading": "Main Uses",
+        "content": "",
+        "children": [
+          {
+            "level": 3,
+            "heading": "1. Logical conclusion (No wonder/That's why)",
+            "content": "A: 毎日練習してるんだ \"I practice every day\" B: だから上手なわけだ \"That's why you're good\" / \"No wonder you're good\" Understanding the reason"
+          },
+          {
+            "level": 3,
+            "heading": "2. Explaining/Clarifying (It means that)",
+            "content": "つまり、来ないわけですね \"So that means you're not coming\" 彼は医者だ。だから忙しいわけだ \"He's a doctor. That's why he's busy\" Explaining the situation"
+          },
+          {
+            "level": 3,
+            "heading": "3. Natural consequence (Naturally/Of course)",
+            "content": "雨だから、中止になるわけだ \"It's raining, so naturally it's cancelled\" 難しいから、時間がかかるわけだ \"It's difficult, so of course it takes time\""
+          }
+        ]
+      },
+      {
+        "level": 2,
+        "heading": "Common Conversations",
+        "content": "",
+        "children": [
+          {
+            "level": 3,
+            "heading": "Example 1: Understanding",
+            "content": "A: 最近、ジムに通ってるんだ \"I've been going to the gym recently\" B: だから痩せたわけだ！ \"That's why you lost weight!\" A: そうなんだよ \"Yeah, that's right\""
+          },
+          {
+            "level": 3,
+            "heading": "Example 2: Clarifying",
+            "content": "A: 彼、来られないって \"He says he can't come\" B: じゃあ、5人だけというわけですね \"So that means it's just 5 people then\" A: そういうこと \"That's right\""
+          },
+          {
+            "level": 3,
+            "heading": "Example 3: Realization",
+            "content": "A: 彼女、フランス人なんだ \"She's French\" B: ああ、だからフランス語が上手なわけだ \"Ah, that's why her French is good\""
+          }
+        ]
+      },
+      {
+        "level": 2,
+        "heading": "Common Mistakes",
+        "content": "",
+        "children": [
+          {
+            "level": 3,
+            "heading": "Mistake 1: Confusing with はずだ",
+            "content": "はずだ: Expectation based on facts 来るはずだ (he said he would) \"He should come\" わけだ: Logical conclusion/explanation 来るわけだ (that explains why he's coming) \"That's why he's coming\" Different functions!"
+          },
+          {
+            "level": 3,
+            "heading": "Mistake 2: Using for personal opinions",
+            "content": "Wrong: いいと思うわけだ ❌ Right: いいと思う ✓ \"I think it's good\" わけだ is for logical conclusions, not opinions"
+          },
+          {
+            "level": 3,
+            "heading": "Mistake 3: Wrong particle with nouns",
+            "content": "Less clear: 学生わけだ ⚠️ Better: 学生というわけだ ✓ Or: 学生なわけだ ✓ Use という or な with nouns"
+          }
+        ]
+      },
+      {
+        "level": 2,
+        "heading": "Polite Forms",
+        "content": "",
+        "children": [
+          {
+            "level": 3,
+            "heading": "Casual: わけだ",
+            "content": "だから忙しいわけだ \"That's why you're busy\""
+          },
+          {
+            "level": 3,
+            "heading": "Polite: わけです",
+            "content": "だから忙しいわけです \"That's why you're busy\" Standard polite"
+          }
+        ]
+      },
+      {
+        "level": 2,
+        "heading": "というわけだ (That means)",
+        "content": "",
+        "children": [
+          {
+            "level": 3,
+            "heading": "Summarizing/concluding",
+            "content": "つまり、できないというわけですね \"So that means you can't do it\" 彼は来ない。つまり、我々だけというわけだ \"He's not coming. That means it's just us\" Summarizing situation"
+          }
+        ]
+      },
+      {
+        "level": 2,
+        "heading": "だから～わけだ (That's why)",
+        "content": "",
+        "children": [
+          {
+            "level": 3,
+            "heading": "Showing cause and effect",
+            "content": "A: 毎日勉強してる \"I study every day\" B: だから成績がいいわけだ \"That's why your grades are good\" Connects reason to result"
+          }
+        ]
+      },
+      {
+        "level": 2,
+        "heading": "なるほど～わけだ (I see, that's why)",
+        "content": "",
+        "children": [
+          {
+            "level": 3,
+            "heading": "Expressing understanding",
+            "content": "なるほど、だから高いわけだ \"I see, that's why it's expensive\" なるほど、そういうわけだったのか \"I see, so that's how it was\" Shows realization"
+          }
+        ]
+      },
+      {
+        "level": 2,
+        "heading": "Negative Form",
+        "content": "",
+        "children": [
+          {
+            "level": 3,
+            "heading": "～ないわけだ (That's why...not)",
+            "content": "準備してない。だからできないわけだ \"You didn't prepare. That's why you can't do it\" 時間がない。だから行けないわけです \"I don't have time. That's why I can't go\""
+          }
+        ]
+      },
+      {
+        "level": 2,
+        "heading": "そういうわけで (That's why/For that reason)",
+        "content": "",
+        "children": [
+          {
+            "level": 3,
+            "heading": "Transitioning explanation",
+            "content": "そういうわけで、今日は休みます \"That's why I'm taking the day off today\" そういうわけで、中止になりました \"For that reason, it was cancelled\" Common phrase"
+          }
+        ]
+      },
+      {
+        "level": 2,
+        "heading": "わけではない vs わけだ",
+        "content": "",
+        "children": [
+          {
+            "level": 3,
+            "heading": "Opposite meanings",
+            "content": "わけだ: It means/that's why 忙しいわけだ \"That's why (you're) busy\" わけではない: It doesn't mean/not necessarily 忙しいわけではない \"It doesn't mean (I'm) busy\" Very different! (Next article)"
+          }
+        ]
+      },
+      {
+        "level": 2,
+        "heading": "Common Patterns",
+        "content": "",
+        "children": [
+          {
+            "level": 3,
+            "heading": "～というわけで (So/Therefore)",
+            "content": "雨が降った。というわけで、中止です \"It rained. Therefore, it's cancelled\" Formal transition"
+          },
+          {
+            "level": 3,
+            "heading": "そんなわけで (So/That's why)",
+            "content": "そんなわけで、行けなくなった \"So, I can't go anymore\" Casual transition"
+          }
+        ]
+      },
+      {
+        "level": 2,
+        "heading": "Expressing Realization",
+        "content": "",
+        "children": [
+          {
+            "level": 3,
+            "heading": "Sudden understanding",
+            "content": "ああ、そうか！だから来なかったわけだ \"Ah, I see! That's why he didn't come\" なるほど、だから人気があるわけだ \"I see, that's why it's popular\""
+          }
+        ]
+      },
+      {
+        "level": 2,
+        "heading": "Explaining Situations",
+        "content": "",
+        "children": [
+          {
+            "level": 3,
+            "heading": "Clarifying circumstances",
+            "content": "彼は忙しい。だから会えないわけです \"He's busy. That's why we can't meet\" 雨が降っている。つまり、中止というわけだ \"It's raining. That means it's cancelled\""
+          }
+        ]
+      },
+      {
+        "level": 2,
+        "heading": "In Formal Contexts",
+        "content": "",
+        "children": [
+          {
+            "level": 3,
+            "heading": "Business/Formal",
+            "content": "つまり、延期というわけでございます \"That means it will be postponed\" そういうわけで、変更いたします \"For that reason, we will make changes\""
+          }
+        ]
+      },
+      {
+        "level": 2,
+        "heading": "Common Situations",
+        "content": "",
+        "children": [
+          {
+            "level": 3,
+            "heading": "Understanding behavior",
+            "content": "彼は医者だ。だから忙しいわけだ \"He's a doctor. That's why he's busy\" 毎日練習している。だから上手なわけだ \"He practices every day. That's why he's good\""
+          },
+          {
+            "level": 3,
+            "heading": "Explaining outcomes",
+            "content": "準備不足だった。だから失敗したわけだ \"Preparation was insufficient. That's why it failed\" 経験がある。だから早いわけです \"He has experience. That's why he's fast\""
+          }
+        ]
+      },
+      {
+        "level": 2,
+        "heading": "With それで (So/Therefore)",
+        "content": "",
+        "children": [
+          {
+            "level": 3,
+            "heading": "Connecting ideas",
+            "content": "A: 風邪を引いた \"I caught a cold\" B: それで休んでいるわけですね \"So that's why you're resting\""
+          }
+        ]
+      },
+      {
+        "level": 2,
+        "heading": "わけにはいかない (Can't/Shouldn't)",
+        "content": "",
+        "children": [
+          {
+            "level": 3,
+            "heading": "Different pattern - obligation",
+            "content": "遅刻するわけにはいかない \"I can't be late\" (different from わけだ!) Special expression"
+          }
+        ]
+      },
+      {
+        "level": 2,
+        "heading": "Practice Sentences",
+        "content": "",
+        "children": [
+          {
+            "level": 3,
+            "heading": "Basic",
+            "content": "だから忙しいわけだ \"That's why you're busy\" つまり、できないわけですね \"So that means you can't do it\" なるほど、そういうわけか \"I see, so that's how it is\""
+          },
+          {
+            "level": 3,
+            "heading": "Intermediate",
+            "content": "彼は毎日5時間も勉強している。 だから成績がいいわけだ \"He studies 5 hours every day. That's why his grades are good\" この店は駅から近い。だから人気があるわけです \"This shop is close to the station. That's why it's popular\" 雨が降っている。つまり、中止というわけですね \"It's raining. So that means it's cancelled\""
+          },
+          {
+            "level": 3,
+            "heading": "Advanced",
+            "content": "彼は10年も日本に住んでいる。だから 日本語が上手なわけだ。それに、日本文化にも 詳しい。長年の経験が豊富な知識に つながっているというわけだ。 \"He's lived in Japan for 10 years. That's why his Japanese is good. Moreover, he's also knowledgeable about Japanese culture. Years of experience have led to abundant knowledge, that's what it means.\" この製品は品質が高い。しかし価格も高い。 つまり、高品質だから高価格というわけだ。 これは当然の結果と言える。 \"This product is high quality. However, the price is also high. That means, because it's high quality, it's high price. This can be said to be a natural result.\""
+          }
+        ]
+      },
+      {
+        "level": 2,
+        "heading": "Related Grammar Points",
+        "content": "〜わけがない - There's no way 〜わけではない - Not necessarily 〜わけにはいかない - Can't/shouldn't というわけで - That's why/Therefore Logical conclusions - Drawing conclusions Explanatory expressions - Clarifying situations",
+        "children": [
+          {
+            "level": 3,
+            "heading": "Company",
+            "content": "About Pricing Blog Contact"
+          },
+          {
+            "level": 3,
+            "heading": "Legal",
+            "content": "Privacy Policy Terms of Service Cookie Policy"
+          }
+        ]
+      }
+    ],
+    "metadata": {
+      "title": "〜わけだ (No wonder)"
+    }
+  },
+  "metadata": {
+    "extracted_at": "2026-01-01T22:19:37.595411600Z",
+    "duration_ms": 4,
+    "extractors_matched": [
+      "metadata",
+      "examples",
+      "sections"
+    ],
+    "extractors_failed": [
+      "vocab_tables",
+      "definitions",
+      "content_blocks"
+    ]
+  }
+}

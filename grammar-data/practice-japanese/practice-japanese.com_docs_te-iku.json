@@ -1,0 +1,458 @@
+{
+  "config_name": "Language Learning Extractor",
+  "url": "https://practice-japanese.com/docs/te-iku/",
+  "data": {
+    "examples": [
+      {
+        "sentence": "Physical movement away while doing an action"
+      },
+      {
+        "sentence": "Gradual change continuing into the future"
+      },
+      {
+        "sentence": "Actions that will continue from now on"
+      },
+      {
+        "sentence": "〜てくる (te-kuru) - Motion towards/change up to now"
+      },
+      {
+        "sentence": "Te-form Conjugation - Basic te-form"
+      },
+      {
+        "sentence": "〜ていく vs 〜てくる - Directional comparison"
+      },
+      {
+        "sentence": "Change & Transformation - Expressing change"
+      },
+      {
+        "sentence": "Future Expressions - Talking about the future"
+      },
+      {
+        "sentence": "Volitional Form - Expressing intention"
+      },
+      {
+        "sentence": "About"
+      },
+      {
+        "sentence": "Pricing"
+      },
+      {
+        "sentence": "Blog"
+      },
+      {
+        "sentence": "Contact"
+      },
+      {
+        "sentence": "Privacy Policy"
+      },
+      {
+        "sentence": "Terms of Service"
+      },
+      {
+        "sentence": "Cookie Policy"
+      }
+    ],
+    "metadata": {
+      "title": "〜ていく (Progressive Direction)"
+    },
+    "sections": [
+      {
+        "level": 2,
+        "heading": "What is 〜ていく (te-iku)?",
+        "content": "〜ていく combines the te-form with いく (to go) and expresses:\n\nPhysical movement away while doing an action Gradual change continuing into the future Actions that will continue from now on\n\n[Verb te-form] + いく 持っていく \"take (away)\" 変わっていく \"gradually change / change going forward\""
+      },
+      {
+        "level": 2,
+        "heading": "Formation",
+        "content": "",
+        "children": [
+          {
+            "level": 3,
+            "heading": "Basic Pattern",
+            "content": "Verb (te-form) + いく Plain: 〜ていく Polite: 〜ていきます 持っていく / 持っていきます \"take (away)\" 変わっていく / 変わっていきます \"change gradually\""
+          }
+        ]
+      },
+      {
+        "level": 2,
+        "heading": "Three Main Meanings",
+        "content": "",
+        "children": [
+          {
+            "level": 3,
+            "heading": "1. Physical Movement Away",
+            "content": "Doing an action while moving away from the speaker.\n\n持っていく \"take (something with you)\" 連れていく \"take (someone with you)\" 運んでいく \"carry away\" 送っていく \"take/escort (someone)\""
+          },
+          {
+            "level": 3,
+            "heading": "2. Gradual Change (Future Direction)",
+            "content": "Change happening progressively into the future.\n\n寒くなっていく \"gradually become cold\" 変わっていく \"gradually change\" 良くなっていく \"gradually get better\" 増えていく \"gradually increase\""
+          },
+          {
+            "level": 3,
+            "heading": "3. Continuation into Future",
+            "content": "Actions that will continue from now on.\n\nこれから頑張っていく \"I'll do my best from now on\" 勉強していく \"continue studying (into the future)\" 働いていく \"continue working\""
+          }
+        ]
+      },
+      {
+        "level": 2,
+        "heading": "Physical Movement Uses",
+        "content": "",
+        "children": [
+          {
+            "level": 3,
+            "heading": "Taking Things",
+            "content": "お弁当を持っていく \"take a lunch box (with me)\" 傘を持っていく \"take an umbrella\" 荷物を運んでいく \"carry luggage away\""
+          },
+          {
+            "level": 3,
+            "heading": "Taking People",
+            "content": "子供を学校に連れていく \"take a child to school\" 友達を駅まで送っていく \"take a friend to the station\""
+          },
+          {
+            "level": 3,
+            "heading": "Versus てくる (Direction)",
+            "content": "ていく: Away from speaker 持っていく - \"take (away)\" てくる: Toward speaker 持ってくる - \"bring (here)\""
+          }
+        ]
+      },
+      {
+        "level": 2,
+        "heading": "Gradual Change Uses",
+        "content": "",
+        "children": [
+          {
+            "level": 3,
+            "heading": "Natural Changes",
+            "content": "日が暮れていく \"the sun gradually sets\" 季節が変わっていく \"seasons gradually change\" 寒くなっていく \"gradually get cold\" 暗くなっていく \"gradually get dark\""
+          },
+          {
+            "level": 3,
+            "heading": "Progressive Development",
+            "content": "上手になっていく \"gradually improve\" 大きくなっていく \"gradually grow bigger\" 有名になっていく \"gradually become famous\" 人気が出ていく \"gradually become popular\""
+          },
+          {
+            "level": 3,
+            "heading": "Deterioration",
+            "content": "悪くなっていく \"gradually worsen\" 古くなっていく \"gradually age\" 忘れていく \"gradually forget\""
+          }
+        ]
+      },
+      {
+        "level": 2,
+        "heading": "Future Continuation",
+        "content": "",
+        "children": [
+          {
+            "level": 3,
+            "heading": "Determination",
+            "content": "これから頑張っていきます \"I'll do my best from now on\" 一生懸命働いていく \"I'll work hard (going forward)\" 努力していく \"I'll continue making efforts\""
+          },
+          {
+            "level": 3,
+            "heading": "Plans",
+            "content": "日本語を勉強していく \"I'll continue studying Japanese\" この仕事を続けていく \"I'll continue this work\" 成長していく \"I'll continue growing\""
+          }
+        ]
+      },
+      {
+        "level": 2,
+        "heading": "Time Expressions with ていく",
+        "content": "",
+        "children": [
+          {
+            "level": 3,
+            "heading": "これから (from now on)",
+            "content": "これから変わっていく \"will gradually change from now\" これから頑張っていきます \"I'll do my best from now on\""
+          },
+          {
+            "level": 3,
+            "heading": "だんだん (gradually)",
+            "content": "だんだん良くなっていく \"gradually get better\" だんだん難しくなっていく \"gradually become more difficult\""
+          },
+          {
+            "level": 3,
+            "heading": "どんどん (more and more)",
+            "content": "どんどん増えていく \"increase more and more\" どんどん成長していく \"grow more and more\""
+          }
+        ]
+      },
+      {
+        "level": 2,
+        "heading": "Comparison: ていく vs てくる",
+        "content": "",
+        "children": [
+          {
+            "level": 3,
+            "heading": "ていく (Away/Future)",
+            "content": "Physical: 持っていく \"take (away)\" Change: 寒くなっていく \"get colder (going forward)\" Future: 頑張っていく \"do my best (from now)\""
+          },
+          {
+            "level": 3,
+            "heading": "てくる (Toward/Past to Present)",
+            "content": "Physical: 持ってくる \"bring (here)\" Change: 寒くなってきた \"has gotten colder (up to now)\" Approach: 春が来る \"spring is coming\""
+          },
+          {
+            "level": 3,
+            "heading": "Key Difference",
+            "content": "ていく: Focus on future progression てくる: Focus on change up to now"
+          }
+        ]
+      },
+      {
+        "level": 2,
+        "heading": "Common Verbs with ていく",
+        "content": "",
+        "children": [
+          {
+            "level": 3,
+            "heading": "Movement",
+            "content": "持っていく - take 連れていく - take (person) 運んでいく - carry away 送っていく - escort/take"
+          },
+          {
+            "level": 3,
+            "heading": "Change",
+            "content": "変わっていく - change gradually なっていく - become gradually 増えていく - increase gradually 減っていく - decrease gradually"
+          },
+          {
+            "level": 3,
+            "heading": "Development",
+            "content": "成長していく - grow/develop 進んでいく - progress 発展していく - develop 広がっていく - spread"
+          }
+        ]
+      },
+      {
+        "level": 2,
+        "heading": "Negative Form",
+        "content": "",
+        "children": [
+          {
+            "level": 3,
+            "heading": "〜ていかない",
+            "content": "変わっていかない \"won't change\" 良くなっていかない \"won't get better\""
+          },
+          {
+            "level": 3,
+            "heading": "〜ていかなければならない",
+            "content": "変わっていかなければならない \"must change (going forward)\" 頑張っていかなければならない \"must work hard (from now on)\""
+          }
+        ]
+      },
+      {
+        "level": 2,
+        "heading": "Past Form",
+        "content": "",
+        "children": [
+          {
+            "level": 3,
+            "heading": "〜ていった",
+            "content": "だんだん寒くなっていった \"gradually got colder\" 変わっていった \"gradually changed\" 成長していった \"grew gradually\""
+          }
+        ]
+      },
+      {
+        "level": 2,
+        "heading": "Common Conversations",
+        "content": "",
+        "children": [
+          {
+            "level": 3,
+            "heading": "Example 1: Taking Something",
+            "content": "A: 明日のピクニック、何を持っていく？ \"What will you take to tomorrow's picnic?\" B: お弁当と飲み物を持っていきます \"I'll take lunch and drinks\" A: 私は果物を持っていくね \"I'll take fruit\""
+          },
+          {
+            "level": 3,
+            "heading": "Example 2: Gradual Change",
+            "content": "A: 天気はどう？ \"How's the weather?\" B: だんだん暑くなっていくね \"It's gradually getting hotter\" A: 夏が近づいているね \"Summer is approaching\""
+          },
+          {
+            "level": 3,
+            "heading": "Example 3: Future Determination",
+            "content": "A: これからどうする？ \"What will you do from now?\" B: 一生懸命勉強していきます \"I'll study hard from now on\" A: 頑張ってね \"Do your best\""
+          },
+          {
+            "level": 3,
+            "heading": "Example 4: Describing Change",
+            "content": "A: 日本語、上手になったね \"Your Japanese has improved\" B: ありがとう。これからももっと上手になっていきたい \"Thanks. I want to continue improving from now on\""
+          }
+        ]
+      },
+      {
+        "level": 2,
+        "heading": "Common Mistakes",
+        "content": "",
+        "children": [
+          {
+            "level": 3,
+            "heading": "Mistake 1: Confusing direction with てくる",
+            "content": "Context: Taking something away Wrong: 持ってくる ❌ Right: 持っていく ✓ \"take (with me)\""
+          },
+          {
+            "level": 3,
+            "heading": "Mistake 2: Using for completed changes",
+            "content": "Context: Already changed Less natural: 変わっていく ⚠️ More natural: 変わった ✓ \"changed\" Note: ていく emphasizes ongoing/future process"
+          },
+          {
+            "level": 3,
+            "heading": "Mistake 3: Wrong context for movement",
+            "content": "Context: Someone bringing something to you Wrong: 持っていく ❌ Right: 持ってくる ✓ \"bring (here)\""
+          }
+        ]
+      },
+      {
+        "level": 2,
+        "heading": "Nuances and Implications",
+        "content": "",
+        "children": [
+          {
+            "level": 3,
+            "heading": "Emphasizing Process",
+            "content": "良くなっていく \"get better (emphasizing the process)\" vs. 良くなる \"get better (simple change)\""
+          },
+          {
+            "level": 3,
+            "heading": "Future Perspective",
+            "content": "頑張っていく \"work hard (from now into future)\" vs. 頑張る \"work hard (general)\""
+          }
+        ]
+      },
+      {
+        "level": 2,
+        "heading": "Special Patterns",
+        "content": "",
+        "children": [
+          {
+            "level": 3,
+            "heading": "〜ていくつもり (intend to continue)",
+            "content": "日本に住んでいくつもりです \"I intend to continue living in Japan\""
+          },
+          {
+            "level": 3,
+            "heading": "〜ていくだろう (will probably continue)",
+            "content": "人口は増えていくだろう \"The population will probably continue increasing\""
+          },
+          {
+            "level": 3,
+            "heading": "〜ていくべき (should continue)",
+            "content": "努力していくべきだ \"should continue making efforts\""
+          }
+        ]
+      },
+      {
+        "level": 2,
+        "heading": "With Adjectives",
+        "content": "",
+        "children": [
+          {
+            "level": 3,
+            "heading": "I-adjectives",
+            "content": "寒くなっていく \"gradually become cold\" 難しくなっていく \"gradually become difficult\" 良くなっていく \"gradually get better\""
+          },
+          {
+            "level": 3,
+            "heading": "Na-adjectives",
+            "content": "便利になっていく \"gradually become convenient\" 有名になっていく \"gradually become famous\" きれいになっていく \"gradually become beautiful\""
+          }
+        ]
+      },
+      {
+        "level": 2,
+        "heading": "Expressing Seasons and Time",
+        "content": "",
+        "children": [
+          {
+            "level": 3,
+            "heading": "Seasonal Changes",
+            "content": "春になっていく \"spring is coming/approaching\" 日が長くなっていく \"days gradually get longer\" 葉が落ちていく \"leaves gradually fall\""
+          },
+          {
+            "level": 3,
+            "heading": "Time Progression",
+            "content": "時間が過ぎていく \"time passes\" 年を取っていく \"grow older\""
+          }
+        ]
+      },
+      {
+        "level": 2,
+        "heading": "Politeness Levels",
+        "content": "",
+        "children": [
+          {
+            "level": 3,
+            "heading": "Casual",
+            "content": "持っていく \"I'll take it\" 変わっていく \"it'll change\""
+          },
+          {
+            "level": 3,
+            "heading": "Polite",
+            "content": "持っていきます \"I'll take it\" 変わっていきます \"it'll change\""
+          },
+          {
+            "level": 3,
+            "heading": "Formal/Determined",
+            "content": "頑張っていきたいと思います \"I would like to work hard going forward\""
+          }
+        ]
+      },
+      {
+        "level": 2,
+        "heading": "Practice Sentences",
+        "content": "",
+        "children": [
+          {
+            "level": 3,
+            "heading": "Physical Movement",
+            "content": "荷物を部屋に運んでいく \"carry luggage to the room\" 子供を学校に連れていく \"take the child to school\" お弁当を持っていく \"take a lunch box\" 友達を駅まで送っていく \"take a friend to the station\""
+          },
+          {
+            "level": 3,
+            "heading": "Gradual Change",
+            "content": "だんだん寒くなっていく \"gradually get colder\" 人口が増えていく \"population gradually increases\" 技術が発展していく \"technology gradually develops\" 季節が変わっていく \"seasons gradually change\""
+          },
+          {
+            "level": 3,
+            "heading": "Future Continuation",
+            "content": "これから頑張っていきます \"I'll do my best from now on\" 日本語を勉強していく \"I'll continue studying Japanese\" 努力していくつもりです \"I intend to continue making efforts\" 成長していきたい \"I want to continue growing\""
+          },
+          {
+            "level": 3,
+            "heading": "Natural Changes",
+            "content": "日が暮れていく \"the sun sets\" 花が咲いていく \"flowers bloom\" 時間が経っていく \"time passes\""
+          }
+        ]
+      },
+      {
+        "level": 2,
+        "heading": "Related Grammar Points",
+        "content": "〜てくる (te-kuru) - Motion towards/change up to now Te-form Conjugation - Basic te-form 〜ていく vs 〜てくる - Directional comparison Change & Transformation - Expressing change Future Expressions - Talking about the future Volitional Form - Expressing intention",
+        "children": [
+          {
+            "level": 3,
+            "heading": "Company",
+            "content": "About Pricing Blog Contact"
+          },
+          {
+            "level": 3,
+            "heading": "Legal",
+            "content": "Privacy Policy Terms of Service Cookie Policy"
+          }
+        ]
+      }
+    ]
+  },
+  "metadata": {
+    "extracted_at": "2026-01-01T22:19:35.486622100Z",
+    "duration_ms": 3,
+    "extractors_matched": [
+      "metadata",
+      "examples",
+      "sections"
+    ],
+    "extractors_failed": [
+      "vocab_tables",
+      "definitions",
+      "content_blocks"
+    ]
+  }
+}

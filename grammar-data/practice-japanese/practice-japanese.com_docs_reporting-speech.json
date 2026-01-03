@@ -1,0 +1,407 @@
+{
+  "config_name": "Language Learning Extractor",
+  "url": "https://practice-japanese.com/docs/reporting-speech/",
+  "data": {
+    "sections": [
+      {
+        "level": 2,
+        "heading": "Overview of Reporting Speech",
+        "content": "Japanese has several ways to report what others have said or conveyed information. The main methods use と with various verbs like 言う (say), 聞く (hear), 伝える (convey), and そうだ (I heard).\n\nDirect: 彼は「行く」と言った \"He said 'I'll go'\" Indirect: 彼は行くと言った \"He said he'd go\" Hearsay: 雨が降るそうだ \"I heard it will rain\""
+      },
+      {
+        "level": 2,
+        "heading": "Direct Quotation",
+        "content": "",
+        "children": [
+          {
+            "level": 3,
+            "heading": "Using quotation marks",
+            "content": "彼は「疲れた」と言った \"He said 'I'm tired'\" 先生は「勉強しなさい」と言いました \"The teacher said 'Study!'\" 母は「気をつけてね」と言った \"Mom said 'Be careful'\" Keeps exact words Uses 「 」quotation marks"
+          }
+        ]
+      },
+      {
+        "level": 2,
+        "heading": "Indirect Quotation",
+        "content": "",
+        "children": [
+          {
+            "level": 3,
+            "heading": "Removing quotation marks",
+            "content": "Direct: 彼は「行く」と言った Indirect: 彼は行くと言った \"He said he'd go\" Direct: 彼女は「忙しい」と言った Indirect: 彼女は忙しいと言った \"She said she's busy\" Reports content, not exact words"
+          }
+        ]
+      },
+      {
+        "level": 2,
+        "heading": "Main Reporting Verbs",
+        "content": "",
+        "children": [
+          {
+            "level": 3,
+            "heading": "と言う (say/said)",
+            "content": "彼は来ると言った \"He said he'd come\" みんな楽しいと言っていた \"Everyone said it was fun\" Most common reporting verb"
+          },
+          {
+            "level": 3,
+            "heading": "と聞く/聞いた (hear/heard)",
+            "content": "彼は来ると聞いた \"I heard he's coming\" 雨だと聞きました \"I heard it's rain\" Reporting what you heard"
+          },
+          {
+            "level": 3,
+            "heading": "と伝える (convey/tell)",
+            "content": "よろしくと伝えてください \"Please tell them my regards\" 彼に会議のことを伝えた \"I told him about the meeting\" Passing on messages"
+          },
+          {
+            "level": 3,
+            "heading": "と教える (teach/tell/inform)",
+            "content": "彼は道を教えてくれた \"He told me the way\" 先生が答えを教えた \"The teacher told us the answer\""
+          }
+        ]
+      },
+      {
+        "level": 2,
+        "heading": "そうだ (I heard/Apparently)",
+        "content": "",
+        "children": [
+          {
+            "level": 3,
+            "heading": "Hearsay marker",
+            "content": "明日雨が降るそうだ \"I heard it will rain tomorrow\" 彼は来ないそうです \"Apparently he's not coming\" 田中さんが結婚したそうだ \"I heard Tanaka got married\" Based on information from others"
+          }
+        ]
+      },
+      {
+        "level": 2,
+        "heading": "Formation Patterns",
+        "content": "",
+        "children": [
+          {
+            "level": 3,
+            "heading": "Plain form + と + Verb",
+            "content": "Verbs: 行く + と言う い-adjectives: 高い + と言う な-adjectives: 便利だ + と言う Nouns: 学生だ + と言う"
+          },
+          {
+            "level": 3,
+            "heading": "そうだ pattern",
+            "content": "Verb plain + そうだ い-adjective + そうだ な-adjective + だそうだ Noun + だそうだ"
+          }
+        ]
+      },
+      {
+        "level": 2,
+        "heading": "Tense in Reported Speech",
+        "content": "",
+        "children": [
+          {
+            "level": 3,
+            "heading": "Present reporting",
+            "content": "彼は来ると言っている \"He says he'll come\" (still saying) 彼女は忙しいと言っています \"She says she's busy\""
+          },
+          {
+            "level": 3,
+            "heading": "Past reporting",
+            "content": "彼は来ると言った \"He said he'd come\" みんな難しいと言っていた \"Everyone was saying it was difficult\""
+          }
+        ]
+      },
+      {
+        "level": 2,
+        "heading": "Common Conversations",
+        "content": "",
+        "children": [
+          {
+            "level": 3,
+            "heading": "Example 1: Reporting News",
+            "content": "A: 何か聞いた？ \"Did you hear anything?\" B: 明日、会議があるそうだよ \"I heard there's a meeting tomorrow\" A: 本当？知らなかった \"Really? I didn't know\""
+          },
+          {
+            "level": 3,
+            "heading": "Example 2: Conveying Messages",
+            "content": "A: 田中さんに会ったら、何て伝える？ \"What should I tell Tanaka when I see him?\" B: よろしくって伝えてください \"Please tell him my regards\""
+          },
+          {
+            "level": 3,
+            "heading": "Example 3: Reporting Conversation",
+            "content": "A: 彼、何て言ってた？ \"What did he say?\" B: 行けないって言ってたよ \"He said he can't go\""
+          }
+        ]
+      },
+      {
+        "level": 2,
+        "heading": "Common Mistakes",
+        "content": "",
+        "children": [
+          {
+            "level": 3,
+            "heading": "Mistake 1: Forgetting と",
+            "content": "Wrong: 彼は行く言った ❌ Right: 彼は行くと言った ✓ \"He said he'd go\" と is necessary!"
+          },
+          {
+            "level": 3,
+            "heading": "Mistake 2: Wrong tense with そうだ",
+            "content": "Wrong: 来たそうだ ❌ (for future) Right: 来るそうだ ✓ \"I heard he'll come\" Use appropriate tense"
+          },
+          {
+            "level": 3,
+            "heading": "Mistake 3: Confusing そうだ types",
+            "content": "Hearsay: 雨が降るそうだ \"I heard it will rain\" Appearance: 雨が降りそうだ \"It looks like it will rain\" Different meanings!"
+          }
+        ]
+      },
+      {
+        "level": 2,
+        "heading": "って (Casual Quotation)",
+        "content": "",
+        "children": [
+          {
+            "level": 3,
+            "heading": "Very casual reporting",
+            "content": "彼、来るって \"He says he's coming\" 明日雨だって \"They say it's rain tomorrow\" 忙しいって言ってた \"He said he's busy\" Common in conversation"
+          }
+        ]
+      },
+      {
+        "level": 2,
+        "heading": "Adjusting Pronouns",
+        "content": "",
+        "children": [
+          {
+            "level": 3,
+            "heading": "First person changes",
+            "content": "Original: 私は行く \"I'll go\" Reported: 彼は行くと言った \"He said he'd go\" Pronouns adjust to perspective"
+          }
+        ]
+      },
+      {
+        "level": 2,
+        "heading": "Questions in Reported Speech",
+        "content": "",
+        "children": [
+          {
+            "level": 3,
+            "heading": "か for questions",
+            "content": "彼は「行くか」と聞いた \"He asked 'Will you go?'\" どこに行くか聞かれた \"I was asked where I'm going\" Use か for question quotes"
+          }
+        ]
+      },
+      {
+        "level": 2,
+        "heading": "Commands in Reported Speech",
+        "content": "",
+        "children": [
+          {
+            "level": 3,
+            "heading": "Quoting imperatives",
+            "content": "彼は「来い」と言った \"He said 'Come!'\" 母は「勉強しなさい」と言った \"Mom said 'Study!'\" 先生は早く来るように言った \"The teacher said to come early\""
+          }
+        ]
+      },
+      {
+        "level": 2,
+        "heading": "らしい (It seems/I heard)",
+        "content": "",
+        "children": [
+          {
+            "level": 3,
+            "heading": "Similar to そうだ",
+            "content": "彼は来ないらしい \"It seems he's not coming\" / \"I heard he's not coming\" 雨が降るらしいよ \"It seems it will rain\" More casual than そうだ"
+          }
+        ]
+      },
+      {
+        "level": 2,
+        "heading": "Multiple Levels of Hearsay",
+        "content": "",
+        "children": [
+          {
+            "level": 3,
+            "heading": "Reporting reports",
+            "content": "田中さんが、山田さんが来ると言っていた \"Tanaka said that Yamada said he'd come\" Can nest reports"
+          }
+        ]
+      },
+      {
+        "level": 2,
+        "heading": "Formal Reporting",
+        "content": "",
+        "children": [
+          {
+            "level": 3,
+            "heading": "In business/formal",
+            "content": "社長は来週出張すると申しておりました \"The president said he would go on a business trip next week\" Use humble/honorific forms"
+          }
+        ]
+      },
+      {
+        "level": 2,
+        "heading": "によると (According to)",
+        "content": "",
+        "children": [
+          {
+            "level": 3,
+            "heading": "Citing sources",
+            "content": "天気予報によると、明日は雨だそうだ \"According to the weather forecast, it will rain tomorrow\" 新聞によると、事故があったそうだ \"According to the newspaper, there was an accident\""
+          }
+        ]
+      },
+      {
+        "level": 2,
+        "heading": "Negative Reporting",
+        "content": "",
+        "children": [
+          {
+            "level": 3,
+            "heading": "Reporting negatives",
+            "content": "彼は来ないと言った \"He said he won't come\" できないと聞いた \"I heard he can't do it\" 嘘じゃないそうだ \"I heard it's not a lie\""
+          }
+        ]
+      },
+      {
+        "level": 2,
+        "heading": "Past Events in Reported Speech",
+        "content": "",
+        "children": [
+          {
+            "level": 3,
+            "heading": "たそうだ (I heard...did)",
+            "content": "彼は昨日来たそうだ \"I heard he came yesterday\" 事故があったそうです \"I heard there was an accident\""
+          }
+        ]
+      },
+      {
+        "level": 2,
+        "heading": "だって (Because he said/I heard)",
+        "content": "",
+        "children": [
+          {
+            "level": 3,
+            "heading": "Casual reason",
+            "content": "A: なんで知ってるの？ \"How do you know?\" B: 田中さんが言ってたんだって \"Because Tanaka said so\""
+          }
+        ]
+      },
+      {
+        "level": 2,
+        "heading": "って聞いた (I heard that)",
+        "content": "",
+        "children": [
+          {
+            "level": 3,
+            "heading": "Casual hearsay",
+            "content": "明日休みだって聞いた \"I heard tomorrow is a holiday\" 彼、結婚するんだって \"I heard he's getting married\""
+          }
+        ]
+      },
+      {
+        "level": 2,
+        "heading": "Reporting with ように",
+        "content": "",
+        "children": [
+          {
+            "level": 3,
+            "heading": "Indirect commands",
+            "content": "先生は早く来るように言った \"The teacher told me to come early\" 彼は気をつけるように言ってくれた \"He told me to be careful\" More indirect than direct quote"
+          }
+        ]
+      },
+      {
+        "level": 2,
+        "heading": "Practice Sentences",
+        "content": "",
+        "children": [
+          {
+            "level": 3,
+            "heading": "Basic",
+            "content": "彼は来ると言った \"He said he'd come\" 明日雨が降るそうだ \"I heard it will rain tomorrow\" 先生は「勉強しなさい」と言った \"The teacher said 'Study!'\""
+          },
+          {
+            "level": 3,
+            "heading": "Intermediate",
+            "content": "田中さんが、明日の会議は中止だと言っていました \"Tanaka was saying tomorrow's meeting is cancelled\" 天気予報によると、週末は晴れるそうです \"According to the weather forecast, it will be sunny this weekend\" 彼は忙しいから来られないって言ってたよ \"He said he can't come because he's busy\""
+          },
+          {
+            "level": 3,
+            "heading": "Advanced",
+            "content": "新聞によると、経済状況が悪化しているそうだ。 専門家は、この状況はしばらく続くだろうと 言っているらしい。 \"According to the newspaper, the economic situation is worsening. Experts apparently say this situation will likely continue for a while.\" 彼は「もう二度と会わない」と言って出て行った。 しかし、友達から聞いた話では、 後悔しているそうだ。 \"He said 'I'll never see you again' and left. However, from what I heard from a friend, apparently he regrets it.\""
+          }
+        ]
+      },
+      {
+        "level": 2,
+        "heading": "Related Grammar Points",
+        "content": "と言う - Say/quotation そうだ - I heard/hearsay らしい - It seems/apparently って - Casual quotation によると - According to Indirect speech - Reported speech patterns",
+        "children": [
+          {
+            "level": 3,
+            "heading": "Company",
+            "content": "About Pricing Blog Contact"
+          },
+          {
+            "level": 3,
+            "heading": "Legal",
+            "content": "Privacy Policy Terms of Service Cookie Policy"
+          }
+        ]
+      }
+    ],
+    "metadata": {
+      "title": "Reporting Speech"
+    },
+    "examples": [
+      {
+        "sentence": "と言う - Say/quotation"
+      },
+      {
+        "sentence": "そうだ - I heard/hearsay"
+      },
+      {
+        "sentence": "らしい - It seems/apparently"
+      },
+      {
+        "sentence": "って - Casual quotation"
+      },
+      {
+        "sentence": "によると - According to"
+      },
+      {
+        "sentence": "Indirect speech - Reported speech patterns"
+      },
+      {
+        "sentence": "About"
+      },
+      {
+        "sentence": "Pricing"
+      },
+      {
+        "sentence": "Blog"
+      },
+      {
+        "sentence": "Contact"
+      },
+      {
+        "sentence": "Privacy Policy"
+      },
+      {
+        "sentence": "Terms of Service"
+      },
+      {
+        "sentence": "Cookie Policy"
+      }
+    ]
+  },
+  "metadata": {
+    "extracted_at": "2026-01-01T22:19:34.212661900Z",
+    "duration_ms": 5,
+    "extractors_matched": [
+      "metadata",
+      "examples",
+      "sections"
+    ],
+    "extractors_failed": [
+      "vocab_tables",
+      "definitions",
+      "content_blocks"
+    ]
+  }
+}

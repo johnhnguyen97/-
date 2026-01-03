@@ -1,0 +1,340 @@
+{
+  "config_name": "Language Learning Extractor",
+  "url": "https://practice-japanese.com/docs/tabi-ni/",
+  "data": {
+    "metadata": {
+      "title": "〜たびに (Every time)"
+    },
+    "examples": [
+      {
+        "sentence": "たびに means \"every time\" or \"whenever\""
+      },
+      {
+        "sentence": "Formation: [Verb dictionary form / Noun の] + たびに"
+      },
+      {
+        "sentence": "Emphasizes regular repetition"
+      },
+      {
+        "sentence": "Often shows progressive change or recurring feelings"
+      },
+      {
+        "sentence": "Common with: 会う, 見る, 聞く, 思い出す"
+      },
+      {
+        "sentence": "Different from とき (general timing)"
+      },
+      {
+        "sentence": "Different from ごとに (regular intervals)"
+      },
+      {
+        "sentence": "Essential for expressing habitual repetition"
+      },
+      {
+        "sentence": "About"
+      },
+      {
+        "sentence": "Pricing"
+      },
+      {
+        "sentence": "Blog"
+      },
+      {
+        "sentence": "Contact"
+      },
+      {
+        "sentence": "Privacy Policy"
+      },
+      {
+        "sentence": "Terms of Service"
+      },
+      {
+        "sentence": "Cookie Policy"
+      }
+    ],
+    "sections": [
+      {
+        "level": 2,
+        "heading": "What is 〜たびに?",
+        "content": "〜たびに (tabi ni) means \"every time\" or \"whenever,\" expressing that something happens repeatedly each time a certain action or event occurs. It emphasizes the regularity of the repetition.\n\nEnglish equivalent: \"every time,\" \"whenever,\" \"each time\"\n\nStructure: [Verb dictionary form / Noun + の] + たびに\n\n会う (au - meet) + たびに = 会うたびに \"every time we meet\" 雨 (ame - rain) + のたびに = 雨のたびに \"every time it rains\" 見る (miru - see) + たびに = 見るたびに \"every time I see\""
+      },
+      {
+        "level": 2,
+        "heading": "Basic Formation",
+        "content": "",
+        "children": [
+          {
+            "level": 3,
+            "heading": "With verbs (dictionary form)",
+            "content": "[Verb dictionary form] + たびに\n\n会うたびに (au tabi ni) - \"every time we meet\" 見るたびに (miru tabi ni) - \"every time I see\" 聞くたびに (kiku tabi ni) - \"every time I hear\" 行くたびに (iku tabi ni) - \"every time I go\""
+          },
+          {
+            "level": 3,
+            "heading": "With nouns + の",
+            "content": "[Noun] + のたびに\n\n雨のたびに (ame no tabi ni) - \"every time it rains\" 旅行のたびに (ryokou no tabi ni) - \"every time I travel\" 試験のたびに (shiken no tabi ni) - \"every time there's an exam\""
+          }
+        ]
+      },
+      {
+        "level": 2,
+        "heading": "Regular Repetition",
+        "content": "",
+        "children": [
+          {
+            "level": 3,
+            "heading": "Habitual occurrence",
+            "content": "彼に会うたびに元気をもらう。 Kare ni au tabi ni genki wo morau. \"Every time I meet him, I feel energized.\" この歌を聞くたびに泣いてしまう。 Kono uta wo kiku tabi ni naite shimau. \"Every time I hear this song, I cry.\" 日本に行くたびに新しい発見がある。 Nihon ni iku tabi ni atarashii hakken ga aru. \"Every time I go to Japan, there's a new discovery.\""
+          }
+        ]
+      },
+      {
+        "level": 2,
+        "heading": "Emotional Response",
+        "content": "",
+        "children": [
+          {
+            "level": 3,
+            "heading": "Recurring feelings",
+            "content": "思い出すたびに悲しくなる。 Omoidasu tabi ni kanashiku naru. \"Every time I remember, I become sad.\" 会うたびに好きになる。 Au tabi ni suki ni naru. \"Every time we meet, I like you more.\" 見るたびに美しいと思う。 Miru tabi ni utsukushii to omou. \"Every time I see it, I think it's beautiful.\""
+          }
+        ]
+      },
+      {
+        "level": 2,
+        "heading": "Progressive Change",
+        "content": "",
+        "children": [
+          {
+            "level": 3,
+            "heading": "Gradual development",
+            "content": "会うたびに大きくなっている。 Au tabi ni ookiku natte iru. \"He's getting bigger every time I see him.\" 練習するたびに上手になる。 Renshuu suru tabi ni jouzu ni naru. \"I get better every time I practice.\" 読むたびに新しいことを学ぶ。 Yomu tabi ni atarashii koto wo manabu. \"I learn something new every time I read.\""
+          }
+        ]
+      },
+      {
+        "level": 2,
+        "heading": "With Events and Occasions",
+        "content": "",
+        "children": [
+          {
+            "level": 3,
+            "heading": "Recurring events",
+            "content": "誕生日のたびにケーキを作る。 Tanjoubi no tabi ni keeki wo tsukuru. \"I make a cake every birthday.\" 試験のたびに緊張する。 Shiken no tabi ni kinchou suru. \"I get nervous every exam.\" 旅行のたびにお土産を買う。 Ryokou no tabi ni omiyage wo kau. \"I buy souvenirs every time I travel.\""
+          }
+        ]
+      },
+      {
+        "level": 2,
+        "heading": "Natural Phenomena",
+        "content": "",
+        "children": [
+          {
+            "level": 3,
+            "heading": "Weather and nature",
+            "content": "雨のたびに傘を忘れる。 Ame no tabi ni kasa wo wasureru. \"I forget my umbrella every time it rains.\" 春が来るたびに桜を見に行く。 Haru ga kuru tabi ni sakura wo mi ni iku. \"I go see cherry blossoms every time spring comes.\" 雪が降るたびに子供のように喜ぶ。 Yuki ga furu tabi ni kodomo no you ni yorokobu. \"I rejoice like a child every time it snows.\""
+          }
+        ]
+      },
+      {
+        "level": 2,
+        "heading": "Negative Outcomes",
+        "content": "",
+        "children": [
+          {
+            "level": 3,
+            "heading": "Recurring problems",
+            "content": "やるたびに失敗する。 Yaru tabi ni shippai suru. \"I fail every time I try.\" 使うたびに壊れる。 Tsukau tabi ni kowareru. \"It breaks every time I use it.\" 料理するたびに焦がしてしまう。 Ryouri suru tabi ni kogashite shimau. \"I burn it every time I cook.\""
+          }
+        ]
+      },
+      {
+        "level": 2,
+        "heading": "Polite Forms",
+        "content": "お会いするたびに嬉しくなります。 Oai suru tabi ni ureshiku narimasu. \"I become happy every time we meet.\" 拝見するたびに感動いたします。 Haiken suru tabi ni kandou itashimasu. \"I'm moved every time I see it.\" 伺うたびに新しいことを学びます。 Ukagau tabi ni atarashii koto wo manabimasu. \"I learn something new every time I visit.\""
+      },
+      {
+        "level": 2,
+        "heading": "Common Expressions",
+        "content": "会うたびに (au tabi ni) - \"every time we meet\" 見るたびに (miru tabi ni) - \"every time I see\" 聞くたびに (kiku tabi ni) - \"every time I hear\" 行くたびに (iku tabi ni) - \"every time I go\" 思い出すたびに (omoidasu tabi ni) - \"every time I remember\" 使うたびに (tsukau tabi ni) - \"every time I use\" 〜のたびに (~no tabi ni) - \"every time ~\" (with nouns)"
+      },
+      {
+        "level": 2,
+        "heading": "Comparing たびに and とき",
+        "content": "",
+        "children": [
+          {
+            "level": 3,
+            "heading": "Every time vs when",
+            "content": "たびに - Every single time (emphasis on repetition):\n\n会うたびに話す。 Au tabi ni hanasu. \"I talk every time we meet.\" (every single time, repeatedly)\n\nとき - When/at the time (general):\n\n会うときに話す。 Au toki ni hanasu. \"I talk when we meet.\" (general, not emphasizing repetition)\n\n| Pattern | Emphasis | Example | | ------- | ----------------- | ---------- | | たびに | Every single time | 会うたびに | | とき | General timing | 会うとき |"
+          }
+        ]
+      },
+      {
+        "level": 2,
+        "heading": "Memories and Nostalgia",
+        "content": "",
+        "children": [
+          {
+            "level": 3,
+            "heading": "Sentimental repetition",
+            "content": "昔を思い出すたびに懐かしくなる。 Mukashi wo omoidasu tabi ni natsukashiku naru. \"I feel nostalgic every time I remember the past.\" この場所に来るたびに幼い頃を思い出す。 Kono basho ni kuru tabi ni osanai koro wo omoidasu. \"I remember my childhood every time I come to this place.\" 写真を見るたびに涙が出る。 Shashin wo miru tabi ni namida ga deru. \"Tears come out every time I see the photos.\""
+          }
+        ]
+      },
+      {
+        "level": 2,
+        "heading": "Learning and Improvement",
+        "content": "",
+        "children": [
+          {
+            "level": 3,
+            "heading": "Skill development",
+            "content": "練習するたびに上達する。 Renshuu suru tabi ni joutatsu suru. \"I improve every time I practice.\" 挑戦するたびに自信がつく。 Chousen suru tabi ni jishin ga tsuku. \"I gain confidence every time I challenge myself.\" 失敗するたびに学ぶ。 Shippai suru tabi ni manabu. \"I learn every time I fail.\""
+          }
+        ]
+      },
+      {
+        "level": 2,
+        "heading": "With Specific Actions",
+        "content": "",
+        "children": [
+          {
+            "level": 3,
+            "heading": "Repeated activities",
+            "content": "電話するたびに留守番電話だ。 Denwa suru tabi ni rusuban denwa da. \"It's voicemail every time I call.\" チェックするたびにエラーが見つかる。 Chekku suru tabi ni eraa ga mitsukaru. \"I find errors every time I check.\" 開けるたびに音がする。 Akeru tabi ni oto ga suru. \"It makes a sound every time I open it.\""
+          }
+        ]
+      },
+      {
+        "level": 2,
+        "heading": "Comparing たびに and ごとに",
+        "content": "",
+        "children": [
+          {
+            "level": 3,
+            "heading": "Every time vs every interval",
+            "content": "たびに - Every occurrence (action-triggered):\n\n会うたびに話す。 Au tabi ni hanasu. \"I talk every time we meet.\" (triggered by meeting)\n\nごとに - Every interval (regular intervals):\n\n一時間ごとに休む。 Ichijikan goto ni yasumu. \"I rest every hour.\" (regular time interval)\n\n| Pattern | Type | Example | | ------- | ----------------- | ------------ | | たびに | Event-triggered | 会うたびに | | ごとに | Regular intervals | 一時間ごとに |"
+          }
+        ]
+      },
+      {
+        "level": 2,
+        "heading": "With Frequency Expressions",
+        "content": "",
+        "children": [
+          {
+            "level": 3,
+            "heading": "Emphasizing regularity",
+            "content": "いつもこの道を通るたびに思い出す。 Itsumo kono michi wo tooru tabi ni omoidasu. \"I always remember every time I pass this road.\" 必ず会うたびに挨拶する。 Kanarazu au tabi ni aisatsu suru. \"I definitely greet them every time we meet.\" 毎回見るたびに感動する。 Maikai miru tabi ni kandou suru. \"I'm moved every single time I see it.\""
+          }
+        ]
+      },
+      {
+        "level": 2,
+        "heading": "Changes Over Time",
+        "content": "",
+        "children": [
+          {
+            "level": 3,
+            "heading": "Ongoing transformation",
+            "content": "年を取るたびに体が弱くなる。 Toshi wo toru tabi ni karada ga yowaku naru. \"My body gets weaker every time I age.\" 季節が変わるたびに気分も変わる。 Kisetsu ga kawaru tabi ni kibun mo kawaru. \"My mood changes every time the season changes.\" 訪れるたびに街が変わっている。 Otozureru tabi ni machi ga kawatte iru. \"The town is changing every time I visit.\""
+          }
+        ]
+      },
+      {
+        "level": 2,
+        "heading": "Negative Patterns",
+        "content": "",
+        "children": [
+          {
+            "level": 3,
+            "heading": "Not every time",
+            "content": "会うたびに必ず話すわけではない。 Au tabi ni kanarazu hanasu wake dewa nai. \"It's not that I always talk every time we meet.\" 行くたびに買うとは限らない。 Iku tabi ni kau to wa kagiranai. \"It's not necessarily that I buy something every time I go.\""
+          }
+        ]
+      },
+      {
+        "level": 2,
+        "heading": "With Humble/Honorific Language",
+        "content": "",
+        "children": [
+          {
+            "level": 3,
+            "heading": "Formal contexts",
+            "content": "お目にかかるたびに光栄に思います。 Ome ni kakaru tabi ni kouei ni omoimasu. \"I feel honored every time I meet you.\" ご覧になるたびにお気づきの点がございますか。 Goran ni naru tabi ni okizuki no ten ga gozaimasu ka. \"Do you notice anything every time you look at it?\""
+          }
+        ]
+      },
+      {
+        "level": 2,
+        "heading": "Cause and Effect",
+        "content": "",
+        "children": [
+          {
+            "level": 3,
+            "heading": "Recurring consequences",
+            "content": "食べるたびにお腹が痛くなる。 Taberu tabi ni onaka ga itaku naru. \"My stomach hurts every time I eat it.\" 運動するたびに体調が良くなる。 Undou suru tabi ni taichou ga yoku naru. \"My physical condition improves every time I exercise.\" 夜更かしするたびに次の日が辛い。 Yofukashi suru tabi ni tsugi no hi ga tsurai. \"The next day is hard every time I stay up late.\""
+          }
+        ]
+      },
+      {
+        "level": 2,
+        "heading": "Common Mistakes",
+        "content": "",
+        "children": [
+          {
+            "level": 3,
+            "heading": "Mistake 1: Using た-form instead of dictionary form",
+            "content": "❌ 会ったたびに ✓ 会うたびに\n\nUse dictionary form, not past tense."
+          },
+          {
+            "level": 3,
+            "heading": "Mistake 2: Forgetting の with nouns",
+            "content": "❌ 雨たびに ✓ 雨のたびに\n\nUse の between noun and たびに."
+          },
+          {
+            "level": 3,
+            "heading": "Mistake 3: Confusing with 時に",
+            "content": "たびに = every single time (emphasis on repetition) 時に = when/at the time (general) 会うたびに = every time we meet (all instances) 会う時に = when we meet (general timing)"
+          },
+          {
+            "level": 3,
+            "heading": "Mistake 4: Using with one-time events",
+            "content": "❌ 昨日会ったたびに (contradiction - \"yesterday\" is one time) ✓ 昨日会った時に\n\nたびに is for repeated occurrences."
+          }
+        ]
+      },
+      {
+        "level": 2,
+        "heading": "Summary",
+        "content": "Key Points:\n\nたびに means \"every time\" or \"whenever\" Formation: [Verb dictionary form / Noun の] + たびに Emphasizes regular repetition Often shows progressive change or recurring feelings Common with: 会う, 見る, 聞く, 思い出す Different from とき (general timing) Different from ごとに (regular intervals) Essential for expressing habitual repetition",
+        "children": [
+          {
+            "level": 3,
+            "heading": "Company",
+            "content": "About Pricing Blog Contact"
+          },
+          {
+            "level": 3,
+            "heading": "Legal",
+            "content": "Privacy Policy Terms of Service Cookie Policy"
+          }
+        ]
+      }
+    ]
+  },
+  "metadata": {
+    "extracted_at": "2026-01-01T22:19:34.903974100Z",
+    "duration_ms": 4,
+    "extractors_matched": [
+      "metadata",
+      "examples",
+      "sections"
+    ],
+    "extractors_failed": [
+      "vocab_tables",
+      "definitions",
+      "content_blocks"
+    ]
+  }
+}

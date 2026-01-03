@@ -1,0 +1,313 @@
+{
+  "config_name": "Language Learning Extractor",
+  "url": "https://practice-japanese.com/docs/itsu/",
+  "data": {
+    "sections": [
+      {
+        "level": 2,
+        "heading": "What is いつ (itsu)?",
+        "content": "いつ means \"when\" in Japanese. It's used to ask about the time, date, or timing of events and actions.\n\nいつですか？ \"When is it?\" いつ行きますか？ \"When will you go?\""
+      },
+      {
+        "level": 2,
+        "heading": "Basic Usage",
+        "content": "",
+        "children": [
+          {
+            "level": 3,
+            "heading": "いつですか？",
+            "content": "いつですか？ \"When is it?\" 誕生日はいつですか？ \"When is your birthday?\" 試験はいつですか？ \"When is the exam?\" 会議はいつですか？ \"When is the meeting?\""
+          },
+          {
+            "level": 3,
+            "heading": "いつ + Verb",
+            "content": "いつ行きますか？ \"When will you go?\" いつ来ますか？ \"When will you come?\" いつ始まりますか？ \"When will it start?\" いつ終わりますか？ \"When will it end?\""
+          }
+        ]
+      },
+      {
+        "level": 2,
+        "heading": "With Particles",
+        "content": "",
+        "children": [
+          {
+            "level": 3,
+            "heading": "いつに (rare but possible)",
+            "content": "Usually に is omitted with いつ, but can be used for emphasis:\n\nいつ会いますか？ ✓ (more common) いつに会いますか？ ✓ (acceptable) \"When will we meet?\""
+          },
+          {
+            "level": 3,
+            "heading": "いつから (From when)",
+            "content": "いつから始まりますか？ \"From when will it start?\" いつから日本にいますか？ \"Since when have you been in Japan?\" いつから勉強していますか？ \"Since when have you been studying?\""
+          },
+          {
+            "level": 3,
+            "heading": "いつまで (Until when)",
+            "content": "いつまでいますか？ \"Until when will you be here?\" いつまで働きますか？ \"Until when will you work?\" いつまで待ちますか？ \"Until when will you wait?\""
+          },
+          {
+            "level": 3,
+            "heading": "いつまでに (By when)",
+            "content": "Deadline emphasis:\n\nいつまでに終わりますか？ \"By when will it be finished?\" いつまでに出しますか？ \"By when will you submit it?\" いつまでに来ますか？ \"By when will you come?\""
+          }
+        ]
+      },
+      {
+        "level": 2,
+        "heading": "Common Time-Related Questions",
+        "content": "",
+        "children": [
+          {
+            "level": 3,
+            "heading": "Past",
+            "content": "いつ来ましたか？ \"When did you come?\" いつ始まりましたか？ \"When did it start?\" いつ買いましたか？ \"When did you buy it?\" いつ会いましたか？ \"When did you meet?\""
+          },
+          {
+            "level": 3,
+            "heading": "Present/Future",
+            "content": "いつ行きますか？ \"When will you go?\" いつ会えますか？ \"When can we meet?\" いつ始めますか？ \"When will you start?\" いつ出発しますか？ \"When will you depart?\""
+          }
+        ]
+      },
+      {
+        "level": 2,
+        "heading": "Common Patterns",
+        "content": "",
+        "children": [
+          {
+            "level": 3,
+            "heading": "いつも (always)",
+            "content": "いつも勉強します \"I always study\" いつもありがとう \"Thank you as always\" いつも元気です \"I'm always energetic\""
+          },
+          {
+            "level": 3,
+            "heading": "いつでも (anytime)",
+            "content": "いつでもいい \"Anytime is fine\" いつでも来てください \"Please come anytime\" いつでも電話していい \"You can call anytime\""
+          },
+          {
+            "level": 3,
+            "heading": "いつか (someday/sometime)",
+            "content": "いつか行きたい \"I want to go someday\" いつか会いましょう \"Let's meet sometime\" いつか日本に行く \"I'll go to Japan someday\""
+          },
+          {
+            "level": 3,
+            "heading": "いつの間にか (before one knows it)",
+            "content": "いつの間にか寝ていた \"I fell asleep before I knew it\" いつの間にか冬になった \"It became winter before I knew it\""
+          },
+          {
+            "level": 3,
+            "heading": "いつまでも (forever)",
+            "content": "いつまでも友達 \"Friends forever\" いつまでも覚えている \"I'll remember forever\" いつまでも若い \"Young forever\""
+          }
+        ]
+      },
+      {
+        "level": 2,
+        "heading": "Answering いつ Questions",
+        "content": "",
+        "children": [
+          {
+            "level": 3,
+            "heading": "Specific Times",
+            "content": "Q: いつ行きますか？ \"When will you go?\" A: 明日行きます \"I'll go tomorrow\" A: 3時に行きます \"I'll go at 3 o'clock\" A: 来週行きます \"I'll go next week\""
+          },
+          {
+            "level": 3,
+            "heading": "Vague Times",
+            "content": "Q: いつ来ますか？ \"When will you come?\" A: 後で来ます \"I'll come later\" A: すぐ来ます \"I'll come soon\" A: もうすぐ来ます \"I'll come soon\""
+          }
+        ]
+      },
+      {
+        "level": 2,
+        "heading": "Common Conversations",
+        "content": "",
+        "children": [
+          {
+            "level": 3,
+            "heading": "Example 1: Making Plans",
+            "content": "A: いつ会いましょうか？ \"When shall we meet?\" B: 来週はどうですか？ \"How about next week?\" A: いいですね。何曜日がいいですか？ \"That's good. What day is good?\" B: 水曜日はどうですか？ \"How about Wednesday?\""
+          },
+          {
+            "level": 3,
+            "heading": "Example 2: Past Events",
+            "content": "A: いつ日本に来ましたか？ \"When did you come to Japan?\" B: 去年来ました \"I came last year\" A: いつから日本語を勉強していますか？ \"Since when have you been studying Japanese?\" B: 3年前から勉強しています \"I've been studying since 3 years ago\""
+          },
+          {
+            "level": 3,
+            "heading": "Example 3: Deadlines",
+            "content": "A: レポートはいつまでに出しますか？ \"By when do we submit the report?\" B: 金曜日までに出してください \"Please submit it by Friday\" A: わかりました \"Understood\""
+          }
+        ]
+      },
+      {
+        "level": 2,
+        "heading": "Common Mistakes",
+        "content": "",
+        "children": [
+          {
+            "level": 3,
+            "heading": "Mistake 1: Using に unnecessarily",
+            "content": "Common: いつ行きますか？ ✓ Less common: いつに行きますか？ ⚠️ \"When will you go?\" Note: Both are acceptable, but いつ alone is more common"
+          },
+          {
+            "level": 3,
+            "heading": "Mistake 2: Confusing いつ with other time words",
+            "content": "いつ - when (question) いつも - always いつか - someday いつでも - anytime Don't confuse these!"
+          },
+          {
+            "level": 3,
+            "heading": "Mistake 3: Wrong particle with duration",
+            "content": "Wrong: いつまで3時間 ❌ Right: 3時間 (no particle for duration) ✓ \"3 hours\" いつまで is for \"until when\" not duration"
+          }
+        ]
+      },
+      {
+        "level": 2,
+        "heading": "Special Expressions",
+        "content": "",
+        "children": [
+          {
+            "level": 3,
+            "heading": "いつ頃 (itsugoro)",
+            "content": "\"Around when/about when\":\n\nいつ頃来ますか？ \"Around when will you come?\" いつ頃始まりますか？ \"About when will it start?\" いつ頃終わりますか？ \"Around when will it end?\""
+          },
+          {
+            "level": 3,
+            "heading": "いつだって (itsudatte)",
+            "content": "\"Anytime/whenever\" (emphatic):\n\nいつだって来ていい \"You can come anytime\" いつだって助ける \"I'll help anytime\""
+          },
+          {
+            "level": 3,
+            "heading": "いつものように (itsumo no you ni)",
+            "content": "\"As always/as usual\":\n\nいつものように勉強する \"Study as always\" いつものように会いましょう \"Let's meet as usual\""
+          }
+        ]
+      },
+      {
+        "level": 2,
+        "heading": "Politeness Levels",
+        "content": "",
+        "children": [
+          {
+            "level": 3,
+            "heading": "Casual",
+            "content": "いつ？ \"When?\" いつ行く？ \"When will you go?\" いつ来る？ \"When will you come?\""
+          },
+          {
+            "level": 3,
+            "heading": "Polite",
+            "content": "いつですか？ \"When is it?\" いつ行きますか？ \"When will you go?\" いつ来られますか？ \"When can you come?\""
+          }
+        ]
+      },
+      {
+        "level": 2,
+        "heading": "With Other Question Words",
+        "content": "Can combine with other question words:\n\n誰がいつ来ますか？ \"Who will come when?\" いつどこに行きますか？ \"When and where will you go?\" いつ何をしますか？ \"When will you do what?\""
+      },
+      {
+        "level": 2,
+        "heading": "Practice Sentences",
+        "content": "",
+        "children": [
+          {
+            "level": 3,
+            "heading": "Basic Questions",
+            "content": "いつですか？ \"When is it?\" いつ行きますか？ \"When will you go?\" いつ来ましたか？ \"When did you come?\" いつ始まりますか？ \"When will it start?\""
+          },
+          {
+            "level": 3,
+            "heading": "With Particles",
+            "content": "いつから始まりますか？ \"From when will it start?\" いつまでいますか？ \"Until when will you be here?\" いつまでに出しますか？ \"By when will you submit it?\""
+          },
+          {
+            "level": 3,
+            "heading": "Common Expressions",
+            "content": "いつもありがとう \"Thank you always\" いつでもいい \"Anytime is fine\" いつか行きたい \"I want to go someday\" いつまでも友達 \"Friends forever\""
+          },
+          {
+            "level": 3,
+            "heading": "Time-Specific",
+            "content": "誕生日はいつですか？ \"When is your birthday?\" 試験はいつですか？ \"When is the exam?\" 会議はいつ始まりますか？ \"When will the meeting start?\""
+          }
+        ]
+      },
+      {
+        "level": 2,
+        "heading": "Related Grammar Points",
+        "content": "Question Words (5W1H) - Overview Time Words - Specific time expressions 〜から (kara) - From 〜まで (made) - Until 〜までに - By (deadline) Present/Future Tense - Talking about when",
+        "children": [
+          {
+            "level": 3,
+            "heading": "Company",
+            "content": "About Pricing Blog Contact"
+          },
+          {
+            "level": 3,
+            "heading": "Legal",
+            "content": "Privacy Policy Terms of Service Cookie Policy"
+          }
+        ]
+      }
+    ],
+    "metadata": {
+      "title": "いつ (itsu) - When"
+    },
+    "examples": [
+      {
+        "sentence": "Question Words (5W1H) - Overview"
+      },
+      {
+        "sentence": "Time Words - Specific time expressions"
+      },
+      {
+        "sentence": "〜から (kara) - From"
+      },
+      {
+        "sentence": "〜まで (made) - Until"
+      },
+      {
+        "sentence": "〜までに - By (deadline)"
+      },
+      {
+        "sentence": "Present/Future Tense - Talking about when"
+      },
+      {
+        "sentence": "About"
+      },
+      {
+        "sentence": "Pricing"
+      },
+      {
+        "sentence": "Blog"
+      },
+      {
+        "sentence": "Contact"
+      },
+      {
+        "sentence": "Privacy Policy"
+      },
+      {
+        "sentence": "Terms of Service"
+      },
+      {
+        "sentence": "Cookie Policy"
+      }
+    ]
+  },
+  "metadata": {
+    "extracted_at": "2026-01-01T22:19:30.368891500Z",
+    "duration_ms": 3,
+    "extractors_matched": [
+      "metadata",
+      "examples",
+      "sections"
+    ],
+    "extractors_failed": [
+      "vocab_tables",
+      "definitions",
+      "content_blocks"
+    ]
+  }
+}

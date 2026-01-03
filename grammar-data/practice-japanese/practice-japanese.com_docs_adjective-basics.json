@@ -1,0 +1,372 @@
+{
+  "config_name": "Language Learning Extractor",
+  "url": "https://practice-japanese.com/docs/adjective-basics/",
+  "data": {
+    "metadata": {
+      "title": "Japanese Adjective Basics"
+    },
+    "examples": [
+      {
+        "sentence": "I-adjectives (い形容詞) - end in い, conjugate like verbs"
+      },
+      {
+        "sentence": "Na-adjectives (な形容詞) - need な before nouns, conjugate with だ"
+      },
+      {
+        "sentence": "Most dictionary entries mark them as な形容詞"
+      },
+      {
+        "sentence": "They need な before nouns"
+      },
+      {
+        "sentence": "They use だ/です as predicate"
+      },
+      {
+        "sentence": "I-adjective Conjugation"
+      },
+      {
+        "sentence": "Na-adjective Conjugation"
+      },
+      {
+        "sentence": "Adjective Comparisons"
+      },
+      {
+        "sentence": "Parts of Speech"
+      },
+      {
+        "sentence": "Verb Basics"
+      },
+      {
+        "sentence": "About"
+      },
+      {
+        "sentence": "Pricing"
+      },
+      {
+        "sentence": "Blog"
+      },
+      {
+        "sentence": "Contact"
+      },
+      {
+        "sentence": "Privacy Policy"
+      },
+      {
+        "sentence": "Terms of Service"
+      },
+      {
+        "sentence": "Cookie Policy"
+      }
+    ],
+    "sections": [
+      {
+        "level": 2,
+        "heading": "Two Types of Adjectives",
+        "content": "Unlike English, Japanese has two completely different types of adjectives that conjugate differently:\n\nI-adjectives (い形容詞) - end in い, conjugate like verbs Na-adjectives (な形容詞) - need な before nouns, conjugate with だ"
+      },
+      {
+        "level": 2,
+        "heading": "I-Adjectives (い形容詞)",
+        "content": "",
+        "children": [
+          {
+            "level": 3,
+            "heading": "Identification",
+            "content": "Always end in い in dictionary form:\n\n大きい (ookii) - big 小さい (chiisai) - small 高い (takai) - tall/expensive 安い (yasui) - cheap 美しい (utsukushii) - beautiful"
+          },
+          {
+            "level": 3,
+            "heading": "Key Feature",
+            "content": "Conjugate like verbs - change their ending directly:\n\n大きい → 大きかった (was big) 大きい → 大きくない (not big) 大きい → 大きくて (big and...)"
+          },
+          {
+            "level": 3,
+            "heading": "Using I-Adjectives",
+            "content": "Before nouns (no particle needed):\n\n大きい犬 ookii inu \"big dog\" 高い車 takai kuruma \"expensive car\"\n\nAs predicate (sentence ending):\n\nこの犬は大きい kono inu wa ookii \"This dog is big\" その車は高い sono kuruma wa takai \"That car is expensive\""
+          },
+          {
+            "level": 3,
+            "heading": "Basic Conjugation",
+            "content": "Present affirmative:\n\n大きい (ookii) - is big\n\nPast affirmative:\n\n大きかった (ookikatta) - was big\n\nPresent negative:\n\n大きくない (ookikunai) - is not big 大きくありません (ookiku arimasen) - is not big (polite)\n\nPast negative:\n\n大きくなかった (ookirunakatta) - was not big 大きくありませんでした (ookiku arimasendeshita) - was not big (polite)"
+          },
+          {
+            "level": 3,
+            "heading": "Adverb Form",
+            "content": "Drop い, add く:\n\n早い (hayai) - early/fast → 早く (hayaku) - early/quickly 静かい? NO - 静か is na-adjective!\n\n早く走る hayaku hashiru \"run quickly\" 早く来て hayaku kite \"come early\""
+          }
+        ]
+      },
+      {
+        "level": 2,
+        "heading": "Na-Adjectives (な形容詞)",
+        "content": "",
+        "children": [
+          {
+            "level": 3,
+            "heading": "Identification",
+            "content": "Don't end in い (usually). Need な before nouns:\n\n静か (shizuka) - quiet 綺麗 (kirei) - beautiful/clean 便利 (benri) - convenient 好き (suki) - likeable 有名 (yuumei) - famous"
+          },
+          {
+            "level": 3,
+            "heading": "Key Feature",
+            "content": "Behave like nouns - need な to modify nouns, conjugate with だ/です:\n\n静かな部屋 (with な before noun) 部屋は静かだ (with だ as predicate)"
+          },
+          {
+            "level": 3,
+            "heading": "Using Na-Adjectives",
+            "content": "Before nouns (need な):\n\n静かな部屋 shizuka na heya \"quiet room\" 綺麗な花 kirei na hana \"beautiful flower\"\n\nAs predicate (with だ/です):\n\nこの部屋は静かだ kono heya wa shizuka da \"This room is quiet\" その花は綺麗です sono hana wa kirei desu \"That flower is beautiful\""
+          },
+          {
+            "level": 3,
+            "heading": "Basic Conjugation",
+            "content": "Present affirmative:\n\n静かだ (shizuka da) - is quiet 静かです (shizuka desu) - is quiet (polite)\n\nPast affirmative:\n\n静かだった (shizuka datta) - was quiet 静かでした (shizuka deshita) - was quiet (polite)\n\nPresent negative:\n\n静かじゃない (shizuka janai) - is not quiet 静かではありません (shizuka dewa arimasen) - is not quiet (polite)\n\nPast negative:\n\n静かじゃなかった (shizuka janakatta) - was not quiet 静かではありませんでした (shizuka dewa arimasendeshita) - was not quiet (polite)"
+          },
+          {
+            "level": 3,
+            "heading": "Adverb Form",
+            "content": "Add に:\n\n静か (shizuka) - quiet → 静かに (shizuka ni) - quietly 綺麗 (kirei) - beautiful → 綺麗に (kirei ni) - beautifully\n\n静かに話す shizuka ni hanasu \"speak quietly\""
+          }
+        ]
+      },
+      {
+        "level": 2,
+        "heading": "Tricky Cases: いい",
+        "content": "いい (ii) means \"good\" but conjugates irregularly using よ:\n\nPresent: いい (ii) / 良い (yoi) - good Past: 良かった (yokatta) - was good Negative: 良くない (yokunai) - not good Adverb: 良く (yoku) - well\n\nDon't say: いかった ❌ Say: 良かった ✓"
+      },
+      {
+        "level": 2,
+        "heading": "Confusing Na-adjectives",
+        "content": "Some na-adjectives end in い, confusing learners:\n\n嫌い (kirai) - dislikeable → na-adjective 綺麗 (kirei) - beautiful → na-adjective 有名 (yuumei) - famous → na-adjective\n\nHow to tell:\n\nMost dictionary entries mark them as な形容詞 They need な before nouns They use だ/です as predicate\n\n嫌いな食べ物 (kirai na tabemono) - disliked food 綺麗な人 (kirei na hito) - beautiful person"
+      },
+      {
+        "level": 2,
+        "heading": "Connecting Adjectives",
+        "content": "",
+        "children": [
+          {
+            "level": 3,
+            "heading": "I-adjectives: て-form",
+            "content": "Drop い, add くて:\n\n大きくて白い犬 ookikute shiroi inu \"a big and white dog\" この部屋は広くて明るい \"This room is spacious and bright\""
+          },
+          {
+            "level": 3,
+            "heading": "Na-adjectives: で",
+            "content": "Use で to connect:\n\n静かで便利な場所 shizuka de benri na basho \"a quiet and convenient place\" 彼女は親切で優しい \"She is kind and gentle\""
+          }
+        ]
+      },
+      {
+        "level": 2,
+        "heading": "Common I-Adjectives",
+        "content": "大きい (ookii) - big 小さい (chiisai) - small 高い (takai) - tall/expensive 低い (hikui) - low/short 広い (hiroi) - spacious 狭い (semai) - narrow 新しい (atarashii) - new 古い (furui) - old 良い (yoi/ii) - good 悪い (warui) - bad 多い (ooi) - many 少ない (sukunai) - few"
+      },
+      {
+        "level": 2,
+        "heading": "Common Na-Adjectives",
+        "content": "静か (shizuka) - quiet 綺麗 (kirei) - beautiful/clean 便利 (benri) - convenient 不便 (fuben) - inconvenient 好き (suki) - likeable 嫌い (kirai) - dislikeable 有名 (yuumei) - famous 親切 (shinsetsu) - kind 元気 (genki) - energetic/healthy 簡単 (kantan) - simple/easy"
+      },
+      {
+        "level": 2,
+        "heading": "Side-by-Side Comparison",
+        "content": "| Feature | I-adjectives | Na-adjectives | | ---------------- | ------------ | --------------------- | | Ending | い | Various (often kanji) | | Before noun | 大きい犬 | 静かな犬 | | As predicate | 大きい | 静かだ/です | | Past | 大きかった | 静かだった | | Negative | 大きくない | 静かじゃない | | Adverb | 大きく | 静かに | | Connect | 大きくて | 静かで |"
+      },
+      {
+        "level": 2,
+        "heading": "Degrees of Intensity",
+        "content": "",
+        "children": [
+          {
+            "level": 3,
+            "heading": "Very / Quite",
+            "content": "Use とても (totemo) or very casual すごく (sugoku):\n\nとても大きい totemo ookii \"very big\" すごく綺麗です sugoku kirei desu \"super beautiful\""
+          },
+          {
+            "level": 3,
+            "heading": "A Little",
+            "content": "Use ちょっと (chotto) or 少し (sukoshi):\n\nちょっと高い chotto takai \"a little expensive\" 少し寒い sukoshi samui \"a bit cold\""
+          },
+          {
+            "level": 3,
+            "heading": "Too Much",
+            "content": "Use すぎる (sugiru) - attach to stem:\n\nI-adjectives: Drop い, add すぎる\n\n高すぎる (takasugiru) - too expensive 大きすぎる (ookisugiru) - too big\n\nNa-adjectives: Add すぎる directly\n\n静かすぎる (shizukasugiru) - too quiet 便利すぎる (benrisugiru) - too convenient"
+          }
+        ]
+      },
+      {
+        "level": 2,
+        "heading": "Comparative Patterns",
+        "content": "",
+        "children": [
+          {
+            "level": 3,
+            "heading": "More than (より)",
+            "content": "A は B より 形容詞 東京はロンドンより大きい \"Tokyo is bigger than London\" この部屋はあの部屋より静かです \"This room is quieter than that room\""
+          },
+          {
+            "level": 3,
+            "heading": "Most (一番)",
+            "content": "A は 一番 形容詞 富士山は一番高い \"Mt. Fuji is the tallest\" これが一番好きです \"I like this the most\"\n\nSee: Comparisons"
+          }
+        ]
+      },
+      {
+        "level": 2,
+        "heading": "Adjectives as Nouns",
+        "content": "",
+        "children": [
+          {
+            "level": 3,
+            "heading": "I-adjectives: Drop い, add さ",
+            "content": "高い (takai) → 高さ (takasa) - height 大きい (ookii) → 大きさ (ookisa) - size"
+          },
+          {
+            "level": 3,
+            "heading": "Na-adjectives: Add さ",
+            "content": "静か (shizuka) → 静かさ (shizukasa) - quietness 便利 (benri) → 便利さ (benrisa) - convenience"
+          }
+        ]
+      },
+      {
+        "level": 2,
+        "heading": "Common Mistakes",
+        "content": "",
+        "children": [
+          {
+            "level": 3,
+            "heading": "Mistake 1: Using い-adjective Pattern with Na-adjectives",
+            "content": "Wrong: 綺麗い部屋 ❌ Right: 綺麗な部屋 ✓"
+          },
+          {
+            "level": 3,
+            "heading": "Mistake 2: Forgetting な Before Nouns",
+            "content": "Wrong: 静か部屋 ❌ Right: 静かな部屋 ✓"
+          },
+          {
+            "level": 3,
+            "heading": "Mistake 3: Wrong Conjugation",
+            "content": "Wrong: 大きいだった ❌ Right: 大きかった ✓\n\nI-adjectives don't need だ/です for past."
+          },
+          {
+            "level": 3,
+            "heading": "Mistake 4: Mixing Politeness",
+            "content": "Wrong: 大きいです → 大きかったです (past) ✓ Not: 大きいでした ❌\n\nI-adjectives: adjective + です Not: adjective + でした"
+          },
+          {
+            "level": 3,
+            "heading": "Mistake 5: Wrong Adverb Formation",
+            "content": "Wrong: 早いに ❌ Right: 早く ✓\n\nI-adjectives use く, not に."
+          }
+        ]
+      },
+      {
+        "level": 2,
+        "heading": "Special Cases",
+        "content": "",
+        "children": [
+          {
+            "level": 3,
+            "heading": "Colors",
+            "content": "Most are na-adjectives, except three:\n\nI-adjectives:\n\n赤い (akai) - red 青い (aoi) - blue 黄色い (kiiroi) - yellow\n\nNa-adjectives:\n\n白 (shiro) - white → 白い服 (shiroi fuku) 黒 (kuro) - black → 黒い車 (kuroi kuruma) 茶色 (chairo) - brown → 茶色な目 (chairo na me)\n\nWait, 白い and 黒い are actually i-adjectives! They end in い and conjugate like i-adjectives."
+          },
+          {
+            "level": 3,
+            "heading": "Emotions/States",
+            "content": "Often na-adjectives:\n\n元気 (genki) - energetic → 元気な人 幸せ (shiawase) - happy → 幸せな時間 大変 (taihen) - tough/terrible → 大変な仕事"
+          }
+        ]
+      },
+      {
+        "level": 2,
+        "heading": "Politeness Levels",
+        "content": "",
+        "children": [
+          {
+            "level": 3,
+            "heading": "Casual (Plain)",
+            "content": "大きい (i-adj) - big 静かだ (na-adj) - quiet"
+          },
+          {
+            "level": 3,
+            "heading": "Polite",
+            "content": "大きいです (i-adj) - big 静かです (na-adj) - quiet"
+          },
+          {
+            "level": 3,
+            "heading": "Very Polite (Formal)",
+            "content": "大きゅうございます (i-adj) - very rare, archaic 静かでございます (na-adj) - formal service language\n\nMost situations need only plain or です form."
+          }
+        ]
+      },
+      {
+        "level": 2,
+        "heading": "Practice Framework",
+        "content": "",
+        "children": [
+          {
+            "level": 3,
+            "heading": "Step 1: Identify Type",
+            "content": "Does it end in い and conjugate? → I-adjective Does it need な before nouns? → Na-adjective"
+          },
+          {
+            "level": 3,
+            "heading": "Step 2: Choose Form",
+            "content": "Before noun? → Add な for na-adjectives End of sentence? → Conjugate appropriately"
+          },
+          {
+            "level": 3,
+            "heading": "Step 3: Conjugate",
+            "content": "I-adjectives: Change い ending Na-adjectives: Use だ/です forms"
+          }
+        ]
+      },
+      {
+        "level": 2,
+        "heading": "Quick Reference Chart",
+        "content": "",
+        "children": [
+          {
+            "level": 3,
+            "heading": "I-adjective (大きい)",
+            "content": "Present: 大きい Past: 大きかった Negative: 大きくない Past Neg: 大きくなかった Adverb: 大きく Connect: 大きくて Before noun: 大きい犬 (no particle)"
+          },
+          {
+            "level": 3,
+            "heading": "Na-adjective (静か)",
+            "content": "Present: 静かだ/です Past: 静かだった/でした Negative: 静かじゃない/ではありません Past Neg: 静かじゃなかった/ではありませんでした Adverb: 静かに Connect: 静かで Before noun: 静かな犬 (need な)"
+          }
+        ]
+      },
+      {
+        "level": 2,
+        "heading": "Key Takeaways",
+        "content": "✓ Two types: I-adjectives (い) and Na-adjectives (な) ✓ I-adjectives conjugate directly, like verbs ✓ Na-adjectives need な before nouns, conjugate with だ/です ✓ Both can modify nouns or be predicates ✓ Some na-adjectives end in い (嫌い, 綺麗) ✓ Adverbs: I-adjectives use く, Na-adjectives use に\n\nUnderstanding both adjective types is essential - they're used constantly in Japanese and follow completely different patterns.\n\nNext: Noun Basics\n\nDeep Dive:\n\nI-adjective Conjugation Na-adjective Conjugation Adjective Comparisons\n\nRelated:\n\nParts of Speech Verb Basics",
+        "children": [
+          {
+            "level": 3,
+            "heading": "Company",
+            "content": "About Pricing Blog Contact"
+          },
+          {
+            "level": 3,
+            "heading": "Legal",
+            "content": "Privacy Policy Terms of Service Cookie Policy"
+          }
+        ]
+      }
+    ]
+  },
+  "metadata": {
+    "extracted_at": "2026-01-01T22:19:27.411092900Z",
+    "duration_ms": 5,
+    "extractors_matched": [
+      "metadata",
+      "examples",
+      "sections"
+    ],
+    "extractors_failed": [
+      "vocab_tables",
+      "definitions",
+      "content_blocks"
+    ]
+  }
+}

@@ -1,0 +1,313 @@
+{
+  "config_name": "Language Learning Extractor",
+  "url": "https://practice-japanese.com/docs/classical-grammar/",
+  "data": {
+    "examples": [
+      {
+        "sentence": "About"
+      },
+      {
+        "sentence": "Pricing"
+      },
+      {
+        "sentence": "Blog"
+      },
+      {
+        "sentence": "Contact"
+      },
+      {
+        "sentence": "Privacy Policy"
+      },
+      {
+        "sentence": "Terms of Service"
+      },
+      {
+        "sentence": "Cookie Policy"
+      }
+    ],
+    "sections": [
+      {
+        "level": 2,
+        "heading": "Classical Grammar Remnants",
+        "content": "Classical grammar (古典文法 - koten bunpou) elements survive in modern Japanese through set phrases, proverbs, formal writing, and literary expressions. While not used productively, recognizing these forms aids comprehension.\n\nClassical elements still seen: - Set phrases and proverbs - Literary writing - Formal documents - Traditional expressions - Song lyrics Recognition important Not for production Cultural literacy"
+      },
+      {
+        "level": 2,
+        "heading": "Classical Negatives",
+        "content": "",
+        "children": [
+          {
+            "level": 3,
+            "heading": "ぬ/ず forms",
+            "content": "Modern: ない Classical: ぬ/ず 知らない → 知らぬ \"don't know\" 行かない → 行かず \"don't go\" Set phrases: 知らぬが仏 \"Ignorance is bliss\" 言わぬが花 \"Better left unsaid\" 〜ざるを得ない \"cannot help but\" Fixed expressions Literary tone Not productive"
+          }
+        ]
+      },
+      {
+        "level": 2,
+        "heading": "Classical Copula",
+        "content": "",
+        "children": [
+          {
+            "level": 3,
+            "heading": "なり/たり",
+            "content": "Modern: だ/である Classical: なり/たり 美しきなり \"is beautiful\" 学生たり \"is a student\" Rarely seen except: Literary writing Historical texts Formal legal language Archaic forms Recognition only"
+          }
+        ]
+      },
+      {
+        "level": 2,
+        "heading": "Attributive Forms",
+        "content": "",
+        "children": [
+          {
+            "level": 3,
+            "heading": "〜き ending",
+            "content": "Modern: 〜い Classical: 〜き 美しき \"beautiful\" (before noun) 大きき → 大き \"large\" Still in: 美しき日本 \"Beautiful Japan\" (poetic) 勇ましき \"brave\" (literary) Poetic effect Literary style Set expressions"
+          }
+        ]
+      },
+      {
+        "level": 2,
+        "heading": "Classical Conditionals",
+        "content": "",
+        "children": [
+          {
+            "level": 3,
+            "heading": "ば/ども forms",
+            "content": "ば (classical conditional): 行かば \"if go\" ども (concessive): 行けども \"even though go\" Modern remnants: いずれにせよ \"in any case\" とはいえ \"even so\" Formal conjunctions Literary flavor"
+          }
+        ]
+      },
+      {
+        "level": 2,
+        "heading": "Auxiliary Verbs",
+        "content": "",
+        "children": [
+          {
+            "level": 3,
+            "heading": "けり/き/つ/ぬ/たり",
+            "content": "Past markers: けり: 行きけり \"went\" き: 見き \"saw\" Completion: つ: 食べつ \"has eaten\" ぬ: 死にぬ \"has died\" Seen in: Classical literature Historical texts Traditional songs Not modern usage Recognition helpful"
+          }
+        ]
+      },
+      {
+        "level": 2,
+        "heading": "む/べし Volitional",
+        "content": "Modern: だろう/べきだ Classical: む/べし 行かむ \"shall go\" するべし \"should do\" Modern remnants: 〜すべきである \"should do\" 〜であろう \"probably is\" Formal recommendations Literary tone"
+      },
+      {
+        "level": 2,
+        "heading": "らむ/けむ Speculation",
+        "content": "",
+        "children": [
+          {
+            "level": 3,
+            "heading": "Classical conjecture",
+            "content": "らむ: present conjecture \"probably...\" けむ: past conjecture \"probably was...\" Not used in modern Except literary contexts Historical texts only Recognition for reading Not productive"
+          }
+        ]
+      },
+      {
+        "level": 2,
+        "heading": "Classical Particles",
+        "content": "",
+        "children": [
+          {
+            "level": 3,
+            "heading": "は/も/ぞ/なむ/や/か",
+            "content": "Some survive: ぞ (emphasis): これぞ日本 \"This indeed is Japan\" かな (exclamation): 美しきかな \"How beautiful!\" や (question): 行かや \"Won't you go?\" Literary particles Poetic expressions Formal writing"
+          }
+        ]
+      },
+      {
+        "level": 2,
+        "heading": "Honorific Verbs",
+        "content": "",
+        "children": [
+          {
+            "level": 3,
+            "heading": "Classical forms",
+            "content": "Modern: いらっしゃる Classical: おはす/おわす Modern: おっしゃる Classical: のたまう Modern: くださる Classical: たまう Extremely formal: Legal documents Imperial language Historical texts"
+          }
+        ]
+      },
+      {
+        "level": 2,
+        "heading": "Adjectival Nouns",
+        "content": "",
+        "children": [
+          {
+            "level": 3,
+            "heading": "なり adjectives",
+            "content": "Classical な-adjectives used なり: 静かなり \"is quiet\" (Modern: 静かだ) Some legal language: 有効なり \"is valid\" 無効なり \"is invalid\" Archaic formal Legal documents Not conversational"
+          }
+        ]
+      },
+      {
+        "level": 2,
+        "heading": "Classical Conjunctions",
+        "content": "",
+        "children": [
+          {
+            "level": 3,
+            "heading": "Connecting phrases",
+            "content": "Modern: そして/それから Classical: しかして/さて/しかれども しかして \"and then, therefore\" しかれども \"however\" Seen in: Formal writing Literary works Traditional texts Recognition useful Not productive"
+          }
+        ]
+      },
+      {
+        "level": 2,
+        "heading": "Set Phrases",
+        "content": "",
+        "children": [
+          {
+            "level": 3,
+            "heading": "Common fixed expressions",
+            "content": "いずれにしても/いずれにせよ \"In any case\" (Classical conditional base) とはいえ \"Even so\" (Classical conjunction) 〜というより \"Rather than\" (Classical comparison) Fossilized forms Modern usage Classical roots"
+          }
+        ]
+      },
+      {
+        "level": 2,
+        "heading": "Proverbs",
+        "content": "",
+        "children": [
+          {
+            "level": 3,
+            "heading": "Traditional sayings",
+            "content": "虎穴に入らずんば虎子を得ず \"Nothing ventured, nothing gained\" (Classical negative ず) 案ずるより産むが易し \"Easier than expected\" (Classical verb forms) 住めば都 \"Home is where you make it\" (Classical conditional) Cultural knowledge Fixed expressions Cannot modernize"
+          }
+        ]
+      },
+      {
+        "level": 2,
+        "heading": "Legal Language",
+        "content": "",
+        "children": [
+          {
+            "level": 3,
+            "heading": "Formal documents",
+            "content": "〜すべからず \"Must not\" (classical prohibition) 〜するべし \"Should do\" (classical obligation) 〜たるもの \"Those who are\" (classical copula) Legal precision Traditional formality Contract language"
+          }
+        ]
+      },
+      {
+        "level": 2,
+        "heading": "Literary Devices",
+        "content": "",
+        "children": [
+          {
+            "level": 3,
+            "heading": "Poetic expressions",
+            "content": "係り結び (kakari-musubi): Classical grammar pattern Question/emphasis markers 枕詞 (makura-kotoba): Poetic epithets Fixed phrases Only in classical poetry Understanding traditional literature Cultural appreciation"
+          }
+        ]
+      },
+      {
+        "level": 2,
+        "heading": "Religious Language",
+        "content": "",
+        "children": [
+          {
+            "level": 3,
+            "heading": "Buddhist/Shinto terms",
+            "content": "〜たまえ \"Please\" (divine request) おわします \"Exists\" (divine beings) Classical religious language Formal prayers Traditional ceremonies Specialized context Cultural significance"
+          }
+        ]
+      },
+      {
+        "level": 2,
+        "heading": "Imperial Language",
+        "content": "",
+        "children": [
+          {
+            "level": 3,
+            "heading": "Court speech",
+            "content": "おわす/おわします \"Be\" (for emperor) のたまう \"Say\" (for emperor) Extremely formal Historical significance Modern rarely used Cultural understanding Historical texts"
+          }
+        ]
+      },
+      {
+        "level": 2,
+        "heading": "Song Lyrics",
+        "content": "",
+        "children": [
+          {
+            "level": 3,
+            "heading": "Modern songs with classical",
+            "content": "Popular songs sometimes use: 〜き (attributive) 〜し (classical continuation) 〜けり (past) Poetic effect Artistic choice Cultural flavor Not conversational Artistic expression"
+          }
+        ]
+      },
+      {
+        "level": 2,
+        "heading": "Recognition Strategies",
+        "content": "",
+        "children": [
+          {
+            "level": 3,
+            "heading": "Understanding classical texts",
+            "content": "Focus on: - Verb endings (き/けり/ぬ/つ) - Particles (ぞ/なむ/や/か) - Copula (なり/たり) - Negatives (ず/ぬ) Context helps Dictionaries essential Grammar guides useful For reading, not speaking Cultural literacy Historical understanding"
+          }
+        ]
+      },
+      {
+        "level": 2,
+        "heading": "Modern Survivals",
+        "content": "",
+        "children": [
+          {
+            "level": 3,
+            "heading": "Productive remnants",
+            "content": "Still used actively: 〜べきだ \"should\" 〜ざるを得ない \"cannot help but\" 〜すべからず \"must not\" (formal) Partially productive: 〜ずに \"without\" いわゆる \"so-called\" These you can use Others just recognize Know the difference"
+          }
+        ]
+      },
+      {
+        "level": 2,
+        "heading": "Common Mistakes",
+        "content": "❌ Using classical forms in conversation ✗ 行かぬ (in daily speech) ✓ Modern forms ✓ 行かない ❌ Creating new classical phrases Classical forms are fixed ✓ Use established expressions only ✓ Learn as set phrases ❌ Overusing in writing Even formal writing uses modern mostly ✓ Appropriate contexts only ✓ Legal, literary, poetic ❌ Confusing with modern keigo Classical ≠ modern honorific ✓ Understand distinction Classical = archaic Keigo = modern respect Recognition over production Cultural understanding Appropriate usage"
+      },
+      {
+        "level": 2,
+        "heading": "Practical Examples",
+        "content": "",
+        "children": [
+          {
+            "level": 3,
+            "heading": "Recognizing in context",
+            "content": "Proverb: 知らぬが仏 \"Ignorance is bliss\" (Classical ぬ negative) Set phrase: そうせざるを得ない \"Cannot help but do so\" (Classical ず negative) Formal: 受け入れるべきである \"Should accept\" (Classical べし influence) Literary: 美しき自然 \"Beautiful nature\" (Classical attributive き) Legal: 契約するべからず \"Must not contract\" (Classical prohibition) Song lyric: 君は美しかりき \"You were beautiful\" (Poetic past き) Traditional saying: 言わぬが花 \"Silence is golden\" (Fixed classical phrase) Set expressions Cultural knowledge Recognition key Modern usage limited Classical appreciation Literary understanding"
+          },
+          {
+            "level": 3,
+            "heading": "Company",
+            "content": "About Pricing Blog Contact"
+          },
+          {
+            "level": 3,
+            "heading": "Legal",
+            "content": "Privacy Policy Terms of Service Cookie Policy"
+          }
+        ]
+      }
+    ],
+    "metadata": {
+      "title": "Classical Grammar Remnants"
+    }
+  },
+  "metadata": {
+    "extracted_at": "2026-01-01T22:19:28.053445400Z",
+    "duration_ms": 4,
+    "extractors_matched": [
+      "metadata",
+      "examples",
+      "sections"
+    ],
+    "extractors_failed": [
+      "vocab_tables",
+      "definitions",
+      "content_blocks"
+    ]
+  }
+}

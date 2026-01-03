@@ -1,0 +1,275 @@
+{
+  "config_name": "Language Learning Extractor",
+  "url": "https://practice-japanese.com/docs/letter-writing/",
+  "data": {
+    "sections": [
+      {
+        "level": 2,
+        "heading": "Letter Writing",
+        "content": "Japanese letter writing (手紙) follows traditional conventions including opening/closing phrases, seasonal greetings, and specific formats. Understanding these customs is essential for formal correspondence.\n\nTraditional structure: - Opening formula (頭語) - Seasonal greeting (時候の挨拶) - Main content (本文) - Closing formula (結語) - Postscript (追伸) Ritualistic elements Cultural tradition"
+      },
+      {
+        "level": 2,
+        "heading": "Opening Formulas (頭語)",
+        "content": "",
+        "children": [
+          {
+            "level": 3,
+            "heading": "Paired with closing",
+            "content": "拝啓 (opening) → 敬具 (closing) \"Dear Sir/Madam\" → \"Respectfully\" Most common pair 謹啓 (opening) → 謹言/謹白 (closing) Very formal Business, official 前略 (opening) → 草々 (closing) Skips seasonal greeting Informal/urgent Must pair correctly Traditional requirement Sets formality level"
+          }
+        ]
+      },
+      {
+        "level": 2,
+        "heading": "Seasonal Greetings (時候の挨拶)",
+        "content": "",
+        "children": [
+          {
+            "level": 3,
+            "heading": "Spring (春)",
+            "content": "3月: 早春の候 \"In early spring\" 4月: 桜花の候 \"In the season of cherry blossoms\" 5月: 新緑の候 \"In the season of fresh green\" Traditional expressions Shows cultural awareness Monthly variations"
+          },
+          {
+            "level": 3,
+            "heading": "Summer (夏)",
+            "content": "6月: 初夏の候 \"In early summer\" 7月: 盛夏の候 \"In midsummer\" 8月: 残暑の候 \"In the lingering heat\" Weather references Seasonal sensitivity Cultural context"
+          },
+          {
+            "level": 3,
+            "heading": "Autumn (秋)",
+            "content": "9月: 初秋の候 \"In early autumn\" 10月: 秋涼の候 \"In the cool of autumn\" 11月: 晩秋の候 \"In late autumn\" Changing seasons Natural imagery Poetic language"
+          },
+          {
+            "level": 3,
+            "heading": "Winter (冬)",
+            "content": "12月: 師走の候 \"In the busy end of year\" 1月: 新春の候 \"In the new spring\" 2月: 立春の候 \"At the beginning of spring\" Cold weather references Year-end/New Year Seasonal cycle"
+          }
+        ]
+      },
+      {
+        "level": 2,
+        "heading": "Standard Letter Format",
+        "content": "",
+        "children": [
+          {
+            "level": 3,
+            "heading": "Complete structure",
+            "content": "拝啓 (opening formula) 〇〇の候 (seasonal greeting) ますますご清栄のこととお慶び申し上げます (Congratulating recipient's prosperity) さて、(transitioning to main content) [Main message] まずは略儀ながら書中をもってご挨拶申し上げます (Brief closing before formula) 敬具 (closing formula) 令和〇年〇月〇日 Sender's name Fixed order Traditional format Cannot omit elements"
+          }
+        ]
+      },
+      {
+        "level": 2,
+        "heading": "After Seasonal Greeting",
+        "content": "",
+        "children": [
+          {
+            "level": 3,
+            "heading": "Standard follow-ups",
+            "content": "ますますご清栄のこととお慶び申し上げます \"I congratulate you on your continued prosperity\" ますますご健勝のこととお喜び申し上げます \"I'm pleased you are in good health\" 平素は格別のご高配を賜り厚く御礼申し上げます \"Thank you for your continued kindness\" Wishing well Standard phrases Professional courtesy"
+          }
+        ]
+      },
+      {
+        "level": 2,
+        "heading": "Transition Phrases",
+        "content": "",
+        "children": [
+          {
+            "level": 3,
+            "heading": "Moving to main content",
+            "content": "さて \"Now then\" ところで \"By the way\" この度は \"On this occasion\" 早速ですが \"Getting straight to the point\" (Less formal) Bridge to topic Smooth transition Traditional markers"
+          }
+        ]
+      },
+      {
+        "level": 2,
+        "heading": "Main Content Phrases",
+        "content": "",
+        "children": [
+          {
+            "level": 3,
+            "heading": "Expressing purpose",
+            "content": "お知らせ: 〜をお知らせいたします \"I inform you of...\" お願い: 〜をお願い申し上げます \"I request...\" お礼: 〜の件、誠にありがとうございました \"Thank you very much for...\" お詫び: 〜につきましてお詫び申し上げます \"I apologize regarding...\" Clear purpose Respectful language Standard patterns"
+          }
+        ]
+      },
+      {
+        "level": 2,
+        "heading": "Closing Phrases",
+        "content": "",
+        "children": [
+          {
+            "level": 3,
+            "heading": "Before 結語",
+            "content": "まずは書中をもってご挨拶申し上げます \"I send my greetings through this letter\" 取り急ぎご連絡まで \"Just a quick message\" 何卒よろしくお願い申し上げます \"I humbly ask for your kind consideration\" 末筆ながら、ご健勝をお祈り申し上げます \"In closing, I pray for your good health\" Polite closings Traditional phrases Appropriate endings"
+          }
+        ]
+      },
+      {
+        "level": 2,
+        "heading": "Date and Signature",
+        "content": "",
+        "children": [
+          {
+            "level": 3,
+            "heading": "Bottom of letter",
+            "content": "令和6年10月4日 Or: 2024年10月4日 送信者名 (Sender's name) Sometimes add: 住所 (address) 電話番号 (phone) Proper dating Clear identification Professional format"
+          }
+        ]
+      },
+      {
+        "level": 2,
+        "heading": "Postscript (追伸)",
+        "content": "",
+        "children": [
+          {
+            "level": 3,
+            "heading": "Additional notes",
+            "content": "追伸 (P.S.) 二伸 (P.P.S.) Use sparingly Additional information Informal addition Should be brief Not for main content Afterthought only"
+          }
+        ]
+      },
+      {
+        "level": 2,
+        "heading": "Envelope Format",
+        "content": "",
+        "children": [
+          {
+            "level": 3,
+            "heading": "Addressing (宛名)",
+            "content": "Front: 〒123-4567 東京都〇〇区〇〇 株式会社〇〇 営業部 田中太郎 様 Back: (Sender's address and name) 様 for individuals 御中 for organizations Proper titles essential"
+          }
+        ]
+      },
+      {
+        "level": 2,
+        "heading": "Thank You Letters",
+        "content": "",
+        "children": [
+          {
+            "level": 3,
+            "heading": "Expressing gratitude",
+            "content": "拝啓 〇〇の候、ますますご清栄のこととお慶び申し上げます。 この度は〇〇をいただき、誠にありがとうございました。 大変感激いたしております。 今後とも何卒よろしくお願い申し上げます。 敬具 Sincere thanks Specific mention Future relationship"
+          }
+        ]
+      },
+      {
+        "level": 2,
+        "heading": "Invitation Letters",
+        "content": "",
+        "children": [
+          {
+            "level": 3,
+            "heading": "Formal invitations",
+            "content": "謹啓 〇〇の候、ますますご清栄のこととお慶び申し上げます。 この度、下記のとおり〇〇を開催いたします。 ご多用中誠に恐縮でございますが、 ご出席賜りますようお願い申し上げます。 記 日時: 〇月〇日 場所: 〇〇 以上 謹言 Event details in 記 Clear information Respectful request"
+          }
+        ]
+      },
+      {
+        "level": 2,
+        "heading": "Condolence Letters",
+        "content": "",
+        "children": [
+          {
+            "level": 3,
+            "heading": "Sympathy",
+            "content": "謹んでお悔やみ申し上げます \"I offer my sincere condolences\" ご冥福をお祈りいたします \"I pray for their peaceful rest\" Very formal language Appropriate solemnity Cultural sensitivity"
+          }
+        ]
+      },
+      {
+        "level": 2,
+        "heading": "Seasonal Variations",
+        "content": "",
+        "children": [
+          {
+            "level": 3,
+            "heading": "Adjusting greetings",
+            "content": "Early month: 初〜 Mid month: 〜 Late month: 晩〜 暑中見舞い (summer greeting) 寒中見舞い (winter greeting) 年賀状 (New Year's card) Timing matters Appropriate seasons Cultural awareness"
+          }
+        ]
+      },
+      {
+        "level": 2,
+        "heading": "Personal vs Business",
+        "content": "",
+        "children": [
+          {
+            "level": 3,
+            "heading": "Tone differences",
+            "content": "Personal letters: Can be warmer More emotional expression Still formal structure Business letters: More reserved Professional distance Strict formality Adjust appropriateness Maintain respect"
+          }
+        ]
+      },
+      {
+        "level": 2,
+        "heading": "Common Mistakes",
+        "content": "❌ Wrong pairing ✗ 拝啓 → 草々 ✓ Correct pairs ✓ 拝啓 → 敬具 ❌ Skipping seasonal greeting Must include (except 前略) ✓ Appropriate season ✓ Monthly expression ❌ Wrong season reference Check current month ✓ Accurate seasonal greeting ✓ Match to time of year ❌ Casual language Formal letters need formal language ✓ Appropriate formality ✓ Respectful expressions Traditional format essential Cultural knowledge required Formality crucial"
+      },
+      {
+        "level": 2,
+        "heading": "Practical Example",
+        "content": "",
+        "children": [
+          {
+            "level": 3,
+            "heading": "Complete formal letter",
+            "content": "拝啓 秋涼の候、ますますご清栄のこととお慶び申し上げます。 平素は格別のご高配を賜り、厚く御礼申し上げます。 さて、この度は弊社新製品発表会にご出席いただき、 誠にありがとうございました。 貴重なご意見を賜り、深く感謝申し上げます。 今後とも変わらぬご愛顧を賜りますよう、 何卒よろしくお願い申し上げます。 まずは略儀ながら書中をもって御礼申し上げます。 敬具 令和6年10月4日 株式会社〇〇 代表取締役 山田太郎 Complete structure All elements present Proper formality Seasonal greeting Professional tone Traditional format Cultural appropriateness"
+          },
+          {
+            "level": 3,
+            "heading": "Company",
+            "content": "About Pricing Blog Contact"
+          },
+          {
+            "level": 3,
+            "heading": "Legal",
+            "content": "Privacy Policy Terms of Service Cookie Policy"
+          }
+        ]
+      }
+    ],
+    "examples": [
+      {
+        "sentence": "About"
+      },
+      {
+        "sentence": "Pricing"
+      },
+      {
+        "sentence": "Blog"
+      },
+      {
+        "sentence": "Contact"
+      },
+      {
+        "sentence": "Privacy Policy"
+      },
+      {
+        "sentence": "Terms of Service"
+      },
+      {
+        "sentence": "Cookie Policy"
+      }
+    ],
+    "metadata": {
+      "title": "Letter Writing"
+    }
+  },
+  "metadata": {
+    "extracted_at": "2026-01-01T22:19:31.332515600Z",
+    "duration_ms": 3,
+    "extractors_matched": [
+      "metadata",
+      "examples",
+      "sections"
+    ],
+    "extractors_failed": [
+      "vocab_tables",
+      "definitions",
+      "content_blocks"
+    ]
+  }
+}

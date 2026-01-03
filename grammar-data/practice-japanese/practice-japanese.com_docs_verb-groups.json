@@ -1,0 +1,277 @@
+{
+  "config_name": "Language Learning Extractor",
+  "url": "https://practice-japanese.com/docs/verb-groups/",
+  "data": {
+    "sections": [
+      {
+        "level": 2,
+        "heading": "The Three Verb Groups",
+        "content": "All Japanese verbs belong to one of three groups:\n\nGodan verbs (五段動詞) - Group 1 / u-verbs Ichidan verbs (一段動詞) - Group 2 / ru-verbs Irregular verbs (不規則動詞) - Only 2 verbs!\n\nUnderstanding which group a verb belongs to is essential for conjugation."
+      },
+      {
+        "level": 2,
+        "heading": "Why Groups Matter",
+        "content": "Each group conjugates differently:\n\n食べる (eat) - Ichidan 食べます → 食べて → 食べない 書く (write) - Godan 書きます → 書いて → 書かない\n\nDifferent patterns, same conjugation type."
+      },
+      {
+        "level": 2,
+        "heading": "Group 1: Godan Verbs (五段動詞)",
+        "content": "",
+        "children": [
+          {
+            "level": 3,
+            "heading": "Identification",
+            "content": "Godan verbs end in -u sounds in dictionary form:\n\n-u: 買う (kau) -ku: 書く (kaku) -gu: 泳ぐ (oyogu) -su: 話す (hanasu) -tsu: 待つ (matsu) -nu: 死ぬ (shinu) -bu: 遊ぶ (asobu) -mu: 読む (yomu) -ru: 帰る (kaeru)"
+          },
+          {
+            "level": 3,
+            "heading": "The \"Five Steps\" (Godan)",
+            "content": "Name comes from using five different vowel sounds when conjugating:\n\n書く (kaku) - write kak-a-nai (a row - negative) kak-i-masu (i row - polite) kak-u (u row - dictionary) kak-e-ba (e row - conditional) kak-o-u (o row - volitional)"
+          },
+          {
+            "level": 3,
+            "heading": "Common Godan Verbs",
+            "content": "行く (iku) - go 飲む (nomu) - drink 読む (yomu) - read 書く (kaku) - write 話す (hanasu) - speak 待つ (matsu) - wait 買う (kau) - buy 帰る (kaeru) - return 分かる (wakaru) - understand 作る (tsukuru) - make"
+          }
+        ]
+      },
+      {
+        "level": 2,
+        "heading": "Group 2: Ichidan Verbs (一段動詞)",
+        "content": "",
+        "children": [
+          {
+            "level": 3,
+            "heading": "Identification",
+            "content": "Ichidan verbs end in -eru or -iru :\n\n-eru verbs: 食べる (taberu) - eat 教える (oshieru) - teach 見せる (miseru) - show -iru verbs: 見る (miru) - see 起きる (okiru) - wake up 着る (kiru) - wear"
+          },
+          {
+            "level": 3,
+            "heading": "The \"One Step\" (Ichidan)",
+            "content": "Name comes from using one vowel stem (e or i):\n\n食べる (taberu) - eat tabe-nai (remove る, add nai) tabe-masu (remove る, add masu) tabe-te (remove る, add te)\n\nStem never changes, just add endings!"
+          },
+          {
+            "level": 3,
+            "heading": "Common Ichidan Verbs",
+            "content": "食べる (taberu) - eat 見る (miru) - see/watch 寝る (neru) - sleep 起きる (okiru) - wake up 教える (oshieru) - teach 着る (kiru) - wear 開ける (akeru) - open 閉める (shimeru) - close 出る (deru) - go out いる (iru) - exist (animate)"
+          }
+        ]
+      },
+      {
+        "level": 2,
+        "heading": "Group 3: Irregular Verbs (不規則動詞)",
+        "content": "Only two verbs are truly irregular:",
+        "children": [
+          {
+            "level": 3,
+            "heading": "する (suru) - to do",
+            "content": "します (shimasu) して (shite) しない (shinai)"
+          },
+          {
+            "level": 3,
+            "heading": "来る (kuru) - to come",
+            "content": "来ます (kimasu) 来て (kite) 来ない (konai)"
+          },
+          {
+            "level": 3,
+            "heading": "Compound Verbs",
+            "content": "Many verbs use する:\n\n勉強する (benkyou suru) - study 料理する (ryouri suru) - cook 電話する (denwa suru) - phone\n\nThese all conjugate like する."
+          }
+        ]
+      },
+      {
+        "level": 2,
+        "heading": "The -ru Verb Trap",
+        "content": "Problem: Some Godan verbs look like Ichidan verbs!",
+        "children": [
+          {
+            "level": 3,
+            "heading": "Godan verbs ending in -ru",
+            "content": "帰る (kaeru) - return [Godan] 走る (hashiru) - run [Godan] 知る (shiru) - know [Godan] 切る (kiru) - cut [Godan]"
+          },
+          {
+            "level": 3,
+            "heading": "How to Tell the Difference",
+            "content": "Check what comes before -ru:\n\nIchidan (-eru/-iru):\n\n食べる (tab-eru) - vowel + eru ✓ 見る (m-iru) - consonant + iru ✓\n\nGodan (other sounds + ru):\n\n帰る (kae-ru) - ae + ru = Godan 走る (hashi-ru) - i + ru BUT: hashi = consonant ending 知る (shi-ru) - i + ru BUT: shi ends in consonant sound\n\nRule of thumb: If before る is:\n\na, o, u + ru → Always Godan i, e + ru → Could be either (check dictionary)"
+          }
+        ]
+      },
+      {
+        "level": 2,
+        "heading": "Identification Chart",
+        "content": "| Ending | Type | Examples | | -------------------------------------- | --------- | ---------------- | | -u, -ku, -gu, -su, -tsu, -bu, -mu, -nu | Godan | 買う、書く、泳ぐ | | -eru (most cases) | Ichidan | 食べる、教える | | -iru (most cases) | Ichidan | 見る、起きる | | -aru, -oru, -uru | Godan | 帰る、走る、知る | | する | Irregular | する、勉強する | | 来る | Irregular | 来る |"
+      },
+      {
+        "level": 2,
+        "heading": "Testing a Verb",
+        "content": "Try the masu form test:",
+        "children": [
+          {
+            "level": 3,
+            "heading": "Ichidan: Drop る, add masu",
+            "content": "食べる → 食べます ✓ 見る → 見ます ✓"
+          },
+          {
+            "level": 3,
+            "heading": "Godan: Change う sound to い, add masu",
+            "content": "書く → 書きます ✓ 飲む → 飲みます ✓ 帰る → 帰ります ✓ (NOT 帰えます)\n\nIf it becomes 帰ります, it's Godan!"
+          }
+        ]
+      },
+      {
+        "level": 2,
+        "heading": "Common Mistakes",
+        "content": "",
+        "children": [
+          {
+            "level": 3,
+            "heading": "Mistake 1: Assuming All -ru Verbs are Ichidan",
+            "content": "Wrong: 帰る → 帰ます ❌ Right: 帰る → 帰ります ✓ (Godan) Wrong: 知る → 知ます ❌ Right: 知る → 知ります ✓ (Godan)"
+          },
+          {
+            "level": 3,
+            "heading": "Mistake 2: Not Checking the Dictionary",
+            "content": "When in doubt, check . Dictionaries mark verb types:\n\n五 or v5 = Godan 一 or v1 = Ichidan vs = する verb vk = 来る"
+          },
+          {
+            "level": 3,
+            "heading": "Mistake 3: Conjugating Ichidan as Godan",
+            "content": "Wrong: 食べる → 食びます ❌ Right: 食べる → 食べます ✓ Wrong: 見る → 見ります ❌ Right: 見る → 見ます ✓"
+          }
+        ]
+      },
+      {
+        "level": 2,
+        "heading": "Practice Recognition",
+        "content": "",
+        "children": [
+          {
+            "level": 3,
+            "heading": "Identify the group:",
+            "content": "1. 話す → Godan (-su ending) 2. 教える → Ichidan (-eru) 3. する → Irregular 4. 飲む → Godan (-mu ending) 5. 寝る → Ichidan (-eru) 6. 来る → Irregular 7. 帰る → Godan (-aru) 8. 見る → Ichidan (-iru) 9. 買う → Godan (-u ending) 10. 着る → Ichidan (-iru)"
+          }
+        ]
+      },
+      {
+        "level": 2,
+        "heading": "Quick Reference",
+        "content": "",
+        "children": [
+          {
+            "level": 3,
+            "heading": "Definitely Godan",
+            "content": "-u, -ku, -gu, -su, -tsu, -bu, -mu, -nu endings"
+          },
+          {
+            "level": 3,
+            "heading": "Definitely Ichidan",
+            "content": "-eru/-iru where e/i is preceded by a vowel sound 食べる (taberu), 起きる (okiru)"
+          },
+          {
+            "level": 3,
+            "heading": "Check Dictionary",
+            "content": "-aru, -oru, -uru -iru/-eru after consonant sounds"
+          },
+          {
+            "level": 3,
+            "heading": "Irregular",
+            "content": "する (suru) and 来る (kuru) only"
+          }
+        ]
+      },
+      {
+        "level": 2,
+        "heading": "Key Takeaways",
+        "content": "✓ Three groups: Godan, Ichidan, Irregular ✓ Godan uses 5 vowel sounds when conjugating ✓ Ichidan uses 1 stem ✓ Only 2 irregular verbs: する and 来る ✓ Some -ru verbs are Godan (check dictionary) ✓ Group determines conjugation pattern\n\nMaster verb groups first - everything else becomes easier!\n\nNext: Dictionary Form (Plain)\n\nRelated:\n\nMasu Form (Polite Present) Te-form Conjugation Verb Basics",
+        "children": [
+          {
+            "level": 3,
+            "heading": "Company",
+            "content": "About Pricing Blog Contact"
+          },
+          {
+            "level": 3,
+            "heading": "Legal",
+            "content": "Privacy Policy Terms of Service Cookie Policy"
+          }
+        ]
+      }
+    ],
+    "examples": [
+      {
+        "sentence": "Godan verbs (五段動詞) - Group 1 / u-verbs"
+      },
+      {
+        "sentence": "Ichidan verbs (一段動詞) - Group 2 / ru-verbs"
+      },
+      {
+        "sentence": "Irregular verbs (不規則動詞) - Only 2 verbs!"
+      },
+      {
+        "sentence": "a, o, u + ru → Always Godan"
+      },
+      {
+        "sentence": "i, e + ru → Could be either (check dictionary)"
+      },
+      {
+        "sentence": "五 or v5 = Godan"
+      },
+      {
+        "sentence": "一 or v1 = Ichidan"
+      },
+      {
+        "sentence": "vs = する verb"
+      },
+      {
+        "sentence": "vk = 来る"
+      },
+      {
+        "sentence": "Masu Form (Polite Present)"
+      },
+      {
+        "sentence": "Te-form Conjugation"
+      },
+      {
+        "sentence": "Verb Basics"
+      },
+      {
+        "sentence": "About"
+      },
+      {
+        "sentence": "Pricing"
+      },
+      {
+        "sentence": "Blog"
+      },
+      {
+        "sentence": "Contact"
+      },
+      {
+        "sentence": "Privacy Policy"
+      },
+      {
+        "sentence": "Terms of Service"
+      },
+      {
+        "sentence": "Cookie Policy"
+      }
+    ],
+    "metadata": {
+      "title": "Verb Groups (Godan/Ichidan/Irregular)"
+    }
+  },
+  "metadata": {
+    "extracted_at": "2026-01-01T22:19:37.401029Z",
+    "duration_ms": 4,
+    "extractors_matched": [
+      "metadata",
+      "examples",
+      "sections"
+    ],
+    "extractors_failed": [
+      "vocab_tables",
+      "definitions",
+      "content_blocks"
+    ]
+  }
+}

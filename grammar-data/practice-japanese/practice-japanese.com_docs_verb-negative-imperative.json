@@ -1,0 +1,358 @@
+{
+  "config_name": "Language Learning Extractor",
+  "url": "https://practice-japanese.com/docs/verb-negative-imperative/",
+  "data": {
+    "metadata": {
+      "title": "Negative Imperative (Don't!)"
+    },
+    "examples": [
+      {
+        "sentence": "Normal conversation"
+      },
+      {
+        "sentence": "With strangers"
+      },
+      {
+        "sentence": "With superiors"
+      },
+      {
+        "sentence": "Formal situations"
+      },
+      {
+        "sentence": "Customer service"
+      },
+      {
+        "sentence": "First meetings"
+      },
+      {
+        "sentence": "Professional settings"
+      },
+      {
+        "sentence": "Polite company"
+      },
+      {
+        "sentence": "～ないでください (polite)"
+      },
+      {
+        "sentence": "～てはいけません (formal prohibition)"
+      },
+      {
+        "sentence": "～ないで (casual request)"
+      },
+      {
+        "sentence": "Imperative Form"
+      },
+      {
+        "sentence": "Te-form"
+      },
+      {
+        "sentence": "Nai-form"
+      },
+      {
+        "sentence": "Verb Groups"
+      },
+      {
+        "sentence": "About"
+      },
+      {
+        "sentence": "Pricing"
+      },
+      {
+        "sentence": "Blog"
+      },
+      {
+        "sentence": "Contact"
+      },
+      {
+        "sentence": "Privacy Policy"
+      },
+      {
+        "sentence": "Terms of Service"
+      },
+      {
+        "sentence": "Cookie Policy"
+      }
+    ],
+    "sections": [
+      {
+        "level": 2,
+        "heading": "What is Negative Imperative?",
+        "content": "Negative imperative expresses prohibition - \"Don't do!\" It's even stronger and ruder than positive imperative.\n\n食べるな！(taberu na!) - Don't eat! 行くな！(iku na!) - Don't go! するな！(suru na!) - Don't do it!\n\nWarning: Very strong! Use with extreme caution!"
+      },
+      {
+        "level": 2,
+        "heading": "How to Form Negative Imperative",
+        "content": "Simple rule: Dictionary form + な\n\n食べる + な → 食べるな (Don't eat!) 行く + な → 行くな (Don't go!) する + な → するな (Don't do!)"
+      },
+      {
+        "level": 2,
+        "heading": "All Verb Groups",
+        "content": "",
+        "children": [
+          {
+            "level": 3,
+            "heading": "Ichidan Verbs",
+            "content": "食べる → 食べるな (Don't eat!) 見る → 見るな (Don't look!) 寝る → 寝るな (Don't sleep!) 起きる → 起きるな (Don't wake up!) 教える → 教えるな (Don't teach!)"
+          },
+          {
+            "level": 3,
+            "heading": "Godan Verbs",
+            "content": "書く → 書くな (Don't write!) 読む → 読むな (Don't read!) 話す → 話すな (Don't speak!) 買う → 買うな (Don't buy!) 待つ → 待つな (Don't wait!) 遊ぶ → 遊ぶな (Don't play!) 帰る → 帰るな (Don't go home!) 泳ぐ → 泳ぐな (Don't swim!) 行く → 行くな (Don't go!)"
+          },
+          {
+            "level": 3,
+            "heading": "Irregular Verbs",
+            "content": "する → するな (Don't do it!) 来る → 来るな (Don't come!)"
+          }
+        ]
+      },
+      {
+        "level": 2,
+        "heading": "Complete Chart",
+        "content": "| Dictionary | Negative Imperative | Meaning | | ---------- | ------------------- | ------------ | | 書く | 書くな | Don't write! | | 読む | 読むな | Don't read! | | 話す | 話すな | Don't speak! | | 買う | 買うな | Don't buy! | | 食べる | 食べるな | Don't eat! | | 見る | 見るな | Don't look! | | する | するな | Don't do! | | 来る | 来るな | Don't come! |"
+      },
+      {
+        "level": 2,
+        "heading": "When is it Used?",
+        "content": "",
+        "children": [
+          {
+            "level": 3,
+            "heading": "1. Emergency/Danger",
+            "content": "触るな！ \"Don't touch!\" 動くな！ \"Don't move!\" 見るな！ \"Don't look!\""
+          },
+          {
+            "level": 3,
+            "heading": "2. Strong Warning",
+            "content": "危ない！行くな！ \"Dangerous! Don't go!\" それを食べるな！ \"Don't eat that!\""
+          },
+          {
+            "level": 3,
+            "heading": "3. Signs/Written Warnings",
+            "content": "入るな \"Do not enter\" 触るな \"Do not touch\" 駐車するな \"Do not park\""
+          },
+          {
+            "level": 3,
+            "heading": "4. Very Casual Male Speech",
+            "content": "心配するな \"Don't worry\" 気にするな \"Don't mind it\" 諦めるな \"Don't give up\""
+          }
+        ]
+      },
+      {
+        "level": 2,
+        "heading": "Polite Alternatives",
+        "content": "DON'T use ～な in polite situations!\n\nUse these instead:",
+        "children": [
+          {
+            "level": 3,
+            "heading": "～ないでください (Please don't)",
+            "content": "食べないでください \"Please don't eat\" (polite) 触らないでください \"Please don't touch\" (polite)"
+          },
+          {
+            "level": 3,
+            "heading": "～てはいけません (Must not)",
+            "content": "ここで遊んではいけません \"You must not play here\" (polite prohibition) 写真を撮ってはいけません \"You must not take photos\""
+          },
+          {
+            "level": 3,
+            "heading": "～ないで (Casual request)",
+            "content": "行かないで \"Don't go\" (casual but not rude) 泣かないで \"Don't cry\" (gentle)"
+          }
+        ]
+      },
+      {
+        "level": 2,
+        "heading": "Common Negative Imperative Expressions",
+        "content": "",
+        "children": [
+          {
+            "level": 3,
+            "heading": "Warnings",
+            "content": "危ない！触るな！ \"Dangerous! Don't touch!\" 止まれ！動くな！ \"Stop! Don't move!\" 逃げるな！ \"Don't run away!\""
+          },
+          {
+            "level": 3,
+            "heading": "Prohibitions",
+            "content": "入るな \"Don't enter\" 近づくな \"Don't come close\" 見るな \"Don't look\" 言うな \"Don't say it\""
+          },
+          {
+            "level": 3,
+            "heading": "Encouragement (Negative)",
+            "content": "諦めるな！ \"Don't give up!\" 負けるな！ \"Don't lose!\" 心配するな \"Don't worry\" 泣くな \"Don't cry\""
+          }
+        ]
+      },
+      {
+        "level": 2,
+        "heading": "Signs and Written Warnings",
+        "content": "駐車するな \"No parking\" 立入禁止 / 入るな \"No entry\" ゴミを捨てるな \"Don't litter\" 触るな \"Do not touch\" 撮影するな \"No photography\""
+      },
+      {
+        "level": 2,
+        "heading": "Common Mistakes",
+        "content": "",
+        "children": [
+          {
+            "level": 3,
+            "heading": "Mistake 1: Using in Polite Situations",
+            "content": "Wrong: 触るな (to stranger) ❌ Right: 触らないでください ✓ \"Please don't touch\" Wrong: 行くな (to superior) ❌ Right: 行かないでください ✓ \"Please don't go\""
+          },
+          {
+            "level": 3,
+            "heading": "Mistake 2: Using Nai-form + な",
+            "content": "Wrong: 食べないな ❌ Right: 食べるな ✓ \"Don't eat\" (Use dictionary form + な, not nai-form!)"
+          },
+          {
+            "level": 3,
+            "heading": "Mistake 3: Using with Polite People",
+            "content": "Wrong: 先生、見るな！ ❌ Right: 先生、見ないでください ✓ \"Teacher, please don't look\" NEVER use with superiors!"
+          }
+        ]
+      },
+      {
+        "level": 2,
+        "heading": "Softening Negative Imperative",
+        "content": "Add particles to make less harsh:\n\n行くなよ \"Don't go\" (softer, advice) 泣くなよ \"Don't cry\" (encouraging) 心配するなって \"Don't worry, I said\""
+      },
+      {
+        "level": 2,
+        "heading": "Politeness Levels",
+        "content": "| Form | Strength | Usage | | -------------------------- | ----------- | ----------------- | | 食べるな | Very strong | Emergency/rough | | 食べないで | Casual | Friends | | 食べないでください | Polite | Normal requests | | 食べてはいけません | Formal | Rules/regulations | | お食べにならないでください | Very polite | Honorific |"
+      },
+      {
+        "level": 2,
+        "heading": "Gender Differences",
+        "content": "",
+        "children": [
+          {
+            "level": 3,
+            "heading": "Male Speech",
+            "content": "More likely to use negative imperative:\n\n来るな！ \"Don't come!\" やるな！ \"Don't do it!\""
+          },
+          {
+            "level": 3,
+            "heading": "Female Speech",
+            "content": "Rarely uses negative imperative:\n\n来ないで \"Don't come\" (te-form) やらないで \"Don't do it\" (te-form)"
+          }
+        ]
+      },
+      {
+        "level": 2,
+        "heading": "Conversation Examples",
+        "content": "",
+        "children": [
+          {
+            "level": 3,
+            "heading": "Example 1: Emergency",
+            "content": "A: あ！危ない！ \"Ah! Dangerous!\" B: 触るな！ \"Don't touch!\" A: え？ \"Huh?\" B: それ、熱いから \"That's hot\""
+          },
+          {
+            "level": 3,
+            "heading": "Example 2: Warning",
+            "content": "A: ちょっと見てくる \"I'll go take a look\" B: 行くな！危ないぞ \"Don't go! It's dangerous\" A: 大丈夫だって \"It's fine\" B: 本当にやめろ \"Really, stop\""
+          },
+          {
+            "level": 3,
+            "heading": "Example 3: Encouragement",
+            "content": "A: もうだめだ... \"I can't do it anymore...\" B: 諦めるな！頑張れ！ \"Don't give up! Do your best!\" A: でも... \"But...\" B: 最後まで負けるな！ \"Don't lose until the end!\""
+          }
+        ]
+      },
+      {
+        "level": 2,
+        "heading": "Imperative vs Negative Imperative",
+        "content": "| Positive | Negative | Meaning | | -------- | -------- | ----------------- | | 食べろ | 食べるな | Eat / Don't eat | | 行け | 行くな | Go / Don't go | | しろ | するな | Do / Don't do | | 来い | 来るな | Come / Don't come |\n\nBoth are very strong!"
+      },
+      {
+        "level": 2,
+        "heading": "Common Expressions",
+        "content": "",
+        "children": [
+          {
+            "level": 3,
+            "heading": "やめろ vs するな",
+            "content": "やめろ！ \"Stop (what you're doing)!\" するな！ \"Don't do it!\" Similar but slightly different nuance."
+          },
+          {
+            "level": 3,
+            "heading": "心配するな",
+            "content": "心配するな \"Don't worry\" (common phrase) 大丈夫だから、心配するな \"It's okay, so don't worry\""
+          },
+          {
+            "level": 3,
+            "heading": "負けるな",
+            "content": "負けるな！ \"Don't lose!\" / \"Don't give up!\" (Common encouragement in sports)"
+          }
+        ]
+      },
+      {
+        "level": 2,
+        "heading": "In Anime/Manga",
+        "content": "Very common in dramatic scenes:\n\nやめろ！ \"Stop it!\" 行くな！ \"Don't go!\" 死ぬな！ \"Don't die!\" 諦めるな！ \"Don't give up!\"\n\nNote: This is dramatic language!"
+      },
+      {
+        "level": 2,
+        "heading": "Combining with Other Elements",
+        "content": "絶対に諦めるな！ \"Never give up!\" もう二度と来るな \"Don't ever come again\" そんなこと言うな \"Don't say such things\""
+      },
+      {
+        "level": 2,
+        "heading": "When NOT to Use",
+        "content": "Avoid in:\n\nNormal conversation With strangers With superiors Formal situations Customer service First meetings Professional settings Polite company\n\nUse instead:\n\n～ないでください (polite) ～てはいけません (formal prohibition) ～ないで (casual request)"
+      },
+      {
+        "level": 2,
+        "heading": "Special Uses",
+        "content": "",
+        "children": [
+          {
+            "level": 3,
+            "heading": "Encouragement",
+            "content": "諦めるな！ \"Don't give up!\" 負けるな！ \"Don't lose!\" 泣くな \"Don't cry\"\n\nThese are actually encouraging, despite being imperative!"
+          },
+          {
+            "level": 3,
+            "heading": "Self-talk",
+            "content": "忘れるな \"Don't forget\" (to oneself) 油断するな \"Don't let your guard down\" (to oneself)"
+          }
+        ]
+      },
+      {
+        "level": 2,
+        "heading": "Practice Recognition",
+        "content": "食べるな - Negative imperative \"Don't eat!\" 食べないで - Casual request \"Don't eat\" 食べないでください - Polite \"Please don't eat\" 食べてはいけません - Formal \"You must not eat\""
+      },
+      {
+        "level": 2,
+        "heading": "Key Takeaways",
+        "content": "✓ Negative imperative = dictionary form + な ✓ Very strong prohibition ✓ Even ruder than positive imperative ✓ Common in emergencies and warnings ✓ Used on signs and warnings ✓ More common in male speech ✓ Use ～ないでください in polite situations ✓ Never use with superiors ✓ Can express encouragement (諦めるな)\n\nRelated:\n\nImperative Form Te-form Nai-form Verb Groups",
+        "children": [
+          {
+            "level": 3,
+            "heading": "Company",
+            "content": "About Pricing Blog Contact"
+          },
+          {
+            "level": 3,
+            "heading": "Legal",
+            "content": "Privacy Policy Terms of Service Cookie Policy"
+          }
+        ]
+      }
+    ]
+  },
+  "metadata": {
+    "extracted_at": "2026-01-01T22:19:37.182654300Z",
+    "duration_ms": 3,
+    "extractors_matched": [
+      "metadata",
+      "examples",
+      "sections"
+    ],
+    "extractors_failed": [
+      "vocab_tables",
+      "definitions",
+      "content_blocks"
+    ]
+  }
+}

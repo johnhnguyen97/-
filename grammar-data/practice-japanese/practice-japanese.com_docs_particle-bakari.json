@@ -1,0 +1,105 @@
+{
+  "config_name": "Language Learning Extractor",
+  "url": "https://practice-japanese.com/docs/particle-bakari/",
+  "data": {
+    "metadata": {
+      "title": "ばかり (bakari) - Only/Just/Nothing But"
+    },
+    "examples": [
+      {
+        "sentence": "Only/nothing but (often excessive)"
+      },
+      {
+        "sentence": "Just did (recently completed)"
+      },
+      {
+        "sentence": "Approximately (about)"
+      },
+      {
+        "sentence": "だけ (dake) - Only"
+      },
+      {
+        "sentence": "しか (shika) - Only"
+      },
+      {
+        "sentence": "About"
+      },
+      {
+        "sentence": "Pricing"
+      },
+      {
+        "sentence": "Blog"
+      },
+      {
+        "sentence": "Contact"
+      },
+      {
+        "sentence": "Privacy Policy"
+      },
+      {
+        "sentence": "Terms of Service"
+      },
+      {
+        "sentence": "Cookie Policy"
+      }
+    ],
+    "sections": [
+      {
+        "level": 2,
+        "heading": "Core Functions",
+        "content": "ばかり has 3 main uses:\n\nOnly/nothing but (often excessive) Just did (recently completed) Approximately (about)"
+      },
+      {
+        "level": 2,
+        "heading": "1. Only/Nothing But",
+        "content": "Often implies excess or criticism:\n\n肉ばかり食べる \"eat nothing but meat\" ゲームばかりする \"do nothing but play games\" 寝てばかりいる \"do nothing but sleep\"\n\nNegative nuance: Suggests too much or inappropriate excess."
+      },
+      {
+        "level": 2,
+        "heading": "2. Just Did (Recently)",
+        "content": "Pattern: [Ta-form] + ばかり\n\n買ったばかり \"just bought\" 来たばかり \"just came/arrived\" 始めたばかり \"just started\"\n\nIndicates recent completion."
+      },
+      {
+        "level": 2,
+        "heading": "3. Approximately",
+        "content": "10個ばかり - \"about 10\" 100人ばかり - \"around 100 people\"\n\nFormal/written style."
+      },
+      {
+        "level": 2,
+        "heading": "Replaces Particles",
+        "content": "肉を → 肉ばかり ゲームを → ゲームばかり"
+      },
+      {
+        "level": 2,
+        "heading": "Key Takeaways",
+        "content": "✓ Often negative/excessive nuance ✓ \"Just did\" with ta-form ✓ Approximation (formal) ✓ Different from だけ (neutral)\n\nRelated:\n\nだけ (dake) - Only しか (shika) - Only",
+        "children": [
+          {
+            "level": 3,
+            "heading": "Company",
+            "content": "About Pricing Blog Contact"
+          },
+          {
+            "level": 3,
+            "heading": "Legal",
+            "content": "Privacy Policy Terms of Service Cookie Policy"
+          }
+        ]
+      }
+    ]
+  },
+  "metadata": {
+    "extracted_at": "2026-01-01T22:19:32.746970Z",
+    "duration_ms": 4,
+    "extractors_matched": [
+      "metadata",
+      "examples",
+      "sections"
+    ],
+    "extractors_failed": [
+      "vocab_tables",
+      "definitions",
+      "content_blocks"
+    ]
+  }
+}

@@ -1,0 +1,299 @@
+{
+  "config_name": "Language Learning Extractor",
+  "url": "https://practice-japanese.com/docs/kaneru/",
+  "data": {
+    "examples": [
+      {
+        "sentence": "かねる expresses inability or reluctance"
+      },
+      {
+        "sentence": "Formation: [Verb ます-stem] + かねる"
+      },
+      {
+        "sentence": "Polite way to decline or refuse"
+      },
+      {
+        "sentence": "Often for social, moral, or practical reasons"
+      },
+      {
+        "sentence": "Common in business and formal contexts"
+      },
+      {
+        "sentence": "Different from できない (more direct)"
+      },
+      {
+        "sentence": "Different from かねない (might happen)"
+      },
+      {
+        "sentence": "Essential for polite refusals and expressing difficulty"
+      },
+      {
+        "sentence": "About"
+      },
+      {
+        "sentence": "Pricing"
+      },
+      {
+        "sentence": "Blog"
+      },
+      {
+        "sentence": "Contact"
+      },
+      {
+        "sentence": "Privacy Policy"
+      },
+      {
+        "sentence": "Terms of Service"
+      },
+      {
+        "sentence": "Cookie Policy"
+      }
+    ],
+    "metadata": {
+      "title": "〜かねる (Cannot/Hesitate to)"
+    },
+    "sections": [
+      {
+        "level": 2,
+        "heading": "What is 〜かねる?",
+        "content": "〜かねる (kaneru) expresses inability or reluctance to do something, often for moral, practical, or social reasons. It's a polite way to decline or express difficulty in doing something.\n\nEnglish equivalent: \"cannot,\" \"unable to,\" \"hesitate to,\" \"find it difficult to\"\n\nStructure: [Verb ます-stem] + かねる\n\n信じる (shinjiru - believe) → 信じ + かねる = 信じかねる \"cannot believe\" / \"find it hard to believe\" 決める (kimeru - decide) → 決め + かねる = 決めかねる \"cannot decide\" / \"hesitate to decide\" 賛成する (sansei suru - agree) → 賛成し + かねる = 賛成しかねる \"cannot agree\""
+      },
+      {
+        "level": 2,
+        "heading": "Basic Formation",
+        "content": "",
+        "children": [
+          {
+            "level": 3,
+            "heading": "With verbs (ます-stem)",
+            "content": "[Verb ます-stem] + かねる\n\n信じかねる (shinjikaneru) - \"cannot believe\" 決めかねる (kimekaneru) - \"cannot decide\" 賛成しかねる (sansei shikaneru) - \"cannot agree\" 承知しかねる (shouchi shikaneru) - \"cannot consent\""
+          }
+        ]
+      },
+      {
+        "level": 2,
+        "heading": "Polite Refusal",
+        "content": "",
+        "children": [
+          {
+            "level": 3,
+            "heading": "Cannot accept/agree",
+            "content": "その提案には賛成しかねます。 Sono teian ni wa sansei shikanemasu. \"I cannot agree with that proposal.\" お受けしかねます。 Ouke shikanemasu. \"I cannot accept.\" ご要望にはお応えしかねます。 Goyoubou ni wa okotae shikanemasu. \"We cannot fulfill your request.\""
+          }
+        ]
+      },
+      {
+        "level": 2,
+        "heading": "Expressing Difficulty",
+        "content": "",
+        "children": [
+          {
+            "level": 3,
+            "heading": "Hard to do",
+            "content": "信じかねる話だ。 Shinjikaneru hanashi da. \"It's a hard-to-believe story.\" 判断しかねる状況だ。 Handan shikaneru joukyou da. \"It's a situation that's hard to judge.\" 決めかねている。 Kimekanete iru. \"I'm hesitating to decide.\" / \"I cannot decide.\""
+          }
+        ]
+      },
+      {
+        "level": 2,
+        "heading": "Business Context",
+        "content": "",
+        "children": [
+          {
+            "level": 3,
+            "heading": "Professional refusals",
+            "content": "その件はお引き受けしかねます。 Sono ken wa ohikiuke shikanemasu. \"We cannot undertake that matter.\" 現時点ではお答えしかねます。 Genjiten dewa okotae shikanemasu. \"We cannot answer at this point.\" ご期待に添いかねます。 Gokitai ni soikanemasu. \"We cannot meet your expectations.\""
+          }
+        ]
+      },
+      {
+        "level": 2,
+        "heading": "Cannot Consent",
+        "content": "",
+        "children": [
+          {
+            "level": 3,
+            "heading": "Withholding approval",
+            "content": "承知しかねます。 Shouchi shikanemasu. \"I cannot consent.\" 納得しかねる。 Nattoku shikaneru. \"I cannot be convinced.\" 了承しかねます。 Ryoushou shikanemasu. \"I cannot approve.\""
+          }
+        ]
+      },
+      {
+        "level": 2,
+        "heading": "Hesitation and Indecision",
+        "content": "",
+        "children": [
+          {
+            "level": 3,
+            "heading": "Unable to decide",
+            "content": "どちらにするか決めかねている。 Dochira ni suru ka kimekanete iru. \"I cannot decide which one to choose.\" 判断しかねる。 Handan shikaneru. \"I cannot judge.\" / \"I hesitate to judge.\" 選びかねる。 Erabikaeru. \"I cannot choose.\""
+          }
+        ]
+      },
+      {
+        "level": 2,
+        "heading": "Cannot Believe/Understand",
+        "content": "",
+        "children": [
+          {
+            "level": 3,
+            "heading": "Incredulity",
+            "content": "信じかねる話だ。 Shinjikaneru hanashi da. \"It's an unbelievable story.\" 理解しかねます。 Rikai shikanemasu. \"I cannot understand.\" 納得しかねる説明だ。 Nattoku shikaneru setsumei da. \"It's an unconvincing explanation.\""
+          }
+        ]
+      },
+      {
+        "level": 2,
+        "heading": "Polite Forms",
+        "content": "お答えしかねます。 Okotae shikanemasu. \"I cannot answer.\" ご説明しかねます。 Gosetsumei shikanemasu. \"I cannot explain.\" お引き受けしかねます。 Ohikiuke shikanemasu. \"I cannot undertake it.\""
+      },
+      {
+        "level": 2,
+        "heading": "Common Expressions",
+        "content": "信じかねる (shinjikaneru) - \"cannot believe\" 決めかねる (kimekaneru) - \"cannot decide\" 賛成しかねる (sansei shikaneru) - \"cannot agree\" 承知しかねる (shouchi shikaneru) - \"cannot consent\" お答えしかねる (okotae shikaneru) - \"cannot answer\" 判断しかねる (handan shikaneru) - \"cannot judge\" 理解しかねる (rikai shikaneru) - \"cannot understand\" お引き受けしかねる (ohikiuke shikaneru) - \"cannot undertake\""
+      },
+      {
+        "level": 2,
+        "heading": "Comparing かねる and できない",
+        "content": "",
+        "children": [
+          {
+            "level": 3,
+            "heading": "Polite reluctance vs simple inability",
+            "content": "かねる - Polite, often social/moral reasons:\n\n賛成しかねます。 Sansei shikanemasu. \"I cannot agree.\" (polite, implies reluctance for valid reasons)\n\nできない - Direct inability:\n\n賛成できません。 Sansei dekimasen. \"I cannot agree.\" (direct, less polite)\n\n| Pattern | Tone | Example | | -------- | ------------- | -------------- | | かねる | Polite/formal | 賛成しかねます | | できない | Direct | 賛成できません |"
+          }
+        ]
+      },
+      {
+        "level": 2,
+        "heading": "Comparing かねる and かねない",
+        "content": "",
+        "children": [
+          {
+            "level": 3,
+            "heading": "Cannot do vs might do",
+            "content": "かねる - Cannot/hesitate to:\n\n信じかねる。 Shinjikaneru. \"I cannot believe it.\"\n\nかねない - Might (negative possibility):\n\n信じかねない。 Shinjikanenai. \"I might not believe it.\" / \"It's unbelievable enough that...\"\n\n| Pattern | Meaning | Example | | -------- | --------------- | -------------- | | かねる | Cannot/hesitate | 信じかねる | | かねない | Might (warning) | 起こりかねない |\n\nSee: 〜かねない (Might)"
+          }
+        ]
+      },
+      {
+        "level": 2,
+        "heading": "With ている",
+        "content": "",
+        "children": [
+          {
+            "level": 3,
+            "heading": "Currently hesitating",
+            "content": "決めかねている。 Kimekanete iru. \"I'm hesitating to decide.\" 判断しかねています。 Handan shikanete imasu. \"I'm unable to judge.\" 選びかねている。 Erabikanete iru. \"I'm having trouble choosing.\""
+          }
+        ]
+      },
+      {
+        "level": 2,
+        "heading": "Customer Service",
+        "content": "",
+        "children": [
+          {
+            "level": 3,
+            "heading": "Polite refusals",
+            "content": "申し訳ございませんが、ご要望にはお応えしかねます。 Moushiwake gozaimasen ga, goyoubou ni wa okotae shikanemasu. \"We apologize, but we cannot fulfill your request.\" その件に関しましてはお答えしかねます。 Sono ken ni kanshimashite wa okotae shikanemasu. \"Regarding that matter, we cannot answer.\""
+          }
+        ]
+      },
+      {
+        "level": 2,
+        "heading": "Cannot Recommend",
+        "content": "",
+        "children": [
+          {
+            "level": 3,
+            "heading": "Withholding endorsement",
+            "content": "お勧めしかねます。 Osusume shikanemasu. \"I cannot recommend it.\" 保証しかねます。 Hoshou shikanemasu. \"I cannot guarantee.\" 推薦しかねる。 Suisen shikaneru. \"I cannot recommend/endorse.\""
+          }
+        ]
+      },
+      {
+        "level": 2,
+        "heading": "Social Situations",
+        "content": "",
+        "children": [
+          {
+            "level": 3,
+            "heading": "Polite declining",
+            "content": "参加しかねます。 Sanka shikanemasu. \"I cannot participate.\" ご一緒しかねます。 Goissho shikanemasu. \"I cannot join you.\" お付き合いしかねます。 Otsukiai shikanemasu. \"I cannot keep company with you.\""
+          }
+        ]
+      },
+      {
+        "level": 2,
+        "heading": "Formation Pattern",
+        "content": "",
+        "children": [
+          {
+            "level": 3,
+            "heading": "Creating the form",
+            "content": "Dictionary form → ます-form → Remove ます → Add かねる 信じる → 信じます → 信じ → 信じかねる 決める → 決めます → 決め → 決めかねる 賛成する → 賛成します → 賛成し → 賛成しかねる"
+          }
+        ]
+      },
+      {
+        "level": 2,
+        "heading": "Common Mistakes",
+        "content": "",
+        "children": [
+          {
+            "level": 3,
+            "heading": "Mistake 1: Using for simple inability",
+            "content": "かねる is for reluctance/social inability, not physical impossibility.\n\n❌ 走りかねる (physical inability) ✓ 走れない / 走ることができない ✓ 賛成しかねる (social/moral reluctance)"
+          },
+          {
+            "level": 3,
+            "heading": "Mistake 2: Using dictionary form",
+            "content": "❌ 信じるかねる ✓ 信じかねる\n\nUse ます-stem, not dictionary form."
+          },
+          {
+            "level": 3,
+            "heading": "Mistake 3: Confusing with かねない",
+            "content": "かねる = cannot/hesitate to かねない = might (negative possibility) 信じかねる = cannot believe 起こりかねない = might occur"
+          },
+          {
+            "level": 3,
+            "heading": "Mistake 4: Using in casual contexts",
+            "content": "かねる is quite formal. For casual situations, use できない or other patterns.\n\nFormal: 賛成しかねます Casual: 賛成できない"
+          }
+        ]
+      },
+      {
+        "level": 2,
+        "heading": "Summary",
+        "content": "Key Points:\n\nかねる expresses inability or reluctance Formation: [Verb ます-stem] + かねる Polite way to decline or refuse Often for social, moral, or practical reasons Common in business and formal contexts Different from できない (more direct) Different from かねない (might happen) Essential for polite refusals and expressing difficulty",
+        "children": [
+          {
+            "level": 3,
+            "heading": "Company",
+            "content": "About Pricing Blog Contact"
+          },
+          {
+            "level": 3,
+            "heading": "Legal",
+            "content": "Privacy Policy Terms of Service Cookie Policy"
+          }
+        ]
+      }
+    ]
+  },
+  "metadata": {
+    "extracted_at": "2026-01-01T22:19:30.534659800Z",
+    "duration_ms": 3,
+    "extractors_matched": [
+      "metadata",
+      "examples",
+      "sections"
+    ],
+    "extractors_failed": [
+      "vocab_tables",
+      "definitions",
+      "content_blocks"
+    ]
+  }
+}

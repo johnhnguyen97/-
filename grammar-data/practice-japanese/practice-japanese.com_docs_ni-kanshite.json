@@ -1,0 +1,299 @@
+{
+  "config_name": "Language Learning Extractor",
+  "url": "https://practice-japanese.com/docs/ni-kanshite/",
+  "data": {
+    "sections": [
+      {
+        "level": 2,
+        "heading": "What is 〜に関して?",
+        "content": "〜に関して (ni kanshite) is a formal expression meaning \"regarding,\" \"concerning,\" or \"about.\" It's used in formal contexts to introduce topics, particularly in business, academic, and official settings.\n\nEnglish equivalent: \"regarding,\" \"concerning,\" \"about,\" \"with regard to\"\n\nStructure: [Noun] + に関して\n\nこの問題 (kono mondai - this problem) + に関して = この問題に関して \"regarding this problem\" 仕事 (shigoto - work) + に関して = 仕事に関して \"regarding work\" 今後 (kongo - future) + に関して = 今後に関して \"regarding the future\""
+      },
+      {
+        "level": 2,
+        "heading": "Basic Formation",
+        "content": "",
+        "children": [
+          {
+            "level": 3,
+            "heading": "With nouns",
+            "content": "[Noun] + に関して\n\nこの件に関して (kono ken ni kanshite) - \"regarding this matter\" プロジェクトに関して (purojekuto ni kanshite) - \"regarding the project\" 契約に関して (keiyaku ni kanshite) - \"regarding the contract\" 安全に関して (anzen ni kanshite) - \"regarding safety\""
+          }
+        ]
+      },
+      {
+        "level": 2,
+        "heading": "Business and Professional",
+        "content": "",
+        "children": [
+          {
+            "level": 3,
+            "heading": "Formal discussions",
+            "content": "この件に関して話し合いたい。 Kono ken ni kanshite hanashiaitai. \"I'd like to discuss this matter.\" プロジェクトに関して質問があります。 Purojekuto ni kanshite shitsumon ga arimasu. \"I have questions regarding the project.\" 契約に関して確認させていただきます。 Keiyaku ni kanshite kakunin sasete itadakimasu. \"Allow me to confirm regarding the contract.\""
+          }
+        ]
+      },
+      {
+        "level": 2,
+        "heading": "Formal Meetings",
+        "content": "",
+        "children": [
+          {
+            "level": 3,
+            "heading": "Professional settings",
+            "content": "今後の計画に関してご説明します。 Kongo no keikaku ni kanshite gosetsumei shimasu. \"I'll explain regarding future plans.\" 予算に関してご意見をお聞かせください。 Yosan ni kanshite goiken wo okikase kudasai. \"Please share your opinions regarding the budget.\" この問題に関して対策を考える必要があります。 Kono mondai ni kanshite taisaku wo kangaeru hitsuyou ga arimasu. \"We need to think about countermeasures regarding this problem.\""
+          }
+        ]
+      },
+      {
+        "level": 2,
+        "heading": "Academic Writing",
+        "content": "",
+        "children": [
+          {
+            "level": 3,
+            "heading": "Research and papers",
+            "content": "この研究に関して報告します。 Kono kenkyuu ni kanshite houkoku shimasu. \"I'll report regarding this research.\" 環境問題に関する論文。 Kankyou mondai ni kansuru ronbun. \"A paper concerning environmental issues.\" 教育に関して調査を行った。 Kyouiku ni kanshite chousa wo okonatta. \"I conducted research regarding education.\""
+          }
+        ]
+      },
+      {
+        "level": 2,
+        "heading": "Variations",
+        "content": "",
+        "children": [
+          {
+            "level": 3,
+            "heading": "Related expressions",
+            "content": "に関して (ni kanshite) - \"regarding\" (standard) に関しては (ni kanshite wa) - \"as for/regarding\" (topic marker) に関する (ni kansuru) - \"regarding\" (modifies nouns) に関しても (ni kanshite mo) - \"also regarding\" この件に関しては、後で話します。 Kono ken ni kanshite wa, ato de hanashimasu. \"As for this matter, I'll talk about it later.\" 仕事に関する本。 Shigoto ni kansuru hon. \"A book regarding work.\""
+          }
+        ]
+      },
+      {
+        "level": 2,
+        "heading": "に関する for Modifying Nouns",
+        "content": "",
+        "children": [
+          {
+            "level": 3,
+            "heading": "Describing related items",
+            "content": "[Noun] + に関する + [Noun] = \"~ regarding...\"\n\n環境に関する問題 (kankyou ni kansuru mondai) - \"problems regarding environment\" 安全に関する規則 (anzen ni kansuru kisoku) - \"rules regarding safety\" 健康に関する情報 (kenkou ni kansuru jouhou) - \"information regarding health\" 法律に関する質問 (houritsu ni kansuru shitsumon) - \"questions regarding law\" これは仕事に関する書類です。 Kore wa shigoto ni kansuru shorui desu. \"This is a document regarding work.\""
+          }
+        ]
+      },
+      {
+        "level": 2,
+        "heading": "Email and Written Correspondence",
+        "content": "",
+        "children": [
+          {
+            "level": 3,
+            "heading": "Formal communication",
+            "content": "お問い合わせの件に関して Otoiawase no ken ni kanshite \"Regarding your inquiry\" ご注文に関してご連絡いたします。 Gochuumon ni kanshite gorenraku itashimasu. \"I'm contacting you regarding your order.\" 会議の日程に関してお知らせします。 Kaigi no nittei ni kanshite oshirase shimasu. \"I'm informing you regarding the meeting schedule.\""
+          }
+        ]
+      },
+      {
+        "level": 2,
+        "heading": "Legal and Official",
+        "content": "",
+        "children": [
+          {
+            "level": 3,
+            "heading": "Formal documentation",
+            "content": "この法律に関して説明します。 Kono houritsu ni kanshite setsumei shimasu. \"I'll explain regarding this law.\" 規則に関する変更があります。 Kisoku ni kansuru henkou ga arimasu. \"There are changes regarding the rules.\" 権利に関して質問があります。 Kenri ni kanshite shitsumon ga arimasu. \"I have questions regarding rights.\""
+          }
+        ]
+      },
+      {
+        "level": 2,
+        "heading": "Polite Forms",
+        "content": "この件に関しまして、ご説明いたします。 Kono ken ni kanshimashite, gosetsumei itashimasu. \"I will explain regarding this matter.\" プロジェクトに関しましては、後ほどご報告します。 Purojekuto ni kanshimashite wa, nochihodo gohoukoku shimasu. \"As for the project, I'll report later.\""
+      },
+      {
+        "level": 2,
+        "heading": "Common Expressions",
+        "content": "この件に関して (kono ken ni kanshite) - \"regarding this matter\" 仕事に関して (shigoto ni kanshite) - \"regarding work\" 安全に関して (anzen ni kanshite) - \"regarding safety\" 将来に関して (shourai ni kanshite) - \"regarding the future\" 〜に関する (ni kansuru) - \"regarding\" (noun modifier) 〜に関しては (ni kanshite wa) - \"as for/regarding\" 〜に関しても (ni kanshite mo) - \"also regarding\""
+      },
+      {
+        "level": 2,
+        "heading": "Comparing に関して and について",
+        "content": "",
+        "children": [
+          {
+            "level": 3,
+            "heading": "Formal vs neutral",
+            "content": "に関して - Formal (regarding):\n\nこの問題に関して話す。 Kono mondai ni kanshite hanasu. \"Talk regarding this problem.\" (formal)\n\nについて - Neutral (about):\n\nこの問題について話す。 Kono mondai ni tsuite hanasu. \"Talk about this problem.\" (neutral)\n\n| Pattern | Formality | Context | | -------- | --------- | ------------------ | | に関して | Formal | Business, official | | について | Neutral | General use |\n\nSee: 〜について (About)"
+          }
+        ]
+      },
+      {
+        "level": 2,
+        "heading": "Subject Lines and Titles",
+        "content": "",
+        "children": [
+          {
+            "level": 3,
+            "heading": "Email subjects",
+            "content": "件名：会議に関して Subject: Regarding the meeting 件名：お問い合わせに関するご返信 Subject: Reply regarding your inquiry 件名：契約内容に関する確認 Subject: Confirmation regarding contract details"
+          }
+        ]
+      },
+      {
+        "level": 2,
+        "heading": "に関しては for Topic",
+        "content": "",
+        "children": [
+          {
+            "level": 3,
+            "heading": "Topicalization",
+            "content": "予算に関しては、問題ありません。 Yosan ni kanshite wa, mondai arimasen. \"As for the budget, there's no problem.\" この件に関しては、後で決めます。 Kono ken ni kanshて wa, ato de kimemasu. \"As for this matter, we'll decide later.\" 品質に関しては、保証します。 Hinshitsu ni kanshite wa, hoshou shimasu. \"As for quality, we guarantee it.\""
+          }
+        ]
+      },
+      {
+        "level": 2,
+        "heading": "Multiple Topics",
+        "content": "",
+        "children": [
+          {
+            "level": 3,
+            "heading": "Several subjects",
+            "content": "価格に関して、また品質に関して説明します。 Kakaku ni kanshite, mata hinshitsu ni kanshite setsumei shimasu. \"I'll explain regarding price and also regarding quality.\" 安全に関しても、環境に関しても重要です。 Anzen ni kanshite mo, kankyou ni kanshite mo juuyou desu. \"It's important both regarding safety and regarding environment.\""
+          }
+        ]
+      },
+      {
+        "level": 2,
+        "heading": "Expressing Opinions",
+        "content": "",
+        "children": [
+          {
+            "level": 3,
+            "heading": "Formal viewpoints",
+            "content": "教育に関して、私の意見を述べます。 Kyouiku ni kanshite, watashi no iken wo nobemasu. \"I'll state my opinion regarding education.\" 政策に関して賛成できません。 Seisaku ni kanshite sansei dekimasen. \"I cannot agree regarding the policy.\""
+          }
+        ]
+      },
+      {
+        "level": 2,
+        "heading": "Questions and Inquiries",
+        "content": "",
+        "children": [
+          {
+            "level": 3,
+            "heading": "Formal questioning",
+            "content": "この件に関して質問してもよろしいでしょうか。 Kono ken ni kanshite shitsumon shite mo yoroshii deshou ka. \"May I ask a question regarding this matter?\" 契約に関して不明な点があります。 Keiyaku ni kanshite fumei na ten ga arimasu. \"There are unclear points regarding the contract.\""
+          }
+        ]
+      },
+      {
+        "level": 2,
+        "heading": "Common Mistakes",
+        "content": "",
+        "children": [
+          {
+            "level": 3,
+            "heading": "Mistake 1: Using in casual conversation",
+            "content": "❌ 映画に関して話そう (too formal for friends) ✓ 映画について話そう\n\nUse について for casual contexts."
+          },
+          {
+            "level": 3,
+            "heading": "Mistake 2: Wrong particle combination",
+            "content": "❌ に関してを ✓ に関して\n\nDon't add を after に関して."
+          },
+          {
+            "level": 3,
+            "heading": "Mistake 3: Confusing に関する and に関して",
+            "content": "に関して = regarding (adverbial) に関する = regarding (modifies nouns) 仕事に関して話す = talk regarding work 仕事に関する話 = talk regarding work (noun phrase)"
+          },
+          {
+            "level": 3,
+            "heading": "Mistake 4: Using with verbs directly",
+            "content": "❌ 食べるに関して ✓ 食事に関して\n\nUse with nouns, not verbs."
+          }
+        ]
+      },
+      {
+        "level": 2,
+        "heading": "Summary",
+        "content": "Key Points:\n\nに関して means \"regarding\" (formal) Formation: [Noun] + に関して Used in business, academic, official contexts に関する modifies nouns に関しては topicalizes More formal than について Common in emails, meetings, documents Essential for professional Japanese",
+        "children": [
+          {
+            "level": 3,
+            "heading": "Company",
+            "content": "About Pricing Blog Contact"
+          },
+          {
+            "level": 3,
+            "heading": "Legal",
+            "content": "Privacy Policy Terms of Service Cookie Policy"
+          }
+        ]
+      }
+    ],
+    "metadata": {
+      "title": "〜に関して (Regarding)"
+    },
+    "examples": [
+      {
+        "sentence": "に関して means \"regarding\" (formal)"
+      },
+      {
+        "sentence": "Formation: [Noun] + に関して"
+      },
+      {
+        "sentence": "Used in business, academic, official contexts"
+      },
+      {
+        "sentence": "に関する modifies nouns"
+      },
+      {
+        "sentence": "に関しては topicalizes"
+      },
+      {
+        "sentence": "More formal than について"
+      },
+      {
+        "sentence": "Common in emails, meetings, documents"
+      },
+      {
+        "sentence": "Essential for professional Japanese"
+      },
+      {
+        "sentence": "About"
+      },
+      {
+        "sentence": "Pricing"
+      },
+      {
+        "sentence": "Blog"
+      },
+      {
+        "sentence": "Contact"
+      },
+      {
+        "sentence": "Privacy Policy"
+      },
+      {
+        "sentence": "Terms of Service"
+      },
+      {
+        "sentence": "Cookie Policy"
+      }
+    ]
+  },
+  "metadata": {
+    "extracted_at": "2026-01-01T22:19:32.016403Z",
+    "duration_ms": 6,
+    "extractors_matched": [
+      "metadata",
+      "examples",
+      "sections"
+    ],
+    "extractors_failed": [
+      "vocab_tables",
+      "definitions",
+      "content_blocks"
+    ]
+  }
+}

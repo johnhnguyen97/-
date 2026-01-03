@@ -1,0 +1,304 @@
+{
+  "config_name": "Language Learning Extractor",
+  "url": "https://practice-japanese.com/docs/service-language/",
+  "data": {
+    "sections": [
+      {
+        "level": 2,
+        "heading": "Service Industry Language",
+        "content": "Service industry language is highly formal keigo used in restaurants, retail stores, hotels, and other customer-facing businesses. It treats all customers with maximum respect, using special expressions and ultra-polite forms to create a welcoming atmosphere.\n\nRegular: これです Service: こちらでございます \"It's this one\" (service polite) Regular: 500円です Service: 500円でございます/500円になります \"It's 500 yen\" (service polite)"
+      },
+      {
+        "level": 2,
+        "heading": "Essential Service Phrases",
+        "content": "",
+        "children": [
+          {
+            "level": 3,
+            "heading": "Welcoming customers",
+            "content": "いらっしゃいませ \"Welcome!\" (no response expected) ようこそお越しくださいました \"Welcome, thank you for coming\" お待ちしておりました \"We've been waiting for you\" Standard greeting"
+          },
+          {
+            "level": 3,
+            "heading": "Offering help",
+            "content": "何かお探しでしょうか \"Are you looking for something?\" ご案内いたしましょうか \"Shall I guide you?\" お手伝いいたしましょうか \"Shall I help you?\" Offering assistance"
+          },
+          {
+            "level": 3,
+            "heading": "Thanking customers",
+            "content": "ありがとうございます \"Thank you\" いつもありがとうございます \"Thank you always\" またお越しくださいませ \"Please come again\" Gratitude expressions"
+          }
+        ]
+      },
+      {
+        "level": 2,
+        "heading": "Restaurant Language",
+        "content": "",
+        "children": [
+          {
+            "level": 3,
+            "heading": "Taking orders",
+            "content": "ご注文はお決まりでしょうか \"Have you decided on your order?\" ご注文をお伺いいたします \"I'll take your order\" かしこまりました \"Certainly\" (acknowledging order) Order taking"
+          },
+          {
+            "level": 3,
+            "heading": "Serving food",
+            "content": "お待たせいたしました \"Sorry to keep you waiting\" こちら〇〇でございます \"This is ○○\" ごゆっくりどうぞ \"Please take your time\" Serving phrases"
+          },
+          {
+            "level": 3,
+            "heading": "Recommendations",
+            "content": "本日のおすすめでございます \"This is today's recommendation\" 人気がございます \"This is popular\" こちらはいかがでしょうか \"How about this one?\" Suggesting items"
+          },
+          {
+            "level": 3,
+            "heading": "Payment",
+            "content": "お会計でございますね \"The bill, correct?\" 〇〇円でございます/になります \"It's ○○ yen\" お預かりいたします \"I'll take it\" (receiving money) ちょうどお預かりいたします \"I'll take the exact amount\" 〇〇円のお返しでございます \"○○ yen is your change\" Payment process"
+          }
+        ]
+      },
+      {
+        "level": 2,
+        "heading": "Retail Language",
+        "content": "",
+        "children": [
+          {
+            "level": 3,
+            "heading": "Showing products",
+            "content": "こちらでございます \"It's this one\" こちらをご覧ください \"Please look at this\" お試しください \"Please try it\" Product presentation"
+          },
+          {
+            "level": 3,
+            "heading": "Sizes and availability",
+            "content": "サイズはいかがでしょうか \"What size would you like?\" 在庫を確認いたします \"I'll check the stock\" 申し訳ございません、ただいま品切れでございます \"I'm sorry, it's currently out of stock\" Stock inquiries"
+          },
+          {
+            "level": 3,
+            "heading": "Wrapping and checkout",
+            "content": "お包みいたしましょうか \"Shall I wrap it?\" 袋はご利用でしょうか \"Will you need a bag?\" こちらレシートでございます \"Here is your receipt\" Checkout process"
+          }
+        ]
+      },
+      {
+        "level": 2,
+        "heading": "Hotel Language",
+        "content": "",
+        "children": [
+          {
+            "level": 3,
+            "heading": "Check-in",
+            "content": "ご予約のお名前をお伺いしてもよろしいでしょうか \"May I have the name on the reservation?\" お部屋の準備ができております \"Your room is ready\" お荷物をお持ちいたします \"I'll carry your luggage\" Check-in phrases"
+          },
+          {
+            "level": 3,
+            "heading": "Guiding",
+            "content": "お部屋へご案内いたします \"I'll guide you to your room\" エレベーターはこちらでございます \"The elevator is this way\" Directions"
+          },
+          {
+            "level": 3,
+            "heading": "Check-out",
+            "content": "ご出発でございますね \"You're checking out, correct?\" お忘れ物はございませんか \"Do you have all your belongings?\" またのお越しをお待ちしております \"We look forward to your next visit\" Departure"
+          }
+        ]
+      },
+      {
+        "level": 2,
+        "heading": "でございます vs です",
+        "content": "",
+        "children": [
+          {
+            "level": 3,
+            "heading": "でございます (more formal)",
+            "content": "こちらでございます \"It's this one\" (very polite) 500円でございます \"It's 500 yen\" (very formal) Service industry standard Maximum politeness"
+          },
+          {
+            "level": 3,
+            "heading": "です (standard polite)",
+            "content": "こちらです \"It's this one\" (polite) 500円です \"It's 500 yen\" (polite) Regular business Less formal than ございます"
+          }
+        ]
+      },
+      {
+        "level": 2,
+        "heading": "になります Usage",
+        "content": "",
+        "children": [
+          {
+            "level": 3,
+            "heading": "Service industry pattern",
+            "content": "お会計は1000円になります \"The bill will be 1000 yen\" こちらがメニューになります \"This is the menu\" Controversial usage Common in service"
+          }
+        ]
+      },
+      {
+        "level": 2,
+        "heading": "Handling Problems",
+        "content": "",
+        "children": [
+          {
+            "level": 3,
+            "heading": "Apologizing",
+            "content": "大変申し訳ございません \"I'm extremely sorry\" ご迷惑をおかけして申し訳ございません \"I apologize for the inconvenience\" 少々お待ちいただけますでしょうか \"Could you wait a moment please?\" Problem responses"
+          },
+          {
+            "level": 3,
+            "heading": "Checking details",
+            "content": "恐れ入りますが、もう一度よろしいでしょうか \"Excuse me, but could you repeat that?\" ご確認させていただきます \"Let me confirm that\" Clarification"
+          }
+        ]
+      },
+      {
+        "level": 2,
+        "heading": "Polite Requests to Customers",
+        "content": "",
+        "children": [
+          {
+            "level": 3,
+            "heading": "Asking cooperation",
+            "content": "少々お待ちください \"Please wait a moment\" こちらにご記入ください \"Please fill this out\" お手数ですが〜 \"I'm sorry to trouble you, but...\" Requesting actions"
+          }
+        ]
+      },
+      {
+        "level": 2,
+        "heading": "Special Service Expressions",
+        "content": "",
+        "children": [
+          {
+            "level": 3,
+            "heading": "ございます patterns",
+            "content": "ございます \"There is/have\" (formal ある) 〜がございます \"We have...\" ご用意がございます \"We have prepared\" お時間がございますか \"Do you have time?\" Formal existence"
+          },
+          {
+            "level": 3,
+            "heading": "お〜いただく patterns",
+            "content": "お待ちいただく \"Have you wait\" ご利用いただく \"Have you use\" ご記入いただく \"Have you fill out\" Respectful requests"
+          }
+        ]
+      },
+      {
+        "level": 2,
+        "heading": "Common Mistakes",
+        "content": "",
+        "children": [
+          {
+            "level": 3,
+            "heading": "Too casual",
+            "content": "Wrong: ちょっと待って ⚠️ Correct: 少々お待ちください ✓ \"Please wait a moment\" Maintain formality"
+          },
+          {
+            "level": 3,
+            "heading": "Using いる instead of おる",
+            "content": "Wrong: 私がいます ⚠️ Correct: 私がおります ✓ \"I am here\" Use humble forms"
+          },
+          {
+            "level": 3,
+            "heading": "Casual acknowledgments",
+            "content": "Wrong: 分かった ⚠️ Correct: かしこまりました ✓ \"Certainly\" Formal acknowledgment required"
+          }
+        ]
+      },
+      {
+        "level": 2,
+        "heading": "Telephone Service",
+        "content": "",
+        "children": [
+          {
+            "level": 3,
+            "heading": "Answering",
+            "content": "お電話ありがとうございます \"Thank you for calling\" 〇〇でございます \"This is ○○\" Standard phone greeting"
+          },
+          {
+            "level": 3,
+            "heading": "Taking messages",
+            "content": "ご伝言を承ります \"I'll take a message\" 復唱させていただきます \"Let me repeat that back\" Message handling"
+          }
+        ]
+      },
+      {
+        "level": 2,
+        "heading": "Special Situations",
+        "content": "",
+        "children": [
+          {
+            "level": 3,
+            "heading": "When busy",
+            "content": "ただいま混み合っております \"We're currently busy\" 少々お時間をいただいております \"It's taking a bit of time\" Explaining delays"
+          },
+          {
+            "level": 3,
+            "heading": "Sold out items",
+            "content": "申し訳ございません、sold outでございます \"I'm sorry, it's sold out\" 次回入荷は〇〇でございます \"The next arrival is ○○\" Unavailable items"
+          }
+        ]
+      },
+      {
+        "level": 2,
+        "heading": "Practice Sentences",
+        "content": "",
+        "children": [
+          {
+            "level": 3,
+            "heading": "Basic",
+            "content": "いらっしゃいませ。 \"Welcome!\" かしこまりました。 \"Certainly.\" 少々お待ちください。 \"Please wait a moment.\" ありがとうございます。 \"Thank you.\" またお越しくださいませ。 \"Please come again.\""
+          },
+          {
+            "level": 3,
+            "heading": "Intermediate",
+            "content": "いらっしゃいませ。何かお探しで しょうか。こちらが新商品でございます。 大変人気がございますので、 ぜひご覧くださいませ。 \"Welcome! Are you looking for something? This is our new product. It's very popular, so please take a look.\" お待たせいたしました。ご注文の 商品でございます。お会計は 3,500円になります。袋は ご利用でしょうか。 \"Sorry to keep you waiting. Here is your ordered product. The total is 3,500 yen. Will you need a bag?\" ご予約のお名前を伺ってもよろしいで しょうか。かしこまりました。 お部屋の準備ができております。 お荷物をお持ちいたしますので、 こちらへどうぞ。 \"May I have the name on your reservation? Certainly. Your room is ready. I'll carry your luggage, so please come this way.\""
+          },
+          {
+            "level": 3,
+            "heading": "Company",
+            "content": "About Pricing Blog Contact"
+          },
+          {
+            "level": 3,
+            "heading": "Legal",
+            "content": "Privacy Policy Terms of Service Cookie Policy"
+          }
+        ]
+      }
+    ],
+    "metadata": {
+      "title": "Service Industry Language"
+    },
+    "examples": [
+      {
+        "sentence": "About"
+      },
+      {
+        "sentence": "Pricing"
+      },
+      {
+        "sentence": "Blog"
+      },
+      {
+        "sentence": "Contact"
+      },
+      {
+        "sentence": "Privacy Policy"
+      },
+      {
+        "sentence": "Terms of Service"
+      },
+      {
+        "sentence": "Cookie Policy"
+      }
+    ]
+  },
+  "metadata": {
+    "extracted_at": "2026-01-01T22:19:34.422986400Z",
+    "duration_ms": 5,
+    "extractors_matched": [
+      "metadata",
+      "examples",
+      "sections"
+    ],
+    "extractors_failed": [
+      "vocab_tables",
+      "definitions",
+      "content_blocks"
+    ]
+  }
+}

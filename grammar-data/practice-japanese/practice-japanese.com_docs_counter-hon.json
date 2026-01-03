@@ -1,0 +1,352 @@
+{
+  "config_name": "Language Learning Extractor",
+  "url": "https://practice-japanese.com/docs/counter-hon/",
+  "data": {
+    "metadata": {
+      "title": "Long Objects (本)"
+    },
+    "examples": [
+      {
+        "sentence": "Counter System Basics - How counters work"
+      },
+      {
+        "sentence": "Number System Overview - Japanese numbers"
+      },
+      {
+        "sentence": "Sound changes - Phonetic variations"
+      },
+      {
+        "sentence": "冊 (satsu) - Books counter"
+      },
+      {
+        "sentence": "個 (ko) - Small objects"
+      },
+      {
+        "sentence": "本 as noun - Book (different from counter)"
+      },
+      {
+        "sentence": "About"
+      },
+      {
+        "sentence": "Pricing"
+      },
+      {
+        "sentence": "Blog"
+      },
+      {
+        "sentence": "Contact"
+      },
+      {
+        "sentence": "Privacy Policy"
+      },
+      {
+        "sentence": "Terms of Service"
+      },
+      {
+        "sentence": "Cookie Policy"
+      }
+    ],
+    "sections": [
+      {
+        "level": 2,
+        "heading": "What is 本 (ほん/ぼん/ぽん)?",
+        "content": "本 is the counter for long, cylindrical objects. It has three pronunciations (ほん、ぼん、ぽん) that change depending on the number it follows.\n\nペンを3本買いました \"I bought 3 pens\" ビールを2本ください \"2 bottles of beer, please\""
+      },
+      {
+        "level": 2,
+        "heading": "Complete 本 Counter Chart",
+        "content": "| Number | Reading | Romaji | Sound Change | | ------ | ---------- | -------- | ------------ | | 1 | いっぽん | ippon | ぽん | | 2 | にほん | nihon | ほん | | 3 | さんぼん | san-bon | ぼん | | 4 | よんほん | yon-hon | ほん | | 5 | ごほん | go-hon | ほん | | 6 | ろっぽん | roppon | ぽん | | 7 | ななほん | nana-hon | ほん | | 8 | はっぽん | happon | ぽん | | 9 | きゅうほん | kyuu-hon | ほん | | 10 | じゅっぽん | juppon | ぽん |",
+        "children": [
+          {
+            "level": 3,
+            "heading": "Larger Numbers",
+            "content": "11本 = じゅういっぽん 20本 = にじゅっぽん 30本 = さんじゅっぽん 100本 = ひゃっぽん"
+          }
+        ]
+      },
+      {
+        "level": 2,
+        "heading": "Sound Change Pattern",
+        "content": "",
+        "children": [
+          {
+            "level": 3,
+            "heading": "ほん (hon) - Default",
+            "content": "2本 (にほん) 4本 (よんほん) 5本 (ごほん) 7本 (ななほん) 9本 (きゅうほん)"
+          },
+          {
+            "level": 3,
+            "heading": "ぼん (bon) - After ん sound",
+            "content": "3本 (さんぼん) - after さん"
+          },
+          {
+            "level": 3,
+            "heading": "ぽん (pon) - After っ sound",
+            "content": "1本 (いっぽん) - いち becomes いっ 6本 (ろっぽん) - ろく becomes ろっ 8本 (はっぽん) - はち becomes はっ 10本 (じゅっぽん) - じゅう becomes じゅっ\n\nMemory Tip: When a number ends with っ or ん, the counter sound changes!"
+          }
+        ]
+      },
+      {
+        "level": 2,
+        "heading": "What to Count with 本",
+        "content": "",
+        "children": [
+          {
+            "level": 3,
+            "heading": "Writing Instruments",
+            "content": "ペン - pens 鉛筆 (えんぴつ) - pencils ボールペン - ballpoint pens マーカー - markers 筆 (ふで) - brushes\n\nペンを3本持っています \"I have 3 pens\" 鉛筆を5本買いました \"I bought 5 pencils\""
+          },
+          {
+            "level": 3,
+            "heading": "Bottles and Cans",
+            "content": "ビール - beer bottles ワイン - wine bottles ジュース - juice bottles/cans ペットボトル - plastic bottles 缶 (かん) - cans\n\nビールを2本ください \"2 beers, please\" 水を1本買いました \"I bought 1 bottle of water\""
+          },
+          {
+            "level": 3,
+            "heading": "Trees and Plants",
+            "content": "木 (き) - trees 花 (はな) - flowers (with long stems) バラ - roses\n\n庭に木が10本あります \"There are 10 trees in the garden\" バラを3本もらいました \"I received 3 roses\""
+          },
+          {
+            "level": 3,
+            "heading": "Long Vegetables",
+            "content": "きゅうり - cucumbers 大根 (だいこん) - daikon radishes にんじん - carrots バナナ - bananas\n\nバナナを5本食べました \"I ate 5 bananas\" きゅうりを2本使います \"I'll use 2 cucumbers\""
+          },
+          {
+            "level": 3,
+            "heading": "Sports Equipment",
+            "content": "バット - baseball bats ラケット - rackets ゴルフクラブ - golf clubs 釣り竿 (つりざお) - fishing rods\n\nバットを2本持っています \"I have 2 bats\""
+          },
+          {
+            "level": 3,
+            "heading": "Umbrellas",
+            "content": "傘 (かさ) - umbrellas\n\n傘を1本忘れました \"I forgot 1 umbrella\""
+          },
+          {
+            "level": 3,
+            "heading": "Films/Videos",
+            "content": "映画 (えいが) - films/movies ビデオ - videos\n\n映画を3本見ました \"I watched 3 films\""
+          },
+          {
+            "level": 3,
+            "heading": "Long Items in General",
+            "content": "ひも - strings/ropes 棒 (ぼう) - sticks/poles パイプ - pipes レール - rails"
+          }
+        ]
+      },
+      {
+        "level": 2,
+        "heading": "Asking \"How Many?\"",
+        "content": "",
+        "children": [
+          {
+            "level": 3,
+            "heading": "何本 (なんぼん)",
+            "content": "何本ありますか？ \"How many are there?\" 何本買いますか？ \"How many will you buy?\" ペンが何本必要ですか？ \"How many pens do you need?\" 木が何本植えてありますか？ \"How many trees are planted?\""
+          }
+        ]
+      },
+      {
+        "level": 2,
+        "heading": "Common Patterns",
+        "content": "",
+        "children": [
+          {
+            "level": 3,
+            "heading": "Object + を + 本 Counter",
+            "content": "ペンを3本買った \"I bought 3 pens\" ビールを2本飲んだ \"I drank 2 beers\" 映画を5本見た \"I watched 5 movies\""
+          },
+          {
+            "level": 3,
+            "heading": "Subject + が + 本 Counter + Verb",
+            "content": "木が10本あります \"There are 10 trees\" ペンが3本ありません \"There aren't 3 pens\""
+          },
+          {
+            "level": 3,
+            "heading": "本 Counter + の + Noun",
+            "content": "3本のペン \"3 pens\" 2本のビール \"2 beers\" 5本の木 \"5 trees\""
+          }
+        ]
+      },
+      {
+        "level": 2,
+        "heading": "Common Conversations",
+        "content": "",
+        "children": [
+          {
+            "level": 3,
+            "heading": "Example 1: Stationery Store",
+            "content": "A: ペンを何本買いますか？ \"How many pens will you buy?\" B: 5本ください \"5, please\" A: 色は？ \"What colors?\" B: 黒を3本と赤を2本 \"3 black and 2 red\""
+          },
+          {
+            "level": 3,
+            "heading": "Example 2: Convenience Store",
+            "content": "A: お飲み物は？ \"Drinks?\" B: ビールを2本ください \"2 beers, please\" A: 冷たいのと常温、どちらがよろしいですか？ \"Cold or room temperature?\" B: 冷たいのでお願いします \"Cold, please\""
+          },
+          {
+            "level": 3,
+            "heading": "Example 3: Flower Shop",
+            "content": "A: バラは何本入りますか？ \"How many roses do you want?\" B: 12本でお願いします \"12, please\" A: かしこまりました \"Certainly\""
+          },
+          {
+            "level": 3,
+            "heading": "Example 4: Movies",
+            "content": "A: 週末に映画を何本見ましたか？ \"How many movies did you watch this weekend?\" B: 3本見ました \"I watched 3\" A: すごいですね！ \"That's amazing!\""
+          }
+        ]
+      },
+      {
+        "level": 2,
+        "heading": "Special Expressions",
+        "content": "",
+        "children": [
+          {
+            "level": 3,
+            "heading": "〜本ずつ (each/apiece)",
+            "content": "一本ずつ取ってください \"Please take one each\" 2本ずつ配ります \"I'll distribute 2 each\""
+          },
+          {
+            "level": 3,
+            "heading": "〜本目 (ordinal)",
+            "content": "1本目 (いっぽんめ) - the first one 2本目 (にほんめ) - the second one 3本目 (さんぼんめ) - the third one 3本目の映画が一番面白かった \"The third movie was the most interesting\""
+          },
+          {
+            "level": 3,
+            "heading": "〜本も (as many as)",
+            "content": "10本も飲んだ \"I drank as many as 10\" 5本も買った \"I bought as many as 5\""
+          },
+          {
+            "level": 3,
+            "heading": "〜本しか (only)",
+            "content": "1本しかない \"There's only 1\" 2本しか持っていない \"I only have 2\""
+          }
+        ]
+      },
+      {
+        "level": 2,
+        "heading": "When NOT to Use 本",
+        "content": "",
+        "children": [
+          {
+            "level": 3,
+            "heading": "Don't use for:",
+            "content": "Short cylindrical objects:\n\nWrong: 電池3本 ❌ Right: 電池3個 ✓ \"3 batteries\"\n\nBooks (despite 本 meaning \"book\"):\n\nWrong: 本3本 ❌ Right: 本3冊 (さんさつ) ✓ \"3 books\"\n\nThick/bulky cylinders:\n\nlogs, tree trunks → might use 個 instead"
+          }
+        ]
+      },
+      {
+        "level": 2,
+        "heading": "Pronunciation Practice",
+        "content": "",
+        "children": [
+          {
+            "level": 3,
+            "heading": "Common Mistakes",
+            "content": "Wrong: さんほん (3) ❌ Right: さんぼん ✓ Wrong: いちほん (1) ❌ Right: いっぽん ✓ Wrong: ろくほん (6) ❌ Right: ろっぽん ✓ Wrong: じゅうほん (10) ❌ Right: じゅっぽん ✓"
+          }
+        ]
+      },
+      {
+        "level": 2,
+        "heading": "Common Mistakes",
+        "content": "",
+        "children": [
+          {
+            "level": 3,
+            "heading": "Mistake 1: Wrong sound changes",
+            "content": "Wrong: いちほん ❌ Right: いっぽん ✓ \"1 (long object)\""
+          },
+          {
+            "level": 3,
+            "heading": "Mistake 2: Using 本 for books",
+            "content": "Wrong: 本を3本読みました ❌ Right: 本を3冊読みました ✓ \"I read 3 books\" 本 as counter = long objects 本 as noun = book"
+          },
+          {
+            "level": 3,
+            "heading": "Mistake 3: Confusing with 2 本 (nihon = Japan)",
+            "content": "2本 (にほん) = 2 long objects 日本 (にほん) = Japan Context makes it clear!"
+          },
+          {
+            "level": 3,
+            "heading": "Mistake 4: Wrong items",
+            "content": "Wrong: りんご3本 ❌ Right: りんご3個 ✓ \"3 apples\" (Apples aren't long/cylindrical)"
+          }
+        ]
+      },
+      {
+        "level": 2,
+        "heading": "Formal vs Casual",
+        "content": "",
+        "children": [
+          {
+            "level": 3,
+            "heading": "Casual",
+            "content": "ペン3本ちょうだい \"Give me 3 pens\" ビール2本 \"2 beers\""
+          },
+          {
+            "level": 3,
+            "heading": "Polite",
+            "content": "ペンを3本ください \"3 pens, please\" ビールを2本お願いします \"2 beers, please\""
+          },
+          {
+            "level": 3,
+            "heading": "Formal/Business",
+            "content": "ペンを3本購入いたします \"I will purchase 3 pens\""
+          }
+        ]
+      },
+      {
+        "level": 2,
+        "heading": "Practice Sentences",
+        "content": "",
+        "children": [
+          {
+            "level": 3,
+            "heading": "Basic",
+            "content": "ペンが3本あります \"There are 3 pens\" 傘を1本持っています \"I have 1 umbrella\" 木が10本植えてあります \"10 trees are planted\""
+          },
+          {
+            "level": 3,
+            "heading": "Intermediate",
+            "content": "ビールを何本飲みましたか？ \"How many beers did you drink?\" 鉛筆を5本買ってきてください \"Please buy 5 pencils\" この映画は今年見た映画の中で1本目です \"This is the first movie I've seen this year\""
+          },
+          {
+            "level": 3,
+            "heading": "Advanced",
+            "content": "庭に桜の木を3本植えました \"I planted 3 cherry trees in the garden\" ワインを2本開けましたが、まだ足りません \"We opened 2 bottles of wine, but it's still not enough\" 一本ずつ丁寧に説明してください \"Please explain each one carefully\""
+          }
+        ]
+      },
+      {
+        "level": 2,
+        "heading": "Related Grammar Points",
+        "content": "Counter System Basics - How counters work Number System Overview - Japanese numbers Sound changes - Phonetic variations 冊 (satsu) - Books counter 個 (ko) - Small objects 本 as noun - Book (different from counter)",
+        "children": [
+          {
+            "level": 3,
+            "heading": "Company",
+            "content": "About Pricing Blog Contact"
+          },
+          {
+            "level": 3,
+            "heading": "Legal",
+            "content": "Privacy Policy Terms of Service Cookie Policy"
+          }
+        ]
+      }
+    ]
+  },
+  "metadata": {
+    "extracted_at": "2026-01-01T22:19:28.403824700Z",
+    "duration_ms": 3,
+    "extractors_matched": [
+      "metadata",
+      "examples",
+      "sections"
+    ],
+    "extractors_failed": [
+      "vocab_tables",
+      "definitions",
+      "content_blocks"
+    ]
+  }
+}

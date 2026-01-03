@@ -1,0 +1,300 @@
+{
+  "config_name": "Language Learning Extractor",
+  "url": "https://practice-japanese.com/docs/ikura/",
+  "data": {
+    "examples": [
+      {
+        "sentence": "Question Words (5W1H) - Overview"
+      },
+      {
+        "sentence": "どのくらい - How much/long (duration)"
+      },
+      {
+        "sentence": "いくつ - How many/old"
+      },
+      {
+        "sentence": "Counters - Money counters"
+      },
+      {
+        "sentence": "Numbers - Japanese numbers"
+      },
+      {
+        "sentence": "Shopping expressions - Retail phrases"
+      },
+      {
+        "sentence": "About"
+      },
+      {
+        "sentence": "Pricing"
+      },
+      {
+        "sentence": "Blog"
+      },
+      {
+        "sentence": "Contact"
+      },
+      {
+        "sentence": "Privacy Policy"
+      },
+      {
+        "sentence": "Terms of Service"
+      },
+      {
+        "sentence": "Cookie Policy"
+      }
+    ],
+    "metadata": {
+      "title": "いくら (ikura) - How much (price)"
+    },
+    "sections": [
+      {
+        "level": 2,
+        "heading": "What is いくら (ikura)?",
+        "content": "いくら is specifically used to ask \"how much\" when referring to price or cost . It's the most common way to ask about money.\n\nいくらですか？ \"How much is it?\" 全部でいくらですか？ \"How much is everything?\""
+      },
+      {
+        "level": 2,
+        "heading": "Basic Usage",
+        "content": "",
+        "children": [
+          {
+            "level": 3,
+            "heading": "いくらですか？",
+            "content": "これはいくらですか？ \"How much is this?\" それはいくらですか？ \"How much is that?\" 全部でいくらですか？ \"How much is everything (in total)?\""
+          }
+        ]
+      },
+      {
+        "level": 2,
+        "heading": "Shopping Contexts",
+        "content": "",
+        "children": [
+          {
+            "level": 3,
+            "heading": "At a Store",
+            "content": "これはいくらですか？ \"How much is this?\" あれはいくらですか？ \"How much is that over there?\" 一つ、いくらですか？ \"How much is one?\" 1キロいくらですか？ \"How much per kilogram?\""
+          },
+          {
+            "level": 3,
+            "heading": "Asking About Specific Items",
+            "content": "このりんごはいくらですか？ \"How much are these apples?\" そのシャツはいくらですか？ \"How much is that shirt?\" この本はいくらですか？ \"How much is this book?\""
+          }
+        ]
+      },
+      {
+        "level": 2,
+        "heading": "Common Patterns",
+        "content": "",
+        "children": [
+          {
+            "level": 3,
+            "heading": "全部で (zenbu de) - \"In total\"",
+            "content": "全部でいくらですか？ \"How much is everything?\" 合計でいくらですか？ \"What's the total?\""
+          },
+          {
+            "level": 3,
+            "heading": "一つ/一個 (hitotsu/ikko) - \"Per one\"",
+            "content": "一つ、いくらですか？ \"How much is one?\" 一個いくらですか？ \"How much per piece?\""
+          },
+          {
+            "level": 3,
+            "heading": "まで (made) - \"Up to\"",
+            "content": "いくらまで出せますか？ \"How much can you pay (up to)?\" いくらまで安くなりますか？ \"How cheap can it get?\""
+          }
+        ]
+      },
+      {
+        "level": 2,
+        "heading": "Answering いくら Questions",
+        "content": "",
+        "children": [
+          {
+            "level": 3,
+            "heading": "Specific Prices",
+            "content": "Q: いくらですか？ \"How much is it?\" A: 1000円です \"It's 1000 yen\" A: 500円です \"It's 500 yen\" A: 3万円です \"It's 30,000 yen\""
+          },
+          {
+            "level": 3,
+            "heading": "With Counters",
+            "content": "100円です \"It's 100 yen\" 1ドルです \"It's 1 dollar\" 50ユーロです \"It's 50 euros\""
+          }
+        ]
+      },
+      {
+        "level": 2,
+        "heading": "Common Conversations",
+        "content": "",
+        "children": [
+          {
+            "level": 3,
+            "heading": "Example 1: Shopping",
+            "content": "A: すみません、これはいくらですか？ \"Excuse me, how much is this?\" B: 2000円です \"It's 2000 yen\" A: 少し高いですね \"That's a bit expensive\" B: セール中です \"It's on sale\""
+          },
+          {
+            "level": 3,
+            "heading": "Example 2: Restaurant",
+            "content": "A: お会計お願いします \"Check please\" B: はい、全部で3500円です \"Yes, that's 3500 yen in total\" A: カードでお願いします \"Card please\""
+          },
+          {
+            "level": 3,
+            "heading": "Example 3: Taxi",
+            "content": "A: 駅までいくらぐらいですか？ \"About how much to the station?\" B: だいたい1000円ぐらいです \"About 1000 yen or so\" A: お願いします \"Please (take me)\""
+          }
+        ]
+      },
+      {
+        "level": 2,
+        "heading": "Related Expressions",
+        "content": "",
+        "children": [
+          {
+            "level": 3,
+            "heading": "高い (takai) - Expensive",
+            "content": "高いですね \"That's expensive\" 高すぎます \"That's too expensive\""
+          },
+          {
+            "level": 3,
+            "heading": "安い (yasui) - Cheap",
+            "content": "安いですね \"That's cheap\" もっと安いのはありますか？ \"Do you have anything cheaper?\""
+          },
+          {
+            "level": 3,
+            "heading": "値段 (nedan) - Price",
+            "content": "値段はいくらですか？ \"What's the price?\" 値段を教えてください \"Please tell me the price\""
+          }
+        ]
+      },
+      {
+        "level": 2,
+        "heading": "Bargaining Phrases",
+        "content": "",
+        "children": [
+          {
+            "level": 3,
+            "heading": "もっと安く (motto yasuku)",
+            "content": "もっと安くなりませんか？ \"Can it be cheaper?\" もっと安くしてください \"Please make it cheaper\""
+          },
+          {
+            "level": 3,
+            "heading": "値引き (nebiki) - Discount",
+            "content": "値引きできますか？ \"Can you give a discount?\" 少し値引きしてください \"Please give a small discount\""
+          }
+        ]
+      },
+      {
+        "level": 2,
+        "heading": "Common Mistakes",
+        "content": "",
+        "children": [
+          {
+            "level": 3,
+            "heading": "Mistake 1: Using いくら for non-price questions",
+            "content": "Wrong: どのくらいですか？ for price ❌ Right: いくらですか？ ✓ \"How much is it?\" (price) Wrong: いくらかかりますか？ for time ❌ Right: どのくらいかかりますか？ ✓ \"How long does it take?\" (duration)"
+          },
+          {
+            "level": 3,
+            "heading": "Mistake 2: Confusing with いくつ",
+            "content": "いくら - how much (price) いくつ - how many / how old これはいくらですか？ ✓ \"How much is this?\" (price) いくつありますか？ ✓ \"How many are there?\" (quantity)"
+          }
+        ]
+      },
+      {
+        "level": 2,
+        "heading": "Polite Variations",
+        "content": "",
+        "children": [
+          {
+            "level": 3,
+            "heading": "Casual",
+            "content": "いくら？ \"How much?\" これ、いくら？ \"How much is this?\""
+          },
+          {
+            "level": 3,
+            "heading": "Polite",
+            "content": "いくらですか？ \"How much is it?\" おいくらですか？ \"How much is it?\" (more polite with お)"
+          },
+          {
+            "level": 3,
+            "heading": "Very Polite",
+            "content": "おいくらでございますか？ \"How much is it?\" (very polite)"
+          }
+        ]
+      },
+      {
+        "level": 2,
+        "heading": "Special Uses",
+        "content": "",
+        "children": [
+          {
+            "level": 3,
+            "heading": "いくらでも (ikura demo)",
+            "content": "\"As much as (you want)/any amount\":\n\nいくらでも食べていい \"You can eat as much as you want\" いくらでもあげる \"I'll give you as much as you want\""
+          },
+          {
+            "level": 3,
+            "heading": "いくら〜ても (ikura ~ temo)",
+            "content": "\"No matter how much\":\n\nいくら高くても買う \"I'll buy it no matter how expensive\" いくら安くても買わない \"I won't buy it no matter how cheap\""
+          }
+        ]
+      },
+      {
+        "level": 2,
+        "heading": "Practice Sentences",
+        "content": "",
+        "children": [
+          {
+            "level": 3,
+            "heading": "Basic Shopping",
+            "content": "これはいくらですか？ \"How much is this?\" それはいくらですか？ \"How much is that?\" 全部でいくらですか？ \"How much is everything?\""
+          },
+          {
+            "level": 3,
+            "heading": "Specific Items",
+            "content": "このりんごはいくらですか？ \"How much are these apples?\" そのシャツはいくらですか？ \"How much is that shirt?\" 一つ、いくらですか？ \"How much is one?\""
+          },
+          {
+            "level": 3,
+            "heading": "Services",
+            "content": "タクシーでいくらぐらいですか？ \"About how much by taxi?\" 入場料はいくらですか？ \"How much is the entrance fee?\" 送料はいくらですか？ \"How much is shipping?\""
+          },
+          {
+            "level": 3,
+            "heading": "Polite",
+            "content": "おいくらですか？ \"How much is it?\" お値段はおいくらですか？ \"What is the price?\""
+          }
+        ]
+      },
+      {
+        "level": 2,
+        "heading": "Related Grammar Points",
+        "content": "Question Words (5W1H) - Overview どのくらい - How much/long (duration) いくつ - How many/old Counters - Money counters Numbers - Japanese numbers Shopping expressions - Retail phrases",
+        "children": [
+          {
+            "level": 3,
+            "heading": "Company",
+            "content": "About Pricing Blog Contact"
+          },
+          {
+            "level": 3,
+            "heading": "Legal",
+            "content": "Privacy Policy Terms of Service Cookie Policy"
+          }
+        ]
+      }
+    ]
+  },
+  "metadata": {
+    "extracted_at": "2026-01-01T22:19:30.140944100Z",
+    "duration_ms": 3,
+    "extractors_matched": [
+      "metadata",
+      "examples",
+      "sections"
+    ],
+    "extractors_failed": [
+      "vocab_tables",
+      "definitions",
+      "content_blocks"
+    ]
+  }
+}

@@ -1,0 +1,437 @@
+{
+  "config_name": "Language Learning Extractor",
+  "url": "https://practice-japanese.com/docs/no-hou-ga/",
+  "data": {
+    "metadata": {
+      "title": "のほうが (More than)"
+    },
+    "examples": [
+      {
+        "sentence": "より - Than (comparison marker)"
+      },
+      {
+        "sentence": "一番 - Most (superlative)"
+      },
+      {
+        "sentence": "ほど - As...as (extent comparison)"
+      },
+      {
+        "sentence": "同じ - Same (equality)"
+      },
+      {
+        "sentence": "〜たほうがいい - Should (advice)"
+      },
+      {
+        "sentence": "Comparative adjectives - More/less forms"
+      },
+      {
+        "sentence": "About"
+      },
+      {
+        "sentence": "Pricing"
+      },
+      {
+        "sentence": "Blog"
+      },
+      {
+        "sentence": "Contact"
+      },
+      {
+        "sentence": "Privacy Policy"
+      },
+      {
+        "sentence": "Terms of Service"
+      },
+      {
+        "sentence": "Cookie Policy"
+      }
+    ],
+    "sections": [
+      {
+        "level": 2,
+        "heading": "What is のほうが?",
+        "content": "のほうが (no hou ga) is a comparison pattern meaning \"more than\" or \"is more [adjective].\" It emphasizes which of two options is better, preferred, or has more of a quality. It literally means \"the direction/side of\" but functions to mark the preferred option.\n\nこちらのほうが安い \"This one is cheaper\" 夏のほうが好き \"I like summer more\" 紅茶のほうがいい \"Tea is better\""
+      },
+      {
+        "level": 2,
+        "heading": "Basic Structure",
+        "content": "",
+        "children": [
+          {
+            "level": 3,
+            "heading": "A より B のほうが [adjective]",
+            "content": "犬より猫のほうが好き \"I like cats more than dogs\" A = comparison standard (より) B = preferred option (のほうが)"
+          },
+          {
+            "level": 3,
+            "heading": "Core pattern",
+            "content": "[Standard] より [Preferred] のほうが [Quality] 冬より夏のほうが暑い \"Summer is hotter than winter\" Emphasizes B over A"
+          }
+        ]
+      },
+      {
+        "level": 2,
+        "heading": "Usage and Meaning",
+        "content": "",
+        "children": [
+          {
+            "level": 3,
+            "heading": "Expressing preference",
+            "content": "コーヒーより紅茶のほうが好き \"I like tea more than coffee\" 肉より魚のほうがいい \"Fish is better than meat\" Clear preference stated"
+          },
+          {
+            "level": 3,
+            "heading": "Comparing qualities",
+            "content": "東京より大阪のほうが面白い \"Osaka is more interesting than Tokyo\" 今日より昨日のほうが寒かった \"Yesterday was colder than today\" Quality comparison"
+          },
+          {
+            "level": 3,
+            "heading": "Recommendations",
+            "content": "バスより電車のほうが速い \"Trains are faster than buses\" これよりそれのほうがいいよ \"That one is better than this\" Suggesting better option"
+          }
+        ]
+      },
+      {
+        "level": 2,
+        "heading": "の Function",
+        "content": "",
+        "children": [
+          {
+            "level": 3,
+            "heading": "Nominalizes the topic",
+            "content": "こちら + のほうが \"This one/side\" それ + のほうが \"That one\" Makes noun phrase"
+          },
+          {
+            "level": 3,
+            "heading": "Can be omitted with nouns",
+            "content": "Full: 猫のほうが好き Short: 猫がいい Both natural のほうが more emphatic"
+          }
+        ]
+      },
+      {
+        "level": 2,
+        "heading": "Position in Sentence",
+        "content": "",
+        "children": [
+          {
+            "level": 3,
+            "heading": "Before the adjective",
+            "content": "日本語のほうが難しい \"Japanese is more difficult\" こっちのほうが近い \"This way is closer\" のほうが marks preferred"
+          }
+        ]
+      },
+      {
+        "level": 2,
+        "heading": "Polite and Casual",
+        "content": "",
+        "children": [
+          {
+            "level": 3,
+            "heading": "Works in both",
+            "content": "Casual: これのほうがいいよ \"This one is better\" Polite: こちらのほうがよろしいです \"This one is better\" Adjust verb ending"
+          }
+        ]
+      },
+      {
+        "level": 2,
+        "heading": "Common Patterns",
+        "content": "",
+        "children": [
+          {
+            "level": 3,
+            "heading": "A より B のほうが～",
+            "content": "春より秋のほうが好き \"I like fall more than spring\" 歩くより走るほうが速い \"Running is faster than walking\" Most common pattern"
+          },
+          {
+            "level": 3,
+            "heading": "どちらのほうが (which one)",
+            "content": "どちらのほうが好きですか \"Which one do you like more?\" どっちのほうがいい？ \"Which is better?\" Asking for comparison"
+          },
+          {
+            "level": 3,
+            "heading": "～のほうがいい",
+            "content": "早く寝たほうがいい \"You should sleep early\" やめたほうがいい \"You should stop\" Advice pattern"
+          }
+        ]
+      },
+      {
+        "level": 2,
+        "heading": "より can be omitted",
+        "content": "",
+        "children": [
+          {
+            "level": 3,
+            "heading": "When context is clear",
+            "content": "Context clear: これのほうが安い \"This one is cheaper\" Explicit: これはあれより安い \"This is cheaper than that\" Context determines need"
+          }
+        ]
+      },
+      {
+        "level": 2,
+        "heading": "Emphatic Comparison",
+        "content": "",
+        "children": [
+          {
+            "level": 3,
+            "heading": "Stronger than より alone",
+            "content": "Less emphatic: Aより B \"B (than A)\" More emphatic: AよりBのほうが \"B is more (than A)\" のほうが adds emphasis"
+          }
+        ]
+      },
+      {
+        "level": 2,
+        "heading": "のほうが vs より",
+        "content": "",
+        "children": [
+          {
+            "level": 3,
+            "heading": "より marks standard",
+            "content": "私より背が高い \"Taller than me\" Standard of comparison"
+          },
+          {
+            "level": 3,
+            "heading": "のほうが marks preferred",
+            "content": "私のほうが背が高い \"I am taller\" The one who is taller"
+          },
+          {
+            "level": 3,
+            "heading": "Used together",
+            "content": "兄より私のほうが背が高い \"I am taller than my older brother\" Complete comparison Both markers used"
+          }
+        ]
+      },
+      {
+        "level": 2,
+        "heading": "Common Contexts",
+        "content": "",
+        "children": [
+          {
+            "level": 3,
+            "heading": "Shopping/choosing",
+            "content": "こちらのほうが安いです \"This one is cheaper\" どちらのほうがいいですか \"Which one is better?\" Making choices"
+          },
+          {
+            "level": 3,
+            "heading": "Preferences",
+            "content": "犬より猫のほうが好き \"I like cats more than dogs\" 映画よりドラマのほうが面白い \"Dramas are more interesting than movies\" Personal taste"
+          },
+          {
+            "level": 3,
+            "heading": "Advice",
+            "content": "休んだほうがいい \"You should rest\" 行かないほうがいい \"You shouldn't go\" Suggestions"
+          }
+        ]
+      },
+      {
+        "level": 2,
+        "heading": "Negative Comparisons",
+        "content": "",
+        "children": [
+          {
+            "level": 3,
+            "heading": "With negative adjectives",
+            "content": "思ったほど悪くない \"Not as bad as I thought\" これのほうが難しくない \"This one is not as difficult\" Less of a quality"
+          }
+        ]
+      },
+      {
+        "level": 2,
+        "heading": "のほうがいい (Should)",
+        "content": "",
+        "children": [
+          {
+            "level": 3,
+            "heading": "Advice pattern",
+            "content": "早く帰ったほうがいい \"You should go home early\" 医者に行ったほうがいい \"You should see a doctor\" Recommendation Strong suggestion"
+          },
+          {
+            "level": 3,
+            "heading": "Past form",
+            "content": "行ったほうがいい \"Should have gone\" 言わなかったほうがよかった \"Should not have said\" Past advice/regret"
+          }
+        ]
+      },
+      {
+        "level": 2,
+        "heading": "Degree Differences",
+        "content": "",
+        "children": [
+          {
+            "level": 3,
+            "heading": "もっと for more emphasis",
+            "content": "こっちのほうがもっと安い \"This one is even cheaper\" 前よりもっとよくなった \"It became even better than before\" Extra emphasis"
+          }
+        ]
+      },
+      {
+        "level": 2,
+        "heading": "With こちら/そちら/あちら",
+        "content": "",
+        "children": [
+          {
+            "level": 3,
+            "heading": "Polite demonstratives",
+            "content": "こちらのほうがよろしいです \"This one is better\" (polite) そちらのほうがいいと思います \"I think that one is better\" Formal speech"
+          },
+          {
+            "level": 3,
+            "heading": "With こっち/そっち/あっち",
+            "content": "こっちのほうがいいよ \"This one is better\" (casual) あっちのほうが近い \"That way is closer\" Casual speech"
+          }
+        ]
+      },
+      {
+        "level": 2,
+        "heading": "Expressing \"Much more\"",
+        "content": "",
+        "children": [
+          {
+            "level": 3,
+            "heading": "ずっと/はるかに + のほうが",
+            "content": "ずっとこちらのほうがいい \"This one is much better\" はるかに速いほうがいい \"Much faster is better\" 大幅な違い Significant difference"
+          }
+        ]
+      },
+      {
+        "level": 2,
+        "heading": "Questions with のほうが",
+        "content": "",
+        "children": [
+          {
+            "level": 3,
+            "heading": "Asking preferences",
+            "content": "どちらのほうが好きですか \"Which one do you like more?\" どっちのほうがいい？ \"Which is better?\" Comparison questions"
+          }
+        ]
+      },
+      {
+        "level": 2,
+        "heading": "のほうが with numbers",
+        "content": "",
+        "children": [
+          {
+            "level": 3,
+            "heading": "Quantity comparisons",
+            "content": "こちらのほうが100円高い \"This one is 100 yen more expensive\" あれのほうが3センチ長い \"That one is 3 cm longer\" Specific differences"
+          }
+        ]
+      },
+      {
+        "level": 2,
+        "heading": "Common Mistakes",
+        "content": "",
+        "children": [
+          {
+            "level": 3,
+            "heading": "Using が without の",
+            "content": "Wrong: これほうがいい ⚠️ Correct: これのほうがいい ✓ \"This one is better\" の is required"
+          },
+          {
+            "level": 3,
+            "heading": "Confusing order",
+            "content": "Wrong: のほうがより ⚠️ Correct: よりのほうが ✓ より comes first"
+          },
+          {
+            "level": 3,
+            "heading": "Overusing both markers",
+            "content": "Redundant: AよりBのほうがもっと好き ⚠️ Natural: AよりBのほうが好き ✓ Or: Bのほうがずっと好き ✓ Choose appropriate emphasis"
+          }
+        ]
+      },
+      {
+        "level": 2,
+        "heading": "Regional Variations",
+        "content": "",
+        "children": [
+          {
+            "level": 3,
+            "heading": "Standard form",
+            "content": "こっちのほうがいい \"This one is better\" Universal usage"
+          },
+          {
+            "level": 3,
+            "heading": "Casual contractions",
+            "content": "こっちがいい \"This one is better\" のほう dropped in casual speech"
+          }
+        ]
+      },
+      {
+        "level": 2,
+        "heading": "Formal Alternatives",
+        "content": "",
+        "children": [
+          {
+            "level": 3,
+            "heading": "より〜です/ございます",
+            "content": "こちらのほうがよろしいです \"This one is better\" (polite) そちらのほうが適しております \"That one is more suitable\" (formal) Business/formal contexts"
+          }
+        ]
+      },
+      {
+        "level": 2,
+        "heading": "Multiple Items Comparison",
+        "content": "",
+        "children": [
+          {
+            "level": 3,
+            "heading": "Comparing more than two",
+            "content": "Use 一番 instead: 一番好きなのは猫です \"The one I like most is cats\" のほうが is for two items"
+          }
+        ]
+      },
+      {
+        "level": 2,
+        "heading": "Practice Sentences",
+        "content": "",
+        "children": [
+          {
+            "level": 3,
+            "heading": "Basic",
+            "content": "こっちのほうが安い \"This one is cheaper\" 紅茶のほうが好き \"I like tea more\" 早く帰ったほうがいい \"You should go home early\""
+          },
+          {
+            "level": 3,
+            "heading": "Intermediate",
+            "content": "電車で行くより、車のほうが便利だと思います \"I think going by car is more convenient than by train\" 今日より明日のほうが天気がいいらしい \"The weather seems to be better tomorrow than today\" このレストランよりあのレストランのほうが 人気がある \"That restaurant is more popular than this one\""
+          },
+          {
+            "level": 3,
+            "heading": "Advanced",
+            "content": "最初は難しいと思ったが、実際にやってみると 思ったよりずっと簡単だった。本を読むより 実際に試してみるほうが早く理解できる。 理論より実践のほうが大切だと改めて感じた。 \"At first I thought it would be difficult, but when I actually tried it, it was much easier than I thought. You can understand faster by actually trying it rather than reading books. I felt anew that practice is more important than theory.\" 都会で働くより田舎で暮らすほうが ストレスが少ないという人もいるが、 それは人によって違う。自分に合った 環境を見つけることのほうが、 場所そのものよりも重要だと思う。 \"Some people say living in the countryside has less stress than working in the city, but that differs by person. I think finding an environment that suits you is more important than the place itself.\""
+          }
+        ]
+      },
+      {
+        "level": 2,
+        "heading": "Related Grammar Points",
+        "content": "より - Than (comparison marker) 一番 - Most (superlative) ほど - As...as (extent comparison) 同じ - Same (equality) 〜たほうがいい - Should (advice) Comparative adjectives - More/less forms",
+        "children": [
+          {
+            "level": 3,
+            "heading": "Company",
+            "content": "About Pricing Blog Contact"
+          },
+          {
+            "level": 3,
+            "heading": "Legal",
+            "content": "Privacy Policy Terms of Service Cookie Policy"
+          }
+        ]
+      }
+    ]
+  },
+  "metadata": {
+    "extracted_at": "2026-01-01T22:19:32.313477300Z",
+    "duration_ms": 3,
+    "extractors_matched": [
+      "metadata",
+      "examples",
+      "sections"
+    ],
+    "extractors_failed": [
+      "vocab_tables",
+      "definitions",
+      "content_blocks"
+    ]
+  }
+}

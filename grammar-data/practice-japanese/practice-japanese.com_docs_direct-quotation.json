@@ -1,0 +1,288 @@
+{
+  "config_name": "Language Learning Extractor",
+  "url": "https://practice-japanese.com/docs/direct-quotation/",
+  "data": {
+    "metadata": {
+      "title": "Direct Quotation (と)"
+    },
+    "sections": [
+      {
+        "level": 2,
+        "heading": "What is Direct Quotation?",
+        "content": "Direct quotation (直接話法 chokusetsu wahou) in Japanese uses the particle と (to) to mark exact words, thoughts, sounds, or written content. It's equivalent to using quotation marks in English.\n\nStructure:\n\n[Quoted content] + と + [Quotation verb]\n\nCommon quotation verbs:\n\n言う (iu) - to say 思う (omou) - to think 聞く (kiku) - to hear/ask 書く (kaku) - to write 答える (kotaeru) - to answer 呼ぶ (yobu) - to call"
+      },
+      {
+        "level": 2,
+        "heading": "Basic Pattern: と言う",
+        "content": "",
+        "children": [
+          {
+            "level": 3,
+            "heading": "Quoting Statements",
+            "content": "Structure: [Statement] + と言う\n\n田中さんは「行きます」と言いました。 Tanaka-san wa \"ikimasu\" to iimashita. Tanaka said, \"I will go.\" 母は「早く寝なさい」と言った。 Haha wa \"hayaku nenasai\" to itta. My mother said, \"Go to bed early.\" 彼は「分かりません」と言っています。 Kare wa \"wakarimasen\" to itte imasu. He is saying, \"I don't understand.\"\n\nNote: Japanese doesn't require quotation marks (「」) when speaking, but と marks the quotation."
+          },
+          {
+            "level": 3,
+            "heading": "Quoting Questions",
+            "content": "Questions within quotes keep their question form:\n\n先生は「どこに行きますか」と聞きました。 Sensei wa \"doko ni ikimasu ka\" to kikimashita. The teacher asked, \"Where are you going?\" 友達は「何時に来るの？」と聞いた。 Tomodachi wa \"nanji ni kuru no?\" to kiita. My friend asked, \"What time are you coming?\" 彼女は「本当ですか」と尋ねた。 Kanojo wa \"hontou desu ka\" to tazuneta. She asked, \"Is it true?\""
+          },
+          {
+            "level": 3,
+            "heading": "Multiple Sentences in One Quote",
+            "content": "父は「明日は休みだ。一緒に出かけよう」と言った。 Chichi wa \"ashita wa yasumi da. Issho ni dekakeyou\" to itta. My father said, \"Tomorrow is a day off. Let's go out together.\""
+          }
+        ]
+      },
+      {
+        "level": 2,
+        "heading": "と思う - Quoting Thoughts",
+        "content": "Use と思う to express thoughts or opinions.",
+        "children": [
+          {
+            "level": 3,
+            "heading": "Direct Thoughts",
+            "content": "私は「これは難しい」と思った。 Watashi wa \"kore wa muzukashii\" to omotta. I thought, \"This is difficult.\" 彼は「大丈夫だ」と思っています。 Kare wa \"daijoubu da\" to omotte imasu. He thinks, \"It's okay.\" 「もう無理だ」と思いました。 \"Mou muri da\" to omoimashita. I thought, \"I can't do this anymore.\""
+          },
+          {
+            "level": 3,
+            "heading": "Opinions and Beliefs",
+            "content": "私は「これがいい」と思います。 Watashi wa \"kore ga ii\" to omoimasu. I think \"this is good\" / I think this is good. みんなは「彼が正しい」と思っている。 Minna wa \"kare ga tadashii\" to omotte iru. Everyone thinks, \"He is right.\""
+          }
+        ]
+      },
+      {
+        "level": 2,
+        "heading": "Other Quotation Verbs",
+        "content": "",
+        "children": [
+          {
+            "level": 3,
+            "heading": "聞く (kiku) - To hear/ask",
+            "content": "「ありがとう」と聞こえた。 \"Arigatou\" to kikoeta. I heard \"thank you.\" 彼女は「いつ帰るの？」と聞いた。 Kanojo wa \"itsu kaeru no?\" to kiita. She asked, \"When are you coming home?\" 「助けて！」と聞いた。 \"Tasukete!\" to kiita. I heard \"Help!\""
+          },
+          {
+            "level": 3,
+            "heading": "書く (kaku) - To write",
+            "content": "手紙に「元気です」と書いた。 Tegami ni \"genki desu\" to kaita. I wrote \"I'm fine\" in the letter. 看板に「営業中」と書いてある。 Kanban ni \"eigyouchuu\" to kaite aru. The sign says \"Open\" / \"In business.\" メールに「明日会いましょう」と書きました。 Me-ru ni \"ashita aimashou\" to kakimashita. I wrote \"Let's meet tomorrow\" in the email."
+          },
+          {
+            "level": 3,
+            "heading": "答える (kotaeru) - To answer",
+            "content": "彼は「はい、分かります」と答えた。 Kare wa \"hai, wakarimasu\" to kotaeta. He answered, \"Yes, I understand.\" 「知りません」と答えました。 \"Shirimasen\" to kotaemashita. I answered, \"I don't know.\""
+          },
+          {
+            "level": 3,
+            "heading": "叫ぶ (sakebu) - To shout/yell",
+            "content": "彼女は「やめて！」と叫んだ。 Kanojo wa \"yamete!\" to sakenda. She shouted, \"Stop!\" 「危ない！」と叫びました。 \"Abunai!\" to sakebimashita. I yelled, \"Dangerous!\" / \"Watch out!\""
+          },
+          {
+            "level": 3,
+            "heading": "呼ぶ (yobu) - To call",
+            "content": "母は私を「花子」と呼ぶ。 Haha wa watashi wo \"Hanako\" to yobu. My mother calls me \"Hanako.\" 彼らは彼を「先生」と呼んでいる。 Karera wa kare wo \"sensei\" to yonde iru. They call him \"teacher.\""
+          },
+          {
+            "level": 3,
+            "heading": "名付ける (nazukeru) - To name",
+            "content": "犬を「ポチ」と名付けた。 Inu wo \"Pochi\" to nazuketa. I named the dog \"Pochi.\""
+          }
+        ]
+      },
+      {
+        "level": 2,
+        "heading": "Quoting Sounds and Onomatopoeia",
+        "content": "Japanese uses と to quote sounds and sound effects:",
+        "children": [
+          {
+            "level": 3,
+            "heading": "Animal Sounds",
+            "content": "犬は「ワンワン」と鳴く。 Inu wa \"wanwan\" to naku. Dogs go \"woof woof.\" 猫は「ニャー」と鳴いた。 Neko wa \"nya-\" to naita. The cat went \"meow.\""
+          },
+          {
+            "level": 3,
+            "heading": "Action Sounds",
+            "content": "ドアが「バタン」と閉まった。 Doa ga \"batan\" to shimatta. The door closed with a \"bang.\" 心臓が「ドキドキ」と鳴っている。 Shinzou ga \"dokidoki\" to natte iru. My heart is going \"thump thump\" / pounding. 雨が「ザーザー」と降っている。 Ame ga \"za-za-\" to futte iru. The rain is going \"pitter patter\" / pouring down."
+          },
+          {
+            "level": 3,
+            "heading": "Emotional States",
+            "content": "彼女は「ウキウキ」としている。 Kanojo wa \"ukiuki\" to shite iru. She is feeling excited/cheerful. 「イライラ」としています。 \"Iraira\" to shite imasu. I'm feeling irritated."
+          }
+        ]
+      },
+      {
+        "level": 2,
+        "heading": "Special Patterns",
+        "content": "",
+        "children": [
+          {
+            "level": 3,
+            "heading": "と言っても (to itte mo) - Even though/Although",
+            "content": "学生と言っても、もう30歳です。 Gakusei to itte mo, mou sanjussai desu. Although I say student, I'm already 30 years old. 簡単と言っても、時間がかかる。 Kantan to itte mo, jikan ga kakaru. Even though I say it's easy, it takes time."
+          },
+          {
+            "level": 3,
+            "heading": "と言えば (to ieba) - Speaking of/When you mention",
+            "content": "夏と言えば、海ですね。 Natsu to ieba, umi desu ne. Speaking of summer, it's the beach, right? 日本料理と言えば、寿司が有名です。 Nihon ryouri to ieba, sushi ga yuumei desu. When it comes to Japanese food, sushi is famous."
+          },
+          {
+            "level": 3,
+            "heading": "と言うか (to iu ka) - Or rather/Or should I say",
+            "content": "難しいと言うか、面倒くさい。 Muzukashii to iu ka, mendokusai. It's difficult, or rather, it's a pain. 嬉しいと言うか、驚いた。 Ureshii to iu ka, odoroita. I'm happy, or should I say, surprised."
+          },
+          {
+            "level": 3,
+            "heading": "という (to iu) - Called/Named",
+            "content": "田中という人を知っていますか。 Tanaka to iu hito wo shitte imasu ka. Do you know a person called Tanaka? 「桜」という花はきれいです。 \"Sakura\" to iu hana wa kirei desu. The flower called \"sakura\" is beautiful. これは何という食べ物ですか。 Kore wa nan to iu tabemono desu ka. What is this food called?"
+          }
+        ]
+      },
+      {
+        "level": 2,
+        "heading": "Formal vs Casual Quotations",
+        "content": "",
+        "children": [
+          {
+            "level": 3,
+            "heading": "Formal Written Style",
+            "content": "社長は「来年は頑張りたい」と述べた。 Shachou wa \"rainen wa ganbaritai\" to nobeta. The president stated, \"I want to work hard next year.\" 報告書には「問題がある」と記されている。 Houkokusho ni wa \"mondai ga aru\" to shirusarete iru. The report states \"there is a problem.\""
+          },
+          {
+            "level": 3,
+            "heading": "Casual Spoken Style",
+            "content": "In casual speech, と can be dropped or replaced:\n\nFormal: 彼は「行く」と言った Casual: 彼は「行く」って言った \"He said 'I'm going.'\" See: [って Casual Quotation](/docs/tte-quotation)"
+          }
+        ]
+      },
+      {
+        "level": 2,
+        "heading": "Nested Quotations",
+        "content": "Quotations within quotations:\n\n彼は「彼女が『行きたい』と言った」と言った。 Kare wa \"kanojo ga 'ikitai' to itta\" to itta. He said, \"She said 'I want to go.'\" 母は「先生が『勉強しなさい』と言っていた」と言った。 Haha wa \"sensei ga 'benkyou shinasai' to itte ita\" to itta. My mother said, \"The teacher was saying 'Study.'\""
+      },
+      {
+        "level": 2,
+        "heading": "Tense in Quotations",
+        "content": "The tense inside the quotation stays as originally said:\n\n昨日、彼は「明日行きます」と言った。 Kinou, kare wa \"ashita ikimasu\" to itta. Yesterday, he said, \"I will go tomorrow.\" [Not: \"I would go the next day\"] 先週、母は「来週忙しい」と言っていた。 Senshuu, haha wa \"raishuu isogashii\" to itte ita. Last week, my mother said, \"I'll be busy next week.\""
+      },
+      {
+        "level": 2,
+        "heading": "Common Mistakes",
+        "content": "",
+        "children": [
+          {
+            "level": 3,
+            "heading": "Mistake 1: Forgetting と",
+            "content": "❌ 彼は「行く」言った ✓ 彼は「行く」と言った\n\nThe と particle is required."
+          },
+          {
+            "level": 3,
+            "heading": "Mistake 2: Wrong Tense Inside Quote",
+            "content": "❌ 昨日彼は「明日行った」と言った ✓ 昨日彼は「明日行く」と言った\n\nKeep the original tense from when it was said."
+          },
+          {
+            "level": 3,
+            "heading": "Mistake 3: Using を Instead of と",
+            "content": "❌ 「ありがとう」を言った ✓ 「ありがとう」と言った\n\nUse と for quotations, not を."
+          },
+          {
+            "level": 3,
+            "heading": "Mistake 4: Mixing Direct and Indirect",
+            "content": "❌ 彼は行くと言った (This is indirect - see next lesson) ✓ 彼は「行く」と言った (Direct with quote)\n\nBe clear about direct vs. indirect quotation."
+          }
+        ]
+      },
+      {
+        "level": 2,
+        "heading": "Summary",
+        "content": "Key Points:\n\nと marks direct quotations in Japanese Common pattern: [Quote] + と + [Verb] Main verbs: 言う, 思う, 聞く, 書く Works with statements, questions, thoughts, and sounds Tense inside quotation stays as originally stated Quotation marks (「」) optional in speech but と is required Different from indirect quotation (next lesson)",
+        "children": [
+          {
+            "level": 3,
+            "heading": "Company",
+            "content": "About Pricing Blog Contact"
+          },
+          {
+            "level": 3,
+            "heading": "Legal",
+            "content": "Privacy Policy Terms of Service Cookie Policy"
+          }
+        ]
+      }
+    ],
+    "examples": [
+      {
+        "sentence": "言う (iu) - to say"
+      },
+      {
+        "sentence": "思う (omou) - to think"
+      },
+      {
+        "sentence": "聞く (kiku) - to hear/ask"
+      },
+      {
+        "sentence": "書く (kaku) - to write"
+      },
+      {
+        "sentence": "答える (kotaeru) - to answer"
+      },
+      {
+        "sentence": "呼ぶ (yobu) - to call"
+      },
+      {
+        "sentence": "と marks direct quotations in Japanese"
+      },
+      {
+        "sentence": "Common pattern: [Quote] + と + [Verb]"
+      },
+      {
+        "sentence": "Main verbs: 言う, 思う, 聞く, 書く"
+      },
+      {
+        "sentence": "Works with statements, questions, thoughts, and sounds"
+      },
+      {
+        "sentence": "Tense inside quotation stays as originally stated"
+      },
+      {
+        "sentence": "Quotation marks (「」) optional in speech but と is required"
+      },
+      {
+        "sentence": "Different from indirect quotation (next lesson)"
+      },
+      {
+        "sentence": "About"
+      },
+      {
+        "sentence": "Pricing"
+      },
+      {
+        "sentence": "Blog"
+      },
+      {
+        "sentence": "Contact"
+      },
+      {
+        "sentence": "Privacy Policy"
+      },
+      {
+        "sentence": "Terms of Service"
+      },
+      {
+        "sentence": "Cookie Policy"
+      }
+    ]
+  },
+  "metadata": {
+    "extracted_at": "2026-01-01T22:19:29.728944300Z",
+    "duration_ms": 5,
+    "extractors_matched": [
+      "metadata",
+      "examples",
+      "sections"
+    ],
+    "extractors_failed": [
+      "vocab_tables",
+      "definitions",
+      "content_blocks"
+    ]
+  }
+}

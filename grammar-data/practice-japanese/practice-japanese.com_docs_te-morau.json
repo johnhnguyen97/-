@@ -1,0 +1,468 @@
+{
+  "config_name": "Language Learning Extractor",
+  "url": "https://practice-japanese.com/docs/te-morau/",
+  "data": {
+    "metadata": {
+      "title": "〜てもらう (Have Someone Do)"
+    },
+    "sections": [
+      {
+        "level": 2,
+        "heading": "What is 〜てもらう (te-morau)?",
+        "content": "〜てもらう means \"to have someone do something\" or \"to receive the action of someone doing something.\" It emphasizes that you are the beneficiary of someone else's action.\n\n[Verb te-form] + もらう 教えてもらう \"have (someone) teach / receive teaching\" 手伝ってもらう \"have (someone) help / receive help\""
+      },
+      {
+        "level": 2,
+        "heading": "Formation",
+        "content": "",
+        "children": [
+          {
+            "level": 3,
+            "heading": "Basic Pattern",
+            "content": "Verb (te-form) + もらう Plain: 〜てもらう Polite: 〜てもらいます 作ってもらう / 作ってもらいます \"have (someone) make\" 送ってもらう / 送ってもらいます \"have (someone) take/send\""
+          }
+        ]
+      },
+      {
+        "level": 2,
+        "heading": "Core Meaning",
+        "content": "",
+        "children": [
+          {
+            "level": 3,
+            "heading": "Receiving Actions",
+            "content": "もらう (to receive) + action = receiving someone doing an action for you.\n\n友達に本を貸してもらった \"I had my friend lend me a book / My friend lent me a book\" 母に料理を作ってもらった \"I had my mother cook / My mother cooked for me\" 先生に教えてもらった \"I had the teacher teach me / The teacher taught me\""
+          }
+        ]
+      },
+      {
+        "level": 2,
+        "heading": "Particle Usage",
+        "content": "",
+        "children": [
+          {
+            "level": 3,
+            "heading": "に or から Marks the Giver",
+            "content": "The person doing the action is marked with に (or から).\n\n友達に教えてもらう \"have a friend teach me\" 先生に説明してもらった \"had the teacher explain\" 田中さんに手伝ってもらいます \"I'll have Tanaka help me\""
+          }
+        ]
+      },
+      {
+        "level": 2,
+        "heading": "Perspective and Direction",
+        "content": "",
+        "children": [
+          {
+            "level": 3,
+            "heading": "Receiving Actions (Active Request)",
+            "content": "私 (receiver) ← 他の人 (giver) てもらう \"I have them do something for me\""
+          },
+          {
+            "level": 3,
+            "heading": "Key Points",
+            "content": "Speaker is the beneficiary Emphasizes speaker's receiving of the action Can imply the speaker requested or arranged it More active role for the speaker than てくれる"
+          }
+        ]
+      },
+      {
+        "level": 2,
+        "heading": "Politeness Variation",
+        "content": "",
+        "children": [
+          {
+            "level": 3,
+            "heading": "もらう (Neutral)",
+            "content": "教えてもらう \"have (someone) teach me\""
+          },
+          {
+            "level": 3,
+            "heading": "いただく (Humble)",
+            "content": "Used when receiving from someone of higher status.\n\n先生に説明していただいた \"I had the teacher explain (humble)\" 社長にお会いしていただいた \"I had the president meet with me (humble)\""
+          }
+        ]
+      },
+      {
+        "level": 2,
+        "heading": "Common Usage Patterns",
+        "content": "",
+        "children": [
+          {
+            "level": 3,
+            "heading": "Past Actions",
+            "content": "友達に本を貸してもらった \"I had my friend lend me a book\" 母に駅まで送ってもらった \"I had my mother take me to the station\" 先生に質問に答えてもらった \"I had the teacher answer my question\""
+          },
+          {
+            "level": 3,
+            "heading": "Requests",
+            "content": "手伝ってもらえますか？ \"Could you help me?\" 教えてもらえませんか？ \"Could you teach me?\" 説明していただけますか？ (humble) \"Could you explain?\""
+          },
+          {
+            "level": 3,
+            "heading": "Expressing Gratitude",
+            "content": "手伝ってもらってありがとう \"Thank you for helping me\" 教えてもらって助かりました \"It helped that you taught me\""
+          }
+        ]
+      },
+      {
+        "level": 2,
+        "heading": "Comparison with Similar Patterns",
+        "content": "",
+        "children": [
+          {
+            "level": 3,
+            "heading": "てもらう vs てくれる vs てあげる",
+            "content": "てもらう: I have someone do (active receiving) 友達に教えてもらった \"I had my friend teach me\" てくれる: Someone does for me (grateful receiving) 友達が教えてくれた \"My friend taught me\" てあげる: I do for others 友達に教えてあげた \"I taught my friend\""
+          },
+          {
+            "level": 3,
+            "heading": "Nuance Difference",
+            "content": "てもらう: Emphasizes your receiving/benefit - Can imply you requested it - More formal/polite feeling てくれる: Emphasizes the giver's kindness - More grateful/appreciative feeling - Natural for spontaneous help Example: 友達に手伝ってもらった \"I had my friend help\" (I asked/arranged) 友達が手伝ってくれた \"My friend helped me\" (grateful for their kindness)"
+          }
+        ]
+      },
+      {
+        "level": 2,
+        "heading": "Common Verbs with てもらう",
+        "content": "",
+        "children": [
+          {
+            "level": 3,
+            "heading": "Helping Actions",
+            "content": "手伝ってもらう - have someone help 助けてもらう - have someone save/rescue 教えてもらう - have someone teach 説明してもらう - have someone explain"
+          },
+          {
+            "level": 3,
+            "heading": "Doing Things",
+            "content": "作ってもらう - have someone make 買ってもらう - have someone buy 送ってもらう - have someone take/send 見せてもらう - have someone show 貸してもらう - have someone lend"
+          },
+          {
+            "level": 3,
+            "heading": "Communication",
+            "content": "話してもらう - have someone tell 聞いてもらう - have someone listen 読んでもらう - have someone read 書いてもらう - have someone write"
+          }
+        ]
+      },
+      {
+        "level": 2,
+        "heading": "Common Conversations",
+        "content": "",
+        "children": [
+          {
+            "level": 3,
+            "heading": "Example 1: Making a Request",
+            "content": "A: すみません、ちょっと手伝ってもらえますか？ \"Excuse me, could you help me?\" B: いいですよ。何ですか？ \"Sure. What is it?\" A: この荷物を持ってもらえますか？ \"Could you carry this luggage?\" B: はい、どうぞ \"Yes, here you go\""
+          },
+          {
+            "level": 3,
+            "heading": "Example 2: Talking About Past Help",
+            "content": "A: 日本語の勉強、どうしてる？ \"How's your Japanese study?\" B: 友達に毎日教えてもらってるんだ \"I'm having my friend teach me every day\" A: いいね！ \"Nice!\" B: うん、本当に助かってる \"Yeah, it really helps\""
+          },
+          {
+            "level": 3,
+            "heading": "Example 3: Polite Request",
+            "content": "A: すみません、写真を撮ってもらえますか？ \"Excuse me, could you take a photo?\" B: いいですよ \"Sure\" A: ここを押してください \"Please press here\" B: はい、チーズ！ \"Okay, cheese!\""
+          }
+        ]
+      },
+      {
+        "level": 2,
+        "heading": "Common Mistakes",
+        "content": "",
+        "children": [
+          {
+            "level": 3,
+            "heading": "Mistake 1: Wrong particle",
+            "content": "Wrong: 友達を教えてもらった ❌ Right: 友達に教えてもらった ✓ \"I had my friend teach me\""
+          },
+          {
+            "level": 3,
+            "heading": "Mistake 2: Using with yourself as subject",
+            "content": "Wrong: 私が友達に教えてもらった when meaning \"I taught\" ❌ Right: 私が友達に教えた/教えてあげた ✓ \"I taught my friend\" Correct usage: 私は友達に教えてもらった ✓ \"I had my friend teach me / My friend taught me\""
+          },
+          {
+            "level": 3,
+            "heading": "Mistake 3: Confusing with てくれる",
+            "content": "Both can translate as \"someone did for me\" but:\n\nてもらう: More formal, emphasizes your benefit 先生に説明してもらった \"I had the teacher explain\" てくれる: More grateful, emphasizes their kindness 先生が説明してくれた \"The teacher explained for me\""
+          }
+        ]
+      },
+      {
+        "level": 2,
+        "heading": "Making Requests with てもらう",
+        "content": "",
+        "children": [
+          {
+            "level": 3,
+            "heading": "〜てもらえますか？ (Could you...?)",
+            "content": "Polite request.\n\n手伝ってもらえますか？ \"Could you help me?\" 教えてもらえますか？ \"Could you teach me?\" 説明してもらえますか？ \"Could you explain?\""
+          },
+          {
+            "level": 3,
+            "heading": "〜てもらえませんか？ (Couldn't you...?)",
+            "content": "More polite/indirect.\n\nちょっと見てもらえませんか？ \"Couldn't you take a look?\" 手伝ってもらえませんか？ \"Couldn't you help me?\""
+          },
+          {
+            "level": 3,
+            "heading": "〜ていただけますか？ (Humble request)",
+            "content": "Most polite, using humble form.\n\n説明していただけますか？ \"Could you explain? (humble)\" 教えていただけませんか？ \"Couldn't you teach me? (humble)\" お時間をいただけますか？ \"Could I have some of your time? (humble)\""
+          }
+        ]
+      },
+      {
+        "level": 2,
+        "heading": "Special Patterns",
+        "content": "",
+        "children": [
+          {
+            "level": 3,
+            "heading": "〜てもらいたい (want to have someone do)",
+            "content": "教えてもらいたい \"I want to have someone teach me\" 手伝ってもらいたい \"I want someone to help me\" 説明してもらいたいです \"I'd like to have it explained\""
+          },
+          {
+            "level": 3,
+            "heading": "〜てもらってもいい？ (Is it okay to have...?)",
+            "content": "手伝ってもらってもいい？ \"Is it okay if you help me?\" 教えてもらってもいいですか？ \"Is it okay if you teach me?\""
+          },
+          {
+            "level": 3,
+            "heading": "〜てもらってありがとう (Thanks for doing)",
+            "content": "手伝ってもらってありがとう \"Thank you for helping me\" 教えてもらってありがとうございます \"Thank you for teaching me\" 説明していただいてありがとうございます \"Thank you for explaining (humble)\""
+          }
+        ]
+      },
+      {
+        "level": 2,
+        "heading": "Negative Form",
+        "content": "",
+        "children": [
+          {
+            "level": 3,
+            "heading": "〜てもらえない",
+            "content": "誰も手伝ってもらえない \"I can't get anyone to help\" 教えてもらえなかった \"I couldn't have someone teach me\""
+          },
+          {
+            "level": 3,
+            "heading": "〜てもらわない",
+            "content": "手伝ってもらわない \"I won't have someone help\" 説明してもらわないつもり \"I don't intend to have it explained\""
+          }
+        ]
+      },
+      {
+        "level": 2,
+        "heading": "Conditional Forms",
+        "content": "",
+        "children": [
+          {
+            "level": 3,
+            "heading": "〜てもらえたら (if I could have someone do)",
+            "content": "手伝ってもらえたら、助かる \"It would help if you could help me\" 教えてもらえたら、ありがたい \"I'd be grateful if you could teach me\""
+          },
+          {
+            "level": 3,
+            "heading": "〜てもらえれば (if I could have)",
+            "content": "説明してもらえれば、わかると思う \"I think I'd understand if you explained\" 時間をもらえれば、できます \"I can do it if you give me time\""
+          }
+        ]
+      },
+      {
+        "level": 2,
+        "heading": "Politeness Levels",
+        "content": "",
+        "children": [
+          {
+            "level": 3,
+            "heading": "Casual (もらう)",
+            "content": "教えてもらう \"have someone teach\" 手伝ってもらえる？ \"Can you help?\""
+          },
+          {
+            "level": 3,
+            "heading": "Polite (もらいます)",
+            "content": "教えてもらいます \"I'll have someone teach\" 手伝ってもらえますか？ \"Could you help?\""
+          },
+          {
+            "level": 3,
+            "heading": "Humble (いただく)",
+            "content": "教えていただく \"have someone teach (humble)\" 説明していただけますか？ \"Could you explain? (humble)\""
+          }
+        ]
+      },
+      {
+        "level": 2,
+        "heading": "When to Use てもらう vs てくれる",
+        "content": "",
+        "children": [
+          {
+            "level": 3,
+            "heading": "Use てもらう when:",
+            "content": "Making polite requests Emphasizing your benefit from the action In formal situations When you arranged or asked for the action\n\n先生に推薦状を書いてもらった \"I had the teacher write a recommendation letter\""
+          },
+          {
+            "level": 3,
+            "heading": "Use てくれる when:",
+            "content": "Expressing gratitude Someone voluntarily helped Emphasizing the giver's kindness More casual/emotional contexts\n\n友達が推薦状を書いてくれた \"My friend wrote a recommendation letter for me\""
+          }
+        ]
+      },
+      {
+        "level": 2,
+        "heading": "Cultural Notes",
+        "content": "",
+        "children": [
+          {
+            "level": 3,
+            "heading": "Politeness Strategy",
+            "content": "てもらう with potential form (〜てもらえる) is a very common polite way to make requests in Japanese.\n\n手伝ってもらえますか？ \"Could you help me?\" This is more polite than: 手伝ってください \"Please help me\""
+          },
+          {
+            "level": 3,
+            "heading": "Professional Contexts",
+            "content": "てもらう (especially with いただく) is standard in business situations.\n\nご確認いただけますか？ \"Could you please confirm?\" お時間をいただけますでしょうか？ \"Could I have some of your time?\""
+          }
+        ]
+      },
+      {
+        "level": 2,
+        "heading": "Practice Sentences",
+        "content": "",
+        "children": [
+          {
+            "level": 3,
+            "heading": "Basic Usage",
+            "content": "友達に教えてもらった \"I had my friend teach me\" 母に料理を作ってもらう \"I have my mother cook\" 先生に質問に答えてもらった \"I had the teacher answer my question\" 誰に手伝ってもらいましたか？ \"Who did you have help you?\""
+          },
+          {
+            "level": 3,
+            "heading": "Making Requests",
+            "content": "手伝ってもらえますか？ \"Could you help me?\" この本を貸してもらえませんか？ \"Couldn't you lend me this book?\" 説明していただけますか？ \"Could you explain? (humble)\" 写真を撮ってもらえますか？ \"Could you take a photo?\""
+          },
+          {
+            "level": 3,
+            "heading": "With Thanks",
+            "content": "手伝ってもらってありがとう \"Thank you for helping me\" 教えてもらって助かりました \"It helped that you taught me\" 説明していただいてありがとうございます \"Thank you for explaining (humble)\""
+          },
+          {
+            "level": 3,
+            "heading": "Past Actions",
+            "content": "友達に宿題を手伝ってもらった \"I had my friend help with homework\" 先生に日本語を教えてもらった \"I had the teacher teach me Japanese\" 母に駅まで送ってもらった \"I had my mother take me to the station\""
+          },
+          {
+            "level": 3,
+            "heading": "Want/Need",
+            "content": "誰かに手伝ってもらいたい \"I want someone to help me\" 先生に説明してもらう必要がある \"I need to have the teacher explain\" もっと練習してもらいたい \"I want to have more practice\""
+          }
+        ]
+      },
+      {
+        "level": 2,
+        "heading": "Related Grammar Points",
+        "content": "〜てくれる (te-kureru) - Someone does for me 〜てあげる (te-ageru) - I do for others Giving & Receiving - Verbs of giving/receiving もらう/いただく - Receiving verbs Direction of Actions - Perspective in Japanese Te-form Conjugation - Basic te-form 〜てもらえますか - Making polite requests",
+        "children": [
+          {
+            "level": 3,
+            "heading": "Company",
+            "content": "About Pricing Blog Contact"
+          },
+          {
+            "level": 3,
+            "heading": "Legal",
+            "content": "Privacy Policy Terms of Service Cookie Policy"
+          }
+        ]
+      }
+    ],
+    "examples": [
+      {
+        "sentence": "Speaker is the beneficiary"
+      },
+      {
+        "sentence": "Emphasizes speaker's receiving of the action"
+      },
+      {
+        "sentence": "Can imply the speaker requested or arranged it"
+      },
+      {
+        "sentence": "More active role for the speaker than てくれる"
+      },
+      {
+        "sentence": "Making polite requests"
+      },
+      {
+        "sentence": "Emphasizing your benefit from the action"
+      },
+      {
+        "sentence": "In formal situations"
+      },
+      {
+        "sentence": "When you arranged or asked for the action"
+      },
+      {
+        "sentence": "Expressing gratitude"
+      },
+      {
+        "sentence": "Someone voluntarily helped"
+      },
+      {
+        "sentence": "Emphasizing the giver's kindness"
+      },
+      {
+        "sentence": "More casual/emotional contexts"
+      },
+      {
+        "sentence": "〜てくれる (te-kureru) - Someone does for me"
+      },
+      {
+        "sentence": "〜てあげる (te-ageru) - I do for others"
+      },
+      {
+        "sentence": "Giving & Receiving - Verbs of giving/receiving"
+      },
+      {
+        "sentence": "もらう/いただく - Receiving verbs"
+      },
+      {
+        "sentence": "Direction of Actions - Perspective in Japanese"
+      },
+      {
+        "sentence": "Te-form Conjugation - Basic te-form"
+      },
+      {
+        "sentence": "〜てもらえますか - Making polite requests"
+      },
+      {
+        "sentence": "About"
+      },
+      {
+        "sentence": "Pricing"
+      },
+      {
+        "sentence": "Blog"
+      },
+      {
+        "sentence": "Contact"
+      },
+      {
+        "sentence": "Privacy Policy"
+      },
+      {
+        "sentence": "Terms of Service"
+      },
+      {
+        "sentence": "Cookie Policy"
+      }
+    ]
+  },
+  "metadata": {
+    "extracted_at": "2026-01-01T22:19:36.704503200Z",
+    "duration_ms": 4,
+    "extractors_matched": [
+      "metadata",
+      "examples",
+      "sections"
+    ],
+    "extractors_failed": [
+      "vocab_tables",
+      "definitions",
+      "content_blocks"
+    ]
+  }
+}

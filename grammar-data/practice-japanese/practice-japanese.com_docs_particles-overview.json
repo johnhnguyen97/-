@@ -1,0 +1,428 @@
+{
+  "config_name": "Language Learning Extractor",
+  "url": "https://practice-japanese.com/docs/particles-overview/",
+  "data": {
+    "examples": [
+      {
+        "sentence": "Core 4: は、が、を、に"
+      },
+      {
+        "sentence": "Essential: で、と、の"
+      },
+      {
+        "sentence": "Direction: へ、から、まで"
+      },
+      {
+        "sentence": "Addition: も、や、か"
+      },
+      {
+        "sentence": "Sentence-ending: ね、よ"
+      },
+      {
+        "sentence": "Advanced combinations"
+      },
+      {
+        "sentence": "General statements"
+      },
+      {
+        "sentence": "Known information"
+      },
+      {
+        "sentence": "Contrasting topics"
+      },
+      {
+        "sentence": "New information"
+      },
+      {
+        "sentence": "Answering \"who/what\""
+      },
+      {
+        "sentence": "Existence sentences (ある/いる)"
+      },
+      {
+        "sentence": "With 好き、できる、欲しい"
+      },
+      {
+        "sentence": "Movement through space: 道を歩く (walk along road)"
+      },
+      {
+        "sentence": "Departure point: 家を出る (leave home)"
+      },
+      {
+        "sentence": "Destination (with 行く、来る、帰る)"
+      },
+      {
+        "sentence": "Location of existence (with ある、いる)"
+      },
+      {
+        "sentence": "Specific time"
+      },
+      {
+        "sentence": "Indirect object (recipient)"
+      },
+      {
+        "sentence": "に = location where something exists"
+      },
+      {
+        "sentence": "で = location where action happens"
+      },
+      {
+        "sentence": "へ emphasizes direction/movement toward"
+      },
+      {
+        "sentence": "に emphasizes destination/arrival"
+      },
+      {
+        "sentence": "は (topic)"
+      },
+      {
+        "sentence": "を (object)"
+      },
+      {
+        "sentence": "が (subject in some contexts)"
+      },
+      {
+        "sentence": "に (confusion with other particles)"
+      },
+      {
+        "sentence": "で (meaning becomes unclear)"
+      },
+      {
+        "sentence": "Sentence-ending particles"
+      },
+      {
+        "sentence": "は (wa) Topic Marker"
+      },
+      {
+        "sentence": "が (ga) Subject Marker"
+      },
+      {
+        "sentence": "は vs が Explained"
+      },
+      {
+        "sentence": "を (wo) Direct Object"
+      },
+      {
+        "sentence": "に (ni) Location/Direction"
+      },
+      {
+        "sentence": "で (de) Location/Means"
+      },
+      {
+        "sentence": "Sentence Structure"
+      },
+      {
+        "sentence": "Word Order Rules"
+      },
+      {
+        "sentence": "Topic vs Subject"
+      },
+      {
+        "sentence": "About"
+      },
+      {
+        "sentence": "Pricing"
+      },
+      {
+        "sentence": "Blog"
+      },
+      {
+        "sentence": "Contact"
+      },
+      {
+        "sentence": "Privacy Policy"
+      },
+      {
+        "sentence": "Terms of Service"
+      },
+      {
+        "sentence": "Cookie Policy"
+      }
+    ],
+    "sections": [
+      {
+        "level": 2,
+        "heading": "What Are Particles?",
+        "content": "Particles are small words (usually one syllable) that come after nouns, verbs, or phrases to show their grammatical function. They're the glue that holds Japanese sentences together.\n\nEnglish uses word order to show meaning: \"The dog bit the man\" ≠ \"The man bit the dog\"\n\nJapanese uses particles: 犬が男を噛んだ = 男を犬が噛んだ (same meaning) The particles (が and を) show who bit whom, regardless of word order."
+      },
+      {
+        "level": 2,
+        "heading": "Why Particles Matter",
+        "content": "Without particles, Japanese sentences are unclear:\n\n❌ 私 本 読む Watashi hon yomu (I? book? read? - relationship unclear) ✓ 私は本を読む Watashi wa hon wo yomu \"I read books\""
+      },
+      {
+        "level": 2,
+        "heading": "Major Particle Categories",
+        "content": "",
+        "children": [
+          {
+            "level": 3,
+            "heading": "1. Case Particles (格助詞)",
+            "content": "Mark grammatical roles: が、を、に、へ、で、と、から、まで、より"
+          },
+          {
+            "level": 3,
+            "heading": "2. Topic/Contrast Particles",
+            "content": "Set topics or show contrast: は、も"
+          },
+          {
+            "level": 3,
+            "heading": "3. Sentence-Ending Particles (終助詞)",
+            "content": "Add nuance or emotion: か、ね、よ、な"
+          },
+          {
+            "level": 3,
+            "heading": "4. Connecting Particles",
+            "content": "Join clauses: が、けど、のに、ても"
+          }
+        ]
+      },
+      {
+        "level": 2,
+        "heading": "Core Particles You Must Know",
+        "content": "",
+        "children": [
+          {
+            "level": 3,
+            "heading": "は (wa) - Topic Marker",
+            "content": "Function: Sets the topic, \"speaking of X\" or \"as for X\"\n\n私は学生です \"As for me, (I'm) a student\" 寿司は好きです \"As for sushi, (I) like it\"\n\nKey uses:\n\nGeneral statements Known information Contrasting topics\n\nSee: は (wa) Topic Marker"
+          },
+          {
+            "level": 3,
+            "heading": "が (ga) - Subject Marker",
+            "content": "Function: Marks the grammatical subject, who/what does the action\n\n雨が降っている \"Rain is falling\" 誰が来ますか？ \"Who is coming?\"\n\nKey uses:\n\nNew information Answering \"who/what\" Existence sentences (ある/いる) With 好き、できる、欲しい\n\nSee: が (ga) Subject Marker"
+          },
+          {
+            "level": 3,
+            "heading": "を (wo/o) - Direct Object",
+            "content": "Function: Marks the direct object of an action\n\n本を読む \"Read a book\" 水を飲む \"Drink water\"\n\nAlso marks:\n\nMovement through space: 道を歩く (walk along road) Departure point: 家を出る (leave home)\n\nSee: を (wo) Object Marker"
+          },
+          {
+            "level": 3,
+            "heading": "に (ni) - Location/Direction/Time",
+            "content": "Function: Multiple uses, mainly destination/location/time\n\n学校に行く \"Go to school\" (destination) 机の上に本がある \"Book is on desk\" (location of existence) 7時に起きる \"Wake up at 7\" (specific time)\n\nKey uses:\n\nDestination (with 行く、来る、帰る) Location of existence (with ある、いる) Specific time Indirect object (recipient)\n\nSee: に (ni) Multi-purpose"
+          },
+          {
+            "level": 3,
+            "heading": "で (de) - Location/Means/Cause",
+            "content": "Function: Location of action, means, or cause\n\n図書館で勉強する \"Study at library\" (location of action) ペンで書く \"Write with pen\" (means) 電車で行く \"Go by train\" (means) 病気で休む \"Absent due to illness\" (cause)\n\nKey difference from に:\n\nに = location where something exists で = location where action happens\n\nSee: で (de) Location/Means"
+          },
+          {
+            "level": 3,
+            "heading": "と (to) - And/With/Quotation",
+            "content": "Function: Three main uses\n\n1. Complete list: りんごとオレンジ \"Apples and oranges\" 2. \"With\" (accompaniment): 友達と行く \"Go with friend\" 3. Quotation: 「おはよう」と言う \"Say 'good morning'\"\n\nSee: と (to) Multi-function"
+          },
+          {
+            "level": 3,
+            "heading": "の (no) - Possession/Modification",
+            "content": "Function: Shows possession or modification (like English 's or \"of\")\n\n私の本 \"My book\" 日本語の先生 \"Japanese teacher\" / \"Teacher of Japanese\" 赤いのが好き \"(I) like the red one\" (nominalizer)\n\nSee: の (no) Possession"
+          },
+          {
+            "level": 3,
+            "heading": "へ (e) - Direction",
+            "content": "Function: Shows direction (similar to に but emphasizes direction)\n\n東京へ行く \"Go to/toward Tokyo\" 南へ進む \"Proceed southward\"\n\nに vs へ:\n\nへ emphasizes direction/movement toward に emphasizes destination/arrival\n\nSee: へ (e) vs に"
+          }
+        ]
+      },
+      {
+        "level": 2,
+        "heading": "Secondary Essential Particles",
+        "content": "",
+        "children": [
+          {
+            "level": 3,
+            "heading": "から (kara) - From/Since/Because",
+            "content": "東京から来た \"Came from Tokyo\" (starting point) 9時から \"From 9 o'clock\" (time) 雨だから \"Because it's raining\" (reason)"
+          },
+          {
+            "level": 3,
+            "heading": "まで (made) - Until/Up to",
+            "content": "東京まで \"Until/To Tokyo\" 10時まで \"Until 10 o'clock\""
+          },
+          {
+            "level": 3,
+            "heading": "も (mo) - Also/Too/Neither",
+            "content": "私も学生です \"I am also a student\" 誰も来なかった \"Nobody came\" (with negative)"
+          },
+          {
+            "level": 3,
+            "heading": "や (ya) - And (Partial List)",
+            "content": "りんごやオレンジ \"Apples, oranges, (and other things)\"\n\nUnlike と, implies there are more items."
+          },
+          {
+            "level": 3,
+            "heading": "か (ka) - Or/Question",
+            "content": "コーヒーか紅茶 \"Coffee or tea\" これは本ですか？ \"Is this a book?\""
+          }
+        ]
+      },
+      {
+        "level": 2,
+        "heading": "Sentence-Ending Particles",
+        "content": "",
+        "children": [
+          {
+            "level": 3,
+            "heading": "ね (ne) - Confirmation/Agreement",
+            "content": "いい天気ですね \"Nice weather, isn't it?\" 美味しいですね \"It's delicious, right?\""
+          },
+          {
+            "level": 3,
+            "heading": "よ (yo) - Emphasis/New Information",
+            "content": "明日は休みですよ \"Tomorrow's a holiday!\" (FYI) 危ないですよ \"It's dangerous!\" (warning)"
+          },
+          {
+            "level": 3,
+            "heading": "ぞ/ぜ - Masculine Emphasis",
+            "content": "行くぞ！ \"I'm going!\" (masculine, assertive)"
+          },
+          {
+            "level": 3,
+            "heading": "な - Prohibition or Emotion",
+            "content": "触るな！ \"Don't touch!\" (command) いい天気だな \"Nice weather\" (reflection, masculine)\n\nSee: Sentence-Ending Particles"
+          }
+        ]
+      },
+      {
+        "level": 2,
+        "heading": "Particle Combinations",
+        "content": "Particles can combine for complex meanings:",
+        "children": [
+          {
+            "level": 3,
+            "heading": "には (ni wa)",
+            "content": "日本には何度も行った \"I've been to Japan many times\" (Emphasis on Japan specifically)"
+          },
+          {
+            "level": 3,
+            "heading": "では (de wa)",
+            "content": "ここではタバコを吸えません \"You can't smoke here\""
+          },
+          {
+            "level": 3,
+            "heading": "とは (to wa)",
+            "content": "これとは違う \"Different from this\""
+          },
+          {
+            "level": 3,
+            "heading": "からの (kara no)",
+            "content": "友達からのプレゼント \"Present from friend\""
+          }
+        ]
+      },
+      {
+        "level": 2,
+        "heading": "Particle Order Rules",
+        "content": "When multiple particles appear:\n\nStandard order: [Noun] + Case Particle + は/も 例: 東京には (to Tokyo - emphasis) 学校でも (at school - also)\n\nException: は and も can replace が and を:\n\n本を読む → 本は読む (contrast) 本が好き → 本も好き (also)"
+      },
+      {
+        "level": 2,
+        "heading": "Common Patterns",
+        "content": "",
+        "children": [
+          {
+            "level": 3,
+            "heading": "Existence",
+            "content": "[Location] に [Thing] が ある/いる 机の上に本がある \"There's a book on the desk\""
+          },
+          {
+            "level": 3,
+            "heading": "Movement to Place",
+            "content": "[Place] に/へ 行く/来る/帰る 学校に行く \"Go to school\""
+          },
+          {
+            "level": 3,
+            "heading": "Action at Location",
+            "content": "[Location] で [Action] 図書館で勉強する \"Study at library\""
+          },
+          {
+            "level": 3,
+            "heading": "Giving/Receiving",
+            "content": "[Giver] は [Receiver] に [Thing] を あげる 私は友達にプレゼントをあげる \"I give friend a present\""
+          }
+        ]
+      },
+      {
+        "level": 2,
+        "heading": "Particles vs Prepositions",
+        "content": "English prepositions come BEFORE nouns: \"at school\" / \"to Tokyo\" / \"with friend\"\n\nJapanese particles come AFTER nouns: 学校で / 東京に / 友達と\n\nThey're called postpositions , not prepositions."
+      },
+      {
+        "level": 2,
+        "heading": "When Particles Are Dropped",
+        "content": "In casual speech, some particles can be omitted:\n\nFormal: 私は学校に行きます Casual: 私、学校行く\n\nCommonly dropped:\n\nは (topic) を (object) が (subject in some contexts)\n\nNever drop:\n\nに (confusion with other particles) で (meaning becomes unclear) Sentence-ending particles"
+      },
+      {
+        "level": 2,
+        "heading": "Quick Reference Chart",
+        "content": "| Particle | Primary Function | Example | | -------- | ------------------------- | ------------ | | は | Topic | 私は学生 | | が | Subject | 雨が降る | | を | Object | 本を読む | | に | Destination/Location/Time | 学校に行く | | で | Location of action/Means | 図書館で勉強 | | と | And/With | 友達と行く | | の | Possession | 私の本 | | へ | Direction | 東京へ | | から | From | 9 時から | | まで | Until | 10 時まで | | も | Also | 私も | | か | Question/Or | 本ですか？ |"
+      },
+      {
+        "level": 2,
+        "heading": "Common Mistakes",
+        "content": "",
+        "children": [
+          {
+            "level": 3,
+            "heading": "Mistake 1: Using は with 好き",
+            "content": "Wrong: 寿司は好きです ❌ Right: 寿司が好きです ✓"
+          },
+          {
+            "level": 3,
+            "heading": "Mistake 2: Confusing に and で",
+            "content": "Wrong: 図書館に勉強する ❌ Right: 図書館で勉強する ✓"
+          },
+          {
+            "level": 3,
+            "heading": "Mistake 3: Wrong Particle with Movement",
+            "content": "Wrong: 学校で行く ❌ Right: 学校に行く ✓"
+          },
+          {
+            "level": 3,
+            "heading": "Mistake 4: Dropping Essential Particles",
+            "content": "Wrong: 友達会った ❌ Right: 友達に会った ✓"
+          }
+        ]
+      },
+      {
+        "level": 2,
+        "heading": "Learning Strategy",
+        "content": "Master in this order:\n\nCore 4: は、が、を、に Essential: で、と、の Direction: へ、から、まで Addition: も、や、か Sentence-ending: ね、よ Advanced combinations\n\nDon't try to learn all at once. Focus on core particles first."
+      },
+      {
+        "level": 2,
+        "heading": "Key Takeaways",
+        "content": "✓ Particles mark grammatical relationships ✓ Enable flexible word order ✓ Come AFTER the word they mark ✓ Essential for correct Japanese ✓ Different from English prepositions ✓ Some can be dropped in casual speech ✓ Mastering particles = mastering Japanese grammar\n\nParticles are the foundation of Japanese grammar. Spend time understanding each one, and sentence construction becomes much clearer.\n\nNext: Verb Basics\n\nDeep Dives:\n\nは (wa) Topic Marker が (ga) Subject Marker は vs が Explained を (wo) Direct Object に (ni) Location/Direction で (de) Location/Means\n\nRelated:\n\nSentence Structure Word Order Rules Topic vs Subject",
+        "children": [
+          {
+            "level": 3,
+            "heading": "Company",
+            "content": "About Pricing Blog Contact"
+          },
+          {
+            "level": 3,
+            "heading": "Legal",
+            "content": "Privacy Policy Terms of Service Cookie Policy"
+          }
+        ]
+      }
+    ],
+    "metadata": {
+      "title": "Japanese Particles Overview"
+    }
+  },
+  "metadata": {
+    "extracted_at": "2026-01-01T22:19:33.356789800Z",
+    "duration_ms": 3,
+    "extractors_matched": [
+      "metadata",
+      "examples",
+      "sections"
+    ],
+    "extractors_failed": [
+      "vocab_tables",
+      "definitions",
+      "content_blocks"
+    ]
+  }
+}

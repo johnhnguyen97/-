@@ -1,0 +1,320 @@
+{
+  "config_name": "Language Learning Extractor",
+  "url": "https://practice-japanese.com/docs/counter-tou/",
+  "data": {
+    "sections": [
+      {
+        "level": 2,
+        "heading": "What is 匹 (ひき/びき/ぴき)?",
+        "content": "匹 is the counter for small to medium-sized animals. It has three pronunciations (ひき、びき、ぴき) that change depending on the number.\n\n犬を2匹飼っています \"I have 2 dogs\" 金魚が5匹います \"There are 5 goldfish\""
+      },
+      {
+        "level": 2,
+        "heading": "Complete 匹 Counter Chart",
+        "content": "| Number | Reading | Romaji | Sound | | ------ | ---------- | --------- | ----- | | 1 | いっぴき | ippiki | ぴき | | 2 | にひき | ni-hiki | ひき | | 3 | さんびき | san-biki | びき | | 4 | よんひき | yon-hiki | ひき | | 5 | ごひき | go-hiki | ひき | | 6 | ろっぴき | roppiki | ぴき | | 7 | ななひき | nana-hiki | ひき | | 8 | はっぴき | happiki | ぴき | | 9 | きゅうひき | kyuu-hiki | ひき | | 10 | じゅっぴき | juppiki | ぴき |",
+        "children": [
+          {
+            "level": 3,
+            "heading": "Larger Numbers",
+            "content": "11匹 = じゅういっぴき 20匹 = にじゅっぴき 100匹 = ひゃっぴき"
+          }
+        ]
+      },
+      {
+        "level": 2,
+        "heading": "Sound Change Pattern",
+        "content": "",
+        "children": [
+          {
+            "level": 3,
+            "heading": "ひき (hiki) - Default",
+            "content": "2匹 (にひき) 4匹 (よんひき) 5匹 (ごひき) 7匹 (ななひき) 9匹 (きゅうひき)"
+          },
+          {
+            "level": 3,
+            "heading": "びき (biki) - After ん sound",
+            "content": "3匹 (さんびき) - after さん"
+          },
+          {
+            "level": 3,
+            "heading": "ぴき (piki) - After っ sound",
+            "content": "1匹 (いっぴき) - いち becomes いっ 6匹 (ろっぴき) - ろく becomes ろっ 8匹 (はっぴき) - はち becomes はっ 10匹 (じゅっぴき) - じゅう becomes じゅっ\n\nSame pattern as 本 (hon/bon/pon)!"
+          }
+        ]
+      },
+      {
+        "level": 2,
+        "heading": "What Animals to Count with 匹",
+        "content": "",
+        "children": [
+          {
+            "level": 3,
+            "heading": "Pets",
+            "content": "犬 (いぬ) - dogs 猫 (ねこ) - cats ハムスター - hamsters うさぎ - rabbits インコ - parakeets\n\n犬を1匹飼っています \"I have 1 dog\" 猫が2匹います \"There are 2 cats\""
+          },
+          {
+            "level": 3,
+            "heading": "Fish and Aquatic Animals",
+            "content": "金魚 (きんぎょ) - goldfish 魚 (さかな) - fish かえる - frogs かめ - turtles\n\n金魚を5匹買いました \"I bought 5 goldfish\""
+          },
+          {
+            "level": 3,
+            "heading": "Insects",
+            "content": "蝶 (ちょう) - butterflies 蜂 (はち) - bees 蚊 (か) - mosquitoes 虫 (むし) - insects/bugs\n\n蝶が3匹飛んでいます \"3 butterflies are flying\""
+          },
+          {
+            "level": 3,
+            "heading": "Small to Medium Wild Animals",
+            "content": "リス - squirrels きつね - foxes たぬき - raccoon dogs ねずみ - mice/rats へび - snakes"
+          },
+          {
+            "level": 3,
+            "heading": "General Rule",
+            "content": "Use 匹 for animals smaller than a human or about human-sized."
+          }
+        ]
+      },
+      {
+        "level": 2,
+        "heading": "Asking \"How Many?\"",
+        "content": "",
+        "children": [
+          {
+            "level": 3,
+            "heading": "何匹 (なんびき)",
+            "content": "何匹いますか？ \"How many are there?\" ペットを何匹飼っていますか？ \"How many pets do you have?\" 犬が何匹いますか？ \"How many dogs are there?\" 金魚を何匹買いますか？ \"How many goldfish will you buy?\""
+          }
+        ]
+      },
+      {
+        "level": 2,
+        "heading": "Common Patterns",
+        "content": "",
+        "children": [
+          {
+            "level": 3,
+            "heading": "Animal + を + 匹 Counter",
+            "content": "犬を2匹飼っています \"I have 2 dogs\" 金魚を5匹買いました \"I bought 5 goldfish\" 猫を1匹見ました \"I saw 1 cat\""
+          },
+          {
+            "level": 3,
+            "heading": "Animal + が + 匹 Counter + Verb",
+            "content": "猫が3匹います \"There are 3 cats\" 犬が2匹走っています \"2 dogs are running\" 魚が10匹泳いでいます \"10 fish are swimming\""
+          },
+          {
+            "level": 3,
+            "heading": "匹 Counter + の + Animal",
+            "content": "2匹の犬 \"2 dogs\" 5匹の金魚 \"5 goldfish\" 3匹の猫 \"3 cats\""
+          }
+        ]
+      },
+      {
+        "level": 2,
+        "heading": "Common Conversations",
+        "content": "",
+        "children": [
+          {
+            "level": 3,
+            "heading": "Example 1: Pet Shop",
+            "content": "A: ペットを何匹飼っていますか？ \"How many pets do you have?\" B: 犬を2匹と猫を1匹飼っています \"I have 2 dogs and 1 cat\" A: 大変ですね \"That must be a lot of work\" B: でも、とても可愛いです \"But they're very cute\""
+          },
+          {
+            "level": 3,
+            "heading": "Example 2: Aquarium",
+            "content": "A: 金魚を何匹買いますか？ \"How many goldfish will you buy?\" B: 5匹ください \"5, please\" A: 水槽は大きいですか？ \"Is your tank big?\" B: はい、10匹ぐらい入ります \"Yes, about 10 can fit\""
+          },
+          {
+            "level": 3,
+            "heading": "Example 3: Park",
+            "content": "A: 公園に犬が何匹いますか？ \"How many dogs are in the park?\" B: 3匹います \"There are 3\" A: 大きい犬ですか？ \"Are they big dogs?\" B: いいえ、小さい犬です \"No, they're small dogs\""
+          }
+        ]
+      },
+      {
+        "level": 2,
+        "heading": "When NOT to Use 匹",
+        "content": "",
+        "children": [
+          {
+            "level": 3,
+            "heading": "Large Animals - Use 頭 (とう)",
+            "content": "Wrong: 象を2匹 ❌ Right: 象を2頭 ✓ \"2 elephants\" Wrong: 馬を3匹 ❌ Right: 馬を3頭 ✓ \"3 horses\"\n\nLarge animals (cows, horses, elephants, etc.) use 頭."
+          },
+          {
+            "level": 3,
+            "heading": "Birds (Sometimes) - Use 羽 (わ)",
+            "content": "Can use: 鳥を3匹 (acceptable) Better: 鳥を3羽 ✓ \"3 birds\"\n\nFor birds, 羽 is more specific, but 匹 is also used."
+          },
+          {
+            "level": 3,
+            "heading": "Rabbits - Use 羽 (わ)",
+            "content": "Wrong: うさぎを2匹 ⚠️ Traditional: うさぎを2羽 ✓ \"2 rabbits\"\n\nHistorically, rabbits were counted with 羽 (like birds), but 匹 is now common in casual speech."
+          }
+        ]
+      },
+      {
+        "level": 2,
+        "heading": "Special Expressions",
+        "content": "",
+        "children": [
+          {
+            "level": 3,
+            "heading": "〜匹ずつ",
+            "content": "一匹ずつ見てください \"Please look at each one\" 2匹ずつケージに入れます \"Put 2 in each cage\""
+          },
+          {
+            "level": 3,
+            "heading": "〜匹目",
+            "content": "1匹目 (いっぴきめ) - the first one 2匹目 (にひきめ) - the second one 3匹目 (さんびきめ) - the third one 3匹目の猫が一番可愛い \"The third cat is the cutest\""
+          },
+          {
+            "level": 3,
+            "heading": "〜匹も",
+            "content": "10匹も飼っている \"I have as many as 10\" 5匹も捕まえた \"I caught as many as 5\""
+          },
+          {
+            "level": 3,
+            "heading": "〜匹しか",
+            "content": "1匹しかいない \"There's only 1\" 2匹しか残っていない \"Only 2 remain\""
+          }
+        ]
+      },
+      {
+        "level": 2,
+        "heading": "Common Mistakes",
+        "content": "",
+        "children": [
+          {
+            "level": 3,
+            "heading": "Mistake 1: Wrong sound changes",
+            "content": "Wrong: いちひき (1) ❌ Right: いっぴき ✓ Wrong: さんひき (3) ❌ Right: さんびき ✓ Wrong: ろくひき (6) ❌ Right: ろっぴき ✓"
+          },
+          {
+            "level": 3,
+            "heading": "Mistake 2: Using 匹 for large animals",
+            "content": "Wrong: 象が2匹 ❌ Right: 象が2頭 ✓ \"2 elephants\""
+          },
+          {
+            "level": 3,
+            "heading": "Mistake 3: Using 匹 for people",
+            "content": "Wrong: 子供が3匹 ❌ Right: 子供が3人 ✓ \"3 children\""
+          },
+          {
+            "level": 3,
+            "heading": "Mistake 4: Confusing 何匹 reading",
+            "content": "Wrong: なにひき ❌ Right: なんびき ✓ \"How many (animals)?\""
+          }
+        ]
+      },
+      {
+        "level": 2,
+        "heading": "Pronunciation Practice",
+        "content": "",
+        "children": [
+          {
+            "level": 3,
+            "heading": "Tricky Ones",
+            "content": "1匹 = いっぴき (not いちひき) 3匹 = さんびき (not さんひき) 6匹 = ろっぴき (not ろくひき) 8匹 = はっぴき (not はちひき) 10匹 = じゅっぴき (not じゅうひき)"
+          }
+        ]
+      },
+      {
+        "level": 2,
+        "heading": "Practice Sentences",
+        "content": "",
+        "children": [
+          {
+            "level": 3,
+            "heading": "Basic",
+            "content": "猫が3匹います \"There are 3 cats\" 犬を2匹飼っています \"I have 2 dogs\" 金魚を5匹買いました \"I bought 5 goldfish\""
+          },
+          {
+            "level": 3,
+            "heading": "Intermediate",
+            "content": "ペットを何匹飼っていますか？ \"How many pets do you have?\" 公園に犬が何匹いますか？ \"How many dogs are in the park?\" この水槽には魚が10匹入ります \"10 fish can fit in this tank\""
+          },
+          {
+            "level": 3,
+            "heading": "Advanced",
+            "content": "うちには猫が3匹、犬が2匹、金魚が10匹います \"We have 3 cats, 2 dogs, and 10 goldfish\" 一匹ずつ丁寧に世話をしています \"I take care of each one carefully\" 子供の頃、ハムスターを5匹飼っていました \"When I was a child, I had 5 hamsters\""
+          }
+        ]
+      },
+      {
+        "level": 2,
+        "heading": "Related Grammar Points",
+        "content": "Counter System Basics - How counters work 頭 (tou) - Large animals counter 羽 (wa) - Birds counter 飼う (kau) - To keep/raise pets いる vs ある - Existence verbs Sound changes - Phonetic variations",
+        "children": [
+          {
+            "level": 3,
+            "heading": "Company",
+            "content": "About Pricing Blog Contact"
+          },
+          {
+            "level": 3,
+            "heading": "Legal",
+            "content": "Privacy Policy Terms of Service Cookie Policy"
+          }
+        ]
+      }
+    ],
+    "examples": [
+      {
+        "sentence": "Counter System Basics - How counters work"
+      },
+      {
+        "sentence": "頭 (tou) - Large animals counter"
+      },
+      {
+        "sentence": "羽 (wa) - Birds counter"
+      },
+      {
+        "sentence": "飼う (kau) - To keep/raise pets"
+      },
+      {
+        "sentence": "いる vs ある - Existence verbs"
+      },
+      {
+        "sentence": "Sound changes - Phonetic variations"
+      },
+      {
+        "sentence": "About"
+      },
+      {
+        "sentence": "Pricing"
+      },
+      {
+        "sentence": "Blog"
+      },
+      {
+        "sentence": "Contact"
+      },
+      {
+        "sentence": "Privacy Policy"
+      },
+      {
+        "sentence": "Terms of Service"
+      },
+      {
+        "sentence": "Cookie Policy"
+      }
+    ],
+    "metadata": {
+      "title": "Small Animals (匹)"
+    }
+  },
+  "metadata": {
+    "extracted_at": "2026-01-01T22:19:28.668401200Z",
+    "duration_ms": 5,
+    "extractors_matched": [
+      "metadata",
+      "examples",
+      "sections"
+    ],
+    "extractors_failed": [
+      "vocab_tables",
+      "definitions",
+      "content_blocks"
+    ]
+  }
+}

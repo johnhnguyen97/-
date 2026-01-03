@@ -1,0 +1,316 @@
+{
+  "config_name": "Language Learning Extractor",
+  "url": "https://practice-japanese.com/docs/ku-naru/",
+  "data": {
+    "sections": [
+      {
+        "level": 2,
+        "heading": "What is 〜くなる?",
+        "content": "〜くなる (ku naru) expresses a change in state or condition with い-adjectives, meaning \"become [adjective].\" It indicates that something or someone is changing or has changed to a new state.\n\nEnglish equivalent: \"become [adjective]\"\n\nStructure: Remove い from い-adjective + くなる\n\n暑い (atsui) → 暑くなる (atsuku naru) \"become hot\" 寒い (samui) → 寒くなる (samuku naru) \"become cold\" 大きい (ookii) → 大きくなる (ookiku naru) \"become big\""
+      },
+      {
+        "level": 2,
+        "heading": "Basic Formation",
+        "content": "",
+        "children": [
+          {
+            "level": 3,
+            "heading": "How to form",
+            "content": "[い-adjective stem] + くなる\n\nSteps:\n\nTake い-adjective Remove the final い Add くなる\n\n高い (takai - expensive/high) → 高くなる (takaku naru) 安い (yasui - cheap) → 安くなる (yasuku naru) 難しい (muzukashii - difficult) → 難しくなる (muzukashiku naru) 簡単 (kantan - simple) → 簡単になる (NOT くなる - this is な-adjective)"
+          }
+        ]
+      },
+      {
+        "level": 2,
+        "heading": "Common い-adjectives with くなる",
+        "content": "",
+        "children": [
+          {
+            "level": 3,
+            "heading": "Weather and temperature",
+            "content": "暑くなる (atsuku naru) - \"become hot\" 寒くなる (samuku naru) - \"become cold\" 暖かくなる (atatakaku naru) - \"become warm\" 涼しくなる (suzushiku naru) - \"become cool\" 寒くなってきた。 Samuku natte kita. \"It's gotten cold.\" / \"It's becoming cold.\" 春になると暖かくなる。 Haru ni naru to atatakaku naru. \"When spring comes, it becomes warm.\""
+          },
+          {
+            "level": 3,
+            "heading": "Size and quantity",
+            "content": "大きくなる (ookiku naru) - \"become big/grow\" 小さくなる (chiisaku naru) - \"become small\" 多くなる (ooku naru) - \"become many/increase\" 少なくなる (sukunaku naru) - \"become few/decrease\" 子供が大きくなった。 Kodomo ga ookiku natta. \"The child grew up.\" / \"The child became big.\" 人が多くなってきた。 Hito ga ooku natte kita. \"The number of people has increased.\""
+          },
+          {
+            "level": 3,
+            "heading": "Difficulty and ease",
+            "content": "難しくなる (muzukashiku naru) - \"become difficult\" 易しくなる (yasashiku naru) - \"become easy\" 簡単くなる ❌ (WRONG - 簡単 is な-adjective) 問題が難しくなった。 Mondai ga muzukashiku natta. \"The problem became difficult.\""
+          },
+          {
+            "level": 3,
+            "heading": "Price and cost",
+            "content": "高くなる (takaku naru) - \"become expensive/high\" 安くなる (yasuku naru) - \"become cheap\" 最近野菜が高くなった。 Saikin yasai ga takaku natta. \"Vegetables have become expensive recently.\" セールで安くなる。 Se-ru de yasuku naru. \"It becomes cheap on sale.\""
+          },
+          {
+            "level": 3,
+            "heading": "Speed and time",
+            "content": "早くなる (hayaku naru) - \"become early/fast\" 遅くなる (osoku naru) - \"become late/slow\" 帰りが遅くなった。 Kaeri ga osoku natta. \"I got home late.\" / \"My return became late.\" だんだん早くなる。 Dandan hayaku naru. \"It gradually becomes faster.\""
+          },
+          {
+            "level": 3,
+            "heading": "Emotions and feelings",
+            "content": "嬉しくなる (ureshiku naru) - \"become happy\" 悲しくなる (kanashiku naru) - \"become sad\" 楽しくなる (tanoshiku naru) - \"become fun/enjoyable\" 寂しくなる (sabishiku naru) - \"become lonely\" その話を聞いて嬉しくなった。 Sono hanashi wo kiite ureshiku natta. \"I became happy when I heard that story.\" 一人でいると寂しくなる。 Hitori de iru to sabishiku naru. \"I become lonely when I'm alone.\""
+          },
+          {
+            "level": 3,
+            "heading": "Physical conditions",
+            "content": "痛くなる (itaku naru) - \"become painful\" かゆくなる (kayuku naru) - \"become itchy\" 眠くなる (nemuku naru) - \"become sleepy\" 頭が痛くなった。 Atama ga itaku natta. \"I got a headache.\" / \"My head became painful.\" 夜になると眠くなる。 Yoru ni naru to nemuku naru. \"When night comes, I become sleepy.\""
+          }
+        ]
+      },
+      {
+        "level": 2,
+        "heading": "Tense Variations",
+        "content": "",
+        "children": [
+          {
+            "level": 3,
+            "heading": "Present/Future (will become)",
+            "content": "明日暑くなる。 Ashita atsuku naru. \"It will become hot tomorrow.\" これから難しくなります。 Kore kara muzukashiku narimasu. \"It will become difficult from now on.\""
+          },
+          {
+            "level": 3,
+            "heading": "Past (became)",
+            "content": "昨日寒くなった。 Kinou samuku natta. \"It became cold yesterday.\" 去年より高くなりました。 Kyonen yori takaku narimashita. \"It became more expensive than last year.\""
+          },
+          {
+            "level": 3,
+            "heading": "Progressive (becoming)",
+            "content": "だんだん暗くなってきた。 Dandan kuraku natte kita. \"It's gradually getting dark.\" 最近忙しくなっている。 Saikin isogashiku natte iru. \"I'm getting busy recently.\""
+          }
+        ]
+      },
+      {
+        "level": 2,
+        "heading": "With Gradual Change",
+        "content": "",
+        "children": [
+          {
+            "level": 3,
+            "heading": "だんだん (gradually)",
+            "content": "だんだん大きくなる。 Dandan ookiku naru. \"Gradually become big.\" だんだん難しくなってきた。 Dandan muzukashiku natte kita. \"It's gradually becoming more difficult.\""
+          },
+          {
+            "level": 3,
+            "heading": "少しずつ (little by little)",
+            "content": "少しずつ良くなる。 Sukoshi zutsu yoku naru. \"Get better little by little.\" 少しずつ暖かくなってきた。 Sukoshi zutsu atatakaku natte kita. \"It's getting warm little by little.\""
+          }
+        ]
+      },
+      {
+        "level": 2,
+        "heading": "Conditional Forms",
+        "content": "",
+        "children": [
+          {
+            "level": 3,
+            "heading": "If it becomes...",
+            "content": "暑くなったら、エアコンをつける。 Atsuku nattara, eakon wo tsukeru. \"If it becomes hot, I'll turn on the air conditioner.\" 難しくなったら、助けて。 Muzukashiku nattara, tasukete. \"If it becomes difficult, help me.\" もっと安くなれば買う。 Motto yasuku nareba kau. \"If it becomes cheaper, I'll buy it.\""
+          }
+        ]
+      },
+      {
+        "level": 2,
+        "heading": "Negative Forms",
+        "content": "",
+        "children": [
+          {
+            "level": 3,
+            "heading": "Won't become",
+            "content": "簡単くならない ❌ (WRONG) 難しくならない ✓ Muzukashiku naranai. \"Won't become difficult.\" 安くなりません。 Yasuku narimasen. \"Won't become cheap.\" 大きくならなかった。 Ookiku naranakatta. \"Didn't become big.\""
+          }
+        ]
+      },
+      {
+        "level": 2,
+        "heading": "Causative Patterns",
+        "content": "",
+        "children": [
+          {
+            "level": 3,
+            "heading": "Making something become",
+            "content": "While くなる is for natural change, you can use causative forms:\n\n暑くなる (natural change) - \"become hot\" 暑くする (make it hot) - different pattern See: [〜くする (Make)](/docs/ku-suru)"
+          }
+        ]
+      },
+      {
+        "level": 2,
+        "heading": "Common Expressions",
+        "content": "",
+        "children": [
+          {
+            "level": 3,
+            "heading": "Set phrases",
+            "content": "良くなる (yoku naru) - \"get better\" / \"improve\" 悪くなる (waruku naru) - \"get worse\" / \"deteriorate\" 多くなる (ooku naru) - \"increase\" 少なくなる (sukunaku naru) - \"decrease\" 病気が良くなった。 Byouki ga yoku natta. \"The illness got better.\" 天気が悪くなった。 Tenki ga waruku natta. \"The weather got worse.\""
+          }
+        ]
+      },
+      {
+        "level": 2,
+        "heading": "With Time Expressions",
+        "content": "",
+        "children": [
+          {
+            "level": 3,
+            "heading": "When changes occur",
+            "content": "春になると暖かくなる。 Haru ni naru to atatakaku naru. \"When spring comes, it becomes warm.\" 夜になると静かくなる ❌ (静か is な-adjective) 夜になると静かになる ✓ Yoru ni naru to shizuka ni naru. \"When night comes, it becomes quiet.\" 年を取ると弱くなる。 Toshi wo toru to yowaku naru. \"When you get older, you become weak.\""
+          }
+        ]
+      },
+      {
+        "level": 2,
+        "heading": "Comparing States",
+        "content": "",
+        "children": [
+          {
+            "level": 3,
+            "heading": "Than before",
+            "content": "前より大きくなった。 Mae yori ookiku natta. \"It became bigger than before.\" 去年より暑くなる。 Kyonen yori atsuku naru. \"It will become hotter than last year.\" もっと良くなりたい。 Motto yoku naritai. \"I want to become better.\""
+          }
+        ]
+      },
+      {
+        "level": 2,
+        "heading": "Polite Forms",
+        "content": "",
+        "children": [
+          {
+            "level": 3,
+            "heading": "Formal situations",
+            "content": "Casual: 寒くなる Polite: 寒くなります Past polite: 寒くなりました 明日は寒くなります。 Ashita wa samuku narimasu. \"It will become cold tomorrow.\" 価格が高くなりました。 Kakaku ga takaku narimashita. \"The price has become expensive.\""
+          }
+        ]
+      },
+      {
+        "level": 2,
+        "heading": "Common Mistakes",
+        "content": "",
+        "children": [
+          {
+            "level": 3,
+            "heading": "Mistake 1: Using with な-adjectives",
+            "content": "❌ 簡単くなる (kantan is な-adjective) ✓ 簡単になる\n\n❌ 静かくなる (shizuka is な-adjective) ✓ 静かになる\n\nOnly use くなる with い-adjectives."
+          },
+          {
+            "level": 3,
+            "heading": "Mistake 2: Forgetting to Remove い",
+            "content": "❌ 大きいくなる ✓ 大きくなる\n\nRemove い before adding くなる."
+          },
+          {
+            "level": 3,
+            "heading": "Mistake 3: Using with いい",
+            "content": "Special case: ❌ いいくなる ✓ 良くなる (yoku naru)\n\nいい changes to 良い (yoi) → 良くなる"
+          },
+          {
+            "level": 3,
+            "heading": "Mistake 4: Confusing Natural Change with Causative",
+            "content": "くなる = natural change (becomes) くする = make something change Don't confuse the two."
+          }
+        ]
+      },
+      {
+        "level": 2,
+        "heading": "Summary",
+        "content": "Key Points:\n\nくなる expresses natural change with い-adjectives Formation: Remove い + add くなる Means \"become [adjective]\" Only works with い-adjectives (not な-adjectives) Common with: weather, size, difficulty, price, emotions Tenses: なる (will), なった (became), なっている (becoming) Special case: いい → 良くなる (yoku naru) Different from くする which means \"make\" Essential for describing changes in state",
+        "children": [
+          {
+            "level": 3,
+            "heading": "Company",
+            "content": "About Pricing Blog Contact"
+          },
+          {
+            "level": 3,
+            "heading": "Legal",
+            "content": "Privacy Policy Terms of Service Cookie Policy"
+          }
+        ]
+      }
+    ],
+    "metadata": {
+      "title": "〜くなる (Become - i-adj)"
+    },
+    "examples": [
+      {
+        "sentence": "Take い-adjective"
+      },
+      {
+        "sentence": "Remove the final い"
+      },
+      {
+        "sentence": "Add くなる"
+      },
+      {
+        "sentence": "くなる = natural change (becomes)"
+      },
+      {
+        "sentence": "くする = make something change Don't confuse the two."
+      },
+      {
+        "sentence": "くなる expresses natural change with い-adjectives"
+      },
+      {
+        "sentence": "Formation: Remove い + add くなる"
+      },
+      {
+        "sentence": "Means \"become [adjective]\""
+      },
+      {
+        "sentence": "Only works with い-adjectives (not な-adjectives)"
+      },
+      {
+        "sentence": "Common with: weather, size, difficulty, price, emotions"
+      },
+      {
+        "sentence": "Tenses: なる (will), なった (became), なっている (becoming)"
+      },
+      {
+        "sentence": "Special case: いい → 良くなる (yoku naru)"
+      },
+      {
+        "sentence": "Different from くする which means \"make\""
+      },
+      {
+        "sentence": "Essential for describing changes in state"
+      },
+      {
+        "sentence": "About"
+      },
+      {
+        "sentence": "Pricing"
+      },
+      {
+        "sentence": "Blog"
+      },
+      {
+        "sentence": "Contact"
+      },
+      {
+        "sentence": "Privacy Policy"
+      },
+      {
+        "sentence": "Terms of Service"
+      },
+      {
+        "sentence": "Cookie Policy"
+      }
+    ]
+  },
+  "metadata": {
+    "extracted_at": "2026-01-01T22:19:30.820663500Z",
+    "duration_ms": 3,
+    "extractors_matched": [
+      "metadata",
+      "examples",
+      "sections"
+    ],
+    "extractors_failed": [
+      "vocab_tables",
+      "definitions",
+      "content_blocks"
+    ]
+  }
+}

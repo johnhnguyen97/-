@@ -1,0 +1,390 @@
+{
+  "config_name": "Language Learning Extractor",
+  "url": "https://practice-japanese.com/docs/ba-conditional/",
+  "data": {
+    "metadata": {
+      "title": "ば (ba) - If/When (general)"
+    },
+    "sections": [
+      {
+        "level": 2,
+        "heading": "What is ば Conditional?",
+        "content": "ば expresses general conditions, requirements, or hypothetical situations. It means \"if\" or \"when\" in a general sense, often implying \"if X, then Y is possible/will happen.\"\n\n安ければ、買います \"If it's cheap, I'll buy it\" 頑張れば、できる \"If you try hard, you can do it\" 時間があれば、手伝います \"If I have time, I'll help\""
+      },
+      {
+        "level": 2,
+        "heading": "Formation",
+        "content": "",
+        "children": [
+          {
+            "level": 3,
+            "heading": "With verbs: Change final う sound to え + ば",
+            "content": "| Dictionary | ば-form | Rule | | ---------- | ------- | --------- | | 書く | 書けば | く → けば | | 読む | 読めば | む → めば | | 話す | 話せば | す → せば | | 待つ | 待てば | つ → てば | | 死ぬ | 死ねば | ぬ → ねば | | 買う | 買えば | う → えば | | 飲む | 飲めば | む → めば | | 遊ぶ | 遊べば | ぶ → べば | | 行く | 行けば | く → けば |"
+          },
+          {
+            "level": 3,
+            "heading": "Irregular verbs",
+            "content": "する → すれば 来る → 来れば (くれば)"
+          },
+          {
+            "level": 3,
+            "heading": "With い-adjectives: Remove い + ければ",
+            "content": "高い → 高ければ (If it's expensive) 安い → 安ければ (If it's cheap) いい/良い → 良ければ (よければ) (If it's good) ない → なければ (If there isn't)"
+          },
+          {
+            "level": 3,
+            "heading": "With な-adjectives and nouns: + であれば / ならば",
+            "content": "静か → 静かであれば / 静かならば (If it's quiet) 学生 → 学生であれば / 学生ならば (If (someone is) a student) 雨 → 雨であれば / 雨ならば (If it's rain) Often shortened to なら in modern Japanese"
+          }
+        ]
+      },
+      {
+        "level": 2,
+        "heading": "Basic Usage",
+        "content": "",
+        "children": [
+          {
+            "level": 3,
+            "heading": "General conditions",
+            "content": "時間があれば、行きます \"If I have time, I'll go\" 安ければ、買います \"If it's cheap, I'll buy it\" 分からなければ、聞いてください \"If you don't understand, please ask\""
+          },
+          {
+            "level": 3,
+            "heading": "Requirements/prerequisites",
+            "content": "勉強すれば、合格できる \"If you study, you can pass\" 頑張れば、夢は叶う \"If you try hard, dreams come true\" 練習すれば、上手になる \"If you practice, you'll improve\""
+          },
+          {
+            "level": 3,
+            "heading": "Hypothetical situations",
+            "content": "お金があれば、旅行したい \"If I had money, I'd want to travel\" もっと時間があれば、もっと勉強できるのに \"If I had more time, I could study more\" 彼がいれば、楽しいだろう \"If he were here, it would be fun\""
+          }
+        ]
+      },
+      {
+        "level": 2,
+        "heading": "Key Characteristics",
+        "content": "",
+        "children": [
+          {
+            "level": 3,
+            "heading": "Can use with commands/requests",
+            "content": "暇なら、手伝ってください ✓ \"If you're free, please help\" 分からなければ、聞いてね ✓ \"If you don't understand, ask me\" Commands are OK after ば"
+          },
+          {
+            "level": 3,
+            "heading": "Cannot use with past tense results",
+            "content": "Wrong: 行けば、いなかった ❌ Right: 行ったら、いなかった ✓ \"When I went, he wasn't there\" Cannot describe past discoveries with ば"
+          },
+          {
+            "level": 3,
+            "heading": "Often with potential form",
+            "content": "頑張れば、できる \"If you try hard, you can do it\" 練習すれば、上手になれる \"If you practice, you can improve\""
+          }
+        ]
+      },
+      {
+        "level": 2,
+        "heading": "Common Conversations",
+        "content": "",
+        "children": [
+          {
+            "level": 3,
+            "heading": "Example 1: Making Plans",
+            "content": "A: 明日、映画に行かない？ \"Won't you go to a movie tomorrow?\" B: 時間があれば、行きたいな \"If I have time, I'd like to go\" A: じゃあ、連絡してね \"Then, let me know\""
+          },
+          {
+            "level": 3,
+            "heading": "Example 2: Asking for Help",
+            "content": "A: この問題が分からないんだけど \"I don't understand this problem\" B: よければ、教えるよ \"If you'd like, I'll teach you\" A: 本当？ありがとう！ \"Really? Thank you!\""
+          },
+          {
+            "level": 3,
+            "heading": "Example 3: Giving Advice",
+            "content": "A: 試験、心配だな \"I'm worried about the exam\" B: もっと勉強すれば、大丈夫だよ \"If you study more, you'll be fine\" A: そうだね、頑張る \"You're right, I'll try hard\""
+          }
+        ]
+      },
+      {
+        "level": 2,
+        "heading": "Common Mistakes",
+        "content": "",
+        "children": [
+          {
+            "level": 3,
+            "heading": "Mistake 1: Using with past results",
+            "content": "Wrong: 家に帰れば、猫が寝ていた ❌ Right: 家に帰ったら、猫が寝ていた ✓ \"When I got home, the cat was sleeping\" Use たら for past discoveries"
+          },
+          {
+            "level": 3,
+            "heading": "Mistake 2: Wrong conjugation",
+            "content": "Wrong: 行きば ❌ Right: 行けば ✓ \"If (you) go\" Change う sound to え, then add ば"
+          },
+          {
+            "level": 3,
+            "heading": "Mistake 3: Overusing in casual speech",
+            "content": "Too formal: 暇なら、遊ぼう ⚠️ More natural: 暇だったら、遊ぼう ✓ \"If you're free, let's hang out\" たら is more common in casual speech"
+          }
+        ]
+      },
+      {
+        "level": 2,
+        "heading": "ば in Set Phrases",
+        "content": "",
+        "children": [
+          {
+            "level": 3,
+            "heading": "～ば～ほど (the more... the more...)",
+            "content": "見れば見るほど、好きになる \"The more I look, the more I like it\" 練習すれば練習するほど、上手になる \"The more you practice, the better you become\""
+          },
+          {
+            "level": 3,
+            "heading": "～ばいい / ～ばよかった",
+            "content": "どうすればいい？ \"What should I do?\" (lit: If I do what, is it good?) もっと勉強すればよかった \"I should have studied more\""
+          },
+          {
+            "level": 3,
+            "heading": "～なければならない (must)",
+            "content": "行かなければならない \"I must go\" 勉強しなければならない \"I must study\" Obligation pattern"
+          }
+        ]
+      },
+      {
+        "level": 2,
+        "heading": "Expressing Requirements",
+        "content": "",
+        "children": [
+          {
+            "level": 3,
+            "heading": "Prerequisites",
+            "content": "会員になれば、割引がもらえる \"If you become a member, you get a discount\" 申請すれば、許可される \"If you apply, it will be approved\" 登録すれば、使える \"If you register, you can use it\""
+          }
+        ]
+      },
+      {
+        "level": 2,
+        "heading": "Giving Conditions",
+        "content": "",
+        "children": [
+          {
+            "level": 3,
+            "heading": "For achieving goals",
+            "content": "毎日練習すれば、必ず上達する \"If you practice every day, you'll definitely improve\" 諦めなければ、いつか成功する \"If you don't give up, you'll succeed someday\" 早く寝れば、朝すっきり起きられる \"If you sleep early, you can wake up refreshed\""
+          }
+        ]
+      },
+      {
+        "level": 2,
+        "heading": "Hypothetical Wishes",
+        "content": "",
+        "children": [
+          {
+            "level": 3,
+            "heading": "Expressing desires",
+            "content": "お金があれば、世界中を旅行したい \"If I had money, I'd want to travel around the world\" 時間があれば、もっと勉強できるのに \"If I had time, I could study more\" 彼がいれば、寂しくないのに \"If he were here, I wouldn't be lonely\""
+          }
+        ]
+      },
+      {
+        "level": 2,
+        "heading": "ば vs たら",
+        "content": "",
+        "children": [
+          {
+            "level": 3,
+            "heading": "ば - General/formal",
+            "content": "安ければ、買います \"If it's cheap, I'll buy it\" (general condition) More formal feeling Abstract condition"
+          },
+          {
+            "level": 3,
+            "heading": "たら - Specific/casual",
+            "content": "安かったら、買います \"If it's cheap, I'll buy it\" (specific instance) More casual Concrete situation"
+          },
+          {
+            "level": 3,
+            "heading": "Both often work",
+            "content": "時間があれば、行きます ✓ 時間があったら、行きます ✓ \"If I have time, I'll go\" Slight nuance difference"
+          }
+        ]
+      },
+      {
+        "level": 2,
+        "heading": "Negative Form",
+        "content": "",
+        "children": [
+          {
+            "level": 3,
+            "heading": "～なければ (if not)",
+            "content": "急がなければ、遅れる \"If you don't hurry, you'll be late\" 勉強しなければ、合格できない \"If you don't study, you can't pass\" 行かなければならない \"(I) must go\" (if I don't go, it's not good)"
+          }
+        ]
+      },
+      {
+        "level": 2,
+        "heading": "Formal Patterns",
+        "content": "",
+        "children": [
+          {
+            "level": 3,
+            "heading": "～であれば (formal)",
+            "content": "学生であれば、割引があります \"If you're a student, there's a discount\" 可能であれば、お願いします \"If it's possible, please (do it)\" More formal than なら"
+          }
+        ]
+      },
+      {
+        "level": 2,
+        "heading": "Common Set Expressions",
+        "content": "",
+        "children": [
+          {
+            "level": 3,
+            "heading": "どうすればいい",
+            "content": "どうすればいいですか \"What should I do?\" 何を食べればいい？ \"What should I eat?\" Asking for advice"
+          },
+          {
+            "level": 3,
+            "heading": "～ば～ほど",
+            "content": "考えれば考えるほど、分からなくなる \"The more I think, the less I understand\" 勉強すれば勉強するほど、面白くなる \"The more I study, the more interesting it becomes\""
+          },
+          {
+            "level": 3,
+            "heading": "あれば／いれば",
+            "content": "お金があれば - If there's money 時間があれば - If there's time 人がいれば - If there are people"
+          }
+        ]
+      },
+      {
+        "level": 2,
+        "heading": "Politeness Levels",
+        "content": "",
+        "children": [
+          {
+            "level": 3,
+            "heading": "Casual: plain + ば",
+            "content": "安ければ、買う \"If it's cheap, I'll buy\""
+          },
+          {
+            "level": 3,
+            "heading": "Polite: plain + ば + polite ending",
+            "content": "安ければ、買います \"If it's cheap, I'll buy\" Common pattern"
+          }
+        ]
+      },
+      {
+        "level": 2,
+        "heading": "With Different Verb Types",
+        "content": "",
+        "children": [
+          {
+            "level": 3,
+            "heading": "Godan verbs",
+            "content": "書く → 書けば (if you write) 読む → 読めば (if you read) 話す → 話せば (if you speak)"
+          },
+          {
+            "level": 3,
+            "heading": "Ichidan verbs",
+            "content": "食べる → 食べれば (if you eat) 見る → 見れば (if you see) 起きる → 起きれば (if you wake up)"
+          },
+          {
+            "level": 3,
+            "heading": "Irregular verbs",
+            "content": "する → すれば (if you do) 来る → 来れば (if you come)"
+          }
+        ]
+      },
+      {
+        "level": 2,
+        "heading": "Practice Sentences",
+        "content": "",
+        "children": [
+          {
+            "level": 3,
+            "heading": "Basic",
+            "content": "時間があれば、行きます \"If I have time, I'll go\" 分からなければ、聞いてください \"If you don't understand, please ask\" 安ければ、買いたい \"If it's cheap, I want to buy it\""
+          },
+          {
+            "level": 3,
+            "heading": "Intermediate",
+            "content": "もっと勉強すれば、試験に合格できると思います \"If you study more, I think you can pass the exam\" よければ、一緒に食事に行きませんか \"If you'd like, won't you go to dinner together?\" 毎日練習すれば、必ず上手になります \"If you practice every day, you'll definitely improve\""
+          },
+          {
+            "level": 3,
+            "heading": "Advanced",
+            "content": "この問題を解決したければ、まず原因を 特定しなければならない。原因が分かれば、 対策を立てることができる。 \"If you want to solve this problem, first you must identify the cause. If you understand the cause, you can formulate countermeasures.\" もし私にもっと時間とお金があれば、 世界中を旅して、様々な文化を学びたい。 そうすれば、もっと広い視野を持てるだろう。 \"If I had more time and money, I'd want to travel around the world and learn about various cultures. If I did that, I could have a broader perspective.\""
+          }
+        ]
+      },
+      {
+        "level": 2,
+        "heading": "Related Grammar Points",
+        "content": "たら conditional - Hypothetical/sequential と conditional - Natural consequence なら conditional - Contextual Conditionals overview - All conditional forms 〜ば〜ほど - The more... the more 〜なければならない - Must/have to",
+        "children": [
+          {
+            "level": 3,
+            "heading": "Company",
+            "content": "About Pricing Blog Contact"
+          },
+          {
+            "level": 3,
+            "heading": "Legal",
+            "content": "Privacy Policy Terms of Service Cookie Policy"
+          }
+        ]
+      }
+    ],
+    "examples": [
+      {
+        "sentence": "たら conditional - Hypothetical/sequential"
+      },
+      {
+        "sentence": "と conditional - Natural consequence"
+      },
+      {
+        "sentence": "なら conditional - Contextual"
+      },
+      {
+        "sentence": "Conditionals overview - All conditional forms"
+      },
+      {
+        "sentence": "〜ば〜ほど - The more... the more"
+      },
+      {
+        "sentence": "〜なければならない - Must/have to"
+      },
+      {
+        "sentence": "About"
+      },
+      {
+        "sentence": "Pricing"
+      },
+      {
+        "sentence": "Blog"
+      },
+      {
+        "sentence": "Contact"
+      },
+      {
+        "sentence": "Privacy Policy"
+      },
+      {
+        "sentence": "Terms of Service"
+      },
+      {
+        "sentence": "Cookie Policy"
+      }
+    ]
+  },
+  "metadata": {
+    "extracted_at": "2026-01-01T22:19:28.291247800Z",
+    "duration_ms": 4,
+    "extractors_matched": [
+      "metadata",
+      "examples",
+      "sections"
+    ],
+    "extractors_failed": [
+      "vocab_tables",
+      "definitions",
+      "content_blocks"
+    ]
+  }
+}

@@ -1,0 +1,300 @@
+{
+  "config_name": "Language Learning Extractor",
+  "url": "https://practice-japanese.com/docs/na-adjective-conjugation/",
+  "data": {
+    "metadata": {
+      "title": "Na-adjective Conjugation"
+    },
+    "examples": [
+      {
+        "sentence": "Na-adjectives"
+      },
+      {
+        "sentence": "I-adjective Conjugation"
+      },
+      {
+        "sentence": "Adjective Past Tense"
+      },
+      {
+        "sentence": "About"
+      },
+      {
+        "sentence": "Pricing"
+      },
+      {
+        "sentence": "Blog"
+      },
+      {
+        "sentence": "Contact"
+      },
+      {
+        "sentence": "Privacy Policy"
+      },
+      {
+        "sentence": "Terms of Service"
+      },
+      {
+        "sentence": "Cookie Policy"
+      }
+    ],
+    "sections": [
+      {
+        "level": 2,
+        "heading": "Na-adjective Conjugation Overview",
+        "content": "Na-adjectives conjugate using the copula (だ/です) like nouns. They don't change form themselves - the copula changes.\n\n静か (shizuka) - quiet 静かだ - is quiet 静かじゃない - is not quiet 静かだった - was quiet 静かじゃなかった - was not quiet"
+      },
+      {
+        "level": 2,
+        "heading": "Basic Conjugation Pattern",
+        "content": "",
+        "children": [
+          {
+            "level": 3,
+            "heading": "Present Affirmative (Plain)",
+            "content": "Na-adjective + だ\n\n静かだ - is quiet 便利だ - is convenient きれいだ - is beautiful 元気だ - is energetic"
+          },
+          {
+            "level": 3,
+            "heading": "Present Affirmative (Polite)",
+            "content": "Na-adjective + です\n\n静かです - is quiet (polite) 便利です - is convenient (polite) きれいです - is beautiful (polite) 元気です - is energetic (polite)"
+          },
+          {
+            "level": 3,
+            "heading": "Present Negative (Plain)",
+            "content": "Na-adjective + じゃない or ではない\n\n静かじゃない / 静かではない - is not quiet 便利じゃない / 便利ではない - is not convenient きれいじゃない / きれいではない - is not beautiful\n\nじゃない = casual ではない = formal"
+          },
+          {
+            "level": 3,
+            "heading": "Present Negative (Polite)",
+            "content": "Na-adjective + じゃないです or じゃありません\n\n静かじゃないです / 静かじゃありません \"is not quiet\" (polite) 便利じゃないです / 便利じゃありません \"is not convenient\" (polite)"
+          },
+          {
+            "level": 3,
+            "heading": "Past Affirmative (Plain)",
+            "content": "Na-adjective + だった\n\n静かだった - was quiet 便利だった - was convenient きれいだった - was beautiful 元気だった - was energetic"
+          },
+          {
+            "level": 3,
+            "heading": "Past Affirmative (Polite)",
+            "content": "Na-adjective + でした\n\n静かでした - was quiet (polite) 便利でした - was convenient (polite) きれいでした - was beautiful (polite) 元気でした - was energetic (polite)"
+          },
+          {
+            "level": 3,
+            "heading": "Past Negative (Plain)",
+            "content": "Na-adjective + じゃなかった or ではなかった\n\n静かじゃなかった / 静かではなかった - was not quiet 便利じゃなかった / 便利ではなかった - was not convenient きれいじゃなかった / きれいではなかった - was not beautiful"
+          },
+          {
+            "level": 3,
+            "heading": "Past Negative (Polite)",
+            "content": "Na-adjective + じゃなかったです or じゃありませんでした\n\n静かじゃなかったです / 静かじゃありませんでした \"was not quiet\" (polite) 便利じゃなかったです / 便利じゃありませんでした \"was not convenient\" (polite)"
+          }
+        ]
+      },
+      {
+        "level": 2,
+        "heading": "Complete Conjugation Chart",
+        "content": "| Form | Pattern | Example (静か) | Meaning | | ---------------------- | ---------------- | -------------------- | ------------- | | Present | だ | 静かだ | is quiet | | Present (polite) | です | 静かです | is quiet | | Negative | じゃない | 静かじゃない | is not quiet | | Negative (polite) | じゃないです | 静かじゃないです | is not quiet | | Past | だった | 静かだった | was quiet | | Past (polite) | でした | 静かでした | was quiet | | Past negative | じゃなかった | 静かじゃなかった | was not quiet | | Past negative (polite) | じゃなかったです | 静かじゃなかったです | was not quiet |"
+      },
+      {
+        "level": 2,
+        "heading": "Connective Form (て-form)",
+        "content": "Na-adjective + で\n\n静かで - quiet and... 便利で - convenient and... きれいで - beautiful and...",
+        "children": [
+          {
+            "level": 3,
+            "heading": "Usage",
+            "content": "この部屋は静かで広い \"This room is quiet and spacious\" この町は便利で安全です \"This town is convenient and safe\""
+          }
+        ]
+      },
+      {
+        "level": 2,
+        "heading": "Modifying Nouns",
+        "content": "Na-adjective + な + noun\n\n静かな部屋 - quiet room 便利な店 - convenient store きれいな花 - beautiful flower 元気な子供 - energetic child\n\nImportant: Drop な when used as predicate!\n\n部屋は静かだ ✓ (NOT 静かなだ) \"The room is quiet\""
+      },
+      {
+        "level": 2,
+        "heading": "Adverb Form",
+        "content": "Na-adjective + に\n\n静か → 静かに (quietly) 便利 → 便利に (conveniently) きれい → きれいに (beautifully, cleanly)",
+        "children": [
+          {
+            "level": 3,
+            "heading": "Usage",
+            "content": "静かに話す \"speak quietly\" きれいに書く \"write neatly\" 便利に使う \"use conveniently\""
+          }
+        ]
+      },
+      {
+        "level": 2,
+        "heading": "Practical Conjugation Examples",
+        "content": "",
+        "children": [
+          {
+            "level": 3,
+            "heading": "静か (quiet)",
+            "content": "静かだ - is quiet 静かです - is quiet (polite) 静かじゃない - is not quiet 静かじゃないです - is not quiet (polite) 静かだった - was quiet 静かでした - was quiet (polite) 静かじゃなかった - was not quiet 静かじゃなかったです - was not quiet (polite) 静かで - quiet and... 静かに - quietly 静かな部屋 - quiet room"
+          },
+          {
+            "level": 3,
+            "heading": "きれい (beautiful)",
+            "content": "きれいだ - is beautiful きれいです - is beautiful (polite) きれいじゃない - is not beautiful きれいじゃないです - is not beautiful (polite) きれいだった - was beautiful きれいでした - was beautiful (polite) きれいじゃなかった - was not beautiful きれいじゃなかったです - was not beautiful (polite) きれいで - beautiful and... きれいに - beautifully きれいな花 - beautiful flower"
+          },
+          {
+            "level": 3,
+            "heading": "便利 (convenient)",
+            "content": "便利だ - is convenient 便利です - is convenient (polite) 便利じゃない - is not convenient 便利じゃないです - is not convenient (polite) 便利だった - was convenient 便利でした - was convenient (polite) 便利じゃなかった - was not convenient 便利じゃなかったです - was not convenient (polite) 便利で - convenient and... 便利に - conveniently 便利な店 - convenient store"
+          },
+          {
+            "level": 3,
+            "heading": "元気 (energetic/healthy)",
+            "content": "元気だ - is energetic 元気です - is energetic (polite) 元気じゃない - is not energetic 元気じゃないです - is not energetic (polite) 元気だった - was energetic 元気でした - was energetic (polite) 元気じゃなかった - was not energetic 元気じゃなかったです - was not energetic (polite) 元気で - energetic and... 元気に - energetically 元気な子供 - energetic child"
+          }
+        ]
+      },
+      {
+        "level": 2,
+        "heading": "Common Mistakes",
+        "content": "",
+        "children": [
+          {
+            "level": 3,
+            "heading": "Mistake 1: Adding い to Na-adjectives",
+            "content": "Wrong: 静かい ❌ Right: 静かだ ✓ Wrong: 便利い ❌ Right: 便利だ ✓"
+          },
+          {
+            "level": 3,
+            "heading": "Mistake 2: Forgetting な with Nouns",
+            "content": "Wrong: 静か部屋 ❌ Right: 静かな部屋 ✓ Wrong: きれい花 ❌ Right: きれいな花 ✓"
+          },
+          {
+            "level": 3,
+            "heading": "Mistake 3: Using な in Predicate",
+            "content": "Wrong: 部屋は静かなです ❌ Right: 部屋は静かです ✓ Wrong: 花はきれいなです ❌ Right: 花はきれいです ✓"
+          },
+          {
+            "level": 3,
+            "heading": "Mistake 4: Wrong Negative Form",
+            "content": "Wrong: 静かくない ❌ Right: 静かじゃない ✓ Wrong: 便利くない ❌ Right: 便利じゃない ✓"
+          }
+        ]
+      },
+      {
+        "level": 2,
+        "heading": "じゃ vs では",
+        "content": "じゃ = casual では = formal\n\nCasual: 静かじゃない 静かじゃなかった Formal: 静かではない 静かではなかった\n\nBoth are correct - choose based on context!"
+      },
+      {
+        "level": 2,
+        "heading": "Sentence Examples",
+        "content": "",
+        "children": [
+          {
+            "level": 3,
+            "heading": "Present",
+            "content": "この町は静かだ \"This town is quiet\" その店は便利です \"That store is convenient\""
+          },
+          {
+            "level": 3,
+            "heading": "Present Negative",
+            "content": "ここは静かじゃない \"Here is not quiet\" あの場所は便利じゃないです \"That place is not convenient\""
+          },
+          {
+            "level": 3,
+            "heading": "Past",
+            "content": "昨日は暇だった \"Yesterday I was free\" その映画は有名でした \"That movie was famous\""
+          },
+          {
+            "level": 3,
+            "heading": "Past Negative",
+            "content": "子供の時、野菜が好きじゃなかった \"When I was a child, I didn't like vegetables\" その問題は簡単じゃなかったです \"That problem was not simple\""
+          },
+          {
+            "level": 3,
+            "heading": "Connective",
+            "content": "彼女はきれいで親切だ \"She is beautiful and kind\" この部屋は静かで広いです \"This room is quiet and spacious\""
+          }
+        ]
+      },
+      {
+        "level": 2,
+        "heading": "Conversation Examples",
+        "content": "",
+        "children": [
+          {
+            "level": 3,
+            "heading": "Example 1: Describing Places",
+            "content": "A: この図書館はどうですか？ \"How is this library?\" B: 静かで便利です \"It's quiet and convenient\" A: きれいですか？ \"Is it clean?\" B: はい、とてもきれいです \"Yes, it's very clean\""
+          },
+          {
+            "level": 3,
+            "heading": "Example 2: Talking About People",
+            "content": "A: 田中さんはどんな人ですか？ \"What kind of person is Tanaka?\" B: とても親切な人です \"He's a very kind person\" A: 日本語は上手ですか？ \"Is he good at Japanese?\" B: はい、とても上手です \"Yes, he's very good\""
+          },
+          {
+            "level": 3,
+            "heading": "Example 3: Past Experience",
+            "content": "A: パーティーはどうだった？ \"How was the party?\" B: とてもにぎやかだった \"It was very lively\" A: 楽しかった？ \"Was it fun?\" B: うん、すごく楽しかった \"Yeah, it was really fun\""
+          }
+        ]
+      },
+      {
+        "level": 2,
+        "heading": "Comparing I-adj and Na-adj Conjugation",
+        "content": "| Form | I-adjective (高い) | Na-adjective (静か) | | ---------- | ------------------ | ------------------- | | Present | 高い | 静かだ | | Negative | 高くない | 静かじゃない | | Past | 高かった | 静かだった | | Past neg | 高くなかった | 静かじゃなかった | | Connective | 高くて | 静かで | | Adverb | 高く | 静かに | | + Noun | 高い車 | 静かな車 |"
+      },
+      {
+        "level": 2,
+        "heading": "Special Na-adjectives",
+        "content": "",
+        "children": [
+          {
+            "level": 3,
+            "heading": "好き/嫌い (like/dislike)",
+            "content": "Use with が particle:\n\n私は寿司が好きです \"I like sushi\" Conjugation: 好きだ、好きじゃない、好きだった、好きじゃなかった"
+          },
+          {
+            "level": 3,
+            "heading": "上手/下手 (good at/bad at)",
+            "content": "彼は日本語が上手です \"He's good at Japanese\" Conjugation: 上手だ、上手じゃない、上手だった、上手じゃなかった"
+          }
+        ]
+      },
+      {
+        "level": 2,
+        "heading": "Summary Pattern",
+        "content": "Base: 静か + だ/です (present) + じゃない/ではない (negative) + だった/でした (past) + じゃなかった/ではなかった (past negative) + で (connective) + に (adverb) + な (before nouns)"
+      },
+      {
+        "level": 2,
+        "heading": "Key Takeaways",
+        "content": "✓ Na-adjectives conjugate with copula (だ/です) ✓ Use な before nouns ✓ Negative: じゃない (casual) / ではない (formal) ✓ Past: だった/でした ✓ Connective: で ✓ Adverb: に ✓ Same pattern as noun conjugation ✓ No change to adjective itself\n\nMaster na-adjective conjugation - it follows noun patterns!\n\nNext: Adjective Present Tense\n\nRelated:\n\nNa-adjectives I-adjective Conjugation Adjective Past Tense",
+        "children": [
+          {
+            "level": 3,
+            "heading": "Company",
+            "content": "About Pricing Blog Contact"
+          },
+          {
+            "level": 3,
+            "heading": "Legal",
+            "content": "Privacy Policy Terms of Service Cookie Policy"
+          }
+        ]
+      }
+    ]
+  },
+  "metadata": {
+    "extracted_at": "2026-01-01T22:19:31.414345Z",
+    "duration_ms": 3,
+    "extractors_matched": [
+      "metadata",
+      "examples",
+      "sections"
+    ],
+    "extractors_failed": [
+      "vocab_tables",
+      "definitions",
+      "content_blocks"
+    ]
+  }
+}

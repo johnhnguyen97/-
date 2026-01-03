@@ -1,0 +1,437 @@
+{
+  "config_name": "Language Learning Extractor",
+  "url": "https://practice-japanese.com/docs/tari-tari/",
+  "data": {
+    "sections": [
+      {
+        "level": 2,
+        "heading": "What is 〜たり〜たり?",
+        "content": "〜たり〜たりする (tari tari suru) is a pattern for listing multiple actions or states as examples, often translated as \"doing things like... and...\" or \"sometimes... sometimes...\" It suggests there are more activities than just the ones mentioned.\n\nEnglish equivalents:\n\n\"doing things like... and...\" \"such as... and...\" \"sometimes... and sometimes...\" \"...and such\"\n\nKey characteristic: Always ends with する (or its conjugations)\n\n週末は映画を見たり買い物をしたりします。 Shuumatsu wa eiga wo mitari kaimono wo shitari shimasu. \"On weekends, I do things like watch movies and go shopping.\" 彼は笑ったり泣いたりする。 Kare wa warattari naitari suru. \"He laughs and cries.\" / \"He sometimes laughs and sometimes cries.\""
+      },
+      {
+        "level": 2,
+        "heading": "Basic Structure",
+        "content": "",
+        "children": [
+          {
+            "level": 3,
+            "heading": "Formation",
+            "content": "[Verb た-form] + り + [Verb た-form] + り + する\n\nSteps to form:\n\nChange verb to た-form (past tense) Replace た with たり Repeat for other verbs End with する\n\n食べる (taberu) → 食べた (tabeta) → 食べたり (tabetari) 飲む (nomu) → 飲んだ (nonda) → 飲んだり (nondari) 食べたり飲んだりする Tabetari nondari suru \"Eat, drink, and such\""
+          }
+        ]
+      },
+      {
+        "level": 2,
+        "heading": "Basic Examples",
+        "content": "",
+        "children": [
+          {
+            "level": 3,
+            "heading": "Two actions",
+            "content": "本を読んだり音楽を聞いたりします。 Hon wo yondari ongaku wo kiitari shimasu. \"I do things like read books and listen to music.\" 歩いたり走ったりする。 Aruitari hashittari suru. \"I walk and run.\" / \"I sometimes walk and sometimes run.\" 泣いたり笑ったりした。 Naitari warattari shita. \"I cried and laughed.\""
+          },
+          {
+            "level": 3,
+            "heading": "Three or more actions",
+            "content": "週末は映画を見たり買い物をしたり友達に会ったりします。 Shuumatsu wa eiga wo mitari kaimono wo shitari tomodachi ni attari shimasu. \"On weekends, I do things like watch movies, go shopping, and meet friends.\"\n\nNote: Usually list 2-3 actions; more sounds unnatural."
+          }
+        ]
+      },
+      {
+        "level": 2,
+        "heading": "Different Verb Types",
+        "content": "",
+        "children": [
+          {
+            "level": 3,
+            "heading": "う-verbs (Group 1)",
+            "content": "書く (kaku) → 書いた → 書いたり (kaitari) 話す (hanasu) → 話した → 話したり (hanashitari) 読む (yomu) → 読んだ → 読んだり (yondari)"
+          },
+          {
+            "level": 3,
+            "heading": "る-verbs (Group 2)",
+            "content": "食べる (taberu) → 食べた → 食べたり (tabetari) 見る (miru) → 見た → 見たり (mitari) 寝る (neru) → 寝た → 寝たり (netari)"
+          },
+          {
+            "level": 3,
+            "heading": "Irregular verbs",
+            "content": "する (suru) → した → したり (shitari) 来る (kuru) → 来た (kita) → 来たり (kitari)"
+          }
+        ]
+      },
+      {
+        "level": 2,
+        "heading": "Meanings and Usage",
+        "content": "",
+        "children": [
+          {
+            "level": 3,
+            "heading": "1. Giving Examples of Actions",
+            "content": "Most common use - listing sample activities:\n\n休日は掃除をしたり料理をしたりします。 Kyuujitsu wa souji wo shitari ryouri wo shitari shimasu. \"On holidays, I do things like cleaning and cooking.\" 彼は歌を歌ったり踊ったりする。 Kare wa uta wo utattari odottari suru. \"He does things like sing and dance.\""
+          },
+          {
+            "level": 3,
+            "heading": "2. Alternating Actions",
+            "content": "Actions that alternate or happen repeatedly:\n\n波が寄せたり引いたりする。 Nami ga yosetari hiitari suru. \"The waves come in and go out.\" 気温が上がったり下がったりする。 Kion ga agattari sagattari suru. \"The temperature rises and falls.\" 彼女は笑ったり泣いたりしている。 Kanojo wa warattari naitari shite iru. \"She's laughing and crying.\" [Alternating emotions]"
+          },
+          {
+            "level": 3,
+            "heading": "3. Recurring Activities",
+            "content": "Things done regularly or habitually:\n\n毎日走ったり泳いだりしています。 Mainichi hashittari oyoidari shite imasu. \"Every day I do things like run and swim.\" 週末は友達と遊んだり家で休んだりする。 Shuumatsu wa tomodachi to asondari ie de yasundari suru. \"On weekends I hang out with friends, rest at home, and such.\""
+          }
+        ]
+      },
+      {
+        "level": 2,
+        "heading": "Tense Variations",
+        "content": "",
+        "children": [
+          {
+            "level": 3,
+            "heading": "Present tense (〜する)",
+            "content": "毎日勉強したり遊んだりします。 Mainichi benkyou shitari asondari shimasu. \"Every day I study, play, and such.\""
+          },
+          {
+            "level": 3,
+            "heading": "Past tense (〜した)",
+            "content": "昨日は映画を見たり買い物をしたりしました。 Kinou wa eiga wo mitari kaimono wo shitari shimashita. \"Yesterday I watched movies, went shopping, and such.\""
+          },
+          {
+            "level": 3,
+            "heading": "Progressive (〜している)",
+            "content": "今、本を読んだり音楽を聞いたりしています。 Ima, hon wo yondari ongaku wo kiitari shite imasu. \"Right now I'm reading books, listening to music, and such.\""
+          },
+          {
+            "level": 3,
+            "heading": "Negative (〜しない)",
+            "content": "週末は仕事をしたり勉強したりしません。 Shuumatsu wa shigoto wo shitari benkyou shitari shimasen. \"On weekends I don't do things like work or study.\""
+          },
+          {
+            "level": 3,
+            "heading": "Want to (〜したい)",
+            "content": "日本で寿司を食べたり温泉に入ったりしたい。 Nihon de sushi wo tabetari onsen ni haittari shitai. \"In Japan, I want to do things like eat sushi and go to hot springs.\""
+          }
+        ]
+      },
+      {
+        "level": 2,
+        "heading": "With Adjectives",
+        "content": "",
+        "children": [
+          {
+            "level": 3,
+            "heading": "い-adjectives",
+            "content": "Change to かった + り:\n\nStructure: い → かった → かったり\n\n大きかったり小さかったりする。 Ookikattari chiisakattari suru. \"It's big and small.\" / \"It's sometimes big and sometimes small.\" 暑かったり寒かったりする。 Atsukattari samukattari suru. \"It's hot and cold.\" / \"Sometimes it's hot and sometimes it's cold.\" 楽しかったり悲しかったりした。 Tanoshikattari kanashikattari shita. \"It was fun and sad.\""
+          },
+          {
+            "level": 3,
+            "heading": "な-adjectives and nouns",
+            "content": "Change to だった + り:\n\nStructure: な-adj/noun + だった → だったり\n\n静かだったり賑やかだったりする。 Shizuka dattari nigiyaka dattari suru. \"It's quiet and lively.\" / \"Sometimes quiet and sometimes lively.\" 簡単だったり難しかったりする。 Kantan dattari muzukashikattari suru. \"It's easy and difficult.\" / \"Sometimes easy and sometimes difficult.\" 学生だったり社会人だったりする。 Gakusei dattari shakaijin dattari suru. \"There are students and working adults.\""
+          }
+        ]
+      },
+      {
+        "level": 2,
+        "heading": "Particle Usage",
+        "content": "",
+        "children": [
+          {
+            "level": 3,
+            "heading": "を can be kept or dropped",
+            "content": "本を読んだり音楽を聞いたりする。 Hon wo yondari ongaku wo kiitari suru. \"I read books, listen to music, and such.\" 本読んだり音楽聞いたりする。 Hon yondari ongaku kiitari suru. [Same meaning, more casual]"
+          },
+          {
+            "level": 3,
+            "heading": "は and が usually kept",
+            "content": "彼は歌ったり踊ったりする。 Kare wa utattari odottari suru. \"He sings, dances, and such.\" 雨が降ったり止んだりする。 Ame ga futtari yandari suru. \"The rain falls and stops.\""
+          }
+        ]
+      },
+      {
+        "level": 2,
+        "heading": "Common Patterns",
+        "content": "",
+        "children": [
+          {
+            "level": 3,
+            "heading": "Daily activities",
+            "content": "朝起きたり顔を洗ったりする。 Asa okitari kao wo arattari suru. \"In the morning I wake up, wash my face, and such.\" 夜ご飯を食べたりお風呂に入ったりする。 Yoru gohan wo tabetari ofuro ni haittari suru. \"At night I eat dinner, take a bath, and such.\""
+          },
+          {
+            "level": 3,
+            "heading": "Weekend activities",
+            "content": "週末は映画を見たり友達と遊んだりします。 Shuumatsu wa eiga wo mitari tomodachi to asondari shimasu. \"On weekends I watch movies, hang out with friends, and such.\""
+          },
+          {
+            "level": 3,
+            "heading": "Hobbies",
+            "content": "趣味は本を読んだり絵を描いたりすることです。 Shumi wa hon wo yondari e wo kaitari suru koto desu. \"My hobbies are things like reading books and drawing pictures.\""
+          }
+        ]
+      },
+      {
+        "level": 2,
+        "heading": "Describing Weather",
+        "content": "",
+        "children": [
+          {
+            "level": 3,
+            "heading": "Changing conditions",
+            "content": "天気が晴れたり曇ったりする。 Tenki ga haretari kumottari suru. \"The weather is sunny and cloudy.\" / \"The weather alternates between sunny and cloudy.\" 雨が降ったり止んだりしている。 Ame ga futtari yandari shite iru. \"The rain is falling and stopping.\" 風が強かったり弱かったりする。 Kaze ga tsuyokattari yowakattari suru. \"The wind is strong and weak.\""
+          }
+        ]
+      },
+      {
+        "level": 2,
+        "heading": "Describing People's Behavior",
+        "content": "",
+        "children": [
+          {
+            "level": 3,
+            "heading": "Character traits",
+            "content": "彼は優しかったり厳しかったりする。 Kare wa yasashikattari kibishikattari suru. \"He's kind and strict.\" / \"He's sometimes kind and sometimes strict.\" 彼女は笑ったり怒ったりする。 Kanojo wa warattari okottari suru. \"She laughs and gets angry.\""
+          }
+        ]
+      },
+      {
+        "level": 2,
+        "heading": "In Explanations",
+        "content": "",
+        "children": [
+          {
+            "level": 3,
+            "heading": "Describing processes",
+            "content": "この仕事は楽だったり難しかったりします。 Kono shigoto wa raku dattari muzukashikattari shimasu. \"This job is easy and difficult.\" / \"This job is sometimes easy and sometimes difficult.\" 日本語は簡単だったり複雑だったりする。 Nihongo wa kantan dattari fukuzatsu dattari suru. \"Japanese is simple and complex.\""
+          }
+        ]
+      },
+      {
+        "level": 2,
+        "heading": "Casual Speech",
+        "content": "",
+        "children": [
+          {
+            "level": 3,
+            "heading": "Shortened forms",
+            "content": "In very casual speech, する can be dropped:\n\n週末は映画見たり買い物したり。 Shuumatsu wa eiga mitari kaimono shitari. \"On weekends, watching movies, shopping, and stuff.\" 毎日走ったり泳いだり。 Mainichi hashittari oyoidari. \"Every day, running, swimming, and such.\"\n\nNote: Formal writing and speech should keep する."
+          }
+        ]
+      },
+      {
+        "level": 2,
+        "heading": "Negative Actions",
+        "content": "",
+        "children": [
+          {
+            "level": 3,
+            "heading": "Things not done",
+            "content": "週末は勉強したり仕事したりしません。 Shuumatsu wa benkyou shitari shigoto shitari shimasen. \"On weekends I don't study or work.\" 彼は泣いたり怒ったりしない。 Kare wa naitari okottari shinai. \"He doesn't cry or get angry.\""
+          }
+        ]
+      },
+      {
+        "level": 2,
+        "heading": "Questions",
+        "content": "",
+        "children": [
+          {
+            "level": 3,
+            "heading": "Asking about activities",
+            "content": "週末は何をしたりしますか。 Shuumatsu wa nani wo shitari shimasu ka. \"What kinds of things do you do on weekends?\" 普段どこに行ったりしますか。 Fudan doko ni ittari shimasu ka. \"Where do you usually go?\""
+          }
+        ]
+      },
+      {
+        "level": 2,
+        "heading": "One Action Only",
+        "content": "",
+        "children": [
+          {
+            "level": 3,
+            "heading": "Can use single たり",
+            "content": "Less common but acceptable when implying other actions:\n\n週末は映画を見たりします。 Shuumatsu wa eiga wo mitari shimasu. \"On weekends I watch movies and such.\" [Implies other activities]\n\nMore natural: List at least two actions or add など:\n\n週末は映画を見たりなどします。 Shuumatsu wa eiga wo mitari nado shimasu."
+          }
+        ]
+      },
+      {
+        "level": 2,
+        "heading": "Comparing with Other Patterns",
+        "content": "",
+        "children": [
+          {
+            "level": 3,
+            "heading": "たり vs と (listing nouns)",
+            "content": "と - Complete list of nouns:\n\n猫と犬を飼っている。 Neko to inu wo katte iru. \"I have a cat and a dog.\"\n\nたり - Example actions:\n\n本を読んだり音楽を聞いたりする。 Hon wo yondari ongaku wo kiitari suru. \"I read books, listen to music, and such.\""
+          },
+          {
+            "level": 3,
+            "heading": "たり vs や (listing nouns)",
+            "content": "や - Partial list of nouns:\n\n猫や犬を飼っている。 Neko ya inu wo katte iru. \"I have cats, dogs, and such.\"\n\nたり - Example actions:\n\n遊んだり勉強したりする。 Asondari benkyou shitari suru. \"I play, study, and such.\""
+          }
+        ]
+      },
+      {
+        "level": 2,
+        "heading": "Emphasis on Variety",
+        "content": "",
+        "children": [
+          {
+            "level": 3,
+            "heading": "Showing diverse activities",
+            "content": "色々なことをしたりしています。 Iroiro na koto wo shitari shite imasu. \"I'm doing various things.\" 様々な場所に行ったり来たりする。 Samazama na basho ni ittari kitari suru. \"I go and come to various places.\""
+          }
+        ]
+      },
+      {
+        "level": 2,
+        "heading": "Time Expressions with たり",
+        "content": "",
+        "children": [
+          {
+            "level": 3,
+            "heading": "Different times",
+            "content": "朝起きたり夜寝たりする。 Asa okitari yoru netari suru. \"I wake up in the morning and sleep at night.\" 平日働いたり週末休んだりする。 Heijitsu hataraitari shuumatsu yasundari suru. \"I work on weekdays and rest on weekends.\""
+          }
+        ]
+      },
+      {
+        "level": 2,
+        "heading": "Common Mistakes",
+        "content": "",
+        "children": [
+          {
+            "level": 3,
+            "heading": "Mistake 1: Forgetting する",
+            "content": "❌ 本を読んだり音楽を聞いたり ✓ 本を読んだり音楽を聞いたりする\n\nMust end with する (or its conjugation)."
+          },
+          {
+            "level": 3,
+            "heading": "Mistake 2: Wrong た-form",
+            "content": "❌ 食べるたり飲むたりする (wrong form) ✓ 食べたり飲んだりする (correct た-form)\n\nUse proper た-form: 食べる → 食べた → 食べたり"
+          },
+          {
+            "level": 3,
+            "heading": "Mistake 3: Using with Nouns Directly",
+            "content": "❌ 猫たり犬たり (can't use with nouns) ✓ 猫や犬など (use や/など for nouns) ✓ 猫を飼ったり犬を飼ったりする (make it a verb phrase)\n\nたり is for verbs/adjectives, not direct nouns."
+          },
+          {
+            "level": 3,
+            "heading": "Mistake 4: Mixing Tenses",
+            "content": "❌ 食べたり飲みます (mixed た-form and ます) ✓ 食べたり飲んだりします\n\nAll verbs in た-form + final する in appropriate tense."
+          }
+        ]
+      },
+      {
+        "level": 2,
+        "heading": "Summary",
+        "content": "Key Points:\n\n〜たり〜たりする lists example actions or states Structure: Verb た-form + り, repeat, end with する Suggests more activities than mentioned Can express alternating or recurring actions Works with verbs, い-adjectives (かったり), な-adjectives (だったり) Always ends with する in appropriate tense Different from と/や which list nouns Cannot be used with nouns directly Minimum two actions (though one + など possible) Essential pattern for describing multiple activities naturally",
+        "children": [
+          {
+            "level": 3,
+            "heading": "Company",
+            "content": "About Pricing Blog Contact"
+          },
+          {
+            "level": 3,
+            "heading": "Legal",
+            "content": "Privacy Policy Terms of Service Cookie Policy"
+          }
+        ]
+      }
+    ],
+    "metadata": {
+      "title": "〜たり〜たりする"
+    },
+    "examples": [
+      {
+        "sentence": "Change verb to た-form (past tense)"
+      },
+      {
+        "sentence": "Replace た with たり"
+      },
+      {
+        "sentence": "Repeat for other verbs"
+      },
+      {
+        "sentence": "End with する"
+      },
+      {
+        "sentence": "\"doing things like... and...\""
+      },
+      {
+        "sentence": "\"such as... and...\""
+      },
+      {
+        "sentence": "\"sometimes... and sometimes...\""
+      },
+      {
+        "sentence": "\"...and such\""
+      },
+      {
+        "sentence": "〜たり〜たりする lists example actions or states"
+      },
+      {
+        "sentence": "Structure: Verb た-form + り, repeat, end with する"
+      },
+      {
+        "sentence": "Suggests more activities than mentioned"
+      },
+      {
+        "sentence": "Can express alternating or recurring actions"
+      },
+      {
+        "sentence": "Works with verbs, い-adjectives (かったり), な-adjectives (だったり)"
+      },
+      {
+        "sentence": "Always ends with する in appropriate tense"
+      },
+      {
+        "sentence": "Different from と/や which list nouns"
+      },
+      {
+        "sentence": "Cannot be used with nouns directly"
+      },
+      {
+        "sentence": "Minimum two actions (though one + など possible)"
+      },
+      {
+        "sentence": "Essential pattern for describing multiple activities naturally"
+      },
+      {
+        "sentence": "About"
+      },
+      {
+        "sentence": "Pricing"
+      },
+      {
+        "sentence": "Blog"
+      },
+      {
+        "sentence": "Contact"
+      },
+      {
+        "sentence": "Privacy Policy"
+      },
+      {
+        "sentence": "Terms of Service"
+      },
+      {
+        "sentence": "Cookie Policy"
+      }
+    ]
+  },
+  "metadata": {
+    "extracted_at": "2026-01-01T22:19:35.398546200Z",
+    "duration_ms": 4,
+    "extractors_matched": [
+      "metadata",
+      "examples",
+      "sections"
+    ],
+    "extractors_failed": [
+      "vocab_tables",
+      "definitions",
+      "content_blocks"
+    ]
+  }
+}

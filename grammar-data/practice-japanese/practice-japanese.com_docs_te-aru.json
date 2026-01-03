@@ -1,0 +1,387 @@
+{
+  "config_name": "Language Learning Extractor",
+  "url": "https://practice-japanese.com/docs/te-aru/",
+  "data": {
+    "metadata": {
+      "title": "〜てある (Resultant State)"
+    },
+    "examples": [
+      {
+        "sentence": "Someone did something intentionally"
+      },
+      {
+        "sentence": "The result of that action still exists"
+      },
+      {
+        "sentence": "Often implies preparation or purpose"
+      },
+      {
+        "sentence": "〜ている (te-iru) - Progressive and state"
+      },
+      {
+        "sentence": "〜ておく (te-oku) - Do in advance"
+      },
+      {
+        "sentence": "〜ています vs 〜てある - Detailed comparison"
+      },
+      {
+        "sentence": "Te-form Conjugation - How to form te-form"
+      },
+      {
+        "sentence": "Transitive & Intransitive - Verb pairs"
+      },
+      {
+        "sentence": "Passive Voice - Related to resultant states"
+      },
+      {
+        "sentence": "About"
+      },
+      {
+        "sentence": "Pricing"
+      },
+      {
+        "sentence": "Blog"
+      },
+      {
+        "sentence": "Contact"
+      },
+      {
+        "sentence": "Privacy Policy"
+      },
+      {
+        "sentence": "Terms of Service"
+      },
+      {
+        "sentence": "Cookie Policy"
+      }
+    ],
+    "sections": [
+      {
+        "level": 2,
+        "heading": "What is 〜てある (te-aru)?",
+        "content": "〜てある expresses that something has been done intentionally and the result of that action remains. It emphasizes preparation or a state resulting from someone's deliberate action.\n\n[Transitive Verb te-form] + ある 書いてある \"is written\" (someone wrote it) 開けてある \"is open\" (someone opened it)"
+      },
+      {
+        "level": 2,
+        "heading": "Formation",
+        "content": "",
+        "children": [
+          {
+            "level": 3,
+            "heading": "Basic Pattern",
+            "content": "Transitive Verb (te-form) + ある Plain: 〜てある Polite: 〜てあります 書いてある / 書いてあります \"is written\" 置いてある / 置いてあります \"is placed\"\n\nImportant: てある is only used with transitive verbs (verbs that take an object)."
+          }
+        ]
+      },
+      {
+        "level": 2,
+        "heading": "Core Meaning",
+        "content": "",
+        "children": [
+          {
+            "level": 3,
+            "heading": "Intentional Action + Resulting State",
+            "content": "てある emphasizes:\n\nSomeone did something intentionally The result of that action still exists Often implies preparation or purpose\n\n窓が開けてある \"The window has been opened\" (by someone, on purpose) ドアが閉めてある \"The door has been closed\" (by someone, on purpose) 予約してある \"A reservation has been made\""
+          }
+        ]
+      },
+      {
+        "level": 2,
+        "heading": "Particle Usage with てある",
+        "content": "",
+        "children": [
+          {
+            "level": 3,
+            "heading": "Using が (not を)",
+            "content": "With てある, the particle changes from を to が.\n\n手紙を書く → 手紙が書いてある \"write a letter\" → \"a letter is written\" ドアを開ける → ドアが開けてある \"open the door\" → \"the door is opened\" 本を置く → 本が置いてある \"place a book\" → \"a book is placed\""
+          }
+        ]
+      },
+      {
+        "level": 2,
+        "heading": "Common Uses",
+        "content": "",
+        "children": [
+          {
+            "level": 3,
+            "heading": "1. Preparation",
+            "content": "Something has been prepared in advance.\n\nもう予約してある \"I've already made a reservation\" 部屋が掃除してある \"The room has been cleaned\" お金が貯めてある \"Money has been saved\" 材料が買ってある \"The ingredients have been bought\""
+          },
+          {
+            "level": 3,
+            "heading": "2. Information Display",
+            "content": "Something is written or displayed.\n\nここに名前が書いてある \"The name is written here\" 地図が貼ってある \"A map is posted\" 値段が書いてある \"The price is written\" 説明が書いてある \"The explanation is written\""
+          },
+          {
+            "level": 3,
+            "heading": "3. Things Left in a State",
+            "content": "Something has been left in a certain state intentionally.\n\n窓が開けてある \"The window is left open\" 電気がつけてある \"The light has been left on\" ドアが閉めてある \"The door is closed\" 荷物が置いてある \"Luggage is placed there\""
+          }
+        ]
+      },
+      {
+        "level": 2,
+        "heading": "Comparison: ている vs てある",
+        "content": "",
+        "children": [
+          {
+            "level": 3,
+            "heading": "ている (Intransitive)",
+            "content": "Natural state or passive result.\n\n窓が開いている \"The window is open\" (neutral observation) ドアが閉まっている \"The door is closed\" (neutral state) 電気がついている \"The light is on\" (neutral state)"
+          },
+          {
+            "level": 3,
+            "heading": "てある (Transitive)",
+            "content": "Intentional action with purpose.\n\n窓が開けてある \"The window has been opened\" (someone opened it) ドアが閉めてある \"The door has been closed\" (someone closed it) 電気がつけてある \"The light has been turned on\" (someone turned it on)"
+          },
+          {
+            "level": 3,
+            "heading": "Key Difference",
+            "content": "ている: Describes a state (no agent implied) てある: Describes a prepared state (agent implied) 花が咲いている \"Flowers are blooming\" (natural state) 花が飾ってある \"Flowers are displayed\" (someone arranged them)"
+          }
+        ]
+      },
+      {
+        "level": 2,
+        "heading": "Common Verbs with てある",
+        "content": "",
+        "children": [
+          {
+            "level": 3,
+            "heading": "Writing and Posting",
+            "content": "書いてある - is written 貼ってある - is posted 印刷してある - is printed 記録してある - is recorded"
+          },
+          {
+            "level": 3,
+            "heading": "Opening and Closing",
+            "content": "開けてある - has been opened 閉めてある - has been closed 締めてある - is fastened/closed"
+          },
+          {
+            "level": 3,
+            "heading": "Placing and Arranging",
+            "content": "置いてある - is placed 並べてある - is arranged 飾ってある - is decorated/displayed"
+          },
+          {
+            "level": 3,
+            "heading": "Preparation Actions",
+            "content": "用意してある - is prepared 準備してある - is prepared 予約してある - is reserved 貯めてある - is saved (money) 買ってある - has been bought 作ってある - has been made"
+          }
+        ]
+      },
+      {
+        "level": 2,
+        "heading": "Negative Form",
+        "content": "",
+        "children": [
+          {
+            "level": 3,
+            "heading": "〜てない",
+            "content": "書いてない \"is not written\" 予約してない \"hasn't been reserved\" 用意してない \"hasn't been prepared\""
+          },
+          {
+            "level": 3,
+            "heading": "〜てありません",
+            "content": "書いてありません \"is not written\" 予約してありません \"hasn't been reserved\" 用意してありません \"hasn't been prepared\""
+          }
+        ]
+      },
+      {
+        "level": 2,
+        "heading": "Past Form",
+        "content": "",
+        "children": [
+          {
+            "level": 3,
+            "heading": "〜てあった",
+            "content": "書いてあった \"was written\" 開けてあった \"had been opened\" 予約してあった \"had been reserved\""
+          }
+        ]
+      },
+      {
+        "level": 2,
+        "heading": "Common Patterns",
+        "content": "",
+        "children": [
+          {
+            "level": 3,
+            "heading": "もう〜てある (already done)",
+            "content": "もう予約してある \"I've already made a reservation\" もう買ってある \"I've already bought it\" もう準備してある \"I've already prepared it\""
+          },
+          {
+            "level": 3,
+            "heading": "〜てあるから (because it's prepared)",
+            "content": "予約してあるから、大丈夫 \"Because I've made a reservation, it's okay\" もう買ってあるから、心配しないで \"I've already bought it, so don't worry\""
+          },
+          {
+            "level": 3,
+            "heading": "〜てあるので (since it's prepared)",
+            "content": "準備してあるので、すぐ始められます \"Since it's prepared, we can start right away\""
+          }
+        ]
+      },
+      {
+        "level": 2,
+        "heading": "Question Forms",
+        "content": "",
+        "children": [
+          {
+            "level": 3,
+            "heading": "〜てありますか？",
+            "content": "予約してありますか？ \"Has a reservation been made?\" 名前が書いてありますか？ \"Is the name written?\" 準備してありますか？ \"Has it been prepared?\""
+          },
+          {
+            "level": 3,
+            "heading": "どこに〜てありますか？",
+            "content": "どこに書いてありますか？ \"Where is it written?\" どこに置いてありますか？ \"Where is it placed?\""
+          }
+        ]
+      },
+      {
+        "level": 2,
+        "heading": "Common Conversations",
+        "content": "",
+        "children": [
+          {
+            "level": 3,
+            "heading": "Example 1: Checking Preparation",
+            "content": "A: 予約してありますか？ \"Has a reservation been made?\" B: はい、もう予約してあります \"Yes, it's already been reserved\" A: 何時ですか？ \"What time?\" B: 7時に予約してあります \"It's reserved for 7 o'clock\""
+          },
+          {
+            "level": 3,
+            "heading": "Example 2: Finding Information",
+            "content": "A: 値段はどこに書いてありますか？ \"Where is the price written?\" B: ここに書いてあります \"It's written here\" A: ああ、見えました \"Ah, I see it\""
+          },
+          {
+            "level": 3,
+            "heading": "Example 3: Confirming State",
+            "content": "A: 窓、開けてありますね \"The window is left open, isn't it\" B: はい、暑いから開けてあります \"Yes, it's open because it's hot\""
+          }
+        ]
+      },
+      {
+        "level": 2,
+        "heading": "Common Mistakes",
+        "content": "",
+        "children": [
+          {
+            "level": 3,
+            "heading": "Mistake 1: Using てある with intransitive verbs",
+            "content": "Wrong: 窓が開いてある ❌ Right: 窓が開けてある ✓ \"The window has been opened\" Wrong: ドアが閉まってある ❌ Right: ドアが閉めてある ✓ \"The door has been closed\""
+          },
+          {
+            "level": 3,
+            "heading": "Mistake 2: Using を particle with てある",
+            "content": "Wrong: 本を置いてある ❌ Right: 本が置いてある ✓ \"A book is placed\""
+          },
+          {
+            "level": 3,
+            "heading": "Mistake 3: Confusing with ている",
+            "content": "Natural state: 花が咲いている ✓ \"Flowers are blooming\" Prepared state: 花が飾ってある ✓ \"Flowers are arranged\""
+          },
+          {
+            "level": 3,
+            "heading": "Mistake 4: Using てある for natural states",
+            "content": "Wrong: 空が青くてある ❌ Right: 空が青い ✓ \"The sky is blue\" Note: てある is only for intentional human actions"
+          }
+        ]
+      },
+      {
+        "level": 2,
+        "heading": "Emphasis on Preparation",
+        "content": "",
+        "children": [
+          {
+            "level": 3,
+            "heading": "Planning Ahead",
+            "content": "明日のために準備してある \"I've prepared for tomorrow\" もう全部用意してある \"I've already prepared everything\" 材料は買ってあるから \"The ingredients are already bought, so...\""
+          },
+          {
+            "level": 3,
+            "heading": "Reassurance",
+            "content": "大丈夫、予約してあるから \"It's okay, I've made a reservation\" 心配しないで、もうしてあるから \"Don't worry, it's already done\""
+          }
+        ]
+      },
+      {
+        "level": 2,
+        "heading": "Written Information",
+        "content": "",
+        "children": [
+          {
+            "level": 3,
+            "heading": "Signs and Labels",
+            "content": "ここに注意が書いてある \"A warning is written here\" 入口に地図が貼ってある \"A map is posted at the entrance\" 値段が表示してある \"The price is displayed\""
+          },
+          {
+            "level": 3,
+            "heading": "Documents",
+            "content": "契約書に名前が書いてある \"The name is written in the contract\" ページの上に日付が記してある \"The date is recorded at the top of the page\""
+          }
+        ]
+      },
+      {
+        "level": 2,
+        "heading": "Regional Notes",
+        "content": "In casual conversation, てある often contracts:\n\n書いてある → 書いてる (ambiguous with ている) 置いてある → 置いてる 開けてある → 開けてる Context usually clarifies the meaning."
+      },
+      {
+        "level": 2,
+        "heading": "Practice Sentences",
+        "content": "",
+        "children": [
+          {
+            "level": 3,
+            "heading": "Basic Examples",
+            "content": "ここに名前が書いてある \"The name is written here\" ドアが開けてある \"The door has been opened\" 電気がつけてある \"The light has been left on\" 部屋がきれいに掃除してある \"The room has been cleaned nicely\""
+          },
+          {
+            "level": 3,
+            "heading": "Preparation",
+            "content": "もう予約してあります \"I've already made a reservation\" 材料は買ってあるから大丈夫 \"The ingredients are already bought, so it's okay\" 全部準備してあるから、すぐできる \"Everything's prepared, so we can do it right away\""
+          },
+          {
+            "level": 3,
+            "heading": "Information Display",
+            "content": "値段はここに書いてあります \"The price is written here\" 地図が壁に貼ってある \"A map is posted on the wall\" 説明が下に書いてある \"The explanation is written below\""
+          },
+          {
+            "level": 3,
+            "heading": "States",
+            "content": "窓が開けてあるから、涼しい \"The window is open, so it's cool\" 荷物が置いてあった \"Luggage was placed there\" お金が貯めてある \"Money has been saved\""
+          }
+        ]
+      },
+      {
+        "level": 2,
+        "heading": "Related Grammar Points",
+        "content": "〜ている (te-iru) - Progressive and state 〜ておく (te-oku) - Do in advance 〜ています vs 〜てある - Detailed comparison Te-form Conjugation - How to form te-form Transitive & Intransitive - Verb pairs Passive Voice - Related to resultant states",
+        "children": [
+          {
+            "level": 3,
+            "heading": "Company",
+            "content": "About Pricing Blog Contact"
+          },
+          {
+            "level": 3,
+            "heading": "Legal",
+            "content": "Privacy Policy Terms of Service Cookie Policy"
+          }
+        ]
+      }
+    ]
+  },
+  "metadata": {
+    "extracted_at": "2026-01-01T22:19:35.407641500Z",
+    "duration_ms": 3,
+    "extractors_matched": [
+      "metadata",
+      "examples",
+      "sections"
+    ],
+    "extractors_failed": [
+      "vocab_tables",
+      "definitions",
+      "content_blocks"
+    ]
+  }
+}

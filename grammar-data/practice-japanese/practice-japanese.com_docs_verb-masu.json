@@ -1,0 +1,297 @@
+{
+  "config_name": "Language Learning Extractor",
+  "url": "https://practice-japanese.com/docs/verb-masu/",
+  "data": {
+    "metadata": {
+      "title": "Masu Form (Polite Present)"
+    },
+    "examples": [
+      {
+        "sentence": "Identify as Godan (ends in -ku)"
+      },
+      {
+        "sentence": "Change -u to -i: kak-u → kak-i"
+      },
+      {
+        "sentence": "Add ます: kak-i → kak-i-masu"
+      },
+      {
+        "sentence": "Result: 書きます"
+      },
+      {
+        "sentence": "Identify as Ichidan (ends in -eru)"
+      },
+      {
+        "sentence": "Drop る: tabe-ru → tabe"
+      },
+      {
+        "sentence": "Add ます: tabe → tabe-masu"
+      },
+      {
+        "sentence": "Result: 食べます"
+      },
+      {
+        "sentence": "Verb Groups"
+      },
+      {
+        "sentence": "Dictionary Form"
+      },
+      {
+        "sentence": "Masen Form (Negative)"
+      },
+      {
+        "sentence": "About"
+      },
+      {
+        "sentence": "Pricing"
+      },
+      {
+        "sentence": "Blog"
+      },
+      {
+        "sentence": "Contact"
+      },
+      {
+        "sentence": "Privacy Policy"
+      },
+      {
+        "sentence": "Terms of Service"
+      },
+      {
+        "sentence": "Cookie Policy"
+      }
+    ],
+    "sections": [
+      {
+        "level": 2,
+        "heading": "What is Masu Form?",
+        "content": "ます (masu) form is the polite present/future tense of verbs. It's the most common polite form in Japanese.\n\n食べます (tabemasu) - eat/will eat 行きます (ikimasu) - go/will go します (shimasu) - do/will do"
+      },
+      {
+        "level": 2,
+        "heading": "When to Use Masu Form",
+        "content": "",
+        "children": [
+          {
+            "level": 3,
+            "heading": "1. Formal/Polite Situations",
+            "content": "- With strangers - With superiors/teachers/bosses - With customers - In business settings - In formal speech"
+          },
+          {
+            "level": 3,
+            "heading": "2. Default Polite Speech",
+            "content": "明日行きます \"I will go tomorrow\" 毎日勉強します \"I study every day\" 日本語を話します \"I speak Japanese\""
+          },
+          {
+            "level": 3,
+            "heading": "3. Safe Choice",
+            "content": "When unsure about formality level, use ます form!"
+          }
+        ]
+      },
+      {
+        "level": 2,
+        "heading": "Conjugation Rules",
+        "content": "",
+        "children": [
+          {
+            "level": 3,
+            "heading": "Godan Verbs",
+            "content": "Change final -u sound to -i , then add ます:\n\n買う (kau) → 買います (kaimasu) ka-u → ka-imasu 書く (kaku) → 書きます (kakimasu) kak-u → kak-imasu 読む (yomu) → 読みます (yomimasu) yom-u → yom-imasu 話す (hanasu) → 話します (hanashimasu) hanas-u → hanas-imasu"
+          },
+          {
+            "level": 3,
+            "heading": "Ichidan Verbs",
+            "content": "Drop る , add ます :\n\n食べる (taberu) → 食べます (tabemasu) tabe-ru → tabe-masu 見る (miru) → 見ます (mimasu) mi-ru → mi-masu 寝る (neru) → 寝ます (nemasu) ne-ru → ne-masu 起きる (okiru) → 起きます (okimasu) oki-ru → oki-masu"
+          },
+          {
+            "level": 3,
+            "heading": "Irregular Verbs",
+            "content": "する (suru) → します (shimasu) 来る (kuru) → 来ます (kimasu)"
+          }
+        ]
+      },
+      {
+        "level": 2,
+        "heading": "Conjugation Chart",
+        "content": "| Verb Type | Dictionary | Masu Form | Rule | | --------- | ---------- | --------- | -------------- | | Godan | 書く | 書きます | u→i + masu | | Godan | 飲む | 飲みます | u→i + masu | | Godan | 買う | 買います | u→i + masu | | Ichidan | 食べる | 食べます | drop る + masu | | Ichidan | 見る | 見ます | drop る + masu | | Irregular | する | します | memorize | | Irregular | 来る | 来ます | memorize |"
+      },
+      {
+        "level": 2,
+        "heading": "Masu-stem (Verb Stem)",
+        "content": "The part before ます is called the masu-stem :\n\n食べます → 食べ (masu-stem) 行きます → 行き (masu-stem)\n\nThis stem is useful for other forms!"
+      },
+      {
+        "level": 2,
+        "heading": "Present and Future",
+        "content": "ます form expresses both:",
+        "children": [
+          {
+            "level": 3,
+            "heading": "Present Habitual",
+            "content": "毎日コーヒーを飲みます \"I drink coffee every day\" 日本に住んでいます \"I live in Japan\""
+          },
+          {
+            "level": 3,
+            "heading": "Future",
+            "content": "明日学校に行きます \"I will go to school tomorrow\" 来週日本へ行きます \"I will go to Japan next week\""
+          }
+        ]
+      },
+      {
+        "level": 2,
+        "heading": "Common Verbs in Masu Form",
+        "content": "",
+        "children": [
+          {
+            "level": 3,
+            "heading": "Daily Actions",
+            "content": "食べます (tabemasu) - eat 飲みます (nomimasu) - drink 見ます (mimasu) - see/watch 聞きます (kikimasu) - listen/hear 話します (hanashimasu) - speak 読みます (yomimasu) - read 書きます (kakimasu) - write 寝ます (nemasu) - sleep 起きます (okimasu) - wake up"
+          },
+          {
+            "level": 3,
+            "heading": "Movement",
+            "content": "行きます (ikimasu) - go 来ます (kimasu) - come 帰ります (kaerimasu) - return 出ます (demasu) - go out 入ります (hairimasu) - enter"
+          },
+          {
+            "level": 3,
+            "heading": "Activities",
+            "content": "勉強します (benkyou shimasu) - study 働きます (hatarakimasu) - work 遊びます (asobimasu) - play 買います (kaimasu) - buy 作ります (tsukurimasu) - make"
+          }
+        ]
+      },
+      {
+        "level": 2,
+        "heading": "Question Form",
+        "content": "Add か at the end:\n\n食べますか？ \"Do you eat? / Will you eat?\" 明日来ますか？ \"Will you come tomorrow?\" 日本語を話しますか？ \"Do you speak Japanese?\""
+      },
+      {
+        "level": 2,
+        "heading": "Using with Particles",
+        "content": "私は本を読みます \"I read books\" 田中さんは日本に行きます \"Tanaka will go to Japan\" 毎日学校で勉強します \"I study at school every day\""
+      },
+      {
+        "level": 2,
+        "heading": "Negative Form: ません",
+        "content": "食べます → 食べません (don't eat) 行きます → 行きません (don't go) します → しません (don't do) 来ます → 来ません (don't come)\n\nMore details in Masen Form lesson."
+      },
+      {
+        "level": 2,
+        "heading": "Past Form: ました",
+        "content": "食べます → 食べました (ate) 行きます → 行きました (went) します → しました (did) 来ます → 来ました (came)\n\nMore details in Mashita Form lesson."
+      },
+      {
+        "level": 2,
+        "heading": "Polite vs Plain",
+        "content": "| Plain | Polite | Meaning | | ------ | -------- | ------- | | 食べる | 食べます | eat | | 行く | 行きます | go | | する | します | do | | 来る | 来ます | come | | 見る | 見ます | see |\n\nImportant: Use polite with people you don't know well!"
+      },
+      {
+        "level": 2,
+        "heading": "Step-by-Step Conjugation",
+        "content": "",
+        "children": [
+          {
+            "level": 3,
+            "heading": "Godan Example: 書く (write)",
+            "content": "Identify as Godan (ends in -ku) Change -u to -i: kak-u → kak-i Add ます: kak-i → kak-i-masu Result: 書きます"
+          },
+          {
+            "level": 3,
+            "heading": "Ichidan Example: 食べる (eat)",
+            "content": "Identify as Ichidan (ends in -eru) Drop る: tabe-ru → tabe Add ます: tabe → tabe-masu Result: 食べます"
+          }
+        ]
+      },
+      {
+        "level": 2,
+        "heading": "Common Mistakes",
+        "content": "",
+        "children": [
+          {
+            "level": 3,
+            "heading": "Mistake 1: Wrong Group Identification",
+            "content": "Wrong: 帰る (Godan) → 帰ます ❌ Right: 帰る → 帰ります ✓ Wrong: 食べる (Ichidan) → 食びます ❌ Right: 食べる → 食べます ✓"
+          },
+          {
+            "level": 3,
+            "heading": "Mistake 2: Forgetting to Change u→i (Godan)",
+            "content": "Wrong: 買う → 買ます ❌ Right: 買う → 買います ✓ Wrong: 読む → 読ます ❌ Right: 読む → 読みます ✓"
+          },
+          {
+            "level": 3,
+            "heading": "Mistake 3: Double Conjugation",
+            "content": "Wrong: 食べますした ❌ Right: 食べました ✓ Wrong: 行きますか? → はい、行きますます ❌ Right: はい、行きます ✓"
+          },
+          {
+            "level": 3,
+            "heading": "Mistake 4: Using with Wrong Particles",
+            "content": "Wrong: 学校をいきます ❌ Right: 学校に行きます ✓"
+          }
+        ]
+      },
+      {
+        "level": 2,
+        "heading": "Practice Pattern Sentences",
+        "content": "",
+        "children": [
+          {
+            "level": 3,
+            "heading": "Daily Routine",
+            "content": "毎朝6時に起きます \"I wake up at 6 every morning\" 朝ご飯を食べます \"I eat breakfast\" 電車で会社に行きます \"I go to the company by train\" 夜10時に寝ます \"I sleep at 10 PM\""
+          },
+          {
+            "level": 3,
+            "heading": "Future Plans",
+            "content": "明日友達と映画を見ます \"I'll watch a movie with friends tomorrow\" 来週日本へ行きます \"I'll go to Japan next week\" 来年日本語を勉強します \"I'll study Japanese next year\""
+          },
+          {
+            "level": 3,
+            "heading": "Regular Activities",
+            "content": "毎日本を読みます \"I read books every day\" 週末に買い物をします \"I shop on weekends\" 時々友達と遊びます \"I sometimes play with friends\""
+          }
+        ]
+      },
+      {
+        "level": 2,
+        "heading": "Building Longer Sentences",
+        "content": "Use て-form to connect actions:\n\n朝起きて、朝ご飯を食べて、学校に行きます \"I wake up, eat breakfast, and go to school\"\n\nBut the final verb uses ます!"
+      },
+      {
+        "level": 2,
+        "heading": "Formal Speech Levels",
+        "content": "ます form is standard polite , not the highest level:\n\nMost casual: 食べる Standard polite: 食べます ← Most common Very formal: 召し上がります\n\nFor daily use, ます form is perfect!"
+      },
+      {
+        "level": 2,
+        "heading": "Key Takeaways",
+        "content": "✓ ます form = polite present/future ✓ Used in formal/polite situations ✓ Godan: change u→i + ます ✓ Ichidan: drop る + ます ✓ Irregular: する → します, 来る → 来ます ✓ Expresses both present and future ✓ Safe default choice when unsure ✓ Add か for questions\n\nMaster ます form - it's essential for polite Japanese!\n\nNext: Mashita Form (Polite Past)\n\nRelated:\n\nVerb Groups Dictionary Form Masen Form (Negative)",
+        "children": [
+          {
+            "level": 3,
+            "heading": "Company",
+            "content": "About Pricing Blog Contact"
+          },
+          {
+            "level": 3,
+            "heading": "Legal",
+            "content": "Privacy Policy Terms of Service Cookie Policy"
+          }
+        ]
+      }
+    ]
+  },
+  "metadata": {
+    "extracted_at": "2026-01-01T22:19:37.413769400Z",
+    "duration_ms": 3,
+    "extractors_matched": [
+      "metadata",
+      "examples",
+      "sections"
+    ],
+    "extractors_failed": [
+      "vocab_tables",
+      "definitions",
+      "content_blocks"
+    ]
+  }
+}

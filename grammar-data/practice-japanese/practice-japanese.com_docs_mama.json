@@ -1,0 +1,304 @@
+{
+  "config_name": "Language Learning Extractor",
+  "url": "https://practice-japanese.com/docs/mama/",
+  "data": {
+    "metadata": {
+      "title": "〜まま (As is/While)"
+    },
+    "examples": [
+      {
+        "sentence": "まま expresses unchanged or maintained state"
+      },
+      {
+        "sentence": "Formation: [Verb た-form / Noun の] + まま"
+      },
+      {
+        "sentence": "Emphasizes continuation without change"
+      },
+      {
+        "sentence": "Common: そのまま, このまま, 座ったまま"
+      },
+      {
+        "sentence": "Different from ながら (simultaneous actions)"
+      },
+      {
+        "sentence": "Often implies something left undone or unchanged"
+      },
+      {
+        "sentence": "Use まま + にする to mean \"leave in that state\""
+      },
+      {
+        "sentence": "Essential for describing maintained conditions"
+      },
+      {
+        "sentence": "About"
+      },
+      {
+        "sentence": "Pricing"
+      },
+      {
+        "sentence": "Blog"
+      },
+      {
+        "sentence": "Contact"
+      },
+      {
+        "sentence": "Privacy Policy"
+      },
+      {
+        "sentence": "Terms of Service"
+      },
+      {
+        "sentence": "Cookie Policy"
+      }
+    ],
+    "sections": [
+      {
+        "level": 2,
+        "heading": "What is 〜まま?",
+        "content": "〜まま (mama) expresses doing something while maintaining an unchanged state, or leaving something as it is. It emphasizes that a state continues without change.\n\nEnglish equivalent: \"as is,\" \"while staying,\" \"leave as,\" \"without changing\"\n\nStructure: [Verb た-form / Noun + の] + まま\n\n座る (suwaru - sit) → 座った + まま = 座ったまま \"while sitting\" / \"remaining seated\" そのまま (sono mama) = \"as it is\" 立つ (tatsu - stand) → 立った + まま = 立ったまま \"while standing\" / \"remaining standing\""
+      },
+      {
+        "level": 2,
+        "heading": "Basic Formation",
+        "content": "",
+        "children": [
+          {
+            "level": 3,
+            "heading": "With verb た-form",
+            "content": "[Verb た-form] + まま\n\n座ったまま (suwatta mama) - \"while sitting\" 立ったまま (tatta mama) - \"while standing\" 寝たまま (neta mama) - \"while lying down\" 開けたまま (aketa mama) - \"left open\""
+          },
+          {
+            "level": 3,
+            "heading": "With nouns",
+            "content": "[Noun] + のまま\n\nそのまま (sono mama) - \"as it is\" このまま (kono mama) - \"like this\" / \"as things are\" 生のまま (nama no mama) - \"raw\" / \"uncooked\""
+          }
+        ]
+      },
+      {
+        "level": 2,
+        "heading": "Remaining in a Physical Position",
+        "content": "",
+        "children": [
+          {
+            "level": 3,
+            "heading": "Body positions",
+            "content": "座ったまま話す。 Suwatta mama hanasu. \"Talk while remaining seated.\" 立ったまま食べる。 Tatta mama taberu. \"Eat while standing.\" 寝たまま本を読む。 Neta mama hon wo yomu. \"Read a book while lying down.\" 座ったまま寝てしまった。 Suwatta mama nete shimatta. \"Fell asleep while sitting.\""
+          }
+        ]
+      },
+      {
+        "level": 2,
+        "heading": "Leaving Things Unchanged",
+        "content": "",
+        "children": [
+          {
+            "level": 3,
+            "heading": "Not changing state",
+            "content": "窓を開けたまま寝た。 Mado wo aketa mama neta. \"Slept with the window left open.\" 電気をつけたまま出かけた。 Denki wo tsuketa mama dekaketa. \"Went out with the light left on.\" 靴を履いたまま入る。 Kutsu wo haita mama hairu. \"Enter with shoes on.\" ドアを開けたままにしないで。 Doa wo aketa mama ni shinai de. \"Don't leave the door open.\""
+          }
+        ]
+      },
+      {
+        "level": 2,
+        "heading": "そのまま (As it is)",
+        "content": "",
+        "children": [
+          {
+            "level": 3,
+            "heading": "Common expression",
+            "content": "そのまま置いておいて。 Sono mama oite oite. \"Leave it as it is.\" そのまま使える。 Sono mama tsukaeru. \"Can use it as is.\" そのまま帰った。 Sono mama kaetta. \"Went home as is\" / \"Went straight home.\" そのまま待ってください。 Sono mama matte kudasai. \"Please wait as you are.\""
+          }
+        ]
+      },
+      {
+        "level": 2,
+        "heading": "このまま (Like this)",
+        "content": "",
+        "children": [
+          {
+            "level": 3,
+            "heading": "Current state continuing",
+            "content": "このまま続ける。 Kono mama tsuzukeru. \"Continue like this.\" このままじゃダメだ。 Kono mama ja dame da. \"We can't go on like this.\" このまま行けば成功する。 Kono mama ikeba seikou suru. \"If we continue like this, we'll succeed.\" このままでいい。 Kono mama de ii. \"It's fine as it is.\""
+          }
+        ]
+      },
+      {
+        "level": 2,
+        "heading": "Wearing/Holding Something",
+        "content": "",
+        "children": [
+          {
+            "level": 3,
+            "heading": "Maintaining possession",
+            "content": "コートを着たまま入った。 Kooto wo kita mama haitta. \"Entered while wearing a coat.\" 帽子をかぶったまま話す。 Boushi wo kabutta mama hanasu. \"Talk while wearing a hat.\" 荷物を持ったまま立っている。 Nimotsu wo motta mama tatte iru. \"Standing while holding luggage.\""
+          }
+        ]
+      },
+      {
+        "level": 2,
+        "heading": "Without Doing Something",
+        "content": "",
+        "children": [
+          {
+            "level": 3,
+            "heading": "Action not taken",
+            "content": "朝ご飯を食べないまま学校に行った。 Asagohan wo tabenai mama gakkou ni itta. \"Went to school without eating breakfast.\" 何も言わないまま帰った。 Nani mo iwanai mama kaetta. \"Went home without saying anything.\" 知らないまま過ごした。 Shiranai mama sugoshita. \"Spent time without knowing.\""
+          }
+        ]
+      },
+      {
+        "level": 2,
+        "heading": "Unchanged Over Time",
+        "content": "",
+        "children": [
+          {
+            "level": 3,
+            "heading": "Continuing state",
+            "content": "子供のままだ。 Kodomo no mama da. \"Remains a child\" / \"Still childish.\" 昔のまま変わっていない。 Mukashi no mama kawatte inai. \"Hasn't changed from the old days.\" 10年前のままだ。 Juunen mae no mama da. \"It's just like 10 years ago.\""
+          }
+        ]
+      },
+      {
+        "level": 2,
+        "heading": "Food and Cooking",
+        "content": "",
+        "children": [
+          {
+            "level": 3,
+            "heading": "Preparation state",
+            "content": "生のまま食べる。 Nama no mama taberu. \"Eat raw.\" 皮のまま食べる。 Kawa no mama taberu. \"Eat with the skin on.\" 冷凍のまま使う。 Reitou no mama tsukau. \"Use while frozen.\""
+          }
+        ]
+      },
+      {
+        "level": 2,
+        "heading": "ままにする",
+        "content": "",
+        "children": [
+          {
+            "level": 3,
+            "heading": "Leaving in a state",
+            "content": "[State] + まま + にする = \"leave in that state\"\n\n開けたままにする。 Aketa mama ni suru. \"Leave it open.\" そのままにしておく。 Sono mama ni shite oku. \"Leave it as it is.\" このままにしないで。 Kono mama ni shinai de. \"Don't leave it like this.\""
+          }
+        ]
+      },
+      {
+        "level": 2,
+        "heading": "Polite Forms",
+        "content": "座ったまま失礼します。 Suwatta mama shitsurei shimasu. \"Excuse me for remaining seated.\" このままでよろしいでしょうか。 Kono mama de yoroshii deshou ka. \"Is it alright to leave it like this?\" そのままお待ちください。 Sono mama omachi kudasai. \"Please wait as you are.\""
+      },
+      {
+        "level": 2,
+        "heading": "Comparing まま and ながら",
+        "content": "",
+        "children": [
+          {
+            "level": 3,
+            "heading": "Unchanged state vs simultaneous action",
+            "content": "まま - Maintaining unchanged state:\n\n座ったまま話す (suwatta mama hanasu) \"talk while remaining seated\" (not moving from seated position)\n\nながら - Simultaneous action:\n\n歩きながら話す (arukinagara hanasu) \"talk while walking\" (both actions active)\n\n| Pattern | Meaning | Example | | ------- | -------------------- | ---------- | | まま | Unchanged state | 座ったまま | | ながら | Simultaneous actions | 歩きながら |\n\nSee: 〜ながら (While)"
+          }
+        ]
+      },
+      {
+        "level": 2,
+        "heading": "Expressing Regret",
+        "content": "",
+        "children": [
+          {
+            "level": 3,
+            "heading": "Things left undone",
+            "content": "何もしないまま終わった。 Nani mo shinai mama owatta. \"It ended without doing anything.\" 言わないまま別れた。 Iwanai mama wakareta. \"Parted without saying it.\" そのままになっている。 Sono mama ni natte iru. \"It's been left as is.\""
+          }
+        ]
+      },
+      {
+        "level": 2,
+        "heading": "Common Expressions",
+        "content": "そのまま (sono mama) - \"as it is\" このまま (kono mama) - \"like this\" 座ったまま (suwatta mama) - \"while seated\" 立ったまま (tatta mama) - \"while standing\" 開けたまま (aketa mama) - \"left open\" 着たまま (kita mama) - \"while wearing\" 生のまま (nama no mama) - \"raw\" 昔のまま (mukashi no mama) - \"same as before\""
+      },
+      {
+        "level": 2,
+        "heading": "Forgotten States",
+        "content": "",
+        "children": [
+          {
+            "level": 3,
+            "heading": "Accidentally left",
+            "content": "電気をつけたまま寝た。 Denki wo tsuketa mama neta. \"Slept with the light left on.\" 窓を開けたまま出た。 Mado wo aketa mama deta. \"Left with the window open.\" 鍵をかけないまま出かけた。 Kagi wo kakenai mama dekaketa. \"Went out without locking.\""
+          }
+        ]
+      },
+      {
+        "level": 2,
+        "heading": "Direct Instructions",
+        "content": "",
+        "children": [
+          {
+            "level": 3,
+            "heading": "Commands with まま",
+            "content": "そのままにして。 Sono mama ni shite. \"Leave it as it is.\" このまま進んで。 Kono mama susunde. \"Continue straight.\" 立ったまま待って。 Tatta mama matte. \"Wait while standing.\""
+          }
+        ]
+      },
+      {
+        "level": 2,
+        "heading": "Common Mistakes",
+        "content": "",
+        "children": [
+          {
+            "level": 3,
+            "heading": "Mistake 1: Using wrong verb form",
+            "content": "❌ 座るまま ✓ 座ったまま\n\nUse た-form, not dictionary form."
+          },
+          {
+            "level": 3,
+            "heading": "Mistake 2: Confusing with ながら",
+            "content": "座ったまま = staying seated (no change) 座りながら = while sitting down (action of sitting)"
+          },
+          {
+            "level": 3,
+            "heading": "Mistake 3: Wrong particle with nouns",
+            "content": "❌ 子供まま ✓ 子供のまま\n\nUse の with nouns."
+          },
+          {
+            "level": 3,
+            "heading": "Mistake 4: Misunderstanding そのまま",
+            "content": "そのまま ≠ \"by itself\" そのまま = \"as it is\" / \"without changing\" そのまま帰る = go straight home (without stopping)"
+          }
+        ]
+      },
+      {
+        "level": 2,
+        "heading": "Summary",
+        "content": "Key Points:\n\nまま expresses unchanged or maintained state Formation: [Verb た-form / Noun の] + まま Emphasizes continuation without change Common: そのまま, このまま, 座ったまま Different from ながら (simultaneous actions) Often implies something left undone or unchanged Use まま + にする to mean \"leave in that state\" Essential for describing maintained conditions",
+        "children": [
+          {
+            "level": 3,
+            "heading": "Company",
+            "content": "About Pricing Blog Contact"
+          },
+          {
+            "level": 3,
+            "heading": "Legal",
+            "content": "Privacy Policy Terms of Service Cookie Policy"
+          }
+        ]
+      }
+    ]
+  },
+  "metadata": {
+    "extracted_at": "2026-01-01T22:19:31.186898300Z",
+    "duration_ms": 4,
+    "extractors_matched": [
+      "metadata",
+      "examples",
+      "sections"
+    ],
+    "extractors_failed": [
+      "vocab_tables",
+      "definitions",
+      "content_blocks"
+    ]
+  }
+}

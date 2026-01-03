@@ -1,0 +1,320 @@
+{
+  "config_name": "Language Learning Extractor",
+  "url": "https://practice-japanese.com/docs/nani/",
+  "data": {
+    "sections": [
+      {
+        "level": 2,
+        "heading": "What is 何 (nani/nan)?",
+        "content": "何 means \"what\" in Japanese. It has two readings: なに (nani) and なん (nan) , and the choice depends on what follows.\n\n何ですか？(なんですか) \"What is it?\" 何を食べますか？(なにをたべますか) \"What do you eat?\""
+      },
+      {
+        "level": 2,
+        "heading": "When to Use なに (nani) vs なん (nan)",
+        "content": "",
+        "children": [
+          {
+            "level": 3,
+            "heading": "Use なん (nan)",
+            "content": "Before certain sounds and in specific patterns:\n\nBefore です/だ:\n\n何ですか？(なんですか) \"What is it?\" 何だ？(なんだ) \"What is it?\"\n\nBefore counters:\n\n何人？(なんにん) \"How many people?\" 何時？(なんじ) \"What time?\" 何月？(なんがつ) \"What month?\" 何日？(なんにち) \"What day?\"\n\nBefore の:\n\n何の本？(なんのほん) \"What book?\" / \"What kind of book?\" 何の映画？(なんのえいが) \"What movie?\"\n\nIn set phrases:\n\n何色？(なにいろ) \"What color?\" 何曜日？(なんようび) \"What day of the week?\""
+          },
+          {
+            "level": 3,
+            "heading": "Use なに (nani)",
+            "content": "Before particles を, が:\n\n何を食べますか？(なにを) \"What do you eat?\" 何が好きですか？(なにが) \"What do you like?\" 何か問題がありますか？(なにか) \"Is there any problem?\"\n\nBefore する:\n\n何をしますか？(なにを) \"What will you do?\" 何をしていますか？(なにを) \"What are you doing?\"\n\nStandalone:\n\n何？(なに) \"What?\""
+          }
+        ]
+      },
+      {
+        "level": 2,
+        "heading": "Common Question Patterns",
+        "content": "",
+        "children": [
+          {
+            "level": 3,
+            "heading": "Asking \"What\"",
+            "content": "何ですか？ \"What is it?\" これは何ですか？ \"What is this?\" あれは何ですか？ \"What is that?\""
+          },
+          {
+            "level": 3,
+            "heading": "What + Verb",
+            "content": "何を食べますか？ \"What do you eat?\" 何を見ますか？ \"What do you watch?\" 何をしますか？ \"What do you do?\" 何を買いますか？ \"What will you buy?\""
+          },
+          {
+            "level": 3,
+            "heading": "What + が + Adjective",
+            "content": "何が好きですか？ \"What do you like?\" 何がほしいですか？ \"What do you want?\" 何がいいですか？ \"What is good?\""
+          },
+          {
+            "level": 3,
+            "heading": "What kind of",
+            "content": "何の本ですか？ \"What (kind of) book is it?\" 何の映画を見ますか？ \"What (kind of) movie will you watch?\" 何の仕事をしていますか？ \"What (kind of) work do you do?\""
+          }
+        ]
+      },
+      {
+        "level": 2,
+        "heading": "With Counters",
+        "content": "",
+        "children": [
+          {
+            "level": 3,
+            "heading": "Time",
+            "content": "何時ですか？ \"What time is it?\" 何時に起きますか？ \"What time do you wake up?\" 何分かかりますか？ \"How many minutes does it take?\""
+          },
+          {
+            "level": 3,
+            "heading": "People",
+            "content": "何人いますか？ \"How many people are there?\" 何人家族ですか？ \"How many people in your family?\""
+          },
+          {
+            "level": 3,
+            "heading": "General",
+            "content": "何個ありますか？ \"How many (pieces) are there?\" 何本ですか？ \"How many (long objects)?\" 何枚ですか？ \"How many (flat objects)?\""
+          }
+        ]
+      },
+      {
+        "level": 2,
+        "heading": "Common Expressions",
+        "content": "",
+        "children": [
+          {
+            "level": 3,
+            "heading": "何か (nanika) - Something/Anything",
+            "content": "何か食べますか？ \"Will you eat something?\" 何か飲み物はいかがですか？ \"Would you like something to drink?\" 何か問題がありますか？ \"Is there any problem?\""
+          },
+          {
+            "level": 3,
+            "heading": "何も〜ない (nanimo~nai) - Nothing",
+            "content": "何も食べていない \"Haven't eaten anything\" 何もわからない \"Don't understand anything\" 何もない \"There's nothing\""
+          },
+          {
+            "level": 3,
+            "heading": "何でも (nandemo) - Anything/Everything",
+            "content": "何でもいい \"Anything is fine\" 何でも食べる \"I eat anything\" 何でもできる \"Can do anything\""
+          },
+          {
+            "level": 3,
+            "heading": "何と (nanto) - How/What",
+            "content": "Expresses surprise:\n\n何と美しい！ \"How beautiful!\" 何ということだ！ \"What a thing!\" / \"Oh no!\""
+          }
+        ]
+      },
+      {
+        "level": 2,
+        "heading": "Common Conversations",
+        "content": "",
+        "children": [
+          {
+            "level": 3,
+            "heading": "Example 1: Restaurant",
+            "content": "A: 何を食べますか？ \"What will you eat?\" B: ラーメンを食べます \"I'll eat ramen\" A: 何味がいいですか？ \"What flavor is good?\" B: 醤油味がいいです \"Soy sauce flavor is good\""
+          },
+          {
+            "level": 3,
+            "heading": "Example 2: Daily Activities",
+            "content": "A: 今日は何をしますか？ \"What will you do today?\" B: 映画を見に行きます \"I'll go to see a movie\" A: 何の映画ですか？ \"What movie?\" B: アクション映画です \"It's an action movie\""
+          },
+          {
+            "level": 3,
+            "heading": "Example 3: Shopping",
+            "content": "A: 何を探していますか？ \"What are you looking for?\" B: プレゼントを探しています \"I'm looking for a present\" A: 誰へのプレゼントですか？ \"A present for whom?\" B: 母へのプレゼントです \"A present for my mother\""
+          }
+        ]
+      },
+      {
+        "level": 2,
+        "heading": "Common Mistakes",
+        "content": "",
+        "children": [
+          {
+            "level": 3,
+            "heading": "Mistake 1: Wrong reading",
+            "content": "Wrong pronunciation: 何を (なんを) ❌ Right: 何を (なにを) ✓ \"What (object)\" Wrong pronunciation: 何ですか (なにですか) ❌ Right: 何ですか (なんですか) ✓ \"What is it?\""
+          },
+          {
+            "level": 3,
+            "heading": "Mistake 2: Using を with です",
+            "content": "Wrong: 何をですか？ ❌ Right: 何ですか？ ✓ \"What is it?\""
+          },
+          {
+            "level": 3,
+            "heading": "Mistake 3: Forgetting particle",
+            "content": "Incomplete: 何食べますか？ ⚠️ Better: 何を食べますか？ ✓ \"What do you eat?\""
+          }
+        ]
+      },
+      {
+        "level": 2,
+        "heading": "Asking About Occupation",
+        "content": "",
+        "children": [
+          {
+            "level": 3,
+            "heading": "何の仕事",
+            "content": "何の仕事をしていますか？ \"What work do you do?\" お仕事は何ですか？ \"What is your job?\""
+          }
+        ]
+      },
+      {
+        "level": 2,
+        "heading": "Asking for Clarification",
+        "content": "",
+        "children": [
+          {
+            "level": 3,
+            "heading": "Didn't catch what was said",
+            "content": "何ですか？ \"What (did you say)?\" 何と言いましたか？ \"What did you say?\" もう一度お願いします \"One more time please\""
+          }
+        ]
+      },
+      {
+        "level": 2,
+        "heading": "With Specific Topics",
+        "content": "",
+        "children": [
+          {
+            "level": 3,
+            "heading": "Food",
+            "content": "何を食べますか？ \"What do you eat?\" 何が好きですか？ \"What do you like?\" 何味がいいですか？ \"What flavor is good?\""
+          },
+          {
+            "level": 3,
+            "heading": "Activities",
+            "content": "何をしますか？ \"What do you do?\" 何をしていますか？ \"What are you doing?\" 何をしたいですか？ \"What do you want to do?\""
+          },
+          {
+            "level": 3,
+            "heading": "Preferences",
+            "content": "何が好きですか？ \"What do you like?\" 何がほしいですか？ \"What do you want?\" 何色が好きですか？ \"What color do you like?\""
+          }
+        ]
+      },
+      {
+        "level": 2,
+        "heading": "Politeness Levels",
+        "content": "",
+        "children": [
+          {
+            "level": 3,
+            "heading": "Casual",
+            "content": "何？ \"What?\" 何してる？ \"What are you doing?\" 何食べる？ \"What will you eat?\""
+          },
+          {
+            "level": 3,
+            "heading": "Polite",
+            "content": "何ですか？ \"What is it?\" 何をしていますか？ \"What are you doing?\" 何を食べますか？ \"What will you eat?\""
+          },
+          {
+            "level": 3,
+            "heading": "Very Polite",
+            "content": "何でしょうか？ \"What might it be?\" 何をなさっていますか？ \"What are you doing?\" (honorific)"
+          }
+        ]
+      },
+      {
+        "level": 2,
+        "heading": "Practice Sentences",
+        "content": "",
+        "children": [
+          {
+            "level": 3,
+            "heading": "Basic Questions",
+            "content": "これは何ですか？ \"What is this?\" 何を食べますか？ \"What do you eat?\" 何が好きですか？ \"What do you like?\" 何時ですか？ \"What time is it?\""
+          },
+          {
+            "level": 3,
+            "heading": "With Activities",
+            "content": "今何をしていますか？ \"What are you doing now?\" 週末は何をしますか？ \"What will you do on the weekend?\" 何の本を読んでいますか？ \"What book are you reading?\""
+          },
+          {
+            "level": 3,
+            "heading": "With Preferences",
+            "content": "何色が好きですか？ \"What color do you like?\" 何の映画が好きですか？ \"What movies do you like?\" 何が食べたいですか？ \"What do you want to eat?\""
+          },
+          {
+            "level": 3,
+            "heading": "Common Phrases",
+            "content": "何か飲みますか？ \"Will you drink something?\" 何もわかりません \"I don't understand anything\" 何でもいいです \"Anything is fine\" 何と言いましたか？ \"What did you say?\""
+          }
+        ]
+      },
+      {
+        "level": 2,
+        "heading": "Related Grammar Points",
+        "content": "Question Words (5W1H) - Overview Counters - Using 何 with counters か (ka) - Question particle Yes/No Questions - Question formation 何か/何も/何でも - Something/nothing/anything Particles - を, が with question words",
+        "children": [
+          {
+            "level": 3,
+            "heading": "Company",
+            "content": "About Pricing Blog Contact"
+          },
+          {
+            "level": 3,
+            "heading": "Legal",
+            "content": "Privacy Policy Terms of Service Cookie Policy"
+          }
+        ]
+      }
+    ],
+    "examples": [
+      {
+        "sentence": "Question Words (5W1H) - Overview"
+      },
+      {
+        "sentence": "Counters - Using 何 with counters"
+      },
+      {
+        "sentence": "か (ka) - Question particle"
+      },
+      {
+        "sentence": "Yes/No Questions - Question formation"
+      },
+      {
+        "sentence": "何か/何も/何でも - Something/nothing/anything"
+      },
+      {
+        "sentence": "Particles - を, が with question words"
+      },
+      {
+        "sentence": "About"
+      },
+      {
+        "sentence": "Pricing"
+      },
+      {
+        "sentence": "Blog"
+      },
+      {
+        "sentence": "Contact"
+      },
+      {
+        "sentence": "Privacy Policy"
+      },
+      {
+        "sentence": "Terms of Service"
+      },
+      {
+        "sentence": "Cookie Policy"
+      }
+    ],
+    "metadata": {
+      "title": "何 (nani/nan) - What"
+    }
+  },
+  "metadata": {
+    "extracted_at": "2026-01-01T22:19:32.379872100Z",
+    "duration_ms": 3,
+    "extractors_matched": [
+      "metadata",
+      "examples",
+      "sections"
+    ],
+    "extractors_failed": [
+      "vocab_tables",
+      "definitions",
+      "content_blocks"
+    ]
+  }
+}

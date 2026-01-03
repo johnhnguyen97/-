@@ -1,0 +1,292 @@
+{
+  "config_name": "Language Learning Extractor",
+  "url": "https://practice-japanese.com/docs/sugiru/",
+  "data": {
+    "examples": [
+      {
+        "sentence": "About"
+      },
+      {
+        "sentence": "Pricing"
+      },
+      {
+        "sentence": "Blog"
+      },
+      {
+        "sentence": "Contact"
+      },
+      {
+        "sentence": "Privacy Policy"
+      },
+      {
+        "sentence": "Terms of Service"
+      },
+      {
+        "sentence": "Cookie Policy"
+      }
+    ],
+    "sections": [
+      {
+        "level": 2,
+        "heading": "〜すぎる (sugiru) - Too Much",
+        "content": "〜すぎる attaches to verb stems and adjective stems to indicate excess - doing something too much or something being excessive. It carries a negative connotation of going beyond the appropriate amount.\n\nVerb stem + すぎる 食べすぎる - eat too much 飲みすぎる - drink too much 働きすぎる - work too much Excessive action Beyond reasonable limit Usually negative"
+      },
+      {
+        "level": 2,
+        "heading": "Formation",
+        "content": "",
+        "children": [
+          {
+            "level": 3,
+            "heading": "With verbs",
+            "content": "る-verbs: 食べる → 食べすぎる \"eat too much\" 寝る → 寝すぎる \"sleep too much\" 見る → 見すぎる \"watch too much\" う-verbs: 飲む → 飲みすぎる \"drink too much\" 働く → 働きすぎる \"work too much\" 買う → 買いすぎる \"buy too much\" Irregular: する → しすぎる \"do too much\" 来る → 来すぎる \"come too much\""
+          },
+          {
+            "level": 3,
+            "heading": "With adjectives",
+            "content": "い-adjectives (drop い): 高い → 高すぎる \"too expensive\" 長い → 長すぎる \"too long\" 多い → 多すぎる \"too many\" 少ない → 少なすぎる \"too few\" な-adjectives (drop な): 簡単 → 簡単すぎる \"too easy\" 静か → 静かすぎる \"too quiet\" 便利 → 便利すぎる \"too convenient\" Adjectives common with すぎる"
+          }
+        ]
+      },
+      {
+        "level": 2,
+        "heading": "Core Meaning",
+        "content": "",
+        "children": [
+          {
+            "level": 3,
+            "heading": "Excessive amount",
+            "content": "食べすぎた \"Ate too much\" Implies: More than healthy/appropriate Negative consequence Regret implied 働きすぎている \"Working too much\" Beyond healthy limits Concern for wellbeing"
+          }
+        ]
+      },
+      {
+        "level": 2,
+        "heading": "Common Usage",
+        "content": "",
+        "children": [
+          {
+            "level": 3,
+            "heading": "Health and wellbeing",
+            "content": "飲みすぎないで \"Don't drink too much\" 寝すぎた \"Slept too much\" 疲れすぎている \"Too tired\" Concern for excess Warning about limits"
+          },
+          {
+            "level": 3,
+            "heading": "Spending and consumption",
+            "content": "お金を使いすぎた \"Spent too much money\" 買いすぎた \"Bought too much\" 食べすぎて苦しい \"Ate too much and feel sick\" Financial concern Consumption excess"
+          },
+          {
+            "level": 3,
+            "heading": "Work and effort",
+            "content": "働きすぎだよ \"You're working too much\" 頑張りすぎないで \"Don't try too hard\" 心配しすぎ \"Worrying too much\" Care for others Warning against excess"
+          }
+        ]
+      },
+      {
+        "level": 2,
+        "heading": "Negative Connotation",
+        "content": "",
+        "children": [
+          {
+            "level": 3,
+            "heading": "Usually implies problem",
+            "content": "Using すぎる suggests: - Beyond appropriate amount - Potentially harmful - Should moderate Even with positive actions: 頑張りすぎる \"try too hard\" - might burn out 親切すぎる \"too kind\" - maybe taken advantage of Excess is negative Moderation valued"
+          }
+        ]
+      },
+      {
+        "level": 2,
+        "heading": "With Adjectives",
+        "content": "",
+        "children": [
+          {
+            "level": 3,
+            "heading": "Too + adjective",
+            "content": "高すぎる \"Too expensive\" 難しすぎる \"Too difficult\" 遠すぎる \"Too far\" 簡単すぎる \"Too easy\" Exceeding acceptable degree Common complaint pattern"
+          }
+        ]
+      },
+      {
+        "level": 2,
+        "heading": "Advice and Warnings",
+        "content": "",
+        "children": [
+          {
+            "level": 3,
+            "heading": "Don't do too much",
+            "content": "食べすぎないで \"Don't eat too much\" 働きすぎないように \"So that you don't work too much\" 飲みすぎに注意して \"Be careful not to drink too much\" Cautionary statements Health warnings Friendly advice"
+          }
+        ]
+      },
+      {
+        "level": 2,
+        "heading": "Casual Shortening",
+        "content": "",
+        "children": [
+          {
+            "level": 3,
+            "heading": "すぎ form",
+            "content": "働きすぎ \"Too much working\" Noun-like usage Casual speech 食べすぎは体に悪い \"Eating too much is bad for the body\" Nominalized form Common in casual talk"
+          }
+        ]
+      },
+      {
+        "level": 2,
+        "heading": "Conjugation",
+        "content": "",
+        "children": [
+          {
+            "level": 3,
+            "heading": "Regular る-verb",
+            "content": "すぎる is a る-verb: Present: すぎる Past: すぎた Negative: すぎない Te-form: すぎて Potential: すぎられる (rare) 食べすぎる → 食べすぎた 高すぎる → 高すぎた Standard conjugations"
+          }
+        ]
+      },
+      {
+        "level": 2,
+        "heading": "With ている",
+        "content": "",
+        "children": [
+          {
+            "level": 3,
+            "heading": "Ongoing excess",
+            "content": "働きすぎている \"Is working too much\" 飲みすぎている \"Is drinking too much\" Current state of excess Ongoing problem"
+          }
+        ]
+      },
+      {
+        "level": 2,
+        "heading": "Comparison Contexts",
+        "content": "",
+        "children": [
+          {
+            "level": 3,
+            "heading": "This is too much",
+            "content": "これは高すぎる \"This is too expensive\" その仕事は多すぎる \"That work is too much\" Judging excess Making complaints"
+          }
+        ]
+      },
+      {
+        "level": 2,
+        "heading": "Cultural Context",
+        "content": "",
+        "children": [
+          {
+            "level": 3,
+            "heading": "Moderation valued",
+            "content": "Japanese culture values moderation: 中庸 (chuuyou) - middle way 過ぎたるは猶及ばざるが如し \"Too much is the same as too little\" すぎる reflects this value Excess criticized Balance preferred"
+          }
+        ]
+      },
+      {
+        "level": 2,
+        "heading": "Common Collocations",
+        "content": "食べすぎる - eat too much Most common 飲みすぎる - drink too much Very common 働きすぎる - work too much Common concern 高すぎる - too expensive Common complaint 多すぎる - too many Quantity complaint These are natural phrases Learn as units"
+      },
+      {
+        "level": 2,
+        "heading": "Expressing Regret",
+        "content": "",
+        "children": [
+          {
+            "level": 3,
+            "heading": "Past excess",
+            "content": "昨日食べすぎた \"Ate too much yesterday\" お金を使いすぎてしまった \"Ended up spending too much\" Regret expressed Mistake acknowledged"
+          }
+        ]
+      },
+      {
+        "level": 2,
+        "heading": "Formality",
+        "content": "",
+        "children": [
+          {
+            "level": 3,
+            "heading": "Neutral usage",
+            "content": "Can use in: - Casual: 食べすぎた - Polite: 食べすぎました - Written: 食べすぎた Adjust with conjugation Not inherently formal/casual"
+          }
+        ]
+      },
+      {
+        "level": 2,
+        "heading": "With Causative",
+        "content": "",
+        "children": [
+          {
+            "level": 3,
+            "heading": "Made to do too much",
+            "content": "働かせすぎる \"Make (someone) work too much\" 勉強させすぎた \"Made (someone) study too much\" Criticism of forcing excess Concern for others"
+          }
+        ]
+      },
+      {
+        "level": 2,
+        "heading": "Positive Actions Made Negative",
+        "content": "",
+        "children": [
+          {
+            "level": 3,
+            "heading": "Even good things",
+            "content": "優しすぎる \"Too kind\" - might be taken advantage of 頑張りすぎる \"Try too hard\" - might burn out 真面目すぎる \"Too serious\" - should relax more Even positives can be excessive Balance important"
+          }
+        ]
+      },
+      {
+        "level": 2,
+        "heading": "In Questions",
+        "content": "",
+        "children": [
+          {
+            "level": 3,
+            "heading": "Checking excess",
+            "content": "食べすぎた？ \"Did you eat too much?\" 高すぎない？ \"Isn't it too expensive?\" 多すぎませんか \"Isn't it too many?\" Checking if excessive Confirming concerns"
+          }
+        ]
+      },
+      {
+        "level": 2,
+        "heading": "Common Mistakes",
+        "content": "❌ Using dictionary form ✗ 食べるすぎる ✓ Using stem form ✓ 食べすぎる ❌ With い-adjectives, keeping い ✗ 高いすぎる ✓ Drop い first ✓ 高すぎる ❌ Treating as positive すぎる is usually negative ✓ Understand negative nuance Excess is problem ❌ Wrong conjugation ✗ すぎた (sugita) ✓ Correct conjugation ✓ すぎた (sugita) - actually this IS correct"
+      },
+      {
+        "level": 2,
+        "heading": "Practical Examples",
+        "content": "",
+        "children": [
+          {
+            "level": 3,
+            "heading": "Real-life situations",
+            "content": "このコーヒーは甘すぎる \"This coffee is too sweet\" 昨日飲みすぎて、頭が痛い \"Drank too much yesterday, have a headache\" 彼は働きすぎだと思う \"I think he works too much\" 最近スマホを見すぎている \"Lately looking at smartphone too much\" この靴は小さすぎて履けない \"These shoes are too small and can't wear them\" Everyday complaints Health concerns Natural contexts"
+          },
+          {
+            "level": 3,
+            "heading": "Company",
+            "content": "About Pricing Blog Contact"
+          },
+          {
+            "level": 3,
+            "heading": "Legal",
+            "content": "Privacy Policy Terms of Service Cookie Policy"
+          }
+        ]
+      }
+    ],
+    "metadata": {
+      "title": "〜すぎる (sugiru) - Too much"
+    }
+  },
+  "metadata": {
+    "extracted_at": "2026-01-01T22:19:34.808585200Z",
+    "duration_ms": 4,
+    "extractors_matched": [
+      "metadata",
+      "examples",
+      "sections"
+    ],
+    "extractors_failed": [
+      "vocab_tables",
+      "definitions",
+      "content_blocks"
+    ]
+  }
+}

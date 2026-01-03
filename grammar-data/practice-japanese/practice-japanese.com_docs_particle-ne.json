@@ -1,0 +1,172 @@
+{
+  "config_name": "Language Learning Extractor",
+  "url": "https://practice-japanese.com/docs/particle-ne/",
+  "data": {
+    "examples": [
+      {
+        "sentence": "\"right?\""
+      },
+      {
+        "sentence": "\"isn't it?\""
+      },
+      {
+        "sentence": "\"don't you think?\""
+      },
+      {
+        "sentence": "\"you know\""
+      },
+      {
+        "sentence": "よ (yo) - Emphasis"
+      },
+      {
+        "sentence": "よね (yone)"
+      },
+      {
+        "sentence": "Sentence-ending Particles"
+      },
+      {
+        "sentence": "About"
+      },
+      {
+        "sentence": "Pricing"
+      },
+      {
+        "sentence": "Blog"
+      },
+      {
+        "sentence": "Contact"
+      },
+      {
+        "sentence": "Privacy Policy"
+      },
+      {
+        "sentence": "Terms of Service"
+      },
+      {
+        "sentence": "Cookie Policy"
+      }
+    ],
+    "sections": [
+      {
+        "level": 2,
+        "heading": "Core Function",
+        "content": "ね seeks confirmation or shows agreement - like \"right?\" or \"isn't it?\" in English."
+      },
+      {
+        "level": 2,
+        "heading": "Main Uses",
+        "content": "",
+        "children": [
+          {
+            "level": 3,
+            "heading": "1. Seeking Confirmation",
+            "content": "Asking for agreement:\n\n美味しいですね \"It's delicious, isn't it?\" いい天気ですね \"Nice weather, right?\" 難しいですね \"It's difficult, isn't it?\""
+          },
+          {
+            "level": 3,
+            "heading": "2. Showing Agreement",
+            "content": "Acknowledging shared experience:\n\nA: 今日は暑いですね B: 本当にそうですね \"It's hot today, isn't it?\" \"Indeed it is\""
+          },
+          {
+            "level": 3,
+            "heading": "3. Softening Statements",
+            "content": "Making statements gentler:\n\nちょっと難しいですね \"It's a bit difficult, you know\" 時間がないですね \"There's no time, you see\""
+          },
+          {
+            "level": 3,
+            "heading": "4. Seeking Empathy",
+            "content": "Inviting listener to share feeling:\n\n疲れましたね \"(We're) tired, aren't we?\" 大変でしたね \"That was tough, wasn't it?\""
+          }
+        ]
+      },
+      {
+        "level": 2,
+        "heading": "Similar to English",
+        "content": "\"right?\" \"isn't it?\" \"don't you think?\" \"you know\""
+      },
+      {
+        "level": 2,
+        "heading": "ね vs よ",
+        "content": "Different functions:\n\nね = seeks confirmation/agreement 美味しいですね - \"It's delicious, right?\" よ = gives new information 美味しいですよ - \"It's delicious!\" (informing)"
+      },
+      {
+        "level": 2,
+        "heading": "Politeness Levels",
+        "content": "Casual: 美味しいね Polite: 美味しいですね Very polite: 美味しゅうございますね"
+      },
+      {
+        "level": 2,
+        "heading": "Common Patterns",
+        "content": "",
+        "children": [
+          {
+            "level": 3,
+            "heading": "Adjective + ね",
+            "content": "大きいですね - \"It's big, isn't it?\""
+          },
+          {
+            "level": 3,
+            "heading": "Verb + ね",
+            "content": "分かりますね - \"You understand, right?\""
+          },
+          {
+            "level": 3,
+            "heading": "Statement + ね",
+            "content": "そうですね - \"That's right, isn't it\" / \"I see\""
+          }
+        ]
+      },
+      {
+        "level": 2,
+        "heading": "Cannot Use When",
+        "content": "",
+        "children": [
+          {
+            "level": 3,
+            "heading": "Stating obvious facts only you know",
+            "content": "Wrong context: 私は学生ですね ❌ (Don't seek confirmation for facts only you know) Right: 私は学生です ✓"
+          },
+          {
+            "level": 3,
+            "heading": "Strong assertions (use よ)",
+            "content": "Wrong: 危ないですね ❌ (for warning) Right: 危ないですよ ✓"
+          }
+        ]
+      },
+      {
+        "level": 2,
+        "heading": "Key Takeaways",
+        "content": "✓ Seeks confirmation/agreement ✓ Like \"right?\" or \"isn't it?\" ✓ Softens statements ✓ Shows shared experience ✓ Different from よ (assertion)\n\nRelated:\n\nよ (yo) - Emphasis よね (yone) Sentence-ending Particles",
+        "children": [
+          {
+            "level": 3,
+            "heading": "Company",
+            "content": "About Pricing Blog Contact"
+          },
+          {
+            "level": 3,
+            "heading": "Legal",
+            "content": "Privacy Policy Terms of Service Cookie Policy"
+          }
+        ]
+      }
+    ],
+    "metadata": {
+      "title": "ね (ne) - Confirmation/Agreement"
+    }
+  },
+  "metadata": {
+    "extracted_at": "2026-01-01T22:19:33.795143100Z",
+    "duration_ms": 3,
+    "extractors_matched": [
+      "metadata",
+      "examples",
+      "sections"
+    ],
+    "extractors_failed": [
+      "vocab_tables",
+      "definitions",
+      "content_blocks"
+    ]
+  }
+}

@@ -1,0 +1,289 @@
+{
+  "config_name": "Language Learning Extractor",
+  "url": "https://practice-japanese.com/docs/tsutsu/",
+  "data": {
+    "examples": [
+      {
+        "sentence": "つつ is the formal/literary version of ながら"
+      },
+      {
+        "sentence": "Formation: [Verb ます-stem] + つつ"
+      },
+      {
+        "sentence": "Two meanings: simultaneous actions / contradiction"
+      },
+      {
+        "sentence": "つつある: progressive change (formal)"
+      },
+      {
+        "sentence": "つつも: \"even though\" (emphasis)"
+      },
+      {
+        "sentence": "Used in writing, news, formal speech"
+      },
+      {
+        "sentence": "Rare in daily conversation - use ながら instead"
+      },
+      {
+        "sentence": "Essential for formal and literary expression"
+      },
+      {
+        "sentence": "About"
+      },
+      {
+        "sentence": "Pricing"
+      },
+      {
+        "sentence": "Blog"
+      },
+      {
+        "sentence": "Contact"
+      },
+      {
+        "sentence": "Privacy Policy"
+      },
+      {
+        "sentence": "Terms of Service"
+      },
+      {
+        "sentence": "Cookie Policy"
+      }
+    ],
+    "sections": [
+      {
+        "level": 2,
+        "heading": "What is 〜つつ?",
+        "content": "〜つつ (tsutsu) is the formal/literary equivalent of ながら, expressing simultaneous actions or contradictory states. It's mainly used in writing and formal speech.\n\nEnglish equivalent: \"while,\" \"although,\" \"as\"\n\nStructure: [Verb ます-stem] + つつ\n\n考える (kangaeru - think) → 考え + つつ = 考えつつ \"while thinking\" 歩く (aruku - walk) → 歩き + つつ = 歩きつつ \"while walking\" 知る (shiru - know) → 知り + つつ = 知りつつ \"while knowing\""
+      },
+      {
+        "level": 2,
+        "heading": "Basic Formation",
+        "content": "",
+        "children": [
+          {
+            "level": 3,
+            "heading": "With verb stems",
+            "content": "[Verb ます-stem] + つつ\n\n考えつつ (kangaetsutsu) - \"while thinking\" 歩きつつ (arukitsutsu) - \"while walking\" 思いつつ (omoitsutsu) - \"while thinking\" 感じつつ (kanjitsutsu) - \"while feeling\""
+          }
+        ]
+      },
+      {
+        "level": 2,
+        "heading": "Formal Simultaneous Actions",
+        "content": "",
+        "children": [
+          {
+            "level": 3,
+            "heading": "Literary style",
+            "content": "月を見つつ歩く。 Tsuki wo mitsutsu aruku. \"Walk while viewing the moon.\" 音楽を聴きつつ読書する。 Ongaku wo kikitsutsu dokusho suru. \"Read while listening to music.\" 考えつつ答える。 Kangaetsutsu kotaeru. \"Answer while thinking.\""
+          }
+        ]
+      },
+      {
+        "level": 2,
+        "heading": "Contradictory States",
+        "content": "",
+        "children": [
+          {
+            "level": 3,
+            "heading": "\"Although\" meaning",
+            "content": "つつ can also express contradiction, similar to \"although\":\n\n知りつつやる。 Shiritsutsu yaru. \"Do it while knowing (it's wrong).\" 分かっていつつできない。 Wakatte itsutsu dekinai. \"Can't do it although I understand.\" 悪いと思いつつ言った。 Warui to omoitsutsu itta. \"I said it although I thought it was bad.\" 危険だと知りつつ行く。 Kiken da to shiritsutsu iku. \"Go although I know it's dangerous.\""
+          }
+        ]
+      },
+      {
+        "level": 2,
+        "heading": "In Writing and Literature",
+        "content": "",
+        "children": [
+          {
+            "level": 3,
+            "heading": "Formal contexts",
+            "content": "時代は変わりつつある。 Jidai wa kawaritsutsu aru. \"The times are changing.\" 技術は進歩しつつある。 Gijutsu wa shinpo shitsutsu aru. \"Technology is progressing.\" 問題は解決しつつある。 Mondai wa kaiketsu shitsutsu aru. \"The problem is being resolved.\""
+          }
+        ]
+      },
+      {
+        "level": 2,
+        "heading": "つつある Pattern",
+        "content": "",
+        "children": [
+          {
+            "level": 3,
+            "heading": "Progressive state (formal)",
+            "content": "[Verb ます-stem] + つつある = \"is in the process of ~ing\" (formal)\n\n変わりつつある (kawaritsutsu aru) - \"is changing\" 発展しつつある (hattenshitsutsu aru) - \"is developing\" 増えつつある (fuetsutsu aru) - \"is increasing\" 減りつつある (heritsutsu aru) - \"is decreasing\" 人口は増えつつある。 Jinkou wa fuetsutsu aru. \"The population is increasing.\" 環境は悪化しつつある。 Kankyou wa akka shitsutsu aru. \"The environment is deteriorating.\""
+          }
+        ]
+      },
+      {
+        "level": 2,
+        "heading": "Emotional and Mental States",
+        "content": "",
+        "children": [
+          {
+            "level": 3,
+            "heading": "Internal feelings",
+            "content": "思いつつ言えない。 Omoitsutsu ienai. \"Cannot say although I'm thinking it.\" 感じつつ行動する。 Kanjitsutsu koudou suru. \"Act while feeling (something).\" 疑いつつ信じる。 Utagaitsutsu shinjiru. \"Believe while doubting.\""
+          }
+        ]
+      },
+      {
+        "level": 2,
+        "heading": "Set Expressions",
+        "content": "",
+        "children": [
+          {
+            "level": 3,
+            "heading": "Common phrases",
+            "content": "知りつつ (shiritsutsu) - \"while knowing\" 思いつつ (omoitsutsu) - \"while thinking\" 感じつつ (kanjitsutsu) - \"while feeling\" ありつつ (aritsutsu) - \"while existing\" なしつつ (nashitsutsu) - \"while doing\" それを知りつつも、続けた。 Sore wo shiritsutsu mo, tsuzuketa. \"Even knowing that, I continued.\""
+          }
+        ]
+      },
+      {
+        "level": 2,
+        "heading": "つつも Pattern",
+        "content": "",
+        "children": [
+          {
+            "level": 3,
+            "heading": "\"Even though/although\"",
+            "content": "[Verb ます-stem] + つつも = \"even though,\" \"although\"\n\n知りつつも (shiritsutsu mo) - \"even though knowing\" 思いつつも (omoitsutsu mo) - \"even though thinking\" 悪いと知りつつもやった。 Warui to shiritsutsu mo yatta. \"I did it even though I knew it was bad.\" 難しいと思いつつも挑戦した。 Muzukashii to omoitsutsu mo chousen shita. \"I challenged it even though I thought it was difficult.\""
+          }
+        ]
+      },
+      {
+        "level": 2,
+        "heading": "Formal Speech and Writing",
+        "content": "",
+        "children": [
+          {
+            "level": 3,
+            "heading": "Professional contexts",
+            "content": "報告書を作成しつつ、データを分析する。 Houkokusho wo sakusei shitsutsu, deeta wo bunseki suru. \"Analyze data while creating the report.\" 会議を進めつつ、意見を聞く。 Kaigi wo susumetsu, iken wo kiku. \"Listen to opinions while proceeding with the meeting.\""
+          }
+        ]
+      },
+      {
+        "level": 2,
+        "heading": "Literary Usage",
+        "content": "",
+        "children": [
+          {
+            "level": 3,
+            "heading": "Classical feel",
+            "content": "桜を愛でつつ詩を詠む。 Sakura wo medetsutsu shi wo yomu. \"Compose poetry while appreciating cherry blossoms.\" 過去を振り返りつつ前進する。 Kako wo furikaeritsutsu zenshin suru. \"Move forward while reflecting on the past.\""
+          }
+        ]
+      },
+      {
+        "level": 2,
+        "heading": "Comparing つつ and ながら",
+        "content": "",
+        "children": [
+          {
+            "level": 3,
+            "heading": "Formality difference",
+            "content": "つつ - Formal/literary:\n\n考えつつ答える (kangaetsutsu kotaeru) \"answer while thinking\" (formal)\n\nながら - Casual/common:\n\n考えながら答える (kangaenagara kotaeru) \"answer while thinking\" (everyday)\n\n| Pattern | Formality | Context | | ------- | --------- | ---------------------- | | つつ | Formal | Writing, formal speech | | ながら | Casual | Daily conversation |\n\nSee: 〜ながら (While)"
+          }
+        ]
+      },
+      {
+        "level": 2,
+        "heading": "Not Common in Daily Conversation",
+        "content": "",
+        "children": [
+          {
+            "level": 3,
+            "heading": "Rare in speech",
+            "content": "つつ is rarely used in everyday conversation. Use ながら instead for casual speech.\n\nDaily conversation: ✓ 歩きながら話す (casual) ❌ 歩きつつ話す (too formal) Formal writing: ✓ 歩きつつ話す ✓ 時代は変わりつつある"
+          }
+        ]
+      },
+      {
+        "level": 2,
+        "heading": "Contradiction Emphasis",
+        "content": "",
+        "children": [
+          {
+            "level": 3,
+            "heading": "Known wrongdoing",
+            "content": "ダメだと知りつつやってしまった。 Dame da to shiritsutsu yatte shimatta. \"I did it even though I knew it was wrong.\" 危険だと分かっていつつ続けた。 Kiken da to wakatte itsutsu tsuzuketa. \"I continued although I knew it was dangerous.\" 間違いだと思いつつ言えなかった。 Machigai da to omoitsutsu ienakatta. \"I couldn't say it although I thought it was wrong.\""
+          }
+        ]
+      },
+      {
+        "level": 2,
+        "heading": "In News and Academia",
+        "content": "",
+        "children": [
+          {
+            "level": 3,
+            "heading": "Professional writing",
+            "content": "経済は回復しつつある。 Keizai wa kaifuku shitsutsu aru. \"The economy is recovering.\" 研究は進展しつつある。 Kenkyuu wa shinten shitsutsu aru. \"Research is progressing.\" 状況は改善しつつある。 Joukyou wa kaizen shitsutsu aru. \"The situation is improving.\""
+          }
+        ]
+      },
+      {
+        "level": 2,
+        "heading": "Common Mistakes",
+        "content": "",
+        "children": [
+          {
+            "level": 3,
+            "heading": "Mistake 1: Using in casual conversation",
+            "content": "❌ 歩きつつ話そう (too formal for friends) ✓ 歩きながら話そう\n\nSave つつ for formal contexts."
+          },
+          {
+            "level": 3,
+            "heading": "Mistake 2: Wrong verb form",
+            "content": "❌ 考えるつつ ✓ 考えつつ\n\nUse ます-stem, not dictionary form."
+          },
+          {
+            "level": 3,
+            "heading": "Mistake 3: Overusing つつある",
+            "content": "つつある is for gradual change, not sudden actions.\n\n✓ 人口は増えつつある (gradual) ❌ ドアが開きつつある (sudden - unnatural) ✓ ドアが開いている (better)"
+          },
+          {
+            "level": 3,
+            "heading": "Mistake 4: Mixing formality levels",
+            "content": "Don't mix つつ with very casual language.\n\n❌ 考えつつさ、やっちゃった (mixed formality) ✓ 考えつつ、行った (consistent formal) ✓ 考えながら、やっちゃった (consistent casual)"
+          }
+        ]
+      },
+      {
+        "level": 2,
+        "heading": "Summary",
+        "content": "Key Points:\n\nつつ is the formal/literary version of ながら Formation: [Verb ます-stem] + つつ Two meanings: simultaneous actions / contradiction つつある: progressive change (formal) つつも: \"even though\" (emphasis) Used in writing, news, formal speech Rare in daily conversation - use ながら instead Essential for formal and literary expression",
+        "children": [
+          {
+            "level": 3,
+            "heading": "Company",
+            "content": "About Pricing Blog Contact"
+          },
+          {
+            "level": 3,
+            "heading": "Legal",
+            "content": "Privacy Policy Terms of Service Cookie Policy"
+          }
+        ]
+      }
+    ],
+    "metadata": {
+      "title": "〜つつ (While - formal)"
+    }
+  },
+  "metadata": {
+    "extracted_at": "2026-01-01T22:19:36.769789300Z",
+    "duration_ms": 4,
+    "extractors_matched": [
+      "metadata",
+      "examples",
+      "sections"
+    ],
+    "extractors_failed": [
+      "vocab_tables",
+      "definitions",
+      "content_blocks"
+    ]
+  }
+}

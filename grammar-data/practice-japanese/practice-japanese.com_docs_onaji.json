@@ -1,0 +1,448 @@
+{
+  "config_name": "Language Learning Extractor",
+  "url": "https://practice-japanese.com/docs/onaji/",
+  "data": {
+    "examples": [
+      {
+        "sentence": "似ている - Similar/alike (resemblance)"
+      },
+      {
+        "sentence": "違う - Different (opposite)"
+      },
+      {
+        "sentence": "より - Than (comparison)"
+      },
+      {
+        "sentence": "ほど - As...as (extent)"
+      },
+      {
+        "sentence": "くらい/ぐらい - About (approximate degree)"
+      },
+      {
+        "sentence": "のほうが - More than (preference)"
+      },
+      {
+        "sentence": "一緒 - Together/same (physical togetherness)"
+      },
+      {
+        "sentence": "About"
+      },
+      {
+        "sentence": "Pricing"
+      },
+      {
+        "sentence": "Blog"
+      },
+      {
+        "sentence": "Contact"
+      },
+      {
+        "sentence": "Privacy Policy"
+      },
+      {
+        "sentence": "Terms of Service"
+      },
+      {
+        "sentence": "Cookie Policy"
+      }
+    ],
+    "metadata": {
+      "title": "同じ (Same)"
+    },
+    "sections": [
+      {
+        "level": 2,
+        "heading": "What is 同じ?",
+        "content": "同じ (onaji) means \"same,\" \"identical,\" or \"equal.\" It expresses that two or more things share the same quality, identity, or characteristics. It functions as both an adjective and a noun modifier.\n\n同じ色 \"The same color\" 私と同じ \"Same as me\" 同じことを言う \"Say the same thing\""
+      },
+      {
+        "level": 2,
+        "heading": "Basic Structure",
+        "content": "",
+        "children": [
+          {
+            "level": 3,
+            "heading": "同じ + [noun]",
+            "content": "同じ本 \"The same book\" 同じ問題 \"The same problem\" Modifies noun directly"
+          },
+          {
+            "level": 3,
+            "heading": "A と同じ",
+            "content": "兄と同じ身長 \"Same height as my brother\" 昨日と同じ服 \"Same clothes as yesterday\" Comparison with と"
+          }
+        ]
+      },
+      {
+        "level": 2,
+        "heading": "Usage and Meaning",
+        "content": "",
+        "children": [
+          {
+            "level": 3,
+            "heading": "Expressing identity",
+            "content": "同じ人 \"The same person\" 同じ場所 \"The same place\" Identical items"
+          },
+          {
+            "level": 3,
+            "heading": "Expressing equality",
+            "content": "値段は同じです \"The price is the same\" 結果は同じだった \"The result was the same\" Equal in quality/amount"
+          },
+          {
+            "level": 3,
+            "heading": "Expressing similarity",
+            "content": "同じような考え \"Similar thinking\" 同じように感じる \"Feel the same way\" Shared characteristics"
+          }
+        ]
+      },
+      {
+        "level": 2,
+        "heading": "と for Comparison",
+        "content": "",
+        "children": [
+          {
+            "level": 3,
+            "heading": "A と同じ B",
+            "content": "あなたと同じ意見 \"Same opinion as you\" 去年と同じ結果 \"Same result as last year\" と marks comparison standard"
+          },
+          {
+            "level": 3,
+            "heading": "Can come after noun",
+            "content": "私と同じ \"Same as me\" それと同じもの \"Something same as that\" Flexible positioning"
+          }
+        ]
+      },
+      {
+        "level": 2,
+        "heading": "As a Predicate",
+        "content": "",
+        "children": [
+          {
+            "level": 3,
+            "heading": "同じだ/です",
+            "content": "これとそれは同じです \"This and that are the same\" 答えは同じだ \"The answer is the same\" Predicate form"
+          },
+          {
+            "level": 3,
+            "heading": "A と B は同じ",
+            "content": "犬と猫は同じ動物です \"Dogs and cats are the same (type of) animal\" Both subjects compared"
+          }
+        ]
+      },
+      {
+        "level": 2,
+        "heading": "Common Patterns",
+        "content": "",
+        "children": [
+          {
+            "level": 3,
+            "heading": "同じく (likewise/similarly)",
+            "content": "私も同じく思います \"I think likewise\" 同じく参加します \"Will participate similarly\" Adverb form"
+          },
+          {
+            "level": 3,
+            "heading": "同じように (in the same way)",
+            "content": "彼と同じようにする \"Do it the same way as him\" いつもと同じように \"The same way as always\" Manner comparison"
+          },
+          {
+            "level": 3,
+            "heading": "同じ〜でも (even if same)",
+            "content": "同じ本でも、人によって感想が違う \"Even with the same book, impressions differ by person\" Acknowledging sameness"
+          }
+        ]
+      },
+      {
+        "level": 2,
+        "heading": "Position in Sentence",
+        "content": "",
+        "children": [
+          {
+            "level": 3,
+            "heading": "Before nouns",
+            "content": "同じクラス \"Same class\" 同じ時間 \"Same time\" Modifies directly"
+          },
+          {
+            "level": 3,
+            "heading": "As predicate",
+            "content": "味は同じです \"The taste is the same\" サイズが同じだ \"The size is the same\" Final position"
+          }
+        ]
+      },
+      {
+        "level": 2,
+        "heading": "Polite and Casual",
+        "content": "",
+        "children": [
+          {
+            "level": 3,
+            "heading": "Works in both",
+            "content": "Casual: 同じだね \"It's the same\" Polite: 同じです \"It's the same\" Adjust copula"
+          }
+        ]
+      },
+      {
+        "level": 2,
+        "heading": "Expressing \"Exactly the same\"",
+        "content": "",
+        "children": [
+          {
+            "level": 3,
+            "heading": "全く同じ/まったく同じ",
+            "content": "全く同じ意見 \"Exactly the same opinion\" まったく同じ顔 \"Exactly the same face\" Complete identity"
+          },
+          {
+            "level": 3,
+            "heading": "そっくり同じ",
+            "content": "そっくり同じコピー \"Identical copy\" Strong emphasis"
+          }
+        ]
+      },
+      {
+        "level": 2,
+        "heading": "Negative Forms",
+        "content": "",
+        "children": [
+          {
+            "level": 3,
+            "heading": "同じじゃない/同じではない",
+            "content": "これとそれは同じじゃない \"This and that are not the same\" 考えは同じではない \"Our thinking is not the same\" Expressing difference"
+          }
+        ]
+      },
+      {
+        "level": 2,
+        "heading": "Common Contexts",
+        "content": "",
+        "children": [
+          {
+            "level": 3,
+            "heading": "Making comparisons",
+            "content": "彼と同じ年齢 \"Same age as him\" 東京と同じくらい大きい \"About as big as Tokyo\" Comparative statements"
+          },
+          {
+            "level": 3,
+            "heading": "Shopping/choosing",
+            "content": "同じものをください \"Please give me the same thing\" これと同じ色がいい \"I want the same color as this\" Requesting duplicates"
+          },
+          {
+            "level": 3,
+            "heading": "Agreement/shared experience",
+            "content": "私も同じ経験をした \"I had the same experience\" 同じ気持ちです \"I feel the same way\" Empathy statements"
+          }
+        ]
+      },
+      {
+        "level": 2,
+        "heading": "同じ vs 似ている",
+        "content": "",
+        "children": [
+          {
+            "level": 3,
+            "heading": "同じ = identical/same",
+            "content": "同じ服 \"The same clothes\" (identical) Complete sameness"
+          },
+          {
+            "level": 3,
+            "heading": "似ている = similar/alike",
+            "content": "似ている服 \"Similar clothes\" (not identical) Resemblance only"
+          },
+          {
+            "level": 3,
+            "heading": "Example comparison",
+            "content": "Same: 双子は同じ顔をしている \"Twins have the same face\" Similar: 兄弟は似ている顔をしている \"Siblings have similar faces\" Degree of sameness"
+          }
+        ]
+      },
+      {
+        "level": 2,
+        "heading": "Time Expressions",
+        "content": "",
+        "children": [
+          {
+            "level": 3,
+            "heading": "いつも同じ",
+            "content": "いつも同じ時間に起きる \"Always wake up at the same time\" 毎日同じことをする \"Do the same thing every day\" Routine/consistency"
+          },
+          {
+            "level": 3,
+            "heading": "同じ日に",
+            "content": "同じ日に生まれた \"Born on the same day\" 同じ年に \"In the same year\" Temporal equality"
+          }
+        ]
+      },
+      {
+        "level": 2,
+        "heading": "同じ as Noun",
+        "content": "",
+        "children": [
+          {
+            "level": 3,
+            "heading": "Used alone",
+            "content": "同じのをください \"Please give me the same one\" 同じがいい \"I want the same\" Noun usage with の"
+          }
+        ]
+      },
+      {
+        "level": 2,
+        "heading": "Common Mistakes",
+        "content": "",
+        "children": [
+          {
+            "level": 3,
+            "heading": "Using が instead of と",
+            "content": "Wrong: 私が同じ ⚠️ Correct: 私と同じ ✓ \"Same as me\" と for comparison"
+          },
+          {
+            "level": 3,
+            "heading": "Confusing with 違う (different)",
+            "content": "Same: 同じ本 \"Same book\" Different: 違う本 \"Different book\" Opposites"
+          },
+          {
+            "level": 3,
+            "heading": "Overusing with particles",
+            "content": "Redundant: と同じと ⚠️ Correct: と同じ ✓ One と sufficient"
+          }
+        ]
+      },
+      {
+        "level": 2,
+        "heading": "Regional Variations",
+        "content": "",
+        "children": [
+          {
+            "level": 3,
+            "heading": "Standard 同じ",
+            "content": "同じもの \"Same thing\" Universal"
+          },
+          {
+            "level": 3,
+            "heading": "Dialectal variations",
+            "content": "おんなじ (casual) \"Same\" More colloquial form"
+          }
+        ]
+      },
+      {
+        "level": 2,
+        "heading": "Expressing Repetition",
+        "content": "",
+        "children": [
+          {
+            "level": 3,
+            "heading": "また同じ",
+            "content": "また同じ失敗をした \"Made the same mistake again\" また同じ話 \"The same story again\" Repeated occurrence"
+          }
+        ]
+      },
+      {
+        "level": 2,
+        "heading": "同じ with Quantities",
+        "content": "",
+        "children": [
+          {
+            "level": 3,
+            "heading": "同じくらい/ぐらい",
+            "content": "彼と同じくらい背が高い \"About as tall as him\" 去年と同じぐらいの人数 \"About the same number of people as last year\" Approximate equality"
+          }
+        ]
+      },
+      {
+        "level": 2,
+        "heading": "In Questions",
+        "content": "",
+        "children": [
+          {
+            "level": 3,
+            "heading": "同じですか",
+            "content": "これとそれは同じですか \"Are this and that the same?\" Asking about identity"
+          },
+          {
+            "level": 3,
+            "heading": "どちらも同じ",
+            "content": "どちらも同じです \"Both are the same\" Equal options"
+          }
+        ]
+      },
+      {
+        "level": 2,
+        "heading": "Emphasis Patterns",
+        "content": "",
+        "children": [
+          {
+            "level": 3,
+            "heading": "同じことだ",
+            "content": "言い方は違っても、同じことだ \"Even if the way of saying it differs, it's the same thing\" Essential equality"
+          },
+          {
+            "level": 3,
+            "heading": "同じではない",
+            "content": "形は似ていても、中身は同じではない \"Even if the shape is similar, the contents are not the same\" Distinguishing differences"
+          }
+        ]
+      },
+      {
+        "level": 2,
+        "heading": "Set Expressions",
+        "content": "",
+        "children": [
+          {
+            "level": 3,
+            "heading": "Common phrases",
+            "content": "同じ釜の飯を食う \"Eat from the same pot\" (share hardship) 同じ穴の狢 \"Badgers from the same hole\" (birds of a feather) Idiomatic expressions"
+          }
+        ]
+      },
+      {
+        "level": 2,
+        "heading": "Practice Sentences",
+        "content": "",
+        "children": [
+          {
+            "level": 3,
+            "heading": "Basic",
+            "content": "私と同じ \"Same as me\" 同じ色がいい \"I want the same color\" これは昨日と同じです \"This is the same as yesterday\""
+          },
+          {
+            "level": 3,
+            "heading": "Intermediate",
+            "content": "彼女は私と同じ大学に通っています \"She goes to the same university as me\" 今日のテストは前回と同じくらい難しかった \"Today's test was about as difficult as last time\" 同じ失敗を二度と繰り返さないようにしたい \"I want to avoid repeating the same mistake twice\""
+          },
+          {
+            "level": 3,
+            "heading": "Advanced",
+            "content": "人は見た目が同じでも、性格や考え方は まったく違うことがある。外見だけで 判断せず、その人の内面を理解することが 大切だ。同じ経験をしても、人によって 感じ方は異なる。だからこそ、 お互いの違いを認め合うことが必要だ。 \"Even if people look the same, their personalities and ways of thinking can be completely different. It's important not to judge by appearance alone, but to understand the person's inner self. Even with the same experience, how people feel differs by person. That's why it's necessary to acknowledge each other's differences.\" 現代社会では、誰もが同じような生活を 送るように見えるが、実際には一人一人の 状況は異なる。表面的には同じに見えても、 抱えている問題や悩みは人それぞれだ。 同じ言葉でも、受け取り方は人によって 変わることを忘れてはいけない。 \"In modern society, it seems everyone lives similar lives, but in reality, each person's situation is different. Even if things look the same on the surface, the problems and worries people carry vary by individual. We must not forget that even with the same words, how they're received changes by person.\""
+          }
+        ]
+      },
+      {
+        "level": 2,
+        "heading": "Related Grammar Points",
+        "content": "似ている - Similar/alike (resemblance) 違う - Different (opposite) より - Than (comparison) ほど - As...as (extent) くらい/ぐらい - About (approximate degree) のほうが - More than (preference) 一緒 - Together/same (physical togetherness)",
+        "children": [
+          {
+            "level": 3,
+            "heading": "Company",
+            "content": "About Pricing Blog Contact"
+          },
+          {
+            "level": 3,
+            "heading": "Legal",
+            "content": "Privacy Policy Terms of Service Cookie Policy"
+          }
+        ]
+      }
+    ]
+  },
+  "metadata": {
+    "extracted_at": "2026-01-01T22:19:32.778159800Z",
+    "duration_ms": 3,
+    "extractors_matched": [
+      "metadata",
+      "examples",
+      "sections"
+    ],
+    "extractors_failed": [
+      "vocab_tables",
+      "definitions",
+      "content_blocks"
+    ]
+  }
+}

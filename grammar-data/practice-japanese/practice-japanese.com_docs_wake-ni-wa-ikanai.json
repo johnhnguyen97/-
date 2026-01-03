@@ -1,0 +1,280 @@
+{
+  "config_name": "Language Learning Extractor",
+  "url": "https://practice-japanese.com/docs/wake-ni-wa-ikanai/",
+  "data": {
+    "metadata": {
+      "title": "〜わけにはいかない (Cannot)"
+    },
+    "examples": [
+      {
+        "sentence": "わけにはいかない expresses inability due to circumstances"
+      },
+      {
+        "sentence": "Formation: [Verb dictionary/ない-form] + わけにはいかない"
+      },
+      {
+        "sentence": "Implies social, moral, or situational obligation"
+      },
+      {
+        "sentence": "Double negative (〜ないわけにはいかない) = must do"
+      },
+      {
+        "sentence": "Different from できない (ability)"
+      },
+      {
+        "sentence": "Different from てはいけない (prohibition)"
+      },
+      {
+        "sentence": "Common in professional and formal contexts"
+      },
+      {
+        "sentence": "Essential for expressing obligation and propriety"
+      },
+      {
+        "sentence": "About"
+      },
+      {
+        "sentence": "Pricing"
+      },
+      {
+        "sentence": "Blog"
+      },
+      {
+        "sentence": "Contact"
+      },
+      {
+        "sentence": "Privacy Policy"
+      },
+      {
+        "sentence": "Terms of Service"
+      },
+      {
+        "sentence": "Cookie Policy"
+      }
+    ],
+    "sections": [
+      {
+        "level": 2,
+        "heading": "What is 〜わけにはいかない?",
+        "content": "〜わけにはいかない (wake ni wa ikanai) expresses that one cannot do something due to social, moral, or circumstantial reasons. It implies external pressure or obligations preventing the action.\n\nEnglish equivalent: \"cannot,\" \"must not,\" \"cannot afford to,\" \"it wouldn't be right to\"\n\nStructure: [Verb dictionary form / ない-form] + わけにはいかない\n\n行く (iku - go) → 行くわけにはいかない \"I cannot go\" (due to circumstances) 休む (yasumu - rest) → 休むわけにはいかない \"I cannot rest\" (socially unacceptable) 断る (kotowaru - refuse) → 断るわけにはいかない \"I cannot refuse\" (morally obligated to accept)"
+      },
+      {
+        "level": 2,
+        "heading": "Basic Formation",
+        "content": "",
+        "children": [
+          {
+            "level": 3,
+            "heading": "With dictionary form (cannot do)",
+            "content": "[Verb dictionary form] + わけにはいかない\n\n行くわけにはいかない (iku wake ni wa ikanai) - \"cannot go\" やるわけにはいかない (yaru wake ni wa ikanai) - \"cannot do\" 言うわけにはいかない (iu wake ni wa ikanai) - \"cannot say\""
+          },
+          {
+            "level": 3,
+            "heading": "With ない-form (cannot not do/must do)",
+            "content": "[Verb ない-form] + わけにはいかない\n\n行かないわけにはいかない (ikanai wake ni wa ikanai) - \"cannot not go\" / \"must go\" やらないわけにはいかない (yaranai wake ni wa ikanai) - \"must do\" 言わないわけにはいかない (iwanai wake ni wa ikanai) - \"must say\""
+          }
+        ]
+      },
+      {
+        "level": 2,
+        "heading": "Social Obligation",
+        "content": "",
+        "children": [
+          {
+            "level": 3,
+            "heading": "Cannot due to social pressure",
+            "content": "上司の誘いを断るわけにはいかない。 Joushi no sasoi wo kotowaru wake ni wa ikanai. \"I cannot refuse my boss's invitation.\" 約束したから、行かないわけにはいかない。 Yakusoku shita kara, ikanai wake ni wa ikanai. \"Since I promised, I must go.\" みんなが頑張っているから、自分だけ休むわけにはいかない。 Minna ga ganbatte iru kara, jibun dake yasumu wake ni wa ikanai. \"Since everyone's working hard, I cannot rest alone.\""
+          }
+        ]
+      },
+      {
+        "level": 2,
+        "heading": "Moral Reasons",
+        "content": "",
+        "children": [
+          {
+            "level": 3,
+            "heading": "Ethically cannot",
+            "content": "嘘をつくわけにはいかない。 Uso wo tsuku wake ni wa ikanai. \"I cannot lie.\" 人を裏切るわけにはいかない。 Hito wo uragiru wake ni wa ikanai. \"I cannot betray people.\" 無視するわけにはいかない。 Mushi suru wake ni wa ikanai. \"I cannot ignore it.\""
+          }
+        ]
+      },
+      {
+        "level": 2,
+        "heading": "Professional Responsibility",
+        "content": "",
+        "children": [
+          {
+            "level": 3,
+            "heading": "Work-related obligations",
+            "content": "仕事を途中で諦めるわけにはいかない。 Shigoto wo tochuu de akirameru wake ni wa ikanai. \"I cannot give up work halfway.\" お客様を待たせるわけにはいかない。 Okyakusama wo mataseru wake ni wa ikanai. \"I cannot make customers wait.\" この状況で休むわけにはいかない。 Kono joukyou de yasumu wake ni wa ikanai. \"I cannot rest in this situation.\""
+          }
+        ]
+      },
+      {
+        "level": 2,
+        "heading": "Financial Constraints",
+        "content": "",
+        "children": [
+          {
+            "level": 3,
+            "heading": "Cannot afford to",
+            "content": "高すぎて買うわけにはいかない。 Takasugite kau wake ni wa ikanai. \"It's too expensive; I cannot buy it.\" お金がないから旅行するわけにはいかない。 Okane ga nai kara ryokou suru wake ni wa ikanai. \"Since I have no money, I cannot travel.\" 無駄遣いするわけにはいかない。 Mudazukai suru wake ni wa ikanai. \"I cannot waste money.\""
+          }
+        ]
+      },
+      {
+        "level": 2,
+        "heading": "Double Negative (Must Do)",
+        "content": "",
+        "children": [
+          {
+            "level": 3,
+            "heading": "Cannot not do = must do",
+            "content": "行かないわけにはいかない。 Ikanai wake ni wa ikanai. \"I cannot not go.\" = \"I must go.\" やらないわけにはいかない。 Yaranai wake ni wa ikanai. \"I must do it.\" 謝らないわけにはいかない。 Ayamaranai wake ni wa ikanai. \"I must apologize.\" 受けないわけにはいかない。 Ukenai wake ni wa ikanai. \"I must accept/take it.\""
+          }
+        ]
+      },
+      {
+        "level": 2,
+        "heading": "Personal Circumstances",
+        "content": "",
+        "children": [
+          {
+            "level": 3,
+            "heading": "Due to situation",
+            "content": "試験があるから遊ぶわけにはいかない。 Shiken ga aru kara asobu wake ni wa ikanai. \"Since there's an exam, I cannot play around.\" 体調が悪いから無理するわけにはいかない。 Taichou ga warui kara muri suru wake ni wa ikanai. \"Since I'm not feeling well, I cannot overdo it.\" この時期に辞めるわけにはいかない。 Kono jiki ni yameru wake ni wa ikanai. \"I cannot quit at this time.\""
+          }
+        ]
+      },
+      {
+        "level": 2,
+        "heading": "Polite Forms",
+        "content": "お断りするわけにはいきません。 Okotowari suru wake ni wa ikimasen. \"I cannot refuse.\" 欠席するわけにはいきません。 Kesseki suru wake ni wa ikimasen. \"I cannot be absent.\" お受けしないわけにはいきません。 Ouke shinai wake ni wa ikimasen. \"I must accept.\""
+      },
+      {
+        "level": 2,
+        "heading": "Common Expressions",
+        "content": "断るわけにはいかない (kotowaru wake ni wa ikanai) - \"cannot refuse\" 休むわけにはいかない (yasumu wake ni wa ikanai) - \"cannot rest\" 諦めるわけにはいかない (akirameru wake ni wa ikanai) - \"cannot give up\" 無視するわけにはいかない (mushi suru wake ni wa ikanai) - \"cannot ignore\" 〜ないわけにはいかない (~nai wake ni wa ikanai) - \"must do\" やるわけにはいかない (yaru wake ni wa ikanai) - \"cannot do\""
+      },
+      {
+        "level": 2,
+        "heading": "Comparing わけにはいかない and ことができない",
+        "content": "",
+        "children": [
+          {
+            "level": 3,
+            "heading": "Social obligation vs ability",
+            "content": "わけにはいかない - Social/moral reasons:\n\n行くわけにはいかない。 Iku wake ni wa ikanai. \"I cannot go.\" (due to circumstances, obligations)\n\nことができない - Lack of ability:\n\n行くことができない。 Iku koto ga dekinai. \"I cannot go.\" (physically unable, no means)\n\n| Pattern | Reason | Example | | ---------------- | ------------------- | -------------------- | | わけにはいかない | Social/moral | 行くわけにはいかない | | ことができない | Ability/possibility | 行くことができない |"
+          }
+        ]
+      },
+      {
+        "level": 2,
+        "heading": "Comparing わけにはいかない and てはいけない",
+        "content": "",
+        "children": [
+          {
+            "level": 3,
+            "heading": "Cannot vs must not",
+            "content": "わけにはいかない - Circumstances prevent:\n\n休むわけにはいかない。 Yasumu wake ni wa ikanai. \"I cannot rest.\" (circumstances/responsibility)\n\nてはいけない - Prohibition:\n\n休んではいけない。 Yasunde wa ikenai. \"You must not rest.\" (rule/prohibition)\n\n| Pattern | Nuance | Example | | ---------------- | ------------- | -------------------- | | わけにはいかない | Circumstances | 休むわけにはいかない | | てはいけない | Prohibition | 休んではいけない |"
+          }
+        ]
+      },
+      {
+        "level": 2,
+        "heading": "Responsibility to Others",
+        "content": "",
+        "children": [
+          {
+            "level": 3,
+            "heading": "Cannot let others down",
+            "content": "期待に応えないわけにはいかない。 Kitai ni kotaenai wake ni wa ikanai. \"I must meet expectations.\" 信頼を裏切るわけにはいかない。 Shinrai wo uragiru wake ni wa ikanai. \"I cannot betray trust.\" 家族を失望させるわけにはいかない。 Kazoku wo shitsubou saseru wake ni wa ikanai. \"I cannot disappoint my family.\""
+          }
+        ]
+      },
+      {
+        "level": 2,
+        "heading": "Time Constraints",
+        "content": "",
+        "children": [
+          {
+            "level": 3,
+            "heading": "No time to waste",
+            "content": "もう時間がないから迷うわけにはいかない。 Mou jikan ga nai kara mayou wake ni wa ikanai. \"There's no time left, so I cannot hesitate.\" 締め切りが近いから遊んでいるわけにはいかない。 Shimekiri ga chikai kara asonde iru wake ni wa ikanai. \"The deadline is near, so I cannot be playing around.\""
+          }
+        ]
+      },
+      {
+        "level": 2,
+        "heading": "Shortened Forms",
+        "content": "",
+        "children": [
+          {
+            "level": 3,
+            "heading": "Casual variations",
+            "content": "わけにいかない (wake ni ikanai) - without は わけにゃいかない (wake nya ikanai) - very casual contraction 行くわけにいかない。 Iku wake ni ikanai. \"Can't go.\" (casual)"
+          }
+        ]
+      },
+      {
+        "level": 2,
+        "heading": "Common Mistakes",
+        "content": "",
+        "children": [
+          {
+            "level": 3,
+            "heading": "Mistake 1: Confusing with できない",
+            "content": "わけにはいかない = cannot due to circumstances できない = cannot due to ability 行くわけにはいかない = I cannot go (socially/morally) 行くことができない = I cannot go (physically unable)"
+          },
+          {
+            "level": 3,
+            "heading": "Mistake 2: Using た-form",
+            "content": "❌ 行ったわけにはいかない ✓ 行くわけにはいかない\n\nUse dictionary form or ない-form, not past tense."
+          },
+          {
+            "level": 3,
+            "heading": "Mistake 3: Wrong negative formation",
+            "content": "For \"must do\": ❌ 行くわけにいかない (only means \"cannot go\") ✓ 行かないわけにはいかない (\"cannot not go\" = \"must go\")"
+          },
+          {
+            "level": 3,
+            "heading": "Mistake 4: Overusing in casual situations",
+            "content": "わけにはいかない sounds somewhat formal. In very casual speech, simpler forms work:\n\nFormal/polite: 行くわけにはいかない Casual: 行けない / 行くわけにいかない"
+          }
+        ]
+      },
+      {
+        "level": 2,
+        "heading": "Summary",
+        "content": "Key Points:\n\nわけにはいかない expresses inability due to circumstances Formation: [Verb dictionary/ない-form] + わけにはいかない Implies social, moral, or situational obligation Double negative (〜ないわけにはいかない) = must do Different from できない (ability) Different from てはいけない (prohibition) Common in professional and formal contexts Essential for expressing obligation and propriety",
+        "children": [
+          {
+            "level": 3,
+            "heading": "Company",
+            "content": "About Pricing Blog Contact"
+          },
+          {
+            "level": 3,
+            "heading": "Legal",
+            "content": "Privacy Policy Terms of Service Cookie Policy"
+          }
+        ]
+      }
+    ]
+  },
+  "metadata": {
+    "extracted_at": "2026-01-01T22:19:37.680377Z",
+    "duration_ms": 3,
+    "extractors_matched": [
+      "metadata",
+      "examples",
+      "sections"
+    ],
+    "extractors_failed": [
+      "vocab_tables",
+      "definitions",
+      "content_blocks"
+    ]
+  }
+}

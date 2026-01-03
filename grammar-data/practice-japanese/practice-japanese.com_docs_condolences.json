@@ -1,0 +1,189 @@
+{
+  "config_name": "Language Learning Extractor",
+  "url": "https://practice-japanese.com/docs/condolences/",
+  "data": {
+    "sections": [
+      {
+        "level": 2,
+        "heading": "Condolences",
+        "content": "Expressing condolences in Japanese requires sensitivity and appropriate language. These phrases show sympathy during loss, difficulty, or unfortunate situations, with specific expressions for different contexts.\n\nBe careful with: - Level of formality - Relationship to person - Severity of situation Cultural sensitivity important"
+      },
+      {
+        "level": 2,
+        "heading": "For Death and Loss",
+        "content": "",
+        "children": [
+          {
+            "level": 3,
+            "heading": "Standard condolence",
+            "content": "ご愁傷様です \"I'm sorry for your loss\" Most common phrase At funerals Expressing sympathy Formal and respectful Standard expression"
+          },
+          {
+            "level": 3,
+            "heading": "Alternative expressions",
+            "content": "お悔やみ申し上げます \"I offer my condolences\" 心からお悔やみ申し上げます \"My heartfelt condolences\" Very formal Written condolences Official messages"
+          },
+          {
+            "level": 3,
+            "heading": "Acknowledging grief",
+            "content": "ご冥福をお祈りします \"I pray for their peaceful rest\" 安らかにお眠りください \"May they rest in peace\" Said about the deceased Not directly to grieving person Respectful tribute"
+          }
+        ]
+      },
+      {
+        "level": 2,
+        "heading": "For Difficult Situations",
+        "content": "",
+        "children": [
+          {
+            "level": 3,
+            "heading": "General sympathy",
+            "content": "大変ですね \"That's tough / difficult\" それは辛いですね \"That must be painful\" お気の毒に \"I feel sorry for you\" Everyday difficulties Showing empathy Acknowledging hardship"
+          },
+          {
+            "level": 3,
+            "heading": "For illness",
+            "content": "お大事に \"Take care of yourself\" 早く良くなってください \"Please get better soon\" お見舞い申し上げます \"I wish you well\" (formal) Common and useful Showing concern Appropriate for various severity"
+          },
+          {
+            "level": 3,
+            "heading": "For job loss/failure",
+            "content": "残念でしたね \"That's unfortunate\" 次があるよ \"There'll be a next time\" Encouraging Not too heavy Balance sympathy and hope"
+          }
+        ]
+      },
+      {
+        "level": 2,
+        "heading": "Offering Support",
+        "content": "",
+        "children": [
+          {
+            "level": 3,
+            "heading": "Practical help",
+            "content": "何かできることはありますか \"Is there anything I can do?\" 力になりたい \"I want to help\" いつでも連絡してね \"Contact me anytime\" Genuine offer Shows availability Practical support"
+          },
+          {
+            "level": 3,
+            "heading": "Emotional support",
+            "content": "そばにいるよ \"I'm here for you\" 一人じゃないよ \"You're not alone\" Comforting Close relationships Emotional presence"
+          }
+        ]
+      },
+      {
+        "level": 2,
+        "heading": "Responding to Bad News",
+        "content": "",
+        "children": [
+          {
+            "level": 3,
+            "heading": "Initial reaction",
+            "content": "それは大変でしたね \"That must have been terrible\" 信じられない \"I can't believe it\" なんと言っていいか... \"I don't know what to say...\" Honest response Appropriate shock Acknowledging severity"
+          },
+          {
+            "level": 3,
+            "heading": "Continued support",
+            "content": "無理しないでね \"Don't push yourself\" 休んでくださいね \"Please rest\" 時間がかかっても大丈夫 \"It's okay to take time\" Understanding Patience No pressure"
+          }
+        ]
+      },
+      {
+        "level": 2,
+        "heading": "Business Context",
+        "content": "",
+        "children": [
+          {
+            "level": 3,
+            "heading": "Professional sympathy",
+            "content": "この度はお気の毒でございます \"I'm sorry for this matter\" 謹んでお悔やみ申し上げます \"I humbly offer my condolences\" Maximum formality Business relationships Official communications"
+          }
+        ]
+      },
+      {
+        "level": 2,
+        "heading": "What NOT to Say",
+        "content": "",
+        "children": [
+          {
+            "level": 3,
+            "heading": "Avoid",
+            "content": "❌ 頑張って (for serious grief) \"Do your best\" - too pushy ❌ すぐ忘れるよ \"You'll forget soon\" - insensitive ❌ もっと大変な人もいる \"Others have it worse\" - dismissive Be sensitive Read the situation Don't minimize pain"
+          }
+        ]
+      },
+      {
+        "level": 2,
+        "heading": "Cultural Considerations",
+        "content": "",
+        "children": [
+          {
+            "level": 3,
+            "heading": "Japanese approach",
+            "content": "Less verbal expression More through actions Showing up matters Silent presence valued Don't feel need to fill silence Being there is enough Actions speak louder"
+          },
+          {
+            "level": 3,
+            "heading": "Funeral etiquette",
+            "content": "Wear black Offer monetary gift (香典) Say ご愁傷様です Keep it brief Specific customs Follow protocol Respectful behavior"
+          }
+        ]
+      },
+      {
+        "level": 2,
+        "heading": "Quick Reference",
+        "content": "Death: ご愁傷様です Illness: お大事に General difficulty: 大変ですね Support: 何かできることはありますか Sympathy: お気の毒に Choose appropriate level Consider relationship Be genuine and brief",
+        "children": [
+          {
+            "level": 3,
+            "heading": "Company",
+            "content": "About Pricing Blog Contact"
+          },
+          {
+            "level": 3,
+            "heading": "Legal",
+            "content": "Privacy Policy Terms of Service Cookie Policy"
+          }
+        ]
+      }
+    ],
+    "examples": [
+      {
+        "sentence": "About"
+      },
+      {
+        "sentence": "Pricing"
+      },
+      {
+        "sentence": "Blog"
+      },
+      {
+        "sentence": "Contact"
+      },
+      {
+        "sentence": "Privacy Policy"
+      },
+      {
+        "sentence": "Terms of Service"
+      },
+      {
+        "sentence": "Cookie Policy"
+      }
+    ],
+    "metadata": {
+      "title": "Condolences"
+    }
+  },
+  "metadata": {
+    "extracted_at": "2026-01-01T22:19:28.270904900Z",
+    "duration_ms": 4,
+    "extractors_matched": [
+      "metadata",
+      "examples",
+      "sections"
+    ],
+    "extractors_failed": [
+      "vocab_tables",
+      "definitions",
+      "content_blocks"
+    ]
+  }
+}

@@ -1,0 +1,329 @@
+{
+  "config_name": "Language Learning Extractor",
+  "url": "https://practice-japanese.com/docs/ga-connector/",
+  "data": {
+    "metadata": {
+      "title": "〜が (But)"
+    },
+    "sections": [
+      {
+        "level": 2,
+        "heading": "What is 〜が?",
+        "content": "が as a connector means \"but\" or \"however,\" joining two clauses within the same sentence to show mild contrast or contradiction. It's more formal and softer than でも or けど, making it common in polite speech and written Japanese. This が is different from the subject-marking particle が.\n\n高いですが、買います。 \"It's expensive, but I'll buy it.\" 難しいが、やってみる。 \"It's difficult, but I'll try.\""
+      },
+      {
+        "level": 2,
+        "heading": "Basic Structure",
+        "content": "",
+        "children": [
+          {
+            "level": 3,
+            "heading": "[Clause 1] が [Clause 2]",
+            "content": "疲れましたが、頑張ります。 \"I'm tired, but I'll do my best.\" Within single sentence Connects two clauses"
+          }
+        ]
+      },
+      {
+        "level": 2,
+        "heading": "Usage and Meaning",
+        "content": "",
+        "children": [
+          {
+            "level": 3,
+            "heading": "Mild contrast",
+            "content": "忙しいが、行く。 \"I'm busy, but I'll go.\" 寒いですが、散歩します。 \"It's cold, but I'll take a walk.\" Soft contradiction"
+          },
+          {
+            "level": 3,
+            "heading": "Polite disagreement",
+            "content": "分かりますが、賛成できません。 \"I understand, but I can't agree.\" Cushions opposition"
+          },
+          {
+            "level": 3,
+            "heading": "Adding contrasting information",
+            "content": "日本語は難しいが、面白い。 \"Japanese is difficult, but interesting.\" Balanced statement"
+          }
+        ]
+      },
+      {
+        "level": 2,
+        "heading": "Polite and Casual",
+        "content": "",
+        "children": [
+          {
+            "level": 3,
+            "heading": "ですが/ますが (polite)",
+            "content": "高いですが、買います。 \"It's expensive, but I'll buy it.\" 行きますが、遅れます。 \"I'll go, but I'll be late.\" Formal, polite"
+          },
+          {
+            "level": 3,
+            "heading": "が (casual)",
+            "content": "高いが、買う。 \"It's expensive, but I'll buy it.\" 忙しいが、行く。 \"I'm busy, but I'll go.\" Neutral to formal"
+          }
+        ]
+      },
+      {
+        "level": 2,
+        "heading": "Common Contexts",
+        "content": "",
+        "children": [
+          {
+            "level": 3,
+            "heading": "Making requests",
+            "content": "すみませんが、ちょっといいですか。 \"Excuse me, but may I have a moment?\" 恐れ入りますが、お願いします。 \"I'm sorry to trouble you, but please...\" Softening requests"
+          },
+          {
+            "level": 3,
+            "heading": "Business/formal speech",
+            "content": "理解しておりますが、少々お時間をいただけますか。 \"I understand, but could I have a little time?\" Polite cushioning"
+          },
+          {
+            "level": 3,
+            "heading": "Giving opinions",
+            "content": "いい考えだと思いますが、問題もあります。 \"I think it's a good idea, but there are also problems.\" Balanced view"
+          }
+        ]
+      },
+      {
+        "level": 2,
+        "heading": "が vs でも/けど",
+        "content": "",
+        "children": [
+          {
+            "level": 3,
+            "heading": "が = softer, formal",
+            "content": "忙しいですが、行きます。 \"I'm busy, but I'll go.\" Polite, within sentence"
+          },
+          {
+            "level": 3,
+            "heading": "でも = casual, separate sentence",
+            "content": "忙しい。でも行く。 \"I'm busy. But I'll go.\" Conversational"
+          },
+          {
+            "level": 3,
+            "heading": "けど = casual, within sentence",
+            "content": "忙しいけど、行く。 \"I'm busy, but I'll go.\" Casual conversation"
+          }
+        ]
+      },
+      {
+        "level": 2,
+        "heading": "Softening Function",
+        "content": "",
+        "children": [
+          {
+            "level": 3,
+            "heading": "Cushioning statements",
+            "content": "すみませんが... \"Excuse me, but...\" 申し訳ありませんが... \"I'm sorry, but...\" Polite preface"
+          }
+        ]
+      },
+      {
+        "level": 2,
+        "heading": "With Question Forms",
+        "content": "",
+        "children": [
+          {
+            "level": 3,
+            "heading": "Polite questions",
+            "content": "よろしいですが、質問があります。 \"It's fine, but I have a question.\" 承知しましたが、確認させてください。 \"I understand, but let me confirm.\" Formal inquiries"
+          }
+        ]
+      },
+      {
+        "level": 2,
+        "heading": "Expressing Hesitation",
+        "content": "",
+        "children": [
+          {
+            "level": 3,
+            "heading": "Uncertain contrast",
+            "content": "行きたいですが、時間があるかどうか... \"I want to go, but whether I have time...\" Showing reservation"
+          }
+        ]
+      },
+      {
+        "level": 2,
+        "heading": "が in Formal Writing",
+        "content": "",
+        "children": [
+          {
+            "level": 3,
+            "heading": "Academic/business",
+            "content": "研究は進んでいるが、課題も残っている。 \"Research is progressing, but challenges remain.\" 効果は認められるが、さらなる検証が必要だ。 \"The effect is acknowledged, but further verification is needed.\" Formal texts"
+          }
+        ]
+      },
+      {
+        "level": 2,
+        "heading": "Position in Sentence",
+        "content": "",
+        "children": [
+          {
+            "level": 3,
+            "heading": "Connects two clauses",
+            "content": "[Clause 1] が、[Clause 2] Can have comma after が Within same sentence"
+          }
+        ]
+      },
+      {
+        "level": 2,
+        "heading": "Negative Forms",
+        "content": "",
+        "children": [
+          {
+            "level": 3,
+            "heading": "With negative clauses",
+            "content": "好きではありませんが、食べます。 \"I don't like it, but I'll eat it.\" 分かりませんが、やってみます。 \"I don't understand, but I'll try.\" Negative contrasts"
+          }
+        ]
+      },
+      {
+        "level": 2,
+        "heading": "Multiple が Usage",
+        "content": "",
+        "children": [
+          {
+            "level": 3,
+            "heading": "Sequential contrasts",
+            "content": "難しいが、面白いが、時間がかかる。 Less natural with multiple が Better to vary connectors"
+          }
+        ]
+      },
+      {
+        "level": 2,
+        "heading": "Common Mistakes",
+        "content": "",
+        "children": [
+          {
+            "level": 3,
+            "heading": "Using が too casually",
+            "content": "Unnatural in casual speech: 腹減ったが、我慢する ⚠️ More natural: 腹減ったけど、我慢する ✓ \"I'm hungry, but I'll endure.\" が sounds stiff"
+          },
+          {
+            "level": 3,
+            "heading": "Confusing with subject が",
+            "content": "Subject: 私が行く \"I will go\" (subject marker) Connector: 忙しいが、行く \"I'm busy, but I'll go\" (but) Different functions"
+          }
+        ]
+      },
+      {
+        "level": 2,
+        "heading": "Softening Refusals",
+        "content": "",
+        "children": [
+          {
+            "level": 3,
+            "heading": "Polite declining",
+            "content": "ありがとうございますが、結構です。 \"Thank you, but I'm fine.\" 残念ですが、行けません。 \"It's unfortunate, but I can't go.\" Cushions rejection"
+          }
+        ]
+      },
+      {
+        "level": 2,
+        "heading": "Transitional Phrases",
+        "content": "",
+        "children": [
+          {
+            "level": 3,
+            "heading": "すみませんが",
+            "content": "すみませんが、もう一度お願いします。 \"Excuse me, but please (say it) once more.\" Common polite phrase"
+          },
+          {
+            "level": 3,
+            "heading": "申し訳ありませんが",
+            "content": "申し訳ありませんが、お断りします。 \"I'm sorry, but I must decline.\" Very polite refusal"
+          }
+        ]
+      },
+      {
+        "level": 2,
+        "heading": "Introducing Topics",
+        "content": "",
+        "children": [
+          {
+            "level": 3,
+            "heading": "が for transition",
+            "content": "先日お話ししましたが、あの件について... \"As I mentioned the other day, about that matter...\" Transitioning topic"
+          }
+        ]
+      },
+      {
+        "level": 2,
+        "heading": "In Storytelling",
+        "content": "",
+        "children": [
+          {
+            "level": 3,
+            "heading": "Formal narratives",
+            "content": "彼は努力したが、成功しなかった。 \"He tried hard, but didn't succeed.\" Literary style"
+          }
+        ]
+      },
+      {
+        "level": 2,
+        "heading": "Practice Sentences",
+        "content": "",
+        "children": [
+          {
+            "level": 3,
+            "heading": "Basic",
+            "content": "高いですが、買います。 \"It's expensive, but I'll buy it.\" 疲れましたが、頑張ります。 \"I'm tired, but I'll do my best.\" 難しいが、やってみる。 \"It's difficult, but I'll try.\" 分かりますが、できません。 \"I understand, but I can't do it.\" すみませんが、ちょっといいですか。 \"Excuse me, but do you have a moment?\""
+          },
+          {
+            "level": 3,
+            "heading": "Intermediate",
+            "content": "日本語の勉強は難しいですが、とても 面白いです。毎日少しずつ続けて いれば、必ず上達します。 \"Studying Japanese is difficult, but very interesting. If you continue little by little every day, you'll definitely improve.\" ご提案はありがたいのですが、今回は 見送らせていただきます。また機会が ありましたら、よろしくお願いします。 \"I'm grateful for your proposal, but I'll pass this time. If there's another opportunity, please (consider me).\" 天気は悪いですが、予定通り出発します。 雨が強くなったら、途中で引き返す かもしれません。 \"The weather is bad, but we'll depart as planned. If the rain gets stronger, we might turn back midway.\""
+          },
+          {
+            "level": 3,
+            "heading": "Company",
+            "content": "About Pricing Blog Contact"
+          },
+          {
+            "level": 3,
+            "heading": "Legal",
+            "content": "Privacy Policy Terms of Service Cookie Policy"
+          }
+        ]
+      }
+    ],
+    "examples": [
+      {
+        "sentence": "About"
+      },
+      {
+        "sentence": "Pricing"
+      },
+      {
+        "sentence": "Blog"
+      },
+      {
+        "sentence": "Contact"
+      },
+      {
+        "sentence": "Privacy Policy"
+      },
+      {
+        "sentence": "Terms of Service"
+      },
+      {
+        "sentence": "Cookie Policy"
+      }
+    ]
+  },
+  "metadata": {
+    "extracted_at": "2026-01-01T22:19:29.404665500Z",
+    "duration_ms": 6,
+    "extractors_matched": [
+      "metadata",
+      "examples",
+      "sections"
+    ],
+    "extractors_failed": [
+      "vocab_tables",
+      "definitions",
+      "content_blocks"
+    ]
+  }
+}

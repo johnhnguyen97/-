@@ -1,0 +1,387 @@
+{
+  "config_name": "Language Learning Extractor",
+  "url": "https://practice-japanese.com/docs/naze-doushite/",
+  "data": {
+    "sections": [
+      {
+        "level": 2,
+        "heading": "Why in Japanese",
+        "content": "Japanese has several ways to ask \"why\":\n\nなぜ (naze) - formal/written どうして (doushite) - neutral/conversational なんで (nande) - casual\n\nなぜですか？ \"Why is it?\" どうして来なかったの？ \"Why didn't you come?\" なんで？ \"Why?\" (casual)"
+      },
+      {
+        "level": 2,
+        "heading": "なぜ (naze) - Formal \"Why\"",
+        "content": "",
+        "children": [
+          {
+            "level": 3,
+            "heading": "Usage",
+            "content": "More formal, common in writing and formal speech:\n\nなぜですか？ \"Why is it?\" なぜそう思いますか？ \"Why do you think so?\" なぜ日本語を勉強しますか？ \"Why do you study Japanese?\" なぜ行かなかったのですか？ \"Why didn't you go?\""
+          },
+          {
+            "level": 3,
+            "heading": "Characteristics",
+            "content": "Formal tone Common in writing Used in business/academic contexts Can sound stiff in casual conversation"
+          }
+        ]
+      },
+      {
+        "level": 2,
+        "heading": "どうして (doushite) - Neutral \"Why\"",
+        "content": "",
+        "children": [
+          {
+            "level": 3,
+            "heading": "Usage",
+            "content": "Most common in everyday conversation:\n\nどうして？ \"Why?\" どうして来なかったの？ \"Why didn't you come?\" どうして日本語を勉強するの？ \"Why do you study Japanese?\" どうして遅れたの？ \"Why were you late?\""
+          },
+          {
+            "level": 3,
+            "heading": "Characteristics",
+            "content": "Natural conversational tone Most versatile Safe choice for most situations Can express concern or curiosity"
+          }
+        ]
+      },
+      {
+        "level": 2,
+        "heading": "なんで (nande) - Casual \"Why\"",
+        "content": "",
+        "children": [
+          {
+            "level": 3,
+            "heading": "Usage",
+            "content": "Very casual, used with friends and family:\n\nなんで？ \"Why?\" なんで来なかったの？ \"Why didn't you come?\" なんで怒ってるの？ \"Why are you angry?\" なんで泣いてるの？ \"Why are you crying?\""
+          },
+          {
+            "level": 3,
+            "heading": "Characteristics",
+            "content": "Very casual Common among friends Can sound accusatory if not careful Often used when surprised"
+          }
+        ]
+      },
+      {
+        "level": 2,
+        "heading": "Comparison",
+        "content": "Most Formal → Most Casual なぜ → どうして → なんで なぜ遅れましたか？ (formal) どうして遅れたの？ (neutral) なんで遅れたの？ (casual) \"Why were you late?\""
+      },
+      {
+        "level": 2,
+        "heading": "Answering \"Why\" Questions",
+        "content": "",
+        "children": [
+          {
+            "level": 3,
+            "heading": "から (kara) - Because",
+            "content": "Most common way to answer:\n\nQ: どうして日本語を勉強しますか？ \"Why do you study Japanese?\" A: 日本に住んでいるからです \"Because I live in Japan\" Q: なぜ来なかったの？ \"Why didn't you come?\" A: 忙しかったから \"Because I was busy\""
+          },
+          {
+            "level": 3,
+            "heading": "ので (node) - Because (softer)",
+            "content": "More objective reason:\n\nQ: どうして遅れたの？ \"Why were you late?\" A: 電車が遅れたので \"Because the train was delayed\""
+          },
+          {
+            "level": 3,
+            "heading": "〜んです (explanatory)",
+            "content": "Provides explanation:\n\nQ: どうして行かないの？ \"Why won't you go?\" A: お金がないんです \"It's because I don't have money\" A: 忙しいんです \"It's because I'm busy\""
+          }
+        ]
+      },
+      {
+        "level": 2,
+        "heading": "Common Patterns",
+        "content": "",
+        "children": [
+          {
+            "level": 3,
+            "heading": "なぜなら (nazenara) - \"That's because\"",
+            "content": "Formal explanation:\n\n日本語を勉強します。なぜなら、日本に住んでいるからです \"I study Japanese. That's because I live in Japan\""
+          },
+          {
+            "level": 3,
+            "heading": "どうしてかというと - \"The reason is\"",
+            "content": "行きません。どうしてかというと、忙しいからです \"I won't go. The reason is because I'm busy\""
+          }
+        ]
+      },
+      {
+        "level": 2,
+        "heading": "With Different Tenses",
+        "content": "",
+        "children": [
+          {
+            "level": 3,
+            "heading": "Present/Future",
+            "content": "なぜ行きますか？ \"Why will you go?\" どうして勉強するの？ \"Why do you study?\" なんで食べないの？ \"Why don't you eat?\""
+          },
+          {
+            "level": 3,
+            "heading": "Past",
+            "content": "なぜ行きましたか？ \"Why did you go?\" どうして来なかったの？ \"Why didn't you come?\" なんで言わなかったの？ \"Why didn't you say?\""
+          }
+        ]
+      },
+      {
+        "level": 2,
+        "heading": "Common Conversations",
+        "content": "",
+        "children": [
+          {
+            "level": 3,
+            "heading": "Example 1: Explaining",
+            "content": "A: どうして遅れたの？ \"Why were you late?\" B: 電車が遅れたんです \"The train was delayed\" A: そうだったんだ \"I see\""
+          },
+          {
+            "level": 3,
+            "heading": "Example 2: Curiosity",
+            "content": "A: なぜ日本語を勉強していますか？ \"Why are you studying Japanese?\" B: 日本の文化が好きだからです \"Because I like Japanese culture\" A: いいですね \"That's nice\""
+          },
+          {
+            "level": 3,
+            "heading": "Example 3: Concern",
+            "content": "A: どうして泣いてるの？ \"Why are you crying?\" B: 悲しい映画を見たから \"Because I watched a sad movie\" A: そうなんだ \"I see\""
+          },
+          {
+            "level": 3,
+            "heading": "Example 4: Casual",
+            "content": "A: なんで来なかったの？ \"Why didn't you come?\" B: 忘れてた \"I forgot\" A: え！？ \"What!?\""
+          }
+        ]
+      },
+      {
+        "level": 2,
+        "heading": "Common Mistakes",
+        "content": "",
+        "children": [
+          {
+            "level": 3,
+            "heading": "Mistake 1: Using too formal in casual context",
+            "content": "Too formal with friends: なぜですか？ ⚠️ More natural: どうして？or なんで？ ✓ \"Why?\""
+          },
+          {
+            "level": 3,
+            "heading": "Mistake 2: Using なんで in formal situations",
+            "content": "Too casual: なんで遅れましたか？ ❌ Better: どうして遅れましたか？ ✓ Or: なぜ遅れましたか？ ✓ \"Why were you late?\""
+          },
+          {
+            "level": 3,
+            "heading": "Mistake 3: Confusing なんで with 何で",
+            "content": "なんで (why) - reason question 何で (what/how by what means) - method なんで行くの？ \"Why will you go?\" 何で行くの？ \"How will you go?\" (by what means)"
+          }
+        ]
+      },
+      {
+        "level": 2,
+        "heading": "Tone and Nuance",
+        "content": "",
+        "children": [
+          {
+            "level": 3,
+            "heading": "Neutral Inquiry",
+            "content": "どうして日本語を勉強しますか？ \"Why do you study Japanese?\" (curious)"
+          },
+          {
+            "level": 3,
+            "heading": "Accusatory Tone",
+            "content": "Can sound accusatory depending on intonation:\n\nなんで言わなかったの！？ \"Why didn't you tell me!?\" (upset) どうして来なかったの？ \"Why didn't you come?\" (can be accusatory)"
+          },
+          {
+            "level": 3,
+            "heading": "Concerned",
+            "content": "どうしたの？ \"What's wrong?\" (concerned) どうして泣いてるの？ \"Why are you crying?\" (concerned)"
+          }
+        ]
+      },
+      {
+        "level": 2,
+        "heading": "Special Expressions",
+        "content": "",
+        "children": [
+          {
+            "level": 3,
+            "heading": "どうしたの？ (doushita no?)",
+            "content": "\"What's wrong? / What happened?\"\n\nA: どうしたの？ \"What's wrong?\" B: ちょっと疲れた \"I'm a bit tired\""
+          },
+          {
+            "level": 3,
+            "heading": "どうしたんですか？ (polite)",
+            "content": "A: どうしたんですか？ \"What happened?\" B: 財布を失くしました \"I lost my wallet\""
+          },
+          {
+            "level": 3,
+            "heading": "なぜか (nazeka)",
+            "content": "\"For some reason/somehow\"\n\nなぜか悲しい \"I'm sad for some reason\" なぜかわからない \"I don't know why\""
+          }
+        ]
+      },
+      {
+        "level": 2,
+        "heading": "Politeness Levels",
+        "content": "",
+        "children": [
+          {
+            "level": 3,
+            "heading": "Casual",
+            "content": "なんで？ \"Why?\" どうして？ \"Why?\""
+          },
+          {
+            "level": 3,
+            "heading": "Neutral/Polite",
+            "content": "どうしてですか？ \"Why is it?\" なぜですか？ \"Why is it?\""
+          },
+          {
+            "level": 3,
+            "heading": "Formal",
+            "content": "なぜでしょうか？ \"Why might it be?\" どうしてでしょうか？ \"Why might it be?\""
+          }
+        ]
+      },
+      {
+        "level": 2,
+        "heading": "Practice Sentences",
+        "content": "",
+        "children": [
+          {
+            "level": 3,
+            "heading": "Basic Questions",
+            "content": "なぜですか？ \"Why is it?\" どうして来なかったの？ \"Why didn't you come?\" なんで？ \"Why?\""
+          },
+          {
+            "level": 3,
+            "heading": "With Different Topics",
+            "content": "なぜ日本語を勉強しますか？ \"Why do you study Japanese?\" どうして遅れたの？ \"Why were you late?\" なんで怒ってるの？ \"Why are you angry?\" どうして行かないの？ \"Why won't you go?\""
+          },
+          {
+            "level": 3,
+            "heading": "Answers",
+            "content": "忙しいからです \"Because I'm busy\" 電車が遅れたので \"Because the train was delayed\" お金がないんです \"It's because I don't have money\""
+          },
+          {
+            "level": 3,
+            "heading": "Special Expressions",
+            "content": "どうしたの？ \"What's wrong?\" どうしたんですか？ \"What happened?\" なぜかわからない \"I don't know why\""
+          }
+        ]
+      },
+      {
+        "level": 2,
+        "heading": "Related Grammar Points",
+        "content": "Question Words (5W1H) - Overview から (kara) - Because ので (node) - Because (objective) 〜んです - Explanatory form Reasons & Causes - Expressing reasons なぜなら - That's because",
+        "children": [
+          {
+            "level": 3,
+            "heading": "Company",
+            "content": "About Pricing Blog Contact"
+          },
+          {
+            "level": 3,
+            "heading": "Legal",
+            "content": "Privacy Policy Terms of Service Cookie Policy"
+          }
+        ]
+      }
+    ],
+    "metadata": {
+      "title": "なぜ/どうして (naze/doushite) - Why"
+    },
+    "examples": [
+      {
+        "sentence": "なぜ (naze) - formal/written"
+      },
+      {
+        "sentence": "どうして (doushite) - neutral/conversational"
+      },
+      {
+        "sentence": "なんで (nande) - casual"
+      },
+      {
+        "sentence": "Formal tone"
+      },
+      {
+        "sentence": "Common in writing"
+      },
+      {
+        "sentence": "Used in business/academic contexts"
+      },
+      {
+        "sentence": "Can sound stiff in casual conversation"
+      },
+      {
+        "sentence": "Natural conversational tone"
+      },
+      {
+        "sentence": "Most versatile"
+      },
+      {
+        "sentence": "Safe choice for most situations"
+      },
+      {
+        "sentence": "Can express concern or curiosity"
+      },
+      {
+        "sentence": "Very casual"
+      },
+      {
+        "sentence": "Common among friends"
+      },
+      {
+        "sentence": "Can sound accusatory if not careful"
+      },
+      {
+        "sentence": "Often used when surprised"
+      },
+      {
+        "sentence": "Question Words (5W1H) - Overview"
+      },
+      {
+        "sentence": "から (kara) - Because"
+      },
+      {
+        "sentence": "ので (node) - Because (objective)"
+      },
+      {
+        "sentence": "〜んです - Explanatory form"
+      },
+      {
+        "sentence": "Reasons & Causes - Expressing reasons"
+      },
+      {
+        "sentence": "なぜなら - That's because"
+      },
+      {
+        "sentence": "About"
+      },
+      {
+        "sentence": "Pricing"
+      },
+      {
+        "sentence": "Blog"
+      },
+      {
+        "sentence": "Contact"
+      },
+      {
+        "sentence": "Privacy Policy"
+      },
+      {
+        "sentence": "Terms of Service"
+      },
+      {
+        "sentence": "Cookie Policy"
+      }
+    ]
+  },
+  "metadata": {
+    "extracted_at": "2026-01-01T22:19:31.774155200Z",
+    "duration_ms": 4,
+    "extractors_matched": [
+      "metadata",
+      "examples",
+      "sections"
+    ],
+    "extractors_failed": [
+      "vocab_tables",
+      "definitions",
+      "content_blocks"
+    ]
+  }
+}

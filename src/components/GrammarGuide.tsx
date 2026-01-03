@@ -335,19 +335,20 @@ export function GrammarGuide({ onClose, initialPattern }: GrammarGuideProps) {
                 </div>
               )}
 
-              {/* Conjugation */}
-              {selectedTopic.conjugation && Object.keys(selectedTopic.conjugation).length > 0 && (
+              {/* Conjugation Rules */}
+              {selectedTopic.conjugation_rules && selectedTopic.conjugation_rules.length > 0 && (
                 <div className="mb-6">
                   <h3 className="text-xs font-bold text-gray-400 uppercase tracking-wider mb-3">
                     Conjugation / Formation
                   </h3>
                   <div className="bg-gradient-to-br from-purple-50 to-indigo-50 rounded-xl p-4 space-y-2 border border-purple-100">
-                    {Object.entries(selectedTopic.conjugation).map(([key, value]) => (
-                      <div key={key} className="flex flex-wrap md:flex-nowrap">
-                        <span className="text-purple-700 font-semibold min-w-[140px]">
-                          {key}:
+                    {selectedTopic.conjugation_rules.map((rule, index) => (
+                      <div key={index} className="flex flex-wrap md:flex-nowrap items-center gap-2">
+                        <span className="text-purple-700 font-semibold">
+                          {rule.from}
                         </span>
-                        <span className="text-gray-700">{value}</span>
+                        <span className="text-gray-400">→</span>
+                        <span className="text-gray-700">{rule.to}</span>
                       </div>
                     ))}
                   </div>

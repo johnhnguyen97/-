@@ -1,0 +1,296 @@
+{
+  "config_name": "Language Learning Extractor",
+  "url": "https://practice-japanese.com/docs/sai/",
+  "data": {
+    "metadata": {
+      "title": "〜際 (When/Occasion)"
+    },
+    "sections": [
+      {
+        "level": 2,
+        "heading": "What is 〜際?",
+        "content": "〜際 (sai) is a formal way to express \"when\" or \"on the occasion of.\" It's used in formal writing, instructions, and announcements to indicate timing or circumstances.\n\nEnglish equivalent: \"when,\" \"at the time of,\" \"on the occasion of,\" \"upon\"\n\nStructure: [Verb dictionary form / Noun + の] + 際\n\n使う (tsukau - use) + 際 = 使う際 \"when using\" 出発 (shuppatsu - departure) + の際 = 出発の際 \"at the time of departure\" 来日 (rainichi - visiting Japan) + の際 = 来日の際 \"when visiting Japan\""
+      },
+      {
+        "level": 2,
+        "heading": "Basic Formation",
+        "content": "",
+        "children": [
+          {
+            "level": 3,
+            "heading": "With verbs (dictionary form)",
+            "content": "[Verb dictionary form] + 際 [Verb た-form] + 際\n\n使う際 (tsukau sai) - \"when using\" お越しの際 (okoshi no sai) - \"when you come\" ご利用の際 (goriyou no sai) - \"when using\" ご来店の際 (goraiten no sai) - \"when visiting the store\""
+          },
+          {
+            "level": 3,
+            "heading": "With nouns",
+            "content": "[Noun] + の際\n\n出発の際 (shuppatsu no sai) - \"at departure\" 到着の際 (touchaku no sai) - \"upon arrival\" 緊急の際 (kinkyuu no sai) - \"in case of emergency\" 火事の際 (kaji no sai) - \"in case of fire\""
+          }
+        ]
+      },
+      {
+        "level": 2,
+        "heading": "Formal Instructions",
+        "content": "",
+        "children": [
+          {
+            "level": 3,
+            "heading": "Usage guidelines",
+            "content": "ご利用の際はご注意ください。 Goriyou no sai wa gochuui kudasai. \"Please be careful when using.\" お帰りの際はお忘れ物のないようご注意ください。 Okaeri no sai wa owasuremono no nai you gochuui kudasai. \"Please be careful not to forget anything when leaving.\" ご使用の際は説明書をお読みください。 Goshiyou no sai wa setsumeisho wo oyomi kudasai. \"Please read the manual when using.\""
+          }
+        ]
+      },
+      {
+        "level": 2,
+        "heading": "Public Announcements",
+        "content": "",
+        "children": [
+          {
+            "level": 3,
+            "heading": "Signs and notices",
+            "content": "非常の際は係員の指示に従ってください。 Hijou no sai wa kakariin no shiji ni shittagatte kudasai. \"In case of emergency, please follow staff instructions.\" 地震の際は落ち着いて行動してください。 Jishin no sai wa ochitsuite koudou shite kudasai. \"In case of earthquake, please act calmly.\" 火災の際は非常口をご利用ください。 Kasai no sai wa hijouguchi wo goriyou kudasai. \"In case of fire, please use emergency exits.\""
+          }
+        ]
+      },
+      {
+        "level": 2,
+        "heading": "Visiting and Coming",
+        "content": "",
+        "children": [
+          {
+            "level": 3,
+            "heading": "Formal invitations",
+            "content": "日本にお越しの際はぜひお立ち寄りください。 Nihon ni okoshi no sai wa zehi otachiyori kudasai. \"When you visit Japan, please do stop by.\" お近くにお越しの際はご連絡ください。 Ochikaku ni okoshi no sai wa gorenraku kudasai. \"When you're in the area, please contact us.\" ご来店の際はこちらをご提示ください。 Goraiten no sai wa kochira wo goteiji kudasai. \"When visiting the store, please show this.\""
+          }
+        ]
+      },
+      {
+        "level": 2,
+        "heading": "Business and Professional",
+        "content": "",
+        "children": [
+          {
+            "level": 3,
+            "heading": "Formal contexts",
+            "content": "契約の際は必ず内容をご確認ください。 Keiyaku no sai wa kanarazu naiyou wo gokakunin kudasai. \"When signing a contract, please confirm the details.\" 会議の際は資料をお持ちください。 Kaigi no sai wa shiryou wo omochi kudasai. \"Please bring materials to the meeting.\" 申し込みの際は身分証明書が必要です。 Moushikomi no sai wa mibun shoumeisho ga hitsuyou desu. \"Identification is required when applying.\""
+          }
+        ]
+      },
+      {
+        "level": 2,
+        "heading": "Emergency Situations",
+        "content": "",
+        "children": [
+          {
+            "level": 3,
+            "heading": "Safety instructions",
+            "content": "緊急の際はこちらにお電話ください。 Kinkyuu no sai wa kochira ni odenwa kudasai. \"In case of emergency, please call here.\" 災害の際は避難してください。 Saigai no sai wa hinan shite kudasai. \"In case of disaster, please evacuate.\" 問題が発生した際はすぐに連絡してください。 Mondai ga hassei shita sai wa sugu ni renraku shite kudasai. \"If a problem occurs, please contact us immediately.\""
+          }
+        ]
+      },
+      {
+        "level": 2,
+        "heading": "Travel and Transportation",
+        "content": "",
+        "children": [
+          {
+            "level": 3,
+            "heading": "Travel instructions",
+            "content": "ご出発の際はパスポートをお忘れなく。 Goshuppatsu no sai wa pasupooto wo owasurenaku. \"Don't forget your passport when departing.\" 入国の際は申告書が必要です。 Nyuukoku no sai wa shinkokusho ga hitsuyou desu. \"A declaration form is required upon entry.\" 搭乗の際は搭乗券をご提示ください。 Toujou no sai wa toujourken wo goteiji kudasai. \"Please show your boarding pass when boarding.\""
+          }
+        ]
+      },
+      {
+        "level": 2,
+        "heading": "With た-form",
+        "content": "",
+        "children": [
+          {
+            "level": 3,
+            "heading": "Past/completed action",
+            "content": "[Verb た-form] + 際 = \"when [action] happened\"\n\n来日した際 (rainichi shita sai) - \"when I visited Japan\" 会った際 (atta sai) - \"when we met\" 購入した際 (kounyuu shita sai) - \"when purchasing\" 来日した際に撮った写真。 Rainichi shita sai ni totta shashin. \"Photos taken when I visited Japan.\" 前回お会いした際にお話しした件。 Zenkai oai shita sai ni ohanashi shita ken. \"The matter we discussed when we met last time.\""
+          }
+        ]
+      },
+      {
+        "level": 2,
+        "heading": "の際に vs の際は",
+        "content": "",
+        "children": [
+          {
+            "level": 3,
+            "heading": "Particle usage",
+            "content": "の際に - Point in time:\n\n出発の際に確認する。 Shuppatsu no sai ni kakunin suru. \"Confirm at the time of departure.\"\n\nの際は - Topic/condition:\n\n出発の際は注意してください。 Shuppatsu no sai wa chuui shite kudasai. \"Please be careful when departing.\""
+          }
+        ]
+      },
+      {
+        "level": 2,
+        "heading": "Polite Expressions",
+        "content": "",
+        "children": [
+          {
+            "level": 3,
+            "heading": "Honorific language",
+            "content": "お越しの際 (okoshi no sai) - \"when you come\" (honorific) ご利用の際 (goriyou no sai) - \"when you use\" (honorific) ご来店の際 (goraiten no sai) - \"when you visit\" (honorific) ご来日の際 (gorainichi no sai) - \"when you visit Japan\" (honorific) お困りの際はお気軽にお声がけください。 Okomari no sai wa okigaru ni okoe gake kudasai. \"If you have any trouble, please feel free to ask.\""
+          }
+        ]
+      },
+      {
+        "level": 2,
+        "heading": "Common Expressions",
+        "content": "ご利用の際 (goriyou no sai) - \"when using\" お越しの際 (okoshi no sai) - \"when visiting\" 緊急の際 (kinkyuu no sai) - \"in emergency\" 非常の際 (hijou no sai) - \"in emergency\" 出発の際 (shuppatsu no sai) - \"at departure\" 到着の際 (touchaku no sai) - \"upon arrival\" ご来店の際 (goraiten no sai) - \"when visiting store\" お帰りの際 (okaeri no sai) - \"when leaving\""
+      },
+      {
+        "level": 2,
+        "heading": "Formal Written Style",
+        "content": "",
+        "children": [
+          {
+            "level": 3,
+            "heading": "Documents and notices",
+            "content": "申請の際は必要書類を添付してください。 Shinsei no sai wa hitsuyou shorui wo tenpu shite kudasai. \"Please attach necessary documents when applying.\" 変更の際は事前にご連絡ください。 Henkou no sai wa jizen ni gorenraku kudasai. \"Please contact us in advance if making changes.\" 更新の際は手数料が発生します。 Koushin no sai wa tesuuryou ga hassei shimasu. \"A fee is charged upon renewal.\""
+          }
+        ]
+      },
+      {
+        "level": 2,
+        "heading": "Comparing 際 and 時",
+        "content": "",
+        "children": [
+          {
+            "level": 3,
+            "heading": "Formality difference",
+            "content": "際 - Formal:\n\nご利用の際 (goriyou no sai) \"when using\" (formal, written)\n\n時 - Neutral:\n\n使う時 (tsukau toki) \"when using\" (neutral, conversational)\n\n| Pattern | Formality | Context | | ------- | --------- | --------------------- | | 際 | Formal | Instructions, notices | | 時 | Neutral | General use |"
+          }
+        ]
+      },
+      {
+        "level": 2,
+        "heading": "Not Common in Daily Conversation",
+        "content": "",
+        "children": [
+          {
+            "level": 3,
+            "heading": "Formal contexts only",
+            "content": "際 is rarely used in casual conversation. Use 時 instead.\n\nDaily conversation: ❌ 家に帰る際に電話して (too formal) ✓ 家に帰る時に電話して Formal notices: ✓ お帰りの際はお忘れ物のないように ✓ ご利用の際はご注意ください"
+          }
+        ]
+      },
+      {
+        "level": 2,
+        "heading": "Store and Service Notices",
+        "content": "",
+        "children": [
+          {
+            "level": 3,
+            "heading": "Customer service",
+            "content": "ご不明な点がございましたら、お気軽にお尋ねください。 Gofumei na ten ga gozaimashitara, okigaru ni otazune kudasai. \"If you have any questions, please feel free to ask.\" お支払いの際はこちらへお進みください。 Oshiharai no sai wa kochira e osusumi kudasai. \"Please proceed here for payment.\" レジへお越しの際はカードをご提示ください。 Reji e okoshi no sai wa kaado wo goteiji kudasai. \"Please show your card when coming to the register.\""
+          }
+        ]
+      },
+      {
+        "level": 2,
+        "heading": "Common Mistakes",
+        "content": "",
+        "children": [
+          {
+            "level": 3,
+            "heading": "Mistake 1: Using in casual conversation",
+            "content": "❌ 学校に行く際に会おう (too formal) ✓ 学校に行く時に会おう\n\nSave 際 for formal contexts."
+          },
+          {
+            "level": 3,
+            "heading": "Mistake 2: Wrong particle with nouns",
+            "content": "❌ 緊急際 ✓ 緊急の際\n\nUse の with nouns."
+          },
+          {
+            "level": 3,
+            "heading": "Mistake 3: Overusing in informal writing",
+            "content": "Email to friend: ❌ 明日会う際に話そう ✓ 明日会う時に話そう Formal notice: ✓ ご来店の際はお申し付けください"
+          },
+          {
+            "level": 3,
+            "heading": "Mistake 4: Using with casual verb forms",
+            "content": "❌ 使っちゃう際 ✓ 使う際 or ご使用の際 Keep the formality consistent."
+          }
+        ]
+      },
+      {
+        "level": 2,
+        "heading": "Summary",
+        "content": "Key Points:\n\n際 expresses \"when\" or \"occasion\" formally Formation: [Verb dictionary/た-form / Noun の] + 際 Very formal, used in instructions and notices Common in public announcements and business Often with honorific language (お〜の際, ご〜の際) Not used in casual conversation - use 時 instead Essential for formal written communication",
+        "children": [
+          {
+            "level": 3,
+            "heading": "Company",
+            "content": "About Pricing Blog Contact"
+          },
+          {
+            "level": 3,
+            "heading": "Legal",
+            "content": "Privacy Policy Terms of Service Cookie Policy"
+          }
+        ]
+      }
+    ],
+    "examples": [
+      {
+        "sentence": "際 expresses \"when\" or \"occasion\" formally"
+      },
+      {
+        "sentence": "Formation: [Verb dictionary/た-form / Noun の] + 際"
+      },
+      {
+        "sentence": "Very formal, used in instructions and notices"
+      },
+      {
+        "sentence": "Common in public announcements and business"
+      },
+      {
+        "sentence": "Often with honorific language (お〜の際, ご〜の際)"
+      },
+      {
+        "sentence": "Not used in casual conversation - use 時 instead"
+      },
+      {
+        "sentence": "Essential for formal written communication"
+      },
+      {
+        "sentence": "About"
+      },
+      {
+        "sentence": "Pricing"
+      },
+      {
+        "sentence": "Blog"
+      },
+      {
+        "sentence": "Contact"
+      },
+      {
+        "sentence": "Privacy Policy"
+      },
+      {
+        "sentence": "Terms of Service"
+      },
+      {
+        "sentence": "Cookie Policy"
+      }
+    ]
+  },
+  "metadata": {
+    "extracted_at": "2026-01-01T22:19:34.407748800Z",
+    "duration_ms": 4,
+    "extractors_matched": [
+      "metadata",
+      "examples",
+      "sections"
+    ],
+    "extractors_failed": [
+      "vocab_tables",
+      "definitions",
+      "content_blocks"
+    ]
+  }
+}

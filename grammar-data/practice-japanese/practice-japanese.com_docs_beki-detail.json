@@ -1,0 +1,363 @@
+{
+  "config_name": "Language Learning Extractor",
+  "url": "https://practice-japanese.com/docs/beki-detail/",
+  "data": {
+    "sections": [
+      {
+        "level": 2,
+        "heading": "Understanding べきだ",
+        "content": "〜べきだ expresses moral obligation, duty, or strong advice, meaning \"should,\" \"ought to,\" or \"must.\" It's stronger than ほうがいい and indicates what is morally/socially right or expected.\n\n真実を話すべきだ \"You should tell the truth\" (moral obligation) 休んだほうがいい \"You should rest\" (advice for your benefit) べきだ = moral/social obligation ほうがいい = practical advice"
+      },
+      {
+        "level": 2,
+        "heading": "Formation",
+        "content": "",
+        "children": [
+          {
+            "level": 3,
+            "heading": "Dictionary form + べきだ",
+            "content": "Regular verbs:\n\n行く → 行くべきだ (should go) 食べる → 食べるべきだ (should eat) 勉強する → 勉強するべきだ (should study)\n\nSpecial case: する\n\nする → するべきだ Or: すべきだ (contracted) Both acceptable すべきだ more common\n\nNegative:\n\n行くべきではない (shouldn't go) Or: 行くべきじゃない (casual)"
+          }
+        ]
+      },
+      {
+        "level": 2,
+        "heading": "Strength of Obligation",
+        "content": "",
+        "children": [
+          {
+            "level": 3,
+            "heading": "Obligation scale",
+            "content": "Weakest: ～といい (it would be good if) ↓ ～たほうがいい (had better) ↓ ～なければならない (must/have to) ↓ Strongest: ～べきだ (should/ought to - moral duty) べきだ = moral/ethical obligation"
+          }
+        ]
+      },
+      {
+        "level": 2,
+        "heading": "べきだ vs ほうがいい",
+        "content": "",
+        "children": [
+          {
+            "level": 3,
+            "heading": "べきだ - Moral/social obligation",
+            "content": "謝るべきだ \"You should apologize\" (it's the right thing to do) Moral duty What society expects Ethical imperative"
+          },
+          {
+            "level": 3,
+            "heading": "ほうがいい - Practical advice",
+            "content": "謝ったほうがいい \"You should apologize\" (it would be better for you) For your benefit Practical suggestion Personal advantage"
+          },
+          {
+            "level": 3,
+            "heading": "Clear comparison",
+            "content": "べきだ: 真実を話すべきだ \"You should tell the truth\" (moral obligation) ほうがいい: 早く寝たほうがいい \"You should sleep early\" (for your health) Different motivations"
+          }
+        ]
+      },
+      {
+        "level": 2,
+        "heading": "Usage Contexts",
+        "content": "",
+        "children": [
+          {
+            "level": 3,
+            "heading": "Moral/ethical duties",
+            "content": "約束は守るべきだ \"You should keep promises\" 人に親切にするべきだ \"You should be kind to people\" 正直であるべきだ \"You should be honest\" Universal moral principles"
+          },
+          {
+            "level": 3,
+            "heading": "Social expectations",
+            "content": "時間を守るべきだ \"You should be punctual\" 礼儀正しくするべきだ \"You should be polite\" Social norms and manners"
+          },
+          {
+            "level": 3,
+            "heading": "Professional obligations",
+            "content": "報告すべきだ \"You should report it\" 責任を取るべきだ \"You should take responsibility\" Workplace duties"
+          },
+          {
+            "level": 3,
+            "heading": "Logical necessities",
+            "content": "この問題は解決すべきだ \"This problem should be solved\" 改善すべき点がある \"There are points that should be improved\" Necessary actions"
+          }
+        ]
+      },
+      {
+        "level": 2,
+        "heading": "Polite Forms",
+        "content": "",
+        "children": [
+          {
+            "level": 3,
+            "heading": "べきだ (plain)",
+            "content": "行くべきだ \"Should go\""
+          },
+          {
+            "level": 3,
+            "heading": "べきです (polite)",
+            "content": "行くべきです \"Should go\" Standard polite"
+          },
+          {
+            "level": 3,
+            "heading": "べきである (formal/written)",
+            "content": "対策を取るべきである \"Measures should be taken\" Formal documents Academic writing"
+          }
+        ]
+      },
+      {
+        "level": 2,
+        "heading": "Negative Forms",
+        "content": "",
+        "children": [
+          {
+            "level": 3,
+            "heading": "べきではない (shouldn't)",
+            "content": "嘘をつくべきではない \"You shouldn't lie\" 諦めるべきではない \"You shouldn't give up\" Moral prohibition"
+          },
+          {
+            "level": 3,
+            "heading": "べきじゃない (casual negative)",
+            "content": "そんなこと言うべきじゃない \"You shouldn't say such things\" More casual"
+          }
+        ]
+      },
+      {
+        "level": 2,
+        "heading": "べきだった (Should have)",
+        "content": "",
+        "children": [
+          {
+            "level": 3,
+            "heading": "Past regret",
+            "content": "もっと勉強するべきだった \"I should have studied more\" 謝るべきだった \"I should have apologized\" Expressing regret What was the right thing to do"
+          }
+        ]
+      },
+      {
+        "level": 2,
+        "heading": "Common Patterns",
+        "content": "",
+        "children": [
+          {
+            "level": 3,
+            "heading": "～すべきだ (Should do)",
+            "content": "努力すべきだ \"You should make an effort\" 挑戦すべきだ \"You should challenge\" Common with する verbs Often contracted to すべき"
+          },
+          {
+            "level": 3,
+            "heading": "～べきではない (Shouldn't)",
+            "content": "差別すべきではない \"You shouldn't discriminate\" 無視すべきではない \"You shouldn't ignore\" Moral prohibition"
+          },
+          {
+            "level": 3,
+            "heading": "～べきか (Should I/we)",
+            "content": "どうすべきか \"What should I/we do?\" 行くべきか、行かないべきか \"Should I go or not go?\" Questioning duty"
+          }
+        ]
+      },
+      {
+        "level": 2,
+        "heading": "べき alone (What should be done)",
+        "content": "",
+        "children": [
+          {
+            "level": 3,
+            "heading": "As a noun",
+            "content": "やるべきこと \"Things that should be done\" 考えるべき問題 \"Problems that should be considered\" するべきことがたくさんある \"There are many things to do\" Nominalized form"
+          }
+        ]
+      },
+      {
+        "level": 2,
+        "heading": "In Formal Contexts",
+        "content": "",
+        "children": [
+          {
+            "level": 3,
+            "heading": "Reports and proposals",
+            "content": "この問題は早急に対処すべきである \"This problem should be addressed urgently\" 改善策を検討すべきだ \"Improvement measures should be considered\" Professional writing"
+          },
+          {
+            "level": 3,
+            "heading": "Academic writing",
+            "content": "この理論は再検討されるべきである \"This theory should be reconsidered\" 更なる研究が必要とされるべきだ \"Further research should be required\""
+          }
+        ]
+      },
+      {
+        "level": 2,
+        "heading": "Softening べきだ",
+        "content": "",
+        "children": [
+          {
+            "level": 3,
+            "heading": "と思う (I think)",
+            "content": "謝るべきだと思う \"I think you should apologize\" Softer than bare べきだ Personal opinion marker"
+          },
+          {
+            "level": 3,
+            "heading": "のではないか (Don't you think?)",
+            "content": "考え直すべきではないか \"Don't you think you should reconsider?\" More tentative Questioning form"
+          }
+        ]
+      },
+      {
+        "level": 2,
+        "heading": "Common Mistakes",
+        "content": "",
+        "children": [
+          {
+            "level": 3,
+            "heading": "Using for trivial matters",
+            "content": "Unnatural: 水を飲むべきだ ⚠️ Natural: 水を飲んだほうがいい ✓ べきだ too strong for trivial advice"
+          },
+          {
+            "level": 3,
+            "heading": "Confusing with しなければならない",
+            "content": "べきだ: Moral should (what's right) 真実を話すべきだ \"You should tell the truth\" なければならない: Practical must (necessity) 働かなければならない \"I must work\" (no choice) Different nuances"
+          }
+        ]
+      },
+      {
+        "level": 2,
+        "heading": "べきだ in Different Situations",
+        "content": "",
+        "children": [
+          {
+            "level": 3,
+            "heading": "Giving advice to others",
+            "content": "もっと自分を大切にすべきだよ \"You should value yourself more\" 夢を諦めるべきじゃない \"You shouldn't give up on your dreams\" Strong advice"
+          },
+          {
+            "level": 3,
+            "heading": "Self-reflection",
+            "content": "もっと頑張るべきだった \"I should have tried harder\" 考えるべきだった \"I should have thought about it\" Regret, self-criticism"
+          },
+          {
+            "level": 3,
+            "heading": "Social commentary",
+            "content": "政府は対策を取るべきだ \"The government should take measures\" 社会は変わるべきだ \"Society should change\" Expressing opinions on social issues"
+          }
+        ]
+      },
+      {
+        "level": 2,
+        "heading": "べき vs other obligation forms",
+        "content": "",
+        "children": [
+          {
+            "level": 3,
+            "heading": "べきだ (moral should)",
+            "content": "環境を守るべきだ \"We should protect the environment\" What's morally right"
+          },
+          {
+            "level": 3,
+            "heading": "なければならない (practical must)",
+            "content": "会社に行かなければならない \"I must go to work\" Practical necessity"
+          },
+          {
+            "level": 3,
+            "heading": "はずだ (logical should)",
+            "content": "彼は来るはずだ \"He should come\" (expected) Based on facts/plans"
+          }
+        ]
+      },
+      {
+        "level": 2,
+        "heading": "Practice Sentences",
+        "content": "",
+        "children": [
+          {
+            "level": 3,
+            "heading": "Basic",
+            "content": "真実を話すべきだ \"You should tell the truth\" 約束を守るべきです \"You should keep promises\" 諦めるべきではない \"You shouldn't give up\""
+          },
+          {
+            "level": 3,
+            "heading": "Intermediate",
+            "content": "この問題については、専門家に 相談すべきだと思います \"Regarding this problem, I think you should consult an expert\" 若いうちに、いろいろな経験を するべきだ。後悔しないように \"While you're young, you should have various experiences. So you won't regret it\" 環境問題は、一人一人が 真剣に考えるべき課題だ \"Environmental problems are issues each person should seriously consider\""
+          },
+          {
+            "level": 3,
+            "heading": "Advanced",
+            "content": "リーダーは、常に冷静で公平であるべきだ。 感情的になってはいけない。チーム全体の ことを考え、最善の決断を下すべきである。 それがリーダーの責任だ。 \"A leader should always be calm and fair. They shouldn't become emotional. They should consider the entire team and make the best decisions. That's a leader's responsibility.\" 教育は全ての人に平等に与えられるべきである。 経済的な理由で学べない人がいてはならない。 社会全体で支援する仕組みを作るべきだ。 これは人権の問題として考えるべきである。 \"Education should be given equally to all people. There shouldn't be people who can't learn for economic reasons. We should create a system to support them as a society. This should be considered as a human rights issue.\""
+          }
+        ]
+      },
+      {
+        "level": 2,
+        "heading": "Related Grammar Points",
+        "content": "〜ほうがいい - Had better (practical advice) 〜なければならない - Must/have to (necessity) 〜べきではない - Shouldn't (moral prohibition) 〜べきだった - Should have (regret) Obligation expressions - Expressing duty Strong advice - Giving recommendations",
+        "children": [
+          {
+            "level": 3,
+            "heading": "Company",
+            "content": "About Pricing Blog Contact"
+          },
+          {
+            "level": 3,
+            "heading": "Legal",
+            "content": "Privacy Policy Terms of Service Cookie Policy"
+          }
+        ]
+      }
+    ],
+    "examples": [
+      {
+        "sentence": "〜ほうがいい - Had better (practical advice)"
+      },
+      {
+        "sentence": "〜なければならない - Must/have to (necessity)"
+      },
+      {
+        "sentence": "〜べきではない - Shouldn't (moral prohibition)"
+      },
+      {
+        "sentence": "〜べきだった - Should have (regret)"
+      },
+      {
+        "sentence": "Obligation expressions - Expressing duty"
+      },
+      {
+        "sentence": "Strong advice - Giving recommendations"
+      },
+      {
+        "sentence": "About"
+      },
+      {
+        "sentence": "Pricing"
+      },
+      {
+        "sentence": "Blog"
+      },
+      {
+        "sentence": "Contact"
+      },
+      {
+        "sentence": "Privacy Policy"
+      },
+      {
+        "sentence": "Terms of Service"
+      },
+      {
+        "sentence": "Cookie Policy"
+      }
+    ],
+    "metadata": {
+      "title": "〜べきだ (Should) - Detailed"
+    }
+  },
+  "metadata": {
+    "extracted_at": "2026-01-01T22:19:27.758724Z",
+    "duration_ms": 3,
+    "extractors_matched": [
+      "metadata",
+      "examples",
+      "sections"
+    ],
+    "extractors_failed": [
+      "vocab_tables",
+      "definitions",
+      "content_blocks"
+    ]
+  }
+}

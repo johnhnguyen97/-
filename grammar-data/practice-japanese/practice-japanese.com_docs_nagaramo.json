@@ -1,0 +1,290 @@
+{
+  "config_name": "Language Learning Extractor",
+  "url": "https://practice-japanese.com/docs/nagaramo/",
+  "data": {
+    "metadata": {
+      "title": "〜ながらも (While/Although)"
+    },
+    "examples": [
+      {
+        "sentence": "ながらも expresses formal \"although/despite\""
+      },
+      {
+        "sentence": "Formation: [Verb ます-stem / Adjective / Noun] + ながらも"
+      },
+      {
+        "sentence": "Emphasizes concession and contrast"
+      },
+      {
+        "sentence": "Often highlights positive despite limitation"
+      },
+      {
+        "sentence": "Used in formal writing and speeches"
+      },
+      {
+        "sentence": "Common in humble/modest expressions"
+      },
+      {
+        "sentence": "Different from ながら (simultaneous actions)"
+      },
+      {
+        "sentence": "Not used in casual conversation"
+      },
+      {
+        "sentence": "Essential for formal expression of concession"
+      },
+      {
+        "sentence": "About"
+      },
+      {
+        "sentence": "Pricing"
+      },
+      {
+        "sentence": "Blog"
+      },
+      {
+        "sentence": "Contact"
+      },
+      {
+        "sentence": "Privacy Policy"
+      },
+      {
+        "sentence": "Terms of Service"
+      },
+      {
+        "sentence": "Cookie Policy"
+      }
+    ],
+    "sections": [
+      {
+        "level": 2,
+        "heading": "What is 〜ながらも?",
+        "content": "〜ながらも (nagaramo) is a formal expression meaning \"while\" or \"although,\" with an emphasis on contrast. It combines ながら (while) with も (also/even) to show concession in formal or written language.\n\nEnglish equivalent: \"while,\" \"although,\" \"even though,\" \"despite\"\n\nStructure: [Verb ます-stem / い-adjective / Noun] + ながらも\n\n知る (shiru - know) → 知り + ながらも = 知りながらも \"while knowing\" / \"despite knowing\" 小さい (chiisai - small) + ながらも = 小さいながらも \"while small\" / \"although small\" 困難 (konnan - difficulty) + ながらも = 困難ながらも \"despite difficulties\""
+      },
+      {
+        "level": 2,
+        "heading": "Basic Formation",
+        "content": "",
+        "children": [
+          {
+            "level": 3,
+            "heading": "With verbs (ます-stem)",
+            "content": "[Verb ます-stem] + ながらも\n\n知りながらも (shirinagara mo) - \"while knowing\" / \"despite knowing\" 思いながらも (omoinagara mo) - \"while thinking\" 感じながらも (kanjinagara mo) - \"while feeling\" 驚きながらも (odorokinagara mo) - \"while surprised\""
+          },
+          {
+            "level": 3,
+            "heading": "With い-adjectives",
+            "content": "[い-adjective] + ながらも\n\n小さいながらも (chiisai nagara mo) - \"although small\" 少ないながらも (sukunai nagara mo) - \"although few\" 若いながらも (wakai nagara mo) - \"although young\""
+          },
+          {
+            "level": 3,
+            "heading": "With な-adjectives and nouns",
+            "content": "[な-adjective/Noun] + ながらも\n\n不安ながらも (fuan nagara mo) - \"although anxious\" 困難ながらも (konnan nagara mo) - \"despite difficulties\" 残念ながらも (zannen nagara mo) - \"although regrettable\""
+          }
+        ]
+      },
+      {
+        "level": 2,
+        "heading": "Expressing Concession",
+        "content": "",
+        "children": [
+          {
+            "level": 3,
+            "heading": "Despite knowing/feeling",
+            "content": "危険と知りながらも、挑戦した。 Kiken to shirinagara mo, chousen shita. \"Despite knowing it was dangerous, I challenged it.\" 不安を感じながらも、前進した。 Fuan wo kanjinagara mo, zenshin shita. \"While feeling anxious, I moved forward.\" 間違いだと思いながらも、言えなかった。 Machigai da to omoinagara mo, ienakatta. \"Although I thought it was wrong, I couldn't say it.\""
+          }
+        ]
+      },
+      {
+        "level": 2,
+        "heading": "Formal Writing",
+        "content": "",
+        "children": [
+          {
+            "level": 3,
+            "heading": "Literary and formal contexts",
+            "content": "小さいながらも、力強い一歩だ。 Chiisai nagara mo, chikara dzuyoi ippo da. \"Although small, it's a powerful step.\" 貧しいながらも、幸せに暮らしている。 Mazushii nagara mo, shiawase ni kurashite iru. \"Although poor, they live happily.\" 困難ながらも、諦めずに続けた。 Konnan nagara mo, akiramezu ni tsuzuketa. \"Despite difficulties, I continued without giving up.\""
+          }
+        ]
+      },
+      {
+        "level": 2,
+        "heading": "With Emotional States",
+        "content": "",
+        "children": [
+          {
+            "level": 3,
+            "heading": "Internal contradictions",
+            "content": "悲しみながらも、笑顔を見せた。 Kanashiminagara mo, egao wo miseta. \"While sad, showed a smile.\" 驚きながらも、冷静に対処した。 Odorokinagara mo, reisei ni taisho shita. \"While surprised, dealt with it calmly.\" 疑いながらも、信じることにした。 Utagainagara mo, shinjiru koto ni shita. \"While doubtful, decided to believe.\""
+          }
+        ]
+      },
+      {
+        "level": 2,
+        "heading": "Acknowledging Limitations",
+        "content": "",
+        "children": [
+          {
+            "level": 3,
+            "heading": "Despite limitations",
+            "content": "未熟ながらも、頑張ります。 Mijuku nagara mo, ganbarimasu. \"Although inexperienced, I'll do my best.\" 若いながらも、責任を果たす。 Wakai nagara mo, sekinin wo hatasu. \"Although young, fulfills responsibilities.\" 小さな会社ながらも、技術力は高い。 Chiisa na kaisha nagara mo, gijutsuryoku wa takai. \"Although a small company, technical capabilities are high.\""
+          }
+        ]
+      },
+      {
+        "level": 2,
+        "heading": "残念ながら(も)",
+        "content": "",
+        "children": [
+          {
+            "level": 3,
+            "heading": "Regretful situations",
+            "content": "残念ながら、参加できません。 Zannen nagara, sanka dekimasen. \"Unfortunately, I cannot participate.\" 残念ながらも、結果は変わらない。 Zannen nagara mo, kekka wa kawaranai. \"Although regrettable, the result doesn't change.\"\n\nNote: 残念ながら (without も) is more common for \"unfortunately.\""
+          }
+        ]
+      },
+      {
+        "level": 2,
+        "heading": "Comparing ながらも and ながら",
+        "content": "",
+        "children": [
+          {
+            "level": 3,
+            "heading": "Concessive vs simultaneous",
+            "content": "ながらも - Concessive (although/despite):\n\n小さいながらも強い。 Chiisai nagara mo tsuyoi. \"Although small, strong.\" (emphasizing contrast)\n\nながら - Simultaneous (while):\n\n歩きながら話す。 Arukinagara hanasu. \"Talk while walking.\" (two actions at once)\n\n| Pattern | Meaning | Example | | -------- | -------------------- | -------------- | | ながらも | Although/despite | 小さいながらも | | ながら | While (simultaneous) | 歩きながら |\n\nSee: 〜ながら (While)"
+          }
+        ]
+      },
+      {
+        "level": 2,
+        "heading": "Comparing ながらも and ものの",
+        "content": "",
+        "children": [
+          {
+            "level": 3,
+            "heading": "Both formal, slight difference",
+            "content": "ながらも - Formal concession:\n\n若いながらも立派だ。 Wakai nagara mo rippa da. \"Although young, admirable.\" (formal)\n\nものの - Formal concession:\n\n若いものの立派だ。 Wakai monono rippa da. \"Although young, admirable.\" (formal)\n\nBoth are formal, but ながらも often emphasizes the positive despite limitation.\n\n| Pattern | Nuance | Usage | | -------- | --------------------------- | -------------- | | ながらも | Despite (often positive) | Formal writing | | ものの | Although (neutral/negative) | Formal writing |\n\nSee: 〜ものの (Although)"
+          }
+        ]
+      },
+      {
+        "level": 2,
+        "heading": "In Formal Speeches",
+        "content": "",
+        "children": [
+          {
+            "level": 3,
+            "heading": "Public speaking",
+            "content": "未熟ながらも、精一杯努力いたします。 Mijuku nagara mo, seiippai doryoku itashimasu. \"Although inexperienced, I will make every effort.\" 僭越ながらも、一言申し上げます。 Sensotsu nagara mo, hitokoto moushiagemasu. \"Presumptuous though it may be, I'll say a word.\""
+          }
+        ]
+      },
+      {
+        "level": 2,
+        "heading": "Set Phrases",
+        "content": "",
+        "children": [
+          {
+            "level": 3,
+            "heading": "Common expressions",
+            "content": "残念ながら (zannen nagara) - \"unfortunately\" 僭越ながら (sensotsu nagara) - \"presumptuously\" 不肖ながら (fushou nagara) - \"unworthily\" (humble) 微力ながら (biryoku nagara) - \"with my small power\" 未熟ながら (mijuku nagara) - \"although inexperienced\" 微力ながら、お手伝いします。 Biryoku nagara, otetsudai shimasu. \"I'll help with my limited abilities.\""
+          }
+        ]
+      },
+      {
+        "level": 2,
+        "heading": "Not Common in Casual Speech",
+        "content": "",
+        "children": [
+          {
+            "level": 3,
+            "heading": "Formal contexts only",
+            "content": "ながらも is formal and rarely used in casual conversation.\n\nCasual conversation: ❌ 小さいながらも強い (too formal) ✓ 小さいけど強い Formal writing/speech: ✓ 小さいながらも力強い一歩 ✓ 困難ながらも前進する"
+          }
+        ]
+      },
+      {
+        "level": 2,
+        "heading": "Positive Despite Negative",
+        "content": "",
+        "children": [
+          {
+            "level": 3,
+            "heading": "Emphasizing the positive",
+            "content": "ながらも often highlights something positive despite limitations:\n\n貧しいながらも幸せだ。 Mazushii nagara mo shiawase da. \"Although poor, happy.\" 小さいながらも美しい。 Chiisai nagara mo utsukushii. \"Although small, beautiful.\" 若いながらも優秀だ。 Wakai nagara mo yuushuu da. \"Although young, excellent.\""
+          }
+        ]
+      },
+      {
+        "level": 2,
+        "heading": "In Business Contexts",
+        "content": "",
+        "children": [
+          {
+            "level": 3,
+            "heading": "Professional humility",
+            "content": "至らない点もございますが、ご指導のほどよろしくお願いいたします。 Itaranai ten mo gozaimasu ga, goshidou no hodo yoroshiku onegai itashimasu. (More common than ながらも in this context) 若輩ながら、頑張ります。 Jakuhai nagara, ganbarimasu. \"Although I'm young/inexperienced, I'll do my best.\""
+          }
+        ]
+      },
+      {
+        "level": 2,
+        "heading": "Common Mistakes",
+        "content": "",
+        "children": [
+          {
+            "level": 3,
+            "heading": "Mistake 1: Using in casual conversation",
+            "content": "❌ 小さいながらも頑張る (too formal for friends) ✓ 小さいけど頑張る\n\nReserve for formal contexts."
+          },
+          {
+            "level": 3,
+            "heading": "Mistake 2: Wrong verb form",
+            "content": "❌ 知るながらも ✓ 知りながらも\n\nUse ます-stem, not dictionary form."
+          },
+          {
+            "level": 3,
+            "heading": "Mistake 3: Confusing with simultaneous ながら",
+            "content": "ながらも = although/despite (contrast) ながら = while (simultaneous action) 知りながらも = despite knowing 歩きながら = while walking"
+          },
+          {
+            "level": 3,
+            "heading": "Mistake 4: Using with only negative meaning",
+            "content": "ながらも typically shows something positive despite limitations.\n\nMore natural: 小さいながらも強い (positive despite small) Less natural: 小さいながらも弱い (both negative)"
+          }
+        ]
+      },
+      {
+        "level": 2,
+        "heading": "Summary",
+        "content": "Key Points:\n\nながらも expresses formal \"although/despite\" Formation: [Verb ます-stem / Adjective / Noun] + ながらも Emphasizes concession and contrast Often highlights positive despite limitation Used in formal writing and speeches Common in humble/modest expressions Different from ながら (simultaneous actions) Not used in casual conversation Essential for formal expression of concession",
+        "children": [
+          {
+            "level": 3,
+            "heading": "Company",
+            "content": "About Pricing Blog Contact"
+          },
+          {
+            "level": 3,
+            "heading": "Legal",
+            "content": "Privacy Policy Terms of Service Cookie Policy"
+          }
+        ]
+      }
+    ]
+  },
+  "metadata": {
+    "extracted_at": "2026-01-01T22:19:31.639192400Z",
+    "duration_ms": 4,
+    "extractors_matched": [
+      "metadata",
+      "examples",
+      "sections"
+    ],
+    "extractors_failed": [
+      "vocab_tables",
+      "definitions",
+      "content_blocks"
+    ]
+  }
+}

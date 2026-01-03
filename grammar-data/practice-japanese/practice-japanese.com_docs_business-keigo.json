@@ -1,0 +1,287 @@
+{
+  "config_name": "Language Learning Extractor",
+  "url": "https://practice-japanese.com/docs/business-keigo/",
+  "data": {
+    "metadata": {
+      "title": "Business Keigo"
+    },
+    "examples": [
+      {
+        "sentence": "About"
+      },
+      {
+        "sentence": "Pricing"
+      },
+      {
+        "sentence": "Blog"
+      },
+      {
+        "sentence": "Contact"
+      },
+      {
+        "sentence": "Privacy Policy"
+      },
+      {
+        "sentence": "Terms of Service"
+      },
+      {
+        "sentence": "Cookie Policy"
+      }
+    ],
+    "sections": [
+      {
+        "level": 2,
+        "heading": "Business Keigo",
+        "content": "Business keigo is formal honorific language essential for professional Japanese communication. It combines respectful, humble, and polite forms for emails, meetings, phone calls, and client interactions. Proper business keigo shows professionalism and maintains smooth workplace relationships.\n\nCasual: すみません Business: 申し訳ございません \"I'm sorry\" (business formal) Casual: 分かった Business: 承知いたしました \"I understand\" (business formal)"
+      },
+      {
+        "level": 2,
+        "heading": "Essential Business Phrases",
+        "content": "",
+        "children": [
+          {
+            "level": 3,
+            "heading": "Greetings and openings",
+            "content": "お世話になっております \"Thank you for your continued support\" (Standard business greeting) いつもお世話になっております \"Thank you always for your support\" お忙しいところ恐れ入ります \"Sorry to bother you when you're busy\" Email/call openings"
+          },
+          {
+            "level": 3,
+            "heading": "Understanding and acknowledgment",
+            "content": "承知いたしました \"I understand\" (humble + formal) かしこまりました \"Certainly\" (very formal) 承りました \"I've received/understood\" Confirming understanding"
+          },
+          {
+            "level": 3,
+            "heading": "Apologizing",
+            "content": "申し訳ございません \"I'm very sorry\" (formal) 大変申し訳ございません \"I'm extremely sorry\" 失礼いたしました \"I was rude/I apologize\" Business apologies"
+          },
+          {
+            "level": 3,
+            "heading": "Thanking",
+            "content": "ありがとうございます \"Thank you\" 誠にありがとうございます \"Thank you very much\" 感謝申し上げます \"I express my gratitude\" (very formal) お礼申し上げます \"I offer my thanks\" Expressing gratitude"
+          },
+          {
+            "level": 3,
+            "heading": "Requesting",
+            "content": "お願いいたします \"Please\" (humble) お願い申し上げます \"I humbly request\" (very formal) 〜していただけますでしょうか \"Could you please...?\" 〜していただけますと幸いです \"I would be grateful if you could...\" Polite requests"
+          }
+        ]
+      },
+      {
+        "level": 2,
+        "heading": "Email Keigo",
+        "content": "",
+        "children": [
+          {
+            "level": 3,
+            "heading": "Email opening",
+            "content": "〇〇様 お世話になっております。 ABC株式会社の田中でございます。 \"Dear Mr./Ms. ○○, Thank you for your continued support. This is Tanaka from ABC Corporation.\" Standard format"
+          },
+          {
+            "level": 3,
+            "heading": "Email closing",
+            "content": "何卒よろしくお願いいたします。 \"I humbly request your favorable consideration.\" 今後ともよろしくお願いいたします。 \"I look forward to our continued relationship.\" 引き続きよろしくお願いいたします。 \"I continue to ask for your support.\" Formal endings"
+          }
+        ]
+      },
+      {
+        "level": 2,
+        "heading": "Meeting Language",
+        "content": "",
+        "children": [
+          {
+            "level": 3,
+            "heading": "Starting meetings",
+            "content": "本日はお時間をいただき、 ありがとうございます。 \"Thank you for your time today.\" それでは、始めさせていただきます。 \"Well then, let me begin.\" Meeting openings"
+          },
+          {
+            "level": 3,
+            "heading": "Presenting opinions",
+            "content": "私の考えを申し上げますと... \"If I may express my thoughts...\" 僭越ながら申し上げますと... \"Humbly speaking...\" Offering opinions"
+          },
+          {
+            "level": 3,
+            "heading": "Concluding",
+            "content": "以上でございます。 \"That is all.\" ご清聴ありがとうございました。 \"Thank you for your attention.\" Meeting closings"
+          }
+        ]
+      },
+      {
+        "level": 2,
+        "heading": "Phone Keigo",
+        "content": "",
+        "children": [
+          {
+            "level": 3,
+            "heading": "Answering calls",
+            "content": "お電話ありがとうございます。 ABC株式会社でございます。 \"Thank you for calling. This is ABC Corporation.\" いつもお世話になっております。 \"Thank you for your continued support.\" Phone greeting"
+          },
+          {
+            "level": 3,
+            "heading": "Transferring calls",
+            "content": "少々お待ちください。 \"Please wait a moment.\" 担当者におつなぎいたします。 \"I'll transfer you to the person in charge.\" 恐れ入りますが、もう一度お願いできますか。 \"I'm sorry, but could you repeat that?\" Phone handling"
+          }
+        ]
+      },
+      {
+        "level": 2,
+        "heading": "Visiting Clients",
+        "content": "",
+        "children": [
+          {
+            "level": 3,
+            "heading": "Arrival",
+            "content": "お約束の時間に参りました。 \"I've arrived at our appointed time.\" 本日はお時間をいただき、 ありがとうございます。 \"Thank you for your time today.\" Visiting greeting"
+          },
+          {
+            "level": 3,
+            "heading": "Leaving",
+            "content": "本日はありがとうございました。 \"Thank you for today.\" 失礼いたします。 \"I'll take my leave.\" Departure phrases"
+          }
+        ]
+      },
+      {
+        "level": 2,
+        "heading": "Internal vs External Keigo",
+        "content": "",
+        "children": [
+          {
+            "level": 3,
+            "heading": "Speaking to outsiders about your company",
+            "content": "Lower your side: 弊社 \"our company\" (humble) 当社 \"our company\" (neutral) 弊社の山田が参ります。 \"Our Yamada will come.\" Humble your company"
+          },
+          {
+            "level": 3,
+            "heading": "Speaking about other companies",
+            "content": "Elevate them: 御社 \"your company\" (respectful) 貴社 \"your company\" (written) 御社の新製品を拝見いたしました。 \"I've seen your company's new product.\" Respectful to others"
+          }
+        ]
+      },
+      {
+        "level": 2,
+        "heading": "Common Business Patterns",
+        "content": "",
+        "children": [
+          {
+            "level": 3,
+            "heading": "〜させていただく (humble permission)",
+            "content": "説明させていただきます \"I will explain\" (humbly) 確認させていただきます \"I will confirm\" (humbly) Asking permission humbly"
+          },
+          {
+            "level": 3,
+            "heading": "〜いただけますでしょうか (polite request)",
+            "content": "ご確認いただけますでしょうか \"Could you please confirm?\" お時間をいただけますでしょうか \"Could I have some of your time?\" Very polite asking"
+          },
+          {
+            "level": 3,
+            "heading": "〜申し上げる (humble saying)",
+            "content": "お礼申し上げます \"I offer thanks\" 報告申し上げます \"I will report\" Humble reporting"
+          }
+        ]
+      },
+      {
+        "level": 2,
+        "heading": "Receiving Instructions",
+        "content": "",
+        "children": [
+          {
+            "level": 3,
+            "heading": "Acknowledging orders",
+            "content": "承知いたしました \"I understand\" かしこまりました \"Certainly\" 早速対応いたします \"I'll handle it right away\" Receiving tasks"
+          }
+        ]
+      },
+      {
+        "level": 2,
+        "heading": "Declining Politely",
+        "content": "",
+        "children": [
+          {
+            "level": 3,
+            "heading": "Saying no formally",
+            "content": "恐れ入りますが、難しいかと存じます \"I'm afraid it might be difficult\" 申し訳ございませんが、お受けいたしかねます \"I'm sorry, but I'm unable to accept\" 大変申し訳ございませんが、今回は見送らせていただきます \"I'm very sorry, but we'll pass this time\" Polite refusals"
+          }
+        ]
+      },
+      {
+        "level": 2,
+        "heading": "Offering Help",
+        "content": "何かお手伝いできることがございましたら、 お申し付けください \"If there's anything I can help with, please let me know\" ご不明な点がございましたら、 お気軽にお問い合わせください \"If you have any questions, please feel free to contact us\" Offering assistance"
+      },
+      {
+        "level": 2,
+        "heading": "Common Mistakes",
+        "content": "",
+        "children": [
+          {
+            "level": 3,
+            "heading": "Too casual in business",
+            "content": "Wrong: 分かった ⚠️ Correct: 承知いたしました ✓ \"I understand\" Wrong: すみません ⚠️ Correct: 申し訳ございません ✓ \"I'm sorry\" Maintain formality"
+          },
+          {
+            "level": 3,
+            "heading": "Elevating your own company",
+            "content": "Wrong: 弊社の社長がおっしゃっています ⚠️ Correct: 弊社の社長が申しております ✓ \"Our president says\" To outsiders, humble your side"
+          },
+          {
+            "level": 3,
+            "heading": "Using である調 (plain form)",
+            "content": "Wrong in business emails: これは重要だ ⚠️ Correct: これは重要でございます ✓ \"This is important\" Use です/ます forms"
+          }
+        ]
+      },
+      {
+        "level": 2,
+        "heading": "Quick Reference",
+        "content": "",
+        "children": [
+          {
+            "level": 3,
+            "heading": "Essential vocabulary",
+            "content": "弊社/当社 - our company 御社/貴社 - your company (respectful) 参る - go/come (humble) 申す - say (humble) 承る - receive/hear (humble) いたす - do (humble) いただく - receive (humble) 存じる - know (humble) 伺う - visit/ask (humble) 拝見する - see (humble)"
+          }
+        ]
+      },
+      {
+        "level": 2,
+        "heading": "Practice Sentences",
+        "content": "",
+        "children": [
+          {
+            "level": 3,
+            "heading": "Basic",
+            "content": "お世話になっております。 \"Thank you for your support.\" 承知いたしました。 \"I understand.\" 申し訳ございません。 \"I'm very sorry.\" ご確認いただけますでしょうか。 \"Could you please confirm?\" よろしくお願いいたします。 \"I humbly request your support.\""
+          },
+          {
+            "level": 3,
+            "heading": "Intermediate",
+            "content": "いつもお世話になっております。 ABC株式会社の山田でございます。 先日ご依頼いただきました資料を お送りいたします。ご確認の上、 ご不明な点がございましたら、 お気軽にお問い合わせください。 \"Thank you for your continued support. This is Yamada from ABC Corporation. I'm sending the documents you requested the other day. After confirming them, if you have any questions, please feel free to contact us.\" 本日はお忙しいところお時間を いただき、誠にありがとうございます。 弊社の新商品についてご説明 させていただきます。何かご質問が ございましたら、遠慮なく お申し付けください。 \"Thank you very much for your time today despite being busy. I will explain about our company's new product. If you have any questions, please don't hesitate to let me know.\""
+          },
+          {
+            "level": 3,
+            "heading": "Company",
+            "content": "About Pricing Blog Contact"
+          },
+          {
+            "level": 3,
+            "heading": "Legal",
+            "content": "Privacy Policy Terms of Service Cookie Policy"
+          }
+        ]
+      }
+    ]
+  },
+  "metadata": {
+    "extracted_at": "2026-01-01T22:19:27.728138100Z",
+    "duration_ms": 3,
+    "extractors_matched": [
+      "metadata",
+      "examples",
+      "sections"
+    ],
+    "extractors_failed": [
+      "vocab_tables",
+      "definitions",
+      "content_blocks"
+    ]
+  }
+}

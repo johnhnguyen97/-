@@ -1,0 +1,398 @@
+{
+  "config_name": "Language Learning Extractor",
+  "url": "https://practice-japanese.com/docs/filler-words/",
+  "data": {
+    "sections": [
+      {
+        "level": 2,
+        "heading": "What Are Filler Words?",
+        "content": "Filler words (つなぎ言葉 tsunagi kotoba or 間投詞 kantoushi) are sounds and words used to fill pauses while thinking, hesitating, or transitioning between thoughts. Every language has them - Japanese is no exception.\n\nWhy learn fillers?\n\nSound more natural and native-like Give yourself time to think while speaking Make conversation flow smoothly Show you're listening and engaged Essential for natural speech patterns\n\nEnglish equivalents: \"um,\" \"uh,\" \"well,\" \"like,\" \"you know\""
+      },
+      {
+        "level": 2,
+        "heading": "Basic Hesitation Sounds",
+        "content": "",
+        "children": [
+          {
+            "level": 3,
+            "heading": "あのー (ano-) / あの (ano) - Um... / Well...",
+            "content": "The most common hesitation word, used when thinking or starting a difficult topic.\n\nUses:\n\nThinking of what to say Politely starting a conversation Getting someone's attention Introducing a delicate topic\n\nあのー、質問があるんですが。 Ano-, shitsumon ga aru n desu ga. \"Um, I have a question...\" あの、すみません。 Ano, sumimasen. \"Excuse me...\" [Getting attention] あのー、ちょっといいですか？ Ano-, chotto ii desu ka? \"Um, do you have a moment?\"\n\nPronunciation note: Often elongated (ano-) when thinking."
+          },
+          {
+            "level": 3,
+            "heading": "えーと (e-to) / ええと (eeto) - Let me see... / Umm...",
+            "content": "Used when trying to remember something or thinking.\n\nえーと、何だっけ？ E-to, nan datta kke? \"Let me see, what was it again?\" ええと、明日は... Eeto, ashita wa... \"Um, tomorrow is...\" えーと、えーと... E-to, e-to... \"Umm, umm...\" [Thinking hard]\n\nSimilar to: English \"let's see...\" or \"umm...\""
+          },
+          {
+            "level": 3,
+            "heading": "えー (e-) - Uh... / Umm...",
+            "content": "Simple hesitation sound, like English \"uh.\"\n\nえー、それは... E-, sore wa... \"Uh, that's...\" えー、ちょっと待って。 E-, chotto matte. \"Uh, wait a moment.\""
+          },
+          {
+            "level": 3,
+            "heading": "なんか (nanka) - Like... / Kind of... / Somehow",
+            "content": "Very common filler, similar to English \"like.\"\n\nUses:\n\nVague expression Softening statements Searching for words Casual speech\n\nなんか、変な感じ。 Nanka, hen na kanji. \"Like, it feels weird.\" なんか疲れた。 Nanka tsukareta. \"I'm kind of tired.\" なんかさー Nanka sa- \"Like, you know...\"\n\nNote: Can be overused, especially by young people."
+          },
+          {
+            "level": 3,
+            "heading": "その (sono) - That... / Um...",
+            "content": "Used as a filler while thinking of what to say next.\n\nその、聞きたいことがあって... Sono, kikitai koto ga atte... \"Um, there's something I want to ask...\" その、実は... Sono, jitsu wa... \"Well, actually...\""
+          }
+        ]
+      },
+      {
+        "level": 2,
+        "heading": "Transitional Fillers",
+        "content": "",
+        "children": [
+          {
+            "level": 3,
+            "heading": "まあ (maa) - Well... / So-so / I guess",
+            "content": "Multi-purpose filler for transitions or moderate opinions.\n\nUses:\n\nSoftening statements \"Well, I suppose...\" \"More or less\" Transitioning topics\n\nまあ、そうだね。 Maa, sou da ne. \"Well, I guess so.\" まあまあです。 Maa maa desu. \"It's so-so.\" / \"Not bad.\" まあ、いいか。 Maa, ii ka. \"Well, I guess it's okay.\" まあまあ Maa maa \"Now, now...\" [Calming someone]"
+          },
+          {
+            "level": 3,
+            "heading": "で (de) / でさ (de sa) - And / So",
+            "content": "Casual connector, continuing a story.\n\nで、どうしたの？ De, doushita no? \"And then what happened?\" / \"So?\" でさ、その後ね... De sa, sono ato ne... \"And like, after that...\""
+          },
+          {
+            "level": 3,
+            "heading": "だから (dakara) - So / That's why",
+            "content": "Connects to previous statement, shows consequence.\n\nだから、言ったでしょ。 Dakara, itta desho. \"That's why I told you.\" だからさー Dakara sa- \"So like...\" / \"That's why...\""
+          },
+          {
+            "level": 3,
+            "heading": "というか (to iu ka) - Or rather... / I mean...",
+            "content": "Correcting or clarifying your statement.\n\n難しいというか、面倒くさい。 Muzukashii to iu ka, mendokusai. \"It's difficult, or rather, it's a pain.\" 嬉しいというか、びっくりした。 Ureshii to iu ka, bikkuri shita. \"I'm happy, or I mean, I'm surprised.\""
+          },
+          {
+            "level": 3,
+            "heading": "なんていうか (nan te iu ka) - How should I say... / What's the word...",
+            "content": "Searching for the right word or expression.\n\nなんていうか、変な感じ。 Nan te iu ka, hen na kanji. \"How should I say, it feels weird.\" なんていうかな... Nan te iu ka na... \"How can I put it...\""
+          }
+        ]
+      },
+      {
+        "level": 2,
+        "heading": "Agreement & Acknowledgment",
+        "content": "",
+        "children": [
+          {
+            "level": 3,
+            "heading": "そうですね (sou desu ne) - Let me think... / That's right...",
+            "content": "Can mean agreement OR be a filler while thinking.\n\nそうですね... [elongated] Sou desu ne... \"Let me think...\" [Filler] そうですね。[short] Sou desu ne. \"That's right.\" [Agreement]\n\nKey: Length determines meaning - longer = thinking, shorter = agreeing."
+          },
+          {
+            "level": 3,
+            "heading": "なるほど (naruhodo) - I see / That makes sense",
+            "content": "Showing understanding, acknowledging information.\n\nなるほど、そういうことか。 Naruhodo, sou iu koto ka. \"I see, so that's how it is.\" なるほどね。 Naruhodo ne. \"I see.\" / \"That makes sense.\""
+          },
+          {
+            "level": 3,
+            "heading": "へー (he-) - Oh! / Really?",
+            "content": "Showing mild surprise or interest.\n\nへー、そうなんだ。 He-, sou nan da. \"Oh, really?\" / \"Huh, is that so?\" へー！知らなかった。 He-! Shiranakatta. \"Oh! I didn't know that.\""
+          },
+          {
+            "level": 3,
+            "heading": "ふーん (fu-n) - Hmm / Oh",
+            "content": "Neutral acknowledgment, sometimes dismissive.\n\nふーん、そう。 Fu-n, sou. \"Hmm, okay.\" [Can sound uninterested] ふーん... Fu-n... \"Hmm...\" [Thinking or skeptical]\n\nWarning: Can sound dismissive or uninterested if not careful."
+          },
+          {
+            "level": 3,
+            "heading": "はー (ha-) - Wow / Oh my",
+            "content": "Expressing impression or exhaling.\n\nはー、疲れた。 Ha-, tsukareta. \"Whew, I'm tired.\" はー、すごいね。 Ha-, sugoi ne. \"Wow, that's amazing.\""
+          }
+        ]
+      },
+      {
+        "level": 2,
+        "heading": "Time-Buying Fillers",
+        "content": "",
+        "children": [
+          {
+            "level": 3,
+            "heading": "ちょっと (chotto) - A bit / Wait / Um",
+            "content": "Softens statements or asks for thinking time.\n\nちょっと待って。 Chotto matte. \"Wait a moment.\" / \"Hold on.\" ちょっと分からない。 Chotto wakaranai. \"I don't really understand.\" ちょっと...それは... Chotto... sore wa... \"Um... that's...\" [Uncomfortable/declining]\n\nNote: Elongating \"ちょっと...\" often implies polite refusal."
+          },
+          {
+            "level": 3,
+            "heading": "何て言うか (nan te iu ka) - What do you call it / How do I say",
+            "content": "Buying time to find the right word.\n\n何て言うか、その、あれ。 Nan te iu ka, sono, are. \"What's it called, um, that thing.\""
+          },
+          {
+            "level": 3,
+            "heading": "あれ (are) - That thing / What's-it-called",
+            "content": "Placeholder for forgotten words.\n\nあれ、何だっけ？ Are, nan datta kke? \"That thing, what was it?\" あれを取って。 Are wo totte. \"Pass me that thing.\" [When you forgot the name]"
+          }
+        ]
+      },
+      {
+        "level": 2,
+        "heading": "Conversation Continuers",
+        "content": "",
+        "children": [
+          {
+            "level": 3,
+            "heading": "ね (ne) - Right? / You know?",
+            "content": "Keeps conversation going, checks for understanding.\n\n今日は寒いですね。 Kyou wa samui desu ne. \"It's cold today, isn't it?\" で、その後ね、 De, sono ato ne, \"And then, you know,\""
+          },
+          {
+            "level": 3,
+            "heading": "さ (sa) - You know / Like",
+            "content": "Casual filler, more masculine.\n\nだからさ、 Dakara sa, \"So like,\" それでさ、 Sorede sa, \"And then, you know,\" 行こうよ、ね？ Ikou yo, ne? \"Let's go, okay?\""
+          },
+          {
+            "level": 3,
+            "heading": "ほら (hora) - Look / See / You know",
+            "content": "Drawing attention to something or reminding.\n\nほら、言ったでしょ。 Hora, itta desho. \"See, I told you.\" ほら、あそこ！ Hora, asoko! \"Look, over there!\" ほら、あの人... Hora, ano hito... \"You know, that person...\" [Trying to remember]"
+          }
+        ]
+      },
+      {
+        "level": 2,
+        "heading": "Regional & Dialectal Fillers",
+        "content": "",
+        "children": [
+          {
+            "level": 3,
+            "heading": "あのさ (ano sa) - Hey / So / Um",
+            "content": "Casual, often used in Tokyo area.\n\nあのさ、ちょっといい？ Ano sa, chotto ii? \"Hey, got a minute?\""
+          },
+          {
+            "level": 3,
+            "heading": "なんや (nanya) - Kansai Dialect",
+            "content": "Kansai version of なんか.\n\nなんや知らんけど Nanya shiran kedo \"I don't know why but...\" [Kansai]"
+          },
+          {
+            "level": 3,
+            "heading": "さー (sa-) / さあ (saa) - Well... / Let's see...",
+            "content": "Pondering or uncertainty.\n\nさあ、どうだろう。 Saa, dou darou. \"Well, I wonder...\" さあね。 Saa ne. \"Well, who knows?\" / \"Beats me.\""
+          }
+        ]
+      },
+      {
+        "level": 2,
+        "heading": "Polite vs Casual Fillers",
+        "content": "",
+        "children": [
+          {
+            "level": 3,
+            "heading": "Polite Context",
+            "content": "あのー、すみませんが... (Ano-, sumimasen ga...) えーと、少々お待ちください。(E-to, shoushou omachi kudasai.) そうですね... (Sou desu ne...)"
+          },
+          {
+            "level": 3,
+            "heading": "Casual Context",
+            "content": "あのさ、 (Ano sa,) えーと、ちょっと待って。(E-to, chotto matte.) そうだね... (Sou da ne...)"
+          }
+        ]
+      },
+      {
+        "level": 2,
+        "heading": "Strategic Filler Use",
+        "content": "",
+        "children": [
+          {
+            "level": 3,
+            "heading": "Buying Time",
+            "content": "えーと、そうですね、なんていうか... E-to, sou desu ne, nan te iu ka... \"Um, let me see, how should I put it...\"\n\nStack fillers naturally when you really need time to think."
+          },
+          {
+            "level": 3,
+            "heading": "Softening Difficult Topics",
+            "content": "あのー、その、ちょっと聞きにくいんですけど... Ano-, sono, chotto kikinukui n desu kedo... \"Um, well, this is a bit hard to ask but...\""
+          },
+          {
+            "level": 3,
+            "heading": "Showing Engagement",
+            "content": "へー、なるほど、そうなんですね。 He-, naruhodo, sou nan desu ne. \"Oh, I see, is that so.\"\n\nProper filler use shows you're listening actively."
+          }
+        ]
+      },
+      {
+        "level": 2,
+        "heading": "Common Filler Combinations",
+        "content": "あのー、えーと... (Ano-, e-to...) - \"Um, let's see...\" なんか、その... (Nanka, sono...) - \"Like, um...\" まあ、そうですね... (Maa, sou desu ne...) - \"Well, I suppose...\" というか、なんていうか... (To iu ka, nan te iu ka...) - \"Or rather, how should I say...\""
+      },
+      {
+        "level": 2,
+        "heading": "Filler Frequency",
+        "content": "Natural use: 1-3 fillers per minute in casual conversation Too few: Sounds rehearsed or unnatural Too many: Sounds uncertain or unprepared\n\nBalance is key - use fillers naturally without overdoing it."
+      },
+      {
+        "level": 2,
+        "heading": "Common Mistakes",
+        "content": "",
+        "children": [
+          {
+            "level": 3,
+            "heading": "Mistake 1: Overusing なんか",
+            "content": "❌ なんか、今日はなんか、なんか疲れた。 ✓ なんか、今日は疲れた。\n\nOne or two fillers per sentence is enough."
+          },
+          {
+            "level": 3,
+            "heading": "Mistake 2: Wrong Context Fillers",
+            "content": "❌ In business presentation: えーと、なんかさー ✓ In business: あのー、そうですね\n\nMatch filler formality to context."
+          },
+          {
+            "level": 3,
+            "heading": "Mistake 3: No Fillers at All",
+            "content": "❌ Sounds robotic: 私は学生です。東京に住んでいます。日本語を勉強しています。 ✓ More natural: えーと、私は学生で、東京に住んでて、まあ、日本語を勉強してます。\n\nSome fillers make you sound more natural."
+          },
+          {
+            "level": 3,
+            "heading": "Mistake 4: English Fillers in Japanese",
+            "content": "❌ Um... like... you know... ✓ あのー... なんか... ですね...\n\nUse Japanese fillers when speaking Japanese."
+          }
+        ]
+      },
+      {
+        "level": 2,
+        "heading": "Summary",
+        "content": "Essential Fillers to Master:\n\nあのー (ano-) - Um, well (most versatile) えーと (e-to) - Let me see, umm なんか (nanka) - Like, kind of まあ (maa) - Well, I guess そうですね (sou desu ne) - Let me think なるほど (naruhodo) - I see ちょっと (chotto) - A bit, wait\n\nKey Points:\n\nFillers are essential for natural speech Give you time to think while maintaining flow Show engagement and active listening Must match formality level of conversation Don't overuse - 1-3 per thought is natural Practice listening to native speakers' filler patterns",
+        "children": [
+          {
+            "level": 3,
+            "heading": "Company",
+            "content": "About Pricing Blog Contact"
+          },
+          {
+            "level": 3,
+            "heading": "Legal",
+            "content": "Privacy Policy Terms of Service Cookie Policy"
+          }
+        ]
+      }
+    ],
+    "examples": [
+      {
+        "sentence": "あのー (ano-) - Um, well (most versatile)"
+      },
+      {
+        "sentence": "えーと (e-to) - Let me see, umm"
+      },
+      {
+        "sentence": "なんか (nanka) - Like, kind of"
+      },
+      {
+        "sentence": "まあ (maa) - Well, I guess"
+      },
+      {
+        "sentence": "そうですね (sou desu ne) - Let me think"
+      },
+      {
+        "sentence": "なるほど (naruhodo) - I see"
+      },
+      {
+        "sentence": "ちょっと (chotto) - A bit, wait"
+      },
+      {
+        "sentence": "Sound more natural and native-like"
+      },
+      {
+        "sentence": "Give yourself time to think while speaking"
+      },
+      {
+        "sentence": "Make conversation flow smoothly"
+      },
+      {
+        "sentence": "Show you're listening and engaged"
+      },
+      {
+        "sentence": "Essential for natural speech patterns"
+      },
+      {
+        "sentence": "Thinking of what to say"
+      },
+      {
+        "sentence": "Politely starting a conversation"
+      },
+      {
+        "sentence": "Getting someone's attention"
+      },
+      {
+        "sentence": "Introducing a delicate topic"
+      },
+      {
+        "sentence": "Vague expression"
+      },
+      {
+        "sentence": "Softening statements"
+      },
+      {
+        "sentence": "Searching for words"
+      },
+      {
+        "sentence": "Casual speech"
+      },
+      {
+        "sentence": "Softening statements"
+      },
+      {
+        "sentence": "\"Well, I suppose...\""
+      },
+      {
+        "sentence": "\"More or less\""
+      },
+      {
+        "sentence": "Transitioning topics"
+      },
+      {
+        "sentence": "Fillers are essential for natural speech"
+      },
+      {
+        "sentence": "Give you time to think while maintaining flow"
+      },
+      {
+        "sentence": "Show engagement and active listening"
+      },
+      {
+        "sentence": "Must match formality level of conversation"
+      },
+      {
+        "sentence": "Don't overuse - 1-3 per thought is natural"
+      },
+      {
+        "sentence": "Practice listening to native speakers' filler patterns"
+      },
+      {
+        "sentence": "About"
+      },
+      {
+        "sentence": "Pricing"
+      },
+      {
+        "sentence": "Blog"
+      },
+      {
+        "sentence": "Contact"
+      },
+      {
+        "sentence": "Privacy Policy"
+      },
+      {
+        "sentence": "Terms of Service"
+      },
+      {
+        "sentence": "Cookie Policy"
+      }
+    ],
+    "metadata": {
+      "title": "Filler Words"
+    }
+  },
+  "metadata": {
+    "extracted_at": "2026-01-01T22:19:29.412321700Z",
+    "duration_ms": 4,
+    "extractors_matched": [
+      "metadata",
+      "examples",
+      "sections"
+    ],
+    "extractors_failed": [
+      "vocab_tables",
+      "definitions",
+      "content_blocks"
+    ]
+  }
+}

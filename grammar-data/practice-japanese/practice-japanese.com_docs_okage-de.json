@@ -1,0 +1,402 @@
+{
+  "config_name": "Language Learning Extractor",
+  "url": "https://practice-japanese.com/docs/okage-de/",
+  "data": {
+    "examples": [
+      {
+        "sentence": "〜せいで - Because of (negative)"
+      },
+      {
+        "sentence": "〜ため(に) - Because of (neutral)"
+      },
+      {
+        "sentence": "おかげさまで - Thanks to you/everyone (polite)"
+      },
+      {
+        "sentence": "から/ので - Because (neutral)"
+      },
+      {
+        "sentence": "Gratitude expressions - Expressing thanks"
+      },
+      {
+        "sentence": "Positive outcomes - Acknowledging good results"
+      },
+      {
+        "sentence": "About"
+      },
+      {
+        "sentence": "Pricing"
+      },
+      {
+        "sentence": "Blog"
+      },
+      {
+        "sentence": "Contact"
+      },
+      {
+        "sentence": "Privacy Policy"
+      },
+      {
+        "sentence": "Terms of Service"
+      },
+      {
+        "sentence": "Cookie Policy"
+      }
+    ],
+    "sections": [
+      {
+        "level": 2,
+        "heading": "What is 〜おかげで?",
+        "content": "〜おかげで (or 〜おかげだ ) expresses that something good happened because of someone or something. It means \"thanks to,\" \"because of\" (positive), or \"owing to,\" showing gratitude or acknowledging a positive cause.\n\nあなたのおかげで、成功しました \"Thanks to you, I succeeded\" いい天気のおかげで、楽しめた \"Thanks to good weather, we enjoyed it\" 先生のおかげで、合格できました \"Thanks to my teacher, I was able to pass\""
+      },
+      {
+        "level": 2,
+        "heading": "Formation",
+        "content": "",
+        "children": [
+          {
+            "level": 3,
+            "heading": "With nouns: Noun + の + おかげで",
+            "content": "| Noun | + のおかげで | Meaning | | ------ | ---------------- | ----------------- | | あなた | あなたのおかげで | Thanks to you | | 先生 | 先生のおかげで | Thanks to teacher | | 天気 | 天気のおかげで | Thanks to weather | | 努力 | 努力のおかげで | Thanks to effort |"
+          },
+          {
+            "level": 3,
+            "heading": "With verbs: た-form + おかげで",
+            "content": "| Verb | た-form | + おかげで | | ------ | -------- | ---------------- | | 手伝う | 手伝った | 手伝ったおかげで | | 教える | 教えた | 教えたおかげで | | 助ける | 助けた | 助けたおかげで | | 頑張る | 頑張った | 頑張ったおかげで |"
+          },
+          {
+            "level": 3,
+            "heading": "With adjectives",
+            "content": "い-adjectives: 良かったおかげで な-adjectives: 便利だったおかげで"
+          }
+        ]
+      },
+      {
+        "level": 2,
+        "heading": "Basic Usage",
+        "content": "",
+        "children": [
+          {
+            "level": 3,
+            "heading": "Expressing gratitude to people",
+            "content": "あなたのおかげで、助かりました \"Thanks to you, I was saved\" みんなのおかげで、楽しかったです \"Thanks to everyone, it was fun\" 母のおかげで、ここまで来られた \"Thanks to my mother, I've come this far\""
+          },
+          {
+            "level": 3,
+            "heading": "Acknowledging positive circumstances",
+            "content": "いい天気のおかげで、イベントは成功した \"Thanks to good weather, the event succeeded\" この薬のおかげで、痛みがなくなった \"Thanks to this medicine, the pain is gone\" 時間があったおかげで、ゆっくりできた \"Thanks to having time, I could relax\""
+          },
+          {
+            "level": 3,
+            "heading": "Crediting effort or actions",
+            "content": "毎日練習したおかげで、上手になった \"Thanks to practicing every day, I improved\" 早く準備したおかげで、間に合った \"Thanks to preparing early, I made it in time\" 諦めなかったおかげで、成功した \"Thanks to not giving up, I succeeded\""
+          }
+        ]
+      },
+      {
+        "level": 2,
+        "heading": "Key Characteristics",
+        "content": "",
+        "children": [
+          {
+            "level": 3,
+            "heading": "Always positive outcomes",
+            "content": "✓ あなたのおかげで、成功した (positive) ✗ あなたのおかげで、失敗した (negative - doesn't work) Only use for good results! For negative → use せいで"
+          },
+          {
+            "level": 3,
+            "heading": "Shows gratitude or acknowledgment",
+            "content": "先生のおかげです \"It's thanks to my teacher\" Acknowledges someone's positive contribution"
+          }
+        ]
+      },
+      {
+        "level": 2,
+        "heading": "おかげで vs せいで",
+        "content": "",
+        "children": [
+          {
+            "level": 3,
+            "heading": "おかげで - Positive outcomes",
+            "content": "彼のおかげで、成功した \"Thanks to him, it succeeded\" (grateful)"
+          },
+          {
+            "level": 3,
+            "heading": "せいで - Negative outcomes",
+            "content": "彼のせいで、失敗した \"Because of him, it failed\" (blaming)"
+          },
+          {
+            "level": 3,
+            "heading": "Clear contrast",
+            "content": "Good: 雨が降ったおかげで、涼しくなった \"Thanks to rain, it became cool\" Bad: 雨のせいで、中止になった \"Because of rain, it was cancelled\""
+          }
+        ]
+      },
+      {
+        "level": 2,
+        "heading": "Common Conversations",
+        "content": "",
+        "children": [
+          {
+            "level": 3,
+            "heading": "Example 1: Expressing Thanks",
+            "content": "A: 試験、合格したんだって？ \"I heard you passed the exam?\" B: うん！先生のおかげだよ \"Yeah! It's thanks to my teacher\" A: よかったね \"That's great\""
+          },
+          {
+            "level": 3,
+            "heading": "Example 2: After Help",
+            "content": "A: プロジェクト、無事終わりましたね \"The project finished safely\" B: はい、みなさんのおかげです。 ありがとうございました \"Yes, it's thanks to everyone. Thank you very much\""
+          },
+          {
+            "level": 3,
+            "heading": "Example 3: Good Circumstances",
+            "content": "A: 天気良かったね \"The weather was good\" B: そうだね。おかげで写真もきれいに撮れた \"Yeah. Thanks to that, we could take nice photos\""
+          }
+        ]
+      },
+      {
+        "level": 2,
+        "heading": "Common Mistakes",
+        "content": "",
+        "children": [
+          {
+            "level": 3,
+            "heading": "Mistake 1: Using for negative outcomes",
+            "content": "Wrong: あなたのおかげで、失敗した ❌ Right: あなたのせいで、失敗した ✓ \"Because of you, it failed\" Use せいで for negative!"
+          },
+          {
+            "level": 3,
+            "heading": "Mistake 2: Wrong form with verbs",
+            "content": "Wrong: 手伝うおかげで ❌ Right: 手伝ったおかげで ✓ Or: 手伝ってくれたおかげで ✓ \"Thanks to (your) helping\" Use た-form with verbs!"
+          },
+          {
+            "level": 3,
+            "heading": "Mistake 3: Excessive humility",
+            "content": "Unnatural: 私のおかげで、成功した ⚠️ Better: みんなのおかげで、成功した ✓ \"Thanks to everyone, it succeeded\" Avoid praising yourself directly"
+          }
+        ]
+      },
+      {
+        "level": 2,
+        "heading": "Polite Form: おかげさまで",
+        "content": "",
+        "children": [
+          {
+            "level": 3,
+            "heading": "More polite/humble",
+            "content": "おかげさまで、元気です \"Thanks to you (and others), I'm well\" おかげさまで、無事に終わりました \"Thanks to you all, it finished safely\" Includes gratitude to everyone/general blessings"
+          },
+          {
+            "level": 3,
+            "heading": "Common in responses",
+            "content": "A: お元気ですか \"How are you?\" B: おかげさまで、元気です \"Thanks to you, I'm well\" Standard polite response"
+          }
+        ]
+      },
+      {
+        "level": 2,
+        "heading": "Ending with おかげだ",
+        "content": "",
+        "children": [
+          {
+            "level": 3,
+            "heading": "Attributing success",
+            "content": "これは君のおかげだ \"This is thanks to you\" 成功したのは彼女のおかげだ \"The success is thanks to her\" 全部あなたのおかげです \"It's all thanks to you\""
+          }
+        ]
+      },
+      {
+        "level": 2,
+        "heading": "With Different People",
+        "content": "",
+        "children": [
+          {
+            "level": 3,
+            "heading": "With superiors/teachers",
+            "content": "先生のおかげで、合格できました \"Thanks to you, teacher, I was able to pass\" 社長のおかげで、会社が成長しました \"Thanks to the president, the company grew\""
+          },
+          {
+            "level": 3,
+            "heading": "With family",
+            "content": "両親のおかげで、大学に行けた \"Thanks to my parents, I could go to university\" 家族のおかげで、頑張れる \"Thanks to my family, I can try hard\""
+          },
+          {
+            "level": 3,
+            "heading": "With friends",
+            "content": "友達のおかげで、楽しい毎日だ \"Thanks to my friends, every day is fun\" みんなのおかげで、助かった \"Thanks to everyone, I was saved\""
+          }
+        ]
+      },
+      {
+        "level": 2,
+        "heading": "Acknowledging Circumstances",
+        "content": "",
+        "children": [
+          {
+            "level": 3,
+            "heading": "Weather and nature",
+            "content": "いい天気のおかげで、イベントが成功した \"Thanks to good weather, the event succeeded\" 雪のおかげで、スキーができた \"Thanks to snow, we could ski\""
+          },
+          {
+            "level": 3,
+            "heading": "Things and tools",
+            "content": "この本のおかげで、理解できた \"Thanks to this book, I understood\" GPSのおかげで、迷わなかった \"Thanks to GPS, I didn't get lost\" スマホのおかげで、便利になった \"Thanks to smartphones, things became convenient\""
+          },
+          {
+            "level": 3,
+            "heading": "Abstract concepts",
+            "content": "運のおかげで、勝てた \"Thanks to luck, I could win\" 時間のおかげで、じっくり考えられた \"Thanks to time, I could think carefully\""
+          }
+        ]
+      },
+      {
+        "level": 2,
+        "heading": "Personal Effort",
+        "content": "",
+        "children": [
+          {
+            "level": 3,
+            "heading": "Crediting own effort (careful!)",
+            "content": "毎日頑張ったおかげで、成功した \"Thanks to trying hard every day, I succeeded\" 諦めなかったおかげで、夢が叶った \"Thanks to not giving up, my dream came true\" Okay to credit own actions, but be modest"
+          }
+        ]
+      },
+      {
+        "level": 2,
+        "heading": "Expressing Deep Gratitude",
+        "content": "",
+        "children": [
+          {
+            "level": 3,
+            "heading": "Formal thanks",
+            "content": "皆様のおかげで、このような賞をいただくことができました \"Thanks to all of you, I was able to receive such an award\" ご支援のおかげで、目標を達成できました \"Thanks to your support, I could achieve my goal\""
+          }
+        ]
+      },
+      {
+        "level": 2,
+        "heading": "おかげで in Speech/Writing",
+        "content": "",
+        "children": [
+          {
+            "level": 3,
+            "heading": "In speeches",
+            "content": "今日があるのは、先生方のおかげです \"That I'm here today is thanks to my teachers\" この成功は、チーム全員のおかげです \"This success is thanks to the entire team\""
+          },
+          {
+            "level": 3,
+            "heading": "In thank-you notes",
+            "content": "先日はありがとうございました。 あなたのおかげで、無事終えることができました。 \"Thank you for the other day. Thanks to you, I was able to finish safely.\""
+          }
+        ]
+      },
+      {
+        "level": 2,
+        "heading": "Ironic Usage (Sarcastic)",
+        "content": "",
+        "children": [
+          {
+            "level": 3,
+            "heading": "Negative outcomes (sarcastic)",
+            "content": "君のおかげで、大変なことになったよ（皮肉） \"Thanks to you, things became terrible\" (sarcastic) Can be used sarcastically for negative outcomes Tone makes it clear it's sarcasm"
+          }
+        ]
+      },
+      {
+        "level": 2,
+        "heading": "Common Situations",
+        "content": "",
+        "children": [
+          {
+            "level": 3,
+            "heading": "Health recovery",
+            "content": "薬のおかげで、良くなった \"Thanks to medicine, I got better\" 休んだおかげで、元気になった \"Thanks to resting, I became energetic\""
+          },
+          {
+            "level": 3,
+            "heading": "Academic success",
+            "content": "塾のおかげで、成績が上がった \"Thanks to cram school, my grades improved\" 先生のおかげで、合格できた \"Thanks to my teacher, I could pass\""
+          },
+          {
+            "level": 3,
+            "heading": "Work success",
+            "content": "チームのおかげで、プロジェクトが成功した \"Thanks to the team, the project succeeded\" 上司のアドバイスのおかげで、うまくいった \"Thanks to my boss's advice, it went well\""
+          }
+        ]
+      },
+      {
+        "level": 2,
+        "heading": "Combining with Other Expressions",
+        "content": "",
+        "children": [
+          {
+            "level": 3,
+            "heading": "おかげで + ありがとう",
+            "content": "あなたのおかげです。本当にありがとうございました \"It's thanks to you. Thank you very much\" Expressing both attribution and thanks"
+          },
+          {
+            "level": 3,
+            "heading": "おかげさまで + doing well",
+            "content": "A: 調子はどうですか \"How are you doing?\" B: おかげさまで、順調です \"Thanks to you, it's going well\""
+          }
+        ]
+      },
+      {
+        "level": 2,
+        "heading": "Practice Sentences",
+        "content": "",
+        "children": [
+          {
+            "level": 3,
+            "heading": "Basic",
+            "content": "あなたのおかげで、助かりました \"Thanks to you, I was saved\" いい天気のおかげで、楽しめた \"Thanks to good weather, we enjoyed it\" 先生のおかげで、合格しました \"Thanks to my teacher, I passed\""
+          },
+          {
+            "level": 3,
+            "heading": "Intermediate",
+            "content": "毎日運動したおかげで、健康になりました \"Thanks to exercising every day, I became healthy\" 友達が手伝ってくれたおかげで、 間に合わせることができました \"Thanks to my friend helping me, I was able to make it in time\" この本のおかげで、日本の文化がよく分かりました \"Thanks to this book, I understood Japanese culture well\""
+          },
+          {
+            "level": 3,
+            "heading": "Advanced",
+            "content": "皆様の温かいご支援のおかげで、 プロジェクトを無事に完了することができました。 心より感謝申し上げます。 \"Thanks to everyone's warm support, we were able to complete the project safely. We express our heartfelt gratitude.\" 長年の経験と努力のおかげで、 ついに目標を達成することができました。 これからも精進してまいります。 \"Thanks to years of experience and effort, I was finally able to achieve my goal. I will continue to devote myself.\" 困難な状況でしたが、チーム全員の協力のおかげで、 期日までに納品することができました。 改めて、チームワークの大切さを実感しました。 \"It was a difficult situation, but thanks to the cooperation of the entire team, we were able to deliver by the deadline. I realized anew the importance of teamwork.\""
+          }
+        ]
+      },
+      {
+        "level": 2,
+        "heading": "Related Grammar Points",
+        "content": "〜せいで - Because of (negative) 〜ため(に) - Because of (neutral) おかげさまで - Thanks to you/everyone (polite) から/ので - Because (neutral) Gratitude expressions - Expressing thanks Positive outcomes - Acknowledging good results",
+        "children": [
+          {
+            "level": 3,
+            "heading": "Company",
+            "content": "About Pricing Blog Contact"
+          },
+          {
+            "level": 3,
+            "heading": "Legal",
+            "content": "Privacy Policy Terms of Service Cookie Policy"
+          }
+        ]
+      }
+    ],
+    "metadata": {
+      "title": "〜おかげで (Thanks to)"
+    }
+  },
+  "metadata": {
+    "extracted_at": "2026-01-01T22:19:32.693711700Z",
+    "duration_ms": 5,
+    "extractors_matched": [
+      "metadata",
+      "examples",
+      "sections"
+    ],
+    "extractors_failed": [
+      "vocab_tables",
+      "definitions",
+      "content_blocks"
+    ]
+  }
+}

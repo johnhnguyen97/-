@@ -1,0 +1,292 @@
+{
+  "config_name": "Language Learning Extractor",
+  "url": "https://practice-japanese.com/docs/kachi-ga-aru/",
+  "data": {
+    "sections": [
+      {
+        "level": 2,
+        "heading": "What is 〜価値がある?",
+        "content": "〜価値がある (kachi ga aru) expresses that something has objective value or worth. It focuses on inherent value rather than personal reward from effort.\n\nEnglish equivalent: \"has value,\" \"is valuable,\" \"is worth\"\n\nStructure: [Verb dictionary form / Noun] + 価値がある\n\n読む (yomu - read) + 価値がある = 読む価値がある \"worth reading\" この絵 (kono e - this painting) + 価値がある = この絵は価値がある \"this painting is valuable\" 投資 (toushi - investment) + 価値がある = 投資価値がある \"has investment value\""
+      },
+      {
+        "level": 2,
+        "heading": "Basic Formation",
+        "content": "",
+        "children": [
+          {
+            "level": 3,
+            "heading": "With verbs (dictionary form)",
+            "content": "[Verb dictionary form] + 価値がある\n\n読む価値がある (yomu kachi ga aru) - \"worth reading\" 見る価値がある (miru kachi ga aru) - \"worth seeing\" 聞く価値がある (kiku kachi ga aru) - \"worth listening to\" 行く価値がある (iku kachi ga aru) - \"worth going\""
+          },
+          {
+            "level": 3,
+            "heading": "With nouns",
+            "content": "[Noun] + 価値がある [Noun] + に価値がある\n\nこの絵は価値がある (kono e wa kachi ga aru) - \"this painting is valuable\" 投資価値がある (toushi kachi ga aru) - \"has investment value\" 歴史的価値がある (rekishiteki kachi ga aru) - \"has historical value\""
+          }
+        ]
+      },
+      {
+        "level": 2,
+        "heading": "Objective Worth",
+        "content": "",
+        "children": [
+          {
+            "level": 3,
+            "heading": "Inherent value",
+            "content": "この本は読む価値がある。 Kono hon wa yomu kachi ga aru. \"This book is worth reading.\" この映画は見る価値がある。 Kono eiga wa miru kachi ga aru. \"This movie is worth watching.\" この場所は訪れる価値がある。 Kono basho wa otozureru kachi ga aru. \"This place is worth visiting.\""
+          }
+        ]
+      },
+      {
+        "level": 2,
+        "heading": "Financial Value",
+        "content": "",
+        "children": [
+          {
+            "level": 3,
+            "heading": "Monetary worth",
+            "content": "この絵には価値がある。 Kono e ni wa kachi ga aru. \"This painting has value.\" 投資価値がある物件。 Toushi kachi ga aru bukken. \"A property with investment value.\" 収集価値がある。 Shuushuu kachi ga aru. \"Has collectible value.\" 市場価値がある。 Shijou kachi ga aru. \"Has market value.\""
+          }
+        ]
+      },
+      {
+        "level": 2,
+        "heading": "Historical and Cultural Value",
+        "content": "",
+        "children": [
+          {
+            "level": 3,
+            "heading": "Special significance",
+            "content": "歴史的価値がある建物。 Rekishiteki kachi ga aru tatemono. \"A building with historical value.\" 文化的価値がある。 Bunkateki kachi ga aru. \"Has cultural value.\" 芸術的価値がある作品。 Geijutsuteki kachi ga aru sakuhin. \"A work with artistic value.\" 学術的価値がある。 Gakujutsuteki kachi ga aru. \"Has academic value.\""
+          }
+        ]
+      },
+      {
+        "level": 2,
+        "heading": "Worth Doing",
+        "content": "",
+        "children": [
+          {
+            "level": 3,
+            "heading": "Actions worth taking",
+            "content": "試す価値がある。 Tamesu kachi ga aru. \"Worth trying.\" 挑戦する価値がある。 Chousen suru kachi ga aru. \"Worth challenging.\" 考える価値がある。 Kangaeru kachi ga aru. \"Worth considering.\" 議論する価値がある。 Giron suru kachi ga aru. \"Worth discussing.\""
+          }
+        ]
+      },
+      {
+        "level": 2,
+        "heading": "Entertainment Value",
+        "content": "",
+        "children": [
+          {
+            "level": 3,
+            "heading": "Cultural products",
+            "content": "読む価値がある本。 Yomu kachi ga aru hon. \"A book worth reading.\" 見る価値がある映画。 Miru kachi ga aru eiga. \"A movie worth watching.\" 聞く価値がある音楽。 Kiku kachi ga aru ongaku. \"Music worth listening to.\" 行く価値がある展示会。 Iku kachi ga aru tenjikai. \"An exhibition worth going to.\""
+          }
+        ]
+      },
+      {
+        "level": 2,
+        "heading": "Negative Form",
+        "content": "",
+        "children": [
+          {
+            "level": 3,
+            "heading": "No value",
+            "content": "読む価値がない。 Yomu kachi ga nai. \"Not worth reading.\" 見る価値がない。 Miru kachi ga nai. \"Not worth watching.\" 価値がない物。 Kachi ga nai mono. \"A worthless thing.\" 投資価値がない。 Toushi kachi ga nai. \"Has no investment value.\""
+          }
+        ]
+      },
+      {
+        "level": 2,
+        "heading": "Using の for Noun Modification",
+        "content": "",
+        "children": [
+          {
+            "level": 3,
+            "heading": "Describing nouns",
+            "content": "読む価値のある本 (yomu kachi no aru hon) - \"a book worth reading\" 見る価値のある映画 (miru kachi no aru eiga) - \"a movie worth seeing\" 価値のある経験 (kachi no aru keiken) - \"a valuable experience\" 価値のない情報。 Kachi no nai jouhou. \"Worthless information.\" 投資価値のある物件。 Toushi kachi no aru bukken. \"A property worth investing in.\""
+          }
+        ]
+      },
+      {
+        "level": 2,
+        "heading": "Polite Forms",
+        "content": "Casual: 価値がある Polite: 価値があります Negative: 価値がない / 価値がありません Past: 価値があった / 価値がありました この本は読む価値があります。 Kono hon wa yomu kachi ga arimasu. \"This book is worth reading.\" 歴史的価値がありました。 Rekishiteki kachi ga arimashita. \"It had historical value.\""
+      },
+      {
+        "level": 2,
+        "heading": "Expressing High Value",
+        "content": "",
+        "children": [
+          {
+            "level": 3,
+            "heading": "Very valuable",
+            "content": "非常に価値がある。 Hijou ni kachi ga aru. \"Very valuable.\" 大変価値がある作品。 Taihen kachi ga aru sakuhin. \"An extremely valuable work.\" とても価値がある経験。 Totemo kachi ga aru keiken. \"A very valuable experience.\""
+          }
+        ]
+      },
+      {
+        "level": 2,
+        "heading": "Common Expressions",
+        "content": "読む価値がある (yomu kachi ga aru) - \"worth reading\" 見る価値がある (miru kachi ga aru) - \"worth watching\" 行く価値がある (iku kachi ga aru) - \"worth going\" 試す価値がある (tamesu kachi ga aru) - \"worth trying\" 投資価値がある (toushi kachi ga aru) - \"has investment value\" 歴史的価値がある (rekishiteki kachi ga aru) - \"has historical value\" 収集価値がある (shuushuu kachi ga aru) - \"has collectible value\" 学術的価値がある (gakujutsuteki kachi ga aru) - \"has academic value\""
+      },
+      {
+        "level": 2,
+        "heading": "Practical Value",
+        "content": "",
+        "children": [
+          {
+            "level": 3,
+            "heading": "Usefulness",
+            "content": "実用的価値がある。 Jitsuyouteki kachi ga aru. \"Has practical value.\" 教育的価値がある。 Kyouikuteki kachi ga aru. \"Has educational value.\" 参考価値がある。 Sankou kachi ga aru. \"Has reference value.\""
+          }
+        ]
+      },
+      {
+        "level": 2,
+        "heading": "Comparing 価値がある and 甲斐がある",
+        "content": "",
+        "children": [
+          {
+            "level": 3,
+            "heading": "Objective value vs personal reward",
+            "content": "価値がある - Objective value:\n\nこの絵は価値がある (kono e wa kachi ga aru) \"this painting is valuable\" (objective worth) 読む価値がある (yomu kachi ga aru) \"worth reading\" (general worthiness)\n\n甲斐がある - Personal reward:\n\n頑張った甲斐がある (ganbatta kai ga aru) \"was worth trying hard\" (personal satisfaction) やり甲斐がある (yari gai ga aru) \"rewarding\" (personal fulfillment)\n\n| Pattern | Focus | Example | | ---------- | --------------- | ------------------ | | 価値がある | Objective value | 読む価値がある | | 甲斐がある | Personal reward | 頑張った甲斐がある |\n\nSee: 〜甲斐がある (Worth doing)"
+          }
+        ]
+      },
+      {
+        "level": 2,
+        "heading": "Value Assessment",
+        "content": "",
+        "children": [
+          {
+            "level": 3,
+            "heading": "Determining worth",
+            "content": "価値があるかどうか分からない。 Kachi ga aru ka dou ka wakaranai. \"I don't know whether it has value.\" 本当に価値があるのか？ Hontou ni kachi ga aru no ka? \"Does it really have value?\" 価値があると思う。 Kachi ga aru to omou. \"I think it has value.\""
+          }
+        ]
+      },
+      {
+        "level": 2,
+        "heading": "Recommendations",
+        "content": "",
+        "children": [
+          {
+            "level": 3,
+            "heading": "Suggesting value",
+            "content": "この本は読む価値があります。 Kono hon wa yomu kachi ga arimasu. \"This book is worth reading.\" 絶対に見る価値がある。 Zettai ni miru kachi ga aru. \"Definitely worth watching.\" 一度は行く価値がある。 Ichido wa iku kachi ga aru. \"Worth going at least once.\""
+          }
+        ]
+      },
+      {
+        "level": 2,
+        "heading": "Common Mistakes",
+        "content": "",
+        "children": [
+          {
+            "level": 3,
+            "heading": "Mistake 1: Using た-form with 価値",
+            "content": "❌ 読んだ価値がある ✓ 読む価値がある\n\nUse dictionary form, not た-form."
+          },
+          {
+            "level": 3,
+            "heading": "Mistake 2: Confusing 価値 and 甲斐",
+            "content": "価値 = objective value 甲斐 = personal reward from effort 読む価値がある ✓ (objective) 読んだ甲斐がある ✓ (personal reward)"
+          },
+          {
+            "level": 3,
+            "heading": "Mistake 3: Wrong particle",
+            "content": "❌ 価値をある ✓ 価値がある\n\nUse が, not を."
+          },
+          {
+            "level": 3,
+            "heading": "Mistake 4: Using に unnecessarily",
+            "content": "✓ この絵は価値がある ✓ この絵には価値がある (with emphasis) ❌ この絵を価値がある"
+          }
+        ]
+      },
+      {
+        "level": 2,
+        "heading": "Summary",
+        "content": "Key Points:\n\n価値がある expresses objective value or worth Formation: [Verb dictionary form / Noun] + 価値がある Emphasizes inherent value Common with: 読む, 見る, 行く, 試す Types: 投資価値, 歴史的価値, 文化的価値 Uses の for noun modification Different from 甲斐がある (personal reward) Essential for expressing objective worthiness",
+        "children": [
+          {
+            "level": 3,
+            "heading": "Company",
+            "content": "About Pricing Blog Contact"
+          },
+          {
+            "level": 3,
+            "heading": "Legal",
+            "content": "Privacy Policy Terms of Service Cookie Policy"
+          }
+        ]
+      }
+    ],
+    "examples": [
+      {
+        "sentence": "価値がある expresses objective value or worth"
+      },
+      {
+        "sentence": "Formation: [Verb dictionary form / Noun] + 価値がある"
+      },
+      {
+        "sentence": "Emphasizes inherent value"
+      },
+      {
+        "sentence": "Common with: 読む, 見る, 行く, 試す"
+      },
+      {
+        "sentence": "Types: 投資価値, 歴史的価値, 文化的価値"
+      },
+      {
+        "sentence": "Uses の for noun modification"
+      },
+      {
+        "sentence": "Different from 甲斐がある (personal reward)"
+      },
+      {
+        "sentence": "Essential for expressing objective worthiness"
+      },
+      {
+        "sentence": "About"
+      },
+      {
+        "sentence": "Pricing"
+      },
+      {
+        "sentence": "Blog"
+      },
+      {
+        "sentence": "Contact"
+      },
+      {
+        "sentence": "Privacy Policy"
+      },
+      {
+        "sentence": "Terms of Service"
+      },
+      {
+        "sentence": "Cookie Policy"
+      }
+    ],
+    "metadata": {
+      "title": "〜価値がある (Have value)"
+    }
+  },
+  "metadata": {
+    "extracted_at": "2026-01-01T22:19:30.482608600Z",
+    "duration_ms": 5,
+    "extractors_matched": [
+      "metadata",
+      "examples",
+      "sections"
+    ],
+    "extractors_failed": [
+      "vocab_tables",
+      "definitions",
+      "content_blocks"
+    ]
+  }
+}

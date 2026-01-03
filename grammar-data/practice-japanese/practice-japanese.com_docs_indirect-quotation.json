@@ -1,0 +1,284 @@
+{
+  "config_name": "Language Learning Extractor",
+  "url": "https://practice-japanese.com/docs/indirect-quotation/",
+  "data": {
+    "examples": [
+      {
+        "sentence": "Indirect quotations use plain forms before と"
+      },
+      {
+        "sentence": "Basic pattern: [Plain form] + と + [Verb]"
+      },
+      {
+        "sentence": "かどうか for yes/no questions (\"whether or not\")"
+      },
+      {
+        "sentence": "Question word + か for information questions"
+      },
+      {
+        "sentence": "ように言う for indirect commands"
+      },
+      {
+        "sentence": "Simpler than English (fewer tense changes)"
+      },
+      {
+        "sentence": "Pronouns often adjusted or replaced with names"
+      },
+      {
+        "sentence": "About"
+      },
+      {
+        "sentence": "Pricing"
+      },
+      {
+        "sentence": "Blog"
+      },
+      {
+        "sentence": "Contact"
+      },
+      {
+        "sentence": "Privacy Policy"
+      },
+      {
+        "sentence": "Terms of Service"
+      },
+      {
+        "sentence": "Cookie Policy"
+      }
+    ],
+    "metadata": {
+      "title": "Indirect Quotation"
+    },
+    "sections": [
+      {
+        "level": 2,
+        "heading": "What is Indirect Quotation?",
+        "content": "Indirect quotation (間接話法 kansetsu wahou) reports what someone said, thought, or asked without quoting their exact words. In English, this involves changing pronouns, tenses, and structure. In Japanese, it's simpler but still requires specific patterns.\n\nDirect vs Indirect:\n\nDirect: 彼は「行きます」と言った。 \"He said, 'I will go.'\" Indirect: 彼は行くと言った。 \"He said (that) he would go.\""
+      },
+      {
+        "level": 2,
+        "heading": "Basic Structure",
+        "content": "",
+        "children": [
+          {
+            "level": 3,
+            "heading": "Plain Form + と言う",
+            "content": "Indirect quotations use plain forms (dictionary form, ない, た, etc.) before と.\n\nStructure:\n\n[Plain form statement] + と + [Reporting verb]"
+          },
+          {
+            "level": 3,
+            "heading": "Statements",
+            "content": "彼は忙しいと言った。 Kare wa isogashii to itta. \"He said (that) he is busy.\" 彼女は来ないと言っている。 Kanojo wa konai to itte iru. \"She is saying (that) she won't come.\" 先生は難しいと言いました。 Sensei wa muzukashii to iimashita. \"The teacher said (that) it's difficult.\"\n\nCompare with direct:\n\nDirect: 先生は「難しいです」と言いました。 Indirect: 先生は難しいと言いました。\n\nThe polite です becomes plain だ/だった or is dropped in indirect speech."
+          }
+        ]
+      },
+      {
+        "level": 2,
+        "heading": "Tense Changes",
+        "content": "",
+        "children": [
+          {
+            "level": 3,
+            "heading": "Present → Present/Past",
+            "content": "The tense in the indirect quote can reflect either the original tense or the current state:\n\nOriginal: 「明日行きます」 \"I will go tomorrow\" Option 1 (original tense): 彼は明日行くと言った。 \"He said he would go tomorrow.\" Option 2 (current perspective): 彼は明日行くと言っていた。 \"He said he would go tomorrow.\" (at that time)"
+          },
+          {
+            "level": 3,
+            "heading": "Past → Past",
+            "content": "Original: 「昨日行きました」 \"I went yesterday\" Indirect: 彼は昨日行ったと言った。 \"He said (that) he went yesterday.\""
+          }
+        ]
+      },
+      {
+        "level": 2,
+        "heading": "Reporting Verbs",
+        "content": "",
+        "children": [
+          {
+            "level": 3,
+            "heading": "言う (iu) - To say",
+            "content": "Most common reporting verb:\n\n彼は日本語が好きだと言った。 Kare wa nihongo ga suki da to itta. \"He said he likes Japanese.\" 母は早く帰ると言っている。 Haha wa hayaku kaeru to itte iru. \"My mother says she'll come home early.\""
+          },
+          {
+            "level": 3,
+            "heading": "思う (omou) - To think",
+            "content": "For reporting thoughts and opinions:\n\n私は明日雨が降ると思う。 Watashi wa ashita ame ga furu to omou. \"I think (that) it will rain tomorrow.\" 彼女はそれが正しいと思っている。 Kanojo wa sore ga tadashii to omotte iru. \"She thinks (that) it's correct.\""
+          },
+          {
+            "level": 3,
+            "heading": "聞く (kiku) - To hear",
+            "content": "For hearsay and things you've heard:\n\n彼が引っ越すと聞いた。 Kare ga hikkosu to kiita. \"I heard (that) he's moving.\" 来週休みだと聞きました。 Raishuu yasumi da to kikimashita. \"I heard (that) next week is a holiday.\""
+          },
+          {
+            "level": 3,
+            "heading": "伝える (tsutaeru) - To convey/tell",
+            "content": "彼に会議は3時だと伝えてください。 Kare ni kaigi wa sanji da to tsutaete kudasai. \"Please tell him (that) the meeting is at 3 o'clock.\""
+          },
+          {
+            "level": 3,
+            "heading": "答える (kotaeru) - To answer",
+            "content": "彼は知らないと答えた。 Kare wa shiranai to kotaeta. \"He answered (that) he doesn't know.\""
+          }
+        ]
+      },
+      {
+        "level": 2,
+        "heading": "Reporting Questions",
+        "content": "",
+        "children": [
+          {
+            "level": 3,
+            "heading": "Yes/No Questions: かどうか",
+            "content": "Use かどうか (ka dou ka) meaning \"whether or not\" for yes/no questions:\n\nStructure:\n\n[Plain form] + かどうか + [Verb]\n\nExamples:\n\n彼女は来るかどうか分からない。 Kanojo wa kuru ka dou ka wakaranai. \"I don't know whether she will come (or not).\" 雨が降るかどうか聞いた。 Ame ga furu ka dou ka kiita. \"I asked whether it would rain (or not).\" これが正しいかどうか確認してください。 Kore ga tadashii ka dou ka kakunin shite kudasai. \"Please confirm whether this is correct (or not).\"\n\nNegative form:\n\n彼が来ないかどうか聞いた。 Kare ga konai ka dou ka kiita. \"I asked whether he won't come.\""
+          },
+          {
+            "level": 3,
+            "heading": "Information Questions: か聞く",
+            "content": "For wh-questions (who, what, where, when, why, how), use question word + plain form + か + 聞く :\n\nStructure:\n\n[Question word] + [Plain form] + か + [Verb]\n\nExamples:\n\n彼に何時に来るか聞いた。 Kare ni nanji ni kuru ka kiita. \"I asked him what time he would come.\" どこに行くか教えてください。 Doko ni iku ka oshiete kudasai. \"Please tell me where you're going.\" 誰が来るか知っていますか。 Dare ga kuru ka shitte imasu ka. \"Do you know who will come?\" どうやって行くか分からない。 Douyatte iku ka wakaranai. \"I don't know how to get there.\" なぜ休んだか聞きました。 Naze yasunda ka kikimashita. \"I asked why he was absent.\"\n\nWith かどうか (more uncertain):\n\n何時に来るかどうか聞いた。 Nanji ni kuru ka dou ka kiita. \"I asked around what time he would come / whether he knows what time.\""
+          },
+          {
+            "level": 3,
+            "heading": "Difference: か vs かどうか",
+            "content": "か - Embedded information question\n\nいつ帰るか教えて。 Itsu kaeru ka oshiete. \"Tell me when you'll come home.\"\n\nかどうか - Whether or not (yes/no)\n\n帰るかどうか教えて。 Kaeru ka dou ka oshiete. \"Tell me whether you'll come home (or not).\""
+          }
+        ]
+      },
+      {
+        "level": 2,
+        "heading": "Reporting Commands and Requests",
+        "content": "",
+        "children": [
+          {
+            "level": 3,
+            "heading": "ように言う - Indirect commands",
+            "content": "Use verb plain form + ように言う for indirect commands:\n\nStructure:\n\n[Dictionary form/ない form] + ように言う\n\nExamples:\n\n母は早く寝るように言った。 Haha wa hayaku neru you ni itta. \"My mother told me to go to bed early.\" 先生は勉強するように言いました。 Sensei wa benkyou suru you ni iimashita. \"The teacher told us to study.\" 父は遅刻しないように言った。 Chichi wa chikoku shinai you ni itta. \"My father told me not to be late.\" 彼に連絡するように伝えてください。 Kare ni renraku suru you ni tsutaete kudasai. \"Please tell him to contact us.\""
+          },
+          {
+            "level": 3,
+            "heading": "Negative commands",
+            "content": "Use ない form + ように言う:\n\nタバコを吸わないように言った。 Tabako wo suwanai you ni itta. \"I told him not to smoke.\" 無理をしないように言われた。 Muri wo shinai you ni iwareta. \"I was told not to overdo it.\""
+          }
+        ]
+      },
+      {
+        "level": 2,
+        "heading": "Reporting Invitations and Suggestions",
+        "content": "",
+        "children": [
+          {
+            "level": 3,
+            "heading": "ように誘う (sasou) - Invite",
+            "content": "彼は一緒に行こうと誘った。 Kare wa issho ni ikou to sasotta. \"He invited me to go together.\" 映画を見ようと誘われた。 Eiga wo miyou to sasowareta. \"I was invited to watch a movie.\""
+          },
+          {
+            "level": 3,
+            "heading": "ように勧める (susumeru) - Recommend",
+            "content": "友達はこの本を読むように勧めた。 Tomodachi wa kono hon wo yomu you ni susumeta. \"My friend recommended that I read this book.\""
+          }
+        ]
+      },
+      {
+        "level": 2,
+        "heading": "Complex Patterns",
+        "content": "",
+        "children": [
+          {
+            "level": 3,
+            "heading": "Multiple Clauses",
+            "content": "彼は明日来ると言ったが、来なかった。 Kare wa ashita kuru to itta ga, konakatta. \"He said he would come tomorrow, but he didn't come.\" 先生は難しいと言ったので、もっと勉強した。 Sensei wa muzukashii to itta node, motto benkyou shita. \"The teacher said it was difficult, so I studied more.\""
+          },
+          {
+            "level": 3,
+            "heading": "Reported Thoughts with のではないか",
+            "content": "彼は病気なのではないかと思う。 Kare wa byouki na no de wa nai ka to omou. \"I think (that) he might be sick.\" これは間違っているのではないかと思った。 Kore wa machigatte iru no de wa nai ka to omotta. \"I thought (that) this might be wrong.\""
+          }
+        ]
+      },
+      {
+        "level": 2,
+        "heading": "Pronoun and Perspective Changes",
+        "content": "Unlike English, Japanese indirect speech often keeps original pronouns or uses names:\n\nOriginal: 「私は忙しいです」 \"I am busy\" Indirect (keeping 私): 彼は私は忙しいと言った。 [Less common, sounds odd] Indirect (using name or referring to speaker): 田中さんは忙しいと言った。 \"Tanaka said he was busy.\" Indirect (natural way): 彼は忙しいと言った。 \"He said he was busy.\""
+      },
+      {
+        "level": 2,
+        "heading": "Formal vs Casual Indirect Speech",
+        "content": "",
+        "children": [
+          {
+            "level": 3,
+            "heading": "Formal Writing",
+            "content": "社長は売上が増加したと述べた。 Shachou wa uriage ga zouka shita to nobeta. \"The president stated that sales increased.\" 報告書には問題があると書かれている。 Houkokusho ni wa mondai ga aru to kakarete iru. \"The report states that there are problems.\""
+          },
+          {
+            "level": 3,
+            "heading": "Casual Conversation",
+            "content": "In very casual speech, と can become って:\n\n彼、忙しいって。 Kare, isogashii tte. \"He says he's busy.\" See: [って Casual Quotation](/docs/tte-quotation)"
+          }
+        ]
+      },
+      {
+        "level": 2,
+        "heading": "Common Verbs with Indirect Speech",
+        "content": "| Verb | Meaning | Example | | -------- | --------------- | ---------------- | | 言う | say | 忙しいと言った | | 思う | think | 難しいと思う | | 聞く | hear | 明日だと聞いた | | 分かる | know/understand | いつか分からない | | 知る | know | 誰か知っている | | 伝える | convey | 会議だと伝える | | 教える | tell/teach | どこか教えて | | 確認する | confirm | 正しいか確認する | | 答える | answer | 知らないと答えた | | 尋ねる | ask | 来るか尋ねた |"
+      },
+      {
+        "level": 2,
+        "heading": "Common Mistakes",
+        "content": "",
+        "children": [
+          {
+            "level": 3,
+            "heading": "Mistake 1: Using Polite Form Before と",
+            "content": "❌ 彼は忙しいですと言った ✓ 彼は忙しいと言った\n\nUse plain forms in indirect quotations."
+          },
+          {
+            "level": 3,
+            "heading": "Mistake 2: Missing かどうか",
+            "content": "❌ 彼が来るか聞いた (sounds like \"when\" not \"whether\") ✓ 彼が来るかどうか聞いた\n\nUse かどうか for yes/no questions."
+          },
+          {
+            "level": 3,
+            "heading": "Mistake 3: Wrong Pattern for Commands",
+            "content": "❌ 早く寝ると言った (This means \"said will sleep early\") ✓ 早く寝るように言った (\"told to sleep early\")\n\nUse ように for indirect commands."
+          },
+          {
+            "level": 3,
+            "heading": "Mistake 4: Forgetting か After Question Words",
+            "content": "❌ 何時に来る聞いた ✓ 何時に来るか聞いた\n\nKeep か after question words in indirect questions."
+          }
+        ]
+      },
+      {
+        "level": 2,
+        "heading": "Summary",
+        "content": "Key Points:\n\nIndirect quotations use plain forms before と Basic pattern: [Plain form] + と + [Verb] かどうか for yes/no questions (\"whether or not\") Question word + か for information questions ように言う for indirect commands Simpler than English (fewer tense changes) Pronouns often adjusted or replaced with names",
+        "children": [
+          {
+            "level": 3,
+            "heading": "Company",
+            "content": "About Pricing Blog Contact"
+          },
+          {
+            "level": 3,
+            "heading": "Legal",
+            "content": "Privacy Policy Terms of Service Cookie Policy"
+          }
+        ]
+      }
+    ]
+  },
+  "metadata": {
+    "extracted_at": "2026-01-01T22:19:30.223529800Z",
+    "duration_ms": 4,
+    "extractors_matched": [
+      "metadata",
+      "examples",
+      "sections"
+    ],
+    "extractors_failed": [
+      "vocab_tables",
+      "definitions",
+      "content_blocks"
+    ]
+  }
+}

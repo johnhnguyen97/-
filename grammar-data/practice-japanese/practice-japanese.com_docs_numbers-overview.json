@@ -1,0 +1,379 @@
+{
+  "config_name": "Language Learning Extractor",
+  "url": "https://practice-japanese.com/docs/numbers-overview/",
+  "data": {
+    "examples": [
+      {
+        "sentence": "Native Japanese (和語 wago) - Used 1-10, especially with general counters"
+      },
+      {
+        "sentence": "Sino-Japanese (漢語 kango) - Chinese-origin numbers, used for most counting"
+      },
+      {
+        "sentence": "し sounds like 死 (death), so よん is often preferred"
+      },
+      {
+        "sentence": "Use よん in phone numbers, addresses"
+      },
+      {
+        "sentence": "なな is clearer and avoids confusion with し (4)"
+      },
+      {
+        "sentence": "なな is more common in modern Japanese"
+      },
+      {
+        "sentence": "きゅう is standard"
+      },
+      {
+        "sentence": "く sounds like 苦 (suffering), less common"
+      },
+      {
+        "sentence": "300: ひゃく → びゃく"
+      },
+      {
+        "sentence": "600: ひゃく → ぴゃく"
+      },
+      {
+        "sentence": "800: ひゃく → ぴゃく"
+      },
+      {
+        "sentence": "3,000: せん → ぜん"
+      },
+      {
+        "sentence": "8,000: せん → せん (no change, but pronunciation is longer)"
+      },
+      {
+        "sentence": "Counting with specific counters (people, animals, objects)"
+      },
+      {
+        "sentence": "Money"
+      },
+      {
+        "sentence": "Time (hours, minutes)"
+      },
+      {
+        "sentence": "Dates"
+      },
+      {
+        "sentence": "Phone numbers"
+      },
+      {
+        "sentence": "Addresses"
+      },
+      {
+        "sentence": "Mathematical operations"
+      },
+      {
+        "sentence": "Age (with 歳)"
+      },
+      {
+        "sentence": "General counting (with つ counter)"
+      },
+      {
+        "sentence": "Ages 1-10 (informally)"
+      },
+      {
+        "sentence": "Traditional contexts"
+      },
+      {
+        "sentence": "Set phrases"
+      },
+      {
+        "sentence": "Native vs Sino Numbers - Detailed comparison"
+      },
+      {
+        "sentence": "Counter System Basics - How counters work"
+      },
+      {
+        "sentence": "General Counter (つ) - Native number counting"
+      },
+      {
+        "sentence": "いくつ (ikutsu) - How many/old"
+      },
+      {
+        "sentence": "いくら (ikura) - How much (price)"
+      },
+      {
+        "sentence": "Time expressions - Telling time"
+      },
+      {
+        "sentence": "Date expressions - Calendar dates"
+      },
+      {
+        "sentence": "Age expressions - Talking about age"
+      },
+      {
+        "sentence": "About"
+      },
+      {
+        "sentence": "Pricing"
+      },
+      {
+        "sentence": "Blog"
+      },
+      {
+        "sentence": "Contact"
+      },
+      {
+        "sentence": "Privacy Policy"
+      },
+      {
+        "sentence": "Terms of Service"
+      },
+      {
+        "sentence": "Cookie Policy"
+      }
+    ],
+    "sections": [
+      {
+        "level": 2,
+        "heading": "Introduction to Japanese Numbers",
+        "content": "Japanese has two number systems that are used in different contexts:\n\nNative Japanese (和語 wago) - Used 1-10, especially with general counters Sino-Japanese (漢語 kango) - Chinese-origin numbers, used for most counting\n\nNative: ひとつ、ふたつ、みっつ... \"One, two, three...\" Sino: いち、に、さん... \"One, two, three...\""
+      },
+      {
+        "level": 2,
+        "heading": "Sino-Japanese Numbers (1-10)",
+        "content": "The most commonly used system:\n\n| Number | Kanji | Hiragana | Romaji | | ------ | ----- | --------- | ----------- | | 1 | 一 | いち | ichi | | 2 | 二 | に | ni | | 3 | 三 | さん | san | | 4 | 四 | し/よん | shi/yon | | 5 | 五 | ご | go | | 6 | 六 | ろく | roku | | 7 | 七 | しち/なな | shichi/nana | | 8 | 八 | はち | hachi | | 9 | 九 | きゅう/く | kyuu/ku | | 10 | 十 | じゅう | juu |",
+        "children": [
+          {
+            "level": 3,
+            "heading": "Special Notes",
+            "content": "4 (し vs よん):\n\nし sounds like 死 (death), so よん is often preferred Use よん in phone numbers, addresses\n\n7 (しち vs なな):\n\nなな is clearer and avoids confusion with し (4) なな is more common in modern Japanese\n\n9 (きゅう vs く):\n\nきゅう is standard く sounds like 苦 (suffering), less common"
+          }
+        ]
+      },
+      {
+        "level": 2,
+        "heading": "Sino-Japanese Numbers (11-99)",
+        "content": "",
+        "children": [
+          {
+            "level": 3,
+            "heading": "11-19",
+            "content": "Simply add the ones digit after じゅう (10):\n\n11 = 十一 (じゅういち) - 10 + 1 12 = 十二 (じゅうに) - 10 + 2 13 = 十三 (じゅうさん) - 10 + 3 14 = 十四 (じゅうよん/じゅうし) - 10 + 4 15 = 十五 (じゅうご) - 10 + 5 16 = 十六 (じゅうろく) - 10 + 6 17 = 十七 (じゅうなな/じゅうしち) - 10 + 7 18 = 十八 (じゅうはち) - 10 + 8 19 = 十九 (じゅうきゅう) - 10 + 9"
+          },
+          {
+            "level": 3,
+            "heading": "20-99",
+            "content": "Pattern: [tens digit] + じゅう + [ones digit]\n\n20 = 二十 (にじゅう) - 2 × 10 21 = 二十一 (にじゅういち) - 2 × 10 + 1 30 = 三十 (さんじゅう) - 3 × 10 45 = 四十五 (よんじゅうご) - 4 × 10 + 5 99 = 九十九 (きゅうじゅうきゅう) - 9 × 10 + 9"
+          }
+        ]
+      },
+      {
+        "level": 2,
+        "heading": "Large Numbers",
+        "content": "",
+        "children": [
+          {
+            "level": 3,
+            "heading": "Hundreds (百)",
+            "content": "| Number | Reading | | ------ | -------------------- | | 100 | 百 (ひゃく) | | 200 | 二百 (にひゃく) | | 300 | 三百 (さんびゃく) ⚠️ | | 400 | 四百 (よんひゃく) | | 500 | 五百 (ごひゃく) | | 600 | 六百 (ろっぴゃく) ⚠️ | | 700 | 七百 (ななひゃく) | | 800 | 八百 (はっぴゃく) ⚠️ | | 900 | 九百 (きゅうひゃく) |\n\nSound Changes:\n\n300: ひゃく → びゃく 600: ひゃく → ぴゃく 800: ひゃく → ぴゃく"
+          },
+          {
+            "level": 3,
+            "heading": "Thousands (千)",
+            "content": "| Number | Reading | | ------ | ------------------ | | 1,000 | 千 (せん) | | 2,000 | 二千 (にせん) | | 3,000 | 三千 (さんぜん) ⚠️ | | 4,000 | 四千 (よんせん) | | 5,000 | 五千 (ごせん) | | 6,000 | 六千 (ろくせん) | | 7,000 | 七千 (ななせん) | | 8,000 | 八千 (はっせん) ⚠️ | | 9,000 | 九千 (きゅうせん) |\n\nSound Changes:\n\n3,000: せん → ぜん 8,000: せん → せん (no change, but pronunciation is longer)"
+          },
+          {
+            "level": 3,
+            "heading": "Ten Thousands (万)",
+            "content": "Japanese counts in units of 10,000 (万 man):\n\n10,000 = 一万 (いちまん) 20,000 = 二万 (にまん) 100,000 = 十万 (じゅうまん) 1,000,000 = 百万 (ひゃくまん) 10,000,000 = 千万 (せんまん)"
+          },
+          {
+            "level": 3,
+            "heading": "Hundred Millions (億)",
+            "content": "100,000,000 = 一億 (いちおく) 1,000,000,000 = 十億 (じゅうおく)"
+          },
+          {
+            "level": 3,
+            "heading": "Trillions (兆)",
+            "content": "1,000,000,000,000 = 一兆 (いっちょう)"
+          }
+        ]
+      },
+      {
+        "level": 2,
+        "heading": "Native Japanese Numbers (1-10)",
+        "content": "Used with the general counter つ and in traditional contexts:\n\n| Number | Hiragana | Romaji | With つ | | ------ | -------- | ------ | -------- | | 1 | ひと | hito | ひとつ | | 2 | ふた | futa | ふたつ | | 3 | み | mi | みっつ | | 4 | よ/よっ | yo/yot | よっつ | | 5 | いつ | itsu | いつつ | | 6 | む | mu | むっつ | | 7 | なな | nana | ななつ | | 8 | や | ya | やっつ | | 9 | ここの | kokono | ここのつ | | 10 | とお | too | とお |\n\nNote: Native numbers are rarely used above 10."
+      },
+      {
+        "level": 2,
+        "heading": "Number Usage Contexts",
+        "content": "",
+        "children": [
+          {
+            "level": 3,
+            "heading": "Sino-Japanese Numbers Used For:",
+            "content": "Counting with specific counters (people, animals, objects) Money Time (hours, minutes) Dates Phone numbers Addresses Mathematical operations Age (with 歳)\n\n3人 (さんにん) - 3 people 500円 (ごひゃくえん) - 500 yen 3時 (さんじ) - 3 o'clock"
+          },
+          {
+            "level": 3,
+            "heading": "Native Numbers Used For:",
+            "content": "General counting (with つ counter) Ages 1-10 (informally) Traditional contexts Set phrases\n\n3つ (みっつ) - 3 (things) 20歳 (はたち) - 20 years old (special word)"
+          }
+        ]
+      },
+      {
+        "level": 2,
+        "heading": "Complex Numbers",
+        "content": "",
+        "children": [
+          {
+            "level": 3,
+            "heading": "Combining Units",
+            "content": "Read from largest to smallest:\n\n2,345 = 二千三百四十五 (にせんさんびゃくよんじゅうご) 2,000 + 300 + 40 + 5 15,678 = 一万五千六百七十八 (いちまんごせんろっぴゃくななじゅうはち) 10,000 + 5,000 + 600 + 70 + 8"
+          },
+          {
+            "level": 3,
+            "heading": "Western vs Japanese Grouping",
+            "content": "Western: Groups of three (thousand, million, billion)\n\n1,000,000 = one million\n\nJapanese: Groups based on 万 (10,000) and 億 (100,000,000)\n\n1,000,000 = 百万 (ひゃくまん) \"100 × 10,000\""
+          }
+        ]
+      },
+      {
+        "level": 2,
+        "heading": "Common Expressions",
+        "content": "",
+        "children": [
+          {
+            "level": 3,
+            "heading": "Asking About Numbers",
+            "content": "いくつですか？ \"How many?\" (general) 何個ですか？ \"How many pieces?\" 何人ですか？ \"How many people?\" いくらですか？ \"How much?\" (price)"
+          },
+          {
+            "level": 3,
+            "heading": "Expressing Quantities",
+            "content": "たくさん \"Many/a lot\" 少し \"A little/few\" 全部で \"In total\" 〜くらい/〜ぐらい \"About/approximately\""
+          }
+        ]
+      },
+      {
+        "level": 2,
+        "heading": "Zero and Fractions",
+        "content": "",
+        "children": [
+          {
+            "level": 3,
+            "heading": "Zero",
+            "content": "零 (れい) - formal ゼロ - common, from English まる - used in phone numbers 電話番号: 090-1234-5678 (ゼロきゅうゼロ の いちにさんよん の ごろくななはち)"
+          },
+          {
+            "level": 3,
+            "heading": "Fractions",
+            "content": "半分 (はんぶん) - half 3分の1 (さんぶんのいち) - one third 4分の3 (よんぶんのさん) - three fourths"
+          },
+          {
+            "level": 3,
+            "heading": "Decimals",
+            "content": "0.5 = ゼロ点五 (ぜろてんご) 3.14 = 三点一四 (さんてんいちよん)"
+          }
+        ]
+      },
+      {
+        "level": 2,
+        "heading": "Ordinal Numbers",
+        "content": "Add 番目 (ばんめ) to Sino-Japanese numbers:\n\n1番目 (いちばんめ) - first 2番目 (にばんめ) - second 3番目 (さんばんめ) - third\n\nOr use specific ordinal words:\n\n第一 (だいいち) - first (formal) 第二 (だいに) - second (formal)"
+      },
+      {
+        "level": 2,
+        "heading": "Practice Examples",
+        "content": "",
+        "children": [
+          {
+            "level": 3,
+            "heading": "Basic Counting",
+            "content": "1 = いち 10 = じゅう 100 = ひゃく 1,000 = せん 10,000 = まん/いちまん"
+          },
+          {
+            "level": 3,
+            "heading": "Real Numbers",
+            "content": "25 = にじゅうご 138 = ひゃくさんじゅうはち 2,500 = にせんごひゃく 47,000 = よんまんななせん"
+          },
+          {
+            "level": 3,
+            "heading": "With Context",
+            "content": "25歳 = にじゅうごさい (25 years old) 138円 = ひゃくさんじゅうはちえん (138 yen) 2,500人 = にせんごひゃくにん (2,500 people)"
+          }
+        ]
+      },
+      {
+        "level": 2,
+        "heading": "Common Mistakes",
+        "content": "",
+        "children": [
+          {
+            "level": 3,
+            "heading": "Mistake 1: Wrong sound changes",
+            "content": "Wrong: さんひゃく (300) ❌ Right: さんびゃく ✓ Wrong: ろくひゃく (600) ❌ Right: ろっぴゃく ✓"
+          },
+          {
+            "level": 3,
+            "heading": "Mistake 2: Using native numbers with counters",
+            "content": "Wrong: ふたつ人 ❌ Right: ふたり or 二人 (ふたり) ✓ \"Two people\""
+          },
+          {
+            "level": 3,
+            "heading": "Mistake 3: Reading 4 and 7 incorrectly",
+            "content": "In phone numbers, use: よん (4), なな (7) Not: し (4), しち (7)"
+          }
+        ]
+      },
+      {
+        "level": 2,
+        "heading": "Reading Numbers Aloud",
+        "content": "",
+        "children": [
+          {
+            "level": 3,
+            "heading": "Phone Numbers",
+            "content": "Read digit by digit, よん for 4, なな for 7:\n\n090-1234-5678 ゼロきゅうゼロ の いちにさんよん の ごろくななはち"
+          },
+          {
+            "level": 3,
+            "heading": "Years",
+            "content": "2025年 = にせんにじゅうごねん 1990年 = せんきゅうひゃくきゅうじゅうねん"
+          },
+          {
+            "level": 3,
+            "heading": "Prices",
+            "content": "1,500円 = せんごひゃくえん 10,000円 = いちまんえん (or just まんえん)"
+          }
+        ]
+      },
+      {
+        "level": 2,
+        "heading": "Related Grammar Points",
+        "content": "Native vs Sino Numbers - Detailed comparison Counter System Basics - How counters work General Counter (つ) - Native number counting いくつ (ikutsu) - How many/old いくら (ikura) - How much (price) Time expressions - Telling time Date expressions - Calendar dates Age expressions - Talking about age",
+        "children": [
+          {
+            "level": 3,
+            "heading": "Company",
+            "content": "About Pricing Blog Contact"
+          },
+          {
+            "level": 3,
+            "heading": "Legal",
+            "content": "Privacy Policy Terms of Service Cookie Policy"
+          }
+        ]
+      }
+    ],
+    "metadata": {
+      "title": "Number System Overview"
+    }
+  },
+  "metadata": {
+    "extracted_at": "2026-01-01T22:19:32.716787300Z",
+    "duration_ms": 3,
+    "extractors_matched": [
+      "metadata",
+      "examples",
+      "sections"
+    ],
+    "extractors_failed": [
+      "vocab_tables",
+      "definitions",
+      "content_blocks"
+    ]
+  }
+}

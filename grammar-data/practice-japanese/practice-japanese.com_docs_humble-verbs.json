@@ -1,0 +1,303 @@
+{
+  "config_name": "Language Learning Extractor",
+  "url": "https://practice-japanese.com/docs/humble-verbs/",
+  "data": {
+    "examples": [
+      {
+        "sentence": "About"
+      },
+      {
+        "sentence": "Pricing"
+      },
+      {
+        "sentence": "Blog"
+      },
+      {
+        "sentence": "Contact"
+      },
+      {
+        "sentence": "Privacy Policy"
+      },
+      {
+        "sentence": "Terms of Service"
+      },
+      {
+        "sentence": "Cookie Policy"
+      }
+    ],
+    "metadata": {
+      "title": "Common Humble Verbs"
+    },
+    "sections": [
+      {
+        "level": 2,
+        "heading": "Common Humble Verbs",
+        "content": "Humble verbs are special kenjougo (謙譲語) forms used to lower your own actions, indirectly showing respect to superiors. Use these verbs when you do something for, to, or in the presence of someone of higher status.\n\nRegular → Humble 行く → 参る \"go\" 言う → 申す \"say\" 食べる → いただく \"eat\""
+      },
+      {
+        "level": 2,
+        "heading": "Essential Humble Verbs",
+        "content": "",
+        "children": [
+          {
+            "level": 3,
+            "heading": "参る (go/come)",
+            "content": "行く → 参る \"go\" 来る → 参る \"come\" 明日参ります。 \"I will go/come tomorrow.\" すぐに参ります。 \"I'll be right there.\" Both go and come Very common"
+          },
+          {
+            "level": 3,
+            "heading": "申す/申し上げる (say)",
+            "content": "言う → 申す \"say\" 言う → 申し上げる \"say\" (more formal) 田中と申します。 \"I'm called Tanaka.\" 一つ申し上げてもよろしいですか。 \"May I say one thing?\" Self-introduction Formal statements"
+          },
+          {
+            "level": 3,
+            "heading": "いただく (eat/drink/receive)",
+            "content": "食べる → いただく \"eat\" 飲む → いただく \"drink\" もらう → いただく \"receive\" コーヒーをいただきます。 \"I'll have coffee.\" お名前をいただけますか。 \"May I have your name?\" Very versatile Multiple meanings"
+          },
+          {
+            "level": 3,
+            "heading": "おる (be/exist)",
+            "content": "いる → おる \"be/exist\" 私がここにおります。 \"I am here.\" Less common in modern speech More in written/formal"
+          },
+          {
+            "level": 3,
+            "heading": "いたす (do)",
+            "content": "する → いたす \"do\" お手伝いいたします。 \"I will help.\" ご説明いたします。 \"I will explain.\" Humble \"do\""
+          }
+        ]
+      },
+      {
+        "level": 2,
+        "heading": "Seeing and Looking",
+        "content": "",
+        "children": [
+          {
+            "level": 3,
+            "heading": "拝見する (see/look)",
+            "content": "見る → 拝見する \"see/look\" 資料を拝見しました。 \"I looked at the documents.\" 拝見させていただきます。 \"I will take a look.\" Polite viewing"
+          }
+        ]
+      },
+      {
+        "level": 2,
+        "heading": "Asking and Hearing",
+        "content": "",
+        "children": [
+          {
+            "level": 3,
+            "heading": "伺う (go/visit/ask/hear)",
+            "content": "行く → 伺う \"go/visit\" 聞く → 伺う \"ask/hear\" お宅に伺います。 \"I'll visit your home.\" 一つ伺ってもよろしいですか。 \"May I ask one thing?\" Multiple meanings Very polite"
+          },
+          {
+            "level": 3,
+            "heading": "お聞きする (ask/listen)",
+            "content": "聞く → お聞きする \"ask/listen\" お名前をお聞きしてもいいですか。 \"May I ask your name?\" Pattern: お + stem + する"
+          }
+        ]
+      },
+      {
+        "level": 2,
+        "heading": "Knowing",
+        "content": "",
+        "children": [
+          {
+            "level": 3,
+            "heading": "存じる/存じ上げる (know)",
+            "content": "知る → 存じる \"know\" 知る → 存じ上げる \"know\" (about person) 存じております。 \"I know.\" お名前は存じ上げております。 \"I know your name.\" People: 存じ上げる Things: 存じる"
+          }
+        ]
+      },
+      {
+        "level": 2,
+        "heading": "Giving",
+        "content": "",
+        "children": [
+          {
+            "level": 3,
+            "heading": "差し上げる (give)",
+            "content": "あげる → 差し上げる \"give\" プレゼントを差し上げます。 \"I'll give a present.\" これを差し上げましょうか。 \"Shall I give you this?\" Giving to superior"
+          }
+        ]
+      },
+      {
+        "level": 2,
+        "heading": "Meeting",
+        "content": "",
+        "children": [
+          {
+            "level": 3,
+            "heading": "お目にかかる (meet)",
+            "content": "会う → お目にかかる \"meet\" お目にかかれて光栄です。 \"I'm honored to meet you.\" またお目にかかりたいです。 \"I'd like to meet again.\" Very polite meeting"
+          }
+        ]
+      },
+      {
+        "level": 2,
+        "heading": "Thinking",
+        "content": "",
+        "children": [
+          {
+            "level": 3,
+            "heading": "存じる (think)",
+            "content": "思う → 存じる \"think\" そう存じます。 \"I think so.\" Less common than 思う Formal thinking"
+          }
+        ]
+      },
+      {
+        "level": 2,
+        "heading": "Pattern: お + Verb Stem + する",
+        "content": "",
+        "children": [
+          {
+            "level": 3,
+            "heading": "Common お + する verbs",
+            "content": "送る → お送りする \"send\" 持つ → お持ちする \"carry\" 待つ → お待ちする \"wait\" 届ける → お届けする \"deliver\" 渡す → お渡しする \"hand over\" 返す → お返しする \"return\" 貸す → お貸しする \"lend\" 資料をお送りします。 \"I will send the documents.\" お荷物をお持ちします。 \"I will carry your luggage.\""
+          }
+        ]
+      },
+      {
+        "level": 2,
+        "heading": "Pattern: ご + Sino-Japanese + する",
+        "content": "",
+        "children": [
+          {
+            "level": 3,
+            "heading": "Chinese compound verbs",
+            "content": "説明する → ご説明する \"explain\" 案内する → ご案内する \"guide\" 連絡する → ご連絡する \"contact\" 報告する → ご報告する \"report\" 相談する → ご相談する \"consult\" 紹介する → ご紹介する \"introduce\" ご案内いたします。 \"I will guide you.\" ご連絡させていただきます。 \"I will contact you.\""
+          }
+        ]
+      },
+      {
+        "level": 2,
+        "heading": "Receiving Actions",
+        "content": "",
+        "children": [
+          {
+            "level": 3,
+            "heading": "いただく (receive from superior)",
+            "content": "From superior → いただく お土産をいただきました。 \"I received a souvenir.\" アドバイスをいただきたいです。 \"I'd like to receive advice.\" Grateful receiving"
+          }
+        ]
+      },
+      {
+        "level": 2,
+        "heading": "Conjugation Patterns",
+        "content": "",
+        "children": [
+          {
+            "level": 3,
+            "heading": "Present polite",
+            "content": "参ります \"go/come\" 申します \"say\" いただきます \"eat/receive\" 伺います \"visit/ask\" 拝見します \"see\" Add ます"
+          },
+          {
+            "level": 3,
+            "heading": "Past polite",
+            "content": "参りました \"went/came\" 申しました \"said\" いただきました \"ate/received\" 伺いました \"visited/asked\" Add ました"
+          },
+          {
+            "level": 3,
+            "heading": "Negative",
+            "content": "参りません \"won't go\" 申しません \"won't say\" いただきません \"won't eat\" Add ません"
+          },
+          {
+            "level": 3,
+            "heading": "Te-form",
+            "content": "参って \"going/coming\" 申して \"saying\" いただいて \"eating/receiving\" Regular conjugation"
+          }
+        ]
+      },
+      {
+        "level": 2,
+        "heading": "Common Mistakes",
+        "content": "",
+        "children": [
+          {
+            "level": 3,
+            "heading": "Using for superior's actions",
+            "content": "Wrong: 先生が参る ⚠️ Correct: 先生がいらっしゃる ✓ Don't humble superior Use respectful forms"
+          },
+          {
+            "level": 3,
+            "heading": "Using for third parties",
+            "content": "Wrong: 友達が参る ⚠️ Correct: 友達が行く ✓ Only humble yourself Not others"
+          },
+          {
+            "level": 3,
+            "heading": "Over-humbling",
+            "content": "Excessive: 参って拝見して申し上げます ⚠️ Natural: 見て申し上げます ✓ One humble form enough"
+          }
+        ]
+      },
+      {
+        "level": 2,
+        "heading": "Self-Introduction Pattern",
+        "content": "",
+        "children": [
+          {
+            "level": 3,
+            "heading": "〜と申します",
+            "content": "山田と申します。 \"I'm called Yamada.\" ABC会社の田中と申します。 \"I'm Tanaka from ABC Company.\" どうぞよろしくお願いいたします。 \"Pleased to meet you.\" Standard introduction"
+          }
+        ]
+      },
+      {
+        "level": 2,
+        "heading": "Offering Help",
+        "content": "",
+        "children": [
+          {
+            "level": 3,
+            "heading": "お手伝いいたします",
+            "content": "お手伝いいたしましょうか。 \"Shall I help?\" 何かお手伝いできることがありますか。 \"Is there anything I can help with?\" Polite offering"
+          }
+        ]
+      },
+      {
+        "level": 2,
+        "heading": "Quick Reference Chart",
+        "content": "Regular → Humble いる → おる (be) 行く → 参る/伺う (go) 来る → 参る (come) 言う → 申す/申し上げる (say) する → いたす (do) 食べる → いただく (eat) 飲む → いただく (drink) もらう → いただく (receive) 見る → 拝見する (see) 聞く → 伺う/お聞きする (hear/ask) 知る → 存じる/存じ上げる (know) 会う → お目にかかる (meet) あげる → 差し上げる (give)"
+      },
+      {
+        "level": 2,
+        "heading": "Practice Sentences",
+        "content": "",
+        "children": [
+          {
+            "level": 3,
+            "heading": "Basic",
+            "content": "明日参ります。 \"I will go tomorrow.\" 田中と申します。 \"I'm called Tanaka.\" コーヒーをいただきます。 \"I'll have coffee.\" 資料を拝見しました。 \"I looked at the documents.\" お名前を伺ってもよろしいですか。 \"May I ask your name?\""
+          },
+          {
+            "level": 3,
+            "heading": "Intermediate",
+            "content": "明日、御社に伺います。10時に 参りますので、よろしくお願い いたします。 \"Tomorrow I will visit your company. I will arrive at 10, so I look forward to it.\" 先日いただいた資料を拝見 いたしました。とても参考に なりました。ありがとうございました。 \"I looked at the documents I received the other day. They were very helpful. Thank you very much.\" 私、ABC株式会社の山田と 申します。本日はお時間を いただき、ありがとうございます。 新商品についてご説明させて いただきます。 \"I'm Yamada from ABC Corporation. Thank you for your time today. I will explain about our new product.\""
+          },
+          {
+            "level": 3,
+            "heading": "Company",
+            "content": "About Pricing Blog Contact"
+          },
+          {
+            "level": 3,
+            "heading": "Legal",
+            "content": "Privacy Policy Terms of Service Cookie Policy"
+          }
+        ]
+      }
+    ]
+  },
+  "metadata": {
+    "extracted_at": "2026-01-01T22:19:30.070187300Z",
+    "duration_ms": 5,
+    "extractors_matched": [
+      "metadata",
+      "examples",
+      "sections"
+    ],
+    "extractors_failed": [
+      "vocab_tables",
+      "definitions",
+      "content_blocks"
+    ]
+  }
+}

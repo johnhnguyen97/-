@@ -1,0 +1,412 @@
+{
+  "config_name": "Language Learning Extractor",
+  "url": "https://practice-japanese.com/docs/future/",
+  "data": {
+    "examples": [
+      {
+        "sentence": "Present tense with time words"
+      },
+      {
+        "sentence": "Special expressions for intention/plans"
+      },
+      {
+        "sentence": "Context to indicate future meaning"
+      },
+      {
+        "sentence": "Present Tense Usage - Base for future"
+      },
+      {
+        "sentence": "〜つもり (tsumori) - Intention"
+      },
+      {
+        "sentence": "〜予定 (yotei) - Plans"
+      },
+      {
+        "sentence": "〜でしょう/だろう - Probability"
+      },
+      {
+        "sentence": "Volitional Form - Let's/will"
+      },
+      {
+        "sentence": "Time Words - Future time expressions"
+      },
+      {
+        "sentence": "〜たい (tai) - Want to"
+      },
+      {
+        "sentence": "About"
+      },
+      {
+        "sentence": "Pricing"
+      },
+      {
+        "sentence": "Blog"
+      },
+      {
+        "sentence": "Contact"
+      },
+      {
+        "sentence": "Privacy Policy"
+      },
+      {
+        "sentence": "Terms of Service"
+      },
+      {
+        "sentence": "Cookie Policy"
+      }
+    ],
+    "sections": [
+      {
+        "level": 2,
+        "heading": "Future in Japanese",
+        "content": "Japanese doesn't have a separate future tense. Future actions are expressed using:\n\nPresent tense with time words Special expressions for intention/plans Context to indicate future meaning\n\n明日行く \"I will go tomorrow\" (present form + time word) 行くつもりだ \"I intend to go\" (intention expression)"
+      },
+      {
+        "level": 2,
+        "heading": "Using Present Tense for Future",
+        "content": "",
+        "children": [
+          {
+            "level": 3,
+            "heading": "With Time Words",
+            "content": "The most common way to express future is present tense + future time word:\n\n明日映画を見る \"I will watch a movie tomorrow\" 来週東京に行きます \"I will go to Tokyo next week\" 今晩友達に会う \"I will meet a friend tonight\" 来年日本に来る \"I will come to Japan next year\""
+          },
+          {
+            "level": 3,
+            "heading": "Scheduled Events",
+            "content": "授業は9時に始まる \"Class will start at 9 o'clock\" 電車は3時に出発します \"The train will depart at 3 o'clock\" 会議は来週の月曜日です \"The meeting is next Monday\""
+          }
+        ]
+      },
+      {
+        "level": 2,
+        "heading": "つもり (Intention/Plan)",
+        "content": "",
+        "children": [
+          {
+            "level": 3,
+            "heading": "〜つもりだ/です",
+            "content": "Expresses personal intention or plan:\n\nVerb (dictionary form) + つもりだ/です 日本に行くつもりです \"I intend to go to Japan\" 大学で勉強するつもりだ \"I plan to study at university\" 明日早く起きるつもりです \"I intend to wake up early tomorrow\""
+          },
+          {
+            "level": 3,
+            "heading": "Negative Intention",
+            "content": "行かないつもりだ \"I don't intend to go\" 食べないつもりです \"I don't plan to eat\" 何もしないつもりだ \"I don't intend to do anything\""
+          }
+        ]
+      },
+      {
+        "level": 2,
+        "heading": "予定 (Schedule/Plan)",
+        "content": "",
+        "children": [
+          {
+            "level": 3,
+            "heading": "〜予定だ/です",
+            "content": "For scheduled plans or arrangements:\n\n明日東京に行く予定です \"I'm scheduled to go to Tokyo tomorrow\" 来週会議がある予定だ \"There's scheduled to be a meeting next week\" 6時に着く予定です \"I'm scheduled to arrive at 6 o'clock\""
+          },
+          {
+            "level": 3,
+            "heading": "Asking About Plans",
+            "content": "何をする予定ですか？ \"What are you planning to do?\" いつ来る予定ですか？ \"When are you scheduled to come?\""
+          }
+        ]
+      },
+      {
+        "level": 2,
+        "heading": "でしょう/だろう (Probably)",
+        "content": "",
+        "children": [
+          {
+            "level": 3,
+            "heading": "Expressing Probability",
+            "content": "Indicates something will probably happen:\n\nPolite: 〜でしょう Plain: 〜だろう 明日は雨でしょう \"It will probably rain tomorrow\" 彼は来るだろう \"He will probably come\" 大丈夫でしょう \"It will probably be okay\""
+          },
+          {
+            "level": 3,
+            "heading": "Question Form",
+            "content": "明日は晴れるでしょうか？ \"Will it probably be sunny tomorrow?\" 間に合うでしょうか？ \"Will we probably make it in time?\""
+          }
+        ]
+      },
+      {
+        "level": 2,
+        "heading": "Volitional Form (Let's/Will)",
+        "content": "",
+        "children": [
+          {
+            "level": 3,
+            "heading": "〜よう/〜ましょう",
+            "content": "Expresses suggestion or determination:\n\n行こう \"Let's go / I'll go\" 食べましょう \"Let's eat\" 頑張ろう \"Let's do our best / I'll do my best\""
+          },
+          {
+            "level": 3,
+            "heading": "Thinking/Deciding to Do",
+            "content": "行こうと思う \"I'm thinking of going\" 勉強しようと思います \"I'm thinking of studying\""
+          }
+        ]
+      },
+      {
+        "level": 2,
+        "heading": "はず (Should/Expected to)",
+        "content": "",
+        "children": [
+          {
+            "level": 3,
+            "heading": "〜はずだ/です",
+            "content": "Something is expected to happen based on logic:\n\n彼は来るはずだ \"He should come / is expected to come\" 間に合うはずです \"We should make it in time\" 明日は晴れるはずだ \"It should be sunny tomorrow\""
+          }
+        ]
+      },
+      {
+        "level": 2,
+        "heading": "Common Time Words for Future",
+        "content": "",
+        "children": [
+          {
+            "level": 3,
+            "heading": "Tomorrow and Near Future",
+            "content": "明日 - tomorrow 明後日 - day after tomorrow 今晩 - tonight 今夜 - tonight 後で - later すぐ - soon もうすぐ - soon"
+          },
+          {
+            "level": 3,
+            "heading": "Next Week/Month/Year",
+            "content": "来週 - next week 来月 - next month 来年 - next year 再来週 - week after next 再来月 - month after next 再来年 - year after next"
+          }
+        ]
+      },
+      {
+        "level": 2,
+        "heading": "Comparing Future Expressions",
+        "content": "",
+        "children": [
+          {
+            "level": 3,
+            "heading": "Present Tense (Neutral)",
+            "content": "明日行く \"I will go tomorrow\" (Simple statement of future action)"
+          },
+          {
+            "level": 3,
+            "heading": "つもり (Personal Intention)",
+            "content": "明日行くつもりだ \"I intend to go tomorrow\" (Personal plan/intention)"
+          },
+          {
+            "level": 3,
+            "heading": "予定 (Scheduled Plan)",
+            "content": "明日行く予定だ \"I'm scheduled to go tomorrow\" (Arranged/scheduled)"
+          },
+          {
+            "level": 3,
+            "heading": "でしょう (Probability)",
+            "content": "明日行くでしょう \"I will probably go tomorrow\" (Likely to happen)"
+          },
+          {
+            "level": 3,
+            "heading": "はず (Expected)",
+            "content": "明日行くはずだ \"I should go tomorrow\" (Expected based on circumstances)"
+          }
+        ]
+      },
+      {
+        "level": 2,
+        "heading": "Common Conversations",
+        "content": "",
+        "children": [
+          {
+            "level": 3,
+            "heading": "Example 1: Weekend Plans",
+            "content": "A: 週末は何をする予定ですか？ \"What are you planning to do this weekend?\" B: 映画を見に行くつもりです \"I intend to go see a movie\" A: 何を見ますか？ \"What will you watch?\" B: 新しいアクション映画を見ます \"I'll watch the new action movie\""
+          },
+          {
+            "level": 3,
+            "heading": "Example 2: Tomorrow's Weather",
+            "content": "A: 明日の天気はどうでしょうか？ \"What will tomorrow's weather be like?\" B: たぶん雨でしょう \"It will probably rain\" A: じゃあ、傘を持って行きましょう \"Then let's bring umbrellas\""
+          },
+          {
+            "level": 3,
+            "heading": "Example 3: Future Plans",
+            "content": "A: 将来何をするつもりですか？ \"What do you intend to do in the future?\" B: 日本で働くつもりです \"I intend to work in Japan\" A: いつ日本に行く予定ですか？ \"When are you scheduled to go to Japan?\" B: 来年行く予定です \"I'm scheduled to go next year\""
+          }
+        ]
+      },
+      {
+        "level": 2,
+        "heading": "Common Mistakes",
+        "content": "",
+        "children": [
+          {
+            "level": 3,
+            "heading": "Mistake 1: Creating a future tense",
+            "content": "Wrong: 行くwill ❌ Right: 行く (with context) ✓ \"will go\" Wrong: 明日行きました ❌ Right: 明日行きます ✓ \"I will go tomorrow\""
+          },
+          {
+            "level": 3,
+            "heading": "Mistake 2: Using wrong form with つもり",
+            "content": "Wrong: 行きますつもりです ❌ Right: 行くつもりです ✓ \"I intend to go\""
+          },
+          {
+            "level": 3,
+            "heading": "Mistake 3: Confusing つもり and 予定",
+            "content": "つもり: Personal intention (can change) 予定: Scheduled plan (more fixed) Not interchangeable in all contexts"
+          }
+        ]
+      },
+      {
+        "level": 2,
+        "heading": "Special Future Expressions",
+        "content": "",
+        "children": [
+          {
+            "level": 3,
+            "heading": "〜ことにする (Decide to)",
+            "content": "日本に行くことにした \"I decided to go to Japan\" 勉強することにします \"I'll decide to study\""
+          },
+          {
+            "level": 3,
+            "heading": "〜ようと思う (Thinking of doing)",
+            "content": "明日行こうと思う \"I'm thinking of going tomorrow\" 勉強しようと思っています \"I'm thinking of studying\""
+          },
+          {
+            "level": 3,
+            "heading": "〜たい (Want to)",
+            "content": "Can express future desire:\n\n日本に行きたい \"I want to go to Japan\" 寿司を食べたいです \"I want to eat sushi\""
+          }
+        ]
+      },
+      {
+        "level": 2,
+        "heading": "Expressing Determination",
+        "content": "",
+        "children": [
+          {
+            "level": 3,
+            "heading": "きっと (Surely)",
+            "content": "きっと成功する \"I will surely succeed\" きっと来るでしょう \"They will surely come\""
+          },
+          {
+            "level": 3,
+            "heading": "必ず (Without fail)",
+            "content": "必ず行きます \"I will definitely go\" 必ず連絡する \"I will contact you without fail\""
+          }
+        ]
+      },
+      {
+        "level": 2,
+        "heading": "Immediate Future",
+        "content": "",
+        "children": [
+          {
+            "level": 3,
+            "heading": "すぐ (Right away/Soon)",
+            "content": "すぐ行きます \"I'll go right away\" すぐ始まる \"It will start soon\""
+          },
+          {
+            "level": 3,
+            "heading": "もうすぐ (Soon/Before long)",
+            "content": "もうすぐ着く \"I'll arrive soon\" もうすぐ春だ \"It will be spring soon\""
+          }
+        ]
+      },
+      {
+        "level": 2,
+        "heading": "Uncertain Future",
+        "content": "",
+        "children": [
+          {
+            "level": 3,
+            "heading": "かもしれない (Might)",
+            "content": "明日雨が降るかもしれない \"It might rain tomorrow\" 行くかもしれません \"I might go\""
+          },
+          {
+            "level": 3,
+            "heading": "たぶん (Probably)",
+            "content": "たぶん来る \"I'll probably come\" たぶん大丈夫でしょう \"It will probably be okay\""
+          }
+        ]
+      },
+      {
+        "level": 2,
+        "heading": "Polite Future Requests",
+        "content": "",
+        "children": [
+          {
+            "level": 3,
+            "heading": "〜ていただけますか (Could you)",
+            "content": "明日来ていただけますか？ \"Could you come tomorrow?\" 手伝っていただけますか？ \"Could you help me?\""
+          }
+        ]
+      },
+      {
+        "level": 2,
+        "heading": "Practice Sentences",
+        "content": "",
+        "children": [
+          {
+            "level": 3,
+            "heading": "Simple Future (Present + Time)",
+            "content": "明日学校に行く \"I will go to school tomorrow\" 来週テストがあります \"There will be a test next week\" 今晩映画を見る \"I will watch a movie tonight\""
+          },
+          {
+            "level": 3,
+            "heading": "Intention (つもり)",
+            "content": "大学で勉強するつもりです \"I intend to study at university\" 来年日本に行くつもりだ \"I plan to go to Japan next year\" 明日早く起きるつもりです \"I intend to wake up early tomorrow\""
+          },
+          {
+            "level": 3,
+            "heading": "Schedule (予定)",
+            "content": "3時に会う予定です \"I'm scheduled to meet at 3 o'clock\" 来月引っ越す予定だ \"I'm scheduled to move next month\" 来週東京に行く予定です \"I'm scheduled to go to Tokyo next week\""
+          },
+          {
+            "level": 3,
+            "heading": "Probability (でしょう/だろう)",
+            "content": "明日は晴れるでしょう \"It will probably be sunny tomorrow\" 彼は来るだろう \"He will probably come\" 大丈夫でしょう \"It will probably be okay\""
+          },
+          {
+            "level": 3,
+            "heading": "Expectation (はず)",
+            "content": "彼は知っているはずだ \"He should know\" 間に合うはずです \"We should make it in time\" 明日は晴れるはずだ \"It should be sunny tomorrow\""
+          },
+          {
+            "level": 3,
+            "heading": "Volitional (〜よう)",
+            "content": "頑張ろう \"Let's do our best / I'll do my best\" 明日行こうと思う \"I'm thinking of going tomorrow\" 勉強しようと思っています \"I'm thinking of studying\""
+          }
+        ]
+      },
+      {
+        "level": 2,
+        "heading": "Related Grammar Points",
+        "content": "Present Tense Usage - Base for future 〜つもり (tsumori) - Intention 〜予定 (yotei) - Plans 〜でしょう/だろう - Probability Volitional Form - Let's/will Time Words - Future time expressions 〜たい (tai) - Want to",
+        "children": [
+          {
+            "level": 3,
+            "heading": "Company",
+            "content": "About Pricing Blog Contact"
+          },
+          {
+            "level": 3,
+            "heading": "Legal",
+            "content": "Privacy Policy Terms of Service Cookie Policy"
+          }
+        ]
+      }
+    ],
+    "metadata": {
+      "title": "Future Expressions"
+    }
+  },
+  "metadata": {
+    "extracted_at": "2026-01-01T22:19:29.389494100Z",
+    "duration_ms": 4,
+    "extractors_matched": [
+      "metadata",
+      "examples",
+      "sections"
+    ],
+    "extractors_failed": [
+      "vocab_tables",
+      "definitions",
+      "content_blocks"
+    ]
+  }
+}

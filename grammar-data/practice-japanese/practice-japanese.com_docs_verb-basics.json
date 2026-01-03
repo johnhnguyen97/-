@@ -1,0 +1,441 @@
+{
+  "config_name": "Language Learning Extractor",
+  "url": "https://practice-japanese.com/docs/verb-basics/",
+  "data": {
+    "metadata": {
+      "title": "Japanese Verb Basics"
+    },
+    "examples": [
+      {
+        "sentence": "Learn group classification - identify verbs correctly"
+      },
+      {
+        "sentence": "Master masu form first - safe, polite default"
+      },
+      {
+        "sentence": "Practice common verbs - the 25 above cover daily needs"
+      },
+      {
+        "sentence": "Learn te-form - unlocks many grammar patterns"
+      },
+      {
+        "sentence": "Add plain forms gradually - for casual speech"
+      },
+      {
+        "sentence": "No person or number (same form for I/you/he/they)"
+      },
+      {
+        "sentence": "Only two tenses: past and non-past"
+      },
+      {
+        "sentence": "Regular conjugation patterns"
+      },
+      {
+        "sentence": "Always come at the end of sentences"
+      },
+      {
+        "sentence": "Plain/casual present/future"
+      },
+      {
+        "sentence": "Before certain particles"
+      },
+      {
+        "sentence": "In plain speech"
+      },
+      {
+        "sentence": "Polite conversation"
+      },
+      {
+        "sentence": "Standard business language"
+      },
+      {
+        "sentence": "Safe default for learners"
+      },
+      {
+        "sentence": "Connecting actions"
+      },
+      {
+        "sentence": "Making requests (〜てください)"
+      },
+      {
+        "sentence": "Progressive (〜ている)"
+      },
+      {
+        "sentence": "Many grammar patterns"
+      },
+      {
+        "sentence": "Plain past tense"
+      },
+      {
+        "sentence": "Casual conversation"
+      },
+      {
+        "sentence": "Many grammar patterns"
+      },
+      {
+        "sentence": "Plain negative"
+      },
+      {
+        "sentence": "Before certain grammar patterns"
+      },
+      {
+        "sentence": "勉強します (polite)"
+      },
+      {
+        "sentence": "勉強した (past)"
+      },
+      {
+        "sentence": "勉強しない (negative)"
+      },
+      {
+        "sentence": "Verb Groups"
+      },
+      {
+        "sentence": "Masu Form"
+      },
+      {
+        "sentence": "Te-form Conjugation"
+      },
+      {
+        "sentence": "Dictionary Form"
+      },
+      {
+        "sentence": "Sentence Structure"
+      },
+      {
+        "sentence": "Parts of Speech"
+      },
+      {
+        "sentence": "About"
+      },
+      {
+        "sentence": "Pricing"
+      },
+      {
+        "sentence": "Blog"
+      },
+      {
+        "sentence": "Contact"
+      },
+      {
+        "sentence": "Privacy Policy"
+      },
+      {
+        "sentence": "Terms of Service"
+      },
+      {
+        "sentence": "Cookie Policy"
+      }
+    ],
+    "sections": [
+      {
+        "level": 2,
+        "heading": "What Makes Japanese Verbs Unique",
+        "content": "Japanese verbs are simpler than you think:\n\nNo person or number (same form for I/you/he/they) Only two tenses: past and non-past Regular conjugation patterns Always come at the end of sentences"
+      },
+      {
+        "level": 2,
+        "heading": "The Three Verb Groups",
+        "content": "Every Japanese verb belongs to one of three groups. Knowing which group determines how to conjugate it.",
+        "children": [
+          {
+            "level": 3,
+            "heading": "Group 1: Godan Verbs (五段動詞)",
+            "content": "Also called: う-verbs, consonant-stem verbs\n\nRule: Dictionary form ends in -u (う, つ, る, く, ぐ, す, む, ぶ, ぬ)\n\n書く (kaku) - to write 話す (hanasu) - to speak 飲む (nomu) - to drink 読む (yomu) - to read 行く (iku) - to go\n\nKey feature: The ending consonant changes during conjugation."
+          },
+          {
+            "level": 3,
+            "heading": "Group 2: Ichidan Verbs (一段動詞)",
+            "content": "Also called: る-verbs, vowel-stem verbs\n\nRule: Dictionary form ends in -eru or -iru\n\n食べる (taberu) - to eat [e-る] 見る (miru) - to see [i-る] 寝る (neru) - to sleep [e-る] 起きる (okiru) - to wake up [i-る]\n\nKey feature: Simply drop る and add endings."
+          },
+          {
+            "level": 3,
+            "heading": "Group 3: Irregular Verbs (不規則動詞)",
+            "content": "Only two verbs:\n\nする (suru) - to do 来る (kuru) - to come\n\nMust memorize these separately."
+          }
+        ]
+      },
+      {
+        "level": 2,
+        "heading": "How to Identify Verb Groups",
+        "content": "",
+        "children": [
+          {
+            "level": 3,
+            "heading": "Step 1: Check if it's Irregular",
+            "content": "Is it する or 来る? → Group 3"
+          },
+          {
+            "level": 3,
+            "heading": "Step 2: Look at the Ending",
+            "content": "Does it end in anything other than -eru or -iru? → Group 1\n\n書く (kaku) - ends in ku → Group 1 話す (hanasu) - ends in su → Group 1"
+          },
+          {
+            "level": 3,
+            "heading": "Step 3: -eru/-iru Ending",
+            "content": "Group 2 (Ichidan): The sound before る is e or i\n\n食べる (ta-be-ru) - be is an e sound → Group 2 見る (mi-ru) - mi is an i sound → Group 2"
+          },
+          {
+            "level": 3,
+            "heading": "Tricky Cases",
+            "content": "Some verbs end in -eru/-iru but are actually Group 1:\n\n帰る (kaeru) - to return → Group 1 (exception) 走る (hashiru) - to run → Group 1 (exception) 知る (shiru) - to know → Group 1 (exception) 切る (kiru) - to cut → Group 1 (exception)\n\nWhen in doubt, check a dictionary."
+          }
+        ]
+      },
+      {
+        "level": 2,
+        "heading": "Verb Forms Overview",
+        "content": "Japanese verbs have several forms used for different purposes:",
+        "children": [
+          {
+            "level": 3,
+            "heading": "Dictionary Form (辞書形)",
+            "content": "The base form found in dictionaries:\n\n食べる (taberu) - to eat 行く (iku) - to go\n\nUses:\n\nPlain/casual present/future Before certain particles In plain speech"
+          },
+          {
+            "level": 3,
+            "heading": "Masu Form (ます形)",
+            "content": "Polite present/future form:\n\n食べます (tabemasu) - eat/will eat 行きます (ikimasu) - go/will go\n\nUses:\n\nPolite conversation Standard business language Safe default for learners"
+          },
+          {
+            "level": 3,
+            "heading": "Te-form (て形)",
+            "content": "Connective form:\n\n食べて (tabete) - eating and... 行って (itte) - going and...\n\nUses:\n\nConnecting actions Making requests (〜てください) Progressive (〜ている) Many grammar patterns"
+          },
+          {
+            "level": 3,
+            "heading": "Ta-form (た形)",
+            "content": "Plain past form:\n\n食べた (tabeta) - ate 行った (itta) - went\n\nUses:\n\nPlain past tense Casual conversation Many grammar patterns"
+          },
+          {
+            "level": 3,
+            "heading": "Nai-form (ない形)",
+            "content": "Plain negative form:\n\n食べない (tabenai) - don't eat 行かない (ikanai) - don't go\n\nUses:\n\nPlain negative Before certain grammar patterns"
+          }
+        ]
+      },
+      {
+        "level": 2,
+        "heading": "Basic Conjugation Patterns",
+        "content": "",
+        "children": [
+          {
+            "level": 3,
+            "heading": "Group 1 (Godan) - 書く (kaku)",
+            "content": "Dictionary: 書く (kaku) - write Masu: 書きます (kakimasu) Te-form: 書いて (kaite) Ta-form: 書いた (kaita) Nai-form: 書かない (kakanai)"
+          },
+          {
+            "level": 3,
+            "heading": "Group 2 (Ichidan) - 食べる (taberu)",
+            "content": "Dictionary: 食べる (taberu) - eat Masu: 食べます (tabemasu) Te-form: 食べて (tabete) Ta-form: 食べた (tabeta) Nai-form: 食べない (tabenai)"
+          },
+          {
+            "level": 3,
+            "heading": "Group 3 (Irregular) - する (suru)",
+            "content": "Dictionary: する (suru) - do Masu: します (shimasu) Te-form: して (shite) Ta-form: した (shita) Nai-form: しない (shinai)"
+          },
+          {
+            "level": 3,
+            "heading": "Group 3 (Irregular) - 来る (kuru)",
+            "content": "Dictionary: 来る (kuru) - come Masu: 来ます (kimasu) Te-form: 来て (kite) Ta-form: 来た (kita) Nai-form: 来ない (konai)"
+          }
+        ]
+      },
+      {
+        "level": 2,
+        "heading": "Tense System",
+        "content": "Japanese only has two tenses : non-past and past.",
+        "children": [
+          {
+            "level": 3,
+            "heading": "Non-Past (Present/Future)",
+            "content": "私は寿司を食べる \"I eat sushi\" / \"I will eat sushi\" 明日学校に行く \"I will go to school tomorrow\"\n\nContext determines present vs future."
+          },
+          {
+            "level": 3,
+            "heading": "Past",
+            "content": "私は寿司を食べた \"I ate sushi\" 昨日学校に行った \"I went to school yesterday\""
+          }
+        ]
+      },
+      {
+        "level": 2,
+        "heading": "Politeness Levels",
+        "content": "",
+        "children": [
+          {
+            "level": 3,
+            "heading": "Plain (Dictionary Form)",
+            "content": "食べる - eat Used with: - Friends - Family - Casual settings - Before certain particles"
+          },
+          {
+            "level": 3,
+            "heading": "Polite (Masu Form)",
+            "content": "食べます - eat (polite) Used with: - Strangers - Formal settings - Business situations - When in doubt"
+          },
+          {
+            "level": 3,
+            "heading": "Honorific/Humble",
+            "content": "Special forms for very polite situations (see Keigo )."
+          }
+        ]
+      },
+      {
+        "level": 2,
+        "heading": "Transitive vs Intransitive",
+        "content": "Japanese distinguishes verb pairs:",
+        "children": [
+          {
+            "level": 3,
+            "heading": "Transitive (takes を)",
+            "content": "開ける (akeru) - to open (something) ドアを開ける - open the door"
+          },
+          {
+            "level": 3,
+            "heading": "Intransitive (no を)",
+            "content": "開く (aku) - to open (by itself) ドアが開く - the door opens\n\nSee: Transitive & Intransitive"
+          }
+        ]
+      },
+      {
+        "level": 2,
+        "heading": "Common Verb Patterns",
+        "content": "",
+        "children": [
+          {
+            "level": 3,
+            "heading": "Action + ます",
+            "content": "食べます (tabemasu) - eat 飲みます (nomimasu) - drink 行きます (ikimasu) - go"
+          },
+          {
+            "level": 3,
+            "heading": "Negation",
+            "content": "食べません (tabemasen) - don't eat 食べませんでした (tabemasendeshita) - didn't eat"
+          },
+          {
+            "level": 3,
+            "heading": "Past",
+            "content": "食べました (tabemashita) - ate 行きました (ikimashita) - went"
+          }
+        ]
+      },
+      {
+        "level": 2,
+        "heading": "Verb + Noun Compounds",
+        "content": "",
+        "children": [
+          {
+            "level": 3,
+            "heading": "Suru Verbs",
+            "content": "Many nouns + する become verbs:\n\n勉強 (benkyou) - study → 勉強する (benkyou suru) - to study 掃除 (souji) - cleaning → 掃除する (souji suru) - to clean 電話 (denwa) - phone → 電話する (denwa suru) - to phone\n\nConjugate the する part:\n\n勉強します (polite) 勉強した (past) 勉強しない (negative)"
+          }
+        ]
+      },
+      {
+        "level": 2,
+        "heading": "25 Essential Verbs to Learn First",
+        "content": "",
+        "children": [
+          {
+            "level": 3,
+            "heading": "Daily Actions",
+            "content": "食べる (taberu) - eat [Group 2] 飲む (nomu) - drink [Group 1] 見る (miru) - see/watch [Group 2] 聞く (kiku) - hear/listen [Group 1] 話す (hanasu) - speak [Group 1]"
+          },
+          {
+            "level": 3,
+            "heading": "Movement",
+            "content": "行く (iku) - go [Group 1] 来る (kuru) - come [Group 3] 帰る (kaeru) - return home [Group 1] 歩く (aruku) - walk [Group 1] 走る (hashiru) - run [Group 1]"
+          },
+          {
+            "level": 3,
+            "heading": "Basic Actions",
+            "content": "する (suru) - do [Group 3] 読む (yomu) - read [Group 1] 書く (kaku) - write [Group 1] 買う (kau) - buy [Group 1] 売る (uru) - sell [Group 1]"
+          },
+          {
+            "level": 3,
+            "heading": "States",
+            "content": "ある (aru) - exist (inanimate) [Group 1] いる (iru) - exist (animate) [Group 2] 寝る (neru) - sleep [Group 2] 起きる (okiru) - wake up [Group 2] 座る (suwaru) - sit [Group 1]"
+          },
+          {
+            "level": 3,
+            "heading": "Understanding",
+            "content": "分かる (wakaru) - understand [Group 1] 知る (shiru) - know [Group 1] 思う (omou) - think [Group 1] 考える (kangaeru) - consider [Group 2] 忘れる (wasureru) - forget [Group 2]"
+          }
+        ]
+      },
+      {
+        "level": 2,
+        "heading": "Verb Position in Sentences",
+        "content": "Verbs always come at the end:\n\n私は毎日日本語を勉強します watashi wa mainichi nihongo wo benkyou shimasu I (topic) everyday Japanese (object) study \"I study Japanese every day\"\n\nEven with multiple clauses, each verb ends its clause:\n\n朝ごはんを食べて、学校に行きました Ate breakfast and went to school"
+      },
+      {
+        "level": 2,
+        "heading": "Common Mistakes",
+        "content": "",
+        "children": [
+          {
+            "level": 3,
+            "heading": "Mistake 1: Wrong Group Classification",
+            "content": "Wrong: 食べます → 食ます ❌ Right: 食べます ✓\n\nDon't drop べ - it's Group 2 (Ichidan)."
+          },
+          {
+            "level": 3,
+            "heading": "Mistake 2: Using Wrong Conjugation Pattern",
+            "content": "Wrong: 書けます ❌ (treating as Group 2) Right: 書きます ✓ (Group 1)"
+          },
+          {
+            "level": 3,
+            "heading": "Mistake 3: Forgetting Politeness Match",
+            "content": "Mixed: 私は学生ですが、寿司を食べる ❌ Consistent: 私は学生ですが、寿司を食べます ✓\n\nMatch politeness throughout sentence."
+          },
+          {
+            "level": 3,
+            "heading": "Mistake 4: Verb Not Last",
+            "content": "Wrong: 私は食べる寿司を ❌ Right: 私は寿司を食べる ✓"
+          }
+        ]
+      },
+      {
+        "level": 2,
+        "heading": "Quick Reference Table",
+        "content": "| Group | Example | Masu | Te-form | Past | | ------------- | ------- | -------- | ------- | ------ | | 1 (Godan) | 書く | 書きます | 書いて | 書いた | | 2 (Ichidan) | 食べる | 食べます | 食べて | 食べた | | 3 (Irregular) | する | します | して | した | | 3 (Irregular) | 来る | 来ます | 来て | 来た |"
+      },
+      {
+        "level": 2,
+        "heading": "Practice Method",
+        "content": "Learn group classification - identify verbs correctly Master masu form first - safe, polite default Practice common verbs - the 25 above cover daily needs Learn te-form - unlocks many grammar patterns Add plain forms gradually - for casual speech"
+      },
+      {
+        "level": 2,
+        "heading": "Key Takeaways",
+        "content": "✓ Three groups: Godan, Ichidan, Irregular ✓ Only two tenses: non-past and past ✓ Same form for all persons (I/you/he/they) ✓ Always sentence-final ✓ Conjugation is regular within each group ✓ Learn group membership first\n\nUnderstanding verb basics is essential - they form the core of every sentence and unlock all advanced grammar patterns.\n\nNext: Adjective Basics\n\nDeep Dive:\n\nVerb Groups Masu Form Te-form Conjugation Dictionary Form\n\nRelated:\n\nSentence Structure Parts of Speech",
+        "children": [
+          {
+            "level": 3,
+            "heading": "Company",
+            "content": "About Pricing Blog Contact"
+          },
+          {
+            "level": 3,
+            "heading": "Legal",
+            "content": "Privacy Policy Terms of Service Cookie Policy"
+          }
+        ]
+      }
+    ]
+  },
+  "metadata": {
+    "extracted_at": "2026-01-01T22:19:36.871181500Z",
+    "duration_ms": 4,
+    "extractors_matched": [
+      "metadata",
+      "examples",
+      "sections"
+    ],
+    "extractors_failed": [
+      "vocab_tables",
+      "definitions",
+      "content_blocks"
+    ]
+  }
+}

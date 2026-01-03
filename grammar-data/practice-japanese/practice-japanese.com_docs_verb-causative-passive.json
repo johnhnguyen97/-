@@ -1,0 +1,273 @@
+{
+  "config_name": "Language Learning Extractor",
+  "url": "https://practice-japanese.com/docs/verb-causative-passive/",
+  "data": {
+    "sections": [
+      {
+        "level": 2,
+        "heading": "What is Causative-Passive?",
+        "content": "Causative-passive (使役受身) expresses being made to do something . It combines causative (make do) with passive (be done to).\n\n食べさせられる (tabesaserareru) - be made to eat 書かせられる (kakaserareru) - be made to write させられる (saserareru) - be made to do"
+      },
+      {
+        "level": 2,
+        "heading": "The Suffering Form",
+        "content": "Causative-passive emphasizes being forced to do something against your will:\n\n宿題をさせられた \"I was made to do homework\" (I didn't want to) 待たせられた \"I was made to wait\" (I suffered)"
+      },
+      {
+        "level": 2,
+        "heading": "Conjugation Rules",
+        "content": "",
+        "children": [
+          {
+            "level": 3,
+            "heading": "Method: Causative + Passive",
+            "content": "Step 1: Make causative form Step 2: Apply passive conjugation"
+          },
+          {
+            "level": 3,
+            "heading": "Ichidan Verbs",
+            "content": "食べる → 食べさせる → 食べさせられる 見る → 見させる → 見させられる 寝る → 寝させる → 寝させられる\n\nPattern: -ru → -saserareru"
+          },
+          {
+            "level": 3,
+            "heading": "Godan Verbs (Long Form)",
+            "content": "書く → 書かせる → 書かせられる 読む → 読ませる → 読ませられる 話す → 話させる → 話させられる\n\nPattern: -u → -aserareru"
+          },
+          {
+            "level": 3,
+            "heading": "Godan Verbs (Short Form)",
+            "content": "More common in speech:\n\n書く → 書かされる (kakasareru) 読む → 読まされる (yomasareru) 話す → 話さされる (hanasasareru) 買う → 買わされる (kawasareru)\n\nPattern: -u → -asareru (shorter!)"
+          },
+          {
+            "level": 3,
+            "heading": "Irregular Verbs",
+            "content": "する → させられる (be made to do) 来る → 来させられる / 来さされる (be made to come)"
+          }
+        ]
+      },
+      {
+        "level": 2,
+        "heading": "Complete Conjugation Chart",
+        "content": "| Dictionary | Causative | Causative-Passive (Long) | Short Form | | ---------- | ---------- | ------------------------ | ------------ | | 書く | 書かせる | 書かせられる | 書かされる ✓ | | 読む | 読ませる | 読ませられる | 読まされる ✓ | | 話す | 話させる | 話させられる | 話さされる ✓ | | 食べる | 食べさせる | 食べさせられる | (no short) | | 見る | 見させる | 見させられる | (no short) | | する | させる | させられる | (no short) |\n\nImportant: Short form only for Godan verbs!"
+      },
+      {
+        "level": 2,
+        "heading": "When to Use",
+        "content": "",
+        "children": [
+          {
+            "level": 3,
+            "heading": "1. Forced to Do Something",
+            "content": "残業させられた \"I was made to work overtime\" 宿題をさせられた \"I was made to do homework\" 謝らせられた \"I was made to apologize\""
+          },
+          {
+            "level": 3,
+            "heading": "2. Against Your Will",
+            "content": "嫌いな食べ物を食べさせられた \"I was made to eat food I hate\" 行きたくないパーティーに行かせられた \"I was made to go to a party I didn't want to go to\""
+          },
+          {
+            "level": 3,
+            "heading": "3. Suffering/Complaint",
+            "content": "3時間も待たせられた \"I was made to wait for 3 whole hours!\" 毎日掃除させられる \"I'm made to clean every day\""
+          }
+        ]
+      },
+      {
+        "level": 2,
+        "heading": "Particle Usage",
+        "content": "Person forced is marked by は/が:\n\n私は母に部屋を掃除させられた \"I was made by my mother to clean my room\" 学生は先生に本を読ませられた \"Students were made by the teacher to read books\"\n\nPerson forcing is marked by に:\n\n上司に残業させられた \"I was made to work overtime by my boss\" 親に勉強させられた \"I was made to study by my parents\""
+      },
+      {
+        "level": 2,
+        "heading": "Common Expressions",
+        "content": "",
+        "children": [
+          {
+            "level": 3,
+            "heading": "School/Work",
+            "content": "宿題をさせられる \"be made to do homework\" レポートを書かされる \"be made to write a report\" 残業させられる \"be made to work overtime\" 発表させられる \"be made to present\" 掃除させられる \"be made to clean\""
+          },
+          {
+            "level": 3,
+            "heading": "Childhood",
+            "content": "野菜を食べさせられた \"I was made to eat vegetables\" ピアノを習わされた \"I was made to learn piano\" 早く寝かせられた \"I was made to sleep early\""
+          },
+          {
+            "level": 3,
+            "heading": "Waiting",
+            "content": "待たされる / 待たせられる \"be made to wait\" Example: 2時間も待たされた \"I was made to wait for 2 hours!\""
+          }
+        ]
+      },
+      {
+        "level": 2,
+        "heading": "Polite Forms",
+        "content": "食べさせられる → 食べさせられます (polite) 書かされる → 書かされます (polite) させられる → させられます (polite)",
+        "children": [
+          {
+            "level": 3,
+            "heading": "Negative",
+            "content": "食べさせられない (not made to eat) 書かされない (not made to write) させられない (not made to do)"
+          },
+          {
+            "level": 3,
+            "heading": "Past",
+            "content": "食べさせられた (was made to eat) 書かされた (was made to write) させられた (was made to do)"
+          }
+        ]
+      },
+      {
+        "level": 2,
+        "heading": "Long vs Short Form",
+        "content": "| Long Form | Short Form | Usage | | -------------- | ------------ | ------------------ | | 書かせられる | 書かされる ✓ | Short more common | | 読ませられる | 読まされる ✓ | Short more common | | 待たせられる | 待たされる ✓ | Both common | | 食べさせられる | — | Ichidan: long only |\n\nShort form preferred in conversation!"
+      },
+      {
+        "level": 2,
+        "heading": "Common Mistakes",
+        "content": "",
+        "children": [
+          {
+            "level": 3,
+            "heading": "Mistake 1: Using Short Form with Ichidan",
+            "content": "Wrong: 食べさされる ❌ Right: 食べさせられる ✓ Wrong: 見さされる ❌ Right: 見させられる ✓"
+          },
+          {
+            "level": 3,
+            "heading": "Mistake 2: Wrong Particle",
+            "content": "Wrong: 母を掃除させられた ❌ Right: 母に掃除させられた ✓ \"I was made by mother to clean\""
+          },
+          {
+            "level": 3,
+            "heading": "Mistake 3: Confusing with Simple Passive",
+            "content": "食べられる - \"be eaten\" (passive) 食べさせられる - \"be made to eat\" (causative-passive) 叱られる - \"be scolded\" (passive) 叱らされる - \"be made to scold\" (causative-passive)"
+          },
+          {
+            "level": 3,
+            "heading": "Mistake 4: Unnecessary Causative-Passive",
+            "content": "Unnatural: 行かされた Better: 行った / 行かなければならなかった \"I went / I had to go\"\n\nUse only when emphasizing being forced!"
+          }
+        ]
+      },
+      {
+        "level": 2,
+        "heading": "Conversation Examples",
+        "content": "",
+        "children": [
+          {
+            "level": 3,
+            "heading": "Example 1: Complaining About Work",
+            "content": "A: 最近仕事どう？ \"How's work lately?\" B: 大変。毎日残業させられてる \"Tough. I'm made to work overtime every day\" A: それはきついね \"That's rough\" B: 本当に。早く帰りたい \"Really. I want to go home early\""
+          },
+          {
+            "level": 3,
+            "heading": "Example 2: Childhood Memories",
+            "content": "A: 子供の時、何させられた？ \"What were you made to do as a child?\" B: ピアノを習わされた \"I was made to learn piano\" A: 好きだった？ \"Did you like it?\" B: 全然。嫌いだった \"Not at all. I hated it\""
+          },
+          {
+            "level": 3,
+            "heading": "Example 3: School Life",
+            "content": "A: 昨日なんで遅かったの？ \"Why were you late yesterday?\" B: 先生に掃除させられた \"I was made to clean by the teacher\" A: 何で？ \"Why?\" B: 宿題を忘れたから \"Because I forgot my homework\""
+          }
+        ]
+      },
+      {
+        "level": 2,
+        "heading": "Emphasis on Suffering",
+        "content": "Causative-passive often implies complaint:\n\n3時間も待たされた！ \"I was made to wait for 3 whole hours!\" 毎日同じことをさせられる \"I'm made to do the same thing every day\" 嫌なことばかりやらされる \"I'm only made to do things I hate\""
+      },
+      {
+        "level": 2,
+        "heading": "With も (emphasis)",
+        "content": "5回も書き直しさせられた \"I was made to rewrite it 5 times!\" 10ページも読まされた \"I was made to read 10 whole pages!\""
+      },
+      {
+        "level": 2,
+        "heading": "Causative-Passive in Context",
+        "content": "",
+        "children": [
+          {
+            "level": 3,
+            "heading": "Workplace",
+            "content": "上司に無理なスケジュールをやらされる \"I'm made to do an unreasonable schedule by my boss\" 休日出勤させられた \"I was made to come to work on a holiday\""
+          },
+          {
+            "level": 3,
+            "heading": "School",
+            "content": "先生に作文を書かされた \"I was made to write an essay by the teacher\" みんなの前で発表させられた \"I was made to present in front of everyone\""
+          },
+          {
+            "level": 3,
+            "heading": "Home",
+            "content": "親に部屋を掃除させられる \"I'm made to clean my room by my parents\" 弟の世話をさせられる \"I'm made to take care of my little brother\""
+          }
+        ]
+      },
+      {
+        "level": 2,
+        "heading": "Key Takeaways",
+        "content": "✓ Causative-passive = being made to do ✓ Godan short: -u → -asareru (common) ✓ Godan long: -u → -aserareru ✓ Ichidan: -ru → -saserareru (no short) ✓ Emphasizes being forced ✓ Often implies complaint/suffering ✓ Person forced uses は/が ✓ Person forcing uses に ✓ Short form preferred in speech\n\nMaster causative-passive - express being forced naturally!\n\nNext: Ba-conditional\n\nRelated:\n\nCausative Form Passive Form Verb Groups",
+        "children": [
+          {
+            "level": 3,
+            "heading": "Company",
+            "content": "About Pricing Blog Contact"
+          },
+          {
+            "level": 3,
+            "heading": "Legal",
+            "content": "Privacy Policy Terms of Service Cookie Policy"
+          }
+        ]
+      }
+    ],
+    "examples": [
+      {
+        "sentence": "Causative Form"
+      },
+      {
+        "sentence": "Passive Form"
+      },
+      {
+        "sentence": "Verb Groups"
+      },
+      {
+        "sentence": "About"
+      },
+      {
+        "sentence": "Pricing"
+      },
+      {
+        "sentence": "Blog"
+      },
+      {
+        "sentence": "Contact"
+      },
+      {
+        "sentence": "Privacy Policy"
+      },
+      {
+        "sentence": "Terms of Service"
+      },
+      {
+        "sentence": "Cookie Policy"
+      }
+    ],
+    "metadata": {
+      "title": "Causative-Passive Form"
+    }
+  },
+  "metadata": {
+    "extracted_at": "2026-01-01T22:19:37.646728900Z",
+    "duration_ms": 4,
+    "extractors_matched": [
+      "metadata",
+      "examples",
+      "sections"
+    ],
+    "extractors_failed": [
+      "vocab_tables",
+      "definitions",
+      "content_blocks"
+    ]
+  }
+}

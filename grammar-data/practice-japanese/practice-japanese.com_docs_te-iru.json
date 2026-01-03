@@ -1,0 +1,347 @@
+{
+  "config_name": "Language Learning Extractor",
+  "url": "https://practice-japanese.com/docs/te-iru/",
+  "data": {
+    "metadata": {
+      "title": "〜ている (Progressive/State)"
+    },
+    "examples": [
+      {
+        "sentence": "Te-form Conjugation - How to form te-form"
+      },
+      {
+        "sentence": "〜てある (te-aru) - Resultant state (comparison)"
+      },
+      {
+        "sentence": "〜ています vs 〜てある - Detailed comparison"
+      },
+      {
+        "sentence": "〜ていく (te-iku) - Progressive direction"
+      },
+      {
+        "sentence": "〜てくる (te-kuru) - Motion towards"
+      },
+      {
+        "sentence": "Present Tense Usage - Simple present vs. ている"
+      },
+      {
+        "sentence": "About"
+      },
+      {
+        "sentence": "Pricing"
+      },
+      {
+        "sentence": "Blog"
+      },
+      {
+        "sentence": "Contact"
+      },
+      {
+        "sentence": "Privacy Policy"
+      },
+      {
+        "sentence": "Terms of Service"
+      },
+      {
+        "sentence": "Cookie Policy"
+      }
+    ],
+    "sections": [
+      {
+        "level": 2,
+        "heading": "Contenuto in lavorazione...",
+        "content": "title: \"〜ている (Progressive/State)\" description: \"Master 〜ている (te-iru) form in Japanese. Learn progressive actions, states, and habitual actions using this essential pattern.\" category: \"Te-form Patterns\" order: 1 keywords: [ \"ている te-iru\", \"japanese progressive\", \"present continuous\", \"state verbs japanese\", \"te-form iru\", ] lastUpdated: \"2025-01-15\""
+      },
+      {
+        "level": 2,
+        "heading": "What is 〜ている (te-iru)?",
+        "content": "〜ている is one of the most important patterns in Japanese, formed by adding いる to the te-form of a verb. It expresses ongoing actions, current states, and habitual actions.\n\n[Verb te-form] + いる 食べている \"is eating / am eating\" 住んでいる \"live / am living\""
+      },
+      {
+        "level": 2,
+        "heading": "Formation",
+        "content": "",
+        "children": [
+          {
+            "level": 3,
+            "heading": "Basic Pattern",
+            "content": "Verb (te-form) + いる/います Plain: 〜ている Polite: 〜ています 食べている / 食べています \"is eating\" 読んでいる / 読んでいます \"is reading\""
+          }
+        ]
+      },
+      {
+        "level": 2,
+        "heading": "Three Main Uses",
+        "content": "",
+        "children": [
+          {
+            "level": 3,
+            "heading": "1. Progressive Action (In Progress)",
+            "content": "Actions happening right now.\n\n今、勉強している \"I'm studying now\" 彼は寝ている \"He is sleeping\" 雨が降っている \"It is raining\" 友達と話している \"I'm talking with a friend\" テレビを見ている \"I'm watching TV\""
+          },
+          {
+            "level": 3,
+            "heading": "2. Resultant State",
+            "content": "The result of an action that continues.\n\n結婚している \"is married\" (got married and still is) 知っている \"know\" (came to know and still know) 窓が開いている \"the window is open\" (was opened and remains open) 壊れている \"is broken\" (broke and is still broken) 太っている \"is fat\" (gained weight and remains so)"
+          },
+          {
+            "level": 3,
+            "heading": "3. Habitual Action",
+            "content": "Regular, repeated actions.\n\n毎日走っている \"I run every day\" 東京に住んでいる \"I live in Tokyo\" 大学で働いている \"I work at a university\" 日本語を勉強している \"I'm studying Japanese\" (as an ongoing pursuit)"
+          }
+        ]
+      },
+      {
+        "level": 2,
+        "heading": "State Verbs (Resultant State)",
+        "content": "Some verbs typically express states rather than actions.",
+        "children": [
+          {
+            "level": 3,
+            "heading": "Common State Verbs",
+            "content": "知っている - know 持っている - have/possess 住んでいる - live (in a place) 勤めている - work (at a company) 結婚している - be married 似ている - resemble 太っている - be fat 痩せている - be thin 困っている - be troubled 信じている - believe"
+          },
+          {
+            "level": 3,
+            "heading": "Examples",
+            "content": "彼女のことを知っている \"I know her\" 車を持っている \"I have a car\" 大阪に住んでいる \"I live in Osaka\" 銀行に勤めている \"I work at a bank\" 田中さんは結婚している \"Tanaka is married\""
+          }
+        ]
+      },
+      {
+        "level": 2,
+        "heading": "Negative Form",
+        "content": "",
+        "children": [
+          {
+            "level": 3,
+            "heading": "〜ていない (Plain)",
+            "content": "食べていない \"is not eating / hasn't eaten\" 知らない \"don't know\" 住んでいない \"don't live\" 働いていない \"is not working\""
+          },
+          {
+            "level": 3,
+            "heading": "〜ていません (Polite)",
+            "content": "食べていません \"is not eating\" 知りません \"don't know\" 住んでいません \"don't live\" 働いていません \"is not working\""
+          }
+        ]
+      },
+      {
+        "level": 2,
+        "heading": "Past Form",
+        "content": "",
+        "children": [
+          {
+            "level": 3,
+            "heading": "〜ていた (Plain past)",
+            "content": "食べていた \"was eating / had eaten\" 勉強していた \"was studying\" 住んでいた \"lived / was living\" 知っていた \"knew\""
+          },
+          {
+            "level": 3,
+            "heading": "〜ていました (Polite past)",
+            "content": "食べていました \"was eating\" 勉強していました \"was studying\" 住んでいました \"lived\" 知っていました \"knew\""
+          }
+        ]
+      },
+      {
+        "level": 2,
+        "heading": "Question Forms",
+        "content": "",
+        "children": [
+          {
+            "level": 3,
+            "heading": "Present Questions",
+            "content": "何をしていますか？ \"What are you doing?\" どこに住んでいますか？ \"Where do you live?\" 知っていますか？ \"Do you know?\" 仕事をしていますか？ \"Are you working?\""
+          },
+          {
+            "level": 3,
+            "heading": "Past Questions",
+            "content": "何をしていましたか？ \"What were you doing?\" どこに住んでいましたか？ \"Where did you live?\" 知っていましたか？ \"Did you know?\""
+          }
+        ]
+      },
+      {
+        "level": 2,
+        "heading": "Common Contractions",
+        "content": "In casual speech, ている often contracts:\n\nしている → してる 食べている → 食べてる 読んでいる → 読んでる 知っている → 知ってる 住んでいる → 住んでる Examples: 何してる？ \"What are you doing?\" 知ってる？ \"Do you know?\" 東京に住んでる \"I live in Tokyo\""
+      },
+      {
+        "level": 2,
+        "heading": "Time Markers with 〜ている",
+        "content": "",
+        "children": [
+          {
+            "level": 3,
+            "heading": "今 (now)",
+            "content": "今、勉強している \"I'm studying now\" 今、何をしていますか？ \"What are you doing now?\""
+          },
+          {
+            "level": 3,
+            "heading": "今〜ている最中だ (in the middle of)",
+            "content": "今、食事をしている最中だ \"I'm in the middle of eating\""
+          },
+          {
+            "level": 3,
+            "heading": "もう (already)",
+            "content": "もう知っている \"I already know\" もう結婚している \"I'm already married\""
+          },
+          {
+            "level": 3,
+            "heading": "まだ (still/yet)",
+            "content": "まだ寝ている \"still sleeping\" まだ知らない \"don't know yet\""
+          }
+        ]
+      },
+      {
+        "level": 2,
+        "heading": "Verbs of Wearing/Carrying",
+        "content": "These verbs use ている for wearing or carrying items:\n\n着ている - be wearing (clothes) 履いている - be wearing (shoes/pants) 被っている - be wearing (hat) かけている - be wearing (glasses) 持っている - be holding/carrying Examples: 赤いシャツを着ている \"I'm wearing a red shirt\" めがねをかけている \"I'm wearing glasses\" かばんを持っている \"I'm carrying a bag\""
+      },
+      {
+        "level": 2,
+        "heading": "Common Conversations",
+        "content": "",
+        "children": [
+          {
+            "level": 3,
+            "heading": "Example 1: Current Activity",
+            "content": "A: 今、何をしていますか？ \"What are you doing now?\" B: 宿題をしています \"I'm doing homework\" A: 難しいですか？ \"Is it difficult?\" B: はい、ちょっと難しいです \"Yes, it's a bit difficult\""
+          },
+          {
+            "level": 3,
+            "heading": "Example 2: Where Someone Lives",
+            "content": "A: どこに住んでいますか？ \"Where do you live?\" B: 東京に住んでいます \"I live in Tokyo\" A: いつから住んでいますか？ \"Since when have you been living there?\" B: 3年前から住んでいます \"I've been living there since 3 years ago\""
+          },
+          {
+            "level": 3,
+            "heading": "Example 3: Checking Knowledge",
+            "content": "A: 田中さんを知っていますか？ \"Do you know Tanaka?\" B: はい、知っています \"Yes, I know him/her\" A: どこで知りましたか？ \"Where did you meet?\" B: 大学で知りました \"I met him/her at university\""
+          }
+        ]
+      },
+      {
+        "level": 2,
+        "heading": "Common Mistakes",
+        "content": "",
+        "children": [
+          {
+            "level": 3,
+            "heading": "Mistake 1: Using ている with action verbs as simple present",
+            "content": "Context: Daily routine Wrong: 毎日学校に行っている ⚠️ Better: 毎日学校に行く ✓ \"I go to school every day\" Note: For simple habitual facts, plain form is often more natural However, 毎日走っている \"I run every day\" is acceptable"
+          },
+          {
+            "level": 3,
+            "heading": "Mistake 2: Forgetting ている with state meanings",
+            "content": "Wrong: 東京に住む (when meaning current state) ❌ Right: 東京に住んでいる ✓ \"I live in Tokyo\" Wrong: 知る ❌ Right: 知っている ✓ \"I know\""
+          },
+          {
+            "level": 3,
+            "heading": "Mistake 3: Using ている with する incorrectly",
+            "content": "Wrong: している (without object) ❌ Right: 何をしていますか？ ✓ \"What are you doing?\""
+          },
+          {
+            "level": 3,
+            "heading": "Mistake 4: Double te-form",
+            "content": "Wrong: 食べてている ❌ Right: 食べている ✓ \"is eating\""
+          }
+        ]
+      },
+      {
+        "level": 2,
+        "heading": "Special Cases",
+        "content": "",
+        "children": [
+          {
+            "level": 3,
+            "heading": "行っている/来ている (gone and not returned)",
+            "content": "父は会社に行っている \"My father has gone to work\" (and is still there) 友達が来ている \"A friend has come\" (and is still here)"
+          },
+          {
+            "level": 3,
+            "heading": "Difference from English Progressive",
+            "content": "English present progressive can be future in Japanese:\n\nEnglish: \"I'm going tomorrow\" Japanese: 明日行く (NOT 明日行っている) \"I'll go tomorrow\""
+          }
+        ]
+      },
+      {
+        "level": 2,
+        "heading": "With Frequency Adverbs",
+        "content": "いつも働いている \"always working\" よく読んでいる \"often reading\" たまに会っている \"occasionally meeting\" 毎日勉強している \"studying every day\""
+      },
+      {
+        "level": 2,
+        "heading": "Stative vs. Progressive",
+        "content": "",
+        "children": [
+          {
+            "level": 3,
+            "heading": "Progressive (Action)",
+            "content": "食べている \"is eating\" (right now) 走っている \"is running\" (right now)"
+          },
+          {
+            "level": 3,
+            "heading": "State (Result)",
+            "content": "住んでいる \"live\" (state of residing) 知っている \"know\" (state of knowledge)"
+          }
+        ]
+      },
+      {
+        "level": 2,
+        "heading": "Practice Sentences",
+        "content": "",
+        "children": [
+          {
+            "level": 3,
+            "heading": "Progressive Actions",
+            "content": "今、何をしていますか？ \"What are you doing now?\" 本を読んでいます \"I'm reading a book\" 友達と電話で話している \"I'm talking with a friend on the phone\" 雨が降っている \"It's raining\""
+          },
+          {
+            "level": 3,
+            "heading": "States",
+            "content": "日本語を勉強している \"I'm studying Japanese\" (ongoing) 東京に住んでいます \"I live in Tokyo\" 田中さんを知っています \"I know Tanaka\" 車を持っている \"I have a car\" めがねをかけている \"I'm wearing glasses\""
+          },
+          {
+            "level": 3,
+            "heading": "Past Progressive",
+            "content": "昨日の夜、何をしていましたか？ \"What were you doing last night?\" テレビを見ていました \"I was watching TV\" 友達と遊んでいた \"I was playing with friends\""
+          },
+          {
+            "level": 3,
+            "heading": "Negative",
+            "content": "今、勉強していません \"I'm not studying now\" 彼のことは知らない \"I don't know him\" ここには住んでいません \"I don't live here\""
+          }
+        ]
+      },
+      {
+        "level": 2,
+        "heading": "Related Grammar Points",
+        "content": "Te-form Conjugation - How to form te-form 〜てある (te-aru) - Resultant state (comparison) 〜ています vs 〜てある - Detailed comparison 〜ていく (te-iku) - Progressive direction 〜てくる (te-kuru) - Motion towards Present Tense Usage - Simple present vs. ている",
+        "children": [
+          {
+            "level": 3,
+            "heading": "Company",
+            "content": "About Pricing Blog Contact"
+          },
+          {
+            "level": 3,
+            "heading": "Legal",
+            "content": "Privacy Policy Terms of Service Cookie Policy"
+          }
+        ]
+      }
+    ]
+  },
+  "metadata": {
+    "extracted_at": "2026-01-01T22:19:35.565911200Z",
+    "duration_ms": 3,
+    "extractors_matched": [
+      "metadata",
+      "examples",
+      "sections"
+    ],
+    "extractors_failed": [
+      "vocab_tables",
+      "definitions",
+      "content_blocks"
+    ]
+  }
+}

@@ -1,0 +1,344 @@
+{
+  "config_name": "Language Learning Extractor",
+  "url": "https://practice-japanese.com/docs/te-shimau-detail/",
+  "data": {
+    "metadata": {
+      "title": "〜てしまう (Has ended up)"
+    },
+    "examples": [
+      {
+        "sentence": "てしまう expresses completion or regret"
+      },
+      {
+        "sentence": "Formation: [Verb て-form] + しまう"
+      },
+      {
+        "sentence": "Two main meanings: complete action / unfortunate outcome"
+      },
+      {
+        "sentence": "Shows finality and irreversibility"
+      },
+      {
+        "sentence": "Often implies regret or unintended result"
+      },
+      {
+        "sentence": "Casual forms: ちゃう (てしまう), じゃう (でしまう)"
+      },
+      {
+        "sentence": "Common with: 忘れる, 壊す, 食べる, 使う, 死ぬ"
+      },
+      {
+        "sentence": "Volitional: しまおう \"let's finish\""
+      },
+      {
+        "sentence": "Used in apologies and expressing regret"
+      },
+      {
+        "sentence": "Different from simple past (more emphasis)"
+      },
+      {
+        "sentence": "Essential for expressing completion and regret"
+      },
+      {
+        "sentence": "About"
+      },
+      {
+        "sentence": "Pricing"
+      },
+      {
+        "sentence": "Blog"
+      },
+      {
+        "sentence": "Contact"
+      },
+      {
+        "sentence": "Privacy Policy"
+      },
+      {
+        "sentence": "Terms of Service"
+      },
+      {
+        "sentence": "Cookie Policy"
+      }
+    ],
+    "sections": [
+      {
+        "level": 2,
+        "heading": "What is 〜てしまう?",
+        "content": "〜てしまう (te shimau) expresses complete action or regret about something that happened. It indicates finality, completion, or an unfortunate/irreversible outcome.\n\nEnglish equivalent: \"have completely done,\" \"end up doing,\" \"unfortunately\"\n\nStructure: [Verb て-form] + しまう\n\n食べる (taberu - eat) → 食べて + しまう = 食べてしまう \"eat up completely\" / \"end up eating\" 忘れる (wasureru - forget) → 忘れて + しまう = 忘れてしまう \"completely forget\" / \"end up forgetting\" 壊れる (kowareru - break) → 壊れて + しまう = 壊れてしまう \"end up broken\" / \"get completely broken\""
+      },
+      {
+        "level": 2,
+        "heading": "Basic Formation",
+        "content": "",
+        "children": [
+          {
+            "level": 3,
+            "heading": "With verbs",
+            "content": "[Verb て-form] + しまう\n\n食べてしまう (tabete shimau) - \"eat completely\" 忘れてしまう (wasurete shimau) - \"forget completely\" 死んでしまう (shinde shimau) - \"die\" / \"end up dying\" 行ってしまう (itte shimau) - \"go away\" / \"leave\""
+          }
+        ]
+      },
+      {
+        "level": 2,
+        "heading": "Expressing Completion",
+        "content": "",
+        "children": [
+          {
+            "level": 3,
+            "heading": "Finished action",
+            "content": "全部食べてしまった。 Zenbu tabete shimatta. \"I ate it all up.\" 本を読んでしまった。 Hon wo yonde shimatta. \"I finished reading the book.\" 宿題をやってしまおう。 Shukudai wo yatte shimaou. \"Let's finish the homework.\" もう使ってしまった。 Mou tsukatte shimatta. \"I already used it up.\""
+          }
+        ]
+      },
+      {
+        "level": 2,
+        "heading": "Expressing Regret",
+        "content": "",
+        "children": [
+          {
+            "level": 3,
+            "heading": "Unfortunate outcomes",
+            "content": "忘れてしまった。 Wasurete shimatta. \"I forgot.\" (regrettably) 壊してしまった。 Kowashite shimatta. \"I broke it.\" (unfortunately) 寝てしまった。 Nete shimatta. \"I fell asleep.\" (unintentionally) 間違えてしまった。 Machigaete shimatta. \"I made a mistake.\" (unfortunately) 言ってしまった。 Itte shimatta. \"I said it.\" (I shouldn't have)"
+          }
+        ]
+      },
+      {
+        "level": 2,
+        "heading": "Irreversible Changes",
+        "content": "",
+        "children": [
+          {
+            "level": 3,
+            "heading": "Can't undo",
+            "content": "死んでしまった。 Shinde shimatta. \"It died.\" / \"They died.\" 壊れてしまった。 Kowarete shimatta. \"It broke.\" (irreversibly) 消えてしまった。 Kiete shimatta. \"It disappeared.\" (completely) 終わってしまった。 Owatte shimatta. \"It's finished.\" (all over)"
+          }
+        ]
+      },
+      {
+        "level": 2,
+        "heading": "Casual Contraction: 〜ちゃう/〜じゃう",
+        "content": "",
+        "children": [
+          {
+            "level": 3,
+            "heading": "Shortened forms",
+            "content": "てしまう → ちゃう でしまう → じゃう\n\nちゃう examples:\n\n食べてしまう → 食べちゃう (tabechau) 忘れてしまう → 忘れちゃう (wasurechau) 行ってしまう → 行っちゃう (itchau) やってしまう → やっちゃう (yatchau) 忘れちゃった。 Wasurechatta. \"I forgot.\" (casual) 食べちゃった。 Tabechatta. \"I ate it.\" (casual)\n\nじゃう examples:\n\n読んでしまう → 読んじゃう (yonjau) 飲んでしまう → 飲んじゃう (nonjau) 死んでしまう → 死んじゃう (shinjau) 読んじゃった。 Yonjatta. \"I read it.\" (casual) 飲んじゃった。 Nonjatta. \"I drank it.\" (casual)"
+          }
+        ]
+      },
+      {
+        "level": 2,
+        "heading": "Past Tense",
+        "content": "",
+        "children": [
+          {
+            "level": 3,
+            "heading": "Already happened",
+            "content": "もう食べてしまった。 Mou tabete shimatta. \"I already ate it up.\" 壊してしまいました。 Kowashite shimaimashita. \"I broke it.\" (polite, regretful) 全部使ってしまった。 Zenbu tsukatte shimatta. \"I used it all up.\""
+          }
+        ]
+      },
+      {
+        "level": 2,
+        "heading": "With Negative Meaning",
+        "content": "",
+        "children": [
+          {
+            "level": 3,
+            "heading": "Unintended actions",
+            "content": "寝てしまった。 Nete shimatta. \"I fell asleep.\" (when I shouldn't have) 笑ってしまった。 Waratte shimatta. \"I laughed.\" (couldn't help it) 泣いてしまった。 Naite shimatta. \"I cried.\" (couldn't help it) 怒ってしまった。 Okotte shimatta. \"I got angry.\" (regrettably)"
+          }
+        ]
+      },
+      {
+        "level": 2,
+        "heading": "Volitional Form",
+        "content": "",
+        "children": [
+          {
+            "level": 3,
+            "heading": "Let's finish it",
+            "content": "やってしまおう。 Yatte shimaou. \"Let's get it done.\" 食べてしまおう。 Tabete shimaou. \"Let's eat it all up.\" 今日中に終わらせてしまおう。 Kyou juu ni owarasete shimaou. \"Let's finish it today.\""
+          }
+        ]
+      },
+      {
+        "level": 2,
+        "heading": "With Unpleasant Events",
+        "content": "",
+        "children": [
+          {
+            "level": 3,
+            "heading": "Bad things happening",
+            "content": "雨が降ってしまった。 Ame ga futte shimatta. \"It ended up raining.\" (unfortunately) 病気になってしまった。 Byouki ni natte shimatta. \"I got sick.\" (unfortunately) 失敗してしまった。 Shippai shite shimatta. \"I failed.\" (regrettably) 遅れてしまった。 Okurete shimatta. \"I was late.\" (unfortunately)"
+          }
+        ]
+      },
+      {
+        "level": 2,
+        "heading": "Expressing Finality",
+        "content": "",
+        "children": [
+          {
+            "level": 3,
+            "heading": "No going back",
+            "content": "もう決めてしまった。 Mou kimete shimatta. \"I already decided.\" (it's final) 捨ててしまった。 Sutete shimatta. \"I threw it away.\" (it's gone) 別れてしまった。 Wakarete shimatta. \"We broke up.\" (it's over)"
+          }
+        ]
+      },
+      {
+        "level": 2,
+        "heading": "Polite Forms",
+        "content": "Casual: 食べてしまう / 食べちゃう Polite: 食べてしまいます Past casual: 食べてしまった / 食べちゃった Past polite: 食べてしまいました 忘れてしまいました。 Wasurete shimaimashita. \"I forgot.\" (polite) 壊してしまいました。 Kowashite shimaimashita. \"I broke it.\" (polite, apologetic)"
+      },
+      {
+        "level": 2,
+        "heading": "Apologizing with てしまう",
+        "content": "",
+        "children": [
+          {
+            "level": 3,
+            "heading": "Expressing regret",
+            "content": "ごめん、忘れちゃった。 Gomen, wasurechatta. \"Sorry, I forgot.\" すみません、遅れてしまいました。 Sumimasen, okurete shimaimashita. \"I'm sorry I was late.\" 間違えてしまって、申し訳ございません。 Machigaete shimatte, moushiwake gozaimasen. \"I apologize for making a mistake.\""
+          }
+        ]
+      },
+      {
+        "level": 2,
+        "heading": "With しまった! Exclamation",
+        "content": "",
+        "children": [
+          {
+            "level": 3,
+            "heading": "Realization of mistake",
+            "content": "しまった！ Shimatta! \"Oh no!\" / \"Damn!\" しまった！忘れた！ Shimatta! Wasureta! \"Oh no! I forgot!\" しまった！鍵を忘れてしまった！ Shimatta! Kagi wo wasurete shimatta! \"Oh no! I forgot my keys!\""
+          }
+        ]
+      },
+      {
+        "level": 2,
+        "heading": "Neutral Completion (No Regret)",
+        "content": "",
+        "children": [
+          {
+            "level": 3,
+            "heading": "Just finished",
+            "content": "宿題をやってしまった。 Shukudai wo yatte shimatta. \"I finished the homework.\" (neutral) 掃除してしまおう。 Souji shite shimaou. \"Let's finish cleaning.\" 全部読んでしまった。 Zenbu yonde shimatta. \"I read it all.\" (no regret implied)"
+          }
+        ]
+      },
+      {
+        "level": 2,
+        "heading": "Common Verbs with てしまう",
+        "content": "忘れてしまう (wasurete shimau) - \"forget completely\" 壊してしまう (kowashite shimau) - \"break unfortunately\" 食べてしまう (tabete shimau) - \"eat up completely\" 使ってしまう (tsukatte shimau) - \"use up\" 死んでしまう (shinde shimau) - \"die\" 終わってしまう (owatte shimau) - \"finish completely\" なくしてしまう (nakushite shimau) - \"lose completely\" 言ってしまう (itte shimau) - \"say (regrettably)\" 行ってしまう (itte shimau) - \"go away\" 帰ってしまう (kaette shimau) - \"go home/return\""
+      },
+      {
+        "level": 2,
+        "heading": "Comparing Completion Types",
+        "content": "",
+        "children": [
+          {
+            "level": 3,
+            "heading": "てしまう vs other patterns",
+            "content": "てしまう - Complete with finality/regret:\n\n食べてしまった。 Tabete shimatta. \"I ate it all up.\" (with emphasis on completion/regret)\n\nている - Ongoing/current state:\n\n食べている。 Tabete iru. \"I'm eating.\"\n\nた - Simple past:\n\n食べた。 Tabeta. \"I ate.\" (neutral)\n\n| Pattern | Nuance | Example | | -------- | ------------------------ | -------------- | | てしまう | Complete/regret/finality | 食べてしまった | | た | Simple past (neutral) | 食べた | | ている | Ongoing/state | 食べている |"
+          }
+        ]
+      },
+      {
+        "level": 2,
+        "heading": "Time and Speed Implications",
+        "content": "",
+        "children": [
+          {
+            "level": 3,
+            "heading": "Quick completion",
+            "content": "あっという間に食べてしまった。 Atto iu ma ni tabete shimatta. \"I ate it up in no time.\" すぐ壊れてしまった。 Sugu kowarete shimatta. \"It broke right away.\" 一瞬で終わってしまった。 Isshun de owatte shimatta. \"It ended in an instant.\""
+          }
+        ]
+      },
+      {
+        "level": 2,
+        "heading": "With Potential Form",
+        "content": "",
+        "children": [
+          {
+            "level": 3,
+            "heading": "Ended up being able to",
+            "content": "できてしまった。 Dekite shimatta. \"I was able to do it.\" / \"It got done.\" 見えてしまった。 Miete shimatta. \"I ended up seeing it.\" (unintentionally) 聞こえてしまった。 Kikoete shimatta. \"I heard it.\" (unintentionally)"
+          }
+        ]
+      },
+      {
+        "level": 2,
+        "heading": "Negative Form",
+        "content": "",
+        "children": [
+          {
+            "level": 3,
+            "heading": "Didn't end up doing",
+            "content": "食べてしまわない。 Tabete shimawanai. \"Won't eat it all.\" 忘れてしまわないように。 Wasurete shimawanai you ni. \"So as not to forget.\" 壊してしまわないでください。 Kowashite shimawanai de kudasai. \"Please don't break it.\""
+          }
+        ]
+      },
+      {
+        "level": 2,
+        "heading": "Common Mistakes",
+        "content": "",
+        "children": [
+          {
+            "level": 3,
+            "heading": "Mistake 1: Using for positive outcomes only",
+            "content": "てしまう is often negative/regretful, but can also be neutral completion.\n\n✓ 全部食べてしまった (neutral - just finished) ✓ 壊してしまった (regret - unfortunately broke)"
+          },
+          {
+            "level": 3,
+            "heading": "Mistake 2: Wrong て-form",
+            "content": "❌ 飲みてしまう ✓ 飲んでしまう\n\nUse correct て-form: 飲む → 飲んで"
+          },
+          {
+            "level": 3,
+            "heading": "Mistake 3: Not recognizing contractions",
+            "content": "ちゃう = てしまう じゃう = でしまう\n\nThese are extremely common in casual speech."
+          },
+          {
+            "level": 3,
+            "heading": "Mistake 4: Confusing ちゃう with different verbs",
+            "content": "❌ 行きちゃう (wrong contraction) ✓ 行っちゃう (correct)\n\n食べる → 食べちゃう ✓ 行く → 行っちゃう ✓ 読む → 読んじゃう ✓"
+          }
+        ]
+      },
+      {
+        "level": 2,
+        "heading": "Summary",
+        "content": "Key Points:\n\nてしまう expresses completion or regret Formation: [Verb て-form] + しまう Two main meanings: complete action / unfortunate outcome Shows finality and irreversibility Often implies regret or unintended result Casual forms: ちゃう (てしまう), じゃう (でしまう) Common with: 忘れる, 壊す, 食べる, 使う, 死ぬ Volitional: しまおう \"let's finish\" Used in apologies and expressing regret Different from simple past (more emphasis) Essential for expressing completion and regret",
+        "children": [
+          {
+            "level": 3,
+            "heading": "Company",
+            "content": "About Pricing Blog Contact"
+          },
+          {
+            "level": 3,
+            "heading": "Legal",
+            "content": "Privacy Policy Terms of Service Cookie Policy"
+          }
+        ]
+      }
+    ]
+  },
+  "metadata": {
+    "extracted_at": "2026-01-01T22:19:36.220161700Z",
+    "duration_ms": 4,
+    "extractors_matched": [
+      "metadata",
+      "examples",
+      "sections"
+    ],
+    "extractors_failed": [
+      "vocab_tables",
+      "definitions",
+      "content_blocks"
+    ]
+  }
+}

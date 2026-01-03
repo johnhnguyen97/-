@@ -1,0 +1,229 @@
+{
+  "config_name": "Language Learning Extractor",
+  "url": "https://practice-japanese.com/docs/ni-yoru-to/",
+  "data": {
+    "metadata": {
+      "title": "〜によると (According to)"
+    },
+    "examples": [
+      {
+        "sentence": "によると means \"according to\""
+      },
+      {
+        "sentence": "Formation: [Source] + によると"
+      },
+      {
+        "sentence": "Used to cite information sources"
+      },
+      {
+        "sentence": "Common with: ニュース, 天気予報, 報告, 専門家"
+      },
+      {
+        "sentence": "Variations: によれば (formal), によりますと (polite)"
+      },
+      {
+        "sentence": "Often combined with そうだ for hearsay"
+      },
+      {
+        "sentence": "Different from について (about topic)"
+      },
+      {
+        "sentence": "Essential for reporting and citing sources ni yoru to) - \"according to the report\" 新聞によると (shinbun ni yoru to) - \"according to the newspaper\" 天気予報によると (tenki yohou ni yoru to) - \"according to the weather forecast\""
+      },
+      {
+        "sentence": "About"
+      },
+      {
+        "sentence": "Pricing"
+      },
+      {
+        "sentence": "Blog"
+      },
+      {
+        "sentence": "Contact"
+      },
+      {
+        "sentence": "Privacy Policy"
+      },
+      {
+        "sentence": "Terms of Service"
+      },
+      {
+        "sentence": "Cookie Policy"
+      }
+    ],
+    "sections": [
+      {
+        "level": 2,
+        "heading": "What is 〜によると?",
+        "content": "〜によると (ni yoru to) means \"according to\" and is used to cite sources of information. It indicates where information comes from, such as news, reports, people, or documents.\n\nEnglish equivalent: \"according to,\" \"based on,\" \"as reported by\"\n\nStructure: [Source] + によると\n\nニュース (nyuusu - news) + によると = ニュースによると \"according to the news\" 彼 (kare - he) + によると = 彼によると \"according to him\" 天気予報 (tenki yohou - weather forecast) + によると = 天気予報によると \"according to the weather forecast\""
+      },
+      {
+        "level": 2,
+        "heading": "Basic Formation",
+        "content": "",
+        "children": [
+          {
+            "level": 3,
+            "heading": "With information sources",
+            "content": "[Source] + によると\n\nニュースによると (nyuusu ni yoru to) - \"according to the news\" 報告によると (houkoku ni yoru to) - \"according to the report\" 彼/彼女によると (kare/kanojo ni yoru to) - \"according to him/her\" 専門家によると (senmonka ni yoru to) - \"according to experts\" 〜によれば (~ni yoreba) - \"according to\" (formal) 〜によりますと (~ni yorimasu to) - \"according to\" (polite)"
+          }
+        ]
+      },
+      {
+        "level": 2,
+        "heading": "Comparing によると and によれば",
+        "content": "",
+        "children": [
+          {
+            "level": 3,
+            "heading": "Formality difference",
+            "content": "によると - Standard:\n\nニュースによると、雨だ。 Nyuusu ni yoru to, ame da. \"According to the news, it's raining.\" (standard)\n\nによれば - Slightly more formal:\n\nニュースによれば、雨だ。 Nyuusu ni yoreba, ame da. \"According to the news, it's raining.\" (formal)\n\nBoth are commonly used and largely interchangeable."
+          }
+        ]
+      },
+      {
+        "level": 2,
+        "heading": "Hearsay with そうだ",
+        "content": "",
+        "children": [
+          {
+            "level": 3,
+            "heading": "Combining with reported information",
+            "content": "[Source] + によると + [Information] + そうだ = \"I heard that according to...\"\n\nニュースによると、事故があったそうだ。 Nyuusu ni yoru to, jiko ga atta sou da. \"I heard that according to the news, there was an accident.\" 天気予報によると、明日は雪が降るそうです。 Tenki yohou ni yoru to, ashita wa yuki ga furu sou desu. \"I heard that according to the weather forecast, it will snow tomorrow.\""
+          }
+        ]
+      },
+      {
+        "level": 2,
+        "heading": "Multiple Sources",
+        "content": "",
+        "children": [
+          {
+            "level": 3,
+            "heading": "Citing several sources",
+            "content": "新聞によると、また報告によると、経済は回復している。 Shinbun ni yoru to, mata houkoku ni yoru to, keizai wa kaifuku shite iru. \"According to the newspaper, and also according to reports, the economy is recovering.\" 専門家によると、医者によると、これは安全だ。 Senmonka ni yoru to, isha ni yoru to, kore wa anzen da. \"According to experts and doctors, this is safe.\""
+          }
+        ]
+      },
+      {
+        "level": 2,
+        "heading": "Sentence Position",
+        "content": "",
+        "children": [
+          {
+            "level": 3,
+            "heading": "Beginning or middle",
+            "content": "Beginning: ニュースによると、台風が来る。 Nyuusu ni yoru to, taifuu ga kuru. \"According to the news, a typhoon is coming.\" Middle: 台風が、ニュースによると、明日来る。 Taifuu ga, nyuusu ni yoru to, ashita kuru. \"The typhoon will, according to the news, come tomorrow.\""
+          }
+        ]
+      },
+      {
+        "level": 2,
+        "heading": "Comparing によると and について",
+        "content": "",
+        "children": [
+          {
+            "level": 3,
+            "heading": "According to vs about",
+            "content": "によると - According to (citing source):\n\nニュースによると、事故があった。 Nyuusu ni yoru to, jiko ga atta. \"According to the news, there was an accident.\" (citing source)\n\nについて - About (topic):\n\nニュースについて話す。 Nyuusu ni tsuite hanasu. \"Talk about the news.\" (topic)\n\n| Pattern | Meaning | Example | | -------- | ------------ | ---------------- | | によると | According to | ニュースによると | | について | About | ニュースについて |\n\nSee: 〜について (About)"
+          }
+        ]
+      },
+      {
+        "level": 2,
+        "heading": "Reliability and Uncertainty",
+        "content": "",
+        "children": [
+          {
+            "level": 3,
+            "heading": "Indicating source reliability",
+            "content": "信頼できる情報源によると、これは事実だ。 Shinrai dekiru jouhougen ni yoru to, kore wa jijitsu da. \"According to a reliable source, this is fact.\" 噂によると、彼は辞めるらしい。 Uwasa ni yoru to, kare wa yameru rashii. \"According to rumors, he seems to be quitting.\" 未確認の情報によると、事件が起きた。 Mikakunin no jouhou ni yoru to, jiken ga okita. \"According to unconfirmed information, an incident occurred.\""
+          }
+        ]
+      },
+      {
+        "level": 2,
+        "heading": "Formal Announcements",
+        "content": "",
+        "children": [
+          {
+            "level": 3,
+            "heading": "Official statements",
+            "content": "会社の発表によると、新製品が出る。 Kaisha no happyou ni yoru to, shinseihin ga deru. \"According to the company announcement, a new product will be released.\" 政府によると、法律が変わる。 Seifu ni yoru to, houritsu ga kawaru. \"According to the government, the law will change.\""
+          }
+        ]
+      },
+      {
+        "level": 2,
+        "heading": "Scientific and Academic",
+        "content": "",
+        "children": [
+          {
+            "level": 3,
+            "heading": "Research citations",
+            "content": "最新の研究によると、効果がある。 Saishin no kenkyuu ni yoru to, kouka ga aru. \"According to the latest research, it's effective.\" この論文によると、理論は正しい。 Kono ronbun ni yoru to, riron wa tadashii. \"According to this paper, the theory is correct.\" 実験結果によると、仮説は証明された。 Jikken kekka ni yoru to, kasetsu wa shoumei sareta. \"According to the experimental results, the hypothesis was proven.\""
+          }
+        ]
+      },
+      {
+        "level": 2,
+        "heading": "Common Mistakes",
+        "content": "",
+        "children": [
+          {
+            "level": 3,
+            "heading": "Mistake 1: Using with actions",
+            "content": "❌ 食べるによると ✓ 報告によると\n\nによると is for citing sources, not actions."
+          },
+          {
+            "level": 3,
+            "heading": "Mistake 2: Wrong particle",
+            "content": "❌ ニュースをによると ✓ ニュースによると\n\nNo を needed before に."
+          },
+          {
+            "level": 3,
+            "heading": "Mistake 3: Confusing with によって",
+            "content": "によると = according to (citing source) によって = by means of / depending on ニュースによると = according to the news 人によって = depending on the person"
+          },
+          {
+            "level": 3,
+            "heading": "Mistake 4: Using for personal opinions",
+            "content": "For personal opinions, use 思う, not によると.\n\n❌ 私によると、これは良い ✓ 私の意見では、これは良い ✓ 私は、これは良いと思う"
+          }
+        ]
+      },
+      {
+        "level": 2,
+        "heading": "Summary",
+        "content": "Key Points:\n\nによると means \"according to\" Formation: [Source] + によると Used to cite information sources Common with: ニュース, 天気予報, 報告, 専門家 Variations: によれば (formal), によりますと (polite) Often combined with そうだ for hearsay Different from について (about topic) Essential for reporting and citing sources ni yoru to) - \"according to the report\" 新聞によると (shinbun ni yoru to) - \"according to the newspaper\" 天気予報によると (tenki yohou ni yoru to) - \"according to the weather forecast\"\n\n### With people\n\n[Person] + によると\n\n彼によると (kare ni yoru to) - \"according to him\" 先生によると (sensei ni yoru to) - \"according to the teacher\" 専門家によると (senmonka ni yoru to) - \"according to experts\" 友達によると (tomodachi ni yoru to) - \"according to my friend\"\n\n## Citing News Sources ### Media reports\n\nニュースによると、地震があった。 Nyuusu ni yoru to, jishin ga atta. \"According to the news, there was an earthquake.\"\n\n新聞によると、明日は雨だ。 Shinbun ni yoru to, ashita wa ame da. \"According to the newspaper, it will rain tomorrow.\"\n\n最新の報道によると、事故の原因は不明だ。 Saishin no houdou ni yoru to, jiko no gen'in wa fumei da. \"According to the latest reports, the cause of the accident is unknown.\"\n\n## Weather Forecasts ### Meteorological information\n\n天気予報によると、明日は晴れです。 Tenki yohou ni yoru to, ashita wa hare desu. \"According to the weather forecast, it will be sunny tomorrow.\"\n\n気象庁によると、台風が接近している。 Kishouchou ni yoru to, taifuu ga sekkin shite iru. \"According to the Meteorological Agency, a typhoon is approaching.\"\n\n## Quoting People ### Personal sources\n\n彼によると、会議は延期された。 Kare ni yoru to, kaigi wa enki sareta. \"According to him, the meeting was postponed.\"\n\n先生によると、試験は来週だ。 Sensei ni yoru to, shiken wa raishuu da. \"According to the teacher, the exam is next week.\"\n\n友達によると、そのレストランは美味しい。 Tomodachi ni yoru to, sono resutoran wa oishii. \"According to my friend, that restaurant is delicious.\"\n\n## Official Reports ### Formal documentation\n\n政府の発表によると、経済は回復している。 Seifu no happyou ni yoru to, keizai wa kaifuku shite iru. \"According to the government announcement, the economy is recovering.\"\n\n研究によると、この方法が効果的だ。 Kenkyuu ni yoru to, kono houhou ga koukateki da. \"According to research, this method is effective.\"\n\n統計によると、人口は減少している。 toukei ni yoru to, jinkou wa genshou shite iru. \"According to statistics, the population is decreasing.\"\n\n## Variations ### Similar expressions\n\nによると (ni yoru to) - \"according to\" (most common) によれば (ni yoreba) - \"according to\" (slightly more formal) によりますと (ni yorimasu to) - \"according to\" (polite)\n\nニュースによれば、事故があった。 Nyuusu ni yoreba, jiko ga atta. \"According to the news, there was an accident.\"\n\n報告によりますと、問題はありません。 Houkoku ni yorimasu to, mondai wa arimasen. \"According to the report, there are no problems.\"\n\n## Expert Opinions ### Professional sources\n\n専門家によると、これは安全だ。 Senmonka ni yoru to, kore wa anzen da. \"According to experts, this is safe.\"\n\n医者によると、健康に問題はない。 Isha ni yoru to, kenkou ni mondai wa nai. \"According to the doctor, there are no health problems.\"\n\n科学者によると、これは可能だ。 Kagakusha ni yoru to, kore wa kanou da. \"According to scientists, this is possible.\"\n\n## Historical Information ### Documentary sources\n\n記録によると、この建物は 100 年前に建てられた。 Kiroku ni yoru to, kono tatemono wa hyakunen mae ni taterareta. \"According to records, this building was built 100 years ago.\"\n\n歴史によると、この戦争は 1945 年に終わった。 Rekishi ni yoru to, kono sensou wa 1945-nen ni owatta. \"According to history, this war ended in 1945.\"\n\n## Internet Sources ### Online information\n\nウェブサイトによると、営業時間は 10 時から 6 時だ。 Websaito ni yoru to, eigyou jikan wa juuji kara rokuji da. \"According to the website, business hours are 10 AM to 6 PM.\"\n\nネットの情報によると、このイベントは中止だ。 Netto no jouhou ni yoru to, kono ibento wa chuushi da. \"According to information on the internet, this event is canceled.\"\n\n## Polite Forms\n\n天気予報によりますと、明日は雨です。 Tenki yohou ni yorimasu to, ashita wa ame desu. \"According to the weather forecast, it will rain tomorrow.\"\n\nニュースによりますと、事故がありました。 Nyuusu ni yorimasu to, jiko ga arimashita. \"According to the news, there was an accident.\"\n\n## Common Expressions\n\nニュースによると (nyuusu ni yoru to) - \"according to the news\" 天気予報によると (tenki yohou ni yoru to) - \"according to weather forecast\" 新聞によると (shinbun ni yoru to) - \"according to the newspaper\" 報告によると (houkoku",
+        "children": [
+          {
+            "level": 3,
+            "heading": "Company",
+            "content": "About Pricing Blog Contact"
+          },
+          {
+            "level": 3,
+            "heading": "Legal",
+            "content": "Privacy Policy Terms of Service Cookie Policy"
+          }
+        ]
+      }
+    ]
+  },
+  "metadata": {
+    "extracted_at": "2026-01-01T22:19:32.327351400Z",
+    "duration_ms": 4,
+    "extractors_matched": [
+      "metadata",
+      "examples",
+      "sections"
+    ],
+    "extractors_failed": [
+      "vocab_tables",
+      "definitions",
+      "content_blocks"
+    ]
+  }
+}

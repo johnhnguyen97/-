@@ -1,0 +1,369 @@
+{
+  "config_name": "Language Learning Extractor",
+  "url": "https://practice-japanese.com/docs/adjective-adverb/",
+  "data": {
+    "metadata": {
+      "title": "Adjective Adverb Forms"
+    },
+    "sections": [
+      {
+        "level": 2,
+        "heading": "Adverb Forms Overview",
+        "content": "Japanese adjectives can become adverbs to modify verbs. The formation differs for i-adjectives and na-adjectives.\n\nI-adjective: 速い → 速く (quickly) Na-adjective: 静か → 静かに (quietly)"
+      },
+      {
+        "level": 2,
+        "heading": "I-adjective Adverb Form",
+        "content": "",
+        "children": [
+          {
+            "level": 3,
+            "heading": "Formation",
+            "content": "Change い to く\n\n速い (hayai) → 速く (hayaku) - quickly, fast 高い (takai) → 高く (takaku) - highly, expensively 美しい (utsukushii) → 美しく (utsukushiku) - beautifully 大きい (ookii) → 大きく (ookiku) - greatly, largely"
+          },
+          {
+            "level": 3,
+            "heading": "Common I-adjective Adverbs",
+            "content": "早い → 早く (hayaku) - early 遅い → 遅く (osoku) - late 近い → 近く (chikaku) - nearby, closely 遠い → 遠く (tooku) - far 強い → 強く (tsuyoku) - strongly 弱い → 弱く (yowaku) - weakly 多い → 多く (ooku) - many, much 少ない → 少なく (sukunaku) - few, little"
+          }
+        ]
+      },
+      {
+        "level": 2,
+        "heading": "Na-adjective Adverb Form",
+        "content": "",
+        "children": [
+          {
+            "level": 3,
+            "heading": "Formation",
+            "content": "Add に to the na-adjective\n\n静か (shizuka) → 静かに (shizuka ni) - quietly きれい (kirei) → きれいに (kirei ni) - beautifully, cleanly 丁寧 (teinei) → 丁寧に (teinei ni) - politely, carefully 真面目 (majime) → 真面目に (majime ni) - seriously 簡単 (kantan) → 簡単に (kantan ni) - simply, easily"
+          },
+          {
+            "level": 3,
+            "heading": "Common Na-adjective Adverbs",
+            "content": "上手 → 上手に (jouzu ni) - skillfully 下手 → 下手に (heta ni) - poorly, unskillfully 親切 → 親切に (shinsetsu ni) - kindly 元気 → 元気に (genki ni) - energetically, vigorously 便利 → 便利に (benri ni) - conveniently 安全 → 安全に (anzen ni) - safely"
+          }
+        ]
+      },
+      {
+        "level": 2,
+        "heading": "Usage Patterns",
+        "content": "",
+        "children": [
+          {
+            "level": 3,
+            "heading": "Modifying Verbs",
+            "content": "速く走る \"run fast\" 静かに話す \"speak quietly\" きれいに書く \"write neatly\" 丁寧に説明する \"explain politely/carefully\""
+          },
+          {
+            "level": 3,
+            "heading": "Modifying Entire Sentences",
+            "content": "早く帰ります \"I'll go home early\" 大きく育つ \"grow big/greatly\" 真面目に勉強する \"study seriously\""
+          }
+        ]
+      },
+      {
+        "level": 2,
+        "heading": "Special Case: いい/よい",
+        "content": "いい / よい → よく (well) よく分かる \"understand well\" よく寝る \"sleep well\" よく食べる \"eat well\""
+      },
+      {
+        "level": 2,
+        "heading": "Common Adverb Patterns",
+        "content": "",
+        "children": [
+          {
+            "level": 3,
+            "heading": "Speed/Manner",
+            "content": "速く (hayaku) - fast, quickly 遅く (osoku) - slowly, late ゆっくり (yukkuri) - slowly, leisurely 急いで (isoide) - hurriedly"
+          },
+          {
+            "level": 3,
+            "heading": "Degree",
+            "content": "高く (takaku) - highly 低く (hikuku) - lowly 大きく (ookiku) - greatly 小さく (chiisaku) - slightly 多く (ooku) - much, many 少なく (sukunaku) - few, little"
+          },
+          {
+            "level": 3,
+            "heading": "Quality",
+            "content": "美しく (utsukushiku) - beautifully きれいに (kirei ni) - beautifully, cleanly 上手に (jouzu ni) - skillfully 下手に (heta ni) - poorly"
+          },
+          {
+            "level": 3,
+            "heading": "Manner",
+            "content": "静かに (shizuka ni) - quietly にぎやかに (nigiyaka ni) - lively 丁寧に (teinei ni) - politely, carefully 親切に (shinsetsu ni) - kindly"
+          }
+        ]
+      },
+      {
+        "level": 2,
+        "heading": "Conversation Examples",
+        "content": "",
+        "children": [
+          {
+            "level": 3,
+            "heading": "Example 1: Instructions",
+            "content": "A: どう書けばいいですか？ \"How should I write it?\" B: もっと大きく書いてください \"Please write it bigger\" A: こうですか？ \"Like this?\" B: はい、そしてきれいに書いてください \"Yes, and please write it neatly\""
+          },
+          {
+            "level": 3,
+            "heading": "Example 2: Daily Actions",
+            "content": "A: 今朝早く起きた？ \"Did you wake up early this morning?\" B: うん、6時に起きた \"Yeah, I woke up at 6\" A: すごい！ \"Amazing!\" B: でも、ゆっくり朝ご飯を食べた \"But I ate breakfast slowly\""
+          },
+          {
+            "level": 3,
+            "heading": "Example 3: Requests",
+            "content": "A: ちょっと静かに話してください \"Please speak a little quietly\" B: すみません \"Sorry\" A: あと、もっとゆっくり話してください \"Also, please speak more slowly\" B: 分かりました \"Understood\""
+          }
+        ]
+      },
+      {
+        "level": 2,
+        "heading": "Using with する (to do/make)",
+        "content": "Many adverbs work with する:\n\n大きくする - make big, enlarge 小さくする - make small, reduce きれいにする - make clean, tidy up 静かにする - make quiet, be quiet 元気にする - cheer up, invigorate",
+        "children": [
+          {
+            "level": 3,
+            "heading": "Examples",
+            "content": "部屋をきれいにする \"clean/tidy up the room\" 音を小さくしてください \"Please turn down the volume\" みんなを元気にする \"cheer everyone up\""
+          }
+        ]
+      },
+      {
+        "level": 2,
+        "heading": "Using with なる (to become)",
+        "content": "Adverbs work with なる to express change:\n\n大きくなる - become big, grow 小さくなる - become small, shrink きれいになる - become clean/beautiful 静かになる - become quiet 元気になる - become healthy/energetic",
+        "children": [
+          {
+            "level": 3,
+            "heading": "Examples",
+            "content": "子供が大きくなった \"The child grew up\" 部屋がきれいになりました \"The room became clean\" 病気が治って元気になった \"I recovered from illness and became healthy\""
+          }
+        ]
+      },
+      {
+        "level": 2,
+        "heading": "Comparing Adjectives and Adverbs",
+        "content": "| Adjective | Adverb | Usage | | ---------- | ------------ | ------------------------------------ | | 速い車 | 速く走る | fast car / run fast | | 高い山 | 高く飛ぶ | tall mountain / fly high | | 静かな部屋 | 静かに話す | quiet room / speak quietly | | きれいな花 | きれいに咲く | beautiful flower / bloom beautifully |",
+        "children": [
+          {
+            "level": 3,
+            "heading": "Side by Side",
+            "content": "Adjective modifying noun: 速い車 \"fast car\" 静かな部屋 \"quiet room\" Adverb modifying verb: 速く走る \"run fast\" 静かに話す \"speak quietly\""
+          }
+        ]
+      },
+      {
+        "level": 2,
+        "heading": "Common Adverb Expressions",
+        "content": "",
+        "children": [
+          {
+            "level": 3,
+            "heading": "Daily Activities",
+            "content": "早く起きる - wake up early 遅く寝る - sleep late よく食べる - eat well ゆっくり歩く - walk slowly 速く走る - run fast"
+          },
+          {
+            "level": 3,
+            "heading": "Speaking/Communication",
+            "content": "静かに話す - speak quietly 大きく話す - speak loudly ゆっくり話す - speak slowly 丁寧に説明する - explain politely 親切に教える - teach kindly"
+          },
+          {
+            "level": 3,
+            "heading": "Writing/Creating",
+            "content": "きれいに書く - write neatly 大きく書く - write big 小さく書く - write small 美しく描く - draw beautifully"
+          }
+        ]
+      },
+      {
+        "level": 2,
+        "heading": "Degree Modifiers with Adverbs",
+        "content": "",
+        "children": [
+          {
+            "level": 3,
+            "heading": "もっと (more)",
+            "content": "もっと速く走って \"Run faster\" もっと静かにしてください \"Please be quieter\" もっときれいに書いて \"Write more neatly\""
+          },
+          {
+            "level": 3,
+            "heading": "とても / すごく (very)",
+            "content": "とても速く走る \"run very fast\" すごく静かに話す \"speak very quietly\""
+          },
+          {
+            "level": 3,
+            "heading": "あまり～ない (not very)",
+            "content": "あまり速く走らない \"don't run very fast\" あまり大きく書かない \"don't write very big\""
+          }
+        ]
+      },
+      {
+        "level": 2,
+        "heading": "Common Mistakes",
+        "content": "",
+        "children": [
+          {
+            "level": 3,
+            "heading": "Mistake 1: Using Adjective Instead of Adverb",
+            "content": "Wrong: 速い走る ❌ Right: 速く走る ✓ \"run fast\" Wrong: 静かな話す ❌ Right: 静かに話す ✓ \"speak quietly\""
+          },
+          {
+            "level": 3,
+            "heading": "Mistake 2: Wrong Adverb Form",
+            "content": "Wrong: 静かく話す ❌ Right: 静かに話す ✓ Wrong: きれいく書く ❌ Right: きれいに書く ✓"
+          },
+          {
+            "level": 3,
+            "heading": "Mistake 3: Using に with I-adjectives",
+            "content": "Wrong: 速いに走る ❌ Right: 速く走る ✓ Wrong: 大きいに書く ❌ Right: 大きく書く ✓"
+          },
+          {
+            "level": 3,
+            "heading": "Mistake 4: Using く with Na-adjectives",
+            "content": "Wrong: 静かく話す ❌ Right: 静かに話す ✓ Wrong: きれいく書く ❌ Right: きれいに書く ✓"
+          }
+        ]
+      },
+      {
+        "level": 2,
+        "heading": "Multiple Adverbs",
+        "content": "早く静かに起きる \"wake up early and quietly\" きれいに丁寧に書く \"write neatly and carefully\" ゆっくり大きく話す \"speak slowly and loudly\""
+      },
+      {
+        "level": 2,
+        "heading": "Negative Adverb Forms",
+        "content": "",
+        "children": [
+          {
+            "level": 3,
+            "heading": "I-adjectives",
+            "content": "高く → 高くなく (not highly) 速く → 速くなく (not fast) 高くなく飛ぶ \"fly not high\" 速くなく走る \"run not fast\""
+          },
+          {
+            "level": 3,
+            "heading": "Na-adjectives",
+            "content": "静かに → 静かにせず / 静かでなく きれいに → きれいにせず / きれいでなく"
+          }
+        ]
+      },
+      {
+        "level": 2,
+        "heading": "Idiomatic Adverb Expressions",
+        "content": "",
+        "children": [
+          {
+            "level": 3,
+            "heading": "よく (well, often)",
+            "content": "よく分かる \"understand well\" よく来る \"come often\" よく寝る \"sleep well\""
+          },
+          {
+            "level": 3,
+            "heading": "早く (early, quickly)",
+            "content": "早く来て \"Come quickly\" 早く帰る \"go home early\""
+          },
+          {
+            "level": 3,
+            "heading": "遠く (far)",
+            "content": "遠くから来る \"come from far away\" 遠くに見える \"can see far away\""
+          }
+        ]
+      },
+      {
+        "level": 2,
+        "heading": "Practice Patterns",
+        "content": "",
+        "children": [
+          {
+            "level": 3,
+            "heading": "Transformation Practice",
+            "content": "速い → 速く → 速く走る 高い → 高く → 高く飛ぶ 美しい → 美しく → 美しく咲く 静か → 静かに → 静かに話す きれい → きれいに → きれいに書く 丁寧 → 丁寧に → 丁寧に説明する"
+          }
+        ]
+      },
+      {
+        "level": 2,
+        "heading": "Using in Sentences",
+        "content": "",
+        "children": [
+          {
+            "level": 3,
+            "heading": "Commands",
+            "content": "もっと大きく書いて \"Write bigger\" 静かにしてください \"Please be quiet\" ゆっくり話してください \"Please speak slowly\""
+          },
+          {
+            "level": 3,
+            "heading": "Descriptions",
+            "content": "彼は速く走る \"He runs fast\" 彼女はきれいに歌う \"She sings beautifully\" 先生は丁寧に教える \"The teacher teaches carefully\""
+          },
+          {
+            "level": 3,
+            "heading": "Changes",
+            "content": "だんだん大きくなる \"gradually become big\" 急に静かになった \"suddenly became quiet\" 少しずつきれいになる \"gradually become clean/beautiful\""
+          }
+        ]
+      },
+      {
+        "level": 2,
+        "heading": "Key Takeaways",
+        "content": "✓ I-adjectives: い → く ✓ Na-adjectives: add に ✓ いい → よく (irregular) ✓ Modify verbs, not nouns ✓ Work with する/なる ✓ Can be negated ✓ Stack multiple adverbs ✓ Essential for natural expression\n\nMaster adverb forms - make your Japanese more dynamic!\n\nNext: Adjective Comparisons (より)\n\nRelated:\n\nI-adjective Conjugation Na-adjective Conjugation Adjective Present Tense",
+        "children": [
+          {
+            "level": 3,
+            "heading": "Company",
+            "content": "About Pricing Blog Contact"
+          },
+          {
+            "level": 3,
+            "heading": "Legal",
+            "content": "Privacy Policy Terms of Service Cookie Policy"
+          }
+        ]
+      }
+    ],
+    "examples": [
+      {
+        "sentence": "I-adjective Conjugation"
+      },
+      {
+        "sentence": "Na-adjective Conjugation"
+      },
+      {
+        "sentence": "Adjective Present Tense"
+      },
+      {
+        "sentence": "About"
+      },
+      {
+        "sentence": "Pricing"
+      },
+      {
+        "sentence": "Blog"
+      },
+      {
+        "sentence": "Contact"
+      },
+      {
+        "sentence": "Privacy Policy"
+      },
+      {
+        "sentence": "Terms of Service"
+      },
+      {
+        "sentence": "Cookie Policy"
+      }
+    ]
+  },
+  "metadata": {
+    "extracted_at": "2026-01-01T22:19:27.449243500Z",
+    "duration_ms": 3,
+    "extractors_matched": [
+      "metadata",
+      "examples",
+      "sections"
+    ],
+    "extractors_failed": [
+      "vocab_tables",
+      "definitions",
+      "content_blocks"
+    ]
+  }
+}

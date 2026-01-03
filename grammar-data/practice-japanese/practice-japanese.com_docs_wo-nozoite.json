@@ -1,0 +1,346 @@
+{
+  "config_name": "Language Learning Extractor",
+  "url": "https://practice-japanese.com/docs/wo-nozoite/",
+  "data": {
+    "sections": [
+      {
+        "level": 2,
+        "heading": "What is を除いて?",
+        "content": "を除いて (wo nozoite) means \"excluding,\" \"except for,\" or \"with the exception of.\" It's a more formal way to express exceptions compared to 以外. The verb 除く (nozoku) means \"to exclude\" or \"to remove.\"\n\nEnglish equivalents:\n\n\"excluding\" \"except for\" \"aside from\" \"with the exception of\" \"barring\"\n\n彼を除いて全員が来た。 Kare wo nozoite zen'in ga kita. \"Everyone came except for him.\" / \"Excluding him, everyone came.\" 日曜日を除いて毎日働く。 Nichiyoubi wo nozoite mainichi hataraku. \"I work every day except Sundays.\""
+      },
+      {
+        "level": 2,
+        "heading": "Basic Structure",
+        "content": "",
+        "children": [
+          {
+            "level": 3,
+            "heading": "Pattern",
+            "content": "[Noun] + を除いて/を除いた/を除く + [Rest of sentence]\n\nThree forms:\n\nを除いて (wo nozoite) - て-form, most common を除いた (wo nozoita) - past/adjective form, modifies nouns を除く (wo nozoku) - dictionary form, formal/written\n\n彼を除いて (nozoite) - \"excluding him\" [て-form] 彼を除いた人々 (nozoita) - \"people excluding him\" [modifying] 彼を除く全員 (nozoku) - \"everyone except him\" [dictionary form]"
+          }
+        ]
+      },
+      {
+        "level": 2,
+        "heading": "With を除いて (て-form)",
+        "content": "",
+        "children": [
+          {
+            "level": 3,
+            "heading": "Most common form",
+            "content": "月曜日を除いて営業しています。 Getsuyoubi wo nozoite eigyou shite imasu. \"We're open excluding Mondays.\" / \"We're open except Mondays.\" 彼女を除いて誰も知らない。 Kanojo wo nozoite dare mo shiranai. \"Nobody knows excluding her.\" / \"Only she knows.\" これを除いて全部売れた。 Kore wo nozoite zenbu ureta. \"Everything sold except this.\" 三人を除いて全員合格した。 Sannin wo nozoite zen'in goukaku shita. \"Everyone passed except three people.\""
+          }
+        ]
+      },
+      {
+        "level": 2,
+        "heading": "With を除いた (Past/Modifier Form)",
+        "content": "",
+        "children": [
+          {
+            "level": 3,
+            "heading": "Modifying nouns",
+            "content": "Structure: [Noun] + を除いた + [Modified noun]\n\n彼を除いたメンバー。 Kare wo nozoita menba-. \"Members excluding him.\" 月曜日を除いた平日。 Getsuyoubi wo nozoita heijitsu. \"Weekdays excluding Monday.\" これを除いた商品。 Kore wo nozoita shouhin. \"Products excluding this one.\" 特別な場合を除いた一般的なケース。 Tokubetsu na baai wo nozoita ippanteki na ke-su. \"General cases excluding special circumstances.\""
+          }
+        ]
+      },
+      {
+        "level": 2,
+        "heading": "With を除く (Dictionary Form)",
+        "content": "",
+        "children": [
+          {
+            "level": 3,
+            "heading": "Formal/written style",
+            "content": "Structure: [Noun] + を除く + [Noun/Rest]\n\n彼を除く全員。 Kare wo nozoku zen'in. \"Everyone except him.\" [Formal] 特別な場合を除く。 Tokubetsu na baai wo nozoku. \"Excluding special cases.\" [Formal] 日曜日を除く毎日。 Nichiyoubi wo nozoku mainichi. \"Every day except Sunday.\" [Formal]\n\nCommon in:\n\nWritten documents Legal language Formal announcements Academic writing"
+          }
+        ]
+      },
+      {
+        "level": 2,
+        "heading": "Formal Contexts",
+        "content": "",
+        "children": [
+          {
+            "level": 3,
+            "heading": "Business and official documents",
+            "content": "祝日を除いて営業いたします。 Shukujitsu wo nozoite eigyou itashimasu. \"We will be open excluding holidays.\" [Formal] 規定の条件を除いては適用されません。 Kitei no jouken wo nozoite wa tekiyou saremasen. \"It does not apply excluding specified conditions.\" 当該事項を除く全項目。 Tougai jikou wo nozoku zen koumoku. \"All items excluding the relevant matter.\""
+          },
+          {
+            "level": 3,
+            "heading": "Academic writing",
+            "content": "特殊なケースを除いて、この理論は正しい。 Tokushu na ke-su wo nozoite, kono riron wa tadashii. \"Excluding special cases, this theory is correct.\" 例外を除いては、この規則が適用される。 Reigai wo nozoite wa, kono kisoku ga tekiyou sareru. \"Excluding exceptions, this rule applies.\""
+          }
+        ]
+      },
+      {
+        "level": 2,
+        "heading": "Multiple Items",
+        "content": "",
+        "children": [
+          {
+            "level": 3,
+            "heading": "Excluding several things",
+            "content": "月曜日と火曜日を除いて営業します。 Getsuyoubi to kayoubi wo nozoite eigyou shimasu. \"We're open except Mondays and Tuesdays.\" 彼と彼女を除いて誰も来なかった。 Kare to kanojo wo nozoite dare mo konakatta. \"Nobody came except him and her.\" これとそれを除いて全部ダメだ。 Kore to sore wo nozoite zenbu dame da. \"Everything is no good except this and that.\""
+          }
+        ]
+      },
+      {
+        "level": 2,
+        "heading": "Comparison: を除いて vs 以外",
+        "content": "",
+        "children": [
+          {
+            "level": 3,
+            "heading": "を除いて - More formal/explicit",
+            "content": "彼を除いて全員来た。 Kare wo nozoite zen'in kita. \"Everyone came excluding him.\" [More formal, explicit exclusion]"
+          },
+          {
+            "level": 3,
+            "heading": "以外 - Standard exception",
+            "content": "彼以外は全員来た。 Kare igai wa zen'in kita. \"Everyone came except him.\" [Standard]"
+          },
+          {
+            "level": 3,
+            "heading": "Key Differences",
+            "content": "| Aspect | を除いて | 以外 | | --------- | --------------------- | ------------------- | | Formality | More formal | Neutral | | Feeling | Active exclusion | Simple exception | | Usage | Written/formal speech | All contexts | | Emphasis | Deliberate removal | Simple \"other than\" |\n\nを除いて emphasizes the act of excluding/removing 以外 simply states an exception"
+          }
+        ]
+      },
+      {
+        "level": 2,
+        "heading": "With Negative Expressions",
+        "content": "",
+        "children": [
+          {
+            "level": 3,
+            "heading": "Excluding nothing",
+            "content": "何も除いていない。 Nani mo nozoite inai. \"Nothing is excluded.\" / \"Excluding nothing.\" 特に除いたものはない。 Toku ni nozoita mono wa nai. \"There's nothing particularly excluded.\""
+          },
+          {
+            "level": 3,
+            "heading": "Must include",
+            "content": "これを除いてはいけない。 Kore wo nozoite wa ikenai. \"You must not exclude this.\" 誰も除いてはならない。 Dare mo nozoite wa naranai. \"You must not exclude anyone.\""
+          }
+        ]
+      },
+      {
+        "level": 2,
+        "heading": "Time Expressions",
+        "content": "休日を除いて毎日開いています。 Kyuujitsu wo nozoite mainichi aite imasu. \"We're open every day excluding holidays.\" 夏休みを除いて授業があります。 Natsuyasumi wo nozoite jugyou ga arimasu. \"There are classes excluding summer vacation.\" 今週を除いて来月まで忙しい。 Konshuu wo nozoite raigetsu made isogashii. \"I'm busy until next month, excluding this week.\""
+      },
+      {
+        "level": 2,
+        "heading": "People and Groups",
+        "content": "新入社員を除いて全員経験者です。 Shinnyuu shain wo nozoite zen'in keikensha desu. \"Everyone is experienced excluding new employees.\" 子供を除いた大人だけの会。 Kodomo wo nozoita otona dake no kai. \"A gathering of only adults, excluding children.\" 私を除く家族全員。 Watashi wo nozoku kazoku zen'in. \"All family members except me.\""
+      },
+      {
+        "level": 2,
+        "heading": "Places and Things",
+        "content": "この店を除いて全部閉まっている。 Kono mise wo nozoite zenbu shimatte iru. \"Everything is closed except this store.\" 東京を除いた地方都市。 Toukyou wo nozoita chihou toshi. \"Regional cities excluding Tokyo.\" 特別な商品を除いて割引対象です。 Tokubetsu na shouhin wo nozoite waribiki taishou desu. \"Eligible for discount excluding special products.\""
+      },
+      {
+        "level": 2,
+        "heading": "Legal and Technical Language",
+        "content": "",
+        "children": [
+          {
+            "level": 3,
+            "heading": "In contracts and regulations",
+            "content": "別途定める場合を除いて適用される。 Betto sadameru baai wo nozoite tekiyou sareru. \"Applied excluding cases otherwise specified.\" 本規約に定める場合を除く。 Hon kiyaku ni sadameru baai wo nozoku. \"Excluding cases stipulated in these terms.\" 特段の定めがある場合を除いて。 Tokudan no sadame ga aru baai wo nozoite. \"Excluding cases where there are special provisions.\""
+          }
+        ]
+      },
+      {
+        "level": 2,
+        "heading": "Conditional Exclusions",
+        "content": "",
+        "children": [
+          {
+            "level": 3,
+            "heading": "With ては",
+            "content": "特別な場合を除いては。 Tokubetsu na baai wo nozoite wa. \"Except in special cases...\" 緊急時を除いては使用禁止。 Kinkyuuji wo nozoite wa shiyou kinshi. \"Prohibited except in emergencies.\""
+          }
+        ]
+      },
+      {
+        "level": 2,
+        "heading": "Variations",
+        "content": "",
+        "children": [
+          {
+            "level": 3,
+            "heading": "を除き (Formal variant)",
+            "content": "休日を除き営業。 Kyuujitsu wo nozoki eigyou. \"Open excluding holidays.\" [Very formal/written]"
+          },
+          {
+            "level": 3,
+            "heading": "を除けば (Conditional form)",
+            "content": "彼を除けば誰も知らない。 Kare wo nozokeba dare mo shiranai. \"If you exclude him, nobody knows.\" これを除けば問題ない。 Kore wo nozokeba mondai nai. \"If you exclude this, there's no problem.\""
+          }
+        ]
+      },
+      {
+        "level": 2,
+        "heading": "Set Expressions",
+        "content": "",
+        "children": [
+          {
+            "level": 3,
+            "heading": "Common phrases",
+            "content": "例外を除いて Reigai wo nozoite \"Excluding exceptions\" 特別な場合を除いて Tokubetsu na baai wo nozoite \"Except in special cases\" 一部を除いて Ichibu wo nozoite \"Excluding a part\" / \"For the most part\" ～を除く全て ~ wo nozoku subete \"Everything except ~\""
+          }
+        ]
+      },
+      {
+        "level": 2,
+        "heading": "Casual Alternatives",
+        "content": "In casual speech, を除いて is often replaced by:\n\nFormal: 彼を除いて全員来た Casual: 彼以外は全員来た (using 以外) Casual: 彼以外みんな来た Very casual: 彼以外全員来た"
+      },
+      {
+        "level": 2,
+        "heading": "Common Mistakes",
+        "content": "",
+        "children": [
+          {
+            "level": 3,
+            "heading": "Mistake 1: Using を除く in Casual Conversation",
+            "content": "❌ Casual chat: 彼を除いて行こう ✓ Casual: 彼以外で行こう or 彼なしで行こう\n\nを除いて sounds too formal for casual speech."
+          },
+          {
+            "level": 3,
+            "heading": "Mistake 2: Wrong Particle",
+            "content": "❌ 彼が除いて ✓ 彼を除いて\n\nMust use を particle with 除く."
+          },
+          {
+            "level": 3,
+            "heading": "Mistake 3: Confusing Forms",
+            "content": "❌ 彼を除いてメンバー (wrong modifier) ✓ 彼を除いたメンバー (correct modifier with た)\n\nUse を除いた before nouns it modifies."
+          },
+          {
+            "level": 3,
+            "heading": "Mistake 4: Overuse in Speech",
+            "content": "❌ Casual: それを除いて、これを除いて... ✓ Casual: それ以外で、これ以外で...\n\nReserve を除いて for formal contexts."
+          }
+        ]
+      },
+      {
+        "level": 2,
+        "heading": "Summary",
+        "content": "Key Points:\n\nを除いて means \"excluding,\" \"except for\" (formal) Three forms: を除いて (て-form), を除いた (modifier), を除く (formal/written) More formal than 以外 Emphasizes active exclusion/removal Common in: business documents, legal language, formal announcements Structure: [Noun] + を除いて/を除いた/を除く Use 以外 for casual contexts Must use を particle, not other particles",
+        "children": [
+          {
+            "level": 3,
+            "heading": "Company",
+            "content": "About Pricing Blog Contact"
+          },
+          {
+            "level": 3,
+            "heading": "Legal",
+            "content": "Privacy Policy Terms of Service Cookie Policy"
+          }
+        ]
+      }
+    ],
+    "metadata": {
+      "title": "を除いて (Excluding)"
+    },
+    "examples": [
+      {
+        "sentence": "\"excluding\""
+      },
+      {
+        "sentence": "\"except for\""
+      },
+      {
+        "sentence": "\"aside from\""
+      },
+      {
+        "sentence": "\"with the exception of\""
+      },
+      {
+        "sentence": "\"barring\""
+      },
+      {
+        "sentence": "を除いて (wo nozoite) - て-form, most common"
+      },
+      {
+        "sentence": "を除いた (wo nozoita) - past/adjective form, modifies nouns"
+      },
+      {
+        "sentence": "を除く (wo nozoku) - dictionary form, formal/written"
+      },
+      {
+        "sentence": "Written documents"
+      },
+      {
+        "sentence": "Legal language"
+      },
+      {
+        "sentence": "Formal announcements"
+      },
+      {
+        "sentence": "Academic writing"
+      },
+      {
+        "sentence": "を除いて means \"excluding,\" \"except for\" (formal)"
+      },
+      {
+        "sentence": "Three forms: を除いて (て-form), を除いた (modifier), を除く (formal/written)"
+      },
+      {
+        "sentence": "More formal than 以外"
+      },
+      {
+        "sentence": "Emphasizes active exclusion/removal"
+      },
+      {
+        "sentence": "Common in: business documents, legal language, formal announcements"
+      },
+      {
+        "sentence": "Structure: [Noun] + を除いて/を除いた/を除く"
+      },
+      {
+        "sentence": "Use 以外 for casual contexts"
+      },
+      {
+        "sentence": "Must use を particle, not other particles"
+      },
+      {
+        "sentence": "About"
+      },
+      {
+        "sentence": "Pricing"
+      },
+      {
+        "sentence": "Blog"
+      },
+      {
+        "sentence": "Contact"
+      },
+      {
+        "sentence": "Privacy Policy"
+      },
+      {
+        "sentence": "Terms of Service"
+      },
+      {
+        "sentence": "Cookie Policy"
+      }
+    ]
+  },
+  "metadata": {
+    "extracted_at": "2026-01-01T22:19:37.728455700Z",
+    "duration_ms": 3,
+    "extractors_matched": [
+      "metadata",
+      "examples",
+      "sections"
+    ],
+    "extractors_failed": [
+      "vocab_tables",
+      "definitions",
+      "content_blocks"
+    ]
+  }
+}

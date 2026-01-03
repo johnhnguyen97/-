@@ -1,0 +1,302 @@
+{
+  "config_name": "Language Learning Extractor",
+  "url": "https://practice-japanese.com/docs/verb-mashita/",
+  "data": {
+    "examples": [
+      {
+        "sentence": "Masu Form (Present)"
+      },
+      {
+        "sentence": "Ta-form (Plain Past)"
+      },
+      {
+        "sentence": "Verb Groups"
+      },
+      {
+        "sentence": "About"
+      },
+      {
+        "sentence": "Pricing"
+      },
+      {
+        "sentence": "Blog"
+      },
+      {
+        "sentence": "Contact"
+      },
+      {
+        "sentence": "Privacy Policy"
+      },
+      {
+        "sentence": "Terms of Service"
+      },
+      {
+        "sentence": "Cookie Policy"
+      }
+    ],
+    "metadata": {
+      "title": "Mashita Form (Polite Past)"
+    },
+    "sections": [
+      {
+        "level": 2,
+        "heading": "What is Mashita Form?",
+        "content": "ました (mashita) form is the polite past tense of verbs. It expresses completed actions politely.\n\n食べました (tabemashita) - ate 行きました (ikimashita) - went しました (shimashita) - did"
+      },
+      {
+        "level": 2,
+        "heading": "How to Form Mashita",
+        "content": "Simple rule: Take the masu form and change ます to ました\n\n食べます → 食べました 行きます → 行きました します → しました"
+      },
+      {
+        "level": 2,
+        "heading": "All Verb Groups",
+        "content": "",
+        "children": [
+          {
+            "level": 3,
+            "heading": "Godan Verbs",
+            "content": "書く → 書きます → 書きました (wrote) 飲む → 飲みます → 飲みました (drank) 買う → 買います → 買いました (bought) 話す → 話します → 話しました (spoke) 待つ → 待ちます → 待ちました (waited) 遊ぶ → 遊びます → 遊びました (played) 読む → 読みます → 読みました (read) 帰る → 帰ります → 帰りました (returned)"
+          },
+          {
+            "level": 3,
+            "heading": "Ichidan Verbs",
+            "content": "食べる → 食べます → 食べました (ate) 見る → 見ます → 見ました (saw) 寝る → 寝ます → 寝ました (slept) 起きる → 起きます → 起きました (woke up) 教える → 教えます → 教えました (taught)"
+          },
+          {
+            "level": 3,
+            "heading": "Irregular Verbs",
+            "content": "する → します → しました (did) 来る → 来ます → 来ました (came)"
+          }
+        ]
+      },
+      {
+        "level": 2,
+        "heading": "Conjugation Chart",
+        "content": "| Dictionary | Masu | Mashita | Meaning | | ---------- | -------- | ---------- | ------- | | 食べる | 食べます | 食べました | ate | | 行く | 行きます | 行きました | went | | 見る | 見ます | 見ました | saw | | する | します | しました | did | | 来る | 来ます | 来ました | came | | 買う | 買います | 買いました | bought | | 読む | 読みます | 読みました | read |"
+      },
+      {
+        "level": 2,
+        "heading": "When to Use Mashita",
+        "content": "",
+        "children": [
+          {
+            "level": 3,
+            "heading": "1. Completed Actions",
+            "content": "昨日映画を見ました \"I watched a movie yesterday\" 朝ご飯を食べました \"I ate breakfast\""
+          },
+          {
+            "level": 3,
+            "heading": "2. Past Experiences",
+            "content": "去年日本に行きました \"I went to Japan last year\" 先週友達と遊びました \"I played with friends last week\""
+          },
+          {
+            "level": 3,
+            "heading": "3. Polite Past Statements",
+            "content": "田中さんは昨日来ました \"Tanaka came yesterday\" 会議は終わりました \"The meeting ended\""
+          }
+        ]
+      },
+      {
+        "level": 2,
+        "heading": "Common Time Expressions",
+        "content": "Use with past time words:\n\n昨日 (kinou) - yesterday 今朝 (kesa) - this morning 先週 (senshuu) - last week 去年 (kyonen) - last year さっき (sakki) - just now 先月 (sengetsu) - last month 3日前 (mikka mae) - 3 days ago",
+        "children": [
+          {
+            "level": 3,
+            "heading": "Example Sentences",
+            "content": "昨日本を読みました \"I read a book yesterday\" 今朝早く起きました \"I woke up early this morning\" 先週日本語を勉強しました \"I studied Japanese last week\" 去年東京に行きました \"I went to Tokyo last year\""
+          }
+        ]
+      },
+      {
+        "level": 2,
+        "heading": "Question Form",
+        "content": "Add か at the end:\n\n昨日何を食べましたか？ \"What did you eat yesterday?\" 週末どこに行きましたか？ \"Where did you go on the weekend?\" 映画を見ましたか？ \"Did you watch the movie?\""
+      },
+      {
+        "level": 2,
+        "heading": "Answer Patterns",
+        "content": "",
+        "children": [
+          {
+            "level": 3,
+            "heading": "Positive Answers",
+            "content": "Q: 朝ご飯を食べましたか？ A: はい、食べました \"Yes, I ate\" Q: 宿題をしましたか？ A: はい、しました \"Yes, I did it\""
+          },
+          {
+            "level": 3,
+            "heading": "Negative Answers",
+            "content": "Q: 昨日勉強しましたか？ A: いいえ、しませんでした \"No, I didn't\"\n\n(More on negative past in Masen Deshita )"
+          }
+        ]
+      },
+      {
+        "level": 2,
+        "heading": "Telling About Your Day",
+        "content": "今日は朝6時に起きました \"I woke up at 6 this morning\" 朝ご飯を食べました \"I ate breakfast\" 電車で会社に行きました \"I went to the company by train\" 12時に昼ご飯を食べました \"I ate lunch at 12\" 夜友達と会いました \"I met with friends in the evening\""
+      },
+      {
+        "level": 2,
+        "heading": "Past Experiences",
+        "content": "",
+        "children": [
+          {
+            "level": 3,
+            "heading": "Have You Ever...?",
+            "content": "Use with ことがあります pattern:\n\n日本に行ったことがありますか？ \"Have you ever been to Japan?\" はい、去年行きました \"Yes, I went last year\""
+          },
+          {
+            "level": 3,
+            "heading": "Describing Past Events",
+            "content": "先週の週末は忙しかったです \"Last weekend was busy\" 土曜日に買い物をしました \"I went shopping on Saturday\" 日曜日は家で休みました \"I rested at home on Sunday\""
+          }
+        ]
+      },
+      {
+        "level": 2,
+        "heading": "Multiple Actions (Sequential)",
+        "content": "Use て-form for all verbs except the last:\n\n朝起きて、朝ご飯を食べて、学校に行きました \"I woke up, ate breakfast, and went to school\" 家に帰って、シャワーを浴びて、寝ました \"I came home, took a shower, and slept\"\n\nOnly the final verb takes ました!"
+      },
+      {
+        "level": 2,
+        "heading": "Common Verbs in Mashita",
+        "content": "",
+        "children": [
+          {
+            "level": 3,
+            "heading": "Daily Activities",
+            "content": "食べました - ate 飲みました - drank 見ました - saw/watched 聞きました - listened/heard 話しました - spoke 読みました - read 書きました - wrote 寝ました - slept 起きました - woke up"
+          },
+          {
+            "level": 3,
+            "heading": "Movement",
+            "content": "行きました - went 来ました - came 帰りました - returned 出ました - went out/left 入りました - entered 歩きました - walked 走りました - ran"
+          },
+          {
+            "level": 3,
+            "heading": "Activities",
+            "content": "勉強しました - studied 働きました - worked 遊びました - played 買いました - bought 作りました - made 会いました - met"
+          }
+        ]
+      },
+      {
+        "level": 2,
+        "heading": "Polite Narratives",
+        "content": "先週京都に行きました \"I went to Kyoto last week\" 金閣寺を見ました \"I saw Kinkakuji\" 美味しい料理を食べました \"I ate delicious food\" とても楽しかったです \"It was very fun\""
+      },
+      {
+        "level": 2,
+        "heading": "Common Mistakes",
+        "content": "",
+        "children": [
+          {
+            "level": 3,
+            "heading": "Mistake 1: Using Present Instead of Past",
+            "content": "Wrong: 昨日映画を見ます ❌ Right: 昨日映画を見ました ✓"
+          },
+          {
+            "level": 3,
+            "heading": "Mistake 2: Double Conjugation",
+            "content": "Wrong: 食べましたした ❌ Right: 食べました ✓ Wrong: 行きましたた ❌ Right: 行きました ✓"
+          },
+          {
+            "level": 3,
+            "heading": "Mistake 3: Wrong Masu Stem",
+            "content": "Wrong: 帰る → 帰ました ❌ Right: 帰る → 帰りました ✓ Wrong: 食べる → 食びました ❌ Right: 食べる → 食べました ✓"
+          },
+          {
+            "level": 3,
+            "heading": "Mistake 4: Forgetting Time Context",
+            "content": "Unclear: 映画を見ました (when?) Better: 昨日映画を見ました ✓"
+          }
+        ]
+      },
+      {
+        "level": 2,
+        "heading": "Conversation Examples",
+        "content": "",
+        "children": [
+          {
+            "level": 3,
+            "heading": "Asking About the Past",
+            "content": "A: 週末何をしましたか？ \"What did you do on the weekend?\" B: 友達と買い物に行きました \"I went shopping with friends\" A: 何を買いましたか？ \"What did you buy?\" B: 服を買いました \"I bought clothes\""
+          },
+          {
+            "level": 3,
+            "heading": "Talking About Yesterday",
+            "content": "A: 昨日どこに行きましたか？ \"Where did you go yesterday?\" B: 図書館に行きました \"I went to the library\" A: 何をしましたか？ \"What did you do?\" B: 本を読みました \"I read a book\""
+          }
+        ]
+      },
+      {
+        "level": 2,
+        "heading": "Duration in the Past",
+        "content": "3時間勉強しました \"I studied for 3 hours\" 1週間日本にいました \"I was in Japan for 1 week\" 2年間東京に住みました \"I lived in Tokyo for 2 years\""
+      },
+      {
+        "level": 2,
+        "heading": "Reporting Speech",
+        "content": "田中さんは「行きます」と言いました \"Tanaka said 'I will go'\" 先生は宿題をすると言いました \"The teacher said to do homework\""
+      },
+      {
+        "level": 2,
+        "heading": "Politeness Level",
+        "content": "ました is standard polite past:\n\nCasual: 食べた Standard polite: 食べました ← Most common Very formal: 召し上がりました"
+      },
+      {
+        "level": 2,
+        "heading": "Practice Scenarios",
+        "content": "",
+        "children": [
+          {
+            "level": 3,
+            "heading": "Scenario 1: After Work",
+            "content": "今日は仕事をしました \"I worked today\" 会議に出ました \"I attended a meeting\" 同僚と昼ご飯を食べました \"I ate lunch with colleagues\" 6時に家に帰りました \"I came home at 6\""
+          },
+          {
+            "level": 3,
+            "heading": "Scenario 2: Weekend Report",
+            "content": "土曜日に友達と遊びました \"I hung out with friends on Saturday\" 映画を見ました \"We watched a movie\" レストランで晩ご飯を食べました \"We ate dinner at a restaurant\" 楽しかったです \"It was fun\""
+          },
+          {
+            "level": 3,
+            "heading": "Scenario 3: Travel Story",
+            "content": "先月北海道に行きました \"I went to Hokkaido last month\" 美しい景色を見ました \"I saw beautiful scenery\" 新鮮な海鮮を食べました \"I ate fresh seafood\" たくさん写真を撮りました \"I took many photos\""
+          }
+        ]
+      },
+      {
+        "level": 2,
+        "heading": "Key Takeaways",
+        "content": "✓ ました = polite past tense ✓ Form: ます → ました ✓ Used for completed actions ✓ Same for all verb groups ✓ Add か for questions ✓ Use with past time expressions ✓ Essential for telling stories\n\nMaster ました form - it's crucial for talking about the past politely!\n\nNext: Masen Form (Polite Negative)\n\nRelated:\n\nMasu Form (Present) Ta-form (Plain Past) Verb Groups",
+        "children": [
+          {
+            "level": 3,
+            "heading": "Company",
+            "content": "About Pricing Blog Contact"
+          },
+          {
+            "level": 3,
+            "heading": "Legal",
+            "content": "Privacy Policy Terms of Service Cookie Policy"
+          }
+        ]
+      }
+    ]
+  },
+  "metadata": {
+    "extracted_at": "2026-01-01T22:19:37.360948100Z",
+    "duration_ms": 4,
+    "extractors_matched": [
+      "metadata",
+      "examples",
+      "sections"
+    ],
+    "extractors_failed": [
+      "vocab_tables",
+      "definitions",
+      "content_blocks"
+    ]
+  }
+}

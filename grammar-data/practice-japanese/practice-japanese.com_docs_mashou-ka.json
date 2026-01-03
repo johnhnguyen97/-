@@ -1,0 +1,447 @@
+{
+  "config_name": "Language Learning Extractor",
+  "url": "https://practice-japanese.com/docs/mashou-ka/",
+  "data": {
+    "examples": [
+      {
+        "sentence": "〜ましょう - Let's (suggestion)"
+      },
+      {
+        "sentence": "〜ませんか - Won't you (invitation)"
+      },
+      {
+        "sentence": "〜ようか - Shall I/we (casual)"
+      },
+      {
+        "sentence": "〜ましょうよ - Let's (with encouragement)"
+      },
+      {
+        "sentence": "Volitional form - Casual \"let's\""
+      },
+      {
+        "sentence": "Offers and suggestions - Making offers"
+      },
+      {
+        "sentence": "About"
+      },
+      {
+        "sentence": "Pricing"
+      },
+      {
+        "sentence": "Blog"
+      },
+      {
+        "sentence": "Contact"
+      },
+      {
+        "sentence": "Privacy Policy"
+      },
+      {
+        "sentence": "Terms of Service"
+      },
+      {
+        "sentence": "Cookie Policy"
+      }
+    ],
+    "sections": [
+      {
+        "level": 2,
+        "heading": "What is 〜ましょうか?",
+        "content": "〜ましょうか has two main uses: offering to do something (\"Shall I...?\") or suggesting doing something together (\"Shall we...?\"). Context determines the meaning.\n\n手伝いましょうか \"Shall I help?\" (offering) 始めましょうか \"Shall we begin?\" (suggesting together) 窓を開けましょうか \"Shall I open the window?\" (offering)"
+      },
+      {
+        "level": 2,
+        "heading": "Formation",
+        "content": "",
+        "children": [
+          {
+            "level": 3,
+            "heading": "Pattern: Verb ます-stem + ましょうか",
+            "content": "| Verb | ます-stem | + ましょうか | | ------ | --------- | -------------- | | 見る | 見 | 見ましょうか | | 食べる | 食べ | 食べましょうか | | 来る | 来 | 来ましょうか | | する | し | しましょうか | | 開ける | 開け | 開けましょうか | | 持つ | 持ち | 持ちましょうか |"
+          }
+        ]
+      },
+      {
+        "level": 2,
+        "heading": "Two Main Uses",
+        "content": "",
+        "children": [
+          {
+            "level": 3,
+            "heading": "Use 1: Offering help (\"Shall I...?\")",
+            "content": "荷物を持ちましょうか \"Shall I carry your luggage?\" 手伝いましょうか \"Shall I help?\" 説明しましょうか \"Shall I explain?\" Context: You do it for them"
+          },
+          {
+            "level": 3,
+            "heading": "Use 2: Suggesting together (\"Shall we...?\")",
+            "content": "始めましょうか \"Shall we start?\" 行きましょうか \"Shall we go?\" 休憩しましょうか \"Shall we take a break?\" Context: Do it together"
+          }
+        ]
+      },
+      {
+        "level": 2,
+        "heading": "Offering Help",
+        "content": "",
+        "children": [
+          {
+            "level": 3,
+            "heading": "Common offers",
+            "content": "手伝いましょうか \"Shall I help?\" 持ちましょうか \"Shall I carry it?\" 開けましょうか \"Shall I open it?\" 閉めましょうか \"Shall I close it?\" 呼びましょうか \"Shall I call (someone)?\""
+          },
+          {
+            "level": 3,
+            "heading": "Polite service",
+            "content": "お持ちしましょうか \"Shall I carry that for you?\" ご案内しましょうか \"Shall I show you the way?\" お呼びしましょうか \"Shall I call them for you?\""
+          }
+        ]
+      },
+      {
+        "level": 2,
+        "heading": "Suggesting Together",
+        "content": "",
+        "children": [
+          {
+            "level": 3,
+            "heading": "Starting activities",
+            "content": "そろそろ始めましょうか \"Shall we start soon?\" 出発しましょうか \"Shall we depart?\" 食べましょうか \"Shall we eat?\""
+          },
+          {
+            "level": 3,
+            "heading": "Making decisions",
+            "content": "何を注文しましょうか \"What shall we order?\" どこに行きましょうか \"Where shall we go?\" いつ会いましょうか \"When shall we meet?\""
+          }
+        ]
+      },
+      {
+        "level": 2,
+        "heading": "Common Conversations",
+        "content": "",
+        "children": [
+          {
+            "level": 3,
+            "heading": "Example 1: Offering Help",
+            "content": "A: この荷物、重そうですね \"That luggage looks heavy\" B: 持ちましょうか \"Shall I carry it?\" A: ありがとうございます。お願いします \"Thank you. Please do\""
+          },
+          {
+            "level": 3,
+            "heading": "Example 2: Suggesting Activity",
+            "content": "A: そろそろ会議を始めましょうか \"Shall we start the meeting soon?\" B: はい、始めましょう \"Yes, let's start\" A: では、今日の議題について話しましょう \"Well then, let's talk about today's agenda\""
+          },
+          {
+            "level": 3,
+            "heading": "Example 3: At a Restaurant",
+            "content": "A: お待たせしました。ご注文はお決まりですか \"Sorry to keep you waiting. Are you ready to order?\" B: すみません、もう少し待っていただけますか \"Excuse me, could you wait a bit longer?\" A: はい、お決まりになりましたらお呼びください \"Yes, please call me when you're ready\" B: じゃあ、これとこれにしましょうか \"Well, shall we get this and this?\""
+          }
+        ]
+      },
+      {
+        "level": 2,
+        "heading": "Common Mistakes",
+        "content": "",
+        "children": [
+          {
+            "level": 3,
+            "heading": "Mistake 1: Confusing with ませんか",
+            "content": "ましょうか = Offering/light suggestion \"Shall I/we...?\" ませんか = Invitation \"Won't you...?\" / \"Would you like to...?\" 手伝いましょうか = \"Shall I help?\" (I help you) 手伝いませんか = \"Won't you help?\" (you help me)"
+          },
+          {
+            "level": 3,
+            "heading": "Mistake 2: Wrong context",
+            "content": "Unnatural: 私が行きましょうか ⚠️ Better: 私が行きましょう ✓ \"I'll go\" Drop か when stating intention!"
+          },
+          {
+            "level": 3,
+            "heading": "Mistake 3: Too casual in formal situations",
+            "content": "In business: 手伝おうか ❌ Polite: お手伝いしましょうか ✓ \"Shall I help?\""
+          }
+        ]
+      },
+      {
+        "level": 2,
+        "heading": "Responding to Offers",
+        "content": "",
+        "children": [
+          {
+            "level": 3,
+            "heading": "Accepting",
+            "content": "はい、お願いします \"Yes, please\" ありがとうございます \"Thank you\" 助かります \"That helps\" すみません、お願いします \"Sorry to trouble you, please\""
+          },
+          {
+            "level": 3,
+            "heading": "Declining",
+            "content": "いいえ、大丈夫です \"No, I'm fine\" ありがとうございます、でも大丈夫です \"Thank you, but I'm okay\" 自分でやります \"I'll do it myself\" 気にしないでください \"Please don't worry about it\""
+          }
+        ]
+      },
+      {
+        "level": 2,
+        "heading": "Responding to Suggestions",
+        "content": "",
+        "children": [
+          {
+            "level": 3,
+            "heading": "Agreeing",
+            "content": "はい、そうしましょう \"Yes, let's do that\" いいですね \"Sounds good\" 賛成です \"I agree\""
+          },
+          {
+            "level": 3,
+            "heading": "Suggesting alternatives",
+            "content": "それもいいですが、...はどうですか \"That's good too, but how about...?\" もう少し待ちましょうか \"Shall we wait a bit longer?\""
+          }
+        ]
+      },
+      {
+        "level": 2,
+        "heading": "Making Polite Offers",
+        "content": "",
+        "children": [
+          {
+            "level": 3,
+            "heading": "Adding お/ご prefix",
+            "content": "お手伝いしましょうか \"Shall I help you?\" (more polite) ご説明しましょうか \"Shall I explain?\" (more polite) お持ちしましょうか \"Shall I carry that?\" (more polite)"
+          },
+          {
+            "level": 3,
+            "heading": "In customer service",
+            "content": "お包みしましょうか \"Shall I wrap it?\" お席にご案内しましょうか \"Shall I show you to your seat?\" お待ちしましょうか \"Shall I wait?\""
+          }
+        ]
+      },
+      {
+        "level": 2,
+        "heading": "Common Offer Phrases",
+        "content": "",
+        "children": [
+          {
+            "level": 3,
+            "heading": "Physical help",
+            "content": "持ちましょうか - Shall I carry it? 開けましょうか - Shall I open it? 閉めましょうか - Shall I close it? 運びましょうか - Shall I transport it?"
+          },
+          {
+            "level": 3,
+            "heading": "Communication help",
+            "content": "説明しましょうか - Shall I explain? 教えましょうか - Shall I teach/tell? 書きましょうか - Shall I write it? 呼びましょうか - Shall I call?"
+          },
+          {
+            "level": 3,
+            "heading": "Service actions",
+            "content": "お包みしましょうか - Shall I wrap it? お持ちしましょうか - Shall I carry it? ご案内しましょうか - Shall I guide you?"
+          }
+        ]
+      },
+      {
+        "level": 2,
+        "heading": "Question Word Combinations",
+        "content": "",
+        "children": [
+          {
+            "level": 3,
+            "heading": "Planning together",
+            "content": "何を食べましょうか \"What shall we eat?\" どこに行きましょうか \"Where shall we go?\" いつ始めましょうか \"When shall we start?\" 誰を誘いましょうか \"Who shall we invite?\" どうしましょうか \"What shall we do?\""
+          }
+        ]
+      },
+      {
+        "level": 2,
+        "heading": "Casual Alternative",
+        "content": "",
+        "children": [
+          {
+            "level": 3,
+            "heading": "Using ようか",
+            "content": "Polite: 手伝いましょうか Casual: 手伝おうか \"Shall I help?\" Polite: 行きましょうか Casual: 行こうか \"Shall we go?\" Use with friends and family!"
+          }
+        ]
+      },
+      {
+        "level": 2,
+        "heading": "Timing Expressions",
+        "content": "",
+        "children": [
+          {
+            "level": 3,
+            "heading": "Suggesting timing",
+            "content": "そろそろ行きましょうか \"Shall we go soon?\" もう始めましょうか \"Shall we start now?\" ちょっと休憩しましょうか \"Shall we take a short break?\" 少し待ちましょうか \"Shall we wait a bit?\""
+          }
+        ]
+      },
+      {
+        "level": 2,
+        "heading": "At Work",
+        "content": "",
+        "children": [
+          {
+            "level": 3,
+            "heading": "Meeting situations",
+            "content": "会議を始めましょうか \"Shall we start the meeting?\" 次の議題に移りましょうか \"Shall we move to the next topic?\" ここで休憩しましょうか \"Shall we take a break here?\" そろそろ終わりにしましょうか \"Shall we finish up soon?\""
+          },
+          {
+            "level": 3,
+            "heading": "Offering work help",
+            "content": "資料を準備しましょうか \"Shall I prepare the materials?\" コピーしましょうか \"Shall I make copies?\" 確認しましょうか \"Shall I check it?\""
+          }
+        ]
+      },
+      {
+        "level": 2,
+        "heading": "At Restaurants",
+        "content": "",
+        "children": [
+          {
+            "level": 3,
+            "heading": "Ordering",
+            "content": "注文しましょうか \"Shall we order?\" これにしましょうか \"Shall we get this?\" デザートも頼みましょうか \"Shall we order dessert too?\""
+          },
+          {
+            "level": 3,
+            "heading": "Staff offers",
+            "content": "お水をお持ちしましょうか \"Shall I bring you water?\" メニューをお持ちしましょうか \"Shall I bring the menu?\" お会計しましょうか \"Shall I bring the check?\""
+          }
+        ]
+      },
+      {
+        "level": 2,
+        "heading": "Shopping Context",
+        "content": "",
+        "children": [
+          {
+            "level": 3,
+            "heading": "Staff offers",
+            "content": "お包みしましょうか \"Shall I wrap it?\" 袋に入れましょうか \"Shall I put it in a bag?\" お取り置きしましょうか \"Shall I hold it for you?\" 別々に包みましょうか \"Shall I wrap them separately?\""
+          }
+        ]
+      },
+      {
+        "level": 2,
+        "heading": "Social Situations",
+        "content": "",
+        "children": [
+          {
+            "level": 3,
+            "heading": "Party planning",
+            "content": "パーティーを始めましょうか \"Shall we start the party?\" 乾杯しましょうか \"Shall we make a toast?\" 写真を撮りましょうか \"Shall we take a photo?\" そろそろ帰りましょうか \"Shall we head home soon?\""
+          }
+        ]
+      },
+      {
+        "level": 2,
+        "heading": "Polite Declining of Offers",
+        "content": "",
+        "children": [
+          {
+            "level": 3,
+            "heading": "When someone offers help",
+            "content": "A: 荷物をお持ちしましょうか \"Shall I carry your luggage?\" B: いえ、大丈夫です。ありがとうございます \"No, I'm fine. Thank you\" Or: お気遣いありがとうございます \"Thank you for your concern\""
+          }
+        ]
+      },
+      {
+        "level": 2,
+        "heading": "Adding Softeners",
+        "content": "",
+        "children": [
+          {
+            "level": 3,
+            "heading": "より (more)",
+            "content": "もう少し考えましょうか \"Shall we think about it a bit more?\" もっと詳しく話しましょうか \"Shall we talk in more detail?\""
+          },
+          {
+            "level": 3,
+            "heading": "まず (first)",
+            "content": "まず始めましょうか \"Shall we start first?\" まず見てみましょうか \"Shall we take a look first?\""
+          }
+        ]
+      },
+      {
+        "level": 2,
+        "heading": "Common Patterns",
+        "content": "",
+        "children": [
+          {
+            "level": 3,
+            "heading": "Checking readiness",
+            "content": "準備はできましたか。では、始めましょうか \"Are you ready? Well then, shall we start?\" いいですか。行きましょうか \"Is it okay? Shall we go?\""
+          },
+          {
+            "level": 3,
+            "heading": "Making decisions",
+            "content": "これでいいですか。じゃあ、これにしましょうか \"Is this good? Well then, shall we get this?\""
+          }
+        ]
+      },
+      {
+        "level": 2,
+        "heading": "Comparison Chart",
+        "content": "",
+        "children": [
+          {
+            "level": 3,
+            "heading": "ましょう vs ましょうか",
+            "content": "ましょう (statement) \"Let's do it\" More direct Assumes agreement ましょうか (question) \"Shall we do it?\" Softer, asking Checking agreement"
+          },
+          {
+            "level": 3,
+            "heading": "Examples",
+            "content": "行きましょう \"Let's go\" (decided) 行きましょうか \"Shall we go?\" (asking) 食べましょう \"Let's eat\" (decided) 食べましょうか \"Shall we eat?\" (asking)"
+          }
+        ]
+      },
+      {
+        "level": 2,
+        "heading": "Practice Sentences",
+        "content": "",
+        "children": [
+          {
+            "level": 3,
+            "heading": "Basic",
+            "content": "手伝いましょうか \"Shall I help?\" 窓を開けましょうか \"Shall I open the window?\" 始めましょうか \"Shall we start?\""
+          },
+          {
+            "level": 3,
+            "heading": "Intermediate",
+            "content": "荷物を持ちましょうか。重そうですね \"Shall I carry your luggage? It looks heavy\" そろそろ休憩しましょうか。疲れましたね \"Shall we take a break soon? We're tired, aren't we\" もう少し詳しく説明しましょうか \"Shall I explain in a bit more detail?\""
+          },
+          {
+            "level": 3,
+            "heading": "Advanced",
+            "content": "お忙しいところ恐縮ですが、私がご案内しましょうか \"I hate to bother you while you're busy, but shall I show you around?\" このプロジェクトについて、もう一度話し合いましょうか \"Shall we discuss this project once more?\" お時間がございましたら、詳しくご説明しましょうか \"If you have time, shall I explain in detail?\""
+          }
+        ]
+      },
+      {
+        "level": 2,
+        "heading": "Related Grammar Points",
+        "content": "〜ましょう - Let's (suggestion) 〜ませんか - Won't you (invitation) 〜ようか - Shall I/we (casual) 〜ましょうよ - Let's (with encouragement) Volitional form - Casual \"let's\" Offers and suggestions - Making offers",
+        "children": [
+          {
+            "level": 3,
+            "heading": "Company",
+            "content": "About Pricing Blog Contact"
+          },
+          {
+            "level": 3,
+            "heading": "Legal",
+            "content": "Privacy Policy Terms of Service Cookie Policy"
+          }
+        ]
+      }
+    ],
+    "metadata": {
+      "title": "〜ましょうか (Shall I)"
+    }
+  },
+  "metadata": {
+    "extracted_at": "2026-01-01T22:19:31.363022Z",
+    "duration_ms": 4,
+    "extractors_matched": [
+      "metadata",
+      "examples",
+      "sections"
+    ],
+    "extractors_failed": [
+      "vocab_tables",
+      "definitions",
+      "content_blocks"
+    ]
+  }
+}

@@ -1,0 +1,347 @@
+{
+  "config_name": "Language Learning Extractor",
+  "url": "https://practice-japanese.com/docs/no-nominalization/",
+  "data": {
+    "examples": [
+      {
+        "sentence": "About"
+      },
+      {
+        "sentence": "Pricing"
+      },
+      {
+        "sentence": "Blog"
+      },
+      {
+        "sentence": "Contact"
+      },
+      {
+        "sentence": "Privacy Policy"
+      },
+      {
+        "sentence": "Terms of Service"
+      },
+      {
+        "sentence": "Cookie Policy"
+      }
+    ],
+    "metadata": {
+      "title": "の (no) Nominalization"
+    },
+    "sections": [
+      {
+        "level": 2,
+        "heading": "What is の Nominalization?",
+        "content": "の nominalization turns verbs, adjectives, and entire clauses into noun phrases by adding の after the plain form. This is like adding \"-ing\" in English (e.g., \"reading is fun\"). The の acts as a placeholder noun meaning \"the act of\" or \"the thing of.\"\n\n読むのが好き \"I like reading\" (Lit: I like the act of reading) 早く寝るのは大切だ \"Sleeping early is important\" 彼が来たのを知っている \"I know that he came\""
+      },
+      {
+        "level": 2,
+        "heading": "Basic Structure",
+        "content": "",
+        "children": [
+          {
+            "level": 3,
+            "heading": "[Plain form] + の",
+            "content": "食べる + の → 食べるの \"Eating / to eat\" 難しい + の → 難しいの \"Being difficult / the difficult thing\" Turns verb/adjective into noun"
+          },
+          {
+            "level": 3,
+            "heading": "Functions as a noun",
+            "content": "読むのが好き \"Reading is liked (by me)\" の acts as subject/object"
+          }
+        ]
+      },
+      {
+        "level": 2,
+        "heading": "Usage and Meaning",
+        "content": "",
+        "children": [
+          {
+            "level": 3,
+            "heading": "Subject of sentence",
+            "content": "走るのは楽しい \"Running is fun\" 日本語を勉強するのは難しい \"Studying Japanese is difficult\" の as subject"
+          },
+          {
+            "level": 3,
+            "heading": "Object of verb",
+            "content": "泳ぐのが好き \"I like swimming\" 料理するのを忘れた \"I forgot to cook\" の as object"
+          },
+          {
+            "level": 3,
+            "heading": "After adjectives",
+            "content": "遅いのが嫌いだ \"I hate being late\" 高いのは買わない \"I don't buy expensive things\" Nominalizes adjectives"
+          }
+        ]
+      },
+      {
+        "level": 2,
+        "heading": "の with が and を",
+        "content": "",
+        "children": [
+          {
+            "level": 3,
+            "heading": "が for likes/dislikes/abilities",
+            "content": "泳ぐのが好き \"I like swimming\" 走るのが得意 \"I'm good at running\" 歌うのが下手 \"I'm bad at singing\" が with ability/preference"
+          },
+          {
+            "level": 3,
+            "heading": "を for other verbs",
+            "content": "勉強するのを忘れた \"I forgot to study\" 行くのをやめた \"I stopped going\" 見るのを楽しむ \"Enjoy watching\" を with action verbs"
+          }
+        ]
+      },
+      {
+        "level": 2,
+        "heading": "Common Patterns",
+        "content": "",
+        "children": [
+          {
+            "level": 3,
+            "heading": "〜のが好き/嫌い",
+            "content": "読むのが好き \"I like reading\" 待つのが嫌い \"I hate waiting\" Expressing preferences"
+          },
+          {
+            "level": 3,
+            "heading": "〜のは〜だ",
+            "content": "大切なのは努力だ \"What's important is effort\" 問題なのは時間だ \"The problem is time\" Emphasis structure"
+          },
+          {
+            "level": 3,
+            "heading": "〜のを見る/聞く",
+            "content": "彼が走るのを見た \"I saw him running\" 音楽を聴くのが好き \"I like listening to music\" Perception verbs"
+          }
+        ]
+      },
+      {
+        "level": 2,
+        "heading": "Position in Sentence",
+        "content": "",
+        "children": [
+          {
+            "level": 3,
+            "heading": "Beginning (as subject)",
+            "content": "食べるのは楽しい \"Eating is fun\" Topic position"
+          },
+          {
+            "level": 3,
+            "heading": "Middle (as object)",
+            "content": "私は泳ぐのが好きです \"I like swimming\" Object position"
+          }
+        ]
+      },
+      {
+        "level": 2,
+        "heading": "Polite and Casual",
+        "content": "",
+        "children": [
+          {
+            "level": 3,
+            "heading": "の itself is neutral",
+            "content": "Casual: 読むのが好きだ \"I like reading\" Polite: 読むのが好きです \"I like reading\" Politeness in final verb"
+          }
+        ]
+      },
+      {
+        "level": 2,
+        "heading": "の vs こと",
+        "content": "",
+        "children": [
+          {
+            "level": 3,
+            "heading": "の more conversational",
+            "content": "泳ぐのが好き \"I like swimming\" Casual, spoken"
+          },
+          {
+            "level": 3,
+            "heading": "こと more formal/written",
+            "content": "泳ぐことが好き \"I like swimming\" Formal, written"
+          },
+          {
+            "level": 3,
+            "heading": "Sometimes interchangeable",
+            "content": "勉強するのは大切だ 勉強することは大切だ \"Studying is important\" Both acceptable"
+          }
+        ]
+      },
+      {
+        "level": 2,
+        "heading": "Replacing Nouns",
+        "content": "",
+        "children": [
+          {
+            "level": 3,
+            "heading": "の as \"one\"",
+            "content": "赤いの \"The red one\" 大きいの \"The big one\" 新しいのがいい \"I want a new one\" Replaces obvious noun"
+          }
+        ]
+      },
+      {
+        "level": 2,
+        "heading": "Common Contexts",
+        "content": "",
+        "children": [
+          {
+            "level": 3,
+            "heading": "Talking about hobbies",
+            "content": "読むのが好き \"I like reading\" 料理するのが楽しい \"Cooking is fun\" Personal interests"
+          },
+          {
+            "level": 3,
+            "heading": "Expressing abilities",
+            "content": "泳ぐのが得意 \"I'm good at swimming\" 歌うのが上手 \"I'm good at singing\" Skill descriptions"
+          },
+          {
+            "level": 3,
+            "heading": "Making statements",
+            "content": "早く起きるのは難しい \"Waking up early is difficult\" 日本語を話すのは楽しい \"Speaking Japanese is fun\" General statements"
+          }
+        ]
+      },
+      {
+        "level": 2,
+        "heading": "Adjectives Before の",
+        "content": "",
+        "children": [
+          {
+            "level": 3,
+            "heading": "い-adjectives (plain)",
+            "content": "赤いの \"The red one\" 新しいの \"The new one\" Direct modification"
+          },
+          {
+            "level": 3,
+            "heading": "な-adjectives (with な)",
+            "content": "静かなの \"The quiet one\" 便利なの \"The convenient one\" な connects"
+          }
+        ]
+      },
+      {
+        "level": 2,
+        "heading": "Tense in Nominalized Clauses",
+        "content": "",
+        "children": [
+          {
+            "level": 3,
+            "heading": "Present/future",
+            "content": "行くのが好き \"I like going\" 食べるのを忘れた \"I forgot to eat\" Dictionary form + の"
+          },
+          {
+            "level": 3,
+            "heading": "Past",
+            "content": "行ったのを覚えている \"I remember going\" 食べたのを後悔した \"I regretted eating\" Past form + の"
+          }
+        ]
+      },
+      {
+        "level": 2,
+        "heading": "Negative Forms",
+        "content": "",
+        "children": [
+          {
+            "level": 3,
+            "heading": "Verb negative",
+            "content": "行かないのがいい \"Not going is better\" 食べないのは悪い \"Not eating is bad\" ない-form + の"
+          }
+        ]
+      },
+      {
+        "level": 2,
+        "heading": "Common Mistakes",
+        "content": "",
+        "children": [
+          {
+            "level": 3,
+            "heading": "Using です before の",
+            "content": "Wrong: 好きですのは ⚠️ Correct: 好きなのは ✓ For な-adjectives, use な before の"
+          },
+          {
+            "level": 3,
+            "heading": "Confusing の positions",
+            "content": "Wrong: のが好き泳ぐ ⚠️ Correct: 泳ぐのが好き ✓ \"I like swimming\" の comes after verb"
+          },
+          {
+            "level": 3,
+            "heading": "Using を with 好き",
+            "content": "Wrong: 泳ぐのを好き ⚠️ Correct: 泳ぐのが好き ✓ 好き/嫌い use が"
+          }
+        ]
+      },
+      {
+        "level": 2,
+        "heading": "の for Emphasis",
+        "content": "",
+        "children": [
+          {
+            "level": 3,
+            "heading": "〜のだ/んだ (explanatory)",
+            "content": "雨が降っているのだ \"It's raining (you see)\" 知らなかったんだ \"I didn't know (I'm telling you)\" Explanatory tone Different from nominalization"
+          }
+        ]
+      },
+      {
+        "level": 2,
+        "heading": "Questions with の",
+        "content": "",
+        "children": [
+          {
+            "level": 3,
+            "heading": "Asking about activities",
+            "content": "何をするのが好き？ \"What do you like doing?\" どこに行くのがいい？ \"Where is it good to go?\" Activity preferences"
+          }
+        ]
+      },
+      {
+        "level": 2,
+        "heading": "Describing Abstract Concepts",
+        "content": "",
+        "children": [
+          {
+            "level": 3,
+            "heading": "Turning actions into things",
+            "content": "考えるのは人間だけだ \"Only humans think\" (Lit: Thinking is only humans) 学ぶのに遅すぎることはない \"It's never too late to learn\" Abstract nominalization"
+          }
+        ]
+      },
+      {
+        "level": 2,
+        "heading": "Practice Sentences",
+        "content": "",
+        "children": [
+          {
+            "level": 3,
+            "heading": "Basic",
+            "content": "泳ぐのが好き \"I like swimming\" 読むのは楽しい \"Reading is fun\" 早く起きるのは難しい \"Waking up early is difficult\" 赤いのがいい \"I want the red one\" 静かなのが好き \"I like quiet ones\""
+          },
+          {
+            "level": 3,
+            "heading": "Intermediate",
+            "content": "日本語を勉強するのは楽しいですが、難しいです \"Studying Japanese is fun, but difficult\" 料理を作るのが得意な人を探しています \"I'm looking for someone who is good at cooking\" 彼が来るのを待っている \"I'm waiting for him to come\" 毎日運動するのは健康にいい \"Exercising every day is good for health\" 朝早く起きるのを忘れないでください \"Please don't forget to wake up early in the morning\""
+          },
+          {
+            "level": 3,
+            "heading": "Company",
+            "content": "About Pricing Blog Contact"
+          },
+          {
+            "level": 3,
+            "heading": "Legal",
+            "content": "Privacy Policy Terms of Service Cookie Policy"
+          }
+        ]
+      }
+    ]
+  },
+  "metadata": {
+    "extracted_at": "2026-01-01T22:19:32.458143100Z",
+    "duration_ms": 3,
+    "extractors_matched": [
+      "metadata",
+      "examples",
+      "sections"
+    ],
+    "extractors_failed": [
+      "vocab_tables",
+      "definitions",
+      "content_blocks"
+    ]
+  }
+}

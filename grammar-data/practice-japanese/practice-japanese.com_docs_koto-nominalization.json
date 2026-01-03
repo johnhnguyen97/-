@@ -1,0 +1,381 @@
+{
+  "config_name": "Language Learning Extractor",
+  "url": "https://practice-japanese.com/docs/koto-nominalization/",
+  "data": {
+    "sections": [
+      {
+        "level": 2,
+        "heading": "What is こと Nominalization?",
+        "content": "こと nominalization turns verbs and clauses into abstract noun concepts by adding こと after the plain form. While similar to の, こと is more formal and often used for general statements, facts, and in fixed expressions. It means \"thing,\" \"matter,\" \"fact,\" or \"act.\"\n\n泳ぐことができる \"Can swim\" (Lit: Swimming is possible) 勉強することは大切だ \"Studying is important\" 彼が来たことを知っている \"I know the fact that he came\""
+      },
+      {
+        "level": 2,
+        "heading": "Basic Structure",
+        "content": "",
+        "children": [
+          {
+            "level": 3,
+            "heading": "[Plain form] + こと",
+            "content": "食べる + こと → 食べること \"Eating / to eat\" 難しい + こと → 難しいこと \"Difficult thing / being difficult\" Creates abstract noun"
+          },
+          {
+            "level": 3,
+            "heading": "Functions as noun phrase",
+            "content": "読むことが好き \"I like reading\" Subject or object position"
+          }
+        ]
+      },
+      {
+        "level": 2,
+        "heading": "Usage and Meaning",
+        "content": "",
+        "children": [
+          {
+            "level": 3,
+            "heading": "Abstract concepts",
+            "content": "学ぶことは大切だ \"Learning is important\" 努力することが必要だ \"Making an effort is necessary\" General statements"
+          },
+          {
+            "level": 3,
+            "heading": "Facts and information",
+            "content": "彼が来たことを知っている \"I know that he came\" 雨が降ることを忘れた \"I forgot that it would rain\" Factual knowledge"
+          },
+          {
+            "level": 3,
+            "heading": "Experiences",
+            "content": "日本に行ったことがある \"I have been to Japan\" 寿司を食べたことがない \"I have never eaten sushi\" Experience pattern"
+          }
+        ]
+      },
+      {
+        "level": 2,
+        "heading": "Common Fixed Patterns",
+        "content": "",
+        "children": [
+          {
+            "level": 3,
+            "heading": "〜ことができる (can/able to)",
+            "content": "泳ぐことができる \"Can swim\" 日本語を話すことができます \"I can speak Japanese\" Ability expression"
+          },
+          {
+            "level": 3,
+            "heading": "〜ことがある (have experience)",
+            "content": "行ったことがある \"I have been (there)\" 見たことがない \"I have never seen\" Experience marker"
+          },
+          {
+            "level": 3,
+            "heading": "〜ことにする (decide to)",
+            "content": "行くことにした \"I decided to go\" やめることにする \"I'll decide to quit\" Decision making"
+          },
+          {
+            "level": 3,
+            "heading": "〜ことになる (it's decided/arranged)",
+            "content": "転勤することになった \"It was decided I'll transfer\" 会議は中止になることになった \"The meeting ended up being canceled\" External decision"
+          }
+        ]
+      },
+      {
+        "level": 2,
+        "heading": "こと in Subject Position",
+        "content": "",
+        "children": [
+          {
+            "level": 3,
+            "heading": "は for topic",
+            "content": "大切なことは努力だ \"What's important is effort\" 問題なことは時間だ \"What's problematic is time\" Emphasis structure"
+          },
+          {
+            "level": 3,
+            "heading": "が for subject",
+            "content": "走ることが好きだ \"I like running\" Neutral subject"
+          }
+        ]
+      },
+      {
+        "level": 2,
+        "heading": "Polite and Casual",
+        "content": "",
+        "children": [
+          {
+            "level": 3,
+            "heading": "こと itself is neutral",
+            "content": "Casual: 読むことが好きだ \"I like reading\" Polite: 読むことが好きです \"I like reading\" Formality in ending"
+          }
+        ]
+      },
+      {
+        "level": 2,
+        "heading": "Position in Sentence",
+        "content": "",
+        "children": [
+          {
+            "level": 3,
+            "heading": "As subject",
+            "content": "勉強することは大切だ \"Studying is important\" Topic/subject position"
+          },
+          {
+            "level": 3,
+            "heading": "As object",
+            "content": "泳ぐことができる \"Can swim\" Object of できる"
+          }
+        ]
+      },
+      {
+        "level": 2,
+        "heading": "の vs こと",
+        "content": "",
+        "children": [
+          {
+            "level": 3,
+            "heading": "こと more formal",
+            "content": "泳ぐことが好き \"I like swimming\" (formal) More written style"
+          },
+          {
+            "level": 3,
+            "heading": "の more conversational",
+            "content": "泳ぐのが好き \"I like swimming\" (casual) More spoken"
+          },
+          {
+            "level": 3,
+            "heading": "Fixed patterns use こと",
+            "content": "Must use こと: - ことができる - ことがある - ことにする - ことになる Cannot substitute の"
+          }
+        ]
+      },
+      {
+        "level": 2,
+        "heading": "Expressing Facts",
+        "content": "",
+        "children": [
+          {
+            "level": 3,
+            "heading": "Known information",
+            "content": "彼が医者だということを知っている \"I know the fact that he's a doctor\" 雨が降ることは確かだ \"It's certain that it will rain\" Factual statements"
+          }
+        ]
+      },
+      {
+        "level": 2,
+        "heading": "Advice and Rules",
+        "content": "",
+        "children": [
+          {
+            "level": 3,
+            "heading": "べきこと (should)",
+            "content": "すべきことがたくさんある \"There are many things I should do\" するべきことをする \"Do what should be done\" Obligations"
+          }
+        ]
+      },
+      {
+        "level": 2,
+        "heading": "Commands and Instructions",
+        "content": "",
+        "children": [
+          {
+            "level": 3,
+            "heading": "〜こと (written commands)",
+            "content": "静かにすること \"Be quiet\" (written rule) 遅刻しないこと \"Don't be late\" (instruction) Rule/regulation style"
+          }
+        ]
+      },
+      {
+        "level": 2,
+        "heading": "Common Contexts",
+        "content": "",
+        "children": [
+          {
+            "level": 3,
+            "heading": "Stating importance",
+            "content": "健康であることは大切だ \"Being healthy is important\" 時間を守ることが重要だ \"Keeping time is important\" Value statements"
+          },
+          {
+            "level": 3,
+            "heading": "Expressing ability",
+            "content": "運転することができる \"Can drive\" 日本語を読むことができます \"I can read Japanese\" Capability"
+          },
+          {
+            "level": 3,
+            "heading": "Talking about experiences",
+            "content": "富士山に登ったことがある \"I have climbed Mt. Fuji\" 納豆を食べたことがありますか \"Have you ever eaten natto?\" Life experiences"
+          }
+        ]
+      },
+      {
+        "level": 2,
+        "heading": "Adjectives with こと",
+        "content": "",
+        "children": [
+          {
+            "level": 3,
+            "heading": "い-adjectives",
+            "content": "難しいことを学ぶ \"Learn difficult things\" 楽しいことが好き \"I like fun things\" Direct connection"
+          },
+          {
+            "level": 3,
+            "heading": "な-adjectives",
+            "content": "大切なこと \"Important things\" 便利なこと \"Convenient things\" な connects"
+          }
+        ]
+      },
+      {
+        "level": 2,
+        "heading": "Tense Forms",
+        "content": "",
+        "children": [
+          {
+            "level": 3,
+            "heading": "Present/future",
+            "content": "行くことができる \"Can go\" 食べることが好き \"I like eating\" Dictionary form"
+          },
+          {
+            "level": 3,
+            "heading": "Past",
+            "content": "行ったことがある \"Have been\" 食べたことを覚えている \"Remember eating\" た-form"
+          }
+        ]
+      },
+      {
+        "level": 2,
+        "heading": "Negative Forms",
+        "content": "",
+        "children": [
+          {
+            "level": 3,
+            "heading": "Negative verbs",
+            "content": "行かないことにした \"Decided not to go\" 食べないことがある \"Sometimes don't eat\" ない-form + こと"
+          }
+        ]
+      },
+      {
+        "level": 2,
+        "heading": "Common Mistakes",
+        "content": "",
+        "children": [
+          {
+            "level": 3,
+            "heading": "Using の in fixed patterns",
+            "content": "Wrong: 泳ぐのができる ⚠️ Correct: 泳ぐことができる ✓ \"Can swim\" Must use こと with できる"
+          },
+          {
+            "level": 3,
+            "heading": "Confusing ことがある patterns",
+            "content": "Experience: 行ったことがある \"Have been\" Sometimes: 行くことがある \"Sometimes go\" Different meanings with tense"
+          },
+          {
+            "level": 3,
+            "heading": "Wrong particle with 好き",
+            "content": "Wrong: 泳ぐことを好き ⚠️ Correct: 泳ぐことが好き ✓ Use が with 好き"
+          }
+        ]
+      },
+      {
+        "level": 2,
+        "heading": "Written vs Spoken",
+        "content": "",
+        "children": [
+          {
+            "level": 3,
+            "heading": "こと more in writing",
+            "content": "Written: 読むことは重要です \"Reading is important\" Formal documents"
+          },
+          {
+            "level": 3,
+            "heading": "の more in speech",
+            "content": "Spoken: 読むのは重要だ \"Reading is important\" Casual conversation"
+          }
+        ]
+      },
+      {
+        "level": 2,
+        "heading": "Multiple Actions",
+        "content": "",
+        "children": [
+          {
+            "level": 3,
+            "heading": "Listing with こと",
+            "content": "食べることと飲むこと \"Eating and drinking\" 勉強することと働くこと \"Studying and working\" Parallel actions"
+          }
+        ]
+      },
+      {
+        "level": 2,
+        "heading": "Describing Things",
+        "content": "",
+        "children": [
+          {
+            "level": 3,
+            "heading": "Abstract descriptions",
+            "content": "面白いこと \"Interesting things\" 変なこと \"Strange things\" 難しいこと \"Difficult things\" General concepts"
+          }
+        ]
+      },
+      {
+        "level": 2,
+        "heading": "Practice Sentences",
+        "content": "",
+        "children": [
+          {
+            "level": 3,
+            "heading": "Basic",
+            "content": "泳ぐことができる \"Can swim\" 日本に行ったことがある \"I have been to Japan\" 早く寝ることは大切だ \"Sleeping early is important\" 勉強することが好き \"I like studying\" 行かないことにした \"I decided not to go\""
+          },
+          {
+            "level": 3,
+            "heading": "Intermediate",
+            "content": "日本語を勉強することは難しいですが、とても面白いです \"Studying Japanese is difficult, but very interesting\" 毎日運動することは健康にいいと思います \"I think exercising every day is good for health\" 富士山に登ったことがありますか \"Have you ever climbed Mt. Fuji?\" 彼が日本に来ることになった \"It was decided that he will come to Japan\" 新しい仕事を始めることができて嬉しい \"I'm happy that I can start a new job\""
+          },
+          {
+            "level": 3,
+            "heading": "Company",
+            "content": "About Pricing Blog Contact"
+          },
+          {
+            "level": 3,
+            "heading": "Legal",
+            "content": "Privacy Policy Terms of Service Cookie Policy"
+          }
+        ]
+      }
+    ],
+    "examples": [
+      {
+        "sentence": "About"
+      },
+      {
+        "sentence": "Pricing"
+      },
+      {
+        "sentence": "Blog"
+      },
+      {
+        "sentence": "Contact"
+      },
+      {
+        "sentence": "Privacy Policy"
+      },
+      {
+        "sentence": "Terms of Service"
+      },
+      {
+        "sentence": "Cookie Policy"
+      }
+    ],
+    "metadata": {
+      "title": "こと Nominalization"
+    }
+  },
+  "metadata": {
+    "extracted_at": "2026-01-01T22:19:30.915852600Z",
+    "duration_ms": 3,
+    "extractors_matched": [
+      "metadata",
+      "examples",
+      "sections"
+    ],
+    "extractors_failed": [
+      "vocab_tables",
+      "definitions",
+      "content_blocks"
+    ]
+  }
+}

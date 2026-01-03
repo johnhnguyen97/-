@@ -1,0 +1,364 @@
+{
+  "config_name": "Language Learning Extractor",
+  "url": "https://practice-japanese.com/docs/nakereba-naranai/",
+  "data": {
+    "metadata": {
+      "title": "〜なければならない (Must)"
+    },
+    "sections": [
+      {
+        "level": 2,
+        "heading": "What is 〜なければならない?",
+        "content": "〜なければならない expresses strong obligation or necessity , meaning \"must,\" \"have to,\" or \"need to.\" It's formal and emphasizes that something is required.\n\n勉強しなければならない \"I must study\" / \"I have to study\" 早く起きなければなりません \"I must wake up early\""
+      },
+      {
+        "level": 2,
+        "heading": "Formation",
+        "content": "",
+        "children": [
+          {
+            "level": 3,
+            "heading": "Pattern: Verb negative stem + なければならない",
+            "content": "Step 1: Change to negative (ない form) Step 2: Replace ない with なければならない\n\n| Verb | Negative | なければならない | | ------ | -------- | -------------------- | | 行く | 行かない | 行かなければならない | | 食べる | 食べない | 食べなければならない | | する | しない | しなければならない | | 来る | 来ない | 来なければならない |"
+          },
+          {
+            "level": 3,
+            "heading": "Examples",
+            "content": "読む → 読まない → 読まなければならない (must read) 書く → 書かない → 書かなければならない (must write) 働く → 働かない → 働かなければならない (must work)"
+          }
+        ]
+      },
+      {
+        "level": 2,
+        "heading": "Contractions",
+        "content": "",
+        "children": [
+          {
+            "level": 3,
+            "heading": "なければ → なけれは → なくちゃ → なきゃ",
+            "content": "Increasingly casual:\n\nMost formal: 行かなければならない Formal: 行かなければなりません Casual: 行かなくちゃならない Very casual: 行かなくちゃ / 行かなきゃ"
+          }
+        ]
+      },
+      {
+        "level": 2,
+        "heading": "Basic Usage",
+        "content": "",
+        "children": [
+          {
+            "level": 3,
+            "heading": "Stating obligations",
+            "content": "明日早く起きなければならない \"I must wake up early tomorrow\" 毎日勉強しなければなりません \"I must study every day\" 会議に出席しなければならない \"I must attend the meeting\""
+          },
+          {
+            "level": 3,
+            "heading": "Personal necessity",
+            "content": "お金を稼がなければならない \"I must earn money\" 健康に気をつけなければならない \"I must take care of my health\" 決断しなければならない \"I must make a decision\""
+          }
+        ]
+      },
+      {
+        "level": 2,
+        "heading": "Politeness Levels",
+        "content": "",
+        "children": [
+          {
+            "level": 3,
+            "heading": "Formal",
+            "content": "行かなければなりません \"I must go\" (polite) 勉強しなければなりません \"I must study\" (polite)"
+          },
+          {
+            "level": 3,
+            "heading": "Neutral",
+            "content": "行かなければならない \"I must go\" 勉強しなければならない \"I must study\""
+          },
+          {
+            "level": 3,
+            "heading": "Casual",
+            "content": "行かなくちゃならない \"I gotta go\" 勉強しなくちゃ \"Gotta study\""
+          },
+          {
+            "level": 3,
+            "heading": "Very Casual",
+            "content": "行かなきゃ \"Gotta go\" 勉強しなきゃ \"Gotta study\""
+          }
+        ]
+      },
+      {
+        "level": 2,
+        "heading": "Common Conversations",
+        "content": "",
+        "children": [
+          {
+            "level": 3,
+            "heading": "Example 1: Making Excuses",
+            "content": "A: 今日飲みに行かない？ \"Want to go drinking today?\" B: ごめん、明日試験があるから勉強しなければならないんだ \"Sorry, I have an exam tomorrow so I must study\" A: そうか。頑張って！ \"I see. Good luck!\""
+          },
+          {
+            "level": 3,
+            "heading": "Example 2: At Work",
+            "content": "A: この書類、いつまでに出せばいいですか？ \"By when should I submit these documents?\" B: 金曜日までに提出しなければなりません \"You must submit them by Friday\" A: 分かりました \"Understood\""
+          },
+          {
+            "level": 3,
+            "heading": "Example 3: Daily Life",
+            "content": "A: もう12時だよ \"It's already 12 o'clock\" B: え！もう寝なきゃ。明日早いんだ \"What! I gotta sleep. I have an early morning\" A: おやすみ \"Good night\""
+          }
+        ]
+      },
+      {
+        "level": 2,
+        "heading": "Strong vs Weak Obligation",
+        "content": "",
+        "children": [
+          {
+            "level": 3,
+            "heading": "Strong obligation: なければならない",
+            "content": "法律を守らなければならない \"You must obey the law\" 税金を払わなければなりません \"You must pay taxes\""
+          },
+          {
+            "level": 3,
+            "heading": "Weaker obligation: ほうがいい",
+            "content": "早く寝たほうがいい \"You should sleep early\" (advice)"
+          },
+          {
+            "level": 3,
+            "heading": "No obligation: なくてもいい",
+            "content": "無理しなくてもいい \"You don't have to push yourself\""
+          }
+        ]
+      },
+      {
+        "level": 2,
+        "heading": "Expressing Reason",
+        "content": "",
+        "children": [
+          {
+            "level": 3,
+            "heading": "〜から、〜なければならない",
+            "content": "試験があるから、勉強しなければならない \"Because there's an exam, I must study\" 太ったから、運動しなければならない \"Because I gained weight, I must exercise\""
+          }
+        ]
+      },
+      {
+        "level": 2,
+        "heading": "Past Tense",
+        "content": "",
+        "children": [
+          {
+            "level": 3,
+            "heading": "なければならなかった",
+            "content": "昨日働かなければならなかった \"I had to work yesterday\" 早く起きなければなりませんでした \"I had to wake up early\""
+          }
+        ]
+      },
+      {
+        "level": 2,
+        "heading": "Negative: Don't have to",
+        "content": "",
+        "children": [
+          {
+            "level": 3,
+            "heading": "なくてもいい",
+            "content": "行かなくてもいい \"You don't have to go\" 心配しなくてもいいです \"You don't have to worry\""
+          }
+        ]
+      },
+      {
+        "level": 2,
+        "heading": "Common Verbs with ならない",
+        "content": "",
+        "children": [
+          {
+            "level": 3,
+            "heading": "Obligations",
+            "content": "勉強しなければならない - must study 働かなければならない - must work 行かなければならない - must go やらなければならない - must do"
+          },
+          {
+            "level": 3,
+            "heading": "Responsibilities",
+            "content": "払わなければならない - must pay 守らなければならない - must protect/obey 決めなければならない - must decide"
+          },
+          {
+            "level": 3,
+            "heading": "Social obligations",
+            "content": "謝らなければならない - must apologize 連絡しなければならない - must contact 出席しなければならない - must attend"
+          }
+        ]
+      },
+      {
+        "level": 2,
+        "heading": "Common Mistakes",
+        "content": "",
+        "children": [
+          {
+            "level": 3,
+            "heading": "Mistake 1: Using positive form",
+            "content": "Wrong: 行くなければならない ❌ Right: 行かなければならない ✓ \"Must go\" Must use negative stem!"
+          },
+          {
+            "level": 3,
+            "heading": "Mistake 2: Confusing with prohibition",
+            "content": "行かなければならない = must GO (obligation) 行ってはいけない = must NOT go (prohibition) Opposite meanings!"
+          },
+          {
+            "level": 3,
+            "heading": "Mistake 3: Wrong particles",
+            "content": "Wrong: 勉強をしなければならない ⚠️ Natural: 勉強しなければならない ✓ \"Must study\" Usually no を with する verbs in this pattern"
+          }
+        ]
+      },
+      {
+        "level": 2,
+        "heading": "Alternative: 〜ないといけない",
+        "content": "Same meaning, slightly less formal:\n\n行かないといけない \"I have to go\" 勉強しないといけません \"I must study\"\n\nBoth are commonly used and interchangeable."
+      },
+      {
+        "level": 2,
+        "heading": "Asking About Obligations",
+        "content": "",
+        "children": [
+          {
+            "level": 3,
+            "heading": "〜なければなりませんか？",
+            "content": "今日行かなければなりませんか？ \"Must I go today?\" 全部食べなければなりませんか？ \"Must I eat everything?\""
+          },
+          {
+            "level": 3,
+            "heading": "Response",
+            "content": "A: 全部読まなければなりませんか？ \"Must I read everything?\" B: いいえ、読まなくてもいいです \"No, you don't have to read it\""
+          }
+        ]
+      },
+      {
+        "level": 2,
+        "heading": "Double Negative Logic",
+        "content": "",
+        "children": [
+          {
+            "level": 3,
+            "heading": "Understanding the grammar",
+            "content": "なければならない literally means:\n\nなければ = if not ならない = won't become/work\n\n\"If you don't [do it], it won't work\" = \"You must [do it]\"\n\n行かなければならない = If you don't go, it won't work = You must go"
+          }
+        ]
+      },
+      {
+        "level": 2,
+        "heading": "Formal Variations",
+        "content": "",
+        "children": [
+          {
+            "level": 3,
+            "heading": "なければなりません (polite)",
+            "content": "出席しなければなりません \"I must attend\""
+          },
+          {
+            "level": 3,
+            "heading": "ねばならない (literary)",
+            "content": "努力せねばならない \"One must make an effort\" (old-fashioned)"
+          }
+        ]
+      },
+      {
+        "level": 2,
+        "heading": "Practice Sentences",
+        "content": "",
+        "children": [
+          {
+            "level": 3,
+            "heading": "Basic",
+            "content": "宿題をしなければならない \"I must do homework\" 早く寝なければなりません \"I must sleep early\" 毎日練習しなければならない \"I must practice every day\""
+          },
+          {
+            "level": 3,
+            "heading": "Intermediate",
+            "content": "明日までにレポートを提出しなければなりません \"I must submit the report by tomorrow\" 健康のために運動しなければならない \"I must exercise for my health\" もっと努力しなければならないと思います \"I think I must try harder\""
+          },
+          {
+            "level": 3,
+            "heading": "Advanced",
+            "content": "社会人として責任を果たさなければなりません \"As a member of society, I must fulfill my responsibilities\" 環境を守るために、私たち全員が行動しなければならない \"To protect the environment, we all must take action\" この問題を解決するためには、根本的な原因を理解しなければなりません \"To solve this problem, we must understand the fundamental cause\""
+          }
+        ]
+      },
+      {
+        "level": 2,
+        "heading": "Related Grammar Points",
+        "content": "〜なきゃ - Casual must 〜ないといけない - Have to 〜べき - Should/ought to 〜ほうがいい - Had better 〜なくてもいい - Don't have to 〜てはいけない - Must not",
+        "children": [
+          {
+            "level": 3,
+            "heading": "Company",
+            "content": "About Pricing Blog Contact"
+          },
+          {
+            "level": 3,
+            "heading": "Legal",
+            "content": "Privacy Policy Terms of Service Cookie Policy"
+          }
+        ]
+      }
+    ],
+    "examples": [
+      {
+        "sentence": "なければ = if not"
+      },
+      {
+        "sentence": "ならない = won't become/work"
+      },
+      {
+        "sentence": "〜なきゃ - Casual must"
+      },
+      {
+        "sentence": "〜ないといけない - Have to"
+      },
+      {
+        "sentence": "〜べき - Should/ought to"
+      },
+      {
+        "sentence": "〜ほうがいい - Had better"
+      },
+      {
+        "sentence": "〜なくてもいい - Don't have to"
+      },
+      {
+        "sentence": "〜てはいけない - Must not"
+      },
+      {
+        "sentence": "About"
+      },
+      {
+        "sentence": "Pricing"
+      },
+      {
+        "sentence": "Blog"
+      },
+      {
+        "sentence": "Contact"
+      },
+      {
+        "sentence": "Privacy Policy"
+      },
+      {
+        "sentence": "Terms of Service"
+      },
+      {
+        "sentence": "Cookie Policy"
+      }
+    ]
+  },
+  "metadata": {
+    "extracted_at": "2026-01-01T22:19:31.717583100Z",
+    "duration_ms": 3,
+    "extractors_matched": [
+      "metadata",
+      "examples",
+      "sections"
+    ],
+    "extractors_failed": [
+      "vocab_tables",
+      "definitions",
+      "content_blocks"
+    ]
+  }
+}

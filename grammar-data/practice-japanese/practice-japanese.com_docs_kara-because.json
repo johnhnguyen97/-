@@ -1,0 +1,363 @@
+{
+  "config_name": "Language Learning Extractor",
+  "url": "https://practice-japanese.com/docs/kara-because/",
+  "data": {
+    "metadata": {
+      "title": "から (kara) - Because"
+    },
+    "examples": [
+      {
+        "sentence": "ので - Because (objective/polite)"
+      },
+      {
+        "sentence": "から vs ので - Difference between から and ので"
+      },
+      {
+        "sentence": "だから - Therefore/so"
+      },
+      {
+        "sentence": "て-form - Casual reason"
+      },
+      {
+        "sentence": "ために - For the purpose of"
+      },
+      {
+        "sentence": "Giving reasons - Expressing reasons"
+      },
+      {
+        "sentence": "About"
+      },
+      {
+        "sentence": "Pricing"
+      },
+      {
+        "sentence": "Blog"
+      },
+      {
+        "sentence": "Contact"
+      },
+      {
+        "sentence": "Privacy Policy"
+      },
+      {
+        "sentence": "Terms of Service"
+      },
+      {
+        "sentence": "Cookie Policy"
+      }
+    ],
+    "sections": [
+      {
+        "level": 2,
+        "heading": "What is から?",
+        "content": "から is used to express reasons or causes, meaning \"because\" or \"since.\" It's one of the most common ways to explain why something happens or why you do something.\n\n疲れたから、休みます \"I'm tired, so I'll rest\" / \"Because I'm tired, I'll rest\" 雨が降っているから、行きません \"Because it's raining, I won't go\" 忙しいから、後でね \"I'm busy, so later, okay?\""
+      },
+      {
+        "level": 2,
+        "heading": "Formation",
+        "content": "",
+        "children": [
+          {
+            "level": 3,
+            "heading": "Pattern: [Reason] + から + [Result]",
+            "content": "| Verb/Adjective | + から | | -------------- | ------------------------ | | 食べるから | Because I eat | | 食べたから | Because I ate | | 高いから | Because it's expensive | | 高かったから | Because it was expensive | | 学生だから | Because I'm a student | | 学生だったから | Because I was a student |"
+          },
+          {
+            "level": 3,
+            "heading": "With verbs",
+            "content": "行くから - Because (I) go 行ったから - Because (I) went 行かないから - Because (I) don't go 行かなかったから - Because (I) didn't go"
+          },
+          {
+            "level": 3,
+            "heading": "With い-adjectives",
+            "content": "寒いから - Because it's cold 寒かったから - Because it was cold 寒くないから - Because it's not cold"
+          },
+          {
+            "level": 3,
+            "heading": "With な-adjectives and nouns",
+            "content": "静かだから - Because it's quiet 学生だから - Because (I'm) a student 休みだから - Because it's a holiday"
+          }
+        ]
+      },
+      {
+        "level": 2,
+        "heading": "Basic Usage",
+        "content": "",
+        "children": [
+          {
+            "level": 3,
+            "heading": "Explaining reasons",
+            "content": "時間がないから、急ぎます \"I don't have time, so I'll hurry\" お腹が空いたから、何か食べよう \"I'm hungry, so let's eat something\" 明日テストがあるから、勉強します \"I have a test tomorrow, so I'll study\""
+          },
+          {
+            "level": 3,
+            "heading": "Making excuses or declining",
+            "content": "A: 映画に行かない？ \"Won't you go to a movie?\" B: ごめん、今日は忙しいから \"Sorry, I'm busy today\""
+          },
+          {
+            "level": 3,
+            "heading": "Giving explanations",
+            "content": "遅れてすみません。電車が遅れたから \"Sorry I'm late. Because the train was delayed\" 疲れたから、今日は早く寝ます \"I'm tired, so I'll sleep early today\""
+          }
+        ]
+      },
+      {
+        "level": 2,
+        "heading": "Common Conversations",
+        "content": "",
+        "children": [
+          {
+            "level": 3,
+            "heading": "Example 1: Making Plans",
+            "content": "A: 今日、買い物に行かない？ \"Won't you go shopping today?\" B: ごめん、お金がないから、行けない \"Sorry, I don't have money, so I can't go\" A: じゃあ、また今度ね \"Then, another time\""
+          },
+          {
+            "level": 3,
+            "heading": "Example 2: At Work",
+            "content": "A: どうして休んだんですか \"Why did you take the day off?\" B: 風邪を引いたから、休みました \"Because I caught a cold, I took the day off\" A: 大丈夫ですか \"Are you okay?\""
+          },
+          {
+            "level": 3,
+            "heading": "Example 3: Daily Life",
+            "content": "A: 今日、雨降るかな \"I wonder if it'll rain today\" B: 曇ってるから、降ると思うよ \"It's cloudy, so I think it will\" A: 傘を持って行こう \"Let's take an umbrella\""
+          }
+        ]
+      },
+      {
+        "level": 2,
+        "heading": "Sentence Structure",
+        "content": "",
+        "children": [
+          {
+            "level": 3,
+            "heading": "から at the end of first clause",
+            "content": "[Reason]から、[Result] 暑いから、窓を開けます \"It's hot, so I'll open the window\" 好きだから、買います \"I like it, so I'll buy it\""
+          },
+          {
+            "level": 3,
+            "heading": "Casual: から at the end only",
+            "content": "A: どうして？ \"Why?\" B: 忙しいから \"Because I'm busy\" Can end with から in casual speech!"
+          }
+        ]
+      },
+      {
+        "level": 2,
+        "heading": "Common Mistakes",
+        "content": "",
+        "children": [
+          {
+            "level": 3,
+            "heading": "Mistake 1: Using です before から",
+            "content": "Wrong: 学生ですから ❌ Right: 学生だから ✓ Or: 学生ですから (formal) ✓ \"Because I'm a student\" In casual speech, use だから In formal, ですから is okay"
+          },
+          {
+            "level": 3,
+            "heading": "Mistake 2: Confusing order",
+            "content": "Unnatural: 行きますから、時間がない ⚠️ Natural: 時間がないから、行きます ✓ \"I don't have time, so I'll go\" Reason comes BEFORE から!"
+          },
+          {
+            "level": 3,
+            "heading": "Mistake 3: Overusing in formal situations",
+            "content": "Too casual (formal): 疲れたから ⚠️ Better: 疲れましたので ✓ \"Because I'm tired\" Use ので for formal situations!"
+          }
+        ]
+      },
+      {
+        "level": 2,
+        "heading": "から vs ので Preview",
+        "content": "",
+        "children": [
+          {
+            "level": 3,
+            "heading": "から (subjective, casual)",
+            "content": "雨だから、行かない \"It's rainy, so I won't go\" Speaker's personal decision More casual Can end sentence with から"
+          },
+          {
+            "level": 3,
+            "heading": "ので (objective, formal)",
+            "content": "雨なので、行きません \"Because it's raining, I won't go\" States objective reason More formal/polite Cannot end sentence with ので"
+          }
+        ]
+      },
+      {
+        "level": 2,
+        "heading": "Politeness Levels",
+        "content": "",
+        "children": [
+          {
+            "level": 3,
+            "heading": "Very casual: から alone",
+            "content": "疲れたから \"Because I'm tired\" Ending with から"
+          },
+          {
+            "level": 3,
+            "heading": "Casual: だから",
+            "content": "忙しいから、無理 \"I'm busy, so it's impossible\" Casual conversation"
+          },
+          {
+            "level": 3,
+            "heading": "Polite: ですから / ますから",
+            "content": "忙しいですから、無理です \"I'm busy, so it's impossible\" Polite but still subjective"
+          },
+          {
+            "level": 3,
+            "heading": "More polite: ので",
+            "content": "忙しいので、無理です \"Because I'm busy, it's impossible\" More formal alternative"
+          }
+        ]
+      },
+      {
+        "level": 2,
+        "heading": "Common Expressions",
+        "content": "",
+        "children": [
+          {
+            "level": 3,
+            "heading": "Weather reasons",
+            "content": "雨だから、行かない \"It's raining, so I won't go\" 暑いから、エアコンをつけよう \"It's hot, so let's turn on the AC\" 寒かったから、風邪を引いた \"It was cold, so I caught a cold\""
+          },
+          {
+            "level": 3,
+            "heading": "Time reasons",
+            "content": "時間がないから、急ごう \"We don't have time, so let's hurry\" 遅いから、タクシーで行こう \"It's late, so let's go by taxi\" 早いから、まだ大丈夫 \"It's early, so we're still okay\""
+          },
+          {
+            "level": 3,
+            "heading": "Physical/mental state",
+            "content": "疲れたから、休みたい \"I'm tired, so I want to rest\" お腹が空いたから、何か食べよう \"I'm hungry, so let's eat something\" 眠いから、もう寝る \"I'm sleepy, so I'll go to bed\""
+          }
+        ]
+      },
+      {
+        "level": 2,
+        "heading": "Asking Why with から",
+        "content": "",
+        "children": [
+          {
+            "level": 3,
+            "heading": "どうして + から",
+            "content": "A: どうして行かないの？ \"Why won't you go?\" B: 時間がないから \"Because I don't have time\""
+          },
+          {
+            "level": 3,
+            "heading": "なぜ + から (more formal)",
+            "content": "A: なぜ遅れたんですか \"Why were you late?\" B: 電車が遅れたからです \"Because the train was delayed\""
+          }
+        ]
+      },
+      {
+        "level": 2,
+        "heading": "Multiple Reasons",
+        "content": "",
+        "children": [
+          {
+            "level": 3,
+            "heading": "Connecting reasons with し",
+            "content": "雨だし、寒いから、行きたくない \"It's raining and cold, so I don't want to go\" 高いし、美味しくないから、買わない \"It's expensive and not delicious, so I won't buy it\""
+          }
+        ]
+      },
+      {
+        "level": 2,
+        "heading": "から with Commands/Requests",
+        "content": "",
+        "children": [
+          {
+            "level": 3,
+            "heading": "Explaining requests",
+            "content": "危ないから、気をつけて \"It's dangerous, so be careful\" 遅れるから、急いで \"We'll be late, so hurry\" 大事だから、忘れないでね \"It's important, so don't forget\""
+          }
+        ]
+      },
+      {
+        "level": 2,
+        "heading": "Emphatic から",
+        "content": "",
+        "children": [
+          {
+            "level": 3,
+            "heading": "Adding よ for emphasis",
+            "content": "好きだからだよ \"It's because I like it!\" 忙しいからだってば \"I told you it's because I'm busy!\" Emphasizing the reason"
+          }
+        ]
+      },
+      {
+        "level": 2,
+        "heading": "から in Written Japanese",
+        "content": "",
+        "children": [
+          {
+            "level": 3,
+            "heading": "More formal: ため",
+            "content": "Casual: 雨だから、中止です Formal: 雨のため、中止です \"Due to rain, it's cancelled\" ため is more formal in writing"
+          }
+        ]
+      },
+      {
+        "level": 2,
+        "heading": "Responding to Reasons",
+        "content": "",
+        "children": [
+          {
+            "level": 3,
+            "heading": "Acknowledging",
+            "content": "そうなんだ \"I see\" なるほど \"I understand\" 分かった \"Got it\" それは大変だね \"That's tough\""
+          }
+        ]
+      },
+      {
+        "level": 2,
+        "heading": "Practice Sentences",
+        "content": "",
+        "children": [
+          {
+            "level": 3,
+            "heading": "Basic",
+            "content": "疲れたから、休みます \"I'm tired, so I'll rest\" 雨だから、行きません \"It's raining, so I won't go\" 好きだから、買いました \"I liked it, so I bought it\""
+          },
+          {
+            "level": 3,
+            "heading": "Intermediate",
+            "content": "明日早いから、今日は早く寝たほうがいい \"I have to wake up early tomorrow, so I should sleep early today\" お金がないから、今月は旅行に行けない \"I don't have money, so I can't go on a trip this month\" 彼が好きだから、毎日会いたい \"I like him, so I want to see him every day\""
+          },
+          {
+            "level": 3,
+            "heading": "Advanced",
+            "content": "この仕事は給料がいいから、続けたいと思っています \"This job has good pay, so I'm thinking of continuing\" 日本語が上手になりたいから、毎日勉強しています \"I want to become good at Japanese, so I study every day\" 健康のために運動したほうがいいと分かっているから、ジムに通い始めました \"I know I should exercise for my health, so I started going to the gym\""
+          }
+        ]
+      },
+      {
+        "level": 2,
+        "heading": "Related Grammar Points",
+        "content": "ので - Because (objective/polite) から vs ので - Difference between から and ので だから - Therefore/so て-form - Casual reason ために - For the purpose of Giving reasons - Expressing reasons",
+        "children": [
+          {
+            "level": 3,
+            "heading": "Company",
+            "content": "About Pricing Blog Contact"
+          },
+          {
+            "level": 3,
+            "heading": "Legal",
+            "content": "Privacy Policy Terms of Service Cookie Policy"
+          }
+        ]
+      }
+    ]
+  },
+  "metadata": {
+    "extracted_at": "2026-01-01T22:19:31.286946800Z",
+    "duration_ms": 3,
+    "extractors_matched": [
+      "metadata",
+      "examples",
+      "sections"
+    ],
+    "extractors_failed": [
+      "vocab_tables",
+      "definitions",
+      "content_blocks"
+    ]
+  }
+}

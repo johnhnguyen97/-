@@ -1,0 +1,297 @@
+{
+  "config_name": "Language Learning Extractor",
+  "url": "https://practice-japanese.com/docs/naosu/",
+  "data": {
+    "metadata": {
+      "title": "〜直す (naosu) - Redo"
+    },
+    "examples": [
+      {
+        "sentence": "About"
+      },
+      {
+        "sentence": "Pricing"
+      },
+      {
+        "sentence": "Blog"
+      },
+      {
+        "sentence": "Contact"
+      },
+      {
+        "sentence": "Privacy Policy"
+      },
+      {
+        "sentence": "Terms of Service"
+      },
+      {
+        "sentence": "Cookie Policy"
+      }
+    ],
+    "sections": [
+      {
+        "level": 2,
+        "heading": "〜直す (naosu) - Redo",
+        "content": "〜直す attaches to verb stems to indicate redoing an action or doing something over again , usually to correct or improve it. It implies the first attempt wasn't satisfactory.\n\nVerb stem + 直す 書き直す - rewrite 作り直す - remake 考え直す - reconsider Do over again Correct/improve Second attempt"
+      },
+      {
+        "level": 2,
+        "heading": "Formation",
+        "content": "",
+        "children": [
+          {
+            "level": 3,
+            "heading": "Basic pattern",
+            "content": "る-verbs: 食べる → 食べ直す \"eat again\" 見る → 見直す \"look again, review\" 寝る → 寝直す \"go back to sleep\" う-verbs: 書く → 書き直す \"rewrite\" 作る → 作り直す \"remake\" 読む → 読み直す \"reread\" 言う → 言い直す \"rephrase, say again\" Irregular: する → し直す \"redo\" 来る → 来直す \"come again\""
+          }
+        ]
+      },
+      {
+        "level": 2,
+        "heading": "Core Meaning",
+        "content": "",
+        "children": [
+          {
+            "level": 3,
+            "heading": "Doing over",
+            "content": "レポートを書き直した \"Rewrote the report\" Implies: First version unsatisfactory Had to do it again Corrective action 料理を作り直す \"Remake the dish\" First attempt failed Making it again"
+          }
+        ]
+      },
+      {
+        "level": 2,
+        "heading": "When to Use",
+        "content": "",
+        "children": [
+          {
+            "level": 3,
+            "heading": "Corrections",
+            "content": "間違えたから、書き直す \"Made a mistake, so (I'll) rewrite it\" 失敗したので、やり直す \"Failed, so (I'll) do it over\" Error correction Improvement attempt"
+          },
+          {
+            "level": 3,
+            "heading": "Reconsideration",
+            "content": "考え直す \"Reconsider, think again\" 予定を考え直した \"Reconsidered the plans\" Changed mind Rethinking decisions"
+          },
+          {
+            "level": 3,
+            "heading": "Physical correction",
+            "content": "服を着直す \"Put on clothes again (properly)\" 髪を結び直す \"Retie hair\" Physical adjustment Fixing appearance"
+          }
+        ]
+      },
+      {
+        "level": 2,
+        "heading": "Common Verbs with 直す",
+        "content": "",
+        "children": [
+          {
+            "level": 3,
+            "heading": "Writing and creation",
+            "content": "書き直す - rewrite Most common 作り直す - remake Very common 描き直す - redraw Art context 録り直す - re-record Media context"
+          },
+          {
+            "level": 3,
+            "heading": "Mental actions",
+            "content": "考え直す - reconsider Very common 見直す - review, look again Common for checking 思い直す - change one's mind Reconsider opinion"
+          },
+          {
+            "level": 3,
+            "heading": "Physical actions",
+            "content": "やり直す - redo, do over Most general 着直す - put on (clothes) again Physical correction 並べ直す - rearrange Reorganize"
+          }
+        ]
+      },
+      {
+        "level": 2,
+        "heading": "Transitivity",
+        "content": "",
+        "children": [
+          {
+            "level": 3,
+            "heading": "Maintains verb pattern",
+            "content": "Transitive stays transitive: 手紙を書き直す \"rewrite a letter\" 服を着直す \"put on clothes again\" Object is what gets redone Same object as original verb"
+          }
+        ]
+      },
+      {
+        "level": 2,
+        "heading": "Nuance: Correction Focus",
+        "content": "",
+        "children": [
+          {
+            "level": 3,
+            "heading": "Implies need for improvement",
+            "content": "書き直す Not just writing again But correcting/improving 作り直す Not just making again But fixing mistakes Corrective connotation Improvement implied"
+          }
+        ]
+      },
+      {
+        "level": 2,
+        "heading": "Special Meaning: 見直す",
+        "content": "",
+        "children": [
+          {
+            "level": 3,
+            "heading": "Multiple meanings",
+            "content": "見直す can mean: 1. Look at again (literally) もう一度見直す \"look again\" 2. Review/check レポートを見直す \"review report\" 3. Reevaluate/reconsider opinion 彼を見直した \"I gained new respect for him\" Context determines meaning Very versatile compound"
+          }
+        ]
+      },
+      {
+        "level": 2,
+        "heading": "With Mistakes",
+        "content": "",
+        "children": [
+          {
+            "level": 3,
+            "heading": "Error correction context",
+            "content": "間違えたから書き直した \"Made a mistake so rewrote it\" 失敗したのでやり直す \"Failed so doing it over\" Often follows mistake/failure Natural sequence"
+          }
+        ]
+      },
+      {
+        "level": 2,
+        "heading": "Expressing Need",
+        "content": "",
+        "children": [
+          {
+            "level": 3,
+            "heading": "\"Need to redo\"",
+            "content": "書き直さなければならない \"Must rewrite\" やり直す必要がある \"There's a need to redo\" 作り直した方がいい \"Better to remake it\" Obligation to redo Necessary correction"
+          }
+        ]
+      },
+      {
+        "level": 2,
+        "heading": "Politeness in Context",
+        "content": "",
+        "children": [
+          {
+            "level": 3,
+            "heading": "Asking to redo",
+            "content": "書き直してください \"Please rewrite (it)\" もう一度やり直してもらえますか \"Could you do it over again?\" Polite requests Professional contexts"
+          }
+        ]
+      },
+      {
+        "level": 2,
+        "heading": "Common Collocations",
+        "content": "書き直す - rewrite Most frequent やり直す - redo General purpose 考え直す - reconsider Common mental action 作り直す - remake Common for creation 見直す - review Very common checking Natural combinations Learn as units"
+      },
+      {
+        "level": 2,
+        "heading": "Formality",
+        "content": "",
+        "children": [
+          {
+            "level": 3,
+            "heading": "Neutral usage",
+            "content": "Can use in: - Casual: 書き直した - Polite: 書き直しました - Formal writing: 書き直した Adjust with conjugation Not inherently formal/casual"
+          }
+        ]
+      },
+      {
+        "level": 2,
+        "heading": "Conjugation",
+        "content": "",
+        "children": [
+          {
+            "level": 3,
+            "heading": "Regular う-verb",
+            "content": "直す is an う-verb: Present: 直す Past: 直した Negative: 直さない Te-form: 直して Potential: 直せる Causative: 直させる Passive: 直される Standard う-verb patterns"
+          }
+        ]
+      },
+      {
+        "level": 2,
+        "heading": "Standalone 直す",
+        "content": "",
+        "children": [
+          {
+            "level": 3,
+            "heading": "As independent verb",
+            "content": "Standalone 直す means \"fix/repair\": 時計を直す \"fix a watch\" 壊れた物を直す \"repair broken thing\" Compound 直す means \"do over\": 書き直す \"rewrite\" 作り直す \"remake\" Different but related meanings Context determines"
+          }
+        ]
+      },
+      {
+        "level": 2,
+        "heading": "Multiple Attempts",
+        "content": "",
+        "children": [
+          {
+            "level": 3,
+            "heading": "Repeated redoing",
+            "content": "何度も書き直した \"Rewrote many times\" 何回もやり直した \"Did over many times\" Persistent correction Multiple attempts Until satisfactory"
+          }
+        ]
+      },
+      {
+        "level": 2,
+        "heading": "With てみる",
+        "content": "",
+        "children": [
+          {
+            "level": 3,
+            "heading": "\"Try redoing\"",
+            "content": "書き直してみる \"Try rewriting\" 作り直してみよう \"Let's try remaking\" Experimental redoing Test approach"
+          }
+        ]
+      },
+      {
+        "level": 2,
+        "heading": "Negative Implications",
+        "content": "",
+        "children": [
+          {
+            "level": 3,
+            "heading": "Often implies dissatisfaction",
+            "content": "Using 直す suggests: - First attempt inadequate - Mistakes were made - Improvement needed Not always negative But corrective nature"
+          }
+        ]
+      },
+      {
+        "level": 2,
+        "heading": "Common Mistakes",
+        "content": "❌ Using dictionary form ✗ 書く直す ✓ Using stem form ✓ 書き直す ❌ Confusing with 治す (heal) 直す = fix/redo 治す = cure/heal ✓ Check context and kanji ❌ Wrong conjugation ✗ 直した (naoita) ✓ Correct conjugation ✓ 直した (naoshita)"
+      },
+      {
+        "level": 2,
+        "heading": "Practical Examples",
+        "content": "",
+        "children": [
+          {
+            "level": 3,
+            "heading": "Real-life situations",
+            "content": "この部分を書き直してください \"Please rewrite this part\" 失敗したからもう一度やり直そう \"Failed so let's do it over again\" 計画を考え直す必要がある \"Need to reconsider the plan\" ちょっと着直してくる \"I'll go fix my clothes\" Everyday usage Natural contexts Correction and improvement"
+          },
+          {
+            "level": 3,
+            "heading": "Company",
+            "content": "About Pricing Blog Contact"
+          },
+          {
+            "level": 3,
+            "heading": "Legal",
+            "content": "Privacy Policy Terms of Service Cookie Policy"
+          }
+        ]
+      }
+    ]
+  },
+  "metadata": {
+    "extracted_at": "2026-01-01T22:19:31.682805900Z",
+    "duration_ms": 5,
+    "extractors_matched": [
+      "metadata",
+      "examples",
+      "sections"
+    ],
+    "extractors_failed": [
+      "vocab_tables",
+      "definitions",
+      "content_blocks"
+    ]
+  }
+}

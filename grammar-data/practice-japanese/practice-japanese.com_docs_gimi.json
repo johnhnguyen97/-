@@ -1,0 +1,316 @@
+{
+  "config_name": "Language Learning Extractor",
+  "url": "https://practice-japanese.com/docs/gimi/",
+  "data": {
+    "metadata": {
+      "title": "〜気味 (Slightly/Tending)"
+    },
+    "examples": [
+      {
+        "sentence": "気味 expresses slight degree or tendency toward a state"
+      },
+      {
+        "sentence": "Formation: [Verb ます-stem / Noun] + 気味"
+      },
+      {
+        "sentence": "Often (but not always) negative connotations"
+      },
+      {
+        "sentence": "Common with: 風邪, 疲れ, 太り, 遅れ"
+      },
+      {
+        "sentence": "Functions as a noun, uses の to modify"
+      },
+      {
+        "sentence": "For mild conditions, not severe ones"
+      },
+      {
+        "sentence": "Different from っぽい (characteristic/tendency)"
+      },
+      {
+        "sentence": "Essential for softly describing undesirable states"
+      },
+      {
+        "sentence": "About"
+      },
+      {
+        "sentence": "Pricing"
+      },
+      {
+        "sentence": "Blog"
+      },
+      {
+        "sentence": "Contact"
+      },
+      {
+        "sentence": "Privacy Policy"
+      },
+      {
+        "sentence": "Terms of Service"
+      },
+      {
+        "sentence": "Cookie Policy"
+      }
+    ],
+    "sections": [
+      {
+        "level": 2,
+        "heading": "What is 〜気味?",
+        "content": "〜気味 (gimi) expresses that something is slightly or somewhat in a certain state, or tending toward that state. It often (but not always) has negative connotations.\n\nEnglish equivalent: \"slightly,\" \"somewhat,\" \"a bit,\" \"tending to be\"\n\nStructure: [Verb ます-stem / Noun] + 気味\n\n疲れる (tsukareru - get tired) → 疲れ + 気味 = 疲れ気味 \"slightly tired\" 風邪 (kaze - cold) + 気味 = 風邪気味 \"slightly cold-ish\" / \"coming down with a cold\" 太る (futoru - gain weight) → 太り + 気味 = 太り気味 \"slightly overweight\""
+      },
+      {
+        "level": 2,
+        "heading": "Basic Formation",
+        "content": "",
+        "children": [
+          {
+            "level": 3,
+            "heading": "With verb stems",
+            "content": "[Verb ます-stem] + 気味\n\n疲れ気味 (tsukare gimi) - \"slightly tired\" 太り気味 (futori gimi) - \"slightly overweight\" 遅れ気味 (okure gimi) - \"slightly behind/late\" 飲み過ぎ気味 (nomisugi gimi) - \"drinking a bit too much\""
+          },
+          {
+            "level": 3,
+            "heading": "With nouns",
+            "content": "[Noun] + 気味\n\n風邪気味 (kaze gimi) - \"slightly cold-ish\" 病気味 (byouki gimi) - \"slightly ill\""
+          }
+        ]
+      },
+      {
+        "level": 2,
+        "heading": "Health Conditions",
+        "content": "",
+        "children": [
+          {
+            "level": 3,
+            "heading": "Mild symptoms",
+            "content": "風邪気味だ。 Kaze gimi da. \"I'm coming down with a cold.\" ちょっと風邪気味です。 Chotto kaze gimi desu. \"I have a slight cold.\" 最近疲れ気味。 Saikin tsukare gimi. \"I've been slightly tired lately.\" 胃が痛み気味。 I ga itami gimi. \"My stomach hurts a bit.\""
+          }
+        ]
+      },
+      {
+        "level": 2,
+        "heading": "Physical States",
+        "content": "",
+        "children": [
+          {
+            "level": 3,
+            "heading": "Body conditions",
+            "content": "太り気味だ。 Futori gimi da. \"I'm slightly overweight.\" 痩せ気味の体型。 Yase gimi no taikei. \"A slightly thin body type.\" 運動不足気味。 Undou busoku gimi. \"Not getting quite enough exercise.\""
+          }
+        ]
+      },
+      {
+        "level": 2,
+        "heading": "Schedule and Progress",
+        "content": "",
+        "children": [
+          {
+            "level": 3,
+            "heading": "Being behind",
+            "content": "遅れ気味のプロジェクト。 Okure gimi no purojekuto. \"A project that's running behind.\" スケジュールが遅れ気味だ。 Sukejuuru ga okure gimi da. \"The schedule is running a bit late.\" 進み気味。 Susumi gimi. \"Progressing slightly ahead.\""
+          }
+        ]
+      },
+      {
+        "level": 2,
+        "heading": "Weather and Temperature",
+        "content": "",
+        "children": [
+          {
+            "level": 3,
+            "heading": "Environmental conditions",
+            "content": "寒気味の天気。 Samu gimi no tenki. \"Slightly cold weather.\" 暑気味だ。 Atsu gimi da. \"It's a bit hot.\" 曇り気味。 Kumori gimi. \"Slightly cloudy.\""
+          }
+        ]
+      },
+      {
+        "level": 2,
+        "heading": "Emotions and Mental States",
+        "content": "",
+        "children": [
+          {
+            "level": 3,
+            "heading": "Psychological conditions",
+            "content": "落ち込み気味。 Ochikomi gimi. \"Feeling a bit down.\" 不安気味。 Fuan gimi. \"Slightly anxious.\" 憂鬱気味だ。 Yuuutsu gimi da. \"Feeling somewhat depressed.\""
+          }
+        ]
+      },
+      {
+        "level": 2,
+        "heading": "Excess or Overdoing",
+        "content": "",
+        "children": [
+          {
+            "level": 3,
+            "heading": "Too much of something",
+            "content": "食べ過ぎ気味。 Tabesugi gimi. \"Eating a bit too much.\" 飲み過ぎ気味だ。 Nomisugi gimi da. \"Drinking a bit too much.\" 働き過ぎ気味。 Hatarakisugi gimi. \"Working a bit too much.\" 買い過ぎ気味。 Kaisugi gimi. \"Buying a bit too much.\""
+          }
+        ]
+      },
+      {
+        "level": 2,
+        "heading": "気味 as Noun",
+        "content": "",
+        "children": [
+          {
+            "level": 3,
+            "heading": "Functions as a noun",
+            "content": "疲れ気味の顔 (tsukare gimi no kao) - \"a slightly tired face\" 遅れ気味のスケジュール (okure gimi no sukejuuru) - \"a behind-schedule timeline\" 風邪気味なので休みます。 Kaze gimi na node yasumimasu. \"I'll rest because I'm slightly sick.\" 最近太り気味です。 Saikin futori gimi desu. \"I've been gaining weight lately.\""
+          }
+        ]
+      },
+      {
+        "level": 2,
+        "heading": "With の",
+        "content": "",
+        "children": [
+          {
+            "level": 3,
+            "heading": "Modifying nouns",
+            "content": "疲れ気味の社員。 Tsukare gimi no shain. \"Slightly tired employees.\" 遅れ気味のプロジェクト。 Okure gimi no purojekuto. \"A behind-schedule project.\" 太り気味の人。 Futori gimi no hito. \"A slightly overweight person.\""
+          }
+        ]
+      },
+      {
+        "level": 2,
+        "heading": "Polite Forms",
+        "content": "Casual: 風邪気味だ Polite: 風邪気味です With explanation: 風邪気味なんです 風邪気味です。 Kaze gimi desu. \"I have a slight cold.\" 最近疲れ気味なんです。 Saikin tsukare gimi nan desu. \"The thing is, I've been tired lately.\""
+      },
+      {
+        "level": 2,
+        "heading": "Common Expressions",
+        "content": "風邪気味 (kaze gimi) - \"coming down with a cold\" 疲れ気味 (tsukare gimi) - \"slightly tired\" 太り気味 (futori gimi) - \"slightly overweight\" 遅れ気味 (okure gimi) - \"slightly behind\" 飲み過ぎ気味 (nomisugi gimi) - \"drinking a bit too much\" 食べ過ぎ気味 (tabesugi gimi) - \"eating a bit too much\" 働き過ぎ気味 (hatarakisugi gimi) - \"working a bit too much\" 運動不足気味 (undou busoku gimi) - \"not exercising enough\""
+      },
+      {
+        "level": 2,
+        "heading": "Softening Negatives",
+        "content": "",
+        "children": [
+          {
+            "level": 3,
+            "heading": "Polite way to mention problems",
+            "content": "ちょっと遅れ気味で... Chotto okure gimi de... \"We're running a bit behind...\" 最近太り気味なんです。 Saikin futori gimi nan desu. \"I've been gaining a bit of weight lately.\" 風邪気味なので早退します。 Kaze gimi na node soutai shimasu. \"I'll leave early because I'm feeling a bit under the weather.\""
+          }
+        ]
+      },
+      {
+        "level": 2,
+        "heading": "Comparing 気味 and っぽい",
+        "content": "",
+        "children": [
+          {
+            "level": 3,
+            "heading": "Slight state vs tendency",
+            "content": "気味 - Currently somewhat in that state:\n\n疲れ気味 (tsukare gimi) \"slightly tired\" (right now) 風邪気味 (kaze gimi) \"slightly sick\" (current condition)\n\nっぽい - Has characteristics/tends to be:\n\n疲れっぽい (tsukareppoi) \"tire easily\" (general tendency) 子供っぽい (kodomoppoi) \"childish\" (characteristic)\n\n| Pattern | Meaning | Example | | ------- | --------------------------- | ---------- | | 気味 | Slightly/somewhat | 疲れ気味 | | っぽい | Tends to/has characteristic | 疲れっぽい |\n\nSee: 〜っぽい (Tend to be)"
+          }
+        ]
+      },
+      {
+        "level": 2,
+        "heading": "Usage in Medical Contexts",
+        "content": "",
+        "children": [
+          {
+            "level": 3,
+            "heading": "Describing symptoms",
+            "content": "熱気味です。 Netsu gimi desu. \"I have a slight fever.\" 頭痛気味。 Zutsuu gimi. \"Slight headache.\" 体調不良気味だ。 Taichou furyou gimi da. \"Not feeling quite well.\" 喉が痛み気味です。 Nodo ga itami gimi desu. \"My throat is slightly sore.\""
+          }
+        ]
+      },
+      {
+        "level": 2,
+        "heading": "Not Always Negative",
+        "content": "",
+        "children": [
+          {
+            "level": 3,
+            "heading": "Can be neutral or positive",
+            "content": "While 気味 often describes negative states, it can be neutral:\n\n進み気味。 Susumi gimi. \"Progressing slightly ahead.\" (neutral/positive) 明るめ気味。 Akarume gimi. \"Slightly brighter.\" (neutral)\n\nMost common usage is still for negative/undesirable states."
+          }
+        ]
+      },
+      {
+        "level": 2,
+        "heading": "With Adjective Stems",
+        "content": "",
+        "children": [
+          {
+            "level": 3,
+            "heading": "Less common but possible",
+            "content": "長気味 (naga gimi) - \"slightly long\" 短気味 (mijika gimi) - \"slightly short\" 多気味 (oo gimi) - \"slightly too many\" 少し長気味だ。 Sukoshi naga gimi da. \"It's a bit long.\""
+          }
+        ]
+      },
+      {
+        "level": 2,
+        "heading": "Particle Usage",
+        "content": "",
+        "children": [
+          {
+            "level": 3,
+            "heading": "With different particles",
+            "content": "風邪気味で休む (de - reason) \"Rest because of slight cold\" 疲れ気味の様子 (no - possessive) \"An appearance of being tired\" 太り気味なので (na node - reason with な-adjective style) \"Because I'm gaining weight\""
+          }
+        ]
+      },
+      {
+        "level": 2,
+        "heading": "Common Mistakes",
+        "content": "",
+        "children": [
+          {
+            "level": 3,
+            "heading": "Mistake 1: Using wrong verb form",
+            "content": "❌ 疲れる気味 ✓ 疲れ気味\n\nUse ます-stem, not dictionary form."
+          },
+          {
+            "level": 3,
+            "heading": "Mistake 2: Overusing for serious conditions",
+            "content": "気味 is for mild conditions. Don't use for serious situations.\n\n❌ 重病気味 (too serious for 気味) ✓ 重病だ (seriously ill) ✓ 風邪気味 (slight cold - appropriate)"
+          },
+          {
+            "level": 3,
+            "heading": "Mistake 3: Confusing with っぽい",
+            "content": "疲れ気味 = currently slightly tired 疲れっぽい = tend to get tired easily (personality trait)"
+          },
+          {
+            "level": 3,
+            "heading": "Mistake 4: Using too formally",
+            "content": "気味 is relatively casual/conversational. For very formal contexts, use other expressions."
+          }
+        ]
+      },
+      {
+        "level": 2,
+        "heading": "Summary",
+        "content": "Key Points:\n\n気味 expresses slight degree or tendency toward a state Formation: [Verb ます-stem / Noun] + 気味 Often (but not always) negative connotations Common with: 風邪, 疲れ, 太り, 遅れ Functions as a noun, uses の to modify For mild conditions, not severe ones Different from っぽい (characteristic/tendency) Essential for softly describing undesirable states",
+        "children": [
+          {
+            "level": 3,
+            "heading": "Company",
+            "content": "About Pricing Blog Contact"
+          },
+          {
+            "level": 3,
+            "heading": "Legal",
+            "content": "Privacy Policy Terms of Service Cookie Policy"
+          }
+        ]
+      }
+    ]
+  },
+  "metadata": {
+    "extracted_at": "2026-01-01T22:19:29.665544Z",
+    "duration_ms": 3,
+    "extractors_matched": [
+      "metadata",
+      "examples",
+      "sections"
+    ],
+    "extractors_failed": [
+      "vocab_tables",
+      "definitions",
+      "content_blocks"
+    ]
+  }
+}

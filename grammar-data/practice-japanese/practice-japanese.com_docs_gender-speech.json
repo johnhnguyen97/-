@@ -1,0 +1,600 @@
+{
+  "config_name": "Language Learning Extractor",
+  "url": "https://practice-japanese.com/docs/gender-speech/",
+  "data": {
+    "sections": [
+      {
+        "level": 2,
+        "heading": "Understanding Gendered Speech in Japanese",
+        "content": "Japanese has traditionally distinct speech patterns for men and women (男性語 danseigo and 女性語 joseigo), though these differences are decreasing among younger generations. Understanding these patterns helps you speak appropriately and understand native speakers better.\n\nImportant notes:\n\nThese are generalizations, not absolute rules Modern Japanese, especially among youth, is becoming more gender-neutral Context and formality level matter more than gender Non-binary and LGBTQ+ individuals may use mixed or preferred patterns Foreign learners are often given more flexibility\n\nWhy gendered speech exists:\n\nHistorical social roles and expectations Cultural norms about masculinity and femininity Politeness and social hierarchy considerations Media reinforcement (anime, dramas exaggerate differences)"
+      },
+      {
+        "level": 2,
+        "heading": "First-Person Pronouns",
+        "content": "",
+        "children": [
+          {
+            "level": 3,
+            "heading": "Male Pronouns (Masculine → Neutral → Formal)",
+            "content": "俺 (ore) - Most masculine, casual\n\n俺は学生だ。 Ore wa gakusei da. \"I'm a student.\" [Very casual, masculine]\n\nUsed among close male friends Never in formal situations Sounds rough if overused Young men and boys\n\n僕 (boku) - Soft masculine, polite casual\n\n僕は田中です。 Boku wa Tanaka desu. \"I'm Tanaka.\" [Polite, boyish]\n\nMore polite than 俺 Common among men of all ages Safe choice for male learners Can sound childish or gentle\n\n私 (watashi) - Neutral/formal\n\n私は会社員です。 Watashi wa kaishain desu. \"I'm a company employee.\" [Formal, neutral]\n\nUsed by both men and women Standard in business and formal settings Safe for all situations Men may sound formal/stiff in casual settings\n\nわたし (watashi) vs わたくし (watakushi)\n\nわたし: Standard formal (both genders) わたくし: Very formal, humble (both genders)"
+          },
+          {
+            "level": 3,
+            "heading": "Female Pronouns (Casual → Neutral → Formal)",
+            "content": "あたし (atashi) - Feminine, casual\n\nあたしは学生。 Atashi wa gakusei. \"I'm a student.\" [Feminine, casual]\n\nUsed by young women casually More common in spoken than written Some women avoid it as too cutesy\n\n私 (watashi) - Standard for women\n\n私は田中です。 Watashi wa Tanaka desu. \"I'm Tanaka.\" [Standard, feminine lean]\n\nMost common and safest choice for women Works in all contexts Default for female learners\n\nわたくし (watakushi) - Very formal\n\nUsed in very formal business settings Both men and women Sounds stiff in casual conversation\n\nうち (uchi) - Regional/very casual\n\nUsed in some regions (Kansai, etc.) Very casual, young women \"My/our/I\" depending on context"
+          },
+          {
+            "level": 3,
+            "heading": "Avoided/Special Pronouns",
+            "content": "あたい (atai), わし (washi), あっし (asshi)\n\nOld-fashioned or character-specific Rarely used in modern Japanese Sometimes in media/anime for effect"
+          }
+        ]
+      },
+      {
+        "level": 2,
+        "heading": "Sentence-Ending Particles",
+        "content": "",
+        "children": [
+          {
+            "level": 3,
+            "heading": "Masculine Particles",
+            "content": "ぞ (zo) - Strong assertion\n\n行くぞ！ Iku zo! \"Let's go!\" / \"I'm going!\"\n\nVery masculine Shows determination or emphasis Can sound aggressive\n\nぜ (ze) - Casual confident assertion\n\n面白いぜ。 Omoshiroi ze. \"This is interesting.\"\n\nMasculine, casual Less aggressive than ぞ Confident tone\n\nな (na) - Reflection\n\nいい天気だな。 Ii tenki da na. \"Nice weather.\" [Talking to self or casually]\n\nMore common in male speech Not exclusively masculine Contemplative tone\n\nさ (sa) - Filler/emphasis\n\nだからさ、行こうよ。 Dakara sa, ikou yo. \"So like, let's go.\"\n\nSlightly masculine lean Used by both genders casually More frequent in male speech"
+          },
+          {
+            "level": 3,
+            "heading": "Feminine Particles",
+            "content": "わ (wa) - Soft assertion\n\nきれいだわ。 Kirei da wa. \"It's beautiful.\" [Feminine, soft]\n\nTraditionally feminine Less common among young women today Can sound old-fashioned or elegant\n\nの (no) - Explanatory/soft question\n\nどうしたの？ Doushita no? \"What's wrong?\" [Seeking explanation, feminine] 忙しいの。 Isogashii no. \"I'm busy.\" [Explanatory, feminine]\n\nCommon in female speech Also used by men in some contexts Softer tone\n\nのよ (no yo) - Feminine emphasis\n\n知ってるのよ。 Shitteru no yo. \"I know!\" [Feminine emphasis]\n\nFeminine ending Adds emphasis with softness Less common among young women\n\nかしら (kashira) - Feminine wondering\n\n雨が降るかしら。 Ame ga furu kashira. \"I wonder if it'll rain.\" [Feminine]\n\nTraditionally feminine Sounds elegant or old-fashioned Rare among young speakers\n\n〜だわ (da wa) vs 〜だよ (da yo)\n\nだわ: Feminine soft assertion だよ: Neutral/masculine emphasis"
+          },
+          {
+            "level": 3,
+            "heading": "Gender-Neutral Particles",
+            "content": "ね (ne) - Agreement/confirmation\n\nそうだね。 Sou da ne. \"That's right.\" / \"I agree.\"\n\nUsed by everyone Most common ending particle Safe for all learners\n\nよ (yo) - Emphasis/information\n\n知ってるよ。 Shitteru yo. \"I know.\"\n\nUsed by everyone Standard emphasis marker No gender association\n\nよね (yo ne) - Emphasis + confirmation\n\nそうだよね。 Sou da yo ne. \"That's right, isn't it?\"\n\nUsed by everyone Common in all speech Gender-neutral"
+          }
+        ]
+      },
+      {
+        "level": 2,
+        "heading": "Verb Forms and Conjugations",
+        "content": "",
+        "children": [
+          {
+            "level": 3,
+            "heading": "Casual Forms",
+            "content": "だ (da) vs です (desu) copula:\n\nMasculine tendency:\n\n学生だ。(Gakusei da.) 寒いな。(Samui na.)\n\nFeminine tendency:\n\n学生なの。(Gakusei na no.) 寒いわ。(Samui wa.)\n\nCommand forms:\n\nMasculine (rough):\n\n行け！ (Ike!) - \"Go!\" 食え！ (Kue!) - \"Eat!\"\n\nNeutral/feminine (softer):\n\n行きなさい。(Ikinasai.) - \"Go.\" [Parental] 食べて。(Tabete.) - \"Eat.\" / \"Please eat.\""
+          },
+          {
+            "level": 3,
+            "heading": "Question Forms",
+            "content": "Masculine:\n\n何してるんだ？ Nani shiterun da? \"What are you doing?\" [Masculine, direct] 行くのか？ Iku no ka? \"Are you going?\" [Masculine questioning]\n\nFeminine:\n\n何してるの？ Nani shiteru no? \"What are you doing?\" [Feminine, softer] 行くの？ Iku no? \"Are you going?\" [Feminine, with rising intonation]"
+          }
+        ]
+      },
+      {
+        "level": 2,
+        "heading": "Vocabulary Differences",
+        "content": "",
+        "children": [
+          {
+            "level": 3,
+            "heading": "Words for \"Very/Really\"",
+            "content": "Masculine:\n\n超 (chou) - Super めっちゃ (meccha) - Very (casual) すげー (suge-) - Amazing (rough)\n\nFeminine:\n\nとっても (tottemo) - Very すごく (sugoku) - Very (softer than すげー) めっちゃ (meccha) - Very (also used, less rough)\n\nNeutral:\n\nとても (totemo) - Very (formal) 本当に (hontou ni) - Really"
+          },
+          {
+            "level": 3,
+            "heading": "Words for \"Delicious\"",
+            "content": "Masculine:\n\nうまい (umai) - Delicious/good めちゃうまい (mecha umai) - Super delicious\n\nFeminine:\n\nおいしい (oishii) - Delicious すごくおいしい (sugoku oishii) - Very delicious\n\nNeutral:\n\n美味しい (oishii) - Delicious (formal writing)"
+          },
+          {
+            "level": 3,
+            "heading": "Interjections",
+            "content": "Masculine:\n\nおい (oi) - Hey! やべー (yabe-) - Oh no! / Awesome! くそ (kuso) - Damn! (vulgar)\n\nFeminine:\n\nちょっと (chotto) - Hey! / Wait! やだ (yada) - No! / Oh no! えー (e-) - What!? / Ehhh?\n\nNeutral:\n\nあら (ara) - Oh! (slightly feminine) まあ (maa) - Oh my! / Well..."
+          }
+        ]
+      },
+      {
+        "level": 2,
+        "heading": "Response Patterns",
+        "content": "",
+        "children": [
+          {
+            "level": 3,
+            "heading": "Agreement",
+            "content": "Masculine:\n\nそうだな (Sou da na) - \"That's right\" うん、そう (Un, sou) - \"Yeah, that's right\" そうだよ (Sou da yo) - \"That's right!\"\n\nFeminine:\n\nそうね (Sou ne) - \"That's right\" そうなの (Sou na no) - \"Really?\" うん、そうよ (Un, sou yo) - \"Yeah, that's right\""
+          },
+          {
+            "level": 3,
+            "heading": "Acknowledgment",
+            "content": "Masculine:\n\nおう (ou) - \"Yeah\" (rough) ああ (aa) - \"Ah, okay\"\n\nFeminine:\n\nうん (un) - \"Yeah\" (softer) ええ (ee) - \"Yes\" (polite)"
+          }
+        ]
+      },
+      {
+        "level": 2,
+        "heading": "Modern Trends and Changes",
+        "content": "",
+        "children": [
+          {
+            "level": 3,
+            "heading": "Younger Generations",
+            "content": "Converging patterns:\n\nMany young women use 俺 (ore) jokingly or casually Men use softer language than previous generations Gender-neutral language increasing Less emphasis on traditional gendered speech\n\nPersistent differences:\n\nFirst-person pronouns still differ (mostly) Some particles remain gendered (わ, ぞ) Formal situations maintain traditional patterns"
+          },
+          {
+            "level": 3,
+            "heading": "Influence of Media",
+            "content": "Anime and manga exaggerate:\n\nCharacters use extreme gendered speech Real Japanese is much more neutral Don't copy anime speech exactly Good for understanding, not production\n\nModern dramas:\n\nMore realistic speech patterns Better models for learners Show current trends"
+          }
+        ]
+      },
+      {
+        "level": 2,
+        "heading": "What Should Learners Use?",
+        "content": "",
+        "children": [
+          {
+            "level": 3,
+            "heading": "Male Learners",
+            "content": "Safe choices:\n\nPronoun: 僕 (boku) or 私 (watashi) Particles: よ、ね、よね Avoid: Overly rough language (俺、ぞ、ぜ) initially\n\nWhen comfortable:\n\nUse 俺 with close male friends Add masculine particles naturally Match your friend group's style"
+          },
+          {
+            "level": 3,
+            "heading": "Female Learners",
+            "content": "Safe choices:\n\nPronoun: 私 (watashi) Particles: よ、ね、よね、の Avoid: Overly cutesy or old-fashioned (わ、かしら)\n\nWhen comfortable:\n\nUse あたし if it feels natural Modern women often use neutral patterns Choose based on personal style"
+          },
+          {
+            "level": 3,
+            "heading": "Non-Binary/Gender-Neutral",
+            "content": "Recommendations:\n\nPronoun: 私 (watashi) or 僕 (boku) Particles: よ、ね、よね (neutral) Style: Adopt patterns that feel comfortable\n\nJapanese is becoming more flexible Choose what matches your identity 私 works for everyone in all contexts"
+          }
+        ]
+      },
+      {
+        "level": 2,
+        "heading": "Context Matters Most",
+        "content": "",
+        "children": [
+          {
+            "level": 3,
+            "heading": "Formal Settings",
+            "content": "Everyone uses:\n\n私 (watashi) as pronoun です/ます forms Minimal gendered particles Neutral vocabulary"
+          },
+          {
+            "level": 3,
+            "heading": "Casual Settings",
+            "content": "More flexibility:\n\nPersonal pronoun choice Shortened forms Gendered particles acceptable Match your friend group"
+          },
+          {
+            "level": 3,
+            "heading": "Business Settings",
+            "content": "Professional language:\n\n私 (watashi/watakushi) Formal conjugations Gender-neutral expressions Avoid casual gendered speech"
+          }
+        ]
+      },
+      {
+        "level": 2,
+        "heading": "Common Mistakes",
+        "content": "",
+        "children": [
+          {
+            "level": 3,
+            "heading": "Mistake 1: Overusing Rough Masculine Language",
+            "content": "❌ Male learner: 俺、超やべーぜ！ ✓ 僕、すごいね or 私、本当にすごいです\n\nStart with neutral language, add masculine elements gradually."
+          },
+          {
+            "level": 3,
+            "heading": "Mistake 2: Using Old-Fashioned Feminine Speech",
+            "content": "❌ Female learner: ～だわ、～かしら ✓ ～だね、～かな\n\nModern women rarely use these in casual conversation."
+          },
+          {
+            "level": 3,
+            "heading": "Mistake 3: Copying Anime Characters",
+            "content": "❌ Using extreme gendered speech from anime ✓ Learning from dramas, real conversations\n\nAnime exaggerates for character effect."
+          },
+          {
+            "level": 3,
+            "heading": "Mistake 4: Ignoring Context",
+            "content": "❌ Using casual masculine speech in business meeting ✓ Using 私 and formal language regardless of gender\n\nContext and formality trump gender considerations."
+          }
+        ]
+      },
+      {
+        "level": 2,
+        "heading": "Summary",
+        "content": "Key Points:\n\nJapanese has traditional gendered speech patterns Modern Japanese is becoming more gender-neutral Context and formality matter more than gender First-person pronouns show the clearest differences Sentence-ending particles add gender nuance Media (especially anime) exaggerates differences",
+        "children": [
+          {
+            "level": 3,
+            "heading": "Company",
+            "content": "About Pricing Blog Contact"
+          },
+          {
+            "level": 3,
+            "heading": "Legal",
+            "content": "Privacy Policy Terms of Service Cookie Policy"
+          }
+        ]
+      }
+    ],
+    "examples": [
+      {
+        "sentence": "These are generalizations, not absolute rules"
+      },
+      {
+        "sentence": "Modern Japanese, especially among youth, is becoming more gender-neutral"
+      },
+      {
+        "sentence": "Context and formality level matter more than gender"
+      },
+      {
+        "sentence": "Non-binary and LGBTQ+ individuals may use mixed or preferred patterns"
+      },
+      {
+        "sentence": "Foreign learners are often given more flexibility"
+      },
+      {
+        "sentence": "Historical social roles and expectations"
+      },
+      {
+        "sentence": "Cultural norms about masculinity and femininity"
+      },
+      {
+        "sentence": "Politeness and social hierarchy considerations"
+      },
+      {
+        "sentence": "Media reinforcement (anime, dramas exaggerate differences)"
+      },
+      {
+        "sentence": "Used among close male friends"
+      },
+      {
+        "sentence": "Never in formal situations"
+      },
+      {
+        "sentence": "Sounds rough if overused"
+      },
+      {
+        "sentence": "Young men and boys"
+      },
+      {
+        "sentence": "More polite than 俺"
+      },
+      {
+        "sentence": "Common among men of all ages"
+      },
+      {
+        "sentence": "Safe choice for male learners"
+      },
+      {
+        "sentence": "Can sound childish or gentle"
+      },
+      {
+        "sentence": "Used by both men and women"
+      },
+      {
+        "sentence": "Standard in business and formal settings"
+      },
+      {
+        "sentence": "Safe for all situations"
+      },
+      {
+        "sentence": "Men may sound formal/stiff in casual settings"
+      },
+      {
+        "sentence": "わたし: Standard formal (both genders)"
+      },
+      {
+        "sentence": "わたくし: Very formal, humble (both genders)"
+      },
+      {
+        "sentence": "Used by young women casually"
+      },
+      {
+        "sentence": "More common in spoken than written"
+      },
+      {
+        "sentence": "Some women avoid it as too cutesy"
+      },
+      {
+        "sentence": "Most common and safest choice for women"
+      },
+      {
+        "sentence": "Works in all contexts"
+      },
+      {
+        "sentence": "Default for female learners"
+      },
+      {
+        "sentence": "Used in very formal business settings"
+      },
+      {
+        "sentence": "Both men and women"
+      },
+      {
+        "sentence": "Sounds stiff in casual conversation"
+      },
+      {
+        "sentence": "Used in some regions (Kansai, etc.)"
+      },
+      {
+        "sentence": "Very casual, young women"
+      },
+      {
+        "sentence": "\"My/our/I\" depending on context"
+      },
+      {
+        "sentence": "Old-fashioned or character-specific"
+      },
+      {
+        "sentence": "Rarely used in modern Japanese"
+      },
+      {
+        "sentence": "Sometimes in media/anime for effect"
+      },
+      {
+        "sentence": "Very masculine"
+      },
+      {
+        "sentence": "Shows determination or emphasis"
+      },
+      {
+        "sentence": "Can sound aggressive"
+      },
+      {
+        "sentence": "Masculine, casual"
+      },
+      {
+        "sentence": "Less aggressive than ぞ"
+      },
+      {
+        "sentence": "Confident tone"
+      },
+      {
+        "sentence": "More common in male speech"
+      },
+      {
+        "sentence": "Not exclusively masculine"
+      },
+      {
+        "sentence": "Contemplative tone"
+      },
+      {
+        "sentence": "Slightly masculine lean"
+      },
+      {
+        "sentence": "Used by both genders casually"
+      },
+      {
+        "sentence": "More frequent in male speech"
+      },
+      {
+        "sentence": "Traditionally feminine"
+      },
+      {
+        "sentence": "Less common among young women today"
+      },
+      {
+        "sentence": "Can sound old-fashioned or elegant"
+      },
+      {
+        "sentence": "Common in female speech"
+      },
+      {
+        "sentence": "Also used by men in some contexts"
+      },
+      {
+        "sentence": "Softer tone"
+      },
+      {
+        "sentence": "Feminine ending"
+      },
+      {
+        "sentence": "Adds emphasis with softness"
+      },
+      {
+        "sentence": "Less common among young women"
+      },
+      {
+        "sentence": "Traditionally feminine"
+      },
+      {
+        "sentence": "Sounds elegant or old-fashioned"
+      },
+      {
+        "sentence": "Rare among young speakers"
+      },
+      {
+        "sentence": "だわ: Feminine soft assertion"
+      },
+      {
+        "sentence": "だよ: Neutral/masculine emphasis"
+      },
+      {
+        "sentence": "Used by everyone"
+      },
+      {
+        "sentence": "Most common ending particle"
+      },
+      {
+        "sentence": "Safe for all learners"
+      },
+      {
+        "sentence": "Used by everyone"
+      },
+      {
+        "sentence": "Standard emphasis marker"
+      },
+      {
+        "sentence": "No gender association"
+      },
+      {
+        "sentence": "Used by everyone"
+      },
+      {
+        "sentence": "Common in all speech"
+      },
+      {
+        "sentence": "Gender-neutral"
+      },
+      {
+        "sentence": "Many young women use 俺 (ore) jokingly or casually"
+      },
+      {
+        "sentence": "Men use softer language than previous generations"
+      },
+      {
+        "sentence": "Gender-neutral language increasing"
+      },
+      {
+        "sentence": "Less emphasis on traditional gendered speech"
+      },
+      {
+        "sentence": "First-person pronouns still differ (mostly)"
+      },
+      {
+        "sentence": "Some particles remain gendered (わ, ぞ)"
+      },
+      {
+        "sentence": "Formal situations maintain traditional patterns"
+      },
+      {
+        "sentence": "Characters use extreme gendered speech"
+      },
+      {
+        "sentence": "Real Japanese is much more neutral"
+      },
+      {
+        "sentence": "Don't copy anime speech exactly"
+      },
+      {
+        "sentence": "Good for understanding, not production"
+      },
+      {
+        "sentence": "More realistic speech patterns"
+      },
+      {
+        "sentence": "Better models for learners"
+      },
+      {
+        "sentence": "Show current trends"
+      },
+      {
+        "sentence": "Use 俺 with close male friends"
+      },
+      {
+        "sentence": "Add masculine particles naturally"
+      },
+      {
+        "sentence": "Match your friend group's style"
+      },
+      {
+        "sentence": "Use あたし if it feels natural"
+      },
+      {
+        "sentence": "Modern women often use neutral patterns"
+      },
+      {
+        "sentence": "Choose based on personal style"
+      },
+      {
+        "sentence": "Japanese is becoming more flexible"
+      },
+      {
+        "sentence": "Choose what matches your identity"
+      },
+      {
+        "sentence": "私 works for everyone in all contexts"
+      },
+      {
+        "sentence": "私 (watashi) as pronoun"
+      },
+      {
+        "sentence": "です/ます forms"
+      },
+      {
+        "sentence": "Minimal gendered particles"
+      },
+      {
+        "sentence": "Neutral vocabulary"
+      },
+      {
+        "sentence": "Personal pronoun choice"
+      },
+      {
+        "sentence": "Shortened forms"
+      },
+      {
+        "sentence": "Gendered particles acceptable"
+      },
+      {
+        "sentence": "Match your friend group"
+      },
+      {
+        "sentence": "私 (watashi/watakushi)"
+      },
+      {
+        "sentence": "Formal conjugations"
+      },
+      {
+        "sentence": "Gender-neutral expressions"
+      },
+      {
+        "sentence": "Avoid casual gendered speech"
+      },
+      {
+        "sentence": "Japanese has traditional gendered speech patterns"
+      },
+      {
+        "sentence": "Modern Japanese is becoming more gender-neutral"
+      },
+      {
+        "sentence": "Context and formality matter more than gender"
+      },
+      {
+        "sentence": "First-person pronouns show the clearest differences"
+      },
+      {
+        "sentence": "Sentence-ending particles add gender nuance"
+      },
+      {
+        "sentence": "Media (especially anime) exaggerates differences"
+      },
+      {
+        "sentence": "About"
+      },
+      {
+        "sentence": "Pricing"
+      },
+      {
+        "sentence": "Blog"
+      },
+      {
+        "sentence": "Contact"
+      },
+      {
+        "sentence": "Privacy Policy"
+      },
+      {
+        "sentence": "Terms of Service"
+      },
+      {
+        "sentence": "Cookie Policy"
+      }
+    ],
+    "metadata": {
+      "title": "Male vs Female Speech"
+    }
+  },
+  "metadata": {
+    "extracted_at": "2026-01-01T22:19:30.232255900Z",
+    "duration_ms": 6,
+    "extractors_matched": [
+      "metadata",
+      "examples",
+      "sections"
+    ],
+    "extractors_failed": [
+      "vocab_tables",
+      "definitions",
+      "content_blocks"
+    ]
+  }
+}

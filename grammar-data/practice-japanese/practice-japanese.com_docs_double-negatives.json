@@ -1,0 +1,308 @@
+{
+  "config_name": "Language Learning Extractor",
+  "url": "https://practice-japanese.com/docs/double-negatives/",
+  "data": {
+    "metadata": {
+      "title": "Double Negatives"
+    },
+    "examples": [
+      {
+        "sentence": "About"
+      },
+      {
+        "sentence": "Pricing"
+      },
+      {
+        "sentence": "Blog"
+      },
+      {
+        "sentence": "Contact"
+      },
+      {
+        "sentence": "Privacy Policy"
+      },
+      {
+        "sentence": "Terms of Service"
+      },
+      {
+        "sentence": "Cookie Policy"
+      }
+    ],
+    "sections": [
+      {
+        "level": 2,
+        "heading": "Double Negatives",
+        "content": "Double negatives in Japanese don't cancel out completely like in English. Instead, they create nuanced, softened, or indirect expressions that often convey hesitation, politeness, or weak affirmation.\n\nEnglish: Two negatives = positive \"not uncommon\" = \"common\" Japanese: Two negatives = weak/soft positive 行かないわけではない \"It's not that I won't go\" (but maybe reluctant) Subtle difference Softer than direct positive"
+      },
+      {
+        "level": 2,
+        "heading": "Common Pattern: 〜ないわけではない",
+        "content": "",
+        "children": [
+          {
+            "level": 3,
+            "heading": "\"It's not that... not\"",
+            "content": "行かないわけではない \"It's not that I won't go\" (Implies: might go, but hesitant) 嫌いなわけではない \"It's not that I dislike it\" (Implies: don't particularly like it either) 分からないわけではない \"It's not that I don't understand\" (Implies: understand to some degree) Weak affirmative Hedging statement Indirect expression"
+          }
+        ]
+      },
+      {
+        "level": 2,
+        "heading": "Pattern: 〜ないこともない",
+        "content": "",
+        "children": [
+          {
+            "level": 3,
+            "heading": "\"It's not that it's impossible\"",
+            "content": "できないこともない \"It's not that I can't do it\" (Implies: can do it, but with difficulty) 行かないこともない \"It's not that I won't go\" (Implies: might go if conditions are right) 食べられないこともない \"It's not that I can't eat it\" (Implies: can eat it, but not eagerly) Reluctant possibility Conditional willingness Soften commitment"
+          }
+        ]
+      },
+      {
+        "level": 2,
+        "heading": "Pattern: 〜なくはない",
+        "content": "",
+        "children": [
+          {
+            "level": 3,
+            "heading": "\"Not not...\"",
+            "content": "面白くなくはない \"It's not not-interesting\" (Implies: somewhat interesting) 高くなくはない \"It's not not-expensive\" (Implies: somewhat expensive) 悪くなくはない \"It's not not-bad\" (Implies: acceptable, okay) Mild affirmation Neither positive nor negative Middle ground"
+          }
+        ]
+      },
+      {
+        "level": 2,
+        "heading": "Meaning Nuances",
+        "content": "",
+        "children": [
+          {
+            "level": 3,
+            "heading": "Weak vs strong positive",
+            "content": "Strong positive: 面白い \"interesting\" Direct, clear Double negative: 面白くないわけではない \"Not that it's not interesting\" Weak, hesitant Different commitment levels Softer assertion Diplomatic"
+          }
+        ]
+      },
+      {
+        "level": 2,
+        "heading": "With ことはない",
+        "content": "",
+        "children": [
+          {
+            "level": 3,
+            "heading": "\"It's not that...\"",
+            "content": "悪いことはない \"It's not bad\" (neutral to slightly positive) 分からないことはない \"It's not that I don't understand\" (Understand somewhat) できないことはない \"It's not that I can't do it\" (Can do it to some extent) Moderate assertion Not completely negative Some positivity"
+          }
+        ]
+      },
+      {
+        "level": 2,
+        "heading": "Litotes",
+        "content": "",
+        "children": [
+          {
+            "level": 3,
+            "heading": "Understatement device",
+            "content": "少なくない \"Not few\" = \"quite a few\" 珍しくない \"Not rare\" = \"fairly common\" 悪くない \"Not bad\" = \"pretty good\" Understatement Indirect expression Cultural preference"
+          }
+        ]
+      },
+      {
+        "level": 2,
+        "heading": "Polite Disagreement",
+        "content": "",
+        "children": [
+          {
+            "level": 3,
+            "heading": "Softening correction",
+            "content": "間違いではない \"It's not wrong\" (Implies: not exactly right either) 不可能ではない \"It's not impossible\" (Implies: difficult but doable) そうとも言えない \"Can't really say that\" (Polite disagreement) Diplomatic disagreement Avoiding directness Cultural politeness"
+          }
+        ]
+      },
+      {
+        "level": 2,
+        "heading": "Cultural Context",
+        "content": "",
+        "children": [
+          {
+            "level": 3,
+            "heading": "Indirect communication",
+            "content": "Japanese culture values: - Indirect expression - Avoiding absolute statements - Softening assertions - Maintaining harmony Double negatives serve this Less confrontational More nuanced Culturally appropriate"
+          }
+        ]
+      },
+      {
+        "level": 2,
+        "heading": "Mathematical Logic",
+        "content": "",
+        "children": [
+          {
+            "level": 3,
+            "heading": "Not the same as English",
+            "content": "English logic: NOT (NOT X) = X Two negatives cancel Japanese usage: NOT (NOT X) ≈ \"sort of X\" Not complete cancellation Softened, weak X Different function Cultural tool Not pure logic"
+          }
+        ]
+      },
+      {
+        "level": 2,
+        "heading": "Pattern: 〜ざるを得ない",
+        "content": "",
+        "children": [
+          {
+            "level": 3,
+            "heading": "Cannot help but",
+            "content": "行かざるを得ない \"Cannot help but go\" 認めざるを得ない \"Cannot help but admit\" やらざるを得ない \"Cannot help but do\" Classical negative ず + 得ない Compulsion expressed No choice"
+          }
+        ]
+      },
+      {
+        "level": 2,
+        "heading": "Pattern: 〜ないではいられない",
+        "content": "",
+        "children": [
+          {
+            "level": 3,
+            "heading": "Cannot help (doing)",
+            "content": "笑わないではいられない \"Cannot help laughing\" 泣かないではいられない \"Cannot help crying\" 考えないではいられない \"Cannot help thinking\" Strong compulsion Inevitable action Emotional response"
+          }
+        ]
+      },
+      {
+        "level": 2,
+        "heading": "Negative Questions",
+        "content": "",
+        "children": [
+          {
+            "level": 3,
+            "heading": "Aren't you...?",
+            "content": "行かないんですか \"Aren't you going?\" (Expecting yes) 分からないんですか \"Don't you understand?\" (Surprise they don't) Soft negative question Checking assumption Polite inquiry"
+          }
+        ]
+      },
+      {
+        "level": 2,
+        "heading": "With も",
+        "content": "",
+        "children": [
+          {
+            "level": 3,
+            "heading": "Even not",
+            "content": "誰も来ないわけではない \"It's not that nobody comes\" (Someone comes) 何もできないわけではない \"It's not that I can't do anything\" (Can do something) Softening absolute negative Some possibility remains"
+          }
+        ]
+      },
+      {
+        "level": 2,
+        "heading": "Comparison Patterns",
+        "content": "",
+        "children": [
+          {
+            "level": 3,
+            "heading": "Less direct than positive",
+            "content": "Direct positive: 好きです \"I like it\" Clear, committed Double negative: 嫌いではない \"Not that I dislike it\" Softer, less committed Avoiding strong statements Hedging preferences Cultural preference"
+          }
+        ]
+      },
+      {
+        "level": 2,
+        "heading": "With である",
+        "content": "",
+        "children": [
+          {
+            "level": 3,
+            "heading": "Formal writing",
+            "content": "間違いではない \"Is not a mistake\" 不可能ではない \"Is not impossible\" 珍しくはない \"Is not rare\" Formal/written style Academic writing Official statements"
+          }
+        ]
+      },
+      {
+        "level": 2,
+        "heading": "Temporal Aspects",
+        "content": "",
+        "children": [
+          {
+            "level": 3,
+            "heading": "Not never",
+            "content": "全く〜ないわけではない \"It's not that... never\" いつも〜ないわけではない \"It's not that... always not\" Frequency qualification Sometimes happens Occasional truth"
+          }
+        ]
+      },
+      {
+        "level": 2,
+        "heading": "With かもしれない",
+        "content": "",
+        "children": [
+          {
+            "level": 3,
+            "heading": "Might not not",
+            "content": "行かないかもしれなくもない \"Might not be that I won't go\" (Very hesitant possibility) Very complex Extremely indirect Rare in daily speech Shows extreme hedging"
+          }
+        ]
+      },
+      {
+        "level": 2,
+        "heading": "Practical Usage Tips",
+        "content": "",
+        "children": [
+          {
+            "level": 3,
+            "heading": "When to use",
+            "content": "Use double negatives when: - Being diplomatic - Softening disagreement - Expressing reluctance - Hedging commitments - Being modest Avoid when: - Clarity needed - Emergency situations - Strong conviction - Direct instruction needed Context determines Cultural appropriateness"
+          }
+        ]
+      },
+      {
+        "level": 2,
+        "heading": "Modern Criticism",
+        "content": "",
+        "children": [
+          {
+            "level": 3,
+            "heading": "Overuse concerns",
+            "content": "Some criticize: - Unclear communication - Excessive indirectness - Avoiding responsibility But culturally: - Shows consideration - Maintains harmony - Demonstrates nuance Balance needed Context appropriate Cultural understanding"
+          }
+        ]
+      },
+      {
+        "level": 2,
+        "heading": "Common Mistakes",
+        "content": "❌ Expecting full cancellation Double negative ≠ simple positive ✓ Understand nuance Weak, soft affirmation ❌ Using in wrong contexts Not for clear yes/no needed ✓ Use appropriately Diplomatic situations ❌ Creating too complex Triple negatives confusing ✓ Keep reasonable Two levels maximum usually ❌ Direct translation to English Different function ✓ Understand Japanese usage Cultural tool Master subtlety Cultural awareness needed"
+      },
+      {
+        "level": 2,
+        "heading": "Practical Examples",
+        "content": "",
+        "children": [
+          {
+            "level": 3,
+            "heading": "Real-life double negatives",
+            "content": "この映画、面白くないわけではない \"This movie, it's not that it's not interesting\" (It's somewhat interesting) できないこともないけど、大変だ \"It's not that I can't do it, but it's tough\" (Possible but difficult) 嫌いじゃない \"Don't dislike it\" (Mild liking) 分からなくはない \"Not that I don't understand\" (Understand to some degree) 行かないわけにはいかない \"Cannot not go\" (Must go) 悪くない選択だ \"Not a bad choice\" (Decent choice) 珍しくない話だ \"Not an unusual story\" (Fairly common) 間違っているとは言えない \"Can't say it's wrong\" (Has some validity) そうとも言えないけど \"Can't really say that, but...\" (Soft disagreement) やらないわけにはいかない \"Cannot not do it\" (Must do it) Diplomatic language Softening statements Cultural appropriateness Nuanced expression Daily hedging Polite disagreement Modest assertions Indirect communication"
+          },
+          {
+            "level": 3,
+            "heading": "Company",
+            "content": "About Pricing Blog Contact"
+          },
+          {
+            "level": 3,
+            "heading": "Legal",
+            "content": "Privacy Policy Terms of Service Cookie Policy"
+          }
+        ]
+      }
+    ]
+  },
+  "metadata": {
+    "extracted_at": "2026-01-01T22:19:29.035582900Z",
+    "duration_ms": 3,
+    "extractors_matched": [
+      "metadata",
+      "examples",
+      "sections"
+    ],
+    "extractors_failed": [
+      "vocab_tables",
+      "definitions",
+      "content_blocks"
+    ]
+  }
+}

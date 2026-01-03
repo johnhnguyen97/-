@@ -1,0 +1,323 @@
+{
+  "config_name": "Language Learning Extractor",
+  "url": "https://practice-japanese.com/docs/ni-tsuite/",
+  "data": {
+    "examples": [
+      {
+        "sentence": "について means \"about\" or \"concerning\""
+      },
+      {
+        "sentence": "Formation: [Noun] + について"
+      },
+      {
+        "sentence": "Used in casual and formal contexts"
+      },
+      {
+        "sentence": "についての modifies nouns"
+      },
+      {
+        "sentence": "については topicalizes"
+      },
+      {
+        "sentence": "Neutral formality level"
+      },
+      {
+        "sentence": "More casual than に関して"
+      },
+      {
+        "sentence": "Essential for discussing topics and subjects"
+      },
+      {
+        "sentence": "About"
+      },
+      {
+        "sentence": "Pricing"
+      },
+      {
+        "sentence": "Blog"
+      },
+      {
+        "sentence": "Contact"
+      },
+      {
+        "sentence": "Privacy Policy"
+      },
+      {
+        "sentence": "Terms of Service"
+      },
+      {
+        "sentence": "Cookie Policy"
+      }
+    ],
+    "sections": [
+      {
+        "level": 2,
+        "heading": "What is 〜について?",
+        "content": "〜について (ni tsuite) means \"about\" or \"concerning\" and is used to indicate the topic of discussion, thought, or writing. It's versatile and used in both casual and formal contexts.\n\nEnglish equivalent: \"about,\" \"concerning,\" \"regarding\"\n\nStructure: [Noun] + について\n\nこの本 (kono hon - this book) + について = この本について \"about this book\" 日本 (nihon - Japan) + について = 日本について \"about Japan\" 問題 (mondai - problem) + について = 問題について \"about the problem\""
+      },
+      {
+        "level": 2,
+        "heading": "Basic Formation",
+        "content": "",
+        "children": [
+          {
+            "level": 3,
+            "heading": "With nouns",
+            "content": "[Noun] + について\n\nこの本について (kono hon ni tsuite) - \"about this book\" 日本について (nihon ni tsuite) - \"about Japan\" 仕事について (shigoto ni tsuite) - \"about work\" 健康について (kenkou ni tsuite) - \"about health\""
+          }
+        ]
+      },
+      {
+        "level": 2,
+        "heading": "Talking About Topics",
+        "content": "",
+        "children": [
+          {
+            "level": 3,
+            "heading": "Discussing subjects",
+            "content": "日本について話す。 Nihon ni tsuite hanasu. \"Talk about Japan.\" この問題について考える。 Kono mondai ni tsuite kangaeru. \"Think about this problem.\" 映画について書く。 Eiga ni tsuite kaku. \"Write about movies.\" 未来について語る。 Mirai ni tsuite kataru. \"Discuss the future.\""
+          }
+        ]
+      },
+      {
+        "level": 2,
+        "heading": "Asking Questions",
+        "content": "",
+        "children": [
+          {
+            "level": 3,
+            "heading": "Inquiring about topics",
+            "content": "日本についてどう思いますか。 Nihon ni tsuite dou omoimasu ka. \"What do you think about Japan?\" この本について知っていますか。 Kono hon ni tsuite shitte imasu ka. \"Do you know about this book?\" 仕事について質問があります。 Shigoto ni tsuite shitsumon ga arimasu. \"I have a question about work.\""
+          }
+        ]
+      },
+      {
+        "level": 2,
+        "heading": "Learning and Research",
+        "content": "",
+        "children": [
+          {
+            "level": 3,
+            "heading": "Study topics",
+            "content": "歴史について勉強する。 Rekishi ni tsuite benkyou suru. \"Study about history.\" 環境問題について調べる。 Kankyou mondai ni tsuite shiraberu. \"Research about environmental issues.\" 日本文化について学ぶ。 Nihon bunka ni tsuite manabu. \"Learn about Japanese culture.\""
+          }
+        ]
+      },
+      {
+        "level": 2,
+        "heading": "Variations",
+        "content": "",
+        "children": [
+          {
+            "level": 3,
+            "heading": "Related expressions",
+            "content": "について (ni tsuite) - \"about\" (standard) については (ni tsuite wa) - \"as for/about\" (topic marker) についての (ni tsuite no) - \"about\" (modifies nouns) についても (ni tsuite mo) - \"also about\" この件については、後で話します。 Kono ken ni tsuite wa, ato de hanashimasu. \"As for this matter, I'll talk later.\" 日本についての本。 Nihon ni tsuite no hon. \"A book about Japan.\""
+          }
+        ]
+      },
+      {
+        "level": 2,
+        "heading": "についての for Modifying Nouns",
+        "content": "",
+        "children": [
+          {
+            "level": 3,
+            "heading": "Describing related items",
+            "content": "[Noun] + についての + [Noun] = \"about ~\"\n\n環境についての話 (kankyou ni tsuite no hanashi) - \"talk about environment\" 健康についての本 (kenkou ni tsuite no hon) - \"book about health\" 仕事についての質問 (shigoto ni tsuite no shitsumon) - \"question about work\" 日本についての情報 (nihon ni tsuite no jouhou) - \"information about Japan\" これは歴史についての映画です。 Kore wa rekishi ni tsuite no eiga desu. \"This is a movie about history.\""
+          }
+        ]
+      },
+      {
+        "level": 2,
+        "heading": "Casual Conversation",
+        "content": "",
+        "children": [
+          {
+            "level": 3,
+            "heading": "Everyday use",
+            "content": "それについて聞いた。 Sore ni tsuite kiita. \"I heard about that.\" 君について心配している。 Kimi ni tsuite shinpai shite iru. \"I'm worried about you.\" 彼女について何か知ってる？ Kanojo ni tsuite nanika shitteru? \"Do you know anything about her?\""
+          }
+        ]
+      },
+      {
+        "level": 2,
+        "heading": "Formal Settings",
+        "content": "",
+        "children": [
+          {
+            "level": 3,
+            "heading": "Professional contexts",
+            "content": "プロジェクトについて報告します。 Purojekuto ni tsuite houkoku shimasu. \"I'll report about the project.\" 契約について説明させていただきます。 Keiyaku ni tsuite setsumei sasete itadakimasu. \"Allow me to explain about the contract.\" この件について検討いたします。 Kono ken ni tsuite kentou itashimasu. \"We'll examine this matter.\""
+          }
+        ]
+      },
+      {
+        "level": 2,
+        "heading": "Writing and Information",
+        "content": "",
+        "children": [
+          {
+            "level": 3,
+            "heading": "Documents and content",
+            "content": "環境問題について書いた。 Kankyou mondai ni tsuite kaita. \"I wrote about environmental issues.\" この記事は健康について書かれている。 Kono kiji wa kenkou ni tsuite kakarete iru. \"This article is written about health.\" 政治についての意見。 Seiji ni tsuite no iken. \"Opinions about politics.\""
+          }
+        ]
+      },
+      {
+        "level": 2,
+        "heading": "Polite Forms",
+        "content": "日本についてお話しします。 Nihon ni tsuite ohanashi shimasu. \"I'll talk about Japan.\" この件についてご説明いたします。 Kono ken ni tsuite gosetsumei itashimasu. \"I'll explain about this matter.\" プロジェクトについてお聞きしたいのですが。 Purojekuto ni tsuite okiki shitai no desu ga. \"I'd like to ask about the project.\""
+      },
+      {
+        "level": 2,
+        "heading": "Common Expressions",
+        "content": "〜について話す (ni tsuite hanasu) - \"talk about\" 〜について考える (ni tsuite kangaeru) - \"think about\" 〜について知る (ni tsuite shiru) - \"know about\" 〜について書く (ni tsuite kaku) - \"write about\" 〜について学ぶ (ni tsuite manabu) - \"learn about\" 〜についての (ni tsuite no) - \"about\" (noun modifier) 〜については (ni tsuite wa) - \"as for/about\" 〜についても (ni tsuite mo) - \"also about\""
+      },
+      {
+        "level": 2,
+        "heading": "Comparing について and に関して",
+        "content": "",
+        "children": [
+          {
+            "level": 3,
+            "heading": "Neutral vs formal",
+            "content": "について - Neutral (about):\n\n映画について話す。 Eiga ni tsuite hanasu. \"Talk about movies.\" (neutral, everyday)\n\nに関して - Formal (regarding):\n\nこの件に関して話す。 Kono ken ni kanshite hanasu. \"Talk regarding this matter.\" (formal, business)\n\n| Pattern | Formality | Context | | -------- | --------- | ------------------ | | について | Neutral | General use | | に関して | Formal | Business, official |\n\nSee: 〜に関して (Regarding)"
+          }
+        ]
+      },
+      {
+        "level": 2,
+        "heading": "については for Topic",
+        "content": "",
+        "children": [
+          {
+            "level": 3,
+            "heading": "Topicalization",
+            "content": "この本については、読んだことがない。 Kono hon ni tsuite wa, yonda koto ga nai. \"As for this book, I haven't read it.\" 彼については、よく知らない。 Kare ni tsuite wa, yoku shiranai. \"As for him, I don't know much.\" 価格については、交渉できます。 Kakaku ni tsuite wa, koushou dekimasu. \"As for price, we can negotiate.\""
+          }
+        ]
+      },
+      {
+        "level": 2,
+        "heading": "Multiple Topics",
+        "content": "",
+        "children": [
+          {
+            "level": 3,
+            "heading": "Several subjects",
+            "content": "日本について、また中国について話した。 Nihon ni tsuite, mata chuugoku ni tsuite hanashita. \"Talked about Japan and also about China.\" 歴史についても、文化についても学んだ。 Rekishi ni tsuite mo, bunka ni tsuite mo mananda. \"Learned both about history and about culture.\""
+          }
+        ]
+      },
+      {
+        "level": 2,
+        "heading": "Thoughts and Opinions",
+        "content": "",
+        "children": [
+          {
+            "level": 3,
+            "heading": "Expressing views",
+            "content": "それについてどう思う？ Sore ni tsuite dou omou? \"What do you think about that?\" 環境問題について意見を言う。 Kankyou mondai ni tsuite iken wo iu. \"Express an opinion about environmental issues.\" 将来について考えている。 Shourai ni tsuite kangaete iru. \"I'm thinking about the future.\""
+          }
+        ]
+      },
+      {
+        "level": 2,
+        "heading": "Information and Knowledge",
+        "content": "",
+        "children": [
+          {
+            "level": 3,
+            "heading": "What you know",
+            "content": "日本について詳しい。 Nihon ni tsuite kuwashii. \"Know a lot about Japan.\" この件について何も知らない。 Kono ken ni tsuite nani mo shiranai. \"I don't know anything about this matter.\" 彼について聞いたことがある。 Kare ni tsuite kiita koto ga aru. \"I've heard about him.\""
+          }
+        ]
+      },
+      {
+        "level": 2,
+        "heading": "Presentations and Speeches",
+        "content": "",
+        "children": [
+          {
+            "level": 3,
+            "heading": "Public speaking",
+            "content": "今日は環境について話します。 Kyou wa kankyou ni tsuite hanashimasu. \"Today I'll talk about the environment.\" 日本の歴史についてプレゼンします。 Nihon no rekishi ni tsuite purezen shimasu. \"I'll present about Japanese history.\""
+          }
+        ]
+      },
+      {
+        "level": 2,
+        "heading": "Comparing について and のこと",
+        "content": "",
+        "children": [
+          {
+            "level": 3,
+            "heading": "About topic vs about person",
+            "content": "について - About topic:\n\n日本について話す。 Nihon ni tsuite hanasu. \"Talk about Japan.\" (topic/subject)\n\nのこと - About person (feelings):\n\n彼のことが好きだ。 Kare no koto ga suki da. \"I like him.\" (personal feelings)\n\nFor topics and subjects, use について. For personal matters and feelings, のこと is often more natural."
+          }
+        ]
+      },
+      {
+        "level": 2,
+        "heading": "Common Mistakes",
+        "content": "",
+        "children": [
+          {
+            "level": 3,
+            "heading": "Mistake 1: Using with verbs directly",
+            "content": "❌ 食べることについて ✓ 食事について\n\nUse with nouns, not verb dictionary forms. Convert to noun form if needed."
+          },
+          {
+            "level": 3,
+            "heading": "Mistake 2: Wrong particle combination",
+            "content": "❌ についてを ✓ について\n\nDon't add を after について."
+          },
+          {
+            "level": 3,
+            "heading": "Mistake 3: Confusing についての and について",
+            "content": "について = about (adverbial) についての = about (modifies nouns) 日本について話す = talk about Japan 日本についての話 = talk about Japan (noun phrase)"
+          },
+          {
+            "level": 3,
+            "heading": "Mistake 4: Overusing in formal contexts",
+            "content": "For very formal business contexts, に関して is more appropriate.\n\nFormal business: ✓ この件に関して △ この件について (acceptable but less formal)"
+          }
+        ]
+      },
+      {
+        "level": 2,
+        "heading": "Summary",
+        "content": "Key Points:\n\nについて means \"about\" or \"concerning\" Formation: [Noun] + について Used in casual and formal contexts についての modifies nouns については topicalizes Neutral formality level More casual than に関して Essential for discussing topics and subjects",
+        "children": [
+          {
+            "level": 3,
+            "heading": "Company",
+            "content": "About Pricing Blog Contact"
+          },
+          {
+            "level": 3,
+            "heading": "Legal",
+            "content": "Privacy Policy Terms of Service Cookie Policy"
+          }
+        ]
+      }
+    ],
+    "metadata": {
+      "title": "〜について (About)"
+    }
+  },
+  "metadata": {
+    "extracted_at": "2026-01-01T22:19:32.391930500Z",
+    "duration_ms": 3,
+    "extractors_matched": [
+      "metadata",
+      "examples",
+      "sections"
+    ],
+    "extractors_failed": [
+      "vocab_tables",
+      "definitions",
+      "content_blocks"
+    ]
+  }
+}

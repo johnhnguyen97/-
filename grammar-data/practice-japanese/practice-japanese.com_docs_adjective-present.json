@@ -1,0 +1,342 @@
+{
+  "config_name": "Language Learning Extractor",
+  "url": "https://practice-japanese.com/docs/adjective-present/",
+  "data": {
+    "examples": [
+      {
+        "sentence": "I-adjective Conjugation"
+      },
+      {
+        "sentence": "Na-adjective Conjugation"
+      },
+      {
+        "sentence": "Adjective Negative"
+      },
+      {
+        "sentence": "About"
+      },
+      {
+        "sentence": "Pricing"
+      },
+      {
+        "sentence": "Blog"
+      },
+      {
+        "sentence": "Contact"
+      },
+      {
+        "sentence": "Privacy Policy"
+      },
+      {
+        "sentence": "Terms of Service"
+      },
+      {
+        "sentence": "Cookie Policy"
+      }
+    ],
+    "sections": [
+      {
+        "level": 2,
+        "heading": "Present Tense Overview",
+        "content": "Present tense adjectives describe current states , general truths , and characteristics . Both i-adjectives and na-adjectives have present forms.\n\nI-adjective: 高い - is expensive Na-adjective: 静かだ - is quiet"
+      },
+      {
+        "level": 2,
+        "heading": "I-adjective Present",
+        "content": "",
+        "children": [
+          {
+            "level": 3,
+            "heading": "Plain Form",
+            "content": "Dictionary form = Present tense\n\n高い - is expensive 大きい - is big 美味しい - is delicious 難しい - is difficult"
+          },
+          {
+            "level": 3,
+            "heading": "Polite Form",
+            "content": "Add です\n\n高いです - is expensive (polite) 大きいです - is big (polite) 美味しいです - is delicious (polite) 難しいです - is difficult (polite)"
+          }
+        ]
+      },
+      {
+        "level": 2,
+        "heading": "Na-adjective Present",
+        "content": "",
+        "children": [
+          {
+            "level": 3,
+            "heading": "Plain Form",
+            "content": "Na-adjective + だ\n\n静かだ - is quiet 便利だ - is convenient きれいだ - is beautiful 元気だ - is energetic"
+          },
+          {
+            "level": 3,
+            "heading": "Polite Form",
+            "content": "Na-adjective + です\n\n静かです - is quiet (polite) 便利です - is convenient (polite) きれいです - is beautiful (polite) 元気です - is energetic (polite)"
+          }
+        ]
+      },
+      {
+        "level": 2,
+        "heading": "When to Use Present Tense",
+        "content": "",
+        "children": [
+          {
+            "level": 3,
+            "heading": "1. Current State",
+            "content": "今日は暑い \"Today is hot\" この部屋は静かです \"This room is quiet\" 私は元気だ \"I am healthy/fine\""
+          },
+          {
+            "level": 3,
+            "heading": "2. General Truth",
+            "content": "富士山は高い \"Mt. Fuji is tall\" この町は便利です \"This town is convenient\" 日本語は難しい \"Japanese is difficult\""
+          },
+          {
+            "level": 3,
+            "heading": "3. Permanent Characteristics",
+            "content": "彼は背が高い \"He is tall\" この車は速いです \"This car is fast\" 彼女はきれいだ \"She is beautiful\""
+          },
+          {
+            "level": 3,
+            "heading": "4. Habitual States",
+            "content": "私は毎日忙しい \"I am busy every day\" この店はいつも静かです \"This store is always quiet\""
+          }
+        ]
+      },
+      {
+        "level": 2,
+        "heading": "Comparison: I-adj vs Na-adj Present",
+        "content": "| Type | Plain | Polite | Example | | ------ | ----- | ------ | ----------------- | | I-adj | い | いです | 高い / 高いです | | Na-adj | だ | です | 静かだ / 静かです |",
+        "children": [
+          {
+            "level": 3,
+            "heading": "Side by Side",
+            "content": "I-adjective: この本は高い \"This book is expensive\" この本は高いです \"This book is expensive\" (polite) Na-adjective: この部屋は静かだ \"This room is quiet\" この部屋は静かです \"This room is quiet\" (polite)"
+          }
+        ]
+      },
+      {
+        "level": 2,
+        "heading": "Modifying Nouns (Present)",
+        "content": "",
+        "children": [
+          {
+            "level": 3,
+            "heading": "I-adjectives",
+            "content": "Modify directly:\n\n高い本 - expensive book 大きい家 - big house 美味しい料理 - delicious food 新しい車 - new car"
+          },
+          {
+            "level": 3,
+            "heading": "Na-adjectives",
+            "content": "Add な:\n\n静かな部屋 - quiet room 便利な店 - convenient store きれいな花 - beautiful flower 元気な子供 - energetic child"
+          }
+        ]
+      },
+      {
+        "level": 2,
+        "heading": "Common Patterns",
+        "content": "",
+        "children": [
+          {
+            "level": 3,
+            "heading": "Describing Objects",
+            "content": "この車は高い \"This car is expensive\" そのカバンは大きいです \"That bag is big\" あの建物はきれいだ \"That building is beautiful\""
+          },
+          {
+            "level": 3,
+            "heading": "Describing Places",
+            "content": "東京は大きい \"Tokyo is big\" この町は静かです \"This town is quiet\" あの場所は便利だ \"That place is convenient\""
+          },
+          {
+            "level": 3,
+            "heading": "Describing People",
+            "content": "彼は親切だ \"He is kind\" 先生は優しいです \"The teacher is gentle\" 田中さんは元気です \"Tanaka is energetic\""
+          },
+          {
+            "level": 3,
+            "heading": "Describing Weather",
+            "content": "今日は暑い \"Today is hot\" 外は寒いです \"Outside is cold\" 天気がいい \"The weather is good\""
+          }
+        ]
+      },
+      {
+        "level": 2,
+        "heading": "Question Forms",
+        "content": "",
+        "children": [
+          {
+            "level": 3,
+            "heading": "I-adjectives",
+            "content": "高いですか？ \"Is it expensive?\" 美味しいですか？ \"Is it delicious?\" 難しいですか？ \"Is it difficult?\""
+          },
+          {
+            "level": 3,
+            "heading": "Na-adjectives",
+            "content": "静かですか？ \"Is it quiet?\" 便利ですか？ \"Is it convenient?\" 元気ですか？ \"Are you well?\""
+          }
+        ]
+      },
+      {
+        "level": 2,
+        "heading": "Answering Questions",
+        "content": "",
+        "children": [
+          {
+            "level": 3,
+            "heading": "Affirmative",
+            "content": "Q: 高いですか？ \"Is it expensive?\" A: はい、高いです \"Yes, it is expensive\" Q: 静かですか？ \"Is it quiet?\" A: はい、静かです \"Yes, it is quiet\""
+          },
+          {
+            "level": 3,
+            "heading": "Negative",
+            "content": "Q: 難しいですか？ \"Is it difficult?\" A: いいえ、難しくないです \"No, it is not difficult\" Q: 便利ですか？ \"Is it convenient?\" A: いいえ、便利じゃないです \"No, it is not convenient\""
+          }
+        ]
+      },
+      {
+        "level": 2,
+        "heading": "Conversation Examples",
+        "content": "",
+        "children": [
+          {
+            "level": 3,
+            "heading": "Example 1: Shopping",
+            "content": "A: このシャツはどうですか？ \"How is this shirt?\" B: いいですね。でも高いです \"It's good. But it's expensive\" A: 本当ですね。あれは？ \"That's true. How about that one?\" B: あれは安くていいです \"That one is cheap and good\""
+          },
+          {
+            "level": 3,
+            "heading": "Example 2: Describing a Place",
+            "content": "A: この町はどうですか？ \"How is this town?\" B: とても静かです \"It's very quiet\" A: 便利ですか？ \"Is it convenient?\" B: はい、駅も近くて便利です \"Yes, the station is also close and it's convenient\""
+          },
+          {
+            "level": 3,
+            "heading": "Example 3: Asking About Food",
+            "content": "A: この店の料理は美味しいですか？ \"Is the food at this restaurant delicious?\" B: はい、とても美味しいです \"Yes, it's very delicious\" A: 高くないですか？ \"Isn't it expensive?\" B: 少し高いですが、美味しいです \"It's a little expensive, but it's delicious\""
+          }
+        ]
+      },
+      {
+        "level": 2,
+        "heading": "Multiple Adjectives",
+        "content": "",
+        "children": [
+          {
+            "level": 3,
+            "heading": "Connecting with て-form",
+            "content": "この部屋は広くて明るい \"This room is spacious and bright\" 彼女はきれいで親切です \"She is beautiful and kind\" この本は面白くて安い \"This book is interesting and cheap\""
+          }
+        ]
+      },
+      {
+        "level": 2,
+        "heading": "Degree Expressions",
+        "content": "",
+        "children": [
+          {
+            "level": 3,
+            "heading": "Intensifiers",
+            "content": "とても高い \"very expensive\" すごく大きい \"extremely big\" 本当に美味しい \"really delicious\" かなり難しい \"quite difficult\" ちょっと高い \"a little expensive\""
+          },
+          {
+            "level": 3,
+            "heading": "Reducing Intensity",
+            "content": "あまり高くない \"not very expensive\" それほど大きくない \"not that big\" 全然難しくない \"not difficult at all\""
+          }
+        ]
+      },
+      {
+        "level": 2,
+        "heading": "Common Mistakes",
+        "content": "",
+        "children": [
+          {
+            "level": 3,
+            "heading": "Mistake 1: Wrong Polite Form",
+            "content": "Wrong: 高いはです ❌ Right: 高いです ✓ Wrong: 静かなです ❌ Right: 静かです ✓"
+          },
+          {
+            "level": 3,
+            "heading": "Mistake 2: Mixing I-adj and Na-adj Patterns",
+            "content": "Wrong: 高いだ ❌ Right: 高い ✓ (i-adjective doesn't need だ) Wrong: 静か ❌ (as predicate) Right: 静かだ ✓ (na-adjective needs だ)"
+          },
+          {
+            "level": 3,
+            "heading": "Mistake 3: Using だ in Polite Speech",
+            "content": "Wrong: 高いだです ❌ Right: 高いです ✓ Wrong: 静かだです ❌ Right: 静かです ✓"
+          }
+        ]
+      },
+      {
+        "level": 2,
+        "heading": "Present Tense vs Other Tenses",
+        "content": "| Tense | I-adjective | Na-adjective | Meaning | | -------- | ----------- | ------------ | ------------------------------- | | Present | 高い | 静かだ | is expensive / is quiet | | Past | 高かった | 静かだった | was expensive / was quiet | | Negative | 高くない | 静かじゃない | is not expensive / is not quiet |"
+      },
+      {
+        "level": 2,
+        "heading": "Key Differences: Plain vs Polite",
+        "content": "",
+        "children": [
+          {
+            "level": 3,
+            "heading": "Plain (Casual)",
+            "content": "高い - expensive 大きい - big 静かだ - quiet 便利だ - convenient\n\nUse with: friends, family, casual situations"
+          },
+          {
+            "level": 3,
+            "heading": "Polite (Formal)",
+            "content": "高いです - expensive 大きいです - big 静かです - quiet 便利です - convenient\n\nUse with: strangers, superiors, formal situations"
+          }
+        ]
+      },
+      {
+        "level": 2,
+        "heading": "Practice Patterns",
+        "content": "",
+        "children": [
+          {
+            "level": 3,
+            "heading": "Describing Items",
+            "content": "この車は速い \"This car is fast\" その時計は高いです \"That watch is expensive\" あのカバンは軽い \"That bag is light\""
+          },
+          {
+            "level": 3,
+            "heading": "Describing States",
+            "content": "私は今忙しい \"I am busy now\" 彼は元気です \"He is well\" この問題は簡単だ \"This problem is simple\""
+          }
+        ]
+      },
+      {
+        "level": 2,
+        "heading": "Key Takeaways",
+        "content": "✓ I-adjectives: dictionary form = present ✓ Na-adjectives: need だ (plain) or です (polite) ✓ Add です for politeness to i-adjectives ✓ Use for current states and general truths ✓ Modify nouns directly (i-adj) or with な (na-adj) ✓ Can combine multiple adjectives ✓ Questions add か ✓ Present describes now and always\n\nMaster present tense - most common adjective form!\n\nNext: Adjective Past Tense\n\nRelated:\n\nI-adjective Conjugation Na-adjective Conjugation Adjective Negative",
+        "children": [
+          {
+            "level": 3,
+            "heading": "Company",
+            "content": "About Pricing Blog Contact"
+          },
+          {
+            "level": 3,
+            "heading": "Legal",
+            "content": "Privacy Policy Terms of Service Cookie Policy"
+          }
+        ]
+      }
+    ],
+    "metadata": {
+      "title": "Adjective Present Tense"
+    }
+  },
+  "metadata": {
+    "extracted_at": "2026-01-01T22:19:28.018722900Z",
+    "duration_ms": 3,
+    "extractors_matched": [
+      "metadata",
+      "examples",
+      "sections"
+    ],
+    "extractors_failed": [
+      "vocab_tables",
+      "definitions",
+      "content_blocks"
+    ]
+  }
+}

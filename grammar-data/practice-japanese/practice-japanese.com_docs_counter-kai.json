@@ -1,0 +1,366 @@
+{
+  "config_name": "Language Learning Extractor",
+  "url": "https://practice-japanese.com/docs/counter-kai/",
+  "data": {
+    "examples": [
+      {
+        "sentence": "3 階 = さんがい (not さんかい)"
+      },
+      {
+        "sentence": "6 階 = ろっかい (っ inserted)"
+      },
+      {
+        "sentence": "8 階 = はちかい or はっかい"
+      },
+      {
+        "sentence": "10 階 = じゅっかい or じっかい"
+      },
+      {
+        "sentence": "Counter System Basics - How counters work"
+      },
+      {
+        "sentence": "Number System Overview - Japanese numbers"
+      },
+      {
+        "sentence": "Location particles - に、で、まで"
+      },
+      {
+        "sentence": "Building vocabulary - Architecture terms"
+      },
+      {
+        "sentence": "Direction words - 上、下、同じ"
+      },
+      {
+        "sentence": "〜号室 - Room numbers"
+      },
+      {
+        "sentence": "About"
+      },
+      {
+        "sentence": "Pricing"
+      },
+      {
+        "sentence": "Blog"
+      },
+      {
+        "sentence": "Contact"
+      },
+      {
+        "sentence": "Privacy Policy"
+      },
+      {
+        "sentence": "Terms of Service"
+      },
+      {
+        "sentence": "Cookie Policy"
+      }
+    ],
+    "sections": [
+      {
+        "level": 2,
+        "heading": "What is 階 (かい)?",
+        "content": "階 (kai) is the counter for floors or stories of buildings. It has minimal sound changes compared to other counters.\n\n3階に住んでいます \"I live on the 3rd floor\" エレベーターで5階まで \"To the 5th floor by elevator\""
+      },
+      {
+        "level": 2,
+        "heading": "Complete 階 Counter Chart",
+        "content": "| Number | Reading | Romaji | Note | | ------ | ------------------- | --------- | ------------- | | 1 階 | いっかい | ikkai | ground floor | | 2 階 | にかい | ni-kai | | | 3 階 | さんがい | san-gai | sound change! | | 4 階 | よんかい | yon-kai | | | 5 階 | ごかい | go-kai | | | 6 階 | ろっかい | rokkai | | | 7 階 | ななかい | nana-kai | | | 8 階 | はちかい/はっかい | hachi-kai | | | 9 階 | きゅうかい | kyuu-kai | | | 10 階 | じゅっかい/じっかい | jukkai | |",
+        "children": [
+          {
+            "level": 3,
+            "heading": "Larger Numbers",
+            "content": "11階 = じゅういっかい 20階 = にじゅっかい 30階 = さんじゅっかい 50階 = ごじゅっかい 100階 = ひゃっかい"
+          }
+        ]
+      },
+      {
+        "level": 2,
+        "heading": "Sound Change Note",
+        "content": "The main sound change is:\n\n3 階 = さんがい (not さんかい)\n\nMost other numbers keep かい, though some have variations:\n\n6 階 = ろっかい (っ inserted) 8 階 = はちかい or はっかい 10 階 = じゅっかい or じっかい"
+      },
+      {
+        "level": 2,
+        "heading": "Basement Floors",
+        "content": "",
+        "children": [
+          {
+            "level": 3,
+            "heading": "地下 (ちか) = Underground/Basement",
+            "content": "地下1階 (ちかいっかい) - B1 地下2階 (ちかにかい) - B2 地下3階 (ちかさんがい) - B3\n\nShortened forms:\n\nB1 = ビーワン B2 = ビーツー 地下 = ちか (basement in general)\n\n駐車場は地下2階です \"The parking lot is on B2\" 地下に行ってください \"Please go to the basement\""
+          }
+        ]
+      },
+      {
+        "level": 2,
+        "heading": "Asking \"Which Floor?\"",
+        "content": "",
+        "children": [
+          {
+            "level": 3,
+            "heading": "何階 (なんがい/なんかい)",
+            "content": "Both readings are acceptable:\n\n何階ですか？ \"Which floor?\" 何階に住んでいますか？ \"Which floor do you live on?\" オフィスは何階ですか？ \"Which floor is the office on?\" エレベーターは何階に止まりますか？ \"Which floors does the elevator stop at?\""
+          }
+        ]
+      },
+      {
+        "level": 2,
+        "heading": "Common Patterns",
+        "content": "",
+        "children": [
+          {
+            "level": 3,
+            "heading": "〜階 + に (location particle)",
+            "content": "3階に住んでいます \"I live on the 3rd floor\" 5階にオフィスがあります \"The office is on the 5th floor\" 2階に行ってください \"Please go to the 2nd floor\""
+          },
+          {
+            "level": 3,
+            "heading": "〜階 + まで (up to)",
+            "content": "エレベーターで10階まで \"To the 10th floor by elevator\" 階段で3階まで歩きます \"I'll walk up to the 3rd floor by stairs\""
+          },
+          {
+            "level": 3,
+            "heading": "〜階 + です (identification)",
+            "content": "A: オフィスは何階ですか？ \"Which floor is the office?\" B: 5階です \"It's on the 5th floor\""
+          }
+        ]
+      },
+      {
+        "level": 2,
+        "heading": "Building Terms",
+        "content": "",
+        "children": [
+          {
+            "level": 3,
+            "heading": "Floor-Related Vocabulary",
+            "content": "1階 = ground floor/first floor 最上階 (さいじょうかい) = top floor 中階 (ちゅうかい) = middle floors 高層階 (こうそうかい) = high floors 低層階 (ていそうかい) = low floors"
+          },
+          {
+            "level": 3,
+            "heading": "Building Types",
+            "content": "〜階建て (〜かいだて) = story building 5階建て = 5-story building 10階建てのビル = 10-story building 20階建てのマンション = 20-story apartment\n\nこのビルは15階建てです \"This is a 15-story building\" 30階建てのタワーマンション \"A 30-story tower apartment\""
+          }
+        ]
+      },
+      {
+        "level": 2,
+        "heading": "Common Conversations",
+        "content": "",
+        "children": [
+          {
+            "level": 3,
+            "heading": "Example 1: Elevator",
+            "content": "A: 何階ですか？ \"Which floor?\" B: 7階お願いします \"7th floor, please\" A: はい \"Sure\""
+          },
+          {
+            "level": 3,
+            "heading": "Example 2: Apartment Viewing",
+            "content": "A: こちらのマンションは何階建てですか？ \"How many stories is this apartment building?\" B: 10階建てです \"It's 10 stories\" A: 今日見るのは何階ですか？ \"Which floor are we viewing today?\" B: 8階です \"The 8th floor\""
+          },
+          {
+            "level": 3,
+            "heading": "Example 3: Office Building",
+            "content": "A: 田中さんのオフィスは何階ですか？ \"Which floor is Mr. Tanaka's office?\" B: 15階です \"15th floor\" A: ありがとうございます \"Thank you\""
+          },
+          {
+            "level": 3,
+            "heading": "Example 4: Department Store",
+            "content": "A: おもちゃ売り場は何階ですか？ \"Which floor is the toy department?\" B: 5階でございます \"It's on the 5th floor\" A: エレベーターはどこですか？ \"Where's the elevator?\" B: あちらです \"Over there\""
+          }
+        ]
+      },
+      {
+        "level": 2,
+        "heading": "Special Expressions",
+        "content": "",
+        "children": [
+          {
+            "level": 3,
+            "heading": "〜階の (possessive)",
+            "content": "3階の部屋 \"A room on the 3rd floor\" 5階のレストラン \"The restaurant on the 5th floor\" 最上階の眺め \"The view from the top floor\""
+          },
+          {
+            "level": 3,
+            "heading": "〜階まで (up to)",
+            "content": "階段で5階まで \"Up to the 5th floor by stairs\" エレベーターで最上階まで \"To the top floor by elevator\""
+          },
+          {
+            "level": 3,
+            "heading": "〜階ずつ (floor by floor)",
+            "content": "一階ずつ上がります \"Go up floor by floor\" 2階ずつ飛ばして \"Skip every other floor\""
+          }
+        ]
+      },
+      {
+        "level": 2,
+        "heading": "Floor Counting: US vs Japanese",
+        "content": "Important cultural note:",
+        "children": [
+          {
+            "level": 3,
+            "heading": "American System",
+            "content": "1st floor = ground level 2nd floor = one level up"
+          },
+          {
+            "level": 3,
+            "heading": "British/Japanese System",
+            "content": "Ground floor (1階) = ground level 1st floor (2階) = one level up\n\nIn modern Japanese buildings, 1 階 typically means ground floor (American 1st floor)."
+          }
+        ]
+      },
+      {
+        "level": 2,
+        "heading": "Department Store Floors",
+        "content": "Common floor designations:\n\n地下1階 = 食品売り場 (food) 1階 = 化粧品 (cosmetics) 2階 = 婦人服 (women's clothing) 3階 = 紳士服 (men's clothing) 4階 = 子供服 (children's clothing) 5階 = おもちゃ (toys) 6階 = レストラン街 (restaurants) 屋上 (おくじょう) = rooftop"
+      },
+      {
+        "level": 2,
+        "heading": "Room Numbers",
+        "content": "Combining floor and room:\n\n301号室 (さんびゃくいちごうしつ) \"Room 301\" (3rd floor, room 1) 502号室 (ごひゃくにごうしつ) \"Room 502\" (5th floor, room 2) 1205号室 (せんにひゃくごごうしつ) \"Room 1205\" (12th floor, room 5)"
+      },
+      {
+        "level": 2,
+        "heading": "Common Mistakes",
+        "content": "",
+        "children": [
+          {
+            "level": 3,
+            "heading": "Mistake 1: Wrong reading for 3 階",
+            "content": "Wrong: さんかい ❌ Right: さんがい ✓ \"3rd floor\""
+          },
+          {
+            "level": 3,
+            "heading": "Mistake 2: Confusing 何階 readings",
+            "content": "Both are acceptable:\n\nなんがい ✓ なんかい ✓ \"Which floor?\""
+          },
+          {
+            "level": 3,
+            "heading": "Mistake 3: Forgetting 地下 for basement",
+            "content": "Wrong: マイナス1階 ❌ Right: 地下1階 ✓ \"B1\""
+          },
+          {
+            "level": 3,
+            "heading": "Mistake 4: Wrong 〜階建て usage",
+            "content": "Wrong: 10階の建物 ⚠️ (unclear) Right: 10階建ての建物 ✓ \"10-story building\""
+          }
+        ]
+      },
+      {
+        "level": 2,
+        "heading": "Elevator Phrases",
+        "content": "",
+        "children": [
+          {
+            "level": 3,
+            "heading": "Common Elevator Expressions",
+            "content": "何階ですか？ \"Which floor?\" 〜階お願いします \"〜th floor, please\" 開 (あけ) - Open 閉 (しめ) - Close エレベーターで参ります \"I'll take the elevator\" 階段で行きます \"I'll take the stairs\""
+          },
+          {
+            "level": 3,
+            "heading": "Elevator Announcements",
+            "content": "1階です \"First floor\" ドアが閉まります \"The doors are closing\" 上に参ります \"Going up\" 下に参ります \"Going down\""
+          }
+        ]
+      },
+      {
+        "level": 2,
+        "heading": "Formal vs Casual",
+        "content": "",
+        "children": [
+          {
+            "level": 3,
+            "heading": "Casual",
+            "content": "何階？ \"Which floor?\" 3階に住んでる \"I live on the 3rd floor\" 5階まで \"To the 5th floor\""
+          },
+          {
+            "level": 3,
+            "heading": "Polite",
+            "content": "何階ですか？ \"Which floor?\" 3階に住んでいます \"I live on the 3rd floor\" 5階までお願いします \"To the 5th floor, please\""
+          },
+          {
+            "level": 3,
+            "heading": "Formal",
+            "content": "何階でございますか？ \"Which floor is it?\" (very polite) 3階でございます \"It's on the 3rd floor\" エレベーターで5階までご案内いたします \"I'll guide you to the 5th floor by elevator\""
+          }
+        ]
+      },
+      {
+        "level": 2,
+        "heading": "Related Expressions",
+        "content": "",
+        "children": [
+          {
+            "level": 3,
+            "heading": "上の階 (うえのかい) - Upper floor",
+            "content": "上の階がうるさい \"The floor above is noisy\" 一つ上の階 \"One floor up\""
+          },
+          {
+            "level": 3,
+            "heading": "下の階 (したのかい) - Lower floor",
+            "content": "下の階に降ります \"I'll go down to the floor below\" 2つ下の階 \"Two floors down\""
+          },
+          {
+            "level": 3,
+            "heading": "同じ階 (おなじかい) - Same floor",
+            "content": "同じ階に住んでいます \"We live on the same floor\""
+          }
+        ]
+      },
+      {
+        "level": 2,
+        "heading": "Practice Sentences",
+        "content": "",
+        "children": [
+          {
+            "level": 3,
+            "heading": "Basic",
+            "content": "3階に住んでいます \"I live on the 3rd floor\" オフィスは5階です \"The office is on the 5th floor\" 地下1階に駐車場があります \"There's a parking lot on B1\""
+          },
+          {
+            "level": 3,
+            "heading": "Intermediate",
+            "content": "このビルは何階建てですか？ \"How many stories is this building?\" エレベーターで10階まで行ってください \"Please take the elevator to the 10th floor\" 最上階からの眺めは素晴らしいです \"The view from the top floor is wonderful\""
+          },
+          {
+            "level": 3,
+            "heading": "Advanced",
+            "content": "私のオフィスは15階建てのビルの8階にあります \"My office is on the 8th floor of a 15-story building\" 地下2階から屋上まで、全部で22階あります \"From B2 to the rooftop, there are 22 floors in total\" 一階ずつエレベーターが止まるので、時間がかかります \"The elevator stops at every floor, so it takes time\""
+          }
+        ]
+      },
+      {
+        "level": 2,
+        "heading": "Related Grammar Points",
+        "content": "Counter System Basics - How counters work Number System Overview - Japanese numbers Location particles - に、で、まで Building vocabulary - Architecture terms Direction words - 上、下、同じ 〜号室 - Room numbers",
+        "children": [
+          {
+            "level": 3,
+            "heading": "Company",
+            "content": "About Pricing Blog Contact"
+          },
+          {
+            "level": 3,
+            "heading": "Legal",
+            "content": "Privacy Policy Terms of Service Cookie Policy"
+          }
+        ]
+      }
+    ],
+    "metadata": {
+      "title": "Floors (階)"
+    }
+  },
+  "metadata": {
+    "extracted_at": "2026-01-01T22:19:28.397546300Z",
+    "duration_ms": 4,
+    "extractors_matched": [
+      "metadata",
+      "examples",
+      "sections"
+    ],
+    "extractors_failed": [
+      "vocab_tables",
+      "definitions",
+      "content_blocks"
+    ]
+  }
+}

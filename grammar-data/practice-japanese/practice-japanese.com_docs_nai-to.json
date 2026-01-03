@@ -1,0 +1,436 @@
+{
+  "config_name": "Language Learning Extractor",
+  "url": "https://practice-japanese.com/docs/nai-to/",
+  "data": {
+    "sections": [
+      {
+        "level": 2,
+        "heading": "What is 〜ないと?",
+        "content": "〜ないと is a casual way to express necessity or obligation, meaning \"I have to,\" \"I must,\" or \"if I don't.\" It's short for ないといけない or ないとダメ.\n\nもう行かないと \"I have to go now\" (lit: If I don't go...) 勉強しないと \"I have to study\" (lit: If I don't study...) 早く寝ないと \"I have to sleep early\" (lit: If I don't sleep early...)"
+      },
+      {
+        "level": 2,
+        "heading": "Formation",
+        "content": "",
+        "children": [
+          {
+            "level": 3,
+            "heading": "Pattern: Verb ない-form + と",
+            "content": "| Verb | ない-form | + と | | ------ | --------- | ---------- | | 行く | 行かない | 行かないと | | 食べる | 食べない | 食べないと | | する | しない | しないと | | 来る | 来ない | 来ないと | | 読む | 読まない | 読まないと | | 寝る | 寝ない | 寝ないと |"
+          },
+          {
+            "level": 3,
+            "heading": "Common forms",
+            "content": "行かないと - Have to go 食べないと - Have to eat しないと - Have to do 勉強しないと - Have to study"
+          }
+        ]
+      },
+      {
+        "level": 2,
+        "heading": "Full Forms",
+        "content": "",
+        "children": [
+          {
+            "level": 3,
+            "heading": "ないといけない (Have to)",
+            "content": "行かないといけない \"I have to go\" 勉強しないといけない \"I have to study\" Standard form"
+          },
+          {
+            "level": 3,
+            "heading": "ないとダメ (Have to - casual)",
+            "content": "行かないとダメ \"I have to go\" 早く寝ないとダメだよ \"You have to sleep early\" Very casual"
+          },
+          {
+            "level": 3,
+            "heading": "ないと alone (Casual shortcut)",
+            "content": "もう行かないと \"I have to go now\" Ending implied Most casual"
+          }
+        ]
+      },
+      {
+        "level": 2,
+        "heading": "Basic Usage",
+        "content": "",
+        "children": [
+          {
+            "level": 3,
+            "heading": "Expressing necessity",
+            "content": "宿題をしないと \"I have to do homework\" 明日早いから、寝ないと \"Tomorrow is early, so I have to sleep\" ダイエットしないと \"I have to diet\""
+          },
+          {
+            "level": 3,
+            "heading": "Casual reminders to self",
+            "content": "買い物に行かないと \"I have to go shopping\" メールを返信しないと \"I have to reply to emails\" 準備しないと \"I have to prepare\""
+          },
+          {
+            "level": 3,
+            "heading": "Warnings to others",
+            "content": "早く起きないと、遅れるよ \"If you don't wake up early, you'll be late\" 勉強しないと、落ちるよ \"If you don't study, you'll fail\" 急がないと！ \"You have to hurry!\""
+          }
+        ]
+      },
+      {
+        "level": 2,
+        "heading": "Key Characteristics",
+        "content": "",
+        "children": [
+          {
+            "level": 3,
+            "heading": "Very casual",
+            "content": "Used with: ✓ Friends ✓ Family ✓ Self-talk ✓ Diary/notes Not for: ✗ Boss ✗ Customers ✗ Formal situations"
+          },
+          {
+            "level": 3,
+            "heading": "Often incomplete",
+            "content": "Full: 行かないといけない Short: 行かないと The ending is understood Very natural in casual speech"
+          },
+          {
+            "level": 3,
+            "heading": "Shows urgency",
+            "content": "もう行かないと！ \"I really have to go now!\" Implies \"or else something bad\""
+          }
+        ]
+      },
+      {
+        "level": 2,
+        "heading": "Common Conversations",
+        "content": "",
+        "children": [
+          {
+            "level": 3,
+            "heading": "Example 1: Leaving",
+            "content": "A: もう帰るの？ \"You're going home already?\" B: うん、明日早いから、寝ないと \"Yeah, tomorrow is early, so I have to sleep\" A: そっか。気をつけてね \"I see. Be careful\""
+          },
+          {
+            "level": 3,
+            "heading": "Example 2: Reminding",
+            "content": "A: 明日テストだよ \"The test is tomorrow\" B: やばい！勉強しないと！ \"Oh no! I have to study!\" A: 頑張ってね \"Do your best\""
+          },
+          {
+            "level": 3,
+            "heading": "Example 3: Self-reminder",
+            "content": "A: あ、もうこんな時間だ \"Oh, it's already this time\" B: 本当だ。そろそろ行かないとね \"Really. We should go soon\""
+          }
+        ]
+      },
+      {
+        "level": 2,
+        "heading": "Common Mistakes",
+        "content": "",
+        "children": [
+          {
+            "level": 3,
+            "heading": "Mistake 1: Using in formal situations",
+            "content": "Too casual to boss: 行かないと ⚠️ Better: 行かなければなりません ✓ \"I must go\" Use formal forms at work!"
+          },
+          {
+            "level": 3,
+            "heading": "Mistake 2: Wrong negative form",
+            "content": "Wrong: 行くないと ❌ Right: 行かないと ✓ \"I have to go\" Use ない-form correctly!"
+          },
+          {
+            "level": 3,
+            "heading": "Mistake 3: Overusing with strangers",
+            "content": "Too casual: 勉強しないとダメですよ ⚠️ Better: 勉強したほうがいいですよ ✓ \"You should study\" ないと is for casual contexts"
+          }
+        ]
+      },
+      {
+        "level": 2,
+        "heading": "ないと vs Other Necessity Forms",
+        "content": "",
+        "children": [
+          {
+            "level": 3,
+            "heading": "ないと - Most casual",
+            "content": "行かないと \"Gotta go\" Friends, family, self"
+          },
+          {
+            "level": 3,
+            "heading": "なきゃ - Very casual",
+            "content": "行かなきゃ \"Gotta go\" Even more casual"
+          },
+          {
+            "level": 3,
+            "heading": "ないといけない - Casual-polite",
+            "content": "行かないといけない \"I have to go\" Slightly more complete"
+          },
+          {
+            "level": 3,
+            "heading": "なければならない - Formal",
+            "content": "行かなければならない \"I must go\" Formal situations"
+          }
+        ]
+      },
+      {
+        "level": 2,
+        "heading": "Common Patterns",
+        "content": "",
+        "children": [
+          {
+            "level": 3,
+            "heading": "もう～ないと",
+            "content": "もう行かないと \"I have to go now\" もう寝ないと \"I have to sleep now\" Adds urgency"
+          },
+          {
+            "level": 3,
+            "heading": "～ないとダメ",
+            "content": "勉強しないとダメだよ \"You have to study\" ちゃんと食べないとダメ \"You have to eat properly\" Casual warning"
+          },
+          {
+            "level": 3,
+            "heading": "～ないといけない",
+            "content": "早く起きないといけない \"I have to wake up early\" 薬を飲まないといけない \"I have to take medicine\" More complete form"
+          }
+        ]
+      },
+      {
+        "level": 2,
+        "heading": "Self-Talk",
+        "content": "",
+        "children": [
+          {
+            "level": 3,
+            "heading": "Reminding yourself",
+            "content": "あ、メール返さないと \"Oh, I have to reply to the email\" 買い物行かないと \"I have to go shopping\" 宿題やらないと \"I have to do homework\" Common in inner monologue"
+          }
+        ]
+      },
+      {
+        "level": 2,
+        "heading": "Warning Others",
+        "content": "",
+        "children": [
+          {
+            "level": 3,
+            "heading": "Casual warnings",
+            "content": "急がないと、遅れるよ \"If you don't hurry, you'll be late\" 早く寝ないと、明日辛いよ \"If you don't sleep early, tomorrow will be tough\" ちゃんと食べないと、元気出ないよ \"If you don't eat properly, you won't have energy\""
+          }
+        ]
+      },
+      {
+        "level": 2,
+        "heading": "Shortened Forms",
+        "content": "",
+        "children": [
+          {
+            "level": 3,
+            "heading": "なくちゃ (なくては)",
+            "content": "行かなくちゃ \"Gotta go\" Similar to ないと Very casual"
+          },
+          {
+            "level": 3,
+            "heading": "なきゃ (なければ)",
+            "content": "行かなきゃ \"Gotta go\" Super casual Most contracted"
+          },
+          {
+            "level": 3,
+            "heading": "Comparison",
+            "content": "Most complete: 行かなければならない ↓ 行かなければいけない ↓ 行かないといけない ↓ 行かなくちゃ ↓ 行かなきゃ ↓ Most casual: 行かないと"
+          }
+        ]
+      },
+      {
+        "level": 2,
+        "heading": "In Different Contexts",
+        "content": "",
+        "children": [
+          {
+            "level": 3,
+            "heading": "Time pressure",
+            "content": "もう時間だ。行かないと！ \"It's time. I have to go!\" 締め切りが近い。終わらせないと \"The deadline is close. I have to finish\""
+          },
+          {
+            "level": 3,
+            "heading": "Health/lifestyle",
+            "content": "運動しないとな \"I have to exercise\" ダイエットしないと \"I have to diet\" 早く寝ないと \"I have to sleep early\""
+          },
+          {
+            "level": 3,
+            "heading": "Responsibilities",
+            "content": "宿題しないと \"I have to do homework\" 掃除しないと \"I have to clean\" 仕事しないと \"I have to work\""
+          }
+        ]
+      },
+      {
+        "level": 2,
+        "heading": "Adding な/ね for Emphasis",
+        "content": "",
+        "children": [
+          {
+            "level": 3,
+            "heading": "～ないとな",
+            "content": "勉強しないとな \"I really should study\" 頑張らないとな \"I really have to try hard\" Self-reflection"
+          },
+          {
+            "level": 3,
+            "heading": "～ないとね",
+            "content": "そろそろ行かないとね \"We should go soon\" 準備しないとね \"We have to prepare\" Shared understanding"
+          }
+        ]
+      },
+      {
+        "level": 2,
+        "heading": "Expressing Consequences",
+        "content": "",
+        "children": [
+          {
+            "level": 3,
+            "heading": "～ないと、～",
+            "content": "勉強しないと、落ちるよ \"If you don't study, you'll fail\" 食べないと、痩せちゃうよ \"If you don't eat, you'll lose weight\" Shows what happens if you don't"
+          }
+        ]
+      },
+      {
+        "level": 2,
+        "heading": "Polite Equivalents",
+        "content": "",
+        "children": [
+          {
+            "level": 3,
+            "heading": "When you need to be polite",
+            "content": "Casual: 行かないと Polite: 行かなければなりません Casual: しないとダメ Polite: しなければいけません Casual: 勉強しないと Polite: 勉強しなければなりません"
+          }
+        ]
+      },
+      {
+        "level": 2,
+        "heading": "In Text Messages",
+        "content": "",
+        "children": [
+          {
+            "level": 3,
+            "heading": "Common in casual texting",
+            "content": "ごめん、もう行かないと！ \"Sorry, I have to go now!\" 宿題やらないと... \"I have to do homework...\" 寝ないと〜 \"I have to sleep~\" Very natural in texts"
+          }
+        ]
+      },
+      {
+        "level": 2,
+        "heading": "Combined with Other Patterns",
+        "content": "",
+        "children": [
+          {
+            "level": 3,
+            "heading": "～ないとまずい (It's bad if I don't)",
+            "content": "早く行かないとまずい \"It's bad if I don't go quickly\" 報告しないとまずいな \"It's bad if I don't report\""
+          },
+          {
+            "level": 3,
+            "heading": "～ないとやばい (It's bad if I don't - slang)",
+            "content": "勉強しないとやばい \"I'm in trouble if I don't study\" 急がないとやばい！ \"We're in trouble if we don't hurry!\" Very casual/slang"
+          }
+        ]
+      },
+      {
+        "level": 2,
+        "heading": "Expressing Regret",
+        "content": "",
+        "children": [
+          {
+            "level": 3,
+            "heading": "Should have done",
+            "content": "もっと勉強しないとダメだった \"I should have studied more\" 早く寝ないといけなかった \"I should have slept early\" Past regret"
+          }
+        ]
+      },
+      {
+        "level": 2,
+        "heading": "Practice Sentences",
+        "content": "",
+        "children": [
+          {
+            "level": 3,
+            "heading": "Basic",
+            "content": "もう行かないと \"I have to go now\" 勉強しないと \"I have to study\" 寝ないと \"I have to sleep\""
+          },
+          {
+            "level": 3,
+            "heading": "Intermediate",
+            "content": "明日早いから、そろそろ帰らないと \"Tomorrow is early, so I have to go home soon\" 試験が近いから、本気で勉強しないとやばい \"The exam is close, so I'm in trouble if I don't study seriously\" 健康のために、もっと運動しないとダメだな \"For my health, I really have to exercise more\""
+          },
+          {
+            "level": 3,
+            "heading": "Advanced",
+            "content": "このままじゃダメだ。生活習慣を見直さないと。 早寝早起きして、ちゃんと三食食べないと。 運動も始めないとな。 \"This won't do. I have to review my lifestyle. I have to go to bed early and wake up early, and eat three meals properly. I have to start exercising too.\" 仕事も大事だけど、家族との時間も 大切にしないと。バランスを取らないと、 人生後悔することになるかもしれない。 \"Work is important, but I also have to cherish time with family. If I don't balance, I might regret my life.\""
+          }
+        ]
+      },
+      {
+        "level": 2,
+        "heading": "Related Grammar Points",
+        "content": "〜なければならない - Must (formal) 〜なきゃ - Have to (very casual) 〜なくちゃ - Gotta (casual) 〜といけない - If not, it's bad 〜とダメ - If not, it's no good Necessity expressions - Expressing obligation",
+        "children": [
+          {
+            "level": 3,
+            "heading": "Company",
+            "content": "About Pricing Blog Contact"
+          },
+          {
+            "level": 3,
+            "heading": "Legal",
+            "content": "Privacy Policy Terms of Service Cookie Policy"
+          }
+        ]
+      }
+    ],
+    "metadata": {
+      "title": "〜ないと (If not)"
+    },
+    "examples": [
+      {
+        "sentence": "〜なければならない - Must (formal)"
+      },
+      {
+        "sentence": "〜なきゃ - Have to (very casual)"
+      },
+      {
+        "sentence": "〜なくちゃ - Gotta (casual)"
+      },
+      {
+        "sentence": "〜といけない - If not, it's bad"
+      },
+      {
+        "sentence": "〜とダメ - If not, it's no good"
+      },
+      {
+        "sentence": "Necessity expressions - Expressing obligation"
+      },
+      {
+        "sentence": "About"
+      },
+      {
+        "sentence": "Pricing"
+      },
+      {
+        "sentence": "Blog"
+      },
+      {
+        "sentence": "Contact"
+      },
+      {
+        "sentence": "Privacy Policy"
+      },
+      {
+        "sentence": "Terms of Service"
+      },
+      {
+        "sentence": "Cookie Policy"
+      }
+    ]
+  },
+  "metadata": {
+    "extracted_at": "2026-01-01T22:19:31.653101300Z",
+    "duration_ms": 4,
+    "extractors_matched": [
+      "metadata",
+      "examples",
+      "sections"
+    ],
+    "extractors_failed": [
+      "vocab_tables",
+      "definitions",
+      "content_blocks"
+    ]
+  }
+}

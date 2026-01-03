@@ -1,0 +1,344 @@
+{
+  "config_name": "Language Learning Extractor",
+  "url": "https://practice-japanese.com/docs/slang-basics/",
+  "data": {
+    "sections": [
+      {
+        "level": 2,
+        "heading": "What is Japanese Slang?",
+        "content": "Japanese slang (俗語 zokugo or スラング surangu) includes informal words and expressions used in casual conversation, especially among young people. Slang changes quickly and varies by age group, region, and subculture.\n\nTypes of Japanese slang:\n\nYouth slang (若者言葉 wakamono kotoba) Internet slang (ネットスラング netto surangu) Abbreviated forms (略語 ryakugo) Made-up expressions Trend-based phrases\n\nWarning: Slang can sound rude or inappropriate in formal settings. Use only with close friends of similar age."
+      },
+      {
+        "level": 2,
+        "heading": "Essential Everyday Slang",
+        "content": "",
+        "children": [
+          {
+            "level": 3,
+            "heading": "やばい (yabai) - Most Versatile Slang",
+            "content": "Originally meant \"dangerous\" but now means almost anything based on context.\n\nPositive uses:\n\nこのラーメン、やばい！ Kono ra-men, yabai! \"This ramen is amazing!\" やばい、かわいい！ Yabai, kawaii! \"Oh my god, that's so cute!\"\n\nNegative uses:\n\nやばい、財布忘れた！ Yabai, saifu wasureta! \"Oh no, I forgot my wallet!\" テスト、やばい。 Tesuto, yabai. \"The test is terrible/I'm screwed.\"\n\nExcitement:\n\nやばっ！マジで！？ Yaba! Maji de!? \"No way! Seriously!?\""
+          },
+          {
+            "level": 3,
+            "heading": "マジ (maji) - Seriously/Really",
+            "content": "Used for emphasis or to ask if something is true.\n\nマジ？ Maji? \"Seriously?\" / \"Really?\" マジでやばい Maji de yabai \"Seriously terrible/amazing\" マジ最高！ Maji saikou! \"Seriously the best!\" マジか！ Maji ka! \"Are you serious!?\""
+          },
+          {
+            "level": 3,
+            "heading": "ウケる (ukeru) - Funny/Hilarious",
+            "content": "Literally \"to receive\" but used for \"that's funny.\"\n\n超ウケる！ Chou ukeru! \"That's hilarious!\" ウケたー Uketa- \"That was funny\" マジウケる Maji ukeru \"That's seriously funny\""
+          },
+          {
+            "level": 3,
+            "heading": "キモい (kimoi) - Gross/Creepy",
+            "content": "Contraction of 気持ち悪い (kimochi warui).\n\nキモい虫！ Kimoi mushi! \"Gross bug!\" あいつキモい Aitsu kimoi \"That guy's creepy\""
+          },
+          {
+            "level": 3,
+            "heading": "ダサい (dasai) - Uncool/Lame",
+            "content": "その服ダサい Sono fuku dasai \"Those clothes are lame\" ダサっ Dasa \"That's lame\""
+          },
+          {
+            "level": 3,
+            "heading": "エグい (egui) - Extreme/Intense",
+            "content": "Can be positive or negative depending on context.\n\nエグいくらい辛い Egui kurai karai \"Insanely spicy\" エグい量 Egui ryou \"Insane amount\""
+          }
+        ]
+      },
+      {
+        "level": 2,
+        "heading": "Positive Slang Expressions",
+        "content": "",
+        "children": [
+          {
+            "level": 3,
+            "heading": "神 (kami) - God/Amazing",
+            "content": "Used to praise something as godlike.\n\nこの曲、神！ Kono kyoku, kami! \"This song is godly!\" 神対応 Kami taiou \"Godly customer service\" 神回 Kami-kai \"God-tier episode\""
+          },
+          {
+            "level": 3,
+            "heading": "エモい (emoi) - Emotional/Touching",
+            "content": "From \"emotional\" - describes something that touches your heart.\n\nこの写真エモい Kono shashin emoi \"This photo is so nostalgic/touching\" エモい曲 Emoi kyoku \"Emotional song\""
+          },
+          {
+            "level": 3,
+            "heading": "あざす (azasu) / あざっす (azassu)",
+            "content": "Casual \"thanks\" from ありがとうございます.\n\nあざす！ Azasu! \"Thanks!\" まじあざ Maji aza \"Thanks so much!\""
+          },
+          {
+            "level": 3,
+            "heading": "り (ri) / りょ (ryo)",
+            "content": "Super casual \"OK/Roger\" from 了解 (ryoukai).\n\nり！ Ri! \"Got it!\" りょ Ryo \"OK!\" りょーかい Ryo-kai \"Roger that!\""
+          },
+          {
+            "level": 3,
+            "heading": "ワンチャン (wan chan)",
+            "content": "\"One chance\" - maybe, possibly.\n\nワンチャンいける Wan chan ikeru \"Maybe I can do it / There's a chance\" ワンチャン間に合う Wan chan maniau \"Might make it in time\""
+          },
+          {
+            "level": 3,
+            "heading": "バズる (bazuru)",
+            "content": "To go viral (from \"buzz\").\n\nバズった Bazutta \"It went viral\" バズってる Bazutteru \"It's going viral\""
+          }
+        ]
+      },
+      {
+        "level": 2,
+        "heading": "Negative Slang Expressions",
+        "content": "",
+        "children": [
+          {
+            "level": 3,
+            "heading": "ウザい (uzai) - Annoying",
+            "content": "Short for うるさい (urusai).\n\nウザい奴 Uzai yatsu \"Annoying person\" 超ウザい Chou uzai \"Super annoying\""
+          },
+          {
+            "level": 3,
+            "heading": "ムカつく (mukatsuku) - Irritating",
+            "content": "Feeling irritated or angry.\n\nマジでムカつく Maji de mukatsuku \"That really pisses me off\" ムカつく！ Mukatsuku! \"That's irritating!\""
+          },
+          {
+            "level": 3,
+            "heading": "ディスる (disuru)",
+            "content": "To diss/insult someone.\n\n友達をディスる Tomodachi wo disuru \"Diss a friend\" ディスられた Disurareta \"I got dissed\""
+          },
+          {
+            "level": 3,
+            "heading": "終わった (owatta) - It's Over/Screwed",
+            "content": "Originally \"finished\" but used for being screwed.\n\nもう終わった Mou owatta \"I'm done for / It's over\" 人生終わった Jinsei owatta \"My life is over\" (dramatic)"
+          },
+          {
+            "level": 3,
+            "heading": "無理 (muri) - Impossible/Can't Even",
+            "content": "Used to express something is impossible or you can't handle it.\n\n無理無理無理！ Muri muri muri! \"No way no way no way!\" もう無理 Mou muri \"I can't anymore / I'm done\""
+          }
+        ]
+      },
+      {
+        "level": 2,
+        "heading": "Abbreviations & Shortened Words",
+        "content": "",
+        "children": [
+          {
+            "level": 3,
+            "heading": "Common Abbreviations",
+            "content": "スタバ (sutaba) ← スターバックス (Starbucks) マック (makku) ← マクドナルド (McDonald's) コンビニ (konbini) ← コンビニエンスストア (convenience store) リア充 (riajuu) ← リアル充実 (fulfilled in real life) KY (ke-wai) ← 空気読めない (can't read the air/clueless) JK (jee-kee) ← 女子高生 (high school girl) DK (dee-kee) ← 男子高生 (high school boy)"
+          },
+          {
+            "level": 3,
+            "heading": "お疲れ様 Variations",
+            "content": "お疲れ様です → おつかれさま → おつ → おつー Otsu \"Good work\" / \"Thanks for your effort\" おつかれー Otsukare- \"Cheers\" (casual)"
+          },
+          {
+            "level": 3,
+            "heading": "ありがとう Variations",
+            "content": "ありがとうございます → ありがとう → あざす → あざっす → あざ Aza \"Thanks\" サンキュー → さんきゅ → 39 (san-kyuu)"
+          }
+        ]
+      },
+      {
+        "level": 2,
+        "heading": "Internet & Text Slang",
+        "content": "",
+        "children": [
+          {
+            "level": 3,
+            "heading": "Emoticon-Based",
+            "content": "www (warau warau warau) \"lol\" - laughing (like \"hahaha\") 草 (kusa) - \"grass\" (looks like www) \"lol\" 大草原 (dai sougen) \"huge grassland\" - LOLOLOL"
+          },
+          {
+            "level": 3,
+            "heading": "Number-Based",
+            "content": "よろしく (yoroshiku) → 4649 4 (yo), 6 (ro), 4 (shi), 9 (ku) ありがとう (arigatou) → 39 3 (san), 9 (kyuu) → thank you"
+          },
+          {
+            "level": 3,
+            "heading": "Katakana Shorthand",
+            "content": "乙 (otsu) ← お疲れ様 \"Good work\" うp (upu) ← アップロード \"Upload\" ktkr ← きたこれ (kita kore) \"It's here! / Yes!\""
+          },
+          {
+            "level": 3,
+            "heading": "Modern Internet Slang",
+            "content": "推し (oshi) - Your favorite (idol, character, etc.) \"My favorite\" 沼 (numa) - \"Swamp\" - being obsessed with something \"I'm obsessed\" 尊い (toutoi) - \"Precious/sacred\" - something so good it's precious \"So precious!\" 〜み (～mi) - Adding \"ness\" to words つらみ (tsurami) - from つらい (painful) = \"painfulness\" わかりみ (wakarimi) - from 分かる (understand) = \"understandability\""
+          }
+        ]
+      },
+      {
+        "level": 2,
+        "heading": "Trend Slang (Changes Frequently)",
+        "content": "",
+        "children": [
+          {
+            "level": 3,
+            "heading": "2020s Popular Slang",
+            "content": "ぴえん (pien) - Sad crying emoji sound \"I'm sad\" ぱおん (paon) - More intense version of ぴえん \"I'm really sad\" それな (sore na) - \"That's right\" / \"Exactly\" Agreement わかりみが深い (wakarimi ga fukai) \"I deeply understand\" / \"So relatable\" エモすぎる (emo-sugiru) \"Too emotional/nostalgic\" ガチ (gachi) - Serious/for real Short for ガチンコ (gachinko)"
+          },
+          {
+            "level": 3,
+            "heading": "Describing People",
+            "content": "陽キャ (you-kya) - Extrovert/popular person From 陽気なキャラクター 陰キャ (in-kya) - Introvert/quiet person From 陰気なキャラクター イケメン (ikemen) - Good-looking guy From いけてる (cool) + メン (men) 美人 (bijin) - Beautiful woman Standard word but commonly used 可愛い (kawaii) - Cute (universal)"
+          }
+        ]
+      },
+      {
+        "level": 2,
+        "heading": "Gendered Slang",
+        "content": "",
+        "children": [
+          {
+            "level": 3,
+            "heading": "More Masculine",
+            "content": "やべー (yabe-) - Instead of やばい マジっすか (maji ssu ka) - \"Seriously?\" 〜っす (ssu) - Casual です ending ウゼー (uze-) - Instead of ウザい"
+          },
+          {
+            "level": 3,
+            "heading": "More Feminine",
+            "content": "かわいー (kawai-) - Cuuute! やだー (yada-) - Noo! / I don't want to! マジでー？ (maji de-?) - Reallyy? 〜じゃん (jan) - Sentence ending (though used by all)"
+          }
+        ]
+      },
+      {
+        "level": 2,
+        "heading": "By Age Group",
+        "content": "",
+        "children": [
+          {
+            "level": 3,
+            "heading": "High School/University",
+            "content": "チャリ (chari) - Bicycle テンション上がる (tenshon agaru) - Get excited ノリ (nori) - Vibe/energy/going with the flow"
+          },
+          {
+            "level": 3,
+            "heading": "Young Adults (20s-30s)",
+            "content": "映える (baeru) - Instagram-worthy インスタ映え (insuta-bae) - \"Instagrammable\" 意識高い系 (ishiki takai-kei) - Try-hard/wannabe sophisticated"
+          }
+        ]
+      },
+      {
+        "level": 2,
+        "heading": "Slang to Avoid",
+        "content": "",
+        "children": [
+          {
+            "level": 3,
+            "heading": "Too Rough/Rude",
+            "content": "クソ (kuso) - Shit (very vulgar) てめー (teme-) - You (hostile) うるせー (uruse-) - Shut up (rude) 死ね (shine) - Die (extremely rude)\n\nNever use these unless you understand the severe social consequences."
+          }
+        ]
+      },
+      {
+        "level": 2,
+        "heading": "Context Matters",
+        "content": "The same slang can be friendly or offensive based on context:\n\nばか (baka) - Idiot/Stupid\n\nFriendly: ばか！そんなことないよ！ \"Silly! That's not true!\" Offensive: お前ばかだな \"You're an idiot\""
+      },
+      {
+        "level": 2,
+        "heading": "Summary",
+        "content": "Essential Slang to Know:\n\nやばい - Amazing/terrible (most versatile) マジ - Seriously/really ウケる - Funny り/りょ - OK/got it 無理 - Can't/impossible www / 草 - lol\n\nKey Points:\n\nSlang changes quickly - stay updated through media Use only with friends of similar age Never use in business or formal settings Be careful with rough/rude slang Context determines if slang is appropriate Understand before using to avoid offense",
+        "children": [
+          {
+            "level": 3,
+            "heading": "Company",
+            "content": "About Pricing Blog Contact"
+          },
+          {
+            "level": 3,
+            "heading": "Legal",
+            "content": "Privacy Policy Terms of Service Cookie Policy"
+          }
+        ]
+      }
+    ],
+    "metadata": {
+      "title": "Slang Basics"
+    },
+    "examples": [
+      {
+        "sentence": "やばい - Amazing/terrible (most versatile)"
+      },
+      {
+        "sentence": "マジ - Seriously/really"
+      },
+      {
+        "sentence": "ウケる - Funny"
+      },
+      {
+        "sentence": "り/りょ - OK/got it"
+      },
+      {
+        "sentence": "無理 - Can't/impossible"
+      },
+      {
+        "sentence": "www / 草 - lol"
+      },
+      {
+        "sentence": "Youth slang (若者言葉 wakamono kotoba)"
+      },
+      {
+        "sentence": "Internet slang (ネットスラング netto surangu)"
+      },
+      {
+        "sentence": "Abbreviated forms (略語 ryakugo)"
+      },
+      {
+        "sentence": "Made-up expressions"
+      },
+      {
+        "sentence": "Trend-based phrases"
+      },
+      {
+        "sentence": "Slang changes quickly - stay updated through media"
+      },
+      {
+        "sentence": "Use only with friends of similar age"
+      },
+      {
+        "sentence": "Never use in business or formal settings"
+      },
+      {
+        "sentence": "Be careful with rough/rude slang"
+      },
+      {
+        "sentence": "Context determines if slang is appropriate"
+      },
+      {
+        "sentence": "Understand before using to avoid offense"
+      },
+      {
+        "sentence": "About"
+      },
+      {
+        "sentence": "Pricing"
+      },
+      {
+        "sentence": "Blog"
+      },
+      {
+        "sentence": "Contact"
+      },
+      {
+        "sentence": "Privacy Policy"
+      },
+      {
+        "sentence": "Terms of Service"
+      },
+      {
+        "sentence": "Cookie Policy"
+      }
+    ]
+  },
+  "metadata": {
+    "extracted_at": "2026-01-01T22:19:34.670815500Z",
+    "duration_ms": 3,
+    "extractors_matched": [
+      "metadata",
+      "examples",
+      "sections"
+    ],
+    "extractors_failed": [
+      "vocab_tables",
+      "definitions",
+      "content_blocks"
+    ]
+  }
+}

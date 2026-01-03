@@ -1,0 +1,357 @@
+{
+  "config_name": "Language Learning Extractor",
+  "url": "https://practice-japanese.com/docs/frequency/",
+  "data": {
+    "sections": [
+      {
+        "level": 2,
+        "heading": "What are Frequency Expressions?",
+        "content": "Frequency expressions describe how often something happens. Japanese has many adverbs to express different levels of frequency, from \"always\" to \"never.\"\n\nいつも勉強する \"I always study\" 時々映画を見る \"I sometimes watch movies\" 全然行かない \"I never go\""
+      },
+      {
+        "level": 2,
+        "heading": "Common Frequency Adverbs",
+        "content": "",
+        "children": [
+          {
+            "level": 3,
+            "heading": "Always/Usually (100% - 80%)",
+            "content": "いつも - always 常に - always (formal) 必ず - without fail/always 毎回 - every time いつも朝ごはんを食べる \"I always eat breakfast\" 必ず宿題をする \"I always do homework without fail\""
+          },
+          {
+            "level": 3,
+            "heading": "Often/Frequently (70% - 50%)",
+            "content": "よく - often しょっちゅう - frequently/all the time 頻繁に - frequently (formal) よく本を読む \"I often read books\" しょっちゅう会う \"We meet frequently\""
+          },
+          {
+            "level": 3,
+            "heading": "Sometimes (40% - 20%)",
+            "content": "時々 (ときどき) - sometimes たまに - occasionally 時には (ときには) - sometimes 時々映画を見る \"I sometimes watch movies\" たまに外食する \"I occasionally eat out\""
+          },
+          {
+            "level": 3,
+            "heading": "Rarely/Seldom (10% - 5%)",
+            "content": "たまに - occasionally (can mean rarely in context) めったに〜ない - rarely/seldom あまり〜ない - not often めったに行かない \"I rarely go\" あまり食べない \"I don't eat often\""
+          },
+          {
+            "level": 3,
+            "heading": "Never (0%)",
+            "content": "全然〜ない - never/not at all 一度も〜ない - never (not even once) 決して〜ない - never (emphatic) 全然行かない \"I never go\" 一度も食べたことがない \"I've never eaten it (not even once)\""
+          }
+        ]
+      },
+      {
+        "level": 2,
+        "heading": "Frequency Scale",
+        "content": "100% いつも/常に (always) 90% ほとんどいつも (almost always) 80% だいたい (usually) 70% よく (often) 50% 時々 (sometimes) 30% たまに (occasionally) 10% めったに〜ない (rarely) 5% ほとんど〜ない (hardly ever) 0% 全然〜ない (never)"
+      },
+      {
+        "level": 2,
+        "heading": "Placement in Sentences",
+        "content": "Frequency adverbs typically come before the verb :\n\nSubject + Frequency + Verb 私はいつも朝ごはんを食べる \"I always eat breakfast\" 彼はよく本を読む \"He often reads books\" 時々映画を見ます \"I sometimes watch movies\""
+      },
+      {
+        "level": 2,
+        "heading": "With Negative Verbs",
+        "content": "",
+        "children": [
+          {
+            "level": 3,
+            "heading": "めったに〜ない (rarely)",
+            "content": "めったに外食しない \"I rarely eat out\" めったに遅刻しない \"I rarely arrive late\" めったに会わない \"We rarely meet\""
+          },
+          {
+            "level": 3,
+            "heading": "あまり〜ない (not much/often)",
+            "content": "あまり飲まない \"I don't drink much\" あまり行かない \"I don't go often\" あまり話さない \"I don't talk much\""
+          },
+          {
+            "level": 3,
+            "heading": "全然〜ない (not at all/never)",
+            "content": "全然わからない \"I don't understand at all\" 全然行かない \"I never go\" 全然食べない \"I don't eat at all\""
+          },
+          {
+            "level": 3,
+            "heading": "一度も〜ない (not even once/never)",
+            "content": "一度も行ったことがない \"I've never been (not even once)\" 一度も見たことがない \"I've never seen it\" 一度も会ったことがない \"I've never met (them)\""
+          }
+        ]
+      },
+      {
+        "level": 2,
+        "heading": "Asking About Frequency",
+        "content": "",
+        "children": [
+          {
+            "level": 3,
+            "heading": "どのくらい (how often)",
+            "content": "どのくらい運動しますか？ \"How often do you exercise?\" どのくらい日本に行きますか？ \"How often do you go to Japan?\""
+          },
+          {
+            "level": 3,
+            "heading": "よく (often - in questions)",
+            "content": "よく映画を見ますか？ \"Do you often watch movies?\" よくここに来ますか？ \"Do you come here often?\""
+          }
+        ]
+      },
+      {
+        "level": 2,
+        "heading": "Specific Frequency",
+        "content": "",
+        "children": [
+          {
+            "level": 3,
+            "heading": "Every [time period]",
+            "content": "毎日 (まいにち) - every day 毎週 (まいしゅう) - every week 毎月 (まいつき) - every month 毎年 (まいとし) - every year 毎朝 (まいあさ) - every morning 毎晩 (まいばん) - every evening 毎日運動する \"I exercise every day\" 毎週映画を見る \"I watch movies every week\""
+          },
+          {
+            "level": 3,
+            "heading": "Times per Period",
+            "content": "1日に3回 - 3 times a day 週に2回 - twice a week 月に1回 - once a month 年に1回 - once a year 週に2回ジムに行く \"I go to the gym twice a week\" 月に1回会う \"We meet once a month\""
+          }
+        ]
+      },
+      {
+        "level": 2,
+        "heading": "Common Conversations",
+        "content": "",
+        "children": [
+          {
+            "level": 3,
+            "heading": "Example 1: Exercise Habits",
+            "content": "A: どのくらい運動しますか？ \"How often do you exercise?\" B: 週に3回ぐらい運動します \"I exercise about 3 times a week\" A: 何をしますか？ \"What do you do?\" B: よく走ります \"I often run\""
+          },
+          {
+            "level": 3,
+            "heading": "Example 2: Meeting Friends",
+            "content": "A: 友達とよく会いますか？ \"Do you often meet with friends?\" B: はい、週末はいつも会います \"Yes, I always meet on weekends\" A: 平日は？ \"What about weekdays?\" B: たまに会います \"I occasionally meet\""
+          },
+          {
+            "level": 3,
+            "heading": "Example 3: Eating Habits",
+            "content": "A: よく外食しますか？ \"Do you often eat out?\" B: いいえ、あまりしません \"No, not much\" A: 週に何回ぐらい？ \"About how many times a week?\" B: 月に1回ぐらいです \"About once a month\""
+          }
+        ]
+      },
+      {
+        "level": 2,
+        "heading": "Common Mistakes",
+        "content": "",
+        "children": [
+          {
+            "level": 3,
+            "heading": "Mistake 1: Wrong particle with frequency",
+            "content": "Wrong: 週に2回で行く ❌ Right: 週に2回行く ✓ \"I go twice a week\""
+          },
+          {
+            "level": 3,
+            "heading": "Mistake 2: Forgetting ない with negative frequency",
+            "content": "Wrong: めったに行く ❌ Right: めったに行かない ✓ \"I rarely go\""
+          },
+          {
+            "level": 3,
+            "heading": "Mistake 3: Wrong word order",
+            "content": "Less natural: 勉強するいつも ⚠️ Natural: いつも勉強する ✓ \"I always study\""
+          }
+        ]
+      },
+      {
+        "level": 2,
+        "heading": "Combining Frequency Expressions",
+        "content": "",
+        "children": [
+          {
+            "level": 3,
+            "heading": "Multiple Adverbs",
+            "content": "ほとんどいつも \"almost always\" たいてい/だいたい \"usually/generally\" ほとんど〜ない \"hardly ever\""
+          },
+          {
+            "level": 3,
+            "heading": "With Time Periods",
+            "content": "平日はいつも仕事する \"I always work on weekdays\" 週末はたまに出かける \"I occasionally go out on weekends\" 朝はよく走る \"I often run in the morning\""
+          }
+        ]
+      },
+      {
+        "level": 2,
+        "heading": "Formal vs Casual",
+        "content": "",
+        "children": [
+          {
+            "level": 3,
+            "heading": "Casual",
+            "content": "よく - often 時々 - sometimes たまに - occasionally 全然〜ない - never"
+          },
+          {
+            "level": 3,
+            "heading": "Formal",
+            "content": "頻繁に - frequently 時には - sometimes 稀に - rarely 決して〜ない - never"
+          }
+        ]
+      },
+      {
+        "level": 2,
+        "heading": "Special Expressions",
+        "content": "",
+        "children": [
+          {
+            "level": 3,
+            "heading": "たびに (every time)",
+            "content": "会うたびに \"every time we meet\" 行くたびに \"every time I go\" 見るたびに \"every time I see\""
+          },
+          {
+            "level": 3,
+            "heading": "いつでも (anytime)",
+            "content": "いつでも来てください \"Please come anytime\" いつでも電話していい \"You can call anytime\""
+          },
+          {
+            "level": 3,
+            "heading": "いつまでも (forever)",
+            "content": "いつまでも友達 \"friends forever\" いつまでも覚えている \"I'll remember forever\""
+          }
+        ]
+      },
+      {
+        "level": 2,
+        "heading": "Emphasizing Frequency",
+        "content": "",
+        "children": [
+          {
+            "level": 3,
+            "heading": "本当に (really)",
+            "content": "本当によく会う \"We really meet often\" 本当に全然わからない \"I really don't understand at all\""
+          },
+          {
+            "level": 3,
+            "heading": "とても (very)",
+            "content": "とてもよく勉強する \"I study very often\""
+          }
+        ]
+      },
+      {
+        "level": 2,
+        "heading": "Regional Variations",
+        "content": "",
+        "children": [
+          {
+            "level": 3,
+            "heading": "Standard",
+            "content": "よく - often 時々 - sometimes"
+          },
+          {
+            "level": 3,
+            "heading": "Kansai",
+            "content": "よう - often たまに - sometimes"
+          }
+        ]
+      },
+      {
+        "level": 2,
+        "heading": "Practice Sentences",
+        "content": "",
+        "children": [
+          {
+            "level": 3,
+            "heading": "High Frequency",
+            "content": "いつも早く起きる \"I always wake up early\" 毎日日本語を勉強する \"I study Japanese every day\" よく本を読みます \"I often read books\" しょっちゅう会う \"We meet frequently\""
+          },
+          {
+            "level": 3,
+            "heading": "Medium Frequency",
+            "content": "時々映画を見る \"I sometimes watch movies\" たまに外食します \"I occasionally eat out\" 週に2回ジムに行く \"I go to the gym twice a week\""
+          },
+          {
+            "level": 3,
+            "heading": "Low Frequency",
+            "content": "めったに行かない \"I rarely go\" あまり食べません \"I don't eat much\" ほとんど使わない \"I hardly ever use it\""
+          },
+          {
+            "level": 3,
+            "heading": "Never",
+            "content": "全然わからない \"I don't understand at all\" 一度も行ったことがない \"I've never been\" 決して忘れない \"I'll never forget\""
+          },
+          {
+            "level": 3,
+            "heading": "Questions",
+            "content": "どのくらい運動しますか？ \"How often do you exercise?\" よく映画を見ますか？ \"Do you often watch movies?\" 毎日勉強しますか？ \"Do you study every day?\""
+          }
+        ]
+      },
+      {
+        "level": 2,
+        "heading": "Related Grammar Points",
+        "content": "Time Words - Specific time expressions Duration - How long Present Tense Usage - Habitual actions Adverbs - Adverb usage Negative Forms - Negation patterns Counters - Counting times",
+        "children": [
+          {
+            "level": 3,
+            "heading": "Company",
+            "content": "About Pricing Blog Contact"
+          },
+          {
+            "level": 3,
+            "heading": "Legal",
+            "content": "Privacy Policy Terms of Service Cookie Policy"
+          }
+        ]
+      }
+    ],
+    "examples": [
+      {
+        "sentence": "Time Words - Specific time expressions"
+      },
+      {
+        "sentence": "Duration - How long"
+      },
+      {
+        "sentence": "Present Tense Usage - Habitual actions"
+      },
+      {
+        "sentence": "Adverbs - Adverb usage"
+      },
+      {
+        "sentence": "Negative Forms - Negation patterns"
+      },
+      {
+        "sentence": "Counters - Counting times"
+      },
+      {
+        "sentence": "About"
+      },
+      {
+        "sentence": "Pricing"
+      },
+      {
+        "sentence": "Blog"
+      },
+      {
+        "sentence": "Contact"
+      },
+      {
+        "sentence": "Privacy Policy"
+      },
+      {
+        "sentence": "Terms of Service"
+      },
+      {
+        "sentence": "Cookie Policy"
+      }
+    ],
+    "metadata": {
+      "title": "Frequency (時々、いつも)"
+    }
+  },
+  "metadata": {
+    "extracted_at": "2026-01-01T22:19:29.426868500Z",
+    "duration_ms": 4,
+    "extractors_matched": [
+      "metadata",
+      "examples",
+      "sections"
+    ],
+    "extractors_failed": [
+      "vocab_tables",
+      "definitions",
+      "content_blocks"
+    ]
+  }
+}

@@ -1,0 +1,393 @@
+{
+  "config_name": "Language Learning Extractor",
+  "url": "https://practice-japanese.com/docs/nikui/",
+  "data": {
+    "examples": [
+      {
+        "sentence": "〜やすい - Easy to do (opposite)"
+      },
+      {
+        "sentence": "〜がたい - Hard to (more formal/literary)"
+      },
+      {
+        "sentence": "Potential form - Can/can't do"
+      },
+      {
+        "sentence": "〜にくくなる - Become harder to"
+      },
+      {
+        "sentence": "い-adjective conjugation - Adjective forms"
+      },
+      {
+        "sentence": "Difficulty expressions - Expressing difficulty"
+      },
+      {
+        "sentence": "About"
+      },
+      {
+        "sentence": "Pricing"
+      },
+      {
+        "sentence": "Blog"
+      },
+      {
+        "sentence": "Contact"
+      },
+      {
+        "sentence": "Privacy Policy"
+      },
+      {
+        "sentence": "Terms of Service"
+      },
+      {
+        "sentence": "Cookie Policy"
+      }
+    ],
+    "sections": [
+      {
+        "level": 2,
+        "heading": "What is 〜にくい?",
+        "content": "〜にくい attaches to verb stems to express that something is hard to do or difficult to do . It's the opposite of やすい.\n\n読みにくい \"hard to read\" 分かりにくい \"hard to understand\" 壊れにくい \"hard to break / durable\""
+      },
+      {
+        "level": 2,
+        "heading": "Formation",
+        "content": "",
+        "children": [
+          {
+            "level": 3,
+            "heading": "Pattern: Verb stem (ます form minus ます) + にくい",
+            "content": "| Dictionary | ます form | Stem | + にくい | | ------------ | --------- | ---- | ---------- | | 読む (read) | 読みます | 読み | 読みにくい | | 書く (write) | 書きます | 書き | 書きにくい | | 食べる (eat) | 食べます | 食べ | 食べにくい | | する (do) | します | し | しにくい | | 来る (come) | 来ます | 来 | 来にくい |"
+          },
+          {
+            "level": 3,
+            "heading": "Examples",
+            "content": "飲む → 飲みにくい (hard to drink) 使う → 使いにくい (hard to use) 分かる → 分かりにくい (hard to understand) 忘れる → 忘れにくい (hard to forget) 壊れる → 壊れにくい (doesn't break easily)"
+          }
+        ]
+      },
+      {
+        "level": 2,
+        "heading": "Meaning: Hard to Do",
+        "content": "",
+        "children": [
+          {
+            "level": 3,
+            "heading": "For actions you do:",
+            "content": "この本は読みにくい \"This book is hard to read\" この椅子は座りにくい \"This chair is hard to sit on\" このペンは書きにくい \"This pen is hard to write with\""
+          },
+          {
+            "level": 3,
+            "heading": "For natural occurrences (resistance):",
+            "content": "このコップは割れにくい \"This glass doesn't break easily / is durable\" この服は汚れにくい \"These clothes don't get dirty easily\" 風邪を引きにくい \"I don't catch colds easily\""
+          }
+        ]
+      },
+      {
+        "level": 2,
+        "heading": "にくい as an い-Adjective",
+        "content": "にくい conjugates like an い-adjective:",
+        "children": [
+          {
+            "level": 3,
+            "heading": "Present/Future",
+            "content": "読みにくい - hard to read 読みにくいです - hard to read (polite)"
+          },
+          {
+            "level": 3,
+            "heading": "Negative",
+            "content": "読みにくくない - not hard to read 読みにくくないです - not hard to read (polite) 読みにくくありません - not hard to read (formal)"
+          },
+          {
+            "level": 3,
+            "heading": "Past",
+            "content": "読みにくかった - was hard to read 読みにくかったです - was hard to read (polite)"
+          },
+          {
+            "level": 3,
+            "heading": "Past Negative",
+            "content": "読みにくくなかった - wasn't hard to read 読みにくくなかったです - wasn't hard to read (polite)"
+          }
+        ]
+      },
+      {
+        "level": 2,
+        "heading": "Common Patterns",
+        "content": "",
+        "children": [
+          {
+            "level": 3,
+            "heading": "Describing objects",
+            "content": "使いにくいペン \"a hard-to-use pen\" 読みにくい字 \"hard-to-read handwriting\" 分かりにくい説明 \"a hard-to-understand explanation\" 着にくい服 \"hard-to-wear clothes\""
+          },
+          {
+            "level": 3,
+            "heading": "Describing durability (positive)",
+            "content": "壊れにくい製品 \"a durable product\" 汚れにくい素材 \"stain-resistant material\" 錆びにくい金属 \"rust-resistant metal\""
+          }
+        ]
+      },
+      {
+        "level": 2,
+        "heading": "Common Verbs with にくい",
+        "content": "",
+        "children": [
+          {
+            "level": 3,
+            "heading": "Understanding/Learning",
+            "content": "分かりにくい - hard to understand 覚えにくい - hard to remember 学びにくい - hard to learn 理解しにくい - hard to comprehend"
+          },
+          {
+            "level": 3,
+            "heading": "Using/Handling",
+            "content": "使いにくい - hard to use 持ちにくい - hard to hold 操作しにくい - hard to operate 扱いにくい - hard to handle"
+          },
+          {
+            "level": 3,
+            "heading": "Reading/Writing",
+            "content": "読みにくい - hard to read 書きにくい - hard to write 見にくい - hard to see"
+          },
+          {
+            "level": 3,
+            "heading": "Communication",
+            "content": "言いにくい - hard to say 聞きにくい - hard to ask/hear 話しにくい - hard to talk about"
+          },
+          {
+            "level": 3,
+            "heading": "Physical Properties (positive)",
+            "content": "壊れにくい - durable / doesn't break easily 割れにくい - doesn't crack easily 汚れにくい - doesn't get dirty easily 傷つきにくい - scratch-resistant"
+          }
+        ]
+      },
+      {
+        "level": 2,
+        "heading": "やすい vs にくい",
+        "content": "",
+        "children": [
+          {
+            "level": 3,
+            "heading": "Direct Opposites",
+            "content": "| やすい (easy) | にくい (hard) | | ------------- | ------------- | | 読みやすい | 読みにくい | | 使いやすい | 使いにくい | | 分かりやすい | 分かりにくい | | 書きやすい | 書きにくい |"
+          },
+          {
+            "level": 3,
+            "heading": "Usage Comparison",
+            "content": "この本は読みやすい \"This book is easy to read\" ↔ この本は読みにくい \"This book is hard to read\" 彼は怒りやすい \"He gets angry easily\" ↔ 彼は怒りにくい \"He doesn't get angry easily\""
+          }
+        ]
+      },
+      {
+        "level": 2,
+        "heading": "Common Conversations",
+        "content": "",
+        "children": [
+          {
+            "level": 3,
+            "heading": "Example 1: Product Feedback",
+            "content": "A: この椅子、どうですか？ \"How is this chair?\" B: う〜ん、ちょっと座りにくいですね \"Hmm, it's a bit hard to sit on\" A: じゃあ、こっちはどうですか？ \"Then how about this one?\" B: こっちの方が座りやすいです \"This one is easier to sit on\""
+          },
+          {
+            "level": 3,
+            "heading": "Example 2: Asking for Clarification",
+            "content": "A: 説明が分かりにくかったですか？ \"Was the explanation hard to understand?\" B: はい、もう少し詳しく教えてください \"Yes, please explain in more detail\" A: 分かりました。もう一度説明します \"I understand. I'll explain again\""
+          },
+          {
+            "level": 3,
+            "heading": "Example 3: Shopping",
+            "content": "A: このペンは書きやすいですか？ \"Is this pen easy to write with?\" B: いいえ、ちょっと書きにくいです \"No, it's a bit hard to write with\" A: じゃあ、別のを見ましょう \"Then let's look at another one\""
+          }
+        ]
+      },
+      {
+        "level": 2,
+        "heading": "Expressing Degrees",
+        "content": "",
+        "children": [
+          {
+            "level": 3,
+            "heading": "Very hard",
+            "content": "とても読みにくい \"very hard to read\" すごく使いにくい \"extremely hard to use\" 非常に分かりにくい \"very hard to understand\""
+          },
+          {
+            "level": 3,
+            "heading": "Somewhat hard",
+            "content": "ちょっと読みにくい \"a bit hard to read\" 少し使いにくい \"somewhat hard to use\""
+          },
+          {
+            "level": 3,
+            "heading": "Not very hard",
+            "content": "あまり読みにくくない \"not very hard to read\" それほど使いにくくない \"not that hard to use\""
+          }
+        ]
+      },
+      {
+        "level": 2,
+        "heading": "Positive Connotations with にくい",
+        "content": "Sometimes にくい expresses desirable qualities:",
+        "children": [
+          {
+            "level": 3,
+            "heading": "Durability",
+            "content": "壊れにくい時計 \"a durable watch\" 割れにくいガラス \"shatterproof glass\" 色褪せにくい布 \"fade-resistant fabric\""
+          },
+          {
+            "level": 3,
+            "heading": "Health/Resistance",
+            "content": "太りにくい体質 \"a body type that doesn't gain weight easily\" 風邪を引きにくい \"doesn't catch colds easily\" 疲れにくい \"doesn't get tired easily\""
+          },
+          {
+            "level": 3,
+            "heading": "Stain Resistance",
+            "content": "汚れにくい素材 \"stain-resistant material\" 錆びにくい金属 \"rust-resistant metal\" 傷つきにくい表面 \"scratch-resistant surface\""
+          }
+        ]
+      },
+      {
+        "level": 2,
+        "heading": "Social Situations",
+        "content": "",
+        "children": [
+          {
+            "level": 3,
+            "heading": "Hard to say/do (socially)",
+            "content": "言いにくいことですが... \"This is hard to say, but...\" 断りにくい \"Hard to refuse\" 頼みにくい \"Hard to ask for\" 会いにくい \"Hard to meet / awkward to meet\""
+          }
+        ]
+      },
+      {
+        "level": 2,
+        "heading": "Common Mistakes",
+        "content": "",
+        "children": [
+          {
+            "level": 3,
+            "heading": "Mistake 1: Using dictionary form",
+            "content": "Wrong: 読むにくい ❌ Right: 読みにくい ✓ \"Hard to read\" Use the stem (ます form minus ます)!"
+          },
+          {
+            "level": 3,
+            "heading": "Mistake 2: Confusing with できない",
+            "content": "読みにくい ≠ 読めない \"Hard to read\" ≠ \"Can't read\" 読みにくい = Difficult to do (quality) 読めない = Unable to do (ability)"
+          },
+          {
+            "level": 3,
+            "heading": "Mistake 3: Wrong conjugation",
+            "content": "Wrong: 読みにくです ❌ Right: 読みにくいです ✓ \"Is hard to read\" にくい is an い-adjective!"
+          },
+          {
+            "level": 3,
+            "heading": "Mistake 4: Overusing in negative contexts",
+            "content": "Not natural: 来にくい人 ⚠️ Better: 来られない人 ✓ \"A person who can't come\" にくい is for difficulty, not inability!"
+          }
+        ]
+      },
+      {
+        "level": 2,
+        "heading": "Comparing Things",
+        "content": "",
+        "children": [
+          {
+            "level": 3,
+            "heading": "より (more)",
+            "content": "Aの方がBより読みにくい \"A is harder to read than B\" この椅子の方が座りにくい \"This chair is harder to sit on\""
+          },
+          {
+            "level": 3,
+            "heading": "一番 (most)",
+            "content": "これが一番使いにくい \"This is the hardest to use\" この説明が一番分かりにくかった \"This explanation was the hardest to understand\""
+          }
+        ]
+      },
+      {
+        "level": 2,
+        "heading": "With Different Contexts",
+        "content": "",
+        "children": [
+          {
+            "level": 3,
+            "heading": "Criticism (negative)",
+            "content": "この説明は分かりにくいです \"This explanation is hard to understand\" (Criticism of poor explanation)"
+          },
+          {
+            "level": 3,
+            "heading": "Praise (positive with durability)",
+            "content": "この製品は壊れにくいです \"This product is durable\" (Praise for quality)"
+          },
+          {
+            "level": 3,
+            "heading": "Neutral observation",
+            "content": "この漢字は覚えにくい \"This kanji is hard to remember\" (Neutral fact)"
+          }
+        ]
+      },
+      {
+        "level": 2,
+        "heading": "Softening Criticism",
+        "content": "",
+        "children": [
+          {
+            "level": 3,
+            "heading": "Using ちょっと (a bit)",
+            "content": "ちょっと読みにくいです \"It's a bit hard to read\" (Softer than just 読みにくい) 少し使いにくいかもしれません \"It might be somewhat hard to use\""
+          }
+        ]
+      },
+      {
+        "level": 2,
+        "heading": "Practice Sentences",
+        "content": "",
+        "children": [
+          {
+            "level": 3,
+            "heading": "Basic",
+            "content": "この本は読みにくい \"This book is hard to read\" 分かりにくい説明でした \"It was a hard-to-understand explanation\" 使いにくいです \"It's hard to use\""
+          },
+          {
+            "level": 3,
+            "heading": "Intermediate",
+            "content": "この椅子は座りにくくて、疲れます \"This chair is hard to sit on and tiring\" 最近疲れにくくなりました \"I've become less likely to get tired lately\" 彼とは話しにくい雰囲気があります \"There's an atmosphere that makes it hard to talk with him\""
+          },
+          {
+            "level": 3,
+            "heading": "Advanced",
+            "content": "この製品は壊れにくく、長持ちする設計になっています \"This product is designed to be durable and long-lasting\" 言いにくいことですが、このプロジェクトは失敗しそうです \"This is hard to say, but this project seems likely to fail\" 汚れにくい素材を使用しているため、お手入れが簡単です \"Because we use stain-resistant materials, maintenance is easy\""
+          }
+        ]
+      },
+      {
+        "level": 2,
+        "heading": "Related Grammar Points",
+        "content": "〜やすい - Easy to do (opposite) 〜がたい - Hard to (more formal/literary) Potential form - Can/can't do 〜にくくなる - Become harder to い-adjective conjugation - Adjective forms Difficulty expressions - Expressing difficulty",
+        "children": [
+          {
+            "level": 3,
+            "heading": "Company",
+            "content": "About Pricing Blog Contact"
+          },
+          {
+            "level": 3,
+            "heading": "Legal",
+            "content": "Privacy Policy Terms of Service Cookie Policy"
+          }
+        ]
+      }
+    ],
+    "metadata": {
+      "title": "〜にくい (Hard to)"
+    }
+  },
+  "metadata": {
+    "extracted_at": "2026-01-01T22:19:32.054262400Z",
+    "duration_ms": 4,
+    "extractors_matched": [
+      "metadata",
+      "examples",
+      "sections"
+    ],
+    "extractors_failed": [
+      "vocab_tables",
+      "definitions",
+      "content_blocks"
+    ]
+  }
+}

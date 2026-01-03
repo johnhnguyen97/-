@@ -1,0 +1,680 @@
+{
+  "config_name": "Language Learning Extractor",
+  "url": "https://practice-japanese.com/docs/how-to-use/",
+  "data": {
+    "examples": [
+      {
+        "sentence": "Getting Started"
+      },
+      {
+        "sentence": "Basic Grammar Foundations"
+      },
+      {
+        "sentence": "Core Particles"
+      },
+      {
+        "sentence": "Verb Conjugations"
+      },
+      {
+        "sentence": "... through Advanced Topics"
+      },
+      {
+        "sentence": "Introduction to Japanese Grammar ← You are here"
+      },
+      {
+        "sentence": "How to Use This Guide"
+      },
+      {
+        "sentence": "Japanese Writing Systems"
+      },
+      {
+        "sentence": "Learn hiragana using Hiragana Learning Tool"
+      },
+      {
+        "sentence": "Read article completely (10-15 min)"
+      },
+      {
+        "sentence": "Write out all example sentences"
+      },
+      {
+        "sentence": "Create 5 original sentences using the pattern"
+      },
+      {
+        "sentence": "Review the article next day"
+      },
+      {
+        "sentence": "Move to next article only when confident"
+      },
+      {
+        "sentence": "Read all articles in category"
+      },
+      {
+        "sentence": "Create comparison charts"
+      },
+      {
+        "sentence": "Find pattern in native content"
+      },
+      {
+        "sentence": "Practice extensively"
+      },
+      {
+        "sentence": "Move to next category"
+      },
+      {
+        "sentence": "Read/watch Japanese content"
+      },
+      {
+        "sentence": "Encounter unfamiliar grammar"
+      },
+      {
+        "sentence": "Search in sidebar"
+      },
+      {
+        "sentence": "Read explanation"
+      },
+      {
+        "sentence": "Return to immersion"
+      },
+      {
+        "sentence": "Notice pattern in context"
+      },
+      {
+        "sentence": "Start with JLPT N5 Grammar list"
+      },
+      {
+        "sentence": "Study each pattern thoroughly"
+      },
+      {
+        "sentence": "Take practice tests"
+      },
+      {
+        "sentence": "Review weak areas"
+      },
+      {
+        "sentence": "Progress to next level"
+      },
+      {
+        "sentence": "Click any category to expand/collapse topics"
+      },
+      {
+        "sentence": "Current page highlighted in blue"
+      },
+      {
+        "sentence": "Sections remember your open/closed state"
+      },
+      {
+        "sentence": "Scroll to find any specific grammar point instantly"
+      },
+      {
+        "sentence": "Shows all headings in the current article"
+      },
+      {
+        "sentence": "Highlighted heading tracks your scroll position"
+      },
+      {
+        "sentence": "Click to jump to any section instantly"
+      },
+      {
+        "sentence": "Sticky navigation stays visible while scrolling"
+      },
+      {
+        "sentence": "← Previous: Go to the prior topic in sequence"
+      },
+      {
+        "sentence": "Next →: Advance to the next topic"
+      },
+      {
+        "sentence": "Read 1 grammar article (15-20 min)"
+      },
+      {
+        "sentence": "Create 5 example sentences"
+      },
+      {
+        "sentence": "Practice with Hiragana Reading"
+      },
+      {
+        "sentence": "Review previous topics weekly"
+      },
+      {
+        "sentence": "Study ALL 30+ particles in Core Particles"
+      },
+      {
+        "sentence": "Pay special attention to: に vs で は vs が より、ほど、くらい"
+      },
+      {
+        "sentence": "に vs で"
+      },
+      {
+        "sentence": "は vs が"
+      },
+      {
+        "sentence": "より、ほど、くらい"
+      },
+      {
+        "sentence": "に vs で"
+      },
+      {
+        "sentence": "は vs が"
+      },
+      {
+        "sentence": "より、ほど、くらい"
+      },
+      {
+        "sentence": "Complete all 20 verb forms: Potential Passive Causative All conditionals"
+      },
+      {
+        "sentence": "Potential"
+      },
+      {
+        "sentence": "Passive"
+      },
+      {
+        "sentence": "Causative"
+      },
+      {
+        "sentence": "All conditionals"
+      },
+      {
+        "sentence": "Potential"
+      },
+      {
+        "sentence": "Passive"
+      },
+      {
+        "sentence": "Causative"
+      },
+      {
+        "sentence": "All conditionals"
+      },
+      {
+        "sentence": "Master all 13 te-form patterns"
+      },
+      {
+        "sentence": "Start with 〜ている"
+      },
+      {
+        "sentence": "Progress through 〜てある、〜ておく、〜てみる"
+      },
+      {
+        "sentence": "Study Sentence Patterns section"
+      },
+      {
+        "sentence": "Learn appearance/hearsay (そう、らしい、みたい、ようだ)"
+      },
+      {
+        "sentence": "Master giving/receiving verbs"
+      },
+      {
+        "sentence": "2-3 articles per week"
+      },
+      {
+        "sentence": "Focus on confused points"
+      },
+      {
+        "sentence": "Use Japanese Reading Practice to see grammar in context"
+      },
+      {
+        "sentence": "Create flashcards for confusing patterns"
+      },
+      {
+        "sentence": "Keigo System Overview"
+      },
+      {
+        "sentence": "Master all sonkeigo, kenjougo, teineigo forms"
+      },
+      {
+        "sentence": "Study business and service language"
+      },
+      {
+        "sentence": "Advanced Topics section"
+      },
+      {
+        "sentence": "Complex patterns (ざるを得ない, わけにはいかない)"
+      },
+      {
+        "sentence": "Literary and formal styles"
+      },
+      {
+        "sentence": "Study comparison articles (X vs Y)"
+      },
+      {
+        "sentence": "Learn nuanced differences"
+      },
+      {
+        "sentence": "Focus on natural expression"
+      },
+      {
+        "sentence": "JLPT N2 Grammar"
+      },
+      {
+        "sentence": "JLPT N1 Grammar"
+      },
+      {
+        "sentence": "Study target level systematically"
+      },
+      {
+        "sentence": "Use guide as reference, not primary study"
+      },
+      {
+        "sentence": "Look up patterns you encounter in immersion"
+      },
+      {
+        "sentence": "Study formal vs casual variants"
+      },
+      {
+        "sentence": "Practice register shifts"
+      },
+      {
+        "sentence": "Complete beginners"
+      },
+      {
+        "sentence": "Structured learners"
+      },
+      {
+        "sentence": "Building solid foundation"
+      },
+      {
+        "sentence": "Week 1: Study all は、が、を articles"
+      },
+      {
+        "sentence": "Week 2: Study all に、で、へ articles"
+      },
+      {
+        "sentence": "Week 3: Study all remaining particles"
+      },
+      {
+        "sentence": "Week 4: Review and practice all particles"
+      },
+      {
+        "sentence": "Intermediate learners"
+      },
+      {
+        "sentence": "Focused improvement"
+      },
+      {
+        "sentence": "Fixing specific weaknesses"
+      },
+      {
+        "sentence": "Advanced learners"
+      },
+      {
+        "sentence": "Immersion-focused students"
+      },
+      {
+        "sentence": "Natural acquisition preference"
+      },
+      {
+        "sentence": "N5: 2-3 months (100 patterns)"
+      },
+      {
+        "sentence": "N4: 3-4 months (80 patterns)"
+      },
+      {
+        "sentence": "N3: 4-6 months (120 patterns)"
+      },
+      {
+        "sentence": "N2: 6-8 months (180 patterns)"
+      },
+      {
+        "sentence": "N1: 8-12 months (220 patterns)"
+      },
+      {
+        "sentence": "Test-focused learners"
+      },
+      {
+        "sentence": "Clear deadlines"
+      },
+      {
+        "sentence": "Certificate goals"
+      },
+      {
+        "sentence": "Change the subject: 彼は本を読みます"
+      },
+      {
+        "sentence": "Change the object: 私は新聞を読みます"
+      },
+      {
+        "sentence": "Change the verb: 私は本を買います"
+      },
+      {
+        "sentence": "Make negative: 私は本を読みません"
+      },
+      {
+        "sentence": "Make past: 私は本を読みました"
+      },
+      {
+        "sentence": "0-15 min: Read 1 article"
+      },
+      {
+        "sentence": "15-25 min: Create example sentences"
+      },
+      {
+        "sentence": "25-30 min: Review yesterday's article"
+      },
+      {
+        "sentence": "Monday: 2 new articles (60 min)"
+      },
+      {
+        "sentence": "Wednesday: 2 new articles (60 min)"
+      },
+      {
+        "sentence": "Friday: 1 new article (30 min)"
+      },
+      {
+        "sentence": "Weekend: Review all week (60 min)"
+      },
+      {
+        "sentence": "30 min: Study 2-3 articles"
+      },
+      {
+        "sentence": "30 min: Write practice sentences"
+      },
+      {
+        "sentence": "30 min: Grammar in context (reading)"
+      },
+      {
+        "sentence": "30 min: Review and test yourself"
+      },
+      {
+        "sentence": "[ ] Getting Started (5 articles)"
+      },
+      {
+        "sentence": "[ ] Basic Grammar Foundations (8 articles)"
+      },
+      {
+        "sentence": "[ ] Core Particles (30 articles)"
+      },
+      {
+        "sentence": "[ ] Verb Conjugations (20 articles)"
+      },
+      {
+        "sentence": "..."
+      },
+      {
+        "sentence": "Hiragana Table - Character reference"
+      },
+      {
+        "sentence": "Katakana Table - Foreign words"
+      },
+      {
+        "sentence": "Kanji Table - All kanji"
+      },
+      {
+        "sentence": "Verb Conjugator - Practice conjugations"
+      },
+      {
+        "sentence": "Reading Practice - See grammar in context"
+      },
+      {
+        "sentence": "Textbooks: Genki, Minna no Nihongo (structured practice)"
+      },
+      {
+        "sentence": "Immersion: Anime, manga, news (real usage)"
+      },
+      {
+        "sentence": "Speaking: Language exchange (production practice)"
+      },
+      {
+        "sentence": "Flashcards: Anki (spaced repetition)"
+      },
+      {
+        "sentence": "Particles Overview"
+      },
+      {
+        "sentence": "Verb Basics"
+      },
+      {
+        "sentence": "JLPT N5 Grammar"
+      },
+      {
+        "sentence": "Common Mistakes"
+      },
+      {
+        "sentence": "About"
+      },
+      {
+        "sentence": "Pricing"
+      },
+      {
+        "sentence": "Blog"
+      },
+      {
+        "sentence": "Contact"
+      },
+      {
+        "sentence": "Privacy Policy"
+      },
+      {
+        "sentence": "Terms of Service"
+      },
+      {
+        "sentence": "Cookie Policy"
+      }
+    ],
+    "metadata": {
+      "title": "How to Use This Grammar Guide"
+    },
+    "sections": [
+      {
+        "level": 2,
+        "heading": "Navigation Guide",
+        "content": "",
+        "children": [
+          {
+            "level": 3,
+            "heading": "Sidebar (Left)",
+            "content": "The sidebar organizes all 300+ grammar topics into 25 major categories:\n\nClick any category to expand/collapse topics Current page highlighted in blue Sections remember your open/closed state Scroll to find any specific grammar point instantly\n\nCategories flow from beginner → advanced:\n\nGetting Started Basic Grammar Foundations Core Particles Verb Conjugations ... through Advanced Topics"
+          },
+          {
+            "level": 3,
+            "heading": "Table of Contents (Right - Desktop Only)",
+            "content": "On larger screens, you'll see a mini-TOC on the right:\n\nShows all headings in the current article Highlighted heading tracks your scroll position Click to jump to any section instantly Sticky navigation stays visible while scrolling\n\nPerfect for scanning long articles or returning to specific sections."
+          },
+          {
+            "level": 3,
+            "heading": "Breadcrumbs (Top)",
+            "content": "Every page shows your location:\n\nHome / Docs / Particles / は (wa) Topic Marker\n\nClick any breadcrumb to navigate back up the hierarchy."
+          },
+          {
+            "level": 3,
+            "heading": "Prev/Next Links (Bottom)",
+            "content": "At the bottom of each article:\n\n← Previous: Go to the prior topic in sequence Next →: Advance to the next topic\n\nFollow these to study linearly through related topics."
+          }
+        ]
+      },
+      {
+        "level": 2,
+        "heading": "Study Paths by Level",
+        "content": "",
+        "children": [
+          {
+            "level": 3,
+            "heading": "Path 1: Complete Beginner (0-6 months)",
+            "content": "You're starting from zero. Follow this exact order:\n\nWeek 1-2: Foundation\n\nIntroduction to Japanese Grammar ← You are here How to Use This Guide Japanese Writing Systems Learn hiragana using Hiragana Learning Tool\n\nWeek 3-4: Basic Structure 5. Basic Sentence Patterns 6. Sentence Structure (SOV) 7. Particles Overview\n\nMonth 2: Core Particles 8. は (wa) - Topic Marker 9. が (ga) - Subject Marker 10. は vs が Explained 11. を (wo) - Object Marker 12. に (ni) - Location/Time 13. で (de) - Means/Location\n\nMonth 3-4: Verb Basics 14. Verb Groups 15. Dictionary Form 16. Masu Form 17. Te-form 18. Nai-form\n\nMonth 5-6: Essential Patterns 19. 〜ている (Progressive) 20. 〜たい (Want to) 21. Question Words 22. Time Expressions\n\nDaily Practice:\n\nRead 1 grammar article (15-20 min) Create 5 example sentences Practice with Hiragana Reading Review previous topics weekly"
+          },
+          {
+            "level": 3,
+            "heading": "Path 2: Intermediate (6-18 months)",
+            "content": "You know basics but struggle with particles and complex forms:\n\nFocus Areas:\n\n1. Fill Particle Gaps (2-3 months)\n\nStudy ALL 30+ particles in Core Particles Pay special attention to: に vs で は vs が より、ほど、くらい\n\n2. Master Verb Conjugations (2-3 months)\n\nComplete all 20 verb forms: Potential Passive Causative All conditionals\n\n3. Te-form Patterns (1-2 months)\n\nMaster all 13 te-form patterns Start with 〜ている Progress through 〜てある、〜ておく、〜てみる\n\n4. Grammar Patterns (3-4 months)\n\nStudy Sentence Patterns section Learn appearance/hearsay (そう、らしい、みたい、ようだ) Master giving/receiving verbs\n\nStudy Strategy:\n\n2-3 articles per week Focus on confused points Use Japanese Reading Practice to see grammar in context Create flashcards for confusing patterns"
+          },
+          {
+            "level": 3,
+            "heading": "Path 3: Advanced (18+ months)",
+            "content": "You can communicate but want native-like fluency:\n\nPriority Topics:\n\n1. Honorific Language (2-3 months)\n\nKeigo System Overview Master all sonkeigo, kenjougo, teineigo forms Study business and service language\n\n2. Advanced Patterns (3-4 months)\n\nAdvanced Topics section Complex patterns (ざるを得ない, わけにはいかない) Literary and formal styles\n\n3. Subtle Distinctions (ongoing)\n\nStudy comparison articles (X vs Y) Learn nuanced differences Focus on natural expression\n\n4. JLPT Preparation (if needed)\n\nJLPT N2 Grammar JLPT N1 Grammar Study target level systematically\n\nApproach:\n\nUse guide as reference, not primary study Look up patterns you encounter in immersion Study formal vs casual variants Practice register shifts"
+          }
+        ]
+      },
+      {
+        "level": 2,
+        "heading": "Study Strategies",
+        "content": "",
+        "children": [
+          {
+            "level": 3,
+            "heading": "Strategy 1: Linear Learning (Beginners)",
+            "content": "Study articles in order, don't skip ahead.\n\nProcess:\n\nRead article completely (10-15 min) Write out all example sentences Create 5 original sentences using the pattern Review the article next day Move to next article only when confident\n\nBest for:\n\nComplete beginners Structured learners Building solid foundation\n\nPros: Complete understanding, no gaps Cons: Slower progress, can feel tedious"
+          },
+          {
+            "level": 3,
+            "heading": "Strategy 2: Topic Immersion (Intermediate)",
+            "content": "Pick one category, master it completely before moving on.\n\nExample: Mastering Particles\n\nWeek 1: Study all は、が、を articles Week 2: Study all に、で、へ articles Week 3: Study all remaining particles Week 4: Review and practice all particles\n\nProcess:\n\nRead all articles in category Create comparison charts Find pattern in native content Practice extensively Move to next category\n\nBest for:\n\nIntermediate learners Focused improvement Fixing specific weaknesses\n\nPros: Deep mastery, clear progress Cons: Might neglect other areas"
+          },
+          {
+            "level": 3,
+            "heading": "Strategy 3: Reference Method (Advanced)",
+            "content": "Use guide only when you encounter unknown grammar.\n\nProcess:\n\nRead/watch Japanese content Encounter unfamiliar grammar Search in sidebar Read explanation Return to immersion Notice pattern in context\n\nBest for:\n\nAdvanced learners Immersion-focused students Natural acquisition preference\n\nPros: Motivated learning, contextual understanding Cons: Gaps in knowledge, less systematic"
+          },
+          {
+            "level": 3,
+            "heading": "Strategy 4: Test Preparation (JLPT)",
+            "content": "Study by target JLPT level systematically.\n\nProcess:\n\nStart with JLPT N5 Grammar list Study each pattern thoroughly Take practice tests Review weak areas Progress to next level\n\nSchedule:\n\nN5: 2-3 months (100 patterns) N4: 3-4 months (80 patterns) N3: 4-6 months (120 patterns) N2: 6-8 months (180 patterns) N1: 8-12 months (220 patterns)\n\nBest for:\n\nTest-focused learners Clear deadlines Certificate goals"
+          }
+        ]
+      },
+      {
+        "level": 2,
+        "heading": "How to Use Each Article",
+        "content": "Every grammar article follows this structure:",
+        "children": [
+          {
+            "level": 3,
+            "heading": "1. Title & Description",
+            "content": "Quick summary of what you'll learn."
+          },
+          {
+            "level": 3,
+            "heading": "2. Basic Usage",
+            "content": "Simple explanation with first example."
+          },
+          {
+            "level": 3,
+            "heading": "3. Key Concepts",
+            "content": "Core understanding needed."
+          },
+          {
+            "level": 3,
+            "heading": "4. Common Patterns",
+            "content": "How it's actually used (5-10 examples)."
+          },
+          {
+            "level": 3,
+            "heading": "5. Common Mistakes",
+            "content": "What NOT to do."
+          },
+          {
+            "level": 3,
+            "heading": "6. Practice Examples",
+            "content": "Real sentences to study."
+          },
+          {
+            "level": 3,
+            "heading": "7. Related Links",
+            "content": "Connected topics to explore.\n\nReading Process:\n\n1. Skim the whole article (2 min) 2. Read carefully (5-10 min) 3. Study all examples (5 min) 4. Try creating sentences (5 min) 5. Review next day (2 min)"
+          }
+        ]
+      },
+      {
+        "level": 2,
+        "heading": "Making Examples Work for You",
+        "content": "Every article includes multiple examples:\n\n私は本を読みます。 Watashi wa hon wo yomimasu. I (topic) book (object) read. \"I read books.\"\n\nHow to study each example:\n\n1. Read the Japanese\n\n私は本を読みます。\n\n2. Check romaji if needed\n\nWatashi wa hon wo yomimasu.\n\n3. Understand literal breakdown\n\nI (topic) book (object) read.\n\n4. See natural English\n\n\"I read books.\"\n\n5. Practice transformation\n\nChange the subject: 彼は本を読みます Change the object: 私は新聞を読みます Change the verb: 私は本を買います Make negative: 私は本を読みません Make past: 私は本を読みました"
+      },
+      {
+        "level": 2,
+        "heading": "Study Schedule Templates",
+        "content": "",
+        "children": [
+          {
+            "level": 3,
+            "heading": "Daily 30-Minute Plan",
+            "content": "0-15 min: Read 1 article 15-25 min: Create example sentences 25-30 min: Review yesterday's article"
+          },
+          {
+            "level": 3,
+            "heading": "Weekly 3-Hour Plan",
+            "content": "Monday: 2 new articles (60 min) Wednesday: 2 new articles (60 min) Friday: 1 new article (30 min) Weekend: Review all week (60 min)"
+          },
+          {
+            "level": 3,
+            "heading": "Intensive 2-Hour Daily Plan",
+            "content": "30 min: Study 2-3 articles 30 min: Write practice sentences 30 min: Grammar in context (reading) 30 min: Review and test yourself"
+          }
+        ]
+      },
+      {
+        "level": 2,
+        "heading": "Tracking Your Progress",
+        "content": "",
+        "children": [
+          {
+            "level": 3,
+            "heading": "Keep a Grammar Journal",
+            "content": "Format:\n\nDate: 2025-01-15 Topic: は vs が Key Points: - は for known topics - が for new information - が in subordinate clauses Sentences I Made: 1. 私はコーヒーが好きです。 2. 誰が来ましたか？ 3. 雨が降っています。 Questions to Review: - When to use が with verbs like できる?"
+          },
+          {
+            "level": 3,
+            "heading": "Track Completion",
+            "content": "Create a checklist:\n\n[ ] Getting Started (5 articles) [ ] Basic Grammar Foundations (8 articles) [ ] Core Particles (30 articles) [ ] Verb Conjugations (20 articles) ..."
+          }
+        ]
+      },
+      {
+        "level": 2,
+        "heading": "Common Questions",
+        "content": "Q: Should I learn every grammar point in order? A: Beginners yes, intermediate+ can jump around. But don't skip fundamentals.\n\nQ: How long to complete this guide? A: 6-12 months intensive study, 2-3 years casual learning, lifetime reference.\n\nQ: Can I skip articles I think I know? A: Skim them at least. You might discover nuances you missed.\n\nQ: Should I memorize everything? A: No. Focus on understanding patterns. Memory comes through use.\n\nQ: Do I need a textbook too? A: This guide IS comprehensive, but textbooks provide structure and exercises. Use both.\n\nQ: What if I don't understand something? A: Normal! Mark it, continue forward, return later. Context from later topics often clarifies earlier confusion."
+      },
+      {
+        "level": 2,
+        "heading": "Combine with Other Tools",
+        "content": "",
+        "children": [
+          {
+            "level": 3,
+            "heading": "Practice Japanese Tools",
+            "content": "Hiragana Table - Character reference Katakana Table - Foreign words Kanji Table - All kanji Verb Conjugator - Practice conjugations Reading Practice - See grammar in context"
+          },
+          {
+            "level": 3,
+            "heading": "External Resources",
+            "content": "Textbooks: Genki, Minna no Nihongo (structured practice) Immersion: Anime, manga, news (real usage) Speaking: Language exchange (production practice) Flashcards: Anki (spaced repetition)"
+          }
+        ]
+      },
+      {
+        "level": 2,
+        "heading": "The Most Important Advice",
+        "content": "Understanding > Memorization\n\nDon't memorize rules. Understand how Japanese people think about grammar. Why do they use は here? Why が there? When you understand the logic, everything clicks.\n\nConsistency > Intensity\n\nStudy 30 minutes daily beats 3 hours weekly. Your brain needs daily exposure to build neural pathways.\n\nProduction > Recognition\n\nDon't just read. Write sentences. Speak aloud. Use the grammar. Active production cements understanding.\n\nPatience > Perfection\n\nYou'll make mistakes. That's learning. Native speakers understand imperfect Japanese. Focus on communication, refine accuracy over time."
+      },
+      {
+        "level": 2,
+        "heading": "Ready to Begin",
+        "content": "Start with Japanese Writing Systems to understand hiragana, katakana, and kanji.\n\nOr jump directly to Basic Sentence Patterns to start building sentences today.\n\nThe sidebar contains everything you need. This guide will be here whenever you need it - as a learning tool, reference, or refresher.\n\nWelcome to your Japanese grammar journey. Let's begin.\n\nQuick Links:\n\nParticles Overview Verb Basics JLPT N5 Grammar Common Mistakes",
+        "children": [
+          {
+            "level": 3,
+            "heading": "Company",
+            "content": "About Pricing Blog Contact"
+          },
+          {
+            "level": 3,
+            "heading": "Legal",
+            "content": "Privacy Policy Terms of Service Cookie Policy"
+          }
+        ]
+      }
+    ]
+  },
+  "metadata": {
+    "extracted_at": "2026-01-01T22:19:30.011009400Z",
+    "duration_ms": 5,
+    "extractors_matched": [
+      "metadata",
+      "examples",
+      "sections"
+    ],
+    "extractors_failed": [
+      "vocab_tables",
+      "definitions",
+      "content_blocks"
+    ]
+  }
+}

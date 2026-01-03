@@ -1,0 +1,359 @@
+{
+  "config_name": "Language Learning Extractor",
+  "url": "https://practice-japanese.com/docs/you-ni-purpose/",
+  "data": {
+    "examples": [
+      {
+        "sentence": "\"so that\""
+      },
+      {
+        "sentence": "\"in order that\""
+      },
+      {
+        "sentence": "\"in hopes that\""
+      },
+      {
+        "sentence": "\"so as to\""
+      },
+      {
+        "sentence": "Can you directly do it? → ために"
+      },
+      {
+        "sentence": "Is it a state/ability/outcome? → ように"
+      },
+      {
+        "sentence": "ように expresses purpose for non-volitional outcomes"
+      },
+      {
+        "sentence": "Use with: potential verbs (〜える), state changes (なる), perception (見える, 分かる)"
+      },
+      {
+        "sentence": "Means \"so that,\" \"in order that,\" \"in hopes that\""
+      },
+      {
+        "sentence": "Different from ために which uses volitional verbs"
+      },
+      {
+        "sentence": "Common with: 頑張る, 祈る, 気をつける"
+      },
+      {
+        "sentence": "Negative: 〜ないように (so that... won't)"
+      },
+      {
+        "sentence": "For outcomes beyond direct control"
+      },
+      {
+        "sentence": "Cannot be used with actions you directly control"
+      },
+      {
+        "sentence": "Essential for expressing desired states and outcomes"
+      },
+      {
+        "sentence": "About"
+      },
+      {
+        "sentence": "Pricing"
+      },
+      {
+        "sentence": "Blog"
+      },
+      {
+        "sentence": "Contact"
+      },
+      {
+        "sentence": "Privacy Policy"
+      },
+      {
+        "sentence": "Terms of Service"
+      },
+      {
+        "sentence": "Cookie Policy"
+      }
+    ],
+    "sections": [
+      {
+        "level": 2,
+        "heading": "What is ように for Purpose?",
+        "content": "ように (you ni) expresses purpose or desired outcome, particularly with non-volitional verbs (states or abilities you can't directly control). It means \"so that,\" \"in order that,\" or \"in hopes that.\"\n\nEnglish equivalents:\n\n\"so that\" \"in order that\" \"in hopes that\" \"so as to\"\n\nKey characteristic: Used with verbs expressing states, potential forms, or outcomes beyond direct control.\n\n忘れないように書いておく。 Wasurenai you ni kaite oku. \"I'll write it down so that I won't forget.\" 合格できるように頑張る。 Goukaku dekiru you ni ganbaru. \"I'll try hard so that I can pass.\""
+      },
+      {
+        "level": 2,
+        "heading": "Basic Structure",
+        "content": "",
+        "children": [
+          {
+            "level": 3,
+            "heading": "Pattern",
+            "content": "[Verb dictionary/negative form] + ように + [Action]\n\n見えるように (mieru you ni) - \"so that it can be seen\" 聞こえるように (kikoeru you ni) - \"so that it can be heard\" できるように (dekiru you ni) - \"so that one can do\" ならないように (naranai you ni) - \"so that it won't become\""
+          }
+        ]
+      },
+      {
+        "level": 2,
+        "heading": "With Non-Volitional Verbs",
+        "content": "",
+        "children": [
+          {
+            "level": 3,
+            "heading": "Potential verbs (〜できる, 〜える)",
+            "content": "日本語が話せるように勉強する。 Nihongo ga hanaseru you ni benkyou suru. \"I study so that I can speak Japanese.\" 早く走れるように練習する。 Hayaku hashireru you ni renshuu suru. \"I practice so that I can run fast.\" 見えるように大きく書く。 Mieru you ni ookiku kaku. \"I write it large so that it can be seen.\" 聞こえるように大きな声で話す。 Kikoeru you ni ookina koe de hanasu. \"I speak in a loud voice so that I can be heard.\""
+          },
+          {
+            "level": 3,
+            "heading": "State verbs (なる, 分かる, etc.)",
+            "content": "医者になるように頑張る。 Isha ni naru you ni ganbaru. \"I try hard so that I'll become a doctor.\" 分かるように説明する。 Wakaru you ni setsumei suru. \"I explain so that you'll understand.\" 健康になるように運動する。 Kenkou ni naru you ni undou suru. \"I exercise so that I'll become healthy.\""
+          },
+          {
+            "level": 3,
+            "heading": "Verbs of perception/ability",
+            "content": "見えるように (mieru you ni) - \"so that it's visible\" 聞こえるように (kikoeru you ni) - \"so that it's audible\" 分かるように (wakaru you ni) - \"so that it's understandable\" 届くように (todoku you ni) - \"so that it reaches\""
+          }
+        ]
+      },
+      {
+        "level": 2,
+        "heading": "Negative Forms",
+        "content": "",
+        "children": [
+          {
+            "level": 3,
+            "heading": "So that... won't",
+            "content": "忘れないように書く。 Wasurenai you ni kaku. \"I write it down so that I won't forget.\" 遅れないように早く出る。 Okurenai you ni hayaku deru. \"I leave early so that I won't be late.\" 風邪を引かないように暖かくする。 Kaze wo hikanai you ni atatakaku suru. \"I dress warmly so that I won't catch a cold.\" 失敗しないように注意する。 Shippai shinai you ni chuui suru. \"I'm careful so that I won't fail.\""
+          }
+        ]
+      },
+      {
+        "level": 2,
+        "heading": "Comparing ために and ように",
+        "content": "",
+        "children": [
+          {
+            "level": 3,
+            "heading": "ために - Controllable actions (volitional)",
+            "content": "日本語を勉強するために日本に来た。 Nihongo wo benkyou suru tame ni Nihon ni kita. \"I came to Japan in order to study Japanese.\" [You directly control \"studying\"]"
+          },
+          {
+            "level": 3,
+            "heading": "ように - Uncontrollable outcomes (non-volitional)",
+            "content": "日本語が上手になるように毎日練習する。 Nihongo ga jouzu ni naru you ni mainichi renshuu suru. \"I practice every day so that my Japanese will improve.\" [You can't directly control \"becoming good\"]\n\n| Aspect | ために | ように | | --------- | -------------------- | -------------------- | | Verb type | Volitional | Non-volitional | | Control | Direct action | Desired outcome | | Examples | 勉強する, 買う, 行く | できる, なる, 見える | | Meaning | \"In order to do\" | \"So that it becomes\" |\n\nSimple rule:\n\nCan you directly do it? → ために Is it a state/ability/outcome? → ように"
+          }
+        ]
+      },
+      {
+        "level": 2,
+        "heading": "Common Patterns",
+        "content": "",
+        "children": [
+          {
+            "level": 3,
+            "heading": "ように + 頑張る (ganbaru)",
+            "content": "合格できるように頑張ります。 Goukaku dekiru you ni ganbarimasu. \"I'll do my best so that I can pass.\" 夢が叶うように頑張る。 Yume ga kanau you ni ganbaru. \"I try hard so that my dream will come true.\""
+          },
+          {
+            "level": 3,
+            "heading": "ように + 祈る (inoru - to pray)",
+            "content": "成功するように祈っています。 Seikou suru you ni inotte imasu. \"I'm praying that you'll succeed.\" 無事に帰れるように祈る。 Buji ni kaereru you ni inoru. \"I pray that you can return safely.\""
+          },
+          {
+            "level": 3,
+            "heading": "ように + 気をつける (ki wo tsukeru - to be careful)",
+            "content": "忘れないように気をつけます。 Wasurenai you ni ki wo tsukemasu. \"I'll be careful not to forget.\" 遅刻しないように気をつける。 Chikoku shinai you ni ki wo tsukeru. \"I'm careful not to be late.\""
+          }
+        ]
+      },
+      {
+        "level": 2,
+        "heading": "For Someone's Sake",
+        "content": "",
+        "children": [
+          {
+            "level": 3,
+            "heading": "Expressing hopes for others",
+            "content": "皆が幸せになるように願っています。 Minna ga shiawase ni naru you ni negatte imasu. \"I wish that everyone will become happy.\" 子供が健康に育つように祈る。 Kodomo ga kenkou ni sodatsu you ni inoru. \"I pray that my child will grow up healthy.\" あなたが成功できるように応援します。 Anata ga seikou dekiru you ni ouen shimasu. \"I'll support you so that you can succeed.\""
+          }
+        ]
+      },
+      {
+        "level": 2,
+        "heading": "In Instructions",
+        "content": "",
+        "children": [
+          {
+            "level": 3,
+            "heading": "Making things clear/accessible",
+            "content": "みんなが見えるように書いてください。 Minna ga mieru you ni kaite kudasai. \"Please write so that everyone can see.\" 分かるように説明してください。 Wakaru you ni setsumei shite kudasai. \"Please explain so that I'll understand.\" 聞こえるように大きな声で言ってください。 Kikoeru you ni ookina koe de itte kudasai. \"Please say it in a loud voice so that I can hear.\""
+          }
+        ]
+      },
+      {
+        "level": 2,
+        "heading": "With Negative Outcomes",
+        "content": "",
+        "children": [
+          {
+            "level": 3,
+            "heading": "Preventing bad results",
+            "content": "病気にならないように注意する。 Byouki ni naranai you ni chuui suru. \"I'm careful so that I won't get sick.\" 事故が起こらないように気をつける。 Jiko ga okoranai you ni ki wo tsukeru. \"I'm careful so that an accident won't happen.\" 誤解されないようにはっきり言う。 Gokai sarenai you ni hakkiri iu. \"I speak clearly so that I won't be misunderstood.\""
+          }
+        ]
+      },
+      {
+        "level": 2,
+        "heading": "Habitual Actions",
+        "content": "",
+        "children": [
+          {
+            "level": 3,
+            "heading": "Regular practices for outcomes",
+            "content": "毎日走れるように早く寝る。 Mainichi hashireru you ni hayaku neru. \"I go to bed early so that I can run every day.\" 忘れないように毎日復習する。 Wasurenai you ni mainichi fukushuu suru. \"I review every day so that I won't forget.\""
+          }
+        ]
+      },
+      {
+        "level": 2,
+        "heading": "Making Requests",
+        "content": "",
+        "children": [
+          {
+            "level": 3,
+            "heading": "Asking others to help achieve outcome",
+            "content": "遅れないように早めに来てください。 Okurenai you ni hayame ni kite kudasai. \"Please come early so that you won't be late.\" 間違えないように注意してください。 Machigaenai you ni chuui shite kudasai. \"Please be careful so that you won't make mistakes.\""
+          }
+        ]
+      },
+      {
+        "level": 2,
+        "heading": "In Advice",
+        "content": "",
+        "children": [
+          {
+            "level": 3,
+            "heading": "Giving suggestions",
+            "content": "風邪を引かないように暖かくしてね。 Kaze wo hikanai you ni atatakaku shite ne. \"Dress warmly so that you don't catch a cold.\" 忘れないようにメモしておいた方がいい。 Wasurenai you ni memo shite oita hou ga ii. \"You'd better write it down so you don't forget.\""
+          }
+        ]
+      },
+      {
+        "level": 2,
+        "heading": "With Passive Verbs",
+        "content": "",
+        "children": [
+          {
+            "level": 3,
+            "heading": "So that something is done",
+            "content": "誤解されないようにはっきり説明する。 Gokai sarenai you ni hakkiri setsumei suru. \"I explain clearly so that I won't be misunderstood.\" 忘れられないように印象的にする。 Wasurerarenai you ni inshouteki ni suru. \"I make it impressive so that it won't be forgotten.\""
+          }
+        ]
+      },
+      {
+        "level": 2,
+        "heading": "Expressing Wishes",
+        "content": "",
+        "children": [
+          {
+            "level": 3,
+            "heading": "Hoping for outcomes",
+            "content": "早く良くなるように。 Hayaku yoku naru you ni. \"I hope you get better soon.\" [Common well-wishing phrase] 夢が叶うように。 Yume ga kanau you ni. \"May your dreams come true.\" 幸せになれるように。 Shiawase ni nareru you ni. \"I hope you can become happy.\""
+          }
+        ]
+      },
+      {
+        "level": 2,
+        "heading": "Formal Contexts",
+        "content": "",
+        "children": [
+          {
+            "level": 3,
+            "heading": "In formal speech and writing",
+            "content": "問題が解決できるように努力いたします。 Mondai ga kaiketsu dekiru you ni doryoku itashimasu. \"We will make efforts so that the problem can be solved.\" お客様に満足していただけるようにサービスを向上させます。 Okyakusama ni manzoku shite itadakeru you ni sa-bisu wo koujou sasemasu. \"We will improve our service so that customers can be satisfied.\""
+          }
+        ]
+      },
+      {
+        "level": 2,
+        "heading": "Set Phrases",
+        "content": "",
+        "children": [
+          {
+            "level": 3,
+            "heading": "Common expressions",
+            "content": "お大事に (Odaiji ni) - Full form: お大事になさるように。 Odaiji ni nasaru you ni. \"Please take care.\" [Get well soon] 気をつけて - Full form: 気をつけるように。 Ki wo tsukeru you ni. \"Be careful.\""
+          }
+        ]
+      },
+      {
+        "level": 2,
+        "heading": "Comparing Similar Patterns",
+        "content": "",
+        "children": [
+          {
+            "level": 3,
+            "heading": "ように vs ために vs ように言う",
+            "content": "ように - Purpose (non-volitional):\n\n合格できるように勉強する。 \"I study so that I can pass.\"\n\nために - Purpose (volitional):\n\n合格するために勉強する。 \"I study in order to pass.\"\n\nように言う - Indirect command:\n\n勉強するように言った。 \"I told him to study.\" [Different pattern - indirect command]"
+          }
+        ]
+      },
+      {
+        "level": 2,
+        "heading": "Common Mistakes",
+        "content": "",
+        "children": [
+          {
+            "level": 3,
+            "heading": "Mistake 1: Using ように with Volitional Verbs",
+            "content": "❌ 勉強するように日本に来た (wrong - 勉強する is volitional) ✓ 勉強するために日本に来た ✓ 日本語が上手になるように勉強する\n\nUse ように with non-volitional outcomes."
+          },
+          {
+            "level": 3,
+            "heading": "Mistake 2: Wrong Verb Form",
+            "content": "❌ 忘れたように書く (past tense wrong) ✓ 忘れないように書く (present negative)\n\nUse present forms before ように."
+          },
+          {
+            "level": 3,
+            "heading": "Mistake 3: Confusing with ように言う",
+            "content": "❌ 食べるように頑張る (trying to confuse with command pattern) ✓ 食べられるように頑張る (so that I can eat)\n\nDon't confuse purpose ように with indirect command ように言う."
+          },
+          {
+            "level": 3,
+            "heading": "Mistake 4: Using with Direct Actions",
+            "content": "❌ 本を買うように行く (can directly buy) ✓ 本を買うために行く ✓ 本が買えるように行く (if emphasizing ability)\n\nUse ために for direct actions you control."
+          }
+        ]
+      },
+      {
+        "level": 2,
+        "heading": "Summary",
+        "content": "Key Points:\n\nように expresses purpose for non-volitional outcomes Use with: potential verbs (〜える), state changes (なる), perception (見える, 分かる) Means \"so that,\" \"in order that,\" \"in hopes that\" Different from ために which uses volitional verbs Common with: 頑張る, 祈る, 気をつける Negative: 〜ないように (so that... won't) For outcomes beyond direct control Cannot be used with actions you directly control Essential for expressing desired states and outcomes",
+        "children": [
+          {
+            "level": 3,
+            "heading": "Company",
+            "content": "About Pricing Blog Contact"
+          },
+          {
+            "level": 3,
+            "heading": "Legal",
+            "content": "Privacy Policy Terms of Service Cookie Policy"
+          }
+        ]
+      }
+    ],
+    "metadata": {
+      "title": "ように (So that)"
+    }
+  },
+  "metadata": {
+    "extracted_at": "2026-01-01T22:19:38.064610800Z",
+    "duration_ms": 3,
+    "extractors_matched": [
+      "metadata",
+      "examples",
+      "sections"
+    ],
+    "extractors_failed": [
+      "vocab_tables",
+      "definitions",
+      "content_blocks"
+    ]
+  }
+}

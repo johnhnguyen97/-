@@ -1,0 +1,384 @@
+{
+  "config_name": "Language Learning Extractor",
+  "url": "https://practice-japanese.com/docs/to-omotte-iru/",
+  "data": {
+    "examples": [
+      {
+        "sentence": "と思う - I think (momentary)"
+      },
+      {
+        "sentence": "と思った - I thought (past)"
+      },
+      {
+        "sentence": "と思っていた - I used to think"
+      },
+      {
+        "sentence": "〜ようと思う - I'm thinking of doing"
+      },
+      {
+        "sentence": "〜たいと思う - I want to / I'm thinking of"
+      },
+      {
+        "sentence": "Continuous states - Expressing ongoing conditions"
+      },
+      {
+        "sentence": "About"
+      },
+      {
+        "sentence": "Pricing"
+      },
+      {
+        "sentence": "Blog"
+      },
+      {
+        "sentence": "Contact"
+      },
+      {
+        "sentence": "Privacy Policy"
+      },
+      {
+        "sentence": "Terms of Service"
+      },
+      {
+        "sentence": "Cookie Policy"
+      }
+    ],
+    "sections": [
+      {
+        "level": 2,
+        "heading": "What is と思っている?",
+        "content": "と思っている expresses ongoing thoughts, beliefs, or opinions that you've held for a while. It means \"I think/believe\" (and continue to think), \"I've been thinking,\" or \"I consider.\"\n\n彼はいい人だと思っている \"I think he's a good person\" (ongoing belief) 日本に行きたいと思っている \"I'm thinking of going to Japan\" (ongoing desire) これが正しいと思っています \"I believe this is correct\" (maintained opinion)"
+      },
+      {
+        "level": 2,
+        "heading": "Formation",
+        "content": "",
+        "children": [
+          {
+            "level": 3,
+            "heading": "Pattern: [Statement] + と思っている",
+            "content": "Basic structure:\n\nと思う (momentary) → と思っている (ongoing) いい + と思っている 難しい + と思っている 来る + と思っている\n\nSame conjugation rules as と思う:\n\nVerbs: 行くと思っている い-adjectives: 高いと思っている な-adjectives: 便利だと思っている Nouns: 学生だと思っている"
+          }
+        ]
+      },
+      {
+        "level": 2,
+        "heading": "と思う vs と思っている",
+        "content": "",
+        "children": [
+          {
+            "level": 3,
+            "heading": "と思う - Momentary thought",
+            "content": "いいと思う \"I think it's good\" (right now, at this moment) Immediate judgment Current opinion"
+          },
+          {
+            "level": 3,
+            "heading": "と思っている - Ongoing belief",
+            "content": "いいと思っている \"I think it's good\" (have been thinking, continue to think) Held belief Maintained opinion Ongoing thought"
+          },
+          {
+            "level": 3,
+            "heading": "Clear comparison",
+            "content": "Momentary: 彼は来ると思う \"I think he'll come\" (current prediction) Ongoing: 彼はいい人だと思っている \"I think he's a good person\" (established belief)"
+          }
+        ]
+      },
+      {
+        "level": 2,
+        "heading": "Basic Usage",
+        "content": "",
+        "children": [
+          {
+            "level": 3,
+            "heading": "Expressing established beliefs",
+            "content": "日本語は面白いと思っている \"I think Japanese is interesting\" (ongoing belief) この方法がベストだと思っています \"I think this method is best\" (established opinion) 彼は信頼できると思っている \"I think he's trustworthy\" (maintained belief)"
+          },
+          {
+            "level": 3,
+            "heading": "Stating desires/plans",
+            "content": "来年留学したいと思っている \"I'm thinking of studying abroad next year\" 新しい仕事を探したいと思っています \"I'm thinking of looking for a new job\" Shows ongoing consideration"
+          },
+          {
+            "level": 3,
+            "heading": "About other people's thoughts",
+            "content": "彼は私のことを嫌いだと思っている \"He thinks he doesn't like me\" みんな、これは難しいと思っている \"Everyone thinks this is difficult\" Describing others' ongoing thoughts"
+          }
+        ]
+      },
+      {
+        "level": 2,
+        "heading": "Key Characteristics",
+        "content": "",
+        "children": [
+          {
+            "level": 3,
+            "heading": "Shows continuity",
+            "content": "Emphasizes that you: - Have held this thought for a while - Continue to hold this thought - Maintain this belief Not a sudden realization"
+          },
+          {
+            "level": 3,
+            "heading": "More for stable opinions",
+            "content": "Use for: ✓ Personal beliefs ✓ Life goals ✓ Character assessments ✓ Ongoing plans ✓ Fundamental views Less for: ✗ Immediate predictions ✗ Sudden realizations ✗ Quick judgments"
+          }
+        ]
+      },
+      {
+        "level": 2,
+        "heading": "Common Conversations",
+        "content": "",
+        "children": [
+          {
+            "level": 3,
+            "heading": "Example 1: Personal Goals",
+            "content": "A: 将来、何したい？ \"What do you want to do in the future?\" B: 医者になりたいと思っているんだ \"I'm thinking of becoming a doctor\" A: いいね！頑張って \"That's great! Do your best\""
+          },
+          {
+            "level": 3,
+            "heading": "Example 2: Opinion About Person",
+            "content": "A: 新しい上司、どう？ \"How's the new boss?\" B: いい人だと思ってるよ。優しいし \"I think he's a good person. He's kind\" A: そうなんだ \"I see\""
+          },
+          {
+            "level": 3,
+            "heading": "Example 3: Beliefs",
+            "content": "A: 努力は必ず報われると思う？ \"Do you think effort always pays off?\" B: うん、そう思っている。時間はかかるけどね \"Yeah, I think so. Though it takes time\""
+          }
+        ]
+      },
+      {
+        "level": 2,
+        "heading": "Common Mistakes",
+        "content": "",
+        "children": [
+          {
+            "level": 3,
+            "heading": "Mistake 1: Using for immediate thoughts",
+            "content": "Less natural: これは高いと思っている ⚠️ More natural: これは高いと思う ✓ \"I think this is expensive\" (seeing it now) Use と思う for immediate reactions!"
+          },
+          {
+            "level": 3,
+            "heading": "Mistake 2: Overusing with predictions",
+            "content": "Less natural: 明日雨が降ると思っている ⚠️ More natural: 明日雨が降ると思う ✓ \"I think it will rain tomorrow\" と思っている sounds odd for weather predictions"
+          },
+          {
+            "level": 3,
+            "heading": "Mistake 3: Mixing tenses incorrectly",
+            "content": "Wrong: 思うている ❌ Right: 思っている ✓ Use て-form of 思う!"
+          }
+        ]
+      },
+      {
+        "level": 2,
+        "heading": "About Others' Thoughts",
+        "content": "",
+        "children": [
+          {
+            "level": 3,
+            "heading": "Third person thoughts",
+            "content": "彼は僕が悪いと思っている \"He thinks I'm bad\" みんな、これは難しいと思っています \"Everyone thinks this is difficult\" 母は私が結婚すべきだと思っている \"My mother thinks I should get married\""
+          }
+        ]
+      },
+      {
+        "level": 2,
+        "heading": "Expressing Long-term Plans",
+        "content": "",
+        "children": [
+          {
+            "level": 3,
+            "heading": "Future intentions",
+            "content": "来年、日本に行こうと思っている \"I'm thinking of going to Japan next year\" 転職しようと思っています \"I'm considering changing jobs\" Shows ongoing consideration"
+          }
+        ]
+      },
+      {
+        "level": 2,
+        "heading": "With ずっと (All along)",
+        "content": "",
+        "children": [
+          {
+            "level": 3,
+            "heading": "Emphasizing continuity",
+            "content": "ずっとそう思っている \"I've been thinking that all along\" ずっと彼は優しいと思っています \"I've always thought he's kind\" Emphasizes long duration"
+          }
+        ]
+      },
+      {
+        "level": 2,
+        "heading": "Polite Forms",
+        "content": "",
+        "children": [
+          {
+            "level": 3,
+            "heading": "Casual: 思っている",
+            "content": "いいと思っている \"I think it's good\" With friends"
+          },
+          {
+            "level": 3,
+            "heading": "Polite: 思っています",
+            "content": "いいと思っています \"I think it's good\" Standard polite"
+          },
+          {
+            "level": 3,
+            "heading": "Formal: 思っております",
+            "content": "重要だと思っております \"I think it's important\" Very formal, humble"
+          }
+        ]
+      },
+      {
+        "level": 2,
+        "heading": "Negative Forms",
+        "content": "",
+        "children": [
+          {
+            "level": 3,
+            "heading": "～ないと思っている",
+            "content": "彼は来ないと思っている \"I think he won't come\" (ongoing belief) 難しくないと思っています \"I don't think it's difficult\" (maintained view)"
+          }
+        ]
+      },
+      {
+        "level": 2,
+        "heading": "Past Form",
+        "content": "",
+        "children": [
+          {
+            "level": 3,
+            "heading": "と思っていた (I was thinking/used to think)",
+            "content": "できると思っていた \"I used to think I could do it\" いい人だと思っていました \"I used to think he was a good person\" Past continuous belief"
+          }
+        ]
+      },
+      {
+        "level": 2,
+        "heading": "Common Patterns",
+        "content": "",
+        "children": [
+          {
+            "level": 3,
+            "heading": "～と思っているんだ/んです",
+            "content": "医者になりたいと思っているんだ \"I'm thinking of becoming a doctor\" Explanatory tone"
+          },
+          {
+            "level": 3,
+            "heading": "～と思っているけど",
+            "content": "いいと思っているけど、高いね \"I think it's good, but it's expensive\" Adding contrast"
+          }
+        ]
+      },
+      {
+        "level": 2,
+        "heading": "About Yourself vs Others",
+        "content": "",
+        "children": [
+          {
+            "level": 3,
+            "heading": "Your own thoughts: Usually use present",
+            "content": "日本語は難しいと思う ✓ \"I think Japanese is difficult\" More natural in present for self"
+          },
+          {
+            "level": 3,
+            "heading": "Others' thoughts: Often use ている",
+            "content": "彼は日本語は難しいと思っている ✓ \"He thinks Japanese is difficult\" Describing others' ongoing thoughts"
+          }
+        ]
+      },
+      {
+        "level": 2,
+        "heading": "Difference in Nuance",
+        "content": "",
+        "children": [
+          {
+            "level": 3,
+            "heading": "と思う - More immediate",
+            "content": "この映画、面白いと思う \"I think this movie is interesting\" Fresh, current reaction"
+          },
+          {
+            "level": 3,
+            "heading": "と思っている - More established",
+            "content": "この監督の映画はいつも面白いと思っている \"I (always) think this director's movies are interesting\" Established opinion"
+          }
+        ]
+      },
+      {
+        "level": 2,
+        "heading": "With んだけど/んですけど",
+        "content": "",
+        "children": [
+          {
+            "level": 3,
+            "heading": "Softening statement",
+            "content": "行きたいと思っているんですけど... \"I'm thinking of going, but...\" Polite, indirect"
+          }
+        ]
+      },
+      {
+        "level": 2,
+        "heading": "Expressing Core Beliefs",
+        "content": "",
+        "children": [
+          {
+            "level": 3,
+            "heading": "Fundamental views",
+            "content": "人生は一度きりだと思っている \"I believe life is once\" 努力は裏切らないと思っています \"I believe effort doesn't betray\" Deep-held beliefs"
+          }
+        ]
+      },
+      {
+        "level": 2,
+        "heading": "Practice Sentences",
+        "content": "",
+        "children": [
+          {
+            "level": 3,
+            "heading": "Basic",
+            "content": "彼はいい人だと思っている \"I think he's a good person\" 日本に行きたいと思っています \"I'm thinking of going to Japan\" これは正しいと思っている \"I think this is correct\""
+          },
+          {
+            "level": 3,
+            "heading": "Intermediate",
+            "content": "ずっと前から、海外で働きたいと思っていました \"I've been thinking for a long time that I want to work abroad\" 両親は私が医者になるべきだと思っているけど、 私は教師になりたいと思っている \"My parents think I should become a doctor, but I'm thinking of becoming a teacher\" 彼はこの計画がうまくいくと思っているようだ \"It seems he thinks this plan will work\""
+          },
+          {
+            "level": 3,
+            "heading": "Advanced",
+            "content": "人生において、最も大切なのは健康だと ずっと思っています。お金や地位も重要ですが、 健康がなければ何も楽しめないと考えているからです。 \"I've always thought that in life, health is the most important. Money and status are important too, but I believe that without health, you can't enjoy anything.\" 多くの人は、成功するためには才能が 必要だと思っているようですが、 私は努力と継続が最も重要だと信じています。 才能があっても、努力しなければ成功できないと思っています。 \"It seems many people think that talent is necessary to succeed, but I believe effort and continuation are most important. I think that even with talent, you can't succeed without effort.\""
+          }
+        ]
+      },
+      {
+        "level": 2,
+        "heading": "Related Grammar Points",
+        "content": "と思う - I think (momentary) と思った - I thought (past) と思っていた - I used to think 〜ようと思う - I'm thinking of doing 〜たいと思う - I want to / I'm thinking of Continuous states - Expressing ongoing conditions",
+        "children": [
+          {
+            "level": 3,
+            "heading": "Company",
+            "content": "About Pricing Blog Contact"
+          },
+          {
+            "level": 3,
+            "heading": "Legal",
+            "content": "Privacy Policy Terms of Service Cookie Policy"
+          }
+        ]
+      }
+    ],
+    "metadata": {
+      "title": "と思っている (I've been thinking)"
+    }
+  },
+  "metadata": {
+    "extracted_at": "2026-01-01T22:19:36.649090200Z",
+    "duration_ms": 4,
+    "extractors_matched": [
+      "metadata",
+      "examples",
+      "sections"
+    ],
+    "extractors_failed": [
+      "vocab_tables",
+      "definitions",
+      "content_blocks"
+    ]
+  }
+}

@@ -1,0 +1,403 @@
+{
+  "config_name": "Language Learning Extractor",
+  "url": "https://practice-japanese.com/docs/te-shimau/",
+  "data": {
+    "sections": [
+      {
+        "level": 2,
+        "heading": "What is 〜てしまう (te-shimau)?",
+        "content": "〜てしまう expresses that an action is completely finished or that something happened with regret or an undesirable outcome. It emphasizes finality or that something unfortunate occurred.\n\n[Verb te-form] + しまう 食べてしまう \"end up eating / eat completely\" 忘れてしまう \"end up forgetting / forget (unfortunately)\""
+      },
+      {
+        "level": 2,
+        "heading": "Formation",
+        "content": "",
+        "children": [
+          {
+            "level": 3,
+            "heading": "Basic Pattern",
+            "content": "Verb (te-form) + しまう Plain: 〜てしまう Polite: 〜てしまいます 読んでしまう / 読んでしまいます \"finish reading / end up reading\" 壊してしまう / 壊してしまいます \"end up breaking\""
+          }
+        ]
+      },
+      {
+        "level": 2,
+        "heading": "Two Main Meanings",
+        "content": "",
+        "children": [
+          {
+            "level": 3,
+            "heading": "1. Complete Finish",
+            "content": "Action is completely done, finished.\n\n全部食べてしまった \"I ate it all (completely finished)\" 本を読んでしまった \"I finished reading the book\" 宿題をしてしまった \"I finished doing homework (completely)\" 仕事を終えてしまった \"I finished the work (completely)\""
+          },
+          {
+            "level": 3,
+            "heading": "2. Regret/Unfortunate Outcome",
+            "content": "Something happened that shouldn't have, with regret.\n\n忘れてしまった \"I forgot (unfortunately)\" 壊してしまった \"I broke it (oh no!)\" 失くしてしまった \"I lost it (regrettably)\" 言ってしまった \"I said it (I shouldn't have)\""
+          }
+        ]
+      },
+      {
+        "level": 2,
+        "heading": "Casual Contraction: ちゃう/じゃう",
+        "content": "In casual speech, てしまう contracts dramatically:",
+        "children": [
+          {
+            "level": 3,
+            "heading": "てしまう → ちゃう",
+            "content": "食べてしまう → 食べちゃう 忘れてしまう → 忘れちゃう やってしまう → やっちゃう"
+          },
+          {
+            "level": 3,
+            "heading": "でしまう → じゃう",
+            "content": "読んでしまう → 読んじゃう 飲んでしまう → 飲んじゃう 死んでしまう → 死んじゃう"
+          },
+          {
+            "level": 3,
+            "heading": "Examples",
+            "content": "食べちゃった \"I ate it all / I ended up eating it\" 忘れちゃった \"I forgot\" やっちゃった！ \"I did it! / I messed up!\" 読んじゃった \"I read it all / I ended up reading it\""
+          }
+        ]
+      },
+      {
+        "level": 2,
+        "heading": "Past Form: 〜てしまった",
+        "content": "The past form often emphasizes regret.\n\n忘れてしまった \"I forgot (and I regret it)\" 壊してしまった \"I broke it (unfortunately)\" 食べてしまった \"I ate it (all gone now)\" 言ってしまった \"I said it (I wish I hadn't)\""
+      },
+      {
+        "level": 2,
+        "heading": "Common Patterns",
+        "content": "",
+        "children": [
+          {
+            "level": 3,
+            "heading": "〜てしまった！ (Oh no!)",
+            "content": "Exclamation of regret or mistake.\n\nやってしまった！ \"I did it! / I messed up!\" 忘れてしまった！ \"I forgot!\" 壊してしまった！ \"I broke it!\""
+          },
+          {
+            "level": 3,
+            "heading": "〜てしまいそう (about to ~)",
+            "content": "泣いてしまいそう \"I'm about to cry\" 忘れてしまいそう \"I'm about to forget\" 壊してしまいそう \"I'm about to break it\""
+          },
+          {
+            "level": 3,
+            "heading": "〜てしまうかもしれない (might ~)",
+            "content": "忘れてしまうかもしれない \"I might forget\" 失くしてしまうかもしれない \"I might lose it\""
+          },
+          {
+            "level": 3,
+            "heading": "〜てしまってごめん (sorry for ~)",
+            "content": "忘れてしまってごめん \"Sorry for forgetting\" 壊してしまってごめん \"Sorry for breaking it\" 遅れてしまってごめん \"Sorry for being late\""
+          }
+        ]
+      },
+      {
+        "level": 2,
+        "heading": "Distinguishing the Two Meanings",
+        "content": "Context usually makes it clear:",
+        "children": [
+          {
+            "level": 3,
+            "heading": "Completion (Neutral/Positive)",
+            "content": "全部食べてしまった \"I ate it all\" (finished) 本を読んでしまった \"I finished reading the book\" 掃除をしてしまった \"I finished cleaning\""
+          },
+          {
+            "level": 3,
+            "heading": "Regret (Negative)",
+            "content": "約束を忘れてしまった \"I forgot the promise\" (regret) 大切なものを壊してしまった \"I broke something important\" (regret) 秘密を言ってしまった \"I told the secret\" (regret)"
+          }
+        ]
+      },
+      {
+        "level": 2,
+        "heading": "Common Verbs with てしまう",
+        "content": "",
+        "children": [
+          {
+            "level": 3,
+            "heading": "Regretful Actions",
+            "content": "忘れてしまう - forget (unfortunately) 壊してしまう - break (oh no) 失くしてしまう - lose (regrettably) 落としてしまう - drop (oops) 間違えてしまう - make a mistake 死んでしまう - die (sadly)"
+          },
+          {
+            "level": 3,
+            "heading": "Complete Actions",
+            "content": "食べてしまう - eat completely 飲んでしまう - drink up 使ってしまう - use up 終わってしまう - finish completely 決めてしまう - decide (once and for all)"
+          }
+        ]
+      },
+      {
+        "level": 2,
+        "heading": "Negative Form",
+        "content": "",
+        "children": [
+          {
+            "level": 3,
+            "heading": "〜てしまわない",
+            "content": "忘れてしまわないように \"so as not to forget\" 壊してしまわない \"won't break it\""
+          },
+          {
+            "level": 3,
+            "heading": "〜てしまわないで",
+            "content": "忘れてしまわないで \"don't forget\" 言ってしまわないで \"don't say it\""
+          }
+        ]
+      },
+      {
+        "level": 2,
+        "heading": "With Regret Expressions",
+        "content": "",
+        "children": [
+          {
+            "level": 3,
+            "heading": "〜てしまって (and regret it)",
+            "content": "怒ってしまって、後悔している \"I got angry and I regret it\" 買ってしまって、お金がない \"I bought it and now I have no money\""
+          },
+          {
+            "level": 3,
+            "heading": "〜てしまったら (if ~ happens)",
+            "content": "忘れてしまったら、困る \"If I forget, it'll be a problem\" 壊してしまったら、どうしよう \"What should I do if I break it?\""
+          }
+        ]
+      },
+      {
+        "level": 2,
+        "heading": "Common Conversations",
+        "content": "",
+        "children": [
+          {
+            "level": 3,
+            "heading": "Example 1: Unfortunate Event",
+            "content": "A: 宿題は？ \"What about homework?\" B: やばい！忘れてしまった \"Oh no! I forgot\" A: どうするの？ \"What are you going to do?\" B: 先生に謝ります \"I'll apologize to the teacher\""
+          },
+          {
+            "level": 3,
+            "heading": "Example 2: Breaking Something",
+            "content": "A: 何があったの？ \"What happened?\" B: 花瓶を壊してしまった \"I broke the vase\" A: どうやって？ \"How?\" B: 掃除中に落としてしまったんだ \"I dropped it while cleaning\""
+          },
+          {
+            "level": 3,
+            "heading": "Example 3: Finishing Something",
+            "content": "A: ケーキまだある？ \"Is there still cake?\" B: ごめん、全部食べてしまった \"Sorry, I ate it all\" A: え！全部？ \"What! All of it?\" B: 本当にごめん \"I'm really sorry\""
+          },
+          {
+            "level": 3,
+            "heading": "Example 4: Casual with ちゃう",
+            "content": "A: 宿題やった？ \"Did you do homework?\" B: やばい、忘れちゃった！ \"Oh no, I forgot!\" A: また？ \"Again?\" B: 今からやる！ \"I'll do it now!\""
+          }
+        ]
+      },
+      {
+        "level": 2,
+        "heading": "Common Mistakes",
+        "content": "",
+        "children": [
+          {
+            "level": 3,
+            "heading": "Mistake 1: Overusing for simple completion",
+            "content": "Too dramatic: 朝ごはんを食べてしまった ⚠️ Natural: 朝ごはんを食べた ✓ \"I ate breakfast\" Note: Use てしまう when emphasis on completion or regret is needed"
+          },
+          {
+            "level": 3,
+            "heading": "Mistake 2: Wrong contraction",
+            "content": "Wrong: 食べしちゃう ❌ Right: 食べちゃう ✓ \"end up eating\" Wrong: 読みじゃう ❌ Right: 読んじゃう ✓ \"end up reading\""
+          },
+          {
+            "level": 3,
+            "heading": "Mistake 3: Using with state verbs",
+            "content": "Unnatural: 知ってしまう ❌ Better: 知ってしまった ✓ \"ended up knowing\" Note: Some state verbs sound odd with てしまう"
+          }
+        ]
+      },
+      {
+        "level": 2,
+        "heading": "Emotional Nuances",
+        "content": "",
+        "children": [
+          {
+            "level": 3,
+            "heading": "Sincere Regret",
+            "content": "本当にごめんなさい。忘れてしまって \"I'm truly sorry. I forgot\" 大切なものを壊してしまいました \"I broke something important\""
+          },
+          {
+            "level": 3,
+            "heading": "Light Regret",
+            "content": "つい食べちゃった \"I just ended up eating it\" うっかり言っちゃった \"I accidentally said it\""
+          },
+          {
+            "level": 3,
+            "heading": "Relief at Completion",
+            "content": "やっと終わってしまった \"Finally finished\" 全部片付けてしまった \"Got it all cleaned up\""
+          }
+        ]
+      },
+      {
+        "level": 2,
+        "heading": "Special Expressions",
+        "content": "",
+        "children": [
+          {
+            "level": 3,
+            "heading": "やっちゃった (I did it/messed up)",
+            "content": "Very common casual expression:\n\nやっちゃった！ \"I did it! / I messed up!\" また間違えちゃった \"I messed up again\""
+          },
+          {
+            "level": 3,
+            "heading": "つい〜てしまう (end up ~ unintentionally)",
+            "content": "つい食べてしまう \"I end up eating (without thinking)\" つい買ってしまう \"I end up buying (unintentionally)\""
+          },
+          {
+            "level": 3,
+            "heading": "うっかり〜てしまう (accidentally ~)",
+            "content": "うっかり忘れてしまった \"I accidentally forgot\" うっかり消してしまった \"I accidentally deleted it\""
+          }
+        ]
+      },
+      {
+        "level": 2,
+        "heading": "With Time Expressions",
+        "content": "",
+        "children": [
+          {
+            "level": 3,
+            "heading": "もう〜てしまった (already ~)",
+            "content": "もう食べてしまった \"I already ate it\" もう終わってしまった \"It already ended\""
+          },
+          {
+            "level": 3,
+            "heading": "すぐ〜てしまう (quickly ~)",
+            "content": "すぐ忘れてしまう \"I quickly forget\" すぐ壊してしまう \"It breaks easily\""
+          }
+        ]
+      },
+      {
+        "level": 2,
+        "heading": "Politeness Levels",
+        "content": "",
+        "children": [
+          {
+            "level": 3,
+            "heading": "Casual",
+            "content": "忘れちゃった \"I forgot\" やっちゃった \"I messed up\""
+          },
+          {
+            "level": 3,
+            "heading": "Polite",
+            "content": "忘れてしまいました \"I forgot\" 壊してしまいました \"I broke it\""
+          },
+          {
+            "level": 3,
+            "heading": "Very Polite/Formal",
+            "content": "申し訳ございません。忘れてしまいました \"I'm very sorry. I forgot\""
+          }
+        ]
+      },
+      {
+        "level": 2,
+        "heading": "Practice Sentences",
+        "content": "",
+        "children": [
+          {
+            "level": 3,
+            "heading": "Regret",
+            "content": "約束を忘れてしまった \"I forgot the promise\" 大切な書類を失くしてしまった \"I lost important documents\" 秘密を言ってしまった \"I told the secret\" 高いものを壊してしまった \"I broke something expensive\""
+          },
+          {
+            "level": 3,
+            "heading": "Completion",
+            "content": "全部食べてしまった \"I ate it all\" 本を読んでしまった \"I finished reading the book\" 宿題をしてしまった \"I finished the homework\" 掃除してしまった \"I finished cleaning\""
+          },
+          {
+            "level": 3,
+            "heading": "Casual with Contractions",
+            "content": "忘れちゃった \"I forgot\" 食べちゃった \"I ate it\" やっちゃった \"I did it / messed up\" 読んじゃった \"I read it all\" 飲んじゃった \"I drank it\""
+          },
+          {
+            "level": 3,
+            "heading": "With Apologies",
+            "content": "遅れてしまってすみません \"Sorry for being late\" 忘れてしまってごめんなさい \"Sorry for forgetting\" 壊してしまって申し訳ありません \"I apologize for breaking it\""
+          },
+          {
+            "level": 3,
+            "heading": "Unintentional Actions",
+            "content": "つい買ってしまった \"I ended up buying it\" うっかり消してしまった \"I accidentally deleted it\" 間違えてしまった \"I made a mistake\""
+          }
+        ]
+      },
+      {
+        "level": 2,
+        "heading": "Related Grammar Points",
+        "content": "Te-form Conjugation - Basic te-form 〜てしまった - Past regret forms 〜そう (sou) - Looks like (for 〜てしまいそう) 〜かもしれない - Might (for possibilities) Apologies - Saying sorry in Japanese 〜ておく (te-oku) - Do in advance (contrast)",
+        "children": [
+          {
+            "level": 3,
+            "heading": "Company",
+            "content": "About Pricing Blog Contact"
+          },
+          {
+            "level": 3,
+            "heading": "Legal",
+            "content": "Privacy Policy Terms of Service Cookie Policy"
+          }
+        ]
+      }
+    ],
+    "metadata": {
+      "title": "〜てしまう (Completion/Regret)"
+    },
+    "examples": [
+      {
+        "sentence": "Te-form Conjugation - Basic te-form"
+      },
+      {
+        "sentence": "〜てしまった - Past regret forms"
+      },
+      {
+        "sentence": "〜そう (sou) - Looks like (for 〜てしまいそう)"
+      },
+      {
+        "sentence": "〜かもしれない - Might (for possibilities)"
+      },
+      {
+        "sentence": "Apologies - Saying sorry in Japanese"
+      },
+      {
+        "sentence": "〜ておく (te-oku) - Do in advance (contrast)"
+      },
+      {
+        "sentence": "About"
+      },
+      {
+        "sentence": "Pricing"
+      },
+      {
+        "sentence": "Blog"
+      },
+      {
+        "sentence": "Contact"
+      },
+      {
+        "sentence": "Privacy Policy"
+      },
+      {
+        "sentence": "Terms of Service"
+      },
+      {
+        "sentence": "Cookie Policy"
+      }
+    ]
+  },
+  "metadata": {
+    "extracted_at": "2026-01-01T22:19:36.115243800Z",
+    "duration_ms": 4,
+    "extractors_matched": [
+      "metadata",
+      "examples",
+      "sections"
+    ],
+    "extractors_failed": [
+      "vocab_tables",
+      "definitions",
+      "content_blocks"
+    ]
+  }
+}

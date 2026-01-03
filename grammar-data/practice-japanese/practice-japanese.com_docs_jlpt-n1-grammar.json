@@ -1,0 +1,498 @@
+{
+  "config_name": "Language Learning Extractor",
+  "url": "https://practice-japanese.com/docs/jlpt-n1-grammar/",
+  "data": {
+    "metadata": {
+      "title": "JLPT N1 Grammar List"
+    },
+    "examples": [
+      {
+        "sentence": "Immerse in authentic materials - Read novels, newspapers, academic texts"
+      },
+      {
+        "sentence": "Learn classical patterns - Many N1 patterns have classical origins"
+      },
+      {
+        "sentence": "Master formal registers - Understand keigo and written language"
+      },
+      {
+        "sentence": "Study in context - These patterns are rarely used in isolation"
+      },
+      {
+        "sentence": "Practice extensively - Output is crucial at this level"
+      },
+      {
+        "sentence": "Read literary works and essays"
+      },
+      {
+        "sentence": "Study formal business documents"
+      },
+      {
+        "sentence": "Practice academic writing"
+      },
+      {
+        "sentence": "Listen to formal speeches and lectures"
+      },
+      {
+        "sentence": "Engage with native materials extensively"
+      },
+      {
+        "sentence": "Continue reading challenging materials"
+      },
+      {
+        "sentence": "Study classical Japanese if interested"
+      },
+      {
+        "sentence": "Master regional dialects"
+      },
+      {
+        "sentence": "Perfect business Japanese"
+      },
+      {
+        "sentence": "Engage in academic or professional writing"
+      },
+      {
+        "sentence": "About"
+      },
+      {
+        "sentence": "Pricing"
+      },
+      {
+        "sentence": "Blog"
+      },
+      {
+        "sentence": "Contact"
+      },
+      {
+        "sentence": "Privacy Policy"
+      },
+      {
+        "sentence": "Terms of Service"
+      },
+      {
+        "sentence": "Cookie Policy"
+      }
+    ],
+    "sections": [
+      {
+        "level": 2,
+        "heading": "JLPT N1 Grammar Overview",
+        "content": "JLPT N1 represents near-native proficiency in Japanese. It covers highly specialized grammar, literary expressions, formal written language, and nuanced patterns rarely used in daily conversation. N1 grammar appears in academic texts, literature, legal documents, and sophisticated journalism. This level includes approximately 250+ advanced grammar points."
+      },
+      {
+        "level": 2,
+        "heading": "Literary and Formal Expressions",
+        "content": "",
+        "children": [
+          {
+            "level": 3,
+            "heading": "〜が早いか - As soon as/No sooner than",
+            "content": "ベルが鳴るが早いか、駆け出した。 Beru ga naru ga hayai ka, kakedashita. \"No sooner had the bell rung than they dashed out.\""
+          },
+          {
+            "level": 3,
+            "heading": "〜や否や - As soon as/The moment",
+            "content": "家に着くや否や、電話が鳴った。 Ie ni tsuku ya ina ya, denwa ga natta. \"The moment I arrived home, the phone rang.\""
+          },
+          {
+            "level": 3,
+            "heading": "〜そばから - No sooner... than/As soon as",
+            "content": "覚えたそばから忘れる。 Oboeta sobakara wasureru. \"I forget as soon as I learn.\""
+          },
+          {
+            "level": 3,
+            "heading": "〜なり - As soon as/Immediately upon",
+            "content": "帰るなり寝てしまった。 Kaeru nari nete shimatta. \"I fell asleep as soon as I got home.\""
+          },
+          {
+            "level": 3,
+            "heading": "〜が最後 - Once... (negative result)",
+            "content": "座ったが最後、動けなくなる。 Suwatta ga saigo, ugokenaku naru. \"Once you sit down, you won't be able to move.\""
+          }
+        ]
+      },
+      {
+        "level": 2,
+        "heading": "Extremes and Limits",
+        "content": "",
+        "children": [
+          {
+            "level": 3,
+            "heading": "〜極まる/〜極まりない - Extremely",
+            "content": "不愉快極まりない。 Fuyukai kiwamarinai. \"Extremely unpleasant.\""
+          },
+          {
+            "level": 3,
+            "heading": "〜の至り - Extremely (formal)",
+            "content": "光栄の至りです。 Kouei no itari desu. \"It's an extreme honor.\""
+          },
+          {
+            "level": 3,
+            "heading": "〜の極み - The height of/Utmost",
+            "content": "幸せの極みだ。 Shiawase no kiwami da. \"The height of happiness.\""
+          },
+          {
+            "level": 3,
+            "heading": "〜にたえない - Cannot bear/Unbearable",
+            "content": "感謝に堪えない。 Kansha ni taenai. \"I cannot express enough gratitude.\""
+          },
+          {
+            "level": 3,
+            "heading": "〜てたまらない/〜てならない - Cannot help but/Extremely",
+            "content": "心配でたまらない。 Shinpai de tamaranai. \"I'm extremely worried.\""
+          }
+        ]
+      },
+      {
+        "level": 2,
+        "heading": "Emphasis and Assertion",
+        "content": "",
+        "children": [
+          {
+            "level": 3,
+            "heading": "〜にほかならない - Nothing but/None other than",
+            "content": "これは事実にほかならない。 Kore wa jijitsu ni hoka naranai. \"This is nothing but fact.\""
+          },
+          {
+            "level": 3,
+            "heading": "〜までもない - There's no need to/Needless to say",
+            "content": "言うまでもない。 Iu made mo nai. \"Needless to say.\""
+          },
+          {
+            "level": 3,
+            "heading": "〜ないまでも - Even if not/If not... at least",
+            "content": "成功しないまでも、努力は認められる。 Seikou shinai made mo, doryoku wa mitomerareru. \"Even if not successful, the effort is recognized.\""
+          },
+          {
+            "level": 3,
+            "heading": "〜といえども - Even though/Even if",
+            "content": "専門家といえども間違える。 Senmonka to iedomo machigaeru. \"Even experts make mistakes.\""
+          },
+          {
+            "level": 3,
+            "heading": "〜ならでは - Unique to/Only... can",
+            "content": "プロならではの技術。 Puro naradewa no gijutsu. \"Technique unique to professionals.\""
+          }
+        ]
+      },
+      {
+        "level": 2,
+        "heading": "Hypothetical and Supposition Advanced",
+        "content": "",
+        "children": [
+          {
+            "level": 3,
+            "heading": "〜ともあろうものが - Someone of... status",
+            "content": "先生ともあろうものが嘘をついた。 Sensei tomo arou mono ga uso wo tsuita. \"Someone of teacher status told a lie.\""
+          },
+          {
+            "level": 3,
+            "heading": "〜ようが〜まいが - Whether... or not",
+            "content": "雨が降ろうが降るまいが行く。 Ame ga furou ga furu mai ga iku. \"Whether it rains or not, I'll go.\""
+          },
+          {
+            "level": 3,
+            "heading": "〜たりとも - Even (not)",
+            "content": "一瞬たりとも油断できない。 Isshun tari tomo yudan dekinai. \"Cannot let guard down even for a moment.\""
+          },
+          {
+            "level": 3,
+            "heading": "〜たところで - Even if/No matter how",
+            "content": "今更謝ったところで遅い。 Imasara ayamatta tokoro de osoi. \"Even if you apologize now, it's too late.\""
+          },
+          {
+            "level": 3,
+            "heading": "〜とあって - Because of/Due to (special circumstance)",
+            "content": "休日とあって人が多い。 Kyuujitsu to atte hito ga ooi. \"Because it's a holiday, there are many people.\""
+          }
+        ]
+      },
+      {
+        "level": 2,
+        "heading": "Formal Written Language",
+        "content": "",
+        "children": [
+          {
+            "level": 3,
+            "heading": "〜をもって - With/By means of (formal)",
+            "content": "本日をもって閉店いたします。 Honjitsu wo motte heiten itashimasu. \"We will close as of today.\""
+          },
+          {
+            "level": 3,
+            "heading": "〜をおいて - Other than/Except",
+            "content": "彼をおいて適任者はいない。 Kare wo oite tekininsha wa inai. \"There's no one suitable other than him.\""
+          },
+          {
+            "level": 3,
+            "heading": "〜ならではの - Unique to/Characteristic of",
+            "content": "京都ならではの風景。 Kyouto naradewa no fuukei. \"Scenery unique to Kyoto.\""
+          },
+          {
+            "level": 3,
+            "heading": "〜たるもの - One who is/As someone who is",
+            "content": "学生たるもの勉強すべきだ。 Gakusei taru mono benkyou subeki da. \"As a student, one should study.\""
+          },
+          {
+            "level": 3,
+            "heading": "〜んばかりに - As if about to/Almost",
+            "content": "泣かんばかりの顔をしている。 Nakan bakari no kao wo shite iru. \"Has a face as if about to cry.\""
+          }
+        ]
+      },
+      {
+        "level": 2,
+        "heading": "Negative Emphasis",
+        "content": "",
+        "children": [
+          {
+            "level": 3,
+            "heading": "〜ないではすまない - Cannot get away with not",
+            "content": "謝罪しないでは済まない。 Shazai shinai dewa sumanai. \"Cannot get away without apologizing.\""
+          },
+          {
+            "level": 3,
+            "heading": "〜ないではおかない - Cannot leave/Will not fail to",
+            "content": "彼は約束を守らないではおかない。 Kare wa yakusoku wo mamoranai dewa okanai. \"He will not fail to keep his promise.\""
+          },
+          {
+            "level": 3,
+            "heading": "〜までだ - That's all/Simply",
+            "content": "やってみるまでだ。 Yatte miru made da. \"I'll simply try it.\""
+          },
+          {
+            "level": 3,
+            "heading": "〜たが最後 - Once... (then it's over)",
+            "content": "飲み始めたが最後、止まらない。 Nomihajimeta ga saigo, tomaranai. \"Once I start drinking, I can't stop.\""
+          }
+        ]
+      },
+      {
+        "level": 2,
+        "heading": "Degree and Extent Advanced",
+        "content": "",
+        "children": [
+          {
+            "level": 3,
+            "heading": "〜をよそに - In defiance of/Ignoring",
+            "content": "反対をよそに計画を進めた。 Hantai wo yoso ni keikaku wo susumeta. \"Proceeded with the plan ignoring opposition.\""
+          },
+          {
+            "level": 3,
+            "heading": "〜もさることながら - Not only... but also",
+            "content": "味もさることながら、見た目も美しい。 Aji mo saru koto nagara, mitame mo utsukushii. \"Not only the taste but also the appearance is beautiful.\""
+          },
+          {
+            "level": 3,
+            "heading": "〜ともなく/〜ともなしに - Without particularly/Casually",
+            "content": "何気なく見るともなく見ていた。 Nanigenaku miru tomo naku mite ita. \"Was watching casually without particularly watching.\""
+          },
+          {
+            "level": 3,
+            "heading": "〜をものともせずに - In spite of/Undaunted by",
+            "content": "困難をものともせずに挑戦した。 Konnan wo mono tomo sezu ni chousen shita. \"Challenged undaunted by difficulties.\""
+          }
+        ]
+      },
+      {
+        "level": 2,
+        "heading": "Causation and Result Advanced",
+        "content": "",
+        "children": [
+          {
+            "level": 3,
+            "heading": "〜てからというもの - Ever since",
+            "content": "結婚してからというもの、幸せだ。 Kekkon shite kara to iu mono, shiawase da. \"Ever since getting married, I've been happy.\""
+          },
+          {
+            "level": 3,
+            "heading": "〜が否や - As soon as/No sooner than",
+            "content": "聞くが否や駆けつけた。 Kiku ga ina ya kaketsuketa. \"Rushed over as soon as I heard.\""
+          },
+          {
+            "level": 3,
+            "heading": "〜ことゆえ - Because/Since (formal)",
+            "content": "初めてのことゆえ、失敗した。 Hajimete no koto yue, shippai shita. \"Because it was my first time, I failed.\""
+          },
+          {
+            "level": 3,
+            "heading": "〜手前 - For the sake of/Considering",
+            "content": "約束した手前、断れない。 Yakusoku shita temae, kotowarenai. \"Considering I promised, I can't refuse.\""
+          }
+        ]
+      },
+      {
+        "level": 2,
+        "heading": "Regardless and Indifference",
+        "content": "",
+        "children": [
+          {
+            "level": 3,
+            "heading": "〜いかんによらず - Regardless of",
+            "content": "理由のいかんによらず許されない。 Riyuu no ikan ni yorazu yurusarenai. \"Regardless of the reason, it's unforgivable.\""
+          },
+          {
+            "level": 3,
+            "heading": "〜いかんにかかわらず - Regardless of/Irrespective of",
+            "content": "結果のいかんにかかわらず最善を尽くす。 Kekka no ikan ni kakawarazu saizen wo tsukusu. \"Do one's best regardless of the result.\""
+          },
+          {
+            "level": 3,
+            "heading": "〜いかんによっては - Depending on",
+            "content": "状況いかんによっては中止する。 Joukyou ikan ni yotte wa chuushi suru. \"Depending on the situation, will cancel.\""
+          },
+          {
+            "level": 3,
+            "heading": "〜をものともせず - Despite/In spite of",
+            "content": "雨をものともせず進んだ。 Ame wo mono tomo sezu susunda. \"Proceeded despite the rain.\""
+          }
+        ]
+      },
+      {
+        "level": 2,
+        "heading": "Concession Advanced",
+        "content": "",
+        "children": [
+          {
+            "level": 3,
+            "heading": "〜とはいえ - Although/Though/Having said that",
+            "content": "便利とはいえ、高すぎる。 Benri to wa ie, takasugiru. \"Although convenient, it's too expensive.\""
+          },
+          {
+            "level": 3,
+            "heading": "〜とはいうものの - Although one says/Though",
+            "content": "合格したとはいうものの、点数は低かった。 Goukaku shita to wa iu mono no, tensuu wa hikakatta. \"Although I passed, my score was low.\""
+          },
+          {
+            "level": 3,
+            "heading": "〜ながらに/〜ながらの - While being/While remaining",
+            "content": "生まれながらの才能。 Umarenagara no sainou. \"Innate talent.\""
+          }
+        ]
+      },
+      {
+        "level": 2,
+        "heading": "Purpose and Intention Advanced",
+        "content": "",
+        "children": [
+          {
+            "level": 3,
+            "heading": "〜べく - In order to/For the purpose of",
+            "content": "成功すべく努力する。 Seikou subeku doryoku suru. \"Make efforts in order to succeed.\""
+          },
+          {
+            "level": 3,
+            "heading": "〜んがため - In order to/For the purpose of",
+            "content": "勝たんがために練習する。 Katan ga tame ni renshuu suru. \"Practice in order to win.\""
+          },
+          {
+            "level": 3,
+            "heading": "〜んとして - Trying to/Attempting to",
+            "content": "逃げんとして走った。 Nigen to shite hashitta. \"Ran trying to escape.\""
+          }
+        ]
+      },
+      {
+        "level": 2,
+        "heading": "Appearance and Seeming Advanced",
+        "content": "",
+        "children": [
+          {
+            "level": 3,
+            "heading": "〜めく - Have the appearance of/-ish",
+            "content": "春めいた天気。 Harumeita tenki. \"Spring-like weather.\""
+          },
+          {
+            "level": 3,
+            "heading": "〜気味 - Slightly/Somewhat",
+            "content": "See: 〜気味 (Slightly/Tending)\n\n疲れ気味だ。 Tsukare gimi da. \"Feeling somewhat tired.\""
+          },
+          {
+            "level": 3,
+            "heading": "〜じみた - -ish/Like",
+            "content": "子供じみた行動。 Kodomo jimita koudou. \"Childish behavior.\""
+          }
+        ]
+      },
+      {
+        "level": 2,
+        "heading": "Scope and Range",
+        "content": "",
+        "children": [
+          {
+            "level": 3,
+            "heading": "〜をはじめ/〜をはじめとして - Starting with/Including",
+            "content": "社長をはじめ全員が参加した。 Shachou wo hajime zen'in ga sanka shita. \"Everyone participated, starting with the president.\""
+          },
+          {
+            "level": 3,
+            "heading": "〜を問わず - Regardless of/Irrespective of",
+            "content": "年齢を問わず参加できる。 Nenrei wo towazu sanka dekiru. \"Can participate regardless of age.\""
+          },
+          {
+            "level": 3,
+            "heading": "〜ならず - Not only... but also",
+            "content": "国内ならず海外でも有名だ。 Kokunai narazu kaigai demo yuumei da. \"Famous not only domestically but also overseas.\""
+          }
+        ]
+      },
+      {
+        "level": 2,
+        "heading": "Conjecture and Inference",
+        "content": "",
+        "children": [
+          {
+            "level": 3,
+            "heading": "〜かたがた - While/On the occasion of",
+            "content": "お礼かたがた訪問した。 Orei katagata houmon shita. \"Visited while expressing thanks.\""
+          },
+          {
+            "level": 3,
+            "heading": "〜からある/〜からする - As much as/At least",
+            "content": "1メートルからある魚。 Ichi meetoru kara aru sakana. \"A fish at least one meter long.\""
+          }
+        ]
+      },
+      {
+        "level": 2,
+        "heading": "Study Tips for N1 Grammar",
+        "content": "Immerse in authentic materials - Read novels, newspapers, academic texts Learn classical patterns - Many N1 patterns have classical origins Master formal registers - Understand keigo and written language Study in context - These patterns are rarely used in isolation Practice extensively - Output is crucial at this level"
+      },
+      {
+        "level": 2,
+        "heading": "Preparation Resources",
+        "content": "Read literary works and essays Study formal business documents Practice academic writing Listen to formal speeches and lectures Engage with native materials extensively"
+      },
+      {
+        "level": 2,
+        "heading": "Beyond N1",
+        "content": "After mastering N1:\n\nContinue reading challenging materials Study classical Japanese if interested Master regional dialects Perfect business Japanese Engage in academic or professional writing\n\nNote: N1 represents near-native proficiency. Many patterns are literary or extremely formal. Focus on recognition and appropriate usage contexts.",
+        "children": [
+          {
+            "level": 3,
+            "heading": "Company",
+            "content": "About Pricing Blog Contact"
+          },
+          {
+            "level": 3,
+            "heading": "Legal",
+            "content": "Privacy Policy Terms of Service Cookie Policy"
+          }
+        ]
+      }
+    ]
+  },
+  "metadata": {
+    "extracted_at": "2026-01-01T22:19:30.338489900Z",
+    "duration_ms": 4,
+    "extractors_matched": [
+      "metadata",
+      "examples",
+      "sections"
+    ],
+    "extractors_failed": [
+      "vocab_tables",
+      "definitions",
+      "content_blocks"
+    ]
+  }
+}

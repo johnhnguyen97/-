@@ -1,0 +1,103 @@
+{
+  "config_name": "Language Learning Extractor",
+  "url": "https://practice-japanese.com/docs/particle-hodo/",
+  "data": {
+    "metadata": {
+      "title": "ほど (hodo) - Extent/Degree"
+    },
+    "examples": [
+      {
+        "sentence": "くらい (kurai)"
+      },
+      {
+        "sentence": "Comparisons"
+      },
+      {
+        "sentence": "About"
+      },
+      {
+        "sentence": "Pricing"
+      },
+      {
+        "sentence": "Blog"
+      },
+      {
+        "sentence": "Contact"
+      },
+      {
+        "sentence": "Privacy Policy"
+      },
+      {
+        "sentence": "Terms of Service"
+      },
+      {
+        "sentence": "Cookie Policy"
+      }
+    ],
+    "sections": [
+      {
+        "level": 2,
+        "heading": "Core Function",
+        "content": "ほど expresses extent or degree - \"as much as\" or \"to the extent of\"."
+      },
+      {
+        "level": 2,
+        "heading": "Main Uses",
+        "content": "",
+        "children": [
+          {
+            "level": 3,
+            "heading": "1. Comparison \"As... As\"",
+            "content": "With negative:\n\n彼ほど速くない \"not as fast as him\" これほど美味しいとは \"didn't know it's this delicious\""
+          },
+          {
+            "level": 3,
+            "heading": "2. Approximate Amount",
+            "content": "10個ほど - \"about 10\" 1時間ほど - \"about 1 hour\" 少しほど - \"a little bit\""
+          },
+          {
+            "level": 3,
+            "heading": "3. \"The More... The More\"",
+            "content": "Pattern: [Verb conditional]ば[Verb]ほど\n\n勉強すればするほど分かる \"the more you study, the more you understand\" 見れば見るほど好きになる \"the more I see it, the more I like it\""
+          }
+        ]
+      },
+      {
+        "level": 2,
+        "heading": "Common Patterns",
+        "content": "[Noun]ほど[Negative] 彼ほど速くない - \"not as fast as him\" [Number]ほど 10個ほど - \"about 10\" [Verb]ば[Verb]ほど やればやるほど - \"the more you do, the more...\""
+      },
+      {
+        "level": 2,
+        "heading": "Key Takeaways",
+        "content": "✓ Extent/degree comparison ✓ Approximation ✓ \"The more... the more\" pattern ✓ Often with negative for comparison\n\nRelated:\n\nくらい (kurai) Comparisons",
+        "children": [
+          {
+            "level": 3,
+            "heading": "Company",
+            "content": "About Pricing Blog Contact"
+          },
+          {
+            "level": 3,
+            "heading": "Legal",
+            "content": "Privacy Policy Terms of Service Cookie Policy"
+          }
+        ]
+      }
+    ]
+  },
+  "metadata": {
+    "extracted_at": "2026-01-01T22:19:32.790364900Z",
+    "duration_ms": 2,
+    "extractors_matched": [
+      "metadata",
+      "examples",
+      "sections"
+    ],
+    "extractors_failed": [
+      "vocab_tables",
+      "definitions",
+      "content_blocks"
+    ]
+  }
+}

@@ -1,0 +1,133 @@
+{
+  "config_name": "Language Learning Extractor",
+  "url": "https://practice-japanese.com/docs/bakari-detail/",
+  "data": {
+    "metadata": {
+      "title": "ばかり (Only/Just)"
+    },
+    "sections": [
+      {
+        "level": 2,
+        "heading": "What is ばかり?",
+        "content": "ばかり (bakari) is a versatile particle with several related meanings, all centered around limitation or focus. Its primary meanings are \"only,\" \"nothing but,\" \"just,\" \"about,\" or \"just finished.\"\n\nMain uses:\n\nLimitation - \"only,\" \"nothing but\" (similar to だけ) Approximation - \"about,\" \"approximately\" Repetition - \"always,\" \"keeps doing\" Recent completion - \"just finished\"\n\nCasual form: っぱり (ppari) or ばっか (bakka)\n\n遊んでばかりいる。 Asonde bakari iru. \"All I do is play.\" / \"I do nothing but play.\" 買ったばかりだ。 Katta bakari da. \"I just bought it.\""
+      },
+      {
+        "level": 2,
+        "heading": "Usage 1: Limitation (Only/Nothing but)",
+        "content": "",
+        "children": [
+          {
+            "level": 3,
+            "heading": "Basic limitation pattern",
+            "content": "Similar to だけ but with stronger nuance of excess or criticism:\n\nStructure: [Noun/Verb-て form] + ばかり\n\nWith nouns:\n\n肉ばかり食べる。 Niku bakari taberu. \"I eat only meat.\" / \"I eat nothing but meat.\" 文句ばかり言う。 Monku bakari iu. \"He does nothing but complain.\" お金のことばかり考える。 Okane no koto bakari kangaeru. \"All I think about is money.\"\n\nWith verbs (て-form):\n\n寝てばかりいる。 Nete bakari iru. \"All you do is sleep.\" 遊んでばかりいる。 Asonde bakari iru. \"You do nothing but play.\" 食べてばかりいる。 Tabete bakari iru. \"All I do is eat.\""
+          },
+          {
+            "level": 3,
+            "heading": "Emphasizing repetition or excess",
+            "content": "同じことばかり言う。 Onaji koto bakari iu. \"You keep saying the same thing.\" 失敗ばかりする。 Shippai bakari suru. \"I keep making mistakes.\" / \"I do nothing but fail.\" 文句ばかり言っている。 Monku bakari itte iru. \"All you do is complain.\""
+          }
+        ]
+      },
+      {
+        "level": 2,
+        "heading": "Usage 2: Approximation (About/Around)",
+        "content": "",
+        "children": [
+          {
+            "level": 3,
+            "heading": "Indicating approximate amounts",
+            "content": "Structure: [Number/Quantity] + ばかり\n\n10個ばかり買った。 Jukko bakari katta. \"I bought about 10.\" 一時間ばかり待った。 Ichi-jikan bakari matta. \"I waited about an hour.\" 100人ばかり集まった。 Hyaku-nin bakari atsumatta. \"About 100 people gathered.\" 50万円ばかりかかった。 Gojuu man-en bakari kakatta. \"It cost about 500,000 yen.\"\n\nNote: This usage is somewhat formal/literary."
+          }
+        ]
+      },
+      {
+        "level": 2,
+        "heading": "Usage 3: Just Finished (Recently Completed)",
+        "content": "",
+        "children": [
+          {
+            "level": 3,
+            "heading": "たばかり (ta-bakari) - Just did",
+            "content": "Structure: [Past tense verb] + ばかり\n\n食べたばかりだ。 Tabeta bakari da. \"I just ate.\" 来たばかりです。 Kita bakari desu. \"I just came.\" / \"I just arrived.\" 買ったばかりなのに壊れた。 Katta bakari na noni kowareta. \"Even though I just bought it, it broke.\" 始めたばかりです。 Hajimeta bakari desu. \"I just started.\" 会ったばかりの人。 Atta bakari no hito. \"A person I just met.\""
+          },
+          {
+            "level": 3,
+            "heading": "Emphasizing recency",
+            "content": "昨日買ったばかりだ。 Kinou katta bakari da. \"I just bought it yesterday.\" 今起きたばかり。 Ima okita bakari. \"I just woke up now.\" 引っ越したばかりです。 Hikkoshita bakari desu. \"I just moved.\""
+          }
+        ]
+      },
+      {
+        "level": 2,
+        "heading": "Usage 4: About to (Formal/Literary)",
+        "content": "",
+        "children": [
+          {
+            "level": 3,
+            "heading": "ばかりだ - On the verge of",
+            "content": "Structure: [Verb dictionary form] + ばかりだ\n\n泣かんばかりの顔。 Nakan bak"
+          },
+          {
+            "level": 3,
+            "heading": "Company",
+            "content": "About Pricing Blog Contact"
+          },
+          {
+            "level": 3,
+            "heading": "Legal",
+            "content": "Privacy Policy Terms of Service Cookie Policy"
+          }
+        ]
+      }
+    ],
+    "examples": [
+      {
+        "sentence": "Limitation - \"only,\" \"nothing but\" (similar to だけ)"
+      },
+      {
+        "sentence": "Approximation - \"about,\" \"approximately\""
+      },
+      {
+        "sentence": "Repetition - \"always,\" \"keeps doing\""
+      },
+      {
+        "sentence": "Recent completion - \"just finished\""
+      },
+      {
+        "sentence": "About"
+      },
+      {
+        "sentence": "Pricing"
+      },
+      {
+        "sentence": "Blog"
+      },
+      {
+        "sentence": "Contact"
+      },
+      {
+        "sentence": "Privacy Policy"
+      },
+      {
+        "sentence": "Terms of Service"
+      },
+      {
+        "sentence": "Cookie Policy"
+      }
+    ]
+  },
+  "metadata": {
+    "extracted_at": "2026-01-01T22:19:27.681466300Z",
+    "duration_ms": 2,
+    "extractors_matched": [
+      "metadata",
+      "examples",
+      "sections"
+    ],
+    "extractors_failed": [
+      "vocab_tables",
+      "definitions",
+      "content_blocks"
+    ]
+  }
+}

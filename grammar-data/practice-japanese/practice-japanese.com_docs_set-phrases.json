@@ -1,0 +1,295 @@
+{
+  "config_name": "Language Learning Extractor",
+  "url": "https://practice-japanese.com/docs/set-phrases/",
+  "data": {
+    "examples": [
+      {
+        "sentence": "About"
+      },
+      {
+        "sentence": "Pricing"
+      },
+      {
+        "sentence": "Blog"
+      },
+      {
+        "sentence": "Contact"
+      },
+      {
+        "sentence": "Privacy Policy"
+      },
+      {
+        "sentence": "Terms of Service"
+      },
+      {
+        "sentence": "Cookie Policy"
+      }
+    ],
+    "metadata": {
+      "title": "Set Phrases (決まり文句)"
+    },
+    "sections": [
+      {
+        "level": 2,
+        "heading": "Set Phrases (決まり文句)",
+        "content": "Set phrases (決まり文句 - kimari monku) are fixed expressions used in specific situations. These formulaic phrases are deeply ingrained in Japanese culture and using them correctly shows cultural awareness and social competence.\n\n決まり文句 = Set phrase Expected in specific situations Not using them = unnatural Cultural markers Learn these as complete units"
+      },
+      {
+        "level": 2,
+        "heading": "Daily Ritual Phrases",
+        "content": "",
+        "children": [
+          {
+            "level": 3,
+            "heading": "Eating",
+            "content": "Before eating: いただきます \"I humbly receive\" (this food) After eating: ごちそうさまでした \"Thank you for the meal\" Always say both Cultural ritual Shows appreciation Even when eating alone"
+          },
+          {
+            "level": 3,
+            "heading": "Leaving/Returning home",
+            "content": "Leaving: 行ってきます \"I'm going (and will return)\" Response: 行ってらっしゃい \"Go and come back safely\" Returning: ただいま \"I'm home\" Response: おかえり(なさい) \"Welcome back\" Daily family ritual Expected exchanges Shows connection"
+          }
+        ]
+      },
+      {
+        "level": 2,
+        "heading": "Business Set Phrases",
+        "content": "",
+        "children": [
+          {
+            "level": 3,
+            "heading": "Beginning interaction",
+            "content": "よろしくお願いします \"Please treat me favorably\" Used for: - First meetings - Asking favors - Starting work - General cooperation No direct English equivalent Extremely common Learn this first"
+          },
+          {
+            "level": 3,
+            "heading": "Email openings",
+            "content": "お世話になっております \"Thank you for your continued support\" Standard business email opening Even first email Shows relationship Not literal translation Professional norm"
+          },
+          {
+            "level": 3,
+            "heading": "Phone",
+            "content": "Answering: もしもし \"Hello\" (phone only) Business: お電話ありがとうございます \"Thank you for calling\" いつもお世話になっております \"Thank you for your continued patronage\" Phone-specific Never say もしもし in person"
+          }
+        ]
+      },
+      {
+        "level": 2,
+        "heading": "Workplace Phrases",
+        "content": "",
+        "children": [
+          {
+            "level": 3,
+            "heading": "During work",
+            "content": "お疲れ様です \"Thank you for your work\" Use: - Passing colleagues - Throughout the day - Acknowledging effort Multipurpose Workplace standard Not used outside work"
+          },
+          {
+            "level": 3,
+            "heading": "Leaving work",
+            "content": "お先に失礼します \"Excuse me for leaving first\" Response: お疲れ様でした \"Good work today\" Daily routine Respectful departure Shows consideration"
+          }
+        ]
+      },
+      {
+        "level": 2,
+        "heading": "Visiting Someone",
+        "content": "",
+        "children": [
+          {
+            "level": 3,
+            "heading": "Entering home",
+            "content": "お邪魔します \"Excuse my intrusion\" Literally: \"I will be a bother\" Always say this Shows humility Cultural expectation"
+          },
+          {
+            "level": 3,
+            "heading": "Leaving home",
+            "content": "お邪魔しました \"Thank you for having me\" Past tense of entering phrase Shows gratitude Polite closure"
+          }
+        ]
+      },
+      {
+        "level": 2,
+        "heading": "Asking Favors",
+        "content": "",
+        "children": [
+          {
+            "level": 3,
+            "heading": "Making requests",
+            "content": "すみませんが \"Excuse me, but...\" 恐れ入りますが \"I'm sorry to trouble you, but...\" お手数ですが \"I know it's trouble, but...\" Softening requests Showing consideration Cultural politeness"
+          }
+        ]
+      },
+      {
+        "level": 2,
+        "heading": "Shopping and Service",
+        "content": "",
+        "children": [
+          {
+            "level": 3,
+            "heading": "Store greetings",
+            "content": "Staff: いらっしゃいませ \"Welcome\" Customer: (no response needed) Staff when giving change: ありがとうございました \"Thank you very much\" Standard phrases Automatic Service industry ritual"
+          }
+        ]
+      },
+      {
+        "level": 2,
+        "heading": "Social Situations",
+        "content": "",
+        "children": [
+          {
+            "level": 3,
+            "heading": "First meeting",
+            "content": "初めまして \"Nice to meet you (first time)\" [name]です \"I'm [name]\" よろしくお願いします \"Please treat me well\" Standard introduction sequence Always in this order Shows respect"
+          },
+          {
+            "level": 3,
+            "heading": "Long time no see",
+            "content": "お久しぶりです \"Long time no see\" (polite) 久しぶり \"Long time\" (casual) ご無沙汰しております \"I've been out of touch\" (very formal) Acknowledging gap Reconnecting"
+          }
+        ]
+      },
+      {
+        "level": 2,
+        "heading": "Seasonal Phrases",
+        "content": "",
+        "children": [
+          {
+            "level": 3,
+            "heading": "New Year",
+            "content": "あけましておめでとうございます \"Happy New Year\" 今年もよろしくお願いします \"Please treat me well this year too\" Most important greeting First days of January Always say together"
+          },
+          {
+            "level": 3,
+            "heading": "Year end",
+            "content": "良いお年を \"Have a good year\" 今年もお世話になりました \"Thank you for this year\" December only Looking ahead Gratitude for year"
+          }
+        ]
+      },
+      {
+        "level": 2,
+        "heading": "Weather Small Talk",
+        "content": "",
+        "children": [
+          {
+            "level": 3,
+            "heading": "Standard openers",
+            "content": "いい天気ですね \"Nice weather, isn't it\" 暑いですね / 寒いですね \"It's hot/cold, isn't it\" Weather = safe topic Social lubrication Expected small talk"
+          }
+        ]
+      },
+      {
+        "level": 2,
+        "heading": "Response Set Phrases",
+        "content": "",
+        "children": [
+          {
+            "level": 3,
+            "heading": "Acknowledgment",
+            "content": "なるほど \"I see / That makes sense\" そうですね \"That's right / I agree\" 確かに \"Certainly / Indeed\" Showing you're listening Conversation lubricant"
+          },
+          {
+            "level": 3,
+            "heading": "Receiving compliments",
+            "content": "いえいえ \"No, no\" (humble) そんなことないです \"That's not true\" まだまだです \"I still have a long way to go\" Cultural humility Deflecting praise Expected modesty"
+          }
+        ]
+      },
+      {
+        "level": 2,
+        "heading": "Apologetic Set Phrases",
+        "content": "",
+        "children": [
+          {
+            "level": 3,
+            "heading": "Before asking",
+            "content": "ちょっといいですか \"Do you have a moment?\" ちょっとお聞きしたいんですが \"I'd like to ask something...\" Softening approach Getting attention Polite introduction"
+          }
+        ]
+      },
+      {
+        "level": 2,
+        "heading": "Encouragement Phrases",
+        "content": "",
+        "children": [
+          {
+            "level": 3,
+            "heading": "Supporting someone",
+            "content": "頑張って \"Do your best / Good luck\" ファイト \"Fight!\" (borrowed, encouragement) 応援してるよ \"I'm cheering for you\" Common encouragement Shows support"
+          }
+        ]
+      },
+      {
+        "level": 2,
+        "heading": "Common Responses",
+        "content": "",
+        "children": [
+          {
+            "level": 3,
+            "heading": "To compliments",
+            "content": "ありがとうございます \"Thank you\" But often followed by: でも... \"But...\" まだまだです \"Not yet...\" Accept but deflect Cultural norm Shows humility"
+          },
+          {
+            "level": 3,
+            "heading": "To offers",
+            "content": "Accepting: お願いします \"Please (I accept)\" Declining: 大丈夫です \"I'm okay (no thanks)\" 結構です \"I'm fine\" (formal decline) Clear but polite"
+          }
+        ]
+      },
+      {
+        "level": 2,
+        "heading": "Meeting Endings",
+        "content": "",
+        "children": [
+          {
+            "level": 3,
+            "heading": "Wrapping up",
+            "content": "そろそろ \"It's about time (to go)\" そろそろ失礼します \"I should be going now\" またにしましょう \"Let's do this again\" Polite exit Not abrupt Social grace"
+          }
+        ]
+      },
+      {
+        "level": 2,
+        "heading": "Cultural Importance",
+        "content": "",
+        "children": [
+          {
+            "level": 3,
+            "heading": "Why set phrases matter",
+            "content": "Shows cultural competence Demonstrates respect Maintains social harmony Expected behavior Not using them: - Sounds unnatural - Seems rude - Shows ignorance Learn as complete units Don't translate literally Use in proper context"
+          }
+        ]
+      },
+      {
+        "level": 2,
+        "heading": "Common Mistakes",
+        "content": "❌ Translating literally ✓ Learn as fixed expressions ❌ Skipping ritual phrases ✓ Always use them ❌ Using もしもし in person ✓ Phone only ❌ Not saying いただきます ✓ Before every meal These aren't optional Cultural expectations Master these first",
+        "children": [
+          {
+            "level": 3,
+            "heading": "Company",
+            "content": "About Pricing Blog Contact"
+          },
+          {
+            "level": 3,
+            "heading": "Legal",
+            "content": "Privacy Policy Terms of Service Cookie Policy"
+          }
+        ]
+      }
+    ]
+  },
+  "metadata": {
+    "extracted_at": "2026-01-01T22:19:34.453367200Z",
+    "duration_ms": 4,
+    "extractors_matched": [
+      "metadata",
+      "examples",
+      "sections"
+    ],
+    "extractors_failed": [
+      "vocab_tables",
+      "definitions",
+      "content_blocks"
+    ]
+  }
+}

@@ -1,0 +1,333 @@
+{
+  "config_name": "Language Learning Extractor",
+  "url": "https://practice-japanese.com/docs/first-person/",
+  "data": {
+    "examples": [
+      {
+        "sentence": "About"
+      },
+      {
+        "sentence": "Pricing"
+      },
+      {
+        "sentence": "Blog"
+      },
+      {
+        "sentence": "Contact"
+      },
+      {
+        "sentence": "Privacy Policy"
+      },
+      {
+        "sentence": "Terms of Service"
+      },
+      {
+        "sentence": "Cookie Policy"
+      }
+    ],
+    "sections": [
+      {
+        "level": 2,
+        "heading": "First Person Pronouns",
+        "content": "First person pronouns in Japanese vary by formality, gender, and context. Unlike English's single \"I,\" Japanese has multiple options including 私 (watashi), 僕 (boku), 俺 (ore), and others. Choice depends on the speaker's gender, relationship with listener, and situation.\n\n私は学生です (formal/neutral) \"I am a student\" 僕は学生だ (casual male) \"I am a student\" 俺は学生だ (very casual male) \"I am a student\""
+      },
+      {
+        "level": 2,
+        "heading": "私 (watashi) - Standard Neutral",
+        "content": "",
+        "children": [
+          {
+            "level": 3,
+            "heading": "Most common and safe",
+            "content": "私は田中です \"I am Tanaka\" 私は日本人です \"I am Japanese\" Used by: Everyone Formality: Formal to neutral Gender: Neutral Situation: Any formal context"
+          },
+          {
+            "level": 3,
+            "heading": "Characteristics",
+            "content": "Most formal \"I\" Safe in any situation Used in business Standard in writing Both men and women No negative connotations Default choice"
+          },
+          {
+            "level": 3,
+            "heading": "When to use",
+            "content": "✓ Business situations ✓ Formal occasions ✓ Meeting strangers ✓ Academic settings ✓ Official documents ✓ Public speaking Always appropriate"
+          }
+        ]
+      },
+      {
+        "level": 2,
+        "heading": "僕 (boku) - Casual Male",
+        "content": "",
+        "children": [
+          {
+            "level": 3,
+            "heading": "Casual to polite male pronoun",
+            "content": "僕は学生です \"I am a student\" 僕の名前は太郎です \"My name is Taro\" Used by: Males (mainly) Formality: Casual to polite Gender: Male-associated Situation: Casual-friendly"
+          },
+          {
+            "level": 3,
+            "heading": "Characteristics",
+            "content": "Casual but polite Young to middle-aged men Friendly atmosphere Not too rough Can use with です/ます Modest, softer than 俺 Common male choice"
+          },
+          {
+            "level": 3,
+            "heading": "When to use",
+            "content": "✓ Among friends ✓ With colleagues (casual) ✓ Daily conversation ✓ School/university ✓ Casual business Not appropriate: ✗ Very formal occasions ✗ Job interviews (usually) ✗ Official documents"
+          }
+        ]
+      },
+      {
+        "level": 2,
+        "heading": "俺 (ore) - Very Casual Male",
+        "content": "",
+        "children": [
+          {
+            "level": 3,
+            "heading": "Rough, masculine \"I\"",
+            "content": "俺は行く \"I'm going\" 俺の車 \"My car\" Used by: Males only Formality: Very casual Gender: Masculine Situation: Informal only"
+          },
+          {
+            "level": 3,
+            "heading": "Characteristics",
+            "content": "Very casual/rough Strong, masculine Close friends Family members Never in formal settings Can sound aggressive Most casual male form"
+          },
+          {
+            "level": 3,
+            "heading": "When to use",
+            "content": "✓ Close male friends ✓ Family (informal) ✓ Very casual settings ✓ Among peers Never use: ✗ Work settings ✗ With superiors ✗ Strangers ✗ Formal occasions ✗ With women (usually)"
+          }
+        ]
+      },
+      {
+        "level": 2,
+        "heading": "あたし (atashi) - Feminine Casual",
+        "content": "",
+        "children": [
+          {
+            "level": 3,
+            "heading": "Casual feminine pronoun",
+            "content": "あたし、嬉しい \"I'm happy\" あたしの友達 \"My friend\" Used by: Females (young) Formality: Casual Gender: Feminine Situation: Informal"
+          },
+          {
+            "level": 3,
+            "heading": "Characteristics",
+            "content": "Young women Cute, feminine speech Casual conversation Not in formal settings More casual than 私 Feminine identifier"
+          },
+          {
+            "level": 3,
+            "heading": "When to use",
+            "content": "✓ Among female friends ✓ Casual conversation ✓ Informal settings Avoid: ✗ Professional settings ✗ Formal occasions ✗ Business contexts"
+          }
+        ]
+      },
+      {
+        "level": 2,
+        "heading": "私 (わたくし - watakushi) - Very Formal",
+        "content": "",
+        "children": [
+          {
+            "level": 3,
+            "heading": "Ultra-formal first person",
+            "content": "わたくしは田中と申します \"I am called Tanaka\" Used by: Anyone Formality: Very formal Gender: Neutral Situation: Official/ceremonial"
+          },
+          {
+            "level": 3,
+            "heading": "When to use",
+            "content": "✓ Formal speeches ✓ Official ceremonies ✓ Very polite situations ✓ Service industry (sometimes) Extremely polite Rarely used in daily life"
+          }
+        ]
+      },
+      {
+        "level": 2,
+        "heading": "僕ら/俺ら (bokura/orera) - We (Casual)",
+        "content": "",
+        "children": [
+          {
+            "level": 3,
+            "heading": "Casual masculine \"we\"",
+            "content": "僕らは学生だ \"We are students\" 俺らは行く \"We're going\" Plural casual forms Male-oriented Informal situations"
+          }
+        ]
+      },
+      {
+        "level": 2,
+        "heading": "私たち (watashitachi) - We (Standard)",
+        "content": "",
+        "children": [
+          {
+            "level": 3,
+            "heading": "Standard \"we\"",
+            "content": "私たちは学生です \"We are students\" 私たちの学校 \"Our school\" Used by: Everyone Formality: Neutral to formal Gender: Neutral Situation: Standard Most common \"we\""
+          }
+        ]
+      },
+      {
+        "level": 2,
+        "heading": "我々 (wareware) - We (Formal)",
+        "content": "",
+        "children": [
+          {
+            "level": 3,
+            "heading": "Formal/official \"we\"",
+            "content": "我々は努力する \"We will make efforts\" Used by: Organizations, officials Formality: Very formal Gender: Neutral Situation: Official statements Formal speeches Written documents Organizational"
+          }
+        ]
+      },
+      {
+        "level": 2,
+        "heading": "Specialized First Person",
+        "content": "",
+        "children": [
+          {
+            "level": 3,
+            "heading": "うち (uchi) - Kansai dialect",
+            "content": "うち、知らんで \"I don't know\" (Kansai) Kansai region Casual, cute Female speakers mainly"
+          },
+          {
+            "level": 3,
+            "heading": "わし (washi) - Older men/dialect",
+            "content": "わしは昔から \"I, from the old days...\" Older men Dialectal Traditional speech"
+          },
+          {
+            "level": 3,
+            "heading": "自分 (jibun) - Various uses",
+            "content": "自分でやる \"Do it myself\" Reflexive \"oneself\" Regional \"I\" (Kansai) Military/sports"
+          }
+        ]
+      },
+      {
+        "level": 2,
+        "heading": "Omitting First Person",
+        "content": "",
+        "children": [
+          {
+            "level": 3,
+            "heading": "Often unnecessary",
+            "content": "With context: 学生です \"(I) am a student\" Full: 私は学生です \"I am a student\" Omission preferred When topic is clear Natural Japanese"
+          }
+        ]
+      },
+      {
+        "level": 2,
+        "heading": "Plural Formation",
+        "content": "",
+        "children": [
+          {
+            "level": 3,
+            "heading": "Adding たち",
+            "content": "私 → 私たち \"we\" 僕 → 僕たち \"we\" たち makes plural Standard method"
+          },
+          {
+            "level": 3,
+            "heading": "Adding ら",
+            "content": "僕 → 僕ら \"we\" 俺 → 俺ら \"we\" ら more casual Male-associated"
+          }
+        ]
+      },
+      {
+        "level": 2,
+        "heading": "Gender Associations",
+        "content": "",
+        "children": [
+          {
+            "level": 3,
+            "heading": "Male pronouns",
+            "content": "僕 (casual-polite) 俺 (very casual) わし (old men) Primarily male speakers Strong associations"
+          },
+          {
+            "level": 3,
+            "heading": "Female pronouns",
+            "content": "あたし (casual-feminine) 私 (neutral, used by all) Women mainly use 私 あたし for casual/cute"
+          },
+          {
+            "level": 3,
+            "heading": "Neutral",
+            "content": "私 (watashi) Anyone can use No gender restriction Safest choice"
+          }
+        ]
+      },
+      {
+        "level": 2,
+        "heading": "Choosing the Right Pronoun",
+        "content": "",
+        "children": [
+          {
+            "level": 3,
+            "heading": "Decision factors",
+            "content": "1. Formality of situation 2. Your relationship with listener 3. Your gender 4. Context and setting 5. Age and social status Consider all factors"
+          },
+          {
+            "level": 3,
+            "heading": "Safe default",
+            "content": "私 (watashi) Always appropriate No risk of being rude Formal enough Neutral enough When in doubt, use 私"
+          }
+        ]
+      },
+      {
+        "level": 2,
+        "heading": "Common Mistakes",
+        "content": "",
+        "children": [
+          {
+            "level": 3,
+            "heading": "Using 俺 in formal settings",
+            "content": "Wrong: 俺は田中です (job interview) ⚠️ Correct: 私は田中です ✓ 俺 is too casual Use 私 for formal"
+          },
+          {
+            "level": 3,
+            "heading": "Overusing pronouns",
+            "content": "Unnatural: 私は行く。私は食べる。⚠️ Natural: 行く。食べる。✓ Omit when clear More natural"
+          },
+          {
+            "level": 3,
+            "heading": "Women using 僕/俺",
+            "content": "Generally avoid: 俺は... (female speaker) ⚠️ Standard: 私は... ✓ Gender associations matter Exceptions exist (tomboys, etc.)"
+          }
+        ]
+      },
+      {
+        "level": 2,
+        "heading": "Practice Sentences",
+        "content": "",
+        "children": [
+          {
+            "level": 3,
+            "heading": "Basic",
+            "content": "私は学生です \"I am a student\" (neutral) 僕は田中だ \"I'm Tanaka\" (casual male) 俺は行く \"I'm going\" (very casual male) 私たちは日本人です \"We are Japanese\" (standard)"
+          },
+          {
+            "level": 3,
+            "heading": "Intermediate",
+            "content": "私は毎日日本語を勉強しています。 難しいですが、とても面白いです。 いつか日本に行きたいです。 \"I study Japanese every day. It's difficult, but very interesting. I want to go to Japan someday.\" 僕は大学生だ。専攻は経済学。 将来は会社で働きたいと思っている。 今は一生懸命勉強している。 \"I'm a university student. My major is economics. I'm thinking I want to work at a company in the future. Now I'm studying hard.\" 俺、昨日映画見たんだけど、 すごく面白かった。お前も 見に行けよ。 \"I watched a movie yesterday, and it was really interesting. You should go see it too.\" (very casual male)"
+          },
+          {
+            "level": 3,
+            "heading": "Company",
+            "content": "About Pricing Blog Contact"
+          },
+          {
+            "level": 3,
+            "heading": "Legal",
+            "content": "Privacy Policy Terms of Service Cookie Policy"
+          }
+        ]
+      }
+    ],
+    "metadata": {
+      "title": "First Person (私、僕、俺)"
+    }
+  },
+  "metadata": {
+    "extracted_at": "2026-01-01T22:19:29.395324100Z",
+    "duration_ms": 3,
+    "extractors_matched": [
+      "metadata",
+      "examples",
+      "sections"
+    ],
+    "extractors_failed": [
+      "vocab_tables",
+      "definitions",
+      "content_blocks"
+    ]
+  }
+}

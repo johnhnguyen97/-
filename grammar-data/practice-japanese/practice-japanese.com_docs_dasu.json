@@ -1,0 +1,261 @@
+{
+  "config_name": "Language Learning Extractor",
+  "url": "https://practice-japanese.com/docs/dasu/",
+  "data": {
+    "metadata": {
+      "title": "〜出す (dasu) - Start doing"
+    },
+    "examples": [
+      {
+        "sentence": "About"
+      },
+      {
+        "sentence": "Pricing"
+      },
+      {
+        "sentence": "Blog"
+      },
+      {
+        "sentence": "Contact"
+      },
+      {
+        "sentence": "Privacy Policy"
+      },
+      {
+        "sentence": "Terms of Service"
+      },
+      {
+        "sentence": "Cookie Policy"
+      }
+    ],
+    "sections": [
+      {
+        "level": 2,
+        "heading": "〜出す (dasu) - Start Doing",
+        "content": "〜出す attaches to verb stems to indicate the sudden or spontaneous beginning of an action. Unlike 始める which is neutral, 出す emphasizes that something starts abruptly or unexpectedly.\n\nVerb stem + 出す 走り出す - start running (suddenly) 泣き出す - start crying (suddenly) 降り出す - start falling (rain/snow) Emphasis: Sudden start Unexpected beginning"
+      },
+      {
+        "level": 2,
+        "heading": "Formation",
+        "content": "",
+        "children": [
+          {
+            "level": 3,
+            "heading": "Basic pattern",
+            "content": "る-verbs: 食べる → 食べ出す \"start eating suddenly\" 見る → 見出す \"start watching suddenly\" う-verbs: 走る → 走り出す \"start running suddenly\" 泣く → 泣き出す \"start crying suddenly\" 降る → 降り出す \"start falling suddenly\" Irregular: する → し出す \"start doing suddenly\" 来る → 来出す (rare)"
+          }
+        ]
+      },
+      {
+        "level": 2,
+        "heading": "Core Meaning",
+        "content": "",
+        "children": [
+          {
+            "level": 3,
+            "heading": "Sudden beginning",
+            "content": "雨が降り出した \"It started raining (suddenly)\" Implies: Wasn't raining, then suddenly was Not gradual, but abrupt start 子供が泣き出した \"The child started crying\" Implies: Sudden onset of crying Unexpected or quick start"
+          }
+        ]
+      },
+      {
+        "level": 2,
+        "heading": "Common Uses",
+        "content": "",
+        "children": [
+          {
+            "level": 3,
+            "heading": "Weather",
+            "content": "雨が降り出す \"rain starts falling\" 雪が降り出す \"snow starts falling\" 風が吹き出す \"wind starts blowing\" Natural phenomena Sudden weather changes Very common usage"
+          },
+          {
+            "level": 3,
+            "heading": "Emotions",
+            "content": "泣き出す \"start crying\" 笑い出す \"start laughing\" 怒り出す \"start getting angry\" Emotional outbursts Sudden reactions"
+          },
+          {
+            "level": 3,
+            "heading": "Physical actions",
+            "content": "走り出す \"start running\" 歩き出す \"start walking\" 動き出す \"start moving\" Sudden movement Beginning motion"
+          },
+          {
+            "level": 3,
+            "heading": "Speech",
+            "content": "話し出す \"start talking\" 歌い出す \"start singing\" 叫び出す \"start shouting\" Beginning to speak/sing Often suddenly"
+          }
+        ]
+      },
+      {
+        "level": 2,
+        "heading": "Nuance: Sudden vs Gradual",
+        "content": "",
+        "children": [
+          {
+            "level": 3,
+            "heading": "Compare with 始める",
+            "content": "話し始める \"begin talking\" Neutral, planned 話し出す \"start talking (suddenly)\" Abrupt, unplanned 食べ始める \"begin eating\" Normal start 食べ出す \"start eating (suddenly)\" Unexpected start, perhaps rudely"
+          }
+        ]
+      },
+      {
+        "level": 2,
+        "heading": "Transitivity",
+        "content": "",
+        "children": [
+          {
+            "level": 3,
+            "heading": "Usually becomes intransitive",
+            "content": "Even if base verb is transitive: 読む (transitive) → 読み出す Often used intransitively: 本を読み出す (less common) 急に読み出した \"suddenly started reading\" The 出す compound emphasizes the action itself Object often omitted"
+          }
+        ]
+      },
+      {
+        "level": 2,
+        "heading": "Context Examples",
+        "content": "",
+        "children": [
+          {
+            "level": 3,
+            "heading": "Natural contexts",
+            "content": "会議中に笑い出した \"Started laughing during the meeting\" Implies: Inappropriate timing いきなり走り出した \"Suddenly started running\" Implies: Without warning 雨が降り出したから帰ろう \"It started raining so let's go home\" Implies: Sudden weather change"
+          }
+        ]
+      },
+      {
+        "level": 2,
+        "heading": "With Different Verbs",
+        "content": "",
+        "children": [
+          {
+            "level": 3,
+            "heading": "Movement verbs",
+            "content": "飛び出す \"jump out, dash out\" 飛び込む (base) → 飛び出す Burst out suddenly 転がり出す \"start rolling\" Roll and exit/emerge"
+          },
+          {
+            "level": 3,
+            "heading": "Discovery/realization",
+            "content": "見出す \"discover, find out\" Special meaning here Not just \"start seeing\" But \"discover\" or \"recognize value\" 才能を見出す \"discover talent\""
+          },
+          {
+            "level": 3,
+            "heading": "Beginning processes",
+            "content": "動き出す \"start moving\" (machines, vehicles) 車が動き出した \"The car started moving\" 機械が動き出す \"The machine starts operating\" Mechanical or large-scale movement"
+          }
+        ]
+      },
+      {
+        "level": 2,
+        "heading": "Spontaneity Element",
+        "content": "",
+        "children": [
+          {
+            "level": 3,
+            "heading": "Uncontrolled or natural",
+            "content": "笑い出す Often can't help it Spontaneous laughter 泣き出す Bursting into tears Not planned crying Implies lack of full control Natural, spontaneous reaction"
+          }
+        ]
+      },
+      {
+        "level": 2,
+        "heading": "Time Frame",
+        "content": "",
+        "children": [
+          {
+            "level": 3,
+            "heading": "Immediate beginning",
+            "content": "Focus on the moment action starts: 急に降り出した \"Suddenly started falling\" The moment it began Not the continuation Emphasizes start point"
+          }
+        ]
+      },
+      {
+        "level": 2,
+        "heading": "Common Collocations",
+        "content": "",
+        "children": [
+          {
+            "level": 3,
+            "heading": "Frequent combinations",
+            "content": "降り出す (rain/snow) Most common with weather 泣き出す (crying) Very common emotional 走り出す (running) Common physical action 笑い出す (laughing) Common reaction These are natural, established Learn as set phrases"
+          }
+        ]
+      },
+      {
+        "level": 2,
+        "heading": "Conjugation",
+        "content": "",
+        "children": [
+          {
+            "level": 3,
+            "heading": "Regular る-verb conjugation",
+            "content": "降り出す: Present: 降り出す Past: 降り出した Negative: 降り出さない Te-form: 降り出して Potential: 降り出せる Conjugates like any る-verb Second verb determines conjugation"
+          }
+        ]
+      },
+      {
+        "level": 2,
+        "heading": "In Sentences",
+        "content": "",
+        "children": [
+          {
+            "level": 3,
+            "heading": "Example patterns",
+            "content": "Noun が Verb-出す: 雨が降り出した \"Rain started falling\" 子供が泣き出した \"Child started crying\" いきなり/急に + Verb-出す: いきなり走り出した \"Suddenly started running\" 急に笑い出した \"Suddenly started laughing\" Emphasizing suddenness Natural sentence patterns"
+          }
+        ]
+      },
+      {
+        "level": 2,
+        "heading": "Formality",
+        "content": "",
+        "children": [
+          {
+            "level": 3,
+            "heading": "Neutral formality",
+            "content": "Can be used in: - Casual conversation - Formal speech - Writing Formality comes from: - Conjugation style - Context - Surrounding grammar Not inherently casual or formal"
+          }
+        ]
+      },
+      {
+        "level": 2,
+        "heading": "Common Mistakes",
+        "content": "❌ Using for planned actions ✗ 明日から勉強し出す (use 始める instead) \"Start studying from tomorrow\" ✓ Use for spontaneous actions ✓ 急に勉強し出した \"Suddenly started studying\" ❌ Overusing where 始める fits Choose based on nuance ✓ Match verb to context Sudden → 出す Neutral → 始める"
+      },
+      {
+        "level": 2,
+        "heading": "Special Meanings",
+        "content": "",
+        "children": [
+          {
+            "level": 3,
+            "heading": "Some compounds have unique meanings",
+            "content": "見出す Not \"start seeing\" But \"discover, find\" 思い出す Not \"start thinking\" But \"remember, recall\" These are lexicalized Learn as separate vocabulary Different from regular pattern"
+          },
+          {
+            "level": 3,
+            "heading": "Company",
+            "content": "About Pricing Blog Contact"
+          },
+          {
+            "level": 3,
+            "heading": "Legal",
+            "content": "Privacy Policy Terms of Service Cookie Policy"
+          }
+        ]
+      }
+    ]
+  },
+  "metadata": {
+    "extracted_at": "2026-01-01T22:19:28.760698700Z",
+    "duration_ms": 3,
+    "extractors_matched": [
+      "metadata",
+      "examples",
+      "sections"
+    ],
+    "extractors_failed": [
+      "vocab_tables",
+      "definitions",
+      "content_blocks"
+    ]
+  }
+}

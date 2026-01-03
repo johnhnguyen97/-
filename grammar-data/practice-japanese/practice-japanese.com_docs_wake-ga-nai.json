@@ -1,0 +1,357 @@
+{
+  "config_name": "Language Learning Extractor",
+  "url": "https://practice-japanese.com/docs/wake-ga-nai/",
+  "data": {
+    "examples": [
+      {
+        "sentence": "〜わけだ - That's why/No wonder"
+      },
+      {
+        "sentence": "〜わけではない - Not necessarily"
+      },
+      {
+        "sentence": "〜はずがない - Can't be (logical)"
+      },
+      {
+        "sentence": "〜にちがいない - Must be"
+      },
+      {
+        "sentence": "Strong denial - Emphatic rejection"
+      },
+      {
+        "sentence": "Impossibility - Expressing can't be"
+      },
+      {
+        "sentence": "About"
+      },
+      {
+        "sentence": "Pricing"
+      },
+      {
+        "sentence": "Blog"
+      },
+      {
+        "sentence": "Contact"
+      },
+      {
+        "sentence": "Privacy Policy"
+      },
+      {
+        "sentence": "Terms of Service"
+      },
+      {
+        "sentence": "Cookie Policy"
+      }
+    ],
+    "metadata": {
+      "title": "〜わけがない (There's no way)"
+    },
+    "sections": [
+      {
+        "level": 2,
+        "heading": "What is 〜わけがない?",
+        "content": "〜わけがない (or 〜わけはない ) expresses strong denial or impossibility, meaning \"there's no way,\" \"it can't be,\" \"impossible,\" or \"it's inconceivable that.\" It shows you firmly believe something is not true or cannot happen.\n\n彼が嘘をつくわけがない \"There's no way he would lie\" そんなことができるわけがない \"There's no way I can do such a thing\" 信じられるわけがない \"There's no way I can believe it\""
+      },
+      {
+        "level": 2,
+        "heading": "Formation",
+        "content": "",
+        "children": [
+          {
+            "level": 3,
+            "heading": "Pattern: Plain form + わけがない / わけはない",
+            "content": "With verbs:\n\n行く → 行くわけがない (no way will go) 知る → 知るわけがない (no way knows) できる → できるわけがない (no way can do)\n\nWith い-adjectives:\n\n高い → 高いわけがない (no way is expensive) 簡単 → 簡単なわけがない (no way is easy)\n\nWith な-adjectives:\n\n便利 → 便利なわけがない (no way is convenient) 本物 → 本物のわけがない (no way is genuine) Use な/の before わけがない\n\nWith nouns:\n\n学生 → 学生のわけがない (no way is a student) 嘘 → 嘘のわけがない (no way is a lie) Use の before わけがない"
+          }
+        ]
+      },
+      {
+        "level": 2,
+        "heading": "Basic Usage",
+        "content": "",
+        "children": [
+          {
+            "level": 3,
+            "heading": "Strong denial",
+            "content": "彼が犯人のわけがない \"There's no way he's the culprit\" そんなはずがない。知らないわけがない \"That can't be. There's no way he doesn't know\" 忘れるわけがない \"There's no way I'd forget\""
+          },
+          {
+            "level": 3,
+            "heading": "Expressing impossibility",
+            "content": "一人でできるわけがない \"There's no way I can do it alone\" そんなに早く終わるわけがない \"There's no way it will finish that quickly\" 簡単なわけがない \"There's no way it's easy\""
+          },
+          {
+            "level": 3,
+            "heading": "Defending someone/something",
+            "content": "彼が嘘をつくわけがない \"There's no way he would lie\" 彼女が悪いわけがない \"There's no way she's bad/wrong\" 本物じゃないわけがない \"There's no way it's not genuine\""
+          }
+        ]
+      },
+      {
+        "level": 2,
+        "heading": "Key Characteristics",
+        "content": "",
+        "children": [
+          {
+            "level": 3,
+            "heading": "Shows strong conviction",
+            "content": "Very emphatic denial Speaker is very sure Based on knowledge/trust Cannot be true/possible Stronger than just saying \"no\" or \"not\""
+          },
+          {
+            "level": 3,
+            "heading": "Often emotional",
+            "content": "Defending someone you trust Denying accusations Expressing disbelief Showing confidence Has emotional weight"
+          }
+        ]
+      },
+      {
+        "level": 2,
+        "heading": "Common Conversations",
+        "content": "",
+        "children": [
+          {
+            "level": 3,
+            "heading": "Example 1: Defending",
+            "content": "A: 田中さんが盗んだらしいよ \"I heard Tanaka stole it\" B: そんなわけがない！彼がそんなことするはずない \"There's no way! He wouldn't do such a thing\" A: でも... \"But...\""
+          },
+          {
+            "level": 3,
+            "heading": "Example 2: Expressing Impossibility",
+            "content": "A: これ、一人でできる？ \"Can you do this alone?\" B: 無理だよ。一人でできるわけがない \"No way. There's no way I can do it alone\" A: じゃあ、手伝うよ \"Then I'll help\""
+          },
+          {
+            "level": 3,
+            "heading": "Example 3: Disbelief",
+            "content": "A: 彼、東大に合格したって \"He passed the Tokyo University exam\" B: え？本当に？信じられないな \"What? Really? I can't believe it\" A: 嘘のわけがないよ。本人から聞いた \"There's no way it's a lie. I heard from him directly\""
+          }
+        ]
+      },
+      {
+        "level": 2,
+        "heading": "Common Mistakes",
+        "content": "",
+        "children": [
+          {
+            "level": 3,
+            "heading": "Mistake 1: Confusing with わけだ",
+            "content": "わけだ: That's why/It means 忙しいわけだ \"That's why (you're) busy\" わけがない: There's no way 忙しいわけがない \"There's no way (you're) busy\" Opposite meanings!"
+          },
+          {
+            "level": 3,
+            "heading": "Mistake 2: Wrong particle",
+            "content": "Wrong: わけをない ❌ Right: わけがない ✓ Or: わけはない ✓ Use が or は, not を!"
+          },
+          {
+            "level": 3,
+            "heading": "Mistake 3: Using だ with nouns",
+            "content": "Wrong: 学生だわけがない ❌ Right: 学生のわけがない ✓ Or: 学生なわけがない ✓ Use の or な with nouns"
+          }
+        ]
+      },
+      {
+        "level": 2,
+        "heading": "わけがない vs わけはない",
+        "content": "",
+        "children": [
+          {
+            "level": 3,
+            "heading": "Both mean the same",
+            "content": "できるわけがない できるわけはない \"There's no way (I) can do it\" わけはない slightly more emphatic Both commonly used"
+          }
+        ]
+      },
+      {
+        "level": 2,
+        "heading": "Polite Forms",
+        "content": "",
+        "children": [
+          {
+            "level": 3,
+            "heading": "Casual: わけがない",
+            "content": "できるわけがない \"There's no way (I) can do it\""
+          },
+          {
+            "level": 3,
+            "heading": "Polite: わけがありません",
+            "content": "できるわけがありません \"There's no way (I) can do it\" Standard polite"
+          },
+          {
+            "level": 3,
+            "heading": "Emphatic: わけがないだろう",
+            "content": "できるわけがないだろう！ \"There's no way (you) can do it!\" Very emphatic"
+          }
+        ]
+      },
+      {
+        "level": 2,
+        "heading": "Expressing Strong Disbelief",
+        "content": "",
+        "children": [
+          {
+            "level": 3,
+            "heading": "Rejecting claims",
+            "content": "そんなわけがない！ \"There's no way that's true!\" 嘘に決まってる。本当のわけがない \"It must be a lie. There's no way it's true\" 信じられるわけがない \"There's no way I can believe it\""
+          }
+        ]
+      },
+      {
+        "level": 2,
+        "heading": "Defending People",
+        "content": "",
+        "children": [
+          {
+            "level": 3,
+            "heading": "Showing trust",
+            "content": "彼が裏切るわけがない \"There's no way he would betray (us)\" 彼女が嘘をつくわけがない \"There's no way she would lie\" あの人が悪いわけがない \"There's no way that person is bad\""
+          }
+        ]
+      },
+      {
+        "level": 2,
+        "heading": "About Abilities",
+        "content": "",
+        "children": [
+          {
+            "level": 3,
+            "heading": "Expressing impossibility",
+            "content": "一日で終わるわけがない \"There's no way it will finish in one day\" こんなに難しい問題、解けるわけがない \"There's no way I can solve such a difficult problem\" 誰にでもできるわけがない \"There's no way anyone can do it\""
+          }
+        ]
+      },
+      {
+        "level": 2,
+        "heading": "そんな～わけがない",
+        "content": "",
+        "children": [
+          {
+            "level": 3,
+            "heading": "Rejecting statements",
+            "content": "そんなことあるわけがない \"There's no way such a thing exists\" そんなに簡単なわけがない \"There's no way it's that easy\" そんな話信じられるわけがない \"There's no way I can believe such a story\""
+          }
+        ]
+      },
+      {
+        "level": 2,
+        "heading": "はず vs わけがない",
+        "content": "",
+        "children": [
+          {
+            "level": 3,
+            "heading": "Different emphasis",
+            "content": "はずがない: Logically can't be 来るはずがない (the plan says no) \"He can't be coming\" わけがない: Impossible/inconceivable 来るわけがない (I strongly believe no) \"There's no way he's coming\" わけがない is more emotional"
+          }
+        ]
+      },
+      {
+        "level": 2,
+        "heading": "With もの (Of course not)",
+        "content": "",
+        "children": [
+          {
+            "level": 3,
+            "heading": "～わけがないもの",
+            "content": "できるわけがないもの \"Of course there's no way I can do it\" 知ってるわけがないもの \"Of course there's no way I know\" Adds \"of course\""
+          }
+        ]
+      },
+      {
+        "level": 2,
+        "heading": "Common Situations",
+        "content": "",
+        "children": [
+          {
+            "level": 3,
+            "heading": "Defending character",
+            "content": "彼が犯人のわけがない \"There's no way he's the criminal\" 彼女が悪い人のわけがない \"There's no way she's a bad person\""
+          },
+          {
+            "level": 3,
+            "heading": "Rejecting possibilities",
+            "content": "そんなに早く終わるわけがない \"There's no way it will finish that quickly\" 一人で運べるわけがない \"There's no way (I) can carry it alone\""
+          },
+          {
+            "level": 3,
+            "heading": "Expressing certainty",
+            "content": "間違っているわけがない \"There's no way it's wrong\" 忘れるわけがない \"There's no way I'd forget\""
+          }
+        ]
+      },
+      {
+        "level": 2,
+        "heading": "Negative Situations Already",
+        "content": "",
+        "children": [
+          {
+            "level": 3,
+            "heading": "Double negative effect",
+            "content": "彼が知らないわけがない \"There's no way he doesn't know\" = \"He must know\" 悪くないわけがない \"There's no way it's not bad\" = \"It must be bad\" Strong affirmation through denial"
+          }
+        ]
+      },
+      {
+        "level": 2,
+        "heading": "In Arguments",
+        "content": "",
+        "children": [
+          {
+            "level": 3,
+            "heading": "Strong rejection",
+            "content": "A: お前が悪い \"It's your fault\" B: 僕が悪いわけがないだろう！ \"There's no way it's my fault!\" Defensive, emotional"
+          }
+        ]
+      },
+      {
+        "level": 2,
+        "heading": "Practice Sentences",
+        "content": "",
+        "children": [
+          {
+            "level": 3,
+            "heading": "Basic",
+            "content": "彼が嘘をつくわけがない \"There's no way he would lie\" できるわけがない \"There's no way (I) can do it\" そんなわけがない \"There's no way that's true\""
+          },
+          {
+            "level": 3,
+            "heading": "Intermediate",
+            "content": "こんなに難しい問題、一人で解けるわけがない \"There's no way I can solve such a difficult problem alone\" 彼女がそんなひどいことを言うわけがない。 何か誤解があるはずだ \"There's no way she would say such a terrible thing. There must be some misunderstanding\" そんなに簡単に成功するわけがない。 もっと努力が必要だ \"There's no way you'll succeed that easily. More effort is needed\""
+          },
+          {
+            "level": 3,
+            "heading": "Advanced",
+            "content": "彼を10年も知っている。だから、彼が そんなことをするわけがないと断言できる。 彼の性格を考えれば、絶対にありえない。 \"I've known him for 10 years. Therefore, I can assert there's no way he would do such a thing. Considering his character, it's absolutely impossible.\" この価格でこの品質のわけがない。 何か裏があるにちがいない。本物である わけがないと思う。気をつけたほうがいい。 \"There's no way this quality is at this price. There must be something behind it. I think there's no way it's genuine. You should be careful.\""
+          }
+        ]
+      },
+      {
+        "level": 2,
+        "heading": "Related Grammar Points",
+        "content": "〜わけだ - That's why/No wonder 〜わけではない - Not necessarily 〜はずがない - Can't be (logical) 〜にちがいない - Must be Strong denial - Emphatic rejection Impossibility - Expressing can't be",
+        "children": [
+          {
+            "level": 3,
+            "heading": "Company",
+            "content": "About Pricing Blog Contact"
+          },
+          {
+            "level": 3,
+            "heading": "Legal",
+            "content": "Privacy Policy Terms of Service Cookie Policy"
+          }
+        ]
+      }
+    ]
+  },
+  "metadata": {
+    "extracted_at": "2026-01-01T22:19:37.637317Z",
+    "duration_ms": 3,
+    "extractors_matched": [
+      "metadata",
+      "examples",
+      "sections"
+    ],
+    "extractors_failed": [
+      "vocab_tables",
+      "definitions",
+      "content_blocks"
+    ]
+  }
+}

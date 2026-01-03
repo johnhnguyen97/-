@@ -1,0 +1,305 @@
+{
+  "config_name": "Language Learning Extractor",
+  "url": "https://practice-japanese.com/docs/ni-suru/",
+  "data": {
+    "metadata": {
+      "title": "〜にする (Make - na-adj/noun)"
+    },
+    "sections": [
+      {
+        "level": 2,
+        "heading": "What is 〜にする?",
+        "content": "〜にする (ni suru) expresses actively causing a change with な-adjectives and nouns, or making a decision/choice. It means \"make [something into something]\" or \"decide on [something].\"\n\nEnglish equivalent: \"make [noun/na-adjective]\" / \"decide on\"\n\nStructure: [な-adjective/Noun] + にする\n\n静か (shizuka - quiet) + にする = 静かにする \"make quiet\" / \"be quiet\" コーヒー (koohii - coffee) + にする = コーヒーにする \"decide on coffee\" / \"make it coffee\" 簡単 (kantan - simple) + にする = 簡単にする \"make simple\" / \"simplify\""
+      },
+      {
+        "level": 2,
+        "heading": "Basic Formation",
+        "content": "",
+        "children": [
+          {
+            "level": 3,
+            "heading": "With な-adjectives",
+            "content": "[な-adjective] + にする\n\n静かにする (shizuka ni suru) - \"make quiet\" / \"be quiet\" きれいにする (kirei ni suru) - \"make clean\" / \"clean up\" 簡単にする (kantan ni suru) - \"make simple\" / \"simplify\" 便利にする (benri ni suru) - \"make convenient\" 自由にする (jiyuu ni suru) - \"make free\" / \"let do freely\""
+          },
+          {
+            "level": 3,
+            "heading": "With nouns",
+            "content": "[Noun] + にする\n\nコーヒーにする (koohii ni suru) - \"decide on coffee\" 明日にする (ashita ni suru) - \"make it tomorrow\" 半分にする (hanbun ni suru) - \"cut in half\" 10時にする (juuji ni suru) - \"make it 10 o'clock\""
+          }
+        ]
+      },
+      {
+        "level": 2,
+        "heading": "Making Things Different (Causative)",
+        "content": "",
+        "children": [
+          {
+            "level": 3,
+            "heading": "Changing state actively",
+            "content": "部屋をきれいにする。 Heya wo kirei ni suru. \"I'll clean the room.\" / \"I'll make the room clean.\" 音を静かにしてください。 Oto wo shizuka ni shite kudasai. \"Please make the sound quiet.\" / \"Please be quiet.\" 説明を簡単にした。 Setsumei wo kantan ni shita. \"I simplified the explanation.\" 町を便利にする。 Machi wo benri ni suru. \"Make the town convenient.\""
+          },
+          {
+            "level": 3,
+            "heading": "Common な-adjectives with にする",
+            "content": "きれいにする (kirei ni suru) - \"clean up\" 楽にする (raku ni suru) - \"make easier/comfortable\" 自由にする (jiyuu ni suru) - \"let do freely\" 無料にする (muryou ni suru) - \"make free (of charge)\" 好きなようにしていいよ。 Suki na you ni shite ii yo. \"You can do it however you like.\""
+          }
+        ]
+      },
+      {
+        "level": 2,
+        "heading": "Making Decisions",
+        "content": "",
+        "children": [
+          {
+            "level": 3,
+            "heading": "Choosing options",
+            "content": "コーヒーにします。 Koohii ni shimasu. \"I'll have coffee.\" / \"I'll make it coffee.\" 私もそれにする。 Watashi mo sore ni suru. \"I'll have that too.\" / \"I'll go with that.\" これにしよう。 Kore ni shiyou. \"Let's go with this.\" 何にしますか？ Nani ni shimasu ka? \"What will you have?\" 紅茶にします。 Koucha ni shimasu. \"I'll have tea.\""
+          },
+          {
+            "level": 3,
+            "heading": "Time and date decisions",
+            "content": "明日にする。 Ashita ni suru. \"Let's make it tomorrow.\" 3時にしましょう。 Sanji ni shimashou. \"Let's make it 3 o'clock.\" 来週の月曜日にします。 Raishuu no getsuyoubi ni shimasu. \"I'll make it next Monday.\""
+          }
+        ]
+      },
+      {
+        "level": 2,
+        "heading": "Common Expressions",
+        "content": "",
+        "children": [
+          {
+            "level": 3,
+            "heading": "Set phrases",
+            "content": "静かにする - \"be quiet\" / \"keep quiet\" きれいにする - \"clean up\" 大切にする (taisetsu ni suru) - \"treasure\" / \"take care of\" 元気にする (genki ni suru) - \"cheer up\" 静かにしなさい！ Shizuka ni shinasai! \"Be quiet!\" 部屋をきれいにしなさい。 Heya wo kirei ni shinasai. \"Clean your room.\" 家族を大切にする。 Kazoku wo taisetsu ni suru. \"I treasure my family.\""
+          }
+        ]
+      },
+      {
+        "level": 2,
+        "heading": "Dividing and Quantities",
+        "content": "",
+        "children": [
+          {
+            "level": 3,
+            "heading": "Making portions",
+            "content": "半分にする (hanbun ni suru) - \"cut in half\" 3つにする (mittsu ni suru) - \"divide into three\" 小さくにする ❌ → 小さくする ✓ Chiisaku suru. \"Make smaller.\" リンゴを半分にした。 Ringo wo hanbun ni shita. \"I cut the apple in half.\" 紙を4つにしてください。 Kami wo yottsu ni shite kudasai. \"Please divide the paper into four.\""
+          }
+        ]
+      },
+      {
+        "level": 2,
+        "heading": "With Objects",
+        "content": "",
+        "children": [
+          {
+            "level": 3,
+            "heading": "Making things into something",
+            "content": "これを秘密にする。 Kore wo himitsu ni suru. \"Let's keep this a secret.\" 趣味を仕事にする。 Shumi wo shigoto ni suru. \"Turn a hobby into work.\" 夢を現実にする。 Yume wo genjitsu ni suru. \"Make a dream a reality.\""
+          }
+        ]
+      },
+      {
+        "level": 2,
+        "heading": "Polite Forms",
+        "content": "",
+        "children": [
+          {
+            "level": 3,
+            "heading": "Formal situations",
+            "content": "Casual: コーヒーにする Polite: コーヒーにします Past polite: コーヒーにしました 何にしますか？ Nani ni shimasu ka? \"What will you have?\" 私は紅茶にします。 Watashi wa koucha ni shimasu. \"I'll have tea.\" 部屋をきれいにしました。 Heya wo kirei ni shimashita. \"I cleaned the room.\""
+          }
+        ]
+      },
+      {
+        "level": 2,
+        "heading": "Volitional Form",
+        "content": "",
+        "children": [
+          {
+            "level": 3,
+            "heading": "Let's make/decide",
+            "content": "これにしよう。 Kore ni shiyou. \"Let's go with this.\" 明日にしましょう。 Ashita ni shimashou. \"Let's make it tomorrow.\" 部屋をきれいにしよう。 Heya wo kirei ni shiyou. \"Let's clean the room.\""
+          }
+        ]
+      },
+      {
+        "level": 2,
+        "heading": "Negative Forms",
+        "content": "",
+        "children": [
+          {
+            "level": 3,
+            "heading": "Won't make/decide",
+            "content": "静かにしない。 Shizuka ni shinai. \"Won't be quiet.\" コーヒーにしません。 Koohii ni shimasen. \"I won't have coffee.\" 明日にしなかった。 Ashita ni shinakatta. \"Didn't make it tomorrow.\""
+          }
+        ]
+      },
+      {
+        "level": 2,
+        "heading": "Requests and Commands",
+        "content": "",
+        "children": [
+          {
+            "level": 3,
+            "heading": "Asking someone to do",
+            "content": "静かにしてください。 Shizuka ni shite kudasai. \"Please be quiet.\" 部屋をきれいにしてください。 Heya wo kirei ni shite kudasai. \"Please clean the room.\" 音を小さくしてくれる？ Oto wo chiisaku shite kureru? \"Can you turn down the volume?\""
+          },
+          {
+            "level": 3,
+            "heading": "Commands",
+            "content": "静かにしろ！ Shizuka ni shiro! \"Be quiet!\" (rough) 静かにしなさい。 Shizuka ni shinasai. \"Be quiet.\" (parental)"
+          }
+        ]
+      },
+      {
+        "level": 2,
+        "heading": "Comparing にする and になる",
+        "content": "",
+        "children": [
+          {
+            "level": 3,
+            "heading": "Active vs natural change",
+            "content": "にする - Active change (causative/decision):\n\n部屋をきれいにする。 Heya wo kirei ni suru. \"I clean the room.\" (I make it clean) コーヒーにする。 Koohii ni suru. \"I'll have coffee.\" (I choose/decide)\n\nになる - Natural change:\n\n部屋がきれいになる。 Heya ga kirei ni naru. \"The room becomes clean.\" (by itself) 春になる。 Haru ni naru. \"Spring comes.\" (naturally)\n\n| Pattern | Meaning | Particle | Example | | ------- | ----------------- | -------- | ------------------ | | にする | make/decide (you) | を | 部屋をきれいにする | | になる | become (natural) | が | 部屋がきれいになる |\n\nSee: 〜になる (Become - na-adj/noun)"
+          }
+        ]
+      },
+      {
+        "level": 2,
+        "heading": "Comparing くする and にする",
+        "content": "",
+        "children": [
+          {
+            "level": 3,
+            "heading": "い-adjectives vs な-adjectives/nouns",
+            "content": "くする - Only with い-adjectives:\n\n大きくする (ookiku suru) - \"make big\" 安くする (yasuku suru) - \"make cheap\"\n\nにする - With な-adjectives and nouns:\n\nきれいにする (kirei ni suru) - \"make clean\" コーヒーにする (koohii ni suru) - \"have coffee\"\n\n| Type | Pattern | Example | | ------ | -------- | -------------- | | い-adj | 〜くする | 大きくする | | な-adj | 〜にする | きれいにする | | Noun | 〜にする | コーヒーにする |\n\nSee: 〜くする (Make - i-adj)"
+          }
+        ]
+      },
+      {
+        "level": 2,
+        "heading": "Common Mistakes",
+        "content": "",
+        "children": [
+          {
+            "level": 3,
+            "heading": "Mistake 1: Using くする with な-adjectives",
+            "content": "❌ 静かくする ✓ 静かにする\n\nUse にする, not くする, with な-adjectives."
+          },
+          {
+            "level": 3,
+            "heading": "Mistake 2: Forgetting に",
+            "content": "❌ コーヒーする ✓ コーヒーにする\n\nDon't forget the に particle."
+          },
+          {
+            "level": 3,
+            "heading": "Mistake 3: Using with い-adjectives",
+            "content": "❌ 大きいにする ✓ 大きくする (use くする)\n\nUse くする for い-adjectives, not にする."
+          },
+          {
+            "level": 3,
+            "heading": "Mistake 4: Confusing with になる",
+            "content": "にする = make/decide (active, you do it) になる = become (natural change)\n\n✓ 部屋をきれいにする (I clean it) ✓ 部屋がきれいになる (It becomes clean)"
+          },
+          {
+            "level": 3,
+            "heading": "Mistake 5: Wrong particle",
+            "content": "❌ 部屋がきれいにする ✓ 部屋をきれいにする\n\nUse を (object), not が, with にする."
+          }
+        ]
+      },
+      {
+        "level": 2,
+        "heading": "Summary",
+        "content": "Key Points:\n\nにする expresses active change or decisions with な-adjectives and nouns Formation: [な-adj/Noun] + にする Means \"make [something]\" or \"decide on [something]\" Active/causative action (you make the change) Takes を particle for the object being changed Common with: きれい, 静か, 簡単, 便利, コーヒー, 明日 Decisions: コーヒーにする \"I'll have coffee\" Commands: 静かにして \"be quiet\" Different from になる (natural change) Different from くする (for い-adjectives) Essential for expressing choices and causing changes",
+        "children": [
+          {
+            "level": 3,
+            "heading": "Company",
+            "content": "About Pricing Blog Contact"
+          },
+          {
+            "level": 3,
+            "heading": "Legal",
+            "content": "Privacy Policy Terms of Service Cookie Policy"
+          }
+        ]
+      }
+    ],
+    "examples": [
+      {
+        "sentence": "にする = make/decide (active, you do it)"
+      },
+      {
+        "sentence": "になる = become (natural change)"
+      },
+      {
+        "sentence": "にする expresses active change or decisions with な-adjectives and nouns"
+      },
+      {
+        "sentence": "Formation: [な-adj/Noun] + にする"
+      },
+      {
+        "sentence": "Means \"make [something]\" or \"decide on [something]\""
+      },
+      {
+        "sentence": "Active/causative action (you make the change)"
+      },
+      {
+        "sentence": "Takes を particle for the object being changed"
+      },
+      {
+        "sentence": "Common with: きれい, 静か, 簡単, 便利, コーヒー, 明日"
+      },
+      {
+        "sentence": "Decisions: コーヒーにする \"I'll have coffee\""
+      },
+      {
+        "sentence": "Commands: 静かにして \"be quiet\""
+      },
+      {
+        "sentence": "Different from になる (natural change)"
+      },
+      {
+        "sentence": "Different from くする (for い-adjectives)"
+      },
+      {
+        "sentence": "Essential for expressing choices and causing changes"
+      },
+      {
+        "sentence": "About"
+      },
+      {
+        "sentence": "Pricing"
+      },
+      {
+        "sentence": "Blog"
+      },
+      {
+        "sentence": "Contact"
+      },
+      {
+        "sentence": "Privacy Policy"
+      },
+      {
+        "sentence": "Terms of Service"
+      },
+      {
+        "sentence": "Cookie Policy"
+      }
+    ]
+  },
+  "metadata": {
+    "extracted_at": "2026-01-01T22:19:32.160155800Z",
+    "duration_ms": 6,
+    "extractors_matched": [
+      "metadata",
+      "examples",
+      "sections"
+    ],
+    "extractors_failed": [
+      "vocab_tables",
+      "definitions",
+      "content_blocks"
+    ]
+  }
+}

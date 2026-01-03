@@ -1,0 +1,395 @@
+{
+  "config_name": "Language Learning Extractor",
+  "url": "https://practice-japanese.com/docs/greetings/",
+  "data": {
+    "sections": [
+      {
+        "level": 2,
+        "heading": "Greetings",
+        "content": "Greetings in Japanese are situation-specific and reflect social relationships. Unlike English where \"hello\" works anytime, Japanese has distinct greetings for different times of day, contexts, and relationships.\n\nEnglish: \"Hello\" (all-purpose) Japanese: Multiple greetings Time-specific Context-dependent Relationship-aware Choose appropriately"
+      },
+      {
+        "level": 2,
+        "heading": "Time-Based Greetings",
+        "content": "",
+        "children": [
+          {
+            "level": 3,
+            "heading": "Morning greeting",
+            "content": "おはよう \"Good morning\" (casual) おはようございます \"Good morning\" (polite) Use: Until about 10-11 AM Common: Everywhere First greeting of day Casual with friends/family Polite at work/strangers"
+          },
+          {
+            "level": 3,
+            "heading": "Daytime greeting",
+            "content": "こんにちは \"Good afternoon / Hello\" Use: From ~11 AM to sunset Common: General greeting Less formal than おはよう One politeness level Works broadly"
+          },
+          {
+            "level": 3,
+            "heading": "Evening greeting",
+            "content": "こんばんは \"Good evening\" Use: After sunset (~6 PM onward) Common: Evening encounters Formal enough for any setting Not for close friends More polite than casual"
+          },
+          {
+            "level": 3,
+            "heading": "Night farewell (not greeting)",
+            "content": "おやすみ \"Good night\" (casual) おやすみなさい \"Good night\" (polite) Use: When going to bed Not: For evening meetings Specifically for sleeping Farewell, not greeting"
+          }
+        ]
+      },
+      {
+        "level": 2,
+        "heading": "Workplace Greetings",
+        "content": "",
+        "children": [
+          {
+            "level": 3,
+            "heading": "Arriving at work",
+            "content": "おはようございます \"Good morning\" Use: Regardless of actual time Common: Work culture Shows respect Said to everyone Even at night shifts Work-specific custom"
+          },
+          {
+            "level": 3,
+            "heading": "During work",
+            "content": "お疲れ様です \"Thank you for your hard work\" Use: Passing colleagues Common: Throughout day Multipurpose greeting Shows acknowledgment Workplace standard Not outside work"
+          },
+          {
+            "level": 3,
+            "heading": "Leaving work",
+            "content": "お疲れ様でした \"Thank you for your work today\" お先に失礼します \"Excuse me for leaving first\" Use: When departing Response: お疲れ様でした Common courtesy Respectful departure Daily ritual"
+          }
+        ]
+      },
+      {
+        "level": 2,
+        "heading": "Meeting Someone",
+        "content": "",
+        "children": [
+          {
+            "level": 3,
+            "heading": "First meeting",
+            "content": "初めまして \"Nice to meet you (for the first time)\" はじめまして、[name]です \"Nice to meet you, I'm [name]\" よろしくお願いします \"Please treat me kindly / Look forward to working with you\" Formal introduction Shows respect Standard sequence"
+          },
+          {
+            "level": 3,
+            "heading": "Subsequent meetings",
+            "content": "お久しぶりです \"Long time no see\" (polite) 久しぶり \"Long time no see\" (casual) また会えて嬉しいです \"I'm happy to see you again\" Acknowledging gap Friendly reconnection"
+          },
+          {
+            "level": 3,
+            "heading": "Meeting expectations",
+            "content": "お会いできて光栄です \"It's an honor to meet you\" お会いできて嬉しいです \"I'm happy to meet you\" Use: Important people Use: Genuine happiness Shows appreciation More emotional Personal connection"
+          }
+        ]
+      },
+      {
+        "level": 2,
+        "heading": "Returning Home",
+        "content": "",
+        "children": [
+          {
+            "level": 3,
+            "heading": "Coming home",
+            "content": "ただいま \"I'm home\" Use: Entering your home Response: おかえり/おかえりなさい Family ritual Casual announcement Expected phrase Cultural practice"
+          },
+          {
+            "level": 3,
+            "heading": "Welcoming home",
+            "content": "おかえり \"Welcome home\" (casual) おかえりなさい \"Welcome home\" (polite) Response: ただいま Use: To family members Warm greeting Shows care Daily exchange"
+          }
+        ]
+      },
+      {
+        "level": 2,
+        "heading": "Visiting Someone",
+        "content": "",
+        "children": [
+          {
+            "level": 3,
+            "heading": "Entering someone's home",
+            "content": "お邪魔します \"Excuse me for disturbing\" Use: Entering someone's home Literal: \"I will be a bother\" Shows humility Standard phrase Cultural politeness Always say this"
+          },
+          {
+            "level": 3,
+            "heading": "Leaving someone's home",
+            "content": "お邪魔しました \"Thank you for having me / Sorry for the intrusion\" Use: Departing from home Past tense of entering phrase Gratitude expressed Polite closure Shows appreciation"
+          }
+        ]
+      },
+      {
+        "level": 2,
+        "heading": "Phone Greetings",
+        "content": "",
+        "children": [
+          {
+            "level": 3,
+            "heading": "Answering phone",
+            "content": "もしもし \"Hello\" (phone only) はい、[name]です \"Yes, this is [name]\" Business: お電話ありがとうございます \"Thank you for calling\" Phone-specific Never in person Cultural norm"
+          },
+          {
+            "level": 3,
+            "heading": "Making a call",
+            "content": "もしもし \"Hello\" [name]ですが \"This is [name], but...\" お忙しいところすみません \"Sorry to bother you when you're busy\" Polite opening Identifies self Shows consideration"
+          }
+        ]
+      },
+      {
+        "level": 2,
+        "heading": "Casual Greetings",
+        "content": "",
+        "children": [
+          {
+            "level": 3,
+            "heading": "Among friends",
+            "content": "やあ / やっほー \"Hey / Hi\" よう \"Yo\" おっす \"Sup\" 元気？ \"How are you?\" Very casual Young people Friends only"
+          },
+          {
+            "level": 3,
+            "heading": "Slang greetings",
+            "content": "ちーす \"Hey\" (from こんにちは) おは \"Morning\" (from おはよう) Use: Very casual Friends/peers only Not appropriate formally Shortened forms Youth language"
+          }
+        ]
+      },
+      {
+        "level": 2,
+        "heading": "Bowing and Greetings",
+        "content": "",
+        "children": [
+          {
+            "level": 3,
+            "heading": "Physical greeting",
+            "content": "Slight bow: Casual greeting Medium bow: Standard greeting Deep bow: Formal/respectful greeting Bow while saying greeting Eye contact varies Depth shows respect Physical component Cultural expectation"
+          }
+        ]
+      },
+      {
+        "level": 2,
+        "heading": "Special Occasion Greetings",
+        "content": "",
+        "children": [
+          {
+            "level": 3,
+            "heading": "New Year",
+            "content": "あけましておめでとうございます \"Happy New Year\" 今年もよろしくお願いします \"Please treat me well this year too\" Use: First days of January Very important Specific to New Year Major cultural event"
+          },
+          {
+            "level": 3,
+            "heading": "Seasonal greetings",
+            "content": "暑中お見舞い申し上げます \"Mid-summer greetings\" 寒中お見舞い申し上げます \"Mid-winter greetings\" Written greetings Formal cards Seasonal awareness Traditional practice"
+          }
+        ]
+      },
+      {
+        "level": 2,
+        "heading": "Customer Service Greetings",
+        "content": "",
+        "children": [
+          {
+            "level": 3,
+            "heading": "Store staff to customers",
+            "content": "いらっしゃいませ \"Welcome\" Use: Customer entering No response expected Standard retail Automatic greeting Shows hospitality"
+          },
+          {
+            "level": 3,
+            "heading": "Servers and staff",
+            "content": "いらっしゃいませ \"Welcome\" お待たせいたしました \"Thank you for waiting\" May I help you? Standard service phrases Professional greeting"
+          }
+        ]
+      },
+      {
+        "level": 2,
+        "heading": "Regional Variations",
+        "content": "",
+        "children": [
+          {
+            "level": 3,
+            "heading": "Kansai region",
+            "content": "まいど \"Hello / Thanks\" (business) Use: Osaka area Merchants especially Local flavor Regional identity Friendly tone"
+          },
+          {
+            "level": 3,
+            "heading": "Other variations",
+            "content": "Standard: こんにちは Casual male: よう Casual female: やっほー Regional accents Gender patterns Style differences"
+          }
+        ]
+      },
+      {
+        "level": 2,
+        "heading": "Greeting Combinations",
+        "content": "",
+        "children": [
+          {
+            "level": 3,
+            "heading": "Common sequences",
+            "content": "おはようございます。今日もいい天気ですね。 \"Good morning. Nice weather today too.\" こんにちは。お元気ですか。 \"Hello. How are you?\" Greeting + small talk Natural flow Social lubrication"
+          }
+        ]
+      },
+      {
+        "level": 2,
+        "heading": "Online and Digital",
+        "content": "",
+        "children": [
+          {
+            "level": 3,
+            "heading": "Text/chat greetings",
+            "content": "おつ \"Good work\" (shortened) よろ \"Please\" (shortened) w (笑) \"Lol\" Modern communication Very casual Internet culture"
+          },
+          {
+            "level": 3,
+            "heading": "Email openings",
+            "content": "お世話になっております \"Thank you for your continued support\" Use: Business emails Standard opening Shows relationship Professional norm Not personal emails"
+          }
+        ]
+      },
+      {
+        "level": 2,
+        "heading": "Formal Situations",
+        "content": "",
+        "children": [
+          {
+            "level": 3,
+            "heading": "Business meetings",
+            "content": "本日はお時間をいただき、ありがとうございます \"Thank you for your time today\" お忙しいところ恐れ入ります \"I'm sorry to take your time when you're busy\" Respectful language Shows gratitude Professional setting Keigo required Standard phrases"
+          }
+        ]
+      },
+      {
+        "level": 2,
+        "heading": "School Greetings",
+        "content": "",
+        "children": [
+          {
+            "level": 3,
+            "heading": "Teachers and students",
+            "content": "Student arriving: おはようございます、先生 \"Good morning, teacher\" Teacher: おはよう \"Good morning\" Class beginning: お願いします Class ending: ありがとうございました Educational setting Respectful hierarchy Daily routine"
+          }
+        ]
+      },
+      {
+        "level": 2,
+        "heading": "Neighborhood Greetings",
+        "content": "",
+        "children": [
+          {
+            "level": 3,
+            "heading": "Passing neighbors",
+            "content": "おはようございます \"Good morning\" 行ってきます \"I'm heading out\" 行ってらっしゃい \"Take care / Have a good one\" Community connection Daily interaction Social fabric"
+          }
+        ]
+      },
+      {
+        "level": 2,
+        "heading": "When NOT to Greet",
+        "content": "",
+        "children": [
+          {
+            "level": 3,
+            "heading": "Situations to avoid",
+            "content": "Don't greet: - Every time passing same person - In quiet places (libraries) - When someone is clearly busy - On trains (strangers) Read the situation Context matters"
+          }
+        ]
+      },
+      {
+        "level": 2,
+        "heading": "Response Expectations",
+        "content": "",
+        "children": [
+          {
+            "level": 3,
+            "heading": "When response needed",
+            "content": "おはようございます → おはようございます こんにちは → こんにちは お疲れ様です → お疲れ様です Mirror the greeting Same politeness level Acknowledge properly"
+          },
+          {
+            "level": 3,
+            "heading": "When no response",
+            "content": "いらっしゃいませ → (no response) \"Welcome\" at stores No response needed Staff to customer One-way greeting"
+          }
+        ]
+      },
+      {
+        "level": 2,
+        "heading": "Politeness Levels",
+        "content": "",
+        "children": [
+          {
+            "level": 3,
+            "heading": "Choosing the right level",
+            "content": "Family/close friends: Casual forms Colleagues: Polite forms Customers/superiors: Very polite forms Context determines choice Relationship matters When in doubt, more polite"
+          }
+        ]
+      },
+      {
+        "level": 2,
+        "heading": "Common Mistakes",
+        "content": "",
+        "children": [
+          {
+            "level": 3,
+            "heading": "Errors to avoid",
+            "content": "❌ こんにちは in morning ✓ おはようございます ❌ おやすみ as evening greeting ✓ こんばんは ❌ Greeting every time you pass someone ✓ Once per day is enough Learn proper usage Avoid awkwardness"
+          }
+        ]
+      },
+      {
+        "level": 2,
+        "heading": "Natural Flow",
+        "content": "",
+        "children": [
+          {
+            "level": 3,
+            "heading": "Real conversation",
+            "content": "A: おはようございます B: あ、おはようございます。今日は寒いですね A: 本当に。気をつけてくださいね B: はい、ありがとうございます Greeting + small talk Natural progression Building rapport"
+          },
+          {
+            "level": 3,
+            "heading": "Company",
+            "content": "About Pricing Blog Contact"
+          },
+          {
+            "level": 3,
+            "heading": "Legal",
+            "content": "Privacy Policy Terms of Service Cookie Policy"
+          }
+        ]
+      }
+    ],
+    "metadata": {
+      "title": "Greetings"
+    },
+    "examples": [
+      {
+        "sentence": "About"
+      },
+      {
+        "sentence": "Pricing"
+      },
+      {
+        "sentence": "Blog"
+      },
+      {
+        "sentence": "Contact"
+      },
+      {
+        "sentence": "Privacy Policy"
+      },
+      {
+        "sentence": "Terms of Service"
+      },
+      {
+        "sentence": "Cookie Policy"
+      }
+    ]
+  },
+  "metadata": {
+    "extracted_at": "2026-01-01T22:19:29.712344600Z",
+    "duration_ms": 4,
+    "extractors_matched": [
+      "metadata",
+      "examples",
+      "sections"
+    ],
+    "extractors_failed": [
+      "vocab_tables",
+      "definitions",
+      "content_blocks"
+    ]
+  }
+}

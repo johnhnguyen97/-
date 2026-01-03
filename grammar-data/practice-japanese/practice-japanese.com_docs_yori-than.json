@@ -1,0 +1,396 @@
+{
+  "config_name": "Language Learning Extractor",
+  "url": "https://practice-japanese.com/docs/yori-than/",
+  "data": {
+    "metadata": {
+      "title": "より (Than)"
+    },
+    "examples": [
+      {
+        "sentence": "のほうが - More than (emphatic)"
+      },
+      {
+        "sentence": "一番 - Most (superlative)"
+      },
+      {
+        "sentence": "ほど - As...as (extent)"
+      },
+      {
+        "sentence": "くらい/ぐらい - About (approximate degree)"
+      },
+      {
+        "sentence": "Comparative adjectives - More/less forms"
+      },
+      {
+        "sentence": "同じ - Same (equality comparison)"
+      },
+      {
+        "sentence": "About"
+      },
+      {
+        "sentence": "Pricing"
+      },
+      {
+        "sentence": "Blog"
+      },
+      {
+        "sentence": "Contact"
+      },
+      {
+        "sentence": "Privacy Policy"
+      },
+      {
+        "sentence": "Terms of Service"
+      },
+      {
+        "sentence": "Cookie Policy"
+      }
+    ],
+    "sections": [
+      {
+        "level": 2,
+        "heading": "What is より?",
+        "content": "より is a particle used for comparisons, meaning \"than\" or \"compared to.\" It marks the standard of comparison when stating that something is more/less than something else.\n\nA は B より 大きい \"A is bigger than B\" 私より背が高い \"Taller than me\" 昨日より暑い \"Hotter than yesterday\""
+      },
+      {
+        "level": 2,
+        "heading": "Basic Structure",
+        "content": "",
+        "children": [
+          {
+            "level": 3,
+            "heading": "A は B より [adjective/verb]",
+            "content": "東京は大阪より大きい \"Tokyo is bigger than Osaka\" B = standard (より) A = subject being compared (は)"
+          },
+          {
+            "level": 3,
+            "heading": "Core pattern",
+            "content": "[Thing compared] は [Standard] より [Quality] 兄は私より速い \"My older brother is faster than me\" Standard of comparison"
+          }
+        ]
+      },
+      {
+        "level": 2,
+        "heading": "Usage and Meaning",
+        "content": "",
+        "children": [
+          {
+            "level": 3,
+            "heading": "Comparing two things",
+            "content": "りんごはみかんより高い \"Apples are more expensive than oranges\" 今日は昨日より寒い \"Today is colder than yesterday\" Direct comparison"
+          },
+          {
+            "level": 3,
+            "heading": "With verbs",
+            "content": "歩くより走るほうが速い \"Running is faster than walking\" 見るよりやるほうがいい \"Doing is better than watching\" Comparing actions"
+          },
+          {
+            "level": 3,
+            "heading": "With quantity",
+            "content": "100円より安い \"Cheaper than 100 yen\" 3時間より長い \"Longer than 3 hours\" Comparing amounts"
+          }
+        ]
+      },
+      {
+        "level": 2,
+        "heading": "Position of より",
+        "content": "",
+        "children": [
+          {
+            "level": 3,
+            "heading": "After the standard",
+            "content": "私より上手 \"Better than me\" 東京より遠い \"Farther than Tokyo\" より follows what you're comparing to"
+          },
+          {
+            "level": 3,
+            "heading": "Can start sentence",
+            "content": "より速く走れるようになった \"I became able to run faster (than before)\" Comparison implied"
+          }
+        ]
+      },
+      {
+        "level": 2,
+        "heading": "Polite and Casual",
+        "content": "",
+        "children": [
+          {
+            "level": 3,
+            "heading": "Works in both",
+            "content": "Casual: 昨日より暑いね \"It's hotter than yesterday\" Polite: 昨日より暑いです \"It's hotter than yesterday\" Adjust verb ending"
+          }
+        ]
+      },
+      {
+        "level": 2,
+        "heading": "Common Patterns",
+        "content": "",
+        "children": [
+          {
+            "level": 3,
+            "heading": "A より B (B is preferred)",
+            "content": "肉より魚が好き \"I like fish more than meat\" コーヒーより紅茶 \"Tea rather than coffee\" Preference expressed"
+          },
+          {
+            "level": 3,
+            "heading": "より + quantity words",
+            "content": "10人より多い \"More than 10 people\" 3回より少ない \"Fewer than 3 times\" Numerical comparisons"
+          },
+          {
+            "level": 3,
+            "heading": "より早く/遅く (time)",
+            "content": "いつもより早く起きた \"I woke up earlier than usual\" 予定より遅くなった \"It became later than planned\" Time comparisons"
+          }
+        ]
+      },
+      {
+        "level": 2,
+        "heading": "With のほうが (emphasis)",
+        "content": "",
+        "children": [
+          {
+            "level": 3,
+            "heading": "より...のほうが pattern",
+            "content": "夏より冬のほうが好き \"I like winter more than summer\" AよりBのほうが = B is more Double comparison markers Common in conversation"
+          }
+        ]
+      },
+      {
+        "level": 2,
+        "heading": "Negative Comparisons",
+        "content": "",
+        "children": [
+          {
+            "level": 3,
+            "heading": "With negative adjectives",
+            "content": "思ったより悪くない \"Not as bad as I thought\" 期待より良くなかった \"Wasn't as good as expected\" Expectations vs reality"
+          }
+        ]
+      },
+      {
+        "level": 2,
+        "heading": "より + も (even more)",
+        "content": "",
+        "children": [
+          {
+            "level": 3,
+            "heading": "Emphasis pattern",
+            "content": "昨日よりも寒い \"Even colder than yesterday\" 前よりもっと上手 \"Even better than before\" も adds emphasis"
+          }
+        ]
+      },
+      {
+        "level": 2,
+        "heading": "Common Contexts",
+        "content": "",
+        "children": [
+          {
+            "level": 3,
+            "heading": "Comparisons with people",
+            "content": "彼は私より若い \"He's younger than me\" 姉より背が高い \"Taller than my older sister\" Personal comparisons"
+          },
+          {
+            "level": 3,
+            "heading": "Comparisons with time",
+            "content": "去年より暖かい \"Warmer than last year\" 以前より楽になった \"It became easier than before\" Temporal comparisons"
+          },
+          {
+            "level": 3,
+            "heading": "Comparisons with places",
+            "content": "日本よりアメリカのほうが広い \"America is bigger than Japan\" 都会より田舎が好き \"I like the countryside more than the city\" Location comparisons"
+          }
+        ]
+      },
+      {
+        "level": 2,
+        "heading": "より vs のほうが",
+        "content": "",
+        "children": [
+          {
+            "level": 3,
+            "heading": "より alone (simple comparison)",
+            "content": "AよりB \"B (compared to A)\" Simple, direct Standard marker"
+          },
+          {
+            "level": 3,
+            "heading": "のほうが (emphatic)",
+            "content": "AよりBのほうが \"B is more (than A)\" Emphasizes the preferred More complete statement"
+          },
+          {
+            "level": 3,
+            "heading": "Example comparison",
+            "content": "Simple: コーヒーより紅茶 \"Tea rather than coffee\" Complete: コーヒーより紅茶のほうが好き \"I like tea more than coffee\" Different emphasis levels"
+          }
+        ]
+      },
+      {
+        "level": 2,
+        "heading": "Expressing \"More than expected\"",
+        "content": "",
+        "children": [
+          {
+            "level": 3,
+            "heading": "思ったより",
+            "content": "思ったより難しい \"More difficult than I thought\" 思ったより簡単だった \"Was easier than I thought\" Common expression"
+          },
+          {
+            "level": 3,
+            "heading": "予想より",
+            "content": "予想より多い \"More than expected\" 予想より早く終わった \"Finished earlier than expected\" Expectations"
+          }
+        ]
+      },
+      {
+        "level": 2,
+        "heading": "より as \"Rather than\"",
+        "content": "",
+        "children": [
+          {
+            "level": 3,
+            "heading": "Preference meaning",
+            "content": "家にいるより外に出たい \"I want to go out rather than stay home\" 寝るより勉強する \"Study rather than sleep\" Choice between options"
+          }
+        ]
+      },
+      {
+        "level": 2,
+        "heading": "より with numbers",
+        "content": "",
+        "children": [
+          {
+            "level": 3,
+            "heading": "More/less than amounts",
+            "content": "1000円より高い \"More expensive than 1000 yen\" 5キロより重い \"Heavier than 5 kilos\" 50%より多い \"More than 50%\" Quantitative comparisons"
+          }
+        ]
+      },
+      {
+        "level": 2,
+        "heading": "Multiple Comparisons",
+        "content": "",
+        "children": [
+          {
+            "level": 3,
+            "heading": "Comparing several things",
+            "content": "AよりB、BよりC \"B more than A, C more than B\" 春より夏、夏より秋が好き \"I like summer more than spring, fall more than summer\" Ranking preferences"
+          }
+        ]
+      },
+      {
+        "level": 2,
+        "heading": "より in formal writing",
+        "content": "",
+        "children": [
+          {
+            "level": 3,
+            "heading": "Written style",
+            "content": "昨年より増加した \"Increased compared to last year\" 前回より改善された \"Improved compared to last time\" Formal, objective tone"
+          }
+        ]
+      },
+      {
+        "level": 2,
+        "heading": "Common Mistakes",
+        "content": "",
+        "children": [
+          {
+            "level": 3,
+            "heading": "Wrong particle order",
+            "content": "Wrong: 私は兄より速い ⚠️ (Means: I am faster than my brother) If you mean: 兄は私より速い ✓ \"My brother is faster than me\" Check who is faster"
+          },
+          {
+            "level": 3,
+            "heading": "Forgetting より",
+            "content": "Incomplete: 東京、大阪大きい ⚠️ Correct: 東京は大阪より大きい ✓ \"Tokyo is bigger than Osaka\" より is required"
+          },
+          {
+            "level": 3,
+            "heading": "Double particles confusion",
+            "content": "Wrong: よりが ⚠️ Correct: より ✓ Or: のほうが ✓ Don't combine directly"
+          }
+        ]
+      },
+      {
+        "level": 2,
+        "heading": "より + いい/悪い",
+        "content": "",
+        "children": [
+          {
+            "level": 3,
+            "heading": "Better/worse than",
+            "content": "これよりいい \"Better than this\" 前より悪くなった \"Got worse than before\" Common evaluation"
+          }
+        ]
+      },
+      {
+        "level": 2,
+        "heading": "Superlatives vs Comparisons",
+        "content": "",
+        "children": [
+          {
+            "level": 3,
+            "heading": "より = comparative (2 things)",
+            "content": "AよりB \"B more than A\" Two items only"
+          },
+          {
+            "level": 3,
+            "heading": "一番 = superlative (among all)",
+            "content": "一番好き \"Like most (of all)\" Among multiple items"
+          }
+        ]
+      },
+      {
+        "level": 2,
+        "heading": "Practice Sentences",
+        "content": "",
+        "children": [
+          {
+            "level": 3,
+            "heading": "Basic",
+            "content": "今日は昨日より寒い \"Today is colder than yesterday\" 私より背が高い \"Taller than me\" これよりあれがいい \"That one is better than this\""
+          },
+          {
+            "level": 3,
+            "heading": "Intermediate",
+            "content": "思ったより時間がかかった \"It took more time than I thought\" 日本語は英語より難しいと思う \"I think Japanese is more difficult than English\" 去年より成績が上がった \"My grades improved compared to last year\""
+          },
+          {
+            "level": 3,
+            "heading": "Advanced",
+            "content": "予想より多くの人が参加してくれて、 イベントは大成功だった。前回より もっと準備をしたかいがあった。 来年はさらによいものにしたい。 \"More people participated than expected, and the event was a great success. The extra preparation compared to last time was worth it. I want to make it even better next year.\" 現代の生活は50年前よりずっと便利に なったが、その反面、人々のストレスは 以前よりも増えているように感じる。 技術の進歩が必ずしも幸福の増加に つながるとは限らない。 \"Modern life has become much more convenient than 50 years ago, but on the other hand, people's stress seems to have increased compared to before. Technological progress doesn't necessarily lead to increased happiness.\""
+          }
+        ]
+      },
+      {
+        "level": 2,
+        "heading": "Related Grammar Points",
+        "content": "のほうが - More than (emphatic) 一番 - Most (superlative) ほど - As...as (extent) くらい/ぐらい - About (approximate degree) Comparative adjectives - More/less forms 同じ - Same (equality comparison)",
+        "children": [
+          {
+            "level": 3,
+            "heading": "Company",
+            "content": "About Pricing Blog Contact"
+          },
+          {
+            "level": 3,
+            "heading": "Legal",
+            "content": "Privacy Policy Terms of Service Cookie Policy"
+          }
+        ]
+      }
+    ]
+  },
+  "metadata": {
+    "extracted_at": "2026-01-01T22:19:37.973130100Z",
+    "duration_ms": 4,
+    "extractors_matched": [
+      "metadata",
+      "examples",
+      "sections"
+    ],
+    "extractors_failed": [
+      "vocab_tables",
+      "definitions",
+      "content_blocks"
+    ]
+  }
+}

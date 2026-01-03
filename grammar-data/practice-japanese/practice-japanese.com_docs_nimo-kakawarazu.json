@@ -1,0 +1,285 @@
+{
+  "config_name": "Language Learning Extractor",
+  "url": "https://practice-japanese.com/docs/nimo-kakawarazu/",
+  "data": {
+    "sections": [
+      {
+        "level": 2,
+        "heading": "What is 〜にもかかわらず?",
+        "content": "〜にもかかわらず (nimo kakawarazu) is a very formal expression meaning \"despite\" or \"in spite of.\" It shows strong contrast and is used primarily in formal writing, news, and official contexts.\n\nEnglish equivalent: \"despite,\" \"in spite of,\" \"regardless of,\" \"notwithstanding\"\n\nStructure: [Verb/Adjective plain form / Noun] + にもかかわらず\n\n雨が降った (ame ga futta - it rained) + にもかかわらず = 雨が降ったにもかかわらず \"despite the rain\" 高い (takai - expensive) + にもかかわらず = 高いにもかかわらず \"despite being expensive\" 危険 (kiken - danger) + にもかかわらず = 危険にもかかわらず \"despite the danger\""
+      },
+      {
+        "level": 2,
+        "heading": "Basic Formation",
+        "content": "",
+        "children": [
+          {
+            "level": 3,
+            "heading": "With verbs (plain form)",
+            "content": "[Verb plain form] + にもかかわらず\n\n雨が降ったにもかかわらず (ame ga futta nimo kakawarazu) - \"despite it raining\" 努力したにもかかわらず (doryoku shita nimo kakawarazu) - \"despite making efforts\" 警告したにもかかわらず (keikoku shita nimo kakawarazu) - \"despite warning\""
+          },
+          {
+            "level": 3,
+            "heading": "With い-adjectives",
+            "content": "[い-adjective] + にもかかわらず\n\n高いにもかかわらず (takai nimo kakawarazu) - \"despite being expensive\" 寒いにもかかわらず (samui nimo kakawarazu) - \"despite being cold\" 難しいにもかかわらず (muzukashii nimo kakawarazu) - \"despite being difficult\""
+          },
+          {
+            "level": 3,
+            "heading": "With な-adjectives",
+            "content": "[な-adjective] + である + にもかかわらず [な-adjective] + な + にもかかわらず (less common)\n\n便利であるにもかかわらず (benri de aru nimo kakawarazu) - \"despite being convenient\" 危険であるにもかかわらず (kiken de aru nimo kakawarazu) - \"despite being dangerous\""
+          },
+          {
+            "level": 3,
+            "heading": "With nouns",
+            "content": "[Noun] + にもかかわらず [Noun] + である + にもかかわらず\n\n雨にもかかわらず (ame nimo kakawarazu) - \"despite the rain\" 反対にもかかわらず (hantai nimo kakawarazu) - \"despite opposition\" 病気であるにもかかわらず (byouki de aru nimo kakawarazu) - \"despite being sick\""
+          }
+        ]
+      },
+      {
+        "level": 2,
+        "heading": "Strong Contrast",
+        "content": "",
+        "children": [
+          {
+            "level": 3,
+            "heading": "Emphasizing opposition",
+            "content": "雨が降ったにもかかわらず、試合は行われた。 Ame ga futta nimo kakawarazu, shiai wa okonawareta. \"Despite the rain, the game was held.\" 反対が多かったにもかかわらず、計画は実行された。 Hantai ga ookatta nimo kakawarazu, keikaku wa jikkou sareta. \"Despite much opposition, the plan was executed.\" 警告したにもかかわらず、事故が起きた。 Keikoku shita nimo kakawarazu, jiko ga okita. \"Despite the warning, an accident occurred.\""
+          }
+        ]
+      },
+      {
+        "level": 2,
+        "heading": "News and Media",
+        "content": "",
+        "children": [
+          {
+            "level": 3,
+            "heading": "Journalistic usage",
+            "content": "景気が悪いにもかかわらず、株価は上昇した。 Keiki ga warui nimo kakawarazu, kabuka wa joushou shita. \"Despite the bad economy, stock prices rose.\" 批判があるにもかかわらず、政策は続行される。 Hihan ga aru nimo kakawarazu, seisaku wa zokkou sareru. \"Despite criticism, the policy will continue.\" 困難であるにもかかわらず、挑戦を続ける。 Konnan de aru nimo kakawarazu, chousen wo tsuzukeru. \"Despite difficulties, they continue the challenge.\""
+          }
+        ]
+      },
+      {
+        "level": 2,
+        "heading": "Formal Writing",
+        "content": "",
+        "children": [
+          {
+            "level": 3,
+            "heading": "Academic and official",
+            "content": "多くの努力をしたにもかかわらず、目標は達成できなかった。 Ooku no doryoku wo shita nimo kakawarazu, mokuhyou wa tassei dekinakatta. \"Despite many efforts, the goal could not be achieved.\" 経験が豊富であるにもかかわらず、失敗した。 Keiken ga houfu de aru nimo kakawarazu, shippai shita. \"Despite having extensive experience, it failed.\" 法律で禁止されているにもかかわらず、違反が続いている。 Houritsu de kinshi sarete iru nimo kakawarazu,ihan ga tsuzuite iru. \"Despite being prohibited by law, violations continue.\""
+          }
+        ]
+      },
+      {
+        "level": 2,
+        "heading": "Criticism and Complaints",
+        "content": "",
+        "children": [
+          {
+            "level": 3,
+            "heading": "Formal objections",
+            "content": "約束したにもかかわらず、守られなかった。 Yakusoku shita nimo kakawarazu, mamorarenakatta. \"Despite the promise, it wasn't kept.\" 危険であるにもかかわらず、対策が取られていない。 Kiken de aru nimo kakawarazu, taisaku ga torarete inai. \"Despite being dangerous, no measures are being taken.\" 明らかな問題があるにもかかわらず、改善されない。 Akiraka na mondai ga aru nimo kakawarazu, kaizen sarenai. \"Despite obvious problems, improvements aren't being made.\""
+          }
+        ]
+      },
+      {
+        "level": 2,
+        "heading": "Shortened Form: かかわらず",
+        "content": "",
+        "children": [
+          {
+            "level": 3,
+            "heading": "Without にも",
+            "content": "[Noun] + に + かかわらず = \"regardless of\"\n\n天候にかかわらず (tenkou ni kakawarazu) - \"regardless of weather\" 年齢にかかわらず (nenrei ni kakawarazu) - \"regardless of age\" 経験にかかわらず (keiken ni kakawarazu) - \"regardless of experience\" 国籍にかかわらず (kokuseki ni kakawarazu) - \"regardless of nationality\" 天候にかかわらず、イベントは開催されます。 Tenkou ni kakawarazu, ibento wa kaisai saremasu. \"The event will be held regardless of weather.\" 年齢にかかわらず、誰でも参加できます。 Nenrei ni kakawarazu, dare demo sanka dekimasu. \"Anyone can participate regardless of age.\""
+          }
+        ]
+      },
+      {
+        "level": 2,
+        "heading": "Comparing にもかかわらず and のに",
+        "content": "",
+        "children": [
+          {
+            "level": 3,
+            "heading": "Very formal vs casual disappointment",
+            "content": "にもかかわらず - Very formal:\n\n努力したにもかかわらず、失敗した。 Doryoku shita nimo kakawarazu, shippai shita. \"Despite making efforts, it failed.\" (formal, neutral)\n\nのに - Casual with disappointment:\n\n努力したのに、失敗した。 Doryoku shita noni, shippai shita. \"Even though I made efforts, I failed.\" (casual, disappointed)\n\n| Pattern | Formality | Emotion | | -------------- | ----------- | -------------- | | にもかかわらず | Very formal | Neutral | | のに | Casual | Disappointment |\n\nSee: 〜のに (Even though)"
+          }
+        ]
+      },
+      {
+        "level": 2,
+        "heading": "Comparing にもかかわらず and ものの",
+        "content": "",
+        "children": [
+          {
+            "level": 3,
+            "heading": "Very formal vs formal",
+            "content": "にもかかわらず - Very formal, strong contrast:\n\n警告したにもかかわらず、事故が起きた。 Keikoku shita nimo kakawarazu, jiko ga okita. \"Despite the warning, an accident occurred.\" (very formal)\n\nものの - Formal:\n\n警告したものの、事故が起きた。 Keikoku shita monono, jiko ga okita. \"Although warned, an accident occurred.\" (formal)\n\n| Pattern | Formality | Contrast strength | | -------------- | ----------- | ----------------- | | にもかかわらず | Very formal | Strong | | ものの | Formal | Medium |\n\nSee: 〜ものの (Although)"
+          }
+        ]
+      },
+      {
+        "level": 2,
+        "heading": "Legal and Official Documents",
+        "content": "",
+        "children": [
+          {
+            "level": 3,
+            "heading": "Formal documentation",
+            "content": "規則であるにもかかわらず、違反が見られる。 Kisoku de aru nimo kakawarazu,ihan ga mirareru. \"Despite being a rule, violations are observed.\" 契約にもかかわらず、履行されていない。 Keiyaku nimo kakawarazu, rikou sarete inai. \"Despite the contract, it's not being fulfilled.\" 禁止されているにもかかわらず、使用が続いている。 Kinshi sarete iru nimo kakawarazu, shiyou ga tsuzuite iru. \"Despite being prohibited, use continues.\""
+          }
+        ]
+      },
+      {
+        "level": 2,
+        "heading": "Not Used in Casual Speech",
+        "content": "",
+        "children": [
+          {
+            "level": 3,
+            "heading": "Too formal for conversation",
+            "content": "にもかかわらず is extremely formal and never used in casual conversation.\n\nCasual conversation: ❌ 雨が降ったにもかかわらず、行った (too formal) ✓ 雨が降ったけど、行った ✓ 雨が降ったのに、行った Formal writing/news: ✓ 雨天にもかかわらず、イベントは開催された ✓ 反対があるにもかかわらず、計画は続行される"
+          }
+        ]
+      },
+      {
+        "level": 2,
+        "heading": "Common Expressions",
+        "content": "〜にもかかわらず (~nimo kakawarazu) - \"despite ~\" 雨にもかかわらず (ame nimo kakawarazu) - \"despite the rain\" 反対にもかかわらず (hantai nimo kakawarazu) - \"despite opposition\" 困難にもかかわらず (konnan nimo kakawarazu) - \"despite difficulties\" 警告にもかかわらず (keikoku nimo kakawarazu) - \"despite warnings\" 〜にかかわらず (~ni kakawarazu) - \"regardless of ~\" 天候にかかわらず (tenkou ni kakawarazu) - \"regardless of weather\" 年齢にかかわらず (nenrei ni kakawarazu) - \"regardless of age\""
+      },
+      {
+        "level": 2,
+        "heading": "With である",
+        "content": "",
+        "children": [
+          {
+            "level": 3,
+            "heading": "Extra formality",
+            "content": "危険であるにもかかわらず (kiken de aru nimo kakawarazu) \"despite being dangerous\" 明白であるにもかかわらず (meihaku de aru nimo kakawarazu) \"despite being obvious\" 違法であるにもかかわらず (ihou de aru nimo kakawarazu) \"despite being illegal\""
+          }
+        ]
+      },
+      {
+        "level": 2,
+        "heading": "Position in Sentence",
+        "content": "",
+        "children": [
+          {
+            "level": 3,
+            "heading": "Clause connector",
+            "content": "[Contrasting fact] + にもかかわらず + [Main statement] 高価であるにもかかわらず、人気がある。 Kouka de aru nimo kakawarazu, ninki ga aru. \"Despite being expensive, it's popular.\""
+          }
+        ]
+      },
+      {
+        "level": 2,
+        "heading": "Common Mistakes",
+        "content": "",
+        "children": [
+          {
+            "level": 3,
+            "heading": "Mistake 1: Using in casual conversation",
+            "content": "❌ 昨日雨だったにもかかわらず、出かけた (way too formal) ✓ 昨日雨だったけど、出かけた\n\nOnly use in formal writing, news, official documents."
+          },
+          {
+            "level": 3,
+            "heading": "Mistake 2: Wrong formation with な-adjectives",
+            "content": "❌ 便利にもかかわらず ✓ 便利であるにもかかわらず\n\nUse である with な-adjectives for formality."
+          },
+          {
+            "level": 3,
+            "heading": "Mistake 3: Confusing にかかわらず and にもかかわらず",
+            "content": "にもかかわらず = despite (contrast with specific fact) にかかわらず = regardless of (general condition) 雨にもかかわらず = despite the rain (it rained) 天候にかかわらず = regardless of weather (any weather)"
+          },
+          {
+            "level": 3,
+            "heading": "Mistake 4: Overusing",
+            "content": "Even in formal writing, don't overuse. Vary with ものの, が, etc."
+          }
+        ]
+      },
+      {
+        "level": 2,
+        "heading": "Summary",
+        "content": "Key Points:\n\nにもかかわらず expresses very formal \"despite\" Formation: [Plain form / である] + にもかかわらず Shows strong contrast in formal contexts Common in news, legal documents, academic writing Shortened: にかかわらず \"regardless of\" Never used in casual conversation More formal than ものの and much more than のに Essential for formal written expression",
+        "children": [
+          {
+            "level": 3,
+            "heading": "Company",
+            "content": "About Pricing Blog Contact"
+          },
+          {
+            "level": 3,
+            "heading": "Legal",
+            "content": "Privacy Policy Terms of Service Cookie Policy"
+          }
+        ]
+      }
+    ],
+    "metadata": {
+      "title": "〜にもかかわらず (Despite)"
+    },
+    "examples": [
+      {
+        "sentence": "にもかかわらず expresses very formal \"despite\""
+      },
+      {
+        "sentence": "Formation: [Plain form / である] + にもかかわらず"
+      },
+      {
+        "sentence": "Shows strong contrast in formal contexts"
+      },
+      {
+        "sentence": "Common in news, legal documents, academic writing"
+      },
+      {
+        "sentence": "Shortened: にかかわらず \"regardless of\""
+      },
+      {
+        "sentence": "Never used in casual conversation"
+      },
+      {
+        "sentence": "More formal than ものの and much more than のに"
+      },
+      {
+        "sentence": "Essential for formal written expression"
+      },
+      {
+        "sentence": "About"
+      },
+      {
+        "sentence": "Pricing"
+      },
+      {
+        "sentence": "Blog"
+      },
+      {
+        "sentence": "Contact"
+      },
+      {
+        "sentence": "Privacy Policy"
+      },
+      {
+        "sentence": "Terms of Service"
+      },
+      {
+        "sentence": "Cookie Policy"
+      }
+    ]
+  },
+  "metadata": {
+    "extracted_at": "2026-01-01T22:19:32.214852300Z",
+    "duration_ms": 6,
+    "extractors_matched": [
+      "metadata",
+      "examples",
+      "sections"
+    ],
+    "extractors_failed": [
+      "vocab_tables",
+      "definitions",
+      "content_blocks"
+    ]
+  }
+}

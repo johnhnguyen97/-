@@ -1,0 +1,304 @@
+{
+  "config_name": "Language Learning Extractor",
+  "url": "https://practice-japanese.com/docs/ni-totte/",
+  "data": {
+    "metadata": {
+      "title": "〜にとって (For/To)"
+    },
+    "examples": [
+      {
+        "sentence": "にとって expresses \"for\" from someone's perspective"
+      },
+      {
+        "sentence": "Formation: [Person/Group] + にとって"
+      },
+      {
+        "sentence": "Shows subjective significance or importance"
+      },
+      {
+        "sentence": "Common with: 大切, 重要, 必要, 特別"
+      },
+      {
+        "sentence": "Use の to modify nouns: にとっての"
+      },
+      {
+        "sentence": "Different from に (indirect object)"
+      },
+      {
+        "sentence": "Different from から見ると (viewpoint/observation)"
+      },
+      {
+        "sentence": "Essential for expressing personal relevance"
+      },
+      {
+        "sentence": "About"
+      },
+      {
+        "sentence": "Pricing"
+      },
+      {
+        "sentence": "Blog"
+      },
+      {
+        "sentence": "Contact"
+      },
+      {
+        "sentence": "Privacy Policy"
+      },
+      {
+        "sentence": "Terms of Service"
+      },
+      {
+        "sentence": "Cookie Policy"
+      }
+    ],
+    "sections": [
+      {
+        "level": 2,
+        "heading": "What is 〜にとって?",
+        "content": "〜にとって (ni totte) expresses \"for\" or \"to\" someone, indicating from whose perspective or for whom something is significant, important, or true. It shows subjective viewpoint or personal relevance.\n\nEnglish equivalent: \"for,\" \"to,\" \"from the perspective of\"\n\nStructure: [Person/Group] + にとって\n\n私 (watashi - I) + にとって = 私にとって \"for me\" / \"to me\" 彼 (kare - he) + にとって = 彼にとって \"for him\" / \"to him\" 日本人 (nihonjin - Japanese people) + にとって = 日本人にとって \"for Japanese people\""
+      },
+      {
+        "level": 2,
+        "heading": "Basic Formation",
+        "content": "",
+        "children": [
+          {
+            "level": 3,
+            "heading": "With people",
+            "content": "[Person/Pronoun] + にとって\n\n私にとって (watashi ni totte) - \"for me\" あなたにとって (anata ni totte) - \"for you\" 彼にとって (kare ni totte) - \"for him\" 彼女にとって (kanojo ni totte) - \"for her\""
+          },
+          {
+            "level": 3,
+            "heading": "With groups",
+            "content": "[Group/Organization] + にとって\n\n学生にとって (gakusei ni totte) - \"for students\" 会社にとって (kaisha ni totte) - \"for the company\" 日本人にとって (nihonjin ni totte) - \"for Japanese people\" 私たちにとって (watashitachi ni totte) - \"for us\""
+          }
+        ]
+      },
+      {
+        "level": 2,
+        "heading": "Expressing Importance",
+        "content": "",
+        "children": [
+          {
+            "level": 3,
+            "heading": "What matters to someone",
+            "content": "私にとって家族は大切だ。 Watashi ni totte kazoku wa taisetsu da. \"Family is important to me.\" 彼にとって仕事が全てだ。 Kare ni totte shigoto ga subete da. \"Work is everything to him.\" 学生にとって時間は貴重だ。 Gakusei ni totte jikan wa kichou da. \"Time is precious for students.\""
+          }
+        ]
+      },
+      {
+        "level": 2,
+        "heading": "Personal Meaning",
+        "content": "",
+        "children": [
+          {
+            "level": 3,
+            "heading": "Subjective significance",
+            "content": "これは私にとって特別な本です。 Kore wa watashi ni totte tokubetsu na hon desu. \"This is a special book to me.\" 日本は彼にとって第二の故郷だ。 Nihon wa kare ni totte daini no kokyou da. \"Japan is a second home to him.\" この経験は私にとって貴重だった。 Kono keiken wa watashi ni totte kichou datta. \"This experience was valuable to me.\""
+          }
+        ]
+      },
+      {
+        "level": 2,
+        "heading": "Difficulty or Ease",
+        "content": "",
+        "children": [
+          {
+            "level": 3,
+            "heading": "From someone's perspective",
+            "content": "私にとって日本語は難しい。 Watashi ni totte nihongo wa muzukashii. \"Japanese is difficult for me.\" 子供にとってこの問題は簡単だ。 Kodomo ni totte kono mondai wa kantan da. \"This problem is easy for children.\" 彼女にとって数学は得意だ。 Kanojo ni totte suugaku wa tokui da. \"She's good at math.\" / \"Math is her strong point.\""
+          }
+        ]
+      },
+      {
+        "level": 2,
+        "heading": "Benefits and Advantages",
+        "content": "",
+        "children": [
+          {
+            "level": 3,
+            "heading": "What's good for someone",
+            "content": "健康にとって運動は重要だ。 Kenkou ni totte undou wa juuyou da. \"Exercise is important for health.\" 会社にとって利益は最優先だ。 Kaisha ni totte rieki wa saiyuusen da. \"Profit is the top priority for the company.\" 環境にとって良いことをする。 Kankyou ni totte yoi koto wo suru. \"Do things that are good for the environment.\""
+          }
+        ]
+      },
+      {
+        "level": 2,
+        "heading": "Comparing Perspectives",
+        "content": "",
+        "children": [
+          {
+            "level": 3,
+            "heading": "Different viewpoints",
+            "content": "私にとっては簡単だが、彼にとっては難しい。 Watashi ni totte wa kantan da ga, kare ni totte wa muzukashii. \"It's easy for me, but difficult for him.\" 日本人にとって当たり前のことが、外国人にとっては不思議だ。 Nihonjin ni totte atarimae no koto ga, gaikokujin ni totte wa fushigi da. \"What's normal for Japanese people is strange to foreigners.\""
+          }
+        ]
+      },
+      {
+        "level": 2,
+        "heading": "With の",
+        "content": "",
+        "children": [
+          {
+            "level": 3,
+            "heading": "Modifying nouns",
+            "content": "私にとっての幸せ (watashi ni totte no shiawase) - \"happiness for me\" 彼にとっての成功 (kare ni totte no seikou) - \"success for him\" これが私にとっての答えだ。 Kore ga watashi ni totte no kotae da. \"This is the answer for me.\" 彼にとっての理想の仕事。 Kare ni totte no risou no shigoto. \"The ideal job for him.\""
+          }
+        ]
+      },
+      {
+        "level": 2,
+        "heading": "Negative Aspects",
+        "content": "",
+        "children": [
+          {
+            "level": 3,
+            "heading": "What's bad for someone",
+            "content": "私にとって悪いニュースだ。 Watashi ni totte warui nyuusu da. \"It's bad news for me.\" 健康にとって良くない。 Kenkou ni totte yokunai. \"Not good for health.\" 会社にとって大きな損失だ。 Kaisha ni totte ookina sonshitsu da. \"It's a big loss for the company.\""
+          }
+        ]
+      },
+      {
+        "level": 2,
+        "heading": "Personal Necessity",
+        "content": "",
+        "children": [
+          {
+            "level": 3,
+            "heading": "What someone needs",
+            "content": "私にとって必要なもの。 Watashi ni totte hitsuyou na mono. \"Things I need.\" / \"Things necessary for me.\" 彼にとって欠かせない存在だ。 Kare ni totte kakasenai sonzai da. \"An indispensable presence to him.\" 学生にとって辞書は必需品だ。 Gakusei ni totte jisho wa hitsujuhin da. \"A dictionary is a necessity for students.\""
+          }
+        ]
+      },
+      {
+        "level": 2,
+        "heading": "Polite Forms",
+        "content": "私にとって重要です。 Watashi ni totte juuyou desu. \"It's important to me.\" これは会社にとって大きなチャンスです。 Kore wa kaisha ni totte ookina chansu desu. \"This is a big opportunity for the company.\" 日本にとって大切な問題です。 Nihon ni totte taisetsu na mondai desu. \"It's an important issue for Japan.\""
+      },
+      {
+        "level": 2,
+        "heading": "Common Expressions",
+        "content": "私にとって (watashi ni totte) - \"for me\" あなたにとって (anata ni totte) - \"for you\" 彼/彼女にとって (kare/kanojo ni totte) - \"for him/her\" 学生にとって (gakusei ni totte) - \"for students\" 日本にとって (nihon ni totte) - \"for Japan\" 会社にとって (kaisha ni totte) - \"for the company\" 〜にとっての (ni totte no) - \"for ~\" (modifying noun)"
+      },
+      {
+        "level": 2,
+        "heading": "Comparing にとって and に",
+        "content": "",
+        "children": [
+          {
+            "level": 3,
+            "heading": "Perspective vs indirect object",
+            "content": "にとって - From perspective/for someone:\n\n私にとって大切だ。 Watashi ni totte taisetsu da. \"It's important to me.\" (subjective importance)\n\nに - Indirect object:\n\n私に手紙をくれた。 Watashi ni tegami wo kureta. \"Gave me a letter.\" (recipient)\n\n| Pattern | Meaning | Example | | -------- | ---------------- | -------------- | | にとって | From perspective | 私にとって大切 | | に | Indirect object | 私に手紙を |"
+          }
+        ]
+      },
+      {
+        "level": 2,
+        "heading": "Comparing にとって and から見ると",
+        "content": "",
+        "children": [
+          {
+            "level": 3,
+            "heading": "Personal significance vs viewpoint",
+            "content": "にとって - Personal relevance/significance:\n\n私にとって大切だ。 Watashi ni totte taisetsu da. \"It's important to me.\" (personal value)\n\nから見ると - From viewpoint (observation):\n\n私から見ると正しい。 Watashi kara miru to tadashii. \"From my viewpoint, it's correct.\" (observation/judgment)\n\n| Pattern | Focus | Example | | ---------- | --------------------- | ------------------ | | にとって | Personal significance | 私にとって大切 | | から見ると | Viewpoint/observation | 私から見ると正しい |\n\nSee: 〜から見ると (From viewpoint)"
+          }
+        ]
+      },
+      {
+        "level": 2,
+        "heading": "With Abstract Concepts",
+        "content": "",
+        "children": [
+          {
+            "level": 3,
+            "heading": "For concepts and ideas",
+            "content": "社会にとって重要な問題。 Shakai ni totte juuyou na mondai. \"An important issue for society.\" 経済にとってプラスだ。 Keizai ni totte purasu da. \"It's a plus for the economy.\" 未来にとって必要なこと。 Mirai ni totte hitsuyou na koto. \"Things necessary for the future.\""
+          }
+        ]
+      },
+      {
+        "level": 2,
+        "heading": "Expressing Uniqueness",
+        "content": "",
+        "children": [
+          {
+            "level": 3,
+            "heading": "Special to someone",
+            "content": "私にとって唯一の希望だ。 Watashi ni totte yuiitsu no kibou da. \"It's my only hope.\" 彼女にとってかけがえのない人。 Kanojo ni totte kakegae no nai hito. \"An irreplaceable person to her.\" これは私にとって一生の宝物だ。 Kore wa watashi ni totte isshou no takaramono da. \"This is a lifelong treasure to me.\""
+          }
+        ]
+      },
+      {
+        "level": 2,
+        "heading": "Business and Organizations",
+        "content": "",
+        "children": [
+          {
+            "level": 3,
+            "heading": "Corporate perspective",
+            "content": "弊社にとって重要なお客様です。 Heisha ni totte juuyou na okyakusama desu. \"You're an important customer for our company.\" 業界にとって大きな変化だ。 Gyoukai ni totte ookina henka da. \"It's a big change for the industry.\" 国にとって深刻な問題だ。 Kuni ni totte shinkoku na mondai da. \"It's a serious problem for the country.\""
+          }
+        ]
+      },
+      {
+        "level": 2,
+        "heading": "Common Mistakes",
+        "content": "",
+        "children": [
+          {
+            "level": 3,
+            "heading": "Mistake 1: Using with actions",
+            "content": "❌ 私にとって食べる ✓ 私にとって食べることは重要だ\n\nにとって describes states/qualities, not actions directly."
+          },
+          {
+            "level": 3,
+            "heading": "Mistake 2: Confusing with に",
+            "content": "私にとって難しい = difficult for me (subjective) 私に教える = teach to me (recipient)"
+          },
+          {
+            "level": 3,
+            "heading": "Mistake 3: Wrong particle",
+            "content": "❌ 私をとって ✓ 私にとって\n\nUse に, not を."
+          },
+          {
+            "level": 3,
+            "heading": "Mistake 4: Overusing",
+            "content": "Don't use にとって when simple に works.\n\nUnnecessary: 私にとって手紙をくれた Better: 私に手紙をくれた"
+          }
+        ]
+      },
+      {
+        "level": 2,
+        "heading": "Summary",
+        "content": "Key Points:\n\nにとって expresses \"for\" from someone's perspective Formation: [Person/Group] + にとって Shows subjective significance or importance Common with: 大切, 重要, 必要, 特別 Use の to modify nouns: にとっての Different from に (indirect object) Different from から見ると (viewpoint/observation) Essential for expressing personal relevance",
+        "children": [
+          {
+            "level": 3,
+            "heading": "Company",
+            "content": "About Pricing Blog Contact"
+          },
+          {
+            "level": 3,
+            "heading": "Legal",
+            "content": "Privacy Policy Terms of Service Cookie Policy"
+          }
+        ]
+      }
+    ]
+  },
+  "metadata": {
+    "extracted_at": "2026-01-01T22:19:32.224661Z",
+    "duration_ms": 4,
+    "extractors_matched": [
+      "metadata",
+      "examples",
+      "sections"
+    ],
+    "extractors_failed": [
+      "vocab_tables",
+      "definitions",
+      "content_blocks"
+    ]
+  }
+}

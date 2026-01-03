@@ -1,0 +1,327 @@
+{
+  "config_name": "Language Learning Extractor",
+  "url": "https://practice-japanese.com/docs/verb-dictionary/",
+  "data": {
+    "examples": [
+      {
+        "sentence": "All end in -u sound"
+      },
+      {
+        "sentence": "買う, 書く, 読む, etc."
+      },
+      {
+        "sentence": "End in -eru or -iru"
+      },
+      {
+        "sentence": "食べる, 見る, 起きる, etc."
+      },
+      {
+        "sentence": "する, 来る"
+      },
+      {
+        "sentence": "Verb Groups"
+      },
+      {
+        "sentence": "Nai-form (Negative)"
+      },
+      {
+        "sentence": "Te-form Conjugation"
+      },
+      {
+        "sentence": "About"
+      },
+      {
+        "sentence": "Pricing"
+      },
+      {
+        "sentence": "Blog"
+      },
+      {
+        "sentence": "Contact"
+      },
+      {
+        "sentence": "Privacy Policy"
+      },
+      {
+        "sentence": "Terms of Service"
+      },
+      {
+        "sentence": "Cookie Policy"
+      }
+    ],
+    "metadata": {
+      "title": "Dictionary Form (Plain Form)"
+    },
+    "sections": [
+      {
+        "level": 2,
+        "heading": "What is Dictionary Form?",
+        "content": "Dictionary form (辞書形) is the basic, unconjugated form of a verb. It's called \"dictionary form\" because it's how verbs appear in dictionaries.\n\n食べる (taberu) - eat 行く (iku) - go する (suru) - do\n\nAlso called: plain form , basic form , u-form"
+      },
+      {
+        "level": 2,
+        "heading": "When to Use Dictionary Form",
+        "content": "",
+        "children": [
+          {
+            "level": 3,
+            "heading": "1. Casual Conversations",
+            "content": "With friends, family, people younger than you:\n\n何食べる？ \"What will you eat?\" 映画見る？ \"Will you watch a movie?\" 明日行く \"I'll go tomorrow\""
+          },
+          {
+            "level": 3,
+            "heading": "2. Inner Thoughts/Narrative",
+            "content": "今日は何をしようかな... \"What should I do today...\" そろそろ帰る時間だ \"It's about time to go home\""
+          },
+          {
+            "level": 3,
+            "heading": "3. Grammar Patterns",
+            "content": "Many patterns require dictionary form:\n\n食べることができる - can eat 行くつもりだ - intend to go 飲む前に - before drinking"
+          },
+          {
+            "level": 3,
+            "heading": "4. Quoting/Reporting",
+            "content": "彼は行くと言った \"He said he would go\" 明日雨が降ると思う \"I think it will rain tomorrow\""
+          },
+          {
+            "level": 3,
+            "heading": "5. Modifying Nouns",
+            "content": "食べる人 - person who eats 行く時間 - time to go 読む本 - book to read"
+          }
+        ]
+      },
+      {
+        "level": 2,
+        "heading": "All Verb Groups in Dictionary Form",
+        "content": "",
+        "children": [
+          {
+            "level": 3,
+            "heading": "Godan Verbs",
+            "content": "End in -u sounds:\n\n書く (kaku) - write 読む (yomu) - read 話す (hanasu) - speak 買う (kau) - buy 待つ (matsu) - wait 遊ぶ (asobu) - play 飲む (nomu) - drink 帰る (kaeru) - return 泳ぐ (oyogu) - swim"
+          },
+          {
+            "level": 3,
+            "heading": "Ichidan Verbs",
+            "content": "End in -eru or -iru :\n\n食べる (taberu) - eat 見る (miru) - see 寝る (neru) - sleep 起きる (okiru) - wake up 教える (oshieru) - teach 着る (kiru) - wear 出る (deru) - go out 開ける (akeru) - open"
+          },
+          {
+            "level": 3,
+            "heading": "Irregular Verbs",
+            "content": "する (suru) - do 来る (kuru) - come"
+          }
+        ]
+      },
+      {
+        "level": 2,
+        "heading": "Polite vs Plain",
+        "content": "Dictionary form is plain . Compare with polite:\n\n| Dictionary (Plain) | Masu (Polite) | Meaning | | ------------------ | ------------- | ------- | | 食べる | 食べます | eat | | 行く | 行きます | go | | する | します | do | | 来る | 来ます | come | | 飲む | 飲みます | drink |\n\nImportant: Plain ≠ rude. Context matters!"
+      },
+      {
+        "level": 2,
+        "heading": "Present/Future Tense",
+        "content": "Dictionary form expresses both present and future:\n\n毎日本を読む \"I read books every day\" (present habitual) 明日本を読む \"I'll read a book tomorrow\" (future)\n\nContext determines which meaning."
+      },
+      {
+        "level": 2,
+        "heading": "Common Conversation Patterns",
+        "content": "",
+        "children": [
+          {
+            "level": 3,
+            "heading": "Making Suggestions",
+            "content": "一緒に行く？ \"Want to go together?\" これ食べる？ \"Want to eat this?\""
+          },
+          {
+            "level": 3,
+            "heading": "Stating Intentions",
+            "content": "今日は早く帰る \"I'm going home early today\" 明日勉強する \"I'll study tomorrow\""
+          },
+          {
+            "level": 3,
+            "heading": "Asking About Plans",
+            "content": "週末何する？ \"What will you do this weekend?\" どこ行く？ \"Where are you going?\""
+          }
+        ]
+      },
+      {
+        "level": 2,
+        "heading": "Grammar Patterns Using Dictionary Form",
+        "content": "",
+        "children": [
+          {
+            "level": 3,
+            "heading": "と思う (to think)",
+            "content": "明日雨が降ると思う \"I think it will rain tomorrow\" 彼は来ないと思う \"I think he won't come\""
+          },
+          {
+            "level": 3,
+            "heading": "つもりだ (intend to)",
+            "content": "日本に行くつもりだ \"I intend to go to Japan\" 明日勉強するつもりだ \"I intend to study tomorrow\""
+          },
+          {
+            "level": 3,
+            "heading": "ことができる (can/able to)",
+            "content": "泳ぐことができる \"I can swim\" 日本語を話すことができる \"I can speak Japanese\""
+          },
+          {
+            "level": 3,
+            "heading": "前に (before)",
+            "content": "食べる前に手を洗う \"Wash hands before eating\" 寝る前に本を読む \"Read a book before sleeping\""
+          },
+          {
+            "level": 3,
+            "heading": "時 (when/time)",
+            "content": "日本に行く時 \"When I go to Japan\" 食べる時 \"When eating / Time to eat\""
+          },
+          {
+            "level": 3,
+            "heading": "な (prohibition)",
+            "content": "ここで遊ぶな \"Don't play here\" それを食べるな \"Don't eat that\""
+          }
+        ]
+      },
+      {
+        "level": 2,
+        "heading": "Modifying Nouns",
+        "content": "Dictionary form can modify nouns directly:\n\n読む本 - book to read 食べる物 - thing to eat 行く場所 - place to go 住む所 - place to live",
+        "children": [
+          {
+            "level": 3,
+            "heading": "With の",
+            "content": "泳ぐのが好き \"I like swimming\" 料理するのは楽しい \"Cooking is fun\""
+          }
+        ]
+      },
+      {
+        "level": 2,
+        "heading": "Negative Dictionary Form (ない-form)",
+        "content": "Dictionary form has a negative counterpart:\n\n食べる → 食べない (don't eat) 行く → 行かない (don't go) する → しない (don't do) 来る → 来ない (don't come)\n\nMore on this in the Nai-form lesson."
+      },
+      {
+        "level": 2,
+        "heading": "Question Sentences",
+        "content": "Add か or use rising intonation:\n\n明日来る？ \"Are you coming tomorrow?\" これ食べる？ \"Will you eat this?\" 日本語分かる？ \"Do you understand Japanese?\""
+      },
+      {
+        "level": 2,
+        "heading": "Formal Writing",
+        "content": "Dictionary form appears in:\n\n- Newspaper headlines - Academic writing - Technical manuals - Signs and notices\n\nExample:\n\n本日休業する \"Closed today\" (sign)"
+      },
+      {
+        "level": 2,
+        "heading": "Common Mistakes",
+        "content": "",
+        "children": [
+          {
+            "level": 3,
+            "heading": "Mistake 1: Using Plain Form in Formal Situations",
+            "content": "Wrong: 先生、明日行く ❌ Right: 先生、明日行きます ✓ Wrong: これ食べる？ (to boss) ❌ Right: これを食べますか？ ✓\n\nUse polite forms with superiors!"
+          },
+          {
+            "level": 3,
+            "heading": "Mistake 2: Confusing with Polite Form",
+            "content": "Dictionary: 食べる (casual) Polite: 食べます (formal) Don't mix: 食べるます ❌"
+          },
+          {
+            "level": 3,
+            "heading": "Mistake 3: Wrong Conjugation Base",
+            "content": "Wrong: Using dictionary form where te-form needed 食べる + ください → 食べてください ✓ (Not: 食べるください ❌)"
+          }
+        ]
+      },
+      {
+        "level": 2,
+        "heading": "Recognizing Dictionary Form",
+        "content": "",
+        "children": [
+          {
+            "level": 3,
+            "heading": "Godan Verbs",
+            "content": "All end in -u sound 買う, 書く, 読む, etc."
+          },
+          {
+            "level": 3,
+            "heading": "Ichidan Verbs",
+            "content": "End in -eru or -iru 食べる, 見る, 起きる, etc."
+          },
+          {
+            "level": 3,
+            "heading": "Irregular",
+            "content": "する, 来る"
+          }
+        ]
+      },
+      {
+        "level": 2,
+        "heading": "When NOT to Use",
+        "content": "",
+        "children": [
+          {
+            "level": 3,
+            "heading": "With ください",
+            "content": "Wrong: 食べるください ❌ Right: 食べてください ✓"
+          },
+          {
+            "level": 3,
+            "heading": "With いる/ある (present progressive)",
+            "content": "Wrong: 食べるいる ❌ Right: 食べている ✓"
+          },
+          {
+            "level": 3,
+            "heading": "With た (past tense)",
+            "content": "Wrong: 食べるた ❌ Right: 食べた ✓"
+          }
+        ]
+      },
+      {
+        "level": 2,
+        "heading": "Practice Sentences",
+        "content": "",
+        "children": [
+          {
+            "level": 3,
+            "heading": "Casual Conversation",
+            "content": "今日何する？ \"What are you doing today?\" 一緒に映画見る？ \"Want to watch a movie together?\" 明日は休む \"I'm taking tomorrow off\""
+          },
+          {
+            "level": 3,
+            "heading": "With Grammar Patterns",
+            "content": "日本語を勉強することが好きだ \"I like studying Japanese\" 彼は来ると言った \"He said he would come\" 食べる前に祈る \"Pray before eating\""
+          }
+        ]
+      },
+      {
+        "level": 2,
+        "heading": "Key Takeaways",
+        "content": "✓ Dictionary form = basic, unconjugated verb ✓ Used in casual speech and grammar patterns ✓ NOT rude, but inappropriate in formal situations ✓ Expresses both present and future ✓ Required for many grammar constructions ✓ Can modify nouns directly ✓ Found in dictionaries (hence the name)\n\nMaster dictionary form - it's the foundation for all other conjugations!\n\nNext: Masu Form (Polite Present)\n\nRelated:\n\nVerb Groups Nai-form (Negative) Te-form Conjugation",
+        "children": [
+          {
+            "level": 3,
+            "heading": "Company",
+            "content": "About Pricing Blog Contact"
+          },
+          {
+            "level": 3,
+            "heading": "Legal",
+            "content": "Privacy Policy Terms of Service Cookie Policy"
+          }
+        ]
+      }
+    ]
+  },
+  "metadata": {
+    "extracted_at": "2026-01-01T22:19:37.587957400Z",
+    "duration_ms": 3,
+    "extractors_matched": [
+      "metadata",
+      "examples",
+      "sections"
+    ],
+    "extractors_failed": [
+      "vocab_tables",
+      "definitions",
+      "content_blocks"
+    ]
+  }
+}

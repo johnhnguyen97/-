@@ -1,0 +1,493 @@
+{
+  "config_name": "Language Learning Extractor",
+  "url": "https://practice-japanese.com/docs/potential-vs-ability/",
+  "data": {
+    "examples": [
+      {
+        "sentence": "Acquired skills"
+      },
+      {
+        "sentence": "Physical abilities"
+      },
+      {
+        "sentence": "Habitual capabilities"
+      },
+      {
+        "sentence": "Natural conversation"
+      },
+      {
+        "sentence": "Formal situations"
+      },
+      {
+        "sentence": "Written Japanese"
+      },
+      {
+        "sentence": "Emphasizing achievement"
+      },
+      {
+        "sentence": "Polite expressions"
+      },
+      {
+        "sentence": "する verbs (料理する → 料理ができる)"
+      },
+      {
+        "sentence": "General statements"
+      },
+      {
+        "sentence": "Possibility (not specific skills)"
+      },
+      {
+        "sentence": "Very formal → ことができる"
+      },
+      {
+        "sentence": "Normal/casual → potential form"
+      },
+      {
+        "sentence": "Skill/ability → potential form or ことができる"
+      },
+      {
+        "sentence": "Permission → てもいい"
+      },
+      {
+        "sentence": "Natural sense → 見える/聞こえる"
+      },
+      {
+        "sentence": "General capability → できる"
+      },
+      {
+        "sentence": "Yes → できる (料理ができる)"
+      },
+      {
+        "sentence": "No → potential form (泳げる)"
+      },
+      {
+        "sentence": "Yes → ことができる"
+      },
+      {
+        "sentence": "No → potential form"
+      },
+      {
+        "sentence": "Potential Form - Conjugation and basic usage"
+      },
+      {
+        "sentence": "ことができる - Formal ability expression"
+      },
+      {
+        "sentence": "〜やすい/〜にくい - Easy/hard to do"
+      },
+      {
+        "sentence": "〜得る (うる/える) - Theoretical possibility"
+      },
+      {
+        "sentence": "〜ようになる - Come to be able to"
+      },
+      {
+        "sentence": "Permission (てもいい) - May/can (permission)"
+      },
+      {
+        "sentence": "見える/聞こえる - Natural visibility/audibility"
+      },
+      {
+        "sentence": "About"
+      },
+      {
+        "sentence": "Pricing"
+      },
+      {
+        "sentence": "Blog"
+      },
+      {
+        "sentence": "Contact"
+      },
+      {
+        "sentence": "Privacy Policy"
+      },
+      {
+        "sentence": "Terms of Service"
+      },
+      {
+        "sentence": "Cookie Policy"
+      }
+    ],
+    "sections": [
+      {
+        "level": 2,
+        "heading": "Understanding the Difference",
+        "content": "Japanese has multiple ways to express \"can,\" each with subtle differences in meaning and usage:\n\n| Expression | Focus | Usage | | ------------------ | ----------------------- | -------------- | | Potential form | Natural ability/skill | Most common | | ことができる | Formal ability | Written/formal | | できる | General capability | する verbs | | 〜得る (うる/える) | Theoretical possibility | Formal/written |"
+      },
+      {
+        "level": 2,
+        "heading": "Potential Form: Natural Ability",
+        "content": "",
+        "children": [
+          {
+            "level": 3,
+            "heading": "Focus: Learned skills and capabilities",
+            "content": "日本語が話せます \"I can speak Japanese\" (I have the skill) 泳げる \"I can swim\" (I have the ability) ピアノが弾ける \"I can play piano\" (I learned how)"
+          },
+          {
+            "level": 3,
+            "heading": "Best for:",
+            "content": "Acquired skills Physical abilities Habitual capabilities Natural conversation"
+          }
+        ]
+      },
+      {
+        "level": 2,
+        "heading": "ことができる: Formal Ability",
+        "content": "",
+        "children": [
+          {
+            "level": 3,
+            "heading": "Focus: Accomplishment or possibility",
+            "content": "日本語を話すことができます \"I am able to speak Japanese\" (More formal statement) ついに完成させることができた \"I was finally able to complete it\" (Emphasizes achievement)"
+          },
+          {
+            "level": 3,
+            "heading": "Best for:",
+            "content": "Formal situations Written Japanese Emphasizing achievement Polite expressions"
+          }
+        ]
+      },
+      {
+        "level": 2,
+        "heading": "できる: General Capability",
+        "content": "",
+        "children": [
+          {
+            "level": 3,
+            "heading": "Focus: General skill or possibility",
+            "content": "料理ができます \"I can cook\" (General ability) 今日はできません \"I can't today\" (Not possible today) 彼はなんでもできる \"He can do anything\" (General capability)"
+          },
+          {
+            "level": 3,
+            "heading": "Best for:",
+            "content": "する verbs (料理する → 料理ができる) General statements Possibility (not specific skills)"
+          }
+        ]
+      },
+      {
+        "level": 2,
+        "heading": "Situational Ability vs Inherent Ability",
+        "content": "",
+        "children": [
+          {
+            "level": 3,
+            "heading": "Situational (right now, today)",
+            "content": "Often uses potential form or できる:\n\n今日は早く帰れます \"I can go home early today\" (Circumstance allows it) 明日は会えません \"I can't meet tomorrow\" (Schedule doesn't permit) 今ならできる \"I can do it now\" (Current situation allows)"
+          },
+          {
+            "level": 3,
+            "heading": "Inherent (permanent skill)",
+            "content": "Can use any form, but potential is most natural:\n\n日本語が話せます \"I can speak Japanese\" (I have the skill) 泳げる \"I can swim\" (I know how)"
+          }
+        ]
+      },
+      {
+        "level": 2,
+        "heading": "Permission vs Ability",
+        "content": "",
+        "children": [
+          {
+            "level": 3,
+            "heading": "Pure ability: Use potential form",
+            "content": "漢字が読める \"I can read kanji\" (I have the skill)"
+          },
+          {
+            "level": 3,
+            "heading": "Permission: Use てもいい",
+            "content": "ここで写真を撮ってもいいですか？ \"May I take photos here?\" (Asking permission) Not: ここで写真が撮れますか？ ⚠️ (This asks about physical possibility, not permission)"
+          },
+          {
+            "level": 3,
+            "heading": "Both ability AND permission:",
+            "content": "Sometimes potential form can imply both:\n\nここで泳げますか？ \"Can you swim here?\" Could mean: Is swimming possible/allowed here?"
+          }
+        ]
+      },
+      {
+        "level": 2,
+        "heading": "Physical vs Learned Ability",
+        "content": "",
+        "children": [
+          {
+            "level": 3,
+            "heading": "Physical capability",
+            "content": "重い物が持てる \"I can lift heavy things\" (Physical strength) 100メートル走れる \"I can run 100 meters\" (Physical stamina) 暗い所でも見える \"I can see even in dark places\" (Natural ability)"
+          },
+          {
+            "level": 3,
+            "heading": "Learned skill",
+            "content": "ピアノが弾ける \"I can play piano\" (Learned skill) プログラミングができる \"I can program\" (Learned skill) 車が運転できる \"I can drive\" (Learned skill)"
+          }
+        ]
+      },
+      {
+        "level": 2,
+        "heading": "Comparing Common Patterns",
+        "content": "",
+        "children": [
+          {
+            "level": 3,
+            "heading": "\"Can speak Japanese\"",
+            "content": "Most natural (conversation):\n\n日本語が話せます Potential form - casual, natural\n\nFormal (business/writing):\n\n日本語を話すことができます ことができる - polite, formal\n\nGeneral (skill mention):\n\n日本語ができます できる - general ability"
+          },
+          {
+            "level": 3,
+            "heading": "\"Can swim\"",
+            "content": "Skill you have:\n\n泳げます Potential form\n\nRight now possibility:\n\n今日は泳げます \"I can swim today\" Potential form (circumstance)\n\nAchievement:\n\nついに25メートル泳ぐことができた \"I was finally able to swim 25 meters\" ことができる (emphasis on achievement)"
+          }
+        ]
+      },
+      {
+        "level": 2,
+        "heading": "Natural Visibility/Audibility",
+        "content": "",
+        "children": [
+          {
+            "level": 3,
+            "heading": "見える (mieru) - Can see/is visible",
+            "content": "Natural visibility:\n\n窓から海が見える \"The ocean is visible from the window\" (It's naturally there to see)\n\nNot the potential form of 見る!"
+          },
+          {
+            "level": 3,
+            "heading": "見られる (mirareru) - Can watch/see",
+            "content": "Ability to see/watch:\n\nこの映画が見られますか？ \"Can you watch this movie?\" (Do you have ability/permission?)\n\nThis IS the potential form of 見る."
+          },
+          {
+            "level": 3,
+            "heading": "聞こえる (kikoeru) - Can hear/is audible",
+            "content": "Natural audibility:\n\n音楽が聞こえる \"I can hear music\" (Sound reaches my ears naturally)"
+          },
+          {
+            "level": 3,
+            "heading": "聞ける (kikeru) - Can listen/ask",
+            "content": "Ability to listen:\n\nこのラジオが聞けますか？ \"Can you listen to this radio?\" (Ability/possibility to listen)"
+          }
+        ]
+      },
+      {
+        "level": 2,
+        "heading": "Theoretical vs Actual Possibility",
+        "content": "",
+        "children": [
+          {
+            "level": 3,
+            "heading": "〜得る (うる/える) - Theoretical possibility",
+            "content": "Formal, written:\n\nそのようなことはあり得る \"Such a thing is possible\" (Theoretically possible) 考え得る全ての方法 \"All conceivable methods\" (All methods one could think of)\n\nNot common in speech!"
+          },
+          {
+            "level": 3,
+            "heading": "Potential form - Actual possibility",
+            "content": "明日は行けます \"I can go tomorrow\" (Actually possible for me) それはできる \"That can be done\" (Practically possible)"
+          }
+        ]
+      },
+      {
+        "level": 2,
+        "heading": "Expressing Difficulty",
+        "content": "",
+        "children": [
+          {
+            "level": 3,
+            "heading": "できる with modifiers",
+            "content": "なかなかできない \"It's difficult / I can't quite do it\" 簡単にできる \"I can do it easily\" すぐにできる \"I can do it right away\""
+          },
+          {
+            "level": 3,
+            "heading": "Potential with effort phrases",
+            "content": "頑張れば話せるようになる \"If you try hard, you'll be able to speak\" 練習すれば弾けるようになる \"With practice, you'll be able to play\""
+          }
+        ]
+      },
+      {
+        "level": 2,
+        "heading": "Common Mistakes",
+        "content": "",
+        "children": [
+          {
+            "level": 3,
+            "heading": "Mistake 1: Using potential for permission",
+            "content": "Wrong context: ここで食べられますか？ ⚠️ For permission: ここで食べてもいいですか？ ✓ \"May I eat here?\" Potential is OK if asking about rules: ここで食べられますか？ ✓ \"Is eating allowed here?\" / \"Can one eat here?\""
+          },
+          {
+            "level": 3,
+            "heading": "Mistake 2: Overusing ことができる in casual speech",
+            "content": "Unnatural: 泳ぐことができる？ ⚠️ Natural: 泳げる？ ✓ \"Can you swim?\""
+          },
+          {
+            "level": 3,
+            "heading": "Mistake 3: Confusing 見える with 見られる",
+            "content": "見える = visible (no volition) 窓から海が見える ✓ \"The ocean is visible from the window\" 見られる = can watch (with volition) 映画が見られる ✓ \"Can watch a movie\""
+          },
+          {
+            "level": 3,
+            "heading": "Mistake 4: Wrong particle",
+            "content": "Wrong: 日本語を話せます ❌ Right: 日本語が話せます ✓ \"I can speak Japanese\" But OK: 日本語を話すことができます ✓"
+          }
+        ]
+      },
+      {
+        "level": 2,
+        "heading": "Nuance Comparison Chart",
+        "content": "| Situation | Best Choice | Example | | ------------------ | ------------ | ---------------------- | | Casual skill | Potential | 泳げる | | Formal statement | ことができる | 泳ぐことができます | | Achievement | ことができる | ついに泳ぐことができた | | する verbs | できる | 料理ができる | | Natural visibility | 見える | 海が見える | | Permission | てもいい | 泳いでもいい | | Theoretical | 〜得る | あり得る |"
+      },
+      {
+        "level": 2,
+        "heading": "Practice Choosing the Right Form",
+        "content": "",
+        "children": [
+          {
+            "level": 3,
+            "heading": "Scenario 1: Job Interview",
+            "content": "Less natural: 日本語が話せます ⚠️ Better: 日本語を話すことができます ✓ \"I can speak Japanese\" (Formal situation → use ことができる)"
+          },
+          {
+            "level": 3,
+            "heading": "Scenario 2: Chatting with Friends",
+            "content": "Unnatural: 泳ぐことができる？ ⚠️ Natural: 泳げる？ ✓ \"Can you swim?\" (Casual → use potential form)"
+          },
+          {
+            "level": 3,
+            "heading": "Scenario 3: Achievement",
+            "content": "Good: ついに合格できた ✓ Better: ついに合格することができた ✓ \"I was finally able to pass\" (Achievement → ことができる emphasizes it)"
+          },
+          {
+            "level": 3,
+            "heading": "Scenario 4: Restaurant",
+            "content": "For permission: ここで食べてもいいですか？ ✓ \"May I eat here?\" For possibility: ここで食べられますか？ ✓ \"Is eating possible here?\" Different meanings!"
+          }
+        ]
+      },
+      {
+        "level": 2,
+        "heading": "Ability Development Over Time",
+        "content": "",
+        "children": [
+          {
+            "level": 3,
+            "heading": "Learning progression",
+            "content": "今は話せません \"I can't speak now\" 少し話せるようになりました \"I've become able to speak a little\" 今は話せます \"I can speak now\""
+          },
+          {
+            "level": 3,
+            "heading": "Using なる (become)",
+            "content": "話せるようになる \"Become able to speak\" できるようになる \"Become able to do\" 見えるようになる \"Become able to see\""
+          }
+        ]
+      },
+      {
+        "level": 2,
+        "heading": "Context-Dependent Meanings",
+        "content": "",
+        "children": [
+          {
+            "level": 3,
+            "heading": "見られる can mean three things:",
+            "content": "1. Potential (can see/watch):\n\nこの映画は見られますか？ \"Can you watch this movie?\"\n\n2. Passive (is seen):\n\n人に見られた \"I was seen by someone\"\n\n3. Respect (honorific watch):\n\n先生がテレビを見られる \"The teacher watches TV\"\n\nContext makes it clear!"
+          }
+        ]
+      },
+      {
+        "level": 2,
+        "heading": "Summary Table",
+        "content": "| Expression | Formality | Usage | Example | | ---------------- | ------------- | ------------------ | ------------------------ | | 話せる | Casual-Polite | Natural speech | 日本語が話せる | | 話すことができる | Formal | Written/formal | 日本語を話すことができる | | 日本語ができる | Neutral | General ability | 日本語ができる | | 見える | Neutral | Natural visibility | 海が見える | | 聞こえる | Neutral | Natural audibility | 音楽が聞こえる | | 〜得る | Very formal | Theoretical | あり得る |"
+      },
+      {
+        "level": 2,
+        "heading": "Quick Decision Guide",
+        "content": "",
+        "children": [
+          {
+            "level": 3,
+            "heading": "Ask yourself:",
+            "content": "1. How formal is the situation?\n\nVery formal → ことができる Normal/casual → potential form\n\n2. What are you expressing?\n\nSkill/ability → potential form or ことができる Permission → てもいい Natural sense → 見える/聞こえる General capability → できる\n\n3. Is it a する verb?\n\nYes → できる (料理ができる) No → potential form (泳げる)\n\n4. Are you emphasizing achievement?\n\nYes → ことができる No → potential form"
+          }
+        ]
+      },
+      {
+        "level": 2,
+        "heading": "Practice Sentences",
+        "content": "",
+        "children": [
+          {
+            "level": 3,
+            "heading": "Basic Choice",
+            "content": "Casual: 日本語が話せる Formal: 日本語を話すことができます General: 日本語ができる All mean: \"I can speak Japanese\""
+          },
+          {
+            "level": 3,
+            "heading": "Natural Senses",
+            "content": "海が見える (not 見られる for visibility) \"The ocean is visible\" 音が聞こえる (not 聞ける for natural hearing) \"I can hear a sound\""
+          },
+          {
+            "level": 3,
+            "heading": "Achievement",
+            "content": "ついに完成させることができました \"I was finally able to complete it\" (Emphasizes the achievement)"
+          },
+          {
+            "level": 3,
+            "heading": "Permission",
+            "content": "写真を撮ってもいいですか？ \"May I take photos?\" (Asking permission, not ability)"
+          }
+        ]
+      },
+      {
+        "level": 2,
+        "heading": "Advanced: Subtle Nuances",
+        "content": "",
+        "children": [
+          {
+            "level": 3,
+            "heading": "Potential form: More direct",
+            "content": "明日行ける \"I can go tomorrow\" (Direct statement of ability)"
+          },
+          {
+            "level": 3,
+            "heading": "ことができる: More tentative/polite",
+            "content": "明日行くことができます \"I am able to go tomorrow\" (More formal, polite statement)"
+          },
+          {
+            "level": 3,
+            "heading": "できる: Most general",
+            "content": "明日ならできる \"If it's tomorrow, I can (do it)\" (General possibility)"
+          }
+        ]
+      },
+      {
+        "level": 2,
+        "heading": "Related Grammar Points",
+        "content": "Potential Form - Conjugation and basic usage ことができる - Formal ability expression 〜やすい/〜にくい - Easy/hard to do 〜得る (うる/える) - Theoretical possibility 〜ようになる - Come to be able to Permission (てもいい) - May/can (permission) 見える/聞こえる - Natural visibility/audibility",
+        "children": [
+          {
+            "level": 3,
+            "heading": "Company",
+            "content": "About Pricing Blog Contact"
+          },
+          {
+            "level": 3,
+            "heading": "Legal",
+            "content": "Privacy Policy Terms of Service Cookie Policy"
+          }
+        ]
+      }
+    ],
+    "metadata": {
+      "title": "Potential vs Ability"
+    }
+  },
+  "metadata": {
+    "extracted_at": "2026-01-01T22:19:34.553434100Z",
+    "duration_ms": 3,
+    "extractors_matched": [
+      "metadata",
+      "examples",
+      "sections"
+    ],
+    "extractors_failed": [
+      "vocab_tables",
+      "definitions",
+      "content_blocks"
+    ]
+  }
+}

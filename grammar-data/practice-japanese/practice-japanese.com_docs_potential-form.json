@@ -1,0 +1,330 @@
+{
+  "config_name": "Language Learning Extractor",
+  "url": "https://practice-japanese.com/docs/potential-form/",
+  "data": {
+    "metadata": {
+      "title": "Potential Form (できる)"
+    },
+    "sections": [
+      {
+        "level": 2,
+        "heading": "What is the Potential Form?",
+        "content": "The potential form expresses ability or possibility - what you \"can do\" or what's \"possible to do.\"\n\n読む → 読める \"read\" → \"can read\" 食べる → 食べられる \"eat\" → \"can eat\" する → できる \"do\" → \"can do\""
+      },
+      {
+        "level": 2,
+        "heading": "Conjugation Rules",
+        "content": "",
+        "children": [
+          {
+            "level": 3,
+            "heading": "Group 1 (五段 Godan Verbs)",
+            "content": "Change final -u to -eru:\n\n| Dictionary Form | Potential Form | Meaning | | --------------- | ----------------- | --------- | | 書く (kaku) | 書ける (kakeru) | can write | | 読む (yomu) | 読める (yomeru) | can read | | 話す (hanasu) | 話せる (hanaseru) | can speak | | 買う (kau) | 買える (kaeru) | can buy | | 泳ぐ (oyogu) | 泳げる (oyogeru) | can swim | | 飲む (nomu) | 飲める (nomeru) | can drink | | 会う (au) | 会える (aeru) | can meet |"
+          },
+          {
+            "level": 3,
+            "heading": "Group 2 (一段 Ichidan Verbs)",
+            "content": "Replace -ru with -rareru:\n\n| Dictionary Form | Potential Form | Meaning | | --------------- | ----------------------- | ----------- | | 食べる (taberu) | 食べられる (taberareru) | can eat | | 見る (miru) | 見られる (mirareru) | can see | | 起きる (okiru) | 起きられる (okirareru) | can wake up | | 寝る (neru) | 寝られる (nerareru) | can sleep | | 着る (kiru) | 着られる (kirareru) | can wear |"
+          },
+          {
+            "level": 3,
+            "heading": "Group 3 (Irregular Verbs)",
+            "content": "| Dictionary Form | Potential Form | Meaning | | --------------- | ------------------- | -------- | | する (suru) | できる (dekiru) | can do | | 来る (kuru) | 来られる (korareru) | can come |"
+          }
+        ]
+      },
+      {
+        "level": 2,
+        "heading": "Shortened Potential Form (ら-抜き)",
+        "content": "Casual speech often drops ら:\n\n| Standard | Shortened | Meaning | | ---------- | --------- | ----------- | | 食べられる | 食べれる | can eat | | 見られる | 見れる | can see | | 起きられる | 起きれる | can wake up |\n\nStandard: 食べられる Casual: 食べれる Both mean \"can eat\"\n\nNote: The shortened form is common in conversation but technically incorrect. Use the full form in formal writing."
+      },
+      {
+        "level": 2,
+        "heading": "Basic Usage",
+        "content": "",
+        "children": [
+          {
+            "level": 3,
+            "heading": "Pattern: Subject + は/が + Potential Verb",
+            "content": "私は日本語が話せます \"I can speak Japanese\" 彼は泳げる \"He can swim\" ここで写真が撮れますか？ \"Can I take photos here?\""
+          }
+        ]
+      },
+      {
+        "level": 2,
+        "heading": "Particle: を → が",
+        "content": "Important: With potential form, the direct object marker を changes to が:\n\nPlain verb: 本を読む \"I read books\" Potential: 本が読める \"I can read books\"\n\nPlain: 寿司を食べる Potential: 寿司が食べられる \"I can eat sushi\"\n\nWhy? The potential form is intransitive - you don't \"do\" to something, you have the \"ability\" regarding something."
+      },
+      {
+        "level": 2,
+        "heading": "Common Patterns",
+        "content": "",
+        "children": [
+          {
+            "level": 3,
+            "heading": "Can you...?",
+            "content": "日本語が話せますか？ \"Can you speak Japanese?\" 泳げますか？ \"Can you swim?\" 車が運転できますか？ \"Can you drive a car?\""
+          },
+          {
+            "level": 3,
+            "heading": "I can...",
+            "content": "漢字が読めます \"I can read kanji\" ピアノが弾けます \"I can play piano\" 自転車に乗れます \"I can ride a bike\""
+          },
+          {
+            "level": 3,
+            "heading": "I can't...",
+            "content": "日本語が話せません \"I can't speak Japanese\" 泳げない \"I can't swim\" 早く起きられない \"I can't wake up early\""
+          }
+        ]
+      },
+      {
+        "level": 2,
+        "heading": "Expressing Possibility",
+        "content": "The potential form also expresses possibility (something is possible):\n\nここから富士山が見える \"Mt. Fuji can be seen from here\" この店でクレジットカードが使えます \"Credit cards can be used at this store\" 明日会えますか？ \"Can we meet tomorrow?\" (Is it possible?)"
+      },
+      {
+        "level": 2,
+        "heading": "Past Tense",
+        "content": "昨日は泳げた \"I could swim yesterday\" 子供の時、ピアノが弾けました \"I could play piano when I was a child\" 見られなかった \"I couldn't see\""
+      },
+      {
+        "level": 2,
+        "heading": "Negative Form",
+        "content": "泳げない - can't swim 食べられない - can't eat できない - can't do 来られない - can't come",
+        "children": [
+          {
+            "level": 3,
+            "heading": "Polite Negative",
+            "content": "泳げません 食べられません できません 来られません"
+          }
+        ]
+      },
+      {
+        "level": 2,
+        "heading": "Common Conversations",
+        "content": "",
+        "children": [
+          {
+            "level": 3,
+            "heading": "Example 1: Language Ability",
+            "content": "A: 英語が話せますか？ \"Can you speak English?\" B: はい、少し話せます \"Yes, I can speak a little\" A: 中国語は？ \"How about Chinese?\" B: いいえ、話せません \"No, I can't speak it\""
+          },
+          {
+            "level": 3,
+            "heading": "Example 2: Skills",
+            "content": "A: 料理ができますか？ \"Can you cook?\" B: はい、少しできます \"Yes, I can cook a little\" A: 何が作れますか？ \"What can you make?\" B: カレーとパスタが作れます \"I can make curry and pasta\""
+          },
+          {
+            "level": 3,
+            "heading": "Example 3: Making Plans",
+            "content": "A: 明日会えますか？ \"Can you meet tomorrow?\" B: すみません、明日は会えません \"Sorry, I can't meet tomorrow\" A: じゃあ、週末は？ \"Then, how about the weekend?\" B: 週末なら会えます \"I can meet on the weekend\""
+          }
+        ]
+      },
+      {
+        "level": 2,
+        "heading": "Special Verbs",
+        "content": "",
+        "children": [
+          {
+            "level": 3,
+            "heading": "見える vs 見られる",
+            "content": "Both can mean \"can see\":\n\n見える (mieru) - Naturally visible:\n\n窓から海が見える \"The ocean can be seen from the window\" (It's naturally visible)\n\n見られる (mirareru) - Able to see/watch:\n\nこの映画が見られますか？ \"Can you watch this movie?\" (Have the ability/permission)"
+          },
+          {
+            "level": 3,
+            "heading": "聞こえる vs 聞ける",
+            "content": "聞こえる (kikoeru) - Naturally audible:\n\n音楽が聞こえる \"I can hear music\" (Sound reaches my ears)\n\n聞ける (kikeru) - Able to listen/ask:\n\n質問が聞けますか？ \"Can I ask a question?\" (Have the ability/permission)"
+          }
+        ]
+      },
+      {
+        "level": 2,
+        "heading": "Common Mistakes",
+        "content": "",
+        "children": [
+          {
+            "level": 3,
+            "heading": "Mistake 1: Using を instead of が",
+            "content": "Wrong: 日本語を話せます ❌ Right: 日本語が話せます ✓ \"I can speak Japanese\""
+          },
+          {
+            "level": 3,
+            "heading": "Mistake 2: Wrong conjugation",
+            "content": "Wrong: 食べるられる ❌ Right: 食べられる ✓ \"Can eat\" Wrong: 書かれる (this is passive!) ❌ Right: 書ける ✓ \"Can write\""
+          },
+          {
+            "level": 3,
+            "heading": "Mistake 3: Confusing potential with passive",
+            "content": "Potential: 食べられる (can eat) Passive: 食べられる (is eaten) Context makes it clear!"
+          },
+          {
+            "level": 3,
+            "heading": "Mistake 4: Using potential for requests",
+            "content": "Less natural: 窓を開けられますか？ ⚠️ Better: 窓を開けてもらえますか？ ✓ \"Could you open the window?\" Potential = ability, not request!"
+          }
+        ]
+      },
+      {
+        "level": 2,
+        "heading": "Potential vs できる",
+        "content": "",
+        "children": [
+          {
+            "level": 3,
+            "heading": "For specific verbs: Use potential form",
+            "content": "泳げます \"I can swim\" 読めます \"I can read\""
+          },
+          {
+            "level": 3,
+            "heading": "For する verbs: Use できる",
+            "content": "料理ができます \"I can cook\" (料理する → できる) 運転ができます \"I can drive\" (運転する → できる)"
+          },
+          {
+            "level": 3,
+            "heading": "For general ability: Both work",
+            "content": "日本語ができます ✓ 日本語が話せます ✓ \"I can (do) Japanese\" / \"I can speak Japanese\""
+          }
+        ]
+      },
+      {
+        "level": 2,
+        "heading": "Expressing Different Nuances",
+        "content": "",
+        "children": [
+          {
+            "level": 3,
+            "heading": "Physical ability",
+            "content": "100メートル泳げる \"I can swim 100 meters\" 重い物が持てる \"I can lift heavy things\""
+          },
+          {
+            "level": 3,
+            "heading": "Learned skill",
+            "content": "ピアノが弾ける \"I can play piano\" 車が運転できる \"I can drive\""
+          },
+          {
+            "level": 3,
+            "heading": "Permission/Possibility",
+            "content": "ここで写真が撮れますか？ \"Can I take photos here?\" 今日は早く帰れる \"I can go home early today\""
+          }
+        ]
+      },
+      {
+        "level": 2,
+        "heading": "Politeness Levels",
+        "content": "",
+        "children": [
+          {
+            "level": 3,
+            "heading": "Casual",
+            "content": "泳げる 食べれる (shortened) できる"
+          },
+          {
+            "level": 3,
+            "heading": "Polite",
+            "content": "泳げます 食べられます できます"
+          },
+          {
+            "level": 3,
+            "heading": "Very Polite (Questions)",
+            "content": "泳げますでしょうか？ 食べられますでしょうか？"
+          }
+        ]
+      },
+      {
+        "level": 2,
+        "heading": "Practice Sentences",
+        "content": "",
+        "children": [
+          {
+            "level": 3,
+            "heading": "Basic",
+            "content": "日本語が話せます \"I can speak Japanese\" 漢字が読めます \"I can read kanji\" 泳げません \"I can't swim\""
+          },
+          {
+            "level": 3,
+            "heading": "Intermediate",
+            "content": "明日は早く起きられますか？ \"Can you wake up early tomorrow?\" ここから富士山が見えます \"Mt. Fuji can be seen from here\" 辛い物が食べられません \"I can't eat spicy food\""
+          },
+          {
+            "level": 3,
+            "heading": "Advanced",
+            "content": "子供の頃は一日中遊べましたが、今は時間がありません \"When I was a child I could play all day, but now I don't have time\" この資料は明日までに読めますか？ \"Can you read these materials by tomorrow?\" 彼なら絶対にできると信じています \"I believe he can definitely do it\""
+          }
+        ]
+      },
+      {
+        "level": 2,
+        "heading": "Related Grammar Points",
+        "content": "〜ことができる - Alternative \"can\" expression Potential vs Ability - Nuance differences Passive form - Similar conjugation 〜やすい/〜にくい - Easy/hard to do Permission expressions - てもいい Possibility expressions - かもしれない",
+        "children": [
+          {
+            "level": 3,
+            "heading": "Company",
+            "content": "About Pricing Blog Contact"
+          },
+          {
+            "level": 3,
+            "heading": "Legal",
+            "content": "Privacy Policy Terms of Service Cookie Policy"
+          }
+        ]
+      }
+    ],
+    "examples": [
+      {
+        "sentence": "〜ことができる - Alternative \"can\" expression"
+      },
+      {
+        "sentence": "Potential vs Ability - Nuance differences"
+      },
+      {
+        "sentence": "Passive form - Similar conjugation"
+      },
+      {
+        "sentence": "〜やすい/〜にくい - Easy/hard to do"
+      },
+      {
+        "sentence": "Permission expressions - てもいい"
+      },
+      {
+        "sentence": "Possibility expressions - かもしれない"
+      },
+      {
+        "sentence": "About"
+      },
+      {
+        "sentence": "Pricing"
+      },
+      {
+        "sentence": "Blog"
+      },
+      {
+        "sentence": "Contact"
+      },
+      {
+        "sentence": "Privacy Policy"
+      },
+      {
+        "sentence": "Terms of Service"
+      },
+      {
+        "sentence": "Cookie Policy"
+      }
+    ]
+  },
+  "metadata": {
+    "extracted_at": "2026-01-01T22:19:33.878902Z",
+    "duration_ms": 5,
+    "extractors_matched": [
+      "metadata",
+      "examples",
+      "sections"
+    ],
+    "extractors_failed": [
+      "vocab_tables",
+      "definitions",
+      "content_blocks"
+    ]
+  }
+}

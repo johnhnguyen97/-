@@ -1,0 +1,414 @@
+{
+  "config_name": "Language Learning Extractor",
+  "url": "https://practice-japanese.com/docs/ichiban/",
+  "data": {
+    "sections": [
+      {
+        "level": 2,
+        "heading": "What is 一番?",
+        "content": "一番 (ichiban) means \"most,\" \"best,\" or \"number one.\" It expresses the superlative degree, indicating that something ranks highest among all options in a particular quality. Literally meaning \"number one,\" it marks something as the top choice or having the most of a quality.\n\n一番好き \"Like (the) most\" 一番大きい \"The biggest\" 一番いい \"The best\""
+      },
+      {
+        "level": 2,
+        "heading": "Basic Structure",
+        "content": "",
+        "children": [
+          {
+            "level": 3,
+            "heading": "一番 + [adjective/verb]",
+            "content": "一番高い \"The most expensive\" 一番速く走る \"Run (the) fastest\" Marks superlative"
+          },
+          {
+            "level": 3,
+            "heading": "[Group] で/の中で 一番",
+            "content": "クラスで一番背が高い \"The tallest in the class\" 日本で一番大きい都市 \"The biggest city in Japan\" Specifies comparison group"
+          }
+        ]
+      },
+      {
+        "level": 2,
+        "heading": "Usage and Meaning",
+        "content": "",
+        "children": [
+          {
+            "level": 3,
+            "heading": "Expressing \"most/best\"",
+            "content": "一番美味しい \"The most delicious\" 一番難しい \"The most difficult\" 一番好き \"Like the most\" Highest degree"
+          },
+          {
+            "level": 3,
+            "heading": "With nouns",
+            "content": "一番の友達 \"Best friend\" 一番の問題 \"The biggest problem\" 一番の目標 \"Top goal\" の connects to noun"
+          },
+          {
+            "level": 3,
+            "heading": "Rankings",
+            "content": "一番になる \"Become number one\" 一番を目指す \"Aim for number one\" Contest rankings"
+          }
+        ]
+      },
+      {
+        "level": 2,
+        "heading": "Specifying the Group",
+        "content": "",
+        "children": [
+          {
+            "level": 3,
+            "heading": "で marking the group",
+            "content": "世界で一番高い山 \"The highest mountain in the world\" 家族で一番年上 \"The oldest in the family\" Scope of comparison"
+          },
+          {
+            "level": 3,
+            "heading": "の中で (among)",
+            "content": "この中で一番いい \"The best among these\" 友達の中で一番親しい \"The closest among friends\" Explicit \"among\""
+          }
+        ]
+      },
+      {
+        "level": 2,
+        "heading": "Position in Sentence",
+        "content": "",
+        "children": [
+          {
+            "level": 3,
+            "heading": "Before adjectives",
+            "content": "一番美しい \"Most beautiful\" 一番面白い \"Most interesting\" Modifies adjective"
+          },
+          {
+            "level": 3,
+            "heading": "Before verbs",
+            "content": "一番好きだ \"Like the most\" 一番頑張る \"Try the hardest\" Modifies verb"
+          }
+        ]
+      },
+      {
+        "level": 2,
+        "heading": "Polite and Casual",
+        "content": "",
+        "children": [
+          {
+            "level": 3,
+            "heading": "Works in both",
+            "content": "Casual: 一番好きだよ \"I like it the most\" Polite: 一番好きです \"I like it the most\" Adjust ending"
+          }
+        ]
+      },
+      {
+        "level": 2,
+        "heading": "Common Patterns",
+        "content": "",
+        "children": [
+          {
+            "level": 3,
+            "heading": "何が一番～ (What is most...)",
+            "content": "何が一番好きですか \"What do you like most?\" どれが一番いい？ \"Which is best?\" Superlative questions"
+          },
+          {
+            "level": 3,
+            "heading": "一番〜のは (The most...is)",
+            "content": "一番好きなのはチョコレートです \"What I like most is chocolate\" 一番大切なのは健康だ \"What's most important is health\" Emphasizes the item"
+          },
+          {
+            "level": 3,
+            "heading": "A と B と C の中で一番",
+            "content": "春と夏と秋の中で、秋が一番好き \"Among spring, summer, and fall, I like fall the most\" Multiple options specified"
+          }
+        ]
+      },
+      {
+        "level": 2,
+        "heading": "With Question Words",
+        "content": "",
+        "children": [
+          {
+            "level": 3,
+            "heading": "どれが一番 (which one most)",
+            "content": "どれが一番安いですか \"Which one is cheapest?\" どの色が一番好き？ \"Which color do you like most?\" Asking about superlative"
+          },
+          {
+            "level": 3,
+            "heading": "誰が一番 (who most)",
+            "content": "誰が一番速い？ \"Who is fastest?\" 誰が一番上手ですか \"Who is most skilled?\" Person comparisons"
+          }
+        ]
+      },
+      {
+        "level": 2,
+        "heading": "Degree and Emphasis",
+        "content": "",
+        "children": [
+          {
+            "level": 3,
+            "heading": "一番 alone is strong",
+            "content": "一番好き \"Like the most\" Already maximum No need for extra emphasis"
+          },
+          {
+            "level": 3,
+            "heading": "With やっぱり/やはり",
+            "content": "やっぱりこれが一番いい \"This one is best after all\" Confirmation of choice"
+          }
+        ]
+      },
+      {
+        "level": 2,
+        "heading": "Common Contexts",
+        "content": "",
+        "children": [
+          {
+            "level": 3,
+            "heading": "Preferences",
+            "content": "一番好きな食べ物 \"Favorite food\" 一番好きな映画 \"Favorite movie\" Personal favorites"
+          },
+          {
+            "level": 3,
+            "heading": "Competitions/rankings",
+            "content": "一番になりたい \"I want to be number one\" 一番を取る \"Get first place\" Contest results"
+          },
+          {
+            "level": 3,
+            "heading": "Recommendations",
+            "content": "これが一番おすすめです \"This is the most recommended\" 一番いい方法 \"The best method\" Top suggestions"
+          }
+        ]
+      },
+      {
+        "level": 2,
+        "heading": "一番 with Negative",
+        "content": "",
+        "children": [
+          {
+            "level": 3,
+            "heading": "一番〜ない",
+            "content": "一番好きじゃない \"Like the least\" 一番難しくない \"The least difficult\" Lowest in quality"
+          }
+        ]
+      },
+      {
+        "level": 2,
+        "heading": "Time Expressions",
+        "content": "",
+        "children": [
+          {
+            "level": 3,
+            "heading": "一番早く/遅く",
+            "content": "一番早く起きる \"Wake up earliest\" 一番遅く帰る \"Return latest\" Time extremes"
+          }
+        ]
+      },
+      {
+        "level": 2,
+        "heading": "Numbers and Measurements",
+        "content": "",
+        "children": [
+          {
+            "level": 3,
+            "heading": "Specific values",
+            "content": "一番高い山は3776メートル \"The highest mountain is 3776 meters\" 一番重いのは5キロ \"The heaviest one is 5 kilos\" Concrete measurements"
+          }
+        ]
+      },
+      {
+        "level": 2,
+        "heading": "一番 vs より/のほうが",
+        "content": "",
+        "children": [
+          {
+            "level": 3,
+            "heading": "一番 = superlative (3+)",
+            "content": "一番好き \"Like (the) most\" Among all options Three or more items"
+          },
+          {
+            "level": 3,
+            "heading": "より/のほうが = comparative (2)",
+            "content": "AよりBのほうが好き \"Like B more than A\" Only two items"
+          },
+          {
+            "level": 3,
+            "heading": "Example comparison",
+            "content": "Comparative: 犬より猫のほうが好き \"I like cats more than dogs\" Superlative: 猫が一番好き \"I like cats the most\" (of all animals) Different scope"
+          }
+        ]
+      },
+      {
+        "level": 2,
+        "heading": "Common Mistakes",
+        "content": "",
+        "children": [
+          {
+            "level": 3,
+            "heading": "Using with only two items",
+            "content": "Unnatural: AとBで一番好きなのは... ⚠️ Better: AよりBのほうが好き ✓ \"I like B more than A\" Use comparative for two"
+          },
+          {
+            "level": 3,
+            "heading": "Forgetting の before nouns",
+            "content": "Wrong: 一番友達 ⚠️ Correct: 一番の友達 ✓ \"Best friend\" の required before noun"
+          },
+          {
+            "level": 3,
+            "heading": "Double superlatives",
+            "content": "Redundant: 一番最高 ⚠️ Natural: 一番いい ✓ Or: 最高 ✓ Don't stack superlatives"
+          }
+        ]
+      },
+      {
+        "level": 2,
+        "heading": "一番目 (First/Number One)",
+        "content": "",
+        "children": [
+          {
+            "level": 3,
+            "heading": "Ordinal number meaning",
+            "content": "一番目の人 \"The first person\" 一番目に来た \"Came first\" Order, not quality"
+          },
+          {
+            "level": 3,
+            "heading": "Different from quality 一番",
+            "content": "Quality: 一番上手 \"Most skilled\" Order: 一番目 \"First (in order)\" Context determines meaning"
+          }
+        ]
+      },
+      {
+        "level": 2,
+        "heading": "Regional Variations",
+        "content": "",
+        "children": [
+          {
+            "level": 3,
+            "heading": "Standard 一番",
+            "content": "一番好き \"Like the most\" Universal usage"
+          },
+          {
+            "level": 3,
+            "heading": "Casual forms",
+            "content": "いっちゃん (dialectal) \"Most/best\" Mainly Kansai dialect"
+          }
+        ]
+      },
+      {
+        "level": 2,
+        "heading": "Expressing \"By far\"",
+        "content": "",
+        "children": [
+          {
+            "level": 3,
+            "heading": "断然一番",
+            "content": "断然一番いい \"By far the best\" 群を抜いて一番 \"Outstandingly the best\" Extra emphasis"
+          }
+        ]
+      },
+      {
+        "level": 2,
+        "heading": "一番 in Set Phrases",
+        "content": "",
+        "children": [
+          {
+            "level": 3,
+            "heading": "Common expressions",
+            "content": "一番乗り \"First to arrive\" 一番大事 \"Most important\" 一番上/下 \"Top/bottom\" Fixed expressions"
+          }
+        ]
+      },
+      {
+        "level": 2,
+        "heading": "Practice Sentences",
+        "content": "",
+        "children": [
+          {
+            "level": 3,
+            "heading": "Basic",
+            "content": "これが一番美味しい \"This is the most delicious\" 何が一番好き？ \"What do you like most?\" 日本で一番高い山 \"The highest mountain in Japan\""
+          },
+          {
+            "level": 3,
+            "heading": "Intermediate",
+            "content": "この中では、これが一番安いと思います \"Among these, I think this one is cheapest\" 今まで見た映画の中で、それが一番面白かった \"Of all the movies I've seen, that one was the most interesting\" 家族で一番料理が上手なのは母です \"The best cook in the family is my mother\""
+          },
+          {
+            "level": 3,
+            "heading": "Advanced",
+            "content": "人生で一番大切なのは、お金でも名誉でもなく、 健康と家族だと思う。若い頃は仕事が一番 だと思っていたが、年を取るにつれて 考えが変わってきた。今は、一日一日を 大切に生きることが一番の目標だ。 \"I think the most important things in life are not money or honor, but health and family. When I was young, I thought work was number one, but as I've gotten older, my thinking has changed. Now, living each day to the fullest is my top goal.\" 世界中を旅行したが、やはり日本が一番 住みやすいと感じる。食べ物も一番美味しいし、 安全性も一番高い。もちろん、どの国にも 良いところはあるが、総合的に見れば 日本が一番だと個人的には思う。 \"I've traveled all over the world, but I still feel Japan is the easiest place to live. The food is the most delicious, and safety is also the highest. Of course, every country has good points, but looking overall, I personally think Japan is the best.\""
+          }
+        ]
+      },
+      {
+        "level": 2,
+        "heading": "Related Grammar Points",
+        "content": "より - Than (comparative) のほうが - More than (emphatic comparative) 最も - Most (formal superlative) ほど - As...as (extent) 同じ - Same (equality) Comparative adjectives - More/less forms 〜中で - Among (group marking)",
+        "children": [
+          {
+            "level": 3,
+            "heading": "Company",
+            "content": "About Pricing Blog Contact"
+          },
+          {
+            "level": 3,
+            "heading": "Legal",
+            "content": "Privacy Policy Terms of Service Cookie Policy"
+          }
+        ]
+      }
+    ],
+    "examples": [
+      {
+        "sentence": "より - Than (comparative)"
+      },
+      {
+        "sentence": "のほうが - More than (emphatic comparative)"
+      },
+      {
+        "sentence": "最も - Most (formal superlative)"
+      },
+      {
+        "sentence": "ほど - As...as (extent)"
+      },
+      {
+        "sentence": "同じ - Same (equality)"
+      },
+      {
+        "sentence": "Comparative adjectives - More/less forms"
+      },
+      {
+        "sentence": "〜中で - Among (group marking)"
+      },
+      {
+        "sentence": "About"
+      },
+      {
+        "sentence": "Pricing"
+      },
+      {
+        "sentence": "Blog"
+      },
+      {
+        "sentence": "Contact"
+      },
+      {
+        "sentence": "Privacy Policy"
+      },
+      {
+        "sentence": "Terms of Service"
+      },
+      {
+        "sentence": "Cookie Policy"
+      }
+    ],
+    "metadata": {
+      "title": "一番 (Most)"
+    }
+  },
+  "metadata": {
+    "extracted_at": "2026-01-01T22:19:30.079641Z",
+    "duration_ms": 5,
+    "extractors_matched": [
+      "metadata",
+      "examples",
+      "sections"
+    ],
+    "extractors_failed": [
+      "vocab_tables",
+      "definitions",
+      "content_blocks"
+    ]
+  }
+}

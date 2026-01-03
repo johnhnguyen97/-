@@ -1,0 +1,308 @@
+{
+  "config_name": "Language Learning Extractor",
+  "url": "https://practice-japanese.com/docs/nu-negative/",
+  "data": {
+    "examples": [
+      {
+        "sentence": "About"
+      },
+      {
+        "sentence": "Pricing"
+      },
+      {
+        "sentence": "Blog"
+      },
+      {
+        "sentence": "Contact"
+      },
+      {
+        "sentence": "Privacy Policy"
+      },
+      {
+        "sentence": "Terms of Service"
+      },
+      {
+        "sentence": "Cookie Policy"
+      }
+    ],
+    "sections": [
+      {
+        "level": 2,
+        "heading": "〜ぬ (nu) Classical Negative",
+        "content": "ぬ (nu) is the classical/literary negative form that corresponds to modern ない (nai) . While largely replaced in everyday speech, it survives in set phrases, proverbs, formal writing, and literary contexts.\n\nModern: 食べない \"don't eat\" Classical: 食べぬ \"don't eat\" Same meaning Different register Literary/archaic feel"
+      },
+      {
+        "level": 2,
+        "heading": "Formation",
+        "content": "",
+        "children": [
+          {
+            "level": 3,
+            "heading": "Same as ない formation",
+            "content": "る-verbs: 食べる → 食べぬ 見る → 見ぬ う-verbs: 書く → 書かぬ 読む → 読まぬ 行く → 行かぬ Irregular: する → せぬ 来る → 来ぬ (こぬ) Same conjugation rules as ない Just different ending"
+          }
+        ]
+      },
+      {
+        "level": 2,
+        "heading": "Modern Usage",
+        "content": "",
+        "children": [
+          {
+            "level": 3,
+            "heading": "Rarely used in daily speech",
+            "content": "Daily conversation: 分からない ✓ (modern, natural) 分からぬ ✗ (sounds archaic) Set phrases: 知らぬが仏 ✓ (established idiom) \"Ignorance is bliss\" Mostly fossilized Fixed expressions Not productive"
+          }
+        ]
+      },
+      {
+        "level": 2,
+        "heading": "Common Set Phrases",
+        "content": "",
+        "children": [
+          {
+            "level": 3,
+            "heading": "Established idioms",
+            "content": "知らぬが仏 \"Ignorance is bliss\" Literally: \"Not knowing is Buddha\" 住めば都 \"Home is where you make it\" (Uses classical conditional) やらぬ後悔よりやる後悔 \"Better to regret doing than not doing\" These are fixed Cannot change to ない Must use ぬ"
+          }
+        ]
+      },
+      {
+        "level": 2,
+        "heading": "Literary and Formal Writing",
+        "content": "",
+        "children": [
+          {
+            "level": 3,
+            "heading": "Written contexts",
+            "content": "Classical literature: 行かぬ道 \"road not taken\" 知らぬ人 \"stranger / unknown person\" Formal documents: 疑いの余地なし → 疑う余地なし \"No room for doubt\" Historical flavor Literary style Archaic atmosphere"
+          }
+        ]
+      },
+      {
+        "level": 2,
+        "heading": "ず Form (Negative Continuative)",
+        "content": "",
+        "children": [
+          {
+            "level": 3,
+            "heading": "Related classical form",
+            "content": "ず = another classical negative 食べず \"without eating\" 知らず \"without knowing\" 見ず \"without seeing\" Still used in: 〜ざるを得ない \"cannot help but\" 〜ずに \"without doing\" 〜ず嫌い \"disliking without trying\" More common than ぬ Productive in some patterns"
+          }
+        ]
+      },
+      {
+        "level": 2,
+        "heading": "ぬ Conjugations",
+        "content": "",
+        "children": [
+          {
+            "level": 3,
+            "heading": "Classical conjugations",
+            "content": "Present: 行かぬ Past: 行かなんだ (archaic) Te-form: 行かで (classical) Conditional: 行かねば Modern equivalents: 行かない 行かなかった 行かなくて 行かなければ Classical paradigm Rarely used fully Mostly in set forms"
+          }
+        ]
+      },
+      {
+        "level": 2,
+        "heading": "ねば Form",
+        "content": "",
+        "children": [
+          {
+            "level": 3,
+            "heading": "Classical conditional",
+            "content": "行かねば \"if don't go\" やらねば \"if don't do\" Still seen in: やらねばならぬ \"must do\" (Mix of classical and modern) Formal/literary Sometimes used for effect Traditional feel"
+          }
+        ]
+      },
+      {
+        "level": 2,
+        "heading": "In Proverbs",
+        "content": "",
+        "children": [
+          {
+            "level": 3,
+            "heading": "Traditional sayings",
+            "content": "虎穴に入らずんば虎子を得ず \"Nothing ventured, nothing gained\" Literally: \"If don't enter tiger's den, won't get cub\" 案ずるより産むが易し \"The anticipation is worse than the reality\" 働かざる者食うべからず \"Those who don't work shouldn't eat\" Classical negative forms Fixed expressions Cultural knowledge"
+          }
+        ]
+      },
+      {
+        "level": 2,
+        "heading": "Poetic Usage",
+        "content": "",
+        "children": [
+          {
+            "level": 3,
+            "heading": "Creating atmosphere",
+            "content": "Modern poetry/songs: 知らぬ間に \"without knowing / unknowingly\" 会わぬ日々 \"days without meeting\" Literary effect Nostalgic feeling Artistic choice Not conversational Special contexts only"
+          }
+        ]
+      },
+      {
+        "level": 2,
+        "heading": "Legal and Official",
+        "content": "",
+        "children": [
+          {
+            "level": 3,
+            "heading": "Formal documents",
+            "content": "Traditional legal language: 〜するべからず \"must not do\" 〜することなかれ \"do not do\" Very formal Official prohibitions Classical negative forms Modern law uses ない But some classical remains Traditional formality"
+          }
+        ]
+      },
+      {
+        "level": 2,
+        "heading": "With まい (Negative Volitional)",
+        "content": "",
+        "children": [
+          {
+            "level": 3,
+            "heading": "Won't / shan't",
+            "content": "行くまい \"won't go\" するまい \"shan't do\" Related classical form Negative intention Literary/formal Modern equivalent: 行かないだろう \"probably won't go\""
+          }
+        ]
+      },
+      {
+        "level": 2,
+        "heading": "Mixing Classical and Modern",
+        "content": "",
+        "children": [
+          {
+            "level": 3,
+            "heading": "Hybrid expressions",
+            "content": "やらねばならない \"Must do\" (ねば classical + ない modern) 知らぬ存ぜぬ \"Play dumb\" (Classical idiom) Some mixing acceptable Fixed phrases Traditional resonance"
+          }
+        ]
+      },
+      {
+        "level": 2,
+        "heading": "In Names and Titles",
+        "content": "",
+        "children": [
+          {
+            "level": 3,
+            "heading": "Proper names",
+            "content": "Book/movie titles: 『知らぬが仏』 Various works use classical forms Place names: Sometimes classical grammar Historical names: Classical language common Preserved in titles Cultural heritage"
+          }
+        ]
+      },
+      {
+        "level": 2,
+        "heading": "Recognition Value",
+        "content": "",
+        "children": [
+          {
+            "level": 3,
+            "heading": "Understanding classical texts",
+            "content": "Important for: - Reading classical literature - Understanding proverbs - Historical documents - Traditional songs Not for production Recognition sufficient Cultural literacy"
+          }
+        ]
+      },
+      {
+        "level": 2,
+        "heading": "When NOT to Use",
+        "content": "",
+        "children": [
+          {
+            "level": 3,
+            "heading": "Modern contexts",
+            "content": "❌ Daily conversation: 今日は行かぬ (sounds bizarre) ✓ Use modern form: 今日は行かない ❌ Business emails: 参加せぬ予定です (awkward) ✓ Modern polite: 参加しない予定です Unless intentional literary effect Use ない in all normal contexts"
+          }
+        ]
+      },
+      {
+        "level": 2,
+        "heading": "Teaching Perspective",
+        "content": "",
+        "children": [
+          {
+            "level": 3,
+            "heading": "Learning priority",
+            "content": "Low priority for learners: - Not used in conversation - Recognition > production - Learn set phrases High priority: - Modern ない form - Common expressions with ぬ - Understanding classical context Focus on modern usage Learn idioms as vocabulary Recognize in reading"
+          }
+        ]
+      },
+      {
+        "level": 2,
+        "heading": "Historical Context",
+        "content": "",
+        "children": [
+          {
+            "level": 3,
+            "heading": "Language evolution",
+            "content": "Classical Japanese → Modern Japanese ぬ → ない Language change over time Modern forms dominant Classical preserved in fixed expressions Understanding history helpful Not necessary for daily life Cultural enrichment"
+          }
+        ]
+      },
+      {
+        "level": 2,
+        "heading": "Common Set Expressions",
+        "content": "",
+        "children": [
+          {
+            "level": 3,
+            "heading": "Must-know phrases",
+            "content": "知らぬが仏 \"Ignorance is bliss\" 言わぬが花 \"Silence is golden / Some things better left unsaid\" 寝る子は育つ → 泣く子は育つ (Actually modern, but classical-sounding) Learn as vocabulary Don't try to produce new ones Fixed expressions only"
+          }
+        ]
+      },
+      {
+        "level": 2,
+        "heading": "In Song Lyrics",
+        "content": "",
+        "children": [
+          {
+            "level": 3,
+            "heading": "Musical contexts",
+            "content": "Traditional songs: Classical forms common Modern songs: Sometimes for poetic effect Enka (演歌): Often uses classical language Artistic choice Creating mood Not conversational"
+          }
+        ]
+      },
+      {
+        "level": 2,
+        "heading": "Common Mistakes",
+        "content": "❌ Using in normal conversation ✗ 明日は行かぬ ✓ Modern form ✓ 明日は行かない ❌ Trying to conjugate fully Most conjugations archaic ✓ Learn set phrases ✓ Recognize in reading ❌ Confusing ず and ぬ Different but related forms ✓ Learn specific patterns ざるを得ない, ずに, etc. ❌ Overthinking it Not essential for basic Japanese ✓ Focus on modern ない Learn ぬ phrases as vocabulary Recognition over production Modern forms primary Classical for reading only"
+      },
+      {
+        "level": 2,
+        "heading": "Practical Examples",
+        "content": "",
+        "children": [
+          {
+            "level": 3,
+            "heading": "Where you'll encounter ぬ",
+            "content": "Set phrases: 知らぬが仏 \"Ignorance is bliss\" 住めば都 \"Anywhere can be home\" Proverbs: 虎穴に入らずんば虎子を得ず \"Nothing ventured, nothing gained\" Classical literature: 行かぬか \"Won't you go?\" 知らぬ人 \"Unknown person\" Formal writing: 疑う余地なし \"No room for doubt\" Song lyrics: 会わぬ日が続く \"Days without meeting continue\" Traditional expressions: 言わぬが花 \"Better left unsaid\" Legal documents: 〜すべからず \"Must not do\" Historical texts: 来ぬ人を待つ \"Waiting for someone who won't come\" Recognition contexts Cultural knowledge Literary appreciation Not daily production Fixed expressions Historical understanding Reading comprehension Cultural literacy"
+          },
+          {
+            "level": 3,
+            "heading": "Company",
+            "content": "About Pricing Blog Contact"
+          },
+          {
+            "level": 3,
+            "heading": "Legal",
+            "content": "Privacy Policy Terms of Service Cookie Policy"
+          }
+        ]
+      }
+    ],
+    "metadata": {
+      "title": "〜ぬ (nu) Classical Negative"
+    }
+  },
+  "metadata": {
+    "extracted_at": "2026-01-01T22:19:32.658200500Z",
+    "duration_ms": 5,
+    "extractors_matched": [
+      "metadata",
+      "examples",
+      "sections"
+    ],
+    "extractors_failed": [
+      "vocab_tables",
+      "definitions",
+      "content_blocks"
+    ]
+  }
+}

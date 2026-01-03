@@ -1,0 +1,339 @@
+{
+  "config_name": "Language Learning Extractor",
+  "url": "https://practice-japanese.com/docs/masen-ka/",
+  "data": {
+    "sections": [
+      {
+        "level": 2,
+        "heading": "What is 〜ませんか?",
+        "content": "〜ませんか is a polite way to invite someone or make suggestions, meaning \"won't you\" or \"would you like to.\" It's softer and more inviting than ましょう.\n\n一緒に行きませんか \"Won't you go with me?\" / \"Would you like to go?\" コーヒーを飲みませんか \"Won't you have coffee?\" / \"Would you like coffee?\" 映画を見ませんか \"Won't you watch a movie?\" / \"Would you like to watch a movie?\""
+      },
+      {
+        "level": 2,
+        "heading": "Formation",
+        "content": "",
+        "children": [
+          {
+            "level": 3,
+            "heading": "Pattern: Verb ます-stem + ませんか",
+            "content": "| Verb | ます-form | ます-stem | + ませんか | | ------ | --------- | --------- | ------------ | | 見る | 見ます | 見 | 見ませんか | | 食べる | 食べます | 食べ | 食べませんか | | 来る | 来ます | 来 | 来ませんか | | する | します | し | しませんか | | 書く | 書きます | 書き | 書きませんか | | 読む | 読みます | 読み | 読みませんか |"
+          },
+          {
+            "level": 3,
+            "heading": "Examples",
+            "content": "行く → 行きませんか (Won't you go?) 話す → 話しませんか (Won't you talk?) 遊ぶ → 遊びませんか (Won't you hang out?)"
+          }
+        ]
+      },
+      {
+        "level": 2,
+        "heading": "Basic Usage",
+        "content": "",
+        "children": [
+          {
+            "level": 3,
+            "heading": "Making invitations",
+            "content": "一緒にランチを食べませんか \"Won't you have lunch together?\" 明日映画を見ませんか \"Won't you watch a movie tomorrow?\" パーティーに来ませんか \"Won't you come to the party?\""
+          },
+          {
+            "level": 3,
+            "heading": "Offering activities",
+            "content": "散歩しませんか \"Won't you take a walk?\" 休憩しませんか \"Won't you take a break?\" お茶を飲みませんか \"Won't you have some tea?\""
+          }
+        ]
+      },
+      {
+        "level": 2,
+        "heading": "ませんか vs ましょう",
+        "content": "",
+        "children": [
+          {
+            "level": 3,
+            "heading": "Key difference",
+            "content": "ませんか = Invitation to the other person \"Won't YOU do...?\" Focus on inviting them ましょう = Suggestion to do together \"Let's US do...\" Focus on doing together Both can result in the same action!"
+          },
+          {
+            "level": 3,
+            "heading": "Comparison",
+            "content": "一緒に行きませんか \"Won't you go with me?\" (inviting) 一緒に行きましょう \"Let's go together\" (suggesting) 食べませんか \"Won't you eat?\" / \"Would you like to eat?\" (inviting) 食べましょう \"Let's eat\" (suggesting)"
+          },
+          {
+            "level": 3,
+            "heading": "When to use each",
+            "content": "ませんか: ✓ Initial invitation ✓ Asking someone to join ✓ More tentative ✓ Easier to decline ましょう: ✓ After agreement ✓ Moving to action ✓ More direct ✓ Assumes agreement"
+          }
+        ]
+      },
+      {
+        "level": 2,
+        "heading": "Common Phrases",
+        "content": "",
+        "children": [
+          {
+            "level": 3,
+            "heading": "Social invitations",
+            "content": "一緒に行きませんか - Won't you go together? 会いませんか - Won't you meet? 話しませんか - Won't you talk? 遊びませんか - Won't you hang out?"
+          },
+          {
+            "level": 3,
+            "heading": "Food and drink",
+            "content": "食べませんか - Won't you eat? 飲みませんか - Won't you drink? ランチしませんか - Won't you have lunch? ディナーしませんか - Won't you have dinner?"
+          },
+          {
+            "level": 3,
+            "heading": "Activities",
+            "content": "散歩しませんか - Won't you take a walk? 買い物に行きませんか - Won't you go shopping? カラオケに行きませんか - Won't you go to karaoke?"
+          }
+        ]
+      },
+      {
+        "level": 2,
+        "heading": "Common Conversations",
+        "content": "",
+        "children": [
+          {
+            "level": 3,
+            "heading": "Example 1: Lunch Invitation",
+            "content": "A: 今日、一緒にランチを食べませんか \"Won't you have lunch together today?\" B: いいですね。何時がいいですか \"Sounds good. What time works?\" A: １時はどうですか \"How about 1 o'clock?\" B: はい、大丈夫です \"Yes, that's fine\""
+          },
+          {
+            "level": 3,
+            "heading": "Example 2: Weekend Plans",
+            "content": "A: 週末、映画を見に行きませんか \"Won't you go see a movie this weekend?\" B: すみません、週末は予定があって... \"Sorry, I have plans this weekend...\" A: そうですか。また今度にしましょう \"I see. Let's do it another time\""
+          },
+          {
+            "level": 3,
+            "heading": "Example 3: At Work",
+            "content": "A: 少し休憩しませんか \"Won't you take a short break?\" B: そうですね。コーヒーでも飲みましょうか \"Good idea. Shall we have some coffee?\" A: はい、行きましょう \"Yes, let's go\""
+          }
+        ]
+      },
+      {
+        "level": 2,
+        "heading": "Responding to ませんか",
+        "content": "",
+        "children": [
+          {
+            "level": 3,
+            "heading": "Accepting",
+            "content": "はい、ぜひ \"Yes, I'd love to\" いいですね \"Sounds good\" 喜んで \"With pleasure\" ありがとうございます \"Thank you\" (accepting politely)"
+          },
+          {
+            "level": 3,
+            "heading": "Declining politely",
+            "content": "すみません、その日は予定があって... \"Sorry, I have plans that day...\" 申し訳ありませんが、ちょっと... \"I'm sorry, but...\" また今度お願いします \"Please another time\" 遠慮します \"I'll pass\""
+          }
+        ]
+      },
+      {
+        "level": 2,
+        "heading": "Common Mistakes",
+        "content": "",
+        "children": [
+          {
+            "level": 3,
+            "heading": "Mistake 1: Using wrong form",
+            "content": "Wrong: 行くませんか ❌ Right: 行きませんか ✓ \"Won't you go?\" Use ます-stem, not dictionary form!"
+          },
+          {
+            "level": 3,
+            "heading": "Mistake 2: Too direct for invitations",
+            "content": "Less inviting: 来てください ⚠️ More inviting: 来ませんか ✓ \"Won't you come?\" ませんか is softer for invitations!"
+          },
+          {
+            "level": 3,
+            "heading": "Mistake 3: Using for commands",
+            "content": "Wrong context: 早く起きませんか ⚠️ Better: 早く起きてください ✓ \"Please wake up early\" ませんか is for invitations, not commands!"
+          }
+        ]
+      },
+      {
+        "level": 2,
+        "heading": "Adding Details",
+        "content": "",
+        "children": [
+          {
+            "level": 3,
+            "heading": "Time expressions",
+            "content": "明日行きませんか \"Won't you go tomorrow?\" 来週会いませんか \"Won't you meet next week?\" 今夜飲みに行きませんか \"Won't you go drinking tonight?\""
+          },
+          {
+            "level": 3,
+            "heading": "Place expressions",
+            "content": "私の家に来ませんか \"Won't you come to my house?\" 新しいレストランに行きませんか \"Won't you go to the new restaurant?\" 駅で会いませんか \"Won't you meet at the station?\""
+          }
+        ]
+      },
+      {
+        "level": 2,
+        "heading": "Combining with Question Words",
+        "content": "何を食べませんか \"What would you like to eat?\" どこに行きませんか \"Where would you like to go?\" いつ会いませんか \"When shall we meet?\""
+      },
+      {
+        "level": 2,
+        "heading": "Casual Alternative",
+        "content": "",
+        "children": [
+          {
+            "level": 3,
+            "heading": "Using ない？",
+            "content": "Polite: 行きませんか Casual: 行かない？ \"Won't you go?\" Polite: 食べませんか Casual: 食べない？ \"Won't you eat?\""
+          },
+          {
+            "level": 3,
+            "heading": "When to use casual",
+            "content": "✓ Close friends ✓ Family ✓ Peers ✓ Casual situations Stick with ませんか for: ✓ Colleagues ✓ Acquaintances ✓ Polite situations ✓ First meetings"
+          }
+        ]
+      },
+      {
+        "level": 2,
+        "heading": "Common Invitation Patterns",
+        "content": "",
+        "children": [
+          {
+            "level": 3,
+            "heading": "Activity invitations",
+            "content": "映画を見に行きませんか \"Won't you go see a movie?\" 買い物に行きませんか \"Won't you go shopping?\" カラオケに行きませんか \"Won't you go to karaoke?\" 旅行に行きませんか \"Won't you go on a trip?\""
+          },
+          {
+            "level": 3,
+            "heading": "Meal invitations",
+            "content": "一緒に朝ごはんを食べませんか \"Won't you have breakfast together?\" ランチしませんか \"Won't you have lunch?\" 夕食に行きませんか \"Won't you go to dinner?\" お茶しませんか \"Won't you have tea?\" (casual meet-up)"
+          },
+          {
+            "level": 3,
+            "heading": "Study/work invitations",
+            "content": "一緒に勉強しませんか \"Won't you study together?\" 図書館に行きませんか \"Won't you go to the library?\" プロジェクトを手伝いませんか \"Won't you help with the project?\""
+          }
+        ]
+      },
+      {
+        "level": 2,
+        "heading": "Making it More Polite",
+        "content": "",
+        "children": [
+          {
+            "level": 3,
+            "heading": "Adding いかがですか",
+            "content": "コーヒーはいかがですか \"How about some coffee?\" (very polite) 一緒に行きませんか → 一緒にいかがですか More formal invitation"
+          },
+          {
+            "level": 3,
+            "heading": "Adding よろしければ",
+            "content": "よろしければ、一緒に行きませんか \"If you don't mind, won't you go together?\" よろしければ、うちに来ませんか \"If you'd like, won't you come to my place?\""
+          }
+        ]
+      },
+      {
+        "level": 2,
+        "heading": "Email and Written Invitations",
+        "content": "",
+        "children": [
+          {
+            "level": 3,
+            "heading": "Formal invitations",
+            "content": "ぜひ一度お会いしませんか \"Won't you meet with me sometime?\" お時間がございましたら、ご一緒しませんか \"If you have time, won't you join us?\""
+          }
+        ]
+      },
+      {
+        "level": 2,
+        "heading": "Practice Sentences",
+        "content": "",
+        "children": [
+          {
+            "level": 3,
+            "heading": "Basic",
+            "content": "一緒に行きませんか \"Won't you go together?\" 今日、映画を見ませんか \"Won't you watch a movie today?\" お茶を飲みませんか \"Won't you have some tea?\""
+          },
+          {
+            "level": 3,
+            "heading": "Intermediate",
+            "content": "週末、新しいカフェに行きませんか \"Won't you go to the new cafe this weekend?\" 来週の金曜日、飲みに行きませんか \"Won't you go for drinks next Friday?\" 私のパーティーに来ませんか \"Won't you come to my party?\""
+          },
+          {
+            "level": 3,
+            "heading": "Advanced",
+            "content": "よろしければ、今度の日曜日に一緒に美術館に行きませんか \"If you'd like, won't you go to the museum with me this Sunday?\" お忙しいとは思いますが、一度お話ししませんか \"I know you're busy, but won't you talk with me sometime?\" 新しいプロジェクトに参加しませんか。とても面白いと思いますよ \"Won't you join the new project? I think it would be very interesting\""
+          }
+        ]
+      },
+      {
+        "level": 2,
+        "heading": "Related Grammar Points",
+        "content": "〜ましょう - Let's (suggestion) 〜ましょうか - Shall I/we (offering) 〜ない？ - Won't you (casual) 〜ませんか - Won't you (polite) Invitations - Making invitations Suggestions - Making suggestions",
+        "children": [
+          {
+            "level": 3,
+            "heading": "Company",
+            "content": "About Pricing Blog Contact"
+          },
+          {
+            "level": 3,
+            "heading": "Legal",
+            "content": "Privacy Policy Terms of Service Cookie Policy"
+          }
+        ]
+      }
+    ],
+    "examples": [
+      {
+        "sentence": "〜ましょう - Let's (suggestion)"
+      },
+      {
+        "sentence": "〜ましょうか - Shall I/we (offering)"
+      },
+      {
+        "sentence": "〜ない？ - Won't you (casual)"
+      },
+      {
+        "sentence": "〜ませんか - Won't you (polite)"
+      },
+      {
+        "sentence": "Invitations - Making invitations"
+      },
+      {
+        "sentence": "Suggestions - Making suggestions"
+      },
+      {
+        "sentence": "About"
+      },
+      {
+        "sentence": "Pricing"
+      },
+      {
+        "sentence": "Blog"
+      },
+      {
+        "sentence": "Contact"
+      },
+      {
+        "sentence": "Privacy Policy"
+      },
+      {
+        "sentence": "Terms of Service"
+      },
+      {
+        "sentence": "Cookie Policy"
+      }
+    ],
+    "metadata": {
+      "title": "〜ませんか (Won't you)"
+    }
+  },
+  "metadata": {
+    "extracted_at": "2026-01-01T22:19:31.325025200Z",
+    "duration_ms": 4,
+    "extractors_matched": [
+      "metadata",
+      "examples",
+      "sections"
+    ],
+    "extractors_failed": [
+      "vocab_tables",
+      "definitions",
+      "content_blocks"
+    ]
+  }
+}

@@ -1,0 +1,376 @@
+{
+  "config_name": "Language Learning Extractor",
+  "url": "https://practice-japanese.com/docs/toiu/",
+  "data": {
+    "examples": [
+      {
+        "sentence": "と言う - Say/called (full form)"
+      },
+      {
+        "sentence": "って - Casual quotation"
+      },
+      {
+        "sentence": "というのは - Definition pattern"
+      },
+      {
+        "sentence": "ということ - The fact that"
+      },
+      {
+        "sentence": "というより - Rather than"
+      },
+      {
+        "sentence": "Quotation - Quoting and naming"
+      },
+      {
+        "sentence": "About"
+      },
+      {
+        "sentence": "Pricing"
+      },
+      {
+        "sentence": "Blog"
+      },
+      {
+        "sentence": "Contact"
+      },
+      {
+        "sentence": "Privacy Policy"
+      },
+      {
+        "sentence": "Terms of Service"
+      },
+      {
+        "sentence": "Cookie Policy"
+      }
+    ],
+    "sections": [
+      {
+        "level": 2,
+        "heading": "What is という?",
+        "content": "という is the contracted form of と言う, meaning \"called,\" \"named,\" \"that is to say,\" or \"the one called.\" It's used for naming, defining, and introducing unfamiliar terms or people.\n\n東京という都市 \"A city called Tokyo\" 寿司という食べ物 \"A food called sushi\" 田中という人 \"A person called Tanaka\""
+      },
+      {
+        "level": 2,
+        "heading": "Formation",
+        "content": "",
+        "children": [
+          {
+            "level": 3,
+            "heading": "Pattern: [Name/Term] + という + [Noun]",
+            "content": "Name + という + Noun 山田という学生 \"A student named Yamada\" 富士山という山 \"A mountain called Mt. Fuji\" 愛という感情 \"An emotion called love\""
+          }
+        ]
+      },
+      {
+        "level": 2,
+        "heading": "Basic Usage",
+        "content": "",
+        "children": [
+          {
+            "level": 3,
+            "heading": "Introducing people",
+            "content": "佐藤という友達 \"A friend called Sato\" 鈴木さんという方 \"A person called Mr. Suzuki\" 山田という先生 \"A teacher named Yamada\""
+          },
+          {
+            "level": 3,
+            "heading": "Introducing places",
+            "content": "京都という都市 \"A city called Kyoto\" 浅草という場所 \"A place called Asakusa\" 富士山という山 \"A mountain called Mt. Fuji\""
+          },
+          {
+            "level": 3,
+            "heading": "Introducing things/concepts",
+            "content": "寿司という料理 \"A dish called sushi\" 桜という花 \"A flower called cherry blossom\" 相撲というスポーツ \"A sport called sumo\""
+          }
+        ]
+      },
+      {
+        "level": 2,
+        "heading": "Key Uses",
+        "content": "",
+        "children": [
+          {
+            "level": 3,
+            "heading": "For unfamiliar items",
+            "content": "納豆という食べ物を知っていますか \"Do you know a food called natto?\" 能という伝統芸能 \"A traditional art called Noh\" Introducing something listener may not know"
+          },
+          {
+            "level": 3,
+            "heading": "Defining terms",
+            "content": "「愛」というのは、深い感情です \"'Love' is a deep emotion\" 幸せというのは人それぞれだ \"Happiness differs from person to person\" Explaining what something is"
+          }
+        ]
+      },
+      {
+        "level": 2,
+        "heading": "Common Conversations",
+        "content": "",
+        "children": [
+          {
+            "level": 3,
+            "heading": "Example 1: Introducing Someone",
+            "content": "A: 誰と会うの？ \"Who are you meeting?\" B: 田中という人。仕事の関係で \"Someone called Tanaka. Through work\" A: そうなんだ \"I see\""
+          },
+          {
+            "level": 3,
+            "heading": "Example 2: Asking About Things",
+            "content": "A: 「おでん」って何？ \"What's 'oden'?\" B: おでんというのは、日本の冬の料理だよ \"Oden is a Japanese winter dish\""
+          },
+          {
+            "level": 3,
+            "heading": "Example 3: Describing",
+            "content": "A: どこに住んでるの？ \"Where do you live?\" B: 渋谷という場所。東京だよ \"A place called Shibuya. In Tokyo\""
+          }
+        ]
+      },
+      {
+        "level": 2,
+        "heading": "Common Mistakes",
+        "content": "",
+        "children": [
+          {
+            "level": 3,
+            "heading": "Mistake 1: Wrong word order",
+            "content": "Wrong: という田中人 ❌ Right: 田中という人 ✓ \"A person called Tanaka\" Name before という!"
+          },
+          {
+            "level": 3,
+            "heading": "Mistake 2: Forgetting noun after という",
+            "content": "Incomplete: 田中という ⚠️ Complete: 田中という人 ✓ \"A person called Tanaka\" Need noun after という"
+          },
+          {
+            "level": 3,
+            "heading": "Mistake 3: Using で",
+            "content": "Wrong: 東京で都市 ❌ Right: 東京という都市 ✓ \"A city called Tokyo\" Use という, not で!"
+          }
+        ]
+      },
+      {
+        "level": 2,
+        "heading": "というのは (Definition Pattern)",
+        "content": "",
+        "children": [
+          {
+            "level": 3,
+            "heading": "Explaining/defining",
+            "content": "寿司というのは、日本の料理です \"Sushi is Japanese food\" 愛というのは難しい \"Love is difficult\" 幸せというのは、人それぞれだ \"Happiness differs from person to person\" Formal definition structure"
+          }
+        ]
+      },
+      {
+        "level": 2,
+        "heading": "ということ (That thing/fact)",
+        "content": "",
+        "children": [
+          {
+            "level": 3,
+            "heading": "Nominalizing statements",
+            "content": "彼が来るということ \"The fact that he's coming\" 難しいということ \"The fact that it's difficult\" 成功したということは素晴らしい \"The fact that you succeeded is wonderful\""
+          }
+        ]
+      },
+      {
+        "level": 2,
+        "heading": "という名前 (Named)",
+        "content": "",
+        "children": [
+          {
+            "level": 3,
+            "heading": "Specifically about names",
+            "content": "太郎という名前 \"A name called Taro\" 「希望」という名前の店 \"A shop named 'Hope'\" Emphasizing the name itself"
+          }
+        ]
+      },
+      {
+        "level": 2,
+        "heading": "Describing Unknown Things",
+        "content": "",
+        "children": [
+          {
+            "level": 3,
+            "heading": "For listener's benefit",
+            "content": "抹茶というお茶 \"A tea called matcha\" 柔道という武道 \"A martial art called judo\" 温泉という場所 \"A place called hot spring\" Assuming listener might not know"
+          }
+        ]
+      },
+      {
+        "level": 2,
+        "heading": "という meaning \"that/the one\"",
+        "content": "",
+        "children": [
+          {
+            "level": 3,
+            "heading": "Referring back",
+            "content": "昨日会った、田中という人 \"That person called Tanaka I met yesterday\" 前に話した、あの店という場所 \"That place, that shop I mentioned before\""
+          }
+        ]
+      },
+      {
+        "level": 2,
+        "heading": "Formal Variations",
+        "content": "",
+        "children": [
+          {
+            "level": 3,
+            "heading": "というもの (That thing)",
+            "content": "愛というものは複雑だ \"The thing called love is complex\" 人生というものは短い \"The thing called life is short\" More philosophical tone"
+          }
+        ]
+      },
+      {
+        "level": 2,
+        "heading": "Common Patterns",
+        "content": "",
+        "children": [
+          {
+            "level": 3,
+            "heading": "～というより (Rather than)",
+            "content": "簡単というより、普通だ \"Rather than easy, it's normal\" 嬉しいというより、驚いた \"Rather than happy, I was surprised\""
+          },
+          {
+            "level": 3,
+            "heading": "～というか (Or rather/Or should I say)",
+            "content": "面白いというか、変だった \"It was interesting, or rather, strange\" 忙しいというか、大変だ \"Busy, or rather, it's tough\""
+          },
+          {
+            "level": 3,
+            "heading": "～ということだ (I heard that/It means)",
+            "content": "彼は来ないということだ \"I heard he's not coming\" 中止ということです \"It means it's cancelled\""
+          }
+        ]
+      },
+      {
+        "level": 2,
+        "heading": "Quoting Hearsay",
+        "content": "",
+        "children": [
+          {
+            "level": 3,
+            "heading": "という話 (Story/rumor that)",
+            "content": "雨が降るという話 \"A story/rumor that it will rain\" 彼が辞めるという話を聞いた \"I heard a rumor that he's quitting\""
+          }
+        ]
+      },
+      {
+        "level": 2,
+        "heading": "With Adjectives",
+        "content": "",
+        "children": [
+          {
+            "level": 3,
+            "heading": "という + い-adjective",
+            "content": "「難しい」という形容詞 \"An adjective called 'difficult'\" 複雑という言葉 \"A word called 'complex'\""
+          }
+        ]
+      },
+      {
+        "level": 2,
+        "heading": "In Questions",
+        "content": "",
+        "children": [
+          {
+            "level": 3,
+            "heading": "～というのは何ですか",
+            "content": "「おもてなし」というのは何ですか \"What is 'omotenashi'?\" この漢字というのは何と読みますか \"How do you read this kanji?\" Asking for definitions"
+          }
+        ]
+      },
+      {
+        "level": 2,
+        "heading": "Casual Form って",
+        "content": "",
+        "children": [
+          {
+            "level": 3,
+            "heading": "Very casual という",
+            "content": "田中って人 \"Someone called Tanaka\" 寿司って食べ物 \"That food called sushi\" 明日行くって話 \"That story about going tomorrow\" Very casual conversation"
+          }
+        ]
+      },
+      {
+        "level": 2,
+        "heading": "With Numbers/Quantities",
+        "content": "100円という値段 \"A price of 100 yen\" 10人という人数 \"A number of 10 people\" 2時間という時間 \"A time of 2 hours\""
+      },
+      {
+        "level": 2,
+        "heading": "Describing Characteristics",
+        "content": "",
+        "children": [
+          {
+            "level": 3,
+            "heading": "という特徴 (Characteristic of)",
+            "content": "優しいという特徴 \"A characteristic of being kind\" 速いという利点 \"An advantage of being fast\""
+          }
+        ]
+      },
+      {
+        "level": 2,
+        "heading": "Literary Use",
+        "content": "",
+        "children": [
+          {
+            "level": 3,
+            "heading": "In writing",
+            "content": "人生という旅 \"A journey called life\" 時間という宝物 \"A treasure called time\" 運命という糸 \"A thread called fate\" More poetic/literary"
+          }
+        ]
+      },
+      {
+        "level": 2,
+        "heading": "Practice Sentences",
+        "content": "",
+        "children": [
+          {
+            "level": 3,
+            "heading": "Basic",
+            "content": "京都という場所 \"A place called Kyoto\" 寿司という食べ物 \"A food called sushi\" 田中という人を知っていますか \"Do you know a person called Tanaka?\""
+          },
+          {
+            "level": 3,
+            "heading": "Intermediate",
+            "content": "「わびさび」というのは、日本の美意識です \"'Wabi-sabi' is a Japanese aesthetic sense\" 彼が成功したということは、努力の結果だ \"The fact that he succeeded is the result of effort\" 明日雨が降るという天気予報を見た \"I saw a weather forecast saying it will rain tomorrow\""
+          },
+          {
+            "level": 3,
+            "heading": "Advanced",
+            "content": "愛というものは、言葉で説明するのが 難しい。それは感じるものであって、 理解するものではないと思う。 \"The thing called love is difficult to explain in words. I think it's something you feel, not something you understand.\" 日本には「おもてなし」という文化がある。 これは単なるサービスというより、 相手を心から歓迎する精神のことだ。 \"In Japan, there's a culture called 'omotenashi.' This is, rather than just service, the spirit of welcoming others from the heart.\""
+          }
+        ]
+      },
+      {
+        "level": 2,
+        "heading": "Related Grammar Points",
+        "content": "と言う - Say/called (full form) って - Casual quotation というのは - Definition pattern ということ - The fact that というより - Rather than Quotation - Quoting and naming",
+        "children": [
+          {
+            "level": 3,
+            "heading": "Company",
+            "content": "About Pricing Blog Contact"
+          },
+          {
+            "level": 3,
+            "heading": "Legal",
+            "content": "Privacy Policy Terms of Service Cookie Policy"
+          }
+        ]
+      }
+    ],
+    "metadata": {
+      "title": "という (Called/That)"
+    }
+  },
+  "metadata": {
+    "extracted_at": "2026-01-01T22:19:36.461027300Z",
+    "duration_ms": 3,
+    "extractors_matched": [
+      "metadata",
+      "examples",
+      "sections"
+    ],
+    "extractors_failed": [
+      "vocab_tables",
+      "definitions",
+      "content_blocks"
+    ]
+  }
+}

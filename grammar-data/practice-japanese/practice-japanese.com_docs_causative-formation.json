@@ -1,0 +1,284 @@
+{
+  "config_name": "Language Learning Extractor",
+  "url": "https://practice-japanese.com/docs/causative-formation/",
+  "data": {
+    "sections": [
+      {
+        "level": 2,
+        "heading": "Causative Formation",
+        "content": "Causative verbs (使役形 - shieki-kei) express making or letting someone do something. The formation follows regular patterns based on verb groups.\n\nBasic meaning: \"Make someone do\" \"Let someone do\" Formation adds: せる/させる Context determines \"make\" vs \"let\""
+      },
+      {
+        "level": 2,
+        "heading": "る-Verbs (Group 2)",
+        "content": "",
+        "children": [
+          {
+            "level": 3,
+            "heading": "Drop る, add させる",
+            "content": "食べる → 食べさせる \"eat\" → \"make/let eat\" 見る → 見させる \"watch\" → \"make/let watch\" 寝る → 寝させる \"sleep\" → \"make/let sleep\" 起きる → 起きさせる \"wake up\" → \"make/let wake up\" 教える → 教えさせる \"teach\" → \"make/let teach\" Simple pattern Drop final る Add させる"
+          }
+        ]
+      },
+      {
+        "level": 2,
+        "heading": "う-Verbs (Group 1)",
+        "content": "",
+        "children": [
+          {
+            "level": 3,
+            "heading": "Change to あ-stem, add せる",
+            "content": "書く → 書かせる (kaku → kakaseru) \"write\" → \"make/let write\" 読む → 読ませる (yomu → yomaseru) \"read\" → \"make/let read\" 話す → 話させる (hanasu → hanasaseru) \"speak\" → \"make/let speak\" 待つ → 待たせる (matsu → mataseru) \"wait\" → \"make/let wait\" 行く → 行かせる (iku → ikaseru) \"go\" → \"make/let go\" 飲む → 飲ませる (nomu → nomaseru) \"drink\" → \"make/let drink\" 泳ぐ → 泳がせる (oyogu → oyogaseru) \"swim\" → \"make/let swim\" Change to あ-form Add せる"
+          }
+        ]
+      },
+      {
+        "level": 2,
+        "heading": "Irregular Verbs",
+        "content": "",
+        "children": [
+          {
+            "level": 3,
+            "heading": "Special forms",
+            "content": "する → させる \"do\" → \"make/let do\" 勉強する → 勉強させる \"study\" → \"make/let study\" 来る → 来させる (こさせる) \"come\" → \"make/let come\" Only two irregular Learn these separately"
+          }
+        ]
+      },
+      {
+        "level": 2,
+        "heading": "Conjugation Type",
+        "content": "",
+        "children": [
+          {
+            "level": 3,
+            "heading": "Causative = る-verb",
+            "content": "All causatives conjugate as る-verbs: 食べさせる (ru-verb pattern): Present: 食べさせる Past: 食べさせた Negative: 食べさせない Te-form: 食べさせて 行かせる (also ru-verb): Present: 行かせる Past: 行かせた Negative: 行かせない Te-form: 行かせて Regardless of original verb type All causatives become ru-verbs Consistent conjugation"
+          }
+        ]
+      },
+      {
+        "level": 2,
+        "heading": "Formation Summary Table",
+        "content": "",
+        "children": [
+          {
+            "level": 3,
+            "heading": "All patterns",
+            "content": "る-verbs: 食べる → 食べさせる 見る → 見させる う-verbs: 書く → 書かせる 読む → 読ませる 話す → 話させる 待つ → 待たせる 死ぬ → 死なせる 遊ぶ → 遊ばせる 飲む → 飲ませる 帰る → 帰らせる 泳ぐ → 泳がせる 買う → 買わせる Irregular: する → させる 来る → 来させる Memorize patterns Practice formation"
+          }
+        ]
+      },
+      {
+        "level": 2,
+        "heading": "Common Formation Mistakes",
+        "content": "",
+        "children": [
+          {
+            "level": 3,
+            "heading": "Errors to avoid",
+            "content": "❌ Wrong stem ✗ 食べるさせる (keeping る) ✓ Correct ✓ 食べさせる ❌ Wrong ending for う-verbs ✗ 書きせる ✓ Correct あ-stem ✓ 書かせる ❌ Irregular confusion ✗ するさせる ✓ Correct irregular ✓ させる Practice prevents errors Know your verb groups"
+          }
+        ]
+      },
+      {
+        "level": 2,
+        "heading": "Recognition Pattern",
+        "content": "",
+        "children": [
+          {
+            "level": 3,
+            "heading": "Spotting causatives",
+            "content": "If you see: 〜させる ending 〜せる ending Likely causative form Check verb stem Identify meaning 食べさせる → causative of 食べる 行かせる → causative of 行く"
+          }
+        ]
+      },
+      {
+        "level": 2,
+        "heading": "Multiple Meanings",
+        "content": "",
+        "children": [
+          {
+            "level": 3,
+            "heading": "Context determines",
+            "content": "Same form, different meanings: 子供を遊ばせる \"Make child play\" (permission) OR \"Let child play\" (permission) 親が子供を勉強させる \"Parent makes child study\" (force) Context shows which Both use same form Natural interpretation"
+          }
+        ]
+      },
+      {
+        "level": 2,
+        "heading": "Potential Confusion",
+        "content": "",
+        "children": [
+          {
+            "level": 3,
+            "heading": "させる vs させられる",
+            "content": "させる = causative \"make/let someone do\" させられる = causative-passive \"be made to do\" 食べさせる \"make (someone) eat\" 食べさせられる \"be made to eat\" Different meanings Don't confuse Extra られる = passive"
+          }
+        ]
+      },
+      {
+        "level": 2,
+        "heading": "With Different Verbs",
+        "content": "",
+        "children": [
+          {
+            "level": 3,
+            "heading": "Transitive vs intransitive",
+            "content": "Intransitive base: 行く → 行かせる \"make/let go\" 泣く → 泣かせる \"make cry\" 笑う → 笑わせる \"make laugh\" Transitive base: 食べる → 食べさせる \"make/let eat\" 読む → 読ませる \"make/let read\" 書く → 書かせる \"make/let write\" Both types form causatives Pattern stays same"
+          }
+        ]
+      },
+      {
+        "level": 2,
+        "heading": "Honorific Confusion",
+        "content": "",
+        "children": [
+          {
+            "level": 3,
+            "heading": "Different from させていただく",
+            "content": "Causative: させる \"make/let do\" Humble request: させていただく \"humbly do / be allowed to do\" 勉強させる \"make (someone) study\" 勉強させていただく \"humbly study / be allowed to study\" Different functions Different meanings Don't mix up"
+          }
+        ]
+      },
+      {
+        "level": 2,
+        "heading": "Formality",
+        "content": "",
+        "children": [
+          {
+            "level": 3,
+            "heading": "Neutral formation",
+            "content": "Causative form itself neutral: Casual: 食べさせた Polite: 食べさせました Formal: 食べさせました Formality from conjugation Not from causative itself Adjust ending as needed"
+          }
+        ]
+      },
+      {
+        "level": 2,
+        "heading": "Length Consideration",
+        "content": "",
+        "children": [
+          {
+            "level": 3,
+            "heading": "Long forms",
+            "content": "Causative adds length: 食べる (3 mora) → 食べさせる (5 mora) 見る (2 mora) → 見させる (4 mora) Longer forms Can sound heavy Natural in context"
+          }
+        ]
+      },
+      {
+        "level": 2,
+        "heading": "Practice Conjugation",
+        "content": "",
+        "children": [
+          {
+            "level": 3,
+            "heading": "Drill examples",
+            "content": "Convert to causative: 飲む → 飲ませる 書く → 書かせる 来る → 来させる する → させる 食べる → 食べさせる 見る → 見させる 行く → 行かせる 帰る → 帰らせる 寝る → 寝させる 起きる → 起きさせる Regular practice Builds automaticity Master patterns"
+          }
+        ]
+      },
+      {
+        "level": 2,
+        "heading": "Special Readings",
+        "content": "",
+        "children": [
+          {
+            "level": 3,
+            "heading": "Pronunciation notes",
+            "content": "Some require attention: 話す → 話させる (hanasaseru) Three さ sounds 待つ → 待たせる (mataseru) Not \"machiseru\" 死ぬ → 死なせる (shinaseru) な appears Learn correct readings Practice pronunciation"
+          }
+        ]
+      },
+      {
+        "level": 2,
+        "heading": "In Context",
+        "content": "",
+        "children": [
+          {
+            "level": 3,
+            "heading": "Seeing causatives used",
+            "content": "親が子供に野菜を食べさせる \"Parent makes child eat vegetables\" 先生が生徒に本を読ませる \"Teacher has students read book\" 子供を公園で遊ばせる \"Let child play in park\" Natural usage Common patterns Real examples"
+          }
+        ]
+      },
+      {
+        "level": 2,
+        "heading": "Building Complexity",
+        "content": "",
+        "children": [
+          {
+            "level": 3,
+            "heading": "Causative as foundation",
+            "content": "Once you know causative formation: Can add passive: させられる Can add てもらう: させてもらう Can add てください: させてください Foundation for advanced forms Master formation first Expand from there"
+          }
+        ]
+      },
+      {
+        "level": 2,
+        "heading": "Common Mistakes",
+        "content": "❌ Using wrong group pattern ✗ 食べるせる ✓ Know verb groups ✓ 食べさせる ❌ Forgetting irregular forms ✗ 来るさせる ✓ Memorize exceptions ✓ 来させる ❌ Wrong conjugation of causative ✗ 食べさせます (should be 食べさせます is correct, but thinking it conjugates as う-verb) ✓ All causatives are る-verbs ✓ 食べさせます Formation is mechanical Follow patterns exactly Practice makes perfect"
+      },
+      {
+        "level": 2,
+        "heading": "Practical Examples",
+        "content": "",
+        "children": [
+          {
+            "level": 3,
+            "heading": "Formation practice",
+            "content": "Base → Causative: 歩く → 歩かせる \"make/let walk\" 立つ → 立たせる \"make/let stand\" 座る → 座らせる \"make/let sit\" 泣く → 泣かせる \"make cry\" 笑う → 笑わせる \"make laugh\" 休む → 休ませる \"make/let rest\" 働く → 働かせる \"make/let work\" 遊ぶ → 遊ばせる \"make/let play\" Daily verbs Common causatives Practice these Master formation Natural usage follows"
+          },
+          {
+            "level": 3,
+            "heading": "Company",
+            "content": "About Pricing Blog Contact"
+          },
+          {
+            "level": 3,
+            "heading": "Legal",
+            "content": "Privacy Policy Terms of Service Cookie Policy"
+          }
+        ]
+      }
+    ],
+    "metadata": {
+      "title": "Causative Formation"
+    },
+    "examples": [
+      {
+        "sentence": "About"
+      },
+      {
+        "sentence": "Pricing"
+      },
+      {
+        "sentence": "Blog"
+      },
+      {
+        "sentence": "Contact"
+      },
+      {
+        "sentence": "Privacy Policy"
+      },
+      {
+        "sentence": "Terms of Service"
+      },
+      {
+        "sentence": "Cookie Policy"
+      }
+    ]
+  },
+  "metadata": {
+    "extracted_at": "2026-01-01T22:19:28.363784100Z",
+    "duration_ms": 3,
+    "extractors_matched": [
+      "metadata",
+      "examples",
+      "sections"
+    ],
+    "extractors_failed": [
+      "vocab_tables",
+      "definitions",
+      "content_blocks"
+    ]
+  }
+}

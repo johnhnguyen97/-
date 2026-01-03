@@ -1,0 +1,663 @@
+{
+  "config_name": "Language Learning Extractor",
+  "url": "https://practice-japanese.com/docs/desu-ka-vs-darou-ka/",
+  "data": {
+    "examples": [
+      {
+        "sentence": "ですか - Direct questions asking others"
+      },
+      {
+        "sentence": "だろうか - Wondering, rhetorical questions, self-questioning"
+      },
+      {
+        "sentence": "Expects an answer from the listener"
+      },
+      {
+        "sentence": "Polite and direct"
+      },
+      {
+        "sentence": "Used in conversations"
+      },
+      {
+        "sentence": "The asker genuinely doesn't know"
+      },
+      {
+        "sentence": "Self-questioning or rhetorical"
+      },
+      {
+        "sentence": "More literary or formal"
+      },
+      {
+        "sentence": "Often used in writing or narration"
+      },
+      {
+        "sentence": "Expresses doubt or uncertainty"
+      },
+      {
+        "sentence": "May not expect an answer"
+      },
+      {
+        "sentence": "More polite than ですか"
+      },
+      {
+        "sentence": "Can be used when asking someone"
+      },
+      {
+        "sentence": "Shows uncertainty or seeking reassurance"
+      },
+      {
+        "sentence": "Common in business/formal settings"
+      },
+      {
+        "sentence": "Asking someone directly"
+      },
+      {
+        "sentence": "Having a conversation"
+      },
+      {
+        "sentence": "Expecting an answer"
+      },
+      {
+        "sentence": "Being polite and clear"
+      },
+      {
+        "sentence": "Wondering to yourself"
+      },
+      {
+        "sentence": "Writing essays or narratives"
+      },
+      {
+        "sentence": "Asking rhetorical questions"
+      },
+      {
+        "sentence": "Being literary or philosophical"
+      },
+      {
+        "sentence": "Being very polite"
+      },
+      {
+        "sentence": "In business situations"
+      },
+      {
+        "sentence": "Showing uncertainty politely"
+      },
+      {
+        "sentence": "Seeking reassurance"
+      },
+      {
+        "sentence": "Speaking casually"
+      },
+      {
+        "sentence": "Wondering out loud"
+      },
+      {
+        "sentence": "Talking to friends"
+      },
+      {
+        "sentence": "Not expecting an answer"
+      },
+      {
+        "sentence": "Yes/No Questions - Basic question formation"
+      },
+      {
+        "sentence": "か (ka) Question Usage - Question particle"
+      },
+      {
+        "sentence": "の (no) Questions - Casual questions"
+      },
+      {
+        "sentence": "でしょう expressions - Probability and politeness"
+      },
+      {
+        "sentence": "だろう casual form - Casual probability"
+      },
+      {
+        "sentence": "かもしれない - Expressing possibility"
+      },
+      {
+        "sentence": "Question intonation - Rising pitch patterns"
+      },
+      {
+        "sentence": "Rhetorical questions - Questions not expecting answers"
+      },
+      {
+        "sentence": "About"
+      },
+      {
+        "sentence": "Pricing"
+      },
+      {
+        "sentence": "Blog"
+      },
+      {
+        "sentence": "Contact"
+      },
+      {
+        "sentence": "Privacy Policy"
+      },
+      {
+        "sentence": "Terms of Service"
+      },
+      {
+        "sentence": "Cookie Policy"
+      }
+    ],
+    "sections": [
+      {
+        "level": 2,
+        "heading": "Overview",
+        "content": "ですか and だろうか are both used to ask questions, but they have very different nuances and uses:\n\nですか - Direct questions asking others だろうか - Wondering, rhetorical questions, self-questioning\n\n明日は雨ですか？ \"Will it rain tomorrow?\" (asking someone) 明日は雨だろうか？ \"I wonder if it will rain tomorrow?\" (pondering)"
+      },
+      {
+        "level": 2,
+        "heading": "ですか - Direct Questions",
+        "content": "",
+        "children": [
+          {
+            "level": 3,
+            "heading": "Basic Usage",
+            "content": "Used when directly asking someone for information:\n\nこれは何ですか？ \"What is this?\" どこに行きますか？ \"Where are you going?\" わかりますか？ \"Do you understand?\" いくらですか？ \"How much is it?\""
+          },
+          {
+            "level": 3,
+            "heading": "Characteristics",
+            "content": "Expects an answer from the listener Polite and direct Used in conversations The asker genuinely doesn't know"
+          },
+          {
+            "level": 3,
+            "heading": "Common Situations",
+            "content": "お名前は何ですか？ \"What is your name?\" これでいいですか？ \"Is this okay?\" 何時に始まりますか？ \"What time does it start?\" どうしましたか？ \"What happened?\""
+          }
+        ]
+      },
+      {
+        "level": 2,
+        "heading": "だろうか - Wondering/Pondering",
+        "content": "",
+        "children": [
+          {
+            "level": 3,
+            "heading": "Basic Usage",
+            "content": "Used when wondering about something, often without expecting an answer:\n\n彼は来るだろうか？ \"I wonder if he'll come?\" これで大丈夫だろうか？ \"I wonder if this is okay?\" 本当だろうか？ \"I wonder if it's true?\" どうすればいいだろうか？ \"I wonder what I should do?\""
+          },
+          {
+            "level": 3,
+            "heading": "Characteristics",
+            "content": "Self-questioning or rhetorical More literary or formal Often used in writing or narration Expresses doubt or uncertainty May not expect an answer"
+          }
+        ]
+      },
+      {
+        "level": 2,
+        "heading": "Detailed Comparison",
+        "content": "",
+        "children": [
+          {
+            "level": 3,
+            "heading": "ですか - Seeking Information",
+            "content": "明日の天気はどうですか？ \"How's tomorrow's weather?\" (asking someone) ↓ Expects: \"晴れです\" or \"雨です\""
+          },
+          {
+            "level": 3,
+            "heading": "だろうか - Wondering",
+            "content": "明日の天気はどうだろうか？ \"I wonder how tomorrow's weather will be?\" ↓ Not necessarily expecting an answer"
+          }
+        ]
+      },
+      {
+        "level": 2,
+        "heading": "でしょうか - Middle Ground",
+        "content": "でしょうか is more polite than だろうか and can be used in conversation:\n\nこれでいいでしょうか？ \"Would this be alright?\" (polite inquiry) 雨が降るでしょうか？ \"Do you think it will rain?\" (polite wondering) 大丈夫でしょうか？ \"Will it be okay?\" (concerned question)",
+        "children": [
+          {
+            "level": 3,
+            "heading": "Usage Context",
+            "content": "More polite than ですか Can be used when asking someone Shows uncertainty or seeking reassurance Common in business/formal settings"
+          }
+        ]
+      },
+      {
+        "level": 2,
+        "heading": "だろうか Patterns",
+        "content": "",
+        "children": [
+          {
+            "level": 3,
+            "heading": "In Narration/Writing",
+            "content": "Common in essays, novels, and formal writing:\n\n人生とは何だろうか？ \"What is life?\" これが正しい答えだろうか？ \"Is this the correct answer?\" 彼の言葉は本当だろうか？ \"Are his words true?\""
+          },
+          {
+            "level": 3,
+            "heading": "Internal Monologue",
+            "content": "A: (考えている) \"Thinking...\" 明日までに終わるだろうか... \"I wonder if I'll finish by tomorrow...\" 彼女は怒っているだろうか... \"I wonder if she's angry...\""
+          },
+          {
+            "level": 3,
+            "heading": "Rhetorical Questions",
+            "content": "これが愛と言えるだろうか？ \"Can this be called love?\" 本当にそれでいいのだろうか？ \"Is that really okay?\" 誰がこんなことをしたのだろうか？ \"Who could have done such a thing?\""
+          }
+        ]
+      },
+      {
+        "level": 2,
+        "heading": "Politeness Levels",
+        "content": "",
+        "children": [
+          {
+            "level": 3,
+            "heading": "Most Formal",
+            "content": "〜でございますか？ \"Is it...?\" (very formal) よろしいでしょうか？ \"Would it be alright?\" (very polite)"
+          },
+          {
+            "level": 3,
+            "heading": "Standard Polite",
+            "content": "〜ですか？ \"Is it...?\" 〜でしょうか？ \"Is it...?\" (polite wondering)"
+          },
+          {
+            "level": 3,
+            "heading": "Neutral/Literary",
+            "content": "〜だろうか？ \"I wonder if...?\" 〜であろうか？ \"Could it be...?\" (very formal/literary)"
+          },
+          {
+            "level": 3,
+            "heading": "Casual",
+            "content": "〜かな？ \"I wonder...?\" 〜だろう？ \"Probably...?\" / \"Right?\""
+          }
+        ]
+      },
+      {
+        "level": 2,
+        "heading": "Common Mistake Patterns",
+        "content": "",
+        "children": [
+          {
+            "level": 3,
+            "heading": "Mistake 1: Using だろうか to ask someone directly",
+            "content": "Awkward: 名前は何だろうか？ (to someone) ⚠️ Better: お名前は何ですか？ ✓ \"What is your name?\" だろうか sounds like you're pondering, not asking!"
+          },
+          {
+            "level": 3,
+            "heading": "Mistake 2: Using ですか for internal thoughts",
+            "content": "Unnatural: (心の中で) 大丈夫ですか？ ⚠️ Better: (心の中で) 大丈夫だろうか？ ✓ \"I wonder if it's okay?\" (thinking to oneself)"
+          },
+          {
+            "level": 3,
+            "heading": "Mistake 3: Wrong politeness level",
+            "content": "Too casual: 先生、これでいいだろう？ ❌ Better: 先生、これでいいでしょうか？ ✓ \"Teacher, would this be alright?\""
+          }
+        ]
+      },
+      {
+        "level": 2,
+        "heading": "Context Determines Meaning",
+        "content": "",
+        "children": [
+          {
+            "level": 3,
+            "heading": "だろうか Can Be a Real Question",
+            "content": "In formal speeches or presentations:\n\nこれは正しいと言えるだろうか？ \"Can we say this is correct?\" (to audience) 我々はどうすべきだろうか？ \"What should we do?\" (to group)"
+          },
+          {
+            "level": 3,
+            "heading": "ですか Can Express Surprise",
+            "content": "With certain intonation:\n\n本当ですか？！ \"Really?!\" (surprised) そうですか... \"Is that so...\" (skeptical)"
+          }
+        ]
+      },
+      {
+        "level": 2,
+        "heading": "Related Expressions",
+        "content": "",
+        "children": [
+          {
+            "level": 3,
+            "heading": "かな (casual wondering)",
+            "content": "大丈夫かな？ \"I wonder if it's okay?\" 来るかな？ \"I wonder if they'll come?\" できるかな？ \"I wonder if I can do it?\""
+          },
+          {
+            "level": 3,
+            "heading": "かしら (feminine, old-fashioned)",
+            "content": "本当かしら？ \"I wonder if it's true?\" どうしたのかしら？ \"I wonder what happened?\""
+          },
+          {
+            "level": 3,
+            "heading": "のだろうか (explanatory wondering)",
+            "content": "なぜ来なかったのだろうか？ \"Why didn't they come, I wonder?\" どうなるのだろうか？ \"What will happen, I wonder?\""
+          }
+        ]
+      },
+      {
+        "level": 2,
+        "heading": "Common Conversations",
+        "content": "",
+        "children": [
+          {
+            "level": 3,
+            "heading": "Example 1: Direct Question (ですか)",
+            "content": "A: すみません、これはいくらですか？ \"Excuse me, how much is this?\" B: 2000円です \"It's 2000 yen\" A: カードは使えますか？ \"Can I use a card?\" B: はい、使えます \"Yes, you can\""
+          },
+          {
+            "level": 3,
+            "heading": "Example 2: Wondering (だろうか)",
+            "content": "(独り言) \"Thinking to oneself\" 明日は晴れるだろうか... \"I wonder if it will be sunny tomorrow...\" 試験に合格できるだろうか... \"I wonder if I can pass the exam...\" 彼は来るだろうか... \"I wonder if he'll come...\""
+          },
+          {
+            "level": 3,
+            "heading": "Example 3: Polite Inquiry (でしょうか)",
+            "content": "A: こちらでよろしいでしょうか？ \"Would this be alright?\" B: はい、大丈夫です \"Yes, that's fine\" A: 明日までに仕上がるでしょうか？ \"Will it be finished by tomorrow?\" B: はい、間に合います \"Yes, we'll make it in time\""
+          }
+        ]
+      },
+      {
+        "level": 2,
+        "heading": "In Different Contexts",
+        "content": "",
+        "children": [
+          {
+            "level": 3,
+            "heading": "Conversation (Use ですか)",
+            "content": "今日は何曜日ですか？ \"What day is today?\" 駅はどこですか？ \"Where is the station?\" この本は面白いですか？ \"Is this book interesting?\""
+          },
+          {
+            "level": 3,
+            "heading": "Writing/Narration (Use だろうか)",
+            "content": "人類の未来はどうなるだろうか？ \"What will become of humanity's future?\" これが最後の機会だろうか？ \"Is this the last chance?\" 彼の決断は正しかっただろうか？ \"Was his decision correct?\""
+          },
+          {
+            "level": 3,
+            "heading": "Business Email (Use でしょうか)",
+            "content": "こちらの提案でよろしいでしょうか？ \"Would this proposal be acceptable?\" ご都合はいかがでしょうか？ \"How would this be convenient for you?\" 明日お伺いしてもよろしいでしょうか？ \"Would it be alright to visit tomorrow?\""
+          }
+        ]
+      },
+      {
+        "level": 2,
+        "heading": "Tense Usage",
+        "content": "",
+        "children": [
+          {
+            "level": 3,
+            "heading": "Present/Future",
+            "content": "ですか: 明日来ますか？ \"Will you come tomorrow?\" だろうか: 明日来るだろうか？ \"I wonder if they'll come tomorrow?\""
+          },
+          {
+            "level": 3,
+            "heading": "Past",
+            "content": "ですか: 昨日行きましたか？ \"Did you go yesterday?\" だろうか: 昨日行っただろうか？ \"I wonder if they went yesterday?\""
+          }
+        ]
+      },
+      {
+        "level": 2,
+        "heading": "With Question Words",
+        "content": "",
+        "children": [
+          {
+            "level": 3,
+            "heading": "ですか (asking someone)",
+            "content": "誰ですか？ \"Who is it?\" 何ですか？ \"What is it?\" どこですか？ \"Where is it?\" いつですか？ \"When is it?\""
+          },
+          {
+            "level": 3,
+            "heading": "だろうか (wondering)",
+            "content": "誰だろうか？ \"I wonder who it is?\" 何だろうか？ \"I wonder what it is?\" どこだろうか？ \"I wonder where it is?\" いつだろうか？ \"I wonder when it is?\""
+          }
+        ]
+      },
+      {
+        "level": 2,
+        "heading": "Emphasis and Certainty",
+        "content": "",
+        "children": [
+          {
+            "level": 3,
+            "heading": "ですか - Neutral Question",
+            "content": "本当ですか？ \"Is it true?\" 間違っていますか？ \"Is it wrong?\""
+          },
+          {
+            "level": 3,
+            "heading": "だろうか - Expressing Doubt",
+            "content": "本当だろうか？ \"I wonder if it's true?\" (doubtful) 間違っているだろうか？ \"Could I be wrong?\" (uncertain)"
+          },
+          {
+            "level": 3,
+            "heading": "でしょうか - Polite Uncertainty",
+            "content": "本当でしょうか？ \"Could it be true?\" (polite doubt) 間違っているでしょうか？ \"Might I be mistaken?\" (humble)"
+          }
+        ]
+      },
+      {
+        "level": 2,
+        "heading": "Literary and Formal Usage",
+        "content": "",
+        "children": [
+          {
+            "level": 3,
+            "heading": "Essay Writing (だろうか)",
+            "content": "この問題をどう解決すべきだろうか？ \"How should we solve this problem?\" 教育の真の目的とは何だろうか？ \"What is the true purpose of education?\" 現代社会における幸福とは何を意味するだろうか？ \"What does happiness mean in modern society?\""
+          },
+          {
+            "level": 3,
+            "heading": "Academic Writing (であろうか)",
+            "content": "Very formal, literary:\n\nこれは正しい解釈と言えるであろうか？ \"Could this be called a correct interpretation?\" このデータは信頼できるものであろうか？ \"Could this data be considered reliable?\""
+          }
+        ]
+      },
+      {
+        "level": 2,
+        "heading": "Casual Alternatives",
+        "content": "",
+        "children": [
+          {
+            "level": 3,
+            "heading": "かな - Most Common Casual",
+            "content": "大丈夫かな？ \"I wonder if it's okay?\" できるかな？ \"I wonder if I can do it?\" 来るかな？ \"I wonder if they'll come?\"\n\nGender-neutral, widely used."
+          },
+          {
+            "level": 3,
+            "heading": "だろう - Casual Wondering",
+            "content": "本当だろう？ \"It's true, right?\" 行くだろう？ \"You'll go, right?\" 知ってるだろう？ \"You know, right?\"\n\nMore assertive than かな."
+          },
+          {
+            "level": 3,
+            "heading": "かしら - Feminine, Old-fashioned",
+            "content": "大丈夫かしら？ \"I wonder if it's okay?\" (feminine) 来るかしら？ \"I wonder if they'll come?\" (feminine)\n\nLess common in modern speech."
+          }
+        ]
+      },
+      {
+        "level": 2,
+        "heading": "Negative Forms",
+        "content": "",
+        "children": [
+          {
+            "level": 3,
+            "heading": "ですか (Negative Questions)",
+            "content": "行かないですか？ \"Won't you go?\" 食べませんか？ \"Won't you eat?\" わからないですか？ \"Don't you understand?\""
+          },
+          {
+            "level": 3,
+            "heading": "だろうか (Negative Wondering)",
+            "content": "行かないだろうか？ \"I wonder if they won't go?\" わからないだろうか？ \"Could they not understand?\" 間に合わないだろうか？ \"I wonder if we won't make it in time?\""
+          }
+        ]
+      },
+      {
+        "level": 2,
+        "heading": "Special Patterns",
+        "content": "",
+        "children": [
+          {
+            "level": 3,
+            "heading": "〜だろうか、いや〜だろう",
+            "content": "Answering one's own question:\n\n彼は来るだろうか？いや、来ないだろう \"Will he come? No, he probably won't\" これで大丈夫だろうか？いや、もっと必要だろう \"Is this enough? No, probably need more\""
+          },
+          {
+            "level": 3,
+            "heading": "〜ではないだろうか (suggestion)",
+            "content": "Suggesting something tentatively:\n\nこれが原因ではないだろうか？ \"Couldn't this be the cause?\" もっと良い方法があるのではないだろうか？ \"Might there be a better method?\""
+          },
+          {
+            "level": 3,
+            "heading": "〜だろうか、〜だろうか (multiple wonderings)",
+            "content": "彼は来るだろうか？来ないだろうか？ \"Will he come? Won't he come?\" どうしようか？行こうか？やめようか？ \"What should I do? Should I go? Should I stop?\""
+          }
+        ]
+      },
+      {
+        "level": 2,
+        "heading": "Usage by Context",
+        "content": "",
+        "children": [
+          {
+            "level": 3,
+            "heading": "Daily Conversation → ですか",
+            "content": "今何時ですか？ \"What time is it now?\" ご飯食べましたか？ \"Did you eat?\" 疲れていますか？ \"Are you tired?\""
+          },
+          {
+            "level": 3,
+            "heading": "Internal Thoughts → だろうか/かな",
+            "content": "(心の中で) どうしようかな... \"What should I do...\" 大丈夫だろうか... \"I wonder if it's okay...\" 間に合うかな... \"I wonder if I'll make it...\""
+          },
+          {
+            "level": 3,
+            "heading": "Business/Formal → でしょうか",
+            "content": "ご確認いただけますでしょうか？ \"Could you please confirm?\" こちらでお間違いないでしょうか？ \"Is this correct?\" ご都合はいかがでしょうか？ \"How is your schedule?\""
+          }
+        ]
+      },
+      {
+        "level": 2,
+        "heading": "Comparison Chart",
+        "content": "| Pattern | Formality | Usage | Expects Answer | | ---------- | --------------- | ---------------- | -------------- | | ですか | Polite | Direct questions | Yes | | でしょうか | Very polite | Polite inquiry | Usually yes | | だろうか | Formal/Literary | Wondering | Usually no | | だろう | Casual | Confirmation | Sometimes | | かな | Casual | Wondering | No | | かしら | Feminine | Wondering | No |"
+      },
+      {
+        "level": 2,
+        "heading": "Common Expressions",
+        "content": "",
+        "children": [
+          {
+            "level": 3,
+            "heading": "With ですか",
+            "content": "そうですか \"Is that so?\" 本当ですか？ \"Really?\" 大丈夫ですか？ \"Are you okay?\" いいですか？ \"Is it okay?\""
+          },
+          {
+            "level": 3,
+            "heading": "With だろうか",
+            "content": "そうだろうか \"I wonder if that's so\" 本当だろうか \"I wonder if it's true\" どうなるだろうか \"I wonder what will happen\" 何ができるだろうか \"What can be done, I wonder\""
+          },
+          {
+            "level": 3,
+            "heading": "With でしょうか",
+            "content": "そうでしょうか \"Do you think so?\" 本当でしょうか \"Could it be true?\" よろしいでしょうか \"Would it be alright?\" 大丈夫でしょうか \"Will it be okay?\""
+          }
+        ]
+      },
+      {
+        "level": 2,
+        "heading": "Sentence Position",
+        "content": "",
+        "children": [
+          {
+            "level": 3,
+            "heading": "ですか - End of Sentence Only",
+            "content": "これは何ですか？ ✓ \"What is this?\" これは、ですか、何？ ❌"
+          },
+          {
+            "level": 3,
+            "heading": "だろうか - Can Appear Mid-Sentence",
+            "content": "In complex sentences:\n\n彼が来るだろうか、来ないだろうか、それが問題だ \"Whether he'll come or not, that's the question\" これで良いだろうかと考えている \"I'm thinking whether this is good\""
+          }
+        ]
+      },
+      {
+        "level": 2,
+        "heading": "Practice Sentences",
+        "content": "",
+        "children": [
+          {
+            "level": 3,
+            "heading": "Direct Questions (ですか)",
+            "content": "お名前は何ですか？ \"What is your name?\" どこから来ましたか？ \"Where did you come from?\" 日本語が話せますか？ \"Can you speak Japanese?\" これはいくらですか？ \"How much is this?\""
+          },
+          {
+            "level": 3,
+            "heading": "Wondering (だろうか)",
+            "content": "明日は晴れるだろうか？ \"I wonder if it will be sunny tomorrow?\" これで間に合うだろうか？ \"I wonder if this will be enough?\" 彼は何を考えているのだろうか？ \"What could he be thinking?\" 人生とは何だろうか？ \"What is life?\""
+          },
+          {
+            "level": 3,
+            "heading": "Polite Inquiry (でしょうか)",
+            "content": "こちらでよろしいでしょうか？ \"Would this be alright?\" お時間はございますでしょうか？ \"Do you have time?\" もう一度説明していただけますでしょうか？ \"Could you explain once more?\" 来週でも大丈夫でしょうか？ \"Would next week be okay?\""
+          },
+          {
+            "level": 3,
+            "heading": "Casual Wondering (かな)",
+            "content": "明日晴れるかな？ \"I wonder if it'll be sunny tomorrow?\" できるかな？ \"I wonder if I can do it?\" 誰かな？ \"I wonder who it is?\" どうしようかな？ \"What should I do?\""
+          }
+        ]
+      },
+      {
+        "level": 2,
+        "heading": "Summary",
+        "content": "",
+        "children": [
+          {
+            "level": 3,
+            "heading": "Use ですか when:",
+            "content": "Asking someone directly Having a conversation Expecting an answer Being polite and clear"
+          },
+          {
+            "level": 3,
+            "heading": "Use だろうか when:",
+            "content": "Wondering to yourself Writing essays or narratives Asking rhetorical questions Being literary or philosophical"
+          },
+          {
+            "level": 3,
+            "heading": "Use でしょうか when:",
+            "content": "Being very polite In business situations Showing uncertainty politely Seeking reassurance"
+          },
+          {
+            "level": 3,
+            "heading": "Use かな when:",
+            "content": "Speaking casually Wondering out loud Talking to friends Not expecting an answer"
+          }
+        ]
+      },
+      {
+        "level": 2,
+        "heading": "Related Grammar Points",
+        "content": "Yes/No Questions - Basic question formation か (ka) Question Usage - Question particle の (no) Questions - Casual questions でしょう expressions - Probability and politeness だろう casual form - Casual probability かもしれない - Expressing possibility Question intonation - Rising pitch patterns Rhetorical questions - Questions not expecting answers",
+        "children": [
+          {
+            "level": 3,
+            "heading": "Company",
+            "content": "About Pricing Blog Contact"
+          },
+          {
+            "level": 3,
+            "heading": "Legal",
+            "content": "Privacy Policy Terms of Service Cookie Policy"
+          }
+        ]
+      }
+    ],
+    "metadata": {
+      "title": "ですか vs だろうか"
+    }
+  },
+  "metadata": {
+    "extracted_at": "2026-01-01T22:19:29.231010600Z",
+    "duration_ms": 6,
+    "extractors_matched": [
+      "metadata",
+      "examples",
+      "sections"
+    ],
+    "extractors_failed": [
+      "vocab_tables",
+      "definitions",
+      "content_blocks"
+    ]
+  }
+}

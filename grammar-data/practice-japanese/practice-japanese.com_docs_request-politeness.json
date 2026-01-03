@@ -1,0 +1,564 @@
+{
+  "config_name": "Language Learning Extractor",
+  "url": "https://practice-japanese.com/docs/request-politeness/",
+  "data": {
+    "metadata": {
+      "title": "Politeness Levels in Requests"
+    },
+    "examples": [
+      {
+        "sentence": "〜てください - Please do (standard polite)"
+      },
+      {
+        "sentence": "〜てくれますか - Will you (casual-polite)"
+      },
+      {
+        "sentence": "〜てもらえますか - Could you (polite)"
+      },
+      {
+        "sentence": "〜ていただけますか - Could you (humble-polite)"
+      },
+      {
+        "sentence": "Keigo (Honorific Language) - Japanese politeness system"
+      },
+      {
+        "sentence": "敬語 (Keigo) - Respectful, humble, and polite language"
+      },
+      {
+        "sentence": "About"
+      },
+      {
+        "sentence": "Pricing"
+      },
+      {
+        "sentence": "Blog"
+      },
+      {
+        "sentence": "Contact"
+      },
+      {
+        "sentence": "Privacy Policy"
+      },
+      {
+        "sentence": "Terms of Service"
+      },
+      {
+        "sentence": "Cookie Policy"
+      }
+    ],
+    "sections": [
+      {
+        "level": 2,
+        "heading": "Understanding Request Politeness",
+        "content": "Japanese has multiple levels of politeness for making requests. Choosing the right level is crucial for social interaction and shows respect for relationships and situations."
+      },
+      {
+        "level": 2,
+        "heading": "The Politeness Hierarchy",
+        "content": "",
+        "children": [
+          {
+            "level": 3,
+            "heading": "From Casual to Ultra-Formal",
+            "content": "1. 手伝って (very casual) \"Help\" / \"Help me\" 2. 手伝ってくれない？ (casual) \"Won't you help?\" 3. 手伝ってくれる？ (casual-polite) \"Will you help?\" 4. 手伝ってくれますか (polite friendly) \"Will you help me?\" 5. 手伝ってもらえる？ (casual-polite) \"Could you help?\" 6. 手伝ってもらえますか (polite) \"Could you help me?\" 7. 手伝ってください (standard polite) \"Please help me\" 8. 手伝ってくださいますか (polite question) \"Would you help me?\" 9. 手伝っていただけますか (humble-polite) \"Could you help me?\" 10. 手伝っていただけますでしょうか (very formal) \"Could you please help me?\" 11. お手伝いいただけますでしょうか (ultra-formal) \"Might I receive your assistance?\""
+          }
+        ]
+      },
+      {
+        "level": 2,
+        "heading": "Level 1-2: Very Casual",
+        "content": "",
+        "children": [
+          {
+            "level": 3,
+            "heading": "て-form alone / 〜てくれない？",
+            "content": "見て \"Look\" 来てくれない？ \"Won't you come?\""
+          },
+          {
+            "level": 3,
+            "heading": "Use with",
+            "content": "✓ Close friends ✓ Family members ✓ Younger siblings ✓ People you're very comfortable with"
+          },
+          {
+            "level": 3,
+            "heading": "Examples",
+            "content": "ちょっと待って \"Wait a sec\" 教えてくれない？ \"Won't you teach me?\" 手伝って \"Help me\""
+          }
+        ]
+      },
+      {
+        "level": 2,
+        "heading": "Level 3-4: Casual-Polite",
+        "content": "",
+        "children": [
+          {
+            "level": 3,
+            "heading": "〜てくれる？ / 〜てくれますか",
+            "content": "見てくれる？ \"Will you look?\" 手伝ってくれますか \"Will you help me?\""
+          },
+          {
+            "level": 3,
+            "heading": "Use with",
+            "content": "✓ Friends (polite) ✓ Classmates ✓ Close colleagues ✓ Family (polite)"
+          },
+          {
+            "level": 3,
+            "heading": "Examples",
+            "content": "明日来てくれる？ \"Will you come tomorrow?\" これ持ってくれますか \"Will you hold this for me?\""
+          }
+        ]
+      },
+      {
+        "level": 2,
+        "heading": "Level 5-6: Polite",
+        "content": "",
+        "children": [
+          {
+            "level": 3,
+            "heading": "〜てもらえる？ / 〜てもらえますか",
+            "content": "見てもらえる？ \"Could you look?\" 手伝ってもらえますか \"Could you help me?\""
+          },
+          {
+            "level": 3,
+            "heading": "Use with",
+            "content": "✓ Colleagues ✓ Acquaintances ✓ Shop staff ✓ Service workers ✓ General polite situations"
+          },
+          {
+            "level": 3,
+            "heading": "Examples",
+            "content": "写真を撮ってもらえますか \"Could you take a photo?\" 説明してもらえますか \"Could you explain?\""
+          }
+        ]
+      },
+      {
+        "level": 2,
+        "heading": "Level 7-8: Standard Polite",
+        "content": "",
+        "children": [
+          {
+            "level": 3,
+            "heading": "〜てください / 〜てくださいますか",
+            "content": "見てください \"Please look\" 手伝ってくださいますか \"Would you help me?\""
+          },
+          {
+            "level": 3,
+            "heading": "Use with",
+            "content": "✓ Most polite situations ✓ Strangers ✓ Customers ✓ General business ✓ Public announcements"
+          },
+          {
+            "level": 3,
+            "heading": "Examples",
+            "content": "ここに名前を書いてください \"Please write your name here\" 少々お待ちください \"Please wait a moment\" 確認してくださいますか \"Would you confirm?\""
+          }
+        ]
+      },
+      {
+        "level": 2,
+        "heading": "Level 9-10: Humble-Polite",
+        "content": "",
+        "children": [
+          {
+            "level": 3,
+            "heading": "〜ていただけますか / 〜ていただけますでしょうか",
+            "content": "見ていただけますか \"Could you look?\" 手伝っていただけますでしょうか \"Could you please help me?\""
+          },
+          {
+            "level": 3,
+            "heading": "Use with",
+            "content": "✓ Superiors at work ✓ Clients and customers ✓ Formal business situations ✓ Official emails ✓ Important requests"
+          },
+          {
+            "level": 3,
+            "heading": "Examples",
+            "content": "ご確認いただけますか \"Could you confirm?\" お時間をいただけますでしょうか \"Could I have some of your time?\" ご検討いただけますでしょうか \"Could you please consider?\""
+          }
+        ]
+      },
+      {
+        "level": 2,
+        "heading": "Level 11: Ultra-Formal",
+        "content": "",
+        "children": [
+          {
+            "level": 3,
+            "heading": "お/ご + Verb stem + いただけますでしょうか",
+            "content": "お手伝いいただけますでしょうか \"Might I receive your assistance?\" ご教示いただけますでしょうか \"Might you instruct me?\""
+          },
+          {
+            "level": 3,
+            "heading": "Use with",
+            "content": "✓ Very important clients ✓ High-ranking officials ✓ Formal written correspondence ✓ Maximum respect situations"
+          },
+          {
+            "level": 3,
+            "heading": "Examples",
+            "content": "ご指導いただけますでしょうか \"Might I receive your guidance?\" ご協力いただけますと幸いです \"I would be grateful if I could receive your cooperation\""
+          }
+        ]
+      },
+      {
+        "level": 2,
+        "heading": "Choosing the Right Level",
+        "content": "",
+        "children": [
+          {
+            "level": 3,
+            "heading": "Consider these factors",
+            "content": "1. Relationship (superior/equal/junior) 2. Social distance (close/distant) 3. Formality of situation 4. Size of favor 5. Communication medium (spoken/written)"
+          }
+        ]
+      },
+      {
+        "level": 2,
+        "heading": "Relationship-Based Guide",
+        "content": "",
+        "children": [
+          {
+            "level": 3,
+            "heading": "With your boss",
+            "content": "❌ 手伝ってくれる？ ❌ 手伝ってもらえる？ ✓ 手伝っていただけますか ✓ お手伝いいただけますでしょうか Always use humble forms!"
+          },
+          {
+            "level": 3,
+            "heading": "With colleagues (equal rank)",
+            "content": "Close: 手伝ってくれる？ ✓ Neutral: 手伝ってもらえますか ✓ Polite: 手伝っていただけますか ✓ Adjust based on closeness"
+          },
+          {
+            "level": 3,
+            "heading": "With subordinates",
+            "content": "Casual: 手伝ってくれる？ ✓ Standard: 手伝ってください ✓ Polite: 手伝ってもらえますか ✓ Usually more casual is fine"
+          },
+          {
+            "level": 3,
+            "heading": "With customers",
+            "content": "❌ 手伝ってくれますか ✓ お手伝いいたします ✓ お手伝いさせていただけますでしょうか You serve them, not vice versa!"
+          },
+          {
+            "level": 3,
+            "heading": "With friends",
+            "content": "Very close: 手伝って ✓ Close: 手伝ってくれる？ ✓ Polite: 手伝ってくれますか ✓ ❌ 手伝っていただけますか (too formal!)"
+          },
+          {
+            "level": 3,
+            "heading": "With family",
+            "content": "Children to parents: 手伝ってくれる？ ✓ Parents to children: 手伝って ✓ Between siblings: 手伝って / 手伝ってくれる？ ✓ Generally casual forms"
+          }
+        ]
+      },
+      {
+        "level": 2,
+        "heading": "Situation-Based Guide",
+        "content": "",
+        "children": [
+          {
+            "level": 3,
+            "heading": "In restaurants",
+            "content": "As customer: お水をいただけますか ✓ メニューを見せてもらえますか ✓ お会計をお願いします ✓"
+          },
+          {
+            "level": 3,
+            "heading": "At shops",
+            "content": "これを見せてもらえますか ✓ 試着してもいいですか ✓ ラッピングしていただけますか ✓"
+          },
+          {
+            "level": 3,
+            "heading": "At the office",
+            "content": "To boss: 確認していただけますでしょうか ✓ To colleague: 確認してもらえる？ ✓ 確認してくれる？ ✓"
+          },
+          {
+            "level": 3,
+            "heading": "In emails (business)",
+            "content": "ご確認いただけますでしょうか ✓ ご検討いただけますと幸いです ✓ お返事をお待ちしております ✓ Always err on the side of formality!"
+          },
+          {
+            "level": 3,
+            "heading": "Phone conversations",
+            "content": "Customer service: 少々お待ちいただけますでしょうか ✓ Calling a company: 担当者に代わっていただけますか ✓"
+          }
+        ]
+      },
+      {
+        "level": 2,
+        "heading": "Common Mistakes",
+        "content": "",
+        "children": [
+          {
+            "level": 3,
+            "heading": "Mistake 1: Too formal with friends",
+            "content": "Wrong: 手伝っていただけますか (to close friend) ❌ Right: 手伝ってくれる？ ✓ Creates distance!"
+          },
+          {
+            "level": 3,
+            "heading": "Mistake 2: Too casual with superiors",
+            "content": "Wrong: 見てくれる？ (to boss) ❌ Right: 見ていただけますか ✓ Shows disrespect!"
+          },
+          {
+            "level": 3,
+            "heading": "Mistake 3: Mixing politeness levels",
+            "content": "Wrong: すみません、手伝ってくれる？ ⚠️ Better: すみません、手伝ってもらえますか ✓ Or: ねえ、手伝ってくれる？ ✓ Keep consistency!"
+          },
+          {
+            "level": 3,
+            "heading": "Mistake 4: Over-politeness in casual settings",
+            "content": "Too stiff: いただけますでしょうか (at family dinner) ⚠️ Natural: くれる？ or もらえる？ ✓ Read the room!"
+          }
+        ]
+      },
+      {
+        "level": 2,
+        "heading": "Making Requests Softer",
+        "content": "",
+        "children": [
+          {
+            "level": 3,
+            "heading": "Adding prefacing phrases",
+            "content": "すみませんが、... (excuse me, but...) 恐れ入りますが、... (I hate to bother you, but...) 申し訳ございませんが、... (I'm very sorry, but...) お忙しいところ、... (while you're busy...)"
+          },
+          {
+            "level": 3,
+            "heading": "Adding conditional phrases",
+            "content": "もし可能でしたら、... (if it's possible...) できれば、... (if you can...) よろしければ、... (if you don't mind...) 差し支えなければ、... (if it's not inconvenient...)"
+          },
+          {
+            "level": 3,
+            "heading": "Adding apologetic endings",
+            "content": "...お願いできますか (could I ask you?) ...お願いできますでしょうか (could I please ask you?) ...いただけると幸いです (I'd be grateful if...) ...いただければと存じます (I would think to receive...)"
+          }
+        ]
+      },
+      {
+        "level": 2,
+        "heading": "Request + Politeness Combinations",
+        "content": "",
+        "children": [
+          {
+            "level": 3,
+            "heading": "Maximum politeness formula",
+            "content": "[Preface] + [Humble request] + [Polite ending] お忙しいところ恐れ入りますが、 ご確認いただけますでしょうか。 \"I'm sorry to bother you while you're busy, but could you please confirm?\""
+          },
+          {
+            "level": 3,
+            "heading": "Examples by situation",
+            "content": "Casual friend: ねえ、ちょっと手伝ってくれない？ Colleague: すみません、これ確認してもらえますか Boss: 恐れ入りますが、こちらの書類を ご確認いただけますでしょうか Client: お忙しいところ大変恐縮でございますが、 ご検討いただけますと幸いです"
+          }
+        ]
+      },
+      {
+        "level": 2,
+        "heading": "Cultural Context",
+        "content": "",
+        "children": [
+          {
+            "level": 3,
+            "heading": "Japanese indirectness",
+            "content": "More indirect = More polite Direct: 手伝って (Help) Indirect: 手伝ってもらえますか (Could you help?) Very indirect: お手伝いいただけますと 幸いに存じます (I would be grateful to receive assistance)"
+          },
+          {
+            "level": 3,
+            "heading": "The concept of 遠慮 (restraint)",
+            "content": "Japanese culture values not imposing on others More polite forms show: - Awareness of the burden - Respect for the person's time - Humility in asking"
+          }
+        ]
+      },
+      {
+        "level": 2,
+        "heading": "Written vs Spoken",
+        "content": "",
+        "children": [
+          {
+            "level": 3,
+            "heading": "Written (more formal)",
+            "content": "Email to boss: ご確認いただけますでしょうか ✓ お時間をいただけますと幸いです ✓"
+          },
+          {
+            "level": 3,
+            "heading": "Spoken (can be more casual)",
+            "content": "Same boss in hallway: ちょっといいですか ✓ 確認していただけますか ✓ Less formal in person!"
+          }
+        ]
+      },
+      {
+        "level": 2,
+        "heading": "Regional Differences",
+        "content": "",
+        "children": [
+          {
+            "level": 3,
+            "heading": "Standard Japanese",
+            "content": "手伝ってくれる？ 手伝ってもらえる？"
+          },
+          {
+            "level": 3,
+            "heading": "Kansai dialect",
+            "content": "手伝ってくれへん？ 手伝ってもらえへん？ Different endings, same structure!"
+          }
+        ]
+      },
+      {
+        "level": 2,
+        "heading": "Age Considerations",
+        "content": "",
+        "children": [
+          {
+            "level": 3,
+            "heading": "Speaking to elderly people",
+            "content": "Even strangers deserve respect: Wrong: これ持ってくれる？ ❌ Right: お持ちしましょうか ✓ (Let me carry that for you) Offer help, don't request!"
+          },
+          {
+            "level": 3,
+            "heading": "Speaking to children",
+            "content": "Can be direct: これ持って ✓ 手伝って ✓ No need for extreme politeness"
+          }
+        ]
+      },
+      {
+        "level": 2,
+        "heading": "Business Email Hierarchy",
+        "content": "",
+        "children": [
+          {
+            "level": 3,
+            "heading": "Opening requests",
+            "content": "Level 1: 確認してください Level 2: 確認していただけますか Level 3: ご確認いただけますか Level 4: ご確認いただけますでしょうか Level 5: ご確認いただけますと幸いです Level 6: ご確認いただければ幸いに存じます"
+          }
+        ]
+      },
+      {
+        "level": 2,
+        "heading": "Quick Reference Chart",
+        "content": "",
+        "children": [
+          {
+            "level": 3,
+            "heading": "Situation → Recommended form",
+            "content": "Close friends: 〜てくれる？ / 〜て Friends (polite): 〜てくれますか / 〜てもらえる？ Colleagues (equal): 〜てもらえますか / 〜てください Colleagues (senior): 〜ていただけますか Boss/Superior: 〜ていただけますでしょうか Clients: お/ご〜いただけますでしょうか Strangers (polite): 〜てもらえますか / 〜てください Service staff: 〜てもらえますか / 〜ていただけますか Family: 〜てくれる？ / 〜て Children: 〜て / 〜てね"
+          }
+        ]
+      },
+      {
+        "level": 2,
+        "heading": "Declining Requests at Each Level",
+        "content": "",
+        "children": [
+          {
+            "level": 3,
+            "heading": "Casual",
+            "content": "ごめん、無理 (Sorry, can't) ちょっと難しい (A bit difficult)"
+          },
+          {
+            "level": 3,
+            "heading": "Polite",
+            "content": "申し訳ありませんが、ちょっと... (I'm sorry, but...) すみません、今は時間がなくて... (Sorry, I don't have time now...)"
+          },
+          {
+            "level": 3,
+            "heading": "Formal",
+            "content": "誠に申し訳ございませんが、 今回は見合わせていただけますでしょうか (I'm terribly sorry, but could we pass this time?)"
+          }
+        ]
+      },
+      {
+        "level": 2,
+        "heading": "Practice Scenarios",
+        "content": "",
+        "children": [
+          {
+            "level": 3,
+            "heading": "Scenario 1: Asking boss for time off",
+            "content": "❌ 明日休んでもいい？ ✓ 恐れ入りますが、明日お休みを いただけますでしょうか"
+          },
+          {
+            "level": 3,
+            "heading": "Scenario 2: Asking friend to wait",
+            "content": "❌ 少々お待ちいただけますでしょうか ✓ ちょっと待ってくれる？ ✓ ちょっと待って"
+          },
+          {
+            "level": 3,
+            "heading": "Scenario 3: Email to client",
+            "content": "❌ 確認してください ✓ ご確認いただけますでしょうか ✓ ご確認いただけますと幸いです"
+          },
+          {
+            "level": 3,
+            "heading": "Scenario 4: Restaurant order",
+            "content": "❌ 水をくれる？ ✓ お水をいただけますか ✓ お水をください"
+          },
+          {
+            "level": 3,
+            "heading": "Scenario 5: Colleague favor",
+            "content": "❌ コピーしていただけますでしょうか ✓ コピーしてもらえる？ ✓ ちょっとコピーお願いできる？"
+          }
+        ]
+      },
+      {
+        "level": 2,
+        "heading": "Advanced Considerations",
+        "content": "",
+        "children": [
+          {
+            "level": 3,
+            "heading": "The size of the favor",
+            "content": "Small favor (to colleague): ちょっと手伝ってくれる？ ✓ Big favor (to colleague): 手伝っていただけますか ✓ 手伝ってもらえないでしょうか ✓ Bigger favor = more politeness!"
+          },
+          {
+            "level": 3,
+            "heading": "Frequency matters",
+            "content": "First time asking: More polite Regular request: Can be slightly less formal But never too casual with superiors!"
+          },
+          {
+            "level": 3,
+            "heading": "Power dynamics",
+            "content": "Higher status → Lower status: Can be more casual Lower status → Higher status: Must be more polite Equal status: Read relationship and situation"
+          }
+        ]
+      },
+      {
+        "level": 2,
+        "heading": "Key Takeaways",
+        "content": "",
+        "children": [
+          {
+            "level": 3,
+            "heading": "Golden rules",
+            "content": "1. When in doubt, go more polite 2. Match the other person's level 3. Consider relationship and situation 4. Written > Spoken formality 5. Big favors = more politeness 6. Strangers deserve respect 7. Never too casual with superiors 8. Can relax with close friends"
+          },
+          {
+            "level": 3,
+            "heading": "Remember",
+            "content": "The right politeness level shows: ✓ Social awareness ✓ Respect for others ✓ Cultural understanding ✓ Good communication skills Getting it wrong can: ✗ Create distance (too formal) ✗ Seem rude (too casual) ✗ Cause confusion ✗ Damage relationships"
+          }
+        ]
+      },
+      {
+        "level": 2,
+        "heading": "Related Grammar Points",
+        "content": "〜てください - Please do (standard polite) 〜てくれますか - Will you (casual-polite) 〜てもらえますか - Could you (polite) 〜ていただけますか - Could you (humble-polite) Keigo (Honorific Language) - Japanese politeness system 敬語 (Keigo) - Respectful, humble, and polite language",
+        "children": [
+          {
+            "level": 3,
+            "heading": "Company",
+            "content": "About Pricing Blog Contact"
+          },
+          {
+            "level": 3,
+            "heading": "Legal",
+            "content": "Privacy Policy Terms of Service Cookie Policy"
+          }
+        ]
+      }
+    ]
+  },
+  "metadata": {
+    "extracted_at": "2026-01-01T22:19:34.297041800Z",
+    "duration_ms": 3,
+    "extractors_matched": [
+      "metadata",
+      "examples",
+      "sections"
+    ],
+    "extractors_failed": [
+      "vocab_tables",
+      "definitions",
+      "content_blocks"
+    ]
+  }
+}

@@ -1,0 +1,325 @@
+{
+  "config_name": "Language Learning Extractor",
+  "url": "https://practice-japanese.com/docs/parts-of-speech/",
+  "data": {
+    "examples": [
+      {
+        "sentence": "Don't change form for plural"
+      },
+      {
+        "sentence": "No articles (no \"a\" or \"the\")"
+      },
+      {
+        "sentence": "Use particles to show grammatical role"
+      },
+      {
+        "sentence": "Always come at the end of the sentence/clause"
+      },
+      {
+        "sentence": "Conjugate for tense, politeness, negative"
+      },
+      {
+        "sentence": "Three groups: Godan, Ichidan, Irregular"
+      },
+      {
+        "sentence": "Don't translate directly to English"
+      },
+      {
+        "sentence": "Show word function in sentence"
+      },
+      {
+        "sentence": "Enable flexible word order"
+      },
+      {
+        "sentence": "Essential for correct grammar"
+      },
+      {
+        "sentence": "Don't conjugate"
+      },
+      {
+        "sentence": "Usually come before what they modify"
+      },
+      {
+        "sentence": "Can be formed from adjectives"
+      },
+      {
+        "sentence": "Verbs: 食べる → 食べます → 食べた"
+      },
+      {
+        "sentence": "I-adjectives: 大きい → 大きくない → 大きかった"
+      },
+      {
+        "sentence": "Copula: です → だ → でした"
+      },
+      {
+        "sentence": "Nouns: 本 (always 本)"
+      },
+      {
+        "sentence": "Na-adjectives: 静か (always 静か, only add な/だ)"
+      },
+      {
+        "sentence": "Adverbs: ゆっくり (always ゆっくり)"
+      },
+      {
+        "sentence": "Particles: は、が、を (never change)"
+      },
+      {
+        "sentence": "Verb Basics"
+      },
+      {
+        "sentence": "Adjective Basics"
+      },
+      {
+        "sentence": "Noun Basics"
+      },
+      {
+        "sentence": "Sentence Structure"
+      },
+      {
+        "sentence": "Word Order Rules"
+      },
+      {
+        "sentence": "About"
+      },
+      {
+        "sentence": "Pricing"
+      },
+      {
+        "sentence": "Blog"
+      },
+      {
+        "sentence": "Contact"
+      },
+      {
+        "sentence": "Privacy Policy"
+      },
+      {
+        "sentence": "Terms of Service"
+      },
+      {
+        "sentence": "Cookie Policy"
+      }
+    ],
+    "metadata": {
+      "title": "Japanese Parts of Speech"
+    },
+    "sections": [
+      {
+        "level": 2,
+        "heading": "Overview",
+        "content": "Japanese has similar parts of speech to English, but with important differences in how they function."
+      },
+      {
+        "level": 2,
+        "heading": "1. Nouns (名詞 - Meishi)",
+        "content": "Definition: Words that name people, places, things, or concepts.\n\n本 (hon) - book 東京 (toukyou) - Tokyo 学生 (gakusei) - student 愛 (ai) - love",
+        "children": [
+          {
+            "level": 3,
+            "heading": "Key Features",
+            "content": "Don't change form for plural No articles (no \"a\" or \"the\") Use particles to show grammatical role\n\n本 (hon) = \"book\" or \"books\" or \"the book\" Context determines specificity"
+          },
+          {
+            "level": 3,
+            "heading": "Types",
+            "content": "Common nouns: 犬 (dog), 車 (car) Proper nouns: 日本 (Japan), 太郎 (Tarou) Abstract nouns: 幸せ (happiness), 時間 (time)\n\nSee: Noun Basics for complete guide"
+          }
+        ]
+      },
+      {
+        "level": 2,
+        "heading": "2. Verbs (動詞 - Doushi)",
+        "content": "Definition: Words that describe actions or states.\n\n食べる (taberu) - to eat 行く (iku) - to go ある (aru) - to exist",
+        "children": [
+          {
+            "level": 3,
+            "heading": "Key Features",
+            "content": "Always come at the end of the sentence/clause Conjugate for tense, politeness, negative Three groups: Godan, Ichidan, Irregular\n\n食べる → 食べます (polite) → 食べない (negative) → 食べた (past)"
+          },
+          {
+            "level": 3,
+            "heading": "Types",
+            "content": "Action verbs: 走る (run), 書く (write) State verbs: いる (exist - animate), ある (exist - inanimate) Suru verbs: 勉強する (study), 運転する (drive)\n\nSee: Verb Basics for complete guide"
+          }
+        ]
+      },
+      {
+        "level": 2,
+        "heading": "3. Adjectives",
+        "content": "Japanese has two types of adjectives, functioning differently from English adjectives.",
+        "children": [
+          {
+            "level": 3,
+            "heading": "I-adjectives (い形容詞)",
+            "content": "End in い and conjugate like verbs:\n\n大きい (ookii) - big 高い (takai) - tall/expensive 面白い (omoshiroi) - interesting 大きい → 大きくない (not big) → 大きかった (was big)"
+          },
+          {
+            "level": 3,
+            "heading": "Na-adjectives (な形容詞)",
+            "content": "Behave like nouns, add な before nouns:\n\n静か (shizuka) - quiet きれい (kirei) - beautiful/clean 便利 (benri) - convenient 静かな部屋 (shizuka na heya) - quiet room"
+          },
+          {
+            "level": 3,
+            "heading": "Key Difference",
+            "content": "I-adj: 大きい犬 (big dog) - no particle needed Na-adj: 静かな犬 (quiet dog) - な required\n\nSee: Adjective Basics for complete guide"
+          }
+        ]
+      },
+      {
+        "level": 2,
+        "heading": "4. Particles (助詞 - Joshi)",
+        "content": "Definition: Small words that mark grammatical relationships. No direct English equivalent.\n\nは (wa) - topic marker が (ga) - subject marker を (wo) - object marker に (ni) - location/direction/time で (de) - location of action/means と (to) - and/with",
+        "children": [
+          {
+            "level": 3,
+            "heading": "Key Features",
+            "content": "Don't translate directly to English Show word function in sentence Enable flexible word order Essential for correct grammar\n\n私は本を読む I (topic) book (object) read \"I read books\"\n\nSee: Particles Overview for complete guide"
+          }
+        ]
+      },
+      {
+        "level": 2,
+        "heading": "5. Adverbs (副詞 - Fukushi)",
+        "content": "Definition: Words that modify verbs, adjectives, or other adverbs.\n\nゆっくり (yukkuri) - slowly とても (totemo) - very よく (yoku) - often/well 全然 (zenzen) - not at all",
+        "children": [
+          {
+            "level": 3,
+            "heading": "Key Features",
+            "content": "Don't conjugate Usually come before what they modify Can be formed from adjectives\n\nFrom i-adj: 早い → 早く (quickly) From na-adj: 静か → 静かに (quietly)"
+          },
+          {
+            "level": 3,
+            "heading": "Types",
+            "content": "Time: 今 (now), 昨日 (yesterday) Frequency: いつも (always), ときどき (sometimes) Degree: とても (very), 少し (a little) Manner: ゆっくり (slowly), 速く (quickly)"
+          }
+        ]
+      },
+      {
+        "level": 2,
+        "heading": "6. Copula (助動詞 - Jodoushi)",
+        "content": "Definition: The verb \"to be\" in Japanese.\n\nです (desu) - polite \"is\" だ (da) - plain \"is\" である (de aru) - formal \"is\"",
+        "children": [
+          {
+            "level": 3,
+            "heading": "Usage",
+            "content": "私は学生です \"I am a student\" これは本だ \"This is a book\"\n\nNot a true verb - doesn't conjugate like action verbs.\n\nSee: です/だ Copula for complete guide"
+          }
+        ]
+      },
+      {
+        "level": 2,
+        "heading": "7. Pronouns (代名詞 - Daimeishi)",
+        "content": "Definition: Words that replace nouns.",
+        "children": [
+          {
+            "level": 3,
+            "heading": "Personal Pronouns",
+            "content": "私 (watashi) - I (neutral) 僕 (boku) - I (male, casual) 俺 (ore) - I (male, rough) あなた (anata) - you (careful usage) 彼 (kare) - he 彼女 (kanojo) - she"
+          },
+          {
+            "level": 3,
+            "heading": "Demonstratives (こそあど system)",
+            "content": "これ (kore) - this それ (sore) - that (near you) あれ (are) - that (over there) どれ (dore) - which"
+          },
+          {
+            "level": 3,
+            "heading": "Key Feature",
+            "content": "Pronouns are often omitted when clear from context:\n\n何を食べますか？ \"What will (you) eat?\" 寿司を食べます \"(I) will eat sushi\"\n\nSee: Pronouns for complete guide"
+          }
+        ]
+      },
+      {
+        "level": 2,
+        "heading": "8. Conjunctions (接続詞 - Setsuzokushi)",
+        "content": "Definition: Words that connect clauses or sentences.\n\nそして (soshite) - and then しかし (shikashi) - however でも (demo) - but だから (dakara) - therefore または (matawa) - or",
+        "children": [
+          {
+            "level": 3,
+            "heading": "Usage",
+            "content": "雨が降った。だから、家にいた。 \"It rained. Therefore, I stayed home.\"\n\nCan also use て-form to connect:\n\n雨が降って、家にいた \"It rained and I stayed home\""
+          }
+        ]
+      },
+      {
+        "level": 2,
+        "heading": "9. Counters (助数詞 - Josuushi)",
+        "content": "Definition: Special suffixes used with numbers to count objects.\n\n一つ (hitotsu) - one (general) 二人 (futari) - two people 三冊 (sansatsu) - three books 四匹 (yonhiki) - four small animals",
+        "children": [
+          {
+            "level": 3,
+            "heading": "Key Feature",
+            "content": "Different counters for different object types:\n\n本 (hon) - long objects 枚 (mai) - flat objects 匹 (hiki) - small animals 頭 (tou) - large animals\n\nSee: Counters for complete guide"
+          }
+        ]
+      },
+      {
+        "level": 2,
+        "heading": "10. Interjections (感動詞 - Kandoushi)",
+        "content": "Definition: Expressions of emotion or reaction.\n\nああ (aa) - ah おお (oo) - oh えっ (e) - what? huh? わあ (waa) - wow\n\nStand alone and don't modify other words."
+      },
+      {
+        "level": 2,
+        "heading": "Comparison to English",
+        "content": "| Part of Speech | Japanese | English | Key Difference | | -------------- | ----------- | --------- | ------------------------- | | Noun | 本 | book | No plural forms | | Verb | 食べる | to eat | Sentence-final position | | Adjective | 大きい/静か | big/quiet | Two types (i-adj, na-adj) | | Particle | は、が、を | (none) | Unique to Japanese | | Adverb | ゆっくり | slowly | Similar function | | Copula | です/だ | is/am/are | Single form | | Pronoun | 私 | I/me | Often omitted | | Counter | 匹、枚 | (none) | Unique system |"
+      },
+      {
+        "level": 2,
+        "heading": "Word Order by Part of Speech",
+        "content": "[Time] [Topic] [Indirect Object] [Location] [Object] [Adverb] [Verb] 昨日 私は 友達に 図書館で 本を ゆっくり 読んだ\n\nEach part of speech has its typical position, though order can vary."
+      },
+      {
+        "level": 2,
+        "heading": "Conjugating vs Non-Conjugating",
+        "content": "",
+        "children": [
+          {
+            "level": 3,
+            "heading": "Conjugate (Change Form)",
+            "content": "Verbs: 食べる → 食べます → 食べた I-adjectives: 大きい → 大きくない → 大きかった Copula: です → だ → でした"
+          },
+          {
+            "level": 3,
+            "heading": "Don't Conjugate",
+            "content": "Nouns: 本 (always 本) Na-adjectives: 静か (always 静か, only add な/だ) Adverbs: ゆっくり (always ゆっくり) Particles: は、が、を (never change)"
+          }
+        ]
+      },
+      {
+        "level": 2,
+        "heading": "How They Work Together",
+        "content": "私は 昨日 図書館で 面白い 本を ゆっくり 読んだ Pronoun Adverb Noun+Ptcl I-adj Noun+Ptcl Adverb Verb Topic Time Location Modifier Object Manner Action\n\nEach part plays its role in creating meaning."
+      },
+      {
+        "level": 2,
+        "heading": "Key Takeaways",
+        "content": "✓ Nouns don't have plural forms ✓ Verbs always come last ✓ Two types of adjectives (i-adj and na-adj) ✓ Particles are unique to Japanese ✓ Pronouns often omitted ✓ Counters required with numbers ✓ Understanding parts of speech helps build sentences correctly\n\nMaster these categories and their functions to construct grammatically correct Japanese sentences.\n\nNext: Particles Overview\n\nDeep Dives:\n\nVerb Basics Adjective Basics Noun Basics\n\nRelated:\n\nSentence Structure Word Order Rules",
+        "children": [
+          {
+            "level": 3,
+            "heading": "Company",
+            "content": "About Pricing Blog Contact"
+          },
+          {
+            "level": 3,
+            "heading": "Legal",
+            "content": "Privacy Policy Terms of Service Cookie Policy"
+          }
+        ]
+      }
+    ]
+  },
+  "metadata": {
+    "extracted_at": "2026-01-01T22:19:33.654765600Z",
+    "duration_ms": 4,
+    "extractors_matched": [
+      "metadata",
+      "examples",
+      "sections"
+    ],
+    "extractors_failed": [
+      "vocab_tables",
+      "definitions",
+      "content_blocks"
+    ]
+  }
+}

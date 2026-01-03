@@ -1,0 +1,376 @@
+{
+  "config_name": "Language Learning Extractor",
+  "url": "https://practice-japanese.com/docs/te-mo-ii/",
+  "data": {
+    "metadata": {
+      "title": "〜てもいい (May/Permission)"
+    },
+    "sections": [
+      {
+        "level": 2,
+        "heading": "What is 〜てもいい?",
+        "content": "〜てもいい expresses permission - that something is allowed or okay to do. It means \"may,\" \"can,\" or \"it's okay to.\"\n\n食べてもいいです \"You may eat\" / \"It's okay to eat\" ここで写真を撮ってもいいですか？ \"May I take photos here?\""
+      },
+      {
+        "level": 2,
+        "heading": "Formation",
+        "content": "",
+        "children": [
+          {
+            "level": 3,
+            "heading": "Pattern: Verb て-form + もいい(です)",
+            "content": "| Verb | て-form | + もいい | | ------ | ------- | ------------ | | 食べる | 食べて | 食べてもいい | | 行く | 行って | 行ってもいい | | 見る | 見て | 見てもいい | | する | して | してもいい | | 来る | 来て | 来てもいい |"
+          },
+          {
+            "level": 3,
+            "heading": "Examples",
+            "content": "飲む → 飲んでもいい (may drink) 使う → 使ってもいい (may use) 帰る → 帰ってもいい (may go home) 読む → 読んでもいい (may read)"
+          }
+        ]
+      },
+      {
+        "level": 2,
+        "heading": "Asking Permission",
+        "content": "",
+        "children": [
+          {
+            "level": 3,
+            "heading": "Pattern: 〜てもいいですか？",
+            "content": "入ってもいいですか？ \"May I come in?\" この本を借りてもいいですか？ \"May I borrow this book?\" ここに座ってもいいですか？ \"May I sit here?\" 窓を開けてもいいですか？ \"May I open the window?\""
+          },
+          {
+            "level": 3,
+            "heading": "More Polite",
+            "content": "〜てもよろしいですか？ \"May I...?\" (more formal) お名前を聞いてもよろしいですか？ \"May I ask your name?\" 写真を撮ってもよろしいでしょうか？ \"Would it be alright to take a photo?\""
+          }
+        ]
+      },
+      {
+        "level": 2,
+        "heading": "Giving Permission",
+        "content": "",
+        "children": [
+          {
+            "level": 3,
+            "heading": "Positive Response",
+            "content": "A: 食べてもいいですか？ \"May I eat?\" B: はい、食べてもいいですよ \"Yes, you may eat\" Or: どうぞ \"Please go ahead\" Or: いいですよ \"Sure / That's fine\""
+          },
+          {
+            "level": 3,
+            "heading": "Casual Permission",
+            "content": "A: 使ってもいい？ \"Can I use it?\" B: うん、いいよ \"Yeah, sure\" Or: どうぞどうぞ \"Please, please\""
+          }
+        ]
+      },
+      {
+        "level": 2,
+        "heading": "Denying Permission",
+        "content": "A: 食べてもいいですか？ \"May I eat?\" B: すみません、だめです \"Sorry, you can't\" Or: ちょっと困ります \"That would be troublesome\" Or: 遠慮してください \"Please refrain from that\""
+      },
+      {
+        "level": 2,
+        "heading": "Granting General Permission",
+        "content": "",
+        "children": [
+          {
+            "level": 3,
+            "heading": "Stating what's allowed",
+            "content": "ここで写真を撮ってもいいです \"You may take photos here\" / \"Photos are allowed here\" 日本語で話してもいいです \"You may speak in Japanese\" / \"Japanese is okay\" 携帯を使ってもいいです \"You may use your phone\" / \"Phones are allowed\""
+          }
+        ]
+      },
+      {
+        "level": 2,
+        "heading": "Common Patterns",
+        "content": "",
+        "children": [
+          {
+            "level": 3,
+            "heading": "〜てもいいですよ (reassuring)",
+            "content": "心配しないでもいいですよ \"You don't need to worry\" ゆっくりでもいいですよ \"Taking your time is fine\" 間違えてもいいですよ \"It's okay to make mistakes\""
+          },
+          {
+            "level": 3,
+            "heading": "〜てもいいかな (wondering)",
+            "content": "休んでもいいかな \"I wonder if it's okay to rest\" 帰ってもいいかな \"I wonder if I can go home\""
+          },
+          {
+            "level": 3,
+            "heading": "〜てもいいから (because it's okay)",
+            "content": "遅れてもいいから、ちゃんと来てね \"It's okay to be late, just make sure you come\""
+          }
+        ]
+      },
+      {
+        "level": 2,
+        "heading": "Politeness Levels",
+        "content": "",
+        "children": [
+          {
+            "level": 3,
+            "heading": "Casual",
+            "content": "食べてもいい？ \"Can I eat?\" 使ってもいい？ \"Can I use it?\" 行ってもいい？ \"Can I go?\""
+          },
+          {
+            "level": 3,
+            "heading": "Polite",
+            "content": "食べてもいいですか？ \"May I eat?\" 使ってもいいですか？ \"May I use it?\" 行ってもいいですか？ \"May I go?\""
+          },
+          {
+            "level": 3,
+            "heading": "Very Polite",
+            "content": "食べてもよろしいですか？ \"May I eat?\" (formal) 使わせていただいてもよろしいですか？ \"Would it be alright if I use it?\" (very humble)"
+          }
+        ]
+      },
+      {
+        "level": 2,
+        "heading": "Common Conversations",
+        "content": "",
+        "children": [
+          {
+            "level": 3,
+            "heading": "Example 1: At Someone's House",
+            "content": "A: お手洗いを使ってもいいですか？ \"May I use the bathroom?\" B: はい、どうぞ。二階です \"Yes, please. It's upstairs\" A: ありがとうございます \"Thank you\""
+          },
+          {
+            "level": 3,
+            "heading": "Example 2: In Class",
+            "content": "A: 先生、質問してもいいですか？ \"Teacher, may I ask a question?\" B: はい、どうぞ \"Yes, go ahead\" A: この文法が分かりません \"I don't understand this grammar\""
+          },
+          {
+            "level": 3,
+            "heading": "Example 3: At Work",
+            "content": "A: 今日早く帰ってもいいですか？ \"May I leave early today?\" B: どうしたんですか？ \"What's wrong?\" A: 病院に行かないといけないんです \"I have to go to the hospital\" B: 分かりました。お大事に \"I understand. Take care\""
+          }
+        ]
+      },
+      {
+        "level": 2,
+        "heading": "With Different Verbs",
+        "content": "",
+        "children": [
+          {
+            "level": 3,
+            "heading": "Actions",
+            "content": "食べてもいい - may eat 飲んでもいい - may drink 見てもいい - may see/watch 使ってもいい - may use"
+          },
+          {
+            "level": 3,
+            "heading": "Movement",
+            "content": "行ってもいい - may go 来てもいい - may come 入ってもいい - may enter 帰ってもいい - may go home"
+          },
+          {
+            "level": 3,
+            "heading": "Communication",
+            "content": "話してもいい - may talk 聞いてもいい - may ask 言ってもいい - may say 電話してもいい - may call"
+          }
+        ]
+      },
+      {
+        "level": 2,
+        "heading": "Permission vs Ability",
+        "content": "",
+        "children": [
+          {
+            "level": 3,
+            "heading": "てもいい = Permission",
+            "content": "食べてもいいですか？ \"May I eat?\" (asking permission)"
+          },
+          {
+            "level": 3,
+            "heading": "Potential form = Ability",
+            "content": "食べられますか？ \"Can you eat?\" (asking about ability)"
+          },
+          {
+            "level": 3,
+            "heading": "Context matters!",
+            "content": "Sometimes potential form implies permission in context:\n\n食べられますか？ Could also mean: \"Is it okay for me to eat?\""
+          }
+        ]
+      },
+      {
+        "level": 2,
+        "heading": "Negative Permission (Not allowed)",
+        "content": "",
+        "children": [
+          {
+            "level": 3,
+            "heading": "〜てはいけない",
+            "content": "食べてはいけない \"Must not eat\" / \"Not allowed to eat\" 入ってはいけません \"You must not enter\""
+          },
+          {
+            "level": 3,
+            "heading": "〜てはだめ",
+            "content": "使ってはだめ \"You can't use it\" / \"Don't use it\" 行ってはだめです \"You mustn't go\""
+          }
+        ]
+      },
+      {
+        "level": 2,
+        "heading": "Common Mistakes",
+        "content": "",
+        "children": [
+          {
+            "level": 3,
+            "heading": "Mistake 1: Using です with casual form",
+            "content": "Wrong: 食べてもいいです？ ❌ Right: 食べてもいいですか？ ✓ \"May I eat?\" Need か for questions in polite form!"
+          },
+          {
+            "level": 3,
+            "heading": "Mistake 2: Confusing with potential",
+            "content": "食べてもいい = permission (may eat) 食べられる = ability (can eat) Different meanings!"
+          },
+          {
+            "level": 3,
+            "heading": "Mistake 3: Wrong て-form",
+            "content": "Wrong: 行きてもいい ❌ Right: 行ってもいい ✓ \"May go\" Review て-form rules!"
+          },
+          {
+            "level": 3,
+            "heading": "Mistake 4: Using in wrong context",
+            "content": "Unnatural: 私は食べてもいいです ⚠️ Natural: 私は食べてもいいですか？ ✓ \"May I eat?\" Usually used as a question or statement about others!"
+          }
+        ]
+      },
+      {
+        "level": 2,
+        "heading": "Special Expressions",
+        "content": "",
+        "children": [
+          {
+            "level": 3,
+            "heading": "どうしてもいい (either is fine)",
+            "content": "A: コーヒーと紅茶、どちらがいいですか？ \"Which is better, coffee or tea?\" B: どちらでもいいです \"Either is fine\""
+          },
+          {
+            "level": 3,
+            "heading": "〜なくてもいい (don't have to)",
+            "content": "Opposite meaning:\n\n食べなくてもいい \"You don't have to eat\" 行かなくてもいい \"You don't have to go\""
+          }
+        ]
+      },
+      {
+        "level": 2,
+        "heading": "Permission for Future Actions",
+        "content": "明日来てもいいですか？ \"May I come tomorrow?\" 後で電話してもいいですか？ \"May I call later?\" 週末に使ってもいいですか？ \"May I use it on the weekend?\""
+      },
+      {
+        "level": 2,
+        "heading": "Expressing \"It's okay if...\"",
+        "content": "失敗してもいいです \"It's okay if you fail\" / \"It's okay to fail\" 間違えてもいいですよ \"It's okay to make mistakes\" 遅れてもいい \"It's okay to be late\""
+      },
+      {
+        "level": 2,
+        "heading": "Formal Situations",
+        "content": "",
+        "children": [
+          {
+            "level": 3,
+            "heading": "Business/Customer Service",
+            "content": "お名前を伺ってもよろしいですか？ \"May I ask your name?\" 少々お待ちいただいてもよろしいでしょうか？ \"Would it be alright if I have you wait a moment?\""
+          },
+          {
+            "level": 3,
+            "heading": "Academic",
+            "content": "質問させていただいてもよろしいですか？ \"May I ask a question?\" (very polite)"
+          }
+        ]
+      },
+      {
+        "level": 2,
+        "heading": "Practice Sentences",
+        "content": "",
+        "children": [
+          {
+            "level": 3,
+            "heading": "Basic",
+            "content": "入ってもいいですか？ \"May I come in?\" ここに座ってもいいですか？ \"May I sit here?\" 質問してもいいですか？ \"May I ask a question?\""
+          },
+          {
+            "level": 3,
+            "heading": "Intermediate",
+            "content": "この本を借りてもいいですか？ \"May I borrow this book?\" 写真を撮ってもよろしいですか？ \"May I take photos?\" 明日休んでもいいですか？ \"May I take tomorrow off?\""
+          },
+          {
+            "level": 3,
+            "heading": "Advanced",
+            "content": "お忙しいところ恐縮ですが、ご相談してもよろしいでしょうか？ \"I'm sorry to bother you when you're busy, but may I consult with you?\" こちらの資料を持ち帰ってもよろしいですか？ \"May I take these materials with me?\" お名前とご連絡先を伺ってもよろしいでしょうか？ \"May I ask for your name and contact information?\""
+          }
+        ]
+      },
+      {
+        "level": 2,
+        "heading": "Related Grammar Points",
+        "content": "〜てはいけない - Must not (prohibition) 〜てはだめ - Must not (prohibition) 〜なくてもいい - Don't have to Potential form - Can/ability て-form - Te-form conjugation Permission expressions - Other ways to ask permission",
+        "children": [
+          {
+            "level": 3,
+            "heading": "Company",
+            "content": "About Pricing Blog Contact"
+          },
+          {
+            "level": 3,
+            "heading": "Legal",
+            "content": "Privacy Policy Terms of Service Cookie Policy"
+          }
+        ]
+      }
+    ],
+    "examples": [
+      {
+        "sentence": "〜てはいけない - Must not (prohibition)"
+      },
+      {
+        "sentence": "〜てはだめ - Must not (prohibition)"
+      },
+      {
+        "sentence": "〜なくてもいい - Don't have to"
+      },
+      {
+        "sentence": "Potential form - Can/ability"
+      },
+      {
+        "sentence": "て-form - Te-form conjugation"
+      },
+      {
+        "sentence": "Permission expressions - Other ways to ask permission"
+      },
+      {
+        "sentence": "About"
+      },
+      {
+        "sentence": "Pricing"
+      },
+      {
+        "sentence": "Blog"
+      },
+      {
+        "sentence": "Contact"
+      },
+      {
+        "sentence": "Privacy Policy"
+      },
+      {
+        "sentence": "Terms of Service"
+      },
+      {
+        "sentence": "Cookie Policy"
+      }
+    ]
+  },
+  "metadata": {
+    "extracted_at": "2026-01-01T22:19:36.026991400Z",
+    "duration_ms": 3,
+    "extractors_matched": [
+      "metadata",
+      "examples",
+      "sections"
+    ],
+    "extractors_failed": [
+      "vocab_tables",
+      "definitions",
+      "content_blocks"
+    ]
+  }
+}

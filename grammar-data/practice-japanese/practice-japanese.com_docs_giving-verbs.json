@@ -1,0 +1,329 @@
+{
+  "config_name": "Language Learning Extractor",
+  "url": "https://practice-japanese.com/docs/giving-verbs/",
+  "data": {
+    "examples": [
+      {
+        "sentence": "Receiving: もらう/いただく - Getting from others"
+      },
+      {
+        "sentence": "Favor: くれる/くださる - Others giving to you"
+      },
+      {
+        "sentence": "Direction of Actions - Perspective in giving"
+      },
+      {
+        "sentence": "てあげる/てくれる/てもらう - Doing favors"
+      },
+      {
+        "sentence": "Benefactive expressions - Helping/favoring"
+      },
+      {
+        "sentence": "Honorific language - Politeness levels"
+      },
+      {
+        "sentence": "About"
+      },
+      {
+        "sentence": "Pricing"
+      },
+      {
+        "sentence": "Blog"
+      },
+      {
+        "sentence": "Contact"
+      },
+      {
+        "sentence": "Privacy Policy"
+      },
+      {
+        "sentence": "Terms of Service"
+      },
+      {
+        "sentence": "Cookie Policy"
+      }
+    ],
+    "sections": [
+      {
+        "level": 2,
+        "heading": "Overview of Giving Verbs",
+        "content": "Japanese has three main verbs for \"giving,\" chosen based on the recipient's social status:\n\n| Verb | Level | Used When | | ---------- | ------------- | -------------------------------- | | あげる | Neutral | Giving to equals/juniors | | やる | Casual/Humble | Giving to juniors/plants/animals | | さしあげる | Honorific | Giving to superiors |\n\n友達にプレゼントをあげた \"I gave a present to my friend\" 先生に本をさしあげました \"I gave a book to my teacher\""
+      },
+      {
+        "level": 2,
+        "heading": "あげる - Neutral Giving",
+        "content": "",
+        "children": [
+          {
+            "level": 3,
+            "heading": "Basic Pattern",
+            "content": "Giver + は + Recipient + に + Object + を + あげる\n\n私は友達にプレゼントをあげた \"I gave a present to my friend\" 姉が弟にお金をあげました \"My older sister gave money to my younger brother\" 彼女に花をあげるつもりです \"I plan to give her flowers\""
+          },
+          {
+            "level": 3,
+            "heading": "When to Use あげる",
+            "content": "1. You give to friends/equals\n\n友達にCDをあげた \"I gave a CD to my friend\"\n\n2. Family members give to each other (equals)\n\n妹にバッグをあげました \"I gave a bag to my younger sister\"\n\n3. Giving to juniors/younger people\n\n後輩に本をあげた \"I gave a book to my junior\"\n\n4. Third person gives to another third person\n\n田中さんは山田さんに時計をあげた \"Tanaka gave a watch to Yamada\""
+          }
+        ]
+      },
+      {
+        "level": 2,
+        "heading": "やる - Casual/Humble Giving",
+        "content": "",
+        "children": [
+          {
+            "level": 3,
+            "heading": "When to Use やる",
+            "content": "1. Giving to plants\n\n花に水をやる \"Water the flowers\" (give water to flowers) 植物に肥料をやった \"I gave fertilizer to the plants\"\n\n2. Giving to animals\n\n犬にえさをやる \"Feed the dog\" (give food to dog) 猫にミルクをやった \"I gave milk to the cat\"\n\n3. Very casual speech to close juniors (rough/masculine)\n\n弟に小遣いをやった \"I gave pocket money to my brother\" (casual/rough) Note: Can sound condescending. あげる is safer!\n\n4. Humble expression in formal situations\n\nお手伝いしてやりましょう \"Let me help you\" (humble)"
+          }
+        ]
+      },
+      {
+        "level": 2,
+        "heading": "さしあげる - Honorific Giving",
+        "content": "",
+        "children": [
+          {
+            "level": 3,
+            "heading": "When to Use さしあげる",
+            "content": "1. Giving to superiors\n\n先生にお土産をさしあげました \"I gave a souvenir to my teacher\" 社長にレポートをさしあげます \"I'll give the report to the president\"\n\n2. Giving to customers/clients\n\nお客様に資料をさしあげます \"I'll give materials to the customer\"\n\n3. Showing respect\n\nおばあさんにプレゼントをさしあげた \"I gave a present to my grandmother\""
+          }
+        ]
+      },
+      {
+        "level": 2,
+        "heading": "Particle Usage",
+        "content": "",
+        "children": [
+          {
+            "level": 3,
+            "heading": "に - Recipient Marker",
+            "content": "友達に本をあげた \"I gave a book to my friend\" 先生にお土産をさしあげました \"I gave a souvenir to my teacher\""
+          },
+          {
+            "level": 3,
+            "heading": "を - Object Marker",
+            "content": "彼にプレゼントをあげた \"I gave him a present\""
+          }
+        ]
+      },
+      {
+        "level": 2,
+        "heading": "Third Person Perspective",
+        "content": "",
+        "children": [
+          {
+            "level": 3,
+            "heading": "When talking about others giving:",
+            "content": "田中さんは山田さんに本をあげた \"Tanaka gave a book to Yamada\" 先生は学生に賞をさしあげた \"The teacher gave an award to the student\" 兄が友達にゲームをやった \"My brother gave a game to his friend\" (casual)"
+          }
+        ]
+      },
+      {
+        "level": 2,
+        "heading": "Common Patterns",
+        "content": "",
+        "children": [
+          {
+            "level": 3,
+            "heading": "Past Tense",
+            "content": "あげた - gave (neutral) やった - gave (casual) さしあげた - gave (honorific)"
+          },
+          {
+            "level": 3,
+            "heading": "Negative",
+            "content": "あげない - won't give やらない - won't give さしあげない - won't give"
+          },
+          {
+            "level": 3,
+            "heading": "Te-form (doing for someone)",
+            "content": "手伝ってあげる \"I'll help you\" (do the favor of helping) 教えてあげた \"I taught (them)\" 作ってさしあげます \"I'll make it (for you)\" (honorific)"
+          }
+        ]
+      },
+      {
+        "level": 2,
+        "heading": "Giving Actions (〜てあげる)",
+        "content": "",
+        "children": [
+          {
+            "level": 3,
+            "heading": "Pattern: Verb-て + あげる/やる/さしあげる",
+            "content": "This means \"do something FOR someone\":\n\n友達を手伝ってあげた \"I helped my friend\" 妹に本を読んであげる \"I'll read a book to my younger sister\" 先生に説明してさしあげました \"I explained to the teacher\""
+          }
+        ]
+      },
+      {
+        "level": 2,
+        "heading": "Common Conversations",
+        "content": "",
+        "children": [
+          {
+            "level": 3,
+            "heading": "Example 1: Birthday Gift",
+            "content": "A: 誕生日に何をあげましたか？ \"What did you give for their birthday?\" B: 本をあげました \"I gave a book\" A: 喜んでくれましたか？ \"Were they happy?\" B: はい、とても喜んでくれました \"Yes, very happy\""
+          },
+          {
+            "level": 3,
+            "heading": "Example 2: To a Teacher",
+            "content": "A: 先生に何をさしあげますか？ \"What will you give to the teacher?\" B: お花をさしあげようと思います \"I'm thinking of giving flowers\" A: いいですね \"That's nice\""
+          },
+          {
+            "level": 3,
+            "heading": "Example 3: Helping a Friend",
+            "content": "A: 手伝ってあげようか？ \"Shall I help you?\" B: ありがとう！助かります \"Thanks! That helps\""
+          }
+        ]
+      },
+      {
+        "level": 2,
+        "heading": "Politeness Levels",
+        "content": "",
+        "children": [
+          {
+            "level": 3,
+            "heading": "Casual",
+            "content": "あげる やる (very casual)"
+          },
+          {
+            "level": 3,
+            "heading": "Polite",
+            "content": "あげます やります"
+          },
+          {
+            "level": 3,
+            "heading": "Honorific",
+            "content": "さしあげる さしあげます"
+          }
+        ]
+      },
+      {
+        "level": 2,
+        "heading": "Common Mistakes",
+        "content": "",
+        "children": [
+          {
+            "level": 3,
+            "heading": "Mistake 1: Using やる for people (sounds rude)",
+            "content": "Wrong: 友達にやった ❌ (sounds condescending) Right: 友達にあげた ✓ \"I gave to my friend\""
+          },
+          {
+            "level": 3,
+            "heading": "Mistake 2: Using あげる to superiors",
+            "content": "Unnatural: 先生に本をあげました ⚠️ Better: 先生に本をさしあげました ✓ \"I gave a book to my teacher\""
+          },
+          {
+            "level": 3,
+            "heading": "Mistake 3: Wrong particle",
+            "content": "Wrong: 友達をプレゼントをあげた ❌ Right: 友達にプレゼントをあげた ✓ \"I gave a present to my friend\""
+          },
+          {
+            "level": 3,
+            "heading": "Mistake 4: Using when you're the receiver",
+            "content": "Wrong: 私は友達にプレゼントをあげられた ❌ Right: 私は友達にプレゼントをもらった ✓ \"I received a present from my friend\""
+          }
+        ]
+      },
+      {
+        "level": 2,
+        "heading": "Comparison Chart",
+        "content": "| Recipient | Verb | Example | | -------------- | ----------- | ---------------- | | Equal/Friend | あげる | 友達にあげた | | Junior/Younger | あげる/やる | 弟にあげた | | Superior | さしあげる | 先生にさしあげた | | Plant | やる | 花に水をやる | | Animal | やる | 犬にえさをやる |"
+      },
+      {
+        "level": 2,
+        "heading": "Special Expressions",
+        "content": "",
+        "children": [
+          {
+            "level": 3,
+            "heading": "〜てあげる (offer to do something)",
+            "content": "手伝ってあげようか？ \"Shall I help you?\" 教えてあげる \"I'll teach you\" 作ってあげるよ \"I'll make it for you\"\n\nWarning: Can sound condescending if overused!"
+          },
+          {
+            "level": 3,
+            "heading": "Present for future giving",
+            "content": "プレゼントをあげるつもりです \"I intend to give a present\" 明日あげます \"I'll give it tomorrow\""
+          }
+        ]
+      },
+      {
+        "level": 2,
+        "heading": "Context Matters",
+        "content": "",
+        "children": [
+          {
+            "level": 3,
+            "heading": "Within family",
+            "content": "To younger siblings: あげる or やる To older siblings: あげる To parents: さしあげる (very polite) or あげる"
+          },
+          {
+            "level": 3,
+            "heading": "At work",
+            "content": "To colleagues (equal): あげる To boss/seniors: さしあげる To juniors: あげる"
+          },
+          {
+            "level": 3,
+            "heading": "To strangers",
+            "content": "Use あげる (neutral and safe) Use さしあげる if they're clearly older/higher status"
+          }
+        ]
+      },
+      {
+        "level": 2,
+        "heading": "Practice Sentences",
+        "content": "",
+        "children": [
+          {
+            "level": 3,
+            "heading": "Basic",
+            "content": "友達にCDをあげました \"I gave a CD to my friend\" 花に水をやります \"I water the flowers\" 先生に手紙をさしあげた \"I gave a letter to my teacher\""
+          },
+          {
+            "level": 3,
+            "heading": "Intermediate",
+            "content": "誕生日に妹にネックレスをあげるつもりです \"I plan to give my sister a necklace for her birthday\" 毎日犬にえさをやっています \"I feed my dog every day\" 部長にレポートをさしあげなければなりません \"I must give the report to the department head\""
+          },
+          {
+            "level": 3,
+            "heading": "Advanced",
+            "content": "友達が困っていたので、お金を貸してあげました \"My friend was in trouble, so I lent them money\" この資料をお客様にさしあげてください \"Please give these materials to the customer\" 彼は弟におもちゃを買ってやった \"He bought a toy for his younger brother\""
+          }
+        ]
+      },
+      {
+        "level": 2,
+        "heading": "Related Grammar Points",
+        "content": "Receiving: もらう/いただく - Getting from others Favor: くれる/くださる - Others giving to you Direction of Actions - Perspective in giving てあげる/てくれる/てもらう - Doing favors Benefactive expressions - Helping/favoring Honorific language - Politeness levels",
+        "children": [
+          {
+            "level": 3,
+            "heading": "Company",
+            "content": "About Pricing Blog Contact"
+          },
+          {
+            "level": 3,
+            "heading": "Legal",
+            "content": "Privacy Policy Terms of Service Cookie Policy"
+          }
+        ]
+      }
+    ],
+    "metadata": {
+      "title": "Giving: あげる/やる/さしあげる"
+    }
+  },
+  "metadata": {
+    "extracted_at": "2026-01-01T22:19:30.261296900Z",
+    "duration_ms": 5,
+    "extractors_matched": [
+      "metadata",
+      "examples",
+      "sections"
+    ],
+    "extractors_failed": [
+      "vocab_tables",
+      "definitions",
+      "content_blocks"
+    ]
+  }
+}

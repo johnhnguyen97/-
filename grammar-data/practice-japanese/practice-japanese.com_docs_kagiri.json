@@ -1,0 +1,292 @@
+{
+  "config_name": "Language Learning Extractor",
+  "url": "https://practice-japanese.com/docs/kagiri/",
+  "data": {
+    "metadata": {
+      "title": "〜限り (As far as)"
+    },
+    "sections": [
+      {
+        "level": 2,
+        "heading": "What is 〜限り?",
+        "content": "〜限り (kagiri) expresses extent, limitation, or condition, meaning \"as far as,\" \"as long as,\" or \"to the limit.\" It has multiple uses depending on context.\n\nEnglish equivalent: \"as far as,\" \"as long as,\" \"to the limit,\" \"unless\"\n\nStructure: [Verb/Noun] + 限り\n\n知る (shiru - know) → 知る限り = 知る限り \"as far as I know\" 生きる (ikiru - live) → 生きる限り = 生きる限り \"as long as I live\" できる (dekiru - can) → できる限り = できる限り \"as much as possible\""
+      },
+      {
+        "level": 2,
+        "heading": "Basic Formation",
+        "content": "",
+        "children": [
+          {
+            "level": 3,
+            "heading": "With verbs (dictionary form)",
+            "content": "[Verb dictionary form] + 限り\n\n知る限り (shiru kagiri) - \"as far as I know\" 見る限り (miru kagiri) - \"as far as I can see\" 聞く限り (kiku kagiri) - \"as far as I hear\" 覚えている限り (oboete iru kagiri) - \"as far as I remember\""
+          },
+          {
+            "level": 3,
+            "heading": "With nouns + の",
+            "content": "[Noun] + の限り\n\n力の限り (chikara no kagiri) - \"with all one's strength\" 命の限り (inochi no kagiri) - \"as long as one lives\" 可能な限り (kanou na kagiri) - \"as much as possible\""
+          }
+        ]
+      },
+      {
+        "level": 2,
+        "heading": "\"As Far As\" (Extent of Knowledge)",
+        "content": "",
+        "children": [
+          {
+            "level": 3,
+            "heading": "Within one's knowledge",
+            "content": "私の知る限りでは、それは正しい。 Watashi no shiru kagiri dewa, sore wa tadashii. \"As far as I know, that's correct.\" 聞いた限りでは、問題ない。 Kiita kagiri dewa, mondai nai. \"As far as I've heard, there's no problem.\" 見た限り、大丈夫だ。 Mita kagiri, daijoubu da. \"As far as I can see, it's okay.\""
+          }
+        ]
+      },
+      {
+        "level": 2,
+        "heading": "\"As Long As\" (Condition)",
+        "content": "",
+        "children": [
+          {
+            "level": 3,
+            "heading": "Conditional meaning",
+            "content": "生きている限り、諦めない。 Ikite iru kagiri, akiramenai. \"As long as I'm alive, I won't give up.\" ここにいる限り、安全だ。 Koko ni iru kagiri, anzen da. \"As long as you're here, you're safe.\" 雨が降らない限り、行きます。 Ame ga furanai kagiri, ikimasu. \"As long as it doesn't rain, I'll go.\""
+          }
+        ]
+      },
+      {
+        "level": 2,
+        "heading": "できる限り (As much as possible)",
+        "content": "",
+        "children": [
+          {
+            "level": 3,
+            "heading": "Maximum effort",
+            "content": "できる限り早く来ます。 Dekiru kagiri hayaku kimasu. \"I'll come as soon as possible.\" できる限り手伝います。 Dekiru kagiri tetsudaimasu. \"I'll help as much as I can.\" できる限りのことをした。 Dekiru kagiri no koto wo shita. \"I did everything possible.\""
+          }
+        ]
+      },
+      {
+        "level": 2,
+        "heading": "To the Limit (Maximum extent)",
+        "content": "",
+        "children": [
+          {
+            "level": 3,
+            "heading": "Using all capacity",
+            "content": "力の限り走った。 Chikara no kagiri hashitta. \"I ran with all my strength.\" 声の限り叫んだ。 Koe no kagiri sakenda. \"I shouted at the top of my voice.\" 全力の限りを尽くす。 Zenryoku no kagiri wo tsukusu. \"Exhaust all one's power.\""
+          }
+        ]
+      },
+      {
+        "level": 2,
+        "heading": "Negative Condition (Unless)",
+        "content": "",
+        "children": [
+          {
+            "level": 3,
+            "heading": "Negative verb + 限り",
+            "content": "[Negative verb] + 限り = \"unless\"\n\n努力しない限り、成功しない。 Doryoku shinai kagiri, seikou shinai. \"Unless you make an effort, you won't succeed.\" 雨が降らない限り、行く。 Ame ga furanai kagiri, iku. \"Unless it rains, I'll go.\" 変わらない限り、同じだ。 Kawaranai kagiri, onaji da. \"Unless it changes, it's the same.\""
+          }
+        ]
+      },
+      {
+        "level": 2,
+        "heading": "〜限りでは (As far as)",
+        "content": "",
+        "children": [
+          {
+            "level": 3,
+            "heading": "Scope of information",
+            "content": "[Verb/Noun] + 限りでは\n\n私の知る限りでは (watashi no shiru kagiri dewa) - \"as far as I know\" 見た限りでは (mita kagiri dewa) - \"as far as I saw\" 調べた限りでは (shirabeta kagiri dewa) - \"as far as I investigated\" 私の知る限りでは、彼は来ない。 Watashi no shiru kagiri dewa, kare wa konai. \"As far as I know, he's not coming.\""
+          }
+        ]
+      },
+      {
+        "level": 2,
+        "heading": "Permanent Conditions",
+        "content": "",
+        "children": [
+          {
+            "level": 3,
+            "heading": "Lifelong/eternal",
+            "content": "命の限り頑張る。 Inochi no kagiri ganbaru. \"I'll try hard as long as I live.\" 生きている限り忘れない。 Ikite iru kagiri wasurenai. \"As long as I live, I won't forget.\" この世にいる限り。 Kono yo ni iru kagiri. \"As long as I'm in this world.\""
+          }
+        ]
+      },
+      {
+        "level": 2,
+        "heading": "Possible Extent",
+        "content": "",
+        "children": [
+          {
+            "level": 3,
+            "heading": "Within possibility",
+            "content": "可能な限り協力します。 Kanou na kagiri kyouryoku shimasu. \"I'll cooperate as much as possible.\" 許される限り自由にする。 Yurusareru kagiri jiyuu ni suru. \"I'll be free as far as permitted.\" 時間の許す限り待つ。 Jikan no yurusu kagiri matsu. \"I'll wait as long as time permits.\""
+          }
+        ]
+      },
+      {
+        "level": 2,
+        "heading": "Physical/Material Limits",
+        "content": "",
+        "children": [
+          {
+            "level": 3,
+            "heading": "Tangible extent",
+            "content": "見える限り広がっている。 Mieru kagiri hirogatte iru. \"It extends as far as the eye can see.\" 持てる限り持った。 Moteru kagiri motta. \"I carried as much as I could hold.\" 入る限り入れた。 Hairu kagiri ireta. \"I put in as much as would fit.\""
+          }
+        ]
+      },
+      {
+        "level": 2,
+        "heading": "Polite Forms",
+        "content": "できる限りお手伝いいたします。 Dekiru kagiri otetsudai itashimasu. \"I'll help as much as possible.\" 知る限りでは、問題ございません。 Shiru kagiri dewa, mondai gozaimasen. \"As far as I know, there are no problems.\" 可能な限り対応させていただきます。 Kanou na kagiri taiou sasete itadakimasu. \"We'll respond as much as possible.\""
+      },
+      {
+        "level": 2,
+        "heading": "Common Expressions",
+        "content": "知る限り (shiru kagiri) - \"as far as I know\" できる限り (dekiru kagiri) - \"as much as possible\" 見る限り (miru kagiri) - \"as far as I can see\" 力の限り (chikara no kagiri) - \"with all one's might\" 声の限り (koe no kagiri) - \"at the top of one's voice\" 命の限り (inochi no kagiri) - \"as long as one lives\" 可能な限り (kanou na kagiri) - \"as far as possible\" 〜ない限り (~nai kagiri) - \"unless\" 〜限りでは (~kagiri dewa) - \"as far as\""
+      },
+      {
+        "level": 2,
+        "heading": "Comparing 限り and だけ",
+        "content": "",
+        "children": [
+          {
+            "level": 3,
+            "heading": "Limit vs extent",
+            "content": "限り - Extent/condition:\n\n知る限りでは正しい。 Shiru kagiri dewa tadashii. \"As far as I know, it's correct.\" (extent of knowledge)\n\nだけ - Simple limitation:\n\nこれだけ知っている。 Kore dake shitte iru. \"I know only this.\" (simple limit)\n\n| Pattern | Meaning | Example | | ------- | ----------------- | -------- | | 限り | Extent/condition | 知る限り | | だけ | Simple limitation | これだけ |\n\nSee: 〜だけ (As much as)"
+          }
+        ]
+      },
+      {
+        "level": 2,
+        "heading": "Comparing 限り and 限りでは",
+        "content": "",
+        "children": [
+          {
+            "level": 3,
+            "heading": "With or without では",
+            "content": "限り - Direct condition/extent:\n\n生きている限り頑張る。 Ikite iru kagiri ganbaru. \"As long as I live, I'll try hard.\"\n\n限りでは - Scope qualifier:\n\n知る限りでは正しい。 Shiru kagiri dewa tadashii. \"As far as I know (within that scope), it's correct.\"\n\n限りでは adds more explicit scope limitation."
+          }
+        ]
+      },
+      {
+        "level": 2,
+        "heading": "Expressing Determination",
+        "content": "",
+        "children": [
+          {
+            "level": 3,
+            "heading": "Strong resolve",
+            "content": "命の限り戦う。 Inochi no kagiri tatakau. \"I'll fight as long as I live.\" 力の限り頑張る。 Chikara no kagiri ganbaru. \"I'll try with all my might.\" 最後まで、できる限りやる。 Saigo made, dekiru kagiri yaru. \"Until the end, I'll do as much as I can.\""
+          }
+        ]
+      },
+      {
+        "level": 2,
+        "heading": "Common Mistakes",
+        "content": "",
+        "children": [
+          {
+            "level": 3,
+            "heading": "Mistake 1: Using た-form instead of dictionary form",
+            "content": "❌ 知った限り ✓ 知る限り\n\nUse dictionary form for habitual/general extent."
+          },
+          {
+            "level": 3,
+            "heading": "Mistake 2: Confusing with 限界 (limit/boundary)",
+            "content": "限り (kagiri) = as far as / as long as (grammar) 限界 (genkai) = limit / boundary (noun)"
+          },
+          {
+            "level": 3,
+            "heading": "Mistake 3: Wrong verb form with ない限り",
+            "content": "❌ 雨が降る限り、行かない ✓ 雨が降らない限り、行く\n\nFor \"unless,\" use negative verb."
+          },
+          {
+            "level": 3,
+            "heading": "Mistake 4: Forgetting の with nouns",
+            "content": "❌ 力限り ✓ 力の限り\n\nUse の between noun and 限り."
+          }
+        ]
+      },
+      {
+        "level": 2,
+        "heading": "Summary",
+        "content": "Key Points:\n\n限り expresses extent, condition, or limit Formation: [Verb dictionary form / Noun の] + 限り Multiple meanings: \"as far as,\" \"as long as,\" \"to the limit\" できる限り = \"as much as possible\" 〜ない限り = \"unless\" 限りでは = explicit scope limitation Common with: 知る, できる, 力, 命 Essential for expressing extent and conditions",
+        "children": [
+          {
+            "level": 3,
+            "heading": "Company",
+            "content": "About Pricing Blog Contact"
+          },
+          {
+            "level": 3,
+            "heading": "Legal",
+            "content": "Privacy Policy Terms of Service Cookie Policy"
+          }
+        ]
+      }
+    ],
+    "examples": [
+      {
+        "sentence": "限り expresses extent, condition, or limit"
+      },
+      {
+        "sentence": "Formation: [Verb dictionary form / Noun の] + 限り"
+      },
+      {
+        "sentence": "Multiple meanings: \"as far as,\" \"as long as,\" \"to the limit\""
+      },
+      {
+        "sentence": "できる限り = \"as much as possible\""
+      },
+      {
+        "sentence": "〜ない限り = \"unless\""
+      },
+      {
+        "sentence": "限りでは = explicit scope limitation"
+      },
+      {
+        "sentence": "Common with: 知る, できる, 力, 命"
+      },
+      {
+        "sentence": "Essential for expressing extent and conditions"
+      },
+      {
+        "sentence": "About"
+      },
+      {
+        "sentence": "Pricing"
+      },
+      {
+        "sentence": "Blog"
+      },
+      {
+        "sentence": "Contact"
+      },
+      {
+        "sentence": "Privacy Policy"
+      },
+      {
+        "sentence": "Terms of Service"
+      },
+      {
+        "sentence": "Cookie Policy"
+      }
+    ]
+  },
+  "metadata": {
+    "extracted_at": "2026-01-01T22:19:30.437392900Z",
+    "duration_ms": 5,
+    "extractors_matched": [
+      "metadata",
+      "examples",
+      "sections"
+    ],
+    "extractors_failed": [
+      "vocab_tables",
+      "definitions",
+      "content_blocks"
+    ]
+  }
+}

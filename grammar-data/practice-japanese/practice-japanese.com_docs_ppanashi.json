@@ -1,0 +1,297 @@
+{
+  "config_name": "Language Learning Extractor",
+  "url": "https://practice-japanese.com/docs/ppanashi/",
+  "data": {
+    "metadata": {
+      "title": "〜っぱなし (Left as is)"
+    },
+    "examples": [
+      {
+        "sentence": "っぱなし expresses neglected or continuous states"
+      },
+      {
+        "sentence": "Formation: [Verb ます-stem] + っぱなし"
+      },
+      {
+        "sentence": "Usually carries negative nuance of irresponsibility"
+      },
+      {
+        "sentence": "Common with: lights, doors, windows, unfinished tasks"
+      },
+      {
+        "sentence": "Uses にする: つけっぱなしにする \"leave on\""
+      },
+      {
+        "sentence": "Different from ている (neutral state)"
+      },
+      {
+        "sentence": "For complaints: \"left [verb]ed\" or \"keep [verb]ing\""
+      },
+      {
+        "sentence": "Essential for describing neglected situations"
+      },
+      {
+        "sentence": "About"
+      },
+      {
+        "sentence": "Pricing"
+      },
+      {
+        "sentence": "Blog"
+      },
+      {
+        "sentence": "Contact"
+      },
+      {
+        "sentence": "Privacy Policy"
+      },
+      {
+        "sentence": "Terms of Service"
+      },
+      {
+        "sentence": "Cookie Policy"
+      }
+    ],
+    "sections": [
+      {
+        "level": 2,
+        "heading": "What is 〜っぱなし?",
+        "content": "〜っぱなし (ppanashi) expresses leaving something in a state continuously, often with a negative nuance of neglect or irresponsibility. It indicates something remains as it is without proper action.\n\nEnglish equivalent: \"left [verb]ed,\" \"keep [verb]ing,\" \"leave as is\"\n\nStructure: [Verb stem] + っぱなし\n\n開く (aku - open) → 開き + っぱなし = 開きっぱなし \"left open\" つける (tsukeru - turn on) → つけ + っぱなし = つけっぱなし \"left on\" 出す (dasu - take out) → 出し + っぱなし = 出しっぱなし \"left out\""
+      },
+      {
+        "level": 2,
+        "heading": "Basic Formation",
+        "content": "",
+        "children": [
+          {
+            "level": 3,
+            "heading": "With verb stems",
+            "content": "[Verb ます-stem] + っぱなし\n\n開きっぱなし (akippanashi) - \"left open\" つけっぱなし (tsukeppanashi) - \"left on\" 出しっぱなし (dashippanashi) - \"left out\" やりっぱなし (yarippanashi) - \"left undone/unfinished\""
+          }
+        ]
+      },
+      {
+        "level": 2,
+        "heading": "Neglected States",
+        "content": "",
+        "children": [
+          {
+            "level": 3,
+            "heading": "Things left as they are",
+            "content": "ドアが開けっぱなし。 Doa ga akeppanashi. \"The door is left open.\" 電気をつけっぱなしにした。 Denki wo tsukeppanashi ni shita. \"I left the light on.\" テレビがつけっぱなしだよ。 Terebi ga tsukeppanashi da yo. \"The TV is left on.\" 窓が開けっぱなしだった。 Mado ga akeppanashi datta. \"The window was left open.\""
+          }
+        ]
+      },
+      {
+        "level": 2,
+        "heading": "Common Household Items",
+        "content": "",
+        "children": [
+          {
+            "level": 3,
+            "heading": "Lights and appliances",
+            "content": "電気つけっぱなし (denki tsukeppanashi) - \"light left on\" エアコンつけっぱなし (eakon tsukeppanashi) - \"AC left on\" テレビつけっぱなし (terebi tsukeppanashi) - \"TV left on\" 水道出しっぱなし (suidou dashippanashi) - \"water left running\" エアコンつけっぱなしで寝ちゃった。 Eakon tsukeppanashi de nechatta. \"I fell asleep with the AC on.\" 水道を出しっぱなしにしないで。 Suidou wo dashippanashi ni shinai de. \"Don't leave the water running.\""
+          }
+        ]
+      },
+      {
+        "level": 2,
+        "heading": "Doors and Windows",
+        "content": "",
+        "children": [
+          {
+            "level": 3,
+            "heading": "Open/closed states",
+            "content": "ドアが開けっぱなし。 Doa ga akeppanashi. \"The door is left open.\" 窓を開けっぱなしにする。 Mado wo akeppanashi ni suru. \"Leave the window open.\" 冷蔵庫が開けっぱなしだよ。 Reizouko ga akeppanashi da yo. \"The refrigerator is left open.\""
+          }
+        ]
+      },
+      {
+        "level": 2,
+        "heading": "Unfinished Actions",
+        "content": "",
+        "children": [
+          {
+            "level": 3,
+            "heading": "Things not completed",
+            "content": "やりっぱなし (yarippanashi) - \"left undone/unfinished\" 言いっぱなし (iippanashi) - \"just say without following through\" 書きっぱなし (kakippanashi) - \"left unwritten/unfinished writing\" 読みっぱなし (yomippanashi) - \"read without thinking further\" 宿題をやりっぱなしにしないで。 Shukudai wo yarippanashi ni shinai de. \"Don't leave homework unfinished.\" 言いっぱなしは良くないよ。 Iippanashi wa yokunai yo. \"Just saying things without following through is not good.\""
+          }
+        ]
+      },
+      {
+        "level": 2,
+        "heading": "Messy Situations",
+        "content": "",
+        "children": [
+          {
+            "level": 3,
+            "heading": "Things scattered or out of place",
+            "content": "出しっぱなし (dashippanashi) - \"left out\" 散らかしっぱなし (chirakashippanashi) - \"left messy\" 置きっぱなし (okippanashi) - \"left lying around\" 服を出しっぱなしにしないで。 Fuku wo dashippanashi ni shinai de. \"Don't leave clothes lying around.\" 部屋が散らかしっぱなし。 Heya ga chirakashippanashi. \"The room is left messy.\" カバンを置きっぱなしにした。 Kaban wo okippanashi ni shita. \"I left my bag lying around.\""
+          }
+        ]
+      },
+      {
+        "level": 2,
+        "heading": "Particle Usage",
+        "content": "",
+        "children": [
+          {
+            "level": 3,
+            "heading": "With にする",
+            "content": "[Verb stem] + っぱなし + にする \"to leave [something] as is\"\n\n電気をつけっぱなしにする。 Denki wo tsukeppanashi ni suru. \"Leave the light on.\" ドアを開けっぱなしにしないで。 Doa wo akeppanashi ni shinai de. \"Don't leave the door open.\""
+          },
+          {
+            "level": 3,
+            "heading": "With が/は/を",
+            "content": "電気がつけっぱなし (ga - subject) 電気はつけっぱなし (wa - topic) 電気をつけっぱなしにする (wo - object)"
+          }
+        ]
+      },
+      {
+        "level": 2,
+        "heading": "Common Verbs with っぱなし",
+        "content": "開けっぱなし (akeppanashi) - \"left open\" つけっぱなし (tsukeppanashi) - \"left on\" 出しっぱなし (dashippanashi) - \"left out\" やりっぱなし (yarippanashi) - \"left undone\" 置きっぱなし (okippanashi) - \"left lying around\" 言いっぱなし (iippanashi) - \"just said without action\" 泣きっぱなし (nakippanashi) - \"kept crying\" 立ちっぱなし (tachippanashi) - \"kept standing\" 座りっぱなし (suwarippanashi) - \"kept sitting\" 寝っぱなし (neppanashi) - \"stayed in bed all day\""
+      },
+      {
+        "level": 2,
+        "heading": "Physical Positions",
+        "content": "",
+        "children": [
+          {
+            "level": 3,
+            "heading": "Continuous postures",
+            "content": "立ちっぱなし。 Tachippanashi. \"Standing the whole time.\" 座りっぱなしで疲れた。 Suwarippanashi de tsukareta. \"I'm tired from sitting the whole time.\" 一日中寝っぱなしだった。 Ichinichijuu neppanashi datta. \"I stayed in bed all day.\""
+          }
+        ]
+      },
+      {
+        "level": 2,
+        "heading": "Continuous Actions",
+        "content": "",
+        "children": [
+          {
+            "level": 3,
+            "heading": "Doing something continuously",
+            "content": "泣きっぱなし (nakippanashi) - \"crying the whole time\" 笑いっぱなし (waraippanashi) - \"laughing the whole time\" 働きっぱなし (hatarakippanashi) - \"working continuously\" 赤ちゃんが泣きっぱなしだ。 Akachan ga nakippanashi da. \"The baby has been crying the whole time.\" 昨日は働きっぱなしだった。 Kinou wa hatarakippanashi datta. \"Yesterday I worked non-stop.\""
+          }
+        ]
+      },
+      {
+        "level": 2,
+        "heading": "Warnings and Complaints",
+        "content": "",
+        "children": [
+          {
+            "level": 3,
+            "heading": "Scolding about neglect",
+            "content": "電気つけっぱなしだよ！ Denki tsukeppanashi da yo! \"The light is left on!\" また出しっぱなしにして！ Mata dashippanashi ni shite! \"You left it out again!\" エアコンつけっぱなしにしないで。 Eakon tsukeppanashi ni shinai de. \"Don't leave the AC on.\""
+          }
+        ]
+      },
+      {
+        "level": 2,
+        "heading": "Past Tense",
+        "content": "ドアが開けっぱなしだった。 Doa ga akeppanashi datta. \"The door was left open.\" 電気をつけっぱなしにしてしまった。 Denki wo tsukeppanashi ni shite shimatta. \"I accidentally left the light on.\" 一日中座りっぱなしだった。 Ichinichijuu suwarippanashi datta. \"I was sitting all day long.\""
+      },
+      {
+        "level": 2,
+        "heading": "Polite Forms",
+        "content": "Casual: つけっぱなし Polite: つけっぱなしです Past: つけっぱなしでした にする: つけっぱなしにします 電気がつけっぱなしです。 Denki ga tsukeppanashi desu. \"The light is left on.\" (polite) 申し訳ございません、ドアを開けっぱなしにしてしまいました。 Moushiwake gozaimasen, doa wo akeppanashi ni shite shimaimashita. \"I'm very sorry I left the door open.\""
+      },
+      {
+        "level": 2,
+        "heading": "Negative Connotation",
+        "content": "",
+        "children": [
+          {
+            "level": 3,
+            "heading": "Usually implies criticism",
+            "content": "Most uses of っぱなし carry a negative nuance:\n\n✓ 電気つけっぱなし (wasteful, irresponsible) ✓ やりっぱなし (irresponsible, incomplete) ✓ 出しっぱなし (messy, careless)\n\nSome neutral/positive uses with continuous states:\n\n元気っぱなし (genki ppanashi) - \"full of energy\" (less common)"
+          }
+        ]
+      },
+      {
+        "level": 2,
+        "heading": "Comparing っぱなし and ている",
+        "content": "",
+        "children": [
+          {
+            "level": 3,
+            "heading": "Neglected state vs normal state",
+            "content": "っぱなし - Neglected/continuous (often negative):\n\n電気がつけっぱなし。 Denki ga tsukeppanashi. \"The light is left on.\" (should be turned off)\n\nている - Current state (neutral):\n\n電気がついている。 Denki ga tsuite iru. \"The light is on.\" (just a fact)\n\n| Pattern | Nuance | Example | | -------- | ----------------------- | ------------ | | っぱなし | Neglected/irresponsible | つけっぱなし | | ている | Neutral current state | ついている |"
+          }
+        ]
+      },
+      {
+        "level": 2,
+        "heading": "Formation Pattern",
+        "content": "",
+        "children": [
+          {
+            "level": 3,
+            "heading": "Stem changes",
+            "content": "開ける (akeru) → 開け + っぱなし つける (tsukeru) → つけ + っぱなし 出す (dasu) → 出し + っぱなし やる (yaru) → やり + っぱなし 立つ (tatsu) → 立ち + っぱなし\n\nThe pattern is: [ます-stem] + っぱなし"
+          }
+        ]
+      },
+      {
+        "level": 2,
+        "heading": "Common Mistakes",
+        "content": "",
+        "children": [
+          {
+            "level": 3,
+            "heading": "Mistake 1: Using wrong verb form",
+            "content": "❌ 開いてっぱなし ✓ 開けっぱなし\n\nUse the ます-stem, not て-form."
+          },
+          {
+            "level": 3,
+            "heading": "Mistake 2: Not recognizing negative nuance",
+            "content": "っぱなし usually implies something wrong/neglected.\n\n電気つけっぱなし = criticism (left on wastefully) 電気ついている = neutral (just on)"
+          },
+          {
+            "level": 3,
+            "heading": "Mistake 3: Wrong formation",
+            "content": "❌ 食べるっぱなし ✓ 食べっぱなし\n\nRemove ます from ます-form and add っぱなし."
+          },
+          {
+            "level": 3,
+            "heading": "Mistake 4: Confusing with other patterns",
+            "content": "っぱなし ≠ ておく (preparation) っぱなし ≠ てある (intentional result) っぱなし = left neglected/continuous"
+          }
+        ]
+      },
+      {
+        "level": 2,
+        "heading": "Summary",
+        "content": "Key Points:\n\nっぱなし expresses neglected or continuous states Formation: [Verb ます-stem] + っぱなし Usually carries negative nuance of irresponsibility Common with: lights, doors, windows, unfinished tasks Uses にする: つけっぱなしにする \"leave on\" Different from ている (neutral state) For complaints: \"left [verb]ed\" or \"keep [verb]ing\" Essential for describing neglected situations",
+        "children": [
+          {
+            "level": 3,
+            "heading": "Company",
+            "content": "About Pricing Blog Contact"
+          },
+          {
+            "level": 3,
+            "heading": "Legal",
+            "content": "Privacy Policy Terms of Service Cookie Policy"
+          }
+        ]
+      }
+    ]
+  },
+  "metadata": {
+    "extracted_at": "2026-01-01T22:19:33.989882600Z",
+    "duration_ms": 3,
+    "extractors_matched": [
+      "metadata",
+      "examples",
+      "sections"
+    ],
+    "extractors_failed": [
+      "vocab_tables",
+      "definitions",
+      "content_blocks"
+    ]
+  }
+}

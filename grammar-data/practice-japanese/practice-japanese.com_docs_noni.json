@@ -1,0 +1,317 @@
+{
+  "config_name": "Language Learning Extractor",
+  "url": "https://practice-japanese.com/docs/noni/",
+  "data": {
+    "metadata": {
+      "title": "のに (Even though)"
+    },
+    "examples": [
+      {
+        "sentence": "About"
+      },
+      {
+        "sentence": "Pricing"
+      },
+      {
+        "sentence": "Blog"
+      },
+      {
+        "sentence": "Contact"
+      },
+      {
+        "sentence": "Privacy Policy"
+      },
+      {
+        "sentence": "Terms of Service"
+      },
+      {
+        "sentence": "Cookie Policy"
+      }
+    ],
+    "sections": [
+      {
+        "level": 2,
+        "heading": "What is のに?",
+        "content": "のに means \"even though,\" \"despite,\" or \"although,\" expressing unexpected contrast with a sense of disappointment, surprise, or frustration. Unlike けど or が which are neutral, のに implies the result is contrary to what was expected or hoped for.\n\n勉強したのに、合格しなかった。 \"Even though I studied, I didn't pass.\" 呼んだのに、来なかった。 \"Even though I called, he didn't come.\""
+      },
+      {
+        "level": 2,
+        "heading": "Basic Structure",
+        "content": "",
+        "children": [
+          {
+            "level": 3,
+            "heading": "[Plain form] + のに",
+            "content": "雨なのに、出かけた。 \"Even though it's raining, he went out.\" 頑張ったのに、ダメだった。 \"Even though I tried hard, it was no good.\" Unexpected result"
+          }
+        ]
+      },
+      {
+        "level": 2,
+        "heading": "Usage and Meaning",
+        "content": "",
+        "children": [
+          {
+            "level": 3,
+            "heading": "Disappointment",
+            "content": "練習したのに、負けた。 \"Even though I practiced, I lost.\" 待ったのに、来なかった。 \"Even though I waited, he didn't come.\" Frustrated expectation"
+          },
+          {
+            "level": 3,
+            "heading": "Surprise/Unexpectedness",
+            "content": "簡単なのに、できない。 \"Even though it's simple, I can't do it.\" 安いのに、誰も買わない。 \"Even though it's cheap, nobody buys it.\" Contrary to expectation"
+          },
+          {
+            "level": 3,
+            "heading": "Reproach/Complaint",
+            "content": "約束したのに、忘れた。 \"Even though you promised, you forgot.\" 知ってるのに、教えてくれない。 \"Even though you know, you won't tell me.\" Blaming tone"
+          }
+        ]
+      },
+      {
+        "level": 2,
+        "heading": "Position in Sentence",
+        "content": "",
+        "children": [
+          {
+            "level": 3,
+            "heading": "Mid-sentence connector",
+            "content": "頑張ったのに、失敗した。 \"Even though I tried, I failed.\" Connects expectation and reality"
+          }
+        ]
+      },
+      {
+        "level": 2,
+        "heading": "Polite and Casual",
+        "content": "",
+        "children": [
+          {
+            "level": 3,
+            "heading": "Works in both",
+            "content": "Casual: 勉強したのに、ダメだった。 \"Even though I studied, it was no good.\" Polite: 勉強したのに、ダメでした。 \"Even though I studied, it was no good.\" Adjust final verb"
+          }
+        ]
+      },
+      {
+        "level": 2,
+        "heading": "Common Contexts",
+        "content": "",
+        "children": [
+          {
+            "level": 3,
+            "heading": "Expressing frustration",
+            "content": "早く起きたのに、遅刻した。 \"Even though I woke up early, I was late.\" 頑張ったのに、認めてくれない。 \"Even though I tried hard, they won't acknowledge it.\" Personal frustration"
+          },
+          {
+            "level": 3,
+            "heading": "Complaining",
+            "content": "高いのに、美味しくない。 \"Even though it's expensive, it's not delicious.\" 遠いのに、駐車場がない。 \"Even though it's far, there's no parking.\" Dissatisfaction"
+          },
+          {
+            "level": 3,
+            "heading": "Reproaching",
+            "content": "言ったのに、聞いてなかった。 \"Even though I said it, you weren't listening.\" 約束したのに、破った。 \"Even though you promised, you broke it.\" Accusatory tone"
+          }
+        ]
+      },
+      {
+        "level": 2,
+        "heading": "のに vs けど/が",
+        "content": "",
+        "children": [
+          {
+            "level": 3,
+            "heading": "のに = disappointment/surprise",
+            "content": "勉強したのに、ダメだった。 \"Even though I studied, it was no good.\" Negative feeling Unexpected result"
+          },
+          {
+            "level": 3,
+            "heading": "けど = neutral contrast",
+            "content": "勉強したけど、ダメだった。 \"I studied, but it was no good.\" Neutral statement No special emotion"
+          },
+          {
+            "level": 3,
+            "heading": "が = formal contrast",
+            "content": "勉強しましたが、ダメでした。 \"I studied, but it was no good.\" Formal, polite No disappointment implied"
+          }
+        ]
+      },
+      {
+        "level": 2,
+        "heading": "Verb Forms with のに",
+        "content": "",
+        "children": [
+          {
+            "level": 3,
+            "heading": "Plain form + のに",
+            "content": "食べるのに \"Even though (someone) eats\" 食べたのに \"Even though (someone) ate\" 食べないのに \"Even though (someone) doesn't eat\" All tenses possible"
+          }
+        ]
+      },
+      {
+        "level": 2,
+        "heading": "Adjectives with のに",
+        "content": "",
+        "children": [
+          {
+            "level": 3,
+            "heading": "い-adjectives",
+            "content": "高いのに \"Even though it's expensive\" 高かったのに \"Even though it was expensive\" Direct connection"
+          },
+          {
+            "level": 3,
+            "heading": "な-adjectives",
+            "content": "便利なのに \"Even though it's convenient\" きれいなのに \"Even though it's pretty\" な before のに"
+          },
+          {
+            "level": 3,
+            "heading": "Nouns",
+            "content": "学生なのに \"Even though (he's) a student\" 休みなのに \"Even though it's a holiday\" な or だ before のに"
+          }
+        ]
+      },
+      {
+        "level": 2,
+        "heading": "Ending with のに",
+        "content": "",
+        "children": [
+          {
+            "level": 3,
+            "heading": "Implying complaint",
+            "content": "A: ごめん、忘れてた。 B: 約束したのに... A: \"Sorry, I forgot.\" B: \"Even though you promised...\" Leaving reproach hanging Strong disappointment"
+          }
+        ]
+      },
+      {
+        "level": 2,
+        "heading": "Common Patterns",
+        "content": "",
+        "children": [
+          {
+            "level": 3,
+            "heading": "〜のに、〜ない",
+            "content": "簡単なのに、できない。 \"Even though it's simple, I can't do it.\" 知ってるのに、教えない。 \"Even though you know, you won't tell.\" Emphasizes contradiction"
+          }
+        ]
+      },
+      {
+        "level": 2,
+        "heading": "Expressing Regret",
+        "content": "",
+        "children": [
+          {
+            "level": 3,
+            "heading": "Looking back",
+            "content": "もっと勉強すればよかったのに。 \"You should have studied more.\" 行けばよかったのに。 \"You should have gone.\" Regretful suggestion"
+          }
+        ]
+      },
+      {
+        "level": 2,
+        "heading": "のに with Positive Outcomes",
+        "content": "",
+        "children": [
+          {
+            "level": 3,
+            "heading": "Less common but possible",
+            "content": "雨なのに、楽しかった。 \"Even though it was raining, it was fun.\" Still implies surprise Positive can work too"
+          }
+        ]
+      },
+      {
+        "level": 2,
+        "heading": "Common Mistakes",
+        "content": "",
+        "children": [
+          {
+            "level": 3,
+            "heading": "Using のに for neutral contrast",
+            "content": "Unnatural: 疲れたのに、楽しかった ⚠️ Better: 疲れたけど、楽しかった ✓ \"I was tired, but it was fun.\" Use けど for neutral のに for disappointment"
+          },
+          {
+            "level": 3,
+            "heading": "Confusing with purpose に",
+            "content": "食べるのに used as \"for eating\" (purpose) 食べるのに、太らない \"even though eating, don't gain weight\" (contrast) Context determines meaning"
+          }
+        ]
+      },
+      {
+        "level": 2,
+        "heading": "Softening Criticism",
+        "content": "",
+        "children": [
+          {
+            "level": 3,
+            "heading": "Indirect complaint",
+            "content": "せっかく来たのに... \"Even though I came all this way...\" せっかく作ったのに... \"Even though I went to the trouble of making it...\" Implies: you should appreciate it"
+          }
+        ]
+      },
+      {
+        "level": 2,
+        "heading": "Strong Emotions",
+        "content": "",
+        "children": [
+          {
+            "level": 3,
+            "heading": "Intensifying disappointment",
+            "content": "あんなに練習したのに！ \"Even though I practiced so much!\" こんなに頑張ったのに！ \"Even though I tried this hard!\" Emotional emphasis"
+          }
+        ]
+      },
+      {
+        "level": 2,
+        "heading": "Negative Expectations",
+        "content": "",
+        "children": [
+          {
+            "level": 3,
+            "heading": "Things not happening",
+            "content": "待ったのに、来なかった。 \"Even though I waited, he didn't come.\" 信じたのに、裏切られた。 \"Even though I believed, I was betrayed.\" Hopes dashed"
+          }
+        ]
+      },
+      {
+        "level": 2,
+        "heading": "Practice Sentences",
+        "content": "",
+        "children": [
+          {
+            "level": 3,
+            "heading": "Basic",
+            "content": "勉強したのに、合格しなかった。 \"Even though I studied, I didn't pass.\" 呼んだのに、来なかった。 \"Even though I called, he didn't come.\" 高いのに、美味しくない。 \"Even though it's expensive, it's not delicious.\" 簡単なのに、できない。 \"Even though it's simple, I can't do it.\" 約束したのに、忘れた。 \"Even though you promised, you forgot.\""
+          },
+          {
+            "level": 3,
+            "heading": "Intermediate",
+            "content": "一生懸命練習したのに、試合で負けて しまった。とても悔しい。でも、 次は絶対に勝ちたい。 \"Even though I practiced hard, I ended up losing the match. I'm very frustrated. But I definitely want to win next time.\" 天気予報で晴れだと言っていたのに、 雨が降った。傘を持ってこなかったので、 濡れてしまった。 \"Even though the weather forecast said sunny, it rained. Since I didn't bring an umbrella, I got wet.\" 彼は約束の時間に遅れたのに、 謝りもしなかった。本当に失礼だと 思う。 \"Even though he was late for our appointment, he didn't even apologize. I think it's really rude.\""
+          },
+          {
+            "level": 3,
+            "heading": "Company",
+            "content": "About Pricing Blog Contact"
+          },
+          {
+            "level": 3,
+            "heading": "Legal",
+            "content": "Privacy Policy Terms of Service Cookie Policy"
+          }
+        ]
+      }
+    ]
+  },
+  "metadata": {
+    "extracted_at": "2026-01-01T22:19:32.399701500Z",
+    "duration_ms": 3,
+    "extractors_matched": [
+      "metadata",
+      "examples",
+      "sections"
+    ],
+    "extractors_failed": [
+      "vocab_tables",
+      "definitions",
+      "content_blocks"
+    ]
+  }
+}
