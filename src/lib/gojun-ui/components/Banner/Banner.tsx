@@ -151,6 +151,51 @@ function SeasonalScene({ season, className }: { season: 'spring' | 'summer' | 'a
   }
 }
 
+// Seasonal effects overlay for real photos - just the falling elements
+function SeasonalEffectsOverlay({ month }: { month: number }) {
+  const season = useMemo(() => getSeasonFromMonth(month), [month]);
+
+  const seasonElements: Record<string, string[]> = {
+    spring: ['🌸', '🌷', '💮'],
+    summer: ['☀️', '🌻', '✨'],
+    autumn: ['🍁', '🍂', '🍃'],
+    winter: ['❄️', '❅', '❆'],
+  };
+
+  const elements = seasonElements[season];
+
+  // Generate falling elements
+  const fallingElements = useMemo(() => {
+    const items: { id: number; element: string; x: number; delay: number; duration: number; size: string }[] = [];
+    for (let i = 0; i < 15; i++) {
+      items.push({
+        id: i,
+        element: elements[i % elements.length],
+        x: 3 + (i * 6.5),
+        delay: Math.random() * 6,
+        duration: 5 + Math.random() * 4,
+        size: ['text-xs', 'text-sm', 'text-base', 'text-lg'][Math.floor(Math.random() * 4)],
+      });
+    }
+    return items;
+  }, [elements]);
+
+  return (
+    <div className="absolute inset-0 overflow-hidden pointer-events-none">
+      {fallingElements.map((item) => (
+        <FallingElement
+          key={item.id}
+          delay={item.delay}
+          duration={item.duration}
+          startX={item.x}
+        >
+          <span className={`${item.size} opacity-70 drop-shadow-md`}>{item.element}</span>
+        </FallingElement>
+      ))}
+    </div>
+  );
+}
+
 // Falling element component
 function FallingElement({
   children,
@@ -348,6 +393,11 @@ export function Banner({
             <SeasonalGradient month={month} />
           )}
         </div>
+      )}
+
+      {/* Seasonal falling effects overlay (shows on real photos too) */}
+      {imageLoaded && !imageError && month !== undefined && (
+        <SeasonalEffectsOverlay month={month} />
       )}
 
       {/* Overlay for text readability */}

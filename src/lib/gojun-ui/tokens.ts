@@ -438,12 +438,12 @@ export const calendar = {
     shadowHover: '0 8px 30px rgba(255, 107, 149, 0.25)',
   },
 
-  // Seasonal banner images (paths)
+  // Seasonal banner images (Unsplash - free to use)
   seasons: {
-    spring: '/images/seasons/spring.jpg',    // Cherry blossoms
-    summer: '/images/seasons/summer.jpg',    // Mt. Fuji / festivals
-    autumn: '/images/seasons/autumn.jpg',    // Red maple leaves
-    winter: '/images/seasons/winter.jpg',    // Snow / temples
+    spring: 'https://images.unsplash.com/photo-1522383225653-ed111181a951?w=1200&q=80',  // Cherry blossoms Japan
+    summer: 'https://images.unsplash.com/photo-1545569341-9eb8b30979d9?w=1200&q=80',    // Mt. Fuji with lake
+    autumn: 'https://images.unsplash.com/photo-1576675466969-38eeae4b41f6?w=1200&q=80',  // Red maple temple Japan
+    winter: 'https://images.unsplash.com/photo-1517299321609-52687d1bc55a?w=1200&q=80',  // Snow village Shirakawa-go
   },
 
   // Japanese day names
