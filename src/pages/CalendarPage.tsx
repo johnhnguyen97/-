@@ -24,12 +24,15 @@ function formatDateKey(date: Date): string {
 
 type ViewMode = 'japanese' | 'full' | 'word';
 
-// Extended day data with word info
+// Extended day data with word and kanji info
 interface ExtendedDayData extends CalendarDayData {
   word?: string;
   wordReading?: string;
   wordMeaning?: string;
   wordPartOfSpeech?: string;
+  kanjiOnyomi?: string[];
+  kanjiKunyomi?: string[];
+  kanjiStrokeCount?: number;
 }
 
 export function CalendarPage() {
@@ -113,17 +116,21 @@ export function CalendarPage() {
         });
       });
 
-      // Process kanji
-      data.kanji?.forEach((kanji: { date: string; kanji: string; reading?: string; meaning?: string; onyomi?: string[]; kunyomi?: string[]; strokeCount?: number }) => {
-        const key = kanji.date;
+      // Process kanji - API returns { date, kanji: { kanji, onyomi, kunyomi, meaning, strokeCount, ... } }
+      data.kanji?.forEach((item: { date: string; kanji: { kanji: string; onyomi?: string[]; kunyomi?: string[]; meaning?: string; strokeCount?: number; jlptLevel?: string; isLearned?: boolean } }) => {
+        const key = item.date;
+        const kanjiData = item.kanji;
         if (!newDayData[key]) newDayData[key] = { events: [] };
-        newDayData[key].kanji = kanji.kanji;
-        newDayData[key].kanjiReading = kanji.reading;
-        newDayData[key].kanjiMeaning = kanji.meaning;
+        newDayData[key].kanji = kanjiData.kanji;
+        newDayData[key].kanjiReading = kanjiData.onyomi?.[0] || kanjiData.kunyomi?.[0];
+        newDayData[key].kanjiMeaning = kanjiData.meaning;
+        newDayData[key].kanjiOnyomi = kanjiData.onyomi;
+        newDayData[key].kanjiKunyomi = kanjiData.kunyomi;
+        newDayData[key].kanjiStrokeCount = kanjiData.strokeCount;
         newDayData[key].events?.push({
           id: `kanji-${key}`,
           type: 'kanji',
-          title: kanji.kanji,
+          title: kanjiData.kanji,
         });
       });
 
@@ -195,6 +202,9 @@ export function CalendarPage() {
         kanji: data.kanji,
         reading: data.kanjiReading,
         meaning: data.kanjiMeaning,
+        onyomi: data.kanjiOnyomi,
+        kunyomi: data.kanjiKunyomi,
+        strokeCount: data.kanjiStrokeCount,
       } : undefined,
       holidays: data.isHoliday && data.holidayName ? [{ name: data.holidayName }] : [],
     };
