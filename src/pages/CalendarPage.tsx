@@ -16,12 +16,12 @@ function formatDateKey(date: Date): string {
   return `${date.getFullYear()}-${String(date.getMonth() + 1).padStart(2, '0')}-${String(date.getDate()).padStart(2, '0')}`;
 }
 
-// Get seasonal image based on given month
+// Get seasonal image based on given month (0-indexed: 0=Jan, 11=Dec)
 function getSeasonalImage(month: number): string {
-  if (month >= 3 && month <= 5) return calendar.seasons.spring;
-  if (month >= 6 && month <= 8) return calendar.seasons.summer;
-  if (month >= 9 && month <= 11) return calendar.seasons.autumn;
-  return calendar.seasons.winter;
+  if (month >= 2 && month <= 4) return calendar.seasons.spring;   // Mar, Apr, May
+  if (month >= 5 && month <= 7) return calendar.seasons.summer;   // Jun, Jul, Aug
+  if (month >= 8 && month <= 10) return calendar.seasons.autumn;  // Sep, Oct, Nov
+  return calendar.seasons.winter;                                  // Dec, Jan, Feb
 }
 
 // Day data with word and kanji info
