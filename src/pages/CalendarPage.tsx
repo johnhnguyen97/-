@@ -2,19 +2,13 @@ import { useState, useEffect, useCallback } from 'react';
 import { useTheme } from '../contexts/ThemeContext';
 import { useAuth } from '../contexts/AuthContext';
 import { LearningCalendar } from '../components/LearningCalendar/LearningCalendar';
-import { Banner, BannerTitle, BannerSubtitle } from '../lib/gojun-ui';
-import { calendar as calendarTokens, formatJapaneseDate } from '../lib/gojun-ui/tokens';
-import { KanjiDetailModal, WordDetailModal, TaskPanel } from '../components/Calendar';
-import type { WordData, KanjiData, HolidayData } from '../components/Calendar';
-
-// Get seasonal image path
-function getSeasonalImage(): string {
-  const month = new Date().getMonth() + 1;
-  if (month >= 3 && month <= 5) return calendarTokens.seasons.spring;
-  if (month >= 6 && month <= 8) return calendarTokens.seasons.summer;
-  if (month >= 9 && month <= 11) return calendarTokens.seasons.autumn;
-  return calendarTokens.seasons.winter;
-}
+import { formatJapaneseDate } from '../lib/gojun-ui/tokens';
+import { TaskPanel } from '../components/Calendar';
+import { StrokeAnimation } from '../components/Kanji/StrokeAnimation';
+import { KanjiAudio } from '../components/Kanji/KanjiAudio';
+import { FavoriteButton } from '../components/FavoriteButton';
+import { WordNoteButton } from '../components/WordNoteButton';
+import { useSpeechSynthesis } from '../hooks/useSpeechSynthesis';
 
 // Format date as YYYY-MM-DD
 function formatDateKey(date: Date): string {
@@ -52,11 +46,12 @@ export function CalendarPage() {
   const [isMobile, setIsMobile] = useState(false);
   const [isLoading, setIsLoading] = useState(false);
 
-  // Modal states
-  const [showKanjiModal, setShowKanjiModal] = useState(false);
-  const [showWordModal, setShowWordModal] = useState(false);
-  const [selectedKanji, setSelectedKanji] = useState<KanjiData | null>(null);
-  const [selectedWord, setSelectedWord] = useState<WordData | null>(null);
+  // Expanded card states
+  const [wordExpanded, setWordExpanded] = useState(true);
+  const [kanjiExpanded, setKanjiExpanded] = useState(true);
+
+  // Word audio
+  const { speak: speakWord, speaking: speakingWord } = useSpeechSynthesis({ lang: 'ja-JP', rate: 0.8 });
 
   // Check for mobile viewport
   useEffect(() => {
@@ -99,12 +94,9 @@ export function CalendarPage() {
         { headers: { Authorization: `Bearer ${session.access_token}` } }
       );
 
-      if (!response.ok) {
-        throw new Error('Failed to fetch calendar data');
-      }
+      if (!response.ok) throw new Error('Failed to fetch calendar data');
 
       const data = await response.json();
-
       const newDayData: Record<string, DayData> = {};
 
       // Process words
@@ -169,38 +161,9 @@ export function CalendarPage() {
   };
 
   // Get selected day's data
-  const getSelectedDayData = (): { word?: WordData; kanji?: KanjiData; holidays: HolidayData[] } => {
+  const getSelectedDayData = () => {
     const dateKey = formatDateKey(selectedDate);
-    const data = dayData[dateKey];
-    if (!data) return { holidays: [] };
-
-    return {
-      word: data.word ? {
-        word: data.word,
-        reading: data.wordReading || '',
-        meaning: data.wordMeaning || '',
-        partOfSpeech: data.wordPartOfSpeech,
-      } : undefined,
-      kanji: data.kanji ? {
-        kanji: data.kanji,
-        reading: data.kanjiReading,
-        meaning: data.kanjiMeaning,
-        onyomi: data.kanjiOnyomi,
-        kunyomi: data.kanjiKunyomi,
-        strokeCount: data.kanjiStrokeCount,
-      } : undefined,
-      holidays: data.isHoliday && data.holidayName ? [{ name: data.holidayName }] : [],
-    };
-  };
-
-  const handleWordClick = (word: WordData) => {
-    setSelectedWord(word);
-    setShowWordModal(true);
-  };
-
-  const handleKanjiClick = (kanji: KanjiData) => {
-    setSelectedKanji(kanji);
-    setShowKanjiModal(true);
+    return dayData[dateKey] || {};
   };
 
   // Generate calendar grid
@@ -209,12 +172,10 @@ export function CalendarPage() {
     const lastDay = new Date(currentYear, currentMonth, 0);
     const daysInMonth = lastDay.getDate();
     let startDayOfWeek = firstDay.getDay();
-    // Adjust for Monday start
     startDayOfWeek = startDayOfWeek === 0 ? 6 : startDayOfWeek - 1;
 
     const days: Array<{ date: Date; day: number; isCurrentMonth: boolean }> = [];
 
-    // Previous month days
     const prevMonthLastDay = new Date(currentYear, currentMonth - 1, 0).getDate();
     for (let i = startDayOfWeek - 1; i >= 0; i--) {
       const day = prevMonthLastDay - i;
@@ -222,13 +183,11 @@ export function CalendarPage() {
       days.push({ date, day, isCurrentMonth: false });
     }
 
-    // Current month days
     for (let day = 1; day <= daysInMonth; day++) {
       const date = new Date(currentYear, currentMonth - 1, day);
       days.push({ date, day, isCurrentMonth: true });
     }
 
-    // Next month days
     const remainingDays = 42 - days.length;
     for (let day = 1; day <= remainingDays; day++) {
       const date = new Date(currentYear, currentMonth, day);
@@ -299,9 +258,7 @@ export function CalendarPage() {
                 value={jlptLevel}
                 onChange={(e) => setJlptLevel(e.target.value)}
                 className={`px-3 py-1.5 rounded-lg text-sm font-medium border transition-all ${
-                  isDark
-                    ? 'bg-white/5 border-white/10 text-white'
-                    : 'bg-white border-pink-200 text-gray-700'
+                  isDark ? 'bg-white/5 border-white/10 text-white' : 'bg-white border-pink-200 text-gray-700'
                 }`}
               >
                 <option value="N5">N5</option>
@@ -316,20 +273,15 @@ export function CalendarPage() {
 
         {/* Content */}
         {activeTab === 'calendar' && (
-          <div className="max-w-7xl mx-auto">
-            {/* Seasonal Banner */}
-            <Banner
-              image={getSeasonalImage()}
-              height={isMobile ? '140px' : '180px'}
-              blend="bottom"
-              animate
-            >
-              <BannerTitle>{dateInfo.western}</BannerTitle>
-              <BannerSubtitle>{dateInfo.reiwa}</BannerSubtitle>
-            </Banner>
+          <div className="max-w-7xl mx-auto px-4 py-4">
+            {/* Header with month/year */}
+            <div className="text-center mb-4">
+              <h1 className={`text-3xl font-bold ${theme.text}`}>{dateInfo.western}</h1>
+              <p className={`text-sm ${theme.textMuted}`}>{dateInfo.reiwa}</p>
+            </div>
 
             {/* Dashboard Layout */}
-            <div className={`px-4 pb-6 -mt-6 ${isMobile ? '' : 'flex gap-6'}`}>
+            <div className={`${isMobile ? '' : 'flex gap-6'}`}>
               {/* Calendar Grid */}
               <div className={`${isMobile ? 'w-full' : 'flex-1'}`}>
                 <div className={`rounded-2xl overflow-hidden border shadow-lg ${theme.card}`}>
@@ -394,7 +346,7 @@ export function CalendarPage() {
                           key={idx}
                           onClick={() => handleDayClick(date)}
                           className={`
-                            min-h-[100px] p-1.5 border-b border-r border-pink-100/50 dark:border-white/5
+                            min-h-[90px] p-1.5 border-b border-r border-pink-100/50 dark:border-white/5
                             cursor-pointer transition-all hover:bg-pink-50 dark:hover:bg-white/5
                             ${!isCurrentMonth ? 'opacity-40' : ''}
                             ${isSelected(date) ? 'bg-pink-100 dark:bg-pink-900/30 ring-2 ring-inset ring-pink-400' : ''}
@@ -412,32 +364,25 @@ export function CalendarPage() {
 
                           {/* Kanji */}
                           {data?.kanji && (
-                            <button
-                              onClick={(e) => { e.stopPropagation(); handleKanjiClick({ kanji: data.kanji!, reading: data.kanjiReading, meaning: data.kanjiMeaning, onyomi: data.kanjiOnyomi, kunyomi: data.kanjiKunyomi, strokeCount: data.kanjiStrokeCount }); }}
-                              className="block w-full text-center text-2xl font-bold text-pink-600 dark:text-pink-400 hover:text-purple-600 dark:hover:text-purple-400 transition-colors hover:scale-110"
-                            >
+                            <div className="text-center text-2xl font-bold text-pink-600 dark:text-pink-400">
                               {data.kanji}
-                            </button>
+                            </div>
                           )}
 
                           {/* Word Pill */}
                           {data?.word && (
-                            <button
-                              onClick={(e) => { e.stopPropagation(); handleWordClick({ word: data.word!, reading: data.wordReading || '', meaning: data.wordMeaning || '', partOfSpeech: data.wordPartOfSpeech }); }}
-                              className={`
-                                mt-1 w-full px-1 py-0.5 rounded text-[10px] font-medium truncate
-                                bg-indigo-100 dark:bg-indigo-900/40 text-indigo-700 dark:text-indigo-300
-                                hover:bg-indigo-200 dark:hover:bg-indigo-900/60 transition-colors
-                              `}
-                              title={`${data.word} - ${data.wordMeaning}`}
-                            >
+                            <div className={`mt-1 px-1 py-0.5 rounded text-[10px] font-medium truncate text-center ${
+                              isDark ? 'bg-indigo-900/40 text-indigo-300' : 'bg-indigo-100 text-indigo-700'
+                            }`}>
                               {data.word}
-                            </button>
+                            </div>
                           )}
 
                           {/* Holiday */}
                           {data?.isHoliday && data.holidayName && (
-                            <div className="mt-1 px-1 py-0.5 rounded text-[9px] font-medium truncate bg-amber-100 dark:bg-amber-900/40 text-amber-700 dark:text-amber-300">
+                            <div className={`mt-1 px-1 py-0.5 rounded text-[9px] font-medium truncate ${
+                              isDark ? 'bg-amber-900/40 text-amber-300' : 'bg-amber-100 text-amber-700'
+                            }`}>
                               {data.holidayName}
                             </div>
                           )}
@@ -447,112 +392,235 @@ export function CalendarPage() {
                   </div>
                 </div>
 
-                {/* Legend - Desktop */}
-                {!isMobile && (
-                  <div className={`mt-4 flex flex-wrap gap-4 text-sm ${theme.textMuted}`}>
-                    <div className="flex items-center gap-2">
-                      <span className="w-3 h-3 rounded-full bg-indigo-400" />
-                      <span>単語</span>
-                    </div>
-                    <div className="flex items-center gap-2">
-                      <span className="w-3 h-3 rounded-full bg-pink-400" />
-                      <span>漢字</span>
-                    </div>
-                    <div className="flex items-center gap-2">
-                      <span className="w-3 h-3 rounded-full bg-amber-400" />
-                      <span>祝日</span>
-                    </div>
+                {/* Legend */}
+                <div className={`mt-4 flex flex-wrap gap-4 text-sm ${theme.textMuted}`}>
+                  <div className="flex items-center gap-2">
+                    <span className="w-3 h-3 rounded-full bg-indigo-400" />
+                    <span>単語</span>
                   </div>
-                )}
+                  <div className="flex items-center gap-2">
+                    <span className="w-3 h-3 rounded-full bg-pink-400" />
+                    <span>漢字</span>
+                  </div>
+                  <div className="flex items-center gap-2">
+                    <span className="w-3 h-3 rounded-full bg-amber-400" />
+                    <span>祝日</span>
+                  </div>
+                </div>
               </div>
 
               {/* Sidebar - Selected Day Details */}
-              <div className={`${isMobile ? 'mt-4' : 'w-80'}`}>
-                {/* Selected Day Info */}
-                <div className={`rounded-2xl border shadow-lg overflow-hidden ${theme.card}`}>
-                  <div className={`px-4 py-3 border-b ${
-                    isDark ? 'border-white/10 bg-white/5' : 'border-pink-100 bg-gradient-to-r from-pink-50 to-purple-50'
-                  }`}>
-                    <h3 className={`font-bold ${theme.text}`}>
-                      {selectedDate.toLocaleDateString('ja-JP', { month: 'long', day: 'numeric', weekday: 'long' })}
-                    </h3>
-                    <p className={`text-xs ${theme.textMuted}`}>
-                      {selectedDate.toLocaleDateString('en-US', { month: 'long', day: 'numeric', year: 'numeric' })}
-                    </p>
-                  </div>
+              <div className={`${isMobile ? 'mt-4' : 'w-96'}`}>
+                {/* Selected Day Header */}
+                <div className={`rounded-t-2xl border border-b-0 px-4 py-3 ${theme.card} ${
+                  isDark ? 'bg-gradient-to-r from-pink-900/30 to-purple-900/30' : 'bg-gradient-to-r from-pink-50 to-purple-50'
+                }`}>
+                  <h3 className={`font-bold text-lg ${theme.text}`}>
+                    {selectedDate.toLocaleDateString('ja-JP', { month: 'long', day: 'numeric', weekday: 'long' })}
+                  </h3>
+                  <p className={`text-xs ${theme.textMuted}`}>
+                    {selectedDate.toLocaleDateString('en-US', { month: 'long', day: 'numeric', year: 'numeric' })}
+                  </p>
+                </div>
 
-                  <div className="p-4 space-y-4">
-                    {/* Word of the Day */}
-                    {selectedDayData.word ? (
-                      <div
-                        onClick={() => handleWordClick(selectedDayData.word!)}
-                        className={`p-4 rounded-xl cursor-pointer transition-all hover:scale-[1.02] ${
-                          isDark ? 'bg-indigo-900/30 hover:bg-indigo-900/40' : 'bg-indigo-50 hover:bg-indigo-100'
-                        }`}
-                      >
-                        <div className="flex items-center gap-2 mb-2">
-                          <span className="text-lg">📚</span>
-                          <span className={`text-xs font-medium ${isDark ? 'text-indigo-300' : 'text-indigo-600'}`}>今日の単語</span>
-                        </div>
-                        <p className={`text-xl font-bold ${isDark ? 'text-white' : 'text-gray-800'}`}>
-                          {selectedDayData.word.word}
-                        </p>
-                        <p className={`text-sm ${theme.textMuted}`}>
-                          {selectedDayData.word.reading}
-                        </p>
-                        <p className={`text-sm mt-1 ${isDark ? 'text-gray-300' : 'text-gray-600'}`}>
-                          {selectedDayData.word.meaning}
-                        </p>
+                {/* Expandable Cards Container */}
+                <div className={`rounded-b-2xl border shadow-lg overflow-hidden ${theme.card}`}>
+                  {/* Word of the Day Card */}
+                  <div className={`border-b ${isDark ? 'border-white/10' : 'border-pink-100'}`}>
+                    <button
+                      onClick={() => setWordExpanded(!wordExpanded)}
+                      className={`w-full px-4 py-3 flex items-center justify-between ${
+                        isDark ? 'hover:bg-white/5' : 'hover:bg-pink-50'
+                      } transition-colors`}
+                    >
+                      <div className="flex items-center gap-2">
+                        <span className="text-lg">📚</span>
+                        <span className={`font-medium ${isDark ? 'text-indigo-300' : 'text-indigo-600'}`}>今日の単語</span>
+                        {selectedDayData.wordPartOfSpeech && (
+                          <span className={`text-xs px-2 py-0.5 rounded-full ${
+                            isDark ? 'bg-indigo-900/50 text-indigo-300' : 'bg-indigo-100 text-indigo-600'
+                          }`}>
+                            {selectedDayData.wordPartOfSpeech}
+                          </span>
+                        )}
                       </div>
-                    ) : (
-                      <div className={`p-4 rounded-xl ${isDark ? 'bg-white/5' : 'bg-gray-50'}`}>
-                        <p className={`text-sm ${theme.textMuted}`}>この日の単語はありません</p>
-                      </div>
-                    )}
+                      <svg className={`w-5 h-5 transition-transform ${wordExpanded ? 'rotate-180' : ''} ${theme.textMuted}`} fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                        <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M19 9l-7 7-7-7" />
+                      </svg>
+                    </button>
 
-                    {/* Kanji of the Day */}
-                    {selectedDayData.kanji ? (
-                      <div
-                        onClick={() => handleKanjiClick(selectedDayData.kanji!)}
-                        className={`p-4 rounded-xl cursor-pointer transition-all hover:scale-[1.02] ${
-                          isDark ? 'bg-pink-900/30 hover:bg-pink-900/40' : 'bg-pink-50 hover:bg-pink-100'
-                        }`}
-                      >
-                        <div className="flex items-center gap-2 mb-2">
-                          <span className="text-lg">漢</span>
-                          <span className={`text-xs font-medium ${isDark ? 'text-pink-300' : 'text-pink-600'}`}>今日の漢字</span>
-                        </div>
-                        <p className={`text-5xl font-bold text-center py-2 ${isDark ? 'text-pink-300' : 'text-pink-600'}`}>
-                          {selectedDayData.kanji.kanji}
-                        </p>
-                        <p className={`text-sm text-center ${theme.textMuted}`}>
-                          {selectedDayData.kanji.reading}
-                        </p>
-                        <p className={`text-sm text-center mt-1 ${isDark ? 'text-gray-300' : 'text-gray-600'}`}>
-                          {selectedDayData.kanji.meaning}
-                        </p>
-                      </div>
-                    ) : (
-                      <div className={`p-4 rounded-xl ${isDark ? 'bg-white/5' : 'bg-gray-50'}`}>
-                        <p className={`text-sm ${theme.textMuted}`}>この日の漢字はありません</p>
-                      </div>
-                    )}
-
-                    {/* Holidays */}
-                    {selectedDayData.holidays.length > 0 && (
-                      <div className={`p-4 rounded-xl ${isDark ? 'bg-amber-900/30' : 'bg-amber-50'}`}>
-                        <div className="flex items-center gap-2 mb-2">
-                          <span className="text-lg">🎌</span>
-                          <span className={`text-xs font-medium ${isDark ? 'text-amber-300' : 'text-amber-600'}`}>祝日</span>
-                        </div>
-                        {selectedDayData.holidays.map((holiday, idx) => (
-                          <p key={idx} className={`font-medium ${isDark ? 'text-amber-200' : 'text-amber-700'}`}>
-                            {holiday.name}
+                    {wordExpanded && selectedDayData.word && (
+                      <div className="px-4 pb-4">
+                        {/* Word Display */}
+                        <div className="text-center py-4">
+                          <p className={`text-4xl font-bold ${isDark ? 'text-white' : 'text-gray-800'}`}>
+                            {selectedDayData.word}
                           </p>
-                        ))}
+                          <p className={`text-lg mt-1 ${isDark ? 'text-indigo-300' : 'text-indigo-600'}`}>
+                            {selectedDayData.wordReading}
+                          </p>
+                          <p className={`mt-2 ${theme.textMuted}`}>
+                            {selectedDayData.wordMeaning}
+                          </p>
+                        </div>
+
+                        {/* Action Buttons */}
+                        <div className="flex items-center justify-center gap-3 pt-2 border-t border-pink-100 dark:border-white/10">
+                          {/* Audio Button */}
+                          <button
+                            onClick={() => speakWord(selectedDayData.word || '')}
+                            disabled={speakingWord}
+                            className={`flex items-center gap-2 px-4 py-2 rounded-lg transition-all ${
+                              speakingWord
+                                ? 'bg-indigo-500 text-white'
+                                : isDark
+                                  ? 'bg-white/10 hover:bg-white/20 text-white'
+                                  : 'bg-indigo-50 hover:bg-indigo-100 text-indigo-700'
+                            }`}
+                          >
+                            <svg className="w-5 h-5" fill="currentColor" viewBox="0 0 24 24">
+                              <path d="M3 9v6h4l5 5V4L7 9H3zm13.5 3c0-1.77-1.02-3.29-2.5-4.03v8.05c1.48-.73 2.5-2.25 2.5-4.02z" />
+                            </svg>
+                            <span className="text-sm font-medium">聴く</span>
+                          </button>
+
+                          {/* Favorite */}
+                          <div className="scale-150">
+                            <FavoriteButton
+                              word={selectedDayData.word}
+                              reading={selectedDayData.wordReading || ''}
+                              english={selectedDayData.wordMeaning || ''}
+                              partOfSpeech={selectedDayData.wordPartOfSpeech}
+                            />
+                          </div>
+
+                          {/* Note */}
+                          <div className="scale-150">
+                            <WordNoteButton
+                              word={selectedDayData.word}
+                              reading={selectedDayData.wordReading || ''}
+                              english={selectedDayData.wordMeaning || ''}
+                            />
+                          </div>
+                        </div>
+                      </div>
+                    )}
+
+                    {wordExpanded && !selectedDayData.word && (
+                      <div className="px-4 pb-4">
+                        <p className={`text-sm text-center py-4 ${theme.textMuted}`}>この日の単語はありません</p>
                       </div>
                     )}
                   </div>
+
+                  {/* Kanji of the Day Card */}
+                  <div className={`border-b ${isDark ? 'border-white/10' : 'border-pink-100'}`}>
+                    <button
+                      onClick={() => setKanjiExpanded(!kanjiExpanded)}
+                      className={`w-full px-4 py-3 flex items-center justify-between ${
+                        isDark ? 'hover:bg-white/5' : 'hover:bg-pink-50'
+                      } transition-colors`}
+                    >
+                      <div className="flex items-center gap-2">
+                        <span className="text-lg">漢</span>
+                        <span className={`font-medium ${isDark ? 'text-pink-300' : 'text-pink-600'}`}>今日の漢字</span>
+                        {selectedDayData.kanjiStrokeCount && (
+                          <span className={`text-xs px-2 py-0.5 rounded-full ${
+                            isDark ? 'bg-pink-900/50 text-pink-300' : 'bg-pink-100 text-pink-600'
+                          }`}>
+                            {selectedDayData.kanjiStrokeCount} strokes
+                          </span>
+                        )}
+                      </div>
+                      <svg className={`w-5 h-5 transition-transform ${kanjiExpanded ? 'rotate-180' : ''} ${theme.textMuted}`} fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                        <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M19 9l-7 7-7-7" />
+                      </svg>
+                    </button>
+
+                    {kanjiExpanded && selectedDayData.kanji && (
+                      <div className="px-4 pb-4">
+                        {/* Kanji Display */}
+                        <div className="text-center py-2">
+                          <p className={`text-6xl font-bold ${isDark ? 'text-pink-300' : 'text-pink-600'}`}>
+                            {selectedDayData.kanji}
+                          </p>
+                          <p className={`text-lg mt-1 ${theme.textMuted}`}>
+                            {selectedDayData.kanjiReading}
+                          </p>
+                          <p className={`mt-1 ${isDark ? 'text-gray-300' : 'text-gray-600'}`}>
+                            {selectedDayData.kanjiMeaning}
+                          </p>
+                        </div>
+
+                        {/* Stroke Animation */}
+                        <div className="mt-4">
+                          <StrokeAnimation
+                            character={selectedDayData.kanji}
+                            isDark={isDark}
+                          />
+                        </div>
+
+                        {/* Audio & Readings */}
+                        <div className="mt-4 flex flex-wrap gap-3 justify-center">
+                          {selectedDayData.kanjiOnyomi && selectedDayData.kanjiOnyomi.length > 0 && (
+                            <KanjiAudio
+                              label="On'yomi"
+                              reading={selectedDayData.kanjiOnyomi[0]}
+                              isDark={isDark}
+                            />
+                          )}
+                          {selectedDayData.kanjiKunyomi && selectedDayData.kanjiKunyomi.length > 0 && (
+                            <KanjiAudio
+                              label="Kun'yomi"
+                              reading={selectedDayData.kanjiKunyomi[0].replace(/[.\-]/g, '')}
+                              isDark={isDark}
+                            />
+                          )}
+                        </div>
+
+                        {/* Action Buttons */}
+                        <div className="flex items-center justify-center gap-3 pt-4 mt-4 border-t border-pink-100 dark:border-white/10">
+                          {/* Favorite */}
+                          <div className="scale-150">
+                            <FavoriteButton
+                              word={selectedDayData.kanji}
+                              reading={selectedDayData.kanjiReading || ''}
+                              english={selectedDayData.kanjiMeaning || ''}
+                              partOfSpeech="kanji"
+                            />
+                          </div>
+
+                          {/* Note */}
+                          <div className="scale-150">
+                            <WordNoteButton
+                              word={selectedDayData.kanji}
+                              reading={selectedDayData.kanjiReading || ''}
+                              english={selectedDayData.kanjiMeaning || ''}
+                            />
+                          </div>
+                        </div>
+                      </div>
+                    )}
+
+                    {kanjiExpanded && !selectedDayData.kanji && (
+                      <div className="px-4 pb-4">
+                        <p className={`text-sm text-center py-4 ${theme.textMuted}`}>この日の漢字はありません</p>
+                      </div>
+                    )}
+                  </div>
+
+                  {/* Holiday Card */}
+                  {selectedDayData.isHoliday && selectedDayData.holidayName && (
+                    <div className={`px-4 py-4 ${isDark ? 'bg-amber-900/20' : 'bg-amber-50'}`}>
+                      <div className="flex items-center gap-2 mb-2">
+                        <span className="text-lg">🎌</span>
+                        <span className={`font-medium ${isDark ? 'text-amber-300' : 'text-amber-600'}`}>祝日</span>
+                      </div>
+                      <p className={`text-lg font-bold ${isDark ? 'text-amber-200' : 'text-amber-700'}`}>
+                        {selectedDayData.holidayName}
+                      </p>
+                    </div>
+                  )}
                 </div>
 
                 {/* Google Calendar Sync */}
@@ -572,30 +640,6 @@ export function CalendarPage() {
           </div>
         )}
       </div>
-
-      {/* Kanji Detail Modal */}
-      <KanjiDetailModal
-        isOpen={showKanjiModal}
-        onClose={() => setShowKanjiModal(false)}
-        kanji={selectedKanji?.kanji || ''}
-        reading={selectedKanji?.reading}
-        meaning={selectedKanji?.meaning}
-        onyomi={selectedKanji?.onyomi}
-        kunyomi={selectedKanji?.kunyomi}
-        strokeCount={selectedKanji?.strokeCount}
-        jlptLevel={jlptLevel}
-      />
-
-      {/* Word Detail Modal */}
-      <WordDetailModal
-        isOpen={showWordModal}
-        onClose={() => setShowWordModal(false)}
-        word={selectedWord?.word || ''}
-        reading={selectedWord?.reading || ''}
-        meaning={selectedWord?.meaning || ''}
-        partOfSpeech={selectedWord?.partOfSpeech}
-        jlptLevel={jlptLevel}
-      />
     </div>
   );
 }
