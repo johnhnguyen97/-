@@ -659,13 +659,31 @@ async function listEvents(res: VercelResponse, accessToken: string) {
 
 // ========== Tasks Sync Handlers ==========
 
+// Get the default "My Tasks" list ID (first list returned by API is usually the default)
+async function getDefaultTaskListId(accessToken: string): Promise<string | null> {
+  const listResponse = await fetch(`${TASKS_API_BASE}/users/@me/lists`, {
+    headers: { Authorization: `Bearer ${accessToken}` },
+  });
+
+  if (!listResponse.ok) {
+    return null;
+  }
+
+  const lists = await listResponse.json();
+  // The first list is typically "My Tasks" (the default)
+  return lists.items?.[0]?.id || null;
+}
+
 async function getOrCreateTaskList(
   accessToken: string,
   // eslint-disable-next-line @typescript-eslint/no-explicit-any
   supabase: any,
   userId: string
-): Promise<{ listId: string | null; error?: string }> {
-  // Check if we have a cached list ID
+): Promise<{ listId: string | null; defaultListId: string | null; error?: string }> {
+  // Get the default "My Tasks" list
+  const defaultListId = await getDefaultTaskListId(accessToken);
+
+  // Check if we have a cached Gojun list ID
   const { data: settings } = await supabase
     .from('user_calendar_settings')
     .select('google_task_list_id')
@@ -679,7 +697,7 @@ async function getOrCreateTaskList(
       { headers: { Authorization: `Bearer ${accessToken}` } }
     );
     if (verifyResponse.ok) {
-      return { listId: settings.google_task_list_id };
+      return { listId: settings.google_task_list_id, defaultListId };
     }
   }
 
@@ -689,7 +707,7 @@ async function getOrCreateTaskList(
   });
 
   if (!listResponse.ok) {
-    return { listId: null, error: 'Failed to list task lists' };
+    return { listId: null, defaultListId, error: 'Failed to list task lists' };
   }
 
   const lists = await listResponse.json();
@@ -707,7 +725,7 @@ async function getOrCreateTaskList(
     });
 
     if (!createResponse.ok) {
-      return { listId: null, error: 'Failed to create task list' };
+      return { listId: null, defaultListId, error: 'Failed to create task list' };
     }
 
     gojunList = await createResponse.json();
@@ -770,8 +788,8 @@ async function handleTasksPush(
     return res.status(404).json({ error: 'Task not found' });
   }
 
-  // Get or create task list
-  const { listId, error: listError } = await getOrCreateTaskList(accessToken, supabase, userId);
+  // Get both Gojun list and default "My Tasks" list
+  const { listId, defaultListId, error: listError } = await getOrCreateTaskList(accessToken, supabase, userId);
   if (listError || !listId) {
     return res.status(400).json({ error: listError || 'Failed to get task list' });
   }
@@ -791,7 +809,7 @@ async function handleTasksPush(
   let googleTaskData: GoogleTask;
 
   if (task.google_task_id) {
-    // Update existing task
+    // Update existing task in Gojun list
     response = await fetch(
       `${TASKS_API_BASE}/lists/${listId}/tasks/${task.google_task_id}`,
       {
@@ -804,7 +822,7 @@ async function handleTasksPush(
       }
     );
   } else {
-    // Create new task
+    // Create new task in Gojun list
     response = await fetch(`${TASKS_API_BASE}/lists/${listId}/tasks`, {
       method: 'POST',
       headers: {
@@ -828,6 +846,21 @@ async function handleTasksPush(
   }
 
   googleTaskData = await response.json();
+
+  // Also create/update in the default "My Tasks" list (if different from Gojun list)
+  if (defaultListId && defaultListId !== listId) {
+    // For new tasks, create in My Tasks too
+    // For existing tasks, we only track in Gojun list, so always create fresh in My Tasks
+    await fetch(`${TASKS_API_BASE}/lists/${defaultListId}/tasks`, {
+      method: 'POST',
+      headers: {
+        Authorization: `Bearer ${accessToken}`,
+        'Content-Type': 'application/json',
+      },
+      body: JSON.stringify(googleTask),
+    });
+    // We don't track the My Tasks ID - it's a secondary copy
+  }
 
   await supabase
     .from('user_calendar_tasks')
@@ -959,7 +992,8 @@ async function handleTasksSync(
   userId: string,
   accessToken: string
 ) {
-  const { listId, error: listError } = await getOrCreateTaskList(accessToken, supabase, userId);
+  // Get both Gojun list and default "My Tasks" list
+  const { listId, defaultListId, error: listError } = await getOrCreateTaskList(accessToken, supabase, userId);
   if (listError || !listId) {
     return res.status(400).json({ error: listError || 'Failed to get task list' });
   }
@@ -988,6 +1022,7 @@ async function handleTasksSync(
     let response: Response;
 
     if (task.google_task_id) {
+      // Update existing task in Gojun list
       response = await fetch(
         `${TASKS_API_BASE}/lists/${listId}/tasks/${task.google_task_id}`,
         {
@@ -1000,6 +1035,7 @@ async function handleTasksSync(
         }
       );
     } else {
+      // Create new task in Gojun list
       response = await fetch(`${TASKS_API_BASE}/lists/${listId}/tasks`, {
         method: 'POST',
         headers: {
@@ -1012,6 +1048,20 @@ async function handleTasksSync(
 
     if (response.ok) {
       const googleTaskData = await response.json();
+
+      // Also create in default "My Tasks" list (if different from Gojun list)
+      if (defaultListId && defaultListId !== listId && !task.google_task_id) {
+        // Only for new tasks, create in My Tasks too
+        await fetch(`${TASKS_API_BASE}/lists/${defaultListId}/tasks`, {
+          method: 'POST',
+          headers: {
+            Authorization: `Bearer ${accessToken}`,
+            'Content-Type': 'application/json',
+          },
+          body: JSON.stringify(googleTask),
+        });
+      }
+
       await supabase
         .from('user_calendar_tasks')
         .update({
