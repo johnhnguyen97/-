@@ -101,18 +101,19 @@ export function CalendarPage() {
 
       const newDayData: Record<string, ExtendedDayData> = {};
 
-      // Process words
-      data.words?.forEach((word: { date: string; word: string; reading?: string; meaning?: string; partOfSpeech?: string }) => {
-        const key = word.date;
+      // Process words - API returns { date, word: { word, reading, meaning, partOfSpeech, ... } }
+      data.words?.forEach((item: { date: string; word: { word: string; reading?: string; meaning?: string; partOfSpeech?: string; jlptLevel?: string; isLearned?: boolean } }) => {
+        const key = item.date;
+        const wordData = item.word;
         if (!newDayData[key]) newDayData[key] = { events: [] };
-        newDayData[key].word = word.word;
-        newDayData[key].wordReading = word.reading;
-        newDayData[key].wordMeaning = word.meaning;
-        newDayData[key].wordPartOfSpeech = word.partOfSpeech;
+        newDayData[key].word = wordData.word;
+        newDayData[key].wordReading = wordData.reading;
+        newDayData[key].wordMeaning = wordData.meaning;
+        newDayData[key].wordPartOfSpeech = wordData.partOfSpeech;
         newDayData[key].events?.push({
           id: `word-${key}`,
           type: 'word',
-          title: word.word,
+          title: wordData.word,
         });
       });
 
