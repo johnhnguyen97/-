@@ -1,4 +1,5 @@
 import { useState, useEffect, useRef } from 'react';
+import { createPortal } from 'react-dom';
 
 interface WordNote {
   word: string;
@@ -17,6 +18,7 @@ export function WordNoteButton({ word, reading, english, onPopupChange }: WordNo
   const [isOpen, setIsOpen] = useState(false);
   const [note, setNote] = useState('');
   const [hasNote, setHasNote] = useState(false);
+  const [popupPosition, setPopupPosition] = useState({ top: 0, left: 0 });
   const popupRef = useRef<HTMLDivElement>(null);
   const buttonRef = useRef<HTMLButtonElement>(null);
 
@@ -55,6 +57,16 @@ export function WordNoteButton({ word, reading, english, onPopupChange }: WordNo
   const handleClick = (e: React.MouseEvent) => {
     e.stopPropagation();
     const newState = !isOpen;
+
+    // Calculate popup position based on button location
+    if (newState && buttonRef.current) {
+      const rect = buttonRef.current.getBoundingClientRect();
+      setPopupPosition({
+        top: rect.top - 8, // Position above button
+        left: rect.left + rect.width / 2 - 112, // Center the 224px (w-56) popup
+      });
+    }
+
     setIsOpen(newState);
     onPopupChange?.(newState);
   };
@@ -105,12 +117,16 @@ export function WordNoteButton({ word, reading, english, onPopupChange }: WordNo
         </svg>
       </button>
 
-      {/* Popup */}
-      {isOpen && (
+      {/* Popup - rendered via portal to overlay everything */}
+      {isOpen && createPortal(
         <div
           ref={popupRef}
-          className="absolute z-[100] w-56 bg-white rounded-xl shadow-2xl border border-gray-200 overflow-hidden animate-[scaleIn_0.15s_ease-out]"
-          style={{ bottom: 'calc(100% + 8px)', left: '50%', transform: 'translateX(-50%)' }}
+          className="fixed z-[9999] w-56 bg-white rounded-xl shadow-2xl border border-gray-200 overflow-hidden animate-[scaleIn_0.15s_ease-out]"
+          style={{
+            top: popupPosition.top,
+            left: Math.max(8, Math.min(popupPosition.left, window.innerWidth - 232)), // Keep within viewport
+            transform: 'translateY(-100%)'
+          }}
           onClick={(e) => e.stopPropagation()}
         >
           {/* Header */}
@@ -153,7 +169,8 @@ export function WordNoteButton({ word, reading, english, onPopupChange }: WordNo
 
           {/* Arrow */}
           <div className="absolute top-full left-1/2 -translate-x-1/2 border-8 border-transparent border-t-white" style={{ marginTop: '-1px' }} />
-        </div>
+        </div>,
+        document.body
       )}
     </div>
   );
