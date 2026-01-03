@@ -25,7 +25,7 @@ export const DrillQuestionDisplay: React.FC<DrillQuestionDisplayProps> = ({
   showRomaji = false,
 }) => {
   const { isDark } = useTheme();
-  const { speak, speaking } = useSpeechSynthesis();
+  const { speak, isSpeaking } = useSpeechSynthesis();
   const [_notePopupOpen, setNotePopupOpen] = useState(false);
 
   const handleSpeak = (text: string) => {
@@ -58,11 +58,16 @@ export const DrillQuestionDisplay: React.FC<DrillQuestionDisplayProps> = ({
     text: isDark ? 'text-white' : 'text-gray-800',
     textMuted: isDark ? 'text-gray-400' : 'text-gray-500',
     card: isDark ? 'bg-indigo-500/10 border-indigo-500/20' : 'bg-indigo-50 border-indigo-100',
-    audioBtn: speaking
-      ? 'bg-indigo-500 text-white animate-pulse shadow-lg shadow-indigo-500/30'
-      : isDark
-        ? 'bg-gray-700 text-gray-400 hover:bg-indigo-500/30 hover:text-indigo-300'
-        : 'bg-gray-100 text-gray-600 hover:bg-indigo-100 hover:text-indigo-600',
+  };
+
+  // Get audio button style based on whether this specific text is playing
+  const getAudioBtnStyle = (isPlaying: boolean) => {
+    if (isPlaying) {
+      return 'bg-indigo-500 text-white animate-pulse shadow-lg shadow-indigo-500/30';
+    }
+    return isDark
+      ? 'bg-gray-700 text-gray-400 hover:bg-indigo-500/30 hover:text-indigo-300'
+      : 'bg-gray-100 text-gray-600 hover:bg-indigo-100 hover:text-indigo-600';
   };
 
   // Audio button component
@@ -78,10 +83,12 @@ export const DrillQuestionDisplay: React.FC<DrillQuestionDisplayProps> = ({
       lg: 'w-6 h-6',
     };
 
+    const isPlaying = isSpeaking(text);
+
     return (
       <button
         onClick={() => handleSpeak(text)}
-        className={`rounded-full transition-all flex-shrink-0 flex items-center justify-center ${sizeClasses[size]} ${theme.audioBtn}`}
+        className={`rounded-full transition-all flex-shrink-0 flex items-center justify-center ${sizeClasses[size]} ${getAudioBtnStyle(isPlaying)}`}
         title="Listen to pronunciation"
       >
         <svg
