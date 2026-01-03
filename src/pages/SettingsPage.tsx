@@ -759,14 +759,6 @@ export function SettingsPage() {
                 <div className="p-6 space-y-5">
                   {googleStatus?.connected ? (
                     <>
-                      <div className={`flex items-center gap-3 p-4 rounded-2xl ${isDark ? 'bg-emerald-500/10 border border-emerald-500/20' : 'bg-emerald-50 border border-emerald-200'}`}>
-                        <span className="text-2xl">✅</span>
-                        <div>
-                          <p className="font-medium text-emerald-500">Google Connected</p>
-                          <p className={`text-sm ${theme.textMuted}`}>{googleStatus.email}</p>
-                        </div>
-                      </div>
-
                       <div className={`p-4 rounded-2xl border ${theme.cardInner}`}>
                         <h3 className={`font-medium mb-2 ${theme.text}`}>How it works</h3>
                         <ul className={`text-sm space-y-2 ${theme.textMuted}`}>
@@ -807,17 +799,17 @@ export function SettingsPage() {
 
                       <div className={`px-4 py-3 rounded-xl ${isDark ? 'bg-amber-500/10 border border-amber-500/20' : 'bg-amber-50 border border-amber-200'}`}>
                         <p className={`text-sm ${isDark ? 'text-amber-300' : 'text-amber-700'}`}>
-                          💡 Tasks are synced to your personal "My Tasks" list in Google Tasks
+                          💡 Tasks sync to your "My Tasks" list in Google Tasks
                         </p>
                       </div>
                     </>
                   ) : (
                     <>
                       <div className={`flex items-center gap-3 p-4 rounded-2xl border ${theme.cardInner}`}>
-                        <span className="text-2xl">✓</span>
+                        <span className="text-2xl">🔗</span>
                         <div>
-                          <p className="font-medium">Not Connected</p>
-                          <p className={`text-sm ${theme.textMuted}`}>Sync your 課題 tasks with Google Tasks</p>
+                          <p className="font-medium">Google Account Required</p>
+                          <p className={`text-sm ${theme.textMuted}`}>Connect your Google account in Calendar settings first</p>
                         </div>
                       </div>
 
@@ -831,14 +823,10 @@ export function SettingsPage() {
                       </div>
 
                       <button
-                        onClick={handleConnectGoogle}
-                        disabled={googleLoading}
-                        className="w-full py-3.5 bg-gradient-to-r from-green-500 to-emerald-500 text-white font-bold rounded-xl hover:shadow-lg hover:shadow-green-500/30 disabled:opacity-50 transition-all flex items-center justify-center gap-2"
+                        onClick={() => setActiveSection('calendar')}
+                        className={`w-full py-3.5 rounded-xl font-bold transition-all flex items-center justify-center gap-2 ${isDark ? 'bg-white/10 hover:bg-white/15 border border-white/20' : 'bg-slate-100 hover:bg-slate-200 border border-slate-200'}`}
                       >
-                        <svg className="w-5 h-5" viewBox="0 0 24 24">
-                          <path fill="currentColor" d="M22.56 12.25c0-.78-.07-1.53-.2-2.25H12v4.26h5.92c-.26 1.37-1.04 2.53-2.21 3.31v2.77h3.57c2.08-1.92 3.28-4.74 3.28-8.09z"/>
-                        </svg>
-                        Connect Google Account
+                        📅 Go to Calendar Settings
                       </button>
                     </>
                   )}
