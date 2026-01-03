@@ -2,7 +2,7 @@ import { useState, useEffect, useCallback, useRef } from 'react';
 import { createPortal } from 'react-dom';
 import { useTheme } from '../contexts/ThemeContext';
 import { useAuth } from '../contexts/AuthContext';
-import { LearningCalendar } from '../components/LearningCalendar/LearningCalendar';
+
 import { formatJapaneseDate, calendar } from '../lib/gojun-ui/tokens';
 import { Banner, BannerTitle, BannerSubtitle } from '../lib/gojun-ui/components/Banner/Banner';
 import { TaskPanel } from '../components/Calendar';
@@ -24,8 +24,6 @@ function getSeasonalImage(): string {
   if (month >= 9 && month <= 11) return calendar.seasons.autumn;
   return calendar.seasons.winter;
 }
-
-type ViewMode = 'calendar' | 'learning';
 
 // Day data with word and kanji info
 interface DayData {
@@ -297,7 +295,6 @@ export function CalendarPage() {
   const { isDark } = useTheme();
   const { session } = useAuth();
   const [isVisible, setIsVisible] = useState(false);
-  const [activeTab, setActiveTab] = useState<ViewMode>('calendar');
   const [currentYear, setCurrentYear] = useState(new Date().getFullYear());
   const [currentMonth, setCurrentMonth] = useState(new Date().getMonth() + 1);
   const [dayData, setDayData] = useState<Record<string, DayData>>({});
@@ -307,7 +304,6 @@ export function CalendarPage() {
   const [isLoading, setIsLoading] = useState(false);
 
   // Expanded card states
-  const [wordExpanded, setWordExpanded] = useState(true);
   const [kanjiExpanded, setKanjiExpanded] = useState(true);
 
   // Stroke animation overlay state
@@ -567,48 +563,8 @@ export function CalendarPage() {
       </div>
 
       <div className="relative z-10">
-        {/* Tab Navigation */}
-        <div className="sticky top-0 z-20 bg-white/80 dark:bg-gray-900/80 backdrop-blur-lg border-b border-pink-100 dark:border-white/10">
-          <div className="max-w-7xl mx-auto px-4 py-3">
-            <div className="flex items-center justify-between">
-              <div className="flex gap-2">
-                <button
-                  onClick={() => setActiveTab('calendar')}
-                  className={`px-4 py-2 rounded-xl font-medium text-sm transition-all ${
-                    activeTab === 'calendar' ? theme.tabActive : theme.tabInactive
-                  }`}
-                >
-                  🌸 カレンダー
-                </button>
-                <button
-                  onClick={() => setActiveTab('learning')}
-                  className={`px-4 py-2 rounded-xl font-medium text-sm transition-all ${
-                    activeTab === 'learning' ? theme.tabActive : theme.tabInactive
-                  }`}
-                >
-                  ✨ 今日の学習
-                </button>
-              </div>
-
-              <select
-                value={jlptLevel}
-                onChange={(e) => setJlptLevel(e.target.value)}
-                className={`px-3 py-1.5 rounded-lg text-sm font-medium border transition-all ${
-                  isDark ? 'bg-white/5 border-white/10 text-white' : 'bg-white border-pink-200 text-gray-700'
-                }`}
-              >
-                <option value="N5">N5</option>
-                <option value="N4">N4</option>
-                <option value="N3">N3</option>
-                <option value="N2">N2</option>
-                <option value="N1">N1</option>
-              </select>
-            </div>
-          </div>
-        </div>
-
         {/* Content */}
-        {activeTab === 'calendar' && (
+        {(
           <div className="max-w-7xl mx-auto px-4 py-4">
             {/* Dashboard Layout */}
             <div className={`${isMobile ? '' : 'flex gap-6'}`}>
@@ -759,6 +715,23 @@ export function CalendarPage() {
 
               {/* Sidebar - Selected Day Details */}
               <div className={`${isMobile ? 'mt-4' : 'w-96'}`}>
+                {/* JLPT Level Selector */}
+                <div className="mb-3 flex justify-end">
+                  <select
+                    value={jlptLevel}
+                    onChange={(e) => setJlptLevel(e.target.value)}
+                    className={`px-3 py-1.5 rounded-lg text-sm font-medium border transition-all ${
+                      isDark ? 'bg-white/5 border-white/10 text-white' : 'bg-white border-pink-200 text-gray-700'
+                    }`}
+                  >
+                    <option value="N5">N5</option>
+                    <option value="N4">N4</option>
+                    <option value="N3">N3</option>
+                    <option value="N2">N2</option>
+                    <option value="N1">N1</option>
+                  </select>
+                </div>
+
                 {/* Selected Day Header */}
                 <div className={`rounded-t-2xl border border-b-0 px-4 py-3 ${theme.card} ${
                   isDark ? 'bg-gradient-to-r from-pink-900/30 to-purple-900/30' : 'bg-gradient-to-r from-pink-50 to-purple-50'
@@ -773,83 +746,6 @@ export function CalendarPage() {
 
                 {/* Expandable Cards Container */}
                 <div className={`rounded-b-2xl border shadow-lg overflow-hidden ${theme.card}`}>
-                  {/* Word of the Day Card */}
-                  <div className={`border-b ${isDark ? 'border-white/10' : 'border-pink-100'} relative`}>
-                    {/* Favorite/Note buttons - top right */}
-                    {selectedDayData.word && (
-                      <div className="absolute top-3 right-3 flex gap-1 z-10">
-                        <FavoriteButton
-                          word={selectedDayData.word}
-                          reading={selectedDayData.wordReading || ''}
-                          english={selectedDayData.wordMeaning || ''}
-                          partOfSpeech={selectedDayData.wordPartOfSpeech?.toLowerCase() as 'noun' | 'verb' | 'adjective' | 'adverb' | 'particle' | 'expression'}
-                        />
-                        <WordNoteButton
-                          word={selectedDayData.word}
-                          reading={selectedDayData.wordReading || ''}
-                          english={selectedDayData.wordMeaning || ''}
-                        />
-                      </div>
-                    )}
-
-                    <button
-                      onClick={() => setWordExpanded(!wordExpanded)}
-                      className={`w-full px-4 py-3 flex items-center justify-between ${
-                        isDark ? 'hover:bg-white/5' : 'hover:bg-pink-50'
-                      } transition-colors`}
-                    >
-                      <div className="flex items-center gap-2">
-                        <span className={isDark ? 'text-white' : 'text-pink-500'}>🌸</span>
-                        <span className={`font-medium ${isDark ? 'text-pink-300' : 'text-pink-600'}`}>今日の単語</span>
-                        {selectedDayData.wordPartOfSpeech && (
-                          <span className={`text-xs px-2 py-0.5 rounded-full ${
-                            isDark ? 'bg-white/10' : 'bg-pink-100'
-                          } ${theme.textMuted}`}>
-                            {selectedDayData.wordPartOfSpeech}
-                          </span>
-                        )}
-                      </div>
-                      <svg className={`w-5 h-5 transition-transform ${wordExpanded ? 'rotate-180' : ''} ${theme.textMuted}`} fill="none" stroke="currentColor" viewBox="0 0 24 24">
-                        <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M19 9l-7 7-7-7" />
-                      </svg>
-                    </button>
-
-                    {wordExpanded && selectedDayData.word && (
-                      <div className="px-4 pb-4">
-                        {/* Word Display with inline audio */}
-                        <div className="text-center py-4">
-                          <div className="flex items-center justify-center gap-2 mb-1">
-                            <p className={`text-4xl font-bold ${isDark ? 'text-white' : 'text-gray-800'}`}>
-                              {selectedDayData.word}
-                            </p>
-                            <button
-                              onClick={() => speakWord(selectedDayData.word || '')}
-                              className={`w-10 h-10 rounded-lg flex items-center justify-center transition-all text-lg ${
-                                isSpeaking(selectedDayData.word || '')
-                                  ? 'bg-pink-500 text-white scale-110'
-                                  : isDark ? 'bg-white/10 hover:bg-white/20' : 'bg-slate-100 hover:bg-slate-200'
-                              }`}
-                            >
-                              🔊
-                            </button>
-                          </div>
-                          <p className={`text-lg ${isDark ? 'text-pink-400' : 'text-pink-600'}`}>
-                            {selectedDayData.wordReading}
-                          </p>
-                          <p className={`mt-2 ${theme.textMuted}`}>
-                            {selectedDayData.wordMeaning}
-                          </p>
-                        </div>
-                      </div>
-                    )}
-
-                    {wordExpanded && !selectedDayData.word && (
-                      <div className="px-4 pb-4">
-                        <p className={`text-sm text-center py-4 ${theme.textMuted}`}>この日の単語はありません</p>
-                      </div>
-                    )}
-                  </div>
-
                   {/* Kanji of the Day Card */}
                   <div className={`border-b ${isDark ? 'border-white/10' : 'border-pink-100'} relative`}>
                     {/* Favorite/Note buttons - top right */}
@@ -979,15 +875,7 @@ export function CalendarPage() {
           </div>
         )}
 
-        {activeTab === 'learning' && (
-          <div className="max-w-4xl mx-auto px-4 py-6">
-            <div className={`backdrop-blur-sm rounded-2xl shadow-lg border overflow-hidden ${theme.card}`}>
-              <div className="p-4 md:p-6">
-                <LearningCalendar embedded />
-              </div>
-            </div>
-          </div>
-        )}
+
       </div>
 
       {/* Stroke Animation Overlay Popup */}
