@@ -9,12 +9,13 @@ import {
 } from '../services/keepApi';
 import { getSettings, updateSettings, getIcalUrl } from '../services/calendarApi';
 import { getGoogleStatus, connectGoogle, disconnectGoogle, createWordOfTheDayEvents, deleteWordOfTheDayEvents, type GoogleStatus } from '../services/googleCalendarApi';
+import { syncTasks, pullTasks, type SyncResult } from '../services/googleTasksApi';
 import { TimePicker } from '../components/Calendar/TimePicker';
 import { DateRangePicker } from '../components/Calendar/DateRangePicker';
 
 type JLPTLevel = 'N5' | 'N4' | 'N3' | 'N2' | 'N1';
 type AIProvider = 'claude' | 'groq';
-type ActiveSection = 'profile' | 'ai' | 'calendar' | 'account' | null;
+type ActiveSection = 'profile' | 'ai' | 'tasks' | 'calendar' | 'account' | null;
 
 interface UserProfile {
   firstName: string;
@@ -82,6 +83,10 @@ export function SettingsPage() {
     end.setDate(end.getDate() + 30);
     return end.toISOString().split('T')[0];
   });
+
+  // Google Tasks sync
+  const [tasksLoading, setTasksLoading] = useState(false);
+  const [lastSyncResult, setLastSyncResult] = useState<SyncResult | null>(null);
 
   // Timezone settings
   const [selectedTimezones, setSelectedTimezones] = useState<string[]>(() => {
@@ -368,10 +373,43 @@ export function SettingsPage() {
     }
   };
 
+  // Google Tasks sync handlers
+  const handleSyncTasks = async () => {
+    if (!session?.access_token) return;
+    setTasksLoading(true);
+    setError('');
+    try {
+      const result = await syncTasks(session.access_token);
+      setLastSyncResult(result);
+      setSuccess(`Synced! Pushed: ${result.pushed}, Pulled: ${result.pulled}`);
+      setTimeout(() => setSuccess(''), 4000);
+    } catch (err) {
+      setError(err instanceof Error ? err.message : 'Failed to sync tasks');
+    } finally {
+      setTasksLoading(false);
+    }
+  };
+
+  const handlePullTasks = async () => {
+    if (!session?.access_token) return;
+    setTasksLoading(true);
+    setError('');
+    try {
+      const result = await pullTasks(session.access_token);
+      setSuccess(`Pulled ${result.pulled} tasks from Google`);
+      setTimeout(() => setSuccess(''), 3000);
+    } catch (err) {
+      setError(err instanceof Error ? err.message : 'Failed to pull tasks');
+    } finally {
+      setTasksLoading(false);
+    }
+  };
+
   // Menu items for the sidebar
   const menuItems = [
     { id: 'profile', icon: '👤', label: 'Profile', sublabel: 'プロフィール' },
     { id: 'ai', icon: '🧠', label: 'AI Model', sublabel: 'AIモデル' },
+    { id: 'tasks', icon: '✓', label: 'Google Tasks', sublabel: '課題同期' },
     { id: 'calendar', icon: '📅', label: 'Calendar', sublabel: 'カレンダー' },
     { id: 'account', icon: '🔐', label: 'Account', sublabel: 'アカウント' },
   ];
@@ -702,6 +740,108 @@ export function SettingsPage() {
                       🔗 Get API key from Anthropic
                     </a>
                   </div>
+                </div>
+              </div>
+            )}
+
+            {/* Google Tasks Section */}
+            {activeSection === 'tasks' && (
+              <div className={`backdrop-blur-xl rounded-3xl border overflow-hidden animate-fadeInUp ${theme.card}`}>
+                <div className={`px-6 py-4 border-b ${isDark ? 'bg-gradient-to-r from-green-600/20 to-emerald-600/20 border-white/10' : 'bg-gradient-to-r from-green-100 to-emerald-100 border-green-200/50'}`}>
+                  <h2 className="font-bold flex items-center gap-2">
+                    <span>✓</span> Google Tasks
+                    <span className={`text-sm font-normal ${theme.textMuted}`}>課題同期</span>
+                    {googleStatus?.connected && (
+                      <span className="ml-auto px-3 py-1 bg-emerald-500/20 text-emerald-500 rounded-full text-xs">Connected</span>
+                    )}
+                  </h2>
+                </div>
+                <div className="p-6 space-y-5">
+                  {googleStatus?.connected ? (
+                    <>
+                      <div className={`flex items-center gap-3 p-4 rounded-2xl ${isDark ? 'bg-emerald-500/10 border border-emerald-500/20' : 'bg-emerald-50 border border-emerald-200'}`}>
+                        <span className="text-2xl">✅</span>
+                        <div>
+                          <p className="font-medium text-emerald-500">Google Connected</p>
+                          <p className={`text-sm ${theme.textMuted}`}>{googleStatus.email}</p>
+                        </div>
+                      </div>
+
+                      <div className={`p-4 rounded-2xl border ${theme.cardInner}`}>
+                        <h3 className={`font-medium mb-2 ${theme.text}`}>How it works</h3>
+                        <ul className={`text-sm space-y-2 ${theme.textMuted}`}>
+                          <li>• Tasks sync to your "My Tasks" list in Google Tasks</li>
+                          <li>• Changes sync automatically when you create or complete tasks</li>
+                          <li>• Use the sync button below to manually sync all tasks</li>
+                        </ul>
+                      </div>
+
+                      {lastSyncResult && (
+                        <div className={`p-4 rounded-2xl ${isDark ? 'bg-blue-500/10 border border-blue-500/20' : 'bg-blue-50 border border-blue-200'}`}>
+                          <h3 className={`font-medium mb-2 ${isDark ? 'text-blue-300' : 'text-blue-700'}`}>Last Sync Result</h3>
+                          <div className="grid grid-cols-2 gap-2 text-sm">
+                            <div className={theme.textMuted}>Pushed: <span className="font-medium">{lastSyncResult.pushed}</span></div>
+                            <div className={theme.textMuted}>Pulled: <span className="font-medium">{lastSyncResult.pulled}</span></div>
+                            <div className={theme.textMuted}>Created: <span className="font-medium">{lastSyncResult.created}</span></div>
+                            <div className={theme.textMuted}>Updated: <span className="font-medium">{lastSyncResult.updated}</span></div>
+                          </div>
+                        </div>
+                      )}
+
+                      <div className="flex gap-3">
+                        <button
+                          onClick={handleSyncTasks}
+                          disabled={tasksLoading}
+                          className="flex-1 py-3.5 bg-gradient-to-r from-green-500 to-emerald-500 text-white font-bold rounded-xl hover:shadow-lg hover:shadow-green-500/30 disabled:opacity-50 transition-all flex items-center justify-center gap-2"
+                        >
+                          {tasksLoading ? '⏳ Syncing...' : '🔄 Sync All Tasks'}
+                        </button>
+                        <button
+                          onClick={handlePullTasks}
+                          disabled={tasksLoading}
+                          className={`px-4 py-3.5 rounded-xl font-medium transition-all border ${isDark ? 'bg-white/5 border-white/20 hover:bg-white/10' : 'bg-slate-100 border-slate-200 hover:bg-slate-200'}`}
+                        >
+                          ⬇️ Pull
+                        </button>
+                      </div>
+
+                      <div className={`px-4 py-3 rounded-xl ${isDark ? 'bg-amber-500/10 border border-amber-500/20' : 'bg-amber-50 border border-amber-200'}`}>
+                        <p className={`text-sm ${isDark ? 'text-amber-300' : 'text-amber-700'}`}>
+                          💡 Tasks are synced to your personal "My Tasks" list in Google Tasks
+                        </p>
+                      </div>
+                    </>
+                  ) : (
+                    <>
+                      <div className={`flex items-center gap-3 p-4 rounded-2xl border ${theme.cardInner}`}>
+                        <span className="text-2xl">✓</span>
+                        <div>
+                          <p className="font-medium">Not Connected</p>
+                          <p className={`text-sm ${theme.textMuted}`}>Sync your 課題 tasks with Google Tasks</p>
+                        </div>
+                      </div>
+
+                      <div className={`p-4 rounded-2xl border ${theme.cardInner}`}>
+                        <h3 className={`font-medium mb-2 ${theme.text}`}>What you get</h3>
+                        <ul className={`text-sm space-y-2 ${theme.textMuted}`}>
+                          <li>• Sync tasks between Gojun and Google Tasks</li>
+                          <li>• Access tasks from any device with Google Tasks</li>
+                          <li>• Automatic two-way sync when you make changes</li>
+                        </ul>
+                      </div>
+
+                      <button
+                        onClick={handleConnectGoogle}
+                        disabled={googleLoading}
+                        className="w-full py-3.5 bg-gradient-to-r from-green-500 to-emerald-500 text-white font-bold rounded-xl hover:shadow-lg hover:shadow-green-500/30 disabled:opacity-50 transition-all flex items-center justify-center gap-2"
+                      >
+                        <svg className="w-5 h-5" viewBox="0 0 24 24">
+                          <path fill="currentColor" d="M22.56 12.25c0-.78-.07-1.53-.2-2.25H12v4.26h5.92c-.26 1.37-1.04 2.53-2.21 3.31v2.77h3.57c2.08-1.92 3.28-4.74 3.28-8.09z"/>
+                        </svg>
+                        Connect Google Account
+                      </button>
+                    </>
+                  )}
                 </div>
               </div>
             )}
