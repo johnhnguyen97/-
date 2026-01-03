@@ -39,7 +39,7 @@ export function SettingsPage() {
     input: isDark
       ? 'bg-white/5 border-white/10 text-white placeholder-gray-500 focus:border-purple-500/50'
       : 'bg-white border-slate-200 text-slate-800 placeholder-slate-400 focus:border-purple-500',
-    kanjiColor: isDark ? 'text-white/[0.03]' : 'text-purple-200/30',
+    kanjiColor: isDark ? 'text-white/10' : 'text-purple-300/40',
   };
 
   const [profile, setProfile] = useState<UserProfile>({

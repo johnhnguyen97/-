@@ -14,7 +14,7 @@ export function RadicalPracticePage() {
   const theme = {
     text: isDark ? 'text-white' : 'text-gray-800',
     textMuted: isDark ? 'text-slate-400' : 'text-gray-500',
-    kanjiColor: isDark ? 'text-white/[0.03]' : 'text-purple-200/30',
+    kanjiColor: isDark ? 'text-white/10' : 'text-purple-300/40',
     card: isDark ? 'bg-white/5 border-white/10' : 'bg-white/80 border-gray-100',
   };
 

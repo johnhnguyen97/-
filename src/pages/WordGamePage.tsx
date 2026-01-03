@@ -13,7 +13,7 @@ export function WordGamePage() {
   // Theme classes - match HomePage style
   const theme = {
     bg: isDark ? 'bg-[#0f0f1a]' : 'bg-gradient-to-br from-slate-50 via-white to-pink-50/30',
-    kanjiColor: isDark ? 'text-white/[0.03]' : 'text-pink-200/30',
+    kanjiColor: isDark ? 'text-white/10' : 'text-pink-300/40',
   };
 
   return (

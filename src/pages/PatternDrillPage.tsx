@@ -128,7 +128,7 @@ export function PatternDrillPage() {
     text: isDark ? 'text-white' : 'text-gray-800',
     textMuted: isDark ? 'text-slate-400' : 'text-gray-500',
     textSubtle: isDark ? 'text-slate-500' : 'text-gray-400',
-    kanjiColor: isDark ? 'text-white/[0.03]' : 'text-purple-200/30',
+    kanjiColor: isDark ? 'text-white/10' : 'text-purple-300/40',
   };
 
   useEffect(() => {

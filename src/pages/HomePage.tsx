@@ -496,7 +496,7 @@ export function HomePage() {
     accent: 'text-pink-500',
     accentBg: isDark ? 'bg-pink-500/20' : 'bg-pink-50',
     input: isDark ? 'bg-white/5 border-white/10' : 'bg-slate-50 border-slate-200',
-    kanjiColor: isDark ? 'text-white/[0.03]' : 'text-pink-200/30',
+    kanjiColor: isDark ? 'text-white/10' : 'text-pink-300/40',
   };
 
   return (

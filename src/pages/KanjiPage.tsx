@@ -43,7 +43,7 @@ export function KanjiPage() {
     textMuted: isDark ? 'text-slate-400' : 'text-gray-500',
     textSubtle: isDark ? 'text-slate-500' : 'text-gray-400',
     accent: isDark ? 'text-amber-400' : 'text-amber-600',
-    kanjiColor: isDark ? 'text-white/[0.03]' : 'text-amber-200/30',
+    kanjiColor: isDark ? 'text-white/10' : 'text-amber-300/40',
   };
 
   useEffect(() => {
