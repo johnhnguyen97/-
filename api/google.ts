@@ -293,11 +293,11 @@ async function handleCallback(req: VercelRequest, res: VercelResponse, supabase:
   const { code, state, error } = req.query;
 
   if (error) {
-    return res.redirect(`/?google_error=${encodeURIComponent(error as string)}`);
+    return res.redirect(`/settings?google_error=${encodeURIComponent(error as string)}`);
   }
 
   if (!code) {
-    return res.redirect('/?google_error=no_code');
+    return res.redirect('/settings?google_error=no_code');
   }
 
   const tokenResponse = await fetch('https://oauth2.googleapis.com/token', {
@@ -315,7 +315,7 @@ async function handleCallback(req: VercelRequest, res: VercelResponse, supabase:
   if (!tokenResponse.ok) {
     const err = await tokenResponse.text();
     console.error('Token exchange failed:', err);
-    return res.redirect('/?google_error=token_exchange_failed');
+    return res.redirect('/settings?google_error=token_exchange_failed');
   }
 
   const tokens = await tokenResponse.json();
@@ -327,12 +327,12 @@ async function handleCallback(req: VercelRequest, res: VercelResponse, supabase:
   const userInfo = await userInfoResponse.json();
 
   if (!state) {
-    return res.redirect('/?google_error=no_state');
+    return res.redirect('/settings?google_error=no_state');
   }
 
   const { data: { user }, error: authError } = await supabase.auth.getUser(state as string);
   if (authError || !user) {
-    return res.redirect('/?google_error=invalid_session');
+    return res.redirect('/settings?google_error=invalid_session');
   }
 
   const { error: dbError } = await supabase
@@ -348,10 +348,10 @@ async function handleCallback(req: VercelRequest, res: VercelResponse, supabase:
 
   if (dbError) {
     console.error('Failed to store tokens:', dbError);
-    return res.redirect('/?google_error=storage_failed');
+    return res.redirect('/settings?google_error=storage_failed');
   }
 
-  return res.redirect('/?google_connected=true');
+  return res.redirect('/settings?google_connected=true');
 }
 
 // eslint-disable-next-line @typescript-eslint/no-explicit-any
