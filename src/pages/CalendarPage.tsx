@@ -577,6 +577,7 @@ export function CalendarPage() {
                     height="140px"
                     blend="bottom"
                     animate={true}
+                    month={currentMonth}
                   >
                     <BannerTitle>{dateInfo.western}</BannerTitle>
                     <BannerSubtitle>{dateInfo.reiwa}</BannerSubtitle>

@@ -1,18 +1,18 @@
 import { type ReactNode, useState, useMemo } from 'react';
 import { cn } from '../../utils/cn';
 
-// Get current season based on month
-function getCurrentSeason(): 'spring' | 'summer' | 'autumn' | 'winter' {
-  const month = new Date().getMonth() + 1;
-  if (month >= 3 && month <= 5) return 'spring';
-  if (month >= 6 && month <= 8) return 'summer';
-  if (month >= 9 && month <= 11) return 'autumn';
+// Get season based on month (0-indexed: 0=Jan, 11=Dec)
+function getSeasonFromMonth(month: number): 'spring' | 'summer' | 'autumn' | 'winter' {
+  const m = month + 1; // Convert to 1-indexed
+  if (m >= 3 && m <= 5) return 'spring';
+  if (m >= 6 && m <= 8) return 'summer';
+  if (m >= 9 && m <= 11) return 'autumn';
   return 'winter';
 }
 
 // Beautiful seasonal gradient fallback
-function SeasonalGradient() {
-  const season = useMemo(() => getCurrentSeason(), []);
+function SeasonalGradient({ month }: { month?: number }) {
+  const season = useMemo(() => getSeasonFromMonth(month ?? new Date().getMonth()), [month]);
 
   const seasonStyles = {
     spring: {
@@ -48,7 +48,7 @@ function SeasonalGradient() {
       {/* Decorative elements */}
       <div className="absolute inset-0 overflow-hidden">
         {/* Large kanji watermark */}
-        <div className="absolute top-1/2 left-1/2 -translate-x-1/2 -translate-y-1/2 text-[120px] font-serif text-white/50 dark:text-white/30 select-none drop-shadow-lg">
+        <div className="absolute top-1/2 left-1/2 -translate-x-1/2 -translate-y-1/2 text-[150px] font-serif text-gray-800/30 dark:text-white/40 select-none">
           {style.kanji}
         </div>
 
@@ -81,6 +81,8 @@ export interface BannerProps {
   children?: ReactNode;
   /** Fallback content while image loads */
   fallback?: ReactNode;
+  /** Month (0-indexed) for seasonal fallback gradient */
+  month?: number;
 }
 
 export function Banner({
@@ -93,6 +95,7 @@ export function Banner({
   className,
   children,
   fallback,
+  month,
 }: BannerProps) {
   const [imageLoaded, setImageLoaded] = useState(false);
   const [imageError, setImageError] = useState(false);
@@ -148,7 +151,7 @@ export function Banner({
       {(!imageLoaded || imageError) && (
         <div className="absolute inset-0 flex items-center justify-center overflow-hidden">
           {fallback || (
-            <SeasonalGradient />
+            <SeasonalGradient month={month} />
           )}
         </div>
       )}
