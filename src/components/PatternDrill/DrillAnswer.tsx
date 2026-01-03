@@ -1,4 +1,4 @@
-import React, { useState } from 'react';
+import React, { useState, useEffect } from 'react';
 import { useSpeechSynthesis } from '../../hooks/useSpeechSynthesis';
 import { useTheme } from '../../contexts/ThemeContext';
 import { Furigana } from '../common/Furigana';
@@ -102,6 +102,27 @@ export const DrillAnswer: React.FC<DrillAnswerProps> = ({
     );
   }
 
+  // Track which options have hints revealed
+  const [revealedHints, setRevealedHints] = useState<Set<string>>(new Set());
+
+  // Reset hints when question changes (new mcOptions)
+  useEffect(() => {
+    setRevealedHints(new Set());
+  }, [mcOptions]);
+
+  const toggleHint = (e: React.MouseEvent, optionId: string) => {
+    e.stopPropagation();
+    setRevealedHints(prev => {
+      const newSet = new Set(prev);
+      if (newSet.has(optionId)) {
+        newSet.delete(optionId);
+      } else {
+        newSet.add(optionId);
+      }
+      return newSet;
+    });
+  };
+
   // Multiple choice mode - Enhanced card UI
   return (
     <div className="space-y-4">
@@ -109,6 +130,7 @@ export const DrillAnswer: React.FC<DrillAnswerProps> = ({
       <div className="grid grid-cols-1 sm:grid-cols-2 gap-3">
         {mcOptions?.map((option) => {
           const isPlaying = speakingText === option.text;
+          const hintRevealed = revealedHints.has(option.id);
           return (
             <button
               key={option.id}
@@ -155,12 +177,30 @@ export const DrillAnswer: React.FC<DrillAnswerProps> = ({
                       </div>
                     )}
 
-                    {/* English hint badge */}
+                    {/* Hint button or revealed hint */}
                     {option.english && (
-                      <div className={`inline-block text-sm mt-2 px-2 py-0.5 rounded-md ${
-                        isDark ? 'bg-purple-500/20 text-purple-300' : 'bg-purple-100 text-purple-700'
-                      }`}>
-                        {option.english}
+                      <div className="mt-2">
+                        {hintRevealed ? (
+                          <div className={`inline-block text-sm px-2 py-0.5 rounded-md animate-fadeIn ${
+                            isDark ? 'bg-purple-500/20 text-purple-300' : 'bg-purple-100 text-purple-700'
+                          }`}>
+                            {option.english}
+                          </div>
+                        ) : (
+                          <button
+                            onClick={(e) => toggleHint(e, option.id)}
+                            className={`inline-flex items-center gap-1 text-xs px-2 py-1 rounded-md transition-all ${
+                              isDark
+                                ? 'bg-gray-700/50 text-gray-400 hover:bg-gray-600/50 hover:text-gray-300'
+                                : 'bg-gray-100 text-gray-500 hover:bg-gray-200 hover:text-gray-600'
+                            }`}
+                          >
+                            <svg className="w-3 h-3" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                              <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M9.663 17h4.673M12 3v1m6.364 1.636l-.707.707M21 12h-1M4 12H3m3.343-5.657l-.707-.707m2.828 9.9a5 5 0 117.072 0l-.548.547A3.374 3.374 0 0014 18.469V19a2 2 0 11-4 0v-.531c0-.895-.356-1.754-.988-2.386l-.548-.547z" />
+                            </svg>
+                            hint?
+                          </button>
+                        )}
                       </div>
                     )}
                   </div>
