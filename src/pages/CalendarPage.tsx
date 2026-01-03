@@ -304,6 +304,7 @@ export function CalendarPage() {
   const [isLoading, setIsLoading] = useState(false);
 
   // Expanded card states
+  const [wordExpanded, setWordExpanded] = useState(true);
   const [kanjiExpanded, setKanjiExpanded] = useState(true);
 
   // Stroke animation overlay state
@@ -746,6 +747,83 @@ export function CalendarPage() {
 
                 {/* Expandable Cards Container */}
                 <div className={`rounded-b-2xl border shadow-lg overflow-hidden ${theme.card}`}>
+                  {/* Word of the Day Card */}
+                  <div className={`border-b ${isDark ? 'border-white/10' : 'border-pink-100'} relative`}>
+                    {/* Favorite/Note buttons - top right */}
+                    {selectedDayData.word && (
+                      <div className="absolute top-3 right-3 flex gap-1 z-10">
+                        <FavoriteButton
+                          word={selectedDayData.word}
+                          reading={selectedDayData.wordReading || ''}
+                          english={selectedDayData.wordMeaning || ''}
+                          partOfSpeech={selectedDayData.wordPartOfSpeech?.toLowerCase() as 'noun' | 'verb' | 'adjective' | 'adverb' | 'particle' | 'expression'}
+                        />
+                        <WordNoteButton
+                          word={selectedDayData.word}
+                          reading={selectedDayData.wordReading || ''}
+                          english={selectedDayData.wordMeaning || ''}
+                        />
+                      </div>
+                    )}
+
+                    <button
+                      onClick={() => setWordExpanded(!wordExpanded)}
+                      className={`w-full px-4 py-3 flex items-center justify-between ${
+                        isDark ? 'hover:bg-white/5' : 'hover:bg-pink-50'
+                      } transition-colors`}
+                    >
+                      <div className="flex items-center gap-2">
+                        <span className={isDark ? 'text-white' : 'text-pink-500'}>🌸</span>
+                        <span className={`font-medium ${isDark ? 'text-pink-300' : 'text-pink-600'}`}>今日の単語</span>
+                        {selectedDayData.wordPartOfSpeech && (
+                          <span className={`text-xs px-2 py-0.5 rounded-full ${
+                            isDark ? 'bg-white/10' : 'bg-pink-100'
+                          } ${theme.textMuted}`}>
+                            {selectedDayData.wordPartOfSpeech}
+                          </span>
+                        )}
+                      </div>
+                      <svg className={`w-5 h-5 transition-transform ${wordExpanded ? 'rotate-180' : ''} ${theme.textMuted}`} fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                        <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M19 9l-7 7-7-7" />
+                      </svg>
+                    </button>
+
+                    {wordExpanded && selectedDayData.word && (
+                      <div className="px-4 pb-4">
+                        {/* Word Display with inline audio */}
+                        <div className="text-center py-4">
+                          <div className="flex items-center justify-center gap-2 mb-1">
+                            <p className={`text-4xl font-bold ${isDark ? 'text-white' : 'text-gray-800'}`}>
+                              {selectedDayData.word}
+                            </p>
+                            <button
+                              onClick={() => speakWord(selectedDayData.word || '')}
+                              className={`w-10 h-10 rounded-lg flex items-center justify-center transition-all text-lg ${
+                                isSpeaking(selectedDayData.word || '')
+                                  ? 'bg-pink-500 text-white scale-110'
+                                  : isDark ? 'bg-white/10 hover:bg-white/20' : 'bg-slate-100 hover:bg-slate-200'
+                              }`}
+                            >
+                              🔊
+                            </button>
+                          </div>
+                          <p className={`text-lg ${isDark ? 'text-pink-400' : 'text-pink-600'}`}>
+                            {selectedDayData.wordReading}
+                          </p>
+                          <p className={`mt-2 ${theme.textMuted}`}>
+                            {selectedDayData.wordMeaning}
+                          </p>
+                        </div>
+                      </div>
+                    )}
+
+                    {wordExpanded && !selectedDayData.word && (
+                      <div className="px-4 pb-4">
+                        <p className={`text-sm text-center py-4 ${theme.textMuted}`}>この日の単語はありません</p>
+                      </div>
+                    )}
+                  </div>
+
                   {/* Kanji of the Day Card */}
                   <div className={`border-b ${isDark ? 'border-white/10' : 'border-pink-100'} relative`}>
                     {/* Favorite/Note buttons - top right */}
