@@ -382,6 +382,104 @@ body {
   50% { transform: translateY(-10px); }
 }
 
+/* Ken Burns effect for banner images */
+@keyframes ken-burns {
+  0% {
+    transform: scale(1) translate(0, 0);
+  }
+  50% {
+    transform: scale(1.08) translate(-1%, -1%);
+  }
+  100% {
+    transform: scale(1) translate(0, 0);
+  }
+}
+
+.animate-ken-burns {
+  animation: ken-burns 20s ease-in-out infinite;
+}
+
+/* Calendar month slide transitions */
+@keyframes calendar-slide-left {
+  from {
+    opacity: 0;
+    transform: translateX(20px);
+  }
+  to {
+    opacity: 1;
+    transform: translateX(0);
+  }
+}
+
+@keyframes calendar-slide-right {
+  from {
+    opacity: 0;
+    transform: translateX(-20px);
+  }
+  to {
+    opacity: 1;
+    transform: translateX(0);
+  }
+}
+
+.animate-calendar-slide-left {
+  animation: calendar-slide-left 0.3s ease-out forwards;
+}
+
+.animate-calendar-slide-right {
+  animation: calendar-slide-right 0.3s ease-out forwards;
+}
+
+/* Calendar day hover effect */
+@keyframes day-pop {
+  0% {
+    transform: scale(1);
+  }
+  50% {
+    transform: scale(1.05);
+  }
+  100% {
+    transform: scale(1);
+  }
+}
+
+.animate-day-pop {
+  animation: day-pop 0.2s ease-out;
+}
+
+/* Kawaii bounce animation */
+@keyframes kawaii-bounce {
+  0%, 100% {
+    transform: translateY(0);
+  }
+  25% {
+    transform: translateY(-4px);
+  }
+  75% {
+    transform: translateY(2px);
+  }
+}
+
+.animate-kawaii-bounce {
+  animation: kawaii-bounce 0.4s ease-out;
+}
+
+/* Sparkle effect for kawaii mode */
+@keyframes sparkle {
+  0%, 100% {
+    opacity: 0;
+    transform: scale(0) rotate(0deg);
+  }
+  50% {
+    opacity: 1;
+    transform: scale(1) rotate(180deg);
+  }
+}
+
+.animate-sparkle {
+  animation: sparkle 1.5s ease-in-out infinite;
+}
+
 @keyframes pulse-soft {
   0%, 100% { opacity: 1; }
   50% { opacity: 0.7; }

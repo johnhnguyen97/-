@@ -359,6 +359,108 @@ export const components = {
 } as const;
 
 // ============================================================================
+// CALENDAR TOKENS (Kawaii Japanese Style)
+// ============================================================================
+
+export const calendar = {
+  // Light mode - Kawaii pastel palette
+  light: {
+    // Backgrounds
+    bg: '#FFF8F5',              // Warm cream
+    cardBg: '#FFFFFF',          // Pure white cards
+    headerBg: '#FFB8C6',        // Soft pink header
+
+    // Day colors
+    dayText: '#374151',         // Dark gray for readability
+    dayTextMuted: '#9CA3AF',    // Muted for other months
+    sunday: '#FF4D6D',          // Red for Sunday (Japanese tradition)
+    saturday: '#4A90D9',        // Blue for Saturday
+    today: '#FF6B95',           // Rose pink highlight
+    todayBg: '#FFF0F5',         // Light pink background
+
+    // Event colors (soft pastels)
+    eventWord: '#C9B1FF',       // Lavender for Word of the Day
+    eventKanji: '#FFD6E0',      // Pink for Kanji of the Day
+    eventHoliday: '#FFE4B5',    // Peach for holidays
+
+    // Borders & dividers
+    border: '#FFE4E8',          // Soft pink border
+    divider: '#F3E8FF',         // Lavender divider
+
+    // Interactive states
+    hover: '#FFF0F5',           // Light pink hover
+    active: '#FFE4E8',          // Pressed state
+  },
+
+  // Dark mode - Elegant night palette
+  dark: {
+    // Backgrounds
+    bg: '#1A1625',              // Deep purple-black
+    cardBg: '#252033',          // Elevated card
+    headerBg: '#3D2E5A',        // Muted purple header
+
+    // Day colors
+    dayText: '#E5E7EB',         // Light gray
+    dayTextMuted: '#6B7280',    // Muted for other months
+    sunday: '#FF6B8A',          // Softer red
+    saturday: '#60A5FA',        // Light blue
+    today: '#F472B6',           // Pink highlight
+    todayBg: '#3D2E5A',         // Purple background
+
+    // Event colors (deeper tones)
+    eventWord: '#7C3AED',       // Purple for Word of the Day
+    eventKanji: '#DB2777',      // Pink for Kanji of the Day
+    eventHoliday: '#D97706',    // Amber for holidays
+
+    // Borders & dividers
+    border: '#374151',          // Gray border
+    divider: '#4B5563',         // Gray divider
+
+    // Interactive states
+    hover: '#2D2640',           // Subtle hover
+    active: '#3D2E5A',          // Pressed state
+  },
+
+  // Kawaii variant (extra cute for mobile)
+  kawaii: {
+    // Extra playful colors
+    accent: '#FF6B95',          // Hot pink
+    sparkle: '#FFD700',         // Gold sparkles
+    heart: '#FF69B4',           // Heart pink
+    star: '#FFE135',            // Star yellow
+
+    // Rounded everything
+    borderRadius: '1rem',
+    borderRadiusLg: '1.5rem',
+
+    // Playful shadows
+    shadow: '0 4px 20px rgba(255, 107, 149, 0.15)',
+    shadowHover: '0 8px 30px rgba(255, 107, 149, 0.25)',
+  },
+
+  // Seasonal banner images (paths)
+  seasons: {
+    spring: '/images/seasons/spring.jpg',    // Cherry blossoms
+    summer: '/images/seasons/summer.jpg',    // Mt. Fuji / festivals
+    autumn: '/images/seasons/autumn.jpg',    // Red maple leaves
+    winter: '/images/seasons/winter.jpg',    // Snow / temples
+  },
+
+  // Japanese day names
+  dayNames: {
+    full: ['日曜日', '月曜日', '火曜日', '水曜日', '木曜日', '金曜日', '土曜日'],
+    short: ['日', '月', '火', '水', '木', '金', '土'],
+    english: ['Sun', 'Mon', 'Tue', 'Wed', 'Thu', 'Fri', 'Sat'],
+  },
+
+  // Month names in Japanese
+  monthNames: {
+    full: ['1月', '2月', '3月', '4月', '5月', '6月', '7月', '8月', '9月', '10月', '11月', '12月'],
+    traditional: ['睦月', '如月', '弥生', '卯月', '皐月', '水無月', '文月', '葉月', '長月', '神無月', '霜月', '師走'],
+  },
+} as const;
+
+// ============================================================================
 // DARK MODE
 // ============================================================================
 
@@ -391,4 +493,5 @@ export default {
   transitions,
   components,
   darkMode,
+  calendar,
 };

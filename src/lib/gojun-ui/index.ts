@@ -27,6 +27,7 @@ export {
   transitions,
   components,
   darkMode,
+  calendar,
   type ThemeName,
 } from './tokens';
 
