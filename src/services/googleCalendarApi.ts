@@ -8,7 +8,7 @@ export interface GoogleStatus {
 
 // Get Google connection status
 export async function getGoogleStatus(accessToken: string): Promise<GoogleStatus> {
-  const response = await fetch('/api/google-calendar?action=status', {
+  const response = await fetch('/api/google?action=status', {
     headers: { Authorization: `Bearer ${accessToken}` },
   });
 
@@ -21,13 +21,13 @@ export async function getGoogleStatus(accessToken: string): Promise<GoogleStatus
 
 // Start Google OAuth flow
 export function connectGoogle(supabaseToken: string): void {
-  const url = `/api/google-calendar?action=authorize&state=${encodeURIComponent(supabaseToken)}`;
+  const url = `/api/google?action=authorize&state=${encodeURIComponent(supabaseToken)}`;
   window.location.href = url;
 }
 
 // Disconnect Google account
 export async function disconnectGoogle(accessToken: string): Promise<void> {
-  const response = await fetch('/api/google-calendar?action=disconnect', {
+  const response = await fetch('/api/google?action=disconnect', {
     method: 'POST',
     headers: { Authorization: `Bearer ${accessToken}` },
   });
@@ -61,7 +61,7 @@ export async function createWordOfTheDayEvents(
   accessToken: string,
   options: CreateEventsOptions = {}
 ): Promise<CreateEventsResult> {
-  const response = await fetch('/api/google-calendar?action=create-wotd-events', {
+  const response = await fetch('/api/google?action=create-wotd-events', {
     method: 'POST',
     headers: {
       Authorization: `Bearer ${accessToken}`,
@@ -82,7 +82,7 @@ export async function createWordOfTheDayEvents(
 export async function deleteWordOfTheDayEvents(
   accessToken: string
 ): Promise<{ success: boolean; eventsDeleted: number; totalFound: number }> {
-  const response = await fetch('/api/google-calendar?action=delete-wotd-events', {
+  const response = await fetch('/api/google?action=delete-wotd-events', {
     method: 'POST',
     headers: {
       Authorization: `Bearer ${accessToken}`,
@@ -101,7 +101,7 @@ export async function deleteWordOfTheDayEvents(
 export async function listGoogleCalendars(
   accessToken: string
 ): Promise<{ calendars: { id: string; name: string; primary: boolean; color: string }[] }> {
-  const response = await fetch('/api/google-calendar?action=list-calendars', {
+  const response = await fetch('/api/google?action=list-calendars', {
     headers: { Authorization: `Bearer ${accessToken}` },
   });
 
@@ -119,7 +119,7 @@ export async function createWordTask(
   reading: string,
   meaning: string
 ): Promise<{ success: boolean; taskId: string }> {
-  const response = await fetch('/api/google-calendar?action=create-task', {
+  const response = await fetch('/api/google?action=create-task', {
     method: 'POST',
     headers: {
       Authorization: `Bearer ${accessToken}`,
@@ -140,7 +140,7 @@ export async function createWordTask(
 export async function listWordOfTheDayEvents(
   accessToken: string
 ): Promise<{ events: { id: string; summary: string; date: string }[] }> {
-  const response = await fetch('/api/google-calendar?action=list-events', {
+  const response = await fetch('/api/google?action=list-events', {
     headers: { Authorization: `Bearer ${accessToken}` },
   });
 

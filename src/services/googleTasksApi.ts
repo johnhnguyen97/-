@@ -24,10 +24,10 @@ export interface PushResult {
   syncStatus: string;
 }
 
-// Check if Google is connected (uses existing calendar status endpoint)
+// Check if Google is connected (uses combined google endpoint)
 export async function isGoogleConnected(accessToken: string): Promise<boolean> {
   try {
-    const response = await fetch('/api/google-calendar?action=status', {
+    const response = await fetch('/api/google?action=status', {
       headers: { Authorization: `Bearer ${accessToken}` },
     });
     if (!response.ok) return false;
@@ -40,7 +40,7 @@ export async function isGoogleConnected(accessToken: string): Promise<boolean> {
 
 // Ensure the Gojun task list exists on Google
 export async function ensureTaskList(accessToken: string): Promise<{ success: boolean; listId?: string; error?: string }> {
-  const response = await fetch('/api/google-tasks?action=ensure-list', {
+  const response = await fetch('/api/google?action=tasks-ensure-list', {
     method: 'POST',
     headers: {
       Authorization: `Bearer ${accessToken}`,
@@ -59,7 +59,7 @@ export async function ensureTaskList(accessToken: string): Promise<{ success: bo
 
 // Push a single task to Google (called after local CRUD)
 export async function pushTask(accessToken: string, taskId: string): Promise<PushResult> {
-  const response = await fetch('/api/google-tasks?action=push', {
+  const response = await fetch('/api/google?action=tasks-push', {
     method: 'POST',
     headers: {
       Authorization: `Bearer ${accessToken}`,
@@ -78,7 +78,7 @@ export async function pushTask(accessToken: string, taskId: string): Promise<Pus
 
 // Pull all tasks from Google
 export async function pullTasks(accessToken: string): Promise<PullResult> {
-  const response = await fetch('/api/google-tasks?action=pull', {
+  const response = await fetch('/api/google?action=tasks-pull', {
     headers: { Authorization: `Bearer ${accessToken}` },
   });
 
@@ -92,7 +92,7 @@ export async function pullTasks(accessToken: string): Promise<PullResult> {
 
 // Full bidirectional sync
 export async function syncTasks(accessToken: string): Promise<SyncResult> {
-  const response = await fetch('/api/google-tasks?action=sync', {
+  const response = await fetch('/api/google?action=tasks-sync', {
     method: 'POST',
     headers: {
       Authorization: `Bearer ${accessToken}`,
@@ -114,7 +114,7 @@ export async function deleteGoogleTask(
   googleTaskId: string,
   listId?: string
 ): Promise<{ success: boolean }> {
-  const response = await fetch('/api/google-tasks?action=delete', {
+  const response = await fetch('/api/google?action=tasks-delete', {
     method: 'POST',
     headers: {
       Authorization: `Bearer ${accessToken}`,
