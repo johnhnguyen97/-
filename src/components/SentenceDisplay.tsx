@@ -304,7 +304,7 @@ export function SentenceDisplay({
                         reading={slot.japaneseWord.reading}
                         english={slot.japaneseWord.english}
                         partOfSpeech={slot.japaneseWord.partOfSpeech}
-                        isFavorited={false}
+
                       />
                       <WordNoteButton
                         word={slot.japaneseWord.japanese}

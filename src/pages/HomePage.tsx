@@ -602,7 +602,7 @@ export function HomePage() {
                     reading={wordOfTheDay.reading}
                     english={wordOfTheDay.english}
                     partOfSpeech={wordOfTheDay.type.toLowerCase() as 'noun' | 'verb' | 'adjective' | 'adverb' | 'particle' | 'expression'}
-                    isFavorited={false}
+
                   />
                   <WordNoteButton
                     word={wordOfTheDay.japanese}
@@ -673,7 +673,7 @@ export function HomePage() {
                     reading={kanjiOfTheDay.onyomi?.[0] || kanjiOfTheDay.kunyomi?.[0] || ''}
                     english={kanjiOfTheDay.meaning}
                     partOfSpeech="kanji"
-                    isFavorited={false}
+
                   />
                   <WordNoteButton
                     word={kanjiOfTheDay.kanji}

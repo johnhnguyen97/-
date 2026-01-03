@@ -119,7 +119,7 @@ export const DrillQuestionDisplay: React.FC<DrillQuestionDisplayProps> = ({
               reading={sentence.reading || ''}
               english={sentence.english}
               partOfSpeech={sentence.word_type === 'verb' ? 'verb' : 'adjective'}
-              isFavorited={false}
+
             />
             <WordNoteButton
               word={sentence.dictionary_form || sentence.japanese_base}
@@ -222,7 +222,7 @@ export const DrillQuestionDisplay: React.FC<DrillQuestionDisplayProps> = ({
                   reading={sentence.reading || ''}
                   english={sentence.english}
                   partOfSpeech={sentence.word_type === 'verb' ? 'verb' : sentence.adjective_type || 'adjective'}
-                  isFavorited={false}
+
                 />
                 <WordNoteButton
                   word={sentence.dictionary_form || sentence.japanese_base}

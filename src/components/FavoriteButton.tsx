@@ -1,6 +1,5 @@
 import { useState } from 'react';
-import { useAuth } from '../contexts/AuthContext';
-import { saveFavorite, deleteFavorite } from '../services/favoritesApi';
+import { useFavorites } from '../contexts/FavoritesContext';
 
 // Grammar-based categories
 export const WORD_CATEGORIES = [
@@ -46,30 +45,26 @@ interface FavoriteButtonProps {
   reading: string;
   english: string;
   partOfSpeech?: string;
-  isFavorited: boolean;
   onToggle?: () => void;
 }
 
-export function FavoriteButton({ word, reading, english, partOfSpeech, isFavorited, onToggle }: FavoriteButtonProps) {
-  const { session } = useAuth();
-  const [favorited, setFavorited] = useState(isFavorited);
+export function FavoriteButton({ word, reading, english, partOfSpeech, onToggle }: FavoriteButtonProps) {
+  const { isFavorited, addFavorite, removeFavorite } = useFavorites();
   const [loading, setLoading] = useState(false);
+
+  const favorited = isFavorited(word);
 
   const handleClick = async (e: React.MouseEvent) => {
     e.stopPropagation();
 
-    if (!session?.access_token || loading) return;
+    if (loading) return;
 
     setLoading(true);
     try {
       if (favorited) {
-        await deleteFavorite(word, session.access_token);
-        setFavorited(false);
+        await removeFavorite(word);
       } else {
-        // Auto-detect category
-        const category = detectCategory(partOfSpeech, word);
-        await saveFavorite(word, reading, english, session.access_token, category);
-        setFavorited(true);
+        await addFavorite(word, reading, english, partOfSpeech);
       }
       if (onToggle) onToggle();
     } catch (error) {

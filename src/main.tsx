@@ -7,14 +7,17 @@ import './index.css'
 import { router } from './routes'
 import { AuthProvider } from './contexts/AuthContext'
 import { ThemeProvider } from './contexts/ThemeContext'
+import { FavoritesProvider } from './contexts/FavoritesContext'
 
 createRoot(document.getElementById('root')!).render(
   <StrictMode>
     <AuthProvider>
       <ThemeProvider>
-        <RouterProvider router={router} />
-        <SpeedInsights />
-        <Analytics />
+        <FavoritesProvider>
+          <RouterProvider router={router} />
+          <SpeedInsights />
+          <Analytics />
+        </FavoritesProvider>
       </ThemeProvider>
     </AuthProvider>
   </StrictMode>,

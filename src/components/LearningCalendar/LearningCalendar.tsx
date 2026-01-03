@@ -169,7 +169,7 @@ export function LearningCalendar({ onClose, embedded = false }: LearningCalendar
                     reading={dailyData.wordOfTheDay.reading}
                     english={dailyData.wordOfTheDay.meaning}
                     partOfSpeech={dailyData.wordOfTheDay.partOfSpeech}
-                    isFavorited={false}
+
                   />
                   <WordNoteButton
                     word={dailyData.wordOfTheDay.word}
@@ -225,7 +225,7 @@ export function LearningCalendar({ onClose, embedded = false }: LearningCalendar
                     reading={dailyData.kanjiOfTheDay.onyomi?.[0] || dailyData.kanjiOfTheDay.kunyomi?.[0] || ''}
                     english={dailyData.kanjiOfTheDay.meaning}
                     partOfSpeech="kanji"
-                    isFavorited={false}
+
                   />
                   <WordNoteButton
                     word={dailyData.kanjiOfTheDay.kanji}
@@ -383,7 +383,7 @@ export function LearningCalendar({ onClose, embedded = false }: LearningCalendar
                         reading={dailyData.wordOfTheDay.reading}
                         english={dailyData.wordOfTheDay.meaning}
                         partOfSpeech={dailyData.wordOfTheDay.partOfSpeech}
-                        isFavorited={false}
+
                       />
                       <WordNoteButton
                         word={dailyData.wordOfTheDay.word}
@@ -439,7 +439,7 @@ export function LearningCalendar({ onClose, embedded = false }: LearningCalendar
                         reading={dailyData.kanjiOfTheDay.onyomi?.[0] || dailyData.kanjiOfTheDay.kunyomi?.[0] || ''}
                         english={dailyData.kanjiOfTheDay.meaning}
                         partOfSpeech="kanji"
-                        isFavorited={false}
+
                       />
                       <WordNoteButton
                         word={dailyData.kanjiOfTheDay.kanji}
