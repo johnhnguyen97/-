@@ -1,11 +1,6 @@
 import { useState, useEffect, useRef } from 'react';
 import { createPortal } from 'react-dom';
-
-interface WordNote {
-  word: string;
-  note: string;
-  updated_at: string;
-}
+import { useWordNotes } from '../contexts/WordNotesContext';
 
 interface WordNoteButtonProps {
   word: string;
@@ -15,25 +10,21 @@ interface WordNoteButtonProps {
 }
 
 export function WordNoteButton({ word, reading, english, onPopupChange }: WordNoteButtonProps) {
+  const { hasNote, getNote, saveNote, deleteNote } = useWordNotes();
   const [isOpen, setIsOpen] = useState(false);
-  const [note, setNote] = useState('');
-  const [hasNote, setHasNote] = useState(false);
+  const [noteText, setNoteText] = useState('');
   const [popupPosition, setPopupPosition] = useState({ top: 0, left: 0 });
   const popupRef = useRef<HTMLDivElement>(null);
   const buttonRef = useRef<HTMLButtonElement>(null);
 
-  // Load note from localStorage
+  const noted = hasNote(word);
+
+  // Load note when popup opens
   useEffect(() => {
-    const stored = localStorage.getItem('gojun-word-notes');
-    if (stored) {
-      const notes: WordNote[] = JSON.parse(stored);
-      const existing = notes.find(n => n.word === word);
-      if (existing) {
-        setNote(existing.note);
-        setHasNote(true);
-      }
+    if (isOpen) {
+      setNoteText(getNote(word));
     }
-  }, [word]);
+  }, [isOpen, word, getNote]);
 
   // Close popup when clicking outside
   useEffect(() => {
@@ -71,31 +62,19 @@ export function WordNoteButton({ word, reading, english, onPopupChange }: WordNo
     onPopupChange?.(newState);
   };
 
-  const saveNote = () => {
-    const stored = localStorage.getItem('gojun-word-notes');
-    let notes: WordNote[] = stored ? JSON.parse(stored) : [];
-
-    const existingIndex = notes.findIndex(n => n.word === word);
-
-    if (note.trim()) {
-      const newNote: WordNote = {
-        word,
-        note: note.trim(),
-        updated_at: new Date().toISOString()
-      };
-
-      if (existingIndex >= 0) {
-        notes[existingIndex] = newNote;
-      } else {
-        notes.push(newNote);
-      }
-      setHasNote(true);
+  const handleSave = () => {
+    if (noteText.trim()) {
+      saveNote(word, noteText.trim());
     } else {
-      notes = notes.filter(n => n.word !== word);
-      setHasNote(false);
+      deleteNote(word);
     }
+    setIsOpen(false);
+    onPopupChange?.(false);
+  };
 
-    localStorage.setItem('gojun-word-notes', JSON.stringify(notes));
+  const handleDelete = () => {
+    setNoteText('');
+    deleteNote(word);
     setIsOpen(false);
     onPopupChange?.(false);
   };
@@ -106,11 +85,11 @@ export function WordNoteButton({ word, reading, english, onPopupChange }: WordNo
         ref={buttonRef}
         onClick={handleClick}
         className={`w-5 h-5 rounded-full flex items-center justify-center transition-all active:scale-90 ${
-          hasNote
+          noted
             ? 'bg-gradient-to-br from-violet-500 to-purple-600 text-white shadow-sm'
             : 'bg-white/90 shadow-sm border border-gray-200 hover:bg-purple-50 hover:border-purple-300 text-gray-400 hover:text-purple-500'
         }`}
-        title={hasNote ? 'Edit note' : 'Add note'}
+        title={noted ? 'Edit note' : 'Add note'}
       >
         <svg className="w-2.5 h-2.5" fill="none" stroke="currentColor" viewBox="0 0 24 24">
           <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M11 5H6a2 2 0 00-2 2v11a2 2 0 002 2h11a2 2 0 002-2v-5m-1.414-9.414a2 2 0 112.828 2.828L11.828 15H9v-2.828l8.586-8.586z" />
@@ -138,8 +117,8 @@ export function WordNoteButton({ word, reading, english, onPopupChange }: WordNo
           {/* Note input */}
           <div className="p-2">
             <textarea
-              value={note}
-              onChange={(e) => setNote(e.target.value)}
+              value={noteText}
+              onChange={(e) => setNoteText(e.target.value)}
               placeholder="Write a quick note..."
               className="w-full h-16 p-2 text-sm border border-gray-200 rounded-lg resize-none focus:outline-none focus:border-violet-400 focus:ring-1 focus:ring-violet-200"
               autoFocus
@@ -147,19 +126,16 @@ export function WordNoteButton({ word, reading, english, onPopupChange }: WordNo
 
             {/* Actions */}
             <div className="flex justify-end gap-1 mt-2">
-              {hasNote && (
+              {noted && (
                 <button
-                  onClick={() => {
-                    setNote('');
-                    saveNote();
-                  }}
+                  onClick={handleDelete}
                   className="px-2 py-1 text-xs text-red-500 hover:bg-red-50 rounded transition-colors"
                 >
                   Delete
                 </button>
               )}
               <button
-                onClick={saveNote}
+                onClick={handleSave}
                 className="px-3 py-1 text-xs bg-gradient-to-r from-violet-500 to-purple-600 text-white rounded font-medium hover:shadow-md transition-all"
               >
                 Save
