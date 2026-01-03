@@ -157,12 +157,12 @@ export const CONJUGATION_PHASES: ConjugationPhase[] = [
 
 // Human-readable form names
 export const FORM_DISPLAY_NAMES: Record<string, { en: string; jp: string }> = {
-  // Polite forms
+  // Polite forms (drill system names)
   masu_positive: { en: 'Polite Present', jp: 'ます形' },
   masu_negative: { en: 'Polite Negative', jp: 'ません形' },
   masu_past_positive: { en: 'Polite Past', jp: 'ました形' },
   masu_past_negative: { en: 'Polite Past Negative', jp: 'ませんでした形' },
-  // Plain forms
+  // Plain forms (drill system names)
   plain_positive: { en: 'Dictionary Form', jp: '辞書形' },
   plain_negative: { en: 'Plain Negative', jp: 'ない形' },
   plain_past_positive: { en: 'Plain Past', jp: 'た形' },
@@ -195,12 +195,23 @@ export const FORM_DISPLAY_NAMES: Record<string, { en: string; jp: string }> = {
   // Imperative
   imperative: { en: 'Imperative (Command)', jp: '命令形' },
   imperative_negative: { en: 'Negative Command', jp: '禁止形' },
-  // Legacy (backward compatibility)
+  // Legacy (backward compatibility) - these are drill_prompts form names
   present_positive: { en: 'Polite Present', jp: 'ます形' },
   present_negative: { en: 'Polite Negative', jp: 'ません形' },
   past_positive: { en: 'Polite Past', jp: 'ました形' },
-  past_negative: { en: 'Polite Past Negative', jp: 'ませんでした形' },
+  // Note: 'past_negative' below is for grammar engine plain past negative (なかった)
   potential: { en: 'Potential', jp: '可能形' },
+  // Grammar engine form names (for API compatibility)
+  masu: { en: 'Polite Present', jp: 'ます形' },
+  masen: { en: 'Polite Negative', jp: 'ません形' },
+  mashita: { en: 'Polite Past', jp: 'ました形' },
+  masen_deshita: { en: 'Polite Past Negative', jp: 'ませんでした形' },
+  dictionary: { en: 'Dictionary Form', jp: '辞書形' },
+  negative: { en: 'Plain Negative', jp: 'ない形' },
+  past: { en: 'Plain Past', jp: 'た形' },
+  past_negative: { en: 'Plain Past Negative', jp: 'なかった形' },
+  te: { en: 'Te-form', jp: 'て形' },
+  tai: { en: 'Want to (~tai)', jp: 'たい形' },
 };
 
 // Verb group display names

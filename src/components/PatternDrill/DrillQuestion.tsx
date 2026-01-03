@@ -88,7 +88,7 @@ export const DrillQuestionDisplay: React.FC<DrillQuestionDisplayProps> = ({
     return (
       <button
         onClick={() => handleSpeak(text)}
-        className={`rounded-full transition-all flex-shrink-0 flex items-center justify-center ${sizeClasses[size]} ${getAudioBtnStyle(isPlaying)}`}
+        className={`rounded-full transition-all flex-shrink-0 flex items-center justify-center outline-none focus:outline-none focus:ring-0 ${sizeClasses[size]} ${getAudioBtnStyle(isPlaying)}`}
         title="Listen to pronunciation"
       >
         <svg

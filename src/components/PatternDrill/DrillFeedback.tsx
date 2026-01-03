@@ -109,7 +109,7 @@ export const DrillFeedback: React.FC<DrillFeedbackProps> = ({
             </div>
             <button
               onClick={() => speak(correctAnswer.japanese)}
-              className={`w-12 h-12 rounded-full transition-all flex items-center justify-center shadow-md
+              className={`w-12 h-12 rounded-full transition-all flex items-center justify-center shadow-md outline-none focus:outline-none focus:ring-0
                 ${speaking
                   ? 'bg-indigo-500 text-white animate-pulse scale-110'
                   : 'bg-white hover:bg-indigo-50 hover:scale-105 border border-gray-200'

@@ -209,7 +209,7 @@ export const DrillAnswer: React.FC<DrillAnswerProps> = ({
                   <button
                     onClick={(e) => handleSpeak(e, option.text)}
                     disabled={disabled}
-                    className={`p-2.5 sm:p-3 rounded-xl transition-all flex-shrink-0 ${
+                    className={`p-2.5 sm:p-3 rounded-xl transition-all flex-shrink-0 outline-none focus:outline-none focus:ring-0 ${
                       isPlaying
                         ? 'bg-purple-500 text-white scale-110 animate-pulse shadow-lg shadow-purple-500/30'
                         : isDark

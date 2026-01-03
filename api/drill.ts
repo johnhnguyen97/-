@@ -503,10 +503,9 @@ export default async function handler(req: VercelRequest, res: VercelResponse) {
         message: 'No valid question combinations found. The grammar engine conjugations may not match the selected phases.',
         debug: {
           verbCount: verbs.length,
-          promptCount: prompts.length,
+          phases: phaseList,
           sampleVerb: verbs[0]?.dictionary_form,
           sampleConjugations: verbs[0] ? Object.keys(verbs[0].conjugations || {}) : [],
-          samplePromptForms: prompts.slice(0, 3).map(p => p.to_form),
         }
       });
     }
