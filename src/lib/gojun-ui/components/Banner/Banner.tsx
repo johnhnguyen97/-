@@ -10,22 +10,145 @@ function getSeasonFromMonth(month: number): 'spring' | 'summer' | 'autumn' | 'wi
   return 'winter';                                  // Dec, Jan, Feb
 }
 
-// Mt. Fuji SVG component
-function MtFuji({ className }: { className?: string }) {
+// Spring scene - Cherry blossom tree with pagoda
+function SpringScene({ className }: { className?: string }) {
   return (
-    <svg viewBox="0 0 200 80" className={className} preserveAspectRatio="xMidYMax meet">
-      {/* Mountain body */}
-      <path
-        d="M100 5 L180 75 L20 75 Z"
-        className="fill-slate-600/20 dark:fill-white/10"
-      />
-      {/* Snow cap */}
-      <path
-        d="M100 5 L120 25 L115 28 L105 20 L100 25 L95 20 L85 28 L80 25 Z"
-        className="fill-white/60 dark:fill-white/30"
-      />
+    <svg viewBox="0 0 300 120" className={className} preserveAspectRatio="xMidYMax meet">
+      {/* Pagoda */}
+      <g className="fill-rose-400/30 dark:fill-rose-300/20">
+        <path d="M230 120 L230 80 L250 80 L250 120 Z" />
+        <path d="M220 82 L260 82 L255 75 L240 70 L225 75 Z" />
+        <path d="M225 72 L255 72 L250 65 L240 60 L230 65 Z" />
+        <path d="M228 62 L252 62 L248 55 L240 50 L232 55 Z" />
+        <path d="M238 52 L242 52 L240 42 Z" />
+      </g>
+      {/* Cherry tree trunk */}
+      <path d="M80 120 L85 70 L90 120 Z" className="fill-amber-800/30 dark:fill-amber-600/20" />
+      <path d="M85 75 L70 60 M85 80 L100 65" className="stroke-amber-800/30 dark:stroke-amber-600/20" strokeWidth="3" fill="none" />
+      {/* Cherry blossoms */}
+      <g className="fill-pink-300/50 dark:fill-pink-400/30">
+        <circle cx="60" cy="50" r="15" />
+        <circle cx="80" cy="40" r="18" />
+        <circle cx="100" cy="50" r="14" />
+        <circle cx="70" cy="65" r="12" />
+        <circle cx="95" cy="62" r="13" />
+        <circle cx="85" cy="55" r="10" />
+      </g>
+      {/* Ground */}
+      <ellipse cx="150" cy="120" rx="140" ry="8" className="fill-green-300/20 dark:fill-green-500/10" />
     </svg>
   );
+}
+
+// Summer scene - Beach with ocean and sun
+function SummerScene({ className }: { className?: string }) {
+  return (
+    <svg viewBox="0 0 300 120" className={className} preserveAspectRatio="xMidYMax meet">
+      {/* Sun */}
+      <circle cx="250" cy="25" r="20" className="fill-yellow-300/40 dark:fill-yellow-400/20" />
+      {/* Sun rays */}
+      <g className="stroke-yellow-300/30 dark:stroke-yellow-400/15" strokeWidth="2">
+        <line x1="250" y1="0" x2="250" y2="5" />
+        <line x1="275" y1="25" x2="280" y2="25" />
+        <line x1="267" y1="8" x2="271" y2="4" />
+        <line x1="267" y1="42" x2="271" y2="46" />
+      </g>
+      {/* Ocean waves */}
+      <path d="M0 80 Q30 70 60 80 T120 80 T180 80 T240 80 T300 80 L300 120 L0 120 Z" className="fill-cyan-400/30 dark:fill-cyan-500/20" />
+      <path d="M0 90 Q25 82 50 90 T100 90 T150 90 T200 90 T250 90 T300 90 L300 120 L0 120 Z" className="fill-blue-400/25 dark:fill-blue-500/15" />
+      {/* Beach */}
+      <path d="M0 100 Q150 95 300 100 L300 120 L0 120 Z" className="fill-amber-200/40 dark:fill-amber-300/20" />
+      {/* Palm tree */}
+      <path d="M40 120 L45 70 L50 120 Z" className="fill-amber-700/30 dark:fill-amber-600/20" />
+      <g className="fill-green-500/35 dark:fill-green-400/20">
+        <ellipse cx="30" cy="60" rx="20" ry="8" transform="rotate(-30 30 60)" />
+        <ellipse cx="60" cy="60" rx="20" ry="8" transform="rotate(30 60 60)" />
+        <ellipse cx="45" cy="55" rx="18" ry="7" transform="rotate(-10 45 55)" />
+      </g>
+    </svg>
+  );
+}
+
+// Autumn scene - Temple with red maple trees
+function AutumnScene({ className }: { className?: string }) {
+  return (
+    <svg viewBox="0 0 300 120" className={className} preserveAspectRatio="xMidYMax meet">
+      {/* Mountains in background */}
+      <path d="M0 90 L50 50 L100 90 Z" className="fill-orange-300/20 dark:fill-orange-400/10" />
+      <path d="M80 90 L140 40 L200 90 Z" className="fill-red-300/20 dark:fill-red-400/10" />
+      <path d="M180 90 L250 55 L300 90 Z" className="fill-amber-300/20 dark:fill-amber-400/10" />
+      {/* Temple */}
+      <g className="fill-slate-600/25 dark:fill-slate-400/15">
+        <rect x="130" y="85" width="40" height="35" />
+        <path d="M120 87 L170 87 L150 70 Z" />
+        <rect x="145" y="95" width="10" height="25" className="fill-amber-900/30 dark:fill-amber-700/20" />
+      </g>
+      {/* Maple trees */}
+      <g>
+        <path d="M60 120 L65 80 L70 120 Z" className="fill-amber-800/30 dark:fill-amber-600/20" />
+        <circle cx="65" cy="65" r="20" className="fill-red-500/40 dark:fill-red-400/25" />
+        <circle cx="55" cy="75" r="12" className="fill-orange-500/35 dark:fill-orange-400/20" />
+        <circle cx="75" cy="72" r="14" className="fill-red-600/35 dark:fill-red-500/20" />
+      </g>
+      <g>
+        <path d="M240 120 L245 85 L250 120 Z" className="fill-amber-800/30 dark:fill-amber-600/20" />
+        <circle cx="245" cy="70" r="18" className="fill-orange-500/40 dark:fill-orange-400/25" />
+        <circle cx="235" cy="78" r="11" className="fill-red-500/35 dark:fill-red-400/20" />
+        <circle cx="255" cy="75" r="13" className="fill-yellow-600/35 dark:fill-yellow-500/20" />
+      </g>
+      {/* Ground */}
+      <ellipse cx="150" cy="120" rx="145" ry="10" className="fill-amber-200/25 dark:fill-amber-300/10" />
+    </svg>
+  );
+}
+
+// Winter scene - Snow village (Shirakawa-go style)
+function WinterScene({ className }: { className?: string }) {
+  return (
+    <svg viewBox="0 0 300 120" className={className} preserveAspectRatio="xMidYMax meet">
+      {/* Snowy mountains */}
+      <path d="M0 80 L60 30 L120 80 Z" className="fill-slate-300/30 dark:fill-slate-400/15" />
+      <path d="M60 35 L75 50 L70 48 L60 40 L50 48 L45 50 Z" className="fill-white/50 dark:fill-white/25" />
+      <path d="M200 80 L270 25 L300 60 L300 80 Z" className="fill-slate-300/30 dark:fill-slate-400/15" />
+      <path d="M270 30 L285 50 L280 47 L270 38 L260 47 L255 50 Z" className="fill-white/50 dark:fill-white/25" />
+      {/* Traditional houses */}
+      <g>
+        {/* House 1 */}
+        <rect x="70" y="90" width="35" height="30" className="fill-amber-100/40 dark:fill-amber-200/20" />
+        <path d="M65 92 L87 60 L110 92 Z" className="fill-slate-500/30 dark:fill-slate-400/20" />
+        <path d="M65 92 L87 60 L110 92 Z" className="fill-white/40 dark:fill-white/20" />
+        <rect x="80" y="100" width="10" height="20" className="fill-amber-800/30 dark:fill-amber-600/20" />
+      </g>
+      <g>
+        {/* House 2 */}
+        <rect x="150" y="85" width="40" height="35" className="fill-amber-100/40 dark:fill-amber-200/20" />
+        <path d="M145 87 L170 52 L195 87 Z" className="fill-slate-500/30 dark:fill-slate-400/20" />
+        <path d="M145 87 L170 52 L195 87 Z" className="fill-white/40 dark:fill-white/20" />
+        <rect x="163" y="97" width="12" height="23" className="fill-amber-800/30 dark:fill-amber-600/20" />
+      </g>
+      {/* Snow on ground */}
+      <ellipse cx="150" cy="120" rx="150" ry="12" className="fill-white/40 dark:fill-white/20" />
+      {/* Snow dots */}
+      <g className="fill-white/60 dark:fill-white/30">
+        <circle cx="30" cy="40" r="2" />
+        <circle cx="100" cy="25" r="1.5" />
+        <circle cx="180" cy="35" r="2" />
+        <circle cx="250" cy="45" r="1.5" />
+        <circle cx="50" cy="60" r="1" />
+        <circle cx="220" cy="55" r="2" />
+      </g>
+    </svg>
+  );
+}
+
+// Get seasonal scene component
+function SeasonalScene({ season, className }: { season: 'spring' | 'summer' | 'autumn' | 'winter'; className?: string }) {
+  switch (season) {
+    case 'spring': return <SpringScene className={className} />;
+    case 'summer': return <SummerScene className={className} />;
+    case 'autumn': return <AutumnScene className={className} />;
+    case 'winter': return <WinterScene className={className} />;
+  }
 }
 
 // Falling element component
@@ -106,13 +229,13 @@ function SeasonalGradient({ month }: { month?: number }) {
 
   return (
     <div className={cn('absolute inset-0', style.gradient, style.darkGradient)}>
-      {/* Mt. Fuji in background */}
-      <div className="absolute bottom-0 left-1/2 -translate-x-1/2 w-[300px] h-[120px]">
-        <MtFuji className="w-full h-full" />
+      {/* Seasonal scene in background */}
+      <div className="absolute bottom-0 left-1/2 -translate-x-1/2 w-full h-[140px]">
+        <SeasonalScene season={season} className="w-full h-full" />
       </div>
 
       {/* Large kanji watermark */}
-      <div className="absolute top-1/2 left-1/2 -translate-x-1/2 -translate-y-1/2 text-[120px] font-serif text-gray-800/20 dark:text-white/20 select-none">
+      <div className="absolute top-1/2 left-1/2 -translate-x-1/2 -translate-y-1/2 text-[100px] font-serif text-gray-800/15 dark:text-white/15 select-none">
         {style.kanji}
       </div>
 
