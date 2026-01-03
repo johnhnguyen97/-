@@ -2,12 +2,57 @@ import { type ReactNode, useState, useMemo } from 'react';
 import { cn } from '../../utils/cn';
 
 // Get season based on month (0-indexed: 0=Jan, 11=Dec)
+// Spring: March-May (2-4), Summer: June-August (5-7), Autumn: September-November (8-10), Winter: December-February (11, 0, 1)
 function getSeasonFromMonth(month: number): 'spring' | 'summer' | 'autumn' | 'winter' {
-  const m = month + 1; // Convert to 1-indexed
-  if (m >= 3 && m <= 5) return 'spring';
-  if (m >= 6 && m <= 8) return 'summer';
-  if (m >= 9 && m <= 11) return 'autumn';
-  return 'winter';
+  if (month >= 2 && month <= 4) return 'spring';   // Mar, Apr, May
+  if (month >= 5 && month <= 7) return 'summer';   // Jun, Jul, Aug
+  if (month >= 8 && month <= 10) return 'autumn';  // Sep, Oct, Nov
+  return 'winter';                                  // Dec, Jan, Feb
+}
+
+// Mt. Fuji SVG component
+function MtFuji({ className }: { className?: string }) {
+  return (
+    <svg viewBox="0 0 200 80" className={className} preserveAspectRatio="xMidYMax meet">
+      {/* Mountain body */}
+      <path
+        d="M100 5 L180 75 L20 75 Z"
+        className="fill-slate-600/20 dark:fill-white/10"
+      />
+      {/* Snow cap */}
+      <path
+        d="M100 5 L120 25 L115 28 L105 20 L100 25 L95 20 L85 28 L80 25 Z"
+        className="fill-white/60 dark:fill-white/30"
+      />
+    </svg>
+  );
+}
+
+// Falling element component
+function FallingElement({
+  children,
+  delay,
+  duration,
+  startX
+}: {
+  children: ReactNode;
+  delay: number;
+  duration: number;
+  startX: number;
+}) {
+  return (
+    <div
+      className="absolute animate-fall pointer-events-none"
+      style={{
+        left: `${startX}%`,
+        top: '-20px',
+        animationDelay: `${delay}s`,
+        animationDuration: `${duration}s`,
+      }}
+    >
+      {children}
+    </div>
+  );
 }
 
 // Beautiful seasonal gradient fallback
@@ -16,47 +61,73 @@ function SeasonalGradient({ month }: { month?: number }) {
 
   const seasonStyles = {
     spring: {
-      gradient: 'bg-gradient-to-br from-pink-200 via-rose-100 to-pink-300',
-      darkGradient: 'dark:from-pink-900/60 dark:via-rose-800/40 dark:to-pink-900/60',
-      kanji: '桜',
-      decoration: '🌸',
+      gradient: 'bg-gradient-to-b from-pink-100 via-rose-50 to-pink-200',
+      darkGradient: 'dark:from-pink-950 dark:via-rose-900/60 dark:to-pink-900/40',
+      kanji: '春',
+      elements: ['🌸', '🌷', '💮'],
     },
     summer: {
-      gradient: 'bg-gradient-to-br from-sky-200 via-blue-100 to-cyan-200',
-      darkGradient: 'dark:from-sky-900/60 dark:via-blue-800/40 dark:to-cyan-900/60',
-      kanji: '富',
-      decoration: '🗻',
+      gradient: 'bg-gradient-to-b from-sky-100 via-cyan-50 to-blue-200',
+      darkGradient: 'dark:from-sky-950 dark:via-cyan-900/60 dark:to-blue-900/40',
+      kanji: '夏',
+      elements: ['☀️', '🌻', '🌊'],
     },
     autumn: {
-      gradient: 'bg-gradient-to-br from-orange-200 via-amber-100 to-red-200',
-      darkGradient: 'dark:from-orange-900/60 dark:via-amber-800/40 dark:to-red-900/60',
-      kanji: '紅',
-      decoration: '🍁',
+      gradient: 'bg-gradient-to-b from-orange-100 via-amber-50 to-red-200',
+      darkGradient: 'dark:from-orange-950 dark:via-amber-900/60 dark:to-red-900/40',
+      kanji: '秋',
+      elements: ['🍁', '🍂', '🍃'],
     },
     winter: {
-      gradient: 'bg-gradient-to-br from-slate-200 via-blue-50 to-indigo-200',
-      darkGradient: 'dark:from-slate-900/60 dark:via-blue-900/40 dark:to-indigo-900/60',
-      kanji: '雪',
-      decoration: '❄️',
+      gradient: 'bg-gradient-to-b from-slate-100 via-blue-50 to-indigo-100',
+      darkGradient: 'dark:from-slate-950 dark:via-blue-900/60 dark:to-indigo-900/40',
+      kanji: '冬',
+      elements: ['❄️', '🌨️', '❅'],
     },
   };
 
   const style = seasonStyles[season];
 
+  // Generate falling elements with varied positions and timings
+  const fallingElements = useMemo(() => {
+    const elements: { id: number; element: string; x: number; delay: number; duration: number; size: string }[] = [];
+    for (let i = 0; i < 12; i++) {
+      elements.push({
+        id: i,
+        element: style.elements[i % style.elements.length],
+        x: 5 + (i * 8) + Math.random() * 5,
+        delay: Math.random() * 8,
+        duration: 6 + Math.random() * 4,
+        size: ['text-sm', 'text-base', 'text-lg', 'text-xl'][Math.floor(Math.random() * 4)],
+      });
+    }
+    return elements;
+  }, [style.elements]);
+
   return (
     <div className={cn('absolute inset-0', style.gradient, style.darkGradient)}>
-      {/* Decorative elements */}
-      <div className="absolute inset-0 overflow-hidden">
-        {/* Large kanji watermark */}
-        <div className="absolute top-1/2 left-1/2 -translate-x-1/2 -translate-y-1/2 text-[150px] font-serif text-gray-800/30 dark:text-white/40 select-none">
-          {style.kanji}
-        </div>
+      {/* Mt. Fuji in background */}
+      <div className="absolute bottom-0 left-1/2 -translate-x-1/2 w-[300px] h-[120px]">
+        <MtFuji className="w-full h-full" />
+      </div>
 
-        {/* Floating decorations */}
-        <div className="absolute top-4 right-8 text-3xl opacity-40 animate-float">{style.decoration}</div>
-        <div className="absolute top-12 left-12 text-2xl opacity-30 animate-float" style={{ animationDelay: '1s' }}>{style.decoration}</div>
-        <div className="absolute bottom-16 right-16 text-xl opacity-25 animate-float" style={{ animationDelay: '2s' }}>{style.decoration}</div>
-        <div className="absolute bottom-8 left-1/4 text-2xl opacity-35 animate-float" style={{ animationDelay: '0.5s' }}>{style.decoration}</div>
+      {/* Large kanji watermark */}
+      <div className="absolute top-1/2 left-1/2 -translate-x-1/2 -translate-y-1/2 text-[120px] font-serif text-gray-800/20 dark:text-white/20 select-none">
+        {style.kanji}
+      </div>
+
+      {/* Falling seasonal elements */}
+      <div className="absolute inset-0 overflow-hidden">
+        {fallingElements.map((item) => (
+          <FallingElement
+            key={item.id}
+            delay={item.delay}
+            duration={item.duration}
+            startX={item.x}
+          >
+            <span className={`${item.size} opacity-60`}>{item.element}</span>
+          </FallingElement>
+        ))}
       </div>
     </div>
   );
