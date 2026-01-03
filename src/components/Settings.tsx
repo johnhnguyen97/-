@@ -39,9 +39,9 @@ export function Settings({ onClose }: SettingsProps) {
     return (localStorage.getItem('gojun-ai-provider') as AIProvider) || 'groq';
   });
 
-  // Google Keep state
-  const [keepConnected, setKeepConnected] = useState(false);
-  const [keepEmail, setKeepEmail] = useState<string | null>(null);
+  // Google Keep state (for future use)
+  const [, setKeepConnected] = useState(false);
+  const [, setKeepEmail] = useState<string | null>(null);
 
   // Google account linking state
   const [googleLinkLoading, setGoogleLinkLoading] = useState(false);
@@ -190,11 +190,13 @@ export function Settings({ onClose }: SettingsProps) {
     handleClose();
   };
 
-  const handleDisconnectKeep = () => {
+  // Keep for future Google Keep integration
+  const _handleDisconnectKeep = () => {
     disconnectKeep();
     setKeepConnected(false);
     setKeepEmail(null);
   };
+  void _handleDisconnectKeep; // suppress unused warning
 
   const handleGenerateIcal = async () => {
     if (!session?.access_token) return;
@@ -615,50 +617,134 @@ export function Settings({ onClose }: SettingsProps) {
               </div>
             </div>
 
-            {/* Data & Sync Section */}
+            {/* Google Tasks Section */}
             <div className="px-6 py-4">
               <button
-                onClick={() => toggleSection('sync')}
+                onClick={() => toggleSection('tasks')}
                 className="w-full flex items-center justify-between group"
               >
                 <div className="flex items-center gap-3">
-                  <div className="w-10 h-10 bg-amber-100 rounded-xl flex items-center justify-center group-hover:scale-110 transition-transform duration-200">
-                    <svg className="w-5 h-5 text-amber-600" fill="none" stroke="currentColor" viewBox="0 0 24 24">
-                      <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M4 7v10c0 2.21 3.582 4 8 4s8-1.79 8-4V7M4 7c0 2.21 3.582 4 8 4s8-1.79 8-4M4 7c0-2.21 3.582-4 8-4s8 1.79 8 4" />
+                  <div className="w-10 h-10 bg-blue-100 rounded-xl flex items-center justify-center group-hover:scale-110 transition-transform duration-200">
+                    <svg className="w-5 h-5 text-blue-600" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                      <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M9 5H7a2 2 0 00-2 2v12a2 2 0 002 2h10a2 2 0 002-2V7a2 2 0 00-2-2h-2M9 5a2 2 0 002 2h2a2 2 0 002-2M9 5a2 2 0 012-2h2a2 2 0 012 2m-6 9l2 2 4-4" />
                     </svg>
                   </div>
                   <div className="text-left">
-                    <p className="font-medium text-gray-900">Data & Sync</p>
+                    <p className="font-medium text-gray-900">Google Tasks</p>
                     <p className="text-sm text-gray-500">
-                      {keepConnected ? `Keep: ${keepEmail}` : 'Google Keep, export'}
+                      {googleStatus?.connected ? `Synced to ${googleStatus.email}` : 'Sync your 課題 to Google'}
                     </p>
                   </div>
                 </div>
-                <svg className={`w-5 h-5 text-gray-400 transition-transform ${expandedSection === 'sync' ? 'rotate-180' : ''}`} fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                <svg className={`w-5 h-5 text-gray-400 transition-transform ${expandedSection === 'tasks' ? 'rotate-180' : ''}`} fill="none" stroke="currentColor" viewBox="0 0 24 24">
                   <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M19 9l-7 7-7-7" />
                 </svg>
               </button>
 
               <div className={`overflow-hidden transition-all duration-300 ease-out ${
-                expandedSection === 'sync' ? 'max-h-[800px] opacity-100 mt-4' : 'max-h-0 opacity-0'
+                expandedSection === 'tasks' ? 'max-h-[400px] opacity-100 mt-4' : 'max-h-0 opacity-0'
               }`}>
                 <div className="space-y-3">
-                  {/* Google Calendar Sync */}
-                  <div className="p-3 bg-gray-50 rounded-xl">
+                  <div className="p-4 bg-gradient-to-br from-blue-50 to-cyan-50 rounded-xl border border-blue-100">
                     <div className="flex items-center gap-3 mb-3">
-                      <div className="w-8 h-8 bg-blue-500 rounded-lg flex items-center justify-center">
-                        <svg className="w-5 h-5 text-white" viewBox="0 0 24 24" fill="currentColor">
+                      <div className="w-10 h-10 bg-white rounded-xl flex items-center justify-center shadow-sm">
+                        <svg className="w-6 h-6" viewBox="0 0 24 24">
+                          <circle cx="12" cy="12" r="10" fill="#4285F4"/>
+                          <path fill="white" d="M8 12l2 2 4-4" stroke="white" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round"/>
+                        </svg>
+                      </div>
+                      <div className="flex-1">
+                        <span className="text-sm font-semibold text-gray-800">Google Tasks</span>
+                        <p className="text-xs text-gray-500">
+                          {googleStatus?.connected ? 'Two-way sync enabled' : 'Sync tasks to My Tasks list'}
+                        </p>
+                      </div>
+                      {googleStatus?.connected && (
+                        <span className="px-2.5 py-1 bg-green-100 text-green-700 text-xs font-medium rounded-full">Connected</span>
+                      )}
+                    </div>
+
+                    {googleStatus?.connected ? (
+                      <div className="space-y-3">
+                        <div className="p-3 bg-white/60 rounded-lg">
+                          <p className="text-sm text-gray-700">
+                            ✓ Tasks sync to <span className="font-medium">My Tasks</span> in Google Tasks
+                          </p>
+                          <p className="text-xs text-gray-500 mt-1">
+                            Complete tasks in either place - they'll sync automatically
+                          </p>
+                        </div>
+                        <button
+                          onClick={handleDisconnectGoogle}
+                          disabled={googleLoading}
+                          className="w-full py-2 text-gray-500 text-sm hover:text-red-600 hover:bg-red-50 rounded-lg transition-colors"
+                        >
+                          Disconnect Google Tasks
+                        </button>
+                      </div>
+                    ) : (
+                      <button
+                        onClick={handleConnectGoogle}
+                        disabled={googleLoading}
+                        className="w-full py-2.5 bg-gradient-to-r from-blue-500 to-blue-600 text-white text-sm font-medium rounded-lg hover:from-blue-600 hover:to-blue-700 disabled:opacity-50 transition-all shadow-md shadow-blue-200 flex items-center justify-center gap-2"
+                      >
+                        <svg className="w-4 h-4" viewBox="0 0 24 24">
+                          <path fill="currentColor" d="M22.56 12.25c0-.78-.07-1.53-.2-2.25H12v4.26h5.92c-.26 1.37-1.04 2.53-2.21 3.31v2.77h3.57c2.08-1.92 3.28-4.74 3.28-8.09z"/>
+                          <path fill="currentColor" d="M12 23c2.97 0 5.46-.98 7.28-2.66l-3.57-2.77c-.98.66-2.23 1.06-3.71 1.06-2.86 0-5.29-1.93-6.16-4.53H2.18v2.84C3.99 20.53 7.7 23 12 23z"/>
+                          <path fill="currentColor" d="M5.84 14.09c-.22-.66-.35-1.36-.35-2.09s.13-1.43.35-2.09V7.07H2.18C1.43 8.55 1 10.22 1 12s.43 3.45 1.18 4.93l2.85-2.22.81-.62z"/>
+                          <path fill="currentColor" d="M12 5.38c1.62 0 3.06.56 4.21 1.64l3.15-3.15C17.45 2.09 14.97 1 12 1 7.7 1 3.99 3.47 2.18 7.07l3.66 2.84c.87-2.6 3.3-4.53 6.16-4.53z"/>
+                        </svg>
+                        Connect Google Tasks
+                      </button>
+                    )}
+                  </div>
+                </div>
+              </div>
+            </div>
+
+            {/* Google Calendar Section */}
+            <div className="px-6 py-4">
+              <button
+                onClick={() => toggleSection('calendar')}
+                className="w-full flex items-center justify-between group"
+              >
+                <div className="flex items-center gap-3">
+                  <div className="w-10 h-10 bg-amber-100 rounded-xl flex items-center justify-center group-hover:scale-110 transition-transform duration-200">
+                    <svg className="w-5 h-5 text-amber-600" viewBox="0 0 24 24" fill="currentColor">
+                      <path d="M19 4h-1V2h-2v2H8V2H6v2H5c-1.11 0-1.99.9-1.99 2L3 20c0 1.1.89 2 2 2h14c1.1 0 2-.9 2-2V6c0-1.1-.9-2-2-2zm0 16H5V9h14v11zM9 11H7v2h2v-2zm4 0h-2v2h2v-2zm4 0h-2v2h2v-2zm-8 4H7v2h2v-2zm4 0h-2v2h2v-2zm4 0h-2v2h2v-2z"/>
+                    </svg>
+                  </div>
+                  <div className="text-left">
+                    <p className="font-medium text-gray-900">Google Calendar</p>
+                    <p className="text-sm text-gray-500">
+                      {googleStatus?.connected ? 'Word of the Day events' : 'Daily vocabulary reminders'}
+                    </p>
+                  </div>
+                </div>
+                <svg className={`w-5 h-5 text-gray-400 transition-transform ${expandedSection === 'calendar' ? 'rotate-180' : ''}`} fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                  <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M19 9l-7 7-7-7" />
+                </svg>
+              </button>
+
+              <div className={`overflow-hidden transition-all duration-300 ease-out ${
+                expandedSection === 'calendar' ? 'max-h-[600px] opacity-100 mt-4' : 'max-h-0 opacity-0'
+              }`}>
+                <div className="space-y-3">
+                  <div className="p-4 bg-gradient-to-br from-amber-50 to-orange-50 rounded-xl border border-amber-100">
+                    <div className="flex items-center gap-3 mb-3">
+                      <div className="w-10 h-10 bg-white rounded-xl flex items-center justify-center shadow-sm">
+                        <svg className="w-6 h-6 text-amber-500" viewBox="0 0 24 24" fill="currentColor">
                           <path d="M19 4h-1V2h-2v2H8V2H6v2H5c-1.11 0-1.99.9-1.99 2L3 20c0 1.1.89 2 2 2h14c1.1 0 2-.9 2-2V6c0-1.1-.9-2-2-2zm0 16H5V9h14v11zM9 11H7v2h2v-2zm4 0h-2v2h2v-2zm4 0h-2v2h2v-2zm-8 4H7v2h2v-2zm4 0h-2v2h2v-2zm4 0h-2v2h2v-2z"/>
                         </svg>
                       </div>
                       <div className="flex-1">
-                        <span className="text-sm font-medium text-gray-700">Google Calendar Sync</span>
+                        <span className="text-sm font-semibold text-gray-800">Word of the Day</span>
                         <p className="text-xs text-gray-500">
-                          {googleStatus?.connected ? googleStatus.email : 'Add events with reminders'}
+                          {googleStatus?.connected ? googleStatus.email : 'Add daily JLPT vocabulary to calendar'}
                         </p>
                       </div>
                       {googleStatus?.connected && (
-                        <span className="px-2 py-0.5 bg-green-100 text-green-700 text-xs rounded-full">Connected</span>
+                        <span className="px-2.5 py-1 bg-green-100 text-green-700 text-xs font-medium rounded-full">Connected</span>
                       )}
                     </div>
 
@@ -684,7 +770,7 @@ export function Settings({ onClose }: SettingsProps) {
                         <button
                           onClick={handleCreateCalendarEvents}
                           disabled={googleLoading}
-                          className="w-full py-2.5 bg-blue-500 text-white text-sm font-medium rounded-lg hover:bg-blue-600 disabled:opacity-50 transition-colors flex items-center justify-center gap-2"
+                          className="w-full py-2.5 bg-gradient-to-r from-amber-500 to-orange-500 text-white text-sm font-medium rounded-lg hover:from-amber-600 hover:to-orange-600 disabled:opacity-50 transition-all shadow-md shadow-amber-200 flex items-center justify-center gap-2"
                         >
                           {googleLoading ? (
                             <>
@@ -715,23 +801,12 @@ export function Settings({ onClose }: SettingsProps) {
                           </svg>
                           Delete All Word of the Day Events
                         </button>
-
-                        {/* Disconnect */}
-                        <div className="pt-2 border-t border-gray-200">
-                          <button
-                            onClick={handleDisconnectGoogle}
-                            disabled={googleLoading}
-                            className="w-full py-2 text-gray-500 text-sm hover:text-red-600 hover:bg-red-50 rounded-lg transition-colors"
-                          >
-                            Disconnect Google Calendar
-                          </button>
-                        </div>
                       </div>
                     ) : (
                       <button
                         onClick={handleConnectGoogle}
                         disabled={googleLoading}
-                        className="w-full py-2 bg-blue-500 text-white text-sm font-medium rounded-lg hover:bg-blue-600 disabled:opacity-50 transition-colors flex items-center justify-center gap-2"
+                        className="w-full py-2.5 bg-gradient-to-r from-amber-500 to-orange-500 text-white text-sm font-medium rounded-lg hover:from-amber-600 hover:to-orange-600 disabled:opacity-50 transition-all shadow-md shadow-amber-200 flex items-center justify-center gap-2"
                       >
                         <svg className="w-4 h-4" viewBox="0 0 24 24">
                           <path fill="currentColor" d="M22.56 12.25c0-.78-.07-1.53-.2-2.25H12v4.26h5.92c-.26 1.37-1.04 2.53-2.21 3.31v2.77h3.57c2.08-1.92 3.28-4.74 3.28-8.09z"/>
@@ -745,14 +820,14 @@ export function Settings({ onClose }: SettingsProps) {
                   </div>
 
                   {/* iCal Subscription */}
-                  <div className="p-3 bg-gray-50 rounded-xl">
+                  <div className="p-4 bg-gradient-to-br from-indigo-50 to-purple-50 rounded-xl border border-indigo-100">
                     <div className="flex items-center gap-3 mb-3">
-                      <div className="w-8 h-8 bg-indigo-500 rounded-lg flex items-center justify-center">
-                        <span className="text-white text-sm">📅</span>
+                      <div className="w-10 h-10 bg-white rounded-xl flex items-center justify-center shadow-sm">
+                        <span className="text-xl">📅</span>
                       </div>
                       <div>
-                        <span className="text-sm font-medium text-gray-700">iCal Subscription</span>
-                        <p className="text-xs text-gray-500">Read-only calendar feed (alternative)</p>
+                        <span className="text-sm font-semibold text-gray-800">iCal Subscription</span>
+                        <p className="text-xs text-gray-500">Subscribe in Apple Calendar, Outlook, etc.</p>
                       </div>
                     </div>
 
@@ -763,66 +838,60 @@ export function Settings({ onClose }: SettingsProps) {
                             type="text"
                             readOnly
                             value={getIcalUrl(icalToken)}
-                            className="flex-1 px-3 py-2 border border-gray-200 rounded-lg text-xs bg-white text-gray-600 font-mono truncate"
+                            className="flex-1 px-3 py-2 border border-indigo-200 rounded-lg text-xs bg-white text-gray-600 font-mono truncate"
                           />
                           <button
                             onClick={handleCopyIcalUrl}
-                            className={`px-3 py-2 rounded-lg text-sm font-medium transition-colors ${
+                            className={`px-4 py-2 rounded-lg text-sm font-medium transition-colors ${
                               icalCopied
                                 ? 'bg-green-500 text-white'
-                                : 'bg-indigo-500 text-white hover:bg-indigo-600'
+                                : 'bg-gradient-to-r from-indigo-500 to-purple-500 text-white hover:from-indigo-600 hover:to-purple-600'
                             }`}
                           >
-                            {icalCopied ? '✓' : 'Copy'}
+                            {icalCopied ? '✓ Copied' : 'Copy'}
                           </button>
                         </div>
-                        <p className="text-xs text-gray-500">
-                          For Apple Calendar or other apps
-                        </p>
                       </div>
                     ) : (
                       <button
                         onClick={handleGenerateIcal}
                         disabled={calendarLoading}
-                        className="w-full py-2 bg-indigo-500 text-white text-sm font-medium rounded-lg hover:bg-indigo-600 disabled:opacity-50 transition-colors"
+                        className="w-full py-2.5 bg-gradient-to-r from-indigo-500 to-purple-500 text-white text-sm font-medium rounded-lg hover:from-indigo-600 hover:to-purple-600 disabled:opacity-50 transition-colors"
                       >
                         {calendarLoading ? 'Generating...' : 'Generate iCal URL'}
                       </button>
                     )}
                   </div>
-
-                  {/* Google Keep */}
-                  <div className="flex items-center justify-between p-3 bg-gray-50 rounded-xl">
-                    <div className="flex items-center gap-3">
-                      <div className="w-8 h-8 bg-yellow-400 rounded-lg flex items-center justify-center">
-                        <svg className="w-4 h-4 text-yellow-900" viewBox="0 0 24 24" fill="currentColor">
-                          <path d="M12 2C6.48 2 2 6.48 2 12s4.48 10 10 10 10-4.48 10-10S17.52 2 12 2zm-2 15l-5-5 1.41-1.41L10 14.17l7.59-7.59L19 8l-9 9z"/>
-                        </svg>
-                      </div>
-                      <div>
-                        <span className="text-sm text-gray-700">Google Keep</span>
-                        {keepConnected && (
-                          <p className="text-xs text-gray-500">{keepEmail}</p>
-                        )}
-                      </div>
-                    </div>
-                    {keepConnected ? (
-                      <button
-                        onClick={handleDisconnectKeep}
-                        className="text-sm text-red-600 hover:text-red-700 font-medium"
-                      >
-                        Disconnect
-                      </button>
-                    ) : (
-                      <span className="text-xs text-gray-400 bg-gray-200 px-2 py-1 rounded">Coming soon</span>
-                    )}
-                  </div>
-
-                  {/* Info */}
-                  <p className="text-xs text-gray-500 px-1">
-                    Export your notes from the Notes panel using the export button.
-                  </p>
                 </div>
+              </div>
+            </div>
+
+            {/* Time Zones Section */}
+            <div className="px-6 py-4">
+              <button
+                onClick={() => toggleSection('timezone')}
+                className="w-full flex items-center justify-between group"
+              >
+                <div className="flex items-center gap-3">
+                  <div className="w-10 h-10 bg-cyan-100 rounded-xl flex items-center justify-center group-hover:scale-110 transition-transform duration-200">
+                    <span className="text-lg">🌏</span>
+                  </div>
+                  <div className="text-left">
+                    <p className="font-medium text-gray-900">Time Zones</p>
+                    <p className="text-sm text-gray-500">Display additional clocks</p>
+                  </div>
+                </div>
+                <svg className={`w-5 h-5 text-gray-400 transition-transform ${expandedSection === 'timezone' ? 'rotate-180' : ''}`} fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                  <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M19 9l-7 7-7-7" />
+                </svg>
+              </button>
+
+              <div className={`overflow-hidden transition-all duration-300 ease-out ${
+                expandedSection === 'timezone' ? 'max-h-[300px] opacity-100 mt-4' : 'max-h-0 opacity-0'
+              }`}>
+                <p className="text-sm text-gray-500 p-3 bg-gray-50 rounded-xl">
+                  Time zone settings are available on the Calendar page.
+                </p>
               </div>
             </div>
 

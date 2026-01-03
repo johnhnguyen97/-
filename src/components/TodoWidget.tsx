@@ -404,7 +404,7 @@ export function TodoWidget({ compact = false }: TodoWidgetProps) {
       {/* Header */}
       <div className="flex items-center justify-between">
         <h3 className={`font-bold flex items-center gap-2 ${theme.text}`}>
-          <span>✓</span> {compact ? 'Tasks' : 'To-Do List'}
+          <span>✓</span> {compact ? '課題' : '課題'}
           {session?.access_token && (
             <span className={`text-xs px-1.5 py-0.5 rounded ${isDark ? 'bg-green-500/20 text-green-400' : 'bg-green-100 text-green-600'}`}>
               synced
