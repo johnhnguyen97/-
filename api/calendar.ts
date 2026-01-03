@@ -607,6 +607,15 @@ async function handleTodos(req: VercelRequest, res: VercelResponse, supabase: an
       return res.status(400).json({ error: 'Title is required' });
     }
 
+    // Check if Google is connected to set appropriate sync status
+    const { data: googleTokens } = await supabase
+      .from('user_google_tokens')
+      .select('id')
+      .eq('user_id', userId)
+      .single();
+
+    const syncStatus = googleTokens ? 'pending_sync' : 'local';
+
     const { data, error } = await supabase
       .from('user_calendar_tasks')
       .insert({
@@ -620,14 +629,14 @@ async function handleTodos(req: VercelRequest, res: VercelResponse, supabase: an
         linked_word: linked_word || null,
         linked_kanji: linked_kanji || null,
         is_completed: false,
-        sync_status: 'local',
+        sync_status: syncStatus,
       })
       .select()
       .single();
 
     if (error) return res.status(500).json({ error: 'Failed to create todo' });
 
-    return res.status(201).json({ todo: data });
+    return res.status(201).json({ todo: data, needsSync: !!googleTokens });
   }
 
   // PUT - Update todo (toggle complete, edit, etc.)
@@ -638,9 +647,29 @@ async function handleTodos(req: VercelRequest, res: VercelResponse, supabase: an
       return res.status(400).json({ error: 'Todo ID is required' });
     }
 
+    // Check if Google is connected
+    const { data: googleTokens } = await supabase
+      .from('user_google_tokens')
+      .select('id')
+      .eq('user_id', userId)
+      .single();
+
+    // Get current task to check if it has a google_task_id
+    const { data: currentTask } = await supabase
+      .from('user_calendar_tasks')
+      .select('google_task_id')
+      .eq('id', id)
+      .eq('user_id', userId)
+      .single();
+
     const updates: Record<string, unknown> = {
       updated_at: new Date().toISOString(),
     };
+
+    // Mark for sync if Google is connected
+    if (googleTokens) {
+      updates.sync_status = 'pending_sync';
+    }
 
     if (title !== undefined) updates.title = title.trim();
     if (notes !== undefined) updates.notes = notes?.trim() || null;
@@ -662,7 +691,7 @@ async function handleTodos(req: VercelRequest, res: VercelResponse, supabase: an
 
     if (error) return res.status(500).json({ error: 'Failed to update todo' });
 
-    return res.status(200).json({ todo: data });
+    return res.status(200).json({ todo: data, needsSync: !!(googleTokens && currentTask?.google_task_id) });
   }
 
   // DELETE - Delete todo or clear completed
@@ -670,6 +699,14 @@ async function handleTodos(req: VercelRequest, res: VercelResponse, supabase: an
     const { id, clearCompleted } = req.query;
 
     if (clearCompleted === 'true') {
+      // Get completed tasks with Google IDs before deleting
+      const { data: completedTasks } = await supabase
+        .from('user_calendar_tasks')
+        .select('google_task_id, google_task_list_id')
+        .eq('user_id', userId)
+        .eq('is_completed', true)
+        .not('google_task_id', 'is', null);
+
       const { error } = await supabase
         .from('user_calendar_tasks')
         .delete()
@@ -678,12 +715,30 @@ async function handleTodos(req: VercelRequest, res: VercelResponse, supabase: an
 
       if (error) return res.status(500).json({ error: 'Failed to clear completed todos' });
 
-      return res.status(200).json({ success: true, message: 'Completed todos cleared' });
+      // Return Google task IDs so frontend can delete from Google
+      const googleTaskIds = (completedTasks || []).map(t => ({
+        googleTaskId: t.google_task_id,
+        listId: t.google_task_list_id,
+      }));
+
+      return res.status(200).json({
+        success: true,
+        message: 'Completed todos cleared',
+        googleTasksToDelete: googleTaskIds,
+      });
     }
 
     if (!id) {
       return res.status(400).json({ error: 'Todo ID is required' });
     }
+
+    // Get the task's Google ID before deleting
+    const { data: taskToDelete } = await supabase
+      .from('user_calendar_tasks')
+      .select('google_task_id, google_task_list_id')
+      .eq('id', id)
+      .eq('user_id', userId)
+      .single();
 
     const { error } = await supabase
       .from('user_calendar_tasks')
@@ -693,7 +748,11 @@ async function handleTodos(req: VercelRequest, res: VercelResponse, supabase: an
 
     if (error) return res.status(500).json({ error: 'Failed to delete todo' });
 
-    return res.status(200).json({ success: true });
+    return res.status(200).json({
+      success: true,
+      googleTaskId: taskToDelete?.google_task_id || null,
+      listId: taskToDelete?.google_task_list_id || null,
+    });
   }
 
   return res.status(405).json({ error: 'Method not allowed' });
