@@ -716,33 +716,33 @@ export function CalendarPage() {
 
               {/* Sidebar - Selected Day Details */}
               <div className={`${isMobile ? 'mt-4' : 'w-96'}`}>
-                {/* JLPT Level Selector */}
-                <div className="mb-3 flex justify-end">
-                  <select
-                    value={jlptLevel}
-                    onChange={(e) => setJlptLevel(e.target.value)}
-                    className={`px-3 py-1.5 rounded-lg text-sm font-medium border transition-all ${
-                      isDark ? 'bg-white/5 border-white/10 text-white' : 'bg-white border-pink-200 text-gray-700'
-                    }`}
-                  >
-                    <option value="N5">N5</option>
-                    <option value="N4">N4</option>
-                    <option value="N3">N3</option>
-                    <option value="N2">N2</option>
-                    <option value="N1">N1</option>
-                  </select>
-                </div>
-
                 {/* Selected Day Header */}
                 <div className={`rounded-t-2xl border border-b-0 px-4 py-3 ${theme.card} ${
                   isDark ? 'bg-gradient-to-r from-pink-900/30 to-purple-900/30' : 'bg-gradient-to-r from-pink-50 to-purple-50'
                 }`}>
-                  <h3 className={`font-bold text-lg ${theme.text}`}>
-                    {selectedDate.toLocaleDateString('ja-JP', { month: 'long', day: 'numeric', weekday: 'long' })}
-                  </h3>
-                  <p className={`text-xs ${theme.textMuted}`}>
-                    {selectedDate.toLocaleDateString('en-US', { month: 'long', day: 'numeric', year: 'numeric' })}
-                  </p>
+                  <div className="flex items-start justify-between">
+                    <div>
+                      <h3 className={`font-bold text-lg ${theme.text}`}>
+                        {selectedDate.toLocaleDateString('ja-JP', { month: 'long', day: 'numeric', weekday: 'long' })}
+                      </h3>
+                      <p className={`text-xs ${theme.textMuted}`}>
+                        {selectedDate.toLocaleDateString('en-US', { month: 'long', day: 'numeric', year: 'numeric' })}
+                      </p>
+                    </div>
+                    <select
+                      value={jlptLevel}
+                      onChange={(e) => setJlptLevel(e.target.value)}
+                      className={`px-3 py-1.5 rounded-lg text-sm font-medium border transition-all ${
+                        isDark ? 'bg-white/5 border-white/10 text-white' : 'bg-white border-pink-200 text-gray-700'
+                      }`}
+                    >
+                      <option value="N5">N5</option>
+                      <option value="N4">N4</option>
+                      <option value="N3">N3</option>
+                      <option value="N2">N2</option>
+                      <option value="N1">N1</option>
+                    </select>
+                  </div>
                 </div>
 
                 {/* Expandable Cards Container */}
