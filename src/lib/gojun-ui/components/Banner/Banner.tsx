@@ -48,7 +48,7 @@ function SeasonalGradient() {
       {/* Decorative elements */}
       <div className="absolute inset-0 overflow-hidden">
         {/* Large kanji watermark */}
-        <div className="absolute top-1/2 left-1/2 -translate-x-1/2 -translate-y-1/2 text-[120px] font-serif text-white/20 dark:text-white/10 select-none">
+        <div className="absolute top-1/2 left-1/2 -translate-x-1/2 -translate-y-1/2 text-[120px] font-serif text-white/50 dark:text-white/30 select-none drop-shadow-lg">
           {style.kanji}
         </div>
 

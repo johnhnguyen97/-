@@ -16,9 +16,8 @@ function formatDateKey(date: Date): string {
   return `${date.getFullYear()}-${String(date.getMonth() + 1).padStart(2, '0')}-${String(date.getDate()).padStart(2, '0')}`;
 }
 
-// Get seasonal image based on current month
-function getSeasonalImage(): string {
-  const month = new Date().getMonth() + 1;
+// Get seasonal image based on given month
+function getSeasonalImage(month: number): string {
   if (month >= 3 && month <= 5) return calendar.seasons.spring;
   if (month >= 6 && month <= 8) return calendar.seasons.summer;
   if (month >= 9 && month <= 11) return calendar.seasons.autumn;
@@ -574,7 +573,7 @@ export function CalendarPage() {
                 <div className={`rounded-2xl overflow-hidden border shadow-lg ${theme.card}`}>
                   {/* Banner inside calendar card */}
                   <Banner
-                    image={getSeasonalImage()}
+                    image={getSeasonalImage(currentMonth)}
                     height="140px"
                     blend="bottom"
                     animate={true}

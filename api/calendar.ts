@@ -27,10 +27,23 @@ function hashCode(str: string): number {
 
 async function fetchWordFromJisho(searchTerm: string) {
   try {
-    const response = await fetch(`https://jisho.org/api/v1/search/words?keyword=${encodeURIComponent(searchTerm)}`);
-    if (!response.ok) return null;
+    const controller = new AbortController();
+    const timeoutId = setTimeout(() => controller.abort(), 5000); // 5 second timeout
+
+    const response = await fetch(`https://jisho.org/api/v1/search/words?keyword=${encodeURIComponent(searchTerm)}`, {
+      signal: controller.signal
+    });
+    clearTimeout(timeoutId);
+
+    if (!response.ok) {
+      console.error(`Jisho API returned ${response.status} for ${searchTerm}`);
+      return null;
+    }
     const data = await response.json();
-    if (!data.data || data.data.length === 0) return null;
+    if (!data.data || data.data.length === 0) {
+      console.error(`No data found for ${searchTerm}`);
+      return null;
+    }
     const entry = data.data[0];
     const japanese = entry.japanese[0];
     const sense = entry.senses[0];
@@ -40,7 +53,10 @@ async function fetchWordFromJisho(searchTerm: string) {
       meaning: sense.english_definitions.slice(0, 3).join(', '),
       partOfSpeech: sense.parts_of_speech[0] || 'word'
     };
-  } catch { return null; }
+  } catch (error) {
+    console.error(`Error fetching word ${searchTerm}:`, error);
+    return null;
+  }
 }
 
 async function fetchKanjiData(kanji: string) {
