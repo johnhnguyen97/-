@@ -1,4 +1,5 @@
-import { useState, useEffect, useCallback } from 'react';
+import { useState, useEffect, useCallback, useRef } from 'react';
+import { createPortal } from 'react-dom';
 import { useTheme } from '../contexts/ThemeContext';
 import { useAuth } from '../contexts/AuthContext';
 import { LearningCalendar } from '../components/LearningCalendar/LearningCalendar';
@@ -42,6 +43,118 @@ interface DayData {
   holidayName?: string;
 }
 
+// Stroke Animation Overlay Popup Component
+function StrokeOverlayPopup({
+  kanji,
+  meaning,
+  isDark,
+  onClose,
+  anchorRef,
+}: {
+  kanji: string;
+  meaning: string;
+  isDark: boolean;
+  onClose: () => void;
+  anchorRef: React.RefObject<HTMLButtonElement | null>;
+}) {
+  const [position, setPosition] = useState({ top: 0, left: 0 });
+
+  useEffect(() => {
+    if (anchorRef.current) {
+      const rect = anchorRef.current.getBoundingClientRect();
+      const popupWidth = 280;
+      const popupHeight = 350;
+
+      // Position popup above the button if there's room, otherwise below
+      let top = rect.top - popupHeight - 10;
+      let left = rect.left + (rect.width / 2) - (popupWidth / 2);
+
+      // If not enough room above, position below
+      if (top < 10) {
+        top = rect.bottom + 10;
+      }
+
+      // Keep within viewport horizontally
+      if (left < 10) left = 10;
+      if (left + popupWidth > window.innerWidth - 10) {
+        left = window.innerWidth - popupWidth - 10;
+      }
+
+      // Keep within viewport vertically
+      if (top + popupHeight > window.innerHeight - 10) {
+        top = window.innerHeight - popupHeight - 10;
+      }
+
+      setPosition({ top, left });
+    }
+  }, [anchorRef]);
+
+  return createPortal(
+    <>
+      {/* Backdrop - click to close */}
+      <div
+        className="fixed inset-0 z-[9998]"
+        onClick={onClose}
+      />
+      {/* Popup */}
+      <div
+        className={`fixed z-[9999] w-[280px] rounded-2xl shadow-2xl overflow-hidden animate-scaleIn ${
+          isDark ? 'bg-gray-900 border border-white/20' : 'bg-white border border-indigo-200'
+        }`}
+        style={{ top: position.top, left: position.left }}
+      >
+        {/* Glow effect */}
+        <div className={`absolute inset-0 pointer-events-none rounded-2xl ${
+          isDark ? 'shadow-[0_0_40px_rgba(139,92,246,0.4)]' : 'shadow-[0_0_40px_rgba(99,102,241,0.3)]'
+        }`} />
+
+        {/* Header */}
+        <div className={`relative flex items-center justify-between px-4 py-3 border-b ${
+          isDark
+            ? 'border-white/10 bg-gradient-to-r from-indigo-600/30 to-purple-600/30'
+            : 'border-indigo-100 bg-gradient-to-r from-indigo-500 to-purple-500'
+        }`}>
+          <div className="flex items-center gap-2">
+            <span className="text-xl">✏️</span>
+            <div>
+              <h3 className="font-bold text-white text-sm">Stroke Order</h3>
+              <p className="text-xs text-white/70">書き順</p>
+            </div>
+          </div>
+          <button
+            onClick={onClose}
+            className="p-1.5 rounded-lg hover:bg-white/20 transition-colors text-white"
+          >
+            <svg className="w-4 h-4" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+              <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M6 18L18 6M6 6l12 12" />
+            </svg>
+          </button>
+        </div>
+
+        {/* Content */}
+        <div className="p-4">
+          {/* Kanji Display */}
+          <div className="text-center mb-3">
+            <p className={`text-5xl font-bold ${isDark ? 'text-white' : 'text-gray-800'}`}>
+              {kanji}
+            </p>
+            <p className={`mt-1 text-sm ${isDark ? 'text-indigo-400' : 'text-indigo-600'}`}>
+              {meaning}
+            </p>
+          </div>
+
+          {/* Stroke Animation Component */}
+          <StrokeAnimation
+            character={kanji}
+            isDark={isDark}
+          />
+        </div>
+      </div>
+    </>,
+    document.body
+  );
+}
+
 export function CalendarPage() {
   const { isDark } = useTheme();
   const { session } = useAuth();
@@ -59,8 +172,9 @@ export function CalendarPage() {
   const [wordExpanded, setWordExpanded] = useState(true);
   const [kanjiExpanded, setKanjiExpanded] = useState(true);
 
-  // Stroke animation modal state
-  const [showStrokeModal, setShowStrokeModal] = useState(false);
+  // Stroke animation overlay state
+  const [showStrokeOverlay, setShowStrokeOverlay] = useState(false);
+  const strokeButtonRef = useRef<HTMLButtonElement>(null);
 
   // Word audio
   const { speak: speakWord, isSpeaking } = useSpeechSynthesis({ lang: 'ja-JP', rate: 0.8 });
@@ -286,26 +400,26 @@ export function CalendarPage() {
 
         {/* Content */}
         {activeTab === 'calendar' && (
-          <div className="max-w-7xl mx-auto">
-            {/* Banner */}
-            <Banner
-              image={getSeasonalImage()}
-              height="180px"
-              blend="bottom"
-              animate={true}
-            >
-              <BannerTitle>{dateInfo.western}</BannerTitle>
-              <BannerSubtitle>{dateInfo.reiwa}</BannerSubtitle>
-            </Banner>
-
+          <div className="max-w-7xl mx-auto px-4 py-4">
             {/* Dashboard Layout */}
-            <div className={`px-4 py-4 ${isMobile ? '' : 'flex gap-6'}`}>
-              {/* Calendar Grid */}
+            <div className={`${isMobile ? '' : 'flex gap-6'}`}>
+              {/* Calendar Grid with Banner */}
               <div className={`${isMobile ? 'w-full' : 'flex-1'}`}>
-                <div className={`rounded-2xl overflow-hidden border shadow-lg ${theme.card} -mt-6`}>
+                <div className={`rounded-2xl overflow-hidden border shadow-lg ${theme.card}`}>
+                  {/* Banner inside calendar card */}
+                  <Banner
+                    image={getSeasonalImage()}
+                    height="140px"
+                    blend="bottom"
+                    animate={true}
+                  >
+                    <BannerTitle>{dateInfo.western}</BannerTitle>
+                    <BannerSubtitle>{dateInfo.reiwa}</BannerSubtitle>
+                  </Banner>
+
                   {/* Calendar Header */}
-                  <div className={`flex items-center justify-between px-4 py-3 border-b ${
-                    isDark ? 'border-white/10 bg-white/5' : 'border-pink-100 bg-pink-50/50'
+                  <div className={`flex items-center justify-between px-4 py-3 border-b -mt-4 relative z-10 ${
+                    isDark ? 'border-white/10 bg-white/5' : 'border-pink-100 bg-white/90'
                   }`}>
                     <button
                       onClick={() => handleMonthChange(-1)}
@@ -605,9 +719,10 @@ export function CalendarPage() {
                           )}
                         </div>
 
-                        {/* Stroke Animation Button */}
+                        {/* Stroke Animation Button - triggers overlay popup */}
                         <button
-                          onClick={() => setShowStrokeModal(true)}
+                          ref={strokeButtonRef}
+                          onClick={() => setShowStrokeOverlay(true)}
                           className={`w-full mt-3 py-2 rounded-lg text-sm font-medium transition-all flex items-center justify-center gap-2 ${
                             isDark
                               ? 'bg-indigo-500/20 text-indigo-300 hover:bg-indigo-500/30'
@@ -659,61 +774,15 @@ export function CalendarPage() {
         )}
       </div>
 
-      {/* Stroke Animation Modal - Vortex Style */}
-      {showStrokeModal && selectedDayData.kanji && (
-        <div className="fixed inset-0 z-50 flex items-center justify-center p-4">
-          {/* Backdrop */}
-          <div
-            className="absolute inset-0 bg-black/60 backdrop-blur-sm"
-            onClick={() => setShowStrokeModal(false)}
-          />
-
-          {/* Modal with portal animation */}
-          <div className={`relative ${isDark ? 'bg-gray-900' : 'bg-white'} rounded-2xl shadow-2xl w-full max-w-md overflow-hidden portal-emerge`}>
-            {/* Glow effect */}
-            <div className="absolute inset-0 pointer-events-none">
-              <div className={`absolute inset-0 rounded-2xl ${isDark ? 'shadow-[0_0_60px_rgba(139,92,246,0.3)]' : 'shadow-[0_0_60px_rgba(236,72,153,0.2)]'}`} />
-            </div>
-
-            {/* Header */}
-            <div className={`relative flex items-center justify-between px-5 py-4 border-b ${isDark ? 'border-white/10 bg-gradient-to-r from-indigo-600/20 to-purple-600/20' : 'border-pink-100 bg-gradient-to-r from-pink-50 to-purple-50'}`}>
-              <div className="flex items-center gap-2">
-                <span className="text-2xl">✏️</span>
-                <div>
-                  <h3 className={`font-bold ${isDark ? 'text-white' : 'text-gray-800'}`}>Stroke Order</h3>
-                  <p className={`text-xs ${theme.textMuted}`}>書き順</p>
-                </div>
-              </div>
-              <button
-                onClick={() => setShowStrokeModal(false)}
-                className={`p-2 rounded-lg transition-colors ${isDark ? 'hover:bg-white/10' : 'hover:bg-pink-100'}`}
-              >
-                <svg className="w-5 h-5" fill="none" stroke="currentColor" viewBox="0 0 24 24">
-                  <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M6 18L18 6M6 6l12 12" />
-                </svg>
-              </button>
-            </div>
-
-            {/* Content */}
-            <div className="p-5">
-              {/* Large Kanji Display */}
-              <div className="text-center mb-4">
-                <p className={`text-7xl font-bold ${isDark ? 'text-white' : 'text-gray-800'}`}>
-                  {selectedDayData.kanji}
-                </p>
-                <p className={`mt-2 text-lg ${isDark ? 'text-indigo-400' : 'text-indigo-600'}`}>
-                  {selectedDayData.kanjiMeaning}
-                </p>
-              </div>
-
-              {/* Stroke Animation Component */}
-              <StrokeAnimation
-                character={selectedDayData.kanji}
-                isDark={isDark}
-              />
-            </div>
-          </div>
-        </div>
+      {/* Stroke Animation Overlay Popup */}
+      {showStrokeOverlay && selectedDayData.kanji && (
+        <StrokeOverlayPopup
+          kanji={selectedDayData.kanji}
+          meaning={selectedDayData.kanjiMeaning || ''}
+          isDark={isDark}
+          onClose={() => setShowStrokeOverlay(false)}
+          anchorRef={strokeButtonRef}
+        />
       )}
     </div>
   );
