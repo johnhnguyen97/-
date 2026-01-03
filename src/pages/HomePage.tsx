@@ -1,5 +1,6 @@
 import { Link } from 'react-router-dom';
-import { useState, useEffect, useCallback } from 'react';
+import { useState, useEffect, useCallback, useRef } from 'react';
+import { createPortal } from 'react-dom';
 import { useSpeechSynthesis } from '../hooks/useSpeechSynthesis';
 import { useTheme } from '../contexts/ThemeContext';
 import { useAuth } from '../contexts/AuthContext';
@@ -10,6 +11,7 @@ import { TodoWidget } from '../components/TodoWidget';
 import { TimerWidget } from '../components/TimerWidget';
 import { FavoriteButton } from '../components/FavoriteButton';
 import { WordNoteButton } from '../components/WordNoteButton';
+import { StrokeAnimation } from '../components/Kanji/StrokeAnimation';
 import { getDailyData } from '../services/calendarApi';
 import { getUserStats } from '../services/userStatsApi';
 
@@ -162,6 +164,104 @@ function getTimezoneLabel(timeZone: string): { emoji: string; label: string } {
   return { emoji: '🌍', label: timeZone.split('/')[1]?.replace(/_/g, ' ') || timeZone };
 }
 
+// Stroke Animation Overlay Popup Component
+function StrokeOverlayPopup({
+  kanji,
+  meaning,
+  isDark,
+  onClose,
+  anchorRef,
+}: {
+  kanji: string;
+  meaning: string;
+  isDark: boolean;
+  onClose: () => void;
+  anchorRef: React.RefObject<HTMLButtonElement | null>;
+}) {
+  const [position, setPosition] = useState({ top: 0, left: 0 });
+
+  useEffect(() => {
+    if (anchorRef.current) {
+      const rect = anchorRef.current.getBoundingClientRect();
+      const popupWidth = 280;
+      const popupHeight = 350;
+
+      // Calculate position - try to show below the button
+      let top = rect.bottom + 8;
+      let left = rect.left + rect.width / 2 - popupWidth / 2;
+
+      // Adjust if would go off screen
+      if (left < 10) left = 10;
+      if (left + popupWidth > window.innerWidth - 10) {
+        left = window.innerWidth - popupWidth - 10;
+      }
+      if (top + popupHeight > window.innerHeight - 10) {
+        top = rect.top - popupHeight - 8;
+      }
+
+      setPosition({ top, left });
+    }
+  }, [anchorRef]);
+
+  return createPortal(
+    <>
+      {/* Backdrop */}
+      <div
+        className="fixed inset-0 z-[9998]"
+        onClick={onClose}
+      />
+      {/* Popup */}
+      <div
+        className={`fixed z-[9999] w-[280px] rounded-2xl shadow-2xl overflow-hidden animate-scaleIn ${
+          isDark ? 'bg-gray-900 border border-white/10' : 'bg-white border border-gray-200'
+        }`}
+        style={{ top: position.top, left: position.left }}
+      >
+        {/* Header */}
+        <div className={`px-4 py-3 ${
+          isDark
+            ? 'bg-gradient-to-r from-indigo-600/30 to-purple-600/30'
+            : 'bg-gradient-to-r from-indigo-100 to-purple-100'
+        }`}>
+          <div className="flex items-center justify-between">
+            <h3 className={`font-semibold text-sm ${isDark ? 'text-white' : 'text-gray-800'}`}>
+              Stroke Order
+            </h3>
+            <button
+              onClick={onClose}
+              className={`p-1 rounded-lg transition-colors ${
+                isDark ? 'hover:bg-white/10' : 'hover:bg-black/5'
+              }`}
+            >
+              <svg className="w-4 h-4" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M6 18L18 6M6 6l12 12" />
+              </svg>
+            </button>
+          </div>
+        </div>
+
+        {/* Content */}
+        <div className="p-4">
+          <div className="text-center mb-3">
+            <span className={`text-4xl font-bold ${isDark ? 'text-white' : 'text-gray-800'}`}>
+              {kanji}
+            </span>
+            <p className={`text-sm mt-1 ${isDark ? 'text-gray-400' : 'text-gray-600'}`}>
+              {meaning}
+            </p>
+          </div>
+
+          {/* Stroke Animation */}
+          <div className={`rounded-xl p-3 ${isDark ? 'bg-white/5' : 'bg-gray-50'}`}>
+            <StrokeAnimation character={kanji} isDark={isDark} />
+          </div>
+        </div>
+      </div>
+    </>,
+    document.body
+  );
+}
+
 export function HomePage() {
   const { isDark } = useTheme();
   const { session } = useAuth();
@@ -184,6 +284,10 @@ export function HomePage() {
   const [showGrammarGuide, setShowGrammarGuide] = useState(false);
   const [showKanaChart, setShowKanaChart] = useState(false);
   const [showNotes, setShowNotes] = useState(false);
+
+  // Stroke animation popup state
+  const [showStrokePopup, setShowStrokePopup] = useState(false);
+  const strokeButtonRef = useRef<HTMLButtonElement>(null);
 
   // Save timezones to localStorage when changed
   const handleTimezoneChange = useCallback((newTimezones: string[]) => {
@@ -673,7 +777,6 @@ export function HomePage() {
                     reading={kanjiOfTheDay.onyomi?.[0] || kanjiOfTheDay.kunyomi?.[0] || ''}
                     english={kanjiOfTheDay.meaning}
                     partOfSpeech="kanji"
-
                   />
                   <WordNoteButton
                     word={kanjiOfTheDay.kanji}
@@ -700,36 +803,75 @@ export function HomePage() {
                   <div className="text-center mb-3">
                     <div className="flex items-center justify-center gap-2 mb-1">
                       <span className="text-5xl font-bold">{kanjiOfTheDay.kanji}</span>
-                      <button
-                        onClick={() => handleSpeak(kanjiOfTheDay.kanji)}
-                        className={`w-10 h-10 rounded-lg flex items-center justify-center transition-all text-lg ${
-                          isSpeaking(kanjiOfTheDay.kanji)
-                            ? 'bg-indigo-500 text-white scale-110'
-                            : isDark ? 'bg-white/10 hover:bg-white/20' : 'bg-slate-100 hover:bg-slate-200'
-                        }`}
-                      >
-                        🔊
-                      </button>
+                      <div className="flex flex-col gap-1">
+                        <button
+                          onClick={() => handleSpeak(kanjiOfTheDay.kanji)}
+                          className={`w-9 h-9 rounded-lg flex items-center justify-center transition-all text-base ${
+                            isSpeaking(kanjiOfTheDay.kanji)
+                              ? 'bg-indigo-500 text-white scale-110'
+                              : isDark ? 'bg-white/10 hover:bg-white/20' : 'bg-slate-100 hover:bg-slate-200'
+                          }`}
+                          title="Listen to pronunciation"
+                        >
+                          🔊
+                        </button>
+                        <button
+                          ref={strokeButtonRef}
+                          onClick={() => setShowStrokePopup(true)}
+                          className={`w-9 h-9 rounded-lg flex items-center justify-center transition-all text-base ${
+                            isDark ? 'bg-white/10 hover:bg-white/20' : 'bg-slate-100 hover:bg-slate-200'
+                          }`}
+                          title="See stroke order"
+                        >
+                          ✏️
+                        </button>
+                      </div>
                     </div>
                     <p className={`text-base font-medium ${isDark ? 'text-indigo-400' : 'text-indigo-600'}`}>{kanjiOfTheDay.meaning}</p>
                   </div>
 
-                  {/* Readings */}
+                  {/* Readings with audio buttons */}
                   <div className="grid grid-cols-2 gap-2 mb-3">
                     {kanjiOfTheDay.onyomi.length > 0 && (
-                      <div className={`${isDark ? 'bg-white/5' : 'bg-slate-50'} rounded-lg p-2 text-center`}>
-                        <p className={`text-xs ${theme.textSubtle} mb-0.5`}>On'yomi</p>
-                        <p className={`text-sm font-medium ${isDark ? 'text-purple-400' : 'text-purple-600'}`}>
-                          {kanjiOfTheDay.onyomi.slice(0, 2).join(', ')}
-                        </p>
+                      <div className={`${isDark ? 'bg-white/5' : 'bg-slate-50'} rounded-lg p-2`}>
+                        <p className={`text-xs ${theme.textSubtle} mb-0.5 text-center`}>On'yomi</p>
+                        <div className="flex items-center justify-center gap-1">
+                          <p className={`text-sm font-medium ${isDark ? 'text-purple-400' : 'text-purple-600'}`}>
+                            {kanjiOfTheDay.onyomi.slice(0, 2).join(', ')}
+                          </p>
+                          <button
+                            onClick={() => handleSpeak(kanjiOfTheDay.onyomi[0])}
+                            className={`w-6 h-6 rounded flex items-center justify-center transition-all text-xs ${
+                              isSpeaking(kanjiOfTheDay.onyomi[0])
+                                ? 'bg-purple-500 text-white scale-110'
+                                : isDark ? 'bg-white/10 hover:bg-white/20' : 'bg-slate-200 hover:bg-slate-300'
+                            }`}
+                            title="Listen to On'yomi"
+                          >
+                            🔊
+                          </button>
+                        </div>
                       </div>
                     )}
                     {kanjiOfTheDay.kunyomi.length > 0 && (
-                      <div className={`${isDark ? 'bg-white/5' : 'bg-slate-50'} rounded-lg p-2 text-center`}>
-                        <p className={`text-xs ${theme.textSubtle} mb-0.5`}>Kun'yomi</p>
-                        <p className={`text-sm font-medium ${isDark ? 'text-blue-400' : 'text-blue-600'}`}>
-                          {kanjiOfTheDay.kunyomi.slice(0, 2).join(', ')}
-                        </p>
+                      <div className={`${isDark ? 'bg-white/5' : 'bg-slate-50'} rounded-lg p-2`}>
+                        <p className={`text-xs ${theme.textSubtle} mb-0.5 text-center`}>Kun'yomi</p>
+                        <div className="flex items-center justify-center gap-1">
+                          <p className={`text-sm font-medium ${isDark ? 'text-blue-400' : 'text-blue-600'}`}>
+                            {kanjiOfTheDay.kunyomi.slice(0, 2).join(', ')}
+                          </p>
+                          <button
+                            onClick={() => handleSpeak(kanjiOfTheDay.kunyomi[0].replace(/\./g, ''))}
+                            className={`w-6 h-6 rounded flex items-center justify-center transition-all text-xs ${
+                              isSpeaking(kanjiOfTheDay.kunyomi[0].replace(/\./g, ''))
+                                ? 'bg-blue-500 text-white scale-110'
+                                : isDark ? 'bg-white/10 hover:bg-white/20' : 'bg-slate-200 hover:bg-slate-300'
+                            }`}
+                            title="Listen to Kun'yomi"
+                          >
+                            🔊
+                          </button>
+                        </div>
                       </div>
                     )}
                   </div>
@@ -811,6 +953,17 @@ export function HomePage() {
           selectedTimezones={selectedTimezones}
           onSave={handleTimezoneChange}
           onClose={() => setShowTimezoneSettings(false)}
+        />
+      )}
+
+      {/* Stroke Animation Popup */}
+      {showStrokePopup && kanjiOfTheDay && (
+        <StrokeOverlayPopup
+          kanji={kanjiOfTheDay.kanji}
+          meaning={kanjiOfTheDay.meaning}
+          isDark={isDark}
+          onClose={() => setShowStrokePopup(false)}
+          anchorRef={strokeButtonRef}
         />
       )}
     </div>
