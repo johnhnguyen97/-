@@ -247,6 +247,134 @@ function getConjugationEnglish(toForm: string): string {
   return formMap[toForm] || toForm.replace(/_/g, ' ');
 }
 
+/**
+ * Get detailed explanation for how to form each conjugation
+ */
+function getConjugationExplanation(toForm: string, verbGroup: string): string {
+  const explanations: Record<string, Record<string, string>> = {
+    // Polite forms (ます形)
+    'masu': {
+      'godan': 'For Godan verbs: Change the final う-row kana to the い-row, then add ます.\nExample: 買う → 買い → 買います',
+      'ichidan': 'For Ichidan verbs: Remove る, then add ます.\nExample: 食べる → 食べ → 食べます',
+      'irregular-suru': 'する → します',
+      'irregular-kuru': '来る (くる) → 来ます (きます)',
+    },
+    'masen': {
+      'godan': 'For Godan verbs: Change the final う-row kana to the い-row, then add ません.\nExample: 買う → 買い → 買いません',
+      'ichidan': 'For Ichidan verbs: Remove る, then add ません.\nExample: 食べる → 食べ → 食べません',
+      'irregular-suru': 'する → しません',
+      'irregular-kuru': '来る (くる) → 来ません (きません)',
+    },
+    'mashita': {
+      'godan': 'For Godan verbs: Change the final う-row kana to the い-row, then add ました.\nExample: 買う → 買い → 買いました',
+      'ichidan': 'For Ichidan verbs: Remove る, then add ました.\nExample: 食べる → 食べ → 食べました',
+      'irregular-suru': 'する → しました',
+      'irregular-kuru': '来る (くる) → 来ました (きました)',
+    },
+    'masen_deshita': {
+      'godan': 'For Godan verbs: Change the final う-row kana to the い-row, then add ませんでした.\nExample: 買う → 買い → 買いませんでした',
+      'ichidan': 'For Ichidan verbs: Remove る, then add ませんでした.\nExample: 食べる → 食べ → 食べませんでした',
+      'irregular-suru': 'する → しませんでした',
+      'irregular-kuru': '来る (くる) → 来ませんでした (きませんでした)',
+    },
+    // Plain forms
+    'dictionary': {
+      'godan': 'The dictionary form is the base form of the verb ending in う-row kana (う、く、す、つ、ぬ、ぶ、む、る).',
+      'ichidan': 'The dictionary form ends in る, preceded by an い or え sound.',
+      'irregular-suru': 'Dictionary form: する',
+      'irregular-kuru': 'Dictionary form: 来る (くる)',
+    },
+    'negative': {
+      'godan': 'For Godan verbs: Change the final う-row kana to the あ-row, then add ない.\nExample: 買う → 買わ → 買わない\nNote: For verbs ending in う, change to わ (not あ).',
+      'ichidan': 'For Ichidan verbs: Remove る, then add ない.\nExample: 食べる → 食べ → 食べない',
+      'irregular-suru': 'する → しない',
+      'irregular-kuru': '来る (くる) → 来ない (こない)',
+    },
+    'past': {
+      'godan': 'For Godan verbs, use the た-form rules based on the ending:\n• う/つ/る → った (買う→買った)\n• む/ぶ/ぬ → んだ (読む→読んだ)\n• く → いた (書く→書いた)\n• ぐ → いだ (泳ぐ→泳いだ)\n• す → した (話す→話した)',
+      'ichidan': 'For Ichidan verbs: Remove る, then add た.\nExample: 食べる → 食べ → 食べた',
+      'irregular-suru': 'する → した',
+      'irregular-kuru': '来る (くる) → 来た (きた)',
+    },
+    'past_negative': {
+      'godan': 'Form the negative (ない), then change ない to なかった.\nExample: 買わない → 買わなかった',
+      'ichidan': 'Form the negative (ない), then change ない to なかった.\nExample: 食べない → 食べなかった',
+      'irregular-suru': 'しない → しなかった',
+      'irregular-kuru': '来ない (こない) → 来なかった (こなかった)',
+    },
+    // Te-form
+    'te': {
+      'godan': 'For Godan verbs, use the て-form rules based on the ending:\n• う/つ/る → って (買う→買って)\n• む/ぶ/ぬ → んで (読む→読んで)\n• く → いて (書く→書いて)\n• ぐ → いで (泳ぐ→泳いで)\n• す → して (話す→話して)',
+      'ichidan': 'For Ichidan verbs: Remove る, then add て.\nExample: 食べる → 食べ → 食べて',
+      'irregular-suru': 'する → して',
+      'irregular-kuru': '来る (くる) → 来て (きて)',
+    },
+    // Desire
+    'tai': {
+      'godan': 'For Godan verbs: Change the final う-row kana to the い-row, then add たい.\nExample: 買う → 買い → 買いたい',
+      'ichidan': 'For Ichidan verbs: Remove る, then add たい.\nExample: 食べる → 食べ → 食べたい',
+      'irregular-suru': 'する → したい',
+      'irregular-kuru': '来る (くる) → 来たい (きたい)',
+    },
+    // Volitional
+    'volitional': {
+      'godan': 'For Godan verbs: Change the final う-row kana to the お-row, then add う.\nExample: 買う → 買お → 買おう',
+      'ichidan': 'For Ichidan verbs: Remove る, then add よう.\nExample: 食べる → 食べ → 食べよう',
+      'irregular-suru': 'する → しよう',
+      'irregular-kuru': '来る (くる) → 来よう (こよう)',
+    },
+    // Potential
+    'potential': {
+      'godan': 'For Godan verbs: Change the final う-row kana to the え-row, then add る.\nExample: 買う → 買え → 買える',
+      'ichidan': 'For Ichidan verbs: Remove る, then add られる (or colloquially れる).\nExample: 食べる → 食べ → 食べられる',
+      'irregular-suru': 'する → できる',
+      'irregular-kuru': '来る (くる) → 来られる (こられる)',
+    },
+    // Conditional
+    'conditional_ba': {
+      'godan': 'For Godan verbs: Change the final う-row kana to the え-row, then add ば.\nExample: 買う → 買え → 買えば',
+      'ichidan': 'For Ichidan verbs: Remove る, then add れば.\nExample: 食べる → 食べ → 食べれば',
+      'irregular-suru': 'する → すれば',
+      'irregular-kuru': '来る (くる) → 来れば (くれば)',
+    },
+    'conditional_tara': {
+      'godan': 'Form the past tense (た-form), then add ら.\nExample: 買った → 買ったら',
+      'ichidan': 'Form the past tense (た-form), then add ら.\nExample: 食べた → 食べたら',
+      'irregular-suru': 'した → したら',
+      'irregular-kuru': '来た (きた) → 来たら (きたら)',
+    },
+    // Passive
+    'passive': {
+      'godan': 'For Godan verbs: Change the final う-row kana to the あ-row, then add れる.\nExample: 買う → 買わ → 買われる',
+      'ichidan': 'For Ichidan verbs: Remove る, then add られる.\nExample: 食べる → 食べ → 食べられる',
+      'irregular-suru': 'する → される',
+      'irregular-kuru': '来る (くる) → 来られる (こられる)',
+    },
+    // Causative
+    'causative': {
+      'godan': 'For Godan verbs: Change the final う-row kana to the あ-row, then add せる.\nExample: 買う → 買わ → 買わせる',
+      'ichidan': 'For Ichidan verbs: Remove る, then add させる.\nExample: 食べる → 食べ → 食べさせる',
+      'irregular-suru': 'する → させる',
+      'irregular-kuru': '来る (くる) → 来させる (こさせる)',
+    },
+    // Imperative
+    'imperative': {
+      'godan': 'For Godan verbs: Change the final う-row kana to the え-row.\nExample: 買う → 買え',
+      'ichidan': 'For Ichidan verbs: Remove る, then add ろ (or よ for more formal).\nExample: 食べる → 食べろ',
+      'irregular-suru': 'する → しろ (or せよ)',
+      'irregular-kuru': '来る (くる) → 来い (こい)',
+    },
+  };
+
+  // Default explanation if specific one not found
+  const defaultExplanation = `Change the verb to the ${getConjugationEnglish(toForm)} form.`;
+
+  const formExplanations = explanations[toForm];
+  if (!formExplanations) return defaultExplanation;
+
+  return formExplanations[verbGroup] || formExplanations['godan'] || defaultExplanation;
+}
+
 function generateMCOptions(
   correctAnswer: ConjugationForm,
   allConjugations: Record<string, ConjugationForm>,
@@ -305,14 +433,14 @@ function buildValidCombinations(
       for (const formKey of selectedForms) {
         // Check if this verb has this conjugation
         if (verb.conjugations && verb.conjugations[formKey]) {
-          // Create a synthetic prompt for this form
+          // Create a synthetic prompt for this form with proper explanation
           const prompt: DrillPrompt = {
             id: `auto-${phase}-${formKey}`,
             from_form: 'plain_positive',
             to_form: formKey,
             prompt_en: `Change to ${getConjugationEnglish(formKey)}`,
             prompt_jp: `${getConjugationEnglish(formKey)}に変えてください`,
-            explanation: '',
+            explanation: getConjugationExplanation(formKey, verb.verb_group),
             word_type: 'verb',
             phase: phase as 1 | 2 | 3 | 4 | 5 | 6 | 7 | 8,
           };
