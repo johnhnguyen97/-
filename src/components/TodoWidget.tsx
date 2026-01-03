@@ -43,7 +43,6 @@ export function TodoWidget({ compact = false }: TodoWidgetProps) {
   const { isDark } = useTheme();
   const { session } = useAuth();
   const [todos, setTodos] = useState<TodoItem[]>([]);
-  const [newTodo, setNewTodo] = useState('');
   const [isLoading, setIsLoading] = useState(false);
   const [isSyncing, setIsSyncing] = useState(false);
   const [googleConnected, setGoogleConnected] = useState(false);
@@ -186,62 +185,6 @@ export function TodoWidget({ compact = false }: TodoWidgetProps) {
       setTodos(prev => prev.map(t =>
         t.id === taskId ? { ...t, sync_status: 'sync_error' } : t
       ));
-    }
-  };
-
-  const addTodo = async () => {
-    if (!newTodo.trim()) return;
-
-    const tempId = Date.now().toString();
-    const optimisticTodo: TodoItem = {
-      id: tempId,
-      title: newTodo.trim(),
-      is_completed: false,
-      task_type: 'custom',
-      priority: 0,
-      sync_status: googleConnected ? 'pending_sync' : 'local',
-      created_at: new Date().toISOString(),
-      updated_at: new Date().toISOString(),
-    };
-
-    // Optimistic update
-    setTodos(prev => [optimisticTodo, ...prev]);
-    setNewTodo('');
-
-    if (!session?.access_token) {
-      // Save to localStorage for non-logged-in users
-      const localTodos = JSON.parse(localStorage.getItem('gojun-todos') || '[]');
-      localTodos.unshift({ id: tempId, text: newTodo.trim(), completed: false, createdAt: Date.now() });
-      localStorage.setItem('gojun-todos', JSON.stringify(localTodos));
-      return;
-    }
-
-    try {
-      const response = await fetch('/api/calendar?action=todos', {
-        method: 'POST',
-        headers: {
-          'Content-Type': 'application/json',
-          Authorization: `Bearer ${session.access_token}`,
-        },
-        body: JSON.stringify({ title: newTodo.trim() }),
-      });
-
-      if (response.ok) {
-        const data = await response.json();
-        // Replace optimistic todo with real one
-        setTodos(prev => prev.map(t => t.id === tempId ? data.todo : t));
-
-        // Push to Google if connected
-        if (data.needsSync && googleConnected) {
-          pushToGoogle(data.todo.id);
-        }
-      } else {
-        // Revert on error
-        setTodos(prev => prev.filter(t => t.id !== tempId));
-      }
-    } catch (error) {
-      console.error('Failed to add todo:', error);
-      setTodos(prev => prev.filter(t => t.id !== tempId));
     }
   };
 
@@ -412,7 +355,7 @@ export function TodoWidget({ compact = false }: TodoWidgetProps) {
   };
 
   const openDetailModal = () => {
-    setTaskForm({ title: newTodo, notes: '', due_date: '', due_time: '', priority: 0 });
+    setTaskForm({ title: '', notes: '', due_date: '', due_time: '', priority: 0 });
     setShowDetailModal(true);
   };
 
@@ -557,37 +500,19 @@ export function TodoWidget({ compact = false }: TodoWidgetProps) {
         </div>
       )}
 
-      {/* Input */}
+      {/* Input - clicks open detail modal */}
       <div className="flex gap-2">
-        <input
-          type="text"
-          value={newTodo}
-          onChange={(e) => setNewTodo(e.target.value)}
-          onKeyPress={(e) => e.key === 'Enter' && addTodo()}
-          placeholder="Add a task..."
-          className={`flex-1 px-3 py-2 rounded-lg border text-sm focus:outline-none focus:ring-2 focus:ring-purple-500/50 ${theme.input}`}
-        />
         <button
           onClick={openDetailModal}
-          title="Add with details"
-          className={`px-2.5 py-2 rounded-lg transition-all border ${
-            isDark
-              ? 'border-white/10 hover:bg-white/10 text-slate-400 hover:text-white'
-              : 'border-slate-200 hover:bg-slate-100 text-slate-500 hover:text-slate-700'
-          }`}
+          className={`flex-1 px-3 py-2 rounded-lg border text-sm text-left ${theme.input} ${
+            isDark ? 'hover:bg-white/10' : 'hover:bg-slate-50'
+          } transition-all`}
         >
-          <svg className="w-4 h-4" fill="none" stroke="currentColor" viewBox="0 0 24 24">
-            <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M4 8V4m0 0h4M4 4l5 5m11-1V4m0 0h-4m4 0l-5 5M4 16v4m0 0h4m-4 0l5-5m11 5l-5-5m5 5v-4m0 4h-4" />
-          </svg>
+          <span className={isDark ? 'text-gray-500' : 'text-slate-400'}>Add a task...</span>
         </button>
         <button
-          onClick={addTodo}
-          disabled={!newTodo.trim()}
-          className={`px-4 py-2 rounded-lg font-medium text-sm transition-all ${
-            newTodo.trim()
-              ? 'bg-gradient-to-r from-purple-500 to-pink-500 text-white hover:shadow-lg hover:shadow-purple-500/30'
-              : 'bg-gray-200 text-gray-400 cursor-not-allowed'
-          }`}
+          onClick={openDetailModal}
+          className="px-4 py-2 rounded-lg font-medium text-sm transition-all bg-gradient-to-r from-purple-500 to-pink-500 text-white hover:shadow-lg hover:shadow-purple-500/30"
         >
           Add
         </button>
