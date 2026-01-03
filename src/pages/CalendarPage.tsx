@@ -43,6 +43,144 @@ interface DayData {
   holidayName?: string;
 }
 
+// Task Creation Overlay Popup Component
+function TaskCreationPopup({
+  date,
+  isDark,
+  onClose,
+  onSave,
+  anchorPosition,
+}: {
+  date: Date;
+  isDark: boolean;
+  onClose: () => void;
+  onSave: (text: string) => void;
+  anchorPosition: { x: number; y: number };
+}) {
+  const [taskText, setTaskText] = useState('');
+  const [position, setPosition] = useState({ top: 0, left: 0 });
+  const inputRef = useRef<HTMLInputElement>(null);
+
+  useEffect(() => {
+    const popupWidth = 300;
+    const popupHeight = 200;
+
+    let top = anchorPosition.y;
+    let left = anchorPosition.x - popupWidth / 2;
+
+    // Keep within viewport
+    if (left < 10) left = 10;
+    if (left + popupWidth > window.innerWidth - 10) {
+      left = window.innerWidth - popupWidth - 10;
+    }
+    if (top + popupHeight > window.innerHeight - 10) {
+      top = anchorPosition.y - popupHeight - 10;
+    }
+
+    setPosition({ top, left });
+
+    // Auto-focus input
+    setTimeout(() => inputRef.current?.focus(), 100);
+  }, [anchorPosition]);
+
+  const handleSave = () => {
+    if (taskText.trim()) {
+      onSave(taskText.trim());
+      onClose();
+    }
+  };
+
+  const formattedDate = date.toLocaleDateString('ja-JP', { month: 'short', day: 'numeric' });
+
+  return createPortal(
+    <>
+      {/* Backdrop */}
+      <div
+        className="fixed inset-0 z-[9998] bg-black/20"
+        onClick={onClose}
+      />
+      {/* Popup */}
+      <div
+        className={`fixed z-[9999] w-[300px] rounded-2xl shadow-2xl overflow-hidden animate-scaleIn ${
+          isDark ? 'bg-gray-900 border border-white/20' : 'bg-white border border-purple-200'
+        }`}
+        style={{ top: position.top, left: position.left }}
+      >
+        {/* Header */}
+        <div className={`flex items-center justify-between px-4 py-3 border-b ${
+          isDark
+            ? 'border-white/10 bg-gradient-to-r from-purple-600/30 to-pink-600/30'
+            : 'border-purple-100 bg-gradient-to-r from-purple-500 to-pink-500'
+        }`}>
+          <div className="flex items-center gap-2">
+            <span className="text-xl">✓</span>
+            <div>
+              <h3 className="font-bold text-white text-sm">New Task</h3>
+              <p className="text-xs text-white/70">{formattedDate}</p>
+            </div>
+          </div>
+          <button
+            onClick={onClose}
+            className="p-1.5 rounded-lg hover:bg-white/20 transition-colors text-white"
+          >
+            <svg className="w-4 h-4" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+              <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M6 18L18 6M6 6l12 12" />
+            </svg>
+          </button>
+        </div>
+
+        {/* Content */}
+        <div className="p-4 space-y-3">
+          <input
+            ref={inputRef}
+            type="text"
+            value={taskText}
+            onChange={(e) => setTaskText(e.target.value)}
+            onKeyPress={(e) => e.key === 'Enter' && handleSave()}
+            placeholder="What do you need to do?"
+            className={`w-full px-4 py-3 rounded-xl border text-sm focus:outline-none focus:ring-2 focus:ring-purple-500/50 ${
+              isDark
+                ? 'bg-white/5 border-white/10 text-white placeholder-gray-500'
+                : 'bg-slate-50 border-slate-200 text-slate-800 placeholder-slate-400'
+            }`}
+          />
+
+          <div className="flex gap-2">
+            <button
+              onClick={onClose}
+              className={`flex-1 py-2.5 rounded-xl text-sm font-medium transition-all ${
+                isDark
+                  ? 'bg-white/10 text-white hover:bg-white/20'
+                  : 'bg-slate-100 text-slate-600 hover:bg-slate-200'
+              }`}
+            >
+              Cancel
+            </button>
+            <button
+              onClick={handleSave}
+              disabled={!taskText.trim()}
+              className={`flex-1 py-2.5 rounded-xl text-sm font-medium transition-all ${
+                taskText.trim()
+                  ? 'bg-gradient-to-r from-purple-500 to-pink-500 text-white hover:shadow-lg hover:shadow-purple-500/30'
+                  : isDark
+                    ? 'bg-white/5 text-gray-500 cursor-not-allowed'
+                    : 'bg-gray-100 text-gray-400 cursor-not-allowed'
+              }`}
+            >
+              Add Task
+            </button>
+          </div>
+
+          <p className={`text-xs text-center ${isDark ? 'text-gray-500' : 'text-gray-400'}`}>
+            Syncs with your To-Do List
+          </p>
+        </div>
+      </div>
+    </>,
+    document.body
+  );
+}
+
 // Stroke Animation Overlay Popup Component
 function StrokeOverlayPopup({
   kanji,
@@ -176,6 +314,12 @@ export function CalendarPage() {
   const [showStrokeOverlay, setShowStrokeOverlay] = useState(false);
   const strokeButtonRef = useRef<HTMLButtonElement>(null);
 
+  // Task creation popup state (long-press on calendar day)
+  const [showTaskPopup, setShowTaskPopup] = useState(false);
+  const [taskPopupDate, setTaskPopupDate] = useState<Date>(new Date());
+  const [taskPopupPosition, setTaskPopupPosition] = useState({ x: 0, y: 0 });
+  const longPressTimerRef = useRef<ReturnType<typeof setTimeout> | null>(null);
+
   // Word audio
   const { speak: speakWord, isSpeaking } = useSpeechSynthesis({ lang: 'ja-JP', rate: 0.8 });
 
@@ -285,6 +429,52 @@ export function CalendarPage() {
 
   const handleDayClick = (date: Date) => {
     setSelectedDate(date);
+  };
+
+  // Long-press handlers for task creation
+  const handleDayPressStart = (date: Date, event: React.MouseEvent | React.TouchEvent) => {
+    const clientX = 'touches' in event ? event.touches[0].clientX : event.clientX;
+    const clientY = 'touches' in event ? event.touches[0].clientY : event.clientY;
+
+    longPressTimerRef.current = setTimeout(() => {
+      setTaskPopupDate(date);
+      setTaskPopupPosition({ x: clientX, y: clientY });
+      setShowTaskPopup(true);
+    }, 500); // 500ms long press
+  };
+
+  const handleDayPressEnd = () => {
+    if (longPressTimerRef.current) {
+      clearTimeout(longPressTimerRef.current);
+      longPressTimerRef.current = null;
+    }
+  };
+
+  // Save task to localStorage (syncs with TodoWidget)
+  const handleSaveTask = (text: string) => {
+    const dateStr = taskPopupDate.toLocaleDateString('ja-JP', { month: 'short', day: 'numeric' });
+    const taskWithDate = `[${dateStr}] ${text}`;
+
+    // Get existing todos from localStorage
+    const existingTodos = JSON.parse(localStorage.getItem('gojun-todos') || '[]');
+
+    // Create new todo item matching TodoWidget format
+    const newTodo = {
+      id: Date.now().toString(),
+      text: taskWithDate,
+      completed: false,
+      createdAt: Date.now(),
+    };
+
+    // Add to beginning of list
+    const updatedTodos = [newTodo, ...existingTodos];
+    localStorage.setItem('gojun-todos', JSON.stringify(updatedTodos));
+
+    // Dispatch storage event so TodoWidget updates
+    window.dispatchEvent(new StorageEvent('storage', {
+      key: 'gojun-todos',
+      newValue: JSON.stringify(updatedTodos),
+    }));
   };
 
   // Get selected day's data
@@ -477,9 +667,16 @@ export function CalendarPage() {
                         <div
                           key={idx}
                           onClick={() => handleDayClick(date)}
+                          onMouseDown={(e) => handleDayPressStart(date, e)}
+                          onMouseUp={handleDayPressEnd}
+                          onMouseLeave={handleDayPressEnd}
+                          onTouchStart={(e) => handleDayPressStart(date, e)}
+                          onTouchEnd={handleDayPressEnd}
+                          onTouchCancel={handleDayPressEnd}
                           className={`
                             min-h-[90px] p-1.5 border-b border-r border-pink-100/50 dark:border-white/5
                             cursor-pointer transition-all hover:bg-pink-50 dark:hover:bg-white/5
+                            select-none
                             ${!isCurrentMonth ? 'opacity-40' : ''}
                             ${isSelected(date) ? 'bg-pink-100 dark:bg-pink-900/30 ring-2 ring-inset ring-pink-400' : ''}
                             ${isToday(date) ? 'bg-pink-50 dark:bg-pink-900/20' : ''}
@@ -494,9 +691,9 @@ export function CalendarPage() {
                             {day}
                           </div>
 
-                          {/* Kanji */}
+                          {/* Kanji - larger and more visible */}
                           {data?.kanji && (
-                            <div className="text-center text-2xl font-bold text-pink-600 dark:text-pink-400">
+                            <div className="text-center text-3xl font-bold text-pink-600 dark:text-pink-400 drop-shadow-sm">
                               {data.kanji}
                             </div>
                           )}
@@ -782,6 +979,17 @@ export function CalendarPage() {
           isDark={isDark}
           onClose={() => setShowStrokeOverlay(false)}
           anchorRef={strokeButtonRef}
+        />
+      )}
+
+      {/* Task Creation Popup (long-press on calendar day) */}
+      {showTaskPopup && (
+        <TaskCreationPopup
+          date={taskPopupDate}
+          isDark={isDark}
+          onClose={() => setShowTaskPopup(false)}
+          onSave={handleSaveTask}
+          anchorPosition={taskPopupPosition}
         />
       )}
     </div>
