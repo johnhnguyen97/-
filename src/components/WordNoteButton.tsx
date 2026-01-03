@@ -100,7 +100,7 @@ export function WordNoteButton({ word, reading, english, onPopupChange }: WordNo
       {isOpen && createPortal(
         <div
           ref={popupRef}
-          className="fixed z-[9999] w-56 bg-white rounded-xl shadow-2xl border border-gray-200 overflow-hidden animate-[scaleIn_0.15s_ease-out]"
+          className="fixed z-[9999] w-56 bg-white rounded-xl shadow-2xl border border-gray-200 overflow-hidden animate-notePopup"
           style={{
             top: popupPosition.top,
             left: Math.max(8, Math.min(popupPosition.left, window.innerWidth - 232)), // Keep within viewport
