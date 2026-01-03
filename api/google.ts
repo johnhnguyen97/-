@@ -8,7 +8,6 @@ const GOOGLE_REDIRECT_URI = 'https://gojun.vercel.app/api/google?action=callback
 
 // Google Tasks API base URL
 const TASKS_API_BASE = 'https://tasks.googleapis.com/tasks/v1';
-const GOJUN_TASK_LIST_NAME = 'Gojun - Japanese Words';
 
 // Scopes for Calendar and Tasks
 const SCOPES = [
@@ -659,101 +658,38 @@ async function listEvents(res: VercelResponse, accessToken: string) {
 
 // ========== Tasks Sync Handlers ==========
 
-// Get the default "My Tasks" list ID (first list returned by API is usually the default)
-async function getDefaultTaskListId(accessToken: string): Promise<string | null> {
+// Get the default "My Tasks" list ID (first list returned by API)
+async function getDefaultTaskListId(accessToken: string): Promise<{ listId: string | null; error?: string }> {
   const listResponse = await fetch(`${TASKS_API_BASE}/users/@me/lists`, {
     headers: { Authorization: `Bearer ${accessToken}` },
   });
 
   if (!listResponse.ok) {
-    return null;
+    return { listId: null, error: 'Failed to list task lists' };
   }
 
   const lists = await listResponse.json();
   // The first list is typically "My Tasks" (the default)
-  return lists.items?.[0]?.id || null;
-}
+  const listId = lists.items?.[0]?.id || null;
 
-async function getOrCreateTaskList(
-  accessToken: string,
-  // eslint-disable-next-line @typescript-eslint/no-explicit-any
-  supabase: any,
-  userId: string
-): Promise<{ listId: string | null; defaultListId: string | null; error?: string }> {
-  // Get the default "My Tasks" list
-  const defaultListId = await getDefaultTaskListId(accessToken);
-
-  // Check if we have a cached Gojun list ID
-  const { data: settings } = await supabase
-    .from('user_calendar_settings')
-    .select('google_task_list_id')
-    .eq('user_id', userId)
-    .single();
-
-  if (settings?.google_task_list_id) {
-    // Verify the list still exists
-    const verifyResponse = await fetch(
-      `${TASKS_API_BASE}/users/@me/lists/${settings.google_task_list_id}`,
-      { headers: { Authorization: `Bearer ${accessToken}` } }
-    );
-    if (verifyResponse.ok) {
-      return { listId: settings.google_task_list_id, defaultListId };
-    }
+  if (!listId) {
+    return { listId: null, error: 'No task lists found' };
   }
 
-  // List all task lists to find Gojun list
-  const listResponse = await fetch(`${TASKS_API_BASE}/users/@me/lists`, {
-    headers: { Authorization: `Bearer ${accessToken}` },
-  });
-
-  if (!listResponse.ok) {
-    return { listId: null, defaultListId, error: 'Failed to list task lists' };
-  }
-
-  const lists = await listResponse.json();
-  let gojunList = lists.items?.find((l: { title: string }) => l.title === GOJUN_TASK_LIST_NAME);
-
-  // Create list if it doesn't exist
-  if (!gojunList) {
-    const createResponse = await fetch(`${TASKS_API_BASE}/users/@me/lists`, {
-      method: 'POST',
-      headers: {
-        Authorization: `Bearer ${accessToken}`,
-        'Content-Type': 'application/json',
-      },
-      body: JSON.stringify({ title: GOJUN_TASK_LIST_NAME }),
-    });
-
-    if (!createResponse.ok) {
-      return { listId: null, defaultListId, error: 'Failed to create task list' };
-    }
-
-    gojunList = await createResponse.json();
-  }
-
-  // Cache the list ID
-  await supabase
-    .from('user_calendar_settings')
-    .upsert({
-      user_id: userId,
-      google_task_list_id: gojunList.id,
-      updated_at: new Date().toISOString(),
-    }, { onConflict: 'user_id' });
-
-  return { listId: gojunList.id };
+  return { listId };
 }
 
 async function handleTasksEnsureList(
   res: VercelResponse,
   // eslint-disable-next-line @typescript-eslint/no-explicit-any
-  supabase: any,
-  userId: string,
+  _supabase: any,
+  _userId: string,
   accessToken: string
 ) {
-  const { listId, error } = await getOrCreateTaskList(accessToken, supabase, userId);
+  const { listId, error } = await getDefaultTaskListId(accessToken);
 
-  if (error) {
-    return res.status(400).json({ error });
+  if (error || !listId) {
+    return res.status(400).json({ error: error || 'No task list found' });
   }
 
   return res.status(200).json({ success: true, listId });
@@ -788,8 +724,8 @@ async function handleTasksPush(
     return res.status(404).json({ error: 'Task not found' });
   }
 
-  // Get both Gojun list and default "My Tasks" list
-  const { listId, defaultListId, error: listError } = await getOrCreateTaskList(accessToken, supabase, userId);
+  // Get default "My Tasks" list
+  const { listId, error: listError } = await getDefaultTaskListId(accessToken);
   if (listError || !listId) {
     return res.status(400).json({ error: listError || 'Failed to get task list' });
   }
@@ -809,7 +745,7 @@ async function handleTasksPush(
   let googleTaskData: GoogleTask;
 
   if (task.google_task_id) {
-    // Update existing task in Gojun list
+    // Update existing task
     response = await fetch(
       `${TASKS_API_BASE}/lists/${listId}/tasks/${task.google_task_id}`,
       {
@@ -822,7 +758,7 @@ async function handleTasksPush(
       }
     );
   } else {
-    // Create new task in Gojun list
+    // Create new task
     response = await fetch(`${TASKS_API_BASE}/lists/${listId}/tasks`, {
       method: 'POST',
       headers: {
@@ -846,21 +782,6 @@ async function handleTasksPush(
   }
 
   googleTaskData = await response.json();
-
-  // Also create/update in the default "My Tasks" list (if different from Gojun list)
-  if (defaultListId && defaultListId !== listId) {
-    // For new tasks, create in My Tasks too
-    // For existing tasks, we only track in Gojun list, so always create fresh in My Tasks
-    await fetch(`${TASKS_API_BASE}/lists/${defaultListId}/tasks`, {
-      method: 'POST',
-      headers: {
-        Authorization: `Bearer ${accessToken}`,
-        'Content-Type': 'application/json',
-      },
-      body: JSON.stringify(googleTask),
-    });
-    // We don't track the My Tasks ID - it's a secondary copy
-  }
 
   await supabase
     .from('user_calendar_tasks')
@@ -887,7 +808,8 @@ async function handleTasksPull(
   userId: string,
   accessToken: string
 ) {
-  const { listId, error: listError } = await getOrCreateTaskList(accessToken, supabase, userId);
+  // Get default "My Tasks" list
+  const { listId, error: listError } = await getDefaultTaskListId(accessToken);
   if (listError || !listId) {
     return res.status(400).json({ error: listError || 'Failed to get task list' });
   }
@@ -992,8 +914,8 @@ async function handleTasksSync(
   userId: string,
   accessToken: string
 ) {
-  // Get both Gojun list and default "My Tasks" list
-  const { listId, defaultListId, error: listError } = await getOrCreateTaskList(accessToken, supabase, userId);
+  // Get default "My Tasks" list
+  const { listId, error: listError } = await getDefaultTaskListId(accessToken);
   if (listError || !listId) {
     return res.status(400).json({ error: listError || 'Failed to get task list' });
   }
@@ -1022,7 +944,7 @@ async function handleTasksSync(
     let response: Response;
 
     if (task.google_task_id) {
-      // Update existing task in Gojun list
+      // Update existing task
       response = await fetch(
         `${TASKS_API_BASE}/lists/${listId}/tasks/${task.google_task_id}`,
         {
@@ -1035,7 +957,7 @@ async function handleTasksSync(
         }
       );
     } else {
-      // Create new task in Gojun list
+      // Create new task
       response = await fetch(`${TASKS_API_BASE}/lists/${listId}/tasks`, {
         method: 'POST',
         headers: {
@@ -1048,19 +970,6 @@ async function handleTasksSync(
 
     if (response.ok) {
       const googleTaskData = await response.json();
-
-      // Also create in default "My Tasks" list (if different from Gojun list)
-      if (defaultListId && defaultListId !== listId && !task.google_task_id) {
-        // Only for new tasks, create in My Tasks too
-        await fetch(`${TASKS_API_BASE}/lists/${defaultListId}/tasks`, {
-          method: 'POST',
-          headers: {
-            Authorization: `Bearer ${accessToken}`,
-            'Content-Type': 'application/json',
-          },
-          body: JSON.stringify(googleTask),
-        });
-      }
 
       await supabase
         .from('user_calendar_tasks')
