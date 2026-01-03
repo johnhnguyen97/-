@@ -4,7 +4,9 @@ import { useAuth } from '../contexts/AuthContext';
 import { LearningCalendar } from '../components/LearningCalendar/LearningCalendar';
 import { FullCalendarView } from '../components/Calendar/FullCalendarView';
 import { Banner, BannerTitle, BannerSubtitle, Calendar, type CalendarDayData } from '../lib/gojun-ui';
-import { calendar as calendarTokens } from '../lib/gojun-ui/tokens';
+import { calendar as calendarTokens, formatJapaneseDate } from '../lib/gojun-ui/tokens';
+import { KanjiDetailModal, WordDetailModal, EventsPanel, TaskPanel } from '../components/Calendar';
+import type { WordData, KanjiData, HolidayData } from '../components/Calendar';
 
 // Get seasonal image path
 function getSeasonalImage(): string {
@@ -22,6 +24,14 @@ function formatDateKey(date: Date): string {
 
 type ViewMode = 'japanese' | 'full' | 'word';
 
+// Extended day data with word info
+interface ExtendedDayData extends CalendarDayData {
+  word?: string;
+  wordReading?: string;
+  wordMeaning?: string;
+  wordPartOfSpeech?: string;
+}
+
 export function CalendarPage() {
   const { isDark } = useTheme();
   const { session } = useAuth();
@@ -29,10 +39,16 @@ export function CalendarPage() {
   const [activeTab, setActiveTab] = useState<ViewMode>('japanese');
   const [currentYear, setCurrentYear] = useState(new Date().getFullYear());
   const [currentMonth, setCurrentMonth] = useState(new Date().getMonth() + 1);
-  const [dayData, setDayData] = useState<Record<string, CalendarDayData>>({});
-  const [selectedDate, setSelectedDate] = useState<Date | null>(null);
+  const [dayData, setDayData] = useState<Record<string, ExtendedDayData>>({});
+  const [selectedDate, setSelectedDate] = useState<Date | null>(new Date());
   const [jlptLevel, setJlptLevel] = useState<string>('N5');
   const [isMobile, setIsMobile] = useState(false);
+
+  // Modal states
+  const [showKanjiModal, setShowKanjiModal] = useState(false);
+  const [showWordModal, setShowWordModal] = useState(false);
+  const [selectedKanji, setSelectedKanji] = useState<KanjiData | null>(null);
+  const [selectedWord, setSelectedWord] = useState<WordData | null>(null);
 
   // Check for mobile viewport
   useEffect(() => {
@@ -80,12 +96,16 @@ export function CalendarPage() {
 
       const data = await response.json();
 
-      const newDayData: Record<string, CalendarDayData> = {};
+      const newDayData: Record<string, ExtendedDayData> = {};
 
       // Process words
-      data.words?.forEach((word: { date: string; word: string }) => {
+      data.words?.forEach((word: { date: string; word: string; reading?: string; meaning?: string; partOfSpeech?: string }) => {
         const key = word.date;
         if (!newDayData[key]) newDayData[key] = { events: [] };
+        newDayData[key].word = word.word;
+        newDayData[key].wordReading = word.reading;
+        newDayData[key].wordMeaning = word.meaning;
+        newDayData[key].wordPartOfSpeech = word.partOfSpeech;
         newDayData[key].events?.push({
           id: `word-${key}`,
           type: 'word',
@@ -94,7 +114,7 @@ export function CalendarPage() {
       });
 
       // Process kanji
-      data.kanji?.forEach((kanji: { date: string; kanji: string; reading?: string; meaning?: string }) => {
+      data.kanji?.forEach((kanji: { date: string; kanji: string; reading?: string; meaning?: string; onyomi?: string[]; kunyomi?: string[]; strokeCount?: number }) => {
         const key = kanji.date;
         if (!newDayData[key]) newDayData[key] = { events: [] };
         newDayData[key].kanji = kanji.kanji;
@@ -108,11 +128,11 @@ export function CalendarPage() {
       });
 
       // Process holidays
-      data.holidays?.forEach((holiday: { date: string; name: string }) => {
+      data.holidays?.forEach((holiday: { date: string; name: string; localName?: string }) => {
         const key = holiday.date;
         if (!newDayData[key]) newDayData[key] = { events: [] };
         newDayData[key].isHoliday = true;
-        newDayData[key].holidayName = holiday.name;
+        newDayData[key].holidayName = holiday.localName || holiday.name;
         newDayData[key].events?.push({
           id: `holiday-${key}`,
           type: 'holiday',
@@ -143,19 +163,61 @@ export function CalendarPage() {
     setSelectedDate(date);
   };
 
-  const handleKanjiClick = (date: Date, kanji: string) => {
-    // Open kanji detail modal
-    console.log('Kanji clicked:', kanji, 'on', formatDateKey(date));
-    setSelectedDate(date);
+  const handleKanjiClick = (date: Date, _kanji: string) => {
+    const dateKey = formatDateKey(date);
+    const data = dayData[dateKey];
+    if (data?.kanji) {
+      setSelectedKanji({
+        kanji: data.kanji,
+        reading: data.kanjiReading,
+        meaning: data.kanjiMeaning,
+      });
+      setShowKanjiModal(true);
+    }
   };
 
-  const getMonthTitle = () => {
-    return `${currentYear}年 ${calendarTokens.monthNames.full[currentMonth - 1]}`;
+  // Get current day's data for EventsPanel
+  const getSelectedDayData = (): { word?: WordData; kanji?: KanjiData; holidays: HolidayData[] } => {
+    if (!selectedDate) return { holidays: [] };
+    const dateKey = formatDateKey(selectedDate);
+    const data = dayData[dateKey];
+
+    if (!data) return { holidays: [] };
+
+    return {
+      word: data.word ? {
+        word: data.word,
+        reading: data.wordReading || '',
+        meaning: data.wordMeaning || '',
+        partOfSpeech: data.wordPartOfSpeech,
+      } : undefined,
+      kanji: data.kanji ? {
+        kanji: data.kanji,
+        reading: data.kanjiReading,
+        meaning: data.kanjiMeaning,
+      } : undefined,
+      holidays: data.isHoliday && data.holidayName ? [{ name: data.holidayName }] : [],
+    };
   };
 
-  const getTraditionalMonth = () => {
-    return calendarTokens.monthNames.traditional[currentMonth - 1];
+  const handleEventWordClick = () => {
+    const { word } = getSelectedDayData();
+    if (word) {
+      setSelectedWord(word);
+      setShowWordModal(true);
+    }
   };
+
+  const handleEventKanjiClick = () => {
+    const { kanji } = getSelectedDayData();
+    if (kanji) {
+      setSelectedKanji(kanji);
+      setShowKanjiModal(true);
+    }
+  };
+
+  // Get formatted date for banner
+  const dateInfo = formatJapaneseDate(currentYear, currentMonth);
 
   return (
     <div className={`min-h-[calc(100vh-4rem)] ${theme.bg} transition-all duration-300 ${
@@ -181,7 +243,7 @@ export function CalendarPage() {
         <div className="sticky top-0 z-20 bg-white/80 dark:bg-gray-900/80 backdrop-blur-lg border-b border-pink-100 dark:border-white/10">
           <div className="max-w-6xl mx-auto px-4 py-3">
             <div className="flex items-center justify-between">
-              {/* Tabs */}
+              {/* Tabs - Japanese names */}
               <div className="flex gap-2">
                 <button
                   onClick={() => setActiveTab('japanese')}
@@ -189,7 +251,7 @@ export function CalendarPage() {
                     activeTab === 'japanese' ? theme.tabActive : theme.tabInactive
                   }`}
                 >
-                  🌸 Japanese
+                  🌸 カレンダー
                 </button>
                 <button
                   onClick={() => setActiveTab('full')}
@@ -197,7 +259,7 @@ export function CalendarPage() {
                     activeTab === 'full' ? theme.tabActive : theme.tabInactive
                   }`}
                 >
-                  📅 Full View
+                  📅 全体表示
                 </button>
                 <button
                   onClick={() => setActiveTab('word')}
@@ -205,7 +267,7 @@ export function CalendarPage() {
                     activeTab === 'word' ? theme.tabActive : theme.tabInactive
                   }`}
                 >
-                  ✨ Today
+                  ✨ 今日の学習
                 </button>
               </div>
 
@@ -232,19 +294,19 @@ export function CalendarPage() {
         {/* Content */}
         {activeTab === 'japanese' && (
           <div className="max-w-4xl mx-auto">
-            {/* Seasonal Banner */}
+            {/* Seasonal Banner with Reiwa Era */}
             <Banner
               image={getSeasonalImage()}
-              height={isMobile ? '160px' : '220px'}
+              height={isMobile ? '160px' : '200px'}
               blend="bottom"
               animate
             >
-              <BannerTitle>{getMonthTitle()}</BannerTitle>
-              <BannerSubtitle>{getTraditionalMonth()}</BannerSubtitle>
+              <BannerTitle>{dateInfo.western}</BannerTitle>
+              <BannerSubtitle>{dateInfo.reiwa}</BannerSubtitle>
             </Banner>
 
-            {/* Japanese Calendar Grid */}
-            <div className="px-4 pb-6 -mt-4">
+            {/* Japanese Calendar Grid - overlaps banner slightly */}
+            <div className="px-4 pb-6 -mt-6">
               <Calendar
                 year={currentYear}
                 month={currentMonth}
@@ -258,54 +320,37 @@ export function CalendarPage() {
                 showNavigation={true}
               />
 
-              {/* Selected Day Details */}
-              {selectedDate && (
-                <div className={`mt-4 p-4 rounded-2xl border ${theme.card}`}>
-                  <h3 className={`font-bold mb-2 ${theme.text}`}>
-                    {selectedDate.toLocaleDateString('ja-JP', {
-                      year: 'numeric',
-                      month: 'long',
-                      day: 'numeric',
-                      weekday: 'long'
-                    })}
-                  </h3>
-                  {dayData[formatDateKey(selectedDate)] ? (
-                    <div className="space-y-2">
-                      {dayData[formatDateKey(selectedDate)].kanji && (
-                        <div className="flex items-center gap-3">
-                          <span className="text-3xl font-bold text-pink-600 dark:text-pink-400">
-                            {dayData[formatDateKey(selectedDate)].kanji}
-                          </span>
-                          <span className={theme.textMuted}>
-                            {dayData[formatDateKey(selectedDate)].kanjiReading}
-                          </span>
-                        </div>
-                      )}
-                      {dayData[formatDateKey(selectedDate)].isHoliday && (
-                        <p className="text-red-500 font-medium">
-                          🎌 {dayData[formatDateKey(selectedDate)].holidayName}
-                        </p>
-                      )}
-                    </div>
-                  ) : (
-                    <p className={theme.textMuted}>No events for this day</p>
-                  )}
-                </div>
-              )}
+              {/* Events Panel - Pill Style */}
+              <EventsPanel
+                selectedDate={selectedDate}
+                wordOfTheDay={getSelectedDayData().word}
+                kanjiOfTheDay={getSelectedDayData().kanji}
+                holidays={getSelectedDayData().holidays}
+                jlptLevel={jlptLevel}
+                onWordClick={handleEventWordClick}
+                onKanjiClick={handleEventKanjiClick}
+                className="mt-4"
+              />
+
+              {/* Task Panel - Google Calendar Integration */}
+              <TaskPanel
+                jlptLevel={jlptLevel}
+                className="mt-4"
+              />
 
               {/* Legend */}
               <div className={`mt-4 flex flex-wrap gap-4 text-sm ${theme.textMuted}`}>
                 <div className="flex items-center gap-2">
                   <span className="w-3 h-3 rounded-full bg-purple-400"></span>
-                  <span>Word of the Day</span>
+                  <span>単語</span>
                 </div>
                 <div className="flex items-center gap-2">
                   <span className="w-3 h-3 rounded-full bg-pink-400"></span>
-                  <span>Kanji of the Day</span>
+                  <span>漢字</span>
                 </div>
                 <div className="flex items-center gap-2">
                   <span className="w-3 h-3 rounded-full bg-amber-400"></span>
-                  <span>Japanese Holiday</span>
+                  <span>祝日</span>
                 </div>
               </div>
             </div>
@@ -332,6 +377,30 @@ export function CalendarPage() {
           </div>
         )}
       </div>
+
+      {/* Kanji Detail Modal */}
+      <KanjiDetailModal
+        isOpen={showKanjiModal}
+        onClose={() => setShowKanjiModal(false)}
+        kanji={selectedKanji?.kanji || ''}
+        reading={selectedKanji?.reading}
+        meaning={selectedKanji?.meaning}
+        onyomi={selectedKanji?.onyomi}
+        kunyomi={selectedKanji?.kunyomi}
+        strokeCount={selectedKanji?.strokeCount}
+        jlptLevel={jlptLevel}
+      />
+
+      {/* Word Detail Modal */}
+      <WordDetailModal
+        isOpen={showWordModal}
+        onClose={() => setShowWordModal(false)}
+        word={selectedWord?.word || ''}
+        reading={selectedWord?.reading || ''}
+        meaning={selectedWord?.meaning || ''}
+        partOfSpeech={selectedWord?.partOfSpeech}
+        jlptLevel={jlptLevel}
+      />
     </div>
   );
 }

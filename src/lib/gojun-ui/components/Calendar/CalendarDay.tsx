@@ -90,9 +90,10 @@ export function CalendarDay({
     <div
       onClick={handleClick}
       className={cn(
-        'relative flex flex-col items-center p-1 cursor-pointer transition-all',
+        'relative flex flex-col items-center p-1.5 cursor-pointer transition-all',
         'hover:bg-pink-50 dark:hover:bg-pink-900/20',
-        isKawaii ? 'rounded-xl min-h-[72px]' : 'rounded-lg min-h-[64px]',
+        // Larger minimum height for better kanji visibility
+        isKawaii ? 'rounded-xl min-h-[80px]' : 'rounded-lg min-h-[72px]',
         isToday && 'bg-pink-100 dark:bg-pink-900/30 ring-2 ring-pink-400 dark:ring-pink-500',
         isSelected && 'bg-pink-200 dark:bg-pink-800/40',
         !isCurrentMonth && 'opacity-40',
@@ -114,16 +115,21 @@ export function CalendarDay({
         {day}
       </span>
 
-      {/* Kanji */}
+      {/* Kanji - Large and prominent */}
       {kanji && (
         <button
           onClick={handleKanjiClick}
           title={kanjiReading ? `${kanji} (${kanjiReading})` : kanji}
           className={cn(
-            'text-lg font-bold leading-none mt-0.5 transition-transform hover:scale-110',
-            isKawaii ? 'text-xl' : 'text-base',
-            'text-indigo-600 dark:text-indigo-400',
-            'hover:text-pink-500 dark:hover:text-pink-400',
+            'font-bold leading-none mt-0.5 transition-all hover:scale-110',
+            // Larger size for better visibility
+            isKawaii ? 'text-2xl' : 'text-xl',
+            // Vibrant colors with drop shadow for contrast
+            'text-pink-600 dark:text-pink-400',
+            'hover:text-purple-600 dark:hover:text-purple-400',
+            'drop-shadow-[0_1px_1px_rgba(0,0,0,0.1)]',
+            // Subtle glow on hover
+            'hover:drop-shadow-[0_2px_4px_rgba(236,72,153,0.3)]',
           )}
         >
           {kanji}

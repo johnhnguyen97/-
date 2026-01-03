@@ -457,8 +457,46 @@ export const calendar = {
   monthNames: {
     full: ['1月', '2月', '3月', '4月', '5月', '6月', '7月', '8月', '9月', '10月', '11月', '12月'],
     traditional: ['睦月', '如月', '弥生', '卯月', '皐月', '水無月', '文月', '葉月', '長月', '神無月', '霜月', '師走'],
+    english: ['January', 'February', 'March', 'April', 'May', 'June', 'July', 'August', 'September', 'October', 'November', 'December'],
   },
 } as const;
+
+// ============================================================================
+// REIWA ERA HELPERS
+// ============================================================================
+
+/**
+ * Get Reiwa year from a date
+ * Reiwa era started May 1, 2019 (Reiwa 1)
+ */
+export function getReiwaYear(date: Date): number {
+  const year = date.getFullYear();
+  return year - 2018; // 2019 = Reiwa 1, 2026 = Reiwa 8
+}
+
+/**
+ * Format a date with both Western and Japanese era display
+ */
+export function formatJapaneseDate(year: number, month: number): {
+  western: string;
+  reiwa: string;
+  reiwaFull: string;
+  full: string;
+  japanese: string;
+} {
+  const reiwaYear = year - 2018;
+  const monthName = calendar.monthNames.english[month - 1];
+  const monthJp = calendar.monthNames.full[month - 1];
+  const traditionalMonth = calendar.monthNames.traditional[month - 1];
+
+  return {
+    western: `${monthName.toUpperCase()} ${year}`,
+    reiwa: `令和${reiwaYear}年`,
+    reiwaFull: `令和${reiwaYear}年${monthJp}`,
+    full: `${monthName.toUpperCase()} ${year} (令和${reiwaYear}年)`,
+    japanese: `${year}年${monthJp} (${traditionalMonth})`,
+  };
+}
 
 // ============================================================================
 // DARK MODE
