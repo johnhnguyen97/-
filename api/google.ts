@@ -783,9 +783,9 @@ async function handleTasksPush(
     status: task.is_completed ? 'completed' : 'needsAction',
   };
 
-  if (task.due_date) {
-    googleTask.due = new Date(task.due_date).toISOString();
-  }
+  // Set due date - use task's due_date or default to today
+  const dueDate = task.due_date ? new Date(task.due_date) : new Date();
+  googleTask.due = dueDate.toISOString();
 
   let response: Response;
   let googleTaskData: GoogleTask;
@@ -981,9 +981,9 @@ async function handleTasksSync(
       status: task.is_completed ? 'completed' : 'needsAction',
     };
 
-    if (task.due_date) {
-      googleTask.due = new Date(task.due_date).toISOString();
-    }
+    // Set due date - use task's due_date or default to today
+    const dueDate = task.due_date ? new Date(task.due_date) : new Date();
+    googleTask.due = dueDate.toISOString();
 
     let response: Response;
 
