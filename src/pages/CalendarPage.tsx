@@ -342,6 +342,7 @@ export function CalendarPage() {
     tabInactive: isDark
       ? 'bg-white/5 text-slate-400 hover:bg-white/10 hover:text-white border border-white/10'
       : 'bg-white/80 text-gray-600 hover:bg-pink-50 border border-pink-100',
+    kanjiColor: isDark ? 'text-white/10' : 'text-pink-300/40',
   };
 
   // Load calendar data
@@ -560,6 +561,9 @@ export function CalendarPage() {
             <div className="absolute bottom-0 left-0 w-[500px] h-[500px] bg-gradient-to-tr from-purple-100/30 to-transparent rounded-full blur-3xl" />
           </>
         )}
+        {/* Background kanji watermarks */}
+        <div className={`absolute top-20 right-20 text-[150px] font-serif select-none ${theme.kanjiColor}`}>暦</div>
+        <div className={`absolute bottom-40 left-10 text-[120px] font-serif select-none ${theme.kanjiColor}`}>日</div>
       </div>
 
       <div className="relative z-10">
