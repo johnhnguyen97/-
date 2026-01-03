@@ -2,10 +2,10 @@ import { useState, useEffect, useCallback } from 'react';
 import { useTheme } from '../contexts/ThemeContext';
 import { useAuth } from '../contexts/AuthContext';
 import { LearningCalendar } from '../components/LearningCalendar/LearningCalendar';
-import { formatJapaneseDate } from '../lib/gojun-ui/tokens';
+import { formatJapaneseDate, calendar } from '../lib/gojun-ui/tokens';
+import { Banner, BannerTitle, BannerSubtitle } from '../lib/gojun-ui/components/Banner/Banner';
 import { TaskPanel } from '../components/Calendar';
 import { StrokeAnimation } from '../components/Kanji/StrokeAnimation';
-import { KanjiAudio } from '../components/Kanji/KanjiAudio';
 import { FavoriteButton } from '../components/FavoriteButton';
 import { WordNoteButton } from '../components/WordNoteButton';
 import { useSpeechSynthesis } from '../hooks/useSpeechSynthesis';
@@ -13,6 +13,15 @@ import { useSpeechSynthesis } from '../hooks/useSpeechSynthesis';
 // Format date as YYYY-MM-DD
 function formatDateKey(date: Date): string {
   return `${date.getFullYear()}-${String(date.getMonth() + 1).padStart(2, '0')}-${String(date.getDate()).padStart(2, '0')}`;
+}
+
+// Get seasonal image based on current month
+function getSeasonalImage(): string {
+  const month = new Date().getMonth() + 1;
+  if (month >= 3 && month <= 5) return calendar.seasons.spring;
+  if (month >= 6 && month <= 8) return calendar.seasons.summer;
+  if (month >= 9 && month <= 11) return calendar.seasons.autumn;
+  return calendar.seasons.winter;
 }
 
 type ViewMode = 'calendar' | 'learning';
@@ -50,8 +59,11 @@ export function CalendarPage() {
   const [wordExpanded, setWordExpanded] = useState(true);
   const [kanjiExpanded, setKanjiExpanded] = useState(true);
 
+  // Stroke animation modal state
+  const [showStrokeModal, setShowStrokeModal] = useState(false);
+
   // Word audio
-  const { speak: speakWord, speaking: speakingWord } = useSpeechSynthesis({ lang: 'ja-JP', rate: 0.8 });
+  const { speak: speakWord, isSpeaking } = useSpeechSynthesis({ lang: 'ja-JP', rate: 0.8 });
 
   // Check for mobile viewport
   useEffect(() => {
@@ -66,9 +78,10 @@ export function CalendarPage() {
     bg: isDark
       ? 'bg-gradient-to-br from-[#1A1625] via-[#1E1B2E] to-[#252033]'
       : 'bg-gradient-to-br from-pink-50 via-white to-purple-50',
-    card: isDark ? 'bg-white/5 border-white/10' : 'bg-white/90 border-pink-100',
+    card: isDark ? 'bg-white/5 border-white/10' : 'bg-white border-pink-100',
     text: isDark ? 'text-white' : 'text-gray-800',
     textMuted: isDark ? 'text-slate-400' : 'text-gray-500',
+    textSubtle: isDark ? 'text-slate-500' : 'text-slate-400',
     tabActive: isDark
       ? 'bg-gradient-to-r from-pink-600 to-purple-600 text-white shadow-lg shadow-pink-500/20'
       : 'bg-gradient-to-r from-pink-500 to-purple-500 text-white shadow-lg shadow-pink-500/30',
@@ -273,18 +286,23 @@ export function CalendarPage() {
 
         {/* Content */}
         {activeTab === 'calendar' && (
-          <div className="max-w-7xl mx-auto px-4 py-4">
-            {/* Header with month/year */}
-            <div className="text-center mb-4">
-              <h1 className={`text-3xl font-bold ${theme.text}`}>{dateInfo.western}</h1>
-              <p className={`text-sm ${theme.textMuted}`}>{dateInfo.reiwa}</p>
-            </div>
+          <div className="max-w-7xl mx-auto">
+            {/* Banner */}
+            <Banner
+              image={getSeasonalImage()}
+              height="180px"
+              blend="bottom"
+              animate={true}
+            >
+              <BannerTitle>{dateInfo.western}</BannerTitle>
+              <BannerSubtitle>{dateInfo.reiwa}</BannerSubtitle>
+            </Banner>
 
             {/* Dashboard Layout */}
-            <div className={`${isMobile ? '' : 'flex gap-6'}`}>
+            <div className={`px-4 py-4 ${isMobile ? '' : 'flex gap-6'}`}>
               {/* Calendar Grid */}
               <div className={`${isMobile ? 'w-full' : 'flex-1'}`}>
-                <div className={`rounded-2xl overflow-hidden border shadow-lg ${theme.card}`}>
+                <div className={`rounded-2xl overflow-hidden border shadow-lg ${theme.card} -mt-6`}>
                   {/* Calendar Header */}
                   <div className={`flex items-center justify-between px-4 py-3 border-b ${
                     isDark ? 'border-white/10 bg-white/5' : 'border-pink-100 bg-pink-50/50'
@@ -426,7 +444,24 @@ export function CalendarPage() {
                 {/* Expandable Cards Container */}
                 <div className={`rounded-b-2xl border shadow-lg overflow-hidden ${theme.card}`}>
                   {/* Word of the Day Card */}
-                  <div className={`border-b ${isDark ? 'border-white/10' : 'border-pink-100'}`}>
+                  <div className={`border-b ${isDark ? 'border-white/10' : 'border-pink-100'} relative`}>
+                    {/* Favorite/Note buttons - top right */}
+                    {selectedDayData.word && (
+                      <div className="absolute top-3 right-3 flex gap-1 z-10">
+                        <FavoriteButton
+                          word={selectedDayData.word}
+                          reading={selectedDayData.wordReading || ''}
+                          english={selectedDayData.wordMeaning || ''}
+                          partOfSpeech={selectedDayData.wordPartOfSpeech?.toLowerCase() as 'noun' | 'verb' | 'adjective' | 'adverb' | 'particle' | 'expression'}
+                        />
+                        <WordNoteButton
+                          word={selectedDayData.word}
+                          reading={selectedDayData.wordReading || ''}
+                          english={selectedDayData.wordMeaning || ''}
+                        />
+                      </div>
+                    )}
+
                     <button
                       onClick={() => setWordExpanded(!wordExpanded)}
                       className={`w-full px-4 py-3 flex items-center justify-between ${
@@ -434,12 +469,12 @@ export function CalendarPage() {
                       } transition-colors`}
                     >
                       <div className="flex items-center gap-2">
-                        <span className="text-lg">📚</span>
-                        <span className={`font-medium ${isDark ? 'text-indigo-300' : 'text-indigo-600'}`}>今日の単語</span>
+                        <span className={isDark ? 'text-white' : 'text-pink-500'}>🌸</span>
+                        <span className={`font-medium ${isDark ? 'text-pink-300' : 'text-pink-600'}`}>今日の単語</span>
                         {selectedDayData.wordPartOfSpeech && (
                           <span className={`text-xs px-2 py-0.5 rounded-full ${
-                            isDark ? 'bg-indigo-900/50 text-indigo-300' : 'bg-indigo-100 text-indigo-600'
-                          }`}>
+                            isDark ? 'bg-white/10' : 'bg-pink-100'
+                          } ${theme.textMuted}`}>
                             {selectedDayData.wordPartOfSpeech}
                           </span>
                         )}
@@ -451,57 +486,29 @@ export function CalendarPage() {
 
                     {wordExpanded && selectedDayData.word && (
                       <div className="px-4 pb-4">
-                        {/* Word Display */}
+                        {/* Word Display with inline audio */}
                         <div className="text-center py-4">
-                          <p className={`text-4xl font-bold ${isDark ? 'text-white' : 'text-gray-800'}`}>
-                            {selectedDayData.word}
-                          </p>
-                          <p className={`text-lg mt-1 ${isDark ? 'text-indigo-300' : 'text-indigo-600'}`}>
+                          <div className="flex items-center justify-center gap-2 mb-1">
+                            <p className={`text-4xl font-bold ${isDark ? 'text-white' : 'text-gray-800'}`}>
+                              {selectedDayData.word}
+                            </p>
+                            <button
+                              onClick={() => speakWord(selectedDayData.word || '')}
+                              className={`w-10 h-10 rounded-lg flex items-center justify-center transition-all text-lg ${
+                                isSpeaking(selectedDayData.word || '')
+                                  ? 'bg-pink-500 text-white scale-110'
+                                  : isDark ? 'bg-white/10 hover:bg-white/20' : 'bg-slate-100 hover:bg-slate-200'
+                              }`}
+                            >
+                              🔊
+                            </button>
+                          </div>
+                          <p className={`text-lg ${isDark ? 'text-pink-400' : 'text-pink-600'}`}>
                             {selectedDayData.wordReading}
                           </p>
                           <p className={`mt-2 ${theme.textMuted}`}>
                             {selectedDayData.wordMeaning}
                           </p>
-                        </div>
-
-                        {/* Action Buttons */}
-                        <div className="flex items-center justify-center gap-3 pt-2 border-t border-pink-100 dark:border-white/10">
-                          {/* Audio Button */}
-                          <button
-                            onClick={() => speakWord(selectedDayData.word || '')}
-                            disabled={speakingWord}
-                            className={`flex items-center gap-2 px-4 py-2 rounded-lg transition-all ${
-                              speakingWord
-                                ? 'bg-indigo-500 text-white'
-                                : isDark
-                                  ? 'bg-white/10 hover:bg-white/20 text-white'
-                                  : 'bg-indigo-50 hover:bg-indigo-100 text-indigo-700'
-                            }`}
-                          >
-                            <svg className="w-5 h-5" fill="currentColor" viewBox="0 0 24 24">
-                              <path d="M3 9v6h4l5 5V4L7 9H3zm13.5 3c0-1.77-1.02-3.29-2.5-4.03v8.05c1.48-.73 2.5-2.25 2.5-4.02z" />
-                            </svg>
-                            <span className="text-sm font-medium">聴く</span>
-                          </button>
-
-                          {/* Favorite */}
-                          <div className="scale-150">
-                            <FavoriteButton
-                              word={selectedDayData.word}
-                              reading={selectedDayData.wordReading || ''}
-                              english={selectedDayData.wordMeaning || ''}
-                              partOfSpeech={selectedDayData.wordPartOfSpeech}
-                            />
-                          </div>
-
-                          {/* Note */}
-                          <div className="scale-150">
-                            <WordNoteButton
-                              word={selectedDayData.word}
-                              reading={selectedDayData.wordReading || ''}
-                              english={selectedDayData.wordMeaning || ''}
-                            />
-                          </div>
                         </div>
                       </div>
                     )}
@@ -514,7 +521,24 @@ export function CalendarPage() {
                   </div>
 
                   {/* Kanji of the Day Card */}
-                  <div className={`border-b ${isDark ? 'border-white/10' : 'border-pink-100'}`}>
+                  <div className={`border-b ${isDark ? 'border-white/10' : 'border-pink-100'} relative`}>
+                    {/* Favorite/Note buttons - top right */}
+                    {selectedDayData.kanji && (
+                      <div className="absolute top-3 right-3 flex gap-1 z-10">
+                        <FavoriteButton
+                          word={selectedDayData.kanji}
+                          reading={selectedDayData.kanjiReading || ''}
+                          english={selectedDayData.kanjiMeaning || ''}
+                          partOfSpeech="kanji"
+                        />
+                        <WordNoteButton
+                          word={selectedDayData.kanji}
+                          reading={selectedDayData.kanjiReading || ''}
+                          english={selectedDayData.kanjiMeaning || ''}
+                        />
+                      </div>
+                    )}
+
                     <button
                       onClick={() => setKanjiExpanded(!kanjiExpanded)}
                       className={`w-full px-4 py-3 flex items-center justify-between ${
@@ -522,12 +546,12 @@ export function CalendarPage() {
                       } transition-colors`}
                     >
                       <div className="flex items-center gap-2">
-                        <span className="text-lg">漢</span>
-                        <span className={`font-medium ${isDark ? 'text-pink-300' : 'text-pink-600'}`}>今日の漢字</span>
+                        <span className={isDark ? 'text-indigo-400' : 'text-indigo-500'}>漢</span>
+                        <span className={`font-medium ${isDark ? 'text-indigo-300' : 'text-indigo-600'}`}>今日の漢字</span>
                         {selectedDayData.kanjiStrokeCount && (
                           <span className={`text-xs px-2 py-0.5 rounded-full ${
-                            isDark ? 'bg-pink-900/50 text-pink-300' : 'bg-pink-100 text-pink-600'
-                          }`}>
+                            isDark ? 'bg-white/10' : 'bg-indigo-100'
+                          } ${theme.textMuted}`}>
                             {selectedDayData.kanjiStrokeCount} strokes
                           </span>
                         )}
@@ -539,66 +563,60 @@ export function CalendarPage() {
 
                     {kanjiExpanded && selectedDayData.kanji && (
                       <div className="px-4 pb-4">
-                        {/* Kanji Display */}
+                        {/* Kanji Display with inline audio */}
                         <div className="text-center py-2">
-                          <p className={`text-6xl font-bold ${isDark ? 'text-pink-300' : 'text-pink-600'}`}>
-                            {selectedDayData.kanji}
-                          </p>
-                          <p className={`text-lg mt-1 ${theme.textMuted}`}>
-                            {selectedDayData.kanjiReading}
-                          </p>
-                          <p className={`mt-1 ${isDark ? 'text-gray-300' : 'text-gray-600'}`}>
+                          <div className="flex items-center justify-center gap-2 mb-1">
+                            <p className={`text-5xl font-bold ${isDark ? 'text-white' : 'text-gray-800'}`}>
+                              {selectedDayData.kanji}
+                            </p>
+                            <button
+                              onClick={() => speakWord(selectedDayData.kanji || '')}
+                              className={`w-10 h-10 rounded-lg flex items-center justify-center transition-all text-lg ${
+                                isSpeaking(selectedDayData.kanji || '')
+                                  ? 'bg-indigo-500 text-white scale-110'
+                                  : isDark ? 'bg-white/10 hover:bg-white/20' : 'bg-slate-100 hover:bg-slate-200'
+                              }`}
+                            >
+                              🔊
+                            </button>
+                          </div>
+                          <p className={`text-base font-medium ${isDark ? 'text-indigo-400' : 'text-indigo-600'}`}>
                             {selectedDayData.kanjiMeaning}
                           </p>
                         </div>
 
-                        {/* Stroke Animation */}
-                        <div className="mt-4">
-                          <StrokeAnimation
-                            character={selectedDayData.kanji}
-                            isDark={isDark}
-                          />
-                        </div>
-
-                        {/* Audio & Readings */}
-                        <div className="mt-4 flex flex-wrap gap-3 justify-center">
+                        {/* Readings Grid - like HomePage */}
+                        <div className="grid grid-cols-2 gap-2 mt-3">
                           {selectedDayData.kanjiOnyomi && selectedDayData.kanjiOnyomi.length > 0 && (
-                            <KanjiAudio
-                              label="On'yomi"
-                              reading={selectedDayData.kanjiOnyomi[0]}
-                              isDark={isDark}
-                            />
+                            <div className={`${isDark ? 'bg-white/5' : 'bg-slate-50'} rounded-lg p-2 text-center`}>
+                              <p className={`text-xs ${theme.textSubtle} mb-0.5`}>On'yomi</p>
+                              <p className={`text-sm font-medium ${isDark ? 'text-purple-400' : 'text-purple-600'}`}>
+                                {selectedDayData.kanjiOnyomi.slice(0, 2).join(', ')}
+                              </p>
+                            </div>
                           )}
                           {selectedDayData.kanjiKunyomi && selectedDayData.kanjiKunyomi.length > 0 && (
-                            <KanjiAudio
-                              label="Kun'yomi"
-                              reading={selectedDayData.kanjiKunyomi[0].replace(/[.\-]/g, '')}
-                              isDark={isDark}
-                            />
+                            <div className={`${isDark ? 'bg-white/5' : 'bg-slate-50'} rounded-lg p-2 text-center`}>
+                              <p className={`text-xs ${theme.textSubtle} mb-0.5`}>Kun'yomi</p>
+                              <p className={`text-sm font-medium ${isDark ? 'text-blue-400' : 'text-blue-600'}`}>
+                                {selectedDayData.kanjiKunyomi.slice(0, 2).join(', ')}
+                              </p>
+                            </div>
                           )}
                         </div>
 
-                        {/* Action Buttons */}
-                        <div className="flex items-center justify-center gap-3 pt-4 mt-4 border-t border-pink-100 dark:border-white/10">
-                          {/* Favorite */}
-                          <div className="scale-150">
-                            <FavoriteButton
-                              word={selectedDayData.kanji}
-                              reading={selectedDayData.kanjiReading || ''}
-                              english={selectedDayData.kanjiMeaning || ''}
-                              partOfSpeech="kanji"
-                            />
-                          </div>
-
-                          {/* Note */}
-                          <div className="scale-150">
-                            <WordNoteButton
-                              word={selectedDayData.kanji}
-                              reading={selectedDayData.kanjiReading || ''}
-                              english={selectedDayData.kanjiMeaning || ''}
-                            />
-                          </div>
-                        </div>
+                        {/* Stroke Animation Button */}
+                        <button
+                          onClick={() => setShowStrokeModal(true)}
+                          className={`w-full mt-3 py-2 rounded-lg text-sm font-medium transition-all flex items-center justify-center gap-2 ${
+                            isDark
+                              ? 'bg-indigo-500/20 text-indigo-300 hover:bg-indigo-500/30'
+                              : 'bg-indigo-100 text-indigo-700 hover:bg-indigo-200'
+                          }`}
+                        >
+                          <span>✏️</span>
+                          <span>See Stroke Animation</span>
+                        </button>
                       </div>
                     )}
 
@@ -640,6 +658,63 @@ export function CalendarPage() {
           </div>
         )}
       </div>
+
+      {/* Stroke Animation Modal - Vortex Style */}
+      {showStrokeModal && selectedDayData.kanji && (
+        <div className="fixed inset-0 z-50 flex items-center justify-center p-4">
+          {/* Backdrop */}
+          <div
+            className="absolute inset-0 bg-black/60 backdrop-blur-sm"
+            onClick={() => setShowStrokeModal(false)}
+          />
+
+          {/* Modal with portal animation */}
+          <div className={`relative ${isDark ? 'bg-gray-900' : 'bg-white'} rounded-2xl shadow-2xl w-full max-w-md overflow-hidden portal-emerge`}>
+            {/* Glow effect */}
+            <div className="absolute inset-0 pointer-events-none">
+              <div className={`absolute inset-0 rounded-2xl ${isDark ? 'shadow-[0_0_60px_rgba(139,92,246,0.3)]' : 'shadow-[0_0_60px_rgba(236,72,153,0.2)]'}`} />
+            </div>
+
+            {/* Header */}
+            <div className={`relative flex items-center justify-between px-5 py-4 border-b ${isDark ? 'border-white/10 bg-gradient-to-r from-indigo-600/20 to-purple-600/20' : 'border-pink-100 bg-gradient-to-r from-pink-50 to-purple-50'}`}>
+              <div className="flex items-center gap-2">
+                <span className="text-2xl">✏️</span>
+                <div>
+                  <h3 className={`font-bold ${isDark ? 'text-white' : 'text-gray-800'}`}>Stroke Order</h3>
+                  <p className={`text-xs ${theme.textMuted}`}>書き順</p>
+                </div>
+              </div>
+              <button
+                onClick={() => setShowStrokeModal(false)}
+                className={`p-2 rounded-lg transition-colors ${isDark ? 'hover:bg-white/10' : 'hover:bg-pink-100'}`}
+              >
+                <svg className="w-5 h-5" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                  <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M6 18L18 6M6 6l12 12" />
+                </svg>
+              </button>
+            </div>
+
+            {/* Content */}
+            <div className="p-5">
+              {/* Large Kanji Display */}
+              <div className="text-center mb-4">
+                <p className={`text-7xl font-bold ${isDark ? 'text-white' : 'text-gray-800'}`}>
+                  {selectedDayData.kanji}
+                </p>
+                <p className={`mt-2 text-lg ${isDark ? 'text-indigo-400' : 'text-indigo-600'}`}>
+                  {selectedDayData.kanjiMeaning}
+                </p>
+              </div>
+
+              {/* Stroke Animation Component */}
+              <StrokeAnimation
+                character={selectedDayData.kanji}
+                isDark={isDark}
+              />
+            </div>
+          </div>
+        </div>
+      )}
     </div>
   );
 }
