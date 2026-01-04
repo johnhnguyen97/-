@@ -12,6 +12,7 @@ dist/
 # IDE
 .vscode/
 .idea/
+*.code-workspace
 
 # OS
 .DS_Store
@@ -21,13 +22,21 @@ Thumbs.db
 *.log
 npm-debug.log*
 
+# Vercel
 .vercel
 
 # Supabase CLI
 supabase.exe
 supabase_windows_amd64.tar.gz
 supabase/.temp/
-.env*.local
 
-# Raw dictionary data (processed files in public/data/)
-/data/
+# Raw dictionary data (large files - processed files in public/data/)
+/data/*.json
+/data/*.zip
+/data/*.tgz
+
+# Playwright MCP
+.playwright-mcp/
+
+# Test artifacts
+tests/*.json
