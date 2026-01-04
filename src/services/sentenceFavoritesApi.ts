@@ -51,10 +51,10 @@ export async function getSentenceFavorites(
   token: string,
   category?: string
 ): Promise<{ favorites: SentenceFavorite[]; categories: typeof SENTENCE_CATEGORIES }> {
-  const params = new URLSearchParams();
+  const params = new URLSearchParams({ action: 'sentences' });
   if (category) params.set('category', category);
 
-  const response = await fetch(`${API_BASE}/sentence-favorites?${params}`, {
+  const response = await fetch(`${API_BASE}/favorites?${params}`, {
     headers: {
       Authorization: `Bearer ${token}`,
     },
@@ -74,7 +74,7 @@ export async function saveSentenceFavorite(
   token: string,
   params: SaveSentenceParams
 ): Promise<{ favorite: SentenceFavorite }> {
-  const response = await fetch(`${API_BASE}/sentence-favorites`, {
+  const response = await fetch(`${API_BASE}/favorites?action=sentences`, {
     method: 'POST',
     headers: {
       'Content-Type': 'application/json',
@@ -99,7 +99,7 @@ export async function deleteSentenceFavorite(
 ): Promise<void> {
   const isUuid = /^[0-9a-f]{8}-[0-9a-f]{4}-[0-9a-f]{4}-[0-9a-f]{4}-[0-9a-f]{12}$/i.test(idOrJapanese);
 
-  const response = await fetch(`${API_BASE}/sentence-favorites`, {
+  const response = await fetch(`${API_BASE}/favorites?action=sentences`, {
     method: 'DELETE',
     headers: {
       'Content-Type': 'application/json',
