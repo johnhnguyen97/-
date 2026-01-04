@@ -12,6 +12,7 @@ import { TimerWidget } from '../components/TimerWidget';
 import { FavoriteButton } from '../components/FavoriteButton';
 import { WordNoteButton } from '../components/WordNoteButton';
 import { StrokeAnimation } from '../components/Kanji/StrokeAnimation';
+import { MobileHomeView } from '../components/Home/MobileHomeView';
 import { getDailyData } from '../services/calendarApi';
 import { getUserStats } from '../services/userStatsApi';
 
@@ -269,7 +270,16 @@ export function HomePage() {
   const [jlptLevel, setJlptLevel] = useState('N5');
   const [isVisible, setIsVisible] = useState(false);
   const [currentTime, setCurrentTime] = useState(new Date());
+  const [isMobile, setIsMobile] = useState(false);
   const { speak, isSpeaking } = useSpeechSynthesis();
+
+  // Check for mobile viewport
+  useEffect(() => {
+    const checkMobile = () => setIsMobile(window.innerWidth < 1024);
+    checkMobile();
+    window.addEventListener('resize', checkMobile);
+    return () => window.removeEventListener('resize', checkMobile);
+  }, []);
 
   // Load timezone preferences
   const [selectedTimezones, setSelectedTimezones] = useState<string[]>(() => {
@@ -498,6 +508,34 @@ export function HomePage() {
     input: isDark ? 'bg-white/5 border-white/10' : 'bg-slate-50 border-slate-200',
     kanjiColor: isDark ? 'text-white/10' : 'text-pink-300/40',
   };
+
+  // Render mobile view if on mobile device
+  if (isMobile) {
+    return (
+      <>
+        <MobileHomeView
+          firstName={firstName}
+          jlptLevel={jlptLevel}
+          greeting={greeting}
+          currentTime={currentTime}
+          wordOfTheDay={wordOfTheDay}
+          kanjiOfTheDay={kanjiOfTheDay}
+          stats={stats}
+          statsLoading={statsLoading}
+          wordLoading={wordLoading}
+          weeklyDays={weeklyDays}
+          todaysTip={todaysTip}
+          onOpenGrammar={() => setShowGrammarGuide(true)}
+          onOpenKana={() => setShowKanaChart(true)}
+          onOpenNotes={() => setShowNotes(true)}
+        />
+        {/* Modals still need to render */}
+        {showGrammarGuide && <GrammarGuide onClose={() => setShowGrammarGuide(false)} />}
+        {showKanaChart && <KanaChart isOpen={showKanaChart} onClose={() => setShowKanaChart(false)} />}
+        {showNotes && <NotesPanel isOpen={showNotes} onClose={() => setShowNotes(false)} />}
+      </>
+    );
+  }
 
   return (
     <div className={`min-h-screen ${theme.text} pb-24 md:pb-8 transition-all duration-500 ${
