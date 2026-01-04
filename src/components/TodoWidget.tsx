@@ -38,6 +38,7 @@ interface TaskFormData {
   due_date: string;
   due_time: string;
   priority: number;
+  subtasks: { id: string; title: string; completed: boolean }[];
 }
 
 export function TodoWidget({ compact = false }: TodoWidgetProps) {
@@ -57,7 +58,9 @@ export function TodoWidget({ compact = false }: TodoWidgetProps) {
     due_date: '',
     due_time: '',
     priority: 0,
+    subtasks: [],
   });
+  const [newSubtask, setNewSubtask] = useState('');
   const [popupPosition, setPopupPosition] = useState({ top: 0, left: 0 });
   const addButtonRef = useRef<HTMLButtonElement>(null);
   const popupRef = useRef<HTMLDivElement>(null);
@@ -311,7 +314,7 @@ export function TodoWidget({ compact = false }: TodoWidgetProps) {
     // Optimistic update
     setTodos(prev => [optimisticTodo, ...prev]);
     setShowDetailModal(false);
-    setTaskForm({ title: '', notes: '', due_date: '', due_time: '', priority: 0 });
+    setTaskForm({ title: '', notes: '', due_date: '', due_time: '', priority: 0, subtasks: [] });
 
     if (!session?.access_token) {
       const localTodos = JSON.parse(localStorage.getItem('gojun-todos') || '[]');
@@ -360,17 +363,42 @@ export function TodoWidget({ compact = false }: TodoWidgetProps) {
   };
 
   const openDetailModal = () => {
-    // Calculate popup position based on button location
+    // Calculate popup position - on left side near the TodoWidget
     if (addButtonRef.current) {
       const rect = addButtonRef.current.getBoundingClientRect();
       setPopupPosition({
-        top: rect.bottom + 8, // Position below button
-        left: rect.left + rect.width / 2 - 144, // Center the 288px (w-72) popup
+        top: rect.top, // Align with button top
+        left: rect.left, // Align with button left edge
       });
     }
-    setTaskForm({ title: newTodo, notes: '', due_date: '', due_time: '', priority: 0 });
+    setTaskForm({ title: newTodo, notes: '', due_date: '', due_time: '', priority: 0, subtasks: [] });
+    setNewSubtask('');
     setNewTodo('');
     setShowDetailModal(true);
+  };
+
+  const addSubtask = () => {
+    if (newSubtask.trim()) {
+      setTaskForm(f => ({
+        ...f,
+        subtasks: [...f.subtasks, { id: Date.now().toString(), title: newSubtask.trim(), completed: false }]
+      }));
+      setNewSubtask('');
+    }
+  };
+
+  const removeSubtask = (id: string) => {
+    setTaskForm(f => ({
+      ...f,
+      subtasks: f.subtasks.filter(s => s.id !== id)
+    }));
+  };
+
+  const toggleSubtask = (id: string) => {
+    setTaskForm(f => ({
+      ...f,
+      subtasks: f.subtasks.map(s => s.id === id ? { ...s, completed: !s.completed } : s)
+    }));
   };
 
   // Close popup when clicking outside
@@ -684,48 +712,67 @@ export function TodoWidget({ compact = false }: TodoWidgetProps) {
             </div>
 
             {/* Form - Compact like word note popup */}
-            <div className="p-3 space-y-3">
+            <div className="p-3 space-y-3 max-h-80 overflow-y-auto">
               {/* Title input */}
               <input
                 type="text"
                 value={taskForm.title}
                 onChange={(e) => setTaskForm(f => ({ ...f, title: e.target.value }))}
-                placeholder="What needs to be done?"
+                placeholder="Task title"
                 autoFocus
                 className={`w-full px-3 py-2 rounded-lg border text-sm focus:outline-none focus:ring-2 focus:ring-purple-500/50 ${theme.input}`}
               />
 
-              {/* Notes textarea */}
+              {/* Notes/Description */}
               <textarea
                 value={taskForm.notes}
                 onChange={(e) => setTaskForm(f => ({ ...f, notes: e.target.value }))}
-                placeholder="Add notes..."
-                rows={3}
+                placeholder="Add description..."
+                rows={2}
                 className={`w-full px-3 py-2 rounded-lg border text-sm focus:outline-none focus:ring-2 focus:ring-purple-500/50 resize-none ${theme.input}`}
               />
 
-              {/* Due Date & Priority row */}
+              {/* Due Date & Time */}
               <div className="flex gap-2">
-                <input
-                  type="date"
-                  value={taskForm.due_date}
-                  onChange={(e) => setTaskForm(f => ({ ...f, due_date: e.target.value }))}
-                  className={`flex-1 px-2 py-1.5 rounded-lg border text-xs focus:outline-none focus:ring-2 focus:ring-purple-500/50 ${theme.input}`}
-                />
+                <div className="flex-1">
+                  <label className={`block text-xs mb-1 ${theme.textMuted}`}>Due Date</label>
+                  <input
+                    type="date"
+                    value={taskForm.due_date}
+                    onChange={(e) => setTaskForm(f => ({ ...f, due_date: e.target.value }))}
+                    className={`w-full px-2 py-1.5 rounded-lg border text-xs focus:outline-none focus:ring-2 focus:ring-purple-500/50 ${theme.input}`}
+                  />
+                </div>
+                <div className="flex-1">
+                  <label className={`block text-xs mb-1 ${theme.textMuted}`}>Time</label>
+                  <input
+                    type="time"
+                    value={taskForm.due_time}
+                    onChange={(e) => setTaskForm(f => ({ ...f, due_time: e.target.value }))}
+                    className={`w-full px-2 py-1.5 rounded-lg border text-xs focus:outline-none focus:ring-2 focus:ring-purple-500/50 ${theme.input}`}
+                  />
+                </div>
+              </div>
+
+              {/* Priority */}
+              <div>
+                <label className={`block text-xs mb-1 ${theme.textMuted}`}>Priority</label>
                 <div className="flex gap-1">
                   {[
-                    { value: 1, label: '!', color: 'blue', title: 'Low' },
-                    { value: 2, label: '!!', color: 'amber', title: 'Medium' },
-                    { value: 3, label: '!!!', color: 'red', title: 'High' },
-                  ].map(({ value, label, color, title }) => (
+                    { value: 0, label: 'None', color: 'slate' },
+                    { value: 1, label: 'Low', color: 'blue' },
+                    { value: 2, label: 'Med', color: 'amber' },
+                    { value: 3, label: 'High', color: 'red' },
+                  ].map(({ value, label, color }) => (
                     <button
                       key={value}
                       type="button"
-                      title={title}
-                      onClick={() => setTaskForm(f => ({ ...f, priority: f.priority === value ? 0 : value }))}
-                      className={`w-8 h-8 rounded-lg text-xs font-bold transition-all border ${
+                      onClick={() => setTaskForm(f => ({ ...f, priority: value }))}
+                      className={`flex-1 py-1 rounded-lg text-xs font-medium transition-all border ${
                         taskForm.priority === value
-                          ? color === 'blue'
+                          ? color === 'slate'
+                            ? isDark ? 'bg-slate-500/30 border-slate-500 text-slate-300' : 'bg-slate-100 border-slate-400 text-slate-700'
+                            : color === 'blue'
                             ? 'bg-blue-500/20 border-blue-500 text-blue-500'
                             : color === 'amber'
                             ? 'bg-amber-500/20 border-amber-500 text-amber-500'
@@ -738,6 +785,72 @@ export function TodoWidget({ compact = false }: TodoWidgetProps) {
                       {label}
                     </button>
                   ))}
+                </div>
+              </div>
+
+              {/* Subtasks */}
+              <div>
+                <label className={`block text-xs mb-1 ${theme.textMuted}`}>Subtasks</label>
+
+                {/* Existing subtasks */}
+                {taskForm.subtasks.length > 0 && (
+                  <div className="space-y-1 mb-2">
+                    {taskForm.subtasks.map((subtask) => (
+                      <div key={subtask.id} className={`flex items-center gap-2 p-1.5 rounded-lg ${isDark ? 'bg-white/5' : 'bg-slate-50'}`}>
+                        <button
+                          type="button"
+                          onClick={() => toggleSubtask(subtask.id)}
+                          className={`w-4 h-4 rounded border flex-shrink-0 flex items-center justify-center ${
+                            subtask.completed
+                              ? 'bg-purple-500 border-purple-500'
+                              : isDark ? 'border-white/20' : 'border-slate-300'
+                          }`}
+                        >
+                          {subtask.completed && (
+                            <svg className="w-2.5 h-2.5 text-white" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                              <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={3} d="M5 13l4 4L19 7" />
+                            </svg>
+                          )}
+                        </button>
+                        <span className={`flex-1 text-xs ${subtask.completed ? 'line-through opacity-50' : ''} ${theme.text}`}>
+                          {subtask.title}
+                        </span>
+                        <button
+                          type="button"
+                          onClick={() => removeSubtask(subtask.id)}
+                          className="text-red-400 hover:text-red-500 p-0.5"
+                        >
+                          <svg className="w-3 h-3" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                            <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M6 18L18 6M6 6l12 12" />
+                          </svg>
+                        </button>
+                      </div>
+                    ))}
+                  </div>
+                )}
+
+                {/* Add subtask input */}
+                <div className="flex gap-1">
+                  <input
+                    type="text"
+                    value={newSubtask}
+                    onChange={(e) => setNewSubtask(e.target.value)}
+                    onKeyPress={(e) => e.key === 'Enter' && addSubtask()}
+                    placeholder="Add subtask..."
+                    className={`flex-1 px-2 py-1 rounded-lg border text-xs focus:outline-none focus:ring-2 focus:ring-purple-500/50 ${theme.input}`}
+                  />
+                  <button
+                    type="button"
+                    onClick={addSubtask}
+                    disabled={!newSubtask.trim()}
+                    className={`px-2 py-1 rounded-lg text-xs font-medium transition-all ${
+                      newSubtask.trim()
+                        ? 'bg-purple-500 text-white hover:bg-purple-600'
+                        : isDark ? 'bg-white/10 text-slate-500' : 'bg-slate-100 text-slate-400'
+                    }`}
+                  >
+                    +
+                  </button>
                 </div>
               </div>
             </div>
