@@ -468,17 +468,101 @@ function ScheduleSection({
   theme: Record<string, string>;
   selectedDate: Date;
 }) {
-  // Sample tasks - in a real app these would come from a database/state
-  const [tasks, setTasks] = useState<Array<{id: string; text: string; completed: boolean; time?: string}>>([
-    { id: '1', text: 'Review N5 vocabulary', completed: false, time: '09:00' },
-    { id: '2', text: 'Practice kanji writing', completed: true, time: '14:00' },
-    { id: '3', text: 'Complete grammar exercises', completed: false, time: '18:00' },
-  ]);
+  const [tasks, setTasks] = useState<Array<{
+    id: string;
+    title: string;
+    is_completed: boolean;
+    due_date?: string;
+    due_time?: string;
+  }>>([]);
+  const [isLoading, setIsLoading] = useState(true);
 
-  const toggleTask = (id: string) => {
-    setTasks(tasks.map(task =>
-      task.id === id ? { ...task, completed: !task.completed } : task
+  // Fetch tasks from API
+  useEffect(() => {
+    async function fetchTasks() {
+      setIsLoading(true);
+      try {
+        // Try to get session from localStorage
+        const sessionStr = localStorage.getItem('sb-evqzqaqfanfuehavuxsr-auth-token');
+        if (sessionStr) {
+          const sessionData = JSON.parse(sessionStr);
+          const accessToken = sessionData?.access_token;
+
+          if (accessToken) {
+            const response = await fetch('/api/calendar?action=todos', {
+              headers: { Authorization: `Bearer ${accessToken}` },
+            });
+            if (response.ok) {
+              const data = await response.json();
+              setTasks(data.todos || []);
+            }
+          }
+        } else {
+          // Fallback to localStorage for non-logged-in users
+          const saved = localStorage.getItem('gojun-todos');
+          if (saved) {
+            const localTodos = JSON.parse(saved);
+            setTasks(localTodos.map((t: { id: string; text?: string; title?: string; completed?: boolean; is_completed?: boolean }) => ({
+              id: t.id,
+              title: t.text || t.title || '',
+              is_completed: t.completed ?? t.is_completed ?? false,
+            })));
+          }
+        }
+      } catch (error) {
+        console.error('Failed to fetch tasks:', error);
+      } finally {
+        setIsLoading(false);
+      }
+    }
+    fetchTasks();
+  }, [selectedDate]);
+
+  const toggleTask = async (id: string) => {
+    const task = tasks.find(t => t.id === id);
+    if (!task) return;
+
+    // Optimistic update
+    setTasks(tasks.map(t =>
+      t.id === id ? { ...t, is_completed: !t.is_completed } : t
     ));
+
+    try {
+      const sessionStr = localStorage.getItem('sb-evqzqaqfanfuehavuxsr-auth-token');
+      if (sessionStr) {
+        const sessionData = JSON.parse(sessionStr);
+        const accessToken = sessionData?.access_token;
+
+        if (accessToken) {
+          await fetch('/api/calendar', {
+            method: 'POST',
+            headers: {
+              'Content-Type': 'application/json',
+              Authorization: `Bearer ${accessToken}`,
+            },
+            body: JSON.stringify({
+              action: 'toggle_todo',
+              todo_id: id,
+              is_completed: !task.is_completed,
+            }),
+          });
+        }
+      } else {
+        // Update localStorage for non-logged-in users
+        const saved = localStorage.getItem('gojun-todos');
+        if (saved) {
+          const localTodos = JSON.parse(saved);
+          const updated = localTodos.map((t: { id: string; completed?: boolean }) =>
+            t.id === id ? { ...t, completed: !t.completed } : t
+          );
+          localStorage.setItem('gojun-todos', JSON.stringify(updated));
+        }
+      }
+    } catch (error) {
+      console.error('Failed to toggle task:', error);
+      // Revert on error
+      setTasks(tasks);
+    }
   };
 
   const isToday = selectedDate.toDateString() === new Date().toDateString();
@@ -505,13 +589,17 @@ function ScheduleSection({
         <span className={`px-2 py-1 rounded-lg text-xs font-medium ${
           isDark ? 'bg-white/5 text-slate-400' : 'bg-slate-100 text-slate-600'
         }`}>
-          {tasks.filter(t => !t.completed).length} 件
+          {tasks.filter(t => !t.is_completed).length} 件
         </span>
       </div>
 
       {/* Tasks List */}
       <div className="p-4 space-y-2">
-        {tasks.length === 0 ? (
+        {isLoading ? (
+          <div className="flex items-center justify-center py-6">
+            <div className="w-6 h-6 border-2 border-emerald-500 border-t-transparent rounded-full animate-spin" />
+          </div>
+        ) : tasks.length === 0 ? (
           <div className="text-center py-6">
             <p className={`text-sm ${theme.textMuted}`}>予定はありません</p>
             <p className={`text-xs ${theme.textSubtle} mt-1`}>No scheduled tasks</p>
@@ -522,18 +610,18 @@ function ScheduleSection({
               key={task.id}
               onClick={() => toggleTask(task.id)}
               className={`w-full flex items-center gap-3 p-3 rounded-2xl transition-all active:scale-[0.98] ${
-                task.completed
+                task.is_completed
                   ? isDark ? 'bg-white/[0.02]' : 'bg-slate-50'
                   : isDark ? 'bg-white/[0.05]' : 'bg-white'
               } ${isDark ? 'border border-white/[0.05]' : 'border border-slate-100'}`}
             >
               {/* Checkbox */}
               <div className={`w-6 h-6 rounded-full border-2 flex items-center justify-center transition-all ${
-                task.completed
+                task.is_completed
                   ? 'bg-emerald-500 border-emerald-500'
                   : isDark ? 'border-slate-500' : 'border-slate-300'
               }`}>
-                {task.completed && (
+                {task.is_completed && (
                   <svg className="w-3.5 h-3.5 text-white" fill="none" stroke="currentColor" viewBox="0 0 24 24">
                     <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={3} d="M5 13l4 4L19 7" />
                   </svg>
@@ -543,23 +631,23 @@ function ScheduleSection({
               {/* Task Content */}
               <div className="flex-1 text-left">
                 <p className={`text-sm font-medium ${
-                  task.completed
+                  task.is_completed
                     ? `line-through ${theme.textMuted}`
                     : theme.text
                 }`}>
-                  {task.text}
+                  {task.title}
                 </p>
-                {task.time && (
-                  <p className={`text-xs ${theme.textSubtle}`}>{task.time}</p>
+                {task.due_time && (
+                  <p className={`text-xs ${theme.textSubtle}`}>{task.due_time}</p>
                 )}
               </div>
 
               {/* Time indicator */}
-              {!task.completed && task.time && (
+              {!task.is_completed && task.due_time && (
                 <div className={`px-2 py-1 rounded-lg text-xs font-medium ${
                   isDark ? 'bg-violet-500/20 text-violet-300' : 'bg-violet-100 text-violet-700'
                 }`}>
-                  {task.time}
+                  {task.due_time}
                 </div>
               )}
             </button>
