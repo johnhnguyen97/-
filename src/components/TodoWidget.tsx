@@ -1,4 +1,4 @@
-import { useState, useEffect, useCallback } from 'react';
+import { useState, useEffect, useCallback, useRef } from 'react';
 import { createPortal } from 'react-dom';
 import { useTheme } from '../contexts/ThemeContext';
 import { useAuth } from '../contexts/AuthContext';
@@ -58,6 +58,9 @@ export function TodoWidget({ compact = false }: TodoWidgetProps) {
     due_time: '',
     priority: 0,
   });
+  const [popupPosition, setPopupPosition] = useState({ top: 0, left: 0 });
+  const addButtonRef = useRef<HTMLButtonElement>(null);
+  const popupRef = useRef<HTMLDivElement>(null);
 
   const theme = {
     bg: isDark ? 'bg-white/5' : 'bg-white',
@@ -357,10 +360,36 @@ export function TodoWidget({ compact = false }: TodoWidgetProps) {
   };
 
   const openDetailModal = () => {
+    // Calculate popup position based on button location
+    if (addButtonRef.current) {
+      const rect = addButtonRef.current.getBoundingClientRect();
+      setPopupPosition({
+        top: rect.bottom + 8, // Position below button
+        left: rect.left + rect.width / 2 - 144, // Center the 288px (w-72) popup
+      });
+    }
     setTaskForm({ title: newTodo, notes: '', due_date: '', due_time: '', priority: 0 });
     setNewTodo('');
     setShowDetailModal(true);
   };
+
+  // Close popup when clicking outside
+  useEffect(() => {
+    const handleClickOutside = (e: MouseEvent) => {
+      if (
+        popupRef.current &&
+        !popupRef.current.contains(e.target as Node) &&
+        addButtonRef.current &&
+        !addButtonRef.current.contains(e.target as Node)
+      ) {
+        setShowDetailModal(false);
+      }
+    };
+    if (showDetailModal) {
+      document.addEventListener('mousedown', handleClickOutside);
+    }
+    return () => document.removeEventListener('mousedown', handleClickOutside);
+  }, [showDetailModal]);
 
   const clearCompleted = async () => {
     const completedTodos = todos.filter(t => t.is_completed);
@@ -514,6 +543,7 @@ export function TodoWidget({ compact = false }: TodoWidgetProps) {
           className={`flex-1 px-3 py-2 rounded-lg border text-sm focus:outline-none focus:ring-2 focus:ring-purple-500/50 ${theme.input}`}
         />
         <button
+          ref={addButtonRef}
           onClick={openDetailModal}
           className="px-4 py-2 rounded-lg font-medium text-sm transition-all bg-gradient-to-r from-purple-500 to-pink-500 text-white hover:shadow-lg hover:shadow-purple-500/30"
         >
@@ -624,19 +654,19 @@ export function TodoWidget({ compact = false }: TodoWidgetProps) {
         )}
       </div>
 
-      {/* Detail Modal - fullscreen with modal on LEFT side */}
+      {/* Detail Popup - positioned near button like word note popup */}
       {showDetailModal && createPortal(
-        <div className="fixed inset-0 z-50 flex items-start justify-start p-4 pt-20">
-          {/* Backdrop */}
-          <div
-            className="absolute inset-0 bg-black/30"
-            onClick={() => setShowDetailModal(false)}
-          />
-
-          {/* Modal positioned on left */}
-          <div className={`relative w-72 rounded-xl border shadow-xl animate-fadeInUp overflow-hidden ${
+        <div
+          ref={popupRef}
+          className={`fixed z-[9999] w-72 rounded-xl border shadow-2xl overflow-hidden animate-fadeInUp ${
             isDark ? 'bg-[#1a1a2e] border-purple-500/30' : 'bg-white border-purple-200'
-          }`}>
+          }`}
+          style={{
+            top: popupPosition.top,
+            left: Math.max(8, Math.min(popupPosition.left, window.innerWidth - 296)),
+          }}
+          onClick={(e) => e.stopPropagation()}
+        >
             {/* Header with gradient like word note popup */}
             <div className="bg-gradient-to-r from-purple-500 to-pink-500 px-3 py-2 flex items-center justify-between">
               <div>
@@ -712,20 +742,19 @@ export function TodoWidget({ compact = false }: TodoWidgetProps) {
               </div>
             </div>
 
-            {/* Footer - just Save button like word note popup */}
-            <div className="px-3 pb-3">
-              <button
-                onClick={addDetailedTask}
-                disabled={!taskForm.title.trim()}
-                className={`w-full py-2 rounded-lg font-medium text-sm transition-all ${
-                  taskForm.title.trim()
-                    ? 'bg-gradient-to-r from-purple-500 to-pink-500 text-white hover:shadow-lg hover:shadow-purple-500/30'
-                    : 'bg-gray-200 text-gray-400 cursor-not-allowed'
-                }`}
-              >
-                Save
-              </button>
-            </div>
+          {/* Footer - just Save button like word note popup */}
+          <div className="px-3 pb-3">
+            <button
+              onClick={addDetailedTask}
+              disabled={!taskForm.title.trim()}
+              className={`w-full py-2 rounded-lg font-medium text-sm transition-all ${
+                taskForm.title.trim()
+                  ? 'bg-gradient-to-r from-purple-500 to-pink-500 text-white hover:shadow-lg hover:shadow-purple-500/30'
+                  : 'bg-gray-200 text-gray-400 cursor-not-allowed'
+              }`}
+            >
+              Save
+            </button>
           </div>
         </div>,
         document.body
