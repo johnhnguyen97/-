@@ -139,24 +139,21 @@ export const DrillQuestionDisplay: React.FC<DrillQuestionDisplayProps> = ({
         <div className="space-y-2">
           {/* Single word mode */}
           <div className="relative inline-block">
-            {/* Favorite & Note buttons for non-verb words or words without verb_group */}
-            {(!sentence.verb_group) && (
-              <div className="absolute -top-1 -right-1 flex gap-0.5 z-20">
-                <FavoriteButton
-                  word={sentence.dictionary_form || sentence.japanese_base}
-                  reading={sentence.reading || ''}
-                  english={sentence.english}
-                  partOfSpeech={sentence.word_type === 'verb' ? 'verb' : sentence.adjective_type || 'adjective'}
-
-                />
-                <WordNoteButton
-                  word={sentence.dictionary_form || sentence.japanese_base}
-                  reading={sentence.reading || ''}
-                  english={sentence.english}
-                  onPopupChange={setNotePopupOpen}
-                />
-              </div>
-            )}
+            {/* Favorite & Note buttons */}
+            <div className="absolute -top-4 -right-12 flex gap-0.5 z-20">
+              <FavoriteButton
+                word={sentence.dictionary_form || sentence.japanese_base}
+                reading={sentence.reading || ''}
+                english={sentence.english}
+                partOfSpeech={sentence.word_type === 'verb' ? 'verb' : sentence.adjective_type || 'adjective'}
+              />
+              <WordNoteButton
+                word={sentence.dictionary_form || sentence.japanese_base}
+                reading={sentence.reading || ''}
+                english={sentence.english}
+                onPopupChange={setNotePopupOpen}
+              />
+            </div>
 
             <div className="flex items-center justify-center gap-3">
               {showFurigana && sentence.reading ? (
