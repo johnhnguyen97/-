@@ -7,6 +7,60 @@ import { WordNoteButton } from '../WordNoteButton';
 import { getVerbGroupDisplayName } from '../../types/drill';
 import type { DrillSentence, DrillPrompt, ExampleSentence, DrillPracticeMode } from '../../types/drill';
 
+/**
+ * Highlights the target word in a sentence by underlining it
+ * Searches for the dictionary form or any conjugated form of the word
+ */
+function highlightTargetWord(
+  sentence: string,
+  targetWord: string,
+  isDark: boolean
+): React.ReactNode {
+  if (!targetWord || !sentence) return sentence;
+
+  // Get the verb stem (remove る for ichidan, last character for godan)
+  const stem = targetWord.endsWith('る')
+    ? targetWord.slice(0, -1)
+    : targetWord.slice(0, -1);
+
+  // Try to find the target word or its stem in the sentence
+  // First try exact match, then try stem match
+  let matchIndex = sentence.indexOf(targetWord);
+  let matchLength = targetWord.length;
+
+  if (matchIndex === -1 && stem.length >= 2) {
+    // Look for stem + any conjugation ending
+    const stemIndex = sentence.indexOf(stem);
+    if (stemIndex !== -1) {
+      // Find where the conjugated form ends (next particle, punctuation, or space)
+      const afterStem = sentence.slice(stemIndex + stem.length);
+      const endMatch = afterStem.match(/^[ぁ-ん]{0,4}(?=[はがをにでとのかもやへ、。！？]|$)/);
+      if (endMatch) {
+        matchIndex = stemIndex;
+        matchLength = stem.length + endMatch[0].length;
+      }
+    }
+  }
+
+  if (matchIndex === -1) return sentence;
+
+  const before = sentence.slice(0, matchIndex);
+  const match = sentence.slice(matchIndex, matchIndex + matchLength);
+  const after = sentence.slice(matchIndex + matchLength);
+
+  const underlineStyle = isDark
+    ? 'underline decoration-amber-400 decoration-2 underline-offset-4'
+    : 'underline decoration-amber-500 decoration-2 underline-offset-4';
+
+  return (
+    <>
+      {before}
+      <span className={underlineStyle}>{match}</span>
+      {after}
+    </>
+  );
+}
+
 interface DrillQuestionDisplayProps {
   sentence: DrillSentence;
   prompt: DrillPrompt;
@@ -94,10 +148,10 @@ export const DrillQuestionDisplay: React.FC<DrillQuestionDisplayProps> = ({
       {/* Base word or sentence */}
       {showSentence ? (
         <div className="space-y-3">
-          {/* Example sentence */}
+          {/* Example sentence with target word underlined */}
           <div className="flex items-center justify-center gap-3">
             <span className={`text-3xl font-bold ${theme.text}`}>
-              {exampleSentence.japanese}
+              {highlightTargetWord(exampleSentence.japanese, sentence.dictionary_form || sentence.japanese_base, isDark)}
             </span>
             <AudioButton text={exampleSentence.japanese} size="md" />
           </div>
