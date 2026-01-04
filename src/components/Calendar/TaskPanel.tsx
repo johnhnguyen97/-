@@ -189,9 +189,14 @@ export function TaskPanel({ jlptLevel = 'N5', className = '' }: TaskPanelProps) 
     }
   };
 
+  // Track if long press triggered
+  const longPressTriggeredRef = useRef(false);
+
   // Long press handlers
   const handleItemPressStart = (itemId: string) => {
+    longPressTriggeredRef.current = false;
     longPressTimerRef.current = setTimeout(() => {
+      longPressTriggeredRef.current = true;
       setSelectedItem(itemId);
     }, 500);
   };
@@ -203,12 +208,19 @@ export function TaskPanel({ jlptLevel = 'N5', className = '' }: TaskPanelProps) 
     }
   };
 
-  // Click handler for items - toggle selection or deselect
+  // Click handler for items - only deselect if not a long press
   const handleItemClick = (itemId: string) => {
+    // If long press just triggered, ignore the click
+    if (longPressTriggeredRef.current) {
+      longPressTriggeredRef.current = false;
+      return;
+    }
+
+    // Click on selected item deselects it
     if (selectedItem === itemId) {
       setSelectedItem(null);
     } else if (selectedItem) {
-      // If something else is selected, deselect it
+      // Click elsewhere deselects current selection
       setSelectedItem(null);
     }
   };
