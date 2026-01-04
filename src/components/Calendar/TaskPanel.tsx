@@ -203,6 +203,16 @@ export function TaskPanel({ jlptLevel = 'N5', className = '' }: TaskPanelProps) 
     }
   };
 
+  // Click handler for items - toggle selection or deselect
+  const handleItemClick = (itemId: string) => {
+    if (selectedItem === itemId) {
+      setSelectedItem(null);
+    } else if (selectedItem) {
+      // If something else is selected, deselect it
+      setSelectedItem(null);
+    }
+  };
+
   // Combine tasks and events into unified schedule items
   const scheduleItems: ScheduleItem[] = [
     // Add tasks with due dates
@@ -420,6 +430,7 @@ export function TaskPanel({ jlptLevel = 'N5', className = '' }: TaskPanelProps) 
                       return (
                         <div
                           key={item.id}
+                          onClick={() => handleItemClick(item.id)}
                           onMouseDown={() => handleItemPressStart(item.id)}
                           onMouseUp={handleItemPressEnd}
                           onMouseLeave={handleItemPressEnd}
