@@ -1,4 +1,5 @@
 import { useState, useEffect, useCallback } from 'react';
+import { createPortal } from 'react-dom';
 import { useTheme } from '../contexts/ThemeContext';
 import { useAuth } from '../contexts/AuthContext';
 import {
@@ -624,7 +625,7 @@ export function TodoWidget({ compact = false }: TodoWidgetProps) {
       </div>
 
       {/* Detail Modal - Full screen overlay with portal animation */}
-      {showDetailModal && (
+      {showDetailModal && createPortal(
         <div className="fixed inset-0 z-50 flex items-center justify-center p-4">
           {/* Backdrop with vortex glow */}
           <div
@@ -774,7 +775,8 @@ export function TodoWidget({ compact = false }: TodoWidgetProps) {
               </button>
             </div>
           </div>
-        </div>
+        </div>,
+        document.body
       )}
     </div>
   );
