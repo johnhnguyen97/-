@@ -1,6 +1,7 @@
 import { useState, useEffect, useRef } from 'react';
 import { useAuth } from '../contexts/AuthContext';
 import { getFavorites, deleteFavorite, updateFavoriteNote, type Favorite } from '../services/favoritesApi';
+import { getSentenceFavorites, deleteSentenceFavorite, SENTENCE_CATEGORIES, type SentenceFavorite } from '../services/sentenceFavoritesApi';
 import { WORD_CATEGORIES } from './FavoriteButton';
 import { isKeepConnected } from '../services/keepApi';
 import { hiraganaToKatakana, katakanaToHiragana } from '../utils/kanaUtils';
@@ -10,7 +11,7 @@ interface NotesPanelProps {
   onClose: () => void;
 }
 
-type Tab = 'favorites' | 'notes' | 'dictionary' | 'wordnotes';
+type Tab = 'favorites' | 'sentences' | 'notes' | 'dictionary' | 'wordnotes';
 
 // Notion-style note page
 interface NotePage {
@@ -80,6 +81,11 @@ export function NotesPanel({ isOpen, onClose }: NotesPanelProps) {
   const [wordNotes, setWordNotes] = useState<WordNote[]>([]);
   const [wordNotesSearch, setWordNotesSearch] = useState('');
 
+  // Sentence favorites state
+  const [sentenceFavorites, setSentenceFavorites] = useState<SentenceFavorite[]>([]);
+  const [sentencesLoading, setSentencesLoading] = useState(false);
+  const [selectedSentenceCategory, setSelectedSentenceCategory] = useState<string>('all');
+
   // Google Keep state (read-only, managed in Settings)
   const [keepConnected, setKeepConnected] = useState(false);
 
@@ -92,6 +98,7 @@ export function NotesPanel({ isOpen, onClose }: NotesPanelProps) {
       requestAnimationFrame(() => setIsVisible(true));
       if (session?.access_token) {
         loadFavorites();
+        loadSentenceFavorites();
       }
       loadPages();
       loadDictionary();
@@ -144,6 +151,30 @@ export function NotesPanel({ isOpen, onClose }: NotesPanelProps) {
       await loadFavorites();
     } catch (err) {
       setFavoritesError(err instanceof Error ? err.message : 'Failed to update note');
+    }
+  };
+
+  // Sentence Favorites
+  const loadSentenceFavorites = async () => {
+    if (!session?.access_token) return;
+    setSentencesLoading(true);
+    try {
+      const data = await getSentenceFavorites(session.access_token);
+      setSentenceFavorites(data.favorites);
+    } catch (err) {
+      console.error('Failed to load sentence favorites:', err);
+    } finally {
+      setSentencesLoading(false);
+    }
+  };
+
+  const handleDeleteSentenceFavorite = async (japanese: string) => {
+    if (!session?.access_token) return;
+    try {
+      await deleteSentenceFavorite(session.access_token, japanese);
+      await loadSentenceFavorites();
+    } catch (err) {
+      console.error('Failed to delete sentence favorite:', err);
     }
   };
 
@@ -439,6 +470,7 @@ export function NotesPanel({ isOpen, onClose }: NotesPanelProps) {
                 <h2 className="text-lg font-bold">Notes</h2>
                 <p className="text-white/80 text-xs">
                   {activeTab === 'favorites' ? `${favorites.length} words` :
+                   activeTab === 'sentences' ? `${sentenceFavorites.length} sentences` :
                    activeTab === 'notes' ? `${pages.length} pages` :
                    activeTab === 'wordnotes' ? `${wordNotes.length} notes` :
                    `${dictionary.length} entries`}
@@ -529,9 +561,10 @@ export function NotesPanel({ isOpen, onClose }: NotesPanelProps) {
           </div>
 
           {/* Tabs */}
-          <div className="mt-4 flex gap-1 bg-white/10 rounded-xl p-1">
+          <div className="mt-4 flex gap-1 bg-white/10 rounded-xl p-1 overflow-x-auto">
             {[
               { id: 'favorites' as Tab, label: 'Favorites', icon: '★' },
+              { id: 'sentences' as Tab, label: 'Sentences', icon: '💬' },
               { id: 'wordnotes' as Tab, label: 'Word Notes', icon: '✏️' },
               { id: 'notes' as Tab, label: 'My Notes', icon: '📄' },
               { id: 'dictionary' as Tab, label: 'Dictionary', icon: '📖' },
@@ -539,7 +572,7 @@ export function NotesPanel({ isOpen, onClose }: NotesPanelProps) {
               <button
                 key={tab.id}
                 onClick={() => { setActiveTab(tab.id); setSelectedPageId(null); }}
-                className={`flex-1 px-3 py-2 text-sm font-medium rounded-lg transition-all flex items-center justify-center gap-1.5 ${
+                className={`flex-1 px-2 sm:px-3 py-2 text-xs sm:text-sm font-medium rounded-lg transition-all flex items-center justify-center gap-1 sm:gap-1.5 whitespace-nowrap ${
                   activeTab === tab.id
                     ? 'bg-white text-indigo-600 shadow-md'
                     : 'text-white/80 hover:bg-white/10'
@@ -578,6 +611,35 @@ export function NotesPanel({ isOpen, onClose }: NotesPanelProps) {
               })}
             </div>
           )}
+
+          {/* Category filter for sentences */}
+          {activeTab === 'sentences' && (
+            <div className="mt-3 flex gap-2 overflow-x-auto pb-1 scrollbar-hide">
+              <button
+                onClick={() => setSelectedSentenceCategory('all')}
+                className={`px-3 py-1.5 text-xs font-medium rounded-lg whitespace-nowrap transition-all ${
+                  selectedSentenceCategory === 'all' ? 'bg-white/30 text-white' : 'bg-white/10 text-white/70 hover:bg-white/20'
+                }`}
+              >
+                All ({sentenceFavorites.length})
+              </button>
+              {SENTENCE_CATEGORIES.map(cat => {
+                const count = sentenceFavorites.filter(s => s.category === cat.id).length;
+                if (count === 0) return null;
+                return (
+                  <button
+                    key={cat.id}
+                    onClick={() => setSelectedSentenceCategory(cat.id)}
+                    className={`px-3 py-1.5 text-xs font-medium rounded-lg whitespace-nowrap transition-all flex items-center gap-1 ${
+                      selectedSentenceCategory === cat.id ? 'bg-white/30 text-white' : 'bg-white/10 text-white/70 hover:bg-white/20'
+                    }`}
+                  >
+                    {cat.icon} {cat.label} ({count})
+                  </button>
+                );
+              })}
+            </div>
+          )}
         </div>
 
         {/* Content */}
@@ -589,6 +651,16 @@ export function NotesPanel({ isOpen, onClose }: NotesPanelProps) {
               error={favoritesError}
               onDelete={handleDeleteFavorite}
               onUpdateNote={handleUpdateFavoriteNote}
+            />
+          )}
+
+          {activeTab === 'sentences' && (
+            <SentencesTab
+              sentences={selectedSentenceCategory === 'all'
+                ? sentenceFavorites
+                : sentenceFavorites.filter(s => s.category === selectedSentenceCategory)}
+              loading={sentencesLoading}
+              onDelete={handleDeleteSentenceFavorite}
             />
           )}
 
@@ -1248,6 +1320,128 @@ function DictionaryTab({ dictionary, search, onSearchChange, showAddWord, onShow
             })}
           </div>
         )}
+      </div>
+    </div>
+  );
+}
+
+// ============ Sentences Tab ============
+function SentencesTab({ sentences, loading, onDelete }: {
+  sentences: SentenceFavorite[];
+  loading: boolean;
+  onDelete: (japanese: string) => void;
+}) {
+  const getCategoryInfo = (categoryId: string) => {
+    return SENTENCE_CATEGORIES.find(c => c.id === categoryId) || SENTENCE_CATEGORIES[0];
+  };
+
+  const formatDate = (dateStr: string) => {
+    const date = new Date(dateStr);
+    const now = new Date();
+    const diff = now.getTime() - date.getTime();
+    const days = Math.floor(diff / (1000 * 60 * 60 * 24));
+
+    if (days === 0) return 'Today';
+    if (days === 1) return 'Yesterday';
+    if (days < 7) return `${days} days ago`;
+    return date.toLocaleDateString();
+  };
+
+  if (loading) {
+    return (
+      <div className="flex-1 flex items-center justify-center p-8">
+        <div className="relative w-12 h-12">
+          <div className="absolute inset-0 rounded-full border-4 border-indigo-200"></div>
+          <div className="absolute inset-0 rounded-full border-4 border-indigo-500 border-t-transparent animate-spin"></div>
+        </div>
+      </div>
+    );
+  }
+
+  if (sentences.length === 0) {
+    return (
+      <div className="flex-1 flex items-center justify-center p-8">
+        <div className="text-center">
+          <div className="w-20 h-20 mx-auto mb-4 bg-blue-100 rounded-2xl flex items-center justify-center animate-[float_3s_ease-in-out_infinite]">
+            <span className="text-4xl">💬</span>
+          </div>
+          <p className="text-gray-600 font-medium">No sentences saved yet</p>
+          <p className="text-gray-400 text-sm mt-1">Save sentences from Pattern Drill</p>
+        </div>
+      </div>
+    );
+  }
+
+  return (
+    <div className="flex-1 overflow-y-auto p-4">
+      <div className="space-y-3 stagger-children">
+        {sentences.map((sentence) => {
+          const category = getCategoryInfo(sentence.category);
+          return (
+            <div
+              key={sentence.id}
+              className="p-4 bg-white rounded-xl border border-gray-100 hover:shadow-md hover:border-blue-200 transition-all group"
+            >
+              <div className="flex items-start gap-3">
+                <div className="flex-1 min-w-0">
+                  {/* Japanese sentence */}
+                  <div className="text-lg font-medium text-gray-900 leading-relaxed">
+                    {sentence.japanese}
+                  </div>
+
+                  {/* Reading if available */}
+                  {sentence.reading && (
+                    <div className="text-sm text-gray-500 mt-1">
+                      {sentence.reading}
+                    </div>
+                  )}
+
+                  {/* English translation */}
+                  <div className="text-sm text-gray-600 mt-2">
+                    {sentence.english}
+                  </div>
+
+                  {/* Category and date */}
+                  <div className="flex items-center gap-2 mt-3 flex-wrap">
+                    <span className="px-2 py-0.5 text-xs font-medium rounded-full bg-gradient-to-r from-blue-500 to-indigo-500 text-white flex items-center gap-1">
+                      <span>{category.icon}</span>
+                      <span>{category.label}</span>
+                    </span>
+                    <span className="text-xs text-gray-400">
+                      {formatDate(sentence.created_at)}
+                    </span>
+                    {sentence.source && (
+                      <span className="text-xs text-gray-400">
+                        • from {sentence.source}
+                      </span>
+                    )}
+                  </div>
+
+                  {/* Notes if available */}
+                  {sentence.notes && (
+                    <div className="mt-2 p-2 bg-amber-50 border border-amber-100 rounded-lg">
+                      <div className="flex items-start gap-1.5">
+                        <span className="text-amber-500 text-xs mt-0.5">📝</span>
+                        <p className="text-xs text-gray-600 whitespace-pre-wrap">{sentence.notes}</p>
+                      </div>
+                    </div>
+                  )}
+                </div>
+
+                {/* Delete button */}
+                <button
+                  onClick={() => onDelete(sentence.japanese)}
+                  className="p-2 text-gray-400 hover:text-red-500 hover:bg-red-50 rounded-lg transition-all opacity-100 sm:opacity-0 sm:group-hover:opacity-100"
+                  title="Remove from favorites"
+                >
+                  <svg className="w-4 h-4" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                    <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M19 7l-.867 12.142A2 2 0 0116.138 21H7.862a2 2 0 01-1.995-1.858L5 7m5 4v6m4-6v6m1-10V4a1 1 0 00-1-1h-4a1 1 0 00-1 1v3M4 7h16" />
+                  </svg>
+                </button>
+              </div>
+            </div>
+          );
+        })}
       </div>
     </div>
   );
