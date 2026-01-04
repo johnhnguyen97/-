@@ -1,4 +1,5 @@
 import { useState, useEffect, useCallback } from 'react';
+import { createPortal } from 'react-dom';
 import { useTheme } from '../contexts/ThemeContext';
 import { useAuth } from '../contexts/AuthContext';
 import {
@@ -623,11 +624,19 @@ export function TodoWidget({ compact = false }: TodoWidgetProps) {
         )}
       </div>
 
-      {/* Detail Popup - floating near input like word note popup */}
-      {showDetailModal && (
-        <div className={`absolute top-0 right-0 w-72 rounded-xl border shadow-xl animate-fadeInUp overflow-hidden z-50 ${
-          isDark ? 'bg-[#1a1a2e] border-purple-500/30' : 'bg-white border-purple-200'
-        }`}>
+      {/* Detail Modal - fullscreen with modal on LEFT side */}
+      {showDetailModal && createPortal(
+        <div className="fixed inset-0 z-50 flex items-start justify-start p-4 pt-20">
+          {/* Backdrop */}
+          <div
+            className="absolute inset-0 bg-black/30"
+            onClick={() => setShowDetailModal(false)}
+          />
+
+          {/* Modal positioned on left */}
+          <div className={`relative w-72 rounded-xl border shadow-xl animate-fadeInUp overflow-hidden ${
+            isDark ? 'bg-[#1a1a2e] border-purple-500/30' : 'bg-white border-purple-200'
+          }`}>
             {/* Header with gradient like word note popup */}
             <div className="bg-gradient-to-r from-purple-500 to-pink-500 px-3 py-2 flex items-center justify-between">
               <div>
@@ -717,7 +726,9 @@ export function TodoWidget({ compact = false }: TodoWidgetProps) {
                 Save
               </button>
             </div>
-        </div>
+          </div>
+        </div>,
+        document.body
       )}
     </div>
   );
