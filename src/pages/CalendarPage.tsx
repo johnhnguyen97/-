@@ -40,6 +40,15 @@ interface DayData {
   holidayName?: string;
 }
 
+// Task form data interface
+interface CalendarTaskFormData {
+  title: string;
+  notes: string;
+  due_date: string;
+  priority: number;
+  subtasks: { id: string; title: string; completed: boolean }[];
+}
+
 // Task Creation Overlay Popup Component
 function TaskCreationPopup({
   date,
@@ -51,16 +60,23 @@ function TaskCreationPopup({
   date: Date;
   isDark: boolean;
   onClose: () => void;
-  onSave: (text: string) => void;
+  onSave: (data: CalendarTaskFormData) => void;
   anchorPosition: { x: number; y: number };
 }) {
-  const [taskText, setTaskText] = useState('');
+  const [taskForm, setTaskForm] = useState<CalendarTaskFormData>({
+    title: '',
+    notes: '',
+    due_date: date.toISOString().split('T')[0],
+    priority: 0,
+    subtasks: [],
+  });
+  const [newSubtask, setNewSubtask] = useState('');
   const [position, setPosition] = useState({ top: 0, left: 0 });
   const inputRef = useRef<HTMLInputElement>(null);
 
   useEffect(() => {
-    const popupWidth = 300;
-    const popupHeight = 200;
+    const popupWidth = 288;
+    const popupHeight = 480;
 
     let top = anchorPosition.y;
     let left = anchorPosition.x - popupWidth / 2;
@@ -81,10 +97,34 @@ function TaskCreationPopup({
   }, [anchorPosition]);
 
   const handleSave = () => {
-    if (taskText.trim()) {
-      onSave(taskText.trim());
+    if (taskForm.title.trim()) {
+      onSave(taskForm);
       onClose();
     }
+  };
+
+  const addSubtask = () => {
+    if (newSubtask.trim()) {
+      setTaskForm(f => ({
+        ...f,
+        subtasks: [...f.subtasks, { id: Date.now().toString(), title: newSubtask.trim(), completed: false }]
+      }));
+      setNewSubtask('');
+    }
+  };
+
+  const removeSubtask = (id: string) => {
+    setTaskForm(f => ({
+      ...f,
+      subtasks: f.subtasks.filter(s => s.id !== id)
+    }));
+  };
+
+  const toggleSubtask = (id: string) => {
+    setTaskForm(f => ({
+      ...f,
+      subtasks: f.subtasks.map(s => s.id === id ? { ...s, completed: !s.completed } : s)
+    }));
   };
 
   const formattedDate = date.toLocaleDateString('ja-JP', { month: 'short', day: 'numeric' });
@@ -98,23 +138,16 @@ function TaskCreationPopup({
       />
       {/* Popup */}
       <div
-        className={`fixed z-[9999] w-[300px] rounded-2xl shadow-2xl overflow-hidden animate-scaleIn ${
+        className={`fixed z-[9999] w-72 rounded-xl shadow-2xl overflow-hidden animate-fadeInUp ${
           isDark ? 'bg-gray-900 border border-white/20' : 'bg-white border border-purple-200'
         }`}
         style={{ top: position.top, left: position.left }}
       >
         {/* Header */}
-        <div className={`flex items-center justify-between px-4 py-3 border-b ${
-          isDark
-            ? 'border-white/10 bg-gradient-to-r from-purple-600/30 to-pink-600/30'
-            : 'border-purple-100 bg-gradient-to-r from-purple-500 to-pink-500'
-        }`}>
-          <div className="flex items-center gap-2">
-            <span className="text-xl">✓</span>
-            <div>
-              <h3 className="font-bold text-white text-sm">New Task</h3>
-              <p className="text-xs text-white/70">{formattedDate}</p>
-            </div>
+        <div className="bg-gradient-to-r from-purple-500 to-pink-500 px-4 py-3 flex items-center justify-between">
+          <div>
+            <h3 className="font-bold text-white text-sm">New Task</h3>
+            <p className="text-xs text-white/70">Add details below</p>
           </div>
           <button
             onClick={onClose}
@@ -127,50 +160,179 @@ function TaskCreationPopup({
         </div>
 
         {/* Content */}
-        <div className="p-4 space-y-3">
+        <div className="p-3 space-y-3 max-h-[400px] overflow-y-auto">
+          {/* Title */}
           <input
             ref={inputRef}
             type="text"
-            value={taskText}
-            onChange={(e) => setTaskText(e.target.value)}
-            onKeyPress={(e) => e.key === 'Enter' && handleSave()}
-            placeholder="What do you need to do?"
-            className={`w-full px-4 py-3 rounded-xl border text-sm focus:outline-none focus:ring-2 focus:ring-purple-500/50 ${
+            value={taskForm.title}
+            onChange={(e) => setTaskForm(f => ({ ...f, title: e.target.value }))}
+            placeholder="Task title"
+            className={`w-full px-3 py-2 rounded-lg border text-sm focus:outline-none focus:ring-2 focus:ring-purple-500/50 ${
               isDark
                 ? 'bg-white/5 border-white/10 text-white placeholder-gray-500'
                 : 'bg-slate-50 border-slate-200 text-slate-800 placeholder-slate-400'
             }`}
           />
 
-          <div className="flex gap-2">
-            <button
-              onClick={onClose}
-              className={`flex-1 py-2.5 rounded-xl text-sm font-medium transition-all ${
+          {/* Description */}
+          <textarea
+            value={taskForm.notes}
+            onChange={(e) => setTaskForm(f => ({ ...f, notes: e.target.value }))}
+            placeholder="Add description..."
+            rows={2}
+            className={`w-full px-3 py-2 rounded-lg border text-sm resize-none focus:outline-none focus:ring-2 focus:ring-purple-500/50 ${
+              isDark
+                ? 'bg-white/5 border-white/10 text-white placeholder-gray-500'
+                : 'bg-slate-50 border-slate-200 text-slate-800 placeholder-slate-400'
+            }`}
+          />
+
+          {/* Due Date */}
+          <div>
+            <label className={`block text-xs font-medium mb-1 ${isDark ? 'text-slate-400' : 'text-slate-600'}`}>
+              Due Date
+            </label>
+            <input
+              type="date"
+              value={taskForm.due_date}
+              onChange={(e) => setTaskForm(f => ({ ...f, due_date: e.target.value }))}
+              className={`w-full px-3 py-2 rounded-lg border text-sm focus:outline-none focus:ring-2 focus:ring-purple-500/50 ${
                 isDark
-                  ? 'bg-white/10 text-white hover:bg-white/20'
-                  : 'bg-slate-100 text-slate-600 hover:bg-slate-200'
+                  ? 'bg-white/5 border-white/10 text-white'
+                  : 'bg-slate-50 border-slate-200 text-slate-800'
               }`}
-            >
-              Cancel
-            </button>
-            <button
-              onClick={handleSave}
-              disabled={!taskText.trim()}
-              className={`flex-1 py-2.5 rounded-xl text-sm font-medium transition-all ${
-                taskText.trim()
-                  ? 'bg-gradient-to-r from-purple-500 to-pink-500 text-white hover:shadow-lg hover:shadow-purple-500/30'
-                  : isDark
-                    ? 'bg-white/5 text-gray-500 cursor-not-allowed'
-                    : 'bg-gray-100 text-gray-400 cursor-not-allowed'
-              }`}
-            >
-              Add Task
-            </button>
+            />
           </div>
 
-          <p className={`text-xs text-center ${isDark ? 'text-gray-500' : 'text-gray-400'}`}>
-            Syncs with your To-Do List
-          </p>
+          {/* Priority */}
+          <div>
+            <label className={`block text-xs font-medium mb-1 ${isDark ? 'text-slate-400' : 'text-slate-600'}`}>
+              Priority
+            </label>
+            <div className="flex gap-1">
+              {[
+                { value: 0, label: 'None' },
+                { value: 1, label: 'Low' },
+                { value: 2, label: 'Med' },
+                { value: 3, label: 'High' },
+              ].map(({ value, label }) => (
+                <button
+                  key={value}
+                  onClick={() => setTaskForm(f => ({ ...f, priority: value }))}
+                  className={`flex-1 py-1.5 text-xs font-medium rounded-lg transition-all ${
+                    taskForm.priority === value
+                      ? value === 3
+                        ? 'bg-red-500 text-white'
+                        : value === 2
+                        ? 'bg-amber-500 text-white'
+                        : value === 1
+                        ? 'bg-blue-500 text-white'
+                        : 'bg-slate-600 text-white'
+                      : isDark
+                      ? 'bg-white/5 text-slate-400 hover:bg-white/10'
+                      : 'bg-slate-100 text-slate-600 hover:bg-slate-200'
+                  }`}
+                >
+                  {label}
+                </button>
+              ))}
+            </div>
+          </div>
+
+          {/* Subtasks */}
+          <div>
+            <label className={`block text-xs font-medium mb-1 ${isDark ? 'text-slate-400' : 'text-slate-600'}`}>
+              Subtasks
+            </label>
+            <div className="flex gap-1">
+              <input
+                type="text"
+                value={newSubtask}
+                onChange={(e) => setNewSubtask(e.target.value)}
+                onKeyPress={(e) => e.key === 'Enter' && addSubtask()}
+                placeholder="Add subtask..."
+                className={`flex-1 px-3 py-1.5 rounded-lg border text-xs focus:outline-none focus:ring-2 focus:ring-purple-500/50 ${
+                  isDark
+                    ? 'bg-white/5 border-white/10 text-white placeholder-gray-500'
+                    : 'bg-slate-50 border-slate-200 text-slate-800 placeholder-slate-400'
+                }`}
+              />
+              <button
+                onClick={addSubtask}
+                disabled={!newSubtask.trim()}
+                className={`px-2 rounded-lg transition-all ${
+                  newSubtask.trim()
+                    ? 'bg-purple-500 text-white hover:bg-purple-600'
+                    : isDark
+                    ? 'bg-white/5 text-slate-500'
+                    : 'bg-slate-100 text-slate-400'
+                }`}
+              >
+                +
+              </button>
+            </div>
+            {taskForm.subtasks.length > 0 && (
+              <div className="mt-2 space-y-1">
+                {taskForm.subtasks.map((subtask) => (
+                  <div key={subtask.id} className={`flex items-center gap-2 px-2 py-1 rounded-lg ${
+                    isDark ? 'bg-white/5' : 'bg-slate-50'
+                  }`}>
+                    <button
+                      onClick={() => toggleSubtask(subtask.id)}
+                      className={`w-4 h-4 rounded border flex items-center justify-center ${
+                        subtask.completed
+                          ? 'bg-purple-500 border-purple-500 text-white'
+                          : isDark
+                          ? 'border-white/20'
+                          : 'border-slate-300'
+                      }`}
+                    >
+                      {subtask.completed && (
+                        <svg className="w-3 h-3" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                          <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={3} d="M5 13l4 4L19 7" />
+                        </svg>
+                      )}
+                    </button>
+                    <span className={`flex-1 text-xs ${
+                      subtask.completed
+                        ? 'line-through text-slate-400'
+                        : isDark
+                        ? 'text-white'
+                        : 'text-slate-700'
+                    }`}>
+                      {subtask.title}
+                    </span>
+                    <button
+                      onClick={() => removeSubtask(subtask.id)}
+                      className={`p-0.5 rounded hover:bg-red-500/20 ${
+                        isDark ? 'text-slate-400' : 'text-slate-500'
+                      }`}
+                    >
+                      <svg className="w-3 h-3" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                        <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M6 18L18 6M6 6l12 12" />
+                      </svg>
+                    </button>
+                  </div>
+                ))}
+              </div>
+            )}
+          </div>
+
+          {/* Save Button */}
+          <button
+            onClick={handleSave}
+            disabled={!taskForm.title.trim()}
+            className={`w-full py-2.5 rounded-xl text-sm font-medium transition-all ${
+              taskForm.title.trim()
+                ? 'bg-gradient-to-r from-purple-500 to-pink-500 text-white hover:shadow-lg hover:shadow-purple-500/30'
+                : isDark
+                  ? 'bg-white/5 text-gray-500 cursor-not-allowed'
+                  : 'bg-gray-100 text-gray-400 cursor-not-allowed'
+            }`}
+          >
+            Save
+          </button>
         </div>
       </div>
     </>,
@@ -448,17 +610,13 @@ export function CalendarPage() {
   };
 
   // Save task to database (syncs with TodoWidget)
-  const handleSaveTask = async (text: string) => {
-    const dateStr = taskPopupDate.toLocaleDateString('ja-JP', { month: 'short', day: 'numeric' });
-    const taskWithDate = `[${dateStr}] ${text}`;
-    const dueDateStr = taskPopupDate.toISOString().split('T')[0]; // YYYY-MM-DD format
-
+  const handleSaveTask = async (data: CalendarTaskFormData) => {
     if (!session?.access_token) {
       // Fallback to localStorage for non-logged-in users
       const existingTodos = JSON.parse(localStorage.getItem('gojun-todos') || '[]');
       const newTodo = {
         id: Date.now().toString(),
-        text: taskWithDate,
+        text: data.title,
         completed: false,
         createdAt: Date.now(),
       };
@@ -479,9 +637,11 @@ export function CalendarPage() {
           Authorization: `Bearer ${session.access_token}`,
         },
         body: JSON.stringify({
-          title: taskWithDate,
+          title: data.title,
+          notes: data.notes,
           task_type: 'custom',
-          due_date: dueDateStr,
+          due_date: data.due_date,
+          priority: data.priority,
         }),
       });
 
