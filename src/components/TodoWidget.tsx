@@ -626,7 +626,7 @@ export function TodoWidget({ compact = false }: TodoWidgetProps) {
 
       {/* Detail Modal - Fullscreen centered with floating popup style */}
       {showDetailModal && createPortal(
-        <div className="fixed inset-0 z-50 flex items-center justify-center p-4">
+        <div className="fixed inset-0 z-50 flex items-center justify-start p-4 pl-8">
           {/* Backdrop */}
           <div
             className="absolute inset-0 bg-black/50 backdrop-blur-sm"
