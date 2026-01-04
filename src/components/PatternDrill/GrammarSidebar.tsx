@@ -100,10 +100,23 @@ export const GrammarSidebar: React.FC<GrammarSidebarProps> = ({
         </div>
       </div>
 
-      {/* Word Info Card */}
+      {/* Dictionary Form Card */}
       <div className="bg-white/80 backdrop-blur-sm rounded-xl p-4 shadow-sm">
         <div className="text-xs font-medium text-indigo-600 uppercase tracking-wide mb-2">
-          Word Info
+          Dictionary Form (辞書形)
+        </div>
+        <div className="flex items-center gap-2 mb-3">
+          <span className="text-2xl font-bold text-gray-800">
+            {sentence.dictionary_form || sentence.japanese_base}
+          </span>
+          {sentence.reading && (
+            <span className="text-sm text-gray-500">
+              ({sentence.reading})
+            </span>
+          )}
+        </div>
+        <div className="text-sm text-gray-600 mb-3">
+          {sentence.english}
         </div>
         <div className="flex flex-wrap gap-2">
           <span className={`px-3 py-1.5 rounded-lg text-sm font-medium ${

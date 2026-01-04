@@ -4,7 +4,7 @@ import { useTheme } from '../../contexts/ThemeContext';
 import { Furigana } from '../common/Furigana';
 import { FavoriteButton } from '../FavoriteButton';
 import { WordNoteButton } from '../WordNoteButton';
-import { VERB_GROUP_NAMES, getVerbGroupDisplayName } from '../../types/drill';
+import { getVerbGroupDisplayName } from '../../types/drill';
 import type { DrillSentence, DrillPrompt, ExampleSentence, DrillPracticeMode } from '../../types/drill';
 
 interface DrillQuestionDisplayProps {
@@ -34,24 +34,6 @@ export const DrillQuestionDisplay: React.FC<DrillQuestionDisplayProps> = ({
 
   // Show example sentence in sentence mode
   const showSentence = practiceMode === 'sentence' && exampleSentence;
-
-  // Get verb group badge colors
-  const getVerbGroupStyle = () => {
-    if (sentence.word_type !== 'verb' || !sentence.verb_group) return null;
-
-    const styles = {
-      group1: isDark
-        ? 'bg-blue-500/20 text-blue-300 border-blue-500/30'
-        : 'bg-blue-100 text-blue-700 border-blue-200',
-      group2: isDark
-        ? 'bg-green-500/20 text-green-300 border-green-500/30'
-        : 'bg-green-100 text-green-700 border-green-200',
-      group3: isDark
-        ? 'bg-amber-500/20 text-amber-300 border-amber-500/30'
-        : 'bg-amber-100 text-amber-700 border-amber-200',
-    };
-    return styles[sentence.verb_group] || styles.group1;
-  };
 
   // Theme classes
   const theme = {
@@ -108,63 +90,6 @@ export const DrillQuestionDisplay: React.FC<DrillQuestionDisplayProps> = ({
     <div className="text-center space-y-4">
       {/* Prompt */}
       <div className={`text-lg mb-2 ${theme.textMuted}`}>{prompt.prompt_en}</div>
-
-      {/* Dictionary Form Info Card - NEW */}
-      {sentence.word_type === 'verb' && sentence.verb_group && (
-        <div className={`relative inline-flex items-center gap-3 px-4 py-2 rounded-xl border ${theme.card}`}>
-          {/* Favorite & Note buttons */}
-          <div className="absolute -top-1 -right-1 flex gap-0.5 z-20">
-            <FavoriteButton
-              word={sentence.dictionary_form || sentence.japanese_base}
-              reading={sentence.reading || ''}
-              english={sentence.english}
-              partOfSpeech={sentence.word_type === 'verb' ? 'verb' : 'adjective'}
-
-            />
-            <WordNoteButton
-              word={sentence.dictionary_form || sentence.japanese_base}
-              reading={sentence.reading || ''}
-              english={sentence.english}
-              onPopupChange={setNotePopupOpen}
-            />
-          </div>
-
-          <div className="text-left">
-            <div className={`text-xs uppercase tracking-wide font-medium ${isDark ? 'text-indigo-400' : 'text-indigo-600'}`}>
-              Dictionary Form
-            </div>
-            <div className="flex items-center gap-2">
-              {showFurigana && sentence.reading ? (
-                <Furigana
-                  text={sentence.dictionary_form || sentence.japanese_base}
-                  reading={sentence.reading}
-                  showFurigana={showFurigana}
-                  romaji={sentence.romaji}
-                  showRomaji={showRomaji}
-                  textClassName={`text-xl font-bold ${theme.text}`}
-                  furiganaClassName={`text-[0.5em] ${isDark ? 'text-indigo-400' : 'text-indigo-500'}`}
-                />
-              ) : (
-                <span className={`text-xl font-bold ${theme.text}`}>
-                  {sentence.dictionary_form || sentence.japanese_base}
-                </span>
-              )}
-              <AudioButton text={sentence.dictionary_form || sentence.japanese_base} size="sm" />
-            </div>
-            {showRomaji && sentence.romaji && !showFurigana && (
-              <div className={`text-sm font-mono ${isDark ? 'text-indigo-400' : 'text-indigo-500'}`}>
-                {sentence.romaji}
-              </div>
-            )}
-          </div>
-
-          {/* Verb Group Badge */}
-          <div className={`px-3 py-1.5 rounded-lg text-sm font-medium border ${getVerbGroupStyle()}`}>
-            <div>{getVerbGroupDisplayName(sentence.verb_group, 'short')}</div>
-            <div className="text-xs opacity-75">{VERB_GROUP_NAMES[sentence.verb_group]?.jp}</div>
-          </div>
-        </div>
-      )}
 
       {/* Base word or sentence */}
       {showSentence ? (
