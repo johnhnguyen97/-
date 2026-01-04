@@ -624,17 +624,17 @@ export function TodoWidget({ compact = false }: TodoWidgetProps) {
         )}
       </div>
 
-      {/* Detail Modal - Floating popup anchored to top right */}
+      {/* Detail Modal - Fullscreen centered with floating popup style */}
       {showDetailModal && createPortal(
-        <div className="fixed inset-0 z-50">
+        <div className="fixed inset-0 z-50 flex items-center justify-center p-4">
           {/* Backdrop */}
           <div
-            className="absolute inset-0"
+            className="absolute inset-0 bg-black/50 backdrop-blur-sm"
             onClick={() => setShowDetailModal(false)}
           />
 
-          {/* Modal - positioned top left near the todo widget */}
-          <div className={`absolute top-16 left-4 w-72 rounded-xl border shadow-xl animate-fadeInUp overflow-hidden ${
+          {/* Modal - centered, styled like floating popup */}
+          <div className={`relative w-full max-w-sm rounded-xl border shadow-xl animate-scaleIn overflow-hidden ${
             isDark ? 'bg-[#1a1a2e] border-purple-500/30' : 'bg-white border-purple-200'
           }`}>
             {/* Header with gradient like word note popup */}
