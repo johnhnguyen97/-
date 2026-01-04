@@ -353,6 +353,8 @@ export const PatternDrill: React.FC<PatternDrillProps> = ({ onClose }) => {
                 prompt={currentQuestion.prompt}
                 practiceMode={gameState.settings.practiceMode}
                 exampleSentence={currentQuestion.exampleSentence}
+                showFurigana={gameState.settings.showFurigana}
+                showRomaji={gameState.settings.showRomaji}
               />
               <DrillAnswer
                 mode={gameState.settings.mode}
@@ -395,6 +397,7 @@ export const PatternDrill: React.FC<PatternDrillProps> = ({ onClose }) => {
                 prompt={currentQuestion.prompt}
                 sentence={currentQuestion.sentence}
                 isAnswered={gameState.status === 'answered'}
+                showFurigana={gameState.settings.showFurigana}
               />
             </div>
           </div>

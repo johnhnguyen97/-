@@ -8,6 +8,7 @@ interface GrammarSidebarProps {
   sentence: DrillSentence;
   isAnswered?: boolean;
   showGrammarTips?: boolean;
+  showFurigana?: boolean;
 }
 
 // Internal verb group type for conjugation rules
@@ -59,7 +60,8 @@ export const GrammarSidebar: React.FC<GrammarSidebarProps> = ({
   prompt,
   sentence,
   isAnswered,
-  showGrammarTips = true
+  showGrammarTips = true,
+  showFurigana = true
 }) => {
   const [hintExpanded, setHintExpanded] = useState(false);
 
@@ -109,7 +111,7 @@ export const GrammarSidebar: React.FC<GrammarSidebarProps> = ({
           <span className="text-2xl font-bold text-gray-800">
             {sentence.dictionary_form || sentence.japanese_base}
           </span>
-          {sentence.reading && (
+          {showFurigana && sentence.reading && (
             <span className="text-sm text-gray-500">
               ({sentence.reading})
             </span>
@@ -193,21 +195,29 @@ export const GrammarSidebar: React.FC<GrammarSidebarProps> = ({
                 <div className="bg-violet-50 rounded-lg p-3 mt-2">
                   <div className="text-xs font-medium text-violet-500 mb-1">Example</div>
                   <div className="flex items-center gap-2 text-sm">
-                    <ruby className="text-gray-700">
-                      {conjugationRule.example.dictionary}
-                      <rp>(</rp>
-                      <rt className="text-xs text-gray-500">{conjugationRule.example.reading}</rt>
-                      <rp>)</rp>
-                    </ruby>
+                    {showFurigana ? (
+                      <ruby className="text-gray-700">
+                        {conjugationRule.example.dictionary}
+                        <rp>(</rp>
+                        <rt className="text-xs text-gray-500">{conjugationRule.example.reading}</rt>
+                        <rp>)</rp>
+                      </ruby>
+                    ) : (
+                      <span className="text-gray-700">{conjugationRule.example.dictionary}</span>
+                    )}
                     <svg className="w-4 h-4 text-violet-400" fill="none" stroke="currentColor" viewBox="0 0 24 24">
                       <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M13 7l5 5m0 0l-5 5m5-5H6" />
                     </svg>
-                    <ruby className="text-violet-700 font-medium">
-                      {conjugationRule.example.result}
-                      <rp>(</rp>
-                      <rt className="text-xs text-violet-500">{conjugationRule.example.resultReading}</rt>
-                      <rp>)</rp>
-                    </ruby>
+                    {showFurigana ? (
+                      <ruby className="text-violet-700 font-medium">
+                        {conjugationRule.example.result}
+                        <rp>(</rp>
+                        <rt className="text-xs text-violet-500">{conjugationRule.example.resultReading}</rt>
+                        <rp>)</rp>
+                      </ruby>
+                    ) : (
+                      <span className="text-violet-700 font-medium">{conjugationRule.example.result}</span>
+                    )}
                   </div>
                 </div>
               )}

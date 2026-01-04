@@ -170,12 +170,7 @@ export const DrillAnswer: React.FC<DrillAnswerProps> = ({
                       )}
                     </div>
 
-                    {/* Reading (shown separately if furigana is off) */}
-                    {!showFurigana && option.reading && (
-                      <div className={`text-sm ${isDark ? 'text-gray-400' : 'text-gray-500'}`}>
-                        {option.reading}
-                      </div>
-                    )}
+
 
                     {/* Hint button or revealed hint */}
                     {option.english && (
