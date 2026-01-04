@@ -140,7 +140,9 @@ export const DrillQuestionDisplay: React.FC<DrillQuestionDisplayProps> = ({
           {/* Single word mode */}
           <div className="relative inline-block">
             {/* Favorite & Note buttons */}
-            <div className="absolute -top-4 -right-12 flex gap-0.5 z-20">
+            <div className={`absolute -top-6 -right-10 flex gap-0.5 z-20 p-1 rounded-lg shadow-sm border ${
+              isDark ? 'bg-gray-800 border-gray-700' : 'bg-white border-gray-200'
+            }`}>
               <FavoriteButton
                 word={sentence.dictionary_form || sentence.japanese_base}
                 reading={sentence.reading || ''}
