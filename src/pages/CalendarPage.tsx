@@ -6,6 +6,7 @@ import { useAuth } from '../contexts/AuthContext';
 import { formatJapaneseDate, calendar } from '../lib/gojun-ui/tokens';
 import { Banner, BannerTitle, BannerSubtitle } from '../lib/gojun-ui/components/Banner/Banner';
 import { TaskPanel } from '../components/Calendar';
+import { MobileCalendarView } from '../components/Calendar/MobileCalendarView';
 import { StrokeAnimation } from '../components/Kanji/StrokeAnimation';
 import { FavoriteButton } from '../components/FavoriteButton';
 import { WordNoteButton } from '../components/WordNoteButton';
@@ -725,13 +726,26 @@ export function CalendarPage() {
       </div>
 
       <div className="relative z-10">
-        {/* Content */}
-        {(
+        {/* Mobile View */}
+        {isMobile ? (
+          <MobileCalendarView
+            currentYear={currentYear}
+            currentMonth={currentMonth}
+            selectedDate={selectedDate}
+            dayData={dayData}
+            jlptLevel={jlptLevel}
+            isLoading={isLoading}
+            onDateSelect={handleDayClick}
+            onMonthChange={handleMonthChange}
+            onJlptChange={setJlptLevel}
+          />
+        ) : (
+          /* Desktop View */
           <div className="max-w-7xl mx-auto px-4 py-4">
             {/* Dashboard Layout */}
-            <div className={`${isMobile ? '' : 'flex gap-6'}`}>
+            <div className="flex gap-6">
               {/* Calendar Grid with Banner */}
-              <div className={`${isMobile ? 'w-full' : 'flex-1'}`}>
+              <div className="flex-1">
                 <div className={`rounded-2xl overflow-hidden border shadow-lg ${theme.card}`}>
                   {/* Banner inside calendar card */}
                   <Banner
@@ -877,7 +891,7 @@ export function CalendarPage() {
               </div>
 
               {/* Sidebar - Selected Day Details */}
-              <div className={`${isMobile ? 'mt-4' : 'w-96'}`}>
+              <div className="w-96">
                 {/* Selected Day Header */}
                 <div className={`rounded-t-2xl border border-b-0 px-4 py-3 ${theme.card} ${
                   isDark ? 'bg-gradient-to-r from-pink-900/30 to-purple-900/30' : 'bg-gradient-to-r from-pink-50 to-purple-50'
