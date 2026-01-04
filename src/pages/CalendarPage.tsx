@@ -127,8 +127,6 @@ function TaskCreationPopup({
     }));
   };
 
-  const formattedDate = date.toLocaleDateString('ja-JP', { month: 'short', day: 'numeric' });
-
   return createPortal(
     <>
       {/* Backdrop */}
