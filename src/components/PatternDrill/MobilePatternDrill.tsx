@@ -437,30 +437,11 @@ export const MobilePatternDrill: React.FC<MobilePatternDrillProps> = ({ onClose 
         {/* Question Card */}
         {gameState.status === 'playing' && currentQuestion && (
           <div className={`${theme.card} rounded-3xl border ${theme.cardBorder} ${theme.cardShadow} overflow-hidden`}>
-            {/* Card Header with actions */}
-            <div className={`px-5 py-3 flex items-center justify-between border-b ${theme.cardBorder}`}>
-              <div className="flex items-center gap-2">
-                <span className={`text-sm font-medium ${theme.textMuted}`}>
-                  {currentQuestion.prompt.prompt_en}
-                </span>
-              </div>
-              <div className="flex items-center gap-1">
-                <FavoriteButton
-                  word={currentQuestion.sentence.dictionary_form || currentQuestion.sentence.japanese_base}
-                  reading={currentQuestion.sentence.reading || ''}
-                  english={currentQuestion.sentence.english}
-                  partOfSpeech={currentQuestion.sentence.word_type === 'verb' ? 'verb' : 'adjective'}
-                />
-                <WordNoteButton
-                  word={currentQuestion.sentence.dictionary_form || currentQuestion.sentence.japanese_base}
-                  reading={currentQuestion.sentence.reading || ''}
-                  english={currentQuestion.sentence.english}
-                />
-              </div>
-            </div>
-
             {/* Question content */}
             <div className="p-6 text-center space-y-4">
+              {/* Prompt */}
+              <p className={`text-lg ${theme.textMuted}`}>{currentQuestion.prompt.prompt_en}</p>
+
               {showSentence ? (
                 <>
                   {/* Sentence mode */}
@@ -485,9 +466,26 @@ export const MobilePatternDrill: React.FC<MobilePatternDrillProps> = ({ onClose 
                   </div>
                   <p className={`text-base ${theme.textMuted}`}>"{currentQuestion.exampleSentence!.english}"</p>
 
-                  {/* Target word highlight */}
-                  <div className={`inline-block px-4 py-3 rounded-2xl ${isDark ? 'bg-amber-500/10' : 'bg-amber-50'}`}>
-                    <p className={`text-xs mb-1 ${isDark ? 'text-amber-400' : 'text-amber-600'}`}>Conjugate:</p>
+                  {/* Target word highlight box with favorite/note buttons */}
+                  <div className={`relative inline-block px-4 py-3 rounded-2xl ${isDark ? 'bg-amber-500/10' : 'bg-amber-50'}`}>
+                    {/* Favorite & Note buttons - positioned on the box */}
+                    <div className={`absolute -top-3 -right-3 flex gap-0.5 z-20 p-1 rounded-lg shadow-sm border ${
+                      isDark ? 'bg-gray-800 border-gray-700' : 'bg-white border-gray-200'
+                    }`}>
+                      <FavoriteButton
+                        word={currentQuestion.sentence.dictionary_form || currentQuestion.sentence.japanese_base}
+                        reading={currentQuestion.sentence.reading || ''}
+                        english={currentQuestion.sentence.english}
+                        partOfSpeech={currentQuestion.sentence.word_type === 'verb' ? 'verb' : 'adjective'}
+                      />
+                      <WordNoteButton
+                        word={currentQuestion.sentence.dictionary_form || currentQuestion.sentence.japanese_base}
+                        reading={currentQuestion.sentence.reading || ''}
+                        english={currentQuestion.sentence.english}
+                      />
+                    </div>
+
+                    <p className={`text-xs mb-1 ${isDark ? 'text-amber-400' : 'text-amber-600'}`}>Conjugate this word:</p>
                     <div className="flex items-center justify-center gap-2">
                       {gameState.settings.showFurigana && currentQuestion.sentence.reading ? (
                         <Furigana
@@ -502,38 +500,73 @@ export const MobilePatternDrill: React.FC<MobilePatternDrillProps> = ({ onClose 
                           {currentQuestion.sentence.japanese_base}
                         </span>
                       )}
+                      <button
+                        onClick={() => speak(currentQuestion.sentence.japanese_base)}
+                        className={`w-8 h-8 rounded-full flex items-center justify-center transition-all ${
+                          isSpeaking(currentQuestion.sentence.japanese_base)
+                            ? 'bg-amber-500 text-white animate-pulse'
+                            : isDark ? 'bg-amber-500/20 text-amber-300' : 'bg-amber-100 text-amber-600'
+                        }`}
+                      >
+                        🔊
+                      </button>
                     </div>
+                    <p className={`text-sm mt-1 ${isDark ? 'text-amber-400' : 'text-amber-600'}`}>
+                      ({currentQuestion.sentence.english})
+                    </p>
                   </div>
                 </>
               ) : (
                 <>
-                  {/* Word mode */}
-                  <div className="flex items-center justify-center gap-3">
-                    {gameState.settings.showFurigana && currentQuestion.sentence.reading ? (
-                      <Furigana
-                        text={currentQuestion.sentence.japanese_base}
-                        reading={currentQuestion.sentence.reading}
-                        showFurigana={true}
-                        textClassName={`text-4xl font-bold ${theme.text}`}
-                        furiganaClassName={`text-[0.5em] ${theme.textMuted}`}
+                  {/* Word mode - with conjugate box */}
+                  <div className={`relative inline-block px-6 py-4 rounded-2xl ${isDark ? 'bg-amber-500/10' : 'bg-amber-50'}`}>
+                    {/* Favorite & Note buttons - positioned on the box */}
+                    <div className={`absolute -top-3 -right-3 flex gap-0.5 z-20 p-1 rounded-lg shadow-sm border ${
+                      isDark ? 'bg-gray-800 border-gray-700' : 'bg-white border-gray-200'
+                    }`}>
+                      <FavoriteButton
+                        word={currentQuestion.sentence.dictionary_form || currentQuestion.sentence.japanese_base}
+                        reading={currentQuestion.sentence.reading || ''}
+                        english={currentQuestion.sentence.english}
+                        partOfSpeech={currentQuestion.sentence.word_type === 'verb' ? 'verb' : 'adjective'}
                       />
-                    ) : (
-                      <span className={`text-4xl font-bold ${theme.text}`}>
-                        {currentQuestion.sentence.japanese_base}
-                      </span>
-                    )}
-                    <button
-                      onClick={() => speak(currentQuestion.sentence.japanese_base)}
-                      className={`w-12 h-12 rounded-full flex items-center justify-center transition-all ${
-                        isSpeaking(currentQuestion.sentence.japanese_base)
-                          ? 'bg-violet-500 text-white animate-pulse'
-                          : isDark ? 'bg-white/10 text-white' : 'bg-slate-100 text-slate-600'
-                      }`}
-                    >
-                      🔊
-                    </button>
+                      <WordNoteButton
+                        word={currentQuestion.sentence.dictionary_form || currentQuestion.sentence.japanese_base}
+                        reading={currentQuestion.sentence.reading || ''}
+                        english={currentQuestion.sentence.english}
+                      />
+                    </div>
+
+                    <p className={`text-xs mb-2 ${isDark ? 'text-amber-400' : 'text-amber-600'}`}>Conjugate this word:</p>
+                    <div className="flex items-center justify-center gap-3">
+                      {gameState.settings.showFurigana && currentQuestion.sentence.reading ? (
+                        <Furigana
+                          text={currentQuestion.sentence.japanese_base}
+                          reading={currentQuestion.sentence.reading}
+                          showFurigana={true}
+                          textClassName={`text-3xl font-bold ${isDark ? 'text-amber-300' : 'text-amber-700'}`}
+                          furiganaClassName={`text-[0.5em] ${isDark ? 'text-amber-400' : 'text-amber-600'}`}
+                        />
+                      ) : (
+                        <span className={`text-3xl font-bold ${isDark ? 'text-amber-300' : 'text-amber-700'}`}>
+                          {currentQuestion.sentence.japanese_base}
+                        </span>
+                      )}
+                      <button
+                        onClick={() => speak(currentQuestion.sentence.japanese_base)}
+                        className={`w-10 h-10 rounded-full flex items-center justify-center transition-all ${
+                          isSpeaking(currentQuestion.sentence.japanese_base)
+                            ? 'bg-amber-500 text-white animate-pulse'
+                            : isDark ? 'bg-amber-500/20 text-amber-300' : 'bg-amber-100 text-amber-600'
+                        }`}
+                      >
+                        🔊
+                      </button>
+                    </div>
+                    <p className={`text-sm mt-2 ${isDark ? 'text-amber-400' : 'text-amber-600'}`}>
+                      ({currentQuestion.sentence.english})
+                    </p>
                   </div>
-                  <p className={`text-lg ${theme.textMuted}`}>({currentQuestion.sentence.english})</p>
                 </>
               )}
 
