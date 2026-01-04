@@ -624,121 +624,85 @@ export function TodoWidget({ compact = false }: TodoWidgetProps) {
         )}
       </div>
 
-      {/* Detail Modal - Full screen overlay with portal animation */}
+      {/* Detail Modal - Fullscreen with floating popup style */}
       {showDetailModal && createPortal(
         <div className="fixed inset-0 z-50 flex items-center justify-center p-4">
-          {/* Backdrop with vortex glow */}
+          {/* Backdrop */}
           <div
-            className="absolute inset-0 bg-black/70 backdrop-blur-sm portal-glow"
+            className="absolute inset-0 bg-black/50 backdrop-blur-sm"
             onClick={() => setShowDetailModal(false)}
           />
 
-          {/* Modal with portal emerge animation */}
-          <div className={`relative w-full max-w-md rounded-2xl border shadow-2xl portal-emerge ${
+          {/* Modal - styled like floating popup */}
+          <div className={`relative w-full max-w-sm rounded-xl border shadow-xl animate-scaleIn overflow-hidden ${
             isDark ? 'bg-[#1a1a2e] border-purple-500/30' : 'bg-white border-purple-200'
           }`}>
-            {/* Header */}
-            <div className={`px-4 py-3 border-b flex items-center justify-between ${
-              isDark ? 'border-white/10' : 'border-slate-200'
-            }`}>
-              <h3 className={`font-bold ${theme.text}`}>New Task</h3>
+            {/* Header with gradient like word note popup */}
+            <div className="bg-gradient-to-r from-purple-500 to-pink-500 px-3 py-2 flex items-center justify-between">
+              <div>
+                <h3 className="font-semibold text-sm text-white">New Task</h3>
+                <p className="text-xs text-white/70">Add details below</p>
+              </div>
               <button
                 onClick={() => setShowDetailModal(false)}
-                className={`p-1.5 rounded-lg transition-all ${
-                  isDark ? 'hover:bg-white/10 text-slate-400' : 'hover:bg-slate-100 text-slate-500'
-                }`}
+                className="p-1 rounded-lg transition-all hover:bg-white/20 text-white/80 hover:text-white"
               >
-                <svg className="w-5 h-5" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                <svg className="w-4 h-4" fill="none" stroke="currentColor" viewBox="0 0 24 24">
                   <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M6 18L18 6M6 6l12 12" />
                 </svg>
               </button>
             </div>
 
-            {/* Form - Compact */}
-            <div className="p-4 space-y-3">
-              {/* Title */}
-              <div>
-                <label className={`block text-xs font-medium mb-1 ${theme.textMuted}`}>
-                  Title <span className="text-red-500">*</span>
-                </label>
+            {/* Form - Compact like word note popup */}
+            <div className="p-3 space-y-3">
+              {/* Title input */}
+              <input
+                type="text"
+                value={taskForm.title}
+                onChange={(e) => setTaskForm(f => ({ ...f, title: e.target.value }))}
+                placeholder="What needs to be done?"
+                autoFocus
+                className={`w-full px-3 py-2 rounded-lg border text-sm focus:outline-none focus:ring-2 focus:ring-purple-500/50 ${theme.input}`}
+              />
+
+              {/* Notes textarea */}
+              <textarea
+                value={taskForm.notes}
+                onChange={(e) => setTaskForm(f => ({ ...f, notes: e.target.value }))}
+                placeholder="Add notes..."
+                rows={3}
+                className={`w-full px-3 py-2 rounded-lg border text-sm focus:outline-none focus:ring-2 focus:ring-purple-500/50 resize-none ${theme.input}`}
+              />
+
+              {/* Due Date & Priority row */}
+              <div className="flex gap-2">
                 <input
-                  type="text"
-                  value={taskForm.title}
-                  onChange={(e) => setTaskForm(f => ({ ...f, title: e.target.value }))}
-                  placeholder="What needs to be done?"
-                  autoFocus
-                  className={`w-full px-3 py-2 rounded-lg border text-sm focus:outline-none focus:ring-2 focus:ring-purple-500/50 ${theme.input}`}
+                  type="date"
+                  value={taskForm.due_date}
+                  onChange={(e) => setTaskForm(f => ({ ...f, due_date: e.target.value }))}
+                  className={`flex-1 px-2 py-1.5 rounded-lg border text-xs focus:outline-none focus:ring-2 focus:ring-purple-500/50 ${theme.input}`}
                 />
-              </div>
-
-              {/* Notes */}
-              <div>
-                <label className={`block text-xs font-medium mb-1 ${theme.textMuted}`}>
-                  Notes
-                </label>
-                <textarea
-                  value={taskForm.notes}
-                  onChange={(e) => setTaskForm(f => ({ ...f, notes: e.target.value }))}
-                  placeholder="Add details..."
-                  rows={2}
-                  className={`w-full px-3 py-2 rounded-lg border text-sm focus:outline-none focus:ring-2 focus:ring-purple-500/50 resize-none ${theme.input}`}
-                />
-              </div>
-
-              {/* Due Date & Time */}
-              <div className="grid grid-cols-2 gap-2">
-                <div>
-                  <label className={`block text-xs font-medium mb-1 ${theme.textMuted}`}>
-                    Due Date
-                  </label>
-                  <input
-                    type="date"
-                    value={taskForm.due_date}
-                    onChange={(e) => setTaskForm(f => ({ ...f, due_date: e.target.value }))}
-                    className={`w-full px-2 py-1.5 rounded-lg border text-sm focus:outline-none focus:ring-2 focus:ring-purple-500/50 ${theme.input}`}
-                  />
-                </div>
-                <div>
-                  <label className={`block text-xs font-medium mb-1 ${theme.textMuted}`}>
-                    Time
-                  </label>
-                  <input
-                    type="time"
-                    value={taskForm.due_time}
-                    onChange={(e) => setTaskForm(f => ({ ...f, due_time: e.target.value }))}
-                    className={`w-full px-2 py-1.5 rounded-lg border text-sm focus:outline-none focus:ring-2 focus:ring-purple-500/50 ${theme.input}`}
-                  />
-                </div>
-              </div>
-
-              {/* Priority */}
-              <div>
-                <label className={`block text-xs font-medium mb-1 ${theme.textMuted}`}>
-                  Priority
-                </label>
-                <div className="flex gap-1.5">
+                <div className="flex gap-1">
                   {[
-                    { value: 0, label: 'None', color: 'slate' },
-                    { value: 1, label: 'Low', color: 'blue' },
-                    { value: 2, label: 'Med', color: 'amber' },
-                    { value: 3, label: 'High', color: 'red' },
-                  ].map(({ value, label, color }) => (
+                    { value: 1, label: '!', color: 'blue', title: 'Low' },
+                    { value: 2, label: '!!', color: 'amber', title: 'Medium' },
+                    { value: 3, label: '!!!', color: 'red', title: 'High' },
+                  ].map(({ value, label, color, title }) => (
                     <button
                       key={value}
                       type="button"
-                      onClick={() => setTaskForm(f => ({ ...f, priority: value }))}
-                      className={`flex-1 py-1.5 rounded-lg text-xs font-medium transition-all border ${
+                      title={title}
+                      onClick={() => setTaskForm(f => ({ ...f, priority: f.priority === value ? 0 : value }))}
+                      className={`w-8 h-8 rounded-lg text-xs font-bold transition-all border ${
                         taskForm.priority === value
-                          ? color === 'slate'
-                            ? isDark ? 'bg-slate-500/30 border-slate-500 text-slate-300' : 'bg-slate-100 border-slate-400 text-slate-700'
-                            : color === 'blue'
+                          ? color === 'blue'
                             ? 'bg-blue-500/20 border-blue-500 text-blue-500'
                             : color === 'amber'
                             ? 'bg-amber-500/20 border-amber-500 text-amber-500'
                             : 'bg-red-500/20 border-red-500 text-red-500'
                           : isDark
                             ? 'border-white/10 text-slate-400 hover:bg-white/5'
-                            : 'border-slate-200 text-slate-500 hover:bg-slate-50'
+                            : 'border-slate-200 text-slate-400 hover:bg-slate-50'
                       }`}
                     >
                       {label}
@@ -748,30 +712,18 @@ export function TodoWidget({ compact = false }: TodoWidgetProps) {
               </div>
             </div>
 
-            {/* Footer */}
-            <div className={`px-4 py-3 border-t flex gap-2 ${
-              isDark ? 'border-white/10' : 'border-slate-200'
-            }`}>
-              <button
-                onClick={() => setShowDetailModal(false)}
-                className={`flex-1 py-2 rounded-lg font-medium text-sm transition-all border ${
-                  isDark
-                    ? 'border-white/10 text-slate-400 hover:bg-white/5'
-                    : 'border-slate-200 text-slate-600 hover:bg-slate-50'
-                }`}
-              >
-                Cancel
-              </button>
+            {/* Footer - just Save button like word note popup */}
+            <div className="px-3 pb-3">
               <button
                 onClick={addDetailedTask}
                 disabled={!taskForm.title.trim()}
-                className={`flex-1 py-2 rounded-lg font-medium text-sm transition-all ${
+                className={`w-full py-2 rounded-lg font-medium text-sm transition-all ${
                   taskForm.title.trim()
                     ? 'bg-gradient-to-r from-purple-500 to-pink-500 text-white hover:shadow-lg hover:shadow-purple-500/30'
                     : 'bg-gray-200 text-gray-400 cursor-not-allowed'
                 }`}
               >
-                Create
+                Save
               </button>
             </div>
           </div>
