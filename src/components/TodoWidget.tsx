@@ -623,9 +623,9 @@ export function TodoWidget({ compact = false }: TodoWidgetProps) {
         )}
       </div>
 
-      {/* Detail Modal - Portal Animation over cards */}
+      {/* Detail Modal - Full screen overlay with portal animation */}
       {showDetailModal && (
-        <div className="absolute inset-0 z-50 flex items-center justify-center overflow-hidden rounded-2xl">
+        <div className="fixed inset-0 z-50 flex items-center justify-center p-4">
           {/* Backdrop with vortex glow */}
           <div
             className="absolute inset-0 bg-black/70 backdrop-blur-sm portal-glow"
@@ -633,7 +633,7 @@ export function TodoWidget({ compact = false }: TodoWidgetProps) {
           />
 
           {/* Modal with portal emerge animation */}
-          <div className={`relative w-[92%] rounded-2xl border shadow-2xl portal-emerge ${
+          <div className={`relative w-full max-w-md rounded-2xl border shadow-2xl portal-emerge ${
             isDark ? 'bg-[#1a1a2e] border-purple-500/30' : 'bg-white border-purple-200'
           }`}>
             {/* Header */}
