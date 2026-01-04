@@ -16,7 +16,28 @@ export interface TaskPanelProps {
   className?: string;
 }
 
-// Color accents for events
+// Task interface
+interface Task {
+  id: string;
+  title: string;
+  notes?: string;
+  due_date?: string;
+  priority: number;
+  is_completed: boolean;
+}
+
+// Unified item type for display
+interface ScheduleItem {
+  id: string;
+  type: 'task' | 'event';
+  title: string;
+  subtitle?: string;
+  date: string;
+  priority?: number;
+  isCompleted?: boolean;
+}
+
+// Color accents for events/tasks
 const EVENT_COLORS = [
   'bg-gradient-to-r from-red-500 to-orange-500',
   'bg-gradient-to-r from-yellow-400 to-amber-500',
@@ -26,6 +47,14 @@ const EVENT_COLORS = [
   'bg-gradient-to-r from-cyan-400 to-blue-500',
 ];
 
+// Priority colors
+const PRIORITY_COLORS: Record<number, string> = {
+  0: 'bg-slate-400',
+  1: 'bg-blue-500',
+  2: 'bg-amber-500',
+  3: 'bg-red-500',
+};
+
 export function TaskPanel({ jlptLevel = 'N5', className = '' }: TaskPanelProps) {
   const { isDark } = useTheme();
   const { session } = useAuth();
@@ -34,8 +63,9 @@ export function TaskPanel({ jlptLevel = 'N5', className = '' }: TaskPanelProps) 
   const [syncing, setSyncing] = useState(false);
   const [syncResult, setSyncResult] = useState<CreateEventsResult | null>(null);
   const [upcomingEvents, setUpcomingEvents] = useState<{ id: string; summary: string; date: string }[]>([]);
+  const [tasks, setTasks] = useState<Task[]>([]);
   const [error, setError] = useState<string | null>(null);
-  const [selectedEvent, setSelectedEvent] = useState<string | null>(null);
+  const [selectedItem, setSelectedItem] = useState<string | null>(null);
   const [showSyncMenu, setShowSyncMenu] = useState(false);
   const syncButtonRef = useRef<HTMLButtonElement>(null);
   const longPressTimerRef = useRef<ReturnType<typeof setTimeout> | null>(null);
@@ -53,26 +83,48 @@ export function TaskPanel({ jlptLevel = 'N5', className = '' }: TaskPanelProps) 
     eventBgSelected: isDark ? 'bg-white/15 ring-2 ring-pink-500' : 'bg-pink-100 ring-2 ring-pink-400',
   };
 
-  // Load Google status
+  // Fetch tasks
+  const fetchTasks = async () => {
+    if (!session?.access_token) return;
+
+    try {
+      const response = await fetch('/api/calendar?action=todos', {
+        headers: { Authorization: `Bearer ${session.access_token}` },
+      });
+      if (response.ok) {
+        const data = await response.json();
+        setTasks(data.todos || []);
+      }
+    } catch (err) {
+      console.error('Failed to fetch tasks:', err);
+    }
+  };
+
+  // Load Google status and tasks
   useEffect(() => {
-    async function loadStatus() {
+    async function loadData() {
       if (!session?.access_token) return;
       setLoading(true);
       try {
+        // Fetch Google status
         const status = await getGoogleStatus(session.access_token);
         setGoogleStatus(status);
 
+        // Fetch calendar events if connected
         if (status.connected) {
           const events = await listWordOfTheDayEvents(session.access_token);
           setUpcomingEvents(events.events || []);
         }
+
+        // Fetch tasks
+        await fetchTasks();
       } catch (err) {
-        console.error('Failed to get Google status:', err);
+        console.error('Failed to load data:', err);
       } finally {
         setLoading(false);
       }
     }
-    loadStatus();
+    loadData();
   }, [session?.access_token]);
 
   const handleConnect = () => {
@@ -107,28 +159,86 @@ export function TaskPanel({ jlptLevel = 'N5', className = '' }: TaskPanelProps) 
     }
   };
 
-  // Long press handlers for events
-  const handleEventPressStart = (eventId: string) => {
+  // Toggle task completion
+  const handleToggleTask = async (taskId: string) => {
+    if (!session?.access_token) return;
+
+    const task = tasks.find(t => t.id === taskId);
+    if (!task) return;
+
+    try {
+      const response = await fetch('/api/calendar?action=todos', {
+        method: 'PUT',
+        headers: {
+          'Content-Type': 'application/json',
+          Authorization: `Bearer ${session.access_token}`,
+        },
+        body: JSON.stringify({
+          id: taskId,
+          is_completed: !task.is_completed,
+        }),
+      });
+
+      if (response.ok) {
+        setTasks(prev => prev.map(t =>
+          t.id === taskId ? { ...t, is_completed: !t.is_completed } : t
+        ));
+      }
+    } catch (err) {
+      console.error('Failed to toggle task:', err);
+    }
+  };
+
+  // Long press handlers
+  const handleItemPressStart = (itemId: string) => {
     longPressTimerRef.current = setTimeout(() => {
-      setSelectedEvent(eventId);
+      setSelectedItem(itemId);
     }, 500);
   };
 
-  const handleEventPressEnd = () => {
+  const handleItemPressEnd = () => {
     if (longPressTimerRef.current) {
       clearTimeout(longPressTimerRef.current);
       longPressTimerRef.current = null;
     }
   };
 
-  // Group events by date
-  const groupedEvents = upcomingEvents.reduce((acc, event) => {
-    const date = new Date(event.date);
+  // Combine tasks and events into unified schedule items
+  const scheduleItems: ScheduleItem[] = [
+    // Add tasks with due dates
+    ...tasks
+      .filter(t => t.due_date && !t.is_completed)
+      .map(t => ({
+        id: `task-${t.id}`,
+        type: 'task' as const,
+        title: t.title,
+        subtitle: t.notes,
+        date: t.due_date!,
+        priority: t.priority,
+        isCompleted: t.is_completed,
+      })),
+    // Add calendar events
+    ...upcomingEvents.map(e => {
+      const word = e.summary.replace('📚 Word of the Day: ', '').split(' ')[0];
+      const reading = e.summary.match(/\(([^)]+)\)/)?.[1] || '';
+      return {
+        id: `event-${e.id}`,
+        type: 'event' as const,
+        title: word,
+        subtitle: reading,
+        date: e.date,
+      };
+    }),
+  ].sort((a, b) => new Date(a.date).getTime() - new Date(b.date).getTime());
+
+  // Group items by date
+  const groupedItems = scheduleItems.reduce((acc, item) => {
+    const date = new Date(item.date);
     const dateKey = date.toLocaleDateString('en-US', { month: 'short', day: 'numeric' });
     if (!acc[dateKey]) acc[dateKey] = [];
-    acc[dateKey].push(event);
+    acc[dateKey].push(item);
     return acc;
-  }, {} as Record<string, typeof upcomingEvents>);
+  }, {} as Record<string, ScheduleItem[]>);
 
   if (!session) {
     return null;
@@ -235,8 +345,8 @@ export function TaskPanel({ jlptLevel = 'N5', className = '' }: TaskPanelProps) 
               isDark ? 'border-pink-500 border-t-transparent' : 'border-pink-400 border-t-transparent'
             }`} />
           </div>
-        ) : !googleStatus?.connected ? (
-          /* Not connected */
+        ) : !googleStatus?.connected && tasks.length === 0 ? (
+          /* Not connected and no tasks */
           <div className="text-center py-6">
             <div className={`w-12 h-12 mx-auto mb-4 rounded-full flex items-center justify-center ${
               isDark ? 'bg-white/10' : 'bg-pink-100'
@@ -266,7 +376,7 @@ export function TaskPanel({ jlptLevel = 'N5', className = '' }: TaskPanelProps) 
             </button>
           </div>
         ) : (
-          /* Connected - Event list */
+          /* Schedule items list */
           <div className="space-y-4 max-h-80 overflow-y-auto pr-1">
             {/* Sync result toast */}
             {syncResult && (
@@ -293,43 +403,76 @@ export function TaskPanel({ jlptLevel = 'N5', className = '' }: TaskPanelProps) 
               </div>
             )}
 
-            {/* Events grouped by date */}
-            {Object.entries(groupedEvents).length > 0 ? (
-              Object.entries(groupedEvents).slice(0, 7).map(([date, events], groupIdx) => (
+            {/* Items grouped by date */}
+            {Object.entries(groupedItems).length > 0 ? (
+              Object.entries(groupedItems).slice(0, 7).map(([date, items], groupIdx) => (
                 <div key={date}>
                   {/* Date header */}
                   <div className={`text-xs font-medium mb-2 ${theme.textSubtle}`}>{date}</div>
 
-                  {/* Events for this date */}
+                  {/* Items for this date */}
                   <div className="space-y-2">
-                    {events.map((event, idx) => {
-                      const colorClass = EVENT_COLORS[(groupIdx + idx) % EVENT_COLORS.length];
-                      const word = event.summary.replace('📚 Word of the Day: ', '').split(' ')[0];
-                      const reading = event.summary.match(/\(([^)]+)\)/)?.[1] || '';
+                    {items.map((item, idx) => {
+                      const colorClass = item.type === 'task' && item.priority !== undefined
+                        ? PRIORITY_COLORS[item.priority]
+                        : EVENT_COLORS[(groupIdx + idx) % EVENT_COLORS.length];
 
                       return (
                         <div
-                          key={event.id}
-                          onMouseDown={() => handleEventPressStart(event.id)}
-                          onMouseUp={handleEventPressEnd}
-                          onMouseLeave={handleEventPressEnd}
-                          onTouchStart={() => handleEventPressStart(event.id)}
-                          onTouchEnd={handleEventPressEnd}
+                          key={item.id}
+                          onMouseDown={() => handleItemPressStart(item.id)}
+                          onMouseUp={handleItemPressEnd}
+                          onMouseLeave={handleItemPressEnd}
+                          onTouchStart={() => handleItemPressStart(item.id)}
+                          onTouchEnd={handleItemPressEnd}
                           className={`relative rounded-xl overflow-hidden transition-all cursor-pointer ${
-                            selectedEvent === event.id ? theme.eventBgSelected : theme.eventBg
+                            selectedItem === item.id ? theme.eventBgSelected : theme.eventBg
                           }`}
                         >
                           {/* Color accent bar */}
                           <div className={`absolute left-0 top-0 bottom-0 w-1 ${colorClass}`} />
 
                           <div className="pl-4 pr-3 py-3">
-                            {/* Word title */}
-                            <div className="flex items-center justify-between">
-                              <h4 className={`font-bold text-lg ${theme.text}`}>{word}</h4>
-                              {selectedEvent === event.id && (
+                            {/* Title row */}
+                            <div className="flex items-center justify-between gap-2">
+                              <div className="flex items-center gap-2 min-w-0">
+                                {/* Checkbox for tasks */}
+                                {item.type === 'task' && (
+                                  <button
+                                    onClick={(e) => {
+                                      e.stopPropagation();
+                                      const taskId = item.id.replace('task-', '');
+                                      handleToggleTask(taskId);
+                                    }}
+                                    className={`w-5 h-5 rounded-full border-2 flex items-center justify-center flex-shrink-0 transition-all ${
+                                      item.isCompleted
+                                        ? 'bg-green-500 border-green-500 text-white'
+                                        : isDark
+                                        ? 'border-white/30 hover:border-pink-400'
+                                        : 'border-pink-300 hover:border-pink-500'
+                                    }`}
+                                  >
+                                    {item.isCompleted && (
+                                      <svg className="w-3 h-3" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                                        <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={3} d="M5 13l4 4L19 7" />
+                                      </svg>
+                                    )}
+                                  </button>
+                                )}
+                                {/* Type icon for events */}
+                                {item.type === 'event' && (
+                                  <span className="text-base flex-shrink-0">📚</span>
+                                )}
+                                <h4 className={`font-bold truncate ${theme.text} ${
+                                  item.isCompleted ? 'line-through opacity-50' : ''
+                                }`}>
+                                  {item.title}
+                                </h4>
+                              </div>
+                              {selectedItem === item.id && (
                                 <button
-                                  onClick={() => setSelectedEvent(null)}
-                                  className={`p-1 rounded-lg transition-all ${
+                                  onClick={() => setSelectedItem(null)}
+                                  className={`p-1 rounded-lg transition-all flex-shrink-0 ${
                                     isDark ? 'bg-white/10 hover:bg-white/20 text-slate-400' : 'bg-pink-200 hover:bg-pink-300 text-pink-600'
                                   }`}
                                 >
@@ -340,19 +483,46 @@ export function TaskPanel({ jlptLevel = 'N5', className = '' }: TaskPanelProps) 
                               )}
                             </div>
 
-                            {/* Reading */}
-                            {reading && (
-                              <p className={`text-sm ${theme.textMuted}`}>{reading}</p>
+                            {/* Subtitle */}
+                            {item.subtitle && (
+                              <p className={`text-sm mt-0.5 ${theme.textMuted} ${
+                                item.isCompleted ? 'line-through opacity-50' : ''
+                              }`}>
+                                {item.subtitle}
+                              </p>
                             )}
 
-                            {/* Time indicator */}
+                            {/* Meta info */}
                             <div className={`flex items-center gap-2 mt-2 text-xs ${theme.textSubtle}`}>
-                              <svg className="w-3.5 h-3.5" fill="none" stroke="currentColor" viewBox="0 0 24 24">
-                                <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M12 8v4l3 3m6-3a9 9 0 11-18 0 9 9 0 0118 0z" />
-                              </svg>
-                              <span>09:00</span>
-                              <span className={isDark ? 'text-slate-600' : 'text-slate-300'}>•</span>
-                              <span>All day</span>
+                              {item.type === 'task' ? (
+                                <>
+                                  <svg className="w-3.5 h-3.5" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                                    <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M9 5H7a2 2 0 00-2 2v12a2 2 0 002 2h10a2 2 0 002-2V7a2 2 0 00-2-2h-2M9 5a2 2 0 002 2h2a2 2 0 002-2M9 5a2 2 0 012-2h2a2 2 0 012 2" />
+                                  </svg>
+                                  <span>Task</span>
+                                  {item.priority !== undefined && item.priority > 0 && (
+                                    <>
+                                      <span className={isDark ? 'text-slate-600' : 'text-slate-300'}>•</span>
+                                      <span className={
+                                        item.priority === 3 ? 'text-red-400' :
+                                        item.priority === 2 ? 'text-amber-400' :
+                                        'text-blue-400'
+                                      }>
+                                        {item.priority === 3 ? 'High' : item.priority === 2 ? 'Med' : 'Low'}
+                                      </span>
+                                    </>
+                                  )}
+                                </>
+                              ) : (
+                                <>
+                                  <svg className="w-3.5 h-3.5" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                                    <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M12 8v4l3 3m6-3a9 9 0 11-18 0 9 9 0 0118 0z" />
+                                  </svg>
+                                  <span>09:00</span>
+                                  <span className={isDark ? 'text-slate-600' : 'text-slate-300'}>•</span>
+                                  <span>Word of Day</span>
+                                </>
+                              )}
                             </div>
                           </div>
                         </div>
@@ -363,18 +533,20 @@ export function TaskPanel({ jlptLevel = 'N5', className = '' }: TaskPanelProps) 
               ))
             ) : (
               <div className="text-center py-6">
-                <p className={`text-sm ${theme.textMuted}`}>No upcoming events</p>
-                <button
-                  onClick={handleSync}
-                  disabled={syncing}
-                  className={`mt-3 px-4 py-2 rounded-lg text-xs font-medium transition-all ${
-                    isDark
-                      ? 'bg-pink-500/20 text-pink-400 hover:bg-pink-500/30'
-                      : 'bg-pink-100 text-pink-600 hover:bg-pink-200'
-                  }`}
-                >
-                  {syncing ? 'Syncing...' : `Sync ${jlptLevel} Words`}
-                </button>
+                <p className={`text-sm ${theme.textMuted}`}>No upcoming items</p>
+                {googleStatus?.connected && (
+                  <button
+                    onClick={handleSync}
+                    disabled={syncing}
+                    className={`mt-3 px-4 py-2 rounded-lg text-xs font-medium transition-all ${
+                      isDark
+                        ? 'bg-pink-500/20 text-pink-400 hover:bg-pink-500/30'
+                        : 'bg-pink-100 text-pink-600 hover:bg-pink-200'
+                    }`}
+                  >
+                    {syncing ? 'Syncing...' : `Sync ${jlptLevel} Words`}
+                  </button>
+                )}
               </div>
             )}
           </div>
@@ -382,9 +554,9 @@ export function TaskPanel({ jlptLevel = 'N5', className = '' }: TaskPanelProps) 
       </div>
 
       {/* Footer hint */}
-      {googleStatus?.connected && upcomingEvents.length > 0 && (
+      {(googleStatus?.connected || tasks.length > 0) && Object.keys(groupedItems).length > 0 && (
         <div className={`px-4 py-2 border-t text-center ${isDark ? 'border-white/10' : 'border-pink-100'}`}>
-          <p className={`text-[10px] ${theme.textSubtle}`}>Hold an event to select</p>
+          <p className={`text-[10px] ${theme.textSubtle}`}>Hold to select • Tap checkbox to complete</p>
         </div>
       )}
     </div>
