@@ -110,7 +110,7 @@ export function KanjiPopover({ character, children }: KanjiPopoverProps) {
       {isOpen && (
         <div
           ref={popoverRef}
-          className={`absolute z-50 ${position === 'above' ? 'bottom-full mb-2' : 'top-full mt-2'} left-1/2 -translate-x-1/2 min-w-[200px] max-w-[280px] rounded-lg border ${theme.bg} ${theme.border} ${theme.shadow} animate-fadeInUp`}
+          className={`absolute z-[100] ${position === 'above' ? 'bottom-full mb-2' : 'top-full mt-2'} left-1/2 -translate-x-1/2 min-w-[200px] max-w-[280px] rounded-lg border ${theme.bg} ${theme.border} ${theme.shadow} animate-fadeInUp`}
           onMouseEnter={() => {
             if (hoverTimeoutRef.current) clearTimeout(hoverTimeoutRef.current);
           }}
