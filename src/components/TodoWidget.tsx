@@ -1,5 +1,4 @@
 import { useState, useEffect, useCallback } from 'react';
-import { createPortal } from 'react-dom';
 import { useTheme } from '../contexts/ThemeContext';
 import { useAuth } from '../contexts/AuthContext';
 import {
@@ -435,7 +434,7 @@ export function TodoWidget({ compact = false }: TodoWidgetProps) {
   const hasPendingSync = todos.some(t => t.sync_status === 'pending_sync');
 
   return (
-    <div className={`backdrop-blur-xl rounded-2xl border ${theme.bg} ${theme.border} p-4 space-y-4`}>
+    <div className={`relative backdrop-blur-xl rounded-2xl border ${theme.bg} ${theme.border} p-4 space-y-4`}>
       {/* Header */}
       <div className="flex items-center justify-between">
         <h3 className={`font-bold flex items-center gap-2 ${theme.text}`}>
@@ -624,19 +623,11 @@ export function TodoWidget({ compact = false }: TodoWidgetProps) {
         )}
       </div>
 
-      {/* Detail Modal - Fullscreen centered with floating popup style */}
-      {showDetailModal && createPortal(
-        <div className="fixed inset-0 z-50 flex items-center justify-start p-4 pl-8">
-          {/* Backdrop */}
-          <div
-            className="absolute inset-0 bg-black/50 backdrop-blur-sm"
-            onClick={() => setShowDetailModal(false)}
-          />
-
-          {/* Modal - centered, styled like floating popup */}
-          <div className={`relative w-full max-w-sm rounded-xl border shadow-xl animate-scaleIn overflow-hidden ${
-            isDark ? 'bg-[#1a1a2e] border-purple-500/30' : 'bg-white border-purple-200'
-          }`}>
+      {/* Detail Popup - floating near input like word note popup */}
+      {showDetailModal && (
+        <div className={`absolute top-0 right-0 w-72 rounded-xl border shadow-xl animate-fadeInUp overflow-hidden z-50 ${
+          isDark ? 'bg-[#1a1a2e] border-purple-500/30' : 'bg-white border-purple-200'
+        }`}>
             {/* Header with gradient like word note popup */}
             <div className="bg-gradient-to-r from-purple-500 to-pink-500 px-3 py-2 flex items-center justify-between">
               <div>
@@ -726,9 +717,7 @@ export function TodoWidget({ compact = false }: TodoWidgetProps) {
                 Save
               </button>
             </div>
-          </div>
-        </div>,
-        document.body
+        </div>
       )}
     </div>
   );
