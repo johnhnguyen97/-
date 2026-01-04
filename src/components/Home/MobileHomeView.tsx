@@ -1,5 +1,5 @@
 import { Link } from 'react-router-dom';
-import { useState } from 'react';
+import { useState, useEffect } from 'react';
 import { useTheme } from '../../contexts/ThemeContext';
 import { FavoriteButton } from '../FavoriteButton';
 import { WordNoteButton } from '../WordNoteButton';
@@ -72,6 +72,7 @@ export function MobileHomeView({
   const { isDark } = useTheme();
   const { speak, isSpeaking } = useSpeechSynthesis();
   const [showStrokeAnimation, setShowStrokeAnimation] = useState(false);
+  const [showTimer, setShowTimer] = useState(false);
 
   // Theme with glassmorphism
   const theme = {
@@ -145,10 +146,22 @@ export function MobileHomeView({
                 <p className={`text-xs ${theme.textMuted}`}>今日の進捗</p>
               </div>
             </div>
-            <div className={`px-3 py-1.5 rounded-xl text-sm font-bold ${
-              isDark ? 'bg-emerald-500/20 text-emerald-400' : 'bg-emerald-100 text-emerald-600'
-            }`}>
-              {statsLoading ? '...' : `${stats.todayMinutes} min`}
+            <div className="flex items-center gap-2">
+              {/* Timer Button */}
+              <button
+                onClick={() => setShowTimer(true)}
+                className={`w-10 h-10 rounded-xl flex items-center justify-center transition-all active:scale-95 ${
+                  isDark ? 'bg-amber-500/20 text-amber-400 hover:bg-amber-500/30' : 'bg-amber-100 text-amber-600 hover:bg-amber-200'
+                }`}
+                title="Study Timer"
+              >
+                <span className="text-lg">⏱️</span>
+              </button>
+              <div className={`px-3 py-1.5 rounded-xl text-sm font-bold ${
+                isDark ? 'bg-emerald-500/20 text-emerald-400' : 'bg-emerald-100 text-emerald-600'
+              }`}>
+                {statsLoading ? '...' : `${stats.todayMinutes} min`}
+              </div>
             </div>
           </div>
 
@@ -326,7 +339,200 @@ export function MobileHomeView({
           </div>
         </div>
       </div>
+
+      {/* Timer Overlay */}
+      {showTimer && (
+        <TimerOverlay isDark={isDark} onClose={() => setShowTimer(false)} />
+      )}
     </div>
+  );
+}
+
+// Timer Overlay Component
+function TimerOverlay({ isDark, onClose }: { isDark: boolean; onClose: () => void }) {
+  const [minutes, setMinutes] = useState(25);
+  const [seconds, setSeconds] = useState(0);
+  const [isRunning, setIsRunning] = useState(false);
+  const [initialMinutes, setInitialMinutes] = useState(25);
+
+  // Timer presets
+  const presets = [
+    { label: '15分', value: 15 },
+    { label: '25分', value: 25 },
+    { label: '45分', value: 45 },
+    { label: '60分', value: 60 },
+  ];
+
+  // Timer effect
+  useEffect(() => {
+    let interval: ReturnType<typeof setInterval>;
+    if (isRunning && (minutes > 0 || seconds > 0)) {
+      interval = setInterval(() => {
+        if (seconds === 0) {
+          if (minutes > 0) {
+            setMinutes(m => m - 1);
+            setSeconds(59);
+          }
+        } else {
+          setSeconds(s => s - 1);
+        }
+      }, 1000);
+    }
+    return () => clearInterval(interval);
+  }, [isRunning, minutes, seconds]);
+
+  const handleStart = () => setIsRunning(true);
+  const handlePause = () => setIsRunning(false);
+  const handleReset = () => {
+    setIsRunning(false);
+    setMinutes(initialMinutes);
+    setSeconds(0);
+  };
+
+  const handlePreset = (value: number) => {
+    setInitialMinutes(value);
+    setMinutes(value);
+    setSeconds(0);
+    setIsRunning(false);
+  };
+
+  const progress = 1 - (minutes * 60 + seconds) / (initialMinutes * 60);
+
+  return (
+    <>
+      {/* Backdrop */}
+      <div
+        className="fixed inset-0 bg-black/50 backdrop-blur-sm z-50 animate-fadeIn"
+        onClick={onClose}
+      />
+
+      {/* Modal */}
+      <div className="fixed inset-x-4 top-1/2 -translate-y-1/2 z-50 animate-scaleIn">
+        <div className={`rounded-3xl overflow-hidden ${
+          isDark ? 'bg-[#1a1a2e] border border-white/10' : 'bg-white'
+        } shadow-2xl`}>
+          {/* Header */}
+          <div className={`px-5 py-4 flex items-center justify-between border-b ${
+            isDark ? 'border-white/10' : 'border-slate-100'
+          }`}>
+            <div className="flex items-center gap-3">
+              <div className={`w-10 h-10 rounded-xl flex items-center justify-center ${
+                isDark ? 'bg-amber-500/20' : 'bg-amber-100'
+              }`}>
+                <span className="text-xl">⏱️</span>
+              </div>
+              <div>
+                <h2 className={`font-bold ${isDark ? 'text-white' : 'text-slate-900'}`}>Study Timer</h2>
+                <p className={`text-xs ${isDark ? 'text-slate-400' : 'text-slate-500'}`}>勉強タイマー</p>
+              </div>
+            </div>
+            <button
+              onClick={onClose}
+              className={`w-8 h-8 rounded-full flex items-center justify-center transition-colors ${
+                isDark ? 'hover:bg-white/10 text-slate-400' : 'hover:bg-slate-100 text-slate-500'
+              }`}
+            >
+              <svg className="w-5 h-5" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M6 18L18 6M6 6l12 12" />
+              </svg>
+            </button>
+          </div>
+
+          {/* Timer Display */}
+          <div className="p-6">
+            {/* Circular Progress */}
+            <div className="relative w-48 h-48 mx-auto mb-6">
+              <svg className="w-full h-full -rotate-90" viewBox="0 0 100 100">
+                {/* Background circle */}
+                <circle
+                  cx="50"
+                  cy="50"
+                  r="45"
+                  fill="none"
+                  stroke={isDark ? 'rgba(255,255,255,0.1)' : 'rgba(0,0,0,0.05)'}
+                  strokeWidth="8"
+                />
+                {/* Progress circle */}
+                <circle
+                  cx="50"
+                  cy="50"
+                  r="45"
+                  fill="none"
+                  stroke="url(#timerGradient)"
+                  strokeWidth="8"
+                  strokeLinecap="round"
+                  strokeDasharray={`${progress * 283} 283`}
+                  className="transition-all duration-1000"
+                />
+                <defs>
+                  <linearGradient id="timerGradient" x1="0%" y1="0%" x2="100%" y2="0%">
+                    <stop offset="0%" stopColor="#f59e0b" />
+                    <stop offset="100%" stopColor="#ef4444" />
+                  </linearGradient>
+                </defs>
+              </svg>
+              {/* Time Display */}
+              <div className="absolute inset-0 flex flex-col items-center justify-center">
+                <span className={`text-5xl font-bold tabular-nums ${isDark ? 'text-white' : 'text-slate-900'}`}>
+                  {String(minutes).padStart(2, '0')}:{String(seconds).padStart(2, '0')}
+                </span>
+                <span className={`text-sm mt-1 ${isDark ? 'text-slate-400' : 'text-slate-500'}`}>
+                  {isRunning ? '集中中...' : 'Ready'}
+                </span>
+              </div>
+            </div>
+
+            {/* Preset Buttons */}
+            <div className="flex justify-center gap-2 mb-6">
+              {presets.map((preset) => (
+                <button
+                  key={preset.value}
+                  onClick={() => handlePreset(preset.value)}
+                  className={`px-4 py-2 rounded-xl text-sm font-medium transition-all active:scale-95 ${
+                    initialMinutes === preset.value
+                      ? 'bg-gradient-to-r from-amber-500 to-orange-500 text-white shadow-lg'
+                      : isDark
+                      ? 'bg-white/5 text-slate-300 hover:bg-white/10'
+                      : 'bg-slate-100 text-slate-600 hover:bg-slate-200'
+                  }`}
+                >
+                  {preset.label}
+                </button>
+              ))}
+            </div>
+
+            {/* Control Buttons */}
+            <div className="flex justify-center gap-3">
+              {!isRunning ? (
+                <button
+                  onClick={handleStart}
+                  className="flex-1 max-w-[140px] py-3 rounded-2xl font-semibold bg-gradient-to-r from-amber-500 to-orange-500 text-white shadow-lg shadow-amber-500/30 active:scale-95 transition-transform"
+                >
+                  Start
+                </button>
+              ) : (
+                <button
+                  onClick={handlePause}
+                  className={`flex-1 max-w-[140px] py-3 rounded-2xl font-semibold active:scale-95 transition-transform ${
+                    isDark ? 'bg-white/10 text-white' : 'bg-slate-200 text-slate-700'
+                  }`}
+                >
+                  Pause
+                </button>
+              )}
+              <button
+                onClick={handleReset}
+                className={`px-6 py-3 rounded-2xl font-semibold active:scale-95 transition-transform ${
+                  isDark ? 'bg-white/5 text-slate-400 hover:bg-white/10' : 'bg-slate-100 text-slate-500 hover:bg-slate-200'
+                }`}
+              >
+                Reset
+              </button>
+            </div>
+          </div>
+        </div>
+      </div>
+    </>
   );
 }
 
