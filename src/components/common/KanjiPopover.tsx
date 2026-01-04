@@ -1,4 +1,5 @@
 import React, { useState, useRef, useEffect } from 'react';
+import { createPortal } from 'react-dom';
 import { useTheme } from '../../contexts/ThemeContext';
 import { useAuth } from '../../contexts/AuthContext';
 import { getKanjiDetail } from '../../services/kanjiApi';
@@ -11,6 +12,7 @@ interface KanjiPopoverProps {
 
 /**
  * Wraps a kanji character and shows dictionary info on hover/tap
+ * Uses portal on mobile for proper z-index handling
  */
 export function KanjiPopover({ character, children }: KanjiPopoverProps) {
   const { isDark } = useTheme();
@@ -18,10 +20,19 @@ export function KanjiPopover({ character, children }: KanjiPopoverProps) {
   const [isOpen, setIsOpen] = useState(false);
   const [detail, setDetail] = useState<KanjiDetail | null>(null);
   const [isLoading, setIsLoading] = useState(false);
-  const [position, setPosition] = useState<'above' | 'below'>('above');
+  const [popoverPosition, setPopoverPosition] = useState({ top: 0, left: 0 });
+  const [isMobile, setIsMobile] = useState(false);
   const triggerRef = useRef<HTMLSpanElement>(null);
   const popoverRef = useRef<HTMLDivElement>(null);
   const hoverTimeoutRef = useRef<ReturnType<typeof setTimeout> | null>(null);
+
+  // Check if mobile
+  useEffect(() => {
+    const checkMobile = () => setIsMobile(window.innerWidth < 768);
+    checkMobile();
+    window.addEventListener('resize', checkMobile);
+    return () => window.removeEventListener('resize', checkMobile);
+  }, []);
 
   // Fetch kanji detail when opened
   useEffect(() => {
@@ -34,15 +45,33 @@ export function KanjiPopover({ character, children }: KanjiPopoverProps) {
     }
   }, [isOpen, character, detail, session?.access_token]);
 
-  // Calculate position (above or below)
+  // Calculate position for portal
   useEffect(() => {
-    if (isOpen && triggerRef.current) {
+    if (isOpen && triggerRef.current && isMobile) {
       const rect = triggerRef.current.getBoundingClientRect();
+      const popoverWidth = 260;
+      const popoverHeight = 180;
+
+      // Calculate left position (centered, but clamped to viewport)
+      let left = rect.left + rect.width / 2 - popoverWidth / 2;
+      left = Math.max(16, Math.min(left, window.innerWidth - popoverWidth - 16));
+
+      // Calculate top position (above or below based on space)
       const spaceAbove = rect.top;
       const spaceBelow = window.innerHeight - rect.bottom;
-      setPosition(spaceAbove > spaceBelow ? 'above' : 'below');
+      let top: number;
+
+      if (spaceAbove > spaceBelow && spaceAbove > popoverHeight) {
+        // Position above
+        top = rect.top - popoverHeight - 8;
+      } else {
+        // Position below
+        top = rect.bottom + 8;
+      }
+
+      setPopoverPosition({ top, left });
     }
-  }, [isOpen]);
+  }, [isOpen, isMobile]);
 
   // Close on outside click
   useEffect(() => {
@@ -65,14 +94,15 @@ export function KanjiPopover({ character, children }: KanjiPopoverProps) {
 
   // Desktop: hover with delay
   const handleMouseEnter = () => {
+    if (isMobile) return;
     hoverTimeoutRef.current = setTimeout(() => setIsOpen(true), 300);
   };
 
   const handleMouseLeave = () => {
+    if (isMobile) return;
     if (hoverTimeoutRef.current) {
       clearTimeout(hoverTimeoutRef.current);
     }
-    // Small delay before closing to allow moving to popover
     setTimeout(() => {
       if (!popoverRef.current?.matches(':hover')) {
         setIsOpen(false);
@@ -88,18 +118,99 @@ export function KanjiPopover({ character, children }: KanjiPopoverProps) {
   };
 
   const theme = {
-    bg: isDark ? 'bg-gray-800' : 'bg-white',
-    border: isDark ? 'border-gray-700' : 'border-gray-200',
-    text: isDark ? 'text-white' : 'text-gray-800',
-    textMuted: isDark ? 'text-gray-400' : 'text-gray-500',
-    shadow: isDark ? 'shadow-xl shadow-black/30' : 'shadow-lg',
+    bg: isDark ? 'bg-[#1a1a2e]' : 'bg-white',
+    border: isDark ? 'border-white/10' : 'border-slate-200',
+    text: isDark ? 'text-white' : 'text-slate-800',
+    textMuted: isDark ? 'text-slate-400' : 'text-slate-500',
+    shadow: isDark ? 'shadow-2xl shadow-black/50' : 'shadow-xl',
   };
+
+  const popoverContent = (
+    <div
+      ref={popoverRef}
+      className={`${isMobile ? 'fixed' : 'absolute bottom-full mb-2 left-1/2 -translate-x-1/2'} z-[9999] min-w-[240px] max-w-[280px] rounded-2xl border backdrop-blur-xl ${theme.bg} ${theme.border} ${theme.shadow} animate-fadeInUp`}
+      style={isMobile ? { top: popoverPosition.top, left: popoverPosition.left } : undefined}
+      onMouseEnter={() => {
+        if (hoverTimeoutRef.current) clearTimeout(hoverTimeoutRef.current);
+      }}
+      onMouseLeave={() => !isMobile && setIsOpen(false)}
+    >
+      {isLoading ? (
+        <div className="p-6 text-center">
+          <div className="animate-spin w-6 h-6 border-2 border-violet-500 border-t-transparent rounded-full mx-auto" />
+        </div>
+      ) : detail ? (
+        <div className="p-4 space-y-3">
+          {/* Character & readings */}
+          <div className="flex items-start gap-3">
+            <span className={`text-4xl font-bold ${theme.text}`}>{detail.character}</span>
+            <div className="flex-1 min-w-0">
+              {detail.onyomi && (
+                <div className={`text-sm ${theme.textMuted}`}>
+                  <span className={`font-medium ${isDark ? 'text-purple-400' : 'text-purple-600'}`}>音:</span> {detail.onyomi}
+                </div>
+              )}
+              {detail.kunyomi && (
+                <div className={`text-sm ${theme.textMuted}`}>
+                  <span className={`font-medium ${isDark ? 'text-blue-400' : 'text-blue-600'}`}>訓:</span> {detail.kunyomi}
+                </div>
+              )}
+            </div>
+          </div>
+
+          {/* Meanings */}
+          {detail.meaningEn && (
+            <div className={`text-sm ${theme.text}`}>
+              {detail.meaningEn}
+            </div>
+          )}
+
+          {/* Meta info */}
+          <div className="flex items-center gap-2 flex-wrap">
+            {detail.jlptLevel && (
+              <span className={`px-2.5 py-1 rounded-lg text-xs font-bold ${
+                isDark ? 'bg-emerald-500/20 text-emerald-300' : 'bg-emerald-100 text-emerald-700'
+              }`}>
+                N{detail.jlptLevel}
+              </span>
+            )}
+            {detail.strokeCount && (
+              <span className={`px-2.5 py-1 rounded-lg text-xs ${isDark ? 'bg-white/5 text-slate-400' : 'bg-slate-100 text-slate-600'}`}>
+                {detail.strokeCount}画
+              </span>
+            )}
+            {detail.grade && (
+              <span className={`px-2.5 py-1 rounded-lg text-xs ${isDark ? 'bg-white/5 text-slate-400' : 'bg-slate-100 text-slate-600'}`}>
+                Grade {detail.grade}
+              </span>
+            )}
+          </div>
+        </div>
+      ) : (
+        <div className={`p-4 text-sm ${theme.textMuted}`}>
+          No data found for {character}
+        </div>
+      )}
+
+      {/* Close button on mobile */}
+      {isMobile && (
+        <button
+          onClick={() => setIsOpen(false)}
+          className={`absolute -top-2 -right-2 w-7 h-7 rounded-full flex items-center justify-center ${isDark ? 'bg-white/20 text-white' : 'bg-slate-200 text-slate-600'} shadow-lg`}
+        >
+          <svg className="w-4 h-4" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+            <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M6 18L18 6M6 6l12 12" />
+          </svg>
+        </button>
+      )}
+    </div>
+  );
 
   return (
     <span className="relative inline">
       <span
         ref={triggerRef}
-        className="cursor-pointer hover:bg-amber-100 dark:hover:bg-amber-900/30 rounded px-0.5 transition-colors"
+        className={`cursor-pointer rounded px-0.5 transition-colors ${isDark ? 'hover:bg-amber-500/20' : 'hover:bg-amber-100'}`}
         onMouseEnter={handleMouseEnter}
         onMouseLeave={handleMouseLeave}
         onClick={handleClick}
@@ -108,71 +219,16 @@ export function KanjiPopover({ character, children }: KanjiPopoverProps) {
       </span>
 
       {isOpen && (
-        <div
-          ref={popoverRef}
-          className={`absolute z-[100] ${position === 'above' ? 'bottom-full mb-2' : 'top-full mt-2'} left-1/2 -translate-x-1/2 min-w-[200px] max-w-[280px] rounded-lg border ${theme.bg} ${theme.border} ${theme.shadow} animate-fadeInUp`}
-          onMouseEnter={() => {
-            if (hoverTimeoutRef.current) clearTimeout(hoverTimeoutRef.current);
-          }}
-          onMouseLeave={() => setIsOpen(false)}
-        >
-          {isLoading ? (
-            <div className="p-4 text-center">
-              <div className="animate-spin w-5 h-5 border-2 border-amber-500 border-t-transparent rounded-full mx-auto" />
-            </div>
-          ) : detail ? (
-            <div className="p-3 space-y-2">
-              {/* Character & readings */}
-              <div className="flex items-start gap-3">
-                <span className={`text-3xl font-bold ${theme.text}`}>{detail.character}</span>
-                <div className="flex-1 min-w-0">
-                  {detail.onyomi && (
-                    <div className={`text-sm ${theme.textMuted}`}>
-                      <span className="font-medium">音:</span> {detail.onyomi}
-                    </div>
-                  )}
-                  {detail.kunyomi && (
-                    <div className={`text-sm ${theme.textMuted}`}>
-                      <span className="font-medium">訓:</span> {detail.kunyomi}
-                    </div>
-                  )}
-                </div>
-              </div>
-
-              {/* Meanings */}
-              {detail.meaningEn && (
-                <div className={`text-sm ${theme.text}`}>
-                  {detail.meaningEn}
-                </div>
-              )}
-
-              {/* Meta info */}
-              <div className="flex items-center gap-2 flex-wrap">
-                {detail.jlptLevel && (
-                  <span className={`px-2 py-0.5 rounded text-xs font-medium ${
-                    isDark ? 'bg-green-500/20 text-green-300' : 'bg-green-100 text-green-700'
-                  }`}>
-                    N{detail.jlptLevel}
-                  </span>
-                )}
-                {detail.strokeCount && (
-                  <span className={`text-xs ${theme.textMuted}`}>
-                    {detail.strokeCount} strokes
-                  </span>
-                )}
-                {detail.grade && (
-                  <span className={`text-xs ${theme.textMuted}`}>
-                    Grade {detail.grade}
-                  </span>
-                )}
-              </div>
-            </div>
-          ) : (
-            <div className={`p-3 text-sm ${theme.textMuted}`}>
-              No data found for {character}
-            </div>
-          )}
-        </div>
+        isMobile
+          ? createPortal(
+              <>
+                {/* Backdrop */}
+                <div className="fixed inset-0 z-[9998] bg-black/30 backdrop-blur-sm" onClick={() => setIsOpen(false)} />
+                {popoverContent}
+              </>,
+              document.body
+            )
+          : popoverContent
       )}
     </span>
   );

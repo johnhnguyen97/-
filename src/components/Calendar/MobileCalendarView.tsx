@@ -234,7 +234,7 @@ export function MobileCalendarView({
         {/* Horizontal Week Scroll - enhanced */}
         <div
           ref={weekScrollRef}
-          className="flex gap-2 px-4 pb-4 overflow-x-auto scrollbar-hide scroll-smooth"
+          className="flex gap-2 px-4 pb-4 pt-1 overflow-x-auto overflow-y-visible scrollbar-hide scroll-smooth"
           style={{ scrollSnapType: 'x mandatory' }}
         >
           {/* Previous Week Button */}
@@ -270,7 +270,7 @@ export function MobileCalendarView({
                 onMouseLeave={() => setPressedDate(null)}
                 className={`flex-shrink-0 w-12 py-2 rounded-xl flex flex-col items-center justify-center transition-all duration-200 ${
                   selected
-                    ? `bg-gradient-to-b from-violet-500 to-purple-600 text-white shadow-lg ${theme.accentGlow} scale-105`
+                    ? `bg-gradient-to-b from-violet-500 to-purple-600 text-white shadow-lg ${theme.accentGlow}`
                     : today
                     ? isDark ? 'bg-violet-500/20 text-violet-300 ring-2 ring-violet-500/30' : 'bg-violet-100 text-violet-700 ring-2 ring-violet-300'
                     : isDark ? 'bg-white/[0.03]' : 'bg-white/50'
@@ -476,6 +476,10 @@ function ScheduleSection({
     due_time?: string;
   }>>([]);
   const [isLoading, setIsLoading] = useState(true);
+  const [showAddModal, setShowAddModal] = useState(false);
+  const [newTaskTitle, setNewTaskTitle] = useState('');
+  const [newTaskTime, setNewTaskTime] = useState('');
+  const [isSubmitting, setIsSubmitting] = useState(false);
 
   // Fetch tasks from API
   useEffect(() => {
@@ -534,15 +538,14 @@ function ScheduleSection({
         const accessToken = sessionData?.access_token;
 
         if (accessToken) {
-          await fetch('/api/calendar', {
-            method: 'POST',
+          await fetch('/api/calendar?action=todos', {
+            method: 'PUT',
             headers: {
               'Content-Type': 'application/json',
               Authorization: `Bearer ${accessToken}`,
             },
             body: JSON.stringify({
-              action: 'toggle_todo',
-              todo_id: id,
+              id: id,
               is_completed: !task.is_completed,
             }),
           });
@@ -565,110 +568,289 @@ function ScheduleSection({
     }
   };
 
-  const isToday = selectedDate.toDateString() === new Date().toDateString();
+  const addTask = async () => {
+    if (!newTaskTitle.trim()) return;
+
+    setIsSubmitting(true);
+    const dateKey = formatDateKey(selectedDate);
+
+    try {
+      const sessionStr = localStorage.getItem('sb-evqzqaqfanfuehavuxsr-auth-token');
+      if (sessionStr) {
+        const sessionData = JSON.parse(sessionStr);
+        const accessToken = sessionData?.access_token;
+
+        if (accessToken) {
+          const response = await fetch('/api/calendar?action=todos', {
+            method: 'POST',
+            headers: {
+              'Content-Type': 'application/json',
+              Authorization: `Bearer ${accessToken}`,
+            },
+            body: JSON.stringify({
+              title: newTaskTitle.trim(),
+              due_date: dateKey,
+              due_time: newTaskTime || null,
+            }),
+          });
+
+          if (response.ok) {
+            const data = await response.json();
+            // Add the new task to local state
+            setTasks([...tasks, {
+              id: data.todo?.id || crypto.randomUUID(),
+              title: newTaskTitle.trim(),
+              is_completed: false,
+              due_date: dateKey,
+              due_time: newTaskTime || undefined,
+            }]);
+          }
+        }
+      } else {
+        // Fallback to localStorage for non-logged-in users
+        const saved = localStorage.getItem('gojun-todos');
+        const localTodos = saved ? JSON.parse(saved) : [];
+        const newTodo = {
+          id: crypto.randomUUID(),
+          text: newTaskTitle.trim(),
+          completed: false,
+          due_date: dateKey,
+          due_time: newTaskTime || null,
+        };
+        localStorage.setItem('gojun-todos', JSON.stringify([...localTodos, newTodo]));
+        setTasks([...tasks, {
+          id: newTodo.id,
+          title: newTodo.text,
+          is_completed: false,
+          due_date: dateKey,
+          due_time: newTaskTime || undefined,
+        }]);
+      }
+
+      // Reset form and close modal
+      setNewTaskTitle('');
+      setNewTaskTime('');
+      setShowAddModal(false);
+    } catch (error) {
+      console.error('Failed to add task:', error);
+    } finally {
+      setIsSubmitting(false);
+    }
+  };
+
+  const isTodayDate = selectedDate.toDateString() === new Date().toDateString();
 
   return (
-    <div className={`${theme.card} rounded-3xl border ${theme.cardBorder} ${theme.cardShadow} overflow-hidden`}>
-      {/* Header */}
-      <div className={`px-5 py-3 flex items-center justify-between border-b ${theme.cardBorder}`}>
-        <div className="flex items-center gap-2">
-          <div className={`w-8 h-8 rounded-lg flex items-center justify-center ${
-            isDark ? 'bg-emerald-500/20' : 'bg-emerald-100'
+    <>
+      <div className={`${theme.card} rounded-3xl border ${theme.cardBorder} ${theme.cardShadow} overflow-hidden`}>
+        {/* Header */}
+        <div className={`px-5 py-3 flex items-center justify-between border-b ${theme.cardBorder}`}>
+          <div className="flex items-center gap-2">
+            <div className={`w-8 h-8 rounded-lg flex items-center justify-center ${
+              isDark ? 'bg-emerald-500/20' : 'bg-emerald-100'
+            }`}>
+              <span className="text-sm">📋</span>
+            </div>
+            <div>
+              <h3 className={`font-bold text-sm ${theme.text}`}>
+                {isTodayDate ? '今日の予定' : 'スケジュール'}
+              </h3>
+              <p className={`text-[10px] ${theme.textMuted}`}>
+                {isTodayDate ? "Today's Schedule" : 'Schedule'}
+              </p>
+            </div>
+          </div>
+          <span className={`px-2 py-1 rounded-lg text-xs font-medium ${
+            isDark ? 'bg-white/5 text-slate-400' : 'bg-slate-100 text-slate-600'
           }`}>
-            <span className="text-sm">📋</span>
-          </div>
-          <div>
-            <h3 className={`font-bold text-sm ${theme.text}`}>
-              {isToday ? '今日の予定' : 'スケジュール'}
-            </h3>
-            <p className={`text-[10px] ${theme.textMuted}`}>
-              {isToday ? "Today's Schedule" : 'Schedule'}
-            </p>
-          </div>
+            {tasks.filter(t => !t.is_completed).length} 件
+          </span>
         </div>
-        <span className={`px-2 py-1 rounded-lg text-xs font-medium ${
-          isDark ? 'bg-white/5 text-slate-400' : 'bg-slate-100 text-slate-600'
-        }`}>
-          {tasks.filter(t => !t.is_completed).length} 件
-        </span>
+
+        {/* Tasks List */}
+        <div className="p-4 space-y-2">
+          {isLoading ? (
+            <div className="flex items-center justify-center py-6">
+              <div className="w-6 h-6 border-2 border-emerald-500 border-t-transparent rounded-full animate-spin" />
+            </div>
+          ) : tasks.length === 0 ? (
+            <div className="text-center py-6">
+              <p className={`text-sm ${theme.textMuted}`}>予定はありません</p>
+              <p className={`text-xs ${theme.textSubtle} mt-1`}>No scheduled tasks</p>
+            </div>
+          ) : (
+            tasks.map((task) => (
+              <button
+                key={task.id}
+                onClick={() => toggleTask(task.id)}
+                className={`w-full flex items-center gap-3 p-3 rounded-2xl transition-all active:scale-[0.98] ${
+                  task.is_completed
+                    ? isDark ? 'bg-white/[0.02]' : 'bg-slate-50'
+                    : isDark ? 'bg-white/[0.05]' : 'bg-white'
+                } ${isDark ? 'border border-white/[0.05]' : 'border border-slate-100'}`}
+              >
+                {/* Checkbox */}
+                <div className={`w-6 h-6 rounded-full border-2 flex items-center justify-center transition-all ${
+                  task.is_completed
+                    ? 'bg-emerald-500 border-emerald-500'
+                    : isDark ? 'border-slate-500' : 'border-slate-300'
+                }`}>
+                  {task.is_completed && (
+                    <svg className="w-3.5 h-3.5 text-white" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                      <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={3} d="M5 13l4 4L19 7" />
+                    </svg>
+                  )}
+                </div>
+
+                {/* Task Content */}
+                <div className="flex-1 text-left">
+                  <p className={`text-sm font-medium ${
+                    task.is_completed
+                      ? `line-through ${theme.textMuted}`
+                      : theme.text
+                  }`}>
+                    {task.title}
+                  </p>
+                  {task.due_time && (
+                    <p className={`text-xs ${theme.textSubtle}`}>{task.due_time}</p>
+                  )}
+                </div>
+
+                {/* Time indicator */}
+                {!task.is_completed && task.due_time && (
+                  <div className={`px-2 py-1 rounded-lg text-xs font-medium ${
+                    isDark ? 'bg-violet-500/20 text-violet-300' : 'bg-violet-100 text-violet-700'
+                  }`}>
+                    {task.due_time}
+                  </div>
+                )}
+              </button>
+            ))
+          )}
+        </div>
+
+        {/* Add Task Button */}
+        <div className={`px-4 pb-4`}>
+          <button
+            onClick={() => setShowAddModal(true)}
+            className={`w-full py-3 rounded-2xl text-sm font-medium transition-all active:scale-[0.98] flex items-center justify-center gap-2 ${
+              isDark
+                ? 'bg-white/[0.05] text-slate-300 hover:bg-white/[0.08] border border-white/[0.05]'
+                : 'bg-slate-100 text-slate-600 hover:bg-slate-200'
+            }`}
+          >
+            <svg className="w-4 h-4" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+              <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M12 6v6m0 0v6m0-6h6m-6 0H6" />
+            </svg>
+            タスクを追加
+          </button>
+        </div>
       </div>
 
-      {/* Tasks List */}
-      <div className="p-4 space-y-2">
-        {isLoading ? (
-          <div className="flex items-center justify-center py-6">
-            <div className="w-6 h-6 border-2 border-emerald-500 border-t-transparent rounded-full animate-spin" />
-          </div>
-        ) : tasks.length === 0 ? (
-          <div className="text-center py-6">
-            <p className={`text-sm ${theme.textMuted}`}>予定はありません</p>
-            <p className={`text-xs ${theme.textSubtle} mt-1`}>No scheduled tasks</p>
-          </div>
-        ) : (
-          tasks.map((task) => (
+      {/* Add Task Modal */}
+      {showAddModal && (
+        <div
+          className="fixed inset-0 z-50 flex items-end justify-center bg-black/50 backdrop-blur-sm animate-fadeIn"
+          onClick={() => setShowAddModal(false)}
+        >
+          <div
+            className={`w-full max-w-lg rounded-t-3xl p-6 animate-slideUp ${
+              isDark ? 'bg-[#1a1a2e]' : 'bg-white'
+            }`}
+            onClick={(e) => e.stopPropagation()}
+          >
+            {/* Modal Header */}
+            <div className="flex items-center justify-between mb-6">
+              <h3 className={`text-lg font-bold ${theme.text}`}>新しいタスク</h3>
+              <button
+                onClick={() => setShowAddModal(false)}
+                className={`w-8 h-8 rounded-full flex items-center justify-center ${
+                  isDark ? 'bg-white/10 hover:bg-white/20' : 'bg-slate-100 hover:bg-slate-200'
+                }`}
+              >
+                <svg className="w-4 h-4" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                  <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M6 18L18 6M6 6l12 12" />
+                </svg>
+              </button>
+            </div>
+
+            {/* Task Title Input */}
+            <div className="mb-4">
+              <label className={`block text-sm font-medium mb-2 ${theme.textMuted}`}>
+                タスク名
+              </label>
+              <input
+                type="text"
+                value={newTaskTitle}
+                onChange={(e) => setNewTaskTitle(e.target.value)}
+                placeholder="例: 漢字の練習をする"
+                autoFocus
+                className={`w-full px-4 py-3 rounded-xl text-base outline-none transition-all ${
+                  isDark
+                    ? 'bg-white/5 border border-white/10 text-white placeholder-slate-500 focus:border-violet-500'
+                    : 'bg-slate-100 border border-slate-200 text-slate-900 placeholder-slate-400 focus:border-violet-500'
+                }`}
+              />
+            </div>
+
+            {/* Time Input */}
+            <div className="mb-6">
+              <label className={`block text-sm font-medium mb-2 ${theme.textMuted}`}>
+                時間 (オプション)
+              </label>
+              <input
+                type="time"
+                value={newTaskTime}
+                onChange={(e) => setNewTaskTime(e.target.value)}
+                className={`w-full px-4 py-3 rounded-xl text-base outline-none transition-all ${
+                  isDark
+                    ? 'bg-white/5 border border-white/10 text-white focus:border-violet-500'
+                    : 'bg-slate-100 border border-slate-200 text-slate-900 focus:border-violet-500'
+                }`}
+              />
+            </div>
+
+            {/* Date Display */}
+            <div className={`mb-6 px-4 py-3 rounded-xl ${
+              isDark ? 'bg-violet-500/10' : 'bg-violet-50'
+            }`}>
+              <p className={`text-sm ${isDark ? 'text-violet-300' : 'text-violet-700'}`}>
+                📅 {selectedDate.toLocaleDateString('ja-JP', {
+                  year: 'numeric',
+                  month: 'long',
+                  day: 'numeric',
+                  weekday: 'long'
+                })}
+              </p>
+            </div>
+
+            {/* Submit Button */}
             <button
-              key={task.id}
-              onClick={() => toggleTask(task.id)}
-              className={`w-full flex items-center gap-3 p-3 rounded-2xl transition-all active:scale-[0.98] ${
-                task.is_completed
-                  ? isDark ? 'bg-white/[0.02]' : 'bg-slate-50'
-                  : isDark ? 'bg-white/[0.05]' : 'bg-white'
-              } ${isDark ? 'border border-white/[0.05]' : 'border border-slate-100'}`}
+              onClick={addTask}
+              disabled={!newTaskTitle.trim() || isSubmitting}
+              className={`w-full py-4 rounded-2xl text-base font-semibold transition-all active:scale-[0.98] flex items-center justify-center gap-2 ${
+                newTaskTitle.trim()
+                  ? 'bg-gradient-to-r from-violet-500 to-purple-600 text-white shadow-lg shadow-violet-500/25'
+                  : isDark
+                    ? 'bg-white/5 text-slate-500 cursor-not-allowed'
+                    : 'bg-slate-200 text-slate-400 cursor-not-allowed'
+              }`}
             >
-              {/* Checkbox */}
-              <div className={`w-6 h-6 rounded-full border-2 flex items-center justify-center transition-all ${
-                task.is_completed
-                  ? 'bg-emerald-500 border-emerald-500'
-                  : isDark ? 'border-slate-500' : 'border-slate-300'
-              }`}>
-                {task.is_completed && (
-                  <svg className="w-3.5 h-3.5 text-white" fill="none" stroke="currentColor" viewBox="0 0 24 24">
-                    <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={3} d="M5 13l4 4L19 7" />
+              {isSubmitting ? (
+                <div className="w-5 h-5 border-2 border-white/30 border-t-white rounded-full animate-spin" />
+              ) : (
+                <>
+                  <svg className="w-5 h-5" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                    <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M12 6v6m0 0v6m0-6h6m-6 0H6" />
                   </svg>
-                )}
-              </div>
-
-              {/* Task Content */}
-              <div className="flex-1 text-left">
-                <p className={`text-sm font-medium ${
-                  task.is_completed
-                    ? `line-through ${theme.textMuted}`
-                    : theme.text
-                }`}>
-                  {task.title}
-                </p>
-                {task.due_time && (
-                  <p className={`text-xs ${theme.textSubtle}`}>{task.due_time}</p>
-                )}
-              </div>
-
-              {/* Time indicator */}
-              {!task.is_completed && task.due_time && (
-                <div className={`px-2 py-1 rounded-lg text-xs font-medium ${
-                  isDark ? 'bg-violet-500/20 text-violet-300' : 'bg-violet-100 text-violet-700'
-                }`}>
-                  {task.due_time}
-                </div>
+                  追加する
+                </>
               )}
             </button>
-          ))
-        )}
-      </div>
-
-      {/* Add Task Button */}
-      <div className={`px-4 pb-4`}>
-        <button className={`w-full py-3 rounded-2xl text-sm font-medium transition-all active:scale-[0.98] flex items-center justify-center gap-2 ${
-          isDark
-            ? 'bg-white/[0.05] text-slate-300 hover:bg-white/[0.08] border border-white/[0.05]'
-            : 'bg-slate-100 text-slate-600 hover:bg-slate-200'
-        }`}>
-          <svg className="w-4 h-4" fill="none" stroke="currentColor" viewBox="0 0 24 24">
-            <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M12 6v6m0 0v6m0-6h6m-6 0H6" />
-          </svg>
-          タスクを追加
-        </button>
-      </div>
-    </div>
+          </div>
+        </div>
+      )}
+    </>
   );
 }
 

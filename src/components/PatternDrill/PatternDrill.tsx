@@ -1,10 +1,11 @@
-import React, { useState, useCallback } from 'react';
+import React, { useState, useCallback, useEffect } from 'react';
 import { DrillSettingsPanel } from './DrillSettings';
 import { DrillQuestionDisplay } from './DrillQuestion';
 import { DrillAnswer } from './DrillAnswer';
 import { DrillFeedback } from './DrillFeedback';
 import { DrillProgress } from './DrillProgress';
 import { GrammarSidebar } from './GrammarSidebar';
+import { MobilePatternDrill } from './MobilePatternDrill';
 import { getDrillSession, recordDrillAnswer } from '../../services/drillApi';
 import {
   DEFAULT_DRILL_SETTINGS,
@@ -35,6 +36,21 @@ interface PatternDrillProps {
 
 export const PatternDrill: React.FC<PatternDrillProps> = ({ onClose }) => {
   const { session } = useAuth();
+  const [isMobile, setIsMobile] = useState(false);
+
+  // Check if mobile on mount and resize
+  useEffect(() => {
+    const checkMobile = () => setIsMobile(window.innerWidth < 768);
+    checkMobile();
+    window.addEventListener('resize', checkMobile);
+    return () => window.removeEventListener('resize', checkMobile);
+  }, []);
+
+  // Use mobile version on smaller screens
+  if (isMobile) {
+    return <MobilePatternDrill onClose={onClose} />;
+  }
+
   const [gameState, setGameState] = useState<DrillGameState>({
     status: 'loading',
     questions: [],
