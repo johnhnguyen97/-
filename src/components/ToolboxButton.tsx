@@ -76,13 +76,12 @@ export function ToolboxButton() {
         />
       )}
 
-      {/* Fixed button stack - right side: Settings → Kanji → Toolbox (bottom to top visually) */}
-      {/* Positioned above the bottom nav on mobile (bottom-28 = 112px to clear the nav) */}
-      <div className="fixed bottom-28 md:bottom-6 right-4 sm:right-6 z-40 flex flex-col items-center gap-2">
+      {/* Fixed button stack - Desktop only (hidden on mobile) */}
+      <div className="fixed bottom-6 right-4 sm:right-6 z-40 hidden md:flex flex-col items-center gap-2">
         {/* Settings Button - Top */}
         <Link
           to="/settings"
-          className={`w-12 h-12 rounded-xl shadow-lg flex items-center justify-center transition-all duration-300 ${
+          className={`w-12 h-12 rounded-2xl shadow-lg flex items-center justify-center transition-all duration-300 ${
             location.pathname === '/settings'
               ? 'scale-90 opacity-50 pointer-events-none bg-gray-400'
               : 'bg-gradient-to-br from-slate-600 to-slate-700 hover:from-slate-500 hover:to-slate-600 hover:shadow-xl hover:scale-105 active:scale-95'
@@ -98,7 +97,7 @@ export function ToolboxButton() {
         {/* Kanji Dictionary Button - Middle */}
         <button
           onClick={handleDictionaryClick}
-          className="w-12 h-12 rounded-xl shadow-lg flex items-center justify-center transition-all duration-300 bg-gradient-to-br from-indigo-500 to-purple-600 hover:from-indigo-400 hover:to-purple-500 hover:shadow-xl hover:scale-105 active:scale-95"
+          className="w-12 h-12 rounded-2xl shadow-lg flex items-center justify-center transition-all duration-300 bg-gradient-to-br from-indigo-500 to-purple-600 hover:from-indigo-400 hover:to-purple-500 hover:shadow-xl hover:scale-105 active:scale-95"
           aria-label="Kanji Dictionary"
           title="Kanji Dictionary"
         >
@@ -157,7 +156,7 @@ export function ToolboxButton() {
           {/* Main FAB */}
           <button
             onClick={() => setIsMenuOpen(!isMenuOpen)}
-            className={`relative w-12 h-12 rounded-xl shadow-lg flex items-center justify-center transition-all duration-300 ${
+            className={`relative w-12 h-12 rounded-2xl shadow-lg flex items-center justify-center transition-all duration-300 ${
               isMenuOpen
                 ? 'bg-gradient-to-br from-gray-700 to-gray-900 rotate-45 scale-95'
                 : 'bg-gradient-to-br from-amber-500 to-orange-500 hover:from-amber-400 hover:to-orange-400 hover:shadow-xl hover:scale-105 active:scale-95'
@@ -179,6 +178,88 @@ export function ToolboxButton() {
               />
             </svg>
           </button>
+        </div>
+      </div>
+
+      {/* Mobile Compact Toolbox - single button with popup */}
+      <div className="fixed bottom-24 right-4 z-40 md:hidden flex flex-col items-center gap-2">
+        {/* Settings Button */}
+        <Link
+          to="/settings"
+          className={`w-10 h-10 rounded-full shadow-lg flex items-center justify-center transition-all duration-300 ${
+            location.pathname === '/settings'
+              ? 'scale-90 opacity-50 pointer-events-none bg-gray-400'
+              : 'bg-white/90 backdrop-blur-sm border border-gray-200 hover:shadow-xl active:scale-95'
+          }`}
+          title="Settings"
+        >
+          <svg className="w-4 h-4 text-gray-600" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+            <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M10.325 4.317c.426-1.756 2.924-1.756 3.35 0a1.724 1.724 0 002.573 1.066c1.543-.94 3.31.826 2.37 2.37a1.724 1.724 0 001.065 2.572c1.756.426 1.756 2.924 0 3.35a1.724 1.724 0 00-1.066 2.573c.94 1.543-.826 3.31-2.37 2.37a1.724 1.724 0 00-2.572 1.065c-.426 1.756-2.924 1.756-3.35 0a1.724 1.724 0 00-2.573-1.066c-1.543.94-3.31-.826-2.37-2.37a1.724 1.724 0 00-1.065-2.572c-1.756-.426-1.756-2.924 0-3.35a1.724 1.724 0 001.066-2.573c-.94-1.543.826-3.31 2.37-2.37.996.608 2.296.07 2.572-1.065z" />
+            <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M15 12a3 3 0 11-6 0 3 3 0 016 0z" />
+          </svg>
+        </Link>
+
+        {/* Kanji Dictionary Button */}
+        <button
+          onClick={handleDictionaryClick}
+          className="w-10 h-10 rounded-full shadow-lg flex items-center justify-center transition-all duration-300 bg-gradient-to-br from-indigo-500 to-purple-600 hover:shadow-xl active:scale-95"
+          aria-label="Kanji Dictionary"
+        >
+          <span className="text-sm text-white font-bold">漢</span>
+        </button>
+
+        {/* Main Toolbox FAB */}
+        <div className="relative">
+          <button
+            onClick={() => setIsMenuOpen(!isMenuOpen)}
+            className={`relative w-10 h-10 rounded-full shadow-lg flex items-center justify-center transition-all duration-300 ${
+              isMenuOpen
+                ? 'bg-gray-700 rotate-45 scale-95'
+                : 'bg-gradient-to-br from-pink-500 to-rose-500 hover:shadow-xl active:scale-95'
+            }`}
+            aria-label="Toolbox"
+          >
+            <svg className="w-5 h-5 text-white" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+              <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2.5} d="M12 6v6m0 0v6m0-6h6m-6 0H6" />
+            </svg>
+          </button>
+
+          {/* Mobile Menu Overlay */}
+          {isMenuOpen && (
+            <div className={`absolute bottom-12 right-0 transition-all duration-300 ease-out ${
+              menuVisible ? 'opacity-100 translate-y-0 scale-100' : 'opacity-0 translate-y-6 scale-95'
+            }`}>
+              <div className="bg-white/95 backdrop-blur-xl rounded-2xl shadow-2xl border border-gray-100 overflow-hidden p-2 min-w-[200px]">
+                {/* Header */}
+                <div className="px-3 py-2 mb-1 border-b border-gray-100">
+                  <div className="flex items-center gap-2">
+                    <span className="text-lg">🧰</span>
+                    <span className="font-semibold text-gray-700">道具箱</span>
+                  </div>
+                </div>
+
+                {/* Menu items */}
+                {menuItems.map((item) => (
+                  <button
+                    key={item.label}
+                    onClick={item.onClick}
+                    className="flex items-center gap-3 w-full p-3 rounded-xl hover:bg-gray-50 active:bg-gray-100 transition-all"
+                  >
+                    <div className={`w-9 h-9 rounded-xl bg-gradient-to-br ${item.gradient} flex items-center justify-center shadow-md`}>
+                      <span className="text-white text-sm">{item.icon}</span>
+                    </div>
+                    <div className="text-left">
+                      <p className="font-semibold text-gray-800 text-sm">{item.label}</p>
+                      <p className="text-xs text-gray-400">{item.sublabel}</p>
+                    </div>
+                  </button>
+                ))}
+              </div>
+
+              {/* Pointer */}
+              <div className="absolute -bottom-2 right-3 w-4 h-4 bg-white/95 rotate-45 border-r border-b border-gray-100"></div>
+            </div>
+          )}
         </div>
       </div>
 
