@@ -47,24 +47,31 @@ export const Layout: React.FC = () => {
         ? 'bg-[#0f0f1a]'
         : 'bg-gradient-to-br from-slate-50 via-white to-pink-50/30'
     }`}>
-      {/* Navigation Header - Desktop */}
+      {/* Navigation Header */}
       <nav className={`sticky top-0 z-40 transition-colors duration-300 ${
         isDark
-          ? 'bg-[#0f0f1a]/90 backdrop-blur-xl border-b border-white/10'
-          : 'bg-white/80 backdrop-blur-sm border-b border-pink-200/30'
+          ? 'bg-[#0f0f1a]/80 backdrop-blur-2xl border-b border-white/[0.08]'
+          : 'bg-white/70 backdrop-blur-2xl border-b border-slate-200/50'
       }`}>
         <div className="max-w-6xl mx-auto px-4">
           <div className="flex items-center justify-between h-14">
-            {/* Logo */}
+            {/* Logo - Japanese styled */}
             <Link
               to="/"
-              className={`text-xl font-bold bg-clip-text text-transparent ${
-                isDark
-                  ? 'bg-gradient-to-r from-pink-400 to-purple-400'
-                  : 'bg-gradient-to-r from-pink-600 to-purple-600'
-              }`}
+              className="flex items-center gap-2"
             >
-              語順 Gojun
+              <span className={`text-lg font-bold ${
+                isDark
+                  ? 'text-pink-400'
+                  : 'text-pink-600'
+              }`}>
+                語順
+              </span>
+              <span className={`text-sm font-medium ${
+                isDark ? 'text-slate-400' : 'text-slate-500'
+              }`}>
+                Gojun
+              </span>
             </Link>
 
             {/* Nav Links - Desktop only */}
@@ -73,7 +80,7 @@ export const Layout: React.FC = () => {
                 <Link
                   key={item.path}
                   to={item.path}
-                  className={`px-3 py-2 rounded-lg text-sm font-medium transition-colors ${
+                  className={`px-3 py-2 rounded-xl text-sm font-medium transition-all ${
                     location.pathname === item.path
                       ? isDark
                         ? 'bg-pink-500/20 text-pink-400'
@@ -93,43 +100,43 @@ export const Layout: React.FC = () => {
               {/* Theme Toggle */}
               <button
                 onClick={toggleTheme}
-                className={`w-9 h-9 rounded-xl flex items-center justify-center transition-all hover:scale-105 ${
+                className={`w-9 h-9 rounded-full flex items-center justify-center transition-all active:scale-95 ${
                   isDark
-                    ? 'bg-white/10 hover:bg-white/20 text-yellow-400'
+                    ? 'bg-white/[0.05] hover:bg-white/10 text-amber-400'
                     : 'bg-slate-100 hover:bg-slate-200 text-slate-600'
                 }`}
                 title={isDark ? 'Switch to light mode' : 'Switch to dark mode'}
               >
-                {isDark ? '☀️' : '🌙'}
+                {isDark ? '🌙' : '☀️'}
               </button>
 
               {session ? (
                 <Link
                   to="/settings"
-                  className={`flex items-center gap-2 px-3 py-1.5 rounded-lg transition-colors ${
+                  className={`flex items-center gap-2 px-2 py-1.5 rounded-full transition-all active:scale-95 ${
                     isDark
-                      ? 'hover:bg-white/10'
-                      : 'hover:bg-pink-50'
+                      ? 'hover:bg-white/[0.05]'
+                      : 'hover:bg-slate-100'
                   }`}
                 >
-                  <div className={`w-7 h-7 rounded-full flex items-center justify-center text-white text-xs font-bold ${
+                  <div className={`w-8 h-8 rounded-full flex items-center justify-center text-white text-sm font-bold shadow-lg ${
                     isDark
-                      ? 'bg-gradient-to-br from-pink-500 to-purple-500'
-                      : 'bg-gradient-to-br from-pink-500 to-pink-600'
+                      ? 'bg-gradient-to-br from-pink-500 to-purple-600'
+                      : 'bg-gradient-to-br from-pink-500 to-rose-500'
                   }`}>
                     {displayName.charAt(0).toUpperCase()}
                   </div>
-                  <span className={`text-sm font-medium ${isDark ? 'text-white' : 'text-gray-700'}`}>
+                  <span className={`text-sm font-medium hidden sm:block ${isDark ? 'text-white' : 'text-gray-700'}`}>
                     {displayName}
                   </span>
                 </Link>
               ) : (
                 <button
                   onClick={() => navigate('/login')}
-                  className={`px-3 py-1.5 text-sm font-medium rounded-lg transition-colors ${
+                  className={`px-4 py-2 text-sm font-medium rounded-full transition-all active:scale-95 ${
                     isDark
-                      ? 'text-pink-400 hover:bg-pink-500/20'
-                      : 'text-pink-600 hover:bg-pink-50'
+                      ? 'bg-pink-500/20 text-pink-400 hover:bg-pink-500/30'
+                      : 'bg-pink-100 text-pink-600 hover:bg-pink-200'
                   }`}
                 >
                   Sign In

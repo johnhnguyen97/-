@@ -182,7 +182,7 @@ export function ToolboxButton() {
       </div>
 
       {/* Mobile Compact Toolbox - single button with popup */}
-      <div className="fixed bottom-24 right-4 z-40 md:hidden flex flex-col items-center gap-2">
+      <div className="fixed bottom-28 right-4 z-40 md:hidden flex flex-col items-center gap-3">
         {/* Settings Button */}
         <Link
           to="/settings"

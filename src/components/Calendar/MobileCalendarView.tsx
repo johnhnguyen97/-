@@ -268,7 +268,7 @@ export function MobileCalendarView({
                 onMouseDown={() => setPressedDate(dayKey)}
                 onMouseUp={() => setPressedDate(null)}
                 onMouseLeave={() => setPressedDate(null)}
-                className={`flex-shrink-0 w-14 py-2.5 rounded-2xl flex flex-col items-center justify-center transition-all duration-200 ${
+                className={`flex-shrink-0 w-12 py-2 rounded-xl flex flex-col items-center justify-center transition-all duration-200 ${
                   selected
                     ? `bg-gradient-to-b from-violet-500 to-purple-600 text-white shadow-lg ${theme.accentGlow} scale-105`
                     : today
