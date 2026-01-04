@@ -5,6 +5,7 @@ import { Furigana } from '../common/Furigana';
 import { KanjiPopover } from '../common/KanjiPopover';
 import { FavoriteButton } from '../FavoriteButton';
 import { WordNoteButton } from '../WordNoteButton';
+import { SentenceFavoriteButton } from '../SentenceFavoriteButton';
 import { getVerbGroupDisplayName } from '../../types/drill';
 import type { DrillSentence, DrillPrompt, ExampleSentence, DrillPracticeMode } from '../../types/drill';
 
@@ -196,7 +197,15 @@ export const DrillQuestionDisplay: React.FC<DrillQuestionDisplayProps> = ({
             <span className={`text-3xl font-bold ${theme.text}`}>
               {highlightTargetWord(exampleSentence.japanese, sentence.dictionary_form || sentence.japanese_base, isDark)}
             </span>
-            <AudioButton text={exampleSentence.japanese} size="md" />
+            <div className="flex items-center gap-1">
+              <AudioButton text={exampleSentence.japanese} size="md" />
+              <SentenceFavoriteButton
+                japanese={exampleSentence.japanese}
+                english={exampleSentence.english}
+                source="pattern-drill"
+                sourceId={exampleSentence.id}
+              />
+            </div>
           </div>
 
           {/* English translation */}
