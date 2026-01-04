@@ -368,7 +368,7 @@ export function TodoWidget({ compact = false }: TodoWidgetProps) {
       const rect = addButtonRef.current.getBoundingClientRect();
       setPopupPosition({
         top: rect.top, // Align with button top
-        left: rect.left - 350, // Position further left
+        left: rect.left - 500, // Position further left
       });
     }
     setTaskForm({ title: newTodo, notes: '', due_date: '', due_time: '', priority: 0, subtasks: [] });
