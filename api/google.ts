@@ -9,6 +9,9 @@ const GOOGLE_REDIRECT_URI = 'https://gojun.vercel.app/api/google?action=callback
 // Google Tasks API base URL
 const TASKS_API_BASE = 'https://tasks.googleapis.com/tasks/v1';
 
+// Gojun task list name for organizing tasks
+const GOJUN_TASK_LIST_NAME = 'Gojun 語順 - Japanese Learning';
+
 // Scopes for Calendar and Tasks
 const SCOPES = [
   'https://www.googleapis.com/auth/calendar.events',
