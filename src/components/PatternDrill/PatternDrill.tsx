@@ -5,7 +5,7 @@ import { DrillAnswer } from './DrillAnswer';
 import { DrillFeedback } from './DrillFeedback';
 import { DrillProgress } from './DrillProgress';
 import { GrammarSidebar } from './GrammarSidebar';
-import { getDrillSession } from '../../services/drillApi';
+import { getDrillSession, recordDrillAnswer } from '../../services/drillApi';
 import {
   DEFAULT_DRILL_SETTINGS,
   checkAnswer,
@@ -48,6 +48,7 @@ export const PatternDrill: React.FC<PatternDrillProps> = ({ onClose }) => {
   const [showSettings, setShowSettings] = useState(true);
   const [showGrammarSidebar, setShowGrammarSidebar] = useState(false);
   const [error, setError] = useState<string | null>(null);
+  const [questionStartTime, setQuestionStartTime] = useState<number>(Date.now());
 
   const loadSession = useCallback(async (settings: DrillSettingsType) => {
     if (!session?.access_token) {
@@ -66,6 +67,7 @@ export const PatternDrill: React.FC<PatternDrillProps> = ({ onClose }) => {
         count: settings.questionsPerSession,
         practiceMode: settings.practiceMode,
         bidirectional: settings.bidirectional,
+        srsReviewMode: settings.srsReviewMode,
       });
 
       setGameState((prev) => ({
@@ -76,6 +78,7 @@ export const PatternDrill: React.FC<PatternDrillProps> = ({ onClose }) => {
         userAnswer: '',
         isCorrect: null,
       }));
+      setQuestionStartTime(Date.now());
     } catch (err) {
       setError(err instanceof Error ? err.message : 'Failed to load questions');
       setGameState((prev) => ({ ...prev, status: 'playing' }));
@@ -103,6 +106,21 @@ export const PatternDrill: React.FC<PatternDrillProps> = ({ onClose }) => {
       currentQuestion.prompt.from_form,
       currentQuestion.prompt.to_form
     );
+
+    // Calculate response time for SRS quality scoring
+    const responseTimeMs = Date.now() - questionStartTime;
+
+    // Record answer for SRS tracking (fire and forget - don't block UI)
+    if (session?.access_token && currentQuestion.sentence.id) {
+      recordDrillAnswer(session.access_token, {
+        verbId: currentQuestion.sentence.id,
+        conjugationForm: currentQuestion.prompt.to_form,
+        isCorrect,
+        responseTimeMs,
+      }).catch(() => {
+        // Silently fail - SRS tracking is non-critical
+      });
+    }
 
     setGameState((prev) => {
       const newStats = { ...prev.sessionStats };
@@ -147,6 +165,8 @@ export const PatternDrill: React.FC<PatternDrillProps> = ({ onClose }) => {
         userAnswer: '',
         isCorrect: null,
       }));
+      // Reset timer for next question
+      setQuestionStartTime(Date.now());
     }
   };
 
@@ -338,6 +358,7 @@ export const PatternDrill: React.FC<PatternDrillProps> = ({ onClose }) => {
                 mode={gameState.settings.mode}
                 mcOptions={currentQuestion.mcOptions}
                 onSubmit={handleAnswer}
+                showFurigana={gameState.settings.showFurigana}
               />
             </div>
           )}

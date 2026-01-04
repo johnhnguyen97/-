@@ -48,6 +48,7 @@ export interface DrillSessionParams {
   count: number;
   practiceMode: DrillPracticeMode;
   bidirectional: boolean;
+  srsReviewMode?: 'mixed' | 'due_only' | 'new_only';
 }
 
 /**
@@ -65,6 +66,10 @@ export async function getDrillSession(
     practiceMode: params.practiceMode,
     bidirectional: String(params.bidirectional),
   });
+
+  if (params.srsReviewMode) {
+    searchParams.set('srsReviewMode', params.srsReviewMode);
+  }
 
   const response = await fetch(`/api/drill?${searchParams}`, {
     headers: {
@@ -139,6 +144,118 @@ export async function updateUserAccuracy(
     }
   } catch {
     // Silently fail - main stats are tracked elsewhere
+  }
+}
+
+// ============================================================================
+// SRS (SPACED REPETITION) FUNCTIONS
+// ============================================================================
+
+export interface SRSAnswerParams {
+  verbId: string;
+  conjugationForm: string;
+  isCorrect: boolean;
+  responseTimeMs?: number;
+}
+
+export interface SRSAnswerResponse {
+  success: boolean;
+  progress?: {
+    id: string;
+    ease_factor: number;
+    interval_days: number;
+    repetitions: number;
+    next_review_at: string;
+    total_reviews: number;
+    correct_reviews: number;
+    streak: number;
+  };
+  sm2?: {
+    quality: number;
+    newEaseFactor: number;
+    newInterval: number;
+    nextReviewAt: string;
+  };
+}
+
+/**
+ * Record a drill answer for SRS tracking
+ * This updates the user's progress using the SM-2 algorithm
+ */
+export async function recordDrillAnswer(
+  accessToken: string,
+  params: SRSAnswerParams
+): Promise<SRSAnswerResponse> {
+  const response = await fetch('/api/drill', {
+    method: 'POST',
+    headers: {
+      'Content-Type': 'application/json',
+      Authorization: `Bearer ${accessToken}`,
+    },
+    body: JSON.stringify(params),
+  });
+
+  if (!response.ok) {
+    // Don't throw - SRS tracking is optional/background
+    console.warn('SRS tracking failed:', response.statusText);
+    return { success: false };
+  }
+
+  return response.json();
+}
+
+/**
+ * Get user's SRS review statistics
+ */
+export interface SRSStats {
+  stats: {
+    dueNow: number;
+    dueToday: number;
+    totalDue: number;
+    learned: number;
+    mastered: number;
+    struggling: number;
+    totalReviewed: number;
+  };
+  verbs: {
+    inProgress: number;
+    learning: number;
+    mastered: number;
+    new: number;
+    total: number;
+  };
+  meta: {
+    jlptLevel: string;
+    phases: number[] | null;
+    asOf: string;
+  };
+}
+
+export async function getSRSStats(
+  accessToken: string,
+  jlptLevel: string = 'N5',
+  phases?: number[]
+): Promise<SRSStats | null> {
+  try {
+    const params = new URLSearchParams({ action: 'stats', jlptLevel });
+    if (phases?.length) {
+      params.set('phases', phases.join(','));
+    }
+
+    const response = await fetch(`/api/drill?${params}`, {
+      headers: {
+        Authorization: `Bearer ${accessToken}`,
+      },
+    });
+
+    if (!response.ok) {
+      console.warn('SRS stats fetch failed:', response.statusText);
+      return null;
+    }
+
+    return response.json();
+  } catch {
+    return null;
   }
 }
 

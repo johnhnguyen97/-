@@ -296,6 +296,8 @@ export type DrillPracticeMode = 'word' | 'sentence';
 
 export const DRILL_SETTINGS_KEY = 'gojun-drill-settings';
 
+export type SRSReviewMode = 'mixed' | 'due_only' | 'new_only';
+
 export interface DrillSettings {
   mode: 'typing' | 'multiple_choice';
   practiceMode: DrillPracticeMode;
@@ -308,6 +310,8 @@ export interface DrillSettings {
   showFurigana: boolean;
   showRomaji: boolean;
   showGrammarTips: boolean;
+  // SRS review mode
+  srsReviewMode: SRSReviewMode;
 }
 
 export const DEFAULT_DRILL_SETTINGS: DrillSettings = {
@@ -322,6 +326,8 @@ export const DEFAULT_DRILL_SETTINGS: DrillSettings = {
   showFurigana: true,
   showRomaji: false,
   showGrammarTips: true,
+  // SRS defaults
+  srsReviewMode: 'mixed',
 };
 
 // ============================================================================

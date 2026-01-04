@@ -1,8 +1,10 @@
-import React from 'react';
+import React, { useEffect, useState } from 'react';
 import { useTheme } from '../../contexts/ThemeContext';
+import { useAuth } from '../../contexts/AuthContext';
 import { CONJUGATION_PHASES } from '../../types/drill';
 import { Toggle, Slider, ChipGroup, Button } from '../../lib/gojun-ui';
-import type { DrillSettings as DrillSettingsType, WordType, JLPTLevel } from '../../types/drill';
+import { getSRSStats, type SRSStats } from '../../services/drillApi';
+import type { DrillSettings as DrillSettingsType, WordType, JLPTLevel, SRSReviewMode } from '../../types/drill';
 
 interface DrillSettingsPanelProps {
   settings: DrillSettingsType;
@@ -33,12 +35,31 @@ const PRACTICE_MODE_OPTIONS = [
   { value: 'sentence' as const, label: 'Full Sentence' },
 ];
 
+const SRS_MODE_OPTIONS: { value: SRSReviewMode; label: string; description: string }[] = [
+  { value: 'mixed', label: 'Mixed', description: 'Due items + new words' },
+  { value: 'due_only', label: 'Review Due', description: 'Only items due for review' },
+  { value: 'new_only', label: 'Learn New', description: 'Only new words' },
+];
+
 export const DrillSettingsPanel: React.FC<DrillSettingsPanelProps> = ({
   settings,
   onSettingsChange,
   onStart,
 }) => {
   const { isDark } = useTheme();
+  const { session } = useAuth();
+  const [srsStats, setSrsStats] = useState<SRSStats | null>(null);
+  const [loadingStats, setLoadingStats] = useState(false);
+
+  // Fetch SRS stats when JLPT level or phases change
+  useEffect(() => {
+    if (!session?.access_token) return;
+
+    setLoadingStats(true);
+    getSRSStats(session.access_token, settings.jlptLevel, settings.selectedPhases)
+      .then(setSrsStats)
+      .finally(() => setLoadingStats(false));
+  }, [session?.access_token, settings.jlptLevel, settings.selectedPhases]);
 
   // Theme classes
   const theme = {
@@ -90,6 +111,72 @@ export const DrillSettingsPanel: React.FC<DrillSettingsPanelProps> = ({
           size="lg"
           intent="primary"
         />
+      </div>
+
+      {/* SRS Review Stats & Mode */}
+      <div>
+        <h3 className={`text-lg font-semibold mb-3 ${theme.text}`}>Review Mode</h3>
+
+        {/* Stats Card */}
+        {srsStats && (
+          <div className={`mb-4 p-4 rounded-xl border ${theme.card}`}>
+            <div className="grid grid-cols-3 gap-3 text-center">
+              <div>
+                <div className={`text-2xl font-bold ${srsStats.stats.dueNow > 0 ? 'text-amber-500' : 'text-green-500'}`}>
+                  {loadingStats ? '...' : srsStats.stats.dueNow}
+                </div>
+                <div className={`text-xs ${theme.textMuted}`}>Due Now</div>
+              </div>
+              <div>
+                <div className="text-2xl font-bold text-blue-500">
+                  {loadingStats ? '...' : srsStats.verbs.new}
+                </div>
+                <div className={`text-xs ${theme.textMuted}`}>New</div>
+              </div>
+              <div>
+                <div className="text-2xl font-bold text-purple-500">
+                  {loadingStats ? '...' : srsStats.stats.mastered}
+                </div>
+                <div className={`text-xs ${theme.textMuted}`}>Mastered</div>
+              </div>
+            </div>
+          </div>
+        )}
+
+        {/* Review Mode Options */}
+        <div className="space-y-2">
+          {SRS_MODE_OPTIONS.map(({ value, label, description }) => (
+            <button
+              key={value}
+              onClick={() => onSettingsChange({ ...settings, srsReviewMode: value })}
+              disabled={value === 'due_only' && srsStats?.stats.dueNow === 0}
+              className={`w-full py-3 px-4 rounded-xl text-left transition-all ${
+                settings.srsReviewMode === value
+                  ? 'bg-gradient-to-r from-amber-500 to-orange-500 text-white shadow-lg'
+                  : value === 'due_only' && srsStats?.stats.dueNow === 0
+                    ? 'bg-gray-100 text-gray-400 cursor-not-allowed opacity-50'
+                    : theme.buttonInactive
+              }`}
+            >
+              <div className="flex items-center justify-between">
+                <div className="font-medium">{label}</div>
+                {value === 'due_only' && srsStats && (
+                  <div className={`text-sm ${settings.srsReviewMode === value ? 'text-white/70' : theme.textMuted}`}>
+                    {srsStats.stats.dueNow} items
+                  </div>
+                )}
+                {value === 'new_only' && srsStats && (
+                  <div className={`text-sm ${settings.srsReviewMode === value ? 'text-white/70' : theme.textMuted}`}>
+                    {srsStats.verbs.new} items
+                  </div>
+                )}
+              </div>
+              <div className={`text-sm ${settings.srsReviewMode === value ? 'text-white/80' : theme.textMuted}`}>
+                {description}
+              </div>
+            </button>
+          ))}
+        </div>
       </div>
 
       {/* JLPT Level */}

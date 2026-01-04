@@ -21,6 +21,21 @@ interface Verb {
   conjugations: Record<string, ConjugationForm>;
 }
 
+interface UserVerbProgress {
+  id: string;
+  user_id: string;
+  verb_id: string;
+  conjugation_form: string;
+  ease_factor: number;
+  interval_days: number;
+  repetitions: number;
+  last_reviewed_at: string | null;
+  next_review_at: string;
+  total_reviews: number;
+  correct_reviews: number;
+  streak: number;
+}
+
 interface ConjugationForm {
   kanji: string;
   reading: string;
@@ -378,7 +393,8 @@ function getConjugationExplanation(toForm: string, verbGroup: string): string {
 function generateMCOptions(
   correctAnswer: ConjugationForm,
   allConjugations: Record<string, ConjugationForm>,
-  toFormKey: string
+  toFormKey: string,
+  dictionaryForm: string
 ): MCOption[] {
   const options: MCOption[] = [{
     id: 'correct',
@@ -388,15 +404,16 @@ function generateMCOptions(
     english: getConjugationEnglish(toFormKey),
   }];
 
-  // Forms to exclude from distractors:
-  // - The correct answer form (toFormKey)
-  // - Dictionary form (gives away the base verb - makes it too easy!)
-  // - plain_positive (same as dictionary)
-  const excludeForms = new Set([toFormKey, 'dictionary', 'plain_positive']);
-
-  // Get other forms as distractors (excluding dictionary form)
+  // Get other forms as distractors
   const otherForms = Object.entries(allConjugations)
-    .filter(([key]) => !excludeForms.has(key))
+    .filter(([key, val]) => {
+      // Exclude the correct answer form
+      if (key === toFormKey) return false;
+      // Exclude dictionary form by VALUE (comparing kanji text)
+      // This is needed because the DB doesn't have a 'dictionary' key
+      if (val.kanji === dictionaryForm) return false;
+      return true;
+    })
     .map(([key, val]) => ({
       id: key,
       text: val.kanji,
@@ -409,6 +426,64 @@ function generateMCOptions(
   options.push(...shuffledOthers);
 
   return shuffleArray(options);
+}
+
+/**
+ * SRS-aware combination builder
+ * Prioritizes verbs/forms that are due for review based on SM-2 algorithm
+ */
+interface SRSCombination extends ValidCombination {
+  isDue: boolean;        // Is this item due for review?
+  overdueBy: number;     // How many days overdue (0 if not due yet)
+  isNew: boolean;        // Never reviewed before?
+  srsPriority: number;   // Combined priority score
+}
+
+/**
+ * Calculate SRS priority for a verb-form combination
+ * Higher = should be shown sooner
+ */
+function calculateSRSPriority(
+  progress: UserVerbProgress | undefined,
+  verbFrequency: number
+): { isDue: boolean; overdueBy: number; isNew: boolean; priority: number } {
+  const now = new Date();
+
+  // New items (never reviewed) - high priority to introduce
+  if (!progress) {
+    return {
+      isDue: true,
+      overdueBy: 0,
+      isNew: true,
+      priority: 50 + verbFrequency, // Base 50 + word frequency bonus
+    };
+  }
+
+  const nextReview = new Date(progress.next_review_at);
+  const diffMs = now.getTime() - nextReview.getTime();
+  const diffDays = diffMs / (1000 * 60 * 60 * 24);
+
+  if (diffDays >= 0) {
+    // Item is due or overdue
+    // Priority increases with how overdue it is
+    // Cap at 100 to prevent runaway values
+    const overdueBonus = Math.min(diffDays * 10, 50);
+    return {
+      isDue: true,
+      overdueBy: diffDays,
+      isNew: false,
+      priority: 100 + overdueBonus, // Overdue items get highest priority
+    };
+  } else {
+    // Item is not due yet
+    // Lower priority, but allow occasional early review
+    return {
+      isDue: false,
+      overdueBy: 0,
+      isNew: false,
+      priority: Math.max(0, 20 + diffDays), // Decreases as review date is further away
+    };
+  }
 }
 
 /**
@@ -456,6 +531,71 @@ function buildValidCombinations(
       }
     }
   }
+
+  return combinations;
+}
+
+/**
+ * Build SRS-aware combinations with user progress data
+ * Returns combinations sorted by review priority
+ */
+function buildSRSCombinations(
+  verbs: Verb[],
+  phases: number[],
+  jlptLevel: string,
+  userProgress: UserVerbProgress[]
+): SRSCombination[] {
+  const combinations: SRSCombination[] = [];
+
+  // Create a lookup map for quick progress access
+  const progressMap = new Map<string, UserVerbProgress>();
+  for (const p of userProgress) {
+    const key = `${p.verb_id}:${p.conjugation_form}`;
+    progressMap.set(key, p);
+  }
+
+  for (const verb of verbs) {
+    for (const phase of phases) {
+      const phaseForms = PHASE_FORMS[phase] || [];
+
+      for (const formKey of phaseForms) {
+        if (verb.conjugations && verb.conjugations[formKey]) {
+          const progressKey = `${verb.id}:${formKey}`;
+          const progress = progressMap.get(progressKey);
+
+          const srsData = calculateSRSPriority(progress, verb.frequency || 5);
+
+          const prompt: DrillPrompt = {
+            id: `auto-${phase}-${formKey}`,
+            from_form: 'plain_positive',
+            to_form: formKey,
+            prompt_en: `Change to ${getConjugationEnglish(formKey)}`,
+            prompt_jp: `${getConjugationEnglish(formKey)}に変えてください`,
+            explanation: getConjugationExplanation(formKey, verb.verb_group),
+            word_type: 'verb',
+            phase: phase as 1 | 2 | 3 | 4 | 5 | 6 | 7 | 8,
+          };
+
+          combinations.push({
+            verb,
+            prompt,
+            isDue: srsData.isDue,
+            overdueBy: srsData.overdueBy,
+            isNew: srsData.isNew,
+            srsPriority: srsData.priority,
+          });
+        }
+      }
+    }
+  }
+
+  // Sort by SRS priority (highest first) with some randomization
+  combinations.sort((a, b) => {
+    // Add randomness (±20% of priority) to prevent deterministic ordering
+    const randomA = a.srsPriority * (0.8 + Math.random() * 0.4);
+    const randomB = b.srsPriority * (0.8 + Math.random() * 0.4);
+    return randomB - randomA;
+  });
 
   return combinations;
 }
@@ -514,7 +654,7 @@ async function generateQuestionsFromCombinations(
       ),
     };
 
-    const mcOptions = generateMCOptions(correctConjugation, verb.conjugations, grammarEngineKey);
+    const mcOptions = generateMCOptions(correctConjugation, verb.conjugations, grammarEngineKey, verb.dictionary_form);
 
     // Fetch example sentence for sentence mode
     let exampleSentence = undefined;
@@ -523,10 +663,11 @@ async function generateQuestionsFromCombinations(
         .from('example_sentences')
         .select('*')
         .eq('word_key', verb.dictionary_form)
-        .limit(1);
+        .limit(10);  // Get multiple sentences for variety
 
       if (sentences && sentences.length > 0) {
-        const sent = sentences[0];
+        // Pick a random sentence from available ones
+        const sent = sentences[Math.floor(Math.random() * sentences.length)];
         exampleSentence = {
           id: sent.id,
           japanese: sent.japanese,
@@ -563,6 +704,210 @@ async function generateQuestionsFromCombinations(
 }
 
 // ============================================================================
+// SM-2 ALGORITHM (for answer recording)
+// ============================================================================
+
+interface SM2Result {
+  easeFactor: number;
+  intervalDays: number;
+  repetitions: number;
+  nextReviewAt: Date;
+}
+
+function calculateSM2(
+  quality: number,
+  currentEF: number = 2.5,
+  currentInterval: number = 0,
+  currentReps: number = 0
+): SM2Result {
+  const q = Math.max(0, Math.min(5, quality));
+  let newEF = currentEF + (0.1 - (5 - q) * (0.08 + (5 - q) * 0.02));
+  newEF = Math.max(1.3, newEF);
+
+  let newInterval: number;
+  let newReps: number;
+
+  if (q < 3) {
+    newReps = 0;
+    newInterval = 0;
+  } else {
+    newReps = currentReps + 1;
+    if (newReps === 1) newInterval = 1;
+    else if (newReps === 2) newInterval = 6;
+    else newInterval = Math.round(currentInterval * newEF);
+  }
+
+  const nextReviewAt = new Date();
+  if (newInterval === 0) {
+    nextReviewAt.setMinutes(nextReviewAt.getMinutes() + 10);
+  } else {
+    nextReviewAt.setDate(nextReviewAt.getDate() + newInterval);
+  }
+
+  return {
+    easeFactor: Math.round(newEF * 100) / 100,
+    intervalDays: newInterval,
+    repetitions: newReps,
+    nextReviewAt,
+  };
+}
+
+function booleanToQuality(isCorrect: boolean, responseTimeMs?: number): number {
+  if (!isCorrect) return 1;
+  if (responseTimeMs !== undefined) {
+    if (responseTimeMs < 2000) return 5;
+    if (responseTimeMs < 5000) return 4;
+    return 3;
+  }
+  return 4;
+}
+
+// ============================================================================
+// HANDLER: Record Answer (POST)
+// ============================================================================
+
+async function handleRecordAnswer(
+  req: VercelRequest,
+  res: VercelResponse,
+  supabase: any,
+  userId: string
+) {
+  const { verbId, conjugationForm, isCorrect, responseTimeMs } = req.body;
+
+  if (!verbId || !conjugationForm || isCorrect === undefined) {
+    return res.status(400).json({
+      error: 'Missing required fields: verbId, conjugationForm, isCorrect'
+    });
+  }
+
+  const { data: existingProgress, error: fetchError } = await supabase
+    .from('user_verb_progress')
+    .select('*')
+    .eq('user_id', userId)
+    .eq('verb_id', verbId)
+    .eq('conjugation_form', conjugationForm)
+    .single();
+
+  if (fetchError && fetchError.code !== 'PGRST116') {
+    return res.status(500).json({ error: 'Failed to fetch progress' });
+  }
+
+  const quality = booleanToQuality(isCorrect, responseTimeMs);
+  const sm2Result = calculateSM2(
+    quality,
+    existingProgress?.ease_factor || 2.5,
+    existingProgress?.interval_days || 0,
+    existingProgress?.repetitions || 0
+  );
+
+  const progressData = {
+    user_id: userId,
+    verb_id: verbId,
+    conjugation_form: conjugationForm,
+    ease_factor: sm2Result.easeFactor,
+    interval_days: sm2Result.intervalDays,
+    repetitions: sm2Result.repetitions,
+    last_reviewed_at: new Date().toISOString(),
+    next_review_at: sm2Result.nextReviewAt.toISOString(),
+    total_reviews: (existingProgress?.total_reviews || 0) + 1,
+    correct_reviews: (existingProgress?.correct_reviews || 0) + (isCorrect ? 1 : 0),
+    streak: isCorrect ? (existingProgress?.streak || 0) + 1 : 0,
+    updated_at: new Date().toISOString(),
+  };
+
+  const { data: upsertedProgress, error: upsertError } = await supabase
+    .from('user_verb_progress')
+    .upsert(progressData, { onConflict: 'user_id,verb_id,conjugation_form' })
+    .select()
+    .single();
+
+  if (upsertError) {
+    return res.status(500).json({ error: 'Failed to update progress' });
+  }
+
+  return res.status(200).json({
+    success: true,
+    progress: upsertedProgress,
+    sm2: {
+      quality,
+      newEaseFactor: sm2Result.easeFactor,
+      newInterval: sm2Result.intervalDays,
+      nextReviewAt: sm2Result.nextReviewAt.toISOString(),
+    },
+  });
+}
+
+// ============================================================================
+// HANDLER: Get SRS Stats (GET ?action=stats)
+// ============================================================================
+
+async function handleGetStats(
+  req: VercelRequest,
+  res: VercelResponse,
+  supabase: any,
+  userId: string
+) {
+  const { jlptLevel = 'N5' } = req.query as Record<string, string>;
+
+  const { data: progress, error: progressError } = await supabase
+    .from('user_verb_progress')
+    .select(`*, verbs!inner(id, dictionary_form, jlpt_level, frequency)`)
+    .eq('user_id', userId);
+
+  if (progressError) {
+    return res.status(500).json({ error: 'Failed to fetch progress' });
+  }
+
+  const now = new Date();
+  let filteredProgress = (progress || []).filter(
+    (p: any) => p.verbs?.jlpt_level === jlptLevel
+  );
+
+  let dueNow = 0, dueToday = 0, learned = 0, mastered = 0, struggling = 0;
+  const endOfToday = new Date();
+  endOfToday.setHours(23, 59, 59, 999);
+
+  const verbStats = new Map<string, { dueCount: number; totalForms: number; masteredForms: number }>();
+
+  for (const record of filteredProgress) {
+    const nextReview = new Date(record.next_review_at);
+    const verbId = record.verb_id;
+
+    if (!verbStats.has(verbId)) {
+      verbStats.set(verbId, { dueCount: 0, totalForms: 0, masteredForms: 0 });
+    }
+    const vs = verbStats.get(verbId)!;
+    vs.totalForms++;
+
+    if (nextReview <= now) { dueNow++; vs.dueCount++; }
+    else if (nextReview <= endOfToday) { dueToday++; }
+    if (record.correct_reviews > 0) { learned++; }
+    if (record.interval_days >= 21) { mastered++; vs.masteredForms++; }
+    if (record.ease_factor < 2.0) { struggling++; }
+  }
+
+  let verbsLearning = 0, verbsMastered = 0;
+  for (const [, stats] of verbStats) {
+    if (stats.masteredForms === stats.totalForms && stats.totalForms > 0) verbsMastered++;
+    else if (stats.totalForms > 0) verbsLearning++;
+  }
+
+  const { count: totalVerbs } = await supabase
+    .from('verbs')
+    .select('id', { count: 'exact', head: true })
+    .eq('jlpt_level', jlptLevel);
+
+  const verbsInProgress = verbStats.size;
+  const newAvailable = (totalVerbs || 0) - verbsInProgress;
+
+  return res.status(200).json({
+    stats: { dueNow, dueToday, totalDue: dueNow + dueToday, learned, mastered, struggling, totalReviewed: filteredProgress.length },
+    verbs: { inProgress: verbsInProgress, learning: verbsLearning, mastered: verbsMastered, new: newAvailable, total: totalVerbs || 0 },
+    meta: { jlptLevel, asOf: now.toISOString() },
+  });
+}
+
+// ============================================================================
 // MAIN HANDLER
 // ============================================================================
 
@@ -575,15 +920,44 @@ export default async function handler(req: VercelRequest, res: VercelResponse) {
     return res.status(200).end();
   }
 
-  if (req.method !== 'GET') {
-    return res.status(405).json({ error: 'Method not allowed' });
-  }
-
   if (!supabaseUrl || !supabaseServiceKey) {
     return res.status(500).json({ error: 'Server configuration error' });
   }
 
   const supabase = createClient(supabaseUrl, supabaseServiceKey);
+
+  // Get user from auth header
+  let userId: string | null = null;
+  const authHeader = req.headers.authorization;
+  if (authHeader?.startsWith('Bearer ')) {
+    const token = authHeader.substring(7);
+    const { data: { user } } = await supabase.auth.getUser(token);
+    userId = user?.id || null;
+  }
+
+  // Route based on method and action
+  const { action } = req.query as Record<string, string>;
+
+  // POST = Record answer
+  if (req.method === 'POST') {
+    if (!userId) {
+      return res.status(401).json({ error: 'Unauthorized' });
+    }
+    return handleRecordAnswer(req, res, supabase, userId);
+  }
+
+  // GET ?action=stats = Get SRS stats
+  if (req.method === 'GET' && action === 'stats') {
+    if (!userId) {
+      return res.status(401).json({ error: 'Unauthorized' });
+    }
+    return handleGetStats(req, res, supabase, userId);
+  }
+
+  // GET = Get drill questions (default)
+  if (req.method !== 'GET') {
+    return res.status(405).json({ error: 'Method not allowed' });
+  }
 
   try {
     const {
@@ -592,6 +966,7 @@ export default async function handler(req: VercelRequest, res: VercelResponse) {
       wordTypes = 'verb',
       count = '10',
       practiceMode = 'word',
+      srsReviewMode = 'mixed',
     } = req.query as Record<string, string>;
 
     const phaseList = phases.split(',').map(Number);
@@ -624,12 +999,61 @@ export default async function handler(req: VercelRequest, res: VercelResponse) {
       });
     }
 
-    // Build valid combinations using grammar engine data with weighted randomization
-    const validCombinations = buildValidCombinations(
-      verbs as Verb[],
-      phaseList,
-      jlptLevel
-    );
+    // Fetch user's verb progress for SRS if authenticated
+    let userProgress: UserVerbProgress[] = [];
+    let usingSRS = false;
+
+    if (userId) {
+      const verbIds = verbs.map(v => v.id);
+      const { data: progressData, error: progressError } = await supabase
+        .from('user_verb_progress')
+        .select('*')
+        .eq('user_id', userId)
+        .in('verb_id', verbIds);
+
+      if (!progressError && progressData) {
+        userProgress = progressData as UserVerbProgress[];
+        usingSRS = true;
+      }
+    }
+
+    // Build combinations - use SRS-aware builder if user is authenticated
+    let validCombinations: ValidCombination[];
+    let dueCount = 0;
+    let newCount = 0;
+
+    if (usingSRS) {
+      // Use SRS-aware combination builder
+      const srsCombinations = buildSRSCombinations(
+        verbs as Verb[],
+        phaseList,
+        jlptLevel,
+        userProgress
+      );
+
+      // Count due and new items
+      dueCount = srsCombinations.filter(c => c.isDue && !c.isNew).length;
+      newCount = srsCombinations.filter(c => c.isNew).length;
+
+      // Filter based on SRS review mode
+      if (srsReviewMode === 'due_only') {
+        // Only show items that are due for review (not new)
+        validCombinations = srsCombinations.filter(c => c.isDue && !c.isNew);
+      } else if (srsReviewMode === 'new_only') {
+        // Only show new items (never reviewed)
+        validCombinations = srsCombinations.filter(c => c.isNew);
+      } else {
+        // Mixed mode - use all combinations (already sorted by priority)
+        validCombinations = srsCombinations;
+      }
+    } else {
+      // Fall back to weighted random selection (no SRS data)
+      validCombinations = buildValidCombinations(
+        verbs as Verb[],
+        phaseList,
+        jlptLevel
+      );
+    }
 
     if (validCombinations.length === 0) {
       return res.status(200).json({
@@ -662,6 +1086,13 @@ export default async function handler(req: VercelRequest, res: VercelResponse) {
         actualCount: questions.length,
         jlptLevel,
         phases: phaseList,
+        srs: {
+          enabled: usingSRS,
+          mode: srsReviewMode,
+          progressRecords: userProgress.length,
+          dueForReview: dueCount,
+          newItems: newCount,
+        },
       }
     });
   } catch (error) {
