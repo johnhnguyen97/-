@@ -260,10 +260,12 @@ export const DrillQuestionDisplay: React.FC<DrillQuestionDisplayProps> = ({
         </div>
       ) : (
         <div className="space-y-2">
-          {/* Single word mode */}
-          <div className="relative inline-block">
-            {/* Favorite & Note buttons */}
-            <div className={`absolute -top-6 -right-10 flex gap-0.5 z-20 p-1 rounded-lg shadow-sm border ${
+          {/* Single word mode - wrapped in conjugate box */}
+          <div className={`relative inline-block p-4 rounded-xl ${
+            isDark ? 'bg-amber-500/10 border border-amber-500/20' : 'bg-amber-50'
+          }`}>
+            {/* Favorite & Note buttons - inside box top-right */}
+            <div className={`absolute top-2 right-2 flex gap-0.5 z-20 p-1 rounded-lg shadow-sm border ${
               isDark ? 'bg-gray-800 border-gray-700' : 'bg-white border-gray-200'
             }`}>
               <FavoriteButton
@@ -280,6 +282,11 @@ export const DrillQuestionDisplay: React.FC<DrillQuestionDisplayProps> = ({
               />
             </div>
 
+            {/* Conjugate label */}
+            <span className={`text-sm block mb-2 ${isDark ? 'text-amber-400' : 'text-amber-600'}`}>
+              Conjugate this word:
+            </span>
+
             <div className="flex items-center justify-center gap-3">
               {showFurigana && sentence.reading ? (
                 <Furigana
@@ -288,26 +295,28 @@ export const DrillQuestionDisplay: React.FC<DrillQuestionDisplayProps> = ({
                   showFurigana={showFurigana}
                   romaji={sentence.romaji}
                   showRomaji={showRomaji}
-                  textClassName={`text-4xl font-bold ${theme.text}`}
-                  furiganaClassName={`text-[0.5em] ${theme.textMuted}`}
+                  textClassName={`text-4xl font-bold ${isDark ? 'text-amber-300' : 'text-amber-700'}`}
+                  furiganaClassName={`text-[0.5em] ${isDark ? 'text-amber-400' : 'text-amber-600'}`}
                 />
               ) : (
-                <span className={`text-4xl font-bold ${theme.text}`}>
+                <span className={`text-4xl font-bold ${isDark ? 'text-amber-300' : 'text-amber-700'}`}>
                   {sentence.japanese_base}
                 </span>
               )}
               <AudioButton text={sentence.japanese_base} size="lg" />
             </div>
+
+            {/* Romaji (shown separately if no furigana) */}
+            {showRomaji && sentence.romaji && !showFurigana && (
+              <div className={`text-sm font-mono mt-1 ${isDark ? 'text-amber-400' : 'text-amber-600'}`}>
+                {sentence.romaji}
+              </div>
+            )}
+
+            <span className={`text-sm mt-2 block ${isDark ? 'text-amber-400' : 'text-amber-600'}`}>
+              ({sentence.english})
+            </span>
           </div>
-
-          {/* Romaji (shown separately if no furigana) */}
-          {showRomaji && sentence.romaji && !showFurigana && (
-            <div className={`text-sm font-mono ${theme.textMuted}`}>
-              {sentence.romaji}
-            </div>
-          )}
-
-          <div className={`text-xl ${theme.textMuted}`}>({sentence.english})</div>
         </div>
       )}
 
