@@ -732,26 +732,15 @@ export function TodoWidget({ compact = false }: TodoWidgetProps) {
                 className={`w-full px-3 py-2 rounded-lg border text-sm focus:outline-none focus:ring-2 focus:ring-purple-500/50 resize-none ${theme.input}`}
               />
 
-              {/* Due Date & Time */}
-              <div className="flex gap-2">
-                <div className="flex-1">
-                  <label className={`block text-xs mb-1 ${theme.textMuted}`}>Due Date</label>
-                  <input
-                    type="date"
-                    value={taskForm.due_date}
-                    onChange={(e) => setTaskForm(f => ({ ...f, due_date: e.target.value }))}
-                    className={`w-full px-2 py-1.5 rounded-lg border text-xs focus:outline-none focus:ring-2 focus:ring-purple-500/50 ${theme.input}`}
-                  />
-                </div>
-                <div className="flex-1">
-                  <label className={`block text-xs mb-1 ${theme.textMuted}`}>Time</label>
-                  <input
-                    type="time"
-                    value={taskForm.due_time}
-                    onChange={(e) => setTaskForm(f => ({ ...f, due_time: e.target.value }))}
-                    className={`w-full px-2 py-1.5 rounded-lg border text-xs focus:outline-none focus:ring-2 focus:ring-purple-500/50 ${theme.input}`}
-                  />
-                </div>
+              {/* Due Date */}
+              <div>
+                <label className={`block text-xs mb-1 ${theme.textMuted}`}>Due Date</label>
+                <input
+                  type="date"
+                  value={taskForm.due_date}
+                  onChange={(e) => setTaskForm(f => ({ ...f, due_date: e.target.value }))}
+                  className={`w-full px-2 py-1.5 rounded-lg border text-xs focus:outline-none focus:ring-2 focus:ring-purple-500/50 ${theme.input}`}
+                />
               </div>
 
               {/* Priority */}
