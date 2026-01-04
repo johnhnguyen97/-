@@ -633,8 +633,8 @@ export function TodoWidget({ compact = false }: TodoWidgetProps) {
             onClick={() => setShowDetailModal(false)}
           />
 
-          {/* Modal - positioned top right like word note popup */}
-          <div className={`absolute top-16 right-4 w-72 rounded-xl border shadow-xl animate-fadeInUp overflow-hidden ${
+          {/* Modal - positioned top left near the todo widget */}
+          <div className={`absolute top-16 left-4 w-72 rounded-xl border shadow-xl animate-fadeInUp overflow-hidden ${
             isDark ? 'bg-[#1a1a2e] border-purple-500/30' : 'bg-white border-purple-200'
           }`}>
             {/* Header with gradient like word note popup */}
