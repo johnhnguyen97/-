@@ -363,12 +363,12 @@ export function TodoWidget({ compact = false }: TodoWidgetProps) {
   };
 
   const openDetailModal = () => {
-    // Calculate popup position - on left side near the TodoWidget
+    // Calculate popup position - more to the left
     if (addButtonRef.current) {
       const rect = addButtonRef.current.getBoundingClientRect();
       setPopupPosition({
         top: rect.top, // Align with button top
-        left: rect.left, // Align with button left edge
+        left: rect.left - 200, // Position further left
       });
     }
     setTaskForm({ title: newTodo, notes: '', due_date: '', due_time: '', priority: 0, subtasks: [] });
