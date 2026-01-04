@@ -1,4 +1,4 @@
-import { useState, useRef, useEffect } from 'react';
+import { useState, useRef, useEffect, useCallback } from 'react';
 import { useTheme } from '../../contexts/ThemeContext';
 import { FavoriteButton } from '../FavoriteButton';
 import { WordNoteButton } from '../WordNoteButton';
@@ -37,13 +37,13 @@ function formatDateKey(date: Date): string {
   return `${date.getFullYear()}-${String(date.getMonth() + 1).padStart(2, '0')}-${String(date.getDate()).padStart(2, '0')}`;
 }
 
-// Get days of the week for horizontal scroll
-function getWeekDays(centerDate: Date): Date[] {
+// Get extended days for smooth scrolling (2 weeks before and after)
+function getExtendedWeekDays(centerDate: Date): Date[] {
   const days: Date[] = [];
   const start = new Date(centerDate);
-  start.setDate(start.getDate() - 3); // 3 days before
+  start.setDate(start.getDate() - 7);
 
-  for (let i = 0; i < 7; i++) {
+  for (let i = 0; i < 15; i++) {
     const day = new Date(start);
     day.setDate(start.getDate() + i);
     days.push(day);
@@ -53,6 +53,32 @@ function getWeekDays(centerDate: Date): Date[] {
 
 // Japanese day names
 const WEEKDAY_SHORT = ['日', '月', '火', '水', '木', '金', '土'];
+
+// Swipe hook for gesture detection
+function useSwipe(onSwipeLeft: () => void, onSwipeRight: () => void, threshold = 50) {
+  const touchStart = useRef<number | null>(null);
+  const touchEnd = useRef<number | null>(null);
+
+  const onTouchStart = (e: React.TouchEvent) => {
+    touchEnd.current = null;
+    touchStart.current = e.targetTouches[0].clientX;
+  };
+
+  const onTouchMove = (e: React.TouchEvent) => {
+    touchEnd.current = e.targetTouches[0].clientX;
+  };
+
+  const onTouchEnd = () => {
+    if (!touchStart.current || !touchEnd.current) return;
+    const distance = touchStart.current - touchEnd.current;
+    if (Math.abs(distance) > threshold) {
+      if (distance > 0) onSwipeLeft();
+      else onSwipeRight();
+    }
+  };
+
+  return { onTouchStart, onTouchMove, onTouchEnd };
+}
 
 export function MobileCalendarView({
   currentYear,
@@ -66,26 +92,53 @@ export function MobileCalendarView({
   onJlptChange,
 }: MobileCalendarViewProps) {
   const { isDark } = useTheme();
-  const [activeTab, setActiveTab] = useState<'word' | 'kanji'>('word');
   const [showStrokeAnimation, setShowStrokeAnimation] = useState(false);
   const [showFullCalendar, setShowFullCalendar] = useState(false);
+  const [pressedDate, setPressedDate] = useState<string | null>(null);
   const weekScrollRef = useRef<HTMLDivElement>(null);
   const { speak, isSpeaking } = useSpeechSynthesis({ lang: 'ja-JP', rate: 0.8 });
+
+  // Swipe handlers for content area
+  const contentSwipe = useSwipe(
+    () => {
+      const next = new Date(selectedDate);
+      next.setDate(next.getDate() + 1);
+      onDateSelect(next);
+    },
+    () => {
+      const prev = new Date(selectedDate);
+      prev.setDate(prev.getDate() - 1);
+      onDateSelect(prev);
+    }
+  );
 
   // Get current day data
   const dateKey = formatDateKey(selectedDate);
   const currentDayData = dayData[dateKey] || {};
 
-  // Get week days for horizontal scroll
-  const weekDays = getWeekDays(selectedDate);
+  // Get extended week days for horizontal scroll
+  const weekDays = getExtendedWeekDays(selectedDate);
 
-  // Scroll to center on mount
-  useEffect(() => {
+  // Scroll to center on mount and when date changes
+  const scrollToCenter = useCallback(() => {
     if (weekScrollRef.current) {
-      const centerOffset = weekScrollRef.current.scrollWidth / 2 - weekScrollRef.current.clientWidth / 2;
-      weekScrollRef.current.scrollLeft = centerOffset;
+      const container = weekScrollRef.current;
+      const selectedElement = container.querySelector('[data-selected="true"]');
+      if (selectedElement) {
+        const containerWidth = container.clientWidth;
+        const elementLeft = (selectedElement as HTMLElement).offsetLeft;
+        const elementWidth = (selectedElement as HTMLElement).offsetWidth;
+        container.scrollTo({
+          left: elementLeft - containerWidth / 2 + elementWidth / 2,
+          behavior: 'smooth'
+        });
+      }
     }
-  }, [selectedDate]);
+  }, []);
+
+  useEffect(() => {
+    scrollToCenter();
+  }, [selectedDate, scrollToCenter]);
 
   const isToday = (date: Date) => {
     const today = new Date();
@@ -96,83 +149,103 @@ export function MobileCalendarView({
     return date.toDateString() === selectedDate.toDateString();
   };
 
-  // Theme colors
+  // Theme colors - enhanced glassmorphism
   const theme = {
-    bg: isDark ? 'bg-[#0f0f1a]' : 'bg-gradient-to-b from-slate-50 to-white',
-    card: isDark ? 'bg-[#1a1a2e]' : 'bg-white',
-    cardBorder: isDark ? 'border-white/10' : 'border-slate-200/60',
+    bg: isDark
+      ? 'bg-gradient-to-br from-[#0a0a12] via-[#0f0f1a] to-[#12121f]'
+      : 'bg-gradient-to-br from-violet-50 via-white to-purple-50',
+    card: isDark
+      ? 'bg-white/[0.03] backdrop-blur-xl'
+      : 'bg-white/70 backdrop-blur-xl',
+    cardBorder: isDark ? 'border-white/[0.08]' : 'border-white/60',
+    cardShadow: isDark
+      ? 'shadow-[0_8px_32px_rgba(0,0,0,0.4)]'
+      : 'shadow-[0_8px_32px_rgba(139,92,246,0.1)]',
     text: isDark ? 'text-white' : 'text-slate-900',
     textMuted: isDark ? 'text-slate-400' : 'text-slate-500',
     textSubtle: isDark ? 'text-slate-500' : 'text-slate-400',
     accent: 'from-violet-500 to-purple-600',
-    accentLight: isDark ? 'bg-violet-500/20' : 'bg-violet-100',
+    accentGlow: isDark ? 'shadow-violet-500/25' : 'shadow-violet-500/20',
   };
 
   return (
-    <div className={`min-h-screen ${theme.bg} pb-24`}>
-      {/* Header */}
-      <div className={`sticky top-0 z-40 ${isDark ? 'bg-[#0f0f1a]/95' : 'bg-white/95'} backdrop-blur-xl border-b ${theme.cardBorder}`}>
-        {/* Top Bar */}
-        <div className="px-4 pt-4 pb-3">
-          <div className="flex items-center justify-between">
-            <div>
-              <h1 className={`text-2xl font-bold ${theme.text}`}>
-                {currentMonth}月
-              </h1>
-              <p className={`text-sm ${theme.textMuted}`}>
-                {currentYear}年
-              </p>
-            </div>
-            <div className="flex items-center gap-2">
-              {/* JLPT Level Selector */}
-              <select
-                value={jlptLevel}
-                onChange={(e) => onJlptChange(e.target.value)}
-                className={`px-3 py-2 rounded-xl text-sm font-semibold border-2 transition-all ${
-                  isDark
-                    ? 'bg-violet-500/20 border-violet-500/30 text-violet-300'
-                    : 'bg-violet-50 border-violet-200 text-violet-700'
-                }`}
-              >
-                <option value="N5">N5</option>
-                <option value="N4">N4</option>
-                <option value="N3">N3</option>
-                <option value="N2">N2</option>
-                <option value="N1">N1</option>
-              </select>
+    <div className={`min-h-screen ${theme.bg} pb-24 overflow-hidden`}>
+      {/* Ambient background effects */}
+      <div className="fixed inset-0 pointer-events-none overflow-hidden">
+        <div className={`absolute -top-32 -right-32 w-64 h-64 rounded-full blur-[100px] ${
+          isDark ? 'bg-violet-600/20' : 'bg-violet-400/30'
+        }`} />
+        <div className={`absolute top-1/3 -left-32 w-48 h-48 rounded-full blur-[80px] ${
+          isDark ? 'bg-purple-600/15' : 'bg-purple-300/25'
+        }`} />
+        <div className={`absolute bottom-32 right-0 w-56 h-56 rounded-full blur-[90px] ${
+          isDark ? 'bg-indigo-600/15' : 'bg-indigo-300/20'
+        }`} />
+      </div>
 
-              {/* Calendar Toggle */}
+      {/* Header */}
+      <div className={`sticky top-0 z-40 ${isDark ? 'bg-[#0a0a12]/80' : 'bg-white/80'} backdrop-blur-2xl border-b ${theme.cardBorder}`}>
+        {/* Top Bar */}
+        <div className="px-5 pt-4 pb-3">
+          <div className="flex items-center justify-between">
+            <div className="flex items-center gap-3">
+              {/* Month/Year with tap to expand calendar */}
               <button
                 onClick={() => setShowFullCalendar(!showFullCalendar)}
-                className={`p-2.5 rounded-xl transition-all ${
-                  showFullCalendar
-                    ? 'bg-gradient-to-r from-violet-500 to-purple-600 text-white shadow-lg shadow-violet-500/30'
-                    : isDark ? 'bg-white/10 text-white' : 'bg-slate-100 text-slate-700'
-                }`}
+                className="flex items-center gap-2 active:scale-95 transition-transform"
               >
-                <svg className="w-5 h-5" fill="none" stroke="currentColor" viewBox="0 0 24 24">
-                  <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M8 7V3m8 4V3m-9 8h10M5 21h14a2 2 0 002-2V7a2 2 0 00-2-2H5a2 2 0 00-2 2v12a2 2 0 002 2z" />
+                <h1 className={`text-2xl font-bold ${theme.text}`}>
+                  {currentMonth}月 {currentYear}
+                </h1>
+                <svg
+                  className={`w-5 h-5 ${theme.textMuted} transition-transform duration-300 ${showFullCalendar ? 'rotate-180' : ''}`}
+                  fill="none"
+                  stroke="currentColor"
+                  viewBox="0 0 24 24"
+                >
+                  <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M19 9l-7 7-7-7" />
                 </svg>
               </button>
+            </div>
+
+            <div className="flex items-center gap-2">
+              {/* JLPT Level Pill */}
+              <div className={`flex items-center rounded-full p-1 ${
+                isDark ? 'bg-white/5' : 'bg-slate-100'
+              }`}>
+                {['N5', 'N4', 'N3', 'N2', 'N1'].map((level) => (
+                  <button
+                    key={level}
+                    onClick={() => onJlptChange(level)}
+                    className={`px-3 py-1.5 rounded-full text-xs font-bold transition-all duration-200 ${
+                      jlptLevel === level
+                        ? 'bg-gradient-to-r from-violet-500 to-purple-600 text-white shadow-lg'
+                        : `${theme.textMuted} hover:text-white`
+                    }`}
+                  >
+                    {level}
+                  </button>
+                ))}
+              </div>
             </div>
           </div>
         </div>
 
-        {/* Horizontal Week Scroll */}
+        {/* Horizontal Week Scroll - enhanced */}
         <div
           ref={weekScrollRef}
           className="flex gap-2 px-4 pb-4 overflow-x-auto scrollbar-hide scroll-smooth"
           style={{ scrollSnapType: 'x mandatory' }}
         >
-          {/* Previous Month Button */}
+          {/* Previous Week Button */}
           <button
             onClick={() => onMonthChange(-1)}
-            className={`flex-shrink-0 w-12 h-16 rounded-2xl flex items-center justify-center ${
-              isDark ? 'bg-white/5 text-slate-400' : 'bg-slate-100 text-slate-500'
+            className={`flex-shrink-0 w-10 h-[72px] rounded-2xl flex items-center justify-center transition-all active:scale-90 ${
+              isDark ? 'bg-white/5 text-slate-400 hover:bg-white/10' : 'bg-slate-100 text-slate-500 hover:bg-slate-200'
             }`}
           >
-            <svg className="w-5 h-5" fill="none" stroke="currentColor" viewBox="0 0 24 24">
-              <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M15 19l-7-7 7-7" />
+            <svg className="w-4 h-4" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+              <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2.5} d="M15 19l-7-7 7-7" />
             </svg>
           </button>
 
@@ -181,22 +254,31 @@ export function MobileCalendarView({
             const dayKey = formatDateKey(date);
             const hasData = dayData[dayKey]?.word || dayData[dayKey]?.kanji;
             const isHoliday = dayData[dayKey]?.isHoliday;
+            const isPressed = pressedDate === dayKey;
+            const selected = isSelected(date);
+            const today = isToday(date);
 
             return (
               <button
                 key={date.toISOString()}
+                data-selected={selected}
                 onClick={() => onDateSelect(date)}
-                className={`flex-shrink-0 w-14 py-2 rounded-2xl flex flex-col items-center justify-center transition-all duration-200 ${
-                  isSelected(date)
-                    ? 'bg-gradient-to-b from-violet-500 to-purple-600 text-white shadow-lg shadow-violet-500/30 scale-105'
-                    : isToday(date)
-                    ? isDark ? 'bg-violet-500/20 text-violet-300' : 'bg-violet-100 text-violet-700'
-                    : isDark ? 'bg-white/5' : 'bg-slate-50'
-                }`}
+                onTouchStart={() => setPressedDate(dayKey)}
+                onTouchEnd={() => setPressedDate(null)}
+                onMouseDown={() => setPressedDate(dayKey)}
+                onMouseUp={() => setPressedDate(null)}
+                onMouseLeave={() => setPressedDate(null)}
+                className={`flex-shrink-0 w-14 py-2.5 rounded-2xl flex flex-col items-center justify-center transition-all duration-200 ${
+                  selected
+                    ? `bg-gradient-to-b from-violet-500 to-purple-600 text-white shadow-lg ${theme.accentGlow} scale-105`
+                    : today
+                    ? isDark ? 'bg-violet-500/20 text-violet-300 ring-2 ring-violet-500/30' : 'bg-violet-100 text-violet-700 ring-2 ring-violet-300'
+                    : isDark ? 'bg-white/[0.03]' : 'bg-white/50'
+                } ${isPressed && !selected ? 'scale-95' : ''}`}
                 style={{ scrollSnapAlign: 'center' }}
               >
-                <span className={`text-[10px] font-medium ${
-                  isSelected(date) ? 'text-white/80' :
+                <span className={`text-[10px] font-semibold uppercase tracking-wide ${
+                  selected ? 'text-white/70' :
                   isHoliday || dayOfWeek === 0 ? 'text-red-500' :
                   dayOfWeek === 6 ? 'text-blue-500' :
                   theme.textMuted
@@ -204,32 +286,38 @@ export function MobileCalendarView({
                   {WEEKDAY_SHORT[dayOfWeek]}
                 </span>
                 <span className={`text-xl font-bold mt-0.5 ${
-                  isSelected(date) ? 'text-white' : theme.text
+                  selected ? 'text-white' : theme.text
                 }`}>
                   {date.getDate()}
                 </span>
-                {/* Indicator dot */}
-                {hasData && !isSelected(date) && (
-                  <div className={`w-1.5 h-1.5 rounded-full mt-1 ${
-                    isDark ? 'bg-violet-400' : 'bg-violet-500'
-                  }`} />
-                )}
-                {isSelected(date) && hasData && (
-                  <div className="w-1.5 h-1.5 rounded-full mt-1 bg-white/60" />
-                )}
+                {/* Enhanced indicator */}
+                <div className="h-1.5 mt-1 flex gap-0.5">
+                  {hasData && (
+                    <>
+                      <div className={`w-1.5 h-1.5 rounded-full ${
+                        selected ? 'bg-white/70' : 'bg-violet-500'
+                      }`} />
+                      {dayData[dayKey]?.kanji && (
+                        <div className={`w-1.5 h-1.5 rounded-full ${
+                          selected ? 'bg-white/50' : 'bg-indigo-400'
+                        }`} />
+                      )}
+                    </>
+                  )}
+                </div>
               </button>
             );
           })}
 
-          {/* Next Month Button */}
+          {/* Next Week Button */}
           <button
             onClick={() => onMonthChange(1)}
-            className={`flex-shrink-0 w-12 h-16 rounded-2xl flex items-center justify-center ${
-              isDark ? 'bg-white/5 text-slate-400' : 'bg-slate-100 text-slate-500'
+            className={`flex-shrink-0 w-10 h-[72px] rounded-2xl flex items-center justify-center transition-all active:scale-90 ${
+              isDark ? 'bg-white/5 text-slate-400 hover:bg-white/10' : 'bg-slate-100 text-slate-500 hover:bg-slate-200'
             }`}
           >
-            <svg className="w-5 h-5" fill="none" stroke="currentColor" viewBox="0 0 24 24">
-              <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M9 5l7 7-7 7" />
+            <svg className="w-4 h-4" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+              <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2.5} d="M9 5l7 7-7 7" />
             </svg>
           </button>
         </div>
@@ -247,27 +335,51 @@ export function MobileCalendarView({
             onDateSelect(date);
             setShowFullCalendar(false);
           }}
+          onMonthChange={onMonthChange}
         />
       )}
 
-      {/* Content Cards */}
-      <div className="px-4 pt-4 space-y-4">
-        {/* Date Header Card */}
-        <div className={`${theme.card} rounded-3xl p-4 border ${theme.cardBorder} shadow-sm`}>
+      {/* Content Cards - with swipe gesture */}
+      <div
+        className="px-4 pt-4 space-y-4 relative z-10"
+        {...contentSwipe}
+      >
+        {/* Date Header - Compact */}
+        <div className={`${theme.card} rounded-3xl p-4 border ${theme.cardBorder} ${theme.cardShadow}`}>
           <div className="flex items-center justify-between">
-            <div>
-              <p className={`text-xs font-medium ${theme.textMuted} uppercase tracking-wider`}>
-                {selectedDate.toLocaleDateString('en-US', { weekday: 'long' })}
-              </p>
-              <h2 className={`text-2xl font-bold ${theme.text} mt-0.5`}>
-                {selectedDate.toLocaleDateString('ja-JP', { month: 'long', day: 'numeric' })}
-              </h2>
+            <div className="flex items-center gap-3">
+              {/* Day Circle */}
+              <div className={`w-14 h-14 rounded-2xl flex flex-col items-center justify-center ${
+                isToday(selectedDate)
+                  ? 'bg-gradient-to-br from-violet-500 to-purple-600 text-white'
+                  : isDark ? 'bg-white/5' : 'bg-slate-100'
+              }`}>
+                <span className={`text-[10px] font-semibold uppercase ${
+                  isToday(selectedDate) ? 'text-white/70' : theme.textMuted
+                }`}>
+                  {selectedDate.toLocaleDateString('en-US', { weekday: 'short' })}
+                </span>
+                <span className={`text-xl font-bold ${
+                  isToday(selectedDate) ? 'text-white' : theme.text
+                }`}>
+                  {selectedDate.getDate()}
+                </span>
+              </div>
+              <div>
+                <p className={`text-sm ${theme.textMuted}`}>
+                  {selectedDate.toLocaleDateString('en-US', { month: 'long', year: 'numeric' })}
+                </p>
+                <h2 className={`text-lg font-bold ${theme.text}`}>
+                  {selectedDate.toLocaleDateString('ja-JP', { month: 'long', day: 'numeric' })}
+                </h2>
+              </div>
             </div>
+
             {/* Today Button */}
             {!isToday(selectedDate) && (
               <button
                 onClick={() => onDateSelect(new Date())}
-                className="px-4 py-2 rounded-xl text-sm font-semibold bg-gradient-to-r from-violet-500 to-purple-600 text-white shadow-lg shadow-violet-500/25"
+                className="px-4 py-2 rounded-xl text-sm font-semibold bg-gradient-to-r from-violet-500 to-purple-600 text-white shadow-lg shadow-violet-500/25 active:scale-95 transition-transform"
               >
                 今日
               </button>
@@ -277,12 +389,12 @@ export function MobileCalendarView({
           {/* Holiday Banner */}
           {currentDayData.isHoliday && currentDayData.holidayName && (
             <div className={`mt-3 px-4 py-3 rounded-2xl ${
-              isDark ? 'bg-amber-500/20' : 'bg-amber-50'
+              isDark ? 'bg-amber-500/10 border border-amber-500/20' : 'bg-amber-50 border border-amber-200'
             } flex items-center gap-3`}>
               <span className="text-2xl">🎌</span>
               <div>
-                <p className={`text-sm font-semibold ${isDark ? 'text-amber-300' : 'text-amber-700'}`}>
-                  祝日
+                <p className={`text-xs font-semibold uppercase tracking-wide ${isDark ? 'text-amber-400' : 'text-amber-600'}`}>
+                  祝日 Holiday
                 </p>
                 <p className={`font-bold ${isDark ? 'text-amber-200' : 'text-amber-800'}`}>
                   {currentDayData.holidayName}
@@ -292,228 +404,280 @@ export function MobileCalendarView({
           )}
         </div>
 
-        {/* Tab Selector */}
-        <div className={`${theme.card} rounded-2xl p-1.5 border ${theme.cardBorder} flex gap-1`}>
+        {/* Combined Word + Kanji Cards */}
+        {isLoading ? (
+          <div className={`${theme.card} rounded-3xl p-12 border ${theme.cardBorder} ${theme.cardShadow} flex items-center justify-center`}>
+            <div className="flex flex-col items-center gap-3">
+              <div className="w-10 h-10 border-3 border-violet-500 border-t-transparent rounded-full animate-spin" />
+              <p className={theme.textMuted}>読み込み中...</p>
+            </div>
+          </div>
+        ) : (
+          <>
+            {/* Word Card */}
+            {currentDayData.word && (
+              <WordCard
+                data={currentDayData}
+                isDark={isDark}
+                theme={theme}
+                speak={speak}
+                isSpeaking={isSpeaking}
+              />
+            )}
+
+            {/* Kanji Card */}
+            {currentDayData.kanji && (
+              <KanjiCard
+                data={currentDayData}
+                isDark={isDark}
+                theme={theme}
+                speak={speak}
+                isSpeaking={isSpeaking}
+                showStrokeAnimation={showStrokeAnimation}
+                setShowStrokeAnimation={setShowStrokeAnimation}
+              />
+            )}
+
+            {/* Empty State */}
+            {!currentDayData.word && !currentDayData.kanji && (
+              <div className={`${theme.card} rounded-3xl p-8 border ${theme.cardBorder} ${theme.cardShadow} text-center`}>
+                <div className={`w-20 h-20 mx-auto rounded-3xl ${isDark ? 'bg-white/5' : 'bg-slate-100'} flex items-center justify-center mb-4`}>
+                  <span className="text-4xl">📚</span>
+                </div>
+                <h3 className={`font-bold text-lg ${theme.text} mb-1`}>No content for this day</h3>
+                <p className={theme.textMuted}>この日のコンテンツはありません</p>
+              </div>
+            )}
+          </>
+        )}
+      </div>
+    </div>
+  );
+}
+
+// Word Card Component
+function WordCard({
+  data,
+  isDark,
+  theme,
+  speak,
+  isSpeaking,
+}: {
+  data: DayData;
+  isDark: boolean;
+  theme: Record<string, string>;
+  speak: (text: string) => void;
+  isSpeaking: (text: string) => boolean;
+}) {
+  const [isPressed, setIsPressed] = useState(false);
+
+  return (
+    <div
+      className={`${theme.card} rounded-3xl border ${theme.cardBorder} ${theme.cardShadow} overflow-hidden transition-transform duration-200 ${isPressed ? 'scale-[0.98]' : ''}`}
+      onTouchStart={() => setIsPressed(true)}
+      onTouchEnd={() => setIsPressed(false)}
+    >
+      {/* Header */}
+      <div className={`px-5 py-3 flex items-center justify-between border-b ${theme.cardBorder}`}>
+        <div className="flex items-center gap-2">
+          <div className={`w-8 h-8 rounded-lg flex items-center justify-center ${
+            isDark ? 'bg-violet-500/20' : 'bg-violet-100'
+          }`}>
+            <span className="text-sm">📖</span>
+          </div>
+          <div>
+            <h3 className={`font-bold text-sm ${theme.text}`}>今日の単語</h3>
+            <p className={`text-[10px] ${theme.textMuted}`}>Word of the Day</p>
+          </div>
+        </div>
+        <div className="flex items-center gap-1">
+          <FavoriteButton
+            word={data.word || ''}
+            reading={data.wordReading || ''}
+            english={data.wordMeaning || ''}
+            partOfSpeech={data.wordPartOfSpeech?.toLowerCase() as 'noun' | 'verb'}
+          />
+          <WordNoteButton
+            word={data.word || ''}
+            reading={data.wordReading || ''}
+            english={data.wordMeaning || ''}
+          />
+        </div>
+      </div>
+
+      {/* Content */}
+      <div className="p-5">
+        {/* Part of speech */}
+        {data.wordPartOfSpeech && (
+          <div className="flex justify-center mb-3">
+            <span className={`px-3 py-1 rounded-full text-xs font-semibold ${
+              isDark ? 'bg-violet-500/20 text-violet-300' : 'bg-violet-100 text-violet-700'
+            }`}>
+              {data.wordPartOfSpeech}
+            </span>
+          </div>
+        )}
+
+        {/* Main word with audio */}
+        <div className="text-center">
           <button
-            onClick={() => setActiveTab('word')}
-            className={`flex-1 py-3 rounded-xl text-sm font-semibold transition-all ${
-              activeTab === 'word'
-                ? 'bg-gradient-to-r from-violet-500 to-purple-600 text-white shadow-lg'
-                : isDark ? 'text-slate-400' : 'text-slate-600'
-            }`}
+            onClick={() => speak(data.word || '')}
+            className="group relative inline-block"
           >
-            <span className="mr-1.5">📖</span>
-            今日の単語
+            <p className={`text-5xl font-bold ${theme.text} group-active:scale-95 transition-transform`}>
+              {data.word}
+            </p>
+            {/* Audio indicator */}
+            <div className={`absolute -right-8 top-1/2 -translate-y-1/2 w-6 h-6 rounded-full flex items-center justify-center transition-all ${
+              isSpeaking(data.word || '')
+                ? 'bg-violet-500 text-white scale-110'
+                : `${isDark ? 'bg-white/10' : 'bg-slate-100'} opacity-0 group-hover:opacity-100`
+            }`}>
+              <span className="text-xs">🔊</span>
+            </div>
           </button>
+          <p className={`text-xl mt-2 ${isDark ? 'text-violet-400' : 'text-violet-600'}`}>
+            {data.wordReading}
+          </p>
+        </div>
+
+        {/* Meaning */}
+        <p className={`mt-4 text-center text-lg ${theme.textMuted}`}>
+          {data.wordMeaning}
+        </p>
+      </div>
+    </div>
+  );
+}
+
+// Kanji Card Component
+function KanjiCard({
+  data,
+  isDark,
+  theme,
+  speak,
+  isSpeaking,
+  showStrokeAnimation,
+  setShowStrokeAnimation,
+}: {
+  data: DayData;
+  isDark: boolean;
+  theme: Record<string, string>;
+  speak: (text: string) => void;
+  isSpeaking: (text: string) => boolean;
+  showStrokeAnimation: boolean;
+  setShowStrokeAnimation: (show: boolean) => void;
+}) {
+  const [isPressed, setIsPressed] = useState(false);
+
+  return (
+    <div
+      className={`${theme.card} rounded-3xl border ${theme.cardBorder} ${theme.cardShadow} overflow-hidden transition-transform duration-200 ${isPressed ? 'scale-[0.98]' : ''}`}
+      onTouchStart={() => setIsPressed(true)}
+      onTouchEnd={() => setIsPressed(false)}
+    >
+      {/* Header */}
+      <div className={`px-5 py-3 flex items-center justify-between border-b ${theme.cardBorder}`}>
+        <div className="flex items-center gap-2">
+          <div className={`w-8 h-8 rounded-lg flex items-center justify-center ${
+            isDark ? 'bg-indigo-500/20' : 'bg-indigo-100'
+          }`}>
+            <span className={`text-sm font-bold ${isDark ? 'text-indigo-400' : 'text-indigo-600'}`}>漢</span>
+          </div>
+          <div>
+            <h3 className={`font-bold text-sm ${theme.text}`}>今日の漢字</h3>
+            <p className={`text-[10px] ${theme.textMuted}`}>Kanji of the Day</p>
+          </div>
+        </div>
+        <div className="flex items-center gap-1">
+          {data.kanjiStrokeCount && (
+            <span className={`px-2 py-1 rounded-lg text-xs font-medium ${
+              isDark ? 'bg-white/5 text-slate-400' : 'bg-slate-100 text-slate-600'
+            }`}>
+              {data.kanjiStrokeCount}画
+            </span>
+          )}
+          <FavoriteButton
+            word={data.kanji || ''}
+            reading={data.kanjiReading || ''}
+            english={data.kanjiMeaning || ''}
+            partOfSpeech="kanji"
+          />
+          <WordNoteButton
+            word={data.kanji || ''}
+            reading={data.kanjiReading || ''}
+            english={data.kanjiMeaning || ''}
+          />
+        </div>
+      </div>
+
+      {/* Content */}
+      <div className="p-5">
+        {/* Main kanji with audio */}
+        <div className="text-center">
           <button
-            onClick={() => setActiveTab('kanji')}
-            className={`flex-1 py-3 rounded-xl text-sm font-semibold transition-all ${
-              activeTab === 'kanji'
-                ? 'bg-gradient-to-r from-violet-500 to-purple-600 text-white shadow-lg'
-                : isDark ? 'text-slate-400' : 'text-slate-600'
-            }`}
+            onClick={() => speak(data.kanji || '')}
+            className="group relative inline-block"
           >
-            <span className="mr-1.5">漢</span>
-            今日の漢字
+            <p className={`text-7xl font-bold ${theme.text} group-active:scale-95 transition-transform`}>
+              {data.kanji}
+            </p>
+            {/* Audio indicator */}
+            <div className={`absolute -right-8 top-1/2 -translate-y-1/2 w-6 h-6 rounded-full flex items-center justify-center transition-all ${
+              isSpeaking(data.kanji || '')
+                ? 'bg-indigo-500 text-white scale-110'
+                : `${isDark ? 'bg-white/10' : 'bg-slate-100'} opacity-0 group-hover:opacity-100`
+            }`}>
+              <span className="text-xs">🔊</span>
+            </div>
           </button>
         </div>
 
-        {/* Word Card */}
-        {activeTab === 'word' && (
-          <div className={`${theme.card} rounded-3xl border ${theme.cardBorder} shadow-sm overflow-hidden`}>
-            {isLoading ? (
-              <div className="p-8 flex items-center justify-center">
-                <div className="w-8 h-8 border-3 border-violet-500 border-t-transparent rounded-full animate-spin" />
-              </div>
-            ) : currentDayData.word ? (
-              <>
-                {/* Word Display */}
-                <div className="p-6 text-center relative">
-                  {/* Action buttons */}
-                  <div className="absolute top-4 right-4 flex gap-1">
-                    <FavoriteButton
-                      word={currentDayData.word}
-                      reading={currentDayData.wordReading || ''}
-                      english={currentDayData.wordMeaning || ''}
-                      partOfSpeech={currentDayData.wordPartOfSpeech?.toLowerCase() as 'noun' | 'verb'}
-                    />
-                    <WordNoteButton
-                      word={currentDayData.word}
-                      reading={currentDayData.wordReading || ''}
-                      english={currentDayData.wordMeaning || ''}
-                    />
-                  </div>
+        {/* Meaning */}
+        <p className={`mt-3 text-center text-xl font-medium ${isDark ? 'text-indigo-400' : 'text-indigo-600'}`}>
+          {data.kanjiMeaning}
+        </p>
 
-                  {/* Part of speech badge */}
-                  {currentDayData.wordPartOfSpeech && (
-                    <span className={`inline-block px-3 py-1 rounded-full text-xs font-medium ${
-                      isDark ? 'bg-violet-500/20 text-violet-300' : 'bg-violet-100 text-violet-700'
-                    }`}>
-                      {currentDayData.wordPartOfSpeech}
-                    </span>
-                  )}
+        {/* Readings - horizontal pills */}
+        <div className="flex flex-wrap justify-center gap-2 mt-4">
+          {data.kanjiOnyomi && data.kanjiOnyomi.length > 0 && (
+            <div className={`px-4 py-2 rounded-2xl ${isDark ? 'bg-purple-500/10' : 'bg-purple-50'}`}>
+              <span className={`text-xs ${isDark ? 'text-purple-400' : 'text-purple-600'}`}>音 </span>
+              <span className={`font-bold ${isDark ? 'text-purple-300' : 'text-purple-700'}`}>
+                {data.kanjiOnyomi.slice(0, 2).join('・')}
+              </span>
+            </div>
+          )}
+          {data.kanjiKunyomi && data.kanjiKunyomi.length > 0 && (
+            <div className={`px-4 py-2 rounded-2xl ${isDark ? 'bg-blue-500/10' : 'bg-blue-50'}`}>
+              <span className={`text-xs ${isDark ? 'text-blue-400' : 'text-blue-600'}`}>訓 </span>
+              <span className={`font-bold ${isDark ? 'text-blue-300' : 'text-blue-700'}`}>
+                {data.kanjiKunyomi.slice(0, 2).join('・')}
+              </span>
+            </div>
+          )}
+        </div>
 
-                  {/* Main word */}
-                  <div className="mt-4">
-                    <p className={`text-5xl font-bold ${theme.text}`}>
-                      {currentDayData.word}
-                    </p>
-                    <p className={`text-xl mt-2 ${isDark ? 'text-violet-400' : 'text-violet-600'}`}>
-                      {currentDayData.wordReading}
-                    </p>
-                  </div>
-
-                  {/* Meaning */}
-                  <p className={`mt-4 text-lg ${theme.textMuted}`}>
-                    {currentDayData.wordMeaning}
-                  </p>
-
-                  {/* Audio Button */}
-                  <button
-                    onClick={() => speak(currentDayData.word || '')}
-                    className={`mt-6 px-6 py-3 rounded-2xl font-semibold flex items-center gap-2 mx-auto transition-all ${
-                      isSpeaking(currentDayData.word || '')
-                        ? 'bg-gradient-to-r from-violet-500 to-purple-600 text-white scale-105 shadow-lg'
-                        : isDark ? 'bg-white/10 text-white hover:bg-white/20' : 'bg-slate-100 text-slate-700 hover:bg-slate-200'
-                    }`}
-                  >
-                    <span className="text-xl">🔊</span>
-                    <span>発音を聞く</span>
-                  </button>
-                </div>
-              </>
-            ) : (
-              <div className="p-8 text-center">
-                <div className={`w-16 h-16 mx-auto rounded-2xl ${theme.accentLight} flex items-center justify-center mb-3`}>
-                  <span className="text-3xl">📖</span>
-                </div>
-                <p className={theme.textMuted}>この日の単語はありません</p>
-              </div>
-            )}
-          </div>
-        )}
-
-        {/* Kanji Card */}
-        {activeTab === 'kanji' && (
-          <div className={`${theme.card} rounded-3xl border ${theme.cardBorder} shadow-sm overflow-hidden`}>
-            {isLoading ? (
-              <div className="p-8 flex items-center justify-center">
-                <div className="w-8 h-8 border-3 border-violet-500 border-t-transparent rounded-full animate-spin" />
-              </div>
-            ) : currentDayData.kanji ? (
-              <>
-                {/* Kanji Display */}
-                <div className="p-6 text-center relative">
-                  {/* Action buttons */}
-                  <div className="absolute top-4 right-4 flex gap-1">
-                    <FavoriteButton
-                      word={currentDayData.kanji}
-                      reading={currentDayData.kanjiReading || ''}
-                      english={currentDayData.kanjiMeaning || ''}
-                      partOfSpeech="kanji"
-                    />
-                    <WordNoteButton
-                      word={currentDayData.kanji}
-                      reading={currentDayData.kanjiReading || ''}
-                      english={currentDayData.kanjiMeaning || ''}
-                    />
-                  </div>
-
-                  {/* Stroke count badge */}
-                  {currentDayData.kanjiStrokeCount && (
-                    <span className={`inline-block px-3 py-1 rounded-full text-xs font-medium ${
-                      isDark ? 'bg-indigo-500/20 text-indigo-300' : 'bg-indigo-100 text-indigo-700'
-                    }`}>
-                      {currentDayData.kanjiStrokeCount} strokes
-                    </span>
-                  )}
-
-                  {/* Main kanji */}
-                  <div className="mt-4">
-                    <p className={`text-7xl font-bold ${theme.text}`}>
-                      {currentDayData.kanji}
-                    </p>
-                  </div>
-
-                  {/* Meaning */}
-                  <p className={`mt-4 text-xl font-medium ${isDark ? 'text-indigo-400' : 'text-indigo-600'}`}>
-                    {currentDayData.kanjiMeaning}
-                  </p>
-
-                  {/* Readings */}
-                  <div className="grid grid-cols-2 gap-3 mt-6">
-                    {currentDayData.kanjiOnyomi && currentDayData.kanjiOnyomi.length > 0 && (
-                      <div className={`p-3 rounded-2xl ${isDark ? 'bg-white/5' : 'bg-slate-50'}`}>
-                        <p className={`text-xs font-medium ${theme.textSubtle} mb-1`}>音読み</p>
-                        <p className={`font-bold ${isDark ? 'text-purple-400' : 'text-purple-600'}`}>
-                          {currentDayData.kanjiOnyomi.slice(0, 2).join('、')}
-                        </p>
-                      </div>
-                    )}
-                    {currentDayData.kanjiKunyomi && currentDayData.kanjiKunyomi.length > 0 && (
-                      <div className={`p-3 rounded-2xl ${isDark ? 'bg-white/5' : 'bg-slate-50'}`}>
-                        <p className={`text-xs font-medium ${theme.textSubtle} mb-1`}>訓読み</p>
-                        <p className={`font-bold ${isDark ? 'text-blue-400' : 'text-blue-600'}`}>
-                          {currentDayData.kanjiKunyomi.slice(0, 2).join('、')}
-                        </p>
-                      </div>
-                    )}
-                  </div>
-
-                  {/* Action Buttons */}
-                  <div className="flex gap-2 mt-6">
-                    <button
-                      onClick={() => speak(currentDayData.kanji || '')}
-                      className={`flex-1 py-3 rounded-2xl font-semibold flex items-center justify-center gap-2 transition-all ${
-                        isSpeaking(currentDayData.kanji || '')
-                          ? 'bg-gradient-to-r from-indigo-500 to-purple-600 text-white scale-105'
-                          : isDark ? 'bg-white/10 text-white' : 'bg-slate-100 text-slate-700'
-                      }`}
-                    >
-                      <span>🔊</span>
-                      <span>発音</span>
-                    </button>
-                    <button
-                      onClick={() => setShowStrokeAnimation(true)}
-                      className={`flex-1 py-3 rounded-2xl font-semibold flex items-center justify-center gap-2 ${
-                        isDark ? 'bg-indigo-500/20 text-indigo-300' : 'bg-indigo-100 text-indigo-700'
-                      }`}
-                    >
-                      <span>✏️</span>
-                      <span>書き順</span>
-                    </button>
-                  </div>
-                </div>
-
-                {/* Stroke Animation Panel */}
-                {showStrokeAnimation && (
-                  <div className={`border-t ${theme.cardBorder} p-4`}>
-                    <div className="flex items-center justify-between mb-3">
-                      <h3 className={`font-semibold ${theme.text}`}>書き順アニメーション</h3>
-                      <button
-                        onClick={() => setShowStrokeAnimation(false)}
-                        className={`p-1.5 rounded-lg ${isDark ? 'hover:bg-white/10' : 'hover:bg-slate-100'}`}
-                      >
-                        <svg className="w-5 h-5" fill="none" stroke="currentColor" viewBox="0 0 24 24">
-                          <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M6 18L18 6M6 6l12 12" />
-                        </svg>
-                      </button>
-                    </div>
-                    <StrokeAnimation character={currentDayData.kanji} isDark={isDark} />
-                  </div>
-                )}
-              </>
-            ) : (
-              <div className="p-8 text-center">
-                <div className={`w-16 h-16 mx-auto rounded-2xl ${theme.accentLight} flex items-center justify-center mb-3`}>
-                  <span className="text-3xl">漢</span>
-                </div>
-                <p className={theme.textMuted}>この日の漢字はありません</p>
-              </div>
-            )}
-          </div>
-        )}
+        {/* Stroke Animation Toggle */}
+        <button
+          onClick={() => setShowStrokeAnimation(!showStrokeAnimation)}
+          className={`w-full mt-4 py-3 rounded-2xl font-semibold flex items-center justify-center gap-2 transition-all active:scale-95 ${
+            showStrokeAnimation
+              ? 'bg-gradient-to-r from-indigo-500 to-purple-600 text-white shadow-lg'
+              : isDark ? 'bg-white/5 text-slate-300 hover:bg-white/10' : 'bg-slate-100 text-slate-700 hover:bg-slate-200'
+          }`}
+        >
+          <span>✏️</span>
+          <span>{showStrokeAnimation ? '書き順を隠す' : '書き順を見る'}</span>
+        </button>
       </div>
+
+      {/* Stroke Animation Panel */}
+      {showStrokeAnimation && (
+        <div className={`border-t ${theme.cardBorder} p-4 animate-fadeInUp`}>
+          <StrokeAnimation character={data.kanji || ''} isDark={isDark} />
+        </div>
+      )}
     </div>
   );
 }
@@ -526,6 +690,7 @@ function FullMonthGrid({
   dayData,
   isDark,
   onDateSelect,
+  onMonthChange,
 }: {
   year: number;
   month: number;
@@ -533,6 +698,7 @@ function FullMonthGrid({
   dayData: Record<string, DayData>;
   isDark: boolean;
   onDateSelect: (date: Date) => void;
+  onMonthChange: (delta: number) => void;
 }) {
   const weekDays = ['月', '火', '水', '木', '金', '土', '日'];
 
@@ -572,15 +738,42 @@ function FullMonthGrid({
   const isSelected = (date: Date) => date.toDateString() === selectedDate.toDateString();
 
   return (
-    <div className={`mx-4 mt-4 rounded-3xl overflow-hidden border ${
-      isDark ? 'bg-[#1a1a2e] border-white/10' : 'bg-white border-slate-200'
-    } shadow-lg animate-fadeInUp`}>
+    <div className={`mx-4 mt-2 rounded-3xl overflow-hidden border ${
+      isDark ? 'bg-[#1a1a2e]/90 backdrop-blur-xl border-white/10' : 'bg-white/90 backdrop-blur-xl border-slate-200'
+    } shadow-2xl animate-fadeInUp`}>
+      {/* Month navigation */}
+      <div className={`flex items-center justify-between px-4 py-3 border-b ${isDark ? 'border-white/10' : 'border-slate-100'}`}>
+        <button
+          onClick={() => onMonthChange(-1)}
+          className={`p-2 rounded-xl transition-all active:scale-90 ${
+            isDark ? 'hover:bg-white/10' : 'hover:bg-slate-100'
+          }`}
+        >
+          <svg className="w-5 h-5" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+            <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M15 19l-7-7 7-7" />
+          </svg>
+        </button>
+        <h3 className={`font-bold ${isDark ? 'text-white' : 'text-slate-800'}`}>
+          {year}年 {month}月
+        </h3>
+        <button
+          onClick={() => onMonthChange(1)}
+          className={`p-2 rounded-xl transition-all active:scale-90 ${
+            isDark ? 'hover:bg-white/10' : 'hover:bg-slate-100'
+          }`}
+        >
+          <svg className="w-5 h-5" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+            <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M9 5l7 7-7 7" />
+          </svg>
+        </button>
+      </div>
+
       {/* Week headers */}
       <div className="grid grid-cols-7 border-b border-slate-200 dark:border-white/10">
         {weekDays.map((day, idx) => (
           <div
             key={day}
-            className={`py-2 text-center text-xs font-semibold ${
+            className={`py-2 text-center text-xs font-bold ${
               idx === 5 ? 'text-blue-500' : idx === 6 ? 'text-red-500' : isDark ? 'text-slate-400' : 'text-slate-500'
             }`}
           >
@@ -590,7 +783,7 @@ function FullMonthGrid({
       </div>
 
       {/* Days grid */}
-      <div className="grid grid-cols-7">
+      <div className="grid grid-cols-7 p-1">
         {days.map(({ date, day, isCurrentMonth }, idx) => {
           const dateKey = formatDateKey(date);
           const data = dayData[dateKey];
@@ -601,11 +794,16 @@ function FullMonthGrid({
             <button
               key={idx}
               onClick={() => onDateSelect(date)}
-              className={`aspect-square p-1 flex flex-col items-center justify-center transition-all ${
+              className={`aspect-square m-0.5 rounded-xl flex flex-col items-center justify-center transition-all active:scale-90 ${
                 !isCurrentMonth ? 'opacity-30' : ''
-              } ${isSelected(date) ? 'bg-violet-500 text-white' : ''}`}
+              } ${isSelected(date)
+                ? 'bg-gradient-to-br from-violet-500 to-purple-600 text-white shadow-lg'
+                : isToday(date)
+                ? isDark ? 'bg-violet-500/20 ring-1 ring-violet-500/50' : 'bg-violet-100 ring-1 ring-violet-300'
+                : isDark ? 'hover:bg-white/5' : 'hover:bg-slate-50'
+              }`}
             >
-              <span className={`text-sm font-medium ${
+              <span className={`text-sm font-semibold ${
                 isSelected(date) ? 'text-white' :
                 isToday(date) ? 'text-violet-500 font-bold' :
                 data?.isHoliday || dayOfWeek === 0 ? 'text-red-500' :
@@ -616,7 +814,7 @@ function FullMonthGrid({
               </span>
               {hasData && (
                 <div className={`w-1 h-1 rounded-full mt-0.5 ${
-                  isSelected(date) ? 'bg-white/60' : 'bg-violet-500'
+                  isSelected(date) ? 'bg-white/70' : 'bg-violet-500'
                 }`} />
               )}
             </button>
