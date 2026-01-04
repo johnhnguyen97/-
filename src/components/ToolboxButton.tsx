@@ -77,7 +77,8 @@ export function ToolboxButton() {
       )}
 
       {/* Fixed button stack - right side: Settings → Kanji → Toolbox (bottom to top visually) */}
-      <div className="fixed bottom-20 md:bottom-6 right-4 sm:right-6 z-40 flex flex-col items-center gap-3">
+      {/* Positioned above the bottom nav on mobile (bottom-28 = 112px to clear the nav) */}
+      <div className="fixed bottom-28 md:bottom-6 right-4 sm:right-6 z-40 flex flex-col items-center gap-2">
         {/* Settings Button - Top */}
         <Link
           to="/settings"
