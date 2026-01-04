@@ -388,9 +388,15 @@ function generateMCOptions(
     english: getConjugationEnglish(toFormKey),
   }];
 
-  // Get other forms as distractors
+  // Forms to exclude from distractors:
+  // - The correct answer form (toFormKey)
+  // - Dictionary form (gives away the base verb - makes it too easy!)
+  // - plain_positive (same as dictionary)
+  const excludeForms = new Set([toFormKey, 'dictionary', 'plain_positive']);
+
+  // Get other forms as distractors (excluding dictionary form)
   const otherForms = Object.entries(allConjugations)
-    .filter(([key]) => key !== toFormKey)
+    .filter(([key]) => !excludeForms.has(key))
     .map(([key, val]) => ({
       id: key,
       text: val.kanji,
