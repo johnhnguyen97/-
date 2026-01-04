@@ -43,6 +43,7 @@ export function TodoWidget({ compact = false }: TodoWidgetProps) {
   const { isDark } = useTheme();
   const { session } = useAuth();
   const [todos, setTodos] = useState<TodoItem[]>([]);
+  const [newTodo, setNewTodo] = useState('');
   const [isLoading, setIsLoading] = useState(false);
   const [isSyncing, setIsSyncing] = useState(false);
   const [googleConnected, setGoogleConnected] = useState(false);
@@ -355,7 +356,8 @@ export function TodoWidget({ compact = false }: TodoWidgetProps) {
   };
 
   const openDetailModal = () => {
-    setTaskForm({ title: '', notes: '', due_date: '', due_time: '', priority: 0 });
+    setTaskForm({ title: newTodo, notes: '', due_date: '', due_time: '', priority: 0 });
+    setNewTodo('');
     setShowDetailModal(true);
   };
 
@@ -500,16 +502,16 @@ export function TodoWidget({ compact = false }: TodoWidgetProps) {
         </div>
       )}
 
-      {/* Input - clicks open detail modal */}
+      {/* Input */}
       <div className="flex gap-2">
-        <button
-          onClick={openDetailModal}
-          className={`flex-1 px-3 py-2 rounded-lg border text-sm text-left ${theme.input} ${
-            isDark ? 'hover:bg-white/10' : 'hover:bg-slate-50'
-          } transition-all`}
-        >
-          <span className={isDark ? 'text-gray-500' : 'text-slate-400'}>Add a task...</span>
-        </button>
+        <input
+          type="text"
+          value={newTodo}
+          onChange={(e) => setNewTodo(e.target.value)}
+          onKeyPress={(e) => e.key === 'Enter' && newTodo.trim() && openDetailModal()}
+          placeholder="Add a task..."
+          className={`flex-1 px-3 py-2 rounded-lg border text-sm focus:outline-none focus:ring-2 focus:ring-purple-500/50 ${theme.input}`}
+        />
         <button
           onClick={openDetailModal}
           className="px-4 py-2 rounded-lg font-medium text-sm transition-all bg-gradient-to-r from-purple-500 to-pink-500 text-white hover:shadow-lg hover:shadow-purple-500/30"
@@ -621,24 +623,24 @@ export function TodoWidget({ compact = false }: TodoWidgetProps) {
         )}
       </div>
 
-      {/* Detail Modal */}
+      {/* Detail Modal - Portal Animation over cards */}
       {showDetailModal && (
-        <div className="fixed inset-0 z-50 flex items-center justify-center p-4">
-          {/* Backdrop */}
+        <div className="absolute inset-0 z-50 flex items-center justify-center overflow-hidden rounded-2xl">
+          {/* Backdrop with vortex glow */}
           <div
-            className="absolute inset-0 bg-black/50 backdrop-blur-sm"
+            className="absolute inset-0 bg-black/70 backdrop-blur-sm portal-glow"
             onClick={() => setShowDetailModal(false)}
           />
 
-          {/* Modal */}
-          <div className={`relative w-full max-w-md rounded-2xl border shadow-2xl animate-scaleIn ${
-            isDark ? 'bg-[#1a1a2e] border-white/10' : 'bg-white border-slate-200'
+          {/* Modal with portal emerge animation */}
+          <div className={`relative w-[92%] rounded-2xl border shadow-2xl portal-emerge ${
+            isDark ? 'bg-[#1a1a2e] border-purple-500/30' : 'bg-white border-purple-200'
           }`}>
             {/* Header */}
-            <div className={`px-5 py-4 border-b flex items-center justify-between ${
+            <div className={`px-4 py-3 border-b flex items-center justify-between ${
               isDark ? 'border-white/10' : 'border-slate-200'
             }`}>
-              <h3 className={`font-bold text-lg ${theme.text}`}>New Task</h3>
+              <h3 className={`font-bold ${theme.text}`}>New Task</h3>
               <button
                 onClick={() => setShowDetailModal(false)}
                 className={`p-1.5 rounded-lg transition-all ${
@@ -651,11 +653,11 @@ export function TodoWidget({ compact = false }: TodoWidgetProps) {
               </button>
             </div>
 
-            {/* Form */}
-            <div className="p-5 space-y-4">
+            {/* Form - Compact */}
+            <div className="p-4 space-y-3">
               {/* Title */}
               <div>
-                <label className={`block text-sm font-medium mb-1.5 ${theme.textMuted}`}>
+                <label className={`block text-xs font-medium mb-1 ${theme.textMuted}`}>
                   Title <span className="text-red-500">*</span>
                 </label>
                 <input
@@ -664,67 +666,67 @@ export function TodoWidget({ compact = false }: TodoWidgetProps) {
                   onChange={(e) => setTaskForm(f => ({ ...f, title: e.target.value }))}
                   placeholder="What needs to be done?"
                   autoFocus
-                  className={`w-full px-3 py-2.5 rounded-xl border text-sm focus:outline-none focus:ring-2 focus:ring-purple-500/50 ${theme.input}`}
+                  className={`w-full px-3 py-2 rounded-lg border text-sm focus:outline-none focus:ring-2 focus:ring-purple-500/50 ${theme.input}`}
                 />
               </div>
 
               {/* Notes */}
               <div>
-                <label className={`block text-sm font-medium mb-1.5 ${theme.textMuted}`}>
+                <label className={`block text-xs font-medium mb-1 ${theme.textMuted}`}>
                   Notes
                 </label>
                 <textarea
                   value={taskForm.notes}
                   onChange={(e) => setTaskForm(f => ({ ...f, notes: e.target.value }))}
                   placeholder="Add details..."
-                  rows={3}
-                  className={`w-full px-3 py-2.5 rounded-xl border text-sm focus:outline-none focus:ring-2 focus:ring-purple-500/50 resize-none ${theme.input}`}
+                  rows={2}
+                  className={`w-full px-3 py-2 rounded-lg border text-sm focus:outline-none focus:ring-2 focus:ring-purple-500/50 resize-none ${theme.input}`}
                 />
               </div>
 
               {/* Due Date & Time */}
-              <div className="grid grid-cols-2 gap-3">
+              <div className="grid grid-cols-2 gap-2">
                 <div>
-                  <label className={`block text-sm font-medium mb-1.5 ${theme.textMuted}`}>
+                  <label className={`block text-xs font-medium mb-1 ${theme.textMuted}`}>
                     Due Date
                   </label>
                   <input
                     type="date"
                     value={taskForm.due_date}
                     onChange={(e) => setTaskForm(f => ({ ...f, due_date: e.target.value }))}
-                    className={`w-full px-3 py-2.5 rounded-xl border text-sm focus:outline-none focus:ring-2 focus:ring-purple-500/50 ${theme.input}`}
+                    className={`w-full px-2 py-1.5 rounded-lg border text-sm focus:outline-none focus:ring-2 focus:ring-purple-500/50 ${theme.input}`}
                   />
                 </div>
                 <div>
-                  <label className={`block text-sm font-medium mb-1.5 ${theme.textMuted}`}>
+                  <label className={`block text-xs font-medium mb-1 ${theme.textMuted}`}>
                     Time
                   </label>
                   <input
                     type="time"
                     value={taskForm.due_time}
                     onChange={(e) => setTaskForm(f => ({ ...f, due_time: e.target.value }))}
-                    className={`w-full px-3 py-2.5 rounded-xl border text-sm focus:outline-none focus:ring-2 focus:ring-purple-500/50 ${theme.input}`}
+                    className={`w-full px-2 py-1.5 rounded-lg border text-sm focus:outline-none focus:ring-2 focus:ring-purple-500/50 ${theme.input}`}
                   />
                 </div>
               </div>
 
               {/* Priority */}
               <div>
-                <label className={`block text-sm font-medium mb-1.5 ${theme.textMuted}`}>
+                <label className={`block text-xs font-medium mb-1 ${theme.textMuted}`}>
                   Priority
                 </label>
-                <div className="flex gap-2">
+                <div className="flex gap-1.5">
                   {[
                     { value: 0, label: 'None', color: 'slate' },
                     { value: 1, label: 'Low', color: 'blue' },
-                    { value: 2, label: 'Medium', color: 'amber' },
+                    { value: 2, label: 'Med', color: 'amber' },
                     { value: 3, label: 'High', color: 'red' },
                   ].map(({ value, label, color }) => (
                     <button
                       key={value}
                       type="button"
                       onClick={() => setTaskForm(f => ({ ...f, priority: value }))}
-                      className={`flex-1 py-2 rounded-lg text-sm font-medium transition-all border ${
+                      className={`flex-1 py-1.5 rounded-lg text-xs font-medium transition-all border ${
                         taskForm.priority === value
                           ? color === 'slate'
                             ? isDark ? 'bg-slate-500/30 border-slate-500 text-slate-300' : 'bg-slate-100 border-slate-400 text-slate-700'
@@ -746,12 +748,12 @@ export function TodoWidget({ compact = false }: TodoWidgetProps) {
             </div>
 
             {/* Footer */}
-            <div className={`px-5 py-4 border-t flex gap-3 ${
+            <div className={`px-4 py-3 border-t flex gap-2 ${
               isDark ? 'border-white/10' : 'border-slate-200'
             }`}>
               <button
                 onClick={() => setShowDetailModal(false)}
-                className={`flex-1 py-2.5 rounded-xl font-medium text-sm transition-all border ${
+                className={`flex-1 py-2 rounded-lg font-medium text-sm transition-all border ${
                   isDark
                     ? 'border-white/10 text-slate-400 hover:bg-white/5'
                     : 'border-slate-200 text-slate-600 hover:bg-slate-50'
@@ -762,13 +764,13 @@ export function TodoWidget({ compact = false }: TodoWidgetProps) {
               <button
                 onClick={addDetailedTask}
                 disabled={!taskForm.title.trim()}
-                className={`flex-1 py-2.5 rounded-xl font-medium text-sm transition-all ${
+                className={`flex-1 py-2 rounded-lg font-medium text-sm transition-all ${
                   taskForm.title.trim()
                     ? 'bg-gradient-to-r from-purple-500 to-pink-500 text-white hover:shadow-lg hover:shadow-purple-500/30'
                     : 'bg-gray-200 text-gray-400 cursor-not-allowed'
                 }`}
               >
-                Create Task
+                Create
               </button>
             </div>
           </div>
