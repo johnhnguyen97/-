@@ -2,21 +2,64 @@ import React, { useState } from 'react';
 import { useSpeechSynthesis } from '../../hooks/useSpeechSynthesis';
 import { useTheme } from '../../contexts/ThemeContext';
 import { Furigana } from '../common/Furigana';
+import { KanjiPopover } from '../common/KanjiPopover';
 import { FavoriteButton } from '../FavoriteButton';
 import { WordNoteButton } from '../WordNoteButton';
 import { getVerbGroupDisplayName } from '../../types/drill';
 import type { DrillSentence, DrillPrompt, ExampleSentence, DrillPracticeMode } from '../../types/drill';
 
 /**
+ * Checks if a character is a kanji (CJK Unified Ideographs)
+ */
+function isKanji(char: string): boolean {
+  const code = char.charCodeAt(0);
+  return (
+    (code >= 0x4e00 && code <= 0x9faf) || // CJK Unified Ideographs
+    (code >= 0x3400 && code <= 0x4dbf)    // CJK Unified Ideographs Extension A
+  );
+}
+
+/**
+ * Makes kanji in text interactive with dictionary popover
+ */
+function makeKanjiInteractive(text: string): React.ReactNode {
+  const elements: React.ReactNode[] = [];
+  let currentRun = '';
+
+  for (let i = 0; i < text.length; i++) {
+    const char = text[i];
+    if (isKanji(char)) {
+      if (currentRun) {
+        elements.push(<span key={`t-${i}`}>{currentRun}</span>);
+        currentRun = '';
+      }
+      elements.push(
+        <KanjiPopover key={`k-${i}`} character={char}>
+          {char}
+        </KanjiPopover>
+      );
+    } else {
+      currentRun += char;
+    }
+  }
+
+  if (currentRun) {
+    elements.push(<span key="t-end">{currentRun}</span>);
+  }
+
+  return <>{elements}</>;
+}
+
+/**
  * Highlights the target word in a sentence by underlining it
- * Searches for the dictionary form or any conjugated form of the word
+ * Also makes kanji interactive with dictionary popover
  */
 function highlightTargetWord(
   sentence: string,
   targetWord: string,
   isDark: boolean
 ): React.ReactNode {
-  if (!targetWord || !sentence) return sentence;
+  if (!targetWord || !sentence) return makeKanjiInteractive(sentence);
 
   // Get the verb stem (remove る for ichidan, last character for godan)
   const stem = targetWord.endsWith('る')
@@ -42,7 +85,7 @@ function highlightTargetWord(
     }
   }
 
-  if (matchIndex === -1) return sentence;
+  if (matchIndex === -1) return makeKanjiInteractive(sentence);
 
   const before = sentence.slice(0, matchIndex);
   const match = sentence.slice(matchIndex, matchIndex + matchLength);
@@ -54,9 +97,9 @@ function highlightTargetWord(
 
   return (
     <>
-      {before}
-      <span className={underlineStyle}>{match}</span>
-      {after}
+      {makeKanjiInteractive(before)}
+      <span className={underlineStyle}>{makeKanjiInteractive(match)}</span>
+      {makeKanjiInteractive(after)}
     </>
   );
 }
