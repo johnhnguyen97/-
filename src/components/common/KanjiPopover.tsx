@@ -45,12 +45,12 @@ export function KanjiPopover({ character, children }: KanjiPopoverProps) {
     }
   }, [isOpen, character, detail, session?.access_token]);
 
-  // Calculate position for portal
+  // Calculate position for portal (used for both mobile and desktop now)
   useEffect(() => {
-    if (isOpen && triggerRef.current && isMobile) {
+    if (isOpen && triggerRef.current) {
       const rect = triggerRef.current.getBoundingClientRect();
       const popoverWidth = 260;
-      const popoverHeight = 180;
+      const popoverHeight = 200;
 
       // Calculate left position (centered, but clamped to viewport)
       let left = rect.left + rect.width / 2 - popoverWidth / 2;
@@ -71,7 +71,7 @@ export function KanjiPopover({ character, children }: KanjiPopoverProps) {
 
       setPopoverPosition({ top, left });
     }
-  }, [isOpen, isMobile]);
+  }, [isOpen]);
 
   // Close on outside click
   useEffect(() => {
@@ -128,8 +128,8 @@ export function KanjiPopover({ character, children }: KanjiPopoverProps) {
   const popoverContent = (
     <div
       ref={popoverRef}
-      className={`${isMobile ? 'fixed' : 'absolute bottom-full mb-2 left-1/2 -translate-x-1/2'} z-[9999] min-w-[240px] max-w-[280px] rounded-2xl border backdrop-blur-xl ${theme.bg} ${theme.border} ${theme.shadow} animate-fadeInUp`}
-      style={isMobile ? { top: popoverPosition.top, left: popoverPosition.left } : undefined}
+      className={`fixed z-[9999] min-w-[240px] max-w-[280px] rounded-2xl border backdrop-blur-xl ${theme.bg} ${theme.border} ${theme.shadow} animate-fadeInUp`}
+      style={{ top: popoverPosition.top, left: popoverPosition.left }}
       onMouseEnter={() => {
         if (hoverTimeoutRef.current) clearTimeout(hoverTimeoutRef.current);
       }}
@@ -218,17 +218,15 @@ export function KanjiPopover({ character, children }: KanjiPopoverProps) {
         {children}
       </span>
 
-      {isOpen && (
-        isMobile
-          ? createPortal(
-              <>
-                {/* Backdrop */}
-                <div className="fixed inset-0 z-[9998] bg-black/30 backdrop-blur-sm" onClick={() => setIsOpen(false)} />
-                {popoverContent}
-              </>,
-              document.body
-            )
-          : popoverContent
+      {isOpen && createPortal(
+        <>
+          {/* Backdrop - only on mobile */}
+          {isMobile && (
+            <div className="fixed inset-0 z-[9998] bg-black/30 backdrop-blur-sm" onClick={() => setIsOpen(false)} />
+          )}
+          {popoverContent}
+        </>,
+        document.body
       )}
     </span>
   );
