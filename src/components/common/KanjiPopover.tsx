@@ -220,9 +220,9 @@ export function KanjiPopover({ character, children }: KanjiPopoverProps) {
 
       {isOpen && createPortal(
         <>
-          {/* Backdrop - only on mobile */}
+          {/* Backdrop - only on mobile, no blur */}
           {isMobile && (
-            <div className="fixed inset-0 z-[9998] bg-black/30 backdrop-blur-sm" onClick={() => setIsOpen(false)} />
+            <div className="fixed inset-0 z-[9998] bg-black/20" onClick={() => setIsOpen(false)} />
           )}
           {popoverContent}
         </>,
