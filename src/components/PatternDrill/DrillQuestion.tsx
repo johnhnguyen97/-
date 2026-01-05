@@ -214,29 +214,31 @@ export const DrillQuestionDisplay: React.FC<DrillQuestionDisplayProps> = ({
           </div>
 
           {/* Highlighted word */}
-          <div className={`relative mt-4 p-3 rounded-xl inline-block ${
-            isDark ? 'bg-amber-500/10 border border-amber-500/20' : 'bg-amber-50'
+          <div className={`relative mt-4 px-5 py-3 rounded-xl inline-block ${
+            isDark ? 'bg-amber-500/10 border border-amber-500/20' : 'bg-amber-50 border border-amber-200'
           }`}>
-            {/* Favorite & Note buttons */}
-            <div className={`absolute -top-5 -right-8 flex gap-0.5 z-20 p-1 rounded-lg shadow-sm border ${
-              isDark ? 'bg-gray-800 border-gray-700' : 'bg-white border-gray-200'
-            }`}>
-              <FavoriteButton
-                word={sentence.dictionary_form || sentence.japanese_base}
-                reading={sentence.reading || ''}
-                english={sentence.english}
-                partOfSpeech={sentence.word_type === 'verb' ? 'verb' : sentence.adjective_type || 'adjective'}
-              />
-              <WordNoteButton
-                word={sentence.dictionary_form || sentence.japanese_base}
-                reading={sentence.reading || ''}
-                english={sentence.english}
-                onPopupChange={setNotePopupOpen}
-              />
+            {/* Conjugate label with buttons inline */}
+            <div className="flex items-center justify-between gap-4 mb-1">
+              <span className={`text-sm ${isDark ? 'text-amber-400' : 'text-amber-600'}`}>
+                Conjugate this word:
+              </span>
+              <div className={`flex gap-0.5 p-0.5 rounded-lg ${
+                isDark ? 'bg-gray-800/50' : 'bg-white/80'
+              }`}>
+                <FavoriteButton
+                  word={sentence.dictionary_form || sentence.japanese_base}
+                  reading={sentence.reading || ''}
+                  english={sentence.english}
+                  partOfSpeech={sentence.word_type === 'verb' ? 'verb' : sentence.adjective_type || 'adjective'}
+                />
+                <WordNoteButton
+                  word={sentence.dictionary_form || sentence.japanese_base}
+                  reading={sentence.reading || ''}
+                  english={sentence.english}
+                  onPopupChange={setNotePopupOpen}
+                />
+              </div>
             </div>
-            <span className={`text-sm block mb-1 ${isDark ? 'text-amber-400' : 'text-amber-600'}`}>
-              Conjugate this word:
-            </span>
             <div className="flex items-center justify-center gap-2">
               {showFurigana && sentence.reading ? (
                 <Furigana
