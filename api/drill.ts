@@ -440,6 +440,40 @@ interface SRSCombination extends ValidCombination {
 }
 
 /**
+ * Balance combinations to ensure equal representation of each conjugation form
+ * This prevents one form (like polite present) from dominating the question pool
+ */
+function balanceCombinationsByForm(combinations: ValidCombination[]): ValidCombination[] {
+  if (combinations.length === 0) return combinations;
+
+  // Group combinations by form type
+  const byForm = new Map<string, ValidCombination[]>();
+  for (const combo of combinations) {
+    const form = combo.prompt.to_form;
+    if (!byForm.has(form)) {
+      byForm.set(form, []);
+    }
+    byForm.get(form)!.push(combo);
+  }
+
+  // Find the target count per form (use the median to avoid outliers)
+  const counts = Array.from(byForm.values()).map(arr => arr.length).sort((a, b) => a - b);
+  const medianCount = counts[Math.floor(counts.length / 2)];
+
+  // Balance each form to roughly equal representation
+  const balanced: ValidCombination[] = [];
+  for (const [form, combos] of byForm.entries()) {
+    const shuffled = shuffleArray(combos);
+    // Take up to median count, but don't remove forms entirely if they're underrepresented
+    const targetCount = Math.max(medianCount, Math.ceil(combos.length * 0.7));
+    balanced.push(...shuffled.slice(0, targetCount));
+  }
+
+  // Final shuffle to mix forms together
+  return shuffleArray(balanced);
+}
+
+/**
  * Calculate SRS priority for a verb-form combination
  * Higher = should be shown sooner
  */
@@ -489,7 +523,7 @@ function calculateSRSPriority(
 /**
  * Build valid verb-form combinations with intelligent randomization
  * - Weighted random verb selection (prioritizes common words)
- * - Random conjugation form selection within each phase
+ * - All conjugation forms within each phase (ensures equal representation)
  */
 function buildValidCombinations(
   verbs: Verb[],
@@ -506,12 +540,9 @@ function buildValidCombinations(
       // Get available conjugation forms for this phase
       const phaseForms = PHASE_FORMS[phase] || [];
 
-      // Randomly select 1-2 forms from this phase (adds variety)
-      const numForms = Math.random() < 0.7 ? 1 : 2; // 70% chance of 1 form, 30% chance of 2
-      const shuffledForms = shuffleArray(phaseForms);
-      const selectedForms = shuffledForms.slice(0, numForms);
-
-      for (const formKey of selectedForms) {
+      // Include ALL forms from this phase (not just 1-2)
+      // This ensures balanced representation when questions are selected
+      for (const formKey of phaseForms) {
         // Check if this verb has this conjugation
         if (verb.conjugations && verb.conjugations[formKey]) {
           // Create a synthetic prompt for this form with proper explanation
@@ -532,7 +563,8 @@ function buildValidCombinations(
     }
   }
 
-  return combinations;
+  // Balance combinations to ensure equal representation of each form type
+  return balanceCombinationsByForm(combinations);
 }
 
 /**
@@ -589,15 +621,19 @@ function buildSRSCombinations(
     }
   }
 
+  // Balance by form first (before SRS sorting)
+  // This ensures we have equal representation of each form type
+  const balancedByForm = balanceCombinationsByForm(combinations);
+
   // Sort by SRS priority (highest first) with some randomization
-  combinations.sort((a, b) => {
+  balancedByForm.sort((a, b) => {
     // Add randomness (±20% of priority) to prevent deterministic ordering
     const randomA = a.srsPriority * (0.8 + Math.random() * 0.4);
     const randomB = b.srsPriority * (0.8 + Math.random() * 0.4);
     return randomB - randomA;
   });
 
-  return combinations;
+  return balancedByForm;
 }
 
 /**
