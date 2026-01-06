@@ -202,7 +202,7 @@ export const DrillAnswer: React.FC<DrillAnswerProps> = ({
 
                   {/* Audio button */}
                   <button
-                    onClick={(e) => handleSpeak(e, option.text)}
+                    onClick={(e) => handleSpeak(e, option.reading || option.text)}
                     disabled={disabled}
                     className={`p-2.5 sm:p-3 rounded-xl transition-all flex-shrink-0 outline-none focus:outline-none focus:ring-0 ${
                       isPlaying
