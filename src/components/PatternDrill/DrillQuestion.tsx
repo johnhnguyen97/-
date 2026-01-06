@@ -253,7 +253,7 @@ export const DrillQuestionDisplay: React.FC<DrillQuestionDisplayProps> = ({
                   {sentence.japanese_base}
                 </span>
               )}
-              <AudioButton text={sentence.japanese_base} size="sm" />
+              <AudioButton text={sentence.reading || sentence.japanese_base} size="sm" />
             </div>
             <span className={`text-sm ${isDark ? 'text-amber-400' : 'text-amber-600'}`}>
               ({sentence.english})
@@ -305,7 +305,7 @@ export const DrillQuestionDisplay: React.FC<DrillQuestionDisplayProps> = ({
                   {sentence.japanese_base}
                 </span>
               )}
-              <AudioButton text={sentence.japanese_base} size="lg" />
+              <AudioButton text={sentence.reading || sentence.japanese_base} size="lg" />
             </div>
 
             {/* Romaji (shown separately if no furigana) */}

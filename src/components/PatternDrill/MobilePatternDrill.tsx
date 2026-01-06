@@ -501,9 +501,9 @@ export const MobilePatternDrill: React.FC<MobilePatternDrillProps> = ({ onClose 
                         </span>
                       )}
                       <button
-                        onClick={() => speak(currentQuestion.sentence.japanese_base)}
+                        onClick={() => speak(currentQuestion.sentence.reading || currentQuestion.sentence.japanese_base)}
                         className={`w-8 h-8 rounded-full flex items-center justify-center transition-all ${
-                          isSpeaking(currentQuestion.sentence.japanese_base)
+                          isSpeaking(currentQuestion.sentence.reading || currentQuestion.sentence.japanese_base)
                             ? 'bg-amber-500 text-white animate-pulse'
                             : isDark ? 'bg-amber-500/20 text-amber-300' : 'bg-amber-100 text-amber-600'
                         }`}
@@ -553,9 +553,9 @@ export const MobilePatternDrill: React.FC<MobilePatternDrillProps> = ({ onClose 
                         </span>
                       )}
                       <button
-                        onClick={() => speak(currentQuestion.sentence.japanese_base)}
+                        onClick={() => speak(currentQuestion.sentence.reading || currentQuestion.sentence.japanese_base)}
                         className={`w-10 h-10 rounded-full flex items-center justify-center transition-all ${
-                          isSpeaking(currentQuestion.sentence.japanese_base)
+                          isSpeaking(currentQuestion.sentence.reading || currentQuestion.sentence.japanese_base)
                             ? 'bg-amber-500 text-white animate-pulse'
                             : isDark ? 'bg-amber-500/20 text-amber-300' : 'bg-amber-100 text-amber-600'
                         }`}
