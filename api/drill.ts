@@ -474,6 +474,41 @@ function balanceCombinationsByForm(combinations: ValidCombination[]): ValidCombi
 }
 
 /**
+ * Balance combinations to ensure equal representation of each verb group
+ * This prevents one verb group (like godan) from dominating when there are more godan verbs in the DB
+ * Ensures users practice all conjugation patterns: godan, ichidan, irregular-suru, irregular-kuru
+ */
+function balanceCombinationsByVerbGroup(combinations: ValidCombination[]): ValidCombination[] {
+  if (combinations.length === 0) return combinations;
+
+  // Group combinations by verb group
+  const byGroup = new Map<string, ValidCombination[]>();
+  for (const combo of combinations) {
+    const group = combo.verb.verb_group;
+    if (!byGroup.has(group)) {
+      byGroup.set(group, []);
+    }
+    byGroup.get(group)!.push(combo);
+  }
+
+  // Find the target count per group (use the median to avoid outliers)
+  const counts = Array.from(byGroup.values()).map(arr => arr.length).sort((a, b) => a - b);
+  const medianCount = counts[Math.floor(counts.length / 2)];
+
+  // Balance each verb group to roughly equal representation
+  const balanced: ValidCombination[] = [];
+  for (const [group, combos] of byGroup.entries()) {
+    const shuffled = shuffleArray(combos);
+    // Take up to median count, ensuring good representation
+    const targetCount = Math.max(medianCount, Math.ceil(combos.length * 0.7));
+    balanced.push(...shuffled.slice(0, targetCount));
+  }
+
+  // Final shuffle to mix verb groups together
+  return shuffleArray(balanced);
+}
+
+/**
  * Calculate SRS priority for a verb-form combination
  * Higher = should be shown sooner
  */
@@ -563,8 +598,11 @@ function buildValidCombinations(
     }
   }
 
-  // Balance combinations to ensure equal representation of each form type
-  return balanceCombinationsByForm(combinations);
+  // Balance combinations:
+  // 1. First by verb group (godan, ichidan, irregular) to ensure practice across conjugation patterns
+  // 2. Then by form (masu, negative, past, etc.) to ensure variety within each session
+  const groupBalanced = balanceCombinationsByVerbGroup(combinations);
+  return balanceCombinationsByForm(groupBalanced);
 }
 
 /**
@@ -621,19 +659,21 @@ function buildSRSCombinations(
     }
   }
 
-  // Balance by form first (before SRS sorting)
-  // This ensures we have equal representation of each form type
-  const balancedByForm = balanceCombinationsByForm(combinations);
+  // Balance combinations (before SRS sorting):
+  // 1. First by verb group (godan, ichidan, irregular) to ensure practice across conjugation patterns
+  // 2. Then by form (masu, negative, past, etc.) to ensure variety within each session
+  const groupBalanced = balanceCombinationsByVerbGroup(combinations);
+  const formBalanced = balanceCombinationsByForm(groupBalanced);
 
   // Sort by SRS priority (highest first) with some randomization
-  balancedByForm.sort((a, b) => {
+  formBalanced.sort((a, b) => {
     // Add randomness (±20% of priority) to prevent deterministic ordering
     const randomA = a.srsPriority * (0.8 + Math.random() * 0.4);
     const randomB = b.srsPriority * (0.8 + Math.random() * 0.4);
     return randomB - randomA;
   });
 
-  return balancedByForm;
+  return formBalanced;
 }
 
 /**
