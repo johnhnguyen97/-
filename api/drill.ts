@@ -117,7 +117,7 @@ const VERB_GROUP_MAP: Record<string, string> = {
 // Phase to conjugation forms mapping - for random selection
 const PHASE_FORMS: Record<number, string[]> = {
   1: ['masu', 'masen', 'mashita', 'masen_deshita'],
-  2: ['dictionary', 'negative', 'past', 'past_negative'],
+  2: ['negative', 'past', 'past_negative'], // Removed 'dictionary' form
   3: ['te', 'potential'],
   4: ['tai', 'volitional'],
   5: ['potential', 'conditional_ba'],
