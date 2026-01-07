@@ -1,7 +1,7 @@
 /**
  * Gojun Grammar Engine - Core Conjugation Algorithm
  *
- * This is the SINGLE SOURCE OF TRUTH for all Japanese verb conjugations.
+ * This is the SINGLE SOURCE OF TRUTH for all Japanese verb and adjective conjugations.
  * AI and all games MUST validate against this algorithm.
  */
 
@@ -9,7 +9,8 @@ import type {
   VerbGroup,
   GodanEnding,
   ConjugationType,
-  ConjugationResult
+  ConjugationResult,
+  AdjectiveConjugationType,
 } from './types';
 
 // ============================================
@@ -342,6 +343,86 @@ function conjugateKuru(type: ConjugationType): string {
 
     default: return '来る';
   }
+}
+
+// ============================================
+// ADJECTIVE CONJUGATION
+// ============================================
+
+/**
+ * Conjugate an i-adjective (い-adjective)
+ * Rule: Remove い, add suffix
+ * Special case: いい conjugates as よい
+ */
+function conjugateIAdjective(dictionaryForm: string, type: AdjectiveConjugationType): string {
+  // Special handling for いい (good) - irregular
+  if (dictionaryForm === 'いい') {
+    switch (type) {
+      case 'present_positive': return 'いい';
+      case 'present_negative': return 'よくない';
+      case 'past_positive': return 'よかった';
+      case 'past_negative': return 'よくなかった';
+      case 'te_form': return 'よくて';
+      case 'adverb': return 'よく';
+      default: return 'いい';
+    }
+  }
+
+  // Regular i-adjectives
+  const stem = dictionaryForm.slice(0, -1); // Remove final い
+
+  switch (type) {
+    case 'present_positive': return dictionaryForm;
+    case 'present_negative': return stem + 'くない';
+    case 'past_positive': return stem + 'かった';
+    case 'past_negative': return stem + 'くなかった';
+    case 'te_form': return stem + 'くて';
+    case 'adverb': return stem + 'く';
+    default: return dictionaryForm;
+  }
+}
+
+/**
+ * Main adjective conjugation function
+ */
+export function conjugateAdjective(
+  dictionaryForm: string,
+  reading: string,
+  type: AdjectiveConjugationType
+): ConjugationResult {
+  const result = conjugateIAdjective(dictionaryForm, type);
+  const resultReading = conjugateIAdjective(reading, type);
+
+  return {
+    kanji: result,
+    reading: resultReading,
+    romaji: toRomaji(resultReading),
+  };
+}
+
+/**
+ * Generate ALL conjugations for an i-adjective
+ */
+export function generateAllAdjectiveConjugations(
+  dictionaryForm: string,
+  reading: string
+): Record<AdjectiveConjugationType, ConjugationResult> {
+  const types: AdjectiveConjugationType[] = [
+    'present_positive',
+    'present_negative',
+    'past_positive',
+    'past_negative',
+    'te_form',
+    'adverb',
+  ];
+
+  const result: Partial<Record<AdjectiveConjugationType, ConjugationResult>> = {};
+
+  for (const type of types) {
+    result[type] = conjugateAdjective(dictionaryForm, reading, type);
+  }
+
+  return result as Record<AdjectiveConjugationType, ConjugationResult>;
 }
 
 // ============================================

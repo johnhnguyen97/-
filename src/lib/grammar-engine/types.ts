@@ -82,13 +82,19 @@ export interface ConjugationResult {
 export type AdjectiveType = 'i-adjective' | 'na-adjective' | 'irregular';
 
 export type AdjectiveConjugationType =
-  | 'dictionary'        // 高い, 静か
-  | 'negative'          // 高くない, 静かじゃない
-  | 'past'              // 高かった, 静かだった
-  | 'past_negative'     // 高くなかった, 静かじゃなかった
-  | 'te'                // 高くて, 静かで
-  | 'adverb'            // 高く, 静かに
-  | 'noun_modifier'     // 高い (+ noun), 静かな (+ noun)
+  // い-adjective forms
+  | 'present_positive'  // 高い
+  | 'present_negative'  // 高くない
+  | 'past_positive'     // 高かった
+  | 'past_negative'     // 高くなかった
+  | 'te_form'           // 高くて
+  | 'adverb'            // 高く
+  // な-adjective forms
+  | 'na_present_positive'  // 静かだ / 静かです
+  | 'na_present_negative'  // 静かじゃない
+  | 'na_past_positive'     // 静かだった
+  | 'na_past_negative'     // 静かじゃなかった
+  | 'na_te_form'           // 静かで
   ;
 
 export interface Adjective {

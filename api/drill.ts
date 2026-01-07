@@ -21,6 +21,18 @@ interface Verb {
   conjugations: Record<string, ConjugationForm>;
 }
 
+interface Adjective {
+  id: string;
+  dictionary_form: string;
+  reading: string;
+  romaji: string;
+  meaning: string;
+  adjective_type: 'i_adjective' | 'na_adjective';
+  jlpt_level: string;
+  frequency: number; // 1-10, where 10 = most common daily use
+  conjugations: Record<string, ConjugationForm>;
+}
+
 interface UserVerbProgress {
   id: string;
   user_id: string;
@@ -62,8 +74,16 @@ interface MCOption {
 }
 
 interface ValidCombination {
-  verb: Verb;
+  verb?: Verb;
+  adjective?: Adjective;
   prompt: DrillPrompt;
+}
+
+interface SRSCombination extends ValidCombination {
+  isDue: boolean;
+  overdueBy: number;
+  isNew: boolean;
+  srsPriority: number;
 }
 
 // ============================================================================
@@ -114,7 +134,7 @@ const VERB_GROUP_MAP: Record<string, string> = {
   'irregular-kuru': 'group3',
 };
 
-// Phase to conjugation forms mapping - for random selection
+// Phase to conjugation forms mapping - for random selection (VERBS)
 const PHASE_FORMS: Record<number, string[]> = {
   1: ['masu', 'masen', 'mashita', 'masen_deshita'],
   2: ['negative', 'past', 'past_negative'], // Removed 'dictionary' form
@@ -124,6 +144,23 @@ const PHASE_FORMS: Record<number, string[]> = {
   6: ['conditional_ba', 'conditional_tara'],
   7: ['passive', 'causative'],
   8: ['imperative'],
+};
+
+// Adjective phase mapping (simpler - only 3 phases for i-adjectives)
+const ADJECTIVE_PHASE_FORMS: Record<number, string[]> = {
+  1: ['present_positive', 'present_negative'], // Basic forms
+  2: ['past_positive', 'past_negative'],       // Past tense
+  3: ['te_form', 'adverb'],                     // Connective and adverb
+};
+
+// Map adjective form names to grammar engine keys (mostly same)
+const ADJECTIVE_FORM_TO_GRAMMAR_ENGINE: Record<string, string> = {
+  'present_positive': 'present_positive',
+  'present_negative': 'present_negative',
+  'past_positive': 'past_positive',
+  'past_negative': 'past_negative',
+  'te_form': 'te_form',
+  'adverb': 'adverb',
 };
 
 // ============================================================================
@@ -390,6 +427,37 @@ function getConjugationExplanation(toForm: string, verbGroup: string): string {
   return formExplanations[verbGroup] || formExplanations['godan'] || defaultExplanation;
 }
 
+/**
+ * Get English description for adjective conjugation forms
+ */
+function getAdjectiveConjugationEnglish(toForm: string): string {
+  const formMap: Record<string, string> = {
+    'present_positive': 'present positive',
+    'present_negative': 'present negative',
+    'past_positive': 'past positive',
+    'past_negative': 'past negative',
+    'te_form': 'te-form',
+    'adverb': 'adverb form',
+  };
+  return formMap[toForm] || toForm;
+}
+
+/**
+ * Get detailed explanation for i-adjective conjugations
+ */
+function getAdjectiveConjugationExplanation(toForm: string): string {
+  const explanations: Record<string, string> = {
+    'present_positive': 'This is the dictionary form of the adjective.\nExample: 高い (takai) - expensive/high',
+    'present_negative': 'For i-adjectives: Remove い, add くない.\nExample: 高い → 高くない (not expensive)',
+    'past_positive': 'For i-adjectives: Remove い, add かった.\nExample: 高い → 高かった (was expensive)',
+    'past_negative': 'For i-adjectives: Remove い, add くなかった.\nExample: 高い → 高くなかった (was not expensive)',
+    'te_form': 'For i-adjectives: Remove い, add くて. Used to connect sentences.\nExample: 高い → 高くて (expensive and...)',
+    'adverb': 'For i-adjectives: Remove い, add く. Modifies verbs.\nExample: 高い → 高く (expensively, highly)',
+  };
+
+  return explanations[toForm] || `Change the adjective to the ${getAdjectiveConjugationEnglish(toForm)} form.`;
+}
+
 function generateMCOptions(
   correctAnswer: ConjugationForm,
   allConjugations: Record<string, ConjugationForm>,
@@ -606,6 +674,50 @@ function buildValidCombinations(
 }
 
 /**
+ * Build valid adjective-form combinations
+ * Similar to verbs but simpler (only 3 phases for i-adjectives)
+ */
+function buildValidAdjectiveCombinations(
+  adjectives: Adjective[],
+  phases: number[],
+  jlptLevel: string
+): ValidCombination[] {
+  const combinations: ValidCombination[] = [];
+
+  // Use weighted random selection for adjectives (prioritizes common daily words)
+  const selectedAdjectives = weightedShuffle(adjectives, jlptLevel);
+
+  for (const adjective of selectedAdjectives) {
+    for (const phase of phases) {
+      // Get available conjugation forms for this phase (adjective phases: 1-3 only)
+      const phaseForms = ADJECTIVE_PHASE_FORMS[phase] || [];
+
+      for (const formKey of phaseForms) {
+        // Check if this adjective has this conjugation
+        if (adjective.conjugations && adjective.conjugations[formKey]) {
+          // Create a synthetic prompt for this form
+          const prompt: DrillPrompt = {
+            id: `auto-adj-${phase}-${formKey}`,
+            from_form: 'present_positive',
+            to_form: formKey,
+            prompt_en: `Change to ${getAdjectiveConjugationEnglish(formKey)}`,
+            prompt_jp: `${getAdjectiveConjugationEnglish(formKey)}に変えてください`,
+            explanation: getAdjectiveConjugationExplanation(formKey),
+            word_type: 'adjective',
+            phase: phase as 1 | 2 | 3 | 4 | 5 | 6 | 7 | 8,
+          };
+
+          combinations.push({ adjective, prompt });
+        }
+      }
+    }
+  }
+
+  // Balance by form to ensure variety
+  return balanceCombinationsByForm(combinations);
+}
+
+/**
  * Build SRS-aware combinations with user progress data
  * Returns combinations sorted by review priority
  */
@@ -699,9 +811,24 @@ async function generateQuestionsFromCombinations(
       idx = 0;
     }
 
-    const { verb, prompt } = shuffled[idx];
+    const { verb, adjective, prompt } = shuffled[idx];
+
+    // Determine if this is a verb or adjective question
+    const isVerb = !!verb;
+    const word = isVerb ? verb : adjective;
+
+    if (!word) {
+      idx++;
+      continue;
+    }
+
     const grammarEngineKey = prompt.to_form; // Use the form key directly
-    const correctConjugation = verb.conjugations[grammarEngineKey];
+    const correctConjugation = word.conjugations[grammarEngineKey];
+
+    if (!correctConjugation) {
+      idx++;
+      continue;
+    }
 
     // Convert grammar engine format to drill format
     const correctAnswer = {
@@ -711,26 +838,32 @@ async function generateQuestionsFromCombinations(
     };
 
     // Build sentence object (compatible with existing frontend)
-    const sentence = {
-      id: verb.id,
-      japanese_base: verb.dictionary_form,
-      english: verb.meaning,
-      word_type: 'verb' as const,
-      verb_group: VERB_GROUP_MAP[verb.verb_group] || 'group1',
-      jlpt_level: verb.jlpt_level,
-      dictionary_form: verb.dictionary_form,
-      reading: verb.reading,
-      romaji: verb.romaji,
+    const sentence: any = {
+      id: word.id,
+      japanese_base: word.dictionary_form,
+      english: word.meaning,
+      word_type: isVerb ? ('verb' as const) : ('adjective' as const),
+      jlpt_level: word.jlpt_level,
+      dictionary_form: word.dictionary_form,
+      reading: word.reading,
+      romaji: word.romaji,
       // Convert conjugations to drill format
       conjugations: Object.fromEntries(
-        Object.entries(verb.conjugations).map(([key, val]) => [
+        Object.entries(word.conjugations).map(([key, val]) => [
           key,
           { japanese: val.kanji, reading: val.reading, romaji: val.romaji }
         ])
       ),
     };
 
-    const mcOptions = generateMCOptions(correctConjugation, verb.conjugations, grammarEngineKey, verb.dictionary_form);
+    // Add verb/adjective specific fields
+    if (isVerb) {
+      sentence.verb_group = VERB_GROUP_MAP[verb.verb_group] || 'group1';
+    } else {
+      sentence.adjective_type = adjective!.adjective_type;
+    }
+
+    const mcOptions = generateMCOptions(correctConjugation, word.conjugations, grammarEngineKey, word.dictionary_form);
 
     // Fetch example sentence for sentence mode
     let exampleSentence = undefined;
@@ -738,7 +871,7 @@ async function generateQuestionsFromCombinations(
       const { data: sentences } = await supabase
         .from('example_sentences')
         .select('*')
-        .eq('word_key', verb.dictionary_form)
+        .eq('word_key', word.dictionary_form)
         .limit(10);  // Get multiple sentences for variety
 
       if (sentences && sentences.length > 0) {
@@ -751,27 +884,40 @@ async function generateQuestionsFromCombinations(
           word_key: sent.word_key,
           word_reading: sent.word_reading,
           tatoeba_id: sent.tatoeba_id || 0,
-          jlpt_level: sent.jlpt_level || verb.jlpt_level,
+          jlpt_level: sent.jlpt_level || word.jlpt_level,
         };
       }
     }
 
-    questions.push({
+    // Build question object with appropriate metadata
+    const questionData: any = {
       sentence,
       prompt,
       correctAnswer,
       mcOptions,
       practiceMode,
       exampleSentence,
-      // Include verb info for grammar sidebar
-      verbInfo: {
+    };
+
+    // Include verb/adjective specific info for grammar sidebar
+    if (isVerb) {
+      questionData.verbInfo = {
         dictionary_form: verb.dictionary_form,
         reading: verb.reading,
         meaning: verb.meaning,
         verb_group: verb.verb_group,
         is_transitive: verb.is_transitive,
-      },
-    });
+      };
+    } else {
+      questionData.adjectiveInfo = {
+        dictionary_form: adjective!.dictionary_form,
+        reading: adjective!.reading,
+        meaning: adjective!.meaning,
+        adjective_type: adjective!.adjective_type,
+      };
+    }
+
+    questions.push(questionData);
 
     idx++;
   }
@@ -1049,37 +1195,54 @@ export default async function handler(req: VercelRequest, res: VercelResponse) {
     const wordTypeList = wordTypes.split(',');
     const questionCount = Math.min(parseInt(count, 10), 30);
 
-    // Only support verbs for now (grammar engine focus)
-    if (!wordTypeList.includes('verb')) {
+    // Fetch verbs and/or adjectives based on selected word types
+    let verbs: Verb[] = [];
+    let adjectives: Adjective[] = [];
+
+    // Fetch verbs if requested
+    if (wordTypeList.includes('verb')) {
+      const { data: verbData, error: verbError } = await supabase
+        .from('verbs')
+        .select('*')
+        .eq('jlpt_level', jlptLevel);
+
+      if (verbError) {
+        console.error('Verb fetch error:', verbError);
+        return res.status(500).json({ error: 'Failed to fetch verbs from grammar engine' });
+      }
+
+      verbs = (verbData as Verb[]) || [];
+    }
+
+    // Fetch adjectives if requested
+    if (wordTypeList.includes('adjective')) {
+      const { data: adjectiveData, error: adjectiveError } = await supabase
+        .from('adjectives')
+        .select('*')
+        .eq('jlpt_level', jlptLevel)
+        .eq('adjective_type', 'i_adjective'); // Only i-adjectives for now
+
+      if (adjectiveError) {
+        console.error('Adjective fetch error:', adjectiveError);
+        return res.status(500).json({ error: 'Failed to fetch adjectives from grammar engine' });
+      }
+
+      adjectives = (adjectiveData as Adjective[]) || [];
+    }
+
+    // Check if we have any data
+    if (verbs.length === 0 && adjectives.length === 0) {
       return res.status(200).json({
         questions: [],
-        message: 'Grammar engine currently only supports verbs'
+        message: `No ${wordTypeList.join(' or ')} found for ${jlptLevel}.`
       });
     }
 
-    // Fetch verbs from grammar engine's verbs table
-    const { data: verbs, error: verbError } = await supabase
-      .from('verbs')
-      .select('*')
-      .eq('jlpt_level', jlptLevel);
-
-    if (verbError) {
-      console.error('Verb fetch error:', verbError);
-      return res.status(500).json({ error: 'Failed to fetch verbs from grammar engine' });
-    }
-
-    if (!verbs || verbs.length === 0) {
-      return res.status(200).json({
-        questions: [],
-        message: `No verbs found for ${jlptLevel}. Grammar engine has 137 verbs across N5-N1.`
-      });
-    }
-
-    // Fetch user's verb progress for SRS if authenticated
+    // Fetch user's verb progress for SRS if authenticated (verbs only for now)
     let userProgress: UserVerbProgress[] = [];
     let usingSRS = false;
 
-    if (userId) {
+    if (userId && verbs.length > 0) {
       const verbIds = verbs.map(v => v.id);
       const { data: progressData, error: progressError } = await supabase
         .from('user_verb_progress')
@@ -1093,43 +1256,60 @@ export default async function handler(req: VercelRequest, res: VercelResponse) {
       }
     }
 
-    // Build combinations - use SRS-aware builder if user is authenticated
-    let validCombinations: ValidCombination[];
+    // Build combinations for each word type
+    let validCombinations: ValidCombination[] = [];
     let dueCount = 0;
     let newCount = 0;
 
-    if (usingSRS) {
-      // Use SRS-aware combination builder
-      const srsCombinations = buildSRSCombinations(
-        verbs as Verb[],
-        phaseList,
-        jlptLevel,
-        userProgress
-      );
+    // Build verb combinations
+    if (verbs.length > 0) {
+      let verbCombinations: ValidCombination[];
 
-      // Count due and new items
-      dueCount = srsCombinations.filter(c => c.isDue && !c.isNew).length;
-      newCount = srsCombinations.filter(c => c.isNew).length;
+      if (usingSRS) {
+        // Use SRS-aware combination builder for verbs
+        const srsCombinations = buildSRSCombinations(
+          verbs,
+          phaseList,
+          jlptLevel,
+          userProgress
+        );
 
-      // Filter based on SRS review mode
-      if (srsReviewMode === 'due_only') {
-        // Only show items that are due for review (not new)
-        validCombinations = srsCombinations.filter(c => c.isDue && !c.isNew);
-      } else if (srsReviewMode === 'new_only') {
-        // Only show new items (never reviewed)
-        validCombinations = srsCombinations.filter(c => c.isNew);
+        // Count due and new items
+        dueCount = srsCombinations.filter(c => c.isDue && !c.isNew).length;
+        newCount = srsCombinations.filter(c => c.isNew).length;
+
+        // Filter based on SRS review mode
+        if (srsReviewMode === 'due_only') {
+          verbCombinations = srsCombinations.filter(c => c.isDue && !c.isNew);
+        } else if (srsReviewMode === 'new_only') {
+          verbCombinations = srsCombinations.filter(c => c.isNew);
+        } else {
+          verbCombinations = srsCombinations;
+        }
       } else {
-        // Mixed mode - use all combinations (already sorted by priority)
-        validCombinations = srsCombinations;
+        // Fall back to weighted random selection for verbs
+        verbCombinations = buildValidCombinations(
+          verbs,
+          phaseList,
+          jlptLevel
+        );
       }
-    } else {
-      // Fall back to weighted random selection (no SRS data)
-      validCombinations = buildValidCombinations(
-        verbs as Verb[],
+
+      validCombinations.push(...verbCombinations);
+    }
+
+    // Build adjective combinations (no SRS support yet)
+    if (adjectives.length > 0) {
+      const adjectiveCombinations = buildValidAdjectiveCombinations(
+        adjectives,
         phaseList,
         jlptLevel
       );
+      validCombinations.push(...adjectiveCombinations);
     }
+
+    // Shuffle combined results to mix verbs and adjectives
+    validCombinations = shuffleArray(validCombinations);
 
     if (validCombinations.length === 0) {
       return res.status(200).json({
