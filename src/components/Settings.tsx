@@ -186,8 +186,10 @@ export function Settings({ onClose }: SettingsProps) {
   };
 
   const handleSignOut = async () => {
+    // Close modal immediately without animation for clean sign-out
+    setIsVisible(false);
+    onClose();
     await signOut();
-    handleClose();
   };
 
   // Keep for future Google Keep integration
